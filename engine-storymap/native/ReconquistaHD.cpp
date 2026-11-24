@@ -55,6 +55,7 @@ static uint64_t Fingerprint(Bitmap*b){static const bool crc=[]{int r[4];__cpuid(
  return tail^(uint64_t(l0)<<32|l1)^(uint64_t(l2)*0x9e3779b97f4a7c15ull);}
 #include "cg_keys.inc"
 #include "ui_keys.inc"
+static bool hdPack=false;   // the 4K pictures are installed (the release's 고화질 묶음: hires or hires-jxl beside the DLL)
 static bool cg4k=true,cgDesired=true,cgPending=false,cgApplyFailed=false;static unsigned cgRetries=0;static ULONGLONG cgRetryAt=0;static void QualityStatus();static int decoding=0;static uint64_t revisionClock=0;
 static bool IsCG(uint32_t key){return std::binary_search(std::begin(cgKeys),std::end(cgKeys),key)||std::binary_search(std::begin(uiKeys),std::end(uiKeys),key);}
 static bool perf=false;
@@ -92,6 +93,7 @@ static void Init(){if(initialized)return;initialized=true;CrashlogInstall();perf
  CoInitializeEx(nullptr,COINIT_MULTITHREADED);CoCreateInstance(CLSID_WICImagingFactory,nullptr,CLSCTX_INPROC_SERVER,IID_PPV_ARGS(&wic));
  wchar_t reviewPath[MAX_PATH];swprintf_s(reviewPath,L"%s\\review-unlock.enabled",root);reviewEnabled=GetFileAttributesW(reviewPath)!=INVALID_FILE_ATTRIBUTES;
  swprintf_s(path,L"%s\\cg-quality.ini",root);cg4k=GetPrivateProfileIntW(L"graphics",L"cg_4k",1,path)!=0;cgDesired=cg4k;
+ for(auto dir:{L"hires-jxl",L"hires"}){swprintf_s(path,L"%s\\%s\\*",root,dir);WIN32_FIND_DATAW fd{};HANDLE h=FindFirstFileW(path,&fd);if(h==INVALID_HANDLE_VALUE)continue;do{if(!(fd.dwFileAttributes&FILE_ATTRIBUTE_DIRECTORY)){hdPack=true;break;}}while(FindNextFileW(h,&fd));FindClose(h);if(hdPack)break;}
  if(logFile){fprintf(logFile,"Reconquista HD v1 logical=800x600 backing=3200x2400 dpi_aware=%d\n",IsProcessDPIAware());fflush(logFile);}}
 static Box Clip(Bitmap* b,Box r){int ex=std::min(b->w,r.x+std::max(0,r.w)),ey=std::min(b->h,r.y+std::max(0,r.h));r.x=std::max(0,r.x);r.y=std::max(0,r.y);r.w=std::max(0,ex-r.x);r.h=std::max(0,ey-r.y);return r;}
 static bool Valid(Bitmap* b){return b&&b->pixels&&b->w>0&&b->h>0&&b->w<=8192&&b->h<=8192&&b->pitch>0&&uint64_t(b->w)*b->h<16000000;}
@@ -299,7 +301,7 @@ static Bitmap* LoadCommon(LoadFn fn,const char* n){if(nesting)return fn(n);nesti
   // both qualities, so there is nothing to decode or copy again (a cached reload cost ~9 ms).
   if(Valid(b)){auto tag=assets.find(b);bool same=tag!=assets.end()&&Key(tag->second.name.c_str())==Key(n)&&tag->second.hash==fp;auto sh=same&&tag->second.hd?shadows.find(b):shadows.end();
    if(!Off(OFF_REUSE)&&sh!=shadows.end()&&(!IsCG(Key(n))||Off(OFF_ALT)||!sh->second->alternate.empty())){loaded=true;hLoadReuse++;sh->second->age=++tick;}else{if(!same)ForgetShadow(b);loaded=LoadHD(b,n,fp);}}
-  if(!loaded&&Valid(b)&&IsCG(Key(n))&&flowWarmStage!=2){cgApplyFailed=true;if(logFile){fprintf(logFile,"required_asset_failed key=%08x name=%s format=%d used=%llu\n",Key(n),n,b->format,used);fflush(logFile);}}if(Valid(b))assets[b]={n,fp,loaded};if(Valid(b)&&!b->format)PrefetchAfter(Key(n));}catch(const std::bad_alloc&){cgApplyFailed=true;if(logFile)fprintf(logFile,"asset allocation fallback\n");}nesting--;}return b;}
+  if(!loaded&&hdPack&&Valid(b)&&IsCG(Key(n))&&flowWarmStage!=2){cgApplyFailed=true;if(logFile){fprintf(logFile,"required_asset_failed key=%08x name=%s format=%d used=%llu\n",Key(n),n,b->format,used);fflush(logFile);}}if(Valid(b))assets[b]={n,fp,loaded};if(Valid(b)&&!b->format)PrefetchAfter(Key(n));}catch(const std::bad_alloc&){cgApplyFailed=true;if(logFile)fprintf(logFile,"asset allocation fallback\n");}nesting--;}return b;}
 static Bitmap* __cdecl Load(const char*n){return LoadCommon(oldLoad,n);}
 static Bitmap* __cdecl LoadDirect(const char*n){return LoadCommon(oldLoadDirect,n);}
 using FreeFn=int(__cdecl*)(Bitmap*,int);static FreeFn oldFree;
