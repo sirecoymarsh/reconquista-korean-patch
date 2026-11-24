@@ -382,9 +382,11 @@ static BOOL WINAPI ClipToGame(const RECT* r){HWND g=Game();if(!r||!g)return Clip
 // Legacy input callback 41b560 reads WM_MOUSEMOVE LPARAM directly at 41ba00.
 // It rejects physical coordinates >=800x600 before hit testing; convert at this consumer.
 static bool FCBlockInput(UINT);
+static bool ConsoleKey(UINT msg,WPARAM wp,LPARAM lp);   // below, after the VM variables
 using InputFn=int(__cdecl*)(HWND,UINT,WPARAM,LPARAM);static InputFn oldInput;
 static int __cdecl Input(HWND h,UINT msg,WPARAM wp,LPARAM lp){
  if(h==Game()&&FCBlockInput(msg))return 1;
+ if(h==Game()&&ConsoleKey(msg,wp,lp))return 1;
  if(h==Game()&&((msg>=WM_MOUSEMOVE&&msg<=WM_MBUTTONDBLCLK)||(msg>=WM_XBUTTONDOWN&&msg<=WM_XBUTTONDBLCLK))){
   auto v=Viewport(h);int x=(short)LOWORD(lp),y=(short)HIWORD(lp);
   ToLogical(v,x,y);
@@ -407,6 +409,18 @@ using VarFn=Variable*(__cdecl*)(Variable*,short*);using VarHashFn=Variable*(__cd
 static Variable* __cdecl VarFind(Variable*v,short*index){if(v&&v->scope==0){if(auto p=FCVar(v->hash,nullptr))return p;if(v->hash==flowFast.hash)return &flowFast;if(v->hash==flowMark.hash)return &flowMark;if(v->hash==configVisibleVar.hash)return &configVisibleVar;if(auto p=ReviewVar(v->hash))return p;if(auto p=ReviewChronicle(v->hash))return p;}return oldVarFind(v,index);}
 static Variable* __cdecl VarWrite(Variable*v,short*index){if(v&&v->scope==0){if(auto p=FCVar(v->hash,v))return p;if(v->hash==flowFast.hash){flowFast.value=v->value;flowWarmStage=v->value;return &flowFast;}if(v->hash==flowMark.hash){flowMark.value=v->value;flowArriveTick=GetTickCount64();if(v->value>0){SetWindowTextW(Game(),L"레콘키스타 · 검수용 재생 (F11: 이야기 지도)");if(forceStartupFullscreen){forceStartupFullscreen=false;PostMessageW(Game(),WM_KEYDOWN,VK_F4,0);}}if(logFile){fprintf(logFile,"flow_arrived=%d fast=%d\n",v->value,flowFast.value);fflush(logFile);}return &flowMark;}if(v->hash==configVisibleVar.hash){configVisibleVar.value=v->value;PostMessageW(Game(),WM_APP+81,0,0);return &configVisibleVar;}if(auto p=ReviewVar(v->hash))return p;}return oldVarWrite(v,index);}
 static Variable* __cdecl VarHash(uint32_t hash){if(auto p=FCVar(hash,nullptr))return p;if(hash==flowFast.hash)return &flowFast;if(hash==flowMark.hash)return &flowMark;if(hash==configVisibleVar.hash)return &configVisibleVar;if(auto p=ReviewVar(hash))return p;if(auto p=ReviewChronicle(hash))return p;return oldVarHash(hash);}
+static Variable* VarOf(uint32_t hash){return oldVarHash?oldVarHash(hash):nullptr;}   // a VM variable by its hash, the engine's own lookup
+// The text box's buttons by key (11-25, the user: 「플레이 창에서 단축키로 게임 조작 가능하게. 지금은 하단 커맨드들은
+// 마우스로만 작동해」): a key does what a click on that button does. console.mjo's $click@CONSOLE sets @ret (the button's
+// area id) and @is_select 1, which ends its pause loop's wait; set_pausebutton_menu sets @is_select 0 each time it waits, so
+// a key counts only while it does. Ids (areaevent_set): 0 저장 1 불러오기 2 자동 3 건너뛰기 5 지우기 6 기록 7 설정 8 퀵 저장
+// 9 퀵 로드 10 연표. M opens the story map, as F11.
+static void OpenFlowChart();
+static int ConsoleButtonFor(WPARAM vk){switch(vk){case 'Q':return 8;case 'W':return 9;case 'L':return 1;case 'A':return 2;case 'H':return 5;case VK_ESCAPE:return 7;}return -1;}
+static bool ConsoleKey(UINT msg,WPARAM wp,LPARAM lp){if(msg!=WM_KEYDOWN||(lp&(1L<<30)))return false;
+ if(wp=='M'){OpenFlowChart();return true;}
+ int id=ConsoleButtonFor(wp);if(id<0)return false;Variable*sel=VarOf(0x405ba90fu),*ret=VarOf(0xcaceeb7fu);if(!sel||!ret||sel->value!=0)return false;
+ ret->value=id;sel->value=1;if(logFile){fprintf(logFile,"console_key vk=%02x button=%d\n",unsigned(wp),id);fflush(logFile);}return true;}
 // The chronicle's scroll position (x $4d7f11ee max $704d8d29, y $b1fffe23 max $d95c0a13) set at once, any glide stopped.
 static bool ChroniclePosition(int*x,int*y,int*xmax,int*ymax){if(!oldVarHash)return false;Variable *vx=oldVarHash(0x4d7f11eeu),*vy=oldVarHash(0xb1fffe23u),*mx=oldVarHash(0x704d8d29u),*my=oldVarHash(0xd95c0a13u);
  if(!vx||!vy||!mx||!my)return false;if(x)*x=vx->value;if(y)*y=vy->value;if(xmax)*xmax=mx->value;if(ymax)*ymax=my->value;return true;}
