@@ -89,7 +89,7 @@ static ComPtr<ID2D1Bitmap> Load(const wchar_t*name){ComPtr<IWICBitmapDecoder> de
  if(FAILED(cv->Initialize(fr.Get(),GUID_WICPixelFormat32bppPBGRA,WICBitmapDitherTypeNone,nullptr,0,WICBitmapPaletteTypeMedianCut)))return nullptr;rt->CreateBitmapFromWicBitmap(cv.Get(),nullptr,&bm);return bm;}
 static ComPtr<IDWriteTextFormat> Format(const wchar_t*family,float size,DWRITE_TEXT_ALIGNMENT align=DWRITE_TEXT_ALIGNMENT_LEADING,DWRITE_FONT_WEIGHT weight=DWRITE_FONT_WEIGHT_NORMAL,bool system=false){ComPtr<IDWriteTextFormat> f;
  dwf->CreateTextFormat(family,system?nullptr:fonts.Get(),weight,DWRITE_FONT_STYLE_NORMAL,DWRITE_FONT_STRETCH_NORMAL,size,L"ko-kr",&f);if(f){f->SetTextAlignment(align);f->SetWordWrapping(DWRITE_WORD_WRAPPING_WRAP);}return f;}
-static IDWriteTextLayout* Text(const std::wstring&s,IDWriteTextFormat*f,float w,float h){std::wstring k=s+L"\x1f"+std::to_wstring((uintptr_t)f)+L"\x1f"+std::to_wstring(int(w*4));
+static IDWriteTextLayout* Text(const std::wstring&s,IDWriteTextFormat*f,float w,float h){std::wstring k=s+L"\x1f"+std::to_wstring((uintptr_t)f)+L"\x1f"+std::to_wstring(int(w*4))+L"\x1f"+std::to_wstring(int(h*4));   // the box too: a box of another height drew the cached one (11-25)
  auto it=layouts.find(k);if(it!=layouts.end())return it->second.Get();ComPtr<IDWriteTextLayout> l;dwf->CreateTextLayout(s.c_str(),UINT32(s.size()),f,w,h,&l);if(layouts.size()>6000)layouts.clear();return (layouts[k]=l).Get();}
 static bool Assets(){HRESULT hr;
  D2D1_FACTORY_OPTIONS o{};if(FAILED(hr=D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED,__uuidof(ID2D1Factory1),&o,(void**)fac.GetAddressOf())))return Fail("d2d_factory",hr);
@@ -111,7 +111,7 @@ static bool Assets(){HRESULT hr;
  const wchar_t*gameFont=L"Reconquista KR d00b8d76",*serif=L"Reconquista KR Serif d00b8d76";   // the 연표's own font (fontout_font 16 / 14)
  // the engine's GDI fonts (fontout_font 16,8 for cells and the description box, 14,7 for dates): a cell height of 16 / 14 in this
  // font is an em of 11.1 / 9.7, the width argument squeezes it across to 74.7% / 73.9% (measured on the game's 연표, 10-27)
- fCell=Format(gameFont,11.1f);fDate=Format(gameFont,9.7f);fDateNew=Format(gameFont,11.5f);fAlt=Format(gameFont,11.1f);fNewCell=Format(gameFont,13.f,DWRITE_TEXT_ALIGNMENT_CENTER);fPanelTitle=Format(serif,19.f);fPanelDesc=Format(gameFont,14.f);
+ fCell=Format(gameFont,11.1f);fDate=Format(gameFont,9.7f);fDateNew=Format(gameFont,11.5f);fAlt=Format(gameFont,11.1f);fNewCell=Format(gameFont,13.f,DWRITE_TEXT_ALIGNMENT_CENTER);fPanelTitle=Format(serif,19.f);fPanelDesc=Format(gameFont,14.f);for(auto*f:{fPanelTitle.Get(),fPanelDesc.Get()})if(f)f->SetWordWrapping(DWRITE_WORD_WRAPPING_WHOLE_WORD);   // 「되살/아남」: lines break between words
  fToast=Format(serif,17.f,DWRITE_TEXT_ALIGNMENT_CENTER);fBadge=Format(gameFont,9.f,DWRITE_TEXT_ALIGNMENT_CENTER,DWRITE_FONT_WEIGHT_BOLD);
  fSwitch=Format(L"Malgun Gothic",12.f,DWRITE_TEXT_ALIGNMENT_CENTER,DWRITE_FONT_WEIGHT_BOLD,true);   // as the DLL's buttons (맑은 고딕 12, bold as the old switch)
  if(fSwitch){fSwitch->SetParagraphAlignment(DWRITE_PARAGRAPH_ALIGNMENT_CENTER);fSwitch->SetWordWrapping(DWRITE_WORD_WRAPPING_NO_WRAP);}
@@ -173,12 +173,18 @@ struct PanelText{std::wstring title,desc;float bustW=0,bw=0;};   // bustW: the b
 static PanelText PanelOf(int r,int c){const Cell&x=tbl.At(r,c);PanelText p;if(!tbl.personHidden[c]&&busts[c]){auto sz=busts[c]->GetSize();p.bustW=(PH-8)*sz.width/sz.height;p.bw=p.bustW+8;}
  p.title=Joined(x.raw,7,L" ");if(!Open(x))p.title=L"아직 모르는 사건";if(!x.Event())p.title.clear();
  p.desc=Joined(x.altRaw,13,L"\n");if(!Open(x))p.desc.clear();if(Linked(x))p.desc+=(p.desc.empty()?L"":L"  ")+std::wstring(L"▶ 추가 이야기: Enter·클릭");return p;}
-static void DrawPanel(int r,int c){bool cursorLow=CellY(r)>BY+BH/2;float px=std::clamp(CellX(c)+COL/2-PW/2,BX+4,BX+BW-PW-4),py=cursorLow?BY+HH+6:BY+BH-PH-6;auto p=PanelOf(r,c);
- Fill(px,py,PW,PH,Rgb(18,6,10,.95f));Box(px,py,PW,PH,Rgb(176,150,140));Box(px+3,py+3,PW-6,PH-6,Rgb(88,30,40));
- if(p.bustW>0){Pic(busts[c].Get(),px+PW-p.bustW-4,py+4,p.bustW,PH-8);Fill(px+PW-p.bustW-4,py+4,1,PH-8,Rgb(88,30,40));}
+// The panel's texts as tall as their lines: the description under the title, the panel taller than PH when both need it
+// (11-25: a two-line title was cut at a fixed 48 and the description sat at a fixed 54). Their layouts are unbounded (FREE).
+static const float FREE=10000;
+static float Tall(const std::wstring&s,IDWriteTextFormat*f,float w){if(s.empty()||!f)return 0;auto l=Text(s,f,w,FREE);DWRITE_TEXT_METRICS m{};return l&&SUCCEEDED(l->GetMetrics(&m))?m.height:0;}
+struct PanelPlace{float tw,dw,dy,ph;};
+static PanelPlace Place(const PanelText&p){PanelPlace b{PW-134-p.bw,PW-28-p.bw,54,PH};b.dy=std::max(54.f,12+Tall(p.title,fPanelTitle.Get(),b.tw)+4);b.ph=std::max(PH,b.dy+Tall(p.desc,fPanelDesc.Get(),b.dw)+8);return b;}
+static void DrawPanel(int r,int c){auto p=PanelOf(r,c);auto b=Place(p);float ph=b.ph;bool cursorLow=CellY(r)>BY+BH/2;float px=std::clamp(CellX(c)+COL/2-PW/2,BX+4,BX+BW-PW-4),py=cursorLow?BY+HH+6:BY+BH-ph-6;
+ Fill(px,py,PW,ph,Rgb(18,6,10,.95f));Box(px,py,PW,ph,Rgb(176,150,140));Box(px+3,py+3,PW-6,ph-6,Rgb(88,30,40));
+ if(p.bustW>0){Pic(busts[c].Get(),px+PW-p.bustW-4,py+4,p.bustW,PH-8);Fill(px+PW-p.bustW-4,py+4,1,ph-8,Rgb(88,30,40));}
  Pic(tbl.personHidden[c]?plateQ.Get():plates[c].Get(),px+10,py+10,131*.8f,43*.8f);
- Say(p.title,fPanelTitle.Get(),px+124,py+12,PW-134-p.bw,48,Rgb(240,230,218));
- Say(p.desc,fPanelDesc.Get(),px+14,py+54,PW-28-p.bw,PH-58,Rgb(196,180,172));}
+ Say(p.title,fPanelTitle.Get(),px+124,py+12,b.tw,FREE,Rgb(240,230,218));
+ Say(p.desc,fPanelDesc.Get(),px+14,py+b.dy,b.dw,FREE,Rgb(196,180,172));}
 static void DrawCellNew(int r,int c,float x,float y,float h){const Cell&e=tbl.At(r,c);if(h<6)return;   // row 0: the header's edge (2 high), nothing of its own here
  if(!e.Event()){Fill(x+2,y+2,COL-4,h-4,Rgb(46,46,50,.9f));return;}   // 「빈칸을 회색으로」
  if(!Open(e)){Pic(hiddenArt.Get(),x+2,y+2,COL-4,h-4,0,0,COL-4,std::min(h-4,337.f));Say(L"?",fToast.Get(),x,y+h/2-12,COL,24,Rgb(120,110,108));Box(x+2,y+2,COL-4,h-4,Rgb(70,60,60));return;}
@@ -334,7 +340,7 @@ static void Warm(){double w0=Now2();float s0=sx,t0=sy;size_t n=0;for(int look=0;
  if(tbl.ok){classic=false;bool keys=byKeys;int r0=crow,c0=ccol;for(int c=0;c<12;c++){for(int r=2;r<tbl.rows;r++)if(tbl.At(r,c).Event()){crow=r;ccol=c;byKeys=true;sx=COL*float(c);sy=float(tbl.top[size_t(r)]);Render();n++;break;}}
   crow=r0;ccol=c0;byKeys=keys;}
  // and what only shows under the cursor: the panel's text (새 모양) and the description box's lines (원래 모양)
- size_t lay=0;for(int r=1;r<tbl.rows&&tbl.ok;r++)for(int c=0;c<12;c++){const Cell&e=tbl.At(r,c);if(!e.Event())continue;auto p=PanelOf(r,c);Text(p.title,fPanelTitle.Get(),PW-134-p.bw,48);Text(p.desc,fPanelDesc.Get(),PW-28-p.bw,PH-58);
+ size_t lay=0;for(int r=1;r<tbl.rows&&tbl.ok;r++)for(int c=0;c<12;c++){const Cell&e=tbl.At(r,c);if(!e.Event())continue;Place(PanelOf(r,c));
   for(auto&l:e.altRaw)Text(l,fAlt.Get(),4000,400);lay++;}
  ReadLook();sx=s0;sy=t0;drawMs.clear();buildMs.clear();gapMs.clear();lastFrame=0;if(logFile){fprintf(logFile,"chron_proto warm frames=%zu cells=%zu ms=%.1f\n",n,lay,Now2()-w0);fflush(logFile);}}
 static void Interactive(HWND gw){bool vis=false;double last=Now2(),shownAt=0,frameMs=1000.0/60;size_t moving=0,movingMissed=0,slept=0;View at{};bool warmed=false;
