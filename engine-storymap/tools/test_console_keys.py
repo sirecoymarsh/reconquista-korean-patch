@@ -147,7 +147,14 @@ try:
     g.key(g.hwnd, VK['A'])
     g.until(lambda: g.count('console_key ') > n, 10, 'key A')
     result['steps'].append({'key': 'A', 'log': g.log().split('console_key ')[-1].split('\n')[0]})
-    time.sleep(6)
+    time.sleep(2)
+    capture('auto')
+    for _ in range(2):                                    # A while auto runs: the rate (auto_rate.inc)
+        g.key(g.hwnd, VK['A'])
+        time.sleep(.3)
+    time.sleep(3)
+    capture('auto-x3')
+    result['auto'] = [l for l in g.log().splitlines() if l.startswith(('auto_rate', 'auto_wait'))][-8:]
     assert g.poll() is None, 'game ended in auto'
     g.logical_click(g.hwnd, 485, 302)
     time.sleep(2)

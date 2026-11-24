@@ -39,5 +39,6 @@ static bool ScaledPresent(HDC dc,int x,int y,int w,int h,int sx,int sy,int sw,in
  c.source=s;c.revision=s->revision;c.w=w;c.h=h;c.info.bmiHeader={sizeof(BITMAPINFOHEADER),w,-h,1,24,BI_RGB,DWORD(c.pixels.size()),0,0,0,0};s->dirty={};
  if(perf&&logFile){fprintf(logFile,"perf_scale full=%d dirty=%d,%d,%d,%d ms=%.3f revision=%llu\n",full,area.X,area.Y,area.Width,area.Height,Ms(t),c.revision);fflush(logFile);}
  }
- SetStretchBltMode(dc,COLORONCOLOR);*result=StretchDIBits(dc,x,y,w,h,0,0,w,h,c.pixels.data(),&c.info,usage,rop);return true;
+ AutoSignDraw(c.pixels.data(),(w*3+3)&~3,w,h);   // 「자동 진행 ×N」 over the game's sign, taken off again after (auto_rate.inc)
+ SetStretchBltMode(dc,COLORONCOLOR);*result=StretchDIBits(dc,x,y,w,h,0,0,w,h,c.pixels.data(),&c.info,usage,rop);AutoSignRestore(c.pixels.data());return true;
 }

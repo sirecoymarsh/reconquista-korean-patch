@@ -25,6 +25,7 @@ static const unsigned char expected23[]={0x8b,0x44,0x24,0x5c,0x85,0xc0};        
 static const unsigned char expected24[]={0x51,0x8b,0x4c,0x24,0x08};                           // 0x4147e0 cached glyph to the line
 static const unsigned char expected25[]={0x53,0x8b,0x5c,0x24,0x08};                           // 0x440840 line onto the page
 static const unsigned char expected26[]={0x53,0x8b,0x5c,0x24,0x0c};                           // 0x4146e0 glyph into the engine's cache
+static const unsigned char expected27[]={0xa1,0xc8,0x6a,0x56,0x00};                           // 0x432350 $get_autospeed (auto_rate.inc)
 static Hook hooks[]={
 {0x417950,6,expected0,(void*)Load,(void**)&oldLoad},
 {0x43afb0,5,expected1,(void*)Free,(void**)&oldFree},
@@ -53,4 +54,5 @@ static Hook hooks[]={
 {0x4147e0,5,expected24,(void*)GlyphPlace,(void**)&oldGlyphPlace},
 {0x440840,5,expected25,(void*)LineBlend,(void**)&oldLineBlend},
 {0x4146e0,5,expected26,(void*)GlyphStore,(void**)&oldGlyphStore},
+{0x432350,5,expected27,(void*)AutoSpeedGet,nullptr},
 };
