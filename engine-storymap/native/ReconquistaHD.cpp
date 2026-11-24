@@ -473,7 +473,7 @@ static void DrawReviewButton(const DRAWITEMSTRUCT* di){
 }
 #include "quality.inc"
 #include "storymap_button.inc"
-static void CALLBACK ReviewButtonTimer(HWND,UINT,UINT_PTR,DWORD){SyncReviewButton();SyncQualityButton();SyncStoryMapButton();cproto::Tick();}
+static void CALLBACK ReviewButtonTimer(HWND,UINT,UINT_PTR,DWORD){SyncReviewButton();SyncQualityButton();SyncStoryMapButton();cproto::Tick();FCWarmStart();}
 
 static void CALLBACK ProbeTimer(HWND,UINT,UINT_PTR,DWORD);
 static RECT lastModeRect{},lastMonitorRect{};static HMONITOR lastModeMonitor=nullptr;

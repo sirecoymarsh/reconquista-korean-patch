@@ -144,7 +144,10 @@ static void FCSound(const char*name,bool hover=false){auto stat=(FCSeStatFn)0x44
 static View fcView{};static float fcK=1;   // 4:3 game area inside the child window; physical px per game px
 struct FCImage {HBITMAP bmp=nullptr;void*bits=nullptr;int w=0,h=0;};
 // perf: where a map render's time goes (logged with inflow render)
-static double fcMsBlend=0,fcMsDim=0,fcMsText=0,fcMsWrap=0,fcMsTile=0,fcMsArt=0;struct FCTimer{double&d;LONGLONG t;FCTimer(double&x):d(x),t(Now()){}~FCTimer(){d+=Ms(t);}};
+static thread_local double fcMsBlend=0,fcMsDim=0,fcMsText=0,fcMsWrap=0,fcMsTile=0,fcMsArt=0;struct FCTimer{double&d;LONGLONG t;FCTimer(double&x):d(x),t(Now()){}~FCTimer(){d+=Ms(t);}};
+// The map's drawing state (art and font caches, fcView/fcK, fcDraw) is used by the window's thread and, once at the title, by
+// the warm-up thread (FCWarm); fcLock holds it for either.
+static std::recursive_mutex fcLock;
 static FCImage FCDib(int w,int h){FCImage r;BITMAPINFO bi{};bi.bmiHeader={sizeof(BITMAPINFOHEADER),w,-h,1,32,BI_RGB,0,0,0,0,0};r.bmp=CreateDIBSection(nullptr,&bi,DIB_RGB_COLORS,&r.bits,nullptr,0);if(r.bmp){r.w=w;r.h=h;}return r;}
 static void FCFree(FCImage&i){if(i.bmp)DeleteObject(i.bmp);i=FCImage{};}
 // Decoded once at native size (premultiplied BGRA), scaled copies cached per screen size.
@@ -196,17 +199,18 @@ static int PX(float x){return fcView.x+int(floor(x*fcK+.5f));}static int PY(floa
 static RECT PR(float x0,float y0,float x1,float y1){return {PX(x0),PY(y0),PX(x1),PY(y1)};}
 static float LX(int x){return (x-fcView.x)/fcK;}static float LY(int y){return (y-fcView.y)/fcK;}
 static int fcFontsAdded=0;static std::unordered_map<int,HFONT> fcFonts;
-static HFONT FCFont(bool serif,float px){if(!fcFontsAdded){fcFontsAdded=1;wchar_t p[MAX_PATH];swprintf_s(p,L"%s\\font\\ReconquistaKRSerif.otf",root);AddFontResourceExW(p,FR_PRIVATE,nullptr);swprintf_s(p,L"%s\\font\\ReconquistaKR.otf",root);AddFontResourceExW(p,FR_PRIVATE,nullptr);}
+static HFONT FCFont(bool serif,float px){std::lock_guard<std::recursive_mutex> lock(fcLock);if(!fcFontsAdded){fcFontsAdded=1;wchar_t p[MAX_PATH];swprintf_s(p,L"%s\\font\\ReconquistaKRSerif.otf",root);AddFontResourceExW(p,FR_PRIVATE,nullptr);swprintf_s(p,L"%s\\font\\ReconquistaKR.otf",root);AddFontResourceExW(p,FR_PRIVATE,nullptr);}
  int h=std::max(6,int(px*fcK+.5f));int key=(serif?1<<20:0)|h;auto it=fcFonts.find(key);if(it!=fcFonts.end())return it->second;HFONT f=CreateFontW(-h,0,0,0,FW_NORMAL,FALSE,FALSE,FALSE,DEFAULT_CHARSET,OUT_TT_PRECIS,CLIP_DEFAULT_PRECIS,ANTIALIASED_QUALITY,DEFAULT_PITCH,serif?L"Reconquista KR Serif d00b8d76":L"Reconquista KR d00b8d76");fcFonts[key]=f;return f;}
 static void FCClearFonts(){for(auto&f:fcFonts)DeleteObject(f.second);fcFonts.clear();}
 static const COLORREF FC_WHITE=RGB(238,234,228),FC_DIM=RGB(156,156,164),FC_UNREAD=RGB(192,190,198),FC_PROMPT=RGB(236,202,176),FC_NAME=RGB(226,192,142),FC_LINE=RGB(118,116,124),FC_LEAF=RGB(244,150,52);
 // anchor: 0 left/middle, 1 centre/middle, 2 right/middle
 static int FCText(HDC dc,const std::wstring&t,float x,float y,bool serif,float px,COLORREF color,int anchor=0,bool shadow=true,float maxw=0){FCTimer ft(fcMsText);if(t.empty())return 0;auto old=SelectObject(dc,FCFont(serif,px));SetBkMode(dc,TRANSPARENT);SIZE sz{};GetTextExtentPoint32W(dc,t.c_str(),int(t.size()),&sz);int X=PX(x),Y=PY(y)-sz.cy/2;if(anchor==1)X-=sz.cx/2;else if(anchor==2)X-=sz.cx;
  RECT r{X,Y,X+sz.cx+2,Y+sz.cy+2};UINT flags=DT_SINGLELINE|DT_NOPREFIX|DT_TOP|DT_LEFT;if(maxw>0&&sz.cx>int(maxw*fcK)){r.right=X+int(maxw*fcK);flags|=DT_END_ELLIPSIS;}
- int sh=std::max(1,int(fcK*.9f));if(shadow){RECT s=r;OffsetRect(&s,sh,sh);SetTextColor(dc,RGB(0,0,0));DrawTextW(dc,t.c_str(),int(t.size()),&s,flags);}SetTextColor(dc,color);DrawTextW(dc,t.c_str(),int(t.size()),&r,flags);SelectObject(dc,old);return sz.cx;}
+ int sh=std::max(1,int(fcK*.9f));RECT both=r;both.right+=sh;both.bottom+=sh;if(!RectVisible(dc,&both)){SelectObject(dc,old);return sz.cx;}   // wholly clipped away (a partial paint): nothing to draw
+ if(shadow){RECT s=r;OffsetRect(&s,sh,sh);SetTextColor(dc,RGB(0,0,0));DrawTextW(dc,t.c_str(),int(t.size()),&s,flags);}SetTextColor(dc,color);DrawTextW(dc,t.c_str(),int(t.size()),&r,flags);SelectObject(dc,old);return sz.cx;}
 static float FCTextW(HDC dc,const std::wstring&t,bool serif,float px){auto old=SelectObject(dc,FCFont(serif,px));SIZE sz{};GetTextExtentPoint32W(dc,t.c_str(),int(t.size()),&sz);SelectObject(dc,old);return sz.cx/fcK;}
 static int FCWrapHeight(HDC dc,const std::wstring&t,float w,float px){auto old=SelectObject(dc,FCFont(false,px));RECT r{0,0,int(w*fcK),0};DrawTextW(dc,t.c_str(),int(t.size()),&r,DT_CALCRECT|DT_WORDBREAK|DT_NOPREFIX|DT_EDITCONTROL);SelectObject(dc,old);return r.bottom;}
-static void FCWrap(HDC dc,const std::wstring&t,float x,float y,float w,float px,COLORREF c,int maxLines=0){FCTimer ft(fcMsWrap);auto old=SelectObject(dc,FCFont(false,px));SetBkMode(dc,TRANSPARENT);RECT r{PX(x),PY(y),PX(x+w),PY(y)+30000};if(maxLines){TEXTMETRICW tm{};GetTextMetricsW(dc,&tm);r.bottom=r.top+tm.tmHeight*maxLines;}UINT f=DT_WORDBREAK|DT_NOPREFIX|DT_EDITCONTROL|(maxLines?DT_END_ELLIPSIS:0);RECT s=r;int sh=std::max(1,int(fcK*.9f));OffsetRect(&s,sh,sh);SetTextColor(dc,RGB(0,0,0));DrawTextW(dc,t.c_str(),int(t.size()),&s,f);SetTextColor(dc,c);DrawTextW(dc,t.c_str(),int(t.size()),&r,f);SelectObject(dc,old);}
+static void FCWrap(HDC dc,const std::wstring&t,float x,float y,float w,float px,COLORREF c,int maxLines=0){FCTimer ft(fcMsWrap);auto old=SelectObject(dc,FCFont(false,px));SetBkMode(dc,TRANSPARENT);RECT r{PX(x),PY(y),PX(x+w),PY(y)+30000};if(maxLines){TEXTMETRICW tm{};GetTextMetricsW(dc,&tm);r.bottom=r.top+tm.tmHeight*maxLines;}UINT f=DT_WORDBREAK|DT_NOPREFIX|DT_EDITCONTROL|(maxLines?DT_END_ELLIPSIS:0);{RECT both=r;both.right+=int(fcK)+1;both.bottom+=int(fcK)+1;if(!RectVisible(dc,&both)){SelectObject(dc,old);return;}}RECT s=r;int sh=std::max(1,int(fcK*.9f));OffsetRect(&s,sh,sh);SetTextColor(dc,RGB(0,0,0));DrawTextW(dc,t.c_str(),int(t.size()),&s,f);SetTextColor(dc,c);DrawTextW(dc,t.c_str(),int(t.size()),&r,f);SelectObject(dc,old);}
 static void FCFill(HDC dc,RECT r,COLORREF c){auto b=CreateSolidBrush(c);FillRect(dc,&r,b);DeleteObject(b);}
 static void FCFrameRect(HDC dc,RECT r,COLORREF c,int width=1){auto b=CreateSolidBrush(c);for(int i=0;i<width;i++){FrameRect(dc,&r,b);InflateRect(&r,-1,-1);}DeleteObject(b);}
 static void FCDim(HDC dc,RECT r,BYTE alpha){FCTimer ft(fcMsDim);if(FCClip(dc,r)){if(IsRectEmpty(&r))return;auto*t=fcDraw;unsigned k=255u-alpha;
@@ -246,22 +250,22 @@ static void DrawCell(HDC dc,int i){auto&c=fcChapters[i];RECT r=PR(c.x0,c.y0,c.x1
  float rx=c.x1-6;if(c.views){rx-=13+(c.views>1?6:0);FCViewIcon(dc,rx,mid-3.2f,c.views);rx-=4;}if(c.choices){rx-=12+(c.choices>1?2.5f+FCTextW(dc,std::to_wstring(c.choices),false,9):0);FCChoiceIcon(dc,rx,mid-2.5f,c.choices);rx-=4;}
  if(fcHere>=0&&fcNodes[fcHere].chapter==i){FCLeaf(dc,rx-17,mid-8,15);FCText(dc,L"지금",rx-19,mid,false,10,FC_LEAF,2);}
  FCFrameRect(dc,r,FC_LINE);}
-static void DrawMap(HDC dc){auto f=FCScaled(L"frame.png",fcView.w,fcView.h);if(f)FCBlend(dc,f,fcView.x,fcView.y);
+static void DrawMap(HDC dc,int page){auto f=FCScaled(L"frame.png",fcView.w,fcView.h);if(f)FCBlend(dc,f,fcView.x,fcView.y);
  FCText(dc,L"이야기 지도",225,44,true,21,FC_WHITE,1);static const wchar_t* plates[4]={nullptr,L"대사 찾기",L"지금 자리로",L"닫기"};float px[4]={445,576,576,693},py[4]={35,20.5f,48.5f,35},ps[4]={14,12,12,13};
- for(int k=0;k<4;k++){std::wstring t=k?plates[k]:(fcPage?L"본편으로":L"최종편으로");if(k==2&&fcReplay)t=L"다시보기 끝내기";FCText(dc,t,px[k],py[k],true,ps[k],k==fcHotPlate?RGB(255,236,200):FC_WHITE,1);}
+ for(int k=0;k<4;k++){std::wstring t=k?plates[k]:(page?L"본편으로":L"최종편으로");if(k==2&&fcReplay)t=L"다시보기 끝내기";FCText(dc,t,px[k],py[k],true,ps[k],k==fcHotPlate?RGB(255,236,200):FC_WHITE,1);}
  FCText(dc,L"갈래",70,79,true,11,FC_WHITE,1);FCText(dc,L"날짜",46,105,true,11,FC_WHITE,1);
  // kind 6 is the lane's thread: cells cover it, so its dots show only on days the lane has no chapter
- for(auto&d:fcDecos)if(d.page==fcPage&&d.kind==0)FCFill(dc,PR(d.x0,d.y0,d.x1,d.y1),FC_LINE);else if(d.page==fcPage&&d.kind==6){float cx=(d.x0+d.x1)/2;for(float y=d.y0+1;y+1<=d.y1;y+=3.5f)FCFill(dc,PR(cx-.5f,y,cx+.5f,y+1),d.color);}
- for(int i=0;i<int(fcChapters.size());i++)if(fcChapters[i].page==fcPage)DrawCell(dc,i);
+ for(auto&d:fcDecos)if(d.page==page&&d.kind==0)FCFill(dc,PR(d.x0,d.y0,d.x1,d.y1),FC_LINE);else if(d.page==page&&d.kind==6){float cx=(d.x0+d.x1)/2;for(float y=d.y0+1;y+1<=d.y1;y+=3.5f)FCFill(dc,PR(cx-.5f,y,cx+.5f,y+1),d.color);}
+ for(int i=0;i<int(fcChapters.size());i++)if(fcChapters[i].page==page)DrawCell(dc,i);
  auto navy=FCScaled(L"stone_navy.png",int(296*fcK/4),int(1760*fcK/4)),gray=FCScaled(L"stone_gray.png",int(296*fcK/4),int(1760*fcK/4));
- for(auto&d:fcDecos){if(d.page!=fcPage)continue;RECT r=PR(d.x0,d.y0,d.x1,d.y1);float mid=(d.y0+d.y1)/2;
+ for(auto&d:fcDecos){if(d.page!=page)continue;RECT r=PR(d.x0,d.y0,d.x1,d.y1);float mid=(d.y0+d.y1)/2;
   if(d.kind==1||d.kind==2){FCTile(dc,d.kind==1?navy:gray,r);FCFrameRect(dc,r,RGB(40,36,58));FCText(dc,d.main,d.x0+7,mid,true,12,FC_WHITE);if(!d.sub.empty())FCText(dc,d.sub,d.x1-5,mid,false,10,d.color,2);}
   else if(d.kind==3||d.kind==4){int w=r.right-r.left,h=r.bottom-r.top;FCBlend(dc,FCPlate(d.kind==3?L"plate_crimson.png":L"plate_navy.png",w,h,.07f),r.left,r.top);FCText(dc,d.main,(d.x0+d.x1)/2,mid,true,15,FC_WHITE,1);}
   else if(d.kind==5)FCText(dc,d.main,(d.x0+d.x1)/2,mid,false,10,RGB(176,174,184),1,false);}
  // info strip
  FCFill(dc,PR(94,542,760,562),RGB(0,0,0));FCFill(dc,PR(94,542,760,542.5f),FC_LINE);std::wstring info;int c=fcHover>=0?fcHover:fcCursor;
  if(c>=0){auto&ch=fcChapters[c];info=ch.title;auto day=DayText(ch.day);if(!day.empty())info+=L"  ·  "+day;info+=L"  ·  장면 "+std::to_wstring(ch.scenes)+L"  ·  대사 "+Num(ch.pages)+L"줄";info+=ch.choices?L"  ·  선택지 "+std::to_wstring(ch.choices):L"  ·  선택지 없음";int rd=ReadPages(c);if(rd)info+=rd==ch.pages?L"  ·  다 읽음":L"  ·  읽음 "+Num(rd)+L"/"+Num(ch.pages)+L"줄";}
- if(!fcStatus.empty())info=fcStatus;FCText(dc,info,101,552,false,11,RGB(222,220,228),0,true,520);FCText(dc,fcPage?L"F1 도움말 · Tab 본편 · Enter 열기 · Esc 닫기":L"F1 도움말 · Tab 최종편 · Enter 열기 · Esc 닫기",753,552,false,10,RGB(150,150,160),2,false);}
+ if(!fcStatus.empty())info=fcStatus;FCText(dc,info,101,552,false,11,RGB(222,220,228),0,true,520);FCText(dc,page?L"F1 도움말 · Tab 본편 · Enter 열기 · Esc 닫기":L"F1 도움말 · Tab 최종편 · Enter 열기 · Esc 닫기",753,552,false,10,RGB(150,150,160),2,false);}
 
 // ------------------------------------------------------------------------------------------------ chapter page
 static const float LX0=262,LX1=764,LTOP=121,LBOT=516,SX0=20,SX1=252,STOP=110,SCARD=52,SSTEP=56;
@@ -290,13 +294,19 @@ static void OpenChapter(int c,int focusNode){FCSound("push");fcPage=2;fcScope=c;
   if(!fcItems.empty()){int k=fcItems[fcItemSel].kind;if(!(k==0||k==2||k==4||k==5)){int f=SelectableStep(fcItemSel,1);fcItemSel=f!=fcItemSel?f:SelectableStep(fcItemSel,-1);}}}
  ReleaseDC(fcWindow,dc);EnsureSceneVisible();EnsureItemVisible();char b[100];sprintf_s(b,"page=2 chapter=%d scene=%d item=%d",c,fcSceneList.empty()?-1:fcSceneList[fcSceneSel],fcItemSel);FCLog(b);}
 static void OpenSearchAll(){FCSound("push");fcPage=2;fcScope=-1;fcQuery.clear();if(fcSearch)SetWindowTextW(fcSearch,L"");fcSceneSel=0;fcSceneTop=0;fcItemSel=0;fcLineTop=0;fcSearchShown=true;HDC dc=GetDC(fcWindow);Rebuild(dc);ReleaseDC(fcWindow,dc);FCLog("page=2 search_all");}
+// the chapter page's art, scaled to the screen (also fetched ahead by FCWarm)
+static FCImage* ChapterPanel(){return FCScaled(L"panel.png",fcView.w,fcView.h);}
+static FCImage* ChapterBanner(){return FCScaled(L"banner.png",int(808*fcK/4),int(224*fcK/4));}
+static FCImage* ChapterChevron(bool red){return FCScaled(red?L"chev_red.png":L"chev_navy.png",int(704*fcK/4),int(128*fcK/4));}
+static FCImage* ChapterBar(const std::wstring&art,float w,float h){return FCPlate(art,int(w*fcK),int(h*fcK),.04f);}
+static FCImage* ChapterHoverTile(){return FCCrop(L"bar1.png",160,40,1924,144);}
 // The panel interior is 65% opaque; over the 185 dim alone the scene's white text still ghosts through the lists.
-static void DrawChapter(HDC dc){if(fcSceneShot.bmp)FCBlend(dc,&fcSceneShot,fcView.x,fcView.y);FCDim(dc,PR(0,0,800,600),185);FCDim(dc,PR(16,24,769,576),200);FCBlend(dc,FCScaled(L"panel.png",fcView.w,fcView.h),fcView.x,fcView.y);
+static void DrawChapter(HDC dc){if(fcSceneShot.bmp)FCBlend(dc,&fcSceneShot,fcView.x,fcView.y);FCDim(dc,PR(0,0,800,600),185);FCDim(dc,PR(16,24,769,576),200);FCBlend(dc,ChapterPanel(),fcView.x,fcView.y);
  // header: ⚜ banner, prompt line, chevron plates
- FCBlend(dc,FCScaled(L"banner.png",int(808*fcK/4),int(224*fcK/4)),PX(0),PY(22));std::wstring title=fcScope>=0?fcChapters[fcScope].title:L"대사 찾기";float tsize=19;while(tsize>12&&FCTextW(dc,title,true,tsize)>132)tsize-=1;FCText(dc,title,124,50,true,tsize,FC_WHITE,1);
+ FCBlend(dc,ChapterBanner(),PX(0),PY(22));std::wstring title=fcScope>=0?fcChapters[fcScope].title:L"대사 찾기";float tsize=19;while(tsize>12&&FCTextW(dc,title,true,tsize)>132)tsize-=1;FCText(dc,title,124,50,true,tsize,FC_WHITE,1);
  std::wstring prompt;if(fcScope>=0){auto&ch=fcChapters[fcScope];prompt=DayText(ch.day);auto add=[&](const std::wstring&s){if(!prompt.empty())prompt+=L" · ";prompt+=s;};add(L"장면 "+std::to_wstring(ch.scenes));add(L"대사 "+Num(ch.pages)+L"줄");if(ch.choices)add(L"선택지 "+std::to_wstring(ch.choices));if(ch.views)add(L"시점 전환 "+std::to_wstring(ch.views));}
  else{int hits=0;for(int h:fcSceneHits)hits+=h;prompt=fcQuery.empty()?L"찾을 말을 적으면 모든 장에서 찾습니다.":Num(hits)+L"곳 · 장면 "+Num(int(fcSceneList.size()))+L"개";}
- float psize=13;while(psize>10&&FCTextW(dc,prompt,true,psize)>336)psize-=.5f;FCText(dc,prompt,418,50,true,psize,FC_PROMPT,1,true,340);FCBlend(dc,FCScaled(L"chev_red.png",int(704*fcK/4),int(128*fcK/4)),PX(596),PY(18));FCBlend(dc,FCScaled(L"chev_navy.png",int(704*fcK/4),int(128*fcK/4)),PX(596),PY(50));
+ float psize=13;while(psize>10&&FCTextW(dc,prompt,true,psize)>336)psize-=.5f;FCText(dc,prompt,418,50,true,psize,FC_PROMPT,1,true,340);FCBlend(dc,ChapterChevron(true),PX(596),PY(18));FCBlend(dc,ChapterChevron(false),PX(596),PY(50));
  FCText(dc,L"지도로 돌아가기",684,34,true,12,fcHotPlate==10?RGB(255,236,200):FC_WHITE,1);FCText(dc,fcScope>=0?L"이 장 처음부터 다시보기":L"이 장면 처음부터 다시보기",684,66,true,12,fcHotPlate==11?RGB(255,236,200):FC_WHITE,1);FCFill(dc,PR(16,86,770,86.5f),RGB(150,146,150));
  // scene cards (save-slot idiom)
  FCText(dc,fcQuery.empty()?L"장면":L"찾은 장면",22,99,true,12,FC_PROMPT);int rows=int((560-STOP)/SSTEP);if(!fcSceneList.empty()){wchar_t b[64];swprintf_s(b,L"%d개 중 %d~%d",int(fcSceneList.size()),fcSceneTop+1,std::min(int(fcSceneList.size()),fcSceneTop+rows));FCText(dc,b,SX1,99,false,10,RGB(150,150,160),2,false);}
@@ -312,12 +322,12 @@ static void DrawChapter(HDC dc){if(fcSceneShot.bmp)FCBlend(dc,&fcSceneShot,fcVie
  FCText(dc,L"찾기",LX0+4,101,true,11,FC_PROMPT);RECT box=PR(LX0+30,93,LX0+300,109);FCFill(dc,box,RGB(6,6,10));FCFrameRect(dc,box,RGB(126,120,128));if(!fcQuery.empty())FCText(dc,fcQuery,LX0+35,101,false,10.5f,FC_WHITE,0,false,262);else if(GetFocus()!=fcSearch)FCText(dc,L"대사나 이름으로 찾기  (Ctrl+F)",LX0+37,101,false,10,RGB(120,120,130),0,false);
  if(!fcSceneList.empty()){auto&sc=fcScenes[fcSceneList[fcSceneSel]];wchar_t b[96];swprintf_s(b,L"%s · 장면 %d · 대사 %s줄%s",fcChapters[sc.chapter].cell.c_str(),fcSceneList[fcSceneSel]-fcChapters[sc.chapter].scene0+1,Num(sc.pages).c_str(),sc.choices?L" · 선택지 있음":L"");FCText(dc,b,LX1,101,false,10,RGB(158,156,166),2,false);}
  FCFill(dc,PR(LX0,115,LX1,115.5f),RGB(70,66,76));int saved=SaveDC(dc);RECT clip=PR(LX0,LTOP-1,LX1+1,LBOT);IntersectClipRect(dc,clip.left,clip.top,clip.right,clip.bottom);
- float tx=LX0+22,tw=LX1-tx-30;auto hover=FCCrop(L"bar1.png",160,40,1924,144);
+ float tx=LX0+22,tw=LX1-tx-30;auto hover=ChapterHoverTile();
  for(int k=0;k<int(fcItems.size());k++){auto&it=fcItems[k];int top=PY(LTOP)+it.top-fcLineTop,bot=top+it.height;if(bot<clip.top||top>clip.bottom||it.kind<0)continue;float y=LY(top);bool sel=k==fcItemSel;auto&n=fcNodes[it.node];
   if(it.kind==0){if(sel){RECT s{PX(LX0)+1,top,PX(LX1)-1,bot-1};FCTile(dc,hover,s,230);FCFrameRect(dc,s,RGB(214,206,206));}if(FCIsRead(it.node))FCCheck(dc,LX0+8,y+(n.speaker.empty()?0:15)+11,FC_WHITE);float yy=y+5;if(!n.speaker.empty()){FCText(dc,n.speaker,tx,yy+5,true,11,FC_NAME);yy+=15;}FCWrap(dc,n.text.empty()?L"…":n.text,tx,yy,tw,12,n.speaker.empty()?RGB(222,220,228):FC_WHITE);
    if(fcHere==it.node){FCLeaf(dc,LX1-52,y+(bot-top)/fcK/2-7,14);FCText(dc,L"지금",LX1-56,y+(bot-top)/fcK/2,false,10,FC_LEAF,2);}FCFill(dc,{PX(LX0+6),bot-1,PX(LX1-6),bot},RGB(52,48,58));}
   else if(it.kind==1||it.kind==3){FCText(dc,it.kind==1?n.label:L"시점 전환",tx,y+9,true,11,FC_PROMPT);FCText(dc,L"고르면 그 갈래로 이어서 봅니다",tx+(it.kind==1?50:56),y+9.5f,false,9,FC_DIM,0,false);}
-  else if(it.kind==2||it.kind==4){bool chosen=FCIsRead(it.node);std::wstring art=sel?L"bar1.png":(it.kind==4?(n.value==0?L"bar0.png":L"bar2.png"):(chosen?L"bar2.png":L"bar0.png"));float bw=380,bh=26,bx=(LX0+LX1)/2-bw/2;FCBlend(dc,FCPlate(art,int(bw*fcK),int(bh*fcK),.04f),PX(bx),PY(y+2));FCText(dc,n.text,(LX0+LX1)/2,y+15,it.kind==4,12,FC_WHITE,1);
+  else if(it.kind==2||it.kind==4){bool chosen=FCIsRead(it.node);std::wstring art=sel?L"bar1.png":(it.kind==4?(n.value==0?L"bar0.png":L"bar2.png"):(chosen?L"bar2.png":L"bar0.png"));float bw=380,bh=26,bx=(LX0+LX1)/2-bw/2;FCBlend(dc,ChapterBar(art,bw,bh),PX(bx),PY(y+2));FCText(dc,n.text,(LX0+LX1)/2,y+15,it.kind==4,12,FC_WHITE,1);
    if(chosen)FCText(dc,L"예전에 고른 쪽",bx+bw+6,y+15,false,9,RGB(150,170,230),0,false);if(fcHere==it.node)FCLeaf(dc,bx-18,y+7,14);}
   else if(it.kind==5){if(sel){RECT s{PX(LX0)+1,top,PX(LX1)-1,bot-1};FCTile(dc,hover,s,200);}FCText(dc,n.text,tx,y+12,false,11,RGB(176,174,184),0,false);FCFill(dc,{PX(LX0+6),bot-1,PX(LX1-6),bot},RGB(52,48,58));}}
  RestoreDC(dc,saved);if(fcItems.empty())FCText(dc,fcQuery.empty()?L"이 장면에는 대사가 없습니다.":L"찾은 대사가 없습니다.",LX0+22,LTOP+16,false,11,FC_DIM,0,false);
@@ -325,8 +335,8 @@ static void DrawChapter(HDC dc){if(fcSceneShot.bmp)FCBlend(dc,&fcSceneShot,fcVie
  int view=int((LBOT-LTOP)*fcK);if(fcItemsHeight>view){float t0=37+(560-37)*float(fcLineTop)/fcItemsHeight,t1=37+(560-37)*float(fcLineTop+view)/fcItemsHeight;FCFill(dc,PR(772.5f,t0,781.5f,t1),RGB(214,196,196));}
  // jump plate
  std::wstring see=L"이 대사부터 다시보기";if(!fcItems.empty()){int k=fcItems[fcItemSel].kind;if(k==2)see=L"이 선택으로 다시보기";else if(k==4)see=L"이 시점으로 다시보기";else if(k==5)see=L"이 갈래부터 다시보기";}
- FCBlend(dc,FCPlate(fcHotPlate==12?L"bar2.png":L"bar1.png",int(230*fcK),int(28*fcK),.04f),PX(363),PY(524));FCText(dc,see,472,538,true,13.5f,FC_WHITE,1);FCText(dc,L"Enter",563,538,false,9,RGB(150,150,160),0,false);
- FCBlend(dc,FCPlate(fcHotPlate==13?L"bar2.png":L"bar1.png",int(170*fcK),int(28*fcK),.04f),PX(600),PY(524));FCText(dc,L"여기서부터 본편으로",685,538,true,12,RGB(214,210,216),1);
+ FCBlend(dc,ChapterBar(fcHotPlate==12?L"bar2.png":L"bar1.png",230,28),PX(363),PY(524));FCText(dc,see,472,538,true,13.5f,FC_WHITE,1);FCText(dc,L"Enter",563,538,false,9,RGB(150,150,160),0,false);
+ FCBlend(dc,ChapterBar(fcHotPlate==13?L"bar2.png":L"bar1.png",170,28),PX(600),PY(524));FCText(dc,L"여기서부터 본편으로",685,538,true,12,RGB(214,210,216),1);
  FCText(dc,fcStatus.empty()?(fcReplay?L"다시보기 중 · 이 장이 끝나면 지도로 돌아옵니다":fcProtected?L"본편 검수 중 · 저장은 검수용 폴더로 따로 갑니다":L"다시보기: 이 장이 끝나면 지도로 · 본편으로: 검수용 저장으로 이어짐"):fcStatus,566,562,false,9,RGB(140,140,150),1,false);}
 
 // ------------------------------------------------------------------------------------------------ help (ボタン説明 idiom)
@@ -339,13 +349,48 @@ static void DrawHelp(HDC dc){FCDim(dc,PR(0,0,800,600),170);RECT panel=PR(190,118
  FCText(dc,L"아무 키나 누르면 닫힙니다",400,y+40,false,10,FC_DIM,1,false);}
 
 // ------------------------------------------------------------------------------------------------ render, snapshot, actions
-static void FCLayout(){RECT r{};GetClientRect(fcWindow,&r);View v{};int w=r.right,h=r.bottom;if(w*3>h*4)w=h*4/3;else h=w*3/4;v={(r.right-w)/2,(r.bottom-h)/2,w,h};if(v.w!=fcView.w||v.h!=fcView.h){FCClearArt();FCClearFonts();}fcView=v;fcK=std::max(.1f,v.w/800.f);}
-static void FCRender(HWND,HDC target){LONGLONG t0=Now();fcMsBlend=fcMsDim=fcMsText=fcMsWrap=fcMsTile=fcMsArt=0;FCLayout();RECT r{};GetClientRect(fcWindow,&r);if(fcBack.w!=r.right||fcBack.h!=r.bottom){FCFree(fcBack);fcBack=FCDib(std::max(1,int(r.right)),std::max(1,int(r.bottom)));}if(!fcBack.bmp)return;HDC dc=CreateCompatibleDC(target);auto old=SelectObject(dc,fcBack.bmp);fcDraw=&fcBack;fcDrawDC=dc;FCFill(dc,r,RGB(0,0,0));
- if(fcPage<2)DrawMap(dc);else DrawChapter(dc);if(fcHelp)DrawHelp(dc);
- if(fcCover&&!fcOpen){FCDim(dc,PR(0,0,800,600),150);FCText(dc,fcCoverText,400,300,true,17,FC_WHITE,1);}   // going to the line / back: the map stays over the fast run
- fcDraw=nullptr;fcDrawDC=nullptr;BitBlt(target,0,0,r.right,r.bottom,dc,0,0,SRCCOPY);SelectObject(dc,old);DeleteDC(dc);
- if(logFile){fprintf(logFile,"inflow render page=%d ms=%.1f size=%ldx%ld blend=%.1f dim=%.1f text=%.1f wrap=%.1f tile=%.1f art=%.1f\n",fcPage,Ms(t0),r.right,r.bottom,fcMsBlend,fcMsDim,fcMsText,fcMsWrap,fcMsTile,fcMsArt);fflush(logFile);}}
+static void FCLayout(){std::lock_guard<std::recursive_mutex> lock(fcLock);RECT r{};GetClientRect(fcWindow?fcWindow:Game(),&r);   // before the map's first opening: the game window it will fill
+ View v{};int w=r.right,h=r.bottom;if(w*3>h*4)w=h*4/3;else h=w*3/4;v={(r.right-w)/2,(r.bottom-h)/2,w,h};if(v.w!=fcView.w||v.h!=fcView.h){FCClearArt();FCClearFonts();}fcView=v;fcK=std::max(.1f,v.w/800.f);}
+// The page drawn into the back buffer. With an area (WM_PAINT's update region, when it is not the whole window) only that area
+// is drawn again, clipped, and only it is copied out: the rest of the back buffer is still the last render, since every
+// change of state invalidates what it changes (11-25: a hover redrew the whole 4K page, 26~31 ms). Everything the page draws
+// writes only inside its own box and reads only the pixels under it, so a clipped pass gives the same pixels as a full one
+// (RECON_PERF checks each partial paint against a full render: inflow partial_check).
+static bool fcBackFresh=false;   // fcBack holds a full render (a new size or a failed draw clears it)
+static void FCPage(HDC dc,const RECT&r){FCFill(dc,r,RGB(0,0,0));if(fcPage<2)DrawMap(dc,fcPage);else DrawChapter(dc);if(fcHelp)DrawHelp(dc);
+ if(fcCover&&!fcOpen){FCDim(dc,PR(0,0,800,600),150);FCText(dc,fcCoverText,400,300,true,17,FC_WHITE,1);}}   // going to the line / back: the map stays over the fast run
+static void FCRender(HWND,HDC target,HRGN area=nullptr){std::lock_guard<std::recursive_mutex> lock(fcLock);LONGLONG t0=Now();fcMsBlend=fcMsDim=fcMsText=fcMsWrap=fcMsTile=fcMsArt=0;FCLayout();RECT r{};GetClientRect(fcWindow,&r);
+ if(fcBack.w!=r.right||fcBack.h!=r.bottom){FCFree(fcBack);fcBack=FCDib(std::max(1,int(r.right)),std::max(1,int(r.bottom)));fcBackFresh=false;}if(!fcBack.bmp)return;
+ std::vector<RECT> parts;if(area&&fcBackFresh){DWORD n=GetRegionData(area,0,nullptr);std::vector<BYTE> buf(n);auto rd=(RGNDATA*)buf.data();
+  if(n&&GetRegionData(area,n,rd)){auto rs=(const RECT*)rd->Buffer;for(DWORD k=0;k<rd->rdh.nCount;k++){RECT q;if(IntersectRect(&q,&rs[k],&r))parts.push_back(q);}}}
+ bool partial=!parts.empty()&&parts.size()<=8;HDC dc=CreateCompatibleDC(target);auto old=SelectObject(dc,fcBack.bmp);fcDraw=&fcBack;fcDrawDC=dc;
+ if(partial)for(auto&q:parts){int saved=SaveDC(dc);IntersectClipRect(dc,q.left,q.top,q.right,q.bottom);FCPage(dc,q);RestoreDC(dc,saved);}
+ else{FCPage(dc,r);parts.assign(1,r);fcBackFresh=true;}
+ fcDraw=nullptr;fcDrawDC=nullptr;GdiFlush();for(auto&q:parts)BitBlt(target,q.left,q.top,q.right-q.left,q.bottom-q.top,dc,q.left,q.top,SRCCOPY);
+ double ms=Ms(t0);long px=0;for(auto&q:parts)px+=(q.right-q.left)*(q.bottom-q.top);
+ if(partial&&perf&&fcBack.bits){std::vector<BYTE> got((BYTE*)fcBack.bits,(BYTE*)fcBack.bits+size_t(fcBack.w)*fcBack.h*4);FCPage(dc,r);   // the same state drawn whole
+  bool equal=!memcmp(got.data(),fcBack.bits,got.size());if(logFile){fprintf(logFile,"inflow partial_check equal=%d parts=%zu\n",int(equal),parts.size());fflush(logFile);}}
+ SelectObject(dc,old);DeleteDC(dc);
+ if(logFile){fprintf(logFile,"inflow render page=%d ms=%.1f size=%ldx%ld parts=%zu px=%ld blend=%.1f dim=%.1f text=%.1f wrap=%.1f tile=%.1f art=%.1f\n",fcPage,ms,r.right,r.bottom,partial?parts.size():0,px,fcMsBlend,fcMsDim,fcMsText,fcMsWrap,fcMsTile,fcMsArt);fflush(logFile);}}
 static void FCSnapshot(){if(!probe||!GetEnvironmentVariableW(L"RECON_FLOW_PROBE",nullptr,0))return;RECT r{};GetClientRect(fcWindow,&r);if(r.right<1||r.bottom<1)return;BITMAPINFO info{};int stride=(r.right*3+3)&~3;info.bmiHeader={sizeof(BITMAPINFOHEADER),r.right,-r.bottom,1,24,BI_RGB,DWORD(stride*r.bottom),0,0,0,0};void*bits=nullptr;HDC screen=GetDC(fcWindow),dc=CreateCompatibleDC(screen);HBITMAP bitmap=CreateDIBSection(screen,&info,DIB_RGB_COLORS,&bits,nullptr,0);if(!bitmap||!dc){if(bitmap)DeleteObject(bitmap);if(dc)DeleteDC(dc);ReleaseDC(fcWindow,screen);return;}auto old=SelectObject(dc,bitmap);FCRender(fcWindow,dc);GdiFlush();static unsigned shot=0;wchar_t dir[MAX_PATH],path[MAX_PATH];swprintf_s(dir,L"%s\\qa",root);CreateDirectoryW(dir,nullptr);swprintf_s(path,L"%s\\inflow-%02u.bmp",dir,shot++);FILE*f=nullptr;if(!_wfopen_s(&f,path,L"wb")&&f){BITMAPFILEHEADER head{};head.bfType=0x4d42;head.bfOffBits=sizeof(head)+sizeof(BITMAPINFOHEADER);head.bfSize=head.bfOffBits+stride*r.bottom;fwrite(&head,sizeof(head),1,f);fwrite(&info.bmiHeader,sizeof(BITMAPINFOHEADER),1,f);fwrite(bits,1,stride*r.bottom,f);fclose(f);}SelectObject(dc,old);DeleteObject(bitmap);DeleteDC(dc);ReleaseDC(fcWindow,screen);char b[64];sprintf_s(b,"snapshot page=%d",fcPage);FCLog(b);}
+// Warm-up (11-25): the map's first opening scaled its art and drew its 4K letters for the first time (0.5 s at 4K, a chapter
+// page as much again). Once the title is up, a thread of its own draws both map pages into a picture of its own, fetches the
+// chapter page's art, and draws every letter of the catalogue in the chapter pages' fonts, so the caches are full when the map
+// opens. It takes fcLock one piece at a time (a page, a picture, 64 letters) and stops for good once an opening asks
+// (fcOpenAsked: the lock is not fair, a loop taking it again at once kept an opening waiting 4 s), so that waits one piece at most.
+static std::atomic<bool> fcWarmStarted{false},fcOpenAsked{false};
+static void FCWarm(){SetThreadPriority(GetCurrentThread(),THREAD_PRIORITY_BELOW_NORMAL);LONGLONG t0=Now();RECT r{};GetClientRect(Game(),&r);if(r.right<1||r.bottom<1)return;
+ FCImage img=FCDib(r.right,r.bottom);if(!img.bmp)return;HDC screen=GetDC(nullptr),dc=CreateCompatibleDC(screen);ReleaseDC(nullptr,screen);auto old=SelectObject(dc,img.bmp);SetBkMode(dc,TRANSPARENT);
+ auto piece=[&](auto&&f){if(fcOpenAsked)return false;std::lock_guard<std::recursive_mutex> lock(fcLock);if(fcOpenAsked)return false;FCLayout();fcDraw=&img;fcDrawDC=dc;f();fcDraw=nullptr;fcDrawDC=nullptr;return true;};
+ bool going=true;for(int page=0;page<2&&going;page++)going=piece([&]{FCFill(dc,r,RGB(0,0,0));DrawMap(dc,page);});
+ if(going)going=piece([]{ChapterPanel();ChapterBanner();ChapterChevron(true);ChapterChevron(false);ChapterHoverTile();});
+ for(auto a:{L"bar0.png",L"bar1.png",L"bar2.png"})if(going)going=piece([&]{ChapterBar(a,380,26);ChapterBar(a,230,28);ChapterBar(a,170,28);});
+ std::wstring letters;{std::unordered_set<wchar_t> seen;for(auto&n:fcNodes){for(wchar_t c:n.text)if(seen.insert(c).second)letters+=c;for(wchar_t c:n.speaker)if(seen.insert(c).second)letters+=c;}for(auto&ch:fcChapters)for(wchar_t c:ch.title)if(seen.insert(c).second)letters+=c;}
+ const std::pair<bool,float> faces[]={{false,12.f},{true,11.f},{false,11.f},{false,10.f},{false,9.f},{true,12.f},{true,13.f},{true,13.5f},{true,19.f}};   // the chapter page's lines, names, plates and title
+ for(auto&f:faces)for(size_t i=0;i<letters.size()&&going;i+=64)going=piece([&]{auto prev=SelectObject(dc,FCFont(f.first,f.second));RECT q{0,0,r.right,r.bottom};DrawTextW(dc,letters.c_str()+i,int(std::min<size_t>(64,letters.size()-i)),&q,DT_SINGLELINE|DT_NOPREFIX);SelectObject(dc,prev);});
+ SelectObject(dc,old);DeleteDC(dc);FCFree(img);
+ if(logFile){fprintf(logFile,"inflow warm ms=%.1f letters=%zu done=%d\n",Ms(t0),letters.size(),int(going));fflush(logFile);}}
+static void FCWarmStart(){if(fcWarmStarted||!titleReady||!FCLoad())return;fcWarmStarted=true;std::thread(FCWarm).detach();}   // engine thread (the buttons' timer)
 static void FCRedraw(){InvalidateRect(fcWindow,nullptr,FALSE);FCSnapshot();}
 // replay: 다시보기 (back here at the chapter's end); else 「여기서부터 본편으로」 (the old jump: the game goes on from there)
 static void FCJumpNode(int node,bool replay=false){if(node<0)return;FCSound("push");bool fresh=replay&&!fcReplay;   // another scene picked during a replay keeps the first way back
@@ -383,12 +428,18 @@ static LRESULT CALLBACK FCEditProc(HWND h,UINT m,WPARAM w,LPARAM l){
  return CallWindowProcW(fcOldEditProc,h,m,w,l);
 }
 
+// What a hover change redraws: the plate band or a chapter page plate, the old and new cell with the info strip under the map
+// (it names the hovered chapter); the rest of the page does not depend on it.
+static void FCHoverArea(HWND h,int hot0,int hot1,int hov0,int hov1){auto add=[&](RECT r){InflateRect(&r,int(2*fcK)+2,int(2*fcK)+2);InvalidateRect(h,&r,FALSE);};
+ auto plate=[&](int k){if(k<0)return;if(k<4)add(PR(390,6,736,62));else if(k<=11)add(PR(590,14,776,86));else add(PR(357,518,776,558));};
+ if(hot0!=hot1){plate(hot0);plate(hot1);}
+ if(hov0!=hov1){for(int c:{hov0,hov1})if(c>=0&&c<int(fcChapters.size())){auto&ch=fcChapters[c];add(PR(ch.x0,ch.y0,ch.x1,ch.y1));}add(PR(94,540,760,564));}}
 static void FCClose(){if(fcOpen)FCSound("cancel");fcOpen=false;}
 static LRESULT CALLBACK FCProc(HWND h,UINT m,WPARAM w,LPARAM l){int x=(short)LOWORD(l),y=(short)HIWORD(l);
  if(m==WM_TIMER&&w==FC_REOPEN_TIMER){ULONGLONG now=GetTickCount64();   // back from a replay: no picture asked for 0.7 s = the screen is rebuilt, the line waits
   if(fcReopen==3&&((now-lastLoadTick>700&&now-fcReopenArm>500)||now-fcReopenArm>8000)){KillTimer(h,FC_REOPEN_TIMER);fcReopen=0;PostMessageW(Game(),WM_FCREOPEN,0,0);}return 0;}
  if(fcCover&&!fcOpen){if(m==WM_TIMER&&w==FC_COVER_TIMER){if(GetTickCount64()-fcCoverSince>120000){FCLog("cover_timeout");FCCover(false);}return 0;}if(FCInputMessage(m)||m==WM_MOUSELEAVE)return 0;}   // a cover takes no input
- switch(m){case WM_ERASEBKGND:return 1;case WM_PAINT:{PAINTSTRUCT ps;HDC dc=BeginPaint(h,&ps);FCRender(h,dc);EndPaint(h,&ps);return 0;}case WM_PRINT:case WM_PRINTCLIENT:FCRender(h,(HDC)w);return 0;case WM_SIZE:FCLayout();if(fcSearchShown)ShowSearch(true);return 0;
+ switch(m){case WM_ERASEBKGND:return 1;case WM_PAINT:{HRGN area=CreateRectRgn(0,0,0,0);bool got=GetUpdateRgn(h,area,FALSE)>NULLREGION;PAINTSTRUCT ps;HDC dc=BeginPaint(h,&ps);FCRender(h,dc,got?area:nullptr);EndPaint(h,&ps);DeleteObject(area);return 0;}case WM_PRINT:case WM_PRINTCLIENT:FCRender(h,(HDC)w);return 0;case WM_SIZE:FCLayout();if(fcSearchShown)ShowSearch(true);return 0;
  case WM_CTLCOLOREDIT:{static HBRUSH b=CreateSolidBrush(RGB(6,6,10));SetTextColor((HDC)w,FC_WHITE);SetBkColor((HDC)w,RGB(6,6,10));return (LRESULT)b;}
  case WM_COMMAND:if(HIWORD(w)==EN_CHANGE&&reinterpret_cast<HWND>(l)==fcSearch){SearchChanged();}return 0;
  case WM_KEYDOWN:{if(fcHelp){fcHelp=false;if(w!=VK_F11)FCSound("cancel");FCRedraw();if(w!=VK_F11)return 0;}if(w==VK_F11){FCClose();return 0;}if(w==VK_F1){FCSound("push");fcHelp=true;FCRedraw();return 0;}
@@ -400,8 +451,8 @@ static LRESULT CALLBACK FCProc(HWND h,UINT m,WPARAM w,LPARAM l){int x=(short)LOW
   return 0;}
  case WM_MOUSEWHEEL:{POINT p{(short)LOWORD(l),(short)HIWORD(l)};ScreenToClient(h,&p);int delta=(short)HIWORD(w)/WHEEL_DELTA;if(fcPage==2){if(LX(p.x)<SX1+4){fcSceneTop=std::clamp(fcSceneTop-delta,0,std::max(0,int(fcSceneList.size())-int((560-STOP)/SSTEP)));}else{int view=int((LBOT-LTOP)*fcK);fcLineTop=std::clamp(fcLineTop-delta*int(48*fcK),0,std::max(0,fcItemsHeight-view));}FCLog("wheel");FCRedraw();}return 0;}
  case WM_MOUSEMOVE:{TRACKMOUSEEVENT t{sizeof(t),TME_LEAVE,h,0};TrackMouseEvent(&t);int hot=-1,hov=-1;if(fcPage<2){hot=PlateHit(x,y);hov=MapHit(x,y);}else{float lx=LX(x),ly=LY(y);if(lx>=596&&lx<772&&ly>=18&&ly<50)hot=10;else if(lx>=596&&lx<772&&ly>=50&&ly<82)hot=11;else if(lx>=363&&lx<593&&ly>=524&&ly<552)hot=12;else if(lx>=600&&lx<770&&ly>=524&&ly<552)hot=13;}
-  if(hot!=fcHotPlate||hov!=fcHover){if(hov!=fcHover){char b[32];sprintf_s(b,"hover=%d",hov);FCLog(b);}if((hot>=0&&hot!=fcHotPlate)||(hov>=0&&hov!=fcHover))FCSound("on",true);fcHotPlate=hot;fcHover=hov;InvalidateRect(h,nullptr,FALSE);}return 0;}
- case WM_MOUSELEAVE:if(fcHotPlate!=-1||fcHover!=-1){fcHotPlate=-1;fcHover=-1;InvalidateRect(h,nullptr,FALSE);}return 0;
+  if(hot!=fcHotPlate||hov!=fcHover){if(hov!=fcHover){char b[32];sprintf_s(b,"hover=%d",hov);FCLog(b);}if((hot>=0&&hot!=fcHotPlate)||(hov>=0&&hov!=fcHover))FCSound("on",true);FCHoverArea(h,fcHotPlate,hot,fcHover,hov);fcHotPlate=hot;fcHover=hov;}return 0;}
+ case WM_MOUSELEAVE:if(fcHotPlate!=-1||fcHover!=-1){FCHoverArea(h,fcHotPlate,-1,fcHover,-1);fcHotPlate=-1;fcHover=-1;}return 0;
  case WM_RBUTTONUP:if(fcHelp){fcHelp=false;FCSound("cancel");FCRedraw();return 0;}if(fcPage==2)BackToMap();else FCClose();return 0;
  case WM_LBUTTONDOWN:SetFocus(fcSearchShown&&fcPage==2?fcSearch:h);return 0;
  case WM_LBUTTONUP:{if(fcHelp){fcHelp=false;FCSound("cancel");FCRedraw();return 0;}float lx=LX(x),ly=LY(y);
@@ -415,7 +466,7 @@ static LRESULT CALLBACK FCProc(HWND h,UINT m,WPARAM w,LPARAM l){int x=(short)LOW
  case WM_LBUTTONDBLCLK:{float lx=LX(x),ly=LY(y);if(fcPage==2){if(lx>=LX0&&lx<LX1&&ly>=LTOP&&ly<LBOT){FCJump();return 0;}if(lx>=SX0&&lx<SX1&&ly>=STOP&&!fcSceneList.empty()){FCJumpNode(fcScenes[fcSceneList[fcSceneSel]].first,true);return 0;}}return 0;}
  case WM_CLOSE:FCClose();return 0;}return DefWindowProcW(h,m,w,l);}
 static void FCDrainInput(){MSG m;while(PeekMessageW(&m,Game(),WM_KEYFIRST,WM_KEYLAST,PM_REMOVE)){}while(PeekMessageW(&m,Game(),WM_MOUSEFIRST,WM_MOUSELAST,PM_REMOVE)){}memset((void*)0x4e9afc,0,256);}
-static void OpenFlowChart(){Init();LONGLONG topen=Now();FCLog("open_request");if(fcOpen||fcLoading)return;if(!FCLoad()){MessageBoxW(Game(),L"이야기 지도 자료를 읽을 수 없습니다.",L"이야기 지도",MB_OK|MB_ICONERROR);return;}game=Game();
+static void OpenFlowChart(){Init();fcOpenAsked=true;LONGLONG topen=Now();FCLog("open_request");if(fcOpen||fcLoading)return;if(!FCLoad()){MessageBoxW(Game(),L"이야기 지도 자료를 읽을 수 없습니다.",L"이야기 지도",MB_OK|MB_ICONERROR);return;}game=Game();
  // The original engine disables IME on its main window. Save and restore that state
  // around the Unicode map, before creating/associating the native EDIT context.
  using EnableImeFn=BOOL(WINAPI*)(HWND,BOOL);
