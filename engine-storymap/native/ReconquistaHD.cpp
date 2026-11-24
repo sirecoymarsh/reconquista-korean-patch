@@ -407,7 +407,8 @@ static Variable* ReviewChronicle(uint32_t hash){if(hash!=reviewChronicle.hash)re
 static Variable* FCVar(uint32_t,const Variable*);
 using VarFn=Variable*(__cdecl*)(Variable*,short*);using VarHashFn=Variable*(__cdecl*)(uint32_t);static VarFn oldVarFind,oldVarWrite;static VarHashFn oldVarHash;
 static Variable* __cdecl VarFind(Variable*v,short*index){if(v&&v->scope==0){if(auto p=FCVar(v->hash,nullptr))return p;if(v->hash==flowFast.hash)return &flowFast;if(v->hash==flowMark.hash)return &flowMark;if(v->hash==configVisibleVar.hash)return &configVisibleVar;if(auto p=ReviewVar(v->hash))return p;if(auto p=ReviewChronicle(v->hash))return p;}return oldVarFind(v,index);}
-static Variable* __cdecl VarWrite(Variable*v,short*index){if(v&&v->scope==0){if(auto p=FCVar(v->hash,v))return p;if(v->hash==flowFast.hash){flowFast.value=v->value;flowWarmStage=v->value;return &flowFast;}if(v->hash==flowMark.hash){flowMark.value=v->value;flowArriveTick=GetTickCount64();if(v->value>0){SetWindowTextW(Game(),L"레콘키스타 · 검수용 재생 (F11: 이야기 지도)");if(forceStartupFullscreen){forceStartupFullscreen=false;PostMessageW(Game(),WM_KEYDOWN,VK_F4,0);}}if(logFile){fprintf(logFile,"flow_arrived=%d fast=%d\n",v->value,flowFast.value);fflush(logFile);}return &flowMark;}if(v->hash==configVisibleVar.hash){configVisibleVar.value=v->value;PostMessageW(Game(),WM_APP+81,0,0);return &configVisibleVar;}if(auto p=ReviewVar(v->hash))return p;}return oldVarWrite(v,index);}
+static bool MapTabPressed(const Variable*v);   // the text box's 「지도」 button (below)
+static Variable* __cdecl VarWrite(Variable*v,short*index){if(MapTabPressed(v))return oldVarWrite(v,index);if(v&&v->scope==0){if(auto p=FCVar(v->hash,v))return p;if(v->hash==flowFast.hash){flowFast.value=v->value;flowWarmStage=v->value;return &flowFast;}if(v->hash==flowMark.hash){flowMark.value=v->value;flowArriveTick=GetTickCount64();if(v->value>0){SetWindowTextW(Game(),L"레콘키스타 · 검수용 재생 (F11: 이야기 지도)");if(forceStartupFullscreen){forceStartupFullscreen=false;PostMessageW(Game(),WM_KEYDOWN,VK_F4,0);}}if(logFile){fprintf(logFile,"flow_arrived=%d fast=%d\n",v->value,flowFast.value);fflush(logFile);}return &flowMark;}if(v->hash==configVisibleVar.hash){configVisibleVar.value=v->value;PostMessageW(Game(),WM_APP+81,0,0);return &configVisibleVar;}if(auto p=ReviewVar(v->hash))return p;}return oldVarWrite(v,index);}
 static Variable* __cdecl VarHash(uint32_t hash){if(auto p=FCVar(hash,nullptr))return p;if(hash==flowFast.hash)return &flowFast;if(hash==flowMark.hash)return &flowMark;if(hash==configVisibleVar.hash)return &configVisibleVar;if(auto p=ReviewVar(hash))return p;if(auto p=ReviewChronicle(hash))return p;return oldVarHash(hash);}
 static Variable* VarOf(uint32_t hash){return oldVarHash?oldVarHash(hash):nullptr;}   // a VM variable by its hash, the engine's own lookup
 // The text box's buttons by key (11-25, the user: 「플레이 창에서 단축키로 게임 조작 가능하게. 지금은 하단 커맨드들은
@@ -415,6 +416,11 @@ static Variable* VarOf(uint32_t hash){return oldVarHash?oldVarHash(hash):nullptr
 // area id) and @is_select 1, which ends its pause loop's wait; set_pausebutton_menu sets @is_select 0 each time it waits, so
 // a key counts only while it does. Ids (areaevent_set): 0 저장 1 불러오기 2 자동 3 건너뛰기 5 지우기 6 기록 7 설정 8 퀵 저장
 // 9 퀵 로드 10 연표. M opens the story map, as F11.
+// The text box's 「지도」 button (tools/build_map_tab.py: console.mjo's button 11, left of 퀵 저장): its $click@CONSOLE writes
+// @ret 11 after @is_select 1. That choice is taken back (@is_select 0, the pause loop goes on waiting) and the story map
+// opens through the map's own menu command, once the script has returned to its wait.
+static bool MapTabPressed(const Variable*v){if(!v||v->hash!=0xcaceeb7fu||v->value!=11)return false;if(Variable*sel=VarOf(0x405ba90fu))sel->value=0;
+ PostMessageW(Game(),WM_COMMAND,0x7e43,0);if(logFile){fprintf(logFile,"console_map_tab\n");fflush(logFile);}return true;}
 static void OpenFlowChart();
 static int ConsoleButtonFor(WPARAM vk){switch(vk){case 'Q':return 8;case 'W':return 9;case 'L':return 1;case 'A':return 2;case 'H':return 5;case VK_ESCAPE:return 7;}return -1;}
 static bool ConsoleKey(UINT msg,WPARAM wp,LPARAM lp){if(msg!=WM_KEYDOWN||(lp&(1L<<30)))return false;
