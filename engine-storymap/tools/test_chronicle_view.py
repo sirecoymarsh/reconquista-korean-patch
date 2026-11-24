@@ -106,7 +106,7 @@ try:
         shutil.copy2(shots / f'chron-view-{k}.png', OUT / f'{"orig" if look else "new"}-look-hover.png')
         k += 1
     step('shots', n=k, lines=lines('chron_proto shot')[-2:])
-    g.key(view, 0x76)                                    # F7: closes, as the user would
+    g.post(view, 0x205, 0, 0)                            # a right click closes, as the user would
     g.until(lambda: 'chronicle_open=0' in g.log() or lines('chron_proto act'), 10, 'close')
     time.sleep(1.5)
     step('closed', act=lines('chron_proto act')[-2:], opens=g.log().count('chronicle_open=1'), closes=g.log().count('chronicle_open=0'))

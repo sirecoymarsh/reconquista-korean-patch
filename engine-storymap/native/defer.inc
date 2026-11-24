@@ -108,6 +108,7 @@ static void FinishFrame(){
  // chronicleOpen: a present with nothing newly drawn (a repaint) keeps it; a drawn page without the frame closes it
  bool wasOpen=chronicleOpen;if(chronicleSeen)chronicleOpen=true;else if(screenDrawn&&chronicleOpen)chronicleOpen=false;
  if(wasOpen!=chronicleOpen&&logFile){fprintf(logFile,"chronicle_open=%d frame=%llu\n",chronicleOpen,(unsigned long long)dFrames);fflush(logFile);}
+ cproto::Frame();   // the view shown, hidden and its actions stepped on this frame
  lastFrameDrew=screenDrawn;screenDrawn=false;chronicleSeen=false;
  if(on!=deferOn&&logFile){fprintf(logFile,"defer_%s frame=%llu\n",on?"on":"off",(unsigned long long)dFrames);fflush(logFile);}deferOn=on;
  if((perf||deferVerify)&&logFile&&dFrames%60==0){fprintf(logFile,"defer frames=%llu ops=%llu settles=%llu mismatched=%llu covered=%llu on=%d mask_px=%llu mask_skipped_pct=%.1f\n",(unsigned long long)dFrames,(unsigned long long)dOps,(unsigned long long)dSettles,(unsigned long long)dMismatch,(unsigned long long)dCovered,deferOn,

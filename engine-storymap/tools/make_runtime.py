@@ -4,8 +4,6 @@ python make_runtime.py test   -> runtime-test   (muted: audio dispatches removed
                                                  private registry key; private-desktop QA only)
 python make_runtime.py play   -> runtime-play   (normal sound and settings, for the user)
 python make_runtime.py chron  -> runtime-chron  (as test, but start.mjo opens the chronicle at once: chronicle QA)
-python make_runtime.py proto  -> runtime-proto  (as test, with its own registry key: the user's own try of the new 연표
-                                                 prototype on the real screen, started by 「연표 시제품 써 보기.cmd」)
 
 Read-only game data (archives except scenario/fastdata, movies, fonts, 4x art) are hard links to Codex's current runtime
 (GAME, v19 since 10-24 14:20): the game never writes them. savedata, cg-quality.ini and every file this build changes are
@@ -220,14 +218,7 @@ def main(kind):
     sprite_art, sprite_patches = link_sprites(run)
     worse_keys, worse_files = drop_worse_art(run)
     fixed_art = link_fixed_art(run)
-    proto = run / 'chronicle-proto'   # the 10-26 prototype's pictures: gone with the real view
-    if proto.exists():
-        shutil.rmtree(proto)
-    view = run / 'chronicle-new'      # the new 연표's pictures and letter table (tools/chronicle_assets.py): test copies only for now
-    if kind in ('test', 'chron', 'proto') and (BUILD / 'chronicle-new').exists():
-        link_tree(BUILD / 'chronicle-new', view)
-    elif view.exists():
-        shutil.rmtree(view)
+    link_tree(BUILD / 'chronicle-new', run / 'chronicle-new')   # the 연표's pictures and letter table (tools/chronicle_assets.py)
     shutil.copy2(GAME / 'hires-manifest.json', run / 'hires-manifest.json')
     if not (run / 'cg-quality.ini').exists():
         shutil.copy2(GAME / 'cg-quality.ini', run / 'cg-quality.ini')
@@ -259,12 +250,7 @@ def main(kind):
         mute_flag.unlink(missing_ok=True)
         (run / 'scenario.arc').unlink(missing_ok=True)   # never written through a hard link
         shutil.copy2(BUILD / 'scenario.arc', run / 'scenario.arc')
-        if kind == 'proto':
-            # the user's hand-try copy sounds as the play copy (10-27: silenced, the sound mode's tracks "ended" at once and it
-            # skipped through them without end, 「음악 감상 모드가 깨지고 작동을 안하는데」); its settings stay under a key of its own
-            env_fastdata(GAME / 'fastdata.arc', run / 'fastdata.arc', {'REG_LOCAL': 'ReconquistaChronProto20261027'})
-        else:
-            link_file(GAME / 'fastdata.arc', run / 'fastdata.arc')
+        link_file(GAME / 'fastdata.arc', run / 'fastdata.arc')
     proof['scenario_sha256'] = sha(run / 'scenario.arc')
     (run / 'BUILD-IDENTITY.json').write_text(json.dumps(proof, ensure_ascii=False, indent=1), 'utf-8')
     print(json.dumps(proof, ensure_ascii=False))

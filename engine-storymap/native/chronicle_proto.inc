@@ -385,20 +385,24 @@ static bool Fresh(){auto t=std::make_shared<Table>();bool ok=ReadTable(*t);if(lo
   int(std::count_if(t->cells.begin(),t->cells.end(),[](const Cell&c){return c.Event();})),int(reviewEnabled));fflush(logFile);}Hand(t);return ok;}
 // a logical point of the game screen as the window's own (the input hook turns it back into 800x600 for the engine)
 static LPARAM At(HWND g,float x,float y){auto v=Viewport(g);return MAKELPARAM(v.x+int(lroundf(x*float(v.w)/800.f)),v.y+int(lroundf(y*float(v.h)/600.f)));}
-// what the view asked for, done to the 연표 under it as the user would: a scene (its scroll set so the cell is on screen, then
-// the cell hovered and clicked), 도움말 (its button hovered and clicked), closing (a right click); the view goes when the 연표 does
-static void Act(){static int phase=0;static ULONGLONG next=0,since=0;static LPARAM lp=0;int what=request.load();HWND g=Game();ULONGLONG now=GetTickCount64();
+// What the view asked for, done to the 연표 under it as the user would: a scene (its scroll set so the cell is on screen, then
+// the cell hovered and clicked), 도움말 (its button hovered and clicked), closing (a right click); the view goes when the 연표 does.
+// Stepped by the 연표's own frames (Frame, at each of its presents), not by a clock: the script reads the mouse once a loop and
+// presents once a loop, so a step held for STEP frames has been seen by it (11-25: the 50 ms timer and 60~350 ms holds made
+// closing take 0.2~0.29 s against the game's 0.08 s).
+static const int STEP=2,HELP_HOVER=30;   // 도움말 takes the click only after its button has been hovered for a while (10-27: 350 ms)
+static void Act(){static int phase=0,wait=0;static ULONGLONG since=0;static LPARAM lp=0;int what=request.load();HWND g=Game();ULONGLONG now=GetTickCount64();
  if(!what){phase=0;return;}if(!g)return;
  if(!chronicleOpen||now-since>5000&&phase){if(logFile){fprintf(logFile,"chron_proto act=%d done=%d ms=%llu\n",what,int(!chronicleOpen),phase?now-since:0ull);fflush(logFile);}request=0;phase=0;shown=false;if(HWND h=wnd)PostMessageW(h,WM_APP+1,0,0);return;}
- if(!phase){phase=1;since=now;next=now;}if(now<next)return;
+ if(!phase){phase=1;since=now;wait=0;}if(wait>0){wait--;return;}
  if(what==1){if(phase==1){int x=0,y=0,xm=0,ym=0;int row=reqRow,col=reqCol;Variable*tv=oldVarHash(0x0ff9be7eu);(void)tv;int d0=0,d1=0;const int*tp=Arr(0x0ff9be7eu,d0,d1),*hh=Arr(0xc4c743b7u,d0,d1);
    if(!tp||!hh){request=0;phase=0;return;}ChroniclePosition(nullptr,nullptr,&xm,&ym);int wantX=std::clamp(int(COL)*col-int(BW-COL)/2,0,std::max(0,xm)),wantY=std::clamp(tp[row]-(int(BH)-hh[row])/2,0,std::max(0,ym));
    ChronicleMoveTo(wantX,wantY);ChroniclePosition(&x,&y,nullptr,nullptr);float cx=std::clamp(BX+COL*float(col)-float(x)+COL/2,BX+4,BX+BW-4),cy=std::clamp(BY+float(tp[row]-y)+float(hh[row])/2,BY+HH+4,BY+BH-4);
-   lp=At(g,cx,cy);PostMessageW(g,WM_MOUSEMOVE,0,lp);phase=2;next=now+80;if(logFile){fprintf(logFile,"chron_proto act=scene row=%d col=%d scroll=%d,%d at=%.0f,%.0f\n",row,col+1,x,y,cx,cy);fflush(logFile);}}
-  else if(phase==2){PostMessageW(g,WM_LBUTTONDOWN,MK_LBUTTON,lp);phase=3;next=now+60;}else if(phase==3){PostMessageW(g,WM_LBUTTONUP,0,lp);phase=4;}}
- else if(what==2){if(phase==1){lp=At(g,444,35);PostMessageW(g,WM_MOUSEMOVE,0,lp);phase=2;next=now+350;}else if(phase==2){PostMessageW(g,WM_LBUTTONDOWN,MK_LBUTTON,lp);phase=3;next=now+60;}
+   lp=At(g,cx,cy);PostMessageW(g,WM_MOUSEMOVE,0,lp);phase=2;wait=STEP;if(logFile){fprintf(logFile,"chron_proto act=scene row=%d col=%d scroll=%d,%d at=%.0f,%.0f\n",row,col+1,x,y,cx,cy);fflush(logFile);}}
+  else if(phase==2){PostMessageW(g,WM_LBUTTONDOWN,MK_LBUTTON,lp);phase=3;wait=STEP;}else if(phase==3){PostMessageW(g,WM_LBUTTONUP,0,lp);phase=4;}}
+ else if(what==2){if(phase==1){lp=At(g,444,35);PostMessageW(g,WM_MOUSEMOVE,0,lp);phase=2;wait=HELP_HOVER;}else if(phase==2){PostMessageW(g,WM_LBUTTONDOWN,MK_LBUTTON,lp);phase=3;wait=STEP;}
   else if(phase==3){PostMessageW(g,WM_LBUTTONUP,0,lp);phase=4;}}
- else if(what==3){if(phase==1){lp=At(g,400,330);PostMessageW(g,WM_MOUSEMOVE,0,lp);phase=2;next=now+120;}else if(phase==2){PostMessageW(g,WM_RBUTTONDOWN,MK_RBUTTON,lp);PostMessageW(g,WM_RBUTTONUP,0,lp);phase=4;}}}
+ else if(what==3){if(phase==1){lp=At(g,400,330);PostMessageW(g,WM_MOUSEMOVE,0,lp);phase=2;wait=STEP;}else if(phase==2){PostMessageW(g,WM_RBUTTONDOWN,MK_RBUTTON,lp);PostMessageW(g,WM_RBUTTONUP,0,lp);phase=4;}}}
 // the game's 연표 opened (its menu button, the text box tab...): this view over it, its contents read now
 static void Replace(){static bool was=false;if(chronicleOpen&&!was){Fresh();shown=true;request=0;if(!running)Launch();else if(HWND h=wnd)PostMessageW(h,WM_APP+1,0,0);
   if(logFile){fprintf(logFile,"chron_proto replace opened\n");fflush(logFile);}}
@@ -407,11 +411,12 @@ static void Replace(){static bool was=false;if(chronicleOpen&&!was){Fresh();show
 static void Check(){if(checked)return;checked=true;wchar_t v[16]{};if(GetEnvironmentVariableW(L"RECON_CHRON_BENCH",v,16)){gpu=!wcscmp(v,L"benchgpu");bench=gpu||!wcscmp(v,L"bench")||!wcscmp(v,L"benchpace");if(!wcscmp(v,L"benchpace")){wchar_t hz[16]{};paceHz=GetEnvironmentVariableW(L"RECON_CHRON_PACE",hz,16)?_wtof(hz):120;}}
  ReadLook();}
 void SyncLookButton();
-// engine thread, every 50 ms (the buttons' timer)
+// engine thread, every 50 ms (the buttons' timer): readiness only
 void Tick(){Check();SyncLookButton();
  static ULONGLONG readyAt=0;if(bench&&titleReady&&!benchDone&&!running){if(!readyAt)readyAt=GetTickCount64();else if(GetTickCount64()-readyAt>3000){benchDone=true;Fresh();Launch();}}
- if(!bench&&titleReady&&!readyTried&&!running){shown=false;Fresh();Launch();}   // made ready hidden once the title is up
- if(!bench){Replace();Act();}}
+ if(!bench&&titleReady&&!readyTried&&!running){shown=false;Fresh();Launch();}}   // made ready hidden once the title is up
+// engine thread, at each present once chronicleOpen is known (defer.inc FinishFrame): the view follows the 연표's frames
+void Frame(){Check();if(!bench){Replace();Act();}}
 bool Shown(){return !bench&&running&&shown;}
 bool Covered(){return Shown()&&chronicleOpen;}   // the game's 연표 under the view: not drawn at 4x, not presented
 // ---------------------------------------------------------------- the config screen's look button (as 「CG·메뉴」, drawn the same)

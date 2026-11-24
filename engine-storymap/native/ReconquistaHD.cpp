@@ -364,7 +364,7 @@ static void __cdecl Transform(Bitmap*a,Box*x,Bitmap*b,Box*y,double angle,double 
 static HWND Game(){return ((HWND(__cdecl*)())0x43aa00)();}
 struct View {int x,y,w,h;};static View Viewport(HWND hwnd){RECT r{};GetClientRect(hwnd,&r);int w=r.right,h=r.bottom;if(w*3>h*4)w=h*4/3;else h=w*3/4;return {(r.right-w)/2,(r.bottom-h)/2,w,h};}
 static bool chronicleOpen=false;   // the game's 연표 script is up (defer.inc); the 연표 view (chronicle_proto.inc) covers it
-namespace cproto{void Tick();bool Shown();bool Covered();bool LookMessage(HWND,UINT,WPARAM,LPARAM);HWND LookButton();}   // chronicle_proto.inc: the 연표 view
+namespace cproto{void Tick();void Frame();bool Shown();bool Covered();bool LookMessage(HWND,UINT,WPARAM,LPARAM);HWND LookButton();}   // chronicle_proto.inc: the 연표 view
 static void ToLogical(const View&v,int&x,int&y){x=(int)floor(double(x-v.x)*800/std::max(1,v.w));y=(int)floor(double(y-v.y)*600/std::max(1,v.h));}
 static void ToPhysical(const View&v,LONG&x,LONG&y){x=v.x+(int)ceil(double(x)*v.w/800);y=v.y+(int)ceil(double(y)*v.h/600);}
 static BOOL WINAPI Invalidate(HWND h,const RECT* r,BOOL erase){if(r&&h==Game()){auto v=Viewport(h);RECT z{v.x+MulDiv(r->left,v.w,800),v.y+MulDiv(r->top,v.h,600),v.x+(int)ceil(double(r->right)*v.w/800),v.y+(int)ceil(double(r->bottom)*v.h/600)};return InvalidateRect(h,&z,erase);}return InvalidateRect(h,r,erase);}
