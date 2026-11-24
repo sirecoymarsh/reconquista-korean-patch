@@ -143,22 +143,27 @@ static void FCSound(const char*name,bool hover=false){auto stat=(FCSeStatFn)0x44
 // ------------------------------------------------------------------------------------------------ art
 static View fcView{};static float fcK=1;   // 4:3 game area inside the child window; physical px per game px
 struct FCImage {HBITMAP bmp=nullptr;void*bits=nullptr;int w=0,h=0;};
+// perf: where a map render's time goes (logged with inflow render)
+static double fcMsBlend=0,fcMsDim=0,fcMsText=0,fcMsWrap=0,fcMsTile=0,fcMsArt=0;struct FCTimer{double&d;LONGLONG t;FCTimer(double&x):d(x),t(Now()){}~FCTimer(){d+=Ms(t);}};
 static FCImage FCDib(int w,int h){FCImage r;BITMAPINFO bi{};bi.bmiHeader={sizeof(BITMAPINFOHEADER),w,-h,1,32,BI_RGB,0,0,0,0,0};r.bmp=CreateDIBSection(nullptr,&bi,DIB_RGB_COLORS,&r.bits,nullptr,0);if(r.bmp){r.w=w;r.h=h;}return r;}
 static void FCFree(FCImage&i){if(i.bmp)DeleteObject(i.bmp);i=FCImage{};}
 // Decoded once at native size (premultiplied BGRA), scaled copies cached per screen size.
 static std::unordered_map<std::wstring,FCImage> fcNative,fcScaled;
-static FCImage* FCNative(const std::wstring&name){auto it=fcNative.find(name);if(it!=fcNative.end())return it->second.bmp?&it->second:nullptr;FCImage img;Init();if(wic){wchar_t path[MAX_PATH];swprintf_s(path,L"%s\\storymap\\%s",root,name.c_str());Microsoft::WRL::ComPtr<IWICBitmapDecoder> dec;Microsoft::WRL::ComPtr<IWICBitmapFrameDecode> fr;Microsoft::WRL::ComPtr<IWICFormatConverter> cv;UINT w=0,h=0;
+static FCImage* FCNative(const std::wstring&name){auto it=fcNative.find(name);if(it!=fcNative.end())return it->second.bmp?&it->second:nullptr;FCTimer ft(fcMsArt);FCImage img;Init();if(wic){wchar_t path[MAX_PATH];swprintf_s(path,L"%s\\storymap\\%s",root,name.c_str());Microsoft::WRL::ComPtr<IWICBitmapDecoder> dec;Microsoft::WRL::ComPtr<IWICBitmapFrameDecode> fr;Microsoft::WRL::ComPtr<IWICFormatConverter> cv;UINT w=0,h=0;
  HRESULT hr=wic->CreateDecoderFromFilename(path,nullptr,GENERIC_READ,WICDecodeMetadataCacheOnLoad,&dec);if(SUCCEEDED(hr))hr=dec->GetFrame(0,&fr);if(SUCCEEDED(hr))hr=fr->GetSize(&w,&h);if(SUCCEEDED(hr))hr=wic->CreateFormatConverter(&cv);if(SUCCEEDED(hr))hr=cv->Initialize(fr.Get(),GUID_WICPixelFormat32bppPBGRA,WICBitmapDitherTypeNone,nullptr,0,WICBitmapPaletteTypeCustom);
  if(SUCCEEDED(hr)&&w&&h&&w<=8192&&h<=8192){img=FCDib(int(w),int(h));if(img.bmp&&FAILED(cv->CopyPixels(nullptr,w*4,w*h*4,(BYTE*)img.bits)))FCFree(img);}
  if(!img.bmp&&logFile){fprintf(logFile,"inflow art_missing %ls hr=%08lx\n",name.c_str(),hr);fflush(logFile);}}
  auto&slot=fcNative[name];slot=img;return slot.bmp?&slot:nullptr;}
-static FCImage FCResample(const FCImage&src,int sx,int sy,int sw,int sh,int w,int h){FCImage out=FCDib(std::max(1,w),std::max(1,h));if(!out.bmp||!src.bmp)return out;
+static FCImage FCResample(const FCImage&src,int sx,int sy,int sw,int sh,int w,int h){FCTimer ft(fcMsArt);FCImage out=FCDib(std::max(1,w),std::max(1,h));if(!out.bmp||!src.bmp)return out;
  // Area-weighted (box) downscale / bilinear upscale on premultiplied pixels; separable.
  auto S=(const unsigned char*)src.bits;auto D=(unsigned char*)out.bits;std::vector<float> tmp(size_t(w)*sh*4);
  auto pass=[&](int n,int m,auto get,auto put){double scale=double(n)/m;for(int o=0;o<m;o++){double a=o*scale,b=(o+1)*scale;if(scale<1){double c=(o+.5)*scale-.5;int i0=std::clamp(int(floor(c)),0,n-1),i1=std::min(i0+1,n-1);double t=std::clamp(c-floor(c),0.0,1.0);for(int ch=0;ch<4;ch++)put(o,ch,float(get(i0,ch)*(1-t)+get(i1,ch)*t));continue;}
   double acc[4]{};int i=int(floor(a));double wsum=0;for(;i<b&&i<n;i++){double lo=std::max(a,double(i)),hi=std::min(b,double(i+1)),wt=hi-lo;if(wt<=0)continue;for(int ch=0;ch<4;ch++)acc[ch]+=get(i,ch)*wt;wsum+=wt;}for(int ch=0;ch<4;ch++)put(o,ch,float(wsum>0?acc[ch]/wsum:0));}};
- for(int y=0;y<sh;y++){auto row=S+size_t(sy+y)*src.w*4+size_t(sx)*4;pass(sw,w,[&](int i,int ch){return double(row[i*4+ch]);},[&](int o,int ch,float v){tmp[(size_t(y)*w+o)*4+ch]=v;});}
- for(int x=0;x<w;x++)pass(sh,h,[&](int i,int ch){return double(tmp[(size_t(i)*w+x)*4+ch]);},[&](int o,int ch,float v){D[(size_t(o)*w+x)*4+ch]=(unsigned char)std::clamp(int(v+.5f),0,255);});
+ // rows of the first pass and columns of the second are independent: each on its own core, same arithmetic (11-25: a page's
+ // first draw at 4K resampled its plates one pixel at a time on one core)
+ std::vector<int> rows(static_cast<size_t>(sh)),cols(static_cast<size_t>(w));std::iota(rows.begin(),rows.end(),0);std::iota(cols.begin(),cols.end(),0);
+ std::for_each(std::execution::par,rows.begin(),rows.end(),[&](int y){auto row=S+size_t(sy+y)*src.w*4+size_t(sx)*4;pass(sw,w,[&](int i,int ch){return double(row[i*4+ch]);},[&](int o,int ch,float v){tmp[(size_t(y)*w+o)*4+ch]=v;});});
+ std::for_each(std::execution::par,cols.begin(),cols.end(),[&](int x){pass(sh,h,[&](int i,int ch){return double(tmp[(size_t(i)*w+x)*4+ch]);},[&](int o,int ch,float v){D[(size_t(o)*w+x)*4+ch]=(unsigned char)std::clamp(int(v+.5f),0,255);});});
  return out;}
 static FCImage* FCScaled(const std::wstring&name,int w,int h){wchar_t key[300];swprintf_s(key,L"%s|%d|%d",name.c_str(),w,h);auto it=fcScaled.find(key);if(it!=fcScaled.end())return it->second.bmp?&it->second:nullptr;auto n=FCNative(name);FCImage img;if(n)img=FCResample(*n,0,0,n->w,n->h,w,h);auto&slot=fcScaled[key];slot=img;return slot.bmp?&slot:nullptr;}
 // A plate drawn wider than its art keeps both pointed ends; only the middle stretches.
@@ -169,8 +174,6 @@ static FCImage* FCPlate(const std::wstring&name,int w,int h,float capFrac){wchar
 // Interior granite of a plate, used as a fill texture (no outline, no pointed ends).
 static FCImage* FCCrop(const std::wstring&name,int sx,int sy,int sw,int sh){int w=std::max(1,int(sw*fcK/4)),h=std::max(1,int(sh*fcK/4));wchar_t key[300];swprintf_s(key,L"%s|c%d,%d,%d,%d|%d|%d",name.c_str(),sx,sy,sw,sh,w,h);auto it=fcScaled.find(key);if(it!=fcScaled.end())return it->second.bmp?&it->second:nullptr;auto n=FCNative(name);FCImage img;if(n&&sx+sw<=n->w&&sy+sh<=n->h)img=FCResample(*n,sx,sy,sw,sh,w,h);auto&slot=fcScaled[key];slot=img;return slot.bmp?&slot:nullptr;}
 static void FCClearArt(){for(auto&a:fcScaled)FCFree(a.second);fcScaled.clear();}
-// perf: where a map render's time goes (logged with inflow render)
-static double fcMsBlend=0,fcMsDim=0,fcMsText=0,fcMsWrap=0,fcMsTile=0;struct FCTimer{double&d;LONGLONG t;FCTimer(double&x):d(x),t(Now()){}~FCTimer(){d+=Ms(t);}};
 // The map's full-screen passes (the chapter page's two dims and its panel took 75 of its 106 ms at 4K through AlphaBlend)
 // are done on the back buffer's own pixels, a row at a time on all cores, with AlphaBlend's premultiplied formula; other
 // DCs, and a clip that is not one rectangle, keep AlphaBlend.
@@ -337,11 +340,11 @@ static void DrawHelp(HDC dc){FCDim(dc,PR(0,0,800,600),170);RECT panel=PR(190,118
 
 // ------------------------------------------------------------------------------------------------ render, snapshot, actions
 static void FCLayout(){RECT r{};GetClientRect(fcWindow,&r);View v{};int w=r.right,h=r.bottom;if(w*3>h*4)w=h*4/3;else h=w*3/4;v={(r.right-w)/2,(r.bottom-h)/2,w,h};if(v.w!=fcView.w||v.h!=fcView.h){FCClearArt();FCClearFonts();}fcView=v;fcK=std::max(.1f,v.w/800.f);}
-static void FCRender(HWND,HDC target){LONGLONG t0=Now();fcMsBlend=fcMsDim=fcMsText=fcMsWrap=fcMsTile=0;FCLayout();RECT r{};GetClientRect(fcWindow,&r);if(fcBack.w!=r.right||fcBack.h!=r.bottom){FCFree(fcBack);fcBack=FCDib(std::max(1,int(r.right)),std::max(1,int(r.bottom)));}if(!fcBack.bmp)return;HDC dc=CreateCompatibleDC(target);auto old=SelectObject(dc,fcBack.bmp);fcDraw=&fcBack;fcDrawDC=dc;FCFill(dc,r,RGB(0,0,0));
+static void FCRender(HWND,HDC target){LONGLONG t0=Now();fcMsBlend=fcMsDim=fcMsText=fcMsWrap=fcMsTile=fcMsArt=0;FCLayout();RECT r{};GetClientRect(fcWindow,&r);if(fcBack.w!=r.right||fcBack.h!=r.bottom){FCFree(fcBack);fcBack=FCDib(std::max(1,int(r.right)),std::max(1,int(r.bottom)));}if(!fcBack.bmp)return;HDC dc=CreateCompatibleDC(target);auto old=SelectObject(dc,fcBack.bmp);fcDraw=&fcBack;fcDrawDC=dc;FCFill(dc,r,RGB(0,0,0));
  if(fcPage<2)DrawMap(dc);else DrawChapter(dc);if(fcHelp)DrawHelp(dc);
  if(fcCover&&!fcOpen){FCDim(dc,PR(0,0,800,600),150);FCText(dc,fcCoverText,400,300,true,17,FC_WHITE,1);}   // going to the line / back: the map stays over the fast run
  fcDraw=nullptr;fcDrawDC=nullptr;BitBlt(target,0,0,r.right,r.bottom,dc,0,0,SRCCOPY);SelectObject(dc,old);DeleteDC(dc);
- if(logFile){fprintf(logFile,"inflow render page=%d ms=%.1f size=%ldx%ld blend=%.1f dim=%.1f text=%.1f wrap=%.1f tile=%.1f\n",fcPage,Ms(t0),r.right,r.bottom,fcMsBlend,fcMsDim,fcMsText,fcMsWrap,fcMsTile);fflush(logFile);}}
+ if(logFile){fprintf(logFile,"inflow render page=%d ms=%.1f size=%ldx%ld blend=%.1f dim=%.1f text=%.1f wrap=%.1f tile=%.1f art=%.1f\n",fcPage,Ms(t0),r.right,r.bottom,fcMsBlend,fcMsDim,fcMsText,fcMsWrap,fcMsTile,fcMsArt);fflush(logFile);}}
 static void FCSnapshot(){if(!probe||!GetEnvironmentVariableW(L"RECON_FLOW_PROBE",nullptr,0))return;RECT r{};GetClientRect(fcWindow,&r);if(r.right<1||r.bottom<1)return;BITMAPINFO info{};int stride=(r.right*3+3)&~3;info.bmiHeader={sizeof(BITMAPINFOHEADER),r.right,-r.bottom,1,24,BI_RGB,DWORD(stride*r.bottom),0,0,0,0};void*bits=nullptr;HDC screen=GetDC(fcWindow),dc=CreateCompatibleDC(screen);HBITMAP bitmap=CreateDIBSection(screen,&info,DIB_RGB_COLORS,&bits,nullptr,0);if(!bitmap||!dc){if(bitmap)DeleteObject(bitmap);if(dc)DeleteDC(dc);ReleaseDC(fcWindow,screen);return;}auto old=SelectObject(dc,bitmap);FCRender(fcWindow,dc);GdiFlush();static unsigned shot=0;wchar_t dir[MAX_PATH],path[MAX_PATH];swprintf_s(dir,L"%s\\qa",root);CreateDirectoryW(dir,nullptr);swprintf_s(path,L"%s\\inflow-%02u.bmp",dir,shot++);FILE*f=nullptr;if(!_wfopen_s(&f,path,L"wb")&&f){BITMAPFILEHEADER head{};head.bfType=0x4d42;head.bfOffBits=sizeof(head)+sizeof(BITMAPINFOHEADER);head.bfSize=head.bfOffBits+stride*r.bottom;fwrite(&head,sizeof(head),1,f);fwrite(&info.bmiHeader,sizeof(BITMAPINFOHEADER),1,f);fwrite(bits,1,stride*r.bottom,f);fclose(f);}SelectObject(dc,old);DeleteObject(bitmap);DeleteDC(dc);ReleaseDC(fcWindow,screen);char b[64];sprintf_s(b,"snapshot page=%d",fcPage);FCLog(b);}
 static void FCRedraw(){InvalidateRect(fcWindow,nullptr,FALSE);FCSnapshot();}
 // replay: 다시보기 (back here at the chapter's end); else 「여기서부터 본편으로」 (the old jump: the game goes on from there)
