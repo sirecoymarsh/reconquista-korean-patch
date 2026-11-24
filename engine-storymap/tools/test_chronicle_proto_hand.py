@@ -1,4 +1,4 @@
-"""The new 연표 prototype by hand (RECON_CHRON_PROTO=1) on the private desktop, as the user's try uses it: made ready hidden
+"""The 연표 view by hand on the private desktop, as the user's try uses it: made ready hidden
 at the title; F7 to the game window shows it; wheel and arrows to it; F7, Esc, a right click, or F7 to the game window hides
 it; shown again at once each time; then the game closes normally with it shown.
 python test_chronicle_proto_hand.py [label]   -> qa/chron-proto-hand-<label>.json
@@ -15,7 +15,7 @@ res = {'label': label, 'steps': []}
 
 def visible(h):   # its own WS_VISIBLE: the game window itself is hidden off screen in these tests (RECON_HD_PROBE)
     return bool(h and qa.u.GetWindowLongW(h, -16) & 0x10000000)
-g = qa.Game(extra_env={'RECON_CHRON_PROTO': '1', 'RECON_HD_START_FULLSCREEN': '1'})
+g = qa.Game(extra_env={'RECON_HD_START_FULLSCREEN': '1'})
 
 
 def lines(prefix):

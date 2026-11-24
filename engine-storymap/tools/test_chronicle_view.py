@@ -1,6 +1,5 @@
-"""The new 연표 against the game's own (10-27): runtime-test, the story map's first chapter (도입부 1), the text box's 연표 tab.
-  python test_chronicle_view.py orig <label>   the game's 연표 alone (no RECON_CHRON_PROTO): presented output at each position
-  python test_chronicle_view.py view <label>   the new 연표 over it: its frame in both looks at the same positions
+"""The 연표 view in both looks (10-27): runtime-test, the story map's first chapter (도입부 1), the text box's 연표 tab.
+  python test_chronicle_view.py view <label>   its frame in both looks at fixed positions
   ... [review]   with 모든 콘텐츠 개방 on (every cell open; spoilers, never shown to the user)
 -> qa/chron-view-<label>/ (pictures: the test copy's own progress, review unlock off; Claude's checking only) and a .json
 """
@@ -22,8 +21,6 @@ review = len(sys.argv) > 3 and sys.argv[3] == 'review'   # 모든 콘텐츠 개�
 if review:
     (qa.RUN / 'review-unlock.enabled').write_text('1')
 env = {'RECON_PERF': '2', 'RECON_HD_START_FULLSCREEN': '1'}
-if mode == 'view':
-    env['RECON_CHRON_PROTO'] = '1'
 g = qa.Game(extra_env=env)
 shots = qa.RUN / 'qa'
 for p in shots.glob('chron-view-*.png') if shots.exists() else []:
@@ -83,59 +80,36 @@ def open_chronicle():
 
 try:
     open_chronicle()
-    if mode == 'orig':
+    g.until(lambda: lines('chron_proto show'), 15, 'view shows')
+    view = qa.u.FindWindowExW(g.hwnd, None, 'ReconChronicleProto', None)
+    step('view', table=lines('chron_proto table')[-1:], show=lines('chron_proto show')[-1:])
+    k = 0
+    for look in (1, 0):
+        g.post(view, WM_APP + 5, look, 0)
         for i, (x, y) in enumerate(POS):
-            g.post(g.hwnd, WM_APP + 83, x, y)
-            time.sleep(2.5)
-            n = 1 + i
-            for p in shots.glob(f'quality-{n:02d}-*.bmp'):
-                p.unlink()
-            g.post(g.hwnd, WM_APP + 80, 10 + n, 0)
-            g.until(lambda: (shots / f'quality-{n:02d}-output.bmp').exists(), 20, f'capture {i}')
-            time.sleep(.5)
-            Image.open(shots / f'quality-{n:02d}-output.bmp').convert('RGB').save(OUT / f'orig-{i}.png')
-            step('orig', i=i, pos=[x, y], moved=lines('chronicle_moved')[-1:])
-        # the description box: the cursor on a cell with a description and no link (at position 1)
-        g.post(g.hwnd, WM_APP + 83, *POS[1])
-        time.sleep(2.5)
-        hover(*HOVER)
-        time.sleep(1.2)
-        n = 9
-        g.post(g.hwnd, WM_APP + 80, 10 + n, 0)
-        g.until(lambda: (shots / f'quality-{n:02d}-output.bmp').exists(), 20, 'capture hover')
-        time.sleep(.5)
-        Image.open(shots / f'quality-{n:02d}-output.bmp').convert('RGB').save(OUT / 'orig-hover.png')
-    else:
-        g.until(lambda: lines('chron_proto show'), 15, 'view shows')
-        view = qa.u.FindWindowExW(g.hwnd, None, 'ReconChronicleProto', None)
-        step('view', table=lines('chron_proto table')[-1:], show=lines('chron_proto show')[-1:])
-        k = 0
-        for look in (1, 0):
-            g.post(view, WM_APP + 5, look, 0)
-            for i, (x, y) in enumerate(POS):
-                g.post(view, WM_APP + 4, x, y)
-                time.sleep(.6)
-                g.post(view, WM_APP + 3, k, 0)
-                g.until(lambda: (shots / f'chron-view-{k}.png').exists(), 10, f'shot {k}')
-                time.sleep(.3)
-                shutil.copy2(shots / f'chron-view-{k}.png', OUT / f'{"orig" if look else "new"}-look-{i}.png')
-                k += 1
-        for look in (1, 0):                                 # the description box / the panel, as for the game's
-            g.post(view, WM_APP + 5, look, 0)
-            g.post(view, WM_APP + 4, *POS[1])
-            time.sleep(.4)
-            g.post(view, 0x200, 0, ((round(HOVER[1] * 3.6) & 0xffff) << 16) | (round(HOVER[0] * 3.6) & 0xffff))
-            time.sleep(.8)
+            g.post(view, WM_APP + 4, x, y)
+            time.sleep(.6)
             g.post(view, WM_APP + 3, k, 0)
             g.until(lambda: (shots / f'chron-view-{k}.png').exists(), 10, f'shot {k}')
             time.sleep(.3)
-            shutil.copy2(shots / f'chron-view-{k}.png', OUT / f'{"orig" if look else "new"}-look-hover.png')
+            shutil.copy2(shots / f'chron-view-{k}.png', OUT / f'{"orig" if look else "new"}-look-{i}.png')
             k += 1
-        step('shots', n=k, lines=lines('chron_proto shot')[-2:])
-        g.key(view, 0x76)                                    # F7: closes, as the user would
-        g.until(lambda: 'chronicle_open=0' in g.log() or lines('chron_proto act'), 10, 'close')
-        time.sleep(1.5)
-        step('closed', act=lines('chron_proto act')[-2:], opens=g.log().count('chronicle_open=1'), closes=g.log().count('chronicle_open=0'))
+    for look in (1, 0):                                 # the description box / the panel, as for the game's
+        g.post(view, WM_APP + 5, look, 0)
+        g.post(view, WM_APP + 4, *POS[1])
+        time.sleep(.4)
+        g.post(view, 0x200, 0, ((round(HOVER[1] * 3.6) & 0xffff) << 16) | (round(HOVER[0] * 3.6) & 0xffff))
+        time.sleep(.8)
+        g.post(view, WM_APP + 3, k, 0)
+        g.until(lambda: (shots / f'chron-view-{k}.png').exists(), 10, f'shot {k}')
+        time.sleep(.3)
+        shutil.copy2(shots / f'chron-view-{k}.png', OUT / f'{"orig" if look else "new"}-look-hover.png')
+        k += 1
+    step('shots', n=k, lines=lines('chron_proto shot')[-2:])
+    g.key(view, 0x76)                                    # F7: closes, as the user would
+    g.until(lambda: 'chronicle_open=0' in g.log() or lines('chron_proto act'), 10, 'close')
+    time.sleep(1.5)
+    step('closed', act=lines('chron_proto act')[-2:], opens=g.log().count('chronicle_open=1'), closes=g.log().count('chronicle_open=0'))
 except Exception as e:
     res['error'] = repr(e)
     print('error', repr(e)[:500], flush=True)

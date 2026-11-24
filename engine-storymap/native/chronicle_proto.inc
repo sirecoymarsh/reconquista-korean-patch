@@ -1,4 +1,4 @@
-// The new 연표 (10-27; from the prototype of 10-26). The game's own 연표 (chronicle.mjo) still opens and keeps all its logic;
+// The 연표 (10-27; from the prototype of 10-26; the only one since 11-25). The game's own 연표 (chronicle.mjo) still opens and keeps all its logic;
 // the moment its first frame is drawn this view shows over it, drawn by the graphics card on its own thread, and the 연표 under
 // it costs nothing more while covered (Covered: no 4x drawing, no present). The contents are the 연표 script's own arrays in the
 // engine's memory (ReadTable), so they are the game's at that moment, the review unlock included. Two looks over the same
@@ -12,8 +12,9 @@
 // 좋아. 애초에 중요한건 안 버벅이는거였으니까.」, 「빈칸을 회색으로 만들고 그림을 넣는 등의 변화는 유지해도 좋아. 다만
 // 옵션에서 원본 연표처럼 보이는거랑 스위칭 가능하도록. 그 연표도 느리게 만들란 말은 아니야 겉만 같아 보이게 만들어달란거지」,
 // 「그 후에 연표를 원래 내용에 맞게 채워줘」.
-// RECON_CHRON_PROTO=1 or <runtime>\chronicle-new.enabled turns it on; =bench opens it at the title and scrolls it by itself for
-// 10 s (benchgpu: drawn off the screen, timed until the card is done). Pictures: tools/chronicle_assets.py -> chronicle-new\.
+// Always on (11-25, the user: 「옛 연표 자체를 퇴출시키고 스타일만 같은 걸 만드는거지」): the game's 연표 is never shown drawn by the
+// 4x layer. RECON_CHRON_BENCH=bench opens it at the title and scrolls it by itself for 10 s (benchgpu: drawn off the screen,
+// timed until the card is done; benchpace: held to RECON_CHRON_PACE frames a second). Pictures: tools/chronicle_assets.py -> chronicle-new\.
 #include <d2d1_1.h>
 #include <dwrite_3.h>
 #pragma comment(lib,"d2d1.lib")
@@ -60,7 +61,7 @@ static bool ReadTable(Table&t){ReadHangul();int d0=0,d1=0,a0=0,a1=0,b0=0,b1=0,c0
  t.sx=gx>=0?gx:Int(0x4d7f11eeu);t.sy=gy>=0?gy:Int(0xb1fffe23u);int cr=Int(0xd4bb03e2u,-1),cc=Int(0x1535dc22u,-1);if(cr>=2&&cr<t.rows&&cc>=1&&cc<=12){t.curRow=cr;t.curCol=cc-1;}
  t.chronicle=chronicleOpen;t.ok=true;return true;}
 // ---------------------------------------------------------------- state shared by the two threads
-static HWND wnd=nullptr;static std::atomic<bool> running{false},shown{false},classic{false},inputHeld{false};static bool bench=false,enabled=false,checked=false,benchDone=false;
+static HWND wnd=nullptr;static std::atomic<bool> running{false},shown{false},classic{false},inputHeld{false};static bool bench=false,checked=false,benchDone=false;
 static bool readyTried=false,parentGone=false,selfDestroy=false,lost=false,gpu=false;static char adapter[128]="";
 static std::mutex tableMutex;static std::shared_ptr<Table> pending;   // engine thread -> view thread
 static std::atomic<int> request{0};static int reqRow=0,reqCol=0;     // view thread -> engine thread: 1 a scene, 2 도움말, 3 close
@@ -263,7 +264,7 @@ static LRESULT CALLBACK Proc(HWND h,UINT m,WPARAM w,LPARAM l){
  if(closing&&(m==WM_KEYDOWN||m==WM_LBUTTONDOWN||m==WM_RBUTTONUP||m==WM_MOUSEWHEEL))return 0;   // handed to the 연표 under it: nothing more
  if(m==WM_MOUSEWHEEL){bool shift=(GetKeyState(VK_SHIFT)&0x8000)!=0;float n=float(short(HIWORD(w)))/WHEEL_DELTA;if(shift)tx-=n*COL;else ty-=n*88;ClampTarget();return 0;}   // the script's PgUp step
  if(m==WM_MOUSEHWHEEL){tx+=float(short(HIWORD(w)))/WHEEL_DELTA*COL;ClampTarget();return 0;}
- if(m==WM_KEYDOWN){if(w==VK_F7||(bench&&w==VK_ESCAPE)){if(bench)running=false;else Ask(3);return 0;}
+ if(m==WM_KEYDOWN){if(bench&&w==VK_ESCAPE){running=false;return 0;}
   if(w==VK_F8){SetLook(!classic,"f8");lookUntil=Now2()+1800;return 0;}   // the text layouts of both looks stay (made ready in Warm)
   if(w==VK_RETURN||w==VK_SPACE){Activate(crow,ccol);return 0;}
   if(crow<1||ccol<0){crow=std::max(2,hrow);ccol=std::max(0,hcol);}
@@ -284,7 +285,7 @@ static LRESULT CALLBACK Proc(HWND h,UINT m,WPARAM w,LPARAM l){
  if(m==WM_LBUTTONUP){float x,y;logical(x,y);ReleaseCapture();if(pressSwitch){int s=pressSwitch;pressSwitch=0;if(SwitchAt(x,y)==s)SetLook(s==2,"switch");return 0;}if(pressButton){int b=pressButton;pressButton=0;if(ButtonAt(x,y)==b)Press(b);return 0;}
   if(thumbDrag){thumbDrag=false;return 0;}bool click=dragging&&!dragMoved;dragging=false;if(click){int r,c;Hit(x,y,r,c);if(r>=1){crow=r;ccol=c;Activate(r,c);}}return 0;}
  if(m==WM_SETCURSOR&&LOWORD(l)==HTCLIENT){bool overTable=mouseIn&&mx>=BX&&mx<BX+BW&&my>=BY&&my<BY+BH;SetCursor(overTable?nullptr:LoadCursorW(nullptr,MAKEINTRESOURCEW(32512)));return TRUE;}
- if(m==WM_APP+1)return 0;   // F7 in the game window or a new table: wakes the loop
+ if(m==WM_APP+1)return 0;   // a new table or shown/hidden: wakes the loop
  if(m==WM_APP+3){ShotView(int(w));return 0;}   // tests: this frame as a picture
  if(m==WM_APP+4){sx=tx=float(std::clamp(int(w),0,tbl.maxX));sy=ty=float(std::clamp(int(l),0,tbl.maxY));return 0;}   // tests: put the table at x,y
  if(m==WM_APP+5){classic=w!=0;layouts.clear();return 0;}   // tests: the look (not remembered)
@@ -403,17 +404,15 @@ static void Replace(){static bool was=false;if(chronicleOpen&&!was){Fresh();show
   if(logFile){fprintf(logFile,"chron_proto replace opened\n");fflush(logFile);}}
  if(!chronicleOpen&&was&&shown&&!request.load()){shown=false;if(HWND h=wnd)PostMessageW(h,WM_APP+1,0,0);if(logFile){fprintf(logFile,"chron_proto replace closed_by_game\n");fflush(logFile);}}
  was=chronicleOpen;}
-static void Check(){if(checked)return;checked=true;wchar_t v[16]{};if(GetEnvironmentVariableW(L"RECON_CHRON_PROTO",v,16)){enabled=true;gpu=!wcscmp(v,L"benchgpu");bench=gpu||!wcscmp(v,L"bench")||!wcscmp(v,L"benchpace");if(!wcscmp(v,L"benchpace")){wchar_t hz[16]{};paceHz=GetEnvironmentVariableW(L"RECON_CHRON_PACE",hz,16)?_wtof(hz):120;}}
- wchar_t p[MAX_PATH];swprintf_s(p,L"%s\\chronicle-new.enabled",root);if(GetFileAttributesW(p)!=INVALID_FILE_ATTRIBUTES)enabled=true;ReadLook();}
+static void Check(){if(checked)return;checked=true;wchar_t v[16]{};if(GetEnvironmentVariableW(L"RECON_CHRON_BENCH",v,16)){gpu=!wcscmp(v,L"benchgpu");bench=gpu||!wcscmp(v,L"bench")||!wcscmp(v,L"benchpace");if(!wcscmp(v,L"benchpace")){wchar_t hz[16]{};paceHz=GetEnvironmentVariableW(L"RECON_CHRON_PACE",hz,16)?_wtof(hz):120;}}
+ ReadLook();}
 void SyncLookButton();
 // engine thread, every 50 ms (the buttons' timer)
-void Tick(){Check();SyncLookButton();if(!enabled)return;
+void Tick(){Check();SyncLookButton();
  static ULONGLONG readyAt=0;if(bench&&titleReady&&!benchDone&&!running){if(!readyAt)readyAt=GetTickCount64();else if(GetTickCount64()-readyAt>3000){benchDone=true;Fresh();Launch();}}
  if(!bench&&titleReady&&!readyTried&&!running){shown=false;Fresh();Launch();}   // made ready hidden once the title is up
  if(!bench){Replace();Act();}}
-// F7 in the game window: the view over whatever is there (tests; at the title it cannot go into scenes)
-bool Key(WPARAM vk){if(!enabled||bench||vk!=VK_F7)return false;if(shown){if(!chronicleOpen)shown=false;else request=3;}else{Fresh();shown=true;}if(!running)Launch();else if(HWND h=wnd)PostMessageW(h,WM_APP+1,0,0);return true;}
-bool Shown(){return enabled&&!bench&&running&&shown;}
+bool Shown(){return !bench&&running&&shown;}
 bool Covered(){return Shown()&&chronicleOpen;}   // the game's 연표 under the view: not drawn at 4x, not presented
 // ---------------------------------------------------------------- the config screen's look button (as 「CG·메뉴」, drawn the same)
 // Under the sound panel, in the middle: the row of 「CG·메뉴」 and 「모든 콘텐츠 개방」 has no room for a third (their labels),
@@ -423,7 +422,7 @@ HWND LookButton(){return lookButton;}   // quality_probe.inc's capture prints it
 static const wchar_t* LookLabel(){return classic?L"연표: 원래 모양":L"연표: 새 모양";}
 static LRESULT CALLBACK LookProc(HWND h,UINT m,WPARAM w,LPARAM l){if((m==WM_KEYDOWN||m==WM_KEYUP||m==WM_SYSKEYDOWN||m==WM_SYSKEYUP)&&w!=VK_SPACE)return SendMessageW(GetParent(h),m,w,l);
  auto r=CallWindowProcW(oldLookProc,h,m,w,l);if((m==WM_LBUTTONUP||m==WM_CAPTURECHANGED||m==WM_CANCELMODE)&&GetFocus()==h)SetFocus(GetParent(h));return r;}
-void SyncLookButton(){HWND parent=Game();if(!parent)return;if(!enabled||!ReviewButtonWanted()){if(lookButton&&(GetWindowLongW(lookButton,GWL_STYLE)&WS_VISIBLE)){if(GetFocus()==lookButton)SetFocus(parent);ShowWindow(lookButton,SW_HIDE);}return;}
+void SyncLookButton(){HWND parent=Game();if(!parent)return;if(!ReviewButtonWanted()){if(lookButton&&(GetWindowLongW(lookButton,GWL_STYLE)&WS_VISIBLE)){if(GetFocus()==lookButton)SetFocus(parent);ShowWindow(lookButton,SW_HIDE);}return;}
  if(!lookButton){lookButton=CreateWindowExW(0,L"BUTTON",LookLabel(),WS_CHILD|WS_TABSTOP|BS_OWNERDRAW,0,0,1,1,parent,(HMENU)(UINT_PTR)LOOK_ID,GetModuleHandleW(nullptr),nullptr);if(lookButton)oldLookProc=(WNDPROC)SetWindowLongPtrW(lookButton,GWLP_WNDPROC,(LONG_PTR)LookProc);}if(!lookButton)return;
  auto v=Viewport(parent);int x=v.x+MulDiv(318,v.w,800),y=v.y+MulDiv(574,v.h,600),w=MulDiv(165,v.w,800),h=MulDiv(24,v.h,600);RECT r{};GetWindowRect(lookButton,&r);MapWindowPoints(nullptr,parent,(POINT*)&r,2);
  if(r.left!=x||r.top!=y||r.right-r.left!=w||r.bottom-r.top!=h){SetWindowPos(lookButton,HWND_TOP,x,y,w,h,SWP_NOACTIVATE);int cut=std::max(3,h/5);POINT pts[]={{cut,0},{w-cut,0},{w,h/2},{w-cut,h},{cut,h},{0,h/2}};auto region=CreatePolygonRgn(pts,6,WINDING);if(region&&!SetWindowRgn(lookButton,region,TRUE))DeleteObject(region);}

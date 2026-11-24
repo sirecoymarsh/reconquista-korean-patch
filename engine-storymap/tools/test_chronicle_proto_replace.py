@@ -1,4 +1,4 @@
-"""The new 연표 prototype taking the game's own 연표 over (RECON_CHRON_PROTO=1, cproto::Replace in native/chronicle_proto.inc):
+"""The 연표 view taking the game's own 연표 over (cproto::Replace in native/chronicle_proto.inc):
 runtime-test, the story map's first chapter (도입부 1), then the text box's 연표 tab, as test_chronicle_close.py opens it. The
 prototype must show over the game's 연표, the 연표 under it close by itself (a right click), and hiding the prototype leave the
 scene as it was, with no click reaching it afterwards.
@@ -14,7 +14,7 @@ VK_F7 = 0x76
 qa.u.GetWindowLongW.argtypes = [w.HWND, w.INT]
 res = {'label': label, 'steps': []}
 (qa.RUN / 'review-unlock.enabled').unlink(missing_ok=True)
-g = qa.Game(extra_env={'RECON_CHRON_PROTO': '1', 'RECON_HD_START_FULLSCREEN': '1', 'RECON_PERF': '2'})
+g = qa.Game(extra_env={'RECON_HD_START_FULLSCREEN': '1', 'RECON_PERF': '2'})
 
 
 def lines(prefix):

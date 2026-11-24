@@ -6,7 +6,7 @@
   - 새 파일(DLL·글꼴·이야기 지도·새 연표·사용 허락 문서)은 KoreanPatch\\files 에서 복사.
   - 4K 그림(hires*·hires-sprites.txt·prefetch.bin)은 「고화질 묶음」 따로. 없어도 DLL은 1배 그림을 키워 쓴다.
   - 개인·개발 파일은 싣지 않는다: savedata, storymap-read.bin, review-unlock.enabled(검수용 개방은 꺼진 채 시작),
-    chronicle-original.enabled, *.ini(없으면 기본값: CG 4K·새 연표 모양), 로그, BUILD-IDENTITY, hires-manifest.
+    *.ini(없으면 기본값: CG 4K·새 연표 모양), 로그, BUILD-IDENTITY, hires-manifest.
   - 설정 저장 자리(REG_LOCAL)는 ReconquistaKR(시제품 사본 이름 대신). 원작 키를 쓰면 원작의 글꼴 설정이 섞인다.
   - hires\\ PNG 는 JXL 이 없는 것만(JXL 이 있으면 DLL 이 JXL 을 읽는다).
 
@@ -99,7 +99,7 @@ def main():
         print(f'delta {name}: {fwd.stat().st_size/1e6:.1f} MB (+ restore {back.stat().st_size/1e6:.1f} MB)', flush=True)
 
     # 본 패치에 들어갈 새 파일: 게임 폴더 안 이름 -> 원본 경로
-    files = {'ReconquistaHD.dll': Path(a.dll), 'chronicle-new.enabled': None, 'storymap.bin': src / 'storymap.bin'}
+    files = {'ReconquistaHD.dll': Path(a.dll), 'storymap.bin': src / 'storymap.bin'}
     for d in ('font', 'storymap', 'chronicle-new'):
         for p in sorted((src / d).rglob('*')):
             if p.is_file():
@@ -114,7 +114,7 @@ def main():
     font_license = ('Reconquista KR / Reconquista KR Serif 글꼴은 Adobe 의 Source Han Sans · Source Han Serif 를 고친 것입니다.\n'
                     'Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name \'Source\'.\n'
                     'Copyright 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name \'Source\'.\n\n').encode('utf-8') + FONT_LICENSE.read_bytes()
-    generated = {'chronicle-new.enabled': b'1\r\n', 'font\\LICENSE.txt': font_license}
+    generated = {'font\\LICENSE.txt': font_license}
 
     hd = {}
     pngs_needed = 0
@@ -275,7 +275,7 @@ echo [1/2] 고친 원본 파일을 되돌리는 중... 몇 분 걸립니다.
 if exist "%BK%\\applied.txt" for /f "usebackq tokens=1,2 delims=|" %%A in ("%BK%\\applied.txt") do call :restore "%%A" "%%B"
 
 echo [2/2] 패치가 더한 파일을 지우는 중...
-for %%F in (ReconquistaHD.dll storymap.bin chronicle-new.enabled hires-sprites.txt prefetch.bin hires-runtime.log storymap-read.bin storymap-read.tmp storymap-defer.off storymap-se-mute.flag review-unlock.enabled chronicle-original.enabled chronicle-look.ini cg-quality.ini cg-quality.ini.new) do if exist "%%F" del /q "%%F"
+for %%F in (ReconquistaHD.dll storymap.bin hires-sprites.txt prefetch.bin hires-runtime.log storymap-read.bin storymap-read.tmp storymap-defer.off storymap-se-mute.flag review-unlock.enabled chronicle-look.ini cg-quality.ini cg-quality.ini.new) do if exist "%%F" del /q "%%F"
 for %%D in (storymap chronicle-new hires hires-jxl hires-patch licenses) do if exist "%%D" rd /s /q "%%D"
 for %%F in (ReconquistaKR.otf ReconquistaKRLarge.otf ReconquistaKRSerif.otf ReconquistaKRSerifLarge.otf LICENSE.txt) do if exist "font\\%%F" del /q "font\\%%F"
 rd "font" 2>nul

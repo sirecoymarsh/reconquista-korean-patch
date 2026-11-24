@@ -35,10 +35,7 @@ struct Box {int x,y,w,h;};
 // blank: the 4x pixels (and the other-quality copy) are not filled yet; the caller overwrites all of them next.
 // job: a worker is decoding its 4x art (LoadHD); Join waits for it before anything else touches the shadow.
 struct DecodeJob;
-// hi (defer.inc, the 연표's low-res mode): per 1x pixel, 1 where the 4x block differs from the widened 1x pixel; empty until
-// first needed; hiDirty: the boxes changed since, other than by Nearest (which writes its runs as 0); kept apart (a scrolled
-// 연표 layer gets small frames, icons and text lines all over it) up to 256, then one box around them
-struct Shadow {Bitmap b{},alternateBitmap{};Shadow*maskShadow=nullptr; BITMAPINFO info{}; std::vector<unsigned char> pixels,snapshot,alternate,hi; std::vector<Box> hiDirty; uint64_t age=0,revision=0;Box dirty{};bool blank=false;DecodeJob*job=nullptr;};
+struct Shadow {Bitmap b{},alternateBitmap{};Shadow*maskShadow=nullptr; BITMAPINFO info{}; std::vector<unsigned char> pixels,snapshot,alternate; uint64_t age=0,revision=0;Box dirty{};bool blank=false;DecodeJob*job=nullptr;};
 static std::unordered_map<Bitmap*,std::unique_ptr<Shadow>> shadows;
 static std::unordered_set<uint32_t> missing;
 struct AssetTag {std::string name;uint64_t hash;bool hd=false;}; static std::unordered_map<Bitmap*,AssetTag> assets;   // hd: its shadow got the 4x art
@@ -46,9 +43,9 @@ struct AssetTag {std::string name;uint64_t hash;bool hd=false;}; static std::uno
 // reuse), trash (background frees), blank (no upscale before an overwrite), reuse (same picture handed back), par (row
 // bands for upscales and copies), async (background decode), defer (the screen batch); alt (timing only: no other-quality
 // copies at all, so the CG/menu quality switch does nothing), ahead (reading pictures ahead), cover (skipping screen draws a later Copy covers).
-enum {OFF_CRC=1,OFF_POOL=2,OFF_TRASH=4,OFF_BLANK=8,OFF_REUSE=16,OFF_PAR=32,OFF_ASYNC=64,OFF_DEFER=128,OFF_ALT=256,OFF_AHEAD=512,OFF_COVER=1024,OFF_SPARSE=2048,OFF_LOWRES=4096};
-static bool Off(unsigned f){static const unsigned mask=[]{wchar_t v[256]{};unsigned m=0;if(GetEnvironmentVariableW(L"RECON_OFF",v,256)){const wchar_t*names[]={L"crc",L"pool",L"trash",L"blank",L"reuse",L"par",L"async",L"defer",L"alt",L"ahead",L"cover",L"sparse",L"lowres"};
-  for(unsigned i=0;i<13;i++)if(wcsstr(v,names[i]))m|=1u<<i;}return m;}();return (mask&f)!=0;}
+enum {OFF_CRC=1,OFF_POOL=2,OFF_TRASH=4,OFF_BLANK=8,OFF_REUSE=16,OFF_PAR=32,OFF_ASYNC=64,OFF_DEFER=128,OFF_ALT=256,OFF_AHEAD=512,OFF_COVER=1024,OFF_SPARSE=2048};
+static bool Off(unsigned f){static const unsigned mask=[]{wchar_t v[256]{};unsigned m=0;if(GetEnvironmentVariableW(L"RECON_OFF",v,256)){const wchar_t*names[]={L"crc",L"pool",L"trash",L"blank",L"reuse",L"par",L"async",L"defer",L"alt",L"ahead",L"cover",L"sparse"};
+  for(unsigned i=0;i<12;i++)if(wcsstr(v,names[i]))m|=1u<<i;}return m;}();return (mask&f)!=0;}
 // The asset check's hash of the low-res pixels, compared only within a run. Byte-wise FNV-1a took 3.3 ms for an 800x600
 // RGB bitmap and a load ran it up to three times; CRC32C over 4-byte words in three lanes takes 0.1 ms (tools/membench).
 static uint64_t Fingerprint(Bitmap*b){static const bool crc=[]{int r[4];__cpuid(r,1);return ((r[2]>>20)&1)!=0;}();int span=b->w*(b->format?1:3);uint64_t tail=1469598103934665603ull;
@@ -61,19 +58,11 @@ static uint64_t Fingerprint(Bitmap*b){static const bool crc=[]{int r[4];__cpuid(
 static bool cg4k=true,cgDesired=true,cgPending=false,cgApplyFailed=false;static unsigned cgRetries=0;static ULONGLONG cgRetryAt=0;static void QualityStatus();static int decoding=0;static uint64_t revisionClock=0;
 static bool IsCG(uint32_t key){return std::binary_search(std::begin(cgKeys),std::end(cgKeys),key)||std::binary_search(std::begin(uiKeys),std::end(uiKeys),key);}
 static bool perf=false;
-static void Dirty(Shadow*s,Box r,bool hiStale=true){if(!s||r.w<=0||r.h<=0)return;s->revision=++revisionClock;
- if(hiStale&&!s->hi.empty()){auto&v=s->hiDirty;v.push_back(r);
-  if(v.size()>256){Box h=v[0];for(auto&q:v){int x=std::min(h.x,q.x),y=std::min(h.y,q.y);h={x,y,std::max(h.x+h.w,q.x+q.w)-x,std::max(h.y+h.h,q.y+q.h)-y};}v.assign(1,h);}}if(s->dirty.w<=0||s->dirty.h<=0)s->dirty=r;else{int x=std::min(s->dirty.x,r.x),y=std::min(s->dirty.y,r.y);s->dirty={x,y,std::max(s->dirty.x+s->dirty.w,r.x+r.w)-x,std::max(s->dirty.y+s->dirty.h,r.y+r.h)-y};}}
+static void Dirty(Shadow*s,Box r){if(!s||r.w<=0||r.h<=0)return;s->revision=++revisionClock;
+ if(s->dirty.w<=0||s->dirty.h<=0)s->dirty=r;else{int x=std::min(s->dirty.x,r.x),y=std::min(s->dirty.y,r.y);s->dirty={x,y,std::max(s->dirty.x+s->dirty.w,r.x+r.w)-x,std::max(s->dirty.y+s->dirty.h,r.y+r.h)-y};}}
 static bool LoadHD(Bitmap*,const char*,uint64_t);static void Join(Shadow*);static void JoinAll();static void ApplyCG();static void SettleFor(Shadow*);static void SettleAll();static bool Defer(char,Bitmap*,Bitmap*,Shadow*,Shadow*,const Box&,const Box&,int);static void FinishFrame();   // defer.inc
 static bool screenDrawn=false;   // something was drawn onto the screen page since the last present (copy and mask in Defer, alpha, transform)
-static bool ovCapturing=false;   // overview.inc is walking the 연표 across its table
-static bool lowResAltStale=false;static void LowResFixAlt();   // defer.inc: the 연표's low-res frames drew only the shown copy of the screen
-// 연표 원래 화면 (10-26, the user: 「연표에서만 원래 화면으로 바꾸는 스위치를 만들어 줘. 키로 켜고 끌 수 있게.」): F8 in the 연표,
-// remembered in chronicle-original.enabled. Its frames skip the 4x composition and the 4x present (defer.inc OriginalDrop,
-// scaled_present.inc OriginalPresent): the engine's own 800x600 picture is shown, enlarged, as the original game shows it.
-static bool chronicleOriginal=false,lastFrameDrew=false;static ULONGLONG originalLabelUntil=0;static uint64_t oDrops=0,oPresents=0;static double oPresentMs=0;
-static bool HiCarry(char,Bitmap*,const Box&,Bitmap*,const Box&,Shadow*,Shadow*,int);   // defer.inc: a page's hi through a blit
-static bool lowResKeep=false;   // the 연표 is up: a shadow made now (widened from its 1x) starts with hi 0, not compared later
+static bool lastFrameDrew=false;
 static int flowWarmStage=0;static ULONGLONG flowArriveTick=0;static uint64_t tick=0,used=0; static int nesting=0; static FILE* logFile=nullptr;
 static wchar_t root[MAX_PATH]; static IWICImagingFactory* wic=nullptr;
 static bool probe=false,probeNative=false;static bool inputProbe=false;static bool configProbe=false;static HWND reviewButton=nullptr;static HFONT reviewFont=nullptr;static int reviewFontPixels=0;static const UINT REVIEW_BUTTON_ID=0x7e42;static bool reviewProbe=false;static bool reviewEnabled=false;static HMENU reviewMenu=nullptr;static const UINT REVIEW_ID=0x7e41;static bool forceStartupFullscreen=false,titleReady=false;static unsigned probeShots=0;static ULONGLONG probeTime=0;static bool initialized=false; static HWND game=nullptr; static HMENU oldMenu=nullptr; static LONG oldStyle=0; static RECT oldRect{}; static bool fullscreen=false;static bool displayConfigured=false;static RECT desired{};static HMONITOR probeMonitor=nullptr;
@@ -102,12 +91,11 @@ static void Init(){if(initialized)return;initialized=true;CrashlogInstall();perf
  wchar_t path[MAX_PATH];swprintf_s(path,L"%s\\hires-runtime.log",root);logFile=_wfsopen(path,L"w",_SH_DENYNO); QueryPerformanceFrequency(&freq);
  CoInitializeEx(nullptr,COINIT_MULTITHREADED);CoCreateInstance(CLSID_WICImagingFactory,nullptr,CLSCTX_INPROC_SERVER,IID_PPV_ARGS(&wic));
  wchar_t reviewPath[MAX_PATH];swprintf_s(reviewPath,L"%s\\review-unlock.enabled",root);reviewEnabled=GetFileAttributesW(reviewPath)!=INVALID_FILE_ATTRIBUTES;
- swprintf_s(path,L"%s\\chronicle-original.enabled",root);chronicleOriginal=GetFileAttributesW(path)!=INVALID_FILE_ATTRIBUTES;
  swprintf_s(path,L"%s\\cg-quality.ini",root);cg4k=GetPrivateProfileIntW(L"graphics",L"cg_4k",1,path)!=0;cgDesired=cg4k;
  if(logFile){fprintf(logFile,"Reconquista HD v1 logical=800x600 backing=3200x2400 dpi_aware=%d\n",IsProcessDPIAware());fflush(logFile);}}
 static Box Clip(Bitmap* b,Box r){int ex=std::min(b->w,r.x+std::max(0,r.w)),ey=std::min(b->h,r.y+std::max(0,r.h));r.x=std::max(0,r.x);r.y=std::max(0,r.y);r.w=std::max(0,ex-r.x);r.h=std::max(0,ey-r.y);return r;}
 static bool Valid(Bitmap* b){return b&&b->pixels&&b->w>0&&b->h>0&&b->w<=8192&&b->h<=8192&&b->pitch>0&&uint64_t(b->w)*b->h<16000000;}
-static void Snapshot(Shadow* s,Bitmap* b,Box box,bool hiStale=true){box=Clip(b,box);int ch=b->format?1:3;for(int y=box.y;y<box.y+box.h;y++)memcpy(s->snapshot.data()+y*b->pitch+box.x*ch,b->pixels+y*b->pitch+box.x*ch,box.w*ch);Dirty(s,box,hiStale);}
+static void Snapshot(Shadow* s,Bitmap* b,Box box){box=Clip(b,box);int ch=b->format?1:3;for(int y=box.y;y<box.y+box.h;y++)memcpy(s->snapshot.data()+y*b->pitch+box.x*ch,b->pixels+y*b->pitch+box.x*ch,box.w*ch);Dirty(s,box);}
 // A low-res pixel becomes a 4x4 block. A run of pixels is widened into the block's first 4x row, and that span is copied
 // to the other three rows and to the other-quality copy: the same bytes as writing each pixel 16 times, at a fraction of
 // the cost (a fresh 800x600 shadow took 21-34 ms pixel by pixel, a scene change loads several).
@@ -115,7 +103,6 @@ static void Widen(unsigned char* d,const unsigned char* p,int n,int ch){
  if(ch==1){for(int i=0;i<n;i++)memset(d+i*4,p[i],4);return;}
  for(int i=0;i<n;i++,p+=3,d+=12){d[0]=d[3]=d[6]=d[9]=p[0];d[1]=d[4]=d[7]=d[10]=p[1];d[2]=d[5]=d[8]=d[11]=p[2];}}
 static void NearestRun(Shadow*s,const unsigned char*p,int x,int y,int n,int ch){size_t span=size_t(n)*4*ch,at=size_t(x)*4*ch;auto d0=s->pixels.data()+size_t(y*4)*s->b.pitch+at;Widen(d0,p,n,ch);
- if(!s->hi.empty())memset(s->hi.data()+size_t(y)*(s->b.w/4)+x,0,size_t(n));   // a widened 1x pixel is low-res by definition
  for(int yy=1;yy<4;yy++)memcpy(d0+size_t(yy)*s->b.pitch,d0,span);
  if(!s->alternate.empty())for(int yy=0;yy<4;yy++)memcpy(s->alternate.data()+size_t(y*4+yy)*s->b.pitch+at,d0,span);}
 // perf only: the first 30 large syncs and 10 base fills also run the old pixel-by-pixel loops on copies; they must match.
@@ -149,7 +136,7 @@ static void Nearest(Shadow* s,Bitmap* b,Box box,bool changedOnly){Timing timer(p
   if(bands>=2){NearestJob j{s,b,box,ch,changedOnly,ya,bands};BandsRun(bands,NearestBand,&j);
    for(int k=0;k<bands;k++){auto&q=j.part[k];e.x0=std::min(e.x0,q.x0);e.x1=std::max(e.x1,q.x1);e.y0=std::min(e.y0,q.y0);e.y1=std::max(e.y1,q.y1);e.moved+=q.moved;}}
   else NearestRows(s,b,box,ch,changedOnly,ya,yend,e);}
- fallbackPixels+=e.moved;if(perf&&e.moved)perfMoved[b]+=e.moved;if(e.x0<e.x1)Dirty(s,{e.x0,e.y0,e.x1-e.x0,e.y1-e.y0},false);   // NearestRun kept hi
+ fallbackPixels+=e.moved;if(perf&&e.moved)perfMoved[b]+=e.moved;if(e.x0<e.x1)Dirty(s,{e.x0,e.y0,e.x1-e.x0,e.y1-e.y0});
  if(check){nearestParity++;fprintf(logFile,"perf_nearest_parity n=%d size=%dx%d changed_only=%d equal=%d\n",nearestParity,box.w,box.h,changedOnly,rp==s->pixels&&ra==s->alternate&&rs==s->snapshot);fflush(logFile);}
 }
 // 4x buffers that ForgetShadow, DropAlternate and the decode cache let go wait here (exact sizes, up to 192 MB) for the
@@ -175,7 +162,7 @@ static Shadow* Get(Bitmap* b,Box box,bool create,bool useMask=false,bool blank=f
  if(it==shadows.end()){if(!create)return nullptr;size_t pitch=((b->w*4*(b->format?1:3)+3)&~3);size_t n=pitch*b->h*4;if(n>512ull*1024*1024||used+n+size_t(b->pitch)*b->h>1400ull*1024*1024){if(logFile){fprintf(logFile,"shadow_limit used=%llu needed=%llu count=%u\n",used,uint64_t(n),unsigned(shadows.size()));fflush(logFile);}return nullptr;}
  auto u=std::make_unique<Shadow>();s=u.get();s->b=*b;s->b.w*=4;s->b.h*=4;s->b.pitch=int(pitch);uint64_t hit0=hSpareHit;Reuse(s->pixels,n);s->snapshot.resize(size_t(b->pitch)*b->h);
  if(hitch&&logFile){auto tag=assets.find(b);char note[384];sprintf_s(note,"shadow_new %p %dx%d fmt=%d blank=%d reused=%d name=%.200s\n",(void*)b,b->w,b->h,b->format,blank,hSpareHit!=hit0,tag!=assets.end()?tag->second.name.c_str():"");TraceNote(note);}s->b.pixels=s->pixels.data();s->b.handle=nullptr;s->b.prev=s->b.next=nullptr;
- s->info.bmiHeader={sizeof(BITMAPINFOHEADER),s->b.w,-s->b.h,1,WORD(b->format?8:24),BI_RGB,DWORD(n),0,0,0,0};s->b.info=&s->info;if(blank){memcpy(s->snapshot.data(),b->pixels,s->snapshot.size());s->blank=true;Dirty(s,{0,0,b->w,b->h});}else Nearest(s,b,{0,0,b->w,b->h},false);shadows[b]=std::move(u);used+=n+s->snapshot.size();created=true;hShadows++;if(lowResKeep)s->hi.assign(size_t(b->w)*b->h,0);
+ s->info.bmiHeader={sizeof(BITMAPINFOHEADER),s->b.w,-s->b.h,1,WORD(b->format?8:24),BI_RGB,DWORD(n),0,0,0,0};s->b.info=&s->info;if(blank){memcpy(s->snapshot.data(),b->pixels,s->snapshot.size());s->blank=true;Dirty(s,{0,0,b->w,b->h});}else Nearest(s,b,{0,0,b->w,b->h},false);shadows[b]=std::move(u);used+=n+s->snapshot.size();created=true;hShadows++;
  }else{s=it->second.get();if(s->b.w!=b->w*4||s->b.h!=b->h*4||s->b.format!=b->format||s->snapshot.size()!=size_t(b->pitch)*b->h){if(logFile){fprintf(logFile,"shadow_mismatch old=%d,%d,%d new=%d,%d,%d ptr=%p\n",s->b.w,s->b.h,s->b.format,b->w*4,b->h*4,b->format,b);fflush(logFile);}return nullptr;}if(blank){SettleFor(s);memcpy(s->snapshot.data(),b->pixels,s->snapshot.size());s->blank=true;Dirty(s,{0,0,b->w,b->h});}else Nearest(s,b,box,true);}
  // The engine attaches a fresh matte after its named-image loader returns.
  // Cached RGB records may still contain the previous matte during decoding.
@@ -304,7 +291,7 @@ static bool LoadHD(Bitmap* b,const char* name,uint64_t fp){if(flowWarmStage==2)r
  Dirty(s,{0,0,b->w,b->h});assets[b]={name,fp,true};loads++;if(key==0xef1f6a40u||key==0xd6925685u||key==0xc1e942c6u){titleReady=true;titleShownTick=GetTickCount64();}
  if(logFile){if(patch)fprintf(logFile,"asset %08x %dx%d -> %dx%d patch_on=%08x\n",key,b->w,b->h,w,h,patch->base);else if(art!=key)fprintf(logFile,"asset %08x %dx%d -> %dx%d file=%08x\n",key,b->w,b->h,w,h,art);
   else fprintf(logFile,"asset %08x %dx%d -> %dx%d\n",key,b->w,b->h,w,h);fflush(logFile);}return true;}
-static void ApplyCG(){if(!cgPending||flowWarmStage)return;JoinAll();SettleAll();if(lowResAltStale)LowResFixAlt();auto t=Now();unsigned changed=0;if(cgDesired!=cg4k){for(auto&a:shadows){auto*s=a.second.get();if(s->alternate.empty())continue;s->pixels.swap(s->alternate);s->b.pixels=s->pixels.data();Dirty(s,{0,0,a.first->w,a.first->h});changed++;}cg4k=cgDesired;}cgPending=false;QualityStatus();InvalidateRect(game,nullptr,FALSE);if(logFile){fprintf(logFile,"cg_apply quality=%s source_count=%u failed=%d pending=0 ms=%.3f\n",cg4k?"4k":"base",changed,cgApplyFailed,Ms(t));fflush(logFile);}}
+static void ApplyCG(){if(!cgPending||flowWarmStage)return;JoinAll();SettleAll();auto t=Now();unsigned changed=0;if(cgDesired!=cg4k){for(auto&a:shadows){auto*s=a.second.get();if(s->alternate.empty())continue;s->pixels.swap(s->alternate);s->b.pixels=s->pixels.data();Dirty(s,{0,0,a.first->w,a.first->h});changed++;}cg4k=cgDesired;}cgPending=false;QualityStatus();InvalidateRect(game,nullptr,FALSE);if(logFile){fprintf(logFile,"cg_apply quality=%s source_count=%u failed=%d pending=0 ms=%.3f\n",cg4k?"4k":"base",changed,cgApplyFailed,Ms(t));fflush(logFile);}}
 using LoadFn=Bitmap*(__cdecl*)(const char*);static LoadFn oldLoad,oldLoadDirect;
 static ULONGLONG lastLoadTick=0;   // the last picture the engine asked for (flow.inc: a screen being rebuilt has settled)
 static Bitmap* LoadCommon(LoadFn fn,const char* n){if(nesting)return fn(n);nesting++;HitchTime ht(hLoadMs);LONGLONG engineLoad=hitch?Now():0;Bitmap* b=fn(n);lastLoadTick=GetTickCount64();if(hitch)hEngLoadMs+=Ms(engineLoad);if(probe&&logFile){fprintf(logFile,"load call %s %dx%d\n",n,b?b->w:0,b?b->h:0);fflush(logFile);}{try{bool loaded=false;uint64_t fp=Valid(b)?Fingerprint(b):0;
@@ -367,60 +354,33 @@ static bool Pair(Bitmap* a,Box* ar,Bitmap* b,Box* br,Shadow*& sa,Shadow*& sb,boo
 // perf only: every top-level blit of one idle chronicle frame (the one after present 150): what does the script redraw?
 static void TraceBlit(char kind,Bitmap*a,const Box&ar,Bitmap*b,const Box&br,int t){if(!perf||!logFile||(pPresent!=150&&!traceFrames&&!traceRecord))return;Bitmap*screen=*(Bitmap**)0x56a6a8;auto named=assets.find(a);auto sa=shadows.find(a),sb=shadows.find(b);bool altA=sa!=shadows.end()&&!sa->second->alternate.empty(),altB=sb!=shadows.end()&&!sb->second->alternate.empty();
  char note[512];sprintf_s(note,"trace %c src=%p %dx%d box=%d,%d,%d,%d dst=%s%p %dx%d at=%d,%d t=%d shadows=%d%d alt=%d%d mask=%d name=%.200s\n",kind,(void*)a,a->w,a->h,ar.x,ar.y,ar.w,ar.h,b==screen?"SCREEN ":"",(void*)b,b->w,b->h,br.x,br.y,t,sa!=shadows.end(),sb!=shadows.end(),altA,altB,a->mask!=nullptr,named!=assets.end()?named->second.name.c_str():"");TraceNote(note);}
-static void __cdecl Copy(Bitmap* a,Box* ar,Bitmap* b,Box* br){Box target{br->x,br->y,ar->w,ar->h};br=&target;if(nesting){oldCopy(a,ar,b,br);return;}TraceBlit('C',a,*ar,b,*br,0);nesting++;HitchTime hook(hHookMs);Shadow *sa=nullptr,*sb=nullptr;bool hd=false,deferred=false;bool cover=a!=b&&a->pixels!=b->pixels&&br->x==0&&br->y==0&&ar->w==b->w&&ar->h==b->h;try{HitchTime pair(hPairMs);hd=Pair(a,ar,b,br,sa,sb,false,false,cover);}catch(const std::bad_alloc&){cgApplyFailed=true;}if(hd){BlitTiming timer('C',ar->w,ar->h);Box x=Scale(*ar),y=Scale(*br);if(!(deferred=Defer('C',a,b,sa,sb,x,y,0))){Banded(oldCopy,nullptr,&sa->b,x,&sb->b,y,0);if(!sa->alternate.empty()||!sb->alternate.empty()){auto aa=AltBitmap(sa),bb=AltBitmap(sb);Banded(oldCopy,nullptr,&aa,x,&bb,y,0);}}sb->blank=false;blits++;}{HitchTime engine(hEngBlitMs);oldCopy(a,ar,b,br);}if(hd){HitchTime snap(hSnapMs);bool carried=!deferred&&HiCarry('C',a,*ar,b,*br,sa,sb,0);Snapshot(sb,b,*br,!deferred&&!carried);if(sa!=sb&&sa->alternate.empty()&&br->x==0&&br->y==0&&ar->w==b->w&&ar->h==b->h&&!sb->alternate.empty())DropAlternate(sb);}nesting--;}
+static void __cdecl Copy(Bitmap* a,Box* ar,Bitmap* b,Box* br){Box target{br->x,br->y,ar->w,ar->h};br=&target;if(nesting){oldCopy(a,ar,b,br);return;}TraceBlit('C',a,*ar,b,*br,0);nesting++;HitchTime hook(hHookMs);Shadow *sa=nullptr,*sb=nullptr;bool hd=false,deferred=false;bool cover=a!=b&&a->pixels!=b->pixels&&br->x==0&&br->y==0&&ar->w==b->w&&ar->h==b->h;try{HitchTime pair(hPairMs);hd=Pair(a,ar,b,br,sa,sb,false,false,cover);}catch(const std::bad_alloc&){cgApplyFailed=true;}if(hd){BlitTiming timer('C',ar->w,ar->h);Box x=Scale(*ar),y=Scale(*br);if(!(deferred=Defer('C',a,b,sa,sb,x,y,0))){Banded(oldCopy,nullptr,&sa->b,x,&sb->b,y,0);if(!sa->alternate.empty()||!sb->alternate.empty()){auto aa=AltBitmap(sa),bb=AltBitmap(sb);Banded(oldCopy,nullptr,&aa,x,&bb,y,0);}}sb->blank=false;blits++;}{HitchTime engine(hEngBlitMs);oldCopy(a,ar,b,br);}if(hd){HitchTime snap(hSnapMs);Snapshot(sb,b,*br);if(sa!=sb&&sa->alternate.empty()&&br->x==0&&br->y==0&&ar->w==b->w&&ar->h==b->h&&!sb->alternate.empty())DropAlternate(sb);}nesting--;}
 static void __cdecl Swap(Bitmap* a,Box* ar,Bitmap* b,Box* br){Box target{br->x,br->y,ar->w,ar->h};br=&target;if(nesting){oldSwap(a,ar,b,br);return;}nesting++;Shadow *sa=nullptr,*sb=nullptr;bool hd=false;try{hd=Pair(a,ar,b,br,sa,sb,true);}catch(const std::bad_alloc&){cgApplyFailed=true;}if(hd){BlitTiming timer('S',ar->w,ar->h);Box x=Scale(*ar),y=Scale(*br);SettleAll();oldSwap(&sa->b,&x,&sb->b,&y);if(!sa->alternate.empty()||!sb->alternate.empty()){auto aa=AltBitmap(sa),bb=AltBitmap(sb);oldSwap(&aa,&x,&bb,&y);}blits++;}oldSwap(a,ar,b,br);if(hd){Snapshot(sa,a,*ar);Snapshot(sb,b,*br);}nesting--;}
 static void AlphaCommon(AlphaFn fn,Bitmap* a,Box* ar,Bitmap* b,Box* br,int alpha){Box target{br->x,br->y,ar->w,ar->h};br=&target;if(nesting){fn(a,ar,b,br,alpha);return;}if(b==*(Bitmap**)0x56a6a8)screenDrawn=true;hAlphas++;
- // the 연표's half-clear screen-wide mark (submenu_マーク, t=128) stays out of the overview pictures
- if(ovCapturing&&b==*(Bitmap**)0x56a6a8){auto it=assets.find(a);if(it!=assets.end()&&it->second.name.rfind("submenu_",0)==0)return;}
  TraceBlit(fn==oldAlpha?'A':'M',a,*ar,b,*br,alpha);nesting++;HitchTime hook(hHookMs);Shadow *sa=nullptr,*sb=nullptr;bool hd=false,deferred=false;try{HitchTime pair(hPairMs);hd=Pair(a,ar,b,br,sa,sb,false,fn==oldMask);}catch(const std::bad_alloc&){cgApplyFailed=true;}if(hd){BlitTiming timer(fn==oldAlpha?'A':'M',ar->w,ar->h);Box x=Scale(*ar),y=Scale(*br);auto blit=[&](Bitmap*p,Bitmap*q){Banded(nullptr,fn,p,x,q,y,alpha);};
-  if(!(deferred=Defer(fn==oldAlpha?'A':'M',a,b,sa,sb,x,y,alpha))){blit(&sa->b,&sb->b);if(!sa->alternate.empty()||!sb->alternate.empty()){auto aa=AltBitmap(sa),bb=AltBitmap(sb);blit(&aa,&bb);}}blits++;}{HitchTime engine(hEngBlitMs);fn(a,ar,b,br,alpha);}if(hd){HitchTime snap(hSnapMs);bool carried=!deferred&&HiCarry(fn==oldAlpha?'A':'M',a,*ar,b,*br,sa,sb,alpha);Snapshot(sb,b,*br,!deferred&&!carried);if(fn==oldMask&&b->mask){auto m=shadows.find(b->mask);if(m!=shadows.end())Snapshot(m->second.get(),b->mask,*br);}}nesting--;}
+  if(!(deferred=Defer(fn==oldAlpha?'A':'M',a,b,sa,sb,x,y,alpha))){blit(&sa->b,&sb->b);if(!sa->alternate.empty()||!sb->alternate.empty()){auto aa=AltBitmap(sa),bb=AltBitmap(sb);blit(&aa,&bb);}}blits++;}{HitchTime engine(hEngBlitMs);fn(a,ar,b,br,alpha);}if(hd){HitchTime snap(hSnapMs);Snapshot(sb,b,*br);if(fn==oldMask&&b->mask){auto m=shadows.find(b->mask);if(m!=shadows.end())Snapshot(m->second.get(),b->mask,*br);}}nesting--;}
 static void __cdecl Alpha(Bitmap*a,Box*x,Bitmap*b,Box*y,int t){AlphaCommon(oldAlpha,a,x,b,y,t);}static void __cdecl Mask(Bitmap*a,Box*x,Bitmap*b,Box*y,int t){AlphaCommon(oldMask,a,x,b,y,t);}
 static void __cdecl Transform(Bitmap*a,Box*x,Bitmap*b,Box*y,double angle,double sx,double sy){if(nesting){oldTransform(a,x,b,y,angle,sx,sy);return;}if(b==*(Bitmap**)0x56a6a8)screenDrawn=true;nesting++;Shadow *sa=nullptr,*sb=nullptr;bool hd=false;try{hd=Pair(a,x,b,y,sa,sb,false,true,false,true);}catch(const std::bad_alloc&){cgApplyFailed=true;}if(hd){if(perf&&logFile&&(y->x<0||y->y<0||y->x+y->w>b->w||y->y+y->h>b->h)){static int count=0;if(count++<32){fprintf(logFile,"transform4k clipped_target src=%dx%d dst=%dx%d box=%d,%d,%d,%d scale=%.3f,%.3f\n",a->w,a->h,b->w,b->h,y->x,y->y,y->w,y->h,sx,sy);fflush(logFile);}}BlitTiming timer('T',x->w,x->h);Box xx=Scale(*x),yy=Scale(*y);SettleAll();oldTransform(&sa->b,&xx,&sb->b,&yy,angle,sx,sy);if(!sa->alternate.empty()||!sb->alternate.empty()){auto aa=AltBitmap(sa),bb=AltBitmap(sb);oldTransform(&aa,&xx,&bb,&yy,angle,sx,sy);}blits++;}oldTransform(a,x,b,y,angle,sx,sy);if(hd){Snapshot(sb,b,*y);if(b->mask){auto m=shadows.find(b->mask);if(m!=shadows.end())Snapshot(m->second.get(),b->mask,*y);}}nesting--;}
 static HWND Game(){return ((HWND(__cdecl*)())0x43aa00)();}
 struct View {int x,y,w,h;};static View Viewport(HWND hwnd){RECT r{};GetClientRect(hwnd,&r);int w=r.right,h=r.bottom;if(w*3>h*4)w=h*4/3;else h=w*3/4;return {(r.right-w)/2,(r.bottom-h)/2,w,h};}
-// 연표 zoom (ChronicleZoom below): the part of the 800x600 page the viewport shows, in logical units, only while the chronicle
-// is open (chronicleOpen, defer.inc). The engine still draws the whole page; presenting and the mouse mapping follow it.
-struct ZoomArea {double x,y,w,h;};static double zoomLevel=1,zoomX=0,zoomY=0;static bool chronicleOpen=false;
-static bool OriginalShown(){return chronicleOriginal&&chronicleOpen&&!ovCapturing;}   // the overview's walk needs the real 4x
-// The 연표 table on the 800x600 page (measured 10-25, tools/probe_chronicle_window.py): row titles x 19..92, column titles
-// y 73..114, body x 95..762 y 114..566 (its 675x503 pages sit at 95,71 partly under the frame). Table units: a body point
-// shown at page (sx,sy) with the chronicle scrolled to (X,Y) is (sx+X, sy+Y); the whole table spans 19..762+xmax, 73..566+ymax.
-static const int TBL_X0=19,TBL_Y0=73,TBL_X1=762,TBL_Y1=566,BODY_X=95,BODY_Y=114;
-// Below 1 the chronicle shows its whole table (overview.inc): ovX/ovY is the top-left of the shown part in table units.
-static bool ovReady=false;static double ovX=0,ovY=0;
-static void OverviewBegin(double zoom,double sx,double sy,double vx,double vy);static void OverviewEnter(double zoom,double sx,double sy,double vx,double vy);
-static void OverviewLeave(double x,double y);static void OverviewFree();static bool OverviewInput(UINT msg,WPARAM wp,LPARAM lp);
-static int OverviewDraw(HDC dc,int x,int y,int w,int h,UINT usage);static HWND zoomButton=nullptr;static const UINT ZOOM_ID=0x7e45;
-static void SyncZoomButton();static void DrawZoomButton(const DRAWITEMSTRUCT*);static void ZoomButtonClick();static void OverviewDump();static void OverviewMore(int notches);
-namespace cproto{void Tick();bool Key(WPARAM);bool Shown();bool Covered();bool LookMessage(HWND,UINT,WPARAM,LPARAM);HWND LookButton();}   // chronicle_proto.inc: the new 연표 prototype (test copies)
-static HWND originalButton=nullptr;static const UINT ORIGINAL_ID=0x7e46;static void SyncOriginalButton();static void DrawOriginalButton(const DRAWITEMSTRUCT*);static void OriginalButtonClick();   // overview.inc
-static bool Zoomed(){return zoomLevel>1&&chronicleOpen;}
-static ZoomArea Zoom(){if(!Zoomed())return {0,0,800,600};return {zoomX,zoomY,800/zoomLevel,600/zoomLevel};}
-static void ToLogical(const View&v,int&x,int&y){auto z=Zoom();x=(int)floor(z.x+double(x-v.x)*z.w/std::max(1,v.w));y=(int)floor(z.y+double(y-v.y)*z.h/std::max(1,v.h));}
-static void ToPhysical(const View&v,LONG&x,LONG&y){auto z=Zoom();x=v.x+(int)ceil((double(x)-z.x)*v.w/z.w);y=v.y+(int)ceil((double(y)-z.y)*v.h/z.h);}
-static BOOL WINAPI Invalidate(HWND h,const RECT* r,BOOL erase){if(r&&h==Game()){auto v=Viewport(h);RECT z{v.x+MulDiv(r->left,v.w,800),v.y+MulDiv(r->top,v.h,600),v.x+(int)ceil(double(r->right)*v.w/800),v.y+(int)ceil(double(r->bottom)*v.h/600)};if(Zoomed())z={v.x,v.y,v.x+v.w,v.y+v.h};return InvalidateRect(h,&z,erase);}return InvalidateRect(h,r,erase);}
-static BOOL WINAPI ToClient(HWND h,LPPOINT p){BOOL ok=ScreenToClient(h,p);if(ok&&h==Game()){auto v=Viewport(h);int x=p->x,y=p->y;ToLogical(v,x,y);p->x=x;p->y=y;if(ovCapturing){p->x=799;p->y=599;}}return ok;}   // while the overview walks the 연표, no cell is under the cursor
+static bool chronicleOpen=false;   // the game's 연표 script is up (defer.inc); the 연표 view (chronicle_proto.inc) covers it
+namespace cproto{void Tick();bool Shown();bool Covered();bool LookMessage(HWND,UINT,WPARAM,LPARAM);HWND LookButton();}   // chronicle_proto.inc: the 연표 view
+static void ToLogical(const View&v,int&x,int&y){x=(int)floor(double(x-v.x)*800/std::max(1,v.w));y=(int)floor(double(y-v.y)*600/std::max(1,v.h));}
+static void ToPhysical(const View&v,LONG&x,LONG&y){x=v.x+(int)ceil(double(x)*v.w/800);y=v.y+(int)ceil(double(y)*v.h/600);}
+static BOOL WINAPI Invalidate(HWND h,const RECT* r,BOOL erase){if(r&&h==Game()){auto v=Viewport(h);RECT z{v.x+MulDiv(r->left,v.w,800),v.y+MulDiv(r->top,v.h,600),v.x+(int)ceil(double(r->right)*v.w/800),v.y+(int)ceil(double(r->bottom)*v.h/600)};return InvalidateRect(h,&z,erase);}return InvalidateRect(h,r,erase);}
+static BOOL WINAPI ToClient(HWND h,LPPOINT p){BOOL ok=ScreenToClient(h,p);if(ok&&h==Game()){auto v=Viewport(h);int x=p->x,y=p->y;ToLogical(v,x,y);p->x=x;p->y=y;}return ok;}
 static BOOL WINAPI ToScreen(HWND h,LPPOINT p){if(h==Game()){auto v=Viewport(h);ToPhysical(v,p->x,p->y);}return ClientToScreen(h,p);}
 // The chronicle drags with the cursor clipped to ClientToScreen(0,0) plus the engine's 800x600 size, which in HD was an
 // 800x600 box of physical pixels at the viewport's corner. Map the logical box onto the viewport. Probe runs never clip.
 static BOOL WINAPI ClipToGame(const RECT* r){HWND g=Game();if(!r||!g)return ClipCursor(r);POINT o{0,0};ToScreen(g,&o);POINT a{r->left-o.x,r->top-o.y},b{r->right-o.x+1,r->bottom-o.y+1};ToScreen(g,&a);ToScreen(g,&b);RECT s{a.x,a.y,b.x,b.y};
- if(Zoomed()){auto v=Viewport(g);POINT c{v.x,v.y};ClientToScreen(g,&c);RECT seen{c.x,c.y,c.x+v.w,c.y+v.h};IntersectRect(&s,&s,&seen);}   // zoomed, the page is wider than the window
  if(logFile){fprintf(logFile,"clip_cursor logical=%ld,%ld,%ld,%ld screen=%ld,%ld,%ld,%ld\n",r->left-o.x,r->top-o.y,r->right-o.x+1,r->bottom-o.y+1,s.left,s.top,s.right,s.bottom);fflush(logFile);}
  return probe?TRUE:ClipCursor(&s);}
 // Legacy input callback 41b560 reads WM_MOUSEMOVE LPARAM directly at 41ba00.
 // It rejects physical coordinates >=800x600 before hit testing; convert at this consumer.
 static bool FCBlockInput(UINT);
-// 연표 scrolls by drag and PgUp/PgDn only: its $mk_stat (0x42c080) reads keys 0x82 0x83 0x88 0x21 0x22. While its frame art
-// is on screen (chronicleShown, defer.inc) the arrow keys move it by one column (128) / one PgUp step (88), through the glide
-// targets the chronicle already uses to move to a newly opened event (30 per loop): x $4d7f11ee (max $704d8d29), y
-// $b1fffe23 (max $d95c0a13), targets $1d19c016 / $dc971fd6 (-99 = idle). The wheel goes to the engine untouched: it moved
-// the chronicle up/down here for a day, and the player then missed the wheel's zoom (10-25).
-static bool chronicleShown=false;static bool ChronicleScroll(UINT msg,WPARAM wp);static bool ChronicleZoom(UINT msg,WPARAM wp,LPARAM lp);
 using InputFn=int(__cdecl*)(HWND,UINT,WPARAM,LPARAM);static InputFn oldInput;
 static int __cdecl Input(HWND h,UINT msg,WPARAM wp,LPARAM lp){
  if(h==Game()&&FCBlockInput(msg))return 1;
- if(h==Game()&&ovCapturing&&((msg>=WM_KEYFIRST&&msg<=WM_KEYLAST)||(msg>=WM_MOUSEFIRST&&msg<=WM_MOUSELAST)))return 1;   // the overview is moving the chronicle around
- if(h==Game()&&(ChronicleZoom(msg,wp,lp)||OverviewInput(msg,wp,lp)||ChronicleScroll(msg,wp)))return 1;
  if(h==Game()&&((msg>=WM_MOUSEMOVE&&msg<=WM_MBUTTONDBLCLK)||(msg>=WM_XBUTTONDOWN&&msg<=WM_XBUTTONDBLCLK))){
   auto v=Viewport(h);int x=(short)LOWORD(lp),y=(short)HIWORD(lp);
   ToLogical(v,x,y);
@@ -448,37 +408,6 @@ static bool ChroniclePosition(int*x,int*y,int*xmax,int*ymax){if(!oldVarHash)retu
  if(!vx||!vy||!mx||!my)return false;if(x)*x=vx->value;if(y)*y=vy->value;if(xmax)*xmax=mx->value;if(ymax)*ymax=my->value;return true;}
 static bool ChronicleMoveTo(int x,int y){if(!oldVarHash)return false;Variable *vx=oldVarHash(0x4d7f11eeu),*vy=oldVarHash(0xb1fffe23u),*mx=oldVarHash(0x704d8d29u),*my=oldVarHash(0xd95c0a13u),*tx=oldVarHash(0x1d19c016u),*ty=oldVarHash(0xdc971fd6u);
  if(!vx||!vy||!mx||!my||!tx||!ty)return false;vx->value=std::clamp(x,0,std::max(0,mx->value));vy->value=std::clamp(y,0,std::max(0,my->value));tx->value=ty->value=-99;return true;}
-// 연표 arrow keys (see above Input): ←→ one column, ↑↓ one PgUp step.
-static bool ChronicleScroll(UINT msg,WPARAM wp){
- if(!chronicleOpen||!oldVarHash)return false;int dx=0,dy=0;
- if(msg==WM_KEYDOWN&&(wp==VK_LEFT||wp==VK_RIGHT))dx=wp==VK_LEFT?-128:128;
- else if(msg==WM_KEYDOWN&&(wp==VK_UP||wp==VK_DOWN))dy=wp==VK_UP?-88:88;
- else return false;
- Variable *x=oldVarHash(0x4d7f11eeu),*y=oldVarHash(0xb1fffe23u),*xm=oldVarHash(0x704d8d29u),*ym=oldVarHash(0xd95c0a13u),*tx=oldVarHash(0x1d19c016u),*ty=oldVarHash(0xdc971fd6u);
- if(!x||!y||!xm||!ym||!tx||!ty)return false;
- bool gliding=tx->value>=0&&ty->value>=0;int bx=gliding?tx->value:x->value,by=gliding?ty->value:y->value;
- tx->value=std::clamp(bx+dx,0,std::max(0,xm->value));ty->value=std::clamp(by+dy,0,std::max(0,ym->value));
- if(logFile&&(probe||perf)){fprintf(logFile,"chronicle_scroll msg=%04x at=%d,%d target=%d,%d max=%d,%d\n",msg,x->value,y->value,tx->value,ty->value,xm->value,ym->value);fflush(logFile);}
- return true;}
-// 연표 wheel zoom (10-25, user: 「휠 위로는 커서 자리를 크게, 아래로는 원래 크기까지」; the original chronicle reads no wheel):
-// x1.25 a notch up to x4 around the cursor, the point under it staying put. Below the whole page (user: 「원본에서 작아지게」,
-// 「원래 크기로 돌아오는 버튼도」) it goes on into the whole table (overview.inc) down to where all of it fits. Leaving the
-// chronicle resets it (defer.inc FinishFrame). Zoomed frames are scaled up with cubic, so the 4x pixels do not show.
-static int zoomRest=0;
-static bool ChronicleZoom(UINT msg,WPARAM wp,LPARAM lp){
- if(msg!=WM_MOUSEWHEEL||!chronicleOpen)return false;zoomRest+=(short)HIWORD(wp);int notches=zoomRest/WHEEL_DELTA;zoomRest%=WHEEL_DELTA;if(!notches)return true;
- if(ovCapturing){OverviewMore(notches);return true;}   // turned while the table is being collected: applied when it is shown
- HWND g=Game();POINT p{(short)LOWORD(lp),(short)HIWORD(lp)};ScreenToClient(g,&p);auto v=Viewport(g);auto z=Zoom();
- double fx=std::clamp(double(p.x-v.x)/std::max(1,v.w),0.0,1.0),fy=std::clamp(double(p.y-v.y)/std::max(1,v.h),0.0,1.0),lx=z.x+fx*z.w,ly=z.y+fy*z.h,sx=800*fx,sy=600*fy;
- double target=zoomLevel*pow(1.25,notches);
- if(zoomLevel<1){double vx=ovX+(sx-TBL_X0)/zoomLevel,vy=ovY+(sy-TBL_Y0)/zoomLevel;   // the table point under the cursor stays put
-  if(target>=0.999)OverviewLeave(vx-sx,vy-sy);else OverviewEnter(target,sx,sy,vx,vy);}
- else if(target<0.999){int X=0,Y=0;ChroniclePosition(&X,&Y,nullptr,nullptr);zoomLevel=1;zoomX=zoomY=0;   // lx+X: the page point under the cursor, in table units
-  if(ovReady)OverviewEnter(target,sx,sy,lx+X,ly+Y);else OverviewBegin(target,sx,sy,lx+X,ly+Y);}
- else{zoomLevel=std::clamp(target,1.0,4.0);if(zoomLevel<1.001)zoomLevel=1;double w=800/zoomLevel,h=600/zoomLevel;zoomX=std::clamp(lx-fx*w,0.0,800-w);zoomY=std::clamp(ly-fy*h,0.0,600-h);}
- InvalidateRect(g,nullptr,FALSE);
- if(logFile){fprintf(logFile,"chronicle_zoom level=%.4f area=%.2f,%.2f,%.2f,%.2f at=%ld,%ld overview=%.1f,%.1f\n",zoomLevel,zoomX,zoomY,800/std::max(1.0,zoomLevel),600/std::max(1.0,zoomLevel),p.x,p.y,ovX,ovY);fflush(logFile);}
- return true;}
 using VoidFn=void(__cdecl*)();static VoidFn oldSeenGet,oldSeenSet;
 static void __cdecl SeenGet(){if(reviewEnabled){((void(__cdecl*)(int))0x41c760)(1);return;}oldSeenGet();}
 static void __cdecl SeenSet(){if(reviewEnabled){((void(__cdecl*)(int))0x41c760)(0);return;}oldSeenSet();}
@@ -544,7 +473,7 @@ static void DrawReviewButton(const DRAWITEMSTRUCT* di){
 }
 #include "quality.inc"
 #include "storymap_button.inc"
-static void CALLBACK ReviewButtonTimer(HWND,UINT,UINT_PTR,DWORD){SyncReviewButton();SyncQualityButton();SyncStoryMapButton();SyncZoomButton();SyncOriginalButton();cproto::Tick();}
+static void CALLBACK ReviewButtonTimer(HWND,UINT,UINT_PTR,DWORD){SyncReviewButton();SyncQualityButton();SyncStoryMapButton();cproto::Tick();}
 
 static void CALLBACK ProbeTimer(HWND,UINT,UINT_PTR,DWORD);
 static RECT lastModeRect{},lastMonitorRect{};static HMONITOR lastModeMonitor=nullptr;
@@ -564,24 +493,13 @@ static void QueueDisplayFit(HWND h){if(!displayFitQueued)displayFitQueued=PostMe
 // Suppress only that handler's legacy sizing branch, leaving other callbacks and normal window moves intact.
 static int __cdecl GetMode(){return fullscreen?1:0;}
 using LayoutFn=int(__cdecl*)(HWND,UINT,WPARAM,LPARAM);static LayoutFn oldLayout;
-// 연표 원래 화면: F8 in the 연표, or its switch (overview.inc), turns it on or off at once and remembers it; after F8 a
-// label says which for two seconds (the switch shows it itself).
-static void ToggleOriginal(bool label=true){Init();chronicleOriginal=!chronicleOriginal;wchar_t path[MAX_PATH];swprintf_s(path,L"%s\\chronicle-original.enabled",root);
- if(chronicleOriginal){HANDLE f=CreateFileW(path,GENERIC_WRITE,FILE_SHARE_READ,nullptr,CREATE_ALWAYS,FILE_ATTRIBUTE_NORMAL,nullptr);if(f!=INVALID_HANDLE_VALUE){DWORD n=0;WriteFile(f,"1\r\n",3,&n,nullptr);CloseHandle(f);}}
- else DeleteFileW(path);
- originalLabelUntil=label?GetTickCount64()+2000:0;if(logFile){fprintf(logFile,"chronicle_original=%d by=%s\n",chronicleOriginal,label?"f8":"switch");fflush(logFile);}
- if(originalButton)InvalidateRect(originalButton,nullptr,FALSE);}
 static int __cdecl Layout(HWND h,UINT msg,WPARAM wp,LPARAM lp){
  if(displayConfigured&&h==Game()){
   if(msg==WM_DISPLAYFIT){displayFitQueued=false;if(fullscreen&&!IsIconic(h))ApplyDisplayMode(1,false);return 1;}
   if(fullscreen&&(msg==WM_DISPLAYCHANGE||msg==WM_DPICHANGED||(msg==WM_ACTIVATEAPP&&wp))){
    QueueDisplayFit(h);if(msg==WM_DISPLAYCHANGE||msg==WM_DPICHANGED)return 1;
   }
-  if(msg==WM_KEYDOWN&&!(lp&(1L<<30))&&cproto::Key(wp))return 1;   // F7: the new 연표 prototype (RECON_CHRON_PROTO=1)
-  if((msg==WM_KEYDOWN||msg==WM_SYSKEYDOWN)&&wp==VK_F8&&chronicleOpen&&!fcOpen){if(!(lp&(1L<<30)))ToggleOriginal();return 1;}   // only in the 연표; elsewhere F8 is the game's
-  if(msg==WM_DRAWITEM&&wp==ORIGINAL_ID&&lp){DrawOriginalButton((const DRAWITEMSTRUCT*)lp);return 1;}
   if(cproto::LookMessage(h,msg,wp,lp))return 1;   // the config screen's 「연표: 새 모양 / 원래 모양」
-  if(msg==WM_COMMAND&&LOWORD(wp)==ORIGINAL_ID&&HIWORD(wp)==BN_CLICKED&&(HWND)lp==originalButton){OriginalButtonClick();SetFocus(h);return 1;}
   if(msg==WM_APP+81){SyncReviewButton();SyncQualityButton();SyncStoryMapButton();return 1;}
   if(perf&&msg==WM_APP+80){PerfCommand(h,wp);return 1;}
   if(perf&&msg==WM_APP+84){DumpVar(uint32_t(wp));return 1;}   // tests: a VM variable and what it points at
@@ -592,8 +510,6 @@ static int __cdecl Layout(HWND h,UINT msg,WPARAM wp,LPARAM lp){
   if(msg==WM_DRAWITEM&&wp==QUALITY_ID&&lp){DrawQualityButton((const DRAWITEMSTRUCT*)lp);return 1;}
   if(msg==WM_COMMAND&&LOWORD(wp)==QUALITY_ID&&HIWORD(wp)==BN_CLICKED&&(HWND)lp==qualityButton){ToggleQuality();SetFocus(h);return 1;}
   if(msg==WM_DRAWITEM&&wp==REVIEW_BUTTON_ID&&lp){DrawReviewButton((const DRAWITEMSTRUCT*)lp);return 1;}
-  if(msg==WM_DRAWITEM&&wp==ZOOM_ID&&lp){DrawZoomButton((const DRAWITEMSTRUCT*)lp);return 1;}
-  if(msg==WM_COMMAND&&LOWORD(wp)==ZOOM_ID&&HIWORD(wp)==BN_CLICKED&&(HWND)lp==zoomButton){ZoomButtonClick();SetFocus(h);return 1;}
   if(msg==WM_COMMAND&&LOWORD(wp)==REVIEW_BUTTON_ID&&HIWORD(wp)==BN_CLICKED&&(HWND)lp==reviewButton){ToggleReview();SyncReviewButton();InvalidateRect(reviewButton,nullptr,FALSE);UpdateWindow(reviewButton);SetFocus(h);return 1;}
   if((msg==WM_COMMAND&&LOWORD(wp)==0x7e43)||((msg==WM_KEYDOWN||msg==WM_SYSKEYDOWN)&&wp==VK_F11)){if(msg==WM_COMMAND||!(lp&(1L<<30)))OpenFlowChart();return 1;}
   if(msg==WM_COMMAND&&LOWORD(wp)==REVIEW_ID){ToggleReview();return 1;}
@@ -682,17 +598,13 @@ static void ProbeConfig(){
 static BOOL WINAPI WindowShow(HWND h,int cmd){if(probe&&h==Game())cmd=SW_HIDE;return ShowWindow(h,cmd);}
 #include "scaled_present.inc"
 #include "defer.inc"
-#include "overview.inc"
 static int WINAPI Present(HDC dc,int dx,int dy,int dw,int dh,int sx,int sy,int sw,int sh,const void* bits,const BITMAPINFO* info,UINT usage,DWORD rop){Init();Bitmap* b=*(Bitmap**)0x56a6a8;HWND hwnd=WindowFromDC(dc);if(probe&&logFile){fprintf(logFile,"present attempt hwnd=%p game=%p bits=%p main=%p valid=%d\n",hwnd,Game(),bits,b?b->pixels:nullptr,Valid(b));fflush(logFile);}if(!Valid(b)||bits!=b->pixels||hwnd!=Game())return StretchDIBits(dc,dx,dy,dw,dh,sx,sy,sw,sh,bits,info,usage,rop);
  HitchFrame();FinishFrame();if(cproto::Covered()){frames++;return dh;}   // the new 연표 is over it: nothing of it shows
  LARGE_INTEGER t0,t1;QueryPerformanceCounter(&t0);nesting++;Shadow*s=nullptr;try{s=Get(b,{0,0,b->w,b->h},true);}catch(const std::bad_alloc&){}nesting--;auto tget=Now();auto v=Viewport(hwnd);RECT cr{};GetClientRect(hwnd,&cr);HBRUSH black=(HBRUSH)GetStockObject(BLACK_BRUSH);RECT bars[4]={{0,0,v.x,cr.bottom},{v.x+v.w,0,cr.right,cr.bottom},{0,0,cr.right,v.y},{0,v.y+v.h,cr.right,cr.bottom}};for(auto& r:bars)if(r.right>r.left&&r.bottom>r.top)FillRect(dc,&r,black);
  SetStretchBltMode(dc,HALFTONE);SetBrushOrgEx(dc,0,0,nullptr);int result;
  // Source/crop coordinates and screen shake stay in logical units until this boundary.
  int x=v.x+MulDiv(dx,v.w,800),y=v.y+MulDiv(dy,v.h,600),w=MulDiv(dw,v.w,800),h=MulDiv(dh,v.h,600);
- if(s&&ovCapturing){OverviewStep(s);result=OverviewHold(dc,x,y,w,h,usage);}   // the 연표 is being walked for the whole-table view
- else if(OriginalShown()&&!sx&&!sy&&sw==b->w&&sh==b->h&&rop==SRCCOPY&&OriginalPresent(dc,x,y,w,h,b,usage,&result)){}   // 연표 원래 화면
- else if(s&&ScaledPresent(dc,x,y,w,h,sx,sy,sw,sh,s,usage,rop,&result)){}else if(s)result=StretchDIBits(dc,x,y,w,h,sx*4,sy*4,sw*4,sh*4,s->pixels.data(),&s->info,usage,rop);else result=StretchDIBits(dc,x,y,w,h,sx,sy,sw,sh,bits,info,usage,rop);
- OriginalLabel(dc,v);
+ if(s&&ScaledPresent(dc,x,y,w,h,sx,sy,sw,sh,s,usage,rop,&result)){}else if(s)result=StretchDIBits(dc,x,y,w,h,sx*4,sy*4,sw*4,sh*4,s->pixels.data(),&s->info,usage,rop);else result=StretchDIBits(dc,x,y,w,h,sx,sy,sw,sh,bits,info,usage,rop);
  QueryPerformanceCounter(&t1);if(hitch)hGdiMs+=1000.0*(t1.QuadPart-tget)/freq.QuadPart;if(perf&&logFile){fprintf(logFile,"perf_present seq=%u total_ms=%.3f sync_ms=%.3f gdi_ms=%.3f nearest_ms=%.3f decode_ms=%.3f compose_ms=%.3f assets=%llu blits=%llu\n",++pPresent,1000.0*(t1.QuadPart-t0.QuadPart)/freq.QuadPart,1000.0*(tget-t0.QuadPart)/freq.QuadPart,1000.0*(t1.QuadPart-tget)/freq.QuadPart,pNearest,pDecode,pCompose,loads,blits);
    {double by[5]{};int n[5]{};const char*kinds="CSAMT";for(auto&e:blitStats){int k=int(strchr(kinds,e.kind)-kinds);by[k]+=e.ms;n[k]++;}std::sort(blitStats.begin(),blitStats.end(),[](const BlitStat&p,const BlitStat&q){return p.ms>q.ms;});
     fprintf(logFile,"perf_blits C=%d/%.2f S=%d/%.2f A=%d/%.2f M=%d/%.2f T=%d/%.2f top=",n[0],by[0],n[1],by[1],n[2],by[2],n[3],by[3],n[4],by[4]);for(size_t i=0;i<blitStats.size()&&i<6;i++)fprintf(logFile,"%c:%dx%d:%.2f ",blitStats[i].kind,blitStats[i].w,blitStats[i].h,blitStats[i].ms);fprintf(logFile,"\n");blitStats.clear();}
@@ -752,7 +664,6 @@ static void DumpElem(uint32_t h,int r,int c){if(!logFile||!oldVarHash)return;Var
 static void PerfCommand(HWND hwnd,WPARAM op){
  if(op==7){ShadowLineAudit();return;}
  if(op==6){ProbeVariantMask();return;}
- if(op==8){ZoomButtonClick();return;}if(op==9){OverviewDump();return;}   // the 연표 zoom button; the whole-table picture as BMP
  if(op==5||op==4){dumpLayers=true;dumpLayers4k=op==4;return;}   // defer.inc: the next frame's sources at 1x (4: and their 4x)
  if(op>=100&&op<200){if(logFile){fprintf(logFile,"hitch_mark %d frame=%u\n",int(op)-100,hFrames);fflush(logFile);}return;}   // tests: phase marks for hitch.inc
  if(op>=10&&op<100){CaptureQuality(unsigned(op)-10);return;}

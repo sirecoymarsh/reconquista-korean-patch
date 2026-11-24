@@ -1,7 +1,6 @@
 """Where the game still stutters (hitch.inc, RECON_HITCH=1 with RECON_PERF=2): play scenes on the private desktop and put
 every frame gap over 30 ms down to the engine, the 4K layer, file reads or waiting. Numbers only, nothing captured.
 python test_hitch.py read [label]    runtime-test: map -> 도입부 2, 40 clicks at 1.2 s, then 300 at 0.12 s
-python test_hitch.py chron [label]   runtime-chron: arrows, zoom in, whole-table view, back
 python test_hitch.py story [label]   runtime-test: map -> 도입부 2 from its first scene, 500 clicks at 0.2 s
 -> qa/hitch-<scenario>-<label>.json and .log
 """
@@ -13,7 +12,6 @@ import sys
 import time
 
 import qa
-import test_chronicle_perf as TC
 
 WM_KEYDOWN, WM_KEYUP, WM_MOUSEWHEEL, WM_APP = 0x100, 0x101, 0x20A, 0x8000
 VK = dict(F11=0x7a, RET=0x0d, RIGHT=0x27, LEFT=0x25, UP=0x26, DOWN=0x28, END=0x23)
@@ -107,47 +105,6 @@ def story(g):
     time.sleep(2)
 
 
-def chron(g):
-    frame = TC.keys('クロニクル枠')
-    g.until(lambda: any(f'asset {k} ' in g.log() for k in frame), 60, 'chronicle frame')
-    g.hwnd = next(x['h'] for x in g.windows() if x['class'] == 'MAJIRO_EXEC_CLASS')
-    if not qa.u.IsWindowVisible(g.hwnd):
-        qa.u.ShowWindow(g.hwnd, 4)
-    time.sleep(3)
-    cr = qa.w.RECT()
-    qa.u.GetClientRect(g.hwnd, qa.c.byref(cr))
-    p = qa.w.POINT(cr.right // 2, cr.bottom // 2)
-    qa.u.ClientToScreen(g.hwnd, qa.c.byref(p))
-
-    def wheel(n):
-        for _ in range(abs(n)):
-            g.post(g.hwnd, WM_MOUSEWHEEL, ((120 if n > 0 else -120) & 0xffff) << 16, ((p.y & 0xffff) << 16) | (p.x & 0xffff))
-            time.sleep(.4)
-
-    def key(vk, n=1, gap=.5):
-        for _ in range(n):
-            g.post(g.hwnd, WM_KEYDOWN, vk, 1)
-            g.post(g.hwnd, WM_KEYUP, vk, 0xc0000001)
-            time.sleep(gap)
-    mark(g, 1)                                   # idle chronicle
-    time.sleep(5)
-    mark(g, 2)                                   # arrows
-    key(VK['DOWN'], 12)
-    key(VK['RIGHT'], 4)
-    key(VK['UP'], 12)
-    key(VK['LEFT'], 4)
-    mark(g, 3)                                   # zoom in and out
-    wheel(4)
-    wheel(-4)
-    mark(g, 4)                                   # whole-table view: collect, zoom, back
-    wheel(-3)
-    g.until(lambda: 'overview capture done' in g.log(), 60, 'collected')
-    wheel(-4)
-    wheel(7)
-    mark(g, 5)
-    time.sleep(2)
-
-
 def summary(log):
     marks = [(int(n), int(f)) for n, f in MARK.findall(log)]
     rows = [dict(zip(FIELDS, map(float, m))) for m in HITCH.findall(log)]
@@ -173,13 +130,13 @@ def summary(log):
 if __name__ == '__main__':
     scenario = sys.argv[1] if len(sys.argv) > 1 else 'read'
     label = sys.argv[2] if len(sys.argv) > 2 else 'now'
-    run = TC.RUN if scenario == 'chron' else qa.RUN
+    run = qa.RUN
     env = {'RECON_PERF': '2', 'RECON_HITCH': '1'}
     env.update({k: os.environ[k] for k in ('RECON_DEFER_VERIFY', 'RECON_HITCH_TRACE') if k in os.environ})   # also check every screen queue
     g = qa.Game(run=run, extra_env=env)
     result = {'scenario': scenario}
     try:
-        {'chron': chron, 'story': story}.get(scenario, read)(g)
+        {'story': story}.get(scenario, read)(g)
     except Exception as e:  # noqa: BLE001
         result['error'] = repr(e)
     finally:

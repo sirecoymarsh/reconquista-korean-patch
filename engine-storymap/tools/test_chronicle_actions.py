@@ -14,7 +14,7 @@ label = sys.argv[2] if len(sys.argv) > 2 else 'now'
 WM_APP = 0x8000
 res = {'what': what, 'label': label, 'steps': []}
 (qa.RUN / 'review-unlock.enabled').write_text('1')
-g = qa.Game(extra_env={'RECON_PERF': '2', 'RECON_HD_START_FULLSCREEN': '1', 'RECON_CHRON_PROTO': '1'})
+g = qa.Game(extra_env={'RECON_PERF': '2', 'RECON_HD_START_FULLSCREEN': '1'})
 
 
 def lines(prefix):

@@ -17,7 +17,7 @@ INI = qa.RUN / 'chronicle-look.ini'
 INI.unlink(missing_ok=True)
 (qa.RUN / 'review-unlock.enabled').unlink(missing_ok=True)
 res = {'label': label, 'steps': []}
-g = qa.Game(extra_env={'RECON_PERF': '2', 'RECON_HD_START_FULLSCREEN': '1', 'RECON_CHRON_PROTO': '1'})
+g = qa.Game(extra_env={'RECON_PERF': '2', 'RECON_HD_START_FULLSCREEN': '1'})
 shots = qa.RUN / 'qa'
 for p in shots.glob('chron-view-*.png') if shots.exists() else []:
     p.unlink()

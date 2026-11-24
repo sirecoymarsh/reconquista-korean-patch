@@ -18,7 +18,6 @@ $env:TMP = $env:TEMP
 if (-not (Test-Path -LiteralPath $env:TEMP)) { New-Item -ItemType Directory -Path $env:TEMP | Out-Null }
 foreach ($name in 'RECON_PERF','RECON_FLOW_PROBE','RECON_HD_PROBE','RECON_REVIEW_PROBE','RECON_INPUT_PROBE','RECON_CONFIG_PROBE') { Remove-Item ('Env:' + $name) -ErrorAction SilentlyContinue }
 $env:RECON_HD_START_FULLSCREEN = '1'
-$env:RECON_CHRON_PROTO = '1'
 $acp = (Get-ItemProperty -LiteralPath 'HKLM:\SYSTEM\CurrentControlSet\Control\Nls\CodePage' -Name ACP).ACP
 if ($acp -ne '949') { throw '이 실행본은 Windows 비유니코드 프로그램 언어가 한국어(ACP 949)여야 합니다. 현재 ACP: ' + $acp }
 $disk = Get-DiskImage -ImagePath $iso

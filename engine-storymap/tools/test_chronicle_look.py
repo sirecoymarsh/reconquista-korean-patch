@@ -10,7 +10,7 @@ label = sys.argv[1] if len(sys.argv) > 1 else 'now'
 INI = qa.RUN / 'chronicle-look.ini'
 INI.unlink(missing_ok=True)
 res = {'label': label, 'steps': []}
-g = qa.Game(extra_env={'RECON_CHRON_PROTO': '1', 'RECON_HD_START_FULLSCREEN': '1', 'RECON_PERF': '2'})
+g = qa.Game(extra_env={'RECON_HD_START_FULLSCREEN': '1', 'RECON_PERF': '2'})
 qa.u.GetDlgItem.argtypes = [w.HWND, w.INT]
 qa.u.GetDlgItem.restype = w.HWND
 qa.u.IsWindowVisible.argtypes = [w.HWND]

@@ -25,7 +25,7 @@ EXE = 'レコンキスタ.exe'
 PATCHED = {EXE: ORIG / 'bin' / EXE, 'scenario.arc': ORIG / 'scenario.arc', 'data.arc': ORIG / 'data.arc', 'fastdata.arc': ORIG / 'fastdata.arc',
            'movie\\Recon_OP800_H.mpg': ORIG / 'movie' / 'Recon_OP800_H.mpg'}
 UNCHANGED = ['data1.arc', 'data2.arc', 'slowdata.arc', 'stream.arc', 'voice.arc']
-PERSONAL = ['savedata', 'storymap-read.bin', 'review-unlock.enabled', 'chronicle-original.enabled', 'cg-quality.ini', 'chronicle-look.ini',
+PERSONAL = ['savedata', 'storymap-read.bin', 'review-unlock.enabled', 'cg-quality.ini', 'chronicle-look.ini',
             'hires-runtime.log', 'BUILD-IDENTITY.json', 'hires-manifest.json', 'storymap-se-mute.flag']
 
 
