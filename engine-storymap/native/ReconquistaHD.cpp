@@ -423,7 +423,7 @@ static Variable* VarOf(uint32_t hash){return oldVarHash?oldVarHash(hash):nullptr
 static bool MapTabPressed(const Variable*v){if(!v||v->hash!=0xcaceeb7fu||v->value!=11)return false;if(Variable*sel=VarOf(0x405ba90fu))sel->value=0;
  PostMessageW(Game(),WM_COMMAND,0x7e43,0);if(logFile){fprintf(logFile,"console_map_tab\n");fflush(logFile);}return true;}
 static void OpenFlowChart();
-static const struct ConsoleKeyButton{WPARAM vk;int id;}consoleKeys[]={{'S',12},{'Q',8},{'W',9},{'L',1},{'A',2},{VK_ESCAPE,7}};   // 빈 칸 저장, 퀵 저장, 퀵 로드, 불러오기, 자동, 설정
+static const struct ConsoleKeyButton{WPARAM vk;int id;}consoleKeys[]={{'S',12},{'Q',8},{'W',9},{'L',1},{'A',2},{VK_PRIOR,6},{VK_ESCAPE,7}};   // 빈 칸 저장, 퀵 저장, 퀵 로드, 불러오기, 자동, 기록, 설정 (written on the buttons, tools/build_console.py LABELS)
 static bool ConsoleKey(UINT msg,WPARAM wp,LPARAM lp){if(msg!=WM_KEYDOWN||(lp&(1L<<30)))return false;
  if(wp=='M'){OpenFlowChart();return true;}
  for(auto&k:consoleKeys){if(k.vk!=wp)continue;Variable*sel=VarOf(0x405ba90fu),*ret=VarOf(0xcaceeb7fu);if(!sel||!ret||sel->value!=0)return false;

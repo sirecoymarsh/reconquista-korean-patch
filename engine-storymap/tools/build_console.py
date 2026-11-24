@@ -18,9 +18,11 @@ Over the 연표 tab there is no room the game draws: it copies the text box art 
 the button art from x 286, y 450 (BUTALL). So the button goes at the row's left end, right before 「퀵 저장」, the same
 plate as the row's buttons:
 - art: console_{off,on,push}_{m,h,k,e,s,t}.rct and their _.rc8 masks (fastdata.arc) and their 4x (hires): the 퀵 저장
-  plate from Codex's clean (letter-free) frames (candidates/ui-completion-v1/clean) copied 50 px left, 「지도」 set as Codex
-  set the row (ui-completion-v1/build.py: NotoSansCJKkr 9 px x4 in [x+3,568,45,12], stroke 2 (20,12,19,235), colour
-  by state);
+  plate from Codex's clean (letter-free) frames (candidates/ui-completion-v1/clean) copied 50 px left;
+- every label of the row set again with its key (11-25, the user: 「하단 메뉴 바 아이콘들에 괄호치고 영어 단축키도 넣어줘.
+  지금은 단축키가 존재한다는 사실을 알 수가 없어」), as Codex set the row (ui-completion-v1/build.py: the clean frame
+  made 4x, NotoSansCJKkr 9 px x4 in [x+3,568,45,12], smaller by 0.25 px until it fits, stroke 2 (20,12,19,235), colour
+  by state); 1x is the 4x made small, as Codex's;
 - sysdata.cfg BUTALL 286,450,514,150 -> 236,450,564,150, so the hover and press art (cut from there) holds it;
 - console.mjo: an areaevent_set for button 11 at 250,563,51,39 after the 연표's (the same handlers), in appended code;
 - the DLL opens the story map when $click@CONSOLE writes @ret 11 (ReconquistaHD.cpp MapTabPressed).
@@ -50,6 +52,9 @@ FONT = CODEX / 'research' / 'fonts' / 'NotoSansCJKkr-Regular.otf'
 SRC = (296, 558, 55, 32)         # the 퀵 저장 plate with its pointed left end (x, y, w, h)
 DX = -50                         # the 지도 plate one button to the left
 BUTTON = (250, 563, 51, 39)      # its area, as sysdata.cfg's BUT* rows
+ROW = (246, 558, 460, 32)        # the row's plates, 지도's to 설정's (x, y, w, h)
+LABELS = [(250, '지도(M)'), (300, '퀵 저장(Q)'), (350, '퀵 로드(W)'), (400, '저장(S)'), (450, '불러오기(L)'),
+          (501, '건너뛰기(Ctrl)'), (551, '자동(A)'), (601, '기록(PgUp)'), (651, '설정(Esc)')]   # the buttons' x (sysdata.cfg BUT*)
 BUTALL = (b'286, 450, 514, 150', b'236, 450, 564, 150')
 AREA_10 = 0x09ba3                # console.mjo: the 연표's areaevent_set's last argument (ldc.i 10), then the call (8 bytes)
 COLOR = {'off': (255, 244, 232, 255), 'on': (255, 255, 230, 255), 'push': (255, 209, 151, 255)}
@@ -213,12 +218,20 @@ def arc_payload(path):
 
 
 def ink(state):
-    """「지도」 at 4x on a transparent 3200x2400 layer, as Codex set the row's labels."""
+    """the row's labels at 4x on a transparent 3200x2400 layer, as Codex set them"""
     layer = Image.new('RGBA', (3200, 2400))
     d = ImageDraw.Draw(layer)
-    f = ImageFont.truetype(str(FONT), round(9 * 4))
-    x, y, w, h = BUTTON[0] + 3, 568, 45, 12
-    d.text(((x + w / 2) * 4, (y + h / 2) * 4), '지도', font=f, anchor='mm', fill=COLOR[state], stroke_width=2, stroke_fill=(20, 12, 19, 235))
+    for bx, label in LABELS:
+        x, y, w, h = bx + 3, 568, 45, 12
+        size = 9.0
+        while True:
+            f = ImageFont.truetype(str(FONT), round(size * 4))
+            if d.textbbox((0, 0), label, font=f)[2] <= w * 4 - 8 or size <= 7:
+                break
+            size -= .25
+        d.text(((x + w / 2) * 4, (y + h / 2) * 4), label, font=f, anchor='mm', fill=COLOR[state], stroke_width=2, stroke_fill=(20, 12, 19, 235))
+        box = d.textbbox(((x + w / 2) * 4, (y + h / 2) * 4), label, font=f, anchor='mm', stroke_width=2)
+        assert x * 4 <= box[0] and box[2] <= (x + w) * 4, (label, size, box)
     return layer
 
 
@@ -228,7 +241,7 @@ def build(src, out):
     (out / 'hd').mkdir(exist_ok=True)
     _, P = arc_payload(src / 'fastdata.arc')
     x, y, w, h = SRC
-    nx = x + DX
+    rx, ry, rw, rh = ROW
     m = 2                                                   # a margin for the 4x resample, cropped off again
     record = []
     for st in STATES:
@@ -242,24 +255,26 @@ def build(src, out):
             inv = np.empty(256, np.uint8)
             inv[pal[:, 0]] = np.arange(256, dtype=np.uint8)
             matte = pal[mi, 0].copy()                       # 0 opaque .. 255 clear
-            clean = np.asarray(Image.open(CLEAN / (n + '.png')).convert('RGB'))
-            cmatte = np.asarray(Image.open(CLEAN / (n + '.matte.png')))
-            region = (slice(y - m, y + h + m), slice(x - m, x + w + m))
+            clean = np.asarray(Image.open(CLEAN / (n + '.png')).convert('RGB')).copy()
+            cmatte = np.asarray(Image.open(CLEAN / (n + '.matte.png'))).copy()
+            clean[y:y + h, x + DX:x + DX + w] = clean[y:y + h, x:x + w].copy()     # the 지도 plate
+            cmatte[y:y + h, x + DX:x + DX + w] = cmatte[y:y + h, x:x + w].copy()
+            region = (slice(ry - m, ry + rh + m), slice(rx - m, rx + rw + m))
             plate = Image.fromarray(clean[region]).convert('RGBA')
             plate.putalpha(Image.fromarray(255 - cmatte[region]))
-            plate4 = plate.resize((plate.width * 4, plate.height * 4), Image.Resampling.LANCZOS).crop((m * 4, m * 4, (m + w) * 4, (m + h) * 4))
-            box4 = (nx * 4, y * 4, (nx + w) * 4, (y + h) * 4)
+            plate4 = plate.resize((plate.width * 4, plate.height * 4), Image.Resampling.LANCZOS).crop((m * 4, m * 4, (m + rw) * 4, (m + rh) * 4))
+            box4 = (rx * 4, ry * 4, (rx + rw) * 4, (ry + rh) * 4)
             ink4 = layer.crop(box4)
             colour4 = Image.alpha_composite(plate4.convert('RGB').convert('RGBA'), ink4).convert('RGB')
             a4 = np.asarray(ink4.getchannel('A')).astype(float)
             matte4 = np.rint((255 - np.asarray(plate4.getchannel('A')).astype(float)) * (255 - a4) / 255).clip(0, 255).astype(np.uint8)
-            low = np.asarray(colour4.resize((w, h), Image.Resampling.LANCZOS))
-            a1 = np.asarray(ink4.getchannel('A').resize((w, h), Image.Resampling.LANCZOS)).astype(float)
-            m1 = np.rint(cmatte[y:y + h, x:x + w].astype(float) * (255 - a1) / 255).clip(0, 255).astype(np.uint8)
+            low = np.asarray(colour4.resize((rw, rh), Image.Resampling.LANCZOS))
+            a1 = np.asarray(ink4.getchannel('A').resize((rw, rh), Image.Resampling.LANCZOS)).astype(float)
+            m1 = np.rint(cmatte[ry:ry + rh, rx:rx + rw].astype(float) * (255 - a1) / 255).clip(0, 255).astype(np.uint8)
             rgb2 = rgb.copy()
-            rgb2[y:y + h, nx:nx + w] = low
+            rgb2[ry:ry + rh, rx:rx + rw] = low
             matte2 = matte.copy()
-            matte2[y:y + h, nx:nx + w] = m1
+            matte2[ry:ry + rh, rx:rx + rw] = m1
             ob = encode_array(rgb2, pre, ch)
             back, _, _ = raw_image(ob)
             assert np.array_equal(back, rgb2)
@@ -277,7 +292,7 @@ def build(src, out):
     _, S = arc_payload(src / 'scenario.arc')
     (out / 'console.mjo').write_bytes(patch_console(S['console.mjo']))
     (out / 'scenario.arc.source').write_text(str(src / 'scenario.arc'), 'utf-8')
-    (out / 'manifest.json').write_text(json.dumps({'entries': record, 'button': BUTTON, 'butall': BUTALL[1].decode(), 'area_id': 11, 'save_case': 12}, ensure_ascii=False, indent=1), 'utf-8')
+    (out / 'manifest.json').write_text(json.dumps({'entries': record, 'button': BUTTON, 'butall': BUTALL[1].decode(), 'area_id': 11, 'save_case': 12, 'labels': LABELS}, ensure_ascii=False, indent=1), 'utf-8')
     print('built', len(record), 'frames ->', out)
 
 
