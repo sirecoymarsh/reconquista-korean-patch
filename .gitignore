@@ -36,3 +36,6 @@ __pycache__/
 *.pyc
 *.log
 *.bak
+
+# 한국어화한 그림은 올린다
+!assets-ko/**
