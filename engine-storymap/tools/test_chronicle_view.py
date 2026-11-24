@@ -1,5 +1,5 @@
-"""The 연표 view in both looks (10-27): runtime-test, the story map's first chapter (도입부 1), the text box's 연표 tab.
-  python test_chronicle_view.py view <label>   its frame in both looks at fixed positions
+"""The 연표 view (10-27; one look since 11-25): runtime-test, the story map's first chapter (도입부 1), the text box's 연표 tab.
+  python test_chronicle_view.py view <label>   its frame at fixed positions, then the panel under a hovered cell
   ... [review]   with 모든 콘텐츠 개방 on (every cell open; spoilers, never shown to the user)
 -> qa/chron-view-<label>/ (pictures: the test copy's own progress, review unlock off; Claude's checking only) and a .json
 """
@@ -84,27 +84,23 @@ try:
     view = qa.u.FindWindowExW(g.hwnd, None, 'ReconChronicleProto', None)
     step('view', table=lines('chron_proto table')[-1:], show=lines('chron_proto show')[-1:])
     k = 0
-    for look in (1, 0):
-        g.post(view, WM_APP + 5, look, 0)
-        for i, (x, y) in enumerate(POS):
-            g.post(view, WM_APP + 4, x, y)
-            time.sleep(.6)
-            g.post(view, WM_APP + 3, k, 0)
-            g.until(lambda: (shots / f'chron-view-{k}.png').exists(), 10, f'shot {k}')
-            time.sleep(.3)
-            shutil.copy2(shots / f'chron-view-{k}.png', OUT / f'{"orig" if look else "new"}-look-{i}.png')
-            k += 1
-    for look in (1, 0):                                 # the description box / the panel, as for the game's
-        g.post(view, WM_APP + 5, look, 0)
-        g.post(view, WM_APP + 4, *POS[1])
-        time.sleep(.4)
-        g.post(view, 0x200, 0, ((round(HOVER[1] * 3.6) & 0xffff) << 16) | (round(HOVER[0] * 3.6) & 0xffff))
-        time.sleep(.8)
+    for i, (x, y) in enumerate(POS):
+        g.post(view, WM_APP + 4, x, y)
+        time.sleep(.6)
         g.post(view, WM_APP + 3, k, 0)
         g.until(lambda: (shots / f'chron-view-{k}.png').exists(), 10, f'shot {k}')
         time.sleep(.3)
-        shutil.copy2(shots / f'chron-view-{k}.png', OUT / f'{"orig" if look else "new"}-look-hover.png')
+        shutil.copy2(shots / f'chron-view-{k}.png', OUT / f'view-{i}.png')
         k += 1
+    g.post(view, WM_APP + 4, *POS[1])                   # the panel, as under the user's cursor
+    time.sleep(.4)
+    g.post(view, 0x200, 0, ((round(HOVER[1] * 3.6) & 0xffff) << 16) | (round(HOVER[0] * 3.6) & 0xffff))
+    time.sleep(.8)
+    g.post(view, WM_APP + 3, k, 0)
+    g.until(lambda: (shots / f'chron-view-{k}.png').exists(), 10, f'shot {k}')
+    time.sleep(.3)
+    shutil.copy2(shots / f'chron-view-{k}.png', OUT / 'view-hover.png')
+    k += 1
     step('shots', n=k, lines=lines('chron_proto shot')[-2:])
     g.post(view, 0x205, 0, 0)                            # a right click closes, as the user would
     g.until(lambda: 'chronicle_open=0' in g.log() or lines('chron_proto act'), 10, 'close')
