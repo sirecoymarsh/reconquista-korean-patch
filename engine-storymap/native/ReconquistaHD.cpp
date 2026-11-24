@@ -518,6 +518,9 @@ static int __cdecl Layout(HWND h,UINT msg,WPARAM wp,LPARAM lp){
   if((msg==WM_KEYDOWN||msg==WM_SYSKEYDOWN)&&wp==VK_F10&&(GetKeyState(VK_CONTROL)&0x8000)){if(!(lp&(1L<<30)))ToggleReview();return 1;}
   if(msg==WM_WINDOWPOSCHANGING)return 0;
   if(msg==WM_KEYDOWN&&wp==VK_F4){if(!(lp&(1L<<30)))Mode(1);return 1;}
+  // the window menu's 「전체 화면」/「창 모드」 (40002/40003) as F4/Alt+Enter: the engine's own handler only stretched the window
+  // to the screen, title and menu kept (11-25, the user: 「게임 프로그램 상단의 전체 화면을 누르면 옵션의 전체 화면과 달리」)
+  if(msg==WM_COMMAND&&(LOWORD(wp)==40002||LOWORD(wp)==40003)){Mode(LOWORD(wp)==40002);return 1;}
   if(msg==WM_SYSKEYDOWN&&wp==VK_RETURN){if(!(lp&(1L<<30)))Mode(0);return 1;}
  }
  return oldLayout(h,msg,wp,lp);
