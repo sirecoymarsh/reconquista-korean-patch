@@ -7,6 +7,11 @@ a page the auto save's while $30b6a7d9) and its sound and voice; the first numbe
 saved, then 「p쪽 i번째 칸에 저장했습니다」 (or 「빈 칸이 없습니다」). The DLL's S key chooses case 12 (ReconquistaHD.cpp
 ConsoleKey).
 
+console.mjo's code keeps every offset it had: two 6-byte ldc.i are each replaced by a br of the same size into code
+appended after the file's last instruction, which does what they did and jumps back; patch_console checks every other
+byte. (11-25: a save made before the change, loaded on a build that had inserted code, loaded fine, so this is not what
+an old save needs; it keeps the original script as it was, which is the simpler thing to reason about.)
+
 「지도」 button on the text box's button row (11-25, the user: 「연표 옆에 이야기 지도 버튼을 추가하는게 좋겠네」).
 
 Over the 연표 tab there is no room the game draws: it copies the text box art from y 454 down (sysdata.cfg CONALL) and
@@ -17,7 +22,7 @@ plate as the row's buttons:
   set the row (ui-completion-v1/build.py: NotoSansCJKkr 9 px x4 in [x+3,568,45,12], stroke 2 (20,12,19,235), colour
   by state);
 - sysdata.cfg BUTALL 286,450,514,150 -> 236,450,564,150, so the hover and press art (cut from there) holds it;
-- console.mjo: an areaevent_set for button 11 at 250,563,51,39 after the 연표's (the same handlers);
+- console.mjo: an areaevent_set for button 11 at 250,563,51,39 after the 연표's (the same handlers), in appended code;
 - the DLL opens the story map when $click@CONSOLE writes @ret 11 (ReconquistaHD.cpp MapTabPressed).
 
 python build_console.py <source runtime> <out>                build from a runtime (its fastdata, scenario, hires)
@@ -46,13 +51,13 @@ SRC = (296, 558, 55, 32)         # the 퀵 저장 plate with its pointed left en
 DX = -50                         # the 지도 plate one button to the left
 BUTTON = (250, 563, 51, 39)      # its area, as sysdata.cfg's BUT* rows
 BUTALL = (b'286, 450, 514, 150', b'236, 450, 564, 150')
-AREA_10 = 0x09ba9                # console.mjo: the 연표's areaevent_set, the new one goes after it
+AREA_10 = 0x09ba3                # console.mjo: the 연표's areaevent_set's last argument (ldc.i 10), then the call (8 bytes)
 COLOR = {'off': (255, 244, 232, 255), 'on': (255, 255, 230, 255), 'push': (255, 209, 151, 255)}
 STATES, CODES = ('off', 'on', 'push'), ('m', 'h', 'k', 'e', 's', 't')
 
 
 HANGUL = json.loads((CODEX / 'translation' / 'hangul-cp932-map.json').read_text('utf-8'))['mapping']
-CASE_8 = 0x0ce9f                 # console.mjo: the pause loop's 퀵 저장 case (its line), case 12 goes before it
+CASE_8 = 0x0cea3                 # console.mjo: the 퀵 저장 case's ldc.i 8 (its bne.case follows); case 12 is tried first
 CASES_END = 0x0d0d2              # where every case of that loop ends (its line before the loop's back jump)
 PAUSE_LOOP = 0xbd66              # that function; its locals 1, 2, 3 (ints) are unused, case 12 takes them
 P, I, N = 1, 2, 3
@@ -97,29 +102,32 @@ class Code:
         self.parts.append(('jump', mnemonic, target))
         return self
 
-    def build(self, outside):
-        pos, at = 0, {}
+    def labels(self, origin):
+        pos, at = origin, {}
         for p in self.parts:
             if isinstance(p, tuple) and p[0] == 'label':
                 at[p[1]] = pos
             else:
                 pos += 6 if isinstance(p, tuple) else len(p)
-        size = pos
-        at.update({k: v(size) for k, v in outside.items()})
+        return at, pos
+
+    def build(self, origin, outside):
+        """The code placed at offset origin; outside: label -> offset elsewhere in the file."""
+        at, end = self.labels(origin)
+        at.update(outside)
         out = b''
         for p in self.parts:
             if isinstance(p, tuple) and p[0] == 'jump':
-                out += core.b.op(p[1]) + struct.pack('<i', at[p[2]] - (len(out) + 6))
+                out += core.b.op(p[1]) + struct.pack('<i', at[p[2]] - (origin + len(out) + 6))
             elif not isinstance(p, tuple):
                 out += p
-        assert len(out) == size
+        assert origin + len(out) == end
         return out
 
 
-def save_case():
-    """case 12, inserted before CASE_8: label 'next' is case 8 (moved by the block), 'end' the cases' end."""
+def save_case(c):
+    """case 12, entered from CASE_8's place; 'next' does that ldc.i 8 and goes on to case 8's bne.case."""
     pages, slots, auto = (var('ld', 0x00, h) for h in (0xf68bcd63, 0xb51b948b, 0x30b6a7d9))
-    c = Code()
     c(core.const(12)).jump('bne.case', 'next')
     c(call(0x73099731, 0))                                                  # the save info, as case 8
     c(core.syscall(0x4ffab7c4, 0, True)).jump('brfalse', 'free')            # $is_save_menu_disable
@@ -140,7 +148,49 @@ def save_case():
     c.label('next_slot')(local('ld', I), core.const(1), op('add.i'), local('st.i', I), op('pop')).jump('br', 'slot')
     c.label('next_page')(local('ld', P), core.const(1), op('add.i'), local('st.i', P), op('pop')).jump('br', 'page')
     c.label('full')(text('빈 칸이 없습니다'), call(0xe72d9f52, 1)).jump('br', 'end')
-    return c.build({'next': lambda size: size, 'end': lambda size: size + CASES_END - CASE_8})
+    c.label('next')(core.const(8)).jump('br', 'case_8')
+
+
+def map_area(c):
+    """the 연표's areaevent_set as it was, then button 11's; back to after the old call."""
+    bx, by, bw, bh = BUTTON
+    c(core.const(10), core.syscall(0xf8d18340, 8))
+    c(*(core.const(v) for v in (0xe9da3d95 - (1 << 32), 0xedf9e430 - (1 << 32), 0x5438644d, bh, bw, by, bx, 11)), core.syscall(0xf8d18340, 8))
+    c.jump('br', 'after_area')
+
+
+def patch_console(source):
+    """console.mjo with the two entries (a br over a 6-byte ldc.i) and the appended code; every other byte as it was."""
+    s, raw = core.b.decode(source)
+    at = {x.offset: x for x in s.instructions}
+    assert raw[AREA_10:AREA_10 + 6] == core.const(10) and raw[AREA_10 + 6:AREA_10 + 14] == core.syscall(0xf8d18340, 8)
+    assert raw[CASE_8:CASE_8 + 6] == core.const(8) and at[CASE_8 + 6].opcode.mnemonic == 'bne.case'
+    assert CASES_END in at
+    free_locals(s, raw)
+    end = s.bytecode_size
+    c = Code().label('area')
+    map_area(c)
+    c.label('save')
+    save_case(c)
+    tail = c.build(end, {'after_area': AREA_10 + 14, 'case_8': CASE_8 + 6, 'end': CASES_END})
+    where, _ = c.labels(end)
+    code = bytearray(raw)
+    for place, label in ((AREA_10, 'area'), (CASE_8, 'save')):
+        code[place:place + 6] = Code().jump('br', label).build(place, {label: where[label]})
+    code += tail
+    head = bytearray(source[:s.bytecode_offset])
+    struct.pack_into('<I', head, len(head) - 4, len(code))
+    out = bytes(head) + (core.b.crypt32(bytes(code)) if s.signature == s.SIGNATURE_ENCRYPTED else bytes(code))
+    s2, raw2 = core.b.decode(out)
+    assert bytes(raw2) == bytes(code)
+    changed = [i for i in range(end) if raw2[i] != raw[i]]
+    assert all(AREA_10 <= i < AREA_10 + 6 or CASE_8 <= i < CASE_8 + 6 for i in changed), changed[:8]
+    bounds = {x.offset for x in s2.instructions} | {len(raw2)}
+    assert {x.offset for x in s.instructions} <= bounds
+    for x in s2.instructions:
+        if x.opcode.encoding == 'j':
+            assert x.offset + x.size + x.jump_offset in bounds, hex(x.offset)
+    return out
 
 
 def free_locals(s, raw):
@@ -225,17 +275,7 @@ def build(src, out):
     assert cfg.count(BUTALL[0]) == 1
     (out / 'payloads' / 'sysdata.cfg').write_bytes(cfg.replace(BUTALL[0], BUTALL[1]))
     _, S = arc_payload(src / 'scenario.arc')
-    s, raw = core.b.decode(S['console.mjo'])
-    at = next(i for i, x in enumerate(s.instructions) if x.offset == AREA_10)
-    assert s.instructions[at].opcode.mnemonic == 'syscallp'
-    bx, by, bw, bh = BUTTON
-    extra = b''.join(core.const(v) for v in (0xe9da3d95 - (1 << 32), 0xedf9e430 - (1 << 32), 0x5438644d, bh, bw, by, bx, 11)) + core.syscall(0xf8d18340, 8)
-    ins = s.instructions[at]
-    case8 = next(i for i, x in enumerate(s.instructions) if x.offset == CASE_8)
-    assert s.instructions[case8 + 1].offset == CASE_8 + 4 and raw[CASE_8 + 4:CASE_8 + 10] == core.const(8)
-    assert any(x.offset == CASES_END for x in s.instructions)
-    free_locals(s, raw)
-    (out / 'console.mjo').write_bytes(core.rewrite(S['console.mjo'], {at: raw[ins.offset:ins.offset + ins.size] + extra}, {case8: save_case()}, {}))
+    (out / 'console.mjo').write_bytes(patch_console(S['console.mjo']))
     (out / 'scenario.arc.source').write_text(str(src / 'scenario.arc'), 'utf-8')
     (out / 'manifest.json').write_text(json.dumps({'entries': record, 'button': BUTTON, 'butall': BUTALL[1].decode(), 'area_id': 11, 'save_case': 12}, ensure_ascii=False, indent=1), 'utf-8')
     print('built', len(record), 'frames ->', out)
