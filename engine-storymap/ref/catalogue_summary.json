@@ -1,0 +1,1433 @@
+{
+ "chapters": [
+  {
+   "id": "00_レコンキスタ_start",
+   "group": "도입부",
+   "label": "도입부 1",
+   "pages": 619,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_kako01",
+   "group": "최종편 · 과거",
+   "label": "최종편 · 과거 01",
+   "pages": 28,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_gendai01",
+   "group": "최종편 · 현재",
+   "label": "최종편 · 현재 01",
+   "pages": 111,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "00_レコンキスタ_start_2",
+   "group": "도입부",
+   "label": "도입부 2",
+   "pages": 2013,
+   "choices": 4,
+   "branches": 10,
+   "views": 1
+  },
+  {
+   "id": "last_kako02",
+   "group": "최종편 · 과거",
+   "label": "최종편 · 과거 02",
+   "pages": 507,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_gendai02",
+   "group": "최종편 · 현재",
+   "label": "최종편 · 현재 02",
+   "pages": 469,
+   "choices": 2,
+   "branches": 4,
+   "views": 0
+  },
+  {
+   "id": "00_レコンキスタ_start_3",
+   "group": "도입부",
+   "label": "도입부 3",
+   "pages": 1632,
+   "choices": 3,
+   "branches": 11,
+   "views": 2
+  },
+  {
+   "id": "last_kako03",
+   "group": "최종편 · 과거",
+   "label": "최종편 · 과거 03",
+   "pages": 224,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_gendai03",
+   "group": "최종편 · 현재",
+   "label": "최종편 · 현재 03",
+   "pages": 300,
+   "choices": 1,
+   "branches": 2,
+   "views": 0
+  },
+  {
+   "id": "makino_kyoutu",
+   "group": "마키노 공통",
+   "label": "마키노 공통",
+   "pages": 1116,
+   "choices": 3,
+   "branches": 6,
+   "views": 0
+  },
+  {
+   "id": "shinya_kyoutu",
+   "group": "신야 공통",
+   "label": "신야 공통",
+   "pages": 630,
+   "choices": 1,
+   "branches": 2,
+   "views": 0
+  },
+  {
+   "id": "last_kako04",
+   "group": "최종편 · 과거",
+   "label": "최종편 · 과거 04",
+   "pages": 1015,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_gendai04",
+   "group": "최종편 · 현재",
+   "label": "최종편 · 현재 04",
+   "pages": 186,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "kureha_05",
+   "group": "쿠레하",
+   "label": "쿠레하 05",
+   "pages": 183,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "masa_06",
+   "group": "마사키",
+   "label": "마사키 06",
+   "pages": 89,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "maho_04",
+   "group": "마호코",
+   "label": "마호코 04",
+   "pages": 360,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_04",
+   "group": "시이나",
+   "label": "시이나 04",
+   "pages": 258,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_kako05",
+   "group": "최종편 · 과거",
+   "label": "최종편 · 과거 05",
+   "pages": 130,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_gendai05",
+   "group": "최종편 · 현재",
+   "label": "최종편 · 현재 05",
+   "pages": 225,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "kureha_06",
+   "group": "쿠레하",
+   "label": "쿠레하 06",
+   "pages": 276,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "masa_07",
+   "group": "마사키",
+   "label": "마사키 07",
+   "pages": 345,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "maho_05",
+   "group": "마호코",
+   "label": "마호코 05",
+   "pages": 187,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_05",
+   "group": "시이나",
+   "label": "시이나 05",
+   "pages": 471,
+   "choices": 1,
+   "branches": 2,
+   "views": 0
+  },
+  {
+   "id": "last_kako06",
+   "group": "최종편 · 과거",
+   "label": "최종편 · 과거 06",
+   "pages": 462,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_gendai06",
+   "group": "최종편 · 현재",
+   "label": "최종편 · 현재 06",
+   "pages": 60,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "kureha_07",
+   "group": "쿠레하",
+   "label": "쿠레하 07",
+   "pages": 211,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "masa_08",
+   "group": "마사키",
+   "label": "마사키 08",
+   "pages": 724,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "maho_06",
+   "group": "마호코",
+   "label": "마호코 06",
+   "pages": 715,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_06",
+   "group": "시이나",
+   "label": "시이나 06",
+   "pages": 494,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_kako07",
+   "group": "최종편 · 과거",
+   "label": "최종편 · 과거 07",
+   "pages": 444,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_gendai07",
+   "group": "최종편 · 현재",
+   "label": "최종편 · 현재 07",
+   "pages": 96,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "kureha_08",
+   "group": "쿠레하",
+   "label": "쿠레하 08",
+   "pages": 630,
+   "choices": 1,
+   "branches": 2,
+   "views": 0
+  },
+  {
+   "id": "masa_09",
+   "group": "마사키",
+   "label": "마사키 09",
+   "pages": 387,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "maho_07",
+   "group": "마호코",
+   "label": "마호코 07",
+   "pages": 513,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_07",
+   "group": "시이나",
+   "label": "시이나 07",
+   "pages": 714,
+   "choices": 1,
+   "branches": 2,
+   "views": 0
+  },
+  {
+   "id": "last_kako08",
+   "group": "최종편 · 과거",
+   "label": "최종편 · 과거 08",
+   "pages": 459,
+   "choices": 1,
+   "branches": 2,
+   "views": 0
+  },
+  {
+   "id": "last_gendai08",
+   "group": "최종편 · 현재",
+   "label": "최종편 · 현재 08",
+   "pages": 107,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "kureha_09",
+   "group": "쿠레하",
+   "label": "쿠레하 09",
+   "pages": 522,
+   "choices": 2,
+   "branches": 6,
+   "views": 0
+  },
+  {
+   "id": "masa_10",
+   "group": "마사키",
+   "label": "마사키 10",
+   "pages": 442,
+   "choices": 1,
+   "branches": 2,
+   "views": 0
+  },
+  {
+   "id": "maho_08",
+   "group": "마호코",
+   "label": "마호코 08",
+   "pages": 290,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_08",
+   "group": "시이나",
+   "label": "시이나 08",
+   "pages": 536,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_kako09",
+   "group": "최종편 · 과거",
+   "label": "최종편 · 과거 09",
+   "pages": 235,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_gendai09",
+   "group": "최종편 · 현재",
+   "label": "최종편 · 현재 09",
+   "pages": 287,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "kureha_10",
+   "group": "쿠레하",
+   "label": "쿠레하 10",
+   "pages": 188,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "masa_11",
+   "group": "마사키",
+   "label": "마사키 11",
+   "pages": 414,
+   "choices": 1,
+   "branches": 2,
+   "views": 0
+  },
+  {
+   "id": "maho_09",
+   "group": "마호코",
+   "label": "마호코 09",
+   "pages": 647,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_09",
+   "group": "시이나",
+   "label": "시이나 09",
+   "pages": 487,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_kako10",
+   "group": "최종편 · 과거",
+   "label": "최종편 · 과거 10",
+   "pages": 152,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_gendai10",
+   "group": "최종편 · 현재",
+   "label": "최종편 · 현재 10",
+   "pages": 393,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "kureha_11",
+   "group": "쿠레하",
+   "label": "쿠레하 11",
+   "pages": 373,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "masa_12",
+   "group": "마사키",
+   "label": "마사키 12",
+   "pages": 373,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "maho_10",
+   "group": "마호코",
+   "label": "마호코 10",
+   "pages": 358,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_10",
+   "group": "시이나",
+   "label": "시이나 10",
+   "pages": 511,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_kako11",
+   "group": "최종편 · 과거",
+   "label": "최종편 · 과거 11",
+   "pages": 250,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_gendai11",
+   "group": "최종편 · 현재",
+   "label": "최종편 · 현재 11",
+   "pages": 159,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "kureha_12",
+   "group": "쿠레하",
+   "label": "쿠레하 12",
+   "pages": 325,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "masa_13",
+   "group": "마사키",
+   "label": "마사키 13",
+   "pages": 269,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "maho_11",
+   "group": "마호코",
+   "label": "마호코 11",
+   "pages": 611,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_11",
+   "group": "시이나",
+   "label": "시이나 11",
+   "pages": 409,
+   "choices": 1,
+   "branches": 2,
+   "views": 0
+  },
+  {
+   "id": "last_kako12",
+   "group": "최종편 · 과거",
+   "label": "최종편 · 과거 12",
+   "pages": 389,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_gendai12",
+   "group": "최종편 · 현재",
+   "label": "최종편 · 현재 12",
+   "pages": 230,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "kureha_13",
+   "group": "쿠레하",
+   "label": "쿠레하 13",
+   "pages": 184,
+   "choices": 1,
+   "branches": 4,
+   "views": 0
+  },
+  {
+   "id": "masa_14",
+   "group": "마사키",
+   "label": "마사키 14",
+   "pages": 609,
+   "choices": 1,
+   "branches": 3,
+   "views": 0
+  },
+  {
+   "id": "maho_12",
+   "group": "마호코",
+   "label": "마호코 12",
+   "pages": 617,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_12",
+   "group": "시이나",
+   "label": "시이나 12",
+   "pages": 512,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_gendai13",
+   "group": "최종편 · 현재",
+   "label": "최종편 · 현재 13",
+   "pages": 134,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "kureha_14",
+   "group": "쿠레하",
+   "label": "쿠레하 14",
+   "pages": 254,
+   "choices": 1,
+   "branches": 2,
+   "views": 0
+  },
+  {
+   "id": "masa_15",
+   "group": "마사키",
+   "label": "마사키 15",
+   "pages": 208,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "maho_13",
+   "group": "마호코",
+   "label": "마호코 13",
+   "pages": 289,
+   "choices": 5,
+   "branches": 8,
+   "views": 0
+  },
+  {
+   "id": "sina_13",
+   "group": "시이나",
+   "label": "시이나 13",
+   "pages": 402,
+   "choices": 1,
+   "branches": 2,
+   "views": 0
+  },
+  {
+   "id": "last_gendai14",
+   "group": "최종편 · 현재",
+   "label": "최종편 · 현재 14",
+   "pages": 210,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "kureha_15",
+   "group": "쿠레하",
+   "label": "쿠레하 15",
+   "pages": 548,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "masa_16",
+   "group": "마사키",
+   "label": "마사키 16",
+   "pages": 972,
+   "choices": 1,
+   "branches": 2,
+   "views": 0
+  },
+  {
+   "id": "maho_14",
+   "group": "마호코",
+   "label": "마호코 14",
+   "pages": 476,
+   "choices": 1,
+   "branches": 2,
+   "views": 0
+  },
+  {
+   "id": "sina_14",
+   "group": "시이나",
+   "label": "시이나 14",
+   "pages": 338,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "last_gendai15",
+   "group": "최종편 · 현재",
+   "label": "최종편 · 현재 15",
+   "pages": 411,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "kureha_16",
+   "group": "쿠레하",
+   "label": "쿠레하 16",
+   "pages": 316,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "masa_17",
+   "group": "마사키",
+   "label": "마사키 17",
+   "pages": 350,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "maho_15",
+   "group": "마호코",
+   "label": "마호코 15",
+   "pages": 755,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_15",
+   "group": "시이나",
+   "label": "시이나 15",
+   "pages": 557,
+   "choices": 2,
+   "branches": 4,
+   "views": 0
+  },
+  {
+   "id": "last_gendai16",
+   "group": "최종편 · 현재",
+   "label": "최종편 · 현재 16",
+   "pages": 1069,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "kureha_17",
+   "group": "쿠레하",
+   "label": "쿠레하 17",
+   "pages": 534,
+   "choices": 1,
+   "branches": 2,
+   "views": 0
+  },
+  {
+   "id": "masa_18",
+   "group": "마사키",
+   "label": "마사키 18",
+   "pages": 560,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "maho_16",
+   "group": "마호코",
+   "label": "마호코 16",
+   "pages": 559,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_16",
+   "group": "시이나",
+   "label": "시이나 16",
+   "pages": 278,
+   "choices": 1,
+   "branches": 3,
+   "views": 0
+  },
+  {
+   "id": "last_ep",
+   "group": "최종편 · 결말",
+   "label": "최종편 · 결말 후일담",
+   "pages": 283,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "kureha_18",
+   "group": "쿠레하",
+   "label": "쿠레하 18",
+   "pages": 584,
+   "choices": 1,
+   "branches": 2,
+   "views": 0
+  },
+  {
+   "id": "masa_ep",
+   "group": "마사키",
+   "label": "마사키 후일담",
+   "pages": 79,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "maho_17",
+   "group": "마호코",
+   "label": "마호코 17",
+   "pages": 572,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_17",
+   "group": "시이나",
+   "label": "시이나 17",
+   "pages": 639,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "kureha_19",
+   "group": "쿠레하",
+   "label": "쿠레하 19",
+   "pages": 605,
+   "choices": 1,
+   "branches": 2,
+   "views": 0
+  },
+  {
+   "id": "maho_18",
+   "group": "마호코",
+   "label": "마호코 18",
+   "pages": 427,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_18",
+   "group": "시이나",
+   "label": "시이나 18",
+   "pages": 245,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "kureha_ep",
+   "group": "쿠레하",
+   "label": "쿠레하 후일담",
+   "pages": 68,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "maho_18_2ero",
+   "group": "마호코",
+   "label": "마호코 18_2ero",
+   "pages": 508,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_18_2ero",
+   "group": "시이나",
+   "label": "시이나 18_2ero",
+   "pages": 431,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "maho_18_3",
+   "group": "마호코",
+   "label": "마호코 18_3",
+   "pages": 194,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_18_3",
+   "group": "시이나",
+   "label": "시이나 18_3",
+   "pages": 135,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "maho_19",
+   "group": "마호코",
+   "label": "마호코 19",
+   "pages": 966,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_19",
+   "group": "시이나",
+   "label": "시이나 19",
+   "pages": 409,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "maho_epi",
+   "group": "마호코",
+   "label": "마호코 후일담",
+   "pages": 72,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_19_2",
+   "group": "시이나",
+   "label": "시이나 19_2",
+   "pages": 185,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  },
+  {
+   "id": "sina_epi",
+   "group": "시이나",
+   "label": "시이나 후일담",
+   "pages": 102,
+   "choices": 0,
+   "branches": 0,
+   "views": 0
+  }
+ ],
+ "edges": [
+  {
+   "from": "00_レコンキスタ_start",
+   "to": "00_レコンキスタ_start_2",
+   "count": 1
+  },
+  {
+   "from": "last_kako01",
+   "to": "last_kako02",
+   "count": 1
+  },
+  {
+   "from": "last_gendai01",
+   "to": "last_gendai02",
+   "count": 1
+  },
+  {
+   "from": "00_レコンキスタ_start_2",
+   "to": "00_レコンキスタ_start_3",
+   "count": 1
+  },
+  {
+   "from": "last_kako02",
+   "to": "last_kako03",
+   "count": 1
+  },
+  {
+   "from": "last_gendai02",
+   "to": "last_gendai03",
+   "count": 1
+  },
+  {
+   "from": "00_レコンキスタ_start_3",
+   "to": "makino_kyoutu",
+   "count": 1
+  },
+  {
+   "from": "00_レコンキスタ_start_3",
+   "to": "shinya_kyoutu",
+   "count": 1
+  },
+  {
+   "from": "last_kako03",
+   "to": "last_kako04",
+   "count": 1
+  },
+  {
+   "from": "last_gendai03",
+   "to": "last_gendai04",
+   "count": 1
+  },
+  {
+   "from": "makino_kyoutu",
+   "to": "kureha_05",
+   "count": 2
+  },
+  {
+   "from": "makino_kyoutu",
+   "to": "masa_06",
+   "count": 1
+  },
+  {
+   "from": "shinya_kyoutu",
+   "to": "maho_04",
+   "count": 2
+  },
+  {
+   "from": "shinya_kyoutu",
+   "to": "sina_04",
+   "count": 1
+  },
+  {
+   "from": "last_kako04",
+   "to": "last_kako05",
+   "count": 1
+  },
+  {
+   "from": "last_gendai04",
+   "to": "last_gendai05",
+   "count": 1
+  },
+  {
+   "from": "kureha_05",
+   "to": "kureha_06",
+   "count": 1
+  },
+  {
+   "from": "masa_06",
+   "to": "masa_07",
+   "count": 1
+  },
+  {
+   "from": "maho_04",
+   "to": "maho_05",
+   "count": 1
+  },
+  {
+   "from": "sina_04",
+   "to": "sina_05",
+   "count": 1
+  },
+  {
+   "from": "last_kako05",
+   "to": "last_kako06",
+   "count": 1
+  },
+  {
+   "from": "last_gendai05",
+   "to": "last_gendai06",
+   "count": 1
+  },
+  {
+   "from": "kureha_06",
+   "to": "kureha_07",
+   "count": 1
+  },
+  {
+   "from": "masa_07",
+   "to": "masa_08",
+   "count": 1
+  },
+  {
+   "from": "maho_05",
+   "to": "maho_06",
+   "count": 1
+  },
+  {
+   "from": "sina_05",
+   "to": "sina_06",
+   "count": 1
+  },
+  {
+   "from": "last_kako06",
+   "to": "last_kako07",
+   "count": 1
+  },
+  {
+   "from": "last_gendai06",
+   "to": "last_gendai07",
+   "count": 1
+  },
+  {
+   "from": "kureha_07",
+   "to": "kureha_08",
+   "count": 1
+  },
+  {
+   "from": "masa_08",
+   "to": "masa_09",
+   "count": 1
+  },
+  {
+   "from": "maho_06",
+   "to": "maho_07",
+   "count": 1
+  },
+  {
+   "from": "sina_06",
+   "to": "sina_07",
+   "count": 1
+  },
+  {
+   "from": "last_kako07",
+   "to": "last_kako08",
+   "count": 1
+  },
+  {
+   "from": "last_gendai07",
+   "to": "last_gendai08",
+   "count": 1
+  },
+  {
+   "from": "kureha_08",
+   "to": "kureha_09",
+   "count": 1
+  },
+  {
+   "from": "masa_09",
+   "to": "masa_10",
+   "count": 1
+  },
+  {
+   "from": "maho_07",
+   "to": "maho_08",
+   "count": 1
+  },
+  {
+   "from": "sina_07",
+   "to": "sina_08",
+   "count": 1
+  },
+  {
+   "from": "last_kako08",
+   "to": "last_kako09",
+   "count": 1
+  },
+  {
+   "from": "last_gendai08",
+   "to": "last_gendai09",
+   "count": 1
+  },
+  {
+   "from": "kureha_09",
+   "to": "kureha_10",
+   "count": 1
+  },
+  {
+   "from": "masa_10",
+   "to": "masa_11",
+   "count": 1
+  },
+  {
+   "from": "maho_08",
+   "to": "maho_09",
+   "count": 1
+  },
+  {
+   "from": "sina_08",
+   "to": "sina_09",
+   "count": 1
+  },
+  {
+   "from": "last_kako09",
+   "to": "last_kako10",
+   "count": 1
+  },
+  {
+   "from": "last_gendai09",
+   "to": "last_gendai10",
+   "count": 1
+  },
+  {
+   "from": "kureha_10",
+   "to": "kureha_11",
+   "count": 1
+  },
+  {
+   "from": "masa_11",
+   "to": "masa_12",
+   "count": 1
+  },
+  {
+   "from": "maho_09",
+   "to": "maho_10",
+   "count": 1
+  },
+  {
+   "from": "sina_09",
+   "to": "sina_10",
+   "count": 1
+  },
+  {
+   "from": "last_kako10",
+   "to": "last_kako11",
+   "count": 1
+  },
+  {
+   "from": "last_gendai10",
+   "to": "last_gendai11",
+   "count": 1
+  },
+  {
+   "from": "kureha_11",
+   "to": "kureha_12",
+   "count": 1
+  },
+  {
+   "from": "masa_12",
+   "to": "masa_13",
+   "count": 1
+  },
+  {
+   "from": "maho_10",
+   "to": "maho_11",
+   "count": 1
+  },
+  {
+   "from": "sina_10",
+   "to": "sina_11",
+   "count": 1
+  },
+  {
+   "from": "last_kako11",
+   "to": "last_kako12",
+   "count": 1
+  },
+  {
+   "from": "last_gendai11",
+   "to": "last_gendai12",
+   "count": 1
+  },
+  {
+   "from": "kureha_12",
+   "to": "kureha_13",
+   "count": 1
+  },
+  {
+   "from": "masa_13",
+   "to": "masa_14",
+   "count": 1
+  },
+  {
+   "from": "maho_11",
+   "to": "maho_12",
+   "count": 1
+  },
+  {
+   "from": "sina_11",
+   "to": "sina_12",
+   "count": 1
+  },
+  {
+   "from": "last_gendai12",
+   "to": "last_gendai13",
+   "count": 1
+  },
+  {
+   "from": "kureha_13",
+   "to": "kureha_14",
+   "count": 1
+  },
+  {
+   "from": "masa_14",
+   "to": "masa_15",
+   "count": 1
+  },
+  {
+   "from": "maho_12",
+   "to": "maho_13",
+   "count": 1
+  },
+  {
+   "from": "sina_12",
+   "to": "sina_13",
+   "count": 1
+  },
+  {
+   "from": "last_gendai13",
+   "to": "last_gendai14",
+   "count": 1
+  },
+  {
+   "from": "kureha_14",
+   "to": "kureha_15",
+   "count": 1
+  },
+  {
+   "from": "masa_15",
+   "to": "masa_16",
+   "count": 1
+  },
+  {
+   "from": "maho_13",
+   "to": "maho_14",
+   "count": 1
+  },
+  {
+   "from": "sina_13",
+   "to": "sina_14",
+   "count": 1
+  },
+  {
+   "from": "last_gendai14",
+   "to": "last_gendai15",
+   "count": 1
+  },
+  {
+   "from": "kureha_15",
+   "to": "kureha_16",
+   "count": 1
+  },
+  {
+   "from": "masa_16",
+   "to": "masa_17",
+   "count": 1
+  },
+  {
+   "from": "maho_14",
+   "to": "maho_15",
+   "count": 1
+  },
+  {
+   "from": "sina_14",
+   "to": "sina_15",
+   "count": 1
+  },
+  {
+   "from": "last_gendai15",
+   "to": "last_gendai16",
+   "count": 1
+  },
+  {
+   "from": "kureha_16",
+   "to": "kureha_17",
+   "count": 1
+  },
+  {
+   "from": "masa_17",
+   "to": "masa_18",
+   "count": 1
+  },
+  {
+   "from": "maho_15",
+   "to": "maho_16",
+   "count": 1
+  },
+  {
+   "from": "sina_15",
+   "to": "sina_16",
+   "count": 1
+  },
+  {
+   "from": "last_gendai16",
+   "to": "last_ep",
+   "count": 1
+  },
+  {
+   "from": "kureha_17",
+   "to": "kureha_18",
+   "count": 1
+  },
+  {
+   "from": "masa_18",
+   "to": "masa_ep",
+   "count": 1
+  },
+  {
+   "from": "maho_16",
+   "to": "maho_17",
+   "count": 1
+  },
+  {
+   "from": "sina_16",
+   "to": "sina_17",
+   "count": 1
+  },
+  {
+   "from": "kureha_18",
+   "to": "kureha_19",
+   "count": 1
+  },
+  {
+   "from": "maho_17",
+   "to": "maho_18",
+   "count": 1
+  },
+  {
+   "from": "sina_17",
+   "to": "sina_18",
+   "count": 1
+  },
+  {
+   "from": "kureha_19",
+   "to": "kureha_ep",
+   "count": 1
+  },
+  {
+   "from": "maho_18",
+   "to": "maho_18_2ero",
+   "count": 1
+  },
+  {
+   "from": "sina_18",
+   "to": "sina_18_2ero",
+   "count": 1
+  },
+  {
+   "from": "maho_18_2ero",
+   "to": "maho_18_3",
+   "count": 1
+  },
+  {
+   "from": "sina_18_2ero",
+   "to": "sina_18_3",
+   "count": 1
+  },
+  {
+   "from": "maho_18_3",
+   "to": "maho_19",
+   "count": 1
+  },
+  {
+   "from": "sina_18_3",
+   "to": "sina_19",
+   "count": 1
+  },
+  {
+   "from": "maho_19",
+   "to": "maho_epi",
+   "count": 1
+  },
+  {
+   "from": "sina_19",
+   "to": "sina_19_2",
+   "count": 1
+  },
+  {
+   "from": "sina_19_2",
+   "to": "sina_epi",
+   "count": 1
+  }
+ ]
+}

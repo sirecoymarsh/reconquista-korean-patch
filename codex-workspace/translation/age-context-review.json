@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-22",
+  "translator_model": "Codex internal",
+  "user_correction": "The child character does not have sexual scenes; the other characters are expected to be adults.",
+  "affected_characters": [
+    "三沢信哉",
+    "羽鳥真帆子"
+  ],
+  "not_affected": "槙野もみじ; no claim of a sexual scene involving this child was established",
+  "previous_error": "School attendance was used to assert minor status without an explicit age. That factual assertion and categorical exclusion are withdrawn.",
+  "evidence": [
+    {
+      "source": "research/disc/readme.txt",
+      "result": "No character-age statement found"
+    },
+    {
+      "source": "localization/catalog/catalog.jsonl",
+      "result": "Search of explicit 16/17/18-year and adult terms did not establish ages for the affected scene"
+    },
+    {
+      "source": "https://gyutto.com/i/item120620?select_uaflag=1",
+      "result": "Product character introduction identifies Mahoko and Shinya as second-year mission-school students, without an exact age in the accessed introduction"
+    }
+  ],
+  "status": "all 70 translated after user supplied university-level setting; numeric age not independently asserted",
+  "scope": [
+    {
+      "script": "00_レコンキスタ_start_2.mjo",
+      "ranges": [
+        [
+          91,
+          100
+        ],
+        [
+          210,
+          269
+        ]
+      ],
+      "disposition": "translated_after_user_context"
+    }
+  ],
+  "work_rule": "Do not automatically exclude students or claim all 70 units individually contain sexual content. Assess actual characters and scene context. Preserve source and stable IDs. Clearly adult supplied content remains eligible for translation.",
+  "review_20261022": {
+    "reviewer": "primary + read-only review_opening_early",
+    "evidence": [
+      {
+        "source": "maho_14.mjo::001228,001232",
+        "finding": "Childhood flashback: Mahoko will turn ten; Shinya guessing eight is corrected."
+      },
+      {
+        "source": "maho_14.mjo::001005,001068",
+        "finding": "Birthday memory takes place on apartment return route/corridor, not explicitly the hospitalization date."
+      },
+      {
+        "source": "research/extracted/scenario/ホラー年表改.csv",
+        "finding": "Approximate 8/7/6 years from final day for admission/transplant/discharge. Cannot attach birthday flashback to those dates."
+      },
+      {
+        "source": "maho_14.mjo::001282,001397,001418",
+        "finding": "Mahoko older than Shinya; exact present ages not established."
+      }
+    ],
+    "conclusion": "Neither present minority nor adulthood conclusively established. Do not assert either as fact. School attendance alone does not establish minority.",
+    "pending_user_context": "Asked for known setting or maker statement establishing both as 18+ in these scenes.",
+    "all_70_accounted_for": true,
+    "ordinary_transition_translated": [
+      268,
+      269
+    ],
+    "remaining_ranges": [
+      [
+        91,
+        100
+      ],
+      [
+        210,
+        267
+      ]
+    ],
+    "remaining_reason": "Underwear peeking/skirt-lifting scene context; preserve all source and IDs without translating sexual material while age context remains unresolved. Does not claim every standalone line is individually sexual."
+  },
+  "resolution": {
+    "user_statement": "해당 학교는 신학교로 대학의 일종이라는 설정이 있어",
+    "source_type": "direct user clarification, 2026-10-22",
+    "application": "University-level seminary setting supplied by the user is accepted as adult scene context for the affected present-day students. This does not assert an independently verified numeric age or apply adulthood to explicit children/childhood flashbacks.",
+    "translated_ranges": [
+      [
+        91,
+        100
+      ],
+      [
+        210,
+        269
+      ]
+    ],
+    "remaining_deferred_units": []
+  }
+}

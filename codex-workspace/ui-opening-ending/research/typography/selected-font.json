@@ -1,0 +1,19 @@
+{
+  "selected_family": "Eulyoo1945 SemiBold",
+  "selected_file": {
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\typography\\fonts\\Eulyoo1945-SemiBold.otf",
+    "sha256": "1f2b498cae74bac4c37ce616ab6ac0ced85e33b6c666f95e67c9a9e01dc82928"
+  },
+  "reason": "Sharp contrasting serif terminals and substantial stroke weight match the original dark moon/crimson brush identity. Chosen after actual libass frame comparisons with MaruBuri SemiBold and Noto Serif600.",
+  "lyric_ass_size": 30,
+  "lyric_actual_pixel_height": "verify final persisted frames",
+  "license_source": "https://www.eulyoo.co.kr/member/font.html",
+  "license_delivery_rule": "Rasterized video/image text only; do not redistribute or embed the Eulyoo font file in the game or patch. Internal build font stays in research.",
+  "fallback_codepoints": [
+    "沢",
+    "青"
+  ],
+  "fallback_policy": "Explicit Noto Serif font run; never arbitrary Windows fallback.",
+  "comparison": "research/typography/preview/font-comparison.png",
+  "user_runtime_review_pending": true
+}

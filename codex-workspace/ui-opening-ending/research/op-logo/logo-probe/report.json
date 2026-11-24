@@ -1,0 +1,286 @@
+[
+  {
+    "model": "registered coherent source-only logo-free video frame",
+    "donor_time": 19.6,
+    "unoccluded_mean_abs_rgb_error": 4.146521833731612,
+    "time": 20.0,
+    "source_erase_pixels": 72093,
+    "protected_pixel_diff_count": 0,
+    "preencoding_source_geometry": [
+      800,
+      600
+    ],
+    "status": "prototype_visual_review_pending; not a lossless original clean-plate claim"
+  },
+  {
+    "model": "registered coherent source-only logo-free video frame",
+    "donor_time": 19.6,
+    "unoccluded_mean_abs_rgb_error": 2.195567891917655,
+    "time": 21.0,
+    "source_erase_pixels": 59170,
+    "protected_pixel_diff_count": 0,
+    "preencoding_source_geometry": [
+      800,
+      600
+    ],
+    "status": "prototype_visual_review_pending; not a lossless original clean-plate claim"
+  },
+  {
+    "model": "same-frame total-degree5 color surface",
+    "holdout_mean_abs_rgb_error": 0.6703323721885681,
+    "holdout_p95_abs_rgb_error": 2.118889093399048,
+    "time": 22.6,
+    "source_erase_pixels": 51389,
+    "protected_pixel_diff_count": 0,
+    "preencoding_source_geometry": [
+      800,
+      600
+    ],
+    "status": "prototype_visual_review_pending; not a lossless original clean-plate claim"
+  },
+  {
+    "model": "same-frame total-degree5 color surface",
+    "holdout_mean_abs_rgb_error": 1.2693601846694946,
+    "holdout_p95_abs_rgb_error": 3.4300622940063477,
+    "time": 24.0,
+    "source_erase_pixels": 50789,
+    "protected_pixel_diff_count": 0,
+    "preencoding_source_geometry": [
+      800,
+      600
+    ],
+    "status": "prototype_visual_review_pending; not a lossless original clean-plate claim"
+  },
+  {
+    "model": "original bg_020c.rct registered and photometrically matched to video",
+    "feature_inliers": 42,
+    "unoccluded_mean_abs_rgb_error": 3.1194236278533936,
+    "homography": [
+      [
+        1.1395562742809748,
+        -0.0811440804520556,
+        -60.187101660549985
+      ],
+      [
+        -0.003282360162967255,
+        1.0718447921899843,
+        -32.596715305394426
+      ],
+      [
+        -2.8491806283238873e-05,
+        -0.000200447722314655,
+        0.9999999999999999
+      ]
+    ],
+    "time": 25.0,
+    "source_erase_pixels": 50313,
+    "protected_pixel_diff_count": 0,
+    "preencoding_source_geometry": [
+      800,
+      600
+    ],
+    "status": "prototype_visual_review_pending; not a lossless original clean-plate claim"
+  },
+  {
+    "model": "original bg_020c.rct registered and photometrically matched to video",
+    "feature_inliers": 432,
+    "unoccluded_mean_abs_rgb_error": 7.03893518447876,
+    "homography": [
+      [
+        1.1568452808805139,
+        -0.08934286810152875,
+        -62.75967430674396
+      ],
+      [
+        -6.692431296788266e-05,
+        1.0627417341635415,
+        -20.30680771042894
+      ],
+      [
+        -9.001103123817685e-08,
+        -0.00022396936220489287,
+        0.9999999999999999
+      ]
+    ],
+    "time": 26.0,
+    "source_erase_pixels": 49776,
+    "protected_pixel_diff_count": 0,
+    "preencoding_source_geometry": [
+      800,
+      600
+    ],
+    "status": "prototype_visual_review_pending; not a lossless original clean-plate claim"
+  },
+  {
+    "model": "original bg_020c.rct registered and photometrically matched to video",
+    "feature_inliers": 259,
+    "unoccluded_mean_abs_rgb_error": 6.090382099151611,
+    "homography": [
+      [
+        1.1429387866723586,
+        -0.10466528285756281,
+        -57.08052753493888
+      ],
+      [
+        -0.00045185299911902355,
+        1.0325345450966452,
+        -5.196375662234236
+      ],
+      [
+        -2.5419299512918504e-06,
+        -0.00025483953119146183,
+        1.0
+      ]
+    ],
+    "time": 27.0,
+    "source_erase_pixels": 49325,
+    "protected_pixel_diff_count": 0,
+    "preencoding_source_geometry": [
+      800,
+      600
+    ],
+    "status": "prototype_visual_review_pending; not a lossless original clean-plate claim"
+  },
+  {
+    "model": "original bg_020c.rct registered and photometrically matched to video",
+    "feature_inliers": 133,
+    "unoccluded_mean_abs_rgb_error": 8.717052459716797,
+    "homography": [
+      [
+        1.1554181980132652,
+        -0.14479915711006588,
+        -57.23675913647827
+      ],
+      [
+        0.007872364735266354,
+        0.9903621109339226,
+        12.998693668509707
+      ],
+      [
+        2.681312391157251e-05,
+        -0.0003417718274149061,
+        0.9999999999999999
+      ]
+    ],
+    "time": 28.4,
+    "source_erase_pixels": 49374,
+    "protected_pixel_diff_count": 0,
+    "preencoding_source_geometry": [
+      800,
+      600
+    ],
+    "status": "prototype_visual_review_pending; not a lossless original clean-plate claim"
+  },
+  {
+    "model": "original bg_020c.rct registered and photometrically matched to video",
+    "feature_inliers": 19,
+    "unoccluded_mean_abs_rgb_error": 12.074348449707031,
+    "homography": [
+      [
+        1.0229268845096031,
+        -0.05401920242721882,
+        -14.248263396238366
+      ],
+      [
+        -0.042077980128907184,
+        0.9696801877517299,
+        51.92967538876246
+      ],
+      [
+        -6.416261424033247e-05,
+        -0.00022041298009405555,
+        0.9999999999999999
+      ]
+    ],
+    "time": 29.4,
+    "source_erase_pixels": 49561,
+    "protected_pixel_diff_count": 0,
+    "preencoding_source_geometry": [
+      800,
+      600
+    ],
+    "status": "prototype_visual_review_pending; not a lossless original clean-plate claim"
+  },
+  {
+    "model": "original bg_020c.rct registered and photometrically matched to video",
+    "feature_inliers": 0,
+    "unoccluded_mean_abs_rgb_error": 12.884756088256836,
+    "homography": [
+      [
+        1.1463228383079251,
+        -0.1008943223340128,
+        -58.445502492897795
+      ],
+      [
+        6.768634144908458e-05,
+        1.035425260044807,
+        -5.625871949602714
+      ],
+      [
+        2.408791141163945e-07,
+        -0.0002523376069867543,
+        1.0
+      ]
+    ],
+    "time": 30.0,
+    "source_erase_pixels": 57884,
+    "protected_pixel_diff_count": 0,
+    "preencoding_source_geometry": [
+      800,
+      600
+    ],
+    "status": "prototype_visual_review_pending; not a lossless original clean-plate claim"
+  },
+  {
+    "model": "registered coherent source-only logo-free video frame",
+    "donor_time": 90.2,
+    "unoccluded_mean_abs_rgb_error": 4.829407685263791,
+    "time": 90.4,
+    "source_erase_pixels": 61920,
+    "protected_pixel_diff_count": 0,
+    "preencoding_source_geometry": [
+      800,
+      600
+    ],
+    "status": "prototype_visual_review_pending; not a lossless original clean-plate claim"
+  },
+  {
+    "model": "same-frame total-degree5 color surface",
+    "holdout_mean_abs_rgb_error": 0.2592458426952362,
+    "holdout_p95_abs_rgb_error": 1.1618072986602783,
+    "time": 92.0,
+    "source_erase_pixels": 57702,
+    "protected_pixel_diff_count": 0,
+    "preencoding_source_geometry": [
+      800,
+      600
+    ],
+    "status": "prototype_visual_review_pending; not a lossless original clean-plate claim"
+  },
+  {
+    "model": "same-frame total-degree5 color surface",
+    "holdout_mean_abs_rgb_error": 0.2821914851665497,
+    "holdout_p95_abs_rgb_error": 1.1895666122436523,
+    "time": 95.0,
+    "source_erase_pixels": 51027,
+    "protected_pixel_diff_count": 0,
+    "preencoding_source_geometry": [
+      800,
+      600
+    ],
+    "status": "prototype_visual_review_pending; not a lossless original clean-plate claim"
+  },
+  {
+    "model": "same-frame total-degree5 color surface",
+    "holdout_mean_abs_rgb_error": 0.27207016944885254,
+    "holdout_p95_abs_rgb_error": 1.089005708694458,
+    "time": 99.0,
+    "source_erase_pixels": 47117,
+    "protected_pixel_diff_count": 0,
+    "preencoding_source_geometry": [
+      800,
+      600
+    ],
+    "status": "prototype_visual_review_pending; not a lossless original clean-plate claim"
+  }
+]

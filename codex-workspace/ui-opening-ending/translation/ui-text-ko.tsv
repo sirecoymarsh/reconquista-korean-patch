@@ -1,0 +1,143 @@
+c_setumei.mjo::000017	여기서는 연표의 조작 방법 등을 안내합니다.
+c_setumei.mjo::000022	궁금한 항목을 선택해 내용을 확인해 주세요.
+c_setumei.mjo::000032	도움말 닫기
+c_setumei.mjo::000033	서브 에피소드 안내
+c_setumei.mjo::000034	새 정보(NEW) 안내
+c_setumei.mjo::000035	조작 방법
+c_setumei.mjo::000036	연표 안내
+c_setumei.mjo::000047	이 연표에서는 등장인물들의 과거에 있었던 일을
+c_setumei.mjo::000051	인물별로 시간순에 따라 살펴볼 수 있습니다.
+c_setumei.mjo::000056	게임에서 밝혀진 각 인물의 과거는
+c_setumei.mjo::000060	엔딩을 하나씩 볼 때마다
+c_setumei.mjo::000064	이 연표에 반영됩니다.
+c_setumei.mjo::000069	'언제, 누구에게 무슨 일이 있었을까?'
+c_setumei.mjo::000073	'그때 다른 인물들은 무엇을 하고 있었을까?'
+c_setumei.mjo::000077	이런 정보를 정리하고 싶을 때 활용해 보세요.
+c_setumei.mjo::000086	연표의 세로축은 시간, 가로축은 인물을 나타내며,
+c_setumei.mjo::000090	스크롤바나 마우스를 조작해
+c_setumei.mjo::000094	표시 범위를 바꿀 수 있습니다.
+c_setumei.mjo::000103	참고로 이 연표는 부가 요소로,
+c_setumei.mjo::000107	게임을 클리어하는 데는 전혀 영향을 주지 않습니다.
+c_setumei.mjo::000112	연표를 한 번도 사용하지 않아도
+c_setumei.mjo::000116	모든 엔딩을 볼 수 있습니다.
+c_setumei.mjo::000121	서브 에피소드를 보지 않았다고 해서
+c_setumei.mjo::000125	본편 내용을 이해하지 못하는 일도 없습니다.
+c_setumei.mjo::000130	그러니 본편 이야기를 빨리 따라가고 싶다면
+c_setumei.mjo::000134	본편 플레이를 먼저 진행하셔도 좋습니다.
+c_setumei.mjo::000139	다만 서브 에피소드와
+c_setumei.mjo::000143	그 안에서 사용되는 일부 CG는
+c_setumei.mjo::000147	연표를 통해서만 볼 수 있습니다.
+c_setumei.mjo::000152	이야기를 더 깊이 알고 싶거나
+c_setumei.mjo::000156	모든 CG를 모으고 싶다면
+c_setumei.mjo::000160	언제든 이곳을 살펴봐 주세요.
+c_setumei.mjo::000176	뒤로
+c_setumei.mjo::000177	버튼
+c_setumei.mjo::000178	연표의 칸
+c_setumei.mjo::000179	이동 방법
+c_setumei.mjo::000190	화면 오른쪽과 아래쪽의 스크롤바를 움직이면
+c_setumei.mjo::000194	연표의 표시 범위를 옮길 수 있습니다.
+c_setumei.mjo::000203	마우스 왼쪽 버튼을 누른 채 움직여도
+c_setumei.mjo::000207	표시 범위를 옮길 수 있습니다.
+c_setumei.mjo::000211	(단, 이 방법으로는 짧은 거리만 이동할 수 있습니다.)
+c_setumei.mjo::000226	연표는 수많은 칸으로 이루어져 있습니다.
+c_setumei.mjo::000230	빈칸에는 정보가 표시되지 않습니다.
+c_setumei.mjo::000239	노이즈가 있는 칸에는
+c_setumei.mjo::000243	앞으로 새로운 정보가 표시될 수 있습니다.
+c_setumei.mjo::000252	빨간 칸은 새로 갱신된 정보입니다.
+c_setumei.mjo::000257	자세한 내용은 【새 정보(NEW) 안내】 항목을
+c_setumei.mjo::000261	참고해 주세요.
+c_setumei.mjo::000270	정보가 갱신된 칸의 오른쪽 위에
+c_setumei.mjo::000274	분홍색 ▲ 표시가 있다면,
+c_setumei.mjo::000278	마우스를 올려 추가 정보를 볼 수 있습니다.
+c_setumei.mjo::000287	노란 칸에서는 서브 에피소드를 볼 수 있습니다.
+c_setumei.mjo::000292	자세한 내용은 【서브 에피소드 안내】 항목을
+c_setumei.mjo::000296	참고해 주세요.
+c_setumei.mjo::000311	이 설명을 다시 보고 싶다면
+c_setumei.mjo::000315	오른쪽 위의 '도움말' 버튼을 누르세요.
+c_setumei.mjo::000319	몇 번이든 다시 볼 수 있습니다.
+c_setumei.mjo::000328	연표 화면에서 나가려면
+c_setumei.mjo::000332	오른쪽 위의 '닫기' 버튼을 누르거나
+c_setumei.mjo::000336	마우스 오른쪽 버튼을 누르세요.
+c_setumei.mjo::000345	본편을 플레이하다 연표를 확인하고 싶다면
+c_setumei.mjo::000349	대사창 오른쪽 끝에 있는
+c_setumei.mjo::000353	'연표' 버튼을 누르세요.
+c_setumei.mjo::000362	메뉴 화면의 '연표 보기'를 선택해도
+c_setumei.mjo::000366	연표 화면을 열 수 있습니다.
+c_setumei.mjo::000375	참고로 서브 에피소드를 플레이하는 도중에
+c_setumei.mjo::000379	'연표'나 '연표 보기' 버튼을 누르면
+c_setumei.mjo::000383	서브 에피소드를 중간에 종료할 수 있습니다.
+c_setumei.mjo::000405	이 게임에는 여러 엔딩이 있으며,
+c_setumei.mjo::000409	엔딩을 하나씩 볼 때마다 연표가 갱신됩니다.
+c_setumei.mjo::000414	이때 새로 갱신된 정보는 빨간 칸에 표시됩니다.
+c_setumei.mjo::000423	화면 오른쪽 위에 있는
+c_setumei.mjo::000427	'새 정보(NEW) 찾기' 버튼을 누르면
+c_setumei.mjo::000431	해당 칸이 보이는 위치로 자동으로 이동합니다.
+c_setumei.mjo::000436	클릭할 때마다 다음 새 정보로 이동하니,
+c_setumei.mjo::000440	새 정보를 빠르게 확인하고 싶을 때 활용해 주세요.
+c_setumei.mjo::000455	서브 에피소드는 본편 내용을 보충하는
+c_setumei.mjo::000459	아주 짧은 이야기입니다.
+c_setumei.mjo::000464	특정 정보에 관해 더 자세히 다루므로,
+c_setumei.mjo::000468	과거의 일을 더 깊이 알 수 있습니다.
+c_setumei.mjo::000483	※ 다만 어디까지나 내용을 보충하는 이야기이므로,
+c_setumei.mjo::000487	　본편 이야기의 흐름을 끊고 싶지 않다면
+c_setumei.mjo::000491	　서브 에피소드는 나중에 보셔도 좋습니다.
+c_setumei.mjo::000496	노란 칸에 마우스를 올려 클릭하면
+c_setumei.mjo::000500	서브 에피소드가 시작됩니다.
+c_setumei.mjo::000509	화면 오른쪽 위에 있는
+c_setumei.mjo::000513	'서브 에피소드 찾기' 버튼을 누르면
+c_setumei.mjo::000517	해당 칸이 보이는 위치로 자동으로 이동합니다.
+c_setumei.mjo::000528	그럼 계속해서 게임을 즐겨 주세요.
+cgmode.mjo::000576	 ] CHECK1 위치에서 매개변수 수가 맞지 않습니다.
+cgmode.mjo::000817	 ] CHECK2 위치에서 매개변수 수가 맞지 않습니다.
+cgmode.mjo::000932	 ] CHECK3 위치에서 매개변수 수가 맞지 않습니다.
+cgmode.mjo::000971	 ] ALL_END 위치에서 매개변수 수가 맞지 않습니다.
+chronicle.mjo::002912	서브 에피소드를 종료할까요?
+chronicle.mjo::003392	새로 갱신된 정보가 없습니다
+chronicle.mjo::003487	서브 에피소드가 없습니다
+chronicle.mjo::003841	연표가 갱신되었습니다
+chronicle.mjo::004029	의 서브 에피소드가 추가되었습니다
+config.mjo::008005	 / 음량 : 
+config.mjo::008011	글자 표시 속도 : 
+config.mjo::008726	[ config.cfg ]의 check 항목 수가 부족합니다
+config.mjo::008998	[ config.cfg ]에서 [EOF]의 존재 여부와 위치를 확인해 주세요
+config.mjo::009442	[ config.cfg ] 화면 설정 구역 끝에서 매개변수 수가 맞지 않습니다.
+config.mjo::009709	[ config.cfg ] 음량 설정 구역 끝에서 매개변수 수가 맞지 않습니다.
+config.mjo::011907	[ config.cfg ] 인물별 설정 구역 끝에서 매개변수 수가 맞지 않습니다.
+console.mjo::005505	저장할 수 없습니다
+console.mjo::005601	저장할 수 없습니다
+console.mjo::005729	저장할 수 없습니다
+console.mjo::005739	빠른 저장을 할까요?
+console.mjo::005750	빠른 저장을 완료했습니다
+console.mjo::005766	빠른 저장 데이터를 불러올까요?
+console.mjo::005777	빠른 저장 데이터가 없습니다
+load_sysdata.mjo::001378	[ sysdata.cfg ] CHECK_END 위치에서 매개변수 수가 맞지 않습니다.
+loadsave.mjo::000821	】 데이터를 저장합니다
+loadsave.mjo::000842	저장했습니다
+loadsave.mjo::001138	데이터를 불러올까요?
+loadsave.mjo::001174	덮어써서 저장할까요?
+loadsave.mjo::001287	저장할 수 없습니다
+loadsave.mjo::001698	[ loadsave.cfg ] PARAM_CHK1 위치에서 매개변수 수가 맞지 않습니다.
+loadsave.mjo::001798	[ loadsave.cfg ] PARAM_CHK2 위치에서 매개변수 수가 맞지 않습니다.
+loadsave.mjo::002083	[ loadsave.cfg ] PARAM_CHK3 위치에서 매개변수 수가 맞지 않습니다.
+menu.mjo::003119	저장할 수 없습니다
+menu.mjo::003239	저장할 수 없습니다
+menu.mjo::003249	빠른 저장을 할까요?
+menu.mjo::003260	빠른 저장을 완료했습니다
+menu.mjo::003276	빠른 저장 데이터를 불러올까요?
+menu.mjo::004647	[ menudata.cfg ] PARAM_CHK 위치에서 매개변수 수가 맞지 않습니다. MENUMODE 등을 확인해 주세요
+menu.mjo::004853	[ menudata.cfg ] PARAM_CHK 위치에서 매개변수 수가 맞지 않습니다. MENUMODE 등을 확인해 주세요
+menu.mjo::005105	[ menudata.cfg ] PARAM_CHK 위치에서 매개변수 수가 맞지 않습니다. MENUMODE 등을 확인해 주세요
+message_box.mjo::000639	불러
+message_box.mjo::000650	저장
+music.mjo::000137	지금은 재생할 수 없습니다
+pausemenu.mjo::000723	저장할 수 없습니다
+pausemenu.mjo::000790	서브 에피소드를 종료할까요?
+pausemenu.mjo::000801	타이틀로 돌아갈까요?
+pausemenu.mjo::000818	종료할까요?
+sightchange.mjo::000011	시점을 선택해 주세요
+sightchange.mjo::000615	마키노 게이고의 시점으로 바꿀까요?
+sightchange.mjo::000617	미사와 신야의 시점으로 바꿀까요?
+staffroom.mjo::000018	아직 볼 수 없습니다
+start.mjo::001543	드래그 시작
+start.mjo::001622	처음 시작
+start.mjo::001699	게임을 종료할까요?

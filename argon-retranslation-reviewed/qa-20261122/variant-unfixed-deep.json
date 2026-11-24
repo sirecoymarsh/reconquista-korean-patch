@@ -1,0 +1,98 @@
+{
+ "mode": "routes",
+ "started": "2026-11-22 10:43:06",
+ "nv_before": 1133,
+ "runs": [
+  {
+   "label": "routes-38758-re",
+   "pid": 51652,
+   "steps": [
+    {
+     "step": "route 38758",
+     "t": 187.9,
+     "order": 37758,
+     "chapter": "?",
+     "ending": true,
+     "arrive_s": 66.3,
+     "items": 1,
+     "timeline": [
+      [
+       30,
+       19,
+       111,
+       "ev509.rct",
+       null
+      ],
+      [
+       61,
+       38,
+       0,
+       "ev509.rct",
+       null
+      ],
+      [
+       91,
+       57,
+       0,
+       "ev509.rct",
+       null
+      ]
+     ],
+     "error": "AttributeError(\"'function' object has no attribute 'IsHungAppWindow'\")"
+    }
+   ],
+   "dialogs": [],
+   "mem_mb_start": 987,
+   "routes": [
+    {
+     "i": 38758,
+     "order": 37758,
+     "chapter": "?",
+     "ending": true,
+     "arrive_s": 66.3,
+     "items": 1,
+     "timeline": [
+      [
+       30,
+       19,
+       111,
+       "ev509.rct",
+       null
+      ],
+      [
+       61,
+       38,
+       0,
+       "ev509.rct",
+       null
+      ],
+      [
+       91,
+       57,
+       0,
+       "ev509.rct",
+       null
+      ]
+     ],
+     "error": "AttributeError(\"'function' object has no attribute 'IsHungAppWindow'\")"
+    }
+   ],
+   "new_review_folders": [
+    "savedata-review-51652-269087843"
+   ],
+   "mem_mb_end": 1508,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.0,
+    "loud_spans": [],
+    "errors": []
+   },
+   "log_mb": 1.8,
+   "log_errors": []
+  }
+ ],
+ "nv_after": 1133,
+ "ended": "2026-11-22 10:46:17"
+}

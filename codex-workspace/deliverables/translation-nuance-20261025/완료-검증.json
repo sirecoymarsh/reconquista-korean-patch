@@ -1,0 +1,55 @@
+{
+  "status": "applied_targeted_corrections_runtime_partial",
+  "date": "2026-10-25",
+  "translator_model": "Codex internal",
+  "changed_fields": 17,
+  "loanword_fields": 15,
+  "register_fields": 2,
+  "changed_scripts": 12,
+  "preview_changes": 17,
+  "snapshot_sha256": "7faf308f8e9e2e4d89e458b9e47a276e68f49ab18956d5858e6b9ba906ad821c",
+  "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-body-ui-20261025-v20-nuance",
+  "launcher": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\Start-Korean.cmd",
+  "rollback_launcher": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\Start-Korean-v19.cmd",
+  "report": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\translation-nuance-20261025\\보완-내역.txt",
+  "static_verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\translation-nuance-20261025-v1\\build-verification.json",
+  "runtime_verification": {
+    "passed_targets": [
+      {
+        "order": 216,
+        "description": "마키노의 첫 자기소개"
+      },
+      {
+        "order": 222,
+        "description": "마사키의 오케이 대사"
+      },
+      {
+        "order": 1074,
+        "description": "마호코의 개그 대사"
+      }
+    ],
+    "passed_evidence": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\translation-nuance-20261025-v1\\qa\\runtime-first-attempt.json",
+    "test_environment": "Private desktop, muted disposable copies, no global input or screenshot generation",
+    "not_verified_target": {
+      "order": 9107,
+      "scene": "masa_06 u0022",
+      "result": "v20 muted fast-jump test timed out; v19 comparison was inconclusive because it stopped at a startup dialog before the jump",
+      "new_version_evidence": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\translation-nuance-20261025-v1\\qa\\runtime-masa-retry.json",
+      "baseline_evidence": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\translation-nuance-20261025-v1\\qa\\runtime-masa-baseline2.json",
+      "interpretation": "Cause unresolved. Do not claim a pre-existing game bug or regression. Normal route playback of this scene was not established. Accepted corrections are limited to display text; all branch and function targets are equivalent.",
+      "baseline_fixture_cleanup": {
+        "normal_exit": false,
+        "exit_code": 1,
+        "local_test_save_changed": true
+      }
+    },
+    "full_route_or_visual_screen_review": false,
+    "save_originals_unchanged": true,
+    "owned_game_processes_remaining": 0
+  },
+  "security_scan_pass": true,
+  "outputs": {
+    "scenario.arc": "f5e18ee644b34920d436cd5f01c660b811865a8a5c79959c979646ee82f5c15d",
+    "flowchart.bin": "d40b81dde49e186107b503b483fc82700d863039c6271e2468aeca27fe127180"
+  }
+}

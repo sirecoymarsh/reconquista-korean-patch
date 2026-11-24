@@ -1,0 +1,84 @@
+{
+  "candidate": "installer-ui-v4",
+  "created_utc": "2026-10-22T22:54:51.844255+00:00",
+  "setup_sha256": "546f64b7d0128521d0fc163da7d9190a44cbe0fec2bf429f0a6666c058fbbc4d",
+  "system_acp": 949,
+  "host_pid": 62776,
+  "installer_executed": false,
+  "new_setup_code_executed": false,
+  "native_display_path": "Patched literal bytes at0x4144ed via SetDlgItemTextA into actual MAINDIALOG control1002; GetWindowTextW and DrawTextW checked. Static callsite/argument proof is in installer-readme-display-audit.json.",
+  "capture": {
+    "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-dialogs\\installer-v4-readme-button-401520.png",
+    "sha256": "184510f3562b883c619dafdba498a72a76e53444042bb472fcf59c10eac651c1",
+    "print_window_return": true,
+    "size": [
+      426,
+      375
+    ],
+    "extrema": [
+      [
+        0,
+        253
+      ],
+      [
+        0,
+        253
+      ],
+      [
+        0,
+        253
+      ]
+    ]
+  },
+  "layout": {
+    "control_id": 1002,
+    "window_text_matches": true,
+    "control_pixels": [
+      131,
+      26
+    ],
+    "required_text_pixels": [
+      36,
+      15
+    ],
+    "fits": true
+  },
+  "input_before": {
+    "hwnd": 2557746,
+    "pid": 6480,
+    "input_desktop": "Default"
+  },
+  "input_after": {
+    "hwnd": 2557746,
+    "pid": 6480,
+    "input_desktop": "Default"
+  },
+  "focus_sampler": {
+    "sample_interval_ms": 50,
+    "samples": 7,
+    "events": [
+      {
+        "monotonic": 238532.359,
+        "hwnd": 2557746,
+        "pid": 6480,
+        "input_desktop": "Default"
+      }
+    ],
+    "errors": [],
+    "game_became_foreground": false,
+    "private_desktop_became_input": false,
+    "continuous_monitor": false,
+    "scope": "50 ms samples during this command; gaps between commands not monitored"
+  },
+  "clipboard_sequence_before": 153,
+  "clipboard_sequence_after": 153,
+  "clipboard_mutation_apis_invoked": false,
+  "all_host_windows_destroyed": true,
+  "runtime_pass": false,
+  "layout_visual_pass": true,
+  "scope": "Only new README button native host checked. Prior resource/launcher/message layout evidence reused. Real initialization, branding, shortcuts and installer actions not executed.",
+  "visual_findings": [
+    "안내문 is clear and centered inside actual control1002.",
+    "Only the new label was checked; other launch controls and all prior layouts are inherited from earlier evidence."
+  ]
+}

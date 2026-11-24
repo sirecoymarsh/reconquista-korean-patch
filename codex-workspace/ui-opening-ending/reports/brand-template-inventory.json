@@ -1,0 +1,434 @@
+{
+  "source_roi": [
+    41,
+    466,
+    389,
+    29
+  ],
+  "method": "Discovery-only effective RGBA-on-black high-pass logo NCC. Float64 local variance with minimum std0.5; final candidate NCC recomputed directly in float64. Previous cv2 TM_CCOEFF_NORMED output was invalid in near-zero-variance windows and is superseded. No donor accepted by this search.",
+  "checked": 130,
+  "elapsed_seconds": 4.55,
+  "candidates": [
+    {
+      "file": "バックログ画面.rct.png",
+      "score": 0.9999999999999998,
+      "position": [
+        41,
+        466
+      ],
+      "patch_std": 20.94545461117112,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 155385
+    },
+    {
+      "file": "chapter_off_1.rct.png",
+      "score": 0.999961277990309,
+      "position": [
+        84,
+        30
+      ],
+      "patch_std": 21.880876173071005,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 194703
+    },
+    {
+      "file": "chapter_off_2.rct.png",
+      "score": 0.999961277990309,
+      "position": [
+        84,
+        30
+      ],
+      "patch_std": 21.880876173071005,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 195460
+    },
+    {
+      "file": "chapter_on.rct.png",
+      "score": 0.999961277990309,
+      "position": [
+        84,
+        30
+      ],
+      "patch_std": 21.880876173071005,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 195498
+    },
+    {
+      "file": "chapter_push.rct.png",
+      "score": 0.999961277990309,
+      "position": [
+        84,
+        30
+      ],
+      "patch_std": 21.880876173071005,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 195400
+    },
+    {
+      "file": "staffroom_off.rct.png",
+      "score": 0.9929839341447035,
+      "position": [
+        29,
+        441
+      ],
+      "patch_std": 19.952990275537125,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 235664
+    },
+    {
+      "file": "staffroom_on.rct.png",
+      "score": 0.9929839341447035,
+      "position": [
+        29,
+        441
+      ],
+      "patch_std": 19.952990275537125,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 235664
+    },
+    {
+      "file": "視点変更背景_null.rct.png",
+      "score": 0.9579197225811055,
+      "position": [
+        32,
+        10
+      ],
+      "patch_std": 17.760453141518564,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 232671
+    },
+    {
+      "file": "視点変更背景_off.rct.png",
+      "score": 0.9579197225811055,
+      "position": [
+        32,
+        10
+      ],
+      "patch_std": 17.760453141518564,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 232671
+    },
+    {
+      "file": "視点変更背景_on.rct.png",
+      "score": 0.9579197225811055,
+      "position": [
+        32,
+        10
+      ],
+      "patch_std": 17.760453141518564,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 232671
+    },
+    {
+      "file": "kaisou_off.rct.png",
+      "score": 0.9539384947614123,
+      "position": [
+        47,
+        458
+      ],
+      "patch_std": 15.057588635406107,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 229206
+    },
+    {
+      "file": "kaisou_on.rct.png",
+      "score": 0.9539384947614123,
+      "position": [
+        47,
+        458
+      ],
+      "patch_std": 15.057588635406107,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 235035
+    },
+    {
+      "file": "cgm_off.rct.png",
+      "score": 0.8827232305492622,
+      "position": [
+        47,
+        458
+      ],
+      "patch_std": 23.421552028095526,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 231416
+    },
+    {
+      "file": "cgm_on.rct.png",
+      "score": 0.47092882609475933,
+      "position": [
+        47,
+        458
+      ],
+      "patch_std": 21.6195525831834,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 235664
+    },
+    {
+      "file": "サウンドモード_off.rct.png",
+      "score": 0.2748377303459384,
+      "position": [
+        58,
+        447
+      ],
+      "patch_std": 30.442551536901973,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 230809
+    },
+    {
+      "file": "sl_save_n.rct.png",
+      "score": 0.22814809564109328,
+      "position": [
+        315,
+        55
+      ],
+      "patch_std": 61.07623833325321,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 235664
+    },
+    {
+      "file": "sl_load_n.rct.png",
+      "score": 0.22425688306834088,
+      "position": [
+        280,
+        55
+      ],
+      "patch_std": 61.7116297709209,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 235664
+    },
+    {
+      "file": "サウンドモード_背景_on.rct.png",
+      "score": 0.20023609191719485,
+      "position": [
+        71,
+        290
+      ],
+      "patch_std": 11.282442370222633,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 235664
+    },
+    {
+      "file": "サウンドモード_背景_off.rct.png",
+      "score": 0.1997530431724592,
+      "position": [
+        71,
+        290
+      ],
+      "patch_std": 15.219268797518081,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 235664
+    },
+    {
+      "file": "★ブランドロゴ.rct.png",
+      "score": 0.19773250265844322,
+      "position": [
+        214,
+        287
+      ],
+      "patch_std": 81.04126980270368,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 27579
+    },
+    {
+      "file": "title1_null2.rct.png",
+      "score": 0.1928487260576058,
+      "position": [
+        178,
+        515
+      ],
+      "patch_std": 3.448523052203508,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 219151
+    },
+    {
+      "file": "title1_off.rct.png",
+      "score": 0.1928487260576058,
+      "position": [
+        178,
+        515
+      ],
+      "patch_std": 3.448523052203508,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 230253
+    },
+    {
+      "file": "title1_on.rct.png",
+      "score": 0.1928487260576058,
+      "position": [
+        178,
+        515
+      ],
+      "patch_std": 3.448523052203508,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 230253
+    },
+    {
+      "file": "title1_push.rct.png",
+      "score": 0.1928487260576058,
+      "position": [
+        178,
+        515
+      ],
+      "patch_std": 3.448523052203508,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 230253
+    },
+    {
+      "file": "config_off.rct.png",
+      "score": 0.19179557405126557,
+      "position": [
+        244,
+        231
+      ],
+      "patch_std": 13.727042550251497,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 235664
+    },
+    {
+      "file": "config_on.rct.png",
+      "score": 0.19179557405126557,
+      "position": [
+        244,
+        231
+      ],
+      "patch_std": 13.727042550251497,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 235664
+    },
+    {
+      "file": "config_push.rct.png",
+      "score": 0.19179557405126557,
+      "position": [
+        244,
+        231
+      ],
+      "patch_std": 13.727042550251497,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 235664
+    },
+    {
+      "file": "title2_null2.rct.png",
+      "score": 0.19087257364404017,
+      "position": [
+        178,
+        515
+      ],
+      "patch_std": 3.381525665983321,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 222756
+    },
+    {
+      "file": "title2_off.rct.png",
+      "score": 0.19087257364404017,
+      "position": [
+        178,
+        515
+      ],
+      "patch_std": 3.381525665983321,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 230260
+    },
+    {
+      "file": "title2_on.rct.png",
+      "score": 0.19087257364404017,
+      "position": [
+        178,
+        515
+      ],
+      "patch_std": 3.381525665983321,
+      "image_size": [
+        800,
+        600
+      ],
+      "valid_positions": 230260
+    }
+  ],
+  "accepted_donor": null
+}

@@ -1,0 +1,157 @@
+{
+  "candidate": "ending-credits-raster-v1",
+  "candidate_manifest_sha256": "652605e33330b20b2966ece9b1e715d182850bc6b7ed6f5f1769f78cbd214943",
+  "scope": "Only ten changed TC01 slide dependencies; prior full raster/semantic checks reused. No new game execution.",
+  "closure": {
+    "TC01_base_and_sentinel": {
+      "pass": true,
+      "entries": [
+        {
+          "entry": "staffrollb_002.rct",
+          "signature": "TC01",
+          "base_entry": "staffrollb_001.rct",
+          "base_output_sha256": "dd3de4aadf1831cab9d221950a51c3946db4a4bea0e97db77db190a7a04603b8",
+          "sentinel_rgb": [
+            255,
+            0,
+            0
+          ],
+          "sentinel_pixels": 0,
+          "effective_pixels_equal_persisted_preview": true,
+          "dependent_base_resolved_from_same_candidate": true
+        },
+        {
+          "entry": "staffrollb_003.rct",
+          "signature": "TC01",
+          "base_entry": "staffrollb_001.rct",
+          "base_output_sha256": "dd3de4aadf1831cab9d221950a51c3946db4a4bea0e97db77db190a7a04603b8",
+          "sentinel_rgb": [
+            255,
+            0,
+            0
+          ],
+          "sentinel_pixels": 0,
+          "effective_pixels_equal_persisted_preview": true,
+          "dependent_base_resolved_from_same_candidate": true
+        },
+        {
+          "entry": "staffrollb_004.rct",
+          "signature": "TC01",
+          "base_entry": "staffrollb_001.rct",
+          "base_output_sha256": "dd3de4aadf1831cab9d221950a51c3946db4a4bea0e97db77db190a7a04603b8",
+          "sentinel_rgb": [
+            255,
+            0,
+            0
+          ],
+          "sentinel_pixels": 0,
+          "effective_pixels_equal_persisted_preview": true,
+          "dependent_base_resolved_from_same_candidate": true
+        },
+        {
+          "entry": "staffrollb_005.rct",
+          "signature": "TC01",
+          "base_entry": "staffrollb_001.rct",
+          "base_output_sha256": "dd3de4aadf1831cab9d221950a51c3946db4a4bea0e97db77db190a7a04603b8",
+          "sentinel_rgb": [
+            255,
+            0,
+            0
+          ],
+          "sentinel_pixels": 0,
+          "effective_pixels_equal_persisted_preview": true,
+          "dependent_base_resolved_from_same_candidate": true
+        },
+        {
+          "entry": "staffrollb_006.rct",
+          "signature": "TC01",
+          "base_entry": "staffrollb_001.rct",
+          "base_output_sha256": "dd3de4aadf1831cab9d221950a51c3946db4a4bea0e97db77db190a7a04603b8",
+          "sentinel_rgb": [
+            255,
+            0,
+            0
+          ],
+          "sentinel_pixels": 0,
+          "effective_pixels_equal_persisted_preview": true,
+          "dependent_base_resolved_from_same_candidate": true
+        },
+        {
+          "entry": "staffrollb_007.rct",
+          "signature": "TC01",
+          "base_entry": "staffrollb_001.rct",
+          "base_output_sha256": "dd3de4aadf1831cab9d221950a51c3946db4a4bea0e97db77db190a7a04603b8",
+          "sentinel_rgb": [
+            255,
+            0,
+            0
+          ],
+          "sentinel_pixels": 0,
+          "effective_pixels_equal_persisted_preview": true,
+          "dependent_base_resolved_from_same_candidate": true
+        },
+        {
+          "entry": "staffrollb_008.rct",
+          "signature": "TC01",
+          "base_entry": "staffrollb_001.rct",
+          "base_output_sha256": "dd3de4aadf1831cab9d221950a51c3946db4a4bea0e97db77db190a7a04603b8",
+          "sentinel_rgb": [
+            255,
+            0,
+            0
+          ],
+          "sentinel_pixels": 0,
+          "effective_pixels_equal_persisted_preview": true,
+          "dependent_base_resolved_from_same_candidate": true
+        },
+        {
+          "entry": "staffrollb_009.rct",
+          "signature": "TC01",
+          "base_entry": "staffrollb_001.rct",
+          "base_output_sha256": "dd3de4aadf1831cab9d221950a51c3946db4a4bea0e97db77db190a7a04603b8",
+          "sentinel_rgb": [
+            255,
+            0,
+            0
+          ],
+          "sentinel_pixels": 0,
+          "effective_pixels_equal_persisted_preview": true,
+          "dependent_base_resolved_from_same_candidate": true
+        },
+        {
+          "entry": "staffrollb_010.rct",
+          "signature": "TC01",
+          "base_entry": "staffrollb_001.rct",
+          "base_output_sha256": "dd3de4aadf1831cab9d221950a51c3946db4a4bea0e97db77db190a7a04603b8",
+          "sentinel_rgb": [
+            255,
+            0,
+            0
+          ],
+          "sentinel_pixels": 0,
+          "effective_pixels_equal_persisted_preview": true,
+          "dependent_base_resolved_from_same_candidate": true
+        },
+        {
+          "entry": "staffrollb_011.rct",
+          "signature": "TC01",
+          "base_entry": "staffrollb_001.rct",
+          "base_output_sha256": "dd3de4aadf1831cab9d221950a51c3946db4a4bea0e97db77db190a7a04603b8",
+          "sentinel_rgb": [
+            255,
+            0,
+            0
+          ],
+          "sentinel_pixels": 0,
+          "effective_pixels_equal_persisted_preview": true,
+          "dependent_base_resolved_from_same_candidate": true
+        }
+      ]
+    }
+  },
+  "payloads_modified": false,
+  "original_candidate_manifest_modified": false,
+  "structural_pass": true,
+  "visual_pass_reused_from_main_manifest": true,
+  "runtime_review": "user_final_review_pending"
+}

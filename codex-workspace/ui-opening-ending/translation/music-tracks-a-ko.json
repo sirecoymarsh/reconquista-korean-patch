@@ -1,0 +1,1335 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "tracks": [
+    {
+      "track_id": 1,
+      "source": "Port Island",
+      "target": "포트 아일랜드",
+      "crop": [
+        45,
+        185,
+        151,
+        46
+      ],
+      "left": 68,
+      "font_size": 18
+    },
+    {
+      "track_id": 2,
+      "source": "やわらかな日々",
+      "target": "포근한 나날",
+      "crop": [
+        45,
+        231,
+        151,
+        46
+      ],
+      "left": 68,
+      "font_size": 18
+    },
+    {
+      "track_id": 3,
+      "source": "子鹿のステップ",
+      "target": "아기 사슴의 발걸음",
+      "crop": [
+        45,
+        278,
+        151,
+        46
+      ],
+      "left": 68,
+      "font_size": 15
+    },
+    {
+      "track_id": 4,
+      "source": "Sunset city",
+      "target": "노을 지는 도시",
+      "crop": [
+        45,
+        324,
+        151,
+        46
+      ],
+      "left": 68,
+      "font_size": 18
+    },
+    {
+      "track_id": 5,
+      "source": "suspicion",
+      "target": "의혹",
+      "crop": [
+        45,
+        372,
+        151,
+        46
+      ],
+      "left": 68,
+      "font_size": 18
+    },
+    {
+      "track_id": 9,
+      "source": "歩く速さで",
+      "target": "걷는 속도로",
+      "crop": [
+        193,
+        185,
+        151,
+        46
+      ],
+      "left": 223,
+      "font_size": 18
+    },
+    {
+      "track_id": 10,
+      "source": "朝陽のまどろみ",
+      "target": "아침 햇살 속 선잠",
+      "crop": [
+        193,
+        231,
+        151,
+        46
+      ],
+      "left": 223,
+      "font_size": 15
+    },
+    {
+      "track_id": 11,
+      "source": "プロムナード",
+      "target": "산책",
+      "crop": [
+        193,
+        278,
+        151,
+        46
+      ],
+      "left": 223,
+      "font_size": 18
+    },
+    {
+      "track_id": 12,
+      "source": "せめて良い夢を",
+      "target": "꿈만은 좋기를",
+      "crop": [
+        193,
+        324,
+        151,
+        46
+      ],
+      "left": 223,
+      "font_size": 18
+    },
+    {
+      "track_id": 13,
+      "source": "振り返れば",
+      "target": "돌아보면",
+      "crop": [
+        193,
+        372,
+        151,
+        46
+      ],
+      "left": 223,
+      "font_size": 18
+    },
+    {
+      "track_id": 17,
+      "source": "Terror",
+      "target": "공포",
+      "crop": [
+        352,
+        185,
+        151,
+        46
+      ],
+      "left": 374,
+      "font_size": 18
+    },
+    {
+      "track_id": 18,
+      "source": "Night Town",
+      "target": "밤의 거리",
+      "crop": [
+        352,
+        231,
+        151,
+        46
+      ],
+      "left": 374,
+      "font_size": 18
+    },
+    {
+      "track_id": 19,
+      "source": "rainy blue",
+      "target": "비 오는 날의 우울",
+      "crop": [
+        352,
+        278,
+        151,
+        46
+      ],
+      "left": 374,
+      "font_size": 16
+    },
+    {
+      "track_id": 20,
+      "source": "touching",
+      "target": "감동",
+      "crop": [
+        352,
+        324,
+        151,
+        46
+      ],
+      "left": 374,
+      "font_size": 18
+    },
+    {
+      "track_id": 21,
+      "source": "結婚行進曲",
+      "target": "결혼 행진곡",
+      "crop": [
+        352,
+        372,
+        151,
+        46
+      ],
+      "left": 374,
+      "font_size": 18
+    },
+    {
+      "track_id": 24,
+      "source": "Reconquista\n(shortver)",
+      "target": "레콘퀴스타\n(짧은 버전)",
+      "crop": [
+        522,
+        231,
+        214,
+        46
+      ],
+      "left": 533,
+      "font_size": 18
+    },
+    {
+      "track_id": 25,
+      "source": "Reconquista\n(fullver)",
+      "target": "레콘퀴스타\n(전체 버전)",
+      "crop": [
+        522,
+        278,
+        214,
+        46
+      ],
+      "left": 533,
+      "font_size": 18
+    },
+    {
+      "track_id": 26,
+      "source": "Reconquista\n(instrumental)",
+      "target": "레콘퀴스타\n(연주곡)",
+      "crop": [
+        522,
+        324,
+        214,
+        46
+      ],
+      "left": 533,
+      "font_size": 18
+    }
+  ],
+  "remaining_track_ids": [
+    6,
+    7,
+    8,
+    14,
+    15,
+    16,
+    22,
+    23,
+    27,
+    28
+  ],
+  "terminology": "Reconquista→레콘퀴스타 per shared glossary. Port Island retained as phonetic place/title; no unverified story location asserted.",
+  "records": [
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-01",
+      "source": "Port Island",
+      "target": "포트 아일랜드",
+      "translator_model": "Codex internal",
+      "track_id": 1,
+      "consumer_crop": [
+        45,
+        185,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        68,
+        195,
+        179,
+        218
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-02",
+      "source": "やわらかな日々",
+      "target": "포근한 나날",
+      "translator_model": "Codex internal",
+      "track_id": 2,
+      "consumer_crop": [
+        45,
+        231,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        68,
+        241,
+        163,
+        264
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-03",
+      "source": "子鹿のステップ",
+      "target": "아기 사슴의 발걸음",
+      "translator_model": "Codex internal",
+      "track_id": 3,
+      "consumer_crop": [
+        45,
+        278,
+        151,
+        46
+      ],
+      "font_size": 15,
+      "target_ink_bounds": [
+        68,
+        289,
+        193,
+        310
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-04",
+      "source": "Sunset city",
+      "target": "노을 지는 도시",
+      "translator_model": "Codex internal",
+      "track_id": 4,
+      "consumer_crop": [
+        45,
+        324,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        68,
+        335,
+        182,
+        358
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-05",
+      "source": "suspicion",
+      "target": "의혹",
+      "translator_model": "Codex internal",
+      "track_id": 5,
+      "consumer_crop": [
+        45,
+        372,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        68,
+        382,
+        106,
+        406
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-09",
+      "source": "歩く速さで",
+      "target": "걷는 속도로",
+      "translator_model": "Codex internal",
+      "track_id": 9,
+      "consumer_crop": [
+        193,
+        185,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        224,
+        195,
+        317,
+        218
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-10",
+      "source": "朝陽のまどろみ",
+      "target": "아침 햇살 속 선잠",
+      "translator_model": "Codex internal",
+      "track_id": 10,
+      "consumer_crop": [
+        193,
+        231,
+        151,
+        46
+      ],
+      "font_size": 15,
+      "target_ink_bounds": [
+        223,
+        242,
+        338,
+        263
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-11",
+      "source": "プロムナード",
+      "target": "산책",
+      "translator_model": "Codex internal",
+      "track_id": 11,
+      "consumer_crop": [
+        193,
+        278,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        223,
+        288,
+        260,
+        311
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-12",
+      "source": "せめて良い夢を",
+      "target": "꿈만은 좋기를",
+      "translator_model": "Codex internal",
+      "track_id": 12,
+      "consumer_crop": [
+        193,
+        324,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        223,
+        334,
+        334,
+        357
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-13",
+      "source": "振り返れば",
+      "target": "돌아보면",
+      "translator_model": "Codex internal",
+      "track_id": 13,
+      "consumer_crop": [
+        193,
+        372,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        223,
+        382,
+        294,
+        405
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-17",
+      "source": "Terror",
+      "target": "공포",
+      "translator_model": "Codex internal",
+      "track_id": 17,
+      "consumer_crop": [
+        352,
+        185,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        374,
+        196,
+        412,
+        217
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-18",
+      "source": "Night Town",
+      "target": "밤의 거리",
+      "translator_model": "Codex internal",
+      "track_id": 18,
+      "consumer_crop": [
+        352,
+        231,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        375,
+        240,
+        449,
+        264
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-19",
+      "source": "rainy blue",
+      "target": "비 오는 날의 우울",
+      "translator_model": "Codex internal",
+      "track_id": 19,
+      "consumer_crop": [
+        352,
+        278,
+        151,
+        46
+      ],
+      "font_size": 16,
+      "target_ink_bounds": [
+        375,
+        289,
+        496,
+        310
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-20",
+      "source": "touching",
+      "target": "감동",
+      "translator_model": "Codex internal",
+      "track_id": 20,
+      "consumer_crop": [
+        352,
+        324,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        374,
+        334,
+        412,
+        357
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-21",
+      "source": "結婚行進曲",
+      "target": "결혼 행진곡",
+      "translator_model": "Codex internal",
+      "track_id": 21,
+      "consumer_crop": [
+        352,
+        372,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        375,
+        382,
+        468,
+        405
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-24",
+      "source": "Reconquista\n(shortver)",
+      "target": "레콘퀴스타\n(짧은 버전)",
+      "translator_model": "Codex internal",
+      "track_id": 24,
+      "consumer_crop": [
+        522,
+        231,
+        214,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        534,
+        237,
+        623,
+        274
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-25",
+      "source": "Reconquista\n(fullver)",
+      "target": "레콘퀴스타\n(전체 버전)",
+      "translator_model": "Codex internal",
+      "track_id": 25,
+      "consumer_crop": [
+        522,
+        278,
+        214,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        534,
+        285,
+        623,
+        321
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-26",
+      "source": "Reconquista\n(instrumental)",
+      "target": "레콘퀴스타\n(연주곡)",
+      "translator_model": "Codex internal",
+      "track_id": 26,
+      "consumer_crop": [
+        522,
+        324,
+        214,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        534,
+        331,
+        623,
+        367
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-01",
+      "source": "Port Island",
+      "target": "포트 아일랜드",
+      "translator_model": "Codex internal",
+      "track_id": 1,
+      "consumer_crop": [
+        45,
+        185,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        68,
+        195,
+        179,
+        218
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-02",
+      "source": "やわらかな日々",
+      "target": "포근한 나날",
+      "translator_model": "Codex internal",
+      "track_id": 2,
+      "consumer_crop": [
+        45,
+        231,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        68,
+        241,
+        163,
+        264
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-03",
+      "source": "子鹿のステップ",
+      "target": "아기 사슴의 발걸음",
+      "translator_model": "Codex internal",
+      "track_id": 3,
+      "consumer_crop": [
+        45,
+        278,
+        151,
+        46
+      ],
+      "font_size": 15,
+      "target_ink_bounds": [
+        68,
+        289,
+        193,
+        310
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-04",
+      "source": "Sunset city",
+      "target": "노을 지는 도시",
+      "translator_model": "Codex internal",
+      "track_id": 4,
+      "consumer_crop": [
+        45,
+        324,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        68,
+        335,
+        182,
+        358
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-05",
+      "source": "suspicion",
+      "target": "의혹",
+      "translator_model": "Codex internal",
+      "track_id": 5,
+      "consumer_crop": [
+        45,
+        372,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        68,
+        382,
+        106,
+        406
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-09",
+      "source": "歩く速さで",
+      "target": "걷는 속도로",
+      "translator_model": "Codex internal",
+      "track_id": 9,
+      "consumer_crop": [
+        193,
+        185,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        224,
+        195,
+        317,
+        218
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-10",
+      "source": "朝陽のまどろみ",
+      "target": "아침 햇살 속 선잠",
+      "translator_model": "Codex internal",
+      "track_id": 10,
+      "consumer_crop": [
+        193,
+        231,
+        151,
+        46
+      ],
+      "font_size": 15,
+      "target_ink_bounds": [
+        223,
+        242,
+        338,
+        263
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-11",
+      "source": "プロムナード",
+      "target": "산책",
+      "translator_model": "Codex internal",
+      "track_id": 11,
+      "consumer_crop": [
+        193,
+        278,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        223,
+        288,
+        260,
+        311
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-12",
+      "source": "せめて良い夢を",
+      "target": "꿈만은 좋기를",
+      "translator_model": "Codex internal",
+      "track_id": 12,
+      "consumer_crop": [
+        193,
+        324,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        223,
+        334,
+        334,
+        357
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-13",
+      "source": "振り返れば",
+      "target": "돌아보면",
+      "translator_model": "Codex internal",
+      "track_id": 13,
+      "consumer_crop": [
+        193,
+        372,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        223,
+        382,
+        294,
+        405
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-17",
+      "source": "Terror",
+      "target": "공포",
+      "translator_model": "Codex internal",
+      "track_id": 17,
+      "consumer_crop": [
+        352,
+        185,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        374,
+        196,
+        412,
+        217
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-18",
+      "source": "Night Town",
+      "target": "밤의 거리",
+      "translator_model": "Codex internal",
+      "track_id": 18,
+      "consumer_crop": [
+        352,
+        231,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        374,
+        240,
+        449,
+        264
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-19",
+      "source": "rainy blue",
+      "target": "비 오는 날의 우울",
+      "translator_model": "Codex internal",
+      "track_id": 19,
+      "consumer_crop": [
+        352,
+        278,
+        151,
+        46
+      ],
+      "font_size": 16,
+      "target_ink_bounds": [
+        375,
+        288,
+        496,
+        310
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-20",
+      "source": "touching",
+      "target": "감동",
+      "translator_model": "Codex internal",
+      "track_id": 20,
+      "consumer_crop": [
+        352,
+        324,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        374,
+        334,
+        412,
+        357
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-21",
+      "source": "結婚行進曲",
+      "target": "결혼 행진곡",
+      "translator_model": "Codex internal",
+      "track_id": 21,
+      "consumer_crop": [
+        352,
+        372,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        375,
+        382,
+        468,
+        405
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-24",
+      "source": "Reconquista\n(shortver)",
+      "target": "레콘퀴스타\n(짧은 버전)",
+      "translator_model": "Codex internal",
+      "track_id": 24,
+      "consumer_crop": [
+        522,
+        231,
+        214,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        534,
+        237,
+        623,
+        274
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-25",
+      "source": "Reconquista\n(fullver)",
+      "target": "레콘퀴스타\n(전체 버전)",
+      "translator_model": "Codex internal",
+      "track_id": 25,
+      "consumer_crop": [
+        522,
+        278,
+        214,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        534,
+        285,
+        623,
+        321
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-26",
+      "source": "Reconquista\n(instrumental)",
+      "target": "레콘퀴스타\n(연주곡)",
+      "translator_model": "Codex internal",
+      "track_id": 26,
+      "consumer_crop": [
+        522,
+        324,
+        214,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        534,
+        331,
+        623,
+        367
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-01",
+      "source": "Port Island",
+      "target": "포트 아일랜드",
+      "translator_model": "Codex internal",
+      "track_id": 1,
+      "consumer_crop": [
+        45,
+        185,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        68,
+        195,
+        179,
+        218
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-02",
+      "source": "やわらかな日々",
+      "target": "포근한 나날",
+      "translator_model": "Codex internal",
+      "track_id": 2,
+      "consumer_crop": [
+        45,
+        231,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        68,
+        241,
+        163,
+        264
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-03",
+      "source": "子鹿のステップ",
+      "target": "아기 사슴의 발걸음",
+      "translator_model": "Codex internal",
+      "track_id": 3,
+      "consumer_crop": [
+        45,
+        278,
+        151,
+        46
+      ],
+      "font_size": 15,
+      "target_ink_bounds": [
+        68,
+        289,
+        193,
+        310
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-04",
+      "source": "Sunset city",
+      "target": "노을 지는 도시",
+      "translator_model": "Codex internal",
+      "track_id": 4,
+      "consumer_crop": [
+        45,
+        324,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        68,
+        335,
+        182,
+        358
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-05",
+      "source": "suspicion",
+      "target": "의혹",
+      "translator_model": "Codex internal",
+      "track_id": 5,
+      "consumer_crop": [
+        45,
+        372,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        68,
+        382,
+        106,
+        406
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-09",
+      "source": "歩く速さで",
+      "target": "걷는 속도로",
+      "translator_model": "Codex internal",
+      "track_id": 9,
+      "consumer_crop": [
+        193,
+        185,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        224,
+        195,
+        317,
+        218
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-10",
+      "source": "朝陽のまどろみ",
+      "target": "아침 햇살 속 선잠",
+      "translator_model": "Codex internal",
+      "track_id": 10,
+      "consumer_crop": [
+        193,
+        231,
+        151,
+        46
+      ],
+      "font_size": 15,
+      "target_ink_bounds": [
+        223,
+        242,
+        338,
+        263
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-11",
+      "source": "プロムナード",
+      "target": "산책",
+      "translator_model": "Codex internal",
+      "track_id": 11,
+      "consumer_crop": [
+        193,
+        278,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        223,
+        288,
+        260,
+        311
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-12",
+      "source": "せめて良い夢を",
+      "target": "꿈만은 좋기를",
+      "translator_model": "Codex internal",
+      "track_id": 12,
+      "consumer_crop": [
+        193,
+        324,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        223,
+        334,
+        334,
+        357
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-13",
+      "source": "振り返れば",
+      "target": "돌아보면",
+      "translator_model": "Codex internal",
+      "track_id": 13,
+      "consumer_crop": [
+        193,
+        372,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        223,
+        382,
+        294,
+        405
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-17",
+      "source": "Terror",
+      "target": "공포",
+      "translator_model": "Codex internal",
+      "track_id": 17,
+      "consumer_crop": [
+        352,
+        185,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        374,
+        196,
+        412,
+        217
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-18",
+      "source": "Night Town",
+      "target": "밤의 거리",
+      "translator_model": "Codex internal",
+      "track_id": 18,
+      "consumer_crop": [
+        352,
+        231,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        374,
+        240,
+        449,
+        264
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-19",
+      "source": "rainy blue",
+      "target": "비 오는 날의 우울",
+      "translator_model": "Codex internal",
+      "track_id": 19,
+      "consumer_crop": [
+        352,
+        278,
+        151,
+        46
+      ],
+      "font_size": 16,
+      "target_ink_bounds": [
+        375,
+        288,
+        496,
+        310
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-20",
+      "source": "touching",
+      "target": "감동",
+      "translator_model": "Codex internal",
+      "track_id": 20,
+      "consumer_crop": [
+        352,
+        324,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        374,
+        334,
+        412,
+        357
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-21",
+      "source": "結婚行進曲",
+      "target": "결혼 행진곡",
+      "translator_model": "Codex internal",
+      "track_id": 21,
+      "consumer_crop": [
+        352,
+        372,
+        151,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        375,
+        382,
+        468,
+        405
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-24",
+      "source": "Reconquista\n(shortver)",
+      "target": "레콘퀴스타\n(짧은 버전)",
+      "translator_model": "Codex internal",
+      "track_id": 24,
+      "consumer_crop": [
+        522,
+        231,
+        214,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        534,
+        237,
+        623,
+        274
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-25",
+      "source": "Reconquista\n(fullver)",
+      "target": "레콘퀴스타\n(전체 버전)",
+      "translator_model": "Codex internal",
+      "track_id": 25,
+      "consumer_crop": [
+        522,
+        278,
+        214,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        534,
+        285,
+        623,
+        321
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-26",
+      "source": "Reconquista\n(instrumental)",
+      "target": "레콘퀴스타\n(연주곡)",
+      "translator_model": "Codex internal",
+      "track_id": 26,
+      "consumer_crop": [
+        522,
+        324,
+        214,
+        46
+      ],
+      "font_size": 18,
+      "target_ink_bounds": [
+        534,
+        331,
+        623,
+        367
+      ]
+    }
+  ]
+}

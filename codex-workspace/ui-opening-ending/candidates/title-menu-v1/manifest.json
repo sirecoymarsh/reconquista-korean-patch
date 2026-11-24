@@ -1,0 +1,1059 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "status": "static_pass_visual_runtime_pending",
+  "raster_font": {
+    "path": "C:\\Windows\\Fonts\\batang.ttc",
+    "sha256": "51d9a8d4205239c865e24b6eb7e6e6dbacfd59c3e2c46f623db0af45e169c9d8",
+    "index": 0,
+    "size": 22,
+    "all_target_glyphs_present": true,
+    "font_redistributed": false
+  },
+  "entries": [
+    {
+      "entry": "title1_off.rct",
+      "source_sha256": "5357d38b3a5d2701510e4536ce1df9427ec211535992e9622d106a66d25b5b2b",
+      "output_sha256": "e5ae6f013d407a05e73fbb23e854ec8954f35b796127c5caa1b57b9def52ffa4",
+      "source_geometry": [
+        800,
+        600
+      ],
+      "output_geometry": [
+        800,
+        600
+      ],
+      "donor": "title1_null2.rct",
+      "donor_sha256": "508ba2a175bc90bfe99de133f246bc7ef6fc8f5792a041632351c93ab7b5f119",
+      "source_erasure_pixels": 7226,
+      "outside_owned_diff_pixels": 0,
+      "source_residue_test": "menu cells equal exact original text-free donor before typesetting",
+      "header_metadata_preserved": true,
+      "persisted_decode_equals_target": true,
+      "structural_pass": true,
+      "visual_pass": true,
+      "runtime_pass": false,
+      "strings": [
+        {
+          "id": "fastdata.arc::title1_off.rct::button:START",
+          "source": "START",
+          "target": "처음부터",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            328,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            336,
+            683,
+            358
+          ]
+        },
+        {
+          "id": "fastdata.arc::title1_off.rct::button:LOAD",
+          "source": "LOAD",
+          "target": "불러오기",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            369,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            379,
+            683,
+            399
+          ]
+        },
+        {
+          "id": "fastdata.arc::title1_off.rct::button:CONFIG",
+          "source": "CONFIG",
+          "target": "설정",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            410,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            421,
+            639,
+            441
+          ]
+        },
+        {
+          "id": "fastdata.arc::title1_off.rct::button:EXTRA",
+          "source": "EXTRA",
+          "target": "추가 메뉴",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            450,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            461,
+            690,
+            482
+          ]
+        },
+        {
+          "id": "fastdata.arc::title1_off.rct::button:EXIT",
+          "source": "EXIT",
+          "target": "종료",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            494,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            503,
+            639,
+            523
+          ]
+        }
+      ],
+      "consumer_crop_proof": "start.mjo callp $ffc5bc91, indices 323-353/504-532/625-653; actual crop containment separately passed for all 9 unchanged payloads"
+    },
+    {
+      "entry": "title1_on.rct",
+      "source_sha256": "3290eef8c2d2e300017fd1d5d2dc500a89b64e4258bcb22373a057b3426bf9eb",
+      "output_sha256": "c466d5e85c6544b8e247b69195e9acb5128d56e452112a7bf1498a00284d2876",
+      "source_geometry": [
+        800,
+        600
+      ],
+      "output_geometry": [
+        800,
+        600
+      ],
+      "donor": "title1_null2.rct",
+      "donor_sha256": "508ba2a175bc90bfe99de133f246bc7ef6fc8f5792a041632351c93ab7b5f119",
+      "source_erasure_pixels": 7812,
+      "outside_owned_diff_pixels": 0,
+      "source_residue_test": "menu cells equal exact original text-free donor before typesetting",
+      "header_metadata_preserved": true,
+      "persisted_decode_equals_target": true,
+      "structural_pass": true,
+      "visual_pass": true,
+      "runtime_pass": false,
+      "strings": [
+        {
+          "id": "fastdata.arc::title1_on.rct::button:START",
+          "source": "START",
+          "target": "처음부터",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            328,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            336,
+            683,
+            358
+          ]
+        },
+        {
+          "id": "fastdata.arc::title1_on.rct::button:LOAD",
+          "source": "LOAD",
+          "target": "불러오기",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            369,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            379,
+            683,
+            399
+          ]
+        },
+        {
+          "id": "fastdata.arc::title1_on.rct::button:CONFIG",
+          "source": "CONFIG",
+          "target": "설정",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            410,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            421,
+            639,
+            441
+          ]
+        },
+        {
+          "id": "fastdata.arc::title1_on.rct::button:EXTRA",
+          "source": "EXTRA",
+          "target": "추가 메뉴",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            450,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            461,
+            690,
+            482
+          ]
+        },
+        {
+          "id": "fastdata.arc::title1_on.rct::button:EXIT",
+          "source": "EXIT",
+          "target": "종료",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            494,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            503,
+            639,
+            523
+          ]
+        }
+      ],
+      "consumer_crop_proof": "start.mjo callp $ffc5bc91, indices 323-353/504-532/625-653; actual crop containment separately passed for all 9 unchanged payloads"
+    },
+    {
+      "entry": "title1_push.rct",
+      "source_sha256": "466e9d362be553312ff1befd98cf44a04a658c6666216716d0533e86af6faedc",
+      "output_sha256": "003200bbebcf1c09726c0039704326732aed9dcde2552c1fc6b1d5cdbb66f21b",
+      "source_geometry": [
+        800,
+        600
+      ],
+      "output_geometry": [
+        800,
+        600
+      ],
+      "donor": "title1_null2.rct",
+      "donor_sha256": "508ba2a175bc90bfe99de133f246bc7ef6fc8f5792a041632351c93ab7b5f119",
+      "source_erasure_pixels": 7812,
+      "outside_owned_diff_pixels": 0,
+      "source_residue_test": "menu cells equal exact original text-free donor before typesetting",
+      "header_metadata_preserved": true,
+      "persisted_decode_equals_target": true,
+      "structural_pass": true,
+      "visual_pass": false,
+      "runtime_pass": false,
+      "strings": [
+        {
+          "id": "fastdata.arc::title1_push.rct::button:START",
+          "source": "START",
+          "target": "처음부터",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            328,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            336,
+            683,
+            358
+          ]
+        },
+        {
+          "id": "fastdata.arc::title1_push.rct::button:LOAD",
+          "source": "LOAD",
+          "target": "불러오기",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            369,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            379,
+            683,
+            399
+          ]
+        },
+        {
+          "id": "fastdata.arc::title1_push.rct::button:CONFIG",
+          "source": "CONFIG",
+          "target": "설정",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            410,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            421,
+            639,
+            441
+          ]
+        },
+        {
+          "id": "fastdata.arc::title1_push.rct::button:EXTRA",
+          "source": "EXTRA",
+          "target": "추가 메뉴",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            450,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            461,
+            690,
+            482
+          ]
+        },
+        {
+          "id": "fastdata.arc::title1_push.rct::button:EXIT",
+          "source": "EXIT",
+          "target": "종료",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            494,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            503,
+            639,
+            523
+          ]
+        }
+      ],
+      "consumer_crop_proof": "start.mjo callp $ffc5bc91, indices 323-353/504-532/625-653; actual crop containment separately passed for all 9 unchanged payloads"
+    },
+    {
+      "entry": "title2_off.rct",
+      "source_sha256": "4e7258ff2caedc369fbe194ceb22a82dec6b7860ff394cf5571f5ed4f53305d0",
+      "output_sha256": "189b7c6852a4233d486c103fb4c8288d9074c254d6cf1bf913a4acafb6dffd17",
+      "source_geometry": [
+        800,
+        600
+      ],
+      "output_geometry": [
+        800,
+        600
+      ],
+      "donor": "title2_null2.rct",
+      "donor_sha256": "c5474a93010268a04a849778300b7644b5fa24e280e15fd5d492d4c2515f22db",
+      "source_erasure_pixels": 7337,
+      "outside_owned_diff_pixels": 0,
+      "source_residue_test": "menu cells equal exact original text-free donor before typesetting",
+      "header_metadata_preserved": true,
+      "persisted_decode_equals_target": true,
+      "structural_pass": true,
+      "visual_pass": false,
+      "runtime_pass": false,
+      "strings": [
+        {
+          "id": "fastdata.arc::title2_off.rct::button:START",
+          "source": "START",
+          "target": "처음부터",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            328,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            336,
+            683,
+            358
+          ]
+        },
+        {
+          "id": "fastdata.arc::title2_off.rct::button:LOAD",
+          "source": "LOAD",
+          "target": "불러오기",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            369,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            379,
+            683,
+            399
+          ]
+        },
+        {
+          "id": "fastdata.arc::title2_off.rct::button:CONFIG",
+          "source": "CONFIG",
+          "target": "설정",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            410,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            421,
+            639,
+            441
+          ]
+        },
+        {
+          "id": "fastdata.arc::title2_off.rct::button:EXTRA",
+          "source": "EXTRA",
+          "target": "추가 메뉴",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            450,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            461,
+            690,
+            482
+          ]
+        },
+        {
+          "id": "fastdata.arc::title2_off.rct::button:EXIT",
+          "source": "EXIT",
+          "target": "종료",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            494,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            503,
+            639,
+            523
+          ]
+        }
+      ],
+      "consumer_crop_proof": "start.mjo callp $ffc5bc91, indices 323-353/504-532/625-653; actual crop containment separately passed for all 9 unchanged payloads"
+    },
+    {
+      "entry": "title2_on.rct",
+      "source_sha256": "f8caa79fc2ab07c2cb3b09d7bf3ab86bdeccadbb12df8df8d11381e002ce77b4",
+      "output_sha256": "764f17a4834ae50a291c0434d5394ca97e21819a6047cc1b601de2e62f0fee5d",
+      "source_geometry": [
+        800,
+        600
+      ],
+      "output_geometry": [
+        800,
+        600
+      ],
+      "donor": "title2_null2.rct",
+      "donor_sha256": "c5474a93010268a04a849778300b7644b5fa24e280e15fd5d492d4c2515f22db",
+      "source_erasure_pixels": 7837,
+      "outside_owned_diff_pixels": 0,
+      "source_residue_test": "menu cells equal exact original text-free donor before typesetting",
+      "header_metadata_preserved": true,
+      "persisted_decode_equals_target": true,
+      "structural_pass": true,
+      "visual_pass": false,
+      "runtime_pass": false,
+      "strings": [
+        {
+          "id": "fastdata.arc::title2_on.rct::button:START",
+          "source": "START",
+          "target": "처음부터",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            328,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            336,
+            683,
+            358
+          ]
+        },
+        {
+          "id": "fastdata.arc::title2_on.rct::button:LOAD",
+          "source": "LOAD",
+          "target": "불러오기",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            369,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            379,
+            683,
+            399
+          ]
+        },
+        {
+          "id": "fastdata.arc::title2_on.rct::button:CONFIG",
+          "source": "CONFIG",
+          "target": "설정",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            410,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            421,
+            639,
+            441
+          ]
+        },
+        {
+          "id": "fastdata.arc::title2_on.rct::button:EXTRA",
+          "source": "EXTRA",
+          "target": "추가 메뉴",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            450,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            461,
+            690,
+            482
+          ]
+        },
+        {
+          "id": "fastdata.arc::title2_on.rct::button:EXIT",
+          "source": "EXIT",
+          "target": "종료",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            494,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            503,
+            639,
+            523
+          ]
+        }
+      ],
+      "consumer_crop_proof": "start.mjo callp $ffc5bc91, indices 323-353/504-532/625-653; actual crop containment separately passed for all 9 unchanged payloads"
+    },
+    {
+      "entry": "title2_push.rct",
+      "source_sha256": "67de67f8710083b6d5492194e307076ce4255e338108db719f976d4fd5547d96",
+      "output_sha256": "9e1a4582c993d68c9ad347897972106c8345e8631c997cb23fe5e0d1b3882004",
+      "source_geometry": [
+        800,
+        600
+      ],
+      "output_geometry": [
+        800,
+        600
+      ],
+      "donor": "title2_null2.rct",
+      "donor_sha256": "c5474a93010268a04a849778300b7644b5fa24e280e15fd5d492d4c2515f22db",
+      "source_erasure_pixels": 7557,
+      "outside_owned_diff_pixels": 0,
+      "source_residue_test": "menu cells equal exact original text-free donor before typesetting",
+      "header_metadata_preserved": true,
+      "persisted_decode_equals_target": true,
+      "structural_pass": true,
+      "visual_pass": false,
+      "runtime_pass": false,
+      "strings": [
+        {
+          "id": "fastdata.arc::title2_push.rct::button:START",
+          "source": "START",
+          "target": "처음부터",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            328,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            336,
+            683,
+            358
+          ]
+        },
+        {
+          "id": "fastdata.arc::title2_push.rct::button:LOAD",
+          "source": "LOAD",
+          "target": "불러오기",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            369,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            378,
+            683,
+            398
+          ]
+        },
+        {
+          "id": "fastdata.arc::title2_push.rct::button:CONFIG",
+          "source": "CONFIG",
+          "target": "설정",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            410,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            421,
+            639,
+            441
+          ]
+        },
+        {
+          "id": "fastdata.arc::title2_push.rct::button:EXTRA",
+          "source": "EXTRA",
+          "target": "추가 메뉴",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            450,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            461,
+            690,
+            482
+          ]
+        },
+        {
+          "id": "fastdata.arc::title2_push.rct::button:EXIT",
+          "source": "EXIT",
+          "target": "종료",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            494,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            503,
+            639,
+            523
+          ]
+        }
+      ],
+      "consumer_crop_proof": "start.mjo callp $ffc5bc91, indices 323-353/504-532/625-653; actual crop containment separately passed for all 9 unchanged payloads"
+    },
+    {
+      "entry": "title3_off.rct",
+      "source_sha256": "b21232b137fafa9497fa9ad02f63b2d607cba686d848f03b5dab9b6aa4f787a9",
+      "output_sha256": "1131b450cda64d2c6fcb29936604f4cc348dc7404dce22f3e62094e7261fd784",
+      "source_geometry": [
+        800,
+        600
+      ],
+      "output_geometry": [
+        800,
+        600
+      ],
+      "donor": "title1_null2.rct",
+      "donor_sha256": "508ba2a175bc90bfe99de133f246bc7ef6fc8f5792a041632351c93ab7b5f119",
+      "source_erasure_pixels": 7226,
+      "outside_owned_diff_pixels": 0,
+      "source_residue_test": "menu cells equal exact original text-free donor before typesetting",
+      "header_metadata_preserved": true,
+      "persisted_decode_equals_target": true,
+      "structural_pass": true,
+      "visual_pass": false,
+      "runtime_pass": false,
+      "strings": [
+        {
+          "id": "fastdata.arc::title3_off.rct::button:START",
+          "source": "START",
+          "target": "처음부터",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            328,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            336,
+            683,
+            358
+          ]
+        },
+        {
+          "id": "fastdata.arc::title3_off.rct::button:LOAD",
+          "source": "LOAD",
+          "target": "불러오기",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            369,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            379,
+            683,
+            399
+          ]
+        },
+        {
+          "id": "fastdata.arc::title3_off.rct::button:CONFIG",
+          "source": "CONFIG",
+          "target": "설정",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            410,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            421,
+            639,
+            441
+          ]
+        },
+        {
+          "id": "fastdata.arc::title3_off.rct::button:EXTRA",
+          "source": "EXTRA",
+          "target": "추가 메뉴",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            450,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            461,
+            690,
+            482
+          ]
+        },
+        {
+          "id": "fastdata.arc::title3_off.rct::button:EXIT",
+          "source": "EXIT",
+          "target": "종료",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            494,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            503,
+            639,
+            523
+          ]
+        }
+      ],
+      "consumer_crop_proof": "start.mjo callp $ffc5bc91, indices 323-353/504-532/625-653; actual crop containment separately passed for all 9 unchanged payloads"
+    },
+    {
+      "entry": "title3_on.rct",
+      "source_sha256": "3695047c1f36b7ac26bca2c1b2dd40c4bde0a8060eb373c35bf5f64f3ceec4bf",
+      "output_sha256": "94a218b89e499c3e5249f2508bc9ca5e65f27b5bdeaa589475de7a5f15f26cfe",
+      "source_geometry": [
+        800,
+        600
+      ],
+      "output_geometry": [
+        800,
+        600
+      ],
+      "donor": "title1_null2.rct",
+      "donor_sha256": "508ba2a175bc90bfe99de133f246bc7ef6fc8f5792a041632351c93ab7b5f119",
+      "source_erasure_pixels": 7812,
+      "outside_owned_diff_pixels": 0,
+      "source_residue_test": "menu cells equal exact original text-free donor before typesetting",
+      "header_metadata_preserved": true,
+      "persisted_decode_equals_target": true,
+      "structural_pass": true,
+      "visual_pass": false,
+      "runtime_pass": false,
+      "strings": [
+        {
+          "id": "fastdata.arc::title3_on.rct::button:START",
+          "source": "START",
+          "target": "처음부터",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            328,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            336,
+            683,
+            358
+          ]
+        },
+        {
+          "id": "fastdata.arc::title3_on.rct::button:LOAD",
+          "source": "LOAD",
+          "target": "불러오기",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            369,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            379,
+            683,
+            399
+          ]
+        },
+        {
+          "id": "fastdata.arc::title3_on.rct::button:CONFIG",
+          "source": "CONFIG",
+          "target": "설정",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            410,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            421,
+            639,
+            441
+          ]
+        },
+        {
+          "id": "fastdata.arc::title3_on.rct::button:EXTRA",
+          "source": "EXTRA",
+          "target": "추가 메뉴",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            450,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            461,
+            690,
+            482
+          ]
+        },
+        {
+          "id": "fastdata.arc::title3_on.rct::button:EXIT",
+          "source": "EXIT",
+          "target": "종료",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            494,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            503,
+            639,
+            523
+          ]
+        }
+      ],
+      "consumer_crop_proof": "start.mjo callp $ffc5bc91, indices 323-353/504-532/625-653; actual crop containment separately passed for all 9 unchanged payloads"
+    },
+    {
+      "entry": "title3_push.rct",
+      "source_sha256": "968c5ebcc0b43dbe456a171a32e1861169cdd768d274aeedad6ec61844e12e98",
+      "output_sha256": "fe58740eebf6511f9ac4b311213624a9e7b40068dcacbac38e2cbb6bf804f9ce",
+      "source_geometry": [
+        800,
+        600
+      ],
+      "output_geometry": [
+        800,
+        600
+      ],
+      "donor": "title1_null2.rct",
+      "donor_sha256": "508ba2a175bc90bfe99de133f246bc7ef6fc8f5792a041632351c93ab7b5f119",
+      "source_erasure_pixels": 7812,
+      "outside_owned_diff_pixels": 0,
+      "source_residue_test": "menu cells equal exact original text-free donor before typesetting",
+      "header_metadata_preserved": true,
+      "persisted_decode_equals_target": true,
+      "structural_pass": true,
+      "visual_pass": false,
+      "runtime_pass": false,
+      "strings": [
+        {
+          "id": "fastdata.arc::title3_push.rct::button:START",
+          "source": "START",
+          "target": "처음부터",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            328,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            336,
+            683,
+            358
+          ]
+        },
+        {
+          "id": "fastdata.arc::title3_push.rct::button:LOAD",
+          "source": "LOAD",
+          "target": "불러오기",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            369,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            379,
+            683,
+            399
+          ]
+        },
+        {
+          "id": "fastdata.arc::title3_push.rct::button:CONFIG",
+          "source": "CONFIG",
+          "target": "설정",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            410,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            421,
+            639,
+            441
+          ]
+        },
+        {
+          "id": "fastdata.arc::title3_push.rct::button:EXTRA",
+          "source": "EXTRA",
+          "target": "추가 메뉴",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            450,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            461,
+            690,
+            482
+          ]
+        },
+        {
+          "id": "fastdata.arc::title3_push.rct::button:EXIT",
+          "source": "EXIT",
+          "target": "종료",
+          "consumer": "start.mjo $buttonmenu_set@BUTONMENU",
+          "consumer_crop": [
+            565,
+            494,
+            143,
+            41
+          ],
+          "target_ink_bbox": [
+            595,
+            503,
+            639,
+            523
+          ]
+        }
+      ],
+      "consumer_crop_proof": "start.mjo callp $ffc5bc91, indices 323-353/504-532/625-653; actual crop containment separately passed for all 9 unchanged payloads"
+    }
+  ]
+}

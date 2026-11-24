@@ -1,0 +1,1247 @@
+{
+  "translator_model": "Codex internal",
+  "credits": {
+    "translator_model": "Codex internal",
+    "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+    "authoring_model": "current Codex internal primary model; precise backend identifier unavailable",
+    "source_recovery": "Local existing Whisper small and large-v3, original plus time-preserved instrumental subtraction; source Japanese only. No external semantic translation.",
+    "mode": "Add Korean captions inside existing upper letterbox; preserve all original picture typography/logos/credits. Names retain credited spelling except already-confirmed character names.",
+    "records": [
+      {
+        "id": "op-credits::company",
+        "start": 2.4,
+        "end": 6.2,
+        "source": "COTTON-SOFTWARE PRODUCT No.02",
+        "target": "코튼소프트 두 번째 작품",
+        "font_size": 22,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::illustration",
+        "start": 6.65,
+        "end": 11.35,
+        "source": "Character Design & Illustration / ANKOROMOCHI / SAJI SASAI",
+        "target": "캐릭터 디자인·원화\nANKOROMOCHI / SAJI SASAI",
+        "font_size": 21,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::scenario",
+        "start": 13.15,
+        "end": 16.4,
+        "source": "Screenplay / HAJIME UNATOMI / TAMAKI AKITSU / YUSUKE OTSUKI",
+        "target": "시나리오\nHAJIME UNATOMI / TAMAKI AKITSU / YUSUKE OTSUKI",
+        "font_size": 19,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::title-1",
+        "start": 18.0,
+        "end": 20.1,
+        "source": "レコンキスタ / RECONQUISTA",
+        "target": "레콘퀴스타",
+        "font_size": 26,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::title-quote-a",
+        "start": 20.15,
+        "end": 24.4,
+        "source": "Original four-line title-logo Bible quotation, first two sentences",
+        "target": "죽음과 무덤도 불못에 던져졌다.\n이 불못이 곧 둘째 죽음이다.",
+        "font_size": 21,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::title-quote-b",
+        "start": 24.45,
+        "end": 28.8,
+        "source": "Original four-line title-logo Bible quotation, final two sentences",
+        "target": "생명책에 이름이 기록되지 않은 사람은\n누구든 불못에 던져졌다.",
+        "font_size": 21,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::starring",
+        "start": 30.9,
+        "end": 32.3,
+        "source": "STARRING",
+        "target": "등장인물",
+        "font_size": 23,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::graphics-program",
+        "start": 33.0,
+        "end": 36.1,
+        "source": "Graphic Staff / HARUCHIN / PIKAICHI / SHINICHIROU / etc. / Programmed / SEITA KOSHIHATA",
+        "target": "CG: HARUCHIN · PIKAICHI · SHINICHIROU 외\n프로그래밍: SEITA KOSHIHATA",
+        "font_size": 20,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::mahoko",
+        "start": 36.55,
+        "end": 38.15,
+        "source": "羽鳥真帆子 / CV:まきいづみ",
+        "target": "하토리 마호코  |  성우: まきいづみ",
+        "font_size": 23,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::music",
+        "start": 39.0,
+        "end": 42.1,
+        "source": "Sound / Elements Garden / BARBARIAN ON THE GROOVE / Sentive /443 / KYOKO IDE / TATEUCHI / etc.",
+        "target": "음악: Elements Garden · BARBARIAN ON THE GROOVE\nSentive · 443 · KYOKO IDE · TATEUCHI 외",
+        "font_size": 19,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::shiina",
+        "start": 42.75,
+        "end": 44.8,
+        "source": "春日井詩菜 / CV:芝原のぞみ",
+        "target": "가스가이 시이나  |  성우: 芝原のぞみ",
+        "font_size": 23,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::masaki",
+        "start": 48.8,
+        "end": 50.85,
+        "source": "吉森麻咲 / CV:羽沢月乃",
+        "target": "요시모리 마사키  |  성우: 羽沢月乃",
+        "font_size": 23,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::momiji",
+        "start": 53.55,
+        "end": 55.0,
+        "source": "槙野もみじ / CV:北都南",
+        "target": "마키노 모미지  |  성우: 北都南",
+        "font_size": 23,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::theme-song",
+        "start": 55.05,
+        "end": 58.9,
+        "source": "Themesong Reconquista / Vo 飛蘭 / Composed 上松範康 (Elements Garden) / Lyrics 海富一 / Arranged 菊田大介 (Elements Garden) / Guitars 加納望 / Violin 森琢哉",
+        "target": "주제가 「Reconquista」  |  노래: 飛蘭 · 작사: 海富一\n작곡: 上松範康 · 편곡: 菊田大介 · 기타: 加納望 · 바이올린: 森琢哉",
+        "font_size": 18,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::kureha",
+        "start": 62.9,
+        "end": 64.75,
+        "source": "秋月暮葉 / CV:北都南",
+        "target": "아키즈키 쿠레하  |  성우: 北都南",
+        "font_size": 23,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::cast-main",
+        "start": 67.0,
+        "end": 69.45,
+        "source": "Cast (five previously presented heroines and voice actors)",
+        "target": "성우",
+        "font_size": 23,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::cast-support",
+        "start": 70.0,
+        "end": 73.6,
+        "source": "田村奈那子 青山ゆかり / 羽鳥朋子 如月葵 / 矢嶋碧 一色ヒカル",
+        "target": "다무라 나나코: 青山ゆかり\n하토리 朋子: 如月葵 · 야시마 미도리: 一色ヒカル",
+        "font_size": 20,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::cast-yue",
+        "start": 74.55,
+        "end": 75.85,
+        "source": "汐見悠絵 / 松田理沙",
+        "target": "시오미 유에  |  성우: 松田理沙",
+        "font_size": 23,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::movie",
+        "start": 78.0,
+        "end": 81.65,
+        "source": "Movie directed / 神月社 [Mju:z]",
+        "target": "영상 제작: 神月社 [Mju:z]",
+        "font_size": 23,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::director",
+        "start": 86.9,
+        "end": 90.7,
+        "source": "Director / 海富一",
+        "target": "디렉터: 海富一",
+        "font_size": 23,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::title-2",
+        "start": 91.7,
+        "end": 93.3,
+        "source": "レコンキスタ / RECONQUISTA",
+        "target": "레콘퀴스타",
+        "font_size": 26,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::title-quote-a-repeat",
+        "start": 93.35,
+        "end": 96.25,
+        "source": "Original title-logo Bible quotation first half",
+        "target": "죽음과 무덤도 불못에 던져졌다.\n이 불못이 곧 둘째 죽음이다.",
+        "font_size": 21,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      },
+      {
+        "id": "op-credits::title-quote-b-repeat",
+        "start": 96.3,
+        "end": 99.2,
+        "source": "Original title-logo Bible quotation second half",
+        "target": "생명책에 이름이 기록되지 않은 사람은\n누구든 불못에 던져졌다.",
+        "font_size": 21,
+        "translator_model": "Codex internal",
+        "evidence": "evidence/op-ed-source/op-detail-contact-1..3.png plus native source frame samples; existing accepted UI Bible quote and creator-credit preservation policy"
+      }
+    ],
+    "unresolved_name_span": "朋子 retained in source characters",
+    "timing_status": "Approximate visible text intervals from sampled original frames, user final playback review pending"
+  },
+  "lyrics": {
+    "translator_model": "Codex internal",
+    "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+    "authoring_model": "current Codex internal primary model; precise backend identifier unavailable",
+    "source_recovery": "Local existing Whisper small and large-v3, original plus time-preserved instrumental subtraction; source Japanese only. No external semantic translation.",
+    "records": [
+      {
+        "id": "op-lyrics::001",
+        "song": "op",
+        "start": 2.0,
+        "end": 7.05,
+        "source_recovered_ja": "全て失くした場所で",
+        "target": "모든 걸 잃어버린 그곳에서",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "op-lyrics::002",
+        "song": "op",
+        "start": 7.2,
+        "end": 12.8,
+        "source_recovered_ja": "もう一度取り戻すから",
+        "target": "다시 되찾을 테니까",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "op-lyrics::003",
+        "song": "op",
+        "start": 30.7,
+        "end": 34.85,
+        "source_recovered_ja": "冷たい光が時を止める",
+        "target": "차가운 빛이 시간을 멈추고",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "op-lyrics::004",
+        "song": "op",
+        "start": 34.9,
+        "end": 38.65,
+        "source_recovered_ja": "影さえ凍る in darkness",
+        "target": "그림자마저 얼어붙는 어둠 속",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "op-lyrics::005",
+        "song": "op",
+        "start": 38.72,
+        "end": 42.25,
+        "source_recovered_ja": "彷徨う孤独な金の瞳",
+        "target": "외로이 헤매는 금빛 눈동자",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "op-lyrics::006",
+        "song": "op",
+        "start": 42.35,
+        "end": 46.1,
+        "source_recovered_ja": "欠けてく錆びた銀の月",
+        "target": "녹슨 은빛 달은 이지러져 가네",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "op-lyrics::007",
+        "song": "op",
+        "start": 46.25,
+        "end": 50.05,
+        "source_recovered_ja": "融けて消えた線なぞり",
+        "target": "녹아 사라진 선을 더듬으며",
+        "translator_model": "Codex internal",
+        "status": "provisional_source_word_translation_draft",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "op-lyrics::008",
+        "song": "op",
+        "start": 50.2,
+        "end": 53.95,
+        "source_recovered_ja": "夢見た明日を辿る",
+        "target": "꿈꾸던 내일을 따라가",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "op-lyrics::009",
+        "song": "op",
+        "start": 54.05,
+        "end": 57.95,
+        "source_recovered_ja": "深く刻んで伸びた",
+        "target": "깊이 새겨져 길게 뻗은",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "op-lyrics::010",
+        "song": "op",
+        "start": 58.0,
+        "end": 63.0,
+        "source_recovered_ja": "過ちの跡 越えて奔る",
+        "target": "잘못의 흔적을 넘어 달려가",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "op-lyrics::011",
+        "song": "op",
+        "start": 65.65,
+        "end": 69.25,
+        "source_recovered_ja": "全て失くした場所で",
+        "target": "모든 걸 잃어버린 그곳에서",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "op-lyrics::012",
+        "song": "op",
+        "start": 69.35,
+        "end": 73.12,
+        "source_recovered_ja": "もう一度掴む ただひとつ",
+        "target": "다시 붙잡을 거야, 단 하나",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "op-lyrics::013",
+        "song": "op",
+        "start": 73.25,
+        "end": 76.95,
+        "source_recovered_ja": "守りたかったものを",
+        "target": "지키고 싶었던 것을",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "op-lyrics::014",
+        "song": "op",
+        "start": 77.0,
+        "end": 79.95,
+        "source_recovered_ja": "そう二度と放さない",
+        "target": "그래, 두 번 다시 놓지 않아",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "op-lyrics::015",
+        "song": "op",
+        "start": 80.05,
+        "end": 84.9,
+        "source_recovered_ja": "見失わない 振り返らない",
+        "target": "놓치지 않아, 돌아보지 않아",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "op-lyrics::016",
+        "song": "op",
+        "start": 84.95,
+        "end": 88.45,
+        "source_recovered_ja": "必ず取り戻すから",
+        "target": "반드시 되찾을 테니까",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::001",
+        "song": "ed",
+        "start": 16.2,
+        "end": 21.55,
+        "source_recovered_ja": "聴こえる なじんだ声",
+        "target": "익숙한 목소리가 들려",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::002",
+        "song": "ed",
+        "start": 21.8,
+        "end": 27.45,
+        "source_recovered_ja": "積み重なる 淡き日々",
+        "target": "아련한 날들이 쌓여 가",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::003",
+        "song": "ed",
+        "start": 27.5,
+        "end": 33.25,
+        "source_recovered_ja": "木漏れ日に目を細め",
+        "target": "나뭇잎 사이 햇살에 눈을 가늘게 뜨고",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::004",
+        "song": "ed",
+        "start": 33.3,
+        "end": 37.65,
+        "source_recovered_ja": "振り返ればそこに",
+        "target": "뒤돌아보면 그곳에",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::005",
+        "song": "ed",
+        "start": 39.15,
+        "end": 45.2,
+        "source_recovered_ja": "吐息が弾む 胸が騒ぐ",
+        "target": "숨결이 들뜨고 가슴이 술렁여",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::006",
+        "song": "ed",
+        "start": 45.3,
+        "end": 48.9,
+        "source_recovered_ja": "伸ばす 触れる 繋ぐ",
+        "target": "손을 뻗어, 닿고, 이어져",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::007",
+        "song": "ed",
+        "start": 49.0,
+        "end": 52.0,
+        "source_recovered_ja": "君を包む",
+        "target": "너를 감싸 안아",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::008",
+        "song": "ed",
+        "start": 52.6,
+        "end": 58.75,
+        "source_recovered_ja": "何度何度 繰り返しても",
+        "target": "몇 번을, 몇 번을 되풀이해도",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::009",
+        "song": "ed",
+        "start": 58.8,
+        "end": 63.4,
+        "source_recovered_ja": "僕らはきっと巡る",
+        "target": "우리는 틀림없이 돌아올 거야",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::010",
+        "song": "ed",
+        "start": 64.4,
+        "end": 70.2,
+        "source_recovered_ja": "今日も明日も次の季節も",
+        "target": "오늘도 내일도 다음 계절에도",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::011",
+        "song": "ed",
+        "start": 70.25,
+        "end": 74.25,
+        "source_recovered_ja": "声が聴こえる",
+        "target": "목소리가 들려",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::012",
+        "song": "ed",
+        "start": 75.0,
+        "end": 81.0,
+        "source_recovered_ja": "君が僕を呼ぶ",
+        "target": "네가 나를 불러",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::013",
+        "song": "ed",
+        "start": 90.8,
+        "end": 95.8,
+        "source_recovered_ja": "こぼれる 誰かの夢",
+        "target": "누군가의 꿈이 흘러내리고",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::014",
+        "song": "ed",
+        "start": 95.9,
+        "end": 101.55,
+        "source_recovered_ja": "溶け出してく 褪せた時",
+        "target": "빛바랜 시간이 녹아 흘러",
+        "translator_model": "Codex internal",
+        "status": "provisional_source_word_translation_draft",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::015",
+        "song": "ed",
+        "start": 101.6,
+        "end": 107.15,
+        "source_recovered_ja": "キラキラと瞬いて",
+        "target": "반짝반짝 빛나",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::016",
+        "song": "ed",
+        "start": 107.35,
+        "end": 111.9,
+        "source_recovered_ja": "顔上げればそこに",
+        "target": "고개를 들면 그곳에",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::017",
+        "song": "ed",
+        "start": 113.9,
+        "end": 119.5,
+        "source_recovered_ja": "涙がにじむ 胸がしみる",
+        "target": "눈물이 고이고 가슴이 저려 와",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::018",
+        "song": "ed",
+        "start": 119.55,
+        "end": 123.3,
+        "source_recovered_ja": "熱く 速く 高く",
+        "target": "뜨겁게, 빠르게, 높이",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::019",
+        "song": "ed",
+        "start": 123.35,
+        "end": 126.1,
+        "source_recovered_ja": "心揺れる",
+        "target": "마음이 흔들려",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::020",
+        "song": "ed",
+        "start": 126.55,
+        "end": 133.1,
+        "source_recovered_ja": "そっとそっと 前に踏み出し",
+        "target": "살며시, 살며시 앞으로 내디뎌",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::021",
+        "song": "ed",
+        "start": 133.15,
+        "end": 138.05,
+        "source_recovered_ja": "あなたのもとへ向かう",
+        "target": "너에게로 향해",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::022",
+        "song": "ed",
+        "start": 138.6,
+        "end": 144.55,
+        "source_recovered_ja": "永遠の誓い 今も息づく",
+        "target": "영원한 약속은 지금도 살아 숨 쉬고",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::023",
+        "song": "ed",
+        "start": 144.6,
+        "end": 148.75,
+        "source_recovered_ja": "声が聴こえる",
+        "target": "목소리가 들려",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::024",
+        "song": "ed",
+        "start": 149.6,
+        "end": 155.2,
+        "source_recovered_ja": "二人の名を呼ぶ",
+        "target": "우리 둘의 이름을 불러",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::025",
+        "song": "ed",
+        "start": 179.1,
+        "end": 185.2,
+        "source_recovered_ja": "吐息が弾む 胸が騒ぐ",
+        "target": "숨결이 들뜨고 가슴이 술렁여",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::026",
+        "song": "ed",
+        "start": 185.3,
+        "end": 188.9,
+        "source_recovered_ja": "伸ばす 触れる 繋ぐ",
+        "target": "손을 뻗어, 닿고, 이어져",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::027",
+        "song": "ed",
+        "start": 189.0,
+        "end": 192.0,
+        "source_recovered_ja": "君を包む",
+        "target": "너를 감싸 안아",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::028",
+        "song": "ed",
+        "start": 193.45,
+        "end": 198.75,
+        "source_recovered_ja": "何度何度 繰り返しても",
+        "target": "몇 번을, 몇 번을 되풀이해도",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::029",
+        "song": "ed",
+        "start": 198.8,
+        "end": 203.35,
+        "source_recovered_ja": "僕らはきっと巡る",
+        "target": "우리는 틀림없이 돌아올 거야",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::030",
+        "song": "ed",
+        "start": 204.3,
+        "end": 210.2,
+        "source_recovered_ja": "今日も明日も次の季節も",
+        "target": "오늘도 내일도 다음 계절에도",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::031",
+        "song": "ed",
+        "start": 210.25,
+        "end": 214.2,
+        "source_recovered_ja": "声が聴こえる",
+        "target": "목소리가 들려",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      },
+      {
+        "id": "ed-lyrics::032",
+        "song": "ed",
+        "start": 215.35,
+        "end": 220.7,
+        "source_recovered_ja": "僕と君を呼ぶ",
+        "target": "나와 너를 불러",
+        "translator_model": "Codex internal",
+        "status": "codex_authored_user_source_and_sync_review_pending",
+        "timing_basis": "word timestamps from local original/isolated Whisper comparison; phrase boundaries adjusted by Codex; no audition/runtime sync claimed"
+      }
+    ],
+    "uncertain_source_words": [
+      {
+        "id": "op-lyrics::007",
+        "source_span": "線なぞり",
+        "status": "provisional_source_word",
+        "note": "Original-mix STT corrupts this phrase; isolated large-v3 recovers 背なぞり and small recovers a phonetic corruption. Context and an independent fan lyric transcription support 線なぞり. This is a best-effort Codex reading, not official lyric proof; user listening review remains required.",
+        "reference": "https://mixi.jp/view_community.pl?id=2462938&view_mode=main"
+      },
+      {
+        "id": "ed-lyrics::014",
+        "source_span": "褪せた時",
+        "status": "provisional_source_word",
+        "note": "Isolated large-v3 recovers 褪せた時; small models diverge at this phrase. Korean draft follows this reading, user listening review required."
+      }
+    ],
+    "excluded_stt_artifacts": [
+      "op isolated tail245.34..256.08 ご視聴ありがとうございました",
+      "ed tail233.04..234.38 ありがとうございました / ご視聴ありがとうございました",
+      "small op isolated10.64..40.62 repeated Aa and isolated tail repeated ん; recovered valid first verse from other passes"
+    ],
+    "source_files": {
+      "op": "../research/disc/movie/Recon_OP800_H.mpg",
+      "ed": "source/op-ed/recon_ed.ogg"
+    },
+    "ed_engine_status": "Sidecar timing/translation only at this stage. Original recon_ed starts before final dialogue ends; no assumption that first staffrollb frame equals song0. No game MJO modification yet."
+  },
+  "cue_geometry": [
+    {
+      "id": "op-credits::company",
+      "style": "Credit",
+      "start": 2.4,
+      "end": 6.2,
+      "font_size": 22,
+      "pillow_line_widths": [
+        215.0
+      ],
+      "midpoint": 4.3
+    },
+    {
+      "id": "op-credits::illustration",
+      "style": "Credit",
+      "start": 6.65,
+      "end": 11.35,
+      "font_size": 21,
+      "pillow_line_widths": [
+        169.0,
+        278.0
+      ],
+      "midpoint": 9.0
+    },
+    {
+      "id": "op-credits::scenario",
+      "style": "Credit",
+      "start": 13.15,
+      "end": 16.4,
+      "font_size": 19,
+      "pillow_line_widths": [
+        68.0,
+        470.0
+      ],
+      "midpoint": 14.775
+    },
+    {
+      "id": "op-credits::title-1",
+      "style": "Credit",
+      "start": 18.0,
+      "end": 20.1,
+      "font_size": 26,
+      "pillow_line_widths": [
+        120.0
+      ],
+      "midpoint": 19.05
+    },
+    {
+      "id": "op-credits::title-quote-a",
+      "style": "Credit",
+      "start": 20.15,
+      "end": 24.4,
+      "font_size": 21,
+      "pillow_line_widths": [
+        268.0,
+        235.0
+      ],
+      "midpoint": 22.275
+    },
+    {
+      "id": "op-credits::title-quote-b",
+      "style": "Credit",
+      "start": 24.45,
+      "end": 28.8,
+      "font_size": 21,
+      "pillow_line_widths": [
+        324.0,
+        206.0
+      ],
+      "midpoint": 26.625
+    },
+    {
+      "id": "op-credits::starring",
+      "style": "Credit",
+      "start": 30.9,
+      "end": 32.3,
+      "font_size": 23,
+      "pillow_line_widths": [
+        84.0
+      ],
+      "midpoint": 31.6
+    },
+    {
+      "id": "op-credits::graphics-program",
+      "style": "Credit",
+      "start": 33.0,
+      "end": 36.1,
+      "font_size": 20,
+      "pillow_line_widths": [
+        412.0,
+        270.0
+      ],
+      "midpoint": 34.55
+    },
+    {
+      "id": "op-credits::mahoko",
+      "style": "Credit",
+      "start": 36.55,
+      "end": 38.15,
+      "font_size": 23,
+      "pillow_line_widths": [
+        325.0
+      ],
+      "midpoint": 37.35
+    },
+    {
+      "id": "op-credits::music",
+      "style": "Credit",
+      "start": 39.0,
+      "end": 42.1,
+      "font_size": 19,
+      "pillow_line_widths": [
+        471.0,
+        365.0
+      ],
+      "midpoint": 40.55
+    },
+    {
+      "id": "op-credits::shiina",
+      "style": "Credit",
+      "start": 42.75,
+      "end": 44.8,
+      "font_size": 23,
+      "pillow_line_widths": [
+        346.0
+      ],
+      "midpoint": 43.775
+    },
+    {
+      "id": "op-credits::masaki",
+      "style": "Credit",
+      "start": 48.8,
+      "end": 50.85,
+      "font_size": 23,
+      "pillow_line_widths": [
+        323.0
+      ],
+      "midpoint": 49.825
+    },
+    {
+      "id": "op-credits::momiji",
+      "style": "Credit",
+      "start": 53.55,
+      "end": 55.0,
+      "font_size": 23,
+      "pillow_line_widths": [
+        279.0
+      ],
+      "midpoint": 54.275
+    },
+    {
+      "id": "op-credits::theme-song",
+      "style": "Credit",
+      "start": 55.05,
+      "end": 58.9,
+      "font_size": 18,
+      "pillow_line_widths": [
+        410.0,
+        512.0
+      ],
+      "midpoint": 56.975
+    },
+    {
+      "id": "op-credits::kureha",
+      "style": "Credit",
+      "start": 62.9,
+      "end": 64.75,
+      "font_size": 23,
+      "pillow_line_widths": [
+        300.0
+      ],
+      "midpoint": 63.825
+    },
+    {
+      "id": "op-credits::cast-main",
+      "style": "Credit",
+      "start": 67.0,
+      "end": 69.45,
+      "font_size": 23,
+      "pillow_line_widths": [
+        42.0
+      ],
+      "midpoint": 68.225
+    },
+    {
+      "id": "op-credits::cast-support",
+      "style": "Credit",
+      "start": 70.0,
+      "end": 73.6,
+      "font_size": 20,
+      "pillow_line_widths": [
+        222.0,
+        409.0
+      ],
+      "midpoint": 71.8
+    },
+    {
+      "id": "op-credits::cast-yue",
+      "style": "Credit",
+      "start": 74.55,
+      "end": 75.85,
+      "font_size": 23,
+      "pillow_line_widths": [
+        281.0
+      ],
+      "midpoint": 75.2
+    },
+    {
+      "id": "op-credits::movie",
+      "style": "Credit",
+      "start": 78.0,
+      "end": 81.65,
+      "font_size": 23,
+      "pillow_line_widths": [
+        246.0
+      ],
+      "midpoint": 79.825
+    },
+    {
+      "id": "op-credits::director",
+      "style": "Credit",
+      "start": 86.9,
+      "end": 90.7,
+      "font_size": 23,
+      "pillow_line_widths": [
+        143.0
+      ],
+      "midpoint": 88.8
+    },
+    {
+      "id": "op-credits::title-2",
+      "style": "Credit",
+      "start": 91.7,
+      "end": 93.3,
+      "font_size": 26,
+      "pillow_line_widths": [
+        120.0
+      ],
+      "midpoint": 92.5
+    },
+    {
+      "id": "op-credits::title-quote-a-repeat",
+      "style": "Credit",
+      "start": 93.35,
+      "end": 96.25,
+      "font_size": 21,
+      "pillow_line_widths": [
+        268.0,
+        235.0
+      ],
+      "midpoint": 94.8
+    },
+    {
+      "id": "op-credits::title-quote-b-repeat",
+      "style": "Credit",
+      "start": 96.3,
+      "end": 99.2,
+      "font_size": 21,
+      "pillow_line_widths": [
+        324.0,
+        206.0
+      ],
+      "midpoint": 97.75
+    },
+    {
+      "id": "op-lyrics::001",
+      "style": "Lyric",
+      "start": 2.0,
+      "end": 7.05,
+      "font_size": 26,
+      "pillow_line_widths": [
+        282.0
+      ],
+      "midpoint": 4.525
+    },
+    {
+      "id": "op-lyrics::002",
+      "style": "Lyric",
+      "start": 7.2,
+      "end": 12.8,
+      "font_size": 26,
+      "pillow_line_widths": [
+        204.0
+      ],
+      "midpoint": 10.0
+    },
+    {
+      "id": "op-lyrics::003",
+      "style": "Lyric",
+      "start": 30.7,
+      "end": 34.85,
+      "font_size": 26,
+      "pillow_line_widths": [
+        282.0
+      ],
+      "midpoint": 32.775
+    },
+    {
+      "id": "op-lyrics::004",
+      "style": "Lyric",
+      "start": 34.9,
+      "end": 38.65,
+      "font_size": 26,
+      "pillow_line_widths": [
+        306.0
+      ],
+      "midpoint": 36.775
+    },
+    {
+      "id": "op-lyrics::005",
+      "style": "Lyric",
+      "start": 38.72,
+      "end": 42.25,
+      "font_size": 26,
+      "pillow_line_widths": [
+        282.0
+      ],
+      "midpoint": 40.485
+    },
+    {
+      "id": "op-lyrics::006",
+      "style": "Lyric",
+      "start": 42.35,
+      "end": 46.1,
+      "font_size": 26,
+      "pillow_line_widths": [
+        312.0
+      ],
+      "midpoint": 44.225
+    },
+    {
+      "id": "op-lyrics::007",
+      "style": "Lyric",
+      "start": 46.25,
+      "end": 50.05,
+      "font_size": 26,
+      "pillow_line_widths": [
+        282.0
+      ],
+      "midpoint": 48.15
+    },
+    {
+      "id": "op-lyrics::008",
+      "style": "Lyric",
+      "start": 50.2,
+      "end": 53.95,
+      "font_size": 26,
+      "pillow_line_widths": [
+        228.0
+      ],
+      "midpoint": 52.075
+    },
+    {
+      "id": "op-lyrics::009",
+      "style": "Lyric",
+      "start": 54.05,
+      "end": 57.95,
+      "font_size": 26,
+      "pillow_line_widths": [
+        234.0
+      ],
+      "midpoint": 56.0
+    },
+    {
+      "id": "op-lyrics::010",
+      "style": "Lyric",
+      "start": 58.0,
+      "end": 63.0,
+      "font_size": 26,
+      "pillow_line_widths": [
+        282.0
+      ],
+      "midpoint": 60.5
+    },
+    {
+      "id": "op-lyrics::011",
+      "style": "Lyric",
+      "start": 65.65,
+      "end": 69.25,
+      "font_size": 26,
+      "pillow_line_widths": [
+        282.0
+      ],
+      "midpoint": 67.45
+    },
+    {
+      "id": "op-lyrics::012",
+      "style": "Lyric",
+      "start": 69.35,
+      "end": 73.12,
+      "font_size": 26,
+      "pillow_line_widths": [
+        271.0
+      ],
+      "midpoint": 71.235
+    },
+    {
+      "id": "op-lyrics::013",
+      "style": "Lyric",
+      "start": 73.25,
+      "end": 76.95,
+      "font_size": 26,
+      "pillow_line_widths": [
+        204.0
+      ],
+      "midpoint": 75.1
+    },
+    {
+      "id": "op-lyrics::014",
+      "style": "Lyric",
+      "start": 77.0,
+      "end": 79.95,
+      "font_size": 26,
+      "pillow_line_widths": [
+        277.0
+      ],
+      "midpoint": 78.475
+    },
+    {
+      "id": "op-lyrics::015",
+      "style": "Lyric",
+      "start": 80.05,
+      "end": 84.9,
+      "font_size": 26,
+      "pillow_line_widths": [
+        289.0
+      ],
+      "midpoint": 82.475
+    },
+    {
+      "id": "op-lyrics::016",
+      "style": "Lyric",
+      "start": 84.95,
+      "end": 88.45,
+      "font_size": 26,
+      "pillow_line_widths": [
+        228.0
+      ],
+      "midpoint": 86.7
+    }
+  ],
+  "localization_mode": "Additive upper-letterbox credits and lower-letterbox lyrics; original in-picture typography/logos kept."
+}

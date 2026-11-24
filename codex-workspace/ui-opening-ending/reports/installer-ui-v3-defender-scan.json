@@ -1,0 +1,27 @@
+{
+  "candidate": "installer-ui-v3",
+  "results": [
+    {
+      "pass": true,
+      "started": "2026-10-23T06:57:09.2889269+09:00",
+      "file": "setup.exe",
+      "exit_code": 0,
+      "sha256": "33E3912D0ECACDADA68904EF1EE4FB0C4BA0EAD56ED069C3FDF03F642BB47C59",
+      "ended": "2026-10-23T06:57:09.7050434+09:00",
+      "output": "Scan starting...\r\nScan finished.\r\nScanning P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\scan\\installer-ui-v3\\setup.exe found no threats.\r\n",
+      "after_sha256": "33E3912D0ECACDADA68904EF1EE4FB0C4BA0EAD56ED069C3FDF03F642BB47C59"
+    },
+    {
+      "pass": true,
+      "started": "2026-10-23T06:57:10.0563068+09:00",
+      "file": "install.exe",
+      "exit_code": 0,
+      "sha256": "CC99B036927FE5AEE9517AEBEB95EC994F52A7058F082ACBA68E460163A4CE8C",
+      "ended": "2026-10-23T06:57:10.1293093+09:00",
+      "output": "Scan starting...\r\nScan finished.\r\nScanning P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\scan\\installer-ui-v3\\install.exe found no threats.\r\n",
+      "after_sha256": "CC99B036927FE5AEE9517AEBEB95EC994F52A7058F082ACBA68E460163A4CE8C"
+    }
+  ],
+  "command": "MpCmdRun -Scan -ScanType 3 -File <exact candidate copy> -DisableRemediation",
+  "pass": true
+}

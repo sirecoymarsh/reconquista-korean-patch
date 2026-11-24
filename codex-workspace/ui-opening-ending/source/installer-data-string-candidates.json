@@ -1,0 +1,1196 @@
+{
+  "schema_version": 1,
+  "method": "CP932 candidate scan of .data/.rdata; Capstone x86 linear references are candidates, not reachability or display-consumer proof",
+  "sources": [
+    {
+      "file": "setup.exe",
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\research\\disc\\setup.exe",
+      "sha256": "d0bdfac202c48da0bb4491b16b66c587fa6efb4ac3eb32dbb816922da74ec2e3"
+    },
+    {
+      "file": "install.exe",
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\research\\disc\\install.exe",
+      "sha256": "87b10fd242e14e26f7f83af43447579add36b1730d4155bddc7afd072faf0c1f"
+    }
+  ],
+  "records": [
+    {
+      "id": "setup.exe::0x414030",
+      "file": "setup.exe",
+      "va": 4276272,
+      "section": ".data",
+      "file_offset": 81968,
+      "byte_length": 24,
+      "source": "[%s]にインストールします",
+      "references": [
+        {
+          "va": 4199611,
+          "instruction": "push 0x414030",
+          "bytes": "6830404100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x41404c",
+      "file": "setup.exe",
+      "va": 4276300,
+      "section": ".data",
+      "file_offset": 81996,
+      "byte_length": 32,
+      "source": "ルートにはインストールできません",
+      "references": [
+        {
+          "va": 4199551,
+          "instruction": "push 0x41404c",
+          "bytes": "684c404100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x414070",
+      "file": "setup.exe",
+      "va": 4276336,
+      "section": ".data",
+      "file_offset": 82032,
+      "byte_length": 77,
+      "source": "ネットワークドライブには対応していません。\nローカルドライブを選択して下さい。",
+      "references": [
+        {
+          "va": 4198979,
+          "instruction": "push 0x414070",
+          "bytes": "6870404100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x4140f0",
+      "file": "setup.exe",
+      "va": 4276464,
+      "section": ".data",
+      "file_offset": 82160,
+      "byte_length": 40,
+      "source": "フォルダを作成する場所を選択してください",
+      "references": [
+        {
+          "va": 4199910,
+          "instruction": "mov dword ptr [esp + 0x1c], 0x4140f0",
+          "bytes": "c744241cf0404100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x414194",
+      "file": "setup.exe",
+      "va": 4276628,
+      "section": ".data",
+      "file_offset": 82324,
+      "byte_length": 12,
+      "source": "次のディスク",
+      "references": [
+        {
+          "va": 4200410,
+          "instruction": "push 0x414194",
+          "bytes": "6894414100"
+        },
+        {
+          "va": 4200498,
+          "instruction": "mov esi, 0x414194",
+          "bytes": "be94414100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x4141bc",
+      "file": "setup.exe",
+      "va": 4276668,
+      "section": ".data",
+      "file_offset": 82364,
+      "byte_length": 29,
+      "source": "ＭＡＪＩＲＯ アプリケーション",
+      "references": [
+        {
+          "va": 4200448,
+          "instruction": "push 0x4141bc",
+          "bytes": "68bc414100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x4141dc",
+      "file": "setup.exe",
+      "va": 4276700,
+      "section": ".data",
+      "file_offset": 82396,
+      "byte_length": 17,
+      "source": "%s スタートアップ",
+      "references": [
+        {
+          "va": 4200630,
+          "instruction": "push 0x4141dc",
+          "bytes": "68dc414100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x4141f0",
+      "file": "setup.exe",
+      "va": 4276720,
+      "section": ".data",
+      "file_offset": 82416,
+      "byte_length": 19,
+      "source": "%s アンインストール",
+      "references": [
+        {
+          "va": 4200662,
+          "instruction": "push 0x4141f0",
+          "bytes": "68f0414100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x414268",
+      "file": "setup.exe",
+      "va": 4276840,
+      "section": ".data",
+      "file_offset": 82536,
+      "byte_length": 107,
+      "source": "起動に必要なファイルが不足しています。\nインストールの異常終了、起動するフォルダ異常、等を確認してください。",
+      "references": [
+        {
+          "va": 4201874,
+          "instruction": "push 0x414268",
+          "bytes": "6868424100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x4143a0",
+      "file": "setup.exe",
+      "va": 4277152,
+      "section": ".data",
+      "file_offset": 82848,
+      "byte_length": 67,
+      "source": "インストール先ディレクトリが不明です。\n再インストールしてください。",
+      "references": [
+        {
+          "va": 4203677,
+          "instruction": "push 0x4143a0",
+          "bytes": "68a0434100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x4143e4",
+      "file": "setup.exe",
+      "va": 4277220,
+      "section": ".data",
+      "file_offset": 82916,
+      "byte_length": 61,
+      "source": "プログラムの起動に失敗しました。\n再インストールしてください。",
+      "references": [
+        {
+          "va": 4203622,
+          "instruction": "push 0x4143e4",
+          "bytes": "68e4434100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x414440",
+      "file": "setup.exe",
+      "va": 4277312,
+      "section": ".data",
+      "file_offset": 83008,
+      "byte_length": 38,
+      "source": "インストール先ディレクトリが不明です。",
+      "references": [
+        {
+          "va": 4203396,
+          "instruction": "push 0x414440",
+          "bytes": "6840444100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x414468",
+      "file": "setup.exe",
+      "va": 4277352,
+      "section": ".data",
+      "file_offset": 83048,
+      "byte_length": 38,
+      "source": "アンインストーラの起動に失敗しました。",
+      "references": [
+        {
+          "va": 4203335,
+          "instruction": "push 0x414468",
+          "bytes": "6868444100"
+        },
+        {
+          "va": 4203359,
+          "instruction": "push 0x414468",
+          "bytes": "6868444100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x4144d8",
+      "file": "setup.exe",
+      "va": 4277464,
+      "section": ".data",
+      "file_offset": 83160,
+      "byte_length": 10,
+      "source": "ゲーム実行",
+      "references": [
+        {
+          "va": 4202814,
+          "instruction": "push 0x4144d8",
+          "bytes": "68d8444100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x4144e4",
+      "file": "setup.exe",
+      "va": 4277476,
+      "section": ".data",
+      "file_offset": 83172,
+      "byte_length": 16,
+      "source": " 再インストール ",
+      "references": [
+        {
+          "va": 4202750,
+          "instruction": "push 0x4144e4",
+          "bytes": "68e4444100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x4144f8",
+      "file": "setup.exe",
+      "va": 4277496,
+      "section": ".data",
+      "file_offset": 83192,
+      "byte_length": 16,
+      "source": "アンインストール",
+      "references": [
+        {
+          "va": 4202680,
+          "instruction": "push 0x4144f8",
+          "bytes": "68f8444100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x41452c",
+      "file": "setup.exe",
+      "va": 4277548,
+      "section": ".data",
+      "file_offset": 83244,
+      "byte_length": 19,
+      "source": "DirectXインストール",
+      "references": [
+        {
+          "va": 4202505,
+          "instruction": "push 0x41452c",
+          "bytes": "682c454100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x414548",
+      "file": "setup.exe",
+      "va": 4277576,
+      "section": ".data",
+      "file_offset": 83272,
+      "byte_length": 4,
+      "source": "終了",
+      "references": [
+        {
+          "va": 4202444,
+          "instruction": "push 0x414548",
+          "bytes": "6848454100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x414550",
+      "file": "setup.exe",
+      "va": 4277584,
+      "section": ".data",
+      "file_offset": 83280,
+      "byte_length": 136,
+      "source": "[OK]を押した後、次のディスクを挿入して下さい\n\n(*)ディスクを挿入しても自動起動しない場合は、\nドライブのアイコンをダブルクリックして下さい",
+      "references": [
+        {
+          "va": 4204096,
+          "instruction": "push 0x414550",
+          "bytes": "6850454100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x4145f0",
+      "file": "setup.exe",
+      "va": 4277744,
+      "section": ".data",
+      "file_offset": 83440,
+      "byte_length": 16,
+      "source": "- メディア交換 -",
+      "references": [
+        {
+          "va": 4204321,
+          "instruction": "push 0x4145f0",
+          "bytes": "68f0454100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x414634",
+      "file": "setup.exe",
+      "va": 4277812,
+      "section": ".data",
+      "file_offset": 83508,
+      "byte_length": 19,
+      "source": "ファイルの検査中...",
+      "references": [
+        {
+          "va": 4204981,
+          "instruction": "push 0x414634",
+          "bytes": "6834464100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x414d84",
+      "file": "setup.exe",
+      "va": 4279684,
+      "section": ".data",
+      "file_offset": 85380,
+      "byte_length": 28,
+      "source": "インストールを終了しました。",
+      "references": [
+        {
+          "va": 4207721,
+          "instruction": "push 0x414d84",
+          "bytes": "68844d4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x414dc8",
+      "file": "setup.exe",
+      "va": 4279752,
+      "section": ".data",
+      "file_offset": 85448,
+      "byte_length": 38,
+      "source": "指定された場所には書き込み出来ません。",
+      "references": [
+        {
+          "va": 4207226,
+          "instruction": "push 0x414dc8",
+          "bytes": "68c84d4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x414df0",
+      "file": "setup.exe",
+      "va": 4279792,
+      "section": ".data",
+      "file_offset": 85488,
+      "byte_length": 26,
+      "source": "インストールを中止しました",
+      "references": [
+        {
+          "va": 4207185,
+          "instruction": "push 0x414df0",
+          "bytes": "68f04d4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x414e0c",
+      "file": "setup.exe",
+      "va": 4279820,
+      "section": ".data",
+      "file_offset": 85516,
+      "byte_length": 40,
+      "source": "インストールを継続します。宜しいですか？",
+      "references": [
+        {
+          "va": 4207063,
+          "instruction": "push 0x414e0c",
+          "bytes": "680c4e4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x414ea8",
+      "file": "setup.exe",
+      "va": 4279976,
+      "section": ".data",
+      "file_offset": 85672,
+      "byte_length": 77,
+      "source": "ファイル[%s]のコピーに失敗しました。\nインストール先の容量を確認してください。",
+      "references": [
+        {
+          "va": 4208953,
+          "instruction": "push 0x414ea8",
+          "bytes": "68a84e4100"
+        },
+        {
+          "va": 4209990,
+          "instruction": "push 0x414ea8",
+          "bytes": "68a84e4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x414ef8",
+      "file": "setup.exe",
+      "va": 4280056,
+      "section": ".data",
+      "file_offset": 85752,
+      "byte_length": 36,
+      "source": "ファイル[%s]のコピーを中止しました。",
+      "references": [
+        {
+          "va": 4208946,
+          "instruction": "push 0x414ef8",
+          "bytes": "68f84e4100"
+        },
+        {
+          "va": 4209983,
+          "instruction": "push 0x414ef8",
+          "bytes": "68f84e4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x414f28",
+      "file": "setup.exe",
+      "va": 4280104,
+      "section": ".data",
+      "file_offset": 85800,
+      "byte_length": 87,
+      "source": "ドライブ容量が不足しています。\nドライブ容量を増やすか、他のドライブを選択してください。",
+      "references": [
+        {
+          "va": 4209337,
+          "instruction": "push 0x414f28",
+          "bytes": "68284f4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x4160ec",
+      "file": "setup.exe",
+      "va": 4284652,
+      "section": ".data",
+      "file_offset": 90348,
+      "byte_length": 4,
+      "source": "明朝",
+      "references": [
+        {
+          "va": 4210915,
+          "instruction": "push 0x4160ec",
+          "bytes": "68ec604100"
+        },
+        {
+          "va": 4212899,
+          "instruction": "push 0x4160ec",
+          "bytes": "68ec604100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x416180",
+      "file": "setup.exe",
+      "va": 4284800,
+      "section": ".data",
+      "file_offset": 90496,
+      "byte_length": 17,
+      "source": " アンインストール",
+      "references": [
+        {
+          "va": 4214600,
+          "instruction": "mov edi, 0x416180",
+          "bytes": "bf80614100"
+        },
+        {
+          "va": 4215721,
+          "instruction": "mov edi, 0x416180",
+          "bytes": "bf80614100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x4161a0",
+      "file": "setup.exe",
+      "va": 4284832,
+      "section": ".data",
+      "file_offset": 90528,
+      "byte_length": 14,
+      "source": "お読みください",
+      "references": [
+        {
+          "va": 4214045,
+          "instruction": "push 0x4161a0",
+          "bytes": "68a0614100"
+        },
+        {
+          "va": 4215285,
+          "instruction": "push 0x4161a0",
+          "bytes": "68a0614100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x4161e4",
+      "file": "setup.exe",
+      "va": 4284900,
+      "section": ".data",
+      "file_offset": 90596,
+      "byte_length": 42,
+      "source": "ファイル[ %s ]が[ %s ]と[ %s ]に存在します",
+      "references": [
+        {
+          "va": 4223873,
+          "instruction": "push 0x4161e4",
+          "bytes": "68e4614100"
+        },
+        {
+          "va": 4225184,
+          "instruction": "push 0x4161e4",
+          "bytes": "68e4614100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x416288",
+      "file": "setup.exe",
+      "va": 4285064,
+      "section": ".data",
+      "file_offset": 90760,
+      "byte_length": 56,
+      "source": "ファイル[%s]が破損しています。再インストールしてください",
+      "references": [
+        {
+          "va": 4221611,
+          "instruction": "push 0x416288",
+          "bytes": "6888624100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x4162ec",
+      "file": "setup.exe",
+      "va": 4285164,
+      "section": ".data",
+      "file_offset": 90860,
+      "byte_length": 45,
+      "source": "Ffopen : ファイル[%s]の読み込みで失敗しました",
+      "references": [
+        {
+          "va": 4225684,
+          "instruction": "push 0x4162ec",
+          "bytes": "68ec624100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x416348",
+      "file": "setup.exe",
+      "va": 4285256,
+      "section": ".data",
+      "file_offset": 90952,
+      "byte_length": 8,
+      "source": "六丁TC00",
+      "references": [
+        {
+          "va": 4228520,
+          "instruction": "mov edi, 0x416348",
+          "bytes": "bf48634100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x416354",
+      "file": "setup.exe",
+      "va": 4285268,
+      "section": ".data",
+      "file_offset": 90964,
+      "byte_length": 46,
+      "source": "メモリ容量が不足しています。処理を中断します。",
+      "references": [
+        {
+          "va": 4230094,
+          "instruction": "push 0x416354",
+          "bytes": "6854634100"
+        },
+        {
+          "va": 4230147,
+          "instruction": "push 0x416354",
+          "bytes": "6854634100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x416394",
+      "file": "setup.exe",
+      "va": 4285332,
+      "section": ".data",
+      "file_offset": 91028,
+      "byte_length": 8,
+      "source": "六丁8_00",
+      "references": [
+        {
+          "va": 4230455,
+          "instruction": "mov edi, 0x416394",
+          "bytes": "bf94634100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x416428",
+      "file": "setup.exe",
+      "va": 4285480,
+      "section": ".data",
+      "file_offset": 91176,
+      "byte_length": 4,
+      "source": "◆珱",
+      "references": [],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "setup.exe::0x4164a2",
+      "file": "setup.exe",
+      "va": 4285602,
+      "section": ".data",
+      "file_offset": 91298,
+      "byte_length": 5,
+      "source": "蠅陲[",
+      "references": [],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x414030",
+      "file": "install.exe",
+      "va": 4276272,
+      "section": ".data",
+      "file_offset": 81968,
+      "byte_length": 24,
+      "source": "[%s]にインストールします",
+      "references": [
+        {
+          "va": 4199611,
+          "instruction": "push 0x414030",
+          "bytes": "6830404100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x41404c",
+      "file": "install.exe",
+      "va": 4276300,
+      "section": ".data",
+      "file_offset": 81996,
+      "byte_length": 32,
+      "source": "ルートにはインストールできません",
+      "references": [
+        {
+          "va": 4199551,
+          "instruction": "push 0x41404c",
+          "bytes": "684c404100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x414070",
+      "file": "install.exe",
+      "va": 4276336,
+      "section": ".data",
+      "file_offset": 82032,
+      "byte_length": 77,
+      "source": "ネットワークドライブには対応していません。\nローカルドライブを選択して下さい。",
+      "references": [
+        {
+          "va": 4198979,
+          "instruction": "push 0x414070",
+          "bytes": "6870404100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x4140f0",
+      "file": "install.exe",
+      "va": 4276464,
+      "section": ".data",
+      "file_offset": 82160,
+      "byte_length": 40,
+      "source": "フォルダを作成する場所を選択してください",
+      "references": [
+        {
+          "va": 4199910,
+          "instruction": "mov dword ptr [esp + 0x1c], 0x4140f0",
+          "bytes": "c744241cf0404100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x4141a0",
+      "file": "install.exe",
+      "va": 4276640,
+      "section": ".data",
+      "file_offset": 82336,
+      "byte_length": 29,
+      "source": "ＭＡＪＩＲＯ アプリケーション",
+      "references": [
+        {
+          "va": 4200384,
+          "instruction": "push 0x4141a0",
+          "bytes": "68a0414100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x4141c0",
+      "file": "install.exe",
+      "va": 4276672,
+      "section": ".data",
+      "file_offset": 82368,
+      "byte_length": 19,
+      "source": "%s アンインストール",
+      "references": [
+        {
+          "va": 4200438,
+          "instruction": "push 0x4141c0",
+          "bytes": "68c0414100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x41421c",
+      "file": "install.exe",
+      "va": 4276764,
+      "section": ".data",
+      "file_offset": 82460,
+      "byte_length": 107,
+      "source": "起動に必要なファイルが不足しています。\nインストールの異常終了、起動するフォルダ異常、等を確認してください。",
+      "references": [
+        {
+          "va": 4201217,
+          "instruction": "push 0x41421c",
+          "bytes": "681c424100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x414344",
+      "file": "install.exe",
+      "va": 4277060,
+      "section": ".data",
+      "file_offset": 82756,
+      "byte_length": 16,
+      "source": "- メディア交換 -",
+      "references": [
+        {
+          "va": 4201569,
+          "instruction": "push 0x414344",
+          "bytes": "6844434100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x414388",
+      "file": "install.exe",
+      "va": 4277128,
+      "section": ".data",
+      "file_offset": 82824,
+      "byte_length": 19,
+      "source": "ファイルの検査中...",
+      "references": [
+        {
+          "va": 4202229,
+          "instruction": "push 0x414388",
+          "bytes": "6888434100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x414b64",
+      "file": "install.exe",
+      "va": 4279140,
+      "section": ".data",
+      "file_offset": 84836,
+      "byte_length": 28,
+      "source": "インストールを終了しました。",
+      "references": [
+        {
+          "va": 4205641,
+          "instruction": "push 0x414b64",
+          "bytes": "68644b4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x414ba8",
+      "file": "install.exe",
+      "va": 4279208,
+      "section": ".data",
+      "file_offset": 84904,
+      "byte_length": 84,
+      "source": "指定された場所には書き込み出来ません。\nインストールにはAdministrator権限が必要です。",
+      "references": [
+        {
+          "va": 4205133,
+          "instruction": "push 0x414ba8",
+          "bytes": "68a84b4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x414c00",
+      "file": "install.exe",
+      "va": 4279296,
+      "section": ".data",
+      "file_offset": 84992,
+      "byte_length": 38,
+      "source": "指定された場所には書き込み出来ません。",
+      "references": [
+        {
+          "va": 4205092,
+          "instruction": "push 0x414c00",
+          "bytes": "68004c4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x414c28",
+      "file": "install.exe",
+      "va": 4279336,
+      "section": ".data",
+      "file_offset": 85032,
+      "byte_length": 26,
+      "source": "インストールを中止しました",
+      "references": [
+        {
+          "va": 4205051,
+          "instruction": "push 0x414c28",
+          "bytes": "68284c4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x414c44",
+      "file": "install.exe",
+      "va": 4279364,
+      "section": ".data",
+      "file_offset": 85060,
+      "byte_length": 40,
+      "source": "インストールを継続します。宜しいですか？",
+      "references": [
+        {
+          "va": 4204925,
+          "instruction": "push 0x414c44",
+          "bytes": "68444c4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x414c80",
+      "file": "install.exe",
+      "va": 4279424,
+      "section": ".data",
+      "file_offset": 85120,
+      "byte_length": 45,
+      "source": "インストールにはAdministrator権限が必要です。",
+      "references": [
+        {
+          "va": 4204806,
+          "instruction": "push 0x414c80",
+          "bytes": "68804c4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x414d2c",
+      "file": "install.exe",
+      "va": 4279596,
+      "section": ".data",
+      "file_offset": 85292,
+      "byte_length": 77,
+      "source": "ファイル[%s]のコピーに失敗しました。\nインストール先の容量を確認してください。",
+      "references": [
+        {
+          "va": 4206873,
+          "instruction": "push 0x414d2c",
+          "bytes": "682c4d4100"
+        },
+        {
+          "va": 4207926,
+          "instruction": "push 0x414d2c",
+          "bytes": "682c4d4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x414d7c",
+      "file": "install.exe",
+      "va": 4279676,
+      "section": ".data",
+      "file_offset": 85372,
+      "byte_length": 36,
+      "source": "ファイル[%s]のコピーを中止しました。",
+      "references": [
+        {
+          "va": 4206866,
+          "instruction": "push 0x414d7c",
+          "bytes": "687c4d4100"
+        },
+        {
+          "va": 4207919,
+          "instruction": "push 0x414d7c",
+          "bytes": "687c4d4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x414dac",
+      "file": "install.exe",
+      "va": 4279724,
+      "section": ".data",
+      "file_offset": 85420,
+      "byte_length": 87,
+      "source": "ドライブ容量が不足しています。\nドライブ容量を増やすか、他のドライブを選択してください。",
+      "references": [
+        {
+          "va": 4207257,
+          "instruction": "push 0x414dac",
+          "bytes": "68ac4d4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x415fb8",
+      "file": "install.exe",
+      "va": 4284344,
+      "section": ".data",
+      "file_offset": 90040,
+      "byte_length": 4,
+      "source": "明朝",
+      "references": [
+        {
+          "va": 4209603,
+          "instruction": "push 0x415fb8",
+          "bytes": "68b85f4100"
+        },
+        {
+          "va": 4211603,
+          "instruction": "push 0x415fb8",
+          "bytes": "68b85f4100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x416048",
+      "file": "install.exe",
+      "va": 4284488,
+      "section": ".data",
+      "file_offset": 90184,
+      "byte_length": 17,
+      "source": " アンインストール",
+      "references": [
+        {
+          "va": 4213347,
+          "instruction": "mov edi, 0x416048",
+          "bytes": "bf48604100"
+        },
+        {
+          "va": 4214487,
+          "instruction": "mov edi, 0x416048",
+          "bytes": "bf48604100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x416084",
+      "file": "install.exe",
+      "va": 4284548,
+      "section": ".data",
+      "file_offset": 90244,
+      "byte_length": 14,
+      "source": "お読みください",
+      "references": [
+        {
+          "va": 4212810,
+          "instruction": "push 0x416084",
+          "bytes": "6884604100"
+        },
+        {
+          "va": 4214051,
+          "instruction": "push 0x416084",
+          "bytes": "6884604100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x4160c8",
+      "file": "install.exe",
+      "va": 4284616,
+      "section": ".data",
+      "file_offset": 90312,
+      "byte_length": 42,
+      "source": "ファイル[ %s ]が[ %s ]と[ %s ]に存在します",
+      "references": [
+        {
+          "va": 4222801,
+          "instruction": "push 0x4160c8",
+          "bytes": "68c8604100"
+        },
+        {
+          "va": 4224112,
+          "instruction": "push 0x4160c8",
+          "bytes": "68c8604100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x41616c",
+      "file": "install.exe",
+      "va": 4284780,
+      "section": ".data",
+      "file_offset": 90476,
+      "byte_length": 56,
+      "source": "ファイル[%s]が破損しています。再インストールしてください",
+      "references": [
+        {
+          "va": 4220539,
+          "instruction": "push 0x41616c",
+          "bytes": "686c614100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x4161d0",
+      "file": "install.exe",
+      "va": 4284880,
+      "section": ".data",
+      "file_offset": 90576,
+      "byte_length": 45,
+      "source": "Ffopen : ファイル[%s]の読み込みで失敗しました",
+      "references": [
+        {
+          "va": 4224612,
+          "instruction": "push 0x4161d0",
+          "bytes": "68d0614100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x416210",
+      "file": "install.exe",
+      "va": 4284944,
+      "section": ".data",
+      "file_offset": 90640,
+      "byte_length": 46,
+      "source": "メモリ容量が不足しています。処理を中断します。",
+      "references": [
+        {
+          "va": 4227214,
+          "instruction": "push 0x416210",
+          "bytes": "6810624100"
+        },
+        {
+          "va": 4227267,
+          "instruction": "push 0x416210",
+          "bytes": "6810624100"
+        }
+      ],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x4162e8",
+      "file": "install.exe",
+      "va": 4285160,
+      "section": ".data",
+      "file_offset": 90856,
+      "byte_length": 4,
+      "source": "◆珱",
+      "references": [],
+      "status": "unclassified_candidate"
+    },
+    {
+      "id": "install.exe::0x416362",
+      "file": "install.exe",
+      "va": 4285282,
+      "section": ".data",
+      "file_offset": 90978,
+      "byte_length": 5,
+      "source": "蠅陲[",
+      "references": [],
+      "status": "unclassified_candidate"
+    }
+  ]
+}

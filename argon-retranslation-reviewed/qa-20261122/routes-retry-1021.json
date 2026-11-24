@@ -1,0 +1,207 @@
+{
+ "mode": "routes",
+ "started": "2026-11-22 10:14:53",
+ "nv_before": 1133,
+ "runs": [
+  {
+   "label": "routes-38792-re",
+   "pid": 23460,
+   "steps": [
+    {
+     "step": "route 38792",
+     "t": 372.3,
+     "order": 37792,
+     "chapter": "?",
+     "ending": true,
+     "arrive_s": 68.6,
+     "items": 1,
+     "timeline": [
+      [
+       31,
+       19,
+       1436,
+       "kr_ed_004_.rc8",
+       null
+      ],
+      [
+       61,
+       38,
+       1800,
+       "kr_ed_009_.rc8",
+       null
+      ],
+      [
+       90,
+       56,
+       1133,
+       "kr_ed_013_.rc8",
+       null
+      ],
+      [
+       121,
+       75,
+       1789,
+       "kr_ed_019_.rc8",
+       null
+      ],
+      [
+       150,
+       93,
+       1700,
+       "kr_ed_024_.rc8",
+       null
+      ],
+      [
+       181,
+       112,
+       594,
+       "kr_ed_025_.rc8",
+       null
+      ],
+      [
+       210,
+       130,
+       1655,
+       "kr_ed_031_.rc8",
+       null
+      ],
+      [
+       241,
+       149,
+       664,
+       "netu515a1.rc8",
+       null
+      ],
+      [
+       271,
+       167,
+       595,
+       "ev5043cc.rct",
+       null
+      ]
+     ],
+     "title_after_clicks": 172,
+     "presents_after_arrival": 11727,
+     "clicks": 172,
+     "ok": true,
+     "mem_mb": 1230
+    }
+   ],
+   "dialogs": [],
+   "mem_mb_start": 954,
+   "routes": [
+    {
+     "i": 38792,
+     "order": 37792,
+     "chapter": "?",
+     "ending": true,
+     "arrive_s": 68.6,
+     "items": 1,
+     "timeline": [
+      [
+       31,
+       19,
+       1436,
+       "kr_ed_004_.rc8",
+       null
+      ],
+      [
+       61,
+       38,
+       1800,
+       "kr_ed_009_.rc8",
+       null
+      ],
+      [
+       90,
+       56,
+       1133,
+       "kr_ed_013_.rc8",
+       null
+      ],
+      [
+       121,
+       75,
+       1789,
+       "kr_ed_019_.rc8",
+       null
+      ],
+      [
+       150,
+       93,
+       1700,
+       "kr_ed_024_.rc8",
+       null
+      ],
+      [
+       181,
+       112,
+       594,
+       "kr_ed_025_.rc8",
+       null
+      ],
+      [
+       210,
+       130,
+       1655,
+       "kr_ed_031_.rc8",
+       null
+      ],
+      [
+       241,
+       149,
+       664,
+       "netu515a1.rc8",
+       null
+      ],
+      [
+       271,
+       167,
+       595,
+       "ev5043cc.rct",
+       null
+      ]
+     ],
+     "title_after_clicks": 172,
+     "presents_after_arrival": 11727,
+     "clicks": 172,
+     "ok": true,
+     "mem_mb": 1230
+    }
+   ],
+   "new_review_folders": [
+    "savedata-review-23460-267393750"
+   ],
+   "mem_mb_end": 1230,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.9461,
+    "loud_spans": [
+     [
+      92.5,
+      98.65
+     ],
+     [
+      328.69,
+      352.58
+     ],
+     [
+      356.68,
+      361.17
+     ],
+     [
+      367.43,
+      367.81
+     ]
+    ],
+    "errors": []
+   },
+   "log_mb": 6.7,
+   "log_errors": []
+  }
+ ],
+ "nv_after": 1133,
+ "ended": "2026-11-22 10:21:08"
+}

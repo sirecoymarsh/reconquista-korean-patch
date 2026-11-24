@@ -1,0 +1,98 @@
+[
+  {
+    "file": "レイアウトサンプル.rct.png",
+    "xy": [
+      108,
+      78
+    ],
+    "score": 1.0
+  },
+  {
+    "file": "名前プレート_暮葉.rct.png",
+    "xy": [
+      12,
+      8
+    ],
+    "score": 1.0
+  },
+  {
+    "file": "名前プレート_汐見.rct.png",
+    "xy": [
+      12,
+      8
+    ],
+    "score": 1.0
+  },
+  {
+    "file": "console_off_m.rct.png",
+    "xy": [
+      63,
+      460
+    ],
+    "score": 0.41553956270217896
+  },
+  {
+    "file": "名前プレート_まほこ.rct.png",
+    "xy": [
+      12,
+      8
+    ],
+    "score": 0.36042842268943787
+  },
+  {
+    "file": "chapter_off_1.rct.png",
+    "xy": [
+      19,
+      170
+    ],
+    "score": 0.35164874792099
+  },
+  {
+    "file": "chapter_off_2.rct.png",
+    "xy": [
+      19,
+      170
+    ],
+    "score": 0.35164874792099
+  },
+  {
+    "file": "chapter_on.rct.png",
+    "xy": [
+      19,
+      170
+    ],
+    "score": 0.35164874792099
+  },
+  {
+    "file": "chapter_push.rct.png",
+    "xy": [
+      19,
+      170
+    ],
+    "score": 0.35164874792099
+  },
+  {
+    "file": "console_off_k.rct.png",
+    "xy": [
+      63,
+      460
+    ],
+    "score": 0.3502163290977478
+  },
+  {
+    "file": "askyesno_base.rct.png",
+    "xy": [
+      309,
+      202
+    ],
+    "score": 0.3469304144382477
+  },
+  {
+    "file": "選択肢台.rct.png",
+    "xy": [
+      308,
+      83
+    ],
+    "score": 0.3469304144382477
+  }
+]

@@ -1,0 +1,157 @@
+{
+ "mode": "save",
+ "started": "2026-11-22 01:30:43",
+ "nv_before": 1143,
+ "runs": [
+  {
+   "label": "save",
+   "pid": 67668,
+   "steps": [
+    {
+     "step": "save slot2",
+     "t": 43.6,
+     "dialogs": []
+    },
+    {
+     "step": "overwrite confirmed",
+     "t": 50.4
+    },
+    {
+     "step": "main savedata after save",
+     "t": 50.4,
+     "changed": [
+      "majiro_0102.sav"
+     ]
+    },
+    {
+     "step": "back after save",
+     "t": 60.6,
+     "same_as_A": 0,
+     "tries": 2
+    },
+    {
+     "step": "read on",
+     "t": 70.9,
+     "diff_from_A": 20596
+    },
+    {
+     "step": "after load slot2",
+     "t": 89.1,
+     "diff_from_A": 0,
+     "diff_from_B": 20596
+    },
+    {
+     "step": "quick save",
+     "t": 97.2,
+     "dialogs": []
+    },
+    {
+     "step": "quick save file",
+     "t": 97.2,
+     "changed": [
+      "majiro_9999.sav"
+     ]
+    },
+    {
+     "step": "after quick load",
+     "t": 117.7,
+     "diff_from_Q0": 0,
+     "diff_from_Q1": 22536
+    }
+   ],
+   "dialogs": [],
+   "redirected_writes": 0,
+   "new_review_folders": [],
+   "mem_mb_end": 1682,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.8572,
+    "loud_spans": [
+     [
+      16.12,
+      16.84
+     ],
+     [
+      19.97,
+      20.61
+     ],
+     [
+      22.15,
+      22.88
+     ],
+     [
+      33.29,
+      33.45
+     ],
+     [
+      36.78,
+      37.97
+     ],
+     [
+      40.13,
+      40.8
+     ],
+     [
+      43.67,
+      45.86
+     ],
+     [
+      50.92,
+      51.09
+     ],
+     [
+      55.96,
+      56.13
+     ],
+     [
+      64.49,
+      67.36
+     ],
+     [
+      71.03,
+      71.18
+     ],
+     [
+      74.51,
+      75.17
+     ],
+     [
+      77.86,
+      78.54
+     ],
+     [
+      84.22,
+      84.94
+     ],
+     [
+      93.43,
+      96.02
+     ],
+     [
+      100.99,
+      103.91
+     ],
+     [
+      107.5,
+      109.98
+     ],
+     [
+      112.85,
+      113.63
+     ]
+    ],
+    "errors": []
+   },
+   "log_mb": 1.6,
+   "log_errors": [],
+   "main_savedata_changed": [
+    "majiro_0102.sav",
+    "majiro_9999.sav"
+   ]
+  }
+ ],
+ "nv_after": 1143,
+ "ended": "2026-11-22 01:32:44"
+}

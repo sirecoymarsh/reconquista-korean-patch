@@ -1,0 +1,55 @@
+﻿[Script Info]
+Title: Reconquista Korean captions - Codex internal review candidate
+ScriptType: v4.00+
+PlayResX: 800
+PlayResY: 600
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Credit,MaruBuri SemiBold,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,0.6,0.3,8,22,22,7,1
+Style: Lyric,MaruBuri SemiBold,30,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,0.8,0.4,2,24,24,21,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.40,0:00:06.20,Credit,op-credits::company,0,0,0,,{\fs28}코튼소프트 두 번째 작품
+Dialogue: 0,0:00:06.65,0:00:11.35,Credit,op-credits::illustration,0,0,0,,{\fs26}캐릭터 디자인·원화\NANKOROMOCHI / SAJI SASAI
+Dialogue: 0,0:00:13.15,0:00:16.40,Credit,op-credits::scenario,0,0,0,,{\fs24}시나리오\NHAJIME UNATOMI / TAMAKI AKITSU / YUSUKE OTSUKI
+Dialogue: 0,0:00:18.00,0:00:20.10,Credit,op-credits::title-1,0,0,0,,{\fs32}레콘퀴스타
+Dialogue: 0,0:00:20.15,0:00:24.40,Credit,op-credits::title-quote-a,0,0,0,,{\fs26}죽음과 무덤도 불못에 던져졌다.\N이 불못이 곧 둘째 죽음이다.
+Dialogue: 0,0:00:24.45,0:00:28.80,Credit,op-credits::title-quote-b,0,0,0,,{\fs26}생명책에 이름이 기록되지 않은 사람은\N누구든 불못에 던져졌다.
+Dialogue: 0,0:00:30.90,0:00:32.30,Credit,op-credits::starring,0,0,0,,{\fs29}등장인물
+Dialogue: 0,0:00:33.00,0:00:36.10,Credit,op-credits::graphics-program,0,0,0,,{\fs25}CG: HARUCHIN · PIKAICHI · SHINICHIROU 외\N프로그래밍: SEITA KOSHIHATA
+Dialogue: 0,0:00:36.55,0:00:38.15,Credit,op-credits::mahoko,0,0,0,,{\fs29}하토리 마호코  |  성우: まきいづみ
+Dialogue: 0,0:00:39.00,0:00:42.10,Credit,op-credits::music,0,0,0,,{\fs24}음악: Elements Garden · BARBARIAN ON THE GROOVE\NSentive · 443 · KYOKO IDE · TATEUCHI 외
+Dialogue: 0,0:00:42.75,0:00:44.80,Credit,op-credits::shiina,0,0,0,,{\fs29}가스가이 시이나  |  성우: 芝原のぞみ
+Dialogue: 0,0:00:48.80,0:00:50.85,Credit,op-credits::masaki,0,0,0,,{\fs29}요시모리 마사키  |  성우: 羽沢月乃
+Dialogue: 0,0:00:53.55,0:00:55.00,Credit,op-credits::momiji,0,0,0,,{\fs29}마키노 모미지  |  성우: 北都南
+Dialogue: 0,0:00:55.05,0:00:58.90,Credit,op-credits::theme-song,0,0,0,,{\fs22}주제가 「Reconquista」  |  노래: 飛蘭 · 작사: 海富一\N작곡: 上松範康 · 편곡: 菊田大介 · 기타: 加納望 · 바이올린: 森琢哉
+Dialogue: 0,0:01:02.90,0:01:04.75,Credit,op-credits::kureha,0,0,0,,{\fs29}아키즈키 쿠레하  |  성우: 北都南
+Dialogue: 0,0:01:07.00,0:01:09.45,Credit,op-credits::cast-main,0,0,0,,{\fs29}성우
+Dialogue: 0,0:01:10.00,0:01:13.60,Credit,op-credits::cast-support,0,0,0,,{\fs25}다무라 나나코: 青山ゆかり\N하토리 朋子: 如月葵 · 야시마 미도리: 一色ヒカル
+Dialogue: 0,0:01:14.55,0:01:15.85,Credit,op-credits::cast-yue,0,0,0,,{\fs29}시오미 유에  |  성우: 松田理沙
+Dialogue: 0,0:01:18.00,0:01:21.65,Credit,op-credits::movie,0,0,0,,{\fs29}영상 제작: 神月社 [Mju:z]
+Dialogue: 0,0:01:26.90,0:01:30.70,Credit,op-credits::director,0,0,0,,{\fs29}디렉터: 海富一
+Dialogue: 0,0:01:31.70,0:01:33.30,Credit,op-credits::title-2,0,0,0,,{\fs32}레콘퀴스타
+Dialogue: 0,0:01:33.35,0:01:36.25,Credit,op-credits::title-quote-a-repeat,0,0,0,,{\fs26}죽음과 무덤도 불못에 던져졌다.\N이 불못이 곧 둘째 죽음이다.
+Dialogue: 0,0:01:36.30,0:01:39.20,Credit,op-credits::title-quote-b-repeat,0,0,0,,{\fs26}생명책에 이름이 기록되지 않은 사람은\N누구든 불못에 던져졌다.
+Dialogue: 0,0:00:02.00,0:00:07.05,Lyric,op-lyrics::001,0,0,0,,모든 걸 잃어버린 그곳에서
+Dialogue: 0,0:00:07.20,0:00:12.80,Lyric,op-lyrics::002,0,0,0,,다시 되찾을 테니까
+Dialogue: 0,0:00:30.70,0:00:34.85,Lyric,op-lyrics::003,0,0,0,,차가운 빛이 시간을 멈추고
+Dialogue: 0,0:00:34.90,0:00:38.65,Lyric,op-lyrics::004,0,0,0,,그림자마저 얼어붙는 어둠 속
+Dialogue: 0,0:00:38.72,0:00:42.25,Lyric,op-lyrics::005,0,0,0,,외로이 헤매는 금빛 눈동자
+Dialogue: 0,0:00:42.35,0:00:46.10,Lyric,op-lyrics::006,0,0,0,,녹슨 은빛 달은 이지러져 가네
+Dialogue: 0,0:00:46.25,0:00:50.05,Lyric,op-lyrics::007,0,0,0,,녹아 사라진 선을 더듬으며
+Dialogue: 0,0:00:50.20,0:00:53.95,Lyric,op-lyrics::008,0,0,0,,꿈꾸던 내일을 따라가
+Dialogue: 0,0:00:54.05,0:00:57.95,Lyric,op-lyrics::009,0,0,0,,깊이 새겨져 길게 뻗은
+Dialogue: 0,0:00:58.00,0:01:03.00,Lyric,op-lyrics::010,0,0,0,,잘못의 흔적을 넘어 달려가
+Dialogue: 0,0:01:05.65,0:01:09.25,Lyric,op-lyrics::011,0,0,0,,모든 걸 잃어버린 그곳에서
+Dialogue: 0,0:01:09.35,0:01:13.12,Lyric,op-lyrics::012,0,0,0,,다시 붙잡을 거야, 단 하나
+Dialogue: 0,0:01:13.25,0:01:16.95,Lyric,op-lyrics::013,0,0,0,,지키고 싶었던 것을
+Dialogue: 0,0:01:17.00,0:01:19.95,Lyric,op-lyrics::014,0,0,0,,그래, 두 번 다시 놓지 않아
+Dialogue: 0,0:01:20.05,0:01:24.90,Lyric,op-lyrics::015,0,0,0,,놓치지 않아, 돌아보지 않아
+Dialogue: 0,0:01:24.95,0:01:28.45,Lyric,op-lyrics::016,0,0,0,,반드시 되찾을 테니까

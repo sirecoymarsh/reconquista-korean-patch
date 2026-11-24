@@ -1,0 +1,106 @@
+{
+  "candidate": "ui-trial-v22",
+  "native_candidate": "native-ui-v5",
+  "completed_utc": "2026-10-22T23:48:38.170673+00:00",
+  "pid": 48868,
+  "process_exited": true,
+  "scenario_modified": false,
+  "operations": 13,
+  "focus_samples": 482,
+  "game_foreground_observed": false,
+  "private_input_desktop_observed": false,
+  "before_after_foreground_changes": 0,
+  "focus_sampler_errors": [],
+  "global_input_used": false,
+  "desktop_switch_called": false,
+  "audio_evidence": [
+    "reports/background-runtime-v22-audio.json",
+    "reports/background-runtime-v22-post-config-audio.json"
+  ],
+  "control_state_evidence": "reports/background-runtime-v22-control-states.json",
+  "new_control_state_instances_exactly_matched": 19,
+  "all_new_state_instances_authored": 48,
+  "matched_states": {
+    "window": [
+      "push"
+    ],
+    "fullscreen": [
+      "off"
+    ],
+    "read-only": [
+      "off",
+      "push"
+    ],
+    "all": [
+      "off",
+      "push"
+    ],
+    "font-select": [
+      "off"
+    ],
+    "choice-color": [
+      "push"
+    ],
+    "choice-keep": [
+      "off"
+    ],
+    "audio-bgm": [
+      "off"
+    ],
+    "audio-voice": [
+      "off"
+    ],
+    "audio-se": [
+      "off"
+    ],
+    "audio-kureha": [
+      "off",
+      "on"
+    ],
+    "audio-momiji": [
+      "on"
+    ],
+    "audio-mahoko": [
+      "on"
+    ],
+    "audio-shiina": [
+      "on"
+    ],
+    "audio-masaki": [
+      "on"
+    ],
+    "audio-others": [
+      "on"
+    ]
+  },
+  "scope": [
+    "Seven new red control labels visible in current states. Skip all/read-only selection works and selected cells exactly match push asset.",
+    "All9 audio status labels visible. Kureha mute action shows off; moving volume slider back to its original maximum restores on.",
+    "Final config capture is byte-identical to initial config capture, confirming restoration of the tested visible settings."
+  ],
+  "limitations": [
+    "50ms samples only during command execution; gaps between commands are not monitored.",
+    "Hover response observed for all button, but its capture does not exactly match any static state; do not claim exact on-state runtime proof.",
+    "All selected red cells use push imagery. Transient physical button hold behavior is not established.",
+    "An attempted second click on muted Kureha control did not restore volume; its misleading capture tag character-restored is not a restoration proof. Only character-volume-restored is.",
+    "Audio push states, full state coverage, fullscreen, native error helpers and actual installer execution remain untested.",
+    "Config setting/name text and other UI authoring still incomplete. OP/ED not started."
+  ],
+  "evidence_reports": [
+    "evidence/background-runtime/bg-v22-character-off.json",
+    "evidence/background-runtime/bg-v22-character-restored.json",
+    "evidence/background-runtime/bg-v22-character-volume-restored.json",
+    "evidence/background-runtime/bg-v22-config.json",
+    "evidence/background-runtime/bg-v22-exit-prompt.json",
+    "evidence/background-runtime/bg-v22-exited.json",
+    "evidence/background-runtime/bg-v22-final-exit-prompt.json",
+    "evidence/background-runtime/bg-v22-quit-cancel.json",
+    "evidence/background-runtime/bg-v22-skip-all-hover.json",
+    "evidence/background-runtime/bg-v22-skip-all-press.json",
+    "evidence/background-runtime/bg-v22-skip-all-release.json",
+    "evidence/background-runtime/bg-v22-skip-restored.json",
+    "evidence/background-runtime/bg-v22-start.json"
+  ],
+  "runtime_pass": "partial",
+  "release_pass": false
+}

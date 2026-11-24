@@ -1,0 +1,90 @@
+{
+  "patch_files": [
+    {
+      "file": "2장. 찾으라, 그러면 찾을 것이요.txt",
+      "rows": 8893
+    },
+    {
+      "file": "3장. 문을 두드리라, 그리하면 열릴 것이니라.txt",
+      "rows": 9653
+    },
+    {
+      "file": "마사키 END.txt",
+      "rows": 13442
+    },
+    {
+      "file": "마호코 END.txt",
+      "rows": 19429
+    },
+    {
+      "file": "메뉴.txt",
+      "rows": 26
+    },
+    {
+      "file": "서브 에피소드.txt",
+      "rows": 3550
+    },
+    {
+      "file": "스태프 룸.txt",
+      "rows": 873
+    },
+    {
+      "file": "시이나 END.txt",
+      "rows": 16198
+    },
+    {
+      "file": "연표.txt",
+      "rows": 577
+    },
+    {
+      "file": "추가번역.txt",
+      "rows": 365
+    },
+    {
+      "file": "쿠레하 END.txt",
+      "rows": 20817
+    }
+  ],
+  "patch_rows": 93823,
+  "unique_sources": 67259,
+  "unique_keys": 67240,
+  "malformed_numeric_rows": [],
+  "source_scripts": 182,
+  "source_units": 47330,
+  "source_text_fields": 73953,
+  "field_matches": {
+    "exact": 71882,
+    "ambiguous_target": 3981,
+    "not_matched": 2061,
+    "whitespace_normalized": 10
+  },
+  "complete_units": 45803,
+  "unique_source_conflicts": 840,
+  "multi_source_key_groups": 19,
+  "empty_targets": 32,
+  "contains_japanese_in_target": 1,
+  "literal_question_mark_sources": 73,
+  "normalization": "unquote enclosing ASCII double quotes for analysis; whitespace-normalized match removes whitespace only; does not emulate CustomScript",
+  "runtime_verification": false,
+  "semantic_all_corpus_review": false,
+  "additional_fields_matched_after_removing_outer_monologue_quotes": 1297,
+  "selected_semantic_sample_units": 300,
+  "sample_method": "10 purposively selected contiguous 20-unit scenes spanning opening, four heroine routes, past chapter and final chapter; 3 context units each side when available; not random and not a corpus-wide semantic score.",
+  "semantic_reviewed_units": 300,
+  "semantic_reviewed_scene_windows": 15,
+  "confirmed_meaning_issue_units": 13,
+  "additional_qualitative_observations": 16,
+  "column_structure_anomaly_rows": 10,
+  "direct_text_match_percent": 97.21309480345624,
+  "format_normalized_match_percent": 98.96691141671062,
+  "semantic_review_method": "Codex internal read Japanese source and patch text for 15 purposively selected contiguous 20-unit windows plus neighboring context; 4 heroine routes and endings, opening, past and final chapter. No random-population accuracy estimate.",
+  "source_version": "original disc overlaid with 179 MJO entries from supplied official update101; one additional developer copy tracked; 182 total source scripts",
+  "scope_exclusions": [
+    "Runtime CustomScript lookup/importer behavior",
+    "voice playback and pronunciation",
+    "all-scenario semantic review",
+    "full reachability of test/developer scripts",
+    "raster UI and movies"
+  ],
+  "corpus_caveat": "Counts include all extracted script text fields, including developer/test fragments. Speaker tokens and inline ldstr/ruby are separate from this denominator. A text match is not a translation-correctness or runtime-coverage claim."
+}

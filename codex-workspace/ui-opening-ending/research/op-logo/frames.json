@@ -1,0 +1,612 @@
+[
+  {
+    "frame": 1,
+    "time": 16.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\001.png"
+  },
+  {
+    "frame": 2,
+    "time": 16.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\002.png"
+  },
+  {
+    "frame": 3,
+    "time": 16.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\003.png"
+  },
+  {
+    "frame": 4,
+    "time": 16.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\004.png"
+  },
+  {
+    "frame": 5,
+    "time": 16.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\005.png"
+  },
+  {
+    "frame": 6,
+    "time": 17.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\006.png"
+  },
+  {
+    "frame": 7,
+    "time": 17.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\007.png"
+  },
+  {
+    "frame": 8,
+    "time": 17.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\008.png"
+  },
+  {
+    "frame": 9,
+    "time": 17.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\009.png"
+  },
+  {
+    "frame": 10,
+    "time": 17.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\010.png"
+  },
+  {
+    "frame": 11,
+    "time": 18.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\011.png"
+  },
+  {
+    "frame": 12,
+    "time": 18.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\012.png"
+  },
+  {
+    "frame": 13,
+    "time": 18.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\013.png"
+  },
+  {
+    "frame": 14,
+    "time": 18.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\014.png"
+  },
+  {
+    "frame": 15,
+    "time": 18.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\015.png"
+  },
+  {
+    "frame": 16,
+    "time": 19.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\016.png"
+  },
+  {
+    "frame": 17,
+    "time": 19.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\017.png"
+  },
+  {
+    "frame": 18,
+    "time": 19.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\018.png"
+  },
+  {
+    "frame": 19,
+    "time": 19.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\019.png"
+  },
+  {
+    "frame": 20,
+    "time": 19.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\020.png"
+  },
+  {
+    "frame": 21,
+    "time": 20.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\021.png"
+  },
+  {
+    "frame": 22,
+    "time": 20.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\022.png"
+  },
+  {
+    "frame": 23,
+    "time": 20.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\023.png"
+  },
+  {
+    "frame": 24,
+    "time": 20.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\024.png"
+  },
+  {
+    "frame": 25,
+    "time": 20.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\025.png"
+  },
+  {
+    "frame": 26,
+    "time": 21.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\026.png"
+  },
+  {
+    "frame": 27,
+    "time": 21.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\027.png"
+  },
+  {
+    "frame": 28,
+    "time": 21.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\028.png"
+  },
+  {
+    "frame": 29,
+    "time": 21.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\029.png"
+  },
+  {
+    "frame": 30,
+    "time": 21.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\030.png"
+  },
+  {
+    "frame": 31,
+    "time": 22.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\031.png"
+  },
+  {
+    "frame": 32,
+    "time": 22.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\032.png"
+  },
+  {
+    "frame": 33,
+    "time": 22.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\033.png"
+  },
+  {
+    "frame": 34,
+    "time": 22.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\034.png"
+  },
+  {
+    "frame": 35,
+    "time": 22.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\035.png"
+  },
+  {
+    "frame": 36,
+    "time": 23.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\036.png"
+  },
+  {
+    "frame": 37,
+    "time": 23.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\037.png"
+  },
+  {
+    "frame": 38,
+    "time": 23.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\038.png"
+  },
+  {
+    "frame": 39,
+    "time": 23.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\039.png"
+  },
+  {
+    "frame": 40,
+    "time": 23.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\040.png"
+  },
+  {
+    "frame": 41,
+    "time": 24.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\041.png"
+  },
+  {
+    "frame": 42,
+    "time": 24.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\042.png"
+  },
+  {
+    "frame": 43,
+    "time": 24.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\043.png"
+  },
+  {
+    "frame": 44,
+    "time": 24.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\044.png"
+  },
+  {
+    "frame": 45,
+    "time": 24.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\045.png"
+  },
+  {
+    "frame": 46,
+    "time": 25.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\046.png"
+  },
+  {
+    "frame": 47,
+    "time": 25.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\047.png"
+  },
+  {
+    "frame": 48,
+    "time": 25.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\048.png"
+  },
+  {
+    "frame": 49,
+    "time": 25.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\049.png"
+  },
+  {
+    "frame": 50,
+    "time": 25.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\050.png"
+  },
+  {
+    "frame": 51,
+    "time": 26.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\051.png"
+  },
+  {
+    "frame": 52,
+    "time": 26.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\052.png"
+  },
+  {
+    "frame": 53,
+    "time": 26.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\053.png"
+  },
+  {
+    "frame": 54,
+    "time": 26.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\054.png"
+  },
+  {
+    "frame": 55,
+    "time": 26.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\055.png"
+  },
+  {
+    "frame": 56,
+    "time": 27.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\056.png"
+  },
+  {
+    "frame": 57,
+    "time": 27.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\057.png"
+  },
+  {
+    "frame": 58,
+    "time": 27.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\058.png"
+  },
+  {
+    "frame": 59,
+    "time": 27.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\059.png"
+  },
+  {
+    "frame": 60,
+    "time": 27.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\060.png"
+  },
+  {
+    "frame": 61,
+    "time": 28.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\061.png"
+  },
+  {
+    "frame": 62,
+    "time": 28.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\062.png"
+  },
+  {
+    "frame": 63,
+    "time": 28.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\063.png"
+  },
+  {
+    "frame": 64,
+    "time": 28.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\064.png"
+  },
+  {
+    "frame": 65,
+    "time": 28.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\065.png"
+  },
+  {
+    "frame": 66,
+    "time": 29.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\066.png"
+  },
+  {
+    "frame": 67,
+    "time": 29.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\067.png"
+  },
+  {
+    "frame": 68,
+    "time": 29.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\068.png"
+  },
+  {
+    "frame": 69,
+    "time": 29.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\069.png"
+  },
+  {
+    "frame": 70,
+    "time": 29.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\070.png"
+  },
+  {
+    "frame": 71,
+    "time": 30.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\071.png"
+  },
+  {
+    "frame": 72,
+    "time": 90.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\072.png"
+  },
+  {
+    "frame": 73,
+    "time": 90.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\073.png"
+  },
+  {
+    "frame": 74,
+    "time": 90.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\074.png"
+  },
+  {
+    "frame": 75,
+    "time": 90.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\075.png"
+  },
+  {
+    "frame": 76,
+    "time": 90.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\076.png"
+  },
+  {
+    "frame": 77,
+    "time": 91.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\077.png"
+  },
+  {
+    "frame": 78,
+    "time": 91.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\078.png"
+  },
+  {
+    "frame": 79,
+    "time": 91.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\079.png"
+  },
+  {
+    "frame": 80,
+    "time": 91.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\080.png"
+  },
+  {
+    "frame": 81,
+    "time": 91.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\081.png"
+  },
+  {
+    "frame": 82,
+    "time": 92.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\082.png"
+  },
+  {
+    "frame": 83,
+    "time": 92.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\083.png"
+  },
+  {
+    "frame": 84,
+    "time": 92.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\084.png"
+  },
+  {
+    "frame": 85,
+    "time": 92.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\085.png"
+  },
+  {
+    "frame": 86,
+    "time": 92.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\086.png"
+  },
+  {
+    "frame": 87,
+    "time": 93.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\087.png"
+  },
+  {
+    "frame": 88,
+    "time": 93.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\088.png"
+  },
+  {
+    "frame": 89,
+    "time": 93.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\089.png"
+  },
+  {
+    "frame": 90,
+    "time": 93.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\090.png"
+  },
+  {
+    "frame": 91,
+    "time": 93.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\091.png"
+  },
+  {
+    "frame": 92,
+    "time": 94.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\092.png"
+  },
+  {
+    "frame": 93,
+    "time": 94.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\093.png"
+  },
+  {
+    "frame": 94,
+    "time": 94.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\094.png"
+  },
+  {
+    "frame": 95,
+    "time": 94.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\095.png"
+  },
+  {
+    "frame": 96,
+    "time": 94.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\096.png"
+  },
+  {
+    "frame": 97,
+    "time": 95.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\097.png"
+  },
+  {
+    "frame": 98,
+    "time": 95.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\098.png"
+  },
+  {
+    "frame": 99,
+    "time": 95.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\099.png"
+  },
+  {
+    "frame": 100,
+    "time": 95.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\100.png"
+  },
+  {
+    "frame": 101,
+    "time": 95.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\101.png"
+  },
+  {
+    "frame": 102,
+    "time": 96.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\102.png"
+  },
+  {
+    "frame": 103,
+    "time": 96.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\103.png"
+  },
+  {
+    "frame": 104,
+    "time": 96.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\104.png"
+  },
+  {
+    "frame": 105,
+    "time": 96.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\105.png"
+  },
+  {
+    "frame": 106,
+    "time": 96.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\106.png"
+  },
+  {
+    "frame": 107,
+    "time": 97.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\107.png"
+  },
+  {
+    "frame": 108,
+    "time": 97.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\108.png"
+  },
+  {
+    "frame": 109,
+    "time": 97.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\109.png"
+  },
+  {
+    "frame": 110,
+    "time": 97.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\110.png"
+  },
+  {
+    "frame": 111,
+    "time": 97.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\111.png"
+  },
+  {
+    "frame": 112,
+    "time": 98.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\112.png"
+  },
+  {
+    "frame": 113,
+    "time": 98.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\113.png"
+  },
+  {
+    "frame": 114,
+    "time": 98.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\114.png"
+  },
+  {
+    "frame": 115,
+    "time": 98.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\115.png"
+  },
+  {
+    "frame": 116,
+    "time": 98.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\116.png"
+  },
+  {
+    "frame": 117,
+    "time": 99.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\117.png"
+  },
+  {
+    "frame": 118,
+    "time": 99.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\118.png"
+  },
+  {
+    "frame": 119,
+    "time": 99.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\119.png"
+  },
+  {
+    "frame": 120,
+    "time": 99.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\120.png"
+  },
+  {
+    "frame": 121,
+    "time": 99.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\121.png"
+  },
+  {
+    "frame": 122,
+    "time": 100.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\frames\\122.png"
+  }
+]

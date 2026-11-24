@@ -1,0 +1,46 @@
+{
+ "mode": "routes",
+ "started": "2026-11-22 08:56:26",
+ "nv_before": 1133,
+ "runs": [
+  {
+   "label": "routes-38759-re",
+   "pid": 16848,
+   "steps": [
+    {
+     "step": "route 38759",
+     "t": 17.8,
+     "order": 37759,
+     "chapter": "?",
+     "ending": true,
+     "error": "TypeError(\"'NoneType' object is not iterable\")"
+    }
+   ],
+   "dialogs": [],
+   "mem_mb_start": 957,
+   "routes": [
+    {
+     "i": 38759,
+     "order": 37759,
+     "chapter": "?",
+     "ending": true,
+     "error": "TypeError(\"'NoneType' object is not iterable\")"
+    }
+   ],
+   "new_review_folders": [],
+   "mem_mb_end": 1076,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.0,
+    "loud_spans": [],
+    "errors": []
+   },
+   "log_mb": 0.0,
+   "log_errors": []
+  }
+ ],
+ "nv_after": 1133,
+ "ended": "2026-11-22 08:56:47"
+}

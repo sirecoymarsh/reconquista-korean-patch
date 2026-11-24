@@ -1,0 +1,16 @@
+{
+  "background_object_assets_screened": 316,
+  "sky_groups": 46,
+  "sky_assets_checked": 137,
+  "repaired_pngs": 117,
+  "unchanged_or_kept_current": 20,
+  "review_rejected_keys": [],
+  "outside_sky_changed_pixels": 0,
+  "protected_source_stroke_changed_pixels": 0,
+  "maximum_changed_image_pct": 0.1461,
+  "character_cg_scope": "excluded; three original JXL hashes verified unchanged",
+  "priority_1_bus_override": "../ae35ac32.png; use the color/motion-corrected Korean-sign bus from the parent folder",
+  "runtime_installed": false,
+  "runtime_verified": false,
+  "worse_sky_line_metric_delivered": 0
+}

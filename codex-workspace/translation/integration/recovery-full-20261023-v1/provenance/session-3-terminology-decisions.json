@@ -1,0 +1,464 @@
+{
+  "translator_model": "Codex internal",
+  "coordinator_thread_id": "01a16335-c355-7c83-ad79-53e1812faa34",
+  "scope": "session-3 coordination proposals; central shared glossary remains unchanged",
+  "decisions": [
+    {
+      "source": "上条",
+      "target": "가미조",
+      "status": "adopted",
+      "evidence": [
+        "kureha_18.mjo::004749 かみじょう; lane-2 report",
+        "script-027 inline かみじょう; lane-3 report"
+      ],
+      "reason": "Source reading; initial か convention matches frozen 가스가이."
+    },
+    {
+      "source": "裕輔",
+      "target": "유스케",
+      "status": "adopted",
+      "evidence": [
+        "last_gendai16.mjo::u0154 / 001645 裕輔さん、ゆうすけさんっ; lane-2 report"
+      ]
+    },
+    {
+      "source": "悠絵",
+      "target": "유에",
+      "status": "adopted",
+      "evidence": [
+        "body-parallel/source/script-050.json inline ゆえ",
+        "last_gendai03.mjo ゆ…悠絵？ ゆえっ…！"
+      ]
+    },
+    {
+      "source": "汐見",
+      "target": "시오미",
+      "status": "adopted",
+      "evidence": [
+        "body-parallel/source/script-122.json しおみ…せんせい"
+      ]
+    },
+    {
+      "source": "秋月",
+      "target": "아키즈키",
+      "status": "provisional_reading",
+      "evidence": [
+        "lane-1 source occurrence"
+      ],
+      "limitation": "Kana/audio evidence not yet found."
+    },
+    {
+      "source": "シロ",
+      "target": "시로",
+      "status": "adopted",
+      "evidence": [
+        "last_kako01.mjo::u0002"
+      ],
+      "referent": "pet dog"
+    },
+    {
+      "source": "木の根",
+      "target": "나무뿌리",
+      "status": "adopted",
+      "evidence": [
+        "last_kako01.mjo::u0010",
+        "last_kako01.mjo::u0017",
+        "last_kako01.mjo::u0021"
+      ],
+      "referent": "revival-related object"
+    },
+    {
+      "source": "受肉",
+      "target": "육신을 얻다",
+      "status": "contextual_adopted",
+      "evidence": [
+        "sub_last00.mjo::u0011"
+      ],
+      "reason": "Verb form suited to the supernatural body-incarnation context. Preserve the meaning; do not use food-homonym 수육."
+    },
+    {
+      "source": "器",
+      "target": "그릇",
+      "status": "contextual_adopted",
+      "evidence": [
+        "sub_last00.mjo::u0011"
+      ],
+      "referent": "human vessel for incarnation"
+    },
+    {
+      "source": "ミッションスクール",
+      "target": "미션스쿨",
+      "status": "frozen_memory_reused",
+      "evidence": [
+        "00_レコンキスタ_start.mjo::000644",
+        "00_レコンキスタ_start.mjo::000653",
+        "00_レコンキスタ_start.mjo::004979",
+        "00_レコンキスタ_start.mjo::005772"
+      ],
+      "note": "User-provided university-level seminary context retained for present-day participants."
+    },
+    {
+      "source": "反魂の法",
+      "target": "반혼술",
+      "status": "adopted_session_proposal",
+      "evidence": [
+        "last_gendai02.mjo::u0006",
+        "last_kako12.mjo::u0380-0384 (lane-2 report)"
+      ]
+    },
+    {
+      "source": "反魂",
+      "target": "반혼",
+      "status": "adopted_session_proposal",
+      "evidence": [
+        "last_gendai02.mjo::u0008-u0010"
+      ]
+    },
+    {
+      "source": "首刈り女",
+      "target": "목 베는 여자",
+      "status": "adopted_session_proposal",
+      "evidence": [
+        "lane-2 source review; urban-legend epithet"
+      ]
+    },
+    {
+      "source": "Repeated biblical lines",
+      "targets": [
+        "구하라, 그러면 얻으리라",
+        "찾으라, 그러면 찾으리라",
+        "문을 두드리라, 그러면 열리리라"
+      ],
+      "status": "adopted_session_proposal",
+      "evidence": [
+        "last_kako12.mjo::u0386-u0387",
+        "last_gendai02.mjo::u0117,u0119"
+      ],
+      "note": "Preserve contextual punctuation and quotation; do not add biblical subjects absent from source."
+    },
+    {
+      "source": "反魂樹",
+      "target": "반혼수",
+      "status": "adopted_session_proposal",
+      "evidence": [
+        "sub_last02.mjo::u0038-u0039"
+      ]
+    },
+    {
+      "source": "悪魔憑き",
+      "target": "악마 들림 (현상/상태) / 악마 들린 자 (인물)",
+      "status": "adopted_session_proposal",
+      "evidence": [
+        "sub_last02.mjo::u0041",
+        "last_kako03.mjo::u0087-u0099"
+      ],
+      "note": "Contextual forms; do not translate possession as a person causing an event."
+    },
+    {
+      "source": "一ノ瀬",
+      "target": "이치노세",
+      "status": "provisional_reading",
+      "evidence": [
+        "lane-1 occurrence report"
+      ],
+      "note": "Standard surname reading; kana/audio verification pending."
+    },
+    {
+      "source": "一ノ瀬 recurring dialect",
+      "target": "가벼운 충청 말투: 해유 / 오셨슈 / 구먼유",
+      "status": "adopted_voice_direction",
+      "evidence": [
+        "last_kako02 u0274+ よろしゅう/食ってやってちょ/喜ぶでよ/そうけ/ほうけ/くだしゃんせ"
+      ],
+      "note": "Preserve the rural elder voice and politeness toward pastor; local agent records stable IDs."
+    },
+    {
+      "source": "しきたり / 因習",
+      "target": "관습 / 인습",
+      "status": "adopted_session_proposal",
+      "evidence": [
+        "last_kako02.mjo::u0369-u0384"
+      ]
+    },
+    {
+      "source": "朋子",
+      "target": "도모코",
+      "status": "provisional_reading",
+      "evidence": [
+        "sub_last03.mjo::u0020"
+      ],
+      "note": "Standard name reading; kana/audio evidence pending. 一ノ瀬朋子=이치노세 도모코; 羽鳥朋子=하토리 도모코."
+    },
+    {
+      "source": "伝道師",
+      "target": "전도사",
+      "status": "adopted_session_proposal",
+      "evidence": [
+        "sub_last03.mjo::u0031,u0034"
+      ]
+    },
+    {
+      "source": "お子さまランチ",
+      "target": "어린이 세트",
+      "status": "adopted_session_proposal",
+      "evidence": [
+        "lane-2 gendai02 dinner-menu context"
+      ],
+      "note": "Menu name used at dinner; avoid constraining to lunch."
+    },
+    {
+      "source": "トオル",
+      "target": "도오루",
+      "status": "source_reading_confirmed",
+      "evidence": [
+        "last_kako02.mjo::u0498"
+      ],
+      "note": "Keep unrevealed identity hidden until the source naming point."
+    },
+    {
+      "source": "矢嶋碧",
+      "target": "야시마 미도리",
+      "status": "source_reading_confirmed",
+      "evidence": [
+        "last_gendai03.mjo::u0174 explicitly ヤシマ not ヤジマ",
+        "maho_12.mjo::001358 ミドリ・ヤシマ",
+        "masa_08.mjo::001272 やしまみどり"
+      ]
+    },
+    {
+      "source": "月刊ＭＯＯ",
+      "target": "월간 MOO",
+      "status": "adopted_session_proposal",
+      "evidence": [
+        "last_gendai03 lane-2 source review"
+      ]
+    },
+    {
+      "source": "依り代",
+      "target": "매개체",
+      "status": "contextual_adopted",
+      "evidence": [
+        "last_gendai03.mjo::u0068"
+      ],
+      "note": "Physical medium for revival; distinguish 器=그릇."
+    },
+    {
+      "source": "悠絵 お兄ちゃん / 兄さん",
+      "target": "오빠 / 오라버니",
+      "status": "adopted_voice_direction",
+      "evidence": [
+        "last_kako03.mjo::u0203,u0209,u0210,u0217"
+      ],
+      "note": "Preserve explicitly discussed growth-related change of appellation; both retain informal endings."
+    },
+    {
+      "source": "正教師試験 / 按手礼",
+      "target": "정식 교역자 시험 / 안수례",
+      "status": "contextual_adopted",
+      "evidence": [
+        "sub_last04.mjo::u0015-u0016"
+      ],
+      "note": "Clergy qualification; not school-teacher license."
+    },
+    {
+      "source": "苗床",
+      "target": "모판",
+      "status": "adopted_session_proposal",
+      "evidence": [
+        "sub_last05.mjo::u0082,u0084"
+      ],
+      "note": "Dead body as nursery-bed metaphor; replaces awkward 배양 터전."
+    },
+    {
+      "source": "樹液 / 琥珀色 / 痣 / 切り株 / 繭",
+      "target": "수액 / 호박색 / 반점 / 그루터기 / 고치",
+      "status": "contextual_adopted",
+      "evidence": [
+        "sub_last05.mjo::u0026-u0034,u0065-u0070"
+      ]
+    },
+    {
+      "source": "新月 / 晩餐の儀 / 聖餐",
+      "target": "신월 / 만찬 의식 / 성찬",
+      "status": "contextual_adopted",
+      "evidence": [
+        "last_kako03.mjo::u0168-u0175"
+      ]
+    },
+    {
+      "source": "玉子焼き",
+      "target": "달걀말이",
+      "status": "adopted_session_proposal",
+      "evidence": [
+        "last_kako03.mjo::u0033"
+      ]
+    },
+    {
+      "source": "おじ様 (Midori comic address)",
+      "target": "아저씨님",
+      "status": "contextual_adopted",
+      "evidence": [
+        "last_gendai03.mjo::u0136-u0138,u0169-u0172"
+      ],
+      "note": "Distinct odd respectful nickname, unlike おじさん; keep first reveal at u0136 and fix following Korean particles."
+    },
+    {
+      "source": "神 (Christian prayer)",
+      "target": "하나님",
+      "status": "contextual_adopted",
+      "evidence": [
+        "kako03 prayer and pastor setting",
+        "gendai03.mjo::u0029"
+      ],
+      "note": "Generic divine beings may remain 신 by context."
+    },
+    {
+      "source": "刈り込み鋏 / ヨハネの黙示録 / 浦島太郎 / 玉手箱",
+      "target": "가지치기 가위 / 요한계시록 / 우라시마 타로 / 보물상자",
+      "status": "contextual_adopted",
+      "evidence": [
+        "lane-3 sub_last new-text source review"
+      ]
+    },
+    {
+      "source": "主よ、この食事を用意して下さった方々と、 / これからいただく私たちを祝福してください",
+      "target": "주여, 이 음식을 준비해 주신 분들과 / 이제 먹으려는 저희를 축복해 주십시오",
+      "status": "adopted_exact_repeat",
+      "evidence": [
+        "last_kako02.mjo::u0244",
+        "last_kako03.mjo::u0016",
+        "last_kako04.mjo::u0277",
+        "last_gendai04.mjo::u0046"
+      ],
+      "note": "Reuse already reviewed rendering for identical repeated prayer, retain original quotes and indentation."
+    },
+    {
+      "source": "大丈夫、大丈夫 / 元気の出るおまじない / 星の砂",
+      "target": "괜찮아, 괜찮아 / 힘이 나는 주문 / 별모래",
+      "status": "adopted_session_proposal",
+      "evidence": [
+        "lane-1 last_kako05 u0070,u0072,u0110 source context"
+      ]
+    },
+    {
+      "source": "立ち絵 / あんころもち / ハルちん",
+      "target": "스탠딩 일러스트 / 안코로모치 / 하루친",
+      "status": "adopted_session_proposal",
+      "evidence": [
+        "st_anko staff discussion full scene"
+      ]
+    },
+    {
+      "source": "秋津",
+      "target": "아키쓰",
+      "status": "provisional_reading",
+      "evidence": [
+        "st_anko.mjo::u0037"
+      ],
+      "note": "Kana/voice verification pending; staff name standard reading."
+    },
+    {
+      "source": "地下蔵",
+      "target": "지하 창고",
+      "status": "context-supported session term",
+      "evidence": [
+        "last_kako06.mjo::u0257–u0266; inline002707/base plus ordinary 예요 assembled and read"
+      ],
+      "note": "Coordinator semantic review."
+    },
+    {
+      "source": "半不死状態",
+      "target": "반불사 상태",
+      "status": "context-supported session term",
+      "evidence": [
+        "last_gendai09.mjo::u0264, narrative resurrection side effect"
+      ],
+      "note": "Coordinator semantic review."
+    },
+    {
+      "source": "禊ぎ",
+      "target": "정화 의식",
+      "status": "context-supported session term",
+      "evidence": [
+        "Lane3 source report: sina_19 05952–0598f removes resurrection side effect, 05af0 returns dead to living; development u65/u128"
+      ],
+      "note": "Codex internal; shared frozen files untouched. 禊ぎ cross-route integration remains central-owner responsibility."
+    },
+    {
+      "source": "アダムとイブ",
+      "target": "아담과 하와",
+      "status": "contextual_adopted",
+      "evidence": [
+        "last_kako05.mjo::u0129",
+        "last_kako07.mjo::u0442"
+      ],
+      "note": "Christian narrative, repeated Bible allusion; full source/target review and corrected delta inspected."
+    },
+    {
+      "source": "反魂香",
+      "target": "반혼향",
+      "status": "contextual_adopted",
+      "evidence": [
+        "last_gendai10.mjo::u0335, independent full-scene read and coordinator direct source check"
+      ]
+    },
+    {
+      "source": "日直",
+      "target": "당번",
+      "status": "contextual_adopted",
+      "evidence": [
+        "last_kako09.mjo::u0029 student attendance duty, changed field inspected"
+      ]
+    },
+    {
+      "source": "骨髄バンク / ドナー",
+      "target": "골수은행 / 골수 기증자",
+      "status": "contextual_adopted",
+      "evidence": [
+        "last_kako11.mjo::u0155,u0167,u0212,u0222"
+      ],
+      "note": "Fictional story terminology, not a real-world medical eligibility claim."
+    },
+    {
+      "source": "その健やかなるときも、病めるときも / これを愛し、これを敬い、これを慰め、これを助け",
+      "target": "건강할 때나 병들 때나 / 서로 사랑하고 존중하며, 위로하고 도우며",
+      "status": "contextual_adopted",
+      "evidence": [
+        "Previously accepted last_kako04 u0336/u0337/u0430/u0431; repeated in kako12 draft and final chapter"
+      ],
+      "note": "Repeated vows aligned in kako04, final gen16 and development test. Reuse identical meaning while preserving punctuation and scene-specific recipients; corrections and current hashes reviewed."
+    },
+    {
+      "source": "詩帆",
+      "target": "시호",
+      "status": "source_reading_confirmed",
+      "evidence": [
+        "last_ep.mjo::u0134 /001306 おーい、しぃーほちゃんっ",
+        "last_ep.mjo::u0135–u0139 perspective identification"
+      ],
+      "note": "Codex internal authoring; reading explicitly confirmed in source dialogue. The unnamed boy and young pastor remain unnamed; no invented reincarnation identity."
+    },
+    {
+      "source": "ペニス",
+      "target": "음경",
+      "status": "coordinator_accepted_session3",
+      "scope": "Newly released adult passages in session-3; broader project integration remains pending.",
+      "evidence": [
+        "last_kako07.mjo::003599",
+        "last_kako07.mjo::004033",
+        "last_kako07.mjo::004093",
+        "last_kako07.mjo::004424",
+        "last_kako08.mjo::002381",
+        "last_kako08.mjo::002823",
+        "last_kako08.mjo::003345",
+        "last_kako08.mjo::003682",
+        "sub_last06.mjo::000697",
+        "sub_last06.mjo::000851",
+        "sub_last.mjo::007403",
+        "sub_last.mjo::007557"
+      ],
+      "note": "Codex internal terminology decision. Use the natural Korean anatomical term consistently in the same narrator adult scenes and mirrored recollections. Owner changes only the four newly authored lane-3 fields and required Korean particles; prior review of other fields is reused."
+    }
+  ],
+  "updated_at": "2026-10-22T19:55:51.478842+00:00"
+}

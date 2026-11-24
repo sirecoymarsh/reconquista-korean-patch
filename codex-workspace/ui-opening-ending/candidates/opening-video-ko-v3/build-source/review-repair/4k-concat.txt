@@ -1,0 +1,6 @@
+ffconcat version 1.0
+file 'P:/AI/Codex/projects/reconquista-ko/ui-opening-ending/candidates/opening-video-ko-v3/build-source/review-repair/4k-before.mp4'
+duration 64.766666666667
+file 'P:/AI/Codex/projects/reconquista-ko/ui-opening-ending/candidates/opening-video-ko-v3/build-source/review-repair/4k-middle.mp4'
+duration 8.066666666667
+file 'P:/AI/Codex/projects/reconquista-ko/ui-opening-ending/candidates/opening-video-ko-v3/build-source/review-repair/4k-after.mp4'

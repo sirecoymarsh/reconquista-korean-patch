@@ -1,0 +1,2133 @@
+{
+  "translator_model": "Codex internal",
+  "coordinator_thread_id": "01a16335-c355-7c83-ad79-53e1812faa34",
+  "generated_at": "2026-10-23T05:21:29.608291+09:00",
+  "status": "reviewed_staging_with_explicit_holds",
+  "runtime_verified": false,
+  "totals": {
+    "owned_units": 11728,
+    "translated_units": 11722,
+    "static_validated_units": 11722,
+    "coordinator_reviewed_units": 11721,
+    "deferred_units": 6,
+    "semantic_pending_units": 1,
+    "remaining_units": 0,
+    "translated_fields": 19244,
+    "inline_records": 104
+  },
+  "deferred_categories": {
+    "technical_blank": 4,
+    "child_sexualized_commentary": 2
+  },
+  "contract_revision": "20261022-2-path-and-inline-ownership",
+  "frozen_dependency_hashes": {
+    "shared/LOCALIZATION_GUIDELINES.md": "ccc07e536056564ee941bc91aa473ef41f2637ae6e1ed6bdb3e9d284060e9fbe",
+    "shared/glossary-and-voice.md": "4a4bd3f9b8633ae4fe361fe919980c7086ba2cf318809ea6537643a176103e46",
+    "shared/age-context-review.json": "16c63158cab4f57c162384738bef6b5bc2aee4592d4f25d45392adbcb1d5f2d0",
+    "shared_authority": {
+      "path": "P:\\AI\\Codex\\skills\\contextual-game-localization\\references\\translation-quality.md",
+      "sha256": "2e8be5f1fe9833aed46bd16e3acc73e8dea7632f964a5e04312aff59b2d5294f"
+    },
+    "shared/approved-memory.json": "3b34c0311a4ca9734d3e87034175ada3dcd15c575001428c3cf8fe7349ba8175"
+  },
+  "review_ledger": "coordinator-review.json",
+  "terminology_decisions": "terminology-decisions.json",
+  "verification_evidence": {
+    "lane-1": {
+      "validation_path": "lane-1/validation.json",
+      "assignment_path": "lane-1/assignment.json",
+      "validator_sha256": "8f2fd407bc47ffe67e44c02245dd6315c9a34a4beddbfd593b175c0b1686d0d0",
+      "warnings": [
+        {
+          "id": "last_kako01.mjo::000321",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako02.mjo::002620",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako02.mjo::003805",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako02.mjo::005474",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako03.mjo::000329",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako03.mjo::000479",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako03.mjo::001416",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako03.mjo::001876",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako04.mjo::000420",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako04.mjo::008811",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako05.mjo::000174",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako06.mjo::002120",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako06.mjo::004402",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako07.mjo::000233",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako07.mjo::002615",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako07.mjo::003934",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako08.mjo::000690",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako08.mjo::000869",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako08.mjo::001264",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako08.mjo::004197",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako09.mjo::001906",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako12.mjo::002091",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako12.mjo::002823",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako12.mjo::003302",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako12.mjo::003721",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako12.mjo::003861",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_kako12.mjo::004667",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        }
+      ],
+      "checks": "Reuse hash-matching completed checks; owner checked only new or changed batches."
+    },
+    "lane-2": {
+      "validation_path": "lane-2/validation.json",
+      "assignment_path": "lane-2/assignment.json",
+      "validator_sha256": "8f2fd407bc47ffe67e44c02245dd6315c9a34a4beddbfd593b175c0b1686d0d0",
+      "warnings": [
+        {
+          "id": "last_gendai01.mjo::000259",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai01.mjo::000383",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai01.mjo::001133",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai02.mjo::000278",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai02.mjo::000443",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai02.mjo::005183",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai03.mjo::002481",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai03.mjo::002495",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai04.mjo::001098",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai04.mjo::001225",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai05.mjo::000209",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai05.mjo::000987",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai07.mjo::000401",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai07.mjo::001003",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai09.mjo::002702",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai10.mjo::001815",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai10.mjo::001894",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai11.mjo::000226",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai11.mjo::000679",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai11.mjo::001268",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai11.mjo::001690",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai14.mjo::000997",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai14.mjo::001012",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai14.mjo::001718",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai15.mjo::002649",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai15.mjo::002765",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai15.mjo::003799",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai15.mjo::004005",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai16.mjo::000493",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai16.mjo::000881",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai16.mjo::001276",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai16.mjo::002182",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai16.mjo::002535",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai16.mjo::002769",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai16.mjo::005606",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai16.mjo::006452",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai16.mjo::007740",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "last_gendai16.mjo::008071",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        }
+      ],
+      "checks": "Reuse hash-matching completed checks; owner checked only new or changed batches."
+    },
+    "lane-3": {
+      "validation_path": "lane-3/validation.json",
+      "assignment_path": "lane-3/assignment.json",
+      "validator_sha256": "8f2fd407bc47ffe67e44c02245dd6315c9a34a4beddbfd593b175c0b1686d0d0",
+      "warnings": [
+        {
+          "id": "あんころもちスタッフルーム.mjo::000527",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "kosihata.mjo::000008",
+          "reason": "Japanese kana remains; explicit semantic/quotation explanation required"
+        },
+        {
+          "id": "kosihata.mjo::000175",
+          "reason": "Japanese kana remains; explicit semantic/quotation explanation required"
+        },
+        {
+          "id": "kosihata.mjo::000180",
+          "reason": "Japanese kana remains; explicit semantic/quotation explanation required"
+        },
+        {
+          "id": "コピー (2) ～ sina_19_2.mjo::000518",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "コピー (2) ～ sina_19_2.mjo::001246",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sina_19_2　ここでテキスト作業します.mjo::000559",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sina_19_2　ここでテキスト作業します.mjo::001412",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "st_anko.mjo::000537",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "st_miyo.mjo::000012",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "st_miyo.mjo::000030",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "st_pika.mjo::000092",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "st_tomo.mjo::000175",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last03.mjo::000452",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last03.mjo::001283",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last03.mjo::001534",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last03.mjo::001987",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last04.mjo::000178",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last06.mjo::000106",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last06.mjo::000153",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last07.mjo::000661",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last.mjo::004072",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last.mjo::004405",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last.mjo::010117",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last.mjo::002128",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last.mjo::002955",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last.mjo::003206",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last.mjo::003654",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last.mjo::005712",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last.mjo::006817",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last.mjo::006864",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last.mjo::007241",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        },
+        {
+          "id": "sub_last.mjo::009222",
+          "reason": "Estimated >31 cells; review wrapping, do not omit meaning"
+        }
+      ],
+      "checks": "Reuse hash-matching completed checks; owner checked only new or changed batches."
+    }
+  },
+  "accepted_batches": [
+    {
+      "path": "lane-1/batches/last_kako01_u0001-0028.json",
+      "sha256": "a92ed86faeff505e71081e31169a8d6ee99820c79ff288f3b53faa38951bae50",
+      "source_script": "last_kako01.mjo",
+      "source_sha256": "dc131181be3c8f29ad706ade7130695620965a35a47d040a5975f1428ad9c2d3",
+      "accepted_units": 28,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako02_u0001-0124.json",
+      "sha256": "e6eacd92e772dccae4cb2f246685c4a75530fd445dc3e3e71f8be6684bc28426",
+      "source_script": "last_kako02.mjo",
+      "source_sha256": "9750a99b8b2c6d177fbb6097df3e4fc6809a612f7d44fe86e15eb5be04224e15",
+      "accepted_units": 124,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako02_u0125-0273.json",
+      "sha256": "5eae99dd4de4f02bc70779820c952e1102270bbdc5e3b77470b70d05c9afe409",
+      "source_script": "last_kako02.mjo",
+      "source_sha256": "9750a99b8b2c6d177fbb6097df3e4fc6809a612f7d44fe86e15eb5be04224e15",
+      "accepted_units": 149,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako02_u0274-0410.json",
+      "sha256": "6e13e3abe1f620c9ac5962fc053da386305b628d81288794ff298d12a7880887",
+      "source_script": "last_kako02.mjo",
+      "source_sha256": "9750a99b8b2c6d177fbb6097df3e4fc6809a612f7d44fe86e15eb5be04224e15",
+      "accepted_units": 137,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako02_u0411-0507.json",
+      "sha256": "e74a1f3e7b7fe995703a9163daabe662018e8bad81bb73435048f919359629af",
+      "source_script": "last_kako02.mjo",
+      "source_sha256": "9750a99b8b2c6d177fbb6097df3e4fc6809a612f7d44fe86e15eb5be04224e15",
+      "accepted_units": 97,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako03_u0001-0135.json",
+      "sha256": "26a394073dc175439a64bbc2ad7fe6e4bcd7ef9f2f64128162e57bcb3698583b",
+      "source_script": "last_kako03.mjo",
+      "source_sha256": "2f73b6ac9881b7156957465ac0c6b89c7860b6eb0ed8772383f876bc000498b4",
+      "accepted_units": 135,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako03_u0136-0224.json",
+      "sha256": "cf329910d728a47c0c894369a0311cc7fa192745fef887e337f8ff8ee3e97604",
+      "source_script": "last_kako03.mjo",
+      "source_sha256": "2f73b6ac9881b7156957465ac0c6b89c7860b6eb0ed8772383f876bc000498b4",
+      "accepted_units": 89,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako04_u0001-0148.json",
+      "sha256": "27bfca96c5f0691266d61fa3b42ff2853a3c539e92029be1e5e7b2d13911a29e",
+      "source_script": "last_kako04.mjo",
+      "source_sha256": "77c10ba5f917968c8d386c933a5ec2b1a28b7a8c956b7c31926fc5e139dd04f1",
+      "accepted_units": 148,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako04_u0149-0155_deferred.json",
+      "sha256": "af48292605fdfc9c2c9a8ed18137e430d42afa296b2ad02afca93833cfe7dee0",
+      "source_script": "last_kako04.mjo",
+      "source_sha256": "77c10ba5f917968c8d386c933a5ec2b1a28b7a8c956b7c31926fc5e139dd04f1",
+      "accepted_units": 7,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako04_u0156-0284.json",
+      "sha256": "07d37ff778d0e1f375d5113d19251f92fa5fa41e834d366cb2741b2ae36ffd38",
+      "source_script": "last_kako04.mjo",
+      "source_sha256": "77c10ba5f917968c8d386c933a5ec2b1a28b7a8c956b7c31926fc5e139dd04f1",
+      "accepted_units": 129,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako04_u0285-0434.json",
+      "sha256": "a9829336682cce1d4531149ac8d488b7e6503733c47f621362f1f1d804d355d1",
+      "source_script": "last_kako04.mjo",
+      "source_sha256": "77c10ba5f917968c8d386c933a5ec2b1a28b7a8c956b7c31926fc5e139dd04f1",
+      "accepted_units": 150,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako04_u0435-0568.json",
+      "sha256": "7d26815c00326276c2504b7f515c33388fa314ab803f49350ae84483d8b5a55f",
+      "source_script": "last_kako04.mjo",
+      "source_sha256": "77c10ba5f917968c8d386c933a5ec2b1a28b7a8c956b7c31926fc5e139dd04f1",
+      "accepted_units": 134,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako04_u0569-0675.json",
+      "sha256": "3cc3531e8ba9b0039f8064c6a07e5e892fc0d55d20cb6da6989ad9449d2ff721",
+      "source_script": "last_kako04.mjo",
+      "source_sha256": "77c10ba5f917968c8d386c933a5ec2b1a28b7a8c956b7c31926fc5e139dd04f1",
+      "accepted_units": 107,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako04_u0676-0741.json",
+      "sha256": "829e762e79abdf1c4462dcc5fbeadcdea8e04029d931143b4d491833b30e9311",
+      "source_script": "last_kako04.mjo",
+      "source_sha256": "77c10ba5f917968c8d386c933a5ec2b1a28b7a8c956b7c31926fc5e139dd04f1",
+      "accepted_units": 66,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako04_u0742-0807.json",
+      "sha256": "53ee5fbe52d6c51b9ab404c879493d7b20d2971e13e08eac8c63e9104f64dc34",
+      "source_script": "last_kako04.mjo",
+      "source_sha256": "77c10ba5f917968c8d386c933a5ec2b1a28b7a8c956b7c31926fc5e139dd04f1",
+      "accepted_units": 66,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako04_u0808-0880.json",
+      "sha256": "b8159db371b8b32d9fe73ed9db5b1099216e59a843783278895c98b056a30289",
+      "source_script": "last_kako04.mjo",
+      "source_sha256": "77c10ba5f917968c8d386c933a5ec2b1a28b7a8c956b7c31926fc5e139dd04f1",
+      "accepted_units": 73,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako04_u0881-0948.json",
+      "sha256": "0bdb2242e89257f53e7247ac8bcc53f836a59066b53e225419090bd4a3993945",
+      "source_script": "last_kako04.mjo",
+      "source_sha256": "77c10ba5f917968c8d386c933a5ec2b1a28b7a8c956b7c31926fc5e139dd04f1",
+      "accepted_units": 68,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako04_u0949-1015.json",
+      "sha256": "b4ca5c978a933a9942f173ca15a509a819a12d61c8571c52c608815a106f4747",
+      "source_script": "last_kako04.mjo",
+      "source_sha256": "77c10ba5f917968c8d386c933a5ec2b1a28b7a8c956b7c31926fc5e139dd04f1",
+      "accepted_units": 67,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako05_u0001-0065.json",
+      "sha256": "70be335196b46db26496b9cf285455fc026a20de930595399adf358e472eb0e1",
+      "source_script": "last_kako05.mjo",
+      "source_sha256": "6f7241906b8629d520b42c4d90dabfae427d95d5b60a8e7b87b04e80da71ee02",
+      "accepted_units": 65,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako05_u0066-0130.json",
+      "sha256": "756fa35f1ebba795c8250545c8b8030f6521caca1dc2e28b07903d8b074b2dd4",
+      "source_script": "last_kako05.mjo",
+      "source_sha256": "6f7241906b8629d520b42c4d90dabfae427d95d5b60a8e7b87b04e80da71ee02",
+      "accepted_units": 65,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako06_u0001-0070.json",
+      "sha256": "fb4348bf8ef13f2111d8da54936d999f8a3d3a6102675a81b4bc9a431ce591c6",
+      "source_script": "last_kako06.mjo",
+      "source_sha256": "01d5fced91519eb6a4b060260d34140049564cea39c31fe6c3199cb22ae1f72f",
+      "accepted_units": 70,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako06_u0071-0115.json",
+      "sha256": "bd490374166e428132d25c3ed026f98b4514dbed30598818187f4b2e44703e2e",
+      "source_script": "last_kako06.mjo",
+      "source_sha256": "01d5fced91519eb6a4b060260d34140049564cea39c31fe6c3199cb22ae1f72f",
+      "accepted_units": 45,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako06_u0116-0160.json",
+      "sha256": "051aa90e5321c9545a9d24a65200fcd3b968ed2dc93a640b9aae43d0641d7c96",
+      "source_script": "last_kako06.mjo",
+      "source_sha256": "01d5fced91519eb6a4b060260d34140049564cea39c31fe6c3199cb22ae1f72f",
+      "accepted_units": 45,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako06_u0161-0205.json",
+      "sha256": "a9a88eb331478a0fb9ba29ff22d94b9bda6d6443fdf6fcd3b04a19d14f62dbfb",
+      "source_script": "last_kako06.mjo",
+      "source_sha256": "01d5fced91519eb6a4b060260d34140049564cea39c31fe6c3199cb22ae1f72f",
+      "accepted_units": 45,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako06_u0206-0230.json",
+      "sha256": "04e147772099b1ee91cbab809e6b01d1a5c3937705a183bb8b3662aca8c82261",
+      "source_script": "last_kako06.mjo",
+      "source_sha256": "01d5fced91519eb6a4b060260d34140049564cea39c31fe6c3199cb22ae1f72f",
+      "accepted_units": 25,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako06_u0231-0255.json",
+      "sha256": "5a0cabc08112a87dc57a075cb27228d40f09dfe25324716830144c3dcf1ad419",
+      "source_script": "last_kako06.mjo",
+      "source_sha256": "01d5fced91519eb6a4b060260d34140049564cea39c31fe6c3199cb22ae1f72f",
+      "accepted_units": 25,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako06_u0256-0275.json",
+      "sha256": "402f330b15690ecd944e5c6b63b74aa2d774d3e490095ad0c0303f13d54ec904",
+      "source_script": "last_kako06.mjo",
+      "source_sha256": "01d5fced91519eb6a4b060260d34140049564cea39c31fe6c3199cb22ae1f72f",
+      "accepted_units": 20,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako06_u0276-0280.json",
+      "sha256": "f85a08d76d1a28cbe0ea2e6172ceda9f4036ab344c6b3aac1dcafa46d49dcad8",
+      "source_script": "last_kako06.mjo",
+      "source_sha256": "01d5fced91519eb6a4b060260d34140049564cea39c31fe6c3199cb22ae1f72f",
+      "accepted_units": 5,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako06_u0281-0339.json",
+      "sha256": "09f67b520283aaadfc3aeaa0f168e9487f72aae10753c395a1c08aa73452a2bf",
+      "source_script": "last_kako06.mjo",
+      "source_sha256": "01d5fced91519eb6a4b060260d34140049564cea39c31fe6c3199cb22ae1f72f",
+      "accepted_units": 59,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako06_u0340-0462.json",
+      "sha256": "6db0d96571f632e259be9aa46c5c336a5dc506e1fa54a51d6639ac838ee6db95",
+      "source_script": "last_kako06.mjo",
+      "source_sha256": "01d5fced91519eb6a4b060260d34140049564cea39c31fe6c3199cb22ae1f72f",
+      "accepted_units": 123,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako07_u0001-0083.json",
+      "sha256": "9a23bdd6b113c95618f62543eb7442d6670447861bf84662b2f1279d084443b0",
+      "source_script": "last_kako07.mjo",
+      "source_sha256": "88b9e7006e66d4f9552a7d1a518b0dbb50884930ddd0b2828384874fdd81fe17",
+      "accepted_units": 83,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako07_u0084-0223.json",
+      "sha256": "fcd25b5ed55fc4ae076efe1517cbb571d3a917d87c1a0531c06d5b872e61e228",
+      "source_script": "last_kako07.mjo",
+      "source_sha256": "88b9e7006e66d4f9552a7d1a518b0dbb50884930ddd0b2828384874fdd81fe17",
+      "accepted_units": 140,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako07_u0224-0363.json",
+      "sha256": "982d428bbf7177daca12f834f3a744bf050ccb99e7f6d0c3cafe4de36eb83253",
+      "source_script": "last_kako07.mjo",
+      "source_sha256": "88b9e7006e66d4f9552a7d1a518b0dbb50884930ddd0b2828384874fdd81fe17",
+      "accepted_units": 140,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako07_u0364-0444.json",
+      "sha256": "db7d2e11b7ccbb01f2423a7eb899b908231d8893322616881119123b6a6a272f",
+      "source_script": "last_kako07.mjo",
+      "source_sha256": "88b9e7006e66d4f9552a7d1a518b0dbb50884930ddd0b2828384874fdd81fe17",
+      "accepted_units": 81,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako08_u0001-0130.json",
+      "sha256": "986a7dcb34e18f69b252749fe8798380f708cef27eb847778cbec67f15049032",
+      "source_script": "last_kako08.mjo",
+      "source_sha256": "e0c669b954ba93dae4afab58292d2050307f2f42256a6d50f6c39676a7b54250",
+      "accepted_units": 130,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako08_u0131-0270.json",
+      "sha256": "a3a474f68d32fe5ed6a05d082178078d3fe16c72598b1d65282d35b6f23e9c3b",
+      "source_script": "last_kako08.mjo",
+      "source_sha256": "e0c669b954ba93dae4afab58292d2050307f2f42256a6d50f6c39676a7b54250",
+      "accepted_units": 140,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako08_u0271-0359.json",
+      "sha256": "b736887daf99c0c8d9c3c97d5c1d4301a89fba777f591886e5f33f1d114957f0",
+      "source_script": "last_kako08.mjo",
+      "source_sha256": "e0c669b954ba93dae4afab58292d2050307f2f42256a6d50f6c39676a7b54250",
+      "accepted_units": 89,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako08_u0360-0459.json",
+      "sha256": "6dc7bf5a5ad6d53dbff8733cd49d0bc7505da646a1b898f8f4ee00a74d737bf3",
+      "source_script": "last_kako08.mjo",
+      "source_sha256": "e0c669b954ba93dae4afab58292d2050307f2f42256a6d50f6c39676a7b54250",
+      "accepted_units": 100,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako09_u0001-0124.json",
+      "sha256": "49e6bf802b09d2eda514ca4ad1508ac902e4890aa667f280fc97f4668b39b748",
+      "source_script": "last_kako09.mjo",
+      "source_sha256": "2389a259be72c9aff630aff68298d725b1d81bef4b12b8d17397eb227253b89a",
+      "accepted_units": 124,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako09_u0125-0235.json",
+      "sha256": "7570d613e81c52cc779e320a945603e88bc3729f9db95ae40399983c06bf1e2b",
+      "source_script": "last_kako09.mjo",
+      "source_sha256": "2389a259be72c9aff630aff68298d725b1d81bef4b12b8d17397eb227253b89a",
+      "accepted_units": 111,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako10_u0001-0152.json",
+      "sha256": "12785d68d4aea47c080bca3b022a7dee4ec76486780a40a978a2376088c4c5b9",
+      "source_script": "last_kako10.mjo",
+      "source_sha256": "517cf46d79cf45a6f0e2649e90a10b474563f9142dc6a8e2ec6b0f7acc4db50f",
+      "accepted_units": 152,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako11_u0001-0114.json",
+      "sha256": "f07193c729c14c18fb2f49372b77f94d95fea51aee56d2da46954d8a5a8ed3be",
+      "source_script": "last_kako11.mjo",
+      "source_sha256": "a3ee90b2b19660396baab20cf4fcb6b043b46063883a9d8422176a5d776cf081",
+      "accepted_units": 114,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako11_u0115-0250.json",
+      "sha256": "0cfdcd39d080e530ea1503b0fe8b8e109c455b4888e1e1778d2985948ba1970e",
+      "source_script": "last_kako11.mjo",
+      "source_sha256": "a3ee90b2b19660396baab20cf4fcb6b043b46063883a9d8422176a5d776cf081",
+      "accepted_units": 136,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako12_u0001-0121.json",
+      "sha256": "b022f9ecbe2b8549acfec929877ba04b1179c36fb16002aa5b9a3483272ecef4",
+      "source_script": "last_kako12.mjo",
+      "source_sha256": "a3093e064afb783a9806afeb23ecccbc878b817fa93e3b27535c1bc3575d2e75",
+      "accepted_units": 120,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako12_u0122-0245.json",
+      "sha256": "5a104bf252d245495f7ebe5bf30aef9e0fe259340358003aa1c13a10bee93b72",
+      "source_script": "last_kako12.mjo",
+      "source_sha256": "a3093e064afb783a9806afeb23ecccbc878b817fa93e3b27535c1bc3575d2e75",
+      "accepted_units": 124,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-1/batches/last_kako12_u0246-0389.json",
+      "sha256": "81beec2d17d0cd43283101b4cc4e1abbc054f8873b9b05b684a209c99a72c07f",
+      "source_script": "last_kako12.mjo",
+      "source_sha256": "a3093e064afb783a9806afeb23ecccbc878b817fa93e3b27535c1bc3575d2e75",
+      "accepted_units": 144,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_ep_u0001-u0133.json",
+      "sha256": "e17f10384a6eeff0e51748471489c13fc3cb0340820a485305718c934349af8d",
+      "source_script": "last_ep.mjo",
+      "source_sha256": "ce2950fc85b9d67e48cfbe3ad2f3e697522c62e34bc25656fc8dce3c8ef7e620",
+      "accepted_units": 133,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_ep_u0134-u0283.json",
+      "sha256": "3d126ddba548e80faf70a9ae753f0fbce76c823e715974c0a9a5f81088cdecc6",
+      "source_script": "last_ep.mjo",
+      "source_sha256": "ce2950fc85b9d67e48cfbe3ad2f3e697522c62e34bc25656fc8dce3c8ef7e620",
+      "accepted_units": 150,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai01_u0001-u0111.json",
+      "sha256": "6f81c3db0ae52dd4b210547dddffa137ee0722fb2e7cae70c4fed2934eb9ab98",
+      "source_script": "last_gendai01.mjo",
+      "source_sha256": "f1689065cece271e5074f3175c188137913dafef12cf5b3fd642f270e25e6b13",
+      "accepted_units": 111,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai02_u0001-u0144.json",
+      "sha256": "e49aa9991b3f3270f88f96db0d6b764c6915f952605674cf2953431445d4ede4",
+      "source_script": "last_gendai02.mjo",
+      "source_sha256": "be7c458724cf519a1eeead4aaf04bc24ff0bea4426a6abeba3392f19f3e359e1",
+      "accepted_units": 144,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai02_u0145-u0284.json",
+      "sha256": "0f3a1db96e503fad222c8a353e56d787cf6b512dc853a8030c8ee568ed4f011e",
+      "source_script": "last_gendai02.mjo",
+      "source_sha256": "be7c458724cf519a1eeead4aaf04bc24ff0bea4426a6abeba3392f19f3e359e1",
+      "accepted_units": 140,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai02_u0285-u0388.json",
+      "sha256": "d1578ccaed3ae350605c7f729df243301dfd682bdacf8ef9424075ba125c12c1",
+      "source_script": "last_gendai02.mjo",
+      "source_sha256": "be7c458724cf519a1eeead4aaf04bc24ff0bea4426a6abeba3392f19f3e359e1",
+      "accepted_units": 104,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai02_u0389-u0469.json",
+      "sha256": "0c49cf479f0838e76366668b0eb9790cb64bbcb4af4a4678803fba669c34cd33",
+      "source_script": "last_gendai02.mjo",
+      "source_sha256": "be7c458724cf519a1eeead4aaf04bc24ff0bea4426a6abeba3392f19f3e359e1",
+      "accepted_units": 81,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai03_u0001-u0128.json",
+      "sha256": "3283a1a8183d102372a36114cb5db2771e8e7ef8b2e1baaaa43a35126472392c",
+      "source_script": "last_gendai03.mjo",
+      "source_sha256": "56159ed2e2f62d6e0c5bd0a656a78005b8ae70a674d1c7cc8aceb786aea1295d",
+      "accepted_units": 128,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai03_u0129-u0223.json",
+      "sha256": "aaa229a3b093d509d922bfaa1180cd82a659908864ad4b498038015bfe2665af",
+      "source_script": "last_gendai03.mjo",
+      "source_sha256": "56159ed2e2f62d6e0c5bd0a656a78005b8ae70a674d1c7cc8aceb786aea1295d",
+      "accepted_units": 95,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai03_u0224-u0300.json",
+      "sha256": "bcd6f0a4775296a41acd991e6c2485b72b4c6a9912685b79a200d86932fce9d1",
+      "source_script": "last_gendai03.mjo",
+      "source_sha256": "56159ed2e2f62d6e0c5bd0a656a78005b8ae70a674d1c7cc8aceb786aea1295d",
+      "accepted_units": 77,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai04_u0001-u0097.json",
+      "sha256": "db297249a99090c12ec28e08e6ef8fb18e41794a70ded4e1fd4a37744915afef",
+      "source_script": "last_gendai04.mjo",
+      "source_sha256": "3d7886d44124c30bfcdfc6e7c4a4d81221759a6a947b5803dcfefef5f94501c9",
+      "accepted_units": 97,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai04_u0098-u0186.json",
+      "sha256": "19a353e214c1a05813f39657f4b2f03e857b7c95e7142161b0f8871930767113",
+      "source_script": "last_gendai04.mjo",
+      "source_sha256": "3d7886d44124c30bfcdfc6e7c4a4d81221759a6a947b5803dcfefef5f94501c9",
+      "accepted_units": 89,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai05_u0001-u0128.json",
+      "sha256": "05dc2be7fddd63155fe8b6a70c51e044953c263d31ffade264c1fe00345da996",
+      "source_script": "last_gendai05.mjo",
+      "source_sha256": "9e5f8bfd3a885fdb298039123c95c604a19bc669315986a1a52ac5517704b34d",
+      "accepted_units": 128,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai05_u0129-u0225.json",
+      "sha256": "06ac5742ae78f4d8e4517a0c0667cd19ca2b1b579e964675c0112e26c01cbb38",
+      "source_script": "last_gendai05.mjo",
+      "source_sha256": "9e5f8bfd3a885fdb298039123c95c604a19bc669315986a1a52ac5517704b34d",
+      "accepted_units": 96,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai06_u0001-u0060.json",
+      "sha256": "4a26d7172229b187702acb849d69b5bbc5723c6934dc42f62d0cf78b4d39422c",
+      "source_script": "last_gendai06.mjo",
+      "source_sha256": "cf68a88b6af0e3402f632479ac2d0978ffab3e2a480422fc05fcd8e07626d814",
+      "accepted_units": 60,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai07_u0001-u0060.json",
+      "sha256": "b4e4ae715e77678ef901bb8b0bb7665ca49c4584f56b0333028e4d7ab2040020",
+      "source_script": "last_gendai07.mjo",
+      "source_sha256": "f07bde5cc19e0ddc0f99a38b76f5f58b28e09f307d64ed162c265de6e14b1d77",
+      "accepted_units": 60,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai07_u0061-u0096.json",
+      "sha256": "e782129e16c98ff5757923cd71ba89d25d7c0440b3ba3a95cb13ce11841eb477",
+      "source_script": "last_gendai07.mjo",
+      "source_sha256": "f07bde5cc19e0ddc0f99a38b76f5f58b28e09f307d64ed162c265de6e14b1d77",
+      "accepted_units": 36,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai08_u0001-u0052.json",
+      "sha256": "e47c8618b734563d9571c80c1c4adc7fa156e33d6d06919e17954febc06895fd",
+      "source_script": "last_gendai08.mjo",
+      "source_sha256": "ba3a24324be6e4ab3866057171369028a6f383d6ef108fa271596d8aa7c5e5af",
+      "accepted_units": 52,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai08_u0053-u0107.json",
+      "sha256": "e893e8dbc2cdf3936d5fbe2e2831b5a0bde74a701d9cb073dec385cd7b26abfb",
+      "source_script": "last_gendai08.mjo",
+      "source_sha256": "ba3a24324be6e4ab3866057171369028a6f383d6ef108fa271596d8aa7c5e5af",
+      "accepted_units": 55,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai09_u0001-u0058.json",
+      "sha256": "e2894139eb32332d427fbf355f7b7ccbc738c0cfc3e1487ade142bf39d6ab796",
+      "source_script": "last_gendai09.mjo",
+      "source_sha256": "71f0adb442322c7c73e9e5681ab25a8e0e3d91c573898a1c54fd7183a815f031",
+      "accepted_units": 58,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai09_u0059-u0110.json",
+      "sha256": "478c0d2b1702aa45446af1a1da48b1b658c8c62cbffa9562ca181be271bd9511",
+      "source_script": "last_gendai09.mjo",
+      "source_sha256": "71f0adb442322c7c73e9e5681ab25a8e0e3d91c573898a1c54fd7183a815f031",
+      "accepted_units": 52,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai09_u0111-u0157.json",
+      "sha256": "61d282d3aabdf696ef00954643f69c881c80cbde1a07a196a9b7136f3f3b9148",
+      "source_script": "last_gendai09.mjo",
+      "source_sha256": "71f0adb442322c7c73e9e5681ab25a8e0e3d91c573898a1c54fd7183a815f031",
+      "accepted_units": 47,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai09_u0158-u0194.json",
+      "sha256": "9ffc019c94fd31f9367425dc8927c33c5f23c77fdc9e133a2851603d1f3c5bfa",
+      "source_script": "last_gendai09.mjo",
+      "source_sha256": "71f0adb442322c7c73e9e5681ab25a8e0e3d91c573898a1c54fd7183a815f031",
+      "accepted_units": 37,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai09_u0195-u0240.json",
+      "sha256": "edca7da3a5769f6955a45af9ba9459327c8d9fae2a33f1d1e0cb6f0f3074179d",
+      "source_script": "last_gendai09.mjo",
+      "source_sha256": "71f0adb442322c7c73e9e5681ab25a8e0e3d91c573898a1c54fd7183a815f031",
+      "accepted_units": 46,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai09_u0241-u0287.json",
+      "sha256": "d6b436bd0bd6b553a44b1a7e73a25aa3757b251799ea670d494c29af21896981",
+      "source_script": "last_gendai09.mjo",
+      "source_sha256": "71f0adb442322c7c73e9e5681ab25a8e0e3d91c573898a1c54fd7183a815f031",
+      "accepted_units": 47,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai10_u0001-u0025.json",
+      "sha256": "823369a839b33adc545a193c4a3f0b6a8e32c1e65300348ea01e6c9a4c03aeb0",
+      "source_script": "last_gendai10.mjo",
+      "source_sha256": "51b3da32fa61301ae5fa4567b809cba38442934a7d0aaa85297008c006f90a4d",
+      "accepted_units": 25,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai10_u0026-u0046.json",
+      "sha256": "2ea827e12aa227a673be7cb3a5641458527e1c3710357d75fb49aba6e03d444f",
+      "source_script": "last_gendai10.mjo",
+      "source_sha256": "51b3da32fa61301ae5fa4567b809cba38442934a7d0aaa85297008c006f90a4d",
+      "accepted_units": 21,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai10_u0047-u0064.json",
+      "sha256": "d7a8de474b66a53f34ca5fb88931f8806466683e853d1a13783febbca09c5d5f",
+      "source_script": "last_gendai10.mjo",
+      "source_sha256": "51b3da32fa61301ae5fa4567b809cba38442934a7d0aaa85297008c006f90a4d",
+      "accepted_units": 18,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai10_u0065-u0074.json",
+      "sha256": "86db7adab9a79a86de445920bbe5bcf77e9bc4c5370d554581ce1469d3d8adb9",
+      "source_script": "last_gendai10.mjo",
+      "source_sha256": "51b3da32fa61301ae5fa4567b809cba38442934a7d0aaa85297008c006f90a4d",
+      "accepted_units": 10,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai10_u0075-u0191.json",
+      "sha256": "45defed79a93cf8534508fb0ae56b560bca8658cb407dad54e8e986540082849",
+      "source_script": "last_gendai10.mjo",
+      "source_sha256": "51b3da32fa61301ae5fa4567b809cba38442934a7d0aaa85297008c006f90a4d",
+      "accepted_units": 117,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai10_u0192-u0301.json",
+      "sha256": "b21a89a47b2363429bb007f2c4d5dccfe4268e14cf12ddae464dcaf46e90f1a5",
+      "source_script": "last_gendai10.mjo",
+      "source_sha256": "51b3da32fa61301ae5fa4567b809cba38442934a7d0aaa85297008c006f90a4d",
+      "accepted_units": 110,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai10_u0302-u0393.json",
+      "sha256": "297cb073eb9663bad93ce314cfe27f046373b1102004b3300cbb9f34014df5f3",
+      "source_script": "last_gendai10.mjo",
+      "source_sha256": "51b3da32fa61301ae5fa4567b809cba38442934a7d0aaa85297008c006f90a4d",
+      "accepted_units": 92,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai11_u0001-u0100.json",
+      "sha256": "70a92ed4902860dca56903b299b46c9d58861bb0eff6b56adf821ccb3a606460",
+      "source_script": "last_gendai11.mjo",
+      "source_sha256": "f5f351bf920597b5654cf63abbce784e599d5c55a9696fab5edeec85b376e5cc",
+      "accepted_units": 100,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai11_u0101-u0159.json",
+      "sha256": "fdba967f33c25e65fdb5ccd75908d6bee515b154e27af239f12def27df3cf40c",
+      "source_script": "last_gendai11.mjo",
+      "source_sha256": "f5f351bf920597b5654cf63abbce784e599d5c55a9696fab5edeec85b376e5cc",
+      "accepted_units": 59,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai12_u0001-u0123.json",
+      "sha256": "6ba1ff77cd38b76fc05941427846da2ff3ff5d4f7603f1e115d7f5799dec789f",
+      "source_script": "last_gendai12.mjo",
+      "source_sha256": "dca175b4102b459424bcdef5a407e5136ccaf3f946bfc990be616958176f1134",
+      "accepted_units": 123,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai12_u0124-u0230.json",
+      "sha256": "7e0ae6ca62ed3a5312d04e26dd6b35607928c7125627920baf1f4321420ea27e",
+      "source_script": "last_gendai12.mjo",
+      "source_sha256": "dca175b4102b459424bcdef5a407e5136ccaf3f946bfc990be616958176f1134",
+      "accepted_units": 107,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai13_u0001-u0134.json",
+      "sha256": "e5ef4ef64d44ca7c72ff9572d084b831598a5497b42903e99e45cf9af070253e",
+      "source_script": "last_gendai13.mjo",
+      "source_sha256": "184da648bfb038230d6a67dbb84d3b53c7bc88bd7dd32d138e61b4e0bf1b0743",
+      "accepted_units": 134,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai14_u0001-u0109.json",
+      "sha256": "998c728455307056c78fc07e2ed5132f87a8ba758e198701f3f7bcb80a1adfbd",
+      "source_script": "last_gendai14.mjo",
+      "source_sha256": "696e5103b6f60533460d90137792aba9077e5dbda2d778ca83b7f9a423c28443",
+      "accepted_units": 109,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai14_u0110-u0210.json",
+      "sha256": "9ba5dd1df6b98e4f0464762d1c18a4f07c90145a058fafabf027fec56e0e041c",
+      "source_script": "last_gendai14.mjo",
+      "source_sha256": "696e5103b6f60533460d90137792aba9077e5dbda2d778ca83b7f9a423c28443",
+      "accepted_units": 101,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai15_u0001-u0111.json",
+      "sha256": "a81c88c485930353784f74cc54da3b8cf6448c59463ae2acf9e1367263bb0aec",
+      "source_script": "last_gendai15.mjo",
+      "source_sha256": "f298f77661186d6ade97a97b1a589b5167df46b1d95328486cafdab1baa71f7d",
+      "accepted_units": 111,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai15_u0112-u0211.json",
+      "sha256": "4526d1de3c3e43d0a2dd1d53a861675372b6507bcbf4e0e9a28a6e9f0195dac4",
+      "source_script": "last_gendai15.mjo",
+      "source_sha256": "f298f77661186d6ade97a97b1a589b5167df46b1d95328486cafdab1baa71f7d",
+      "accepted_units": 100,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai15_u0212-u0311.json",
+      "sha256": "25c57d18d12e69bc6f560f3e9b0e62bc6fa7f5e82a091f4bef52952ccedcdde5",
+      "source_script": "last_gendai15.mjo",
+      "source_sha256": "f298f77661186d6ade97a97b1a589b5167df46b1d95328486cafdab1baa71f7d",
+      "accepted_units": 100,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai15_u0312-u0411.json",
+      "sha256": "aaaf3043a03b13d63f875b0248cf367a1e533729006a361124637368afc88fa6",
+      "source_script": "last_gendai15.mjo",
+      "source_sha256": "f298f77661186d6ade97a97b1a589b5167df46b1d95328486cafdab1baa71f7d",
+      "accepted_units": 100,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai16_u0001-u0142.json",
+      "sha256": "b4785dd982f8aaecdf17bf304a158bc73151e41241063b2ae2c3cbe70a1cdc54",
+      "source_script": "last_gendai16.mjo",
+      "source_sha256": "ece7503450654732c1ddfb51dc21ac8ced466368aa12d952d62bc269062f4823",
+      "accepted_units": 142,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai16_u0143-u0288.json",
+      "sha256": "7d8bac722b65de63e0c4d7f568ba1d76d0574d5cfeaf5e85d47a57a6883d29f1",
+      "source_script": "last_gendai16.mjo",
+      "source_sha256": "ece7503450654732c1ddfb51dc21ac8ced466368aa12d952d62bc269062f4823",
+      "accepted_units": 146,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai16_u0289-u0437.json",
+      "sha256": "0753138c494d3cd4d18566b086be6e79018c0527f4391d31e7e6ce47d29cae19",
+      "source_script": "last_gendai16.mjo",
+      "source_sha256": "ece7503450654732c1ddfb51dc21ac8ced466368aa12d952d62bc269062f4823",
+      "accepted_units": 149,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai16_u0438-u0558.json",
+      "sha256": "25c379cb4fdc116b37fe631f563b10c80c38b39c14ed8e4a6c964c049397f57a",
+      "source_script": "last_gendai16.mjo",
+      "source_sha256": "ece7503450654732c1ddfb51dc21ac8ced466368aa12d952d62bc269062f4823",
+      "accepted_units": 121,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai16_u0559-u0687.json",
+      "sha256": "3ca2263b8f635b7c000f84f1dcdf87680b72333e2a93688015a485ca08f44291",
+      "source_script": "last_gendai16.mjo",
+      "source_sha256": "ece7503450654732c1ddfb51dc21ac8ced466368aa12d952d62bc269062f4823",
+      "accepted_units": 129,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai16_u0688-u0827.json",
+      "sha256": "93dac235246f9337deb05db7498b4778ef7df6dfb8853ddc4cf4c091588d46a7",
+      "source_script": "last_gendai16.mjo",
+      "source_sha256": "ece7503450654732c1ddfb51dc21ac8ced466368aa12d952d62bc269062f4823",
+      "accepted_units": 140,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai16_u0828-u0968.json",
+      "sha256": "dc40e66202b5482bdba6185a0f74bd7ff72f15b264b6610c75e6acedfd1dc912",
+      "source_script": "last_gendai16.mjo",
+      "source_sha256": "ece7503450654732c1ddfb51dc21ac8ced466368aa12d952d62bc269062f4823",
+      "accepted_units": 141,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-2/batches/last_gendai16_u0969-u1069.json",
+      "sha256": "81e5a6677a7d4d37b5df21a445febb6dfbad1fb1c744df8463e2afc54ad19533",
+      "source_script": "last_gendai16.mjo",
+      "source_sha256": "ece7503450654732c1ddfb51dc21ac8ced466368aa12d952d62bc269062f4823",
+      "accepted_units": 101,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/1test_u0001.json",
+      "sha256": "634800fe30fad343e6a8fb58aeda1d82180dd2ada5dd2c21fad76d5080289cd6",
+      "source_script": "1test.mjo",
+      "source_sha256": "54a5bb927a11f686d50ee9ac17d4deff74cd6b8ce1372c770dad4e1c720aeec7",
+      "accepted_units": 1,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/ankoromochi_staff_reuse_u0001-u0060.json",
+      "sha256": "49151bd682ce6b773a377237a04e5e4772555ab4ee9a66e2978187becfe81851",
+      "source_script": "あんころもちスタッフルーム.mjo",
+      "source_sha256": "9af482bea84455b689ec77553eb41dbeddd93461b10e7fc48aef36ef07a8c76b",
+      "accepted_units": 60,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/ankoromochi_staff_reuse_u0061-u0093.json",
+      "sha256": "571dcfd7e628cbd28d1dfb56291b9ebd9ff7085ff3c7d11745e5962879c06a6e",
+      "source_script": "あんころもちスタッフルーム.mjo",
+      "source_sha256": "9af482bea84455b689ec77553eb41dbeddd93461b10e7fc48aef36ef07a8c76b",
+      "accepted_units": 33,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/arimoto_u0001-u0010.json",
+      "sha256": "388531e08fb5fe58fa304139696ae46513a47b691be73aac22b937b973fccad4",
+      "source_script": "ありもと.mjo",
+      "source_sha256": "4506a279d74c0a55a7f4058f6b349d11853d8afc81704a5f25ee3b2d64776145",
+      "accepted_units": 10,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/kio_nachi_u0001-u0026.json",
+      "sha256": "18be6a27c8457fb0becfd71225dcbcbeec1f03532886c8c1004e1f6c5856f181",
+      "source_script": "きおなち.mjo",
+      "source_sha256": "44b49b216b4b28deb5044d6212b81e64d5aaabb6af7984fd124b0027202b9fc5",
+      "accepted_units": 26,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/kosihata_u0001-u0024_u0026-u0030.json",
+      "sha256": "cec82059ca189da2b3328aa2be5da14da0854a33a9c1e15a5502f5079c65c4d4",
+      "source_script": "kosihata.mjo",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "accepted_units": 29,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/kyarumi_u0001-u0006.json",
+      "sha256": "363f4a1e4b0ca5bd8209ba766004b3ac8d6f359558be105e8f1996c0f63a0583",
+      "source_script": "きゃるみぃ.mjo",
+      "source_sha256": "686414e5165e80f47fb31356b65c7c86acd4052e358e0dab89135537052d82c8",
+      "accepted_units": 6,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sakakki_u0001-u0023.json",
+      "sha256": "8b644ae86f19607a6490978135a27b4318ceae5cf91d40c3403b225c3c9edc05",
+      "source_script": "さかっきー.mjo",
+      "source_sha256": "9f9f0690ecdc9e185d4c03420ced066e8cd3d15461d85c7eb4897e7e8f2e790e",
+      "accepted_units": 23,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sina19_copy_u0001-u0100.json",
+      "sha256": "b23c83640fd31c2f47fd14417d2dc5262d975074be48db67f28e7b874cdb263f",
+      "source_script": "コピー (2) ～ sina_19_2.mjo",
+      "source_sha256": "70ed08f4e93cc70aad235aa936b8ae5cbfa676b28bbb99d93dec3529a590cdd2",
+      "accepted_units": 100,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sina19_copy_u0101-u0163.json",
+      "sha256": "533aac3485a085e45af20439bd37b1b9bab6a5320074de32ebcfc30f010ae201",
+      "source_script": "コピー (2) ～ sina_19_2.mjo",
+      "source_sha256": "70ed08f4e93cc70aad235aa936b8ae5cbfa676b28bbb99d93dec3529a590cdd2",
+      "accepted_units": 63,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sina19_development_u0001-u0120.json",
+      "sha256": "dea990a8baae3e2460b7ebd999a0ee51088e1b17240c96ce3610ea87f657325e",
+      "source_script": "sina_19_2　ここでテキスト作業します.mjo",
+      "source_sha256": "49bb5d857958b2ad85b1d6befea15f2867adba0229010eacaf9da64597926d92",
+      "accepted_units": 120,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sina19_development_u0121-u0183.json",
+      "sha256": "0f76c247d827eb0595cc08dc0456a2015281c3c183baefc48f8af69f97cc871d",
+      "source_script": "sina_19_2　ここでテキスト作業します.mjo",
+      "source_sha256": "49bb5d857958b2ad85b1d6befea15f2867adba0229010eacaf9da64597926d92",
+      "accepted_units": 63,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st__oo_u0001-u0009.json",
+      "sha256": "d895ccd5622dc06f8b06dbcfc13e8d4544c0545f3c241b303ec4b6b1d799b14d",
+      "source_script": "st__oo.mjo",
+      "source_sha256": "93d8a16d7b71db088b7d3043f200181b0d700c8388f94c526ce007cb52200b7c",
+      "accepted_units": 9,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st__sei_u0001-u0014.json",
+      "sha256": "248cd4520a652be0200affc8d5b2eda9bfe3acc35332bb51e5872cccbfe68439",
+      "source_script": "st__sei.mjo",
+      "source_sha256": "a95b412ee0f0b9c2ebce7ceed3a66a2f0563b5fa21d0a9ec717ec9e8feac8e84",
+      "accepted_units": 14,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_anko_u0001-u0060.json",
+      "sha256": "25c1fb852188a974004836bef648fb0cacad1533d0c40a8c336915b085a31022",
+      "source_script": "st_anko.mjo",
+      "source_sha256": "1088bf68b7e5087a68d680856cf7139f6b309597e5e200a78fd3124d13708a9d",
+      "accepted_units": 60,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_anko_u0061-u0094.json",
+      "sha256": "fe1cd1990696f7f205a7eacce6e3cdf0ae59fee819295d4c6a82ec4a86a3b534",
+      "source_script": "st_anko.mjo",
+      "source_sha256": "1088bf68b7e5087a68d680856cf7139f6b309597e5e200a78fd3124d13708a9d",
+      "accepted_units": 34,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_gin_u0001-u0060.json",
+      "sha256": "0f57f41c80b955dc9d03f665550c4bf671f8a0dbe310fd8332ac8b9256b8c984",
+      "source_script": "st_gin.mjo",
+      "source_sha256": "661ed8d29de0ff7875c0c3da59e13e2aa4175ec6d524c063a0f386d062d64dd3",
+      "accepted_units": 60,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_gin_u0061-u0110.json",
+      "sha256": "a55c8684ccfd47fb518a49bc012f1b8f825c2318b9114009b976d60e305ba296",
+      "source_script": "st_gin.mjo",
+      "source_sha256": "661ed8d29de0ff7875c0c3da59e13e2aa4175ec6d524c063a0f386d062d64dd3",
+      "accepted_units": 49,
+      "accept_all_records": false,
+      "excluded_unit_ids": [
+        "st_gin.mjo::u0068"
+      ],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_kasa_u0001-u0025.json",
+      "sha256": "0d93a152ce03a55163082f7c8b1b4723336c8f2799bda202919b0ed25898b4a5",
+      "source_script": "st_kasa.mjo",
+      "source_sha256": "1348198a1103ac6f7870663ffbe6d0cfa4a7c907dc9c474564823da7dc993069",
+      "accepted_units": 25,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_kio_u0001-u0021.json",
+      "sha256": "0e55a75d4c3ea1d0a1c942ec6b36288299c08ce33d7cc1efe35a78b1b0e679de",
+      "source_script": "st_kio.mjo",
+      "source_sha256": "31e39f95300b9bcaab553ade84ccdefb8a1b0015e695f9888a0afb7d4a5a5c1d",
+      "accepted_units": 21,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_kosi_u0001-u0007.json",
+      "sha256": "58813effa59d2ecb01620eb4af5ede6757ab3a552c51b7d57c96667b1d228047",
+      "source_script": "st_kosi.mjo",
+      "source_sha256": "f927ac53079355e00939564f3a14903eaf1b26c39cc9635cdd17395ac19cd7cf",
+      "accepted_units": 7,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_miyo_u0001-u0013.json",
+      "sha256": "ee8ebbe4a8a1e482363ccf90d78d4d040f0a04e2746258a96e2ebc87448ea25e",
+      "source_script": "st_miyo.mjo",
+      "source_sha256": "0160ce13ca073694ba915bfcdd2a45386b1372728480ea025b8de02cd260fac6",
+      "accepted_units": 13,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_moe_u0001-u0006.json",
+      "sha256": "0a59da8a091eafb1cfcfab9c9d75e5a6eb437602accc94b46f7954b59564f4f5",
+      "source_script": "st_moe.mjo",
+      "source_sha256": "686414e5165e80f47fb31356b65c7c86acd4052e358e0dab89135537052d82c8",
+      "accepted_units": 6,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_pika_u0001-u0009_u0011-u0014.json",
+      "sha256": "62aca3a409e307db44f4b21998444fcc7baeb71bc61a6a28a6068d9cf32a6f2f",
+      "source_script": "st_pika.mjo",
+      "source_sha256": "7271c0d5eb542c8ebaf3c58c4a55bafa687cb6dd375a904e3433a38da39d5fa9",
+      "accepted_units": 13,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_rame_u0001-u0029.json",
+      "sha256": "9ef9e68b63acc90a3fe48fc6de06151e295295dbb5026a075eb17bd78f80bd77",
+      "source_script": "st_rame.mjo",
+      "source_sha256": "6c6a1f145279b7240200f732d60538bc66cd8e165b00e4ae0ba5887f6ab71f47",
+      "accepted_units": 29,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_sasa_u0001-u0010.json",
+      "sha256": "066696d52163bab76a4f8d2e7ad067728684a98a103c9ed44390863e749920e1",
+      "source_script": "st_sasa.mjo",
+      "source_sha256": "0d9f665aaed8f32dcd9eebf2b73c95b02c80025d2f3b108422703fd2816fc94f",
+      "accepted_units": 10,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_sin_u0001-u0010.json",
+      "sha256": "93fdce2465ea5ed2717336ee874744906964acb6abb73bfa5d62ddf7a2935c53",
+      "source_script": "st_sin.mjo",
+      "source_sha256": "4506a279d74c0a55a7f4058f6b349d11853d8afc81704a5f25ee3b2d64776145",
+      "accepted_units": 10,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_tomo_u0001-u0017.json",
+      "sha256": "7887aab187311f1262ec7420a1a15a6bc781709a82b3cc0ee4ba9d5dffe08625",
+      "source_script": "st_tomo.mjo",
+      "source_sha256": "46322753523279790dde6286aa870e5421f5efbfb599a3849962359522c200c6",
+      "accepted_units": 17,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_tuka_u0001-u0009.json",
+      "sha256": "fd81757cf0a066e57e826382ba53d85034791b9ec60d323434ac1d7910a69a26",
+      "source_script": "st_tuka.mjo",
+      "source_sha256": "6d298d63da66910e532cae5dbe140bf0ebb99e3daba4ca79ce85dc96673c1f20",
+      "accepted_units": 9,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_una_u0001-u0027.json",
+      "sha256": "76bbb703a31b1c1a9ea267f4831d55d7e092df4d11ee861715feb2bc0cc5f2be",
+      "source_script": "st_una.mjo",
+      "source_sha256": "6b3f322cd27a5d931de11e262c8dfbfc930ea38aeaaaae32d3a4a7df7ebd3b49",
+      "accepted_units": 27,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/st_yana_u0001-u0020_u0023-u0027.json",
+      "sha256": "e9dc21c9775f805f83f8024d2c9cb9d4bb610d3d7f6782f96dcab9870cdcce23",
+      "source_script": "st_yana.mjo",
+      "source_sha256": "98d095c25e061f6c86b90c63710b7b2e41604ffdc3ca6ffb63fe85b508ac598d",
+      "accepted_units": 25,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last00_u0001-u0028.json",
+      "sha256": "7dccd2ddf9509fd9c0195362f43117af646810272ff046d5adecfe579897f9b3",
+      "source_script": "sub_last00.mjo",
+      "source_sha256": "33416fe6658f6ba90aff4c5b667c7854fb2cc11afb46dc3f1ad4df917e2d4870",
+      "accepted_units": 28,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last01_u0001-u0106.json",
+      "sha256": "83c7f7094b7d5cba118a993d6f7513460e4323ab7cfff720433459ead5f80347",
+      "source_script": "sub_last01.mjo",
+      "source_sha256": "10126467f464a461838cf7a073b5eaa0a09e68a38c959b10afd5571f164b8104",
+      "accepted_units": 106,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last02_u0001-u0049.json",
+      "sha256": "e3bd8adc83dc5897b8396e3bd5ec583efa313c86cf67f9d0bb77ba96b16923d6",
+      "source_script": "sub_last02.mjo",
+      "source_sha256": "1bb197ebf0a2617dd1760461ba1b6a5e7a4f2fe1f0b88e6f69850ebe97b99dc5",
+      "accepted_units": 49,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last03_u0001-u0120.json",
+      "sha256": "930bd00b3928ba03417293a23783fbe8a90af0e67941662b9b09fc567142e818",
+      "source_script": "sub_last03.mjo",
+      "source_sha256": "887f60dc1118ef0562934760136121beff1bb03f0f923b93fc27838c89983961",
+      "accepted_units": 120,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last03_u0121-u0206.json",
+      "sha256": "7c6f7f815c0b995f9316a9158db81a21370ef43cc05ca5248fbfae48fcd1edd5",
+      "source_script": "sub_last03.mjo",
+      "source_sha256": "887f60dc1118ef0562934760136121beff1bb03f0f923b93fc27838c89983961",
+      "accepted_units": 86,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last04_u0001-u0033.json",
+      "sha256": "97f63867970ea8888bc413cda08eedb08ce8a1ccf2c5f2b43cee822772bdf382",
+      "source_script": "sub_last04.mjo",
+      "source_sha256": "53561de159576fb5fbd860ca7880c7225b9ec4b0917f5f54d85356c953ffd300",
+      "accepted_units": 33,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last05_u0001-u0085.json",
+      "sha256": "daf790a66ace911e2a9eaeec7ba7c33777c809ef5737d4735bb5e4b1cfc932cd",
+      "source_script": "sub_last05.mjo",
+      "source_sha256": "8908626d7c6aba8886c350f7ec32f49fbc3c324c04b0e3199375c8a482e05e53",
+      "accepted_units": 85,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last06_safe_u0001-u0031_u0033-u0044_u0108-u0161.json",
+      "sha256": "5ec46048aa7a02e5559aa898199a1a6f08cee09099d39eb315a36bfa61385cb2",
+      "source_script": "sub_last06.mjo",
+      "source_sha256": "671264c5bd961d171cc7ea9af359b410a83629bae45567aede8147988411aa98",
+      "accepted_units": 161,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last07_u0001-u0044.json",
+      "sha256": "7218ef65ed655ea843c265b36903daa4a2113ac63f2d1471915dfa13729c3887",
+      "source_script": "sub_last07.mjo",
+      "source_sha256": "a3c7ab45a7985d836d4c0c2eea5c203fff731ed6bf451e128258ce0c04b8966b",
+      "accepted_units": 44,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last08_u0001-u0037.json",
+      "sha256": "1f219f8aa1c19b3daecd94a09fd05ea7307d8c81534732dd85f75793f2ea01e2",
+      "source_script": "sub_last08.mjo",
+      "source_sha256": "89bc1880b329c9d232f47497fb9d4ca44e28092c990219e47b83abc76aecb5ad",
+      "accepted_units": 37,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last_new_u0362-u0455.json",
+      "sha256": "9bbfcaa412c653f1662078dad8653f5e93d81148a2cd1b23bd72b7f3312df7a4",
+      "source_script": "sub_last.mjo",
+      "source_sha256": "4c5ac1dab8966e4e3c2200b610a1ea3863ac8faf472773dcbd1369fe7f0ef387",
+      "accepted_units": 94,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last_new_u0735-u0752_u0796-u0841.json",
+      "sha256": "c2eb874dde284b61d8224c9f89a13b78a4ea35fab7e689452ab04a4972de6bf2",
+      "source_script": "sub_last.mjo",
+      "source_sha256": "4c5ac1dab8966e4e3c2200b610a1ea3863ac8faf472773dcbd1369fe7f0ef387",
+      "accepted_units": 64,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last_reuse_part01_01.json",
+      "sha256": "7e17e50f20275ab4ea40627c6f25620bd593de5105c8e62051dff7776603d7c2",
+      "source_script": "sub_last.mjo",
+      "source_sha256": "4c5ac1dab8966e4e3c2200b610a1ea3863ac8faf472773dcbd1369fe7f0ef387",
+      "accepted_units": 106,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last_reuse_part02_01.json",
+      "sha256": "5779c67e476c5f6f9628a75635da25b13720217fa8ab5fe235668529e3ea527b",
+      "source_script": "sub_last.mjo",
+      "source_sha256": "4c5ac1dab8966e4e3c2200b610a1ea3863ac8faf472773dcbd1369fe7f0ef387",
+      "accepted_units": 49,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last_reuse_part03_01.json",
+      "sha256": "c0276b32d51ebf3fc95dfeef3af8802cc54a156e17d5c4470a057999336b0b96",
+      "source_script": "sub_last.mjo",
+      "source_sha256": "4c5ac1dab8966e4e3c2200b610a1ea3863ac8faf472773dcbd1369fe7f0ef387",
+      "accepted_units": 120,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last_reuse_part03_02.json",
+      "sha256": "3296706b0bdb83b69970f1fd0f2bdc2e8f42ae0954dd814727b260858cb09d19",
+      "source_script": "sub_last.mjo",
+      "source_sha256": "4c5ac1dab8966e4e3c2200b610a1ea3863ac8faf472773dcbd1369fe7f0ef387",
+      "accepted_units": 86,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last_reuse_part04_01.json",
+      "sha256": "8729aa3c51cbdd85b7f58a1b371f08c5ab69e334f3f8de80d2882d65244053e6",
+      "source_script": "sub_last.mjo",
+      "source_sha256": "4c5ac1dab8966e4e3c2200b610a1ea3863ac8faf472773dcbd1369fe7f0ef387",
+      "accepted_units": 33,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last_reuse_part05_01.json",
+      "sha256": "4c3ce01aaba5f9f9b9c08438a4387307c2020de7b5e25f250840f8bc60d11ad5",
+      "source_script": "sub_last.mjo",
+      "source_sha256": "4c5ac1dab8966e4e3c2200b610a1ea3863ac8faf472773dcbd1369fe7f0ef387",
+      "accepted_units": 85,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last_reuse_part06_01.json",
+      "sha256": "92b3aa474f522f1c145c932b0a2d309137149655231e04cf00a4486a1c6fc5a1",
+      "source_script": "sub_last.mjo",
+      "source_sha256": "4c5ac1dab8966e4e3c2200b610a1ea3863ac8faf472773dcbd1369fe7f0ef387",
+      "accepted_units": 161,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last_reuse_part07_01.json",
+      "sha256": "889b3d9675d3f960aca6b201e4ffaadc1fa8c52e6624f964091eccbb93a64816",
+      "source_script": "sub_last.mjo",
+      "source_sha256": "4c5ac1dab8966e4e3c2200b610a1ea3863ac8faf472773dcbd1369fe7f0ef387",
+      "accepted_units": 43,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/sub_last_reuse_part08_01.json",
+      "sha256": "463acade6e623c23ee8af64a3edef310f9178c19291df7c903d1d5df8a46c3ed",
+      "source_script": "sub_last.mjo",
+      "source_sha256": "4c5ac1dab8966e4e3c2200b610a1ea3863ac8faf472773dcbd1369fe7f0ef387",
+      "accepted_units": 36,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/test_development_u0001-u0098.json",
+      "sha256": "e3a8cbce6be6614b6b45eeb4285040484c501aee55a13b7f6c4f8d9e59b37329",
+      "source_script": "テスト用.mjo",
+      "source_sha256": "c7a32fa8239b56d3b493c2e7b9bacd97dd65c5ba9a772bc631730a3c765124b7",
+      "accepted_units": 98,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    },
+    {
+      "path": "lane-3/batches/test_u0001-u0002.json",
+      "sha256": "78aeeb876db4ace8e47ac57db2104d29b71e1e6dae214796af40a92e089b7b64",
+      "source_script": "test.mjo",
+      "source_sha256": "8319e4fd1cb9c99a172ceecd2c091c059d37baeef07dea008d65cb357c665f62",
+      "accepted_units": 2,
+      "accept_all_records": true,
+      "excluded_unit_ids": [],
+      "runtime_verified": false
+    }
+  ],
+  "deferred_units": [
+    {
+      "unit": "last_kako12.mjo::u0115",
+      "path": "lane-1/batches/last_kako12_u0001-0121.json",
+      "category": "technical_blank",
+      "reason": "기술 보류: ordinary text 001793 원문이 U+3000 한 글자이며 frozen validator의 비공백 target 조건과 충돌. 정확한 공백 원문을 보호하며 중앙 계약 판단 대기. 다른 4필드 완성초안은 work/last_kako12_u0115_whitespace_draft.json에 보존."
+    },
+    {
+      "unit": "last_gendai05.mjo::u0149",
+      "path": "lane-2/batches/last_gendai05_u0129-u0225.json",
+      "category": "technical_blank",
+      "reason": "manual ruby blank needs central exact-ID allowlist"
+    },
+    {
+      "unit": "kosihata.mjo::u0025",
+      "path": "lane-3/batches/kosihata_u0001-u0024_u0026-u0030.json",
+      "category": "technical_blank",
+      "reason": "technical_pending: original ordinary text000376 is one U+3000 whitespace; preserve intentional blank and field count without invented text. Entire unit staged separately."
+    },
+    {
+      "unit": "st_pika.mjo::u0010",
+      "path": "lane-3/batches/st_pika_u0001-u0009_u0011-u0014.json",
+      "category": "technical_blank",
+      "reason": "technical_pending: original text000070 is one U+3000 whitespace; preserving it fails validator target.strip requirement. No invented replacement."
+    },
+    {
+      "unit": "st_yana.mjo::u0021",
+      "path": "lane-3/batches/st_yana_u0001-u0020_u0023-u0027.json",
+      "category": "child_sexualized_commentary",
+      "reason": "not_translated_child_sexualization: staff commentary frames the explicitly child Momiji bath exposure as an object of player viewing. No Korean semantic draft; current university setting does not apply to this child."
+    },
+    {
+      "unit": "st_yana.mjo::u0022",
+      "path": "lane-3/batches/st_yana_u0001-u0020_u0023-u0027.json",
+      "category": "child_sexualized_commentary",
+      "reason": "not_translated_child_sexualization: staff commentary frames the explicitly child Momiji bath exposure as an object of player viewing. No Korean semantic draft; current university setting does not apply to this child."
+    }
+  ],
+  "semantic_pending": [
+    {
+      "unit": "st_gin.mjo::u0068",
+      "path": "lane-3/batches/st_gin_u0061-u0110.json",
+      "reason": "Unresolved source reference; preserved draft is not approved for integration."
+    }
+  ],
+  "technical_pending": [
+    {
+      "unit": "last_gendai05.mjo::u0149",
+      "id": "last_gendai05.mjo::001496",
+      "source": "ちりあくた",
+      "proposed_target": " ",
+      "reason": "Manual ruby ordinary text requires blank but central validator forbids strip-empty target.",
+      "consumer_evidence": "mjil03e6e text under small font; main body03ec8=塵芥にも等しいわけですし…",
+      "disposition": "Full translation and exact-ID exception proposal stored in lane-2/technical-proposals.json; unit deferred for central owner allowlist. No central file changes."
+    },
+    {
+      "unit": "st_pika.mjo::u0010",
+      "id": "st_pika.mjo::000070",
+      "source": "　",
+      "proposed_target": "　",
+      "reason": "Whitespace-only original text conflicts with central ordinary target.strip() requirement. Preserve source field count and intentional blank; do not invent text.",
+      "disposition": "Lane-3 owner reports exact unit technical hold with remaining two text fields drafted; central validator exact-ID exception pending."
+    },
+    {
+      "unit": "kosihata.mjo::u0025",
+      "id": "kosihata.mjo::000376",
+      "source": "　",
+      "proposed_target": "　",
+      "reason": "Whitespace-only original ordinary field conflicts with central target.strip requirement.",
+      "disposition": "Lane3 reports preserved six-field draft in drafts/kosihata.mjo.json; exact-ID central exception required, no validator bypass."
+    },
+    {
+      "unit": "last_kako12.mjo::u0115",
+      "id": "last_kako12.mjo::001793",
+      "source": "　",
+      "proposed_target": "　",
+      "reason": "Whitespace-only original ordinary field conflicts with central target.strip requirement.",
+      "disposition": "Exact U+3000 blank field held. Complete five-field draft at lane-1/work/last_kako12_u0115_whitespace_draft.json; other four translated fields directly read. Await central exact-ID validator exception; protected name setter001790 preserved."
+    }
+  ],
+  "temporal_age_rule": {
+    "user_clarifications": [
+      "과거니까 현재와는 다르지 않을까?",
+      "과거의 연령을 기반으로 현재의 인물에 적용할수는 없다",
+      "응 작중 모든 성인 등장인물은 18세 이상이야 애초에 과거 시점에선 해당 등장인물의 성적인 장면이 없지 ㅇㄶ아"
+    ],
+    "application": "Apply scene-time evidence and user-confirmed adult setting to relevant adult appearances. Explicit children and childhood sexualization remain separate; current/past age is never transferred solely by chronology.",
+    "current_holds": "No age-only holds remain. Two child staff commentary units remain excluded; four technical blank units and one semantic-reference draft remain pending. The u0220 growth-comparison exclusion was corrected after source-context review."
+  },
+  "adult_age_reassessment": {
+    "status": "complete",
+    "user_statement": "응 작중 모든 성인 등장인물은 18세 이상이야 애초에 과거 시점에선 해당 등장인물의 성적인 장면이 없지 ㅇㄶ아",
+    "interpretation": "Affirmative answer supplies adult age for the relevant adult appearances; it does not age up explicit children or childhood portrayals. This is user-provided setting, not a newly discovered numerical source statement.",
+    "released_units": 613,
+    "known_child_context_holds": [],
+    "reclassification_history": [
+      {
+        "unit": "last_kako07.mjo::u0220",
+        "field_ids": [
+          "last_kako07.mjo::002615",
+          "last_kako07.mjo::002619"
+        ],
+        "reviewed_at": "2026-10-22T20:21:29.063271+00:00",
+        "user_question": "다른 둘은 그렇다치고 첫번째는 상관없지않아?",
+        "previous_classification": {
+          "unit": "last_kako07.mjo::u0220",
+          "id": "last_kako07.mjo::002615",
+          "reason": "Explicit childhood body comparison within sexual narration; preserve source and ID without translation."
+        },
+        "corrected_classification": "Adult sexual scene with a nonsexual childhood growth comparison.",
+        "reason": "The object of sexual attraction is adult Yue. The childhood reference supplies a comparison of growth, without depicting childhood sexual activity or desire directed at the child. The prior whole-unit exclusion was overbroad. Original childhood wording and adult age setting are preserved.",
+        "disposition": "Two original text fields translated and approved; source and stable IDs unchanged.",
+        "translator_model": "Codex internal"
+      }
+    ]
+  },
+  "zero_unit_source_audit": {
+    "owner": "session-3/lane-3",
+    "translator_model": "Codex internal",
+    "agent_id": "01a16337-be36-71c2-8fc8-21283490b7f0",
+    "files": [
+      {
+        "script": "st_f15j.mjo",
+        "source_packet": "source/script-132.json",
+        "packet_sha256": "bf177a370daf186b98ffce973eb03d111eac317eae891d3f08a878f2c332413c",
+        "owned_units": 0,
+        "display_literal_candidates": 0,
+        "reachability": "audit_required",
+        "runtime_verified": false
+      },
+      {
+        "script": "スクリプト素体.mjo",
+        "source_packet": "source/script-178.json",
+        "packet_sha256": "6e9492cc788e8448fae78f4f317d64dc68134cb15f3bb4a0a7c1bc5228efdaab",
+        "owned_units": 0,
+        "display_literal_candidates": 0,
+        "reachability": "audit_required",
+        "runtime_verified": false
+      },
+      {
+        "script": "スタッフルーム素体.mjo",
+        "source_packet": "source/script-179.json",
+        "packet_sha256": "9b8cd3e8d2f76900c1297b5f7a99bdbccf7014699b76f1e94af1516115326b60",
+        "owned_units": 0,
+        "display_literal_candidates": 0,
+        "reachability": "audit_required",
+        "runtime_verified": false
+      },
+      {
+        "script": "ハルちん.mjo",
+        "source_packet": "source/script-181.json",
+        "packet_sha256": "0fe6cb6ebb45eb760a8b555fdd7f20c580f9c4cad929e65760d2b877b72db03d",
+        "owned_units": 0,
+        "display_literal_candidates": 0,
+        "reachability": "audit_required",
+        "runtime_verified": false
+      }
+    ]
+  },
+  "integration_requirements": [
+    "Load only hash-matching accepted batches; exclude listed units even when other records in the batch are accepted.",
+    "Keep original speaker/resource/font keys and unresolved display-name setter literals protected.",
+    "Central owner must resolve exact-ID blank handling before merging the four technical units.",
+    "Exclude the listed child staff commentary and unresolved st_gin reference draft.",
+    "Central merge, all-route consistency, fonts, wrapping, and in-game verification remain pending."
+  ]
+}

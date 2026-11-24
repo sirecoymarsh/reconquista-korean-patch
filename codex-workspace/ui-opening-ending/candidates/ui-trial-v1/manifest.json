@@ -1,0 +1,556 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "status": "partial_ui_static_pass_runtime_pending",
+  "semantic_authored": 143,
+  "semantic_included": 125,
+  "deferred_native_diagnostic_ids": [
+    "cgmode.mjo::000576",
+    "cgmode.mjo::000817",
+    "cgmode.mjo::000932",
+    "cgmode.mjo::000971",
+    "config.mjo::008005",
+    "config.mjo::008011",
+    "config.mjo::008726",
+    "config.mjo::008998",
+    "config.mjo::009442",
+    "config.mjo::009709",
+    "config.mjo::011907",
+    "load_sysdata.mjo::001378",
+    "loadsave.mjo::001698",
+    "loadsave.mjo::001798",
+    "loadsave.mjo::002083",
+    "menu.mjo::004647",
+    "menu.mjo::004853",
+    "menu.mjo::005105"
+  ],
+  "archives": [
+    {
+      "archive": "scenario.arc",
+      "source_sha256": "95b6592ce3d9f4f94a4051bbbc217e26fbb9c63586a4e0b5bcd9932f961aeb99",
+      "output_sha256": "6d34561950f831ebf18d99ec37a9afcb147c52c60a77e82b7cbbcde7345e1b6f",
+      "entries": 184,
+      "changed": [
+        {
+          "entry": "staffroom.mjo",
+          "source_sha256": "42063c5e5ce5ef66baa9e8c8ce4c1cd01f18fb186e0d75dff3a6e9b8565196d1",
+          "output_sha256": "baaa7392457a612a5efb2541d25d02af7e0a3258fa0842ca1181b5f934379ed0"
+        },
+        {
+          "entry": "start.mjo",
+          "source_sha256": "377fe926323fc7fef91f85c6bf90aa70a02cd423a95975418d41622f36a5b0bd",
+          "output_sha256": "6ec38f58c0b5c2d3254ad788062061ab01bb3a9a5e1ebc10ed001dd11ffe5698"
+        },
+        {
+          "entry": "console.mjo",
+          "source_sha256": "fb2521e6787929bfadf2734192510c43852f7f4b1495ca7ec135df1fe0bb0deb",
+          "output_sha256": "319beb7ca9e43ca6fc75680b7fb07462931d103fdba702f0bd56f47d936c7d48"
+        },
+        {
+          "entry": "config.mjo",
+          "source_sha256": "cf2ff91985edbaf828425e7e2f152785461d877b42d58c3de0511e744f643033",
+          "output_sha256": "5dee061ec6830e1728a5c67c4c0c87024a50daaafc0a97f41e960e448e58c69b"
+        },
+        {
+          "entry": "pausemenu.mjo",
+          "source_sha256": "5318b5b7bcf9eec30be2b16a859e7c463739281564c42e173430d518d55eec88",
+          "output_sha256": "f719bc171af83d4722399f789124da463ceb0d7c69804699404964d740d894fe"
+        },
+        {
+          "entry": "load_sysdata.mjo",
+          "source_sha256": "0f169d1866501deb84dc31b50be55729b22965005136940690f7153b8c5f1e9f",
+          "output_sha256": "4f0af117990acbe80e55153e845dbd065016bea5c53695872440578321abeecd"
+        },
+        {
+          "entry": "message_box.mjo",
+          "source_sha256": "d0e5e90a9c5a805b5df74ac99eb98018c5b59ac3288f1d5e825e9199900f2377",
+          "output_sha256": "5522d7d42c5dcf02961717d37a824046c13130431c8fd0ded9a7f3c89ecc122c"
+        },
+        {
+          "entry": "loadsave.mjo",
+          "source_sha256": "5d0109457b85a150243a6919c0a0cda1205a3e2df8f0d726a566c852a364edcf",
+          "output_sha256": "8766cbb1626ffa2bc3980e1e17b09490302095f0447aae6254edf387e95d7efd"
+        },
+        {
+          "entry": "c_setumei.mjo",
+          "source_sha256": "2c70b1c18a715ace2f1f37a842be2d0d0cda456b096629cb31628837d1fe1f5d",
+          "output_sha256": "c0e7c6a443a59aaf2ba7022e0c596ba5d90c00ee5cb22d0d133c8f94097e415a"
+        },
+        {
+          "entry": "chronicle.mjo",
+          "source_sha256": "d1e9bec703dd40db2deb7e858166756adc22108c6e6d00f933e0df7cf31d81f8",
+          "output_sha256": "568a0399d19aed4075bab63a3ebb58080e6933989e2daf4bea2c7c8067798e69"
+        },
+        {
+          "entry": "menu.mjo",
+          "source_sha256": "5df429fd84418773e78652c0996838d8e94873e663425fd8c4a0e2fde73a812b",
+          "output_sha256": "d1d2b671dbc673badc620ad5d6d6e140f172a8bef6044c61b87ef514a6a2f257"
+        },
+        {
+          "entry": "music.mjo",
+          "source_sha256": "6216e2353f4d17b4078ff72ab3501d371fcad95c580cb47fdf43ff745650cba8",
+          "output_sha256": "92eac783f092c4edb8e97a3ae9aadf474334d6aab99dcafc20d2a21a81b9e479"
+        },
+        {
+          "entry": "sightchange.mjo",
+          "source_sha256": "8966751a63163e361ded0cf3fdcb49cb9b731788f230b10fa4e80fa5c366f1de",
+          "output_sha256": "99957df1d08d0a73eb0fbc4e98dbad67e554ba9c41eacecfd99431b21cc98d0a"
+        }
+      ],
+      "unchanged_payloads_identical": true,
+      "entry_order_names_hashes_preserved": true
+    },
+    {
+      "archive": "fastdata.arc",
+      "source_sha256": "167b61cf2305c98d1865e9c806a9175d30f5ddf03f6e5bc587f828f017a8b179",
+      "output_sha256": "54db45da9b67e4f3862a36ef4ef5c5d4ec7f60e99e9f46da3690a9a338154535",
+      "entries": 383,
+      "changed": [
+        {
+          "entry": "title3_push.rct",
+          "source_sha256": "968c5ebcc0b43dbe456a171a32e1861169cdd768d274aeedad6ec61844e12e98",
+          "output_sha256": "fe58740eebf6511f9ac4b311213624a9e7b40068dcacbac38e2cbb6bf804f9ce"
+        },
+        {
+          "entry": "title1_push.rct",
+          "source_sha256": "466e9d362be553312ff1befd98cf44a04a658c6666216716d0533e86af6faedc",
+          "output_sha256": "003200bbebcf1c09726c0039704326732aed9dcde2552c1fc6b1d5cdbb66f21b"
+        },
+        {
+          "entry": "title1_on.rct",
+          "source_sha256": "3290eef8c2d2e300017fd1d5d2dc500a89b64e4258bcb22373a057b3426bf9eb",
+          "output_sha256": "c466d5e85c6544b8e247b69195e9acb5128d56e452112a7bf1498a00284d2876"
+        },
+        {
+          "entry": "menudata.cfg",
+          "source_sha256": "293b5bad72539435e5350ac5d1f78f6f6037ce19bb2cdf02230c8e849c273021",
+          "output_sha256": "88cbc0dced3e7e03d0429f60de142852e6238590c789b9d29b063214ff959e85"
+        },
+        {
+          "entry": "title3_on.rct",
+          "source_sha256": "3695047c1f36b7ac26bca2c1b2dd40c4bde0a8060eb373c35bf5f64f3ceec4bf",
+          "output_sha256": "94a218b89e499c3e5249f2508bc9ca5e65f27b5bdeaa589475de7a5f15f26cfe"
+        },
+        {
+          "entry": "sysdata.cfg",
+          "source_sha256": "f9cf9032e176e2bd482d56b2642aa973e500f08fcd93bd82f44f9c7bc843e280",
+          "output_sha256": "6109f43830073afe46bd30c06e8b23d0207db715b9933bc2e3f641b0e4420f96"
+        },
+        {
+          "entry": "title2_on.rct",
+          "source_sha256": "f8caa79fc2ab07c2cb3b09d7bf3ab86bdeccadbb12df8df8d11381e002ce77b4",
+          "output_sha256": "764f17a4834ae50a291c0434d5394ca97e21819a6047cc1b601de2e62f0fee5d"
+        },
+        {
+          "entry": "messagebox.cfg",
+          "source_sha256": "a6d329a5107a7a395c07ead4ed17aa88d4bce056d4bda9fad6a7ee472f1acdf9",
+          "output_sha256": "db551330040e88796f6012856d032608b991a126dd0a96b1b526c015a66554c8"
+        },
+        {
+          "entry": "title3_off.rct",
+          "source_sha256": "b21232b137fafa9497fa9ad02f63b2d607cba686d848f03b5dab9b6aa4f787a9",
+          "output_sha256": "1131b450cda64d2c6fcb29936604f4cc348dc7404dce22f3e62094e7261fd784"
+        },
+        {
+          "entry": "majiro.env",
+          "source_sha256": "c0828af78faa78b2b8eed01f9d78a79c1fe8d9671f3ca4c7ea2b12602c398e9f",
+          "output_sha256": "241c79c40eaf87174dbe4cc6c7ec03c094d549eef59d5a33e230300175a14bfc"
+        },
+        {
+          "entry": "loadsave.cfg",
+          "source_sha256": "893cc237fa9d7e1d57045fc3c347e93f1ac2f75f96d01d7b474c9aed8827a4c8",
+          "output_sha256": "7a39ba5fcbabde7ad5cc0f6afeb69269ade807ac7f5d4c76ffc4640ce297df77"
+        },
+        {
+          "entry": "title2_off.rct",
+          "source_sha256": "4e7258ff2caedc369fbe194ceb22a82dec6b7860ff394cf5571f5ed4f53305d0",
+          "output_sha256": "189b7c6852a4233d486c103fb4c8288d9074c254d6cf1bf913a4acafb6dffd17"
+        },
+        {
+          "entry": "title1_off.rct",
+          "source_sha256": "5357d38b3a5d2701510e4536ce1df9427ec211535992e9622d106a66d25b5b2b",
+          "output_sha256": "e5ae6f013d407a05e73fbb23e854ec8954f35b796127c5caa1b57b9def52ffa4"
+        },
+        {
+          "entry": "title2_push.rct",
+          "source_sha256": "67de67f8710083b6d5492194e307076ce4255e338108db719f976d4fd5547d96",
+          "output_sha256": "9e1a4582c993d68c9ad347897972106c8345e8631c997cb23fe5e0d1b3882004"
+        }
+      ],
+      "unchanged_payloads_identical": true,
+      "entry_order_names_hashes_preserved": true
+    }
+  ],
+  "scripts": {
+    "c_setumei.mjo": {
+      "source_sha256": "2c70b1c18a715ace2f1f37a842be2d0d0cda456b096629cb31628837d1fe1f5d",
+      "output_sha256": "c0e7c6a443a59aaf2ba7022e0c596ba5d90c00ee5cb22d0d133c8f94097e415a",
+      "original_instructions": 541,
+      "output_instructions": 541,
+      "replacement_indices": [
+        17,
+        22,
+        32,
+        33,
+        34,
+        35,
+        36,
+        47,
+        51,
+        56,
+        60,
+        64,
+        69,
+        73,
+        77,
+        86,
+        90,
+        94,
+        103,
+        107,
+        112,
+        116,
+        121,
+        125,
+        130,
+        134,
+        139,
+        143,
+        147,
+        152,
+        156,
+        160,
+        176,
+        177,
+        178,
+        179,
+        190,
+        194,
+        203,
+        207,
+        211,
+        226,
+        230,
+        239,
+        243,
+        252,
+        257,
+        261,
+        270,
+        274,
+        278,
+        287,
+        292,
+        296,
+        311,
+        315,
+        319,
+        328,
+        332,
+        336,
+        345,
+        349,
+        353,
+        362,
+        366,
+        375,
+        379,
+        383,
+        405,
+        409,
+        414,
+        423,
+        427,
+        431,
+        436,
+        440,
+        455,
+        459,
+        464,
+        468,
+        483,
+        487,
+        491,
+        496,
+        500,
+        509,
+        513,
+        517,
+        528
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 25,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "chronicle.mjo": {
+      "source_sha256": "d1e9bec703dd40db2deb7e858166756adc22108c6e6d00f933e0df7cf31d81f8",
+      "output_sha256": "568a0399d19aed4075bab63a3ebb58080e6933989e2daf4bea2c7c8067798e69",
+      "original_instructions": 4839,
+      "output_instructions": 4839,
+      "replacement_indices": [
+        250,
+        847,
+        2274,
+        2912,
+        3392,
+        3487,
+        3841,
+        4029
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 349,
+      "relocated_switch_cases": 12,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "config.mjo": {
+      "source_sha256": "cf2ff91985edbaf828425e7e2f152785461d877b42d58c3de0511e744f643033",
+      "output_sha256": "5dee061ec6830e1728a5c67c4c0c87024a50daaafc0a97f41e960e448e58c69b",
+      "original_instructions": 11987,
+      "output_instructions": 11991,
+      "replacement_indices": [],
+      "insertion_indices": [
+        3546,
+        8695
+      ],
+      "relocated_jumps": 1481,
+      "relocated_switch_cases": 168,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "console.mjo": {
+      "source_sha256": "fb2521e6787929bfadf2734192510c43852f7f4b1495ca7ec135df1fe0bb0deb",
+      "output_sha256": "319beb7ca9e43ca6fc75680b7fb07462931d103fdba702f0bd56f47d936c7d48",
+      "original_instructions": 7572,
+      "output_instructions": 7572,
+      "replacement_indices": [
+        5505,
+        5601,
+        5729,
+        5739,
+        5750,
+        5766,
+        5777
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 636,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "load_sysdata.mjo": {
+      "source_sha256": "0f169d1866501deb84dc31b50be55729b22965005136940690f7153b8c5f1e9f",
+      "output_sha256": "4f0af117990acbe80e55153e845dbd065016bea5c53695872440578321abeecd",
+      "original_instructions": 1394,
+      "output_instructions": 1399,
+      "replacement_indices": [],
+      "insertion_indices": [
+        3
+      ],
+      "relocated_jumps": 67,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "loadsave.mjo": {
+      "source_sha256": "5d0109457b85a150243a6919c0a0cda1205a3e2df8f0d726a566c852a364edcf",
+      "output_sha256": "8766cbb1626ffa2bc3980e1e17b09490302095f0447aae6254edf387e95d7efd",
+      "original_instructions": 2167,
+      "output_instructions": 2167,
+      "replacement_indices": [
+        821,
+        842,
+        1138,
+        1174,
+        1287
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 126,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "menu.mjo": {
+      "source_sha256": "5df429fd84418773e78652c0996838d8e94873e663425fd8c4a0e2fde73a812b",
+      "output_sha256": "d1d2b671dbc673badc620ad5d6d6e140f172a8bef6044c61b87ef514a6a2f257",
+      "original_instructions": 5278,
+      "output_instructions": 5278,
+      "replacement_indices": [
+        3119,
+        3239,
+        3249,
+        3260,
+        3276
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 461,
+      "relocated_switch_cases": 168,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "message_box.mjo": {
+      "source_sha256": "d0e5e90a9c5a805b5df74ac99eb98018c5b59ac3288f1d5e825e9199900f2377",
+      "output_sha256": "5522d7d42c5dcf02961717d37a824046c13130431c8fd0ded9a7f3c89ecc122c",
+      "original_instructions": 905,
+      "output_instructions": 905,
+      "replacement_indices": [
+        639,
+        650
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 32,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "music.mjo": {
+      "source_sha256": "6216e2353f4d17b4078ff72ab3501d371fcad95c580cb47fdf43ff745650cba8",
+      "output_sha256": "92eac783f092c4edb8e97a3ae9aadf474334d6aab99dcafc20d2a21a81b9e479",
+      "original_instructions": 1081,
+      "output_instructions": 1081,
+      "replacement_indices": [
+        137
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 132,
+      "relocated_switch_cases": 14,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "pausemenu.mjo": {
+      "source_sha256": "5318b5b7bcf9eec30be2b16a859e7c463739281564c42e173430d518d55eec88",
+      "output_sha256": "f719bc171af83d4722399f789124da463ceb0d7c69804699404964d740d894fe",
+      "original_instructions": 874,
+      "output_instructions": 874,
+      "replacement_indices": [
+        723,
+        790,
+        801,
+        818
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 57,
+      "relocated_switch_cases": 8,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "sightchange.mjo": {
+      "source_sha256": "8966751a63163e361ded0cf3fdcb49cb9b731788f230b10fa4e80fa5c366f1de",
+      "output_sha256": "99957df1d08d0a73eb0fbc4e98dbad67e554ba9c41eacecfd99431b21cc98d0a",
+      "original_instructions": 2188,
+      "output_instructions": 2188,
+      "replacement_indices": [
+        11,
+        615,
+        617
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 122,
+      "relocated_switch_cases": 41,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "staffroom.mjo": {
+      "source_sha256": "42063c5e5ce5ef66baa9e8c8ce4c1cd01f18fb186e0d75dff3a6e9b8565196d1",
+      "output_sha256": "baaa7392457a612a5efb2541d25d02af7e0a3258fa0842ca1181b5f934379ed0",
+      "original_instructions": 398,
+      "output_instructions": 398,
+      "replacement_indices": [
+        18
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 51,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "start.mjo": {
+      "source_sha256": "377fe926323fc7fef91f85c6bf90aa70a02cd423a95975418d41622f36a5b0bd",
+      "output_sha256": "6ec38f58c0b5c2d3254ad788062061ab01bb3a9a5e1ebc10ed001dd11ffe5698",
+      "original_instructions": 1721,
+      "output_instructions": 1721,
+      "replacement_indices": [
+        1543,
+        1622,
+        1699
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 104,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    }
+  },
+  "support_changes": [
+    {
+      "file": "load_sysdata.mjo",
+      "index": 3,
+      "change": "register dedicated UI font/select family",
+      "integration_overlap": "main loader hook; merge once"
+    },
+    {
+      "file": "config.mjo",
+      "index": 3546,
+      "change": "trial font fixed to compatible mapped family"
+    },
+    {
+      "file": "config.mjo",
+      "index": 8695,
+      "change": "trial font fixed to compatible mapped family"
+    },
+    {
+      "file": "chronicle.mjo",
+      "index": 250,
+      "change": "direct UI font consumer"
+    },
+    {
+      "file": "chronicle.mjo",
+      "index": 847,
+      "change": "direct UI font consumer"
+    },
+    {
+      "file": "chronicle.mjo",
+      "index": 2274,
+      "change": "direct UI font consumer"
+    },
+    {
+      "file": "menudata.cfg",
+      "change": "UI font consumer",
+      "occurrences": 1
+    },
+    {
+      "file": "sysdata.cfg",
+      "change": "UI font consumer",
+      "occurrences": 2
+    },
+    {
+      "file": "messagebox.cfg",
+      "change": "UI font consumer",
+      "occurrences": 1
+    },
+    {
+      "file": "loadsave.cfg",
+      "change": "UI font consumer",
+      "occurrences": 1
+    },
+    {
+      "file": "majiro.env",
+      "change": "runtime-only registry/title/capture isolation and font default",
+      "exclude_from_final_integration": [
+        "REG_LOCAL",
+        "TITLEBAR",
+        "CAPTURE_NAME"
+      ]
+    }
+  ],
+  "font": {
+    "family": "Reconquista UI KR",
+    "source_sha256": "6bcb2a0703aa137e874fc2dffa85f6c21ba9a67fa329e81b8c801663af7e992a",
+    "output_sha256": "7703661cd363a137fc025db1d3454980e75021a053cf5693aa737a40ff0bd61f",
+    "mapping_base_sha256": "eb4c849713de5af1a0e38f4cfa8868ca01eb22c0f95f109ea1878f180d6cfc66",
+    "map_sha256": "0e080b3cc3654c0d58e2f8f11bcadc7bd658f84fd0b6c05d5a7030e15cd57451",
+    "mapped_glyphs": 773,
+    "additions": 16,
+    "persisted_cmap_pass": true,
+    "runtime_pass": false
+  },
+  "raster_manifest": "../title-menu-v1/manifest.json",
+  "raster_entries": 9,
+  "runtime_pass": false,
+  "remaining": [
+    "Most raster UI other than titles",
+    "Native PE menus/dialogs/diagnostics",
+    "Timeline CSV and dynamic-name audit",
+    "UI runtime state matrix",
+    "OP/ED after UI gate"
+  ]
+}

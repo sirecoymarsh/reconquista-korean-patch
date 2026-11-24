@@ -1,0 +1,1 @@
+﻿movie_skipped_in_jump fast=2

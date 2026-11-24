@@ -1,0 +1,25 @@
+{
+  "status": "session_local_adapter_available",
+  "central_modified": false,
+  "issue": "Central validator rejects original whitespace-only text fields between inline ruby pieces.",
+  "source_evidence": [
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0422",
+      "field": "00_レコンキスタ_start_2.mjo::004597",
+      "source": "　"
+    }
+  ],
+  "narrow_rule": "Allow a whitespace-only target only when the source is whitespace-only and target==source exactly. All other validation remains central; derived validator digest includes central source and adapter.",
+  "adapter": "validate_with_whitespace.py",
+  "integration_action": "Root may adopt the exact whitespace preservation exception centrally after review; session does not edit central tools.",
+  "inspected_ruby_blank_exceptions": [
+    {
+      "unit": "kureha_07.mjo::u0137",
+      "id": "kureha_07.mjo::001535",
+      "source": "かぶり",
+      "target": " ",
+      "evidence": "kureha_07.mjo.mjil 04303 text between ctrl s/o/f and ctrl r/s/f before 04359 main 頭を振って、"
+    }
+  ],
+  "verification_reuse": "Unchanged batches checked by the unchanged central validator or previous narrower adapter are reused; original source, field and ownership checks remain in place."
+}

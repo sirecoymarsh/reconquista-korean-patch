@@ -1,0 +1,108 @@
+{
+  "updated_utc": "2026-10-22T10:56:19.782119+00:00",
+  "result": "background_runtime_feasibility_pass",
+  "method": "Private WinSta0 desktop; CreateProcessW lpDesktop; scoped PostMessageW; PrintWindow",
+  "input_desktop": "Default",
+  "private_desktop": "ReconquistaUI_BG_01a162df",
+  "actual_client_bounds": [
+    0,
+    0,
+    800,
+    600
+  ],
+  "pid": 41776,
+  "exe_sha256": "f67195682944663b9546665eb3b63a639ace3f910e2ebf6ffaccda001d625b50",
+  "runtime_manifest": "background-runtime-prepared.json",
+  "proofs": {
+    "bg-start": "../evidence/background-runtime/bg-start.json",
+    "bg-about": "../evidence/background-runtime/bg-about.json",
+    "bg-about-close": "../evidence/background-runtime/bg-about-close.json",
+    "bg-config-click": "../evidence/background-runtime/bg-config-click.json",
+    "bg-config-click-hovered": "../evidence/background-runtime/bg-config-click-hovered.json",
+    "bg-font-sample": "../evidence/background-runtime/bg-font-sample.json",
+    "bg-font-close": "../evidence/background-runtime/bg-font-close.json",
+    "bg-screen-options": "../evidence/background-runtime/bg-screen-options.json",
+    "bg-config-back": "../evidence/background-runtime/bg-config-back.json",
+    "bg-screen-close": "../evidence/background-runtime/bg-screen-close.json",
+    "bg-native-exit": "../evidence/background-runtime/bg-native-exit.json"
+  },
+  "pre_post_focus_unchanged_checks": 11,
+  "continuous_focus_monitoring": false,
+  "global_input_API_used": false,
+  "desktop_switch_API_used": false,
+  "desktop_switch_access_requested": false,
+  "verified": [
+    {
+      "id": "UI-TITLE::title1-normal",
+      "evidence": "bg-about",
+      "visual": "Korean title menu rendered in actual game; default unlock state excludes extra menu"
+    },
+    {
+      "id": "UI-TITLE::config-hover",
+      "evidence": "bg-config-click",
+      "visual": "Korean setting label glow / hover rendered"
+    },
+    {
+      "id": "UI-CONFIG::open-by-raster-button",
+      "evidence": "bg-config-click-hovered",
+      "visual": "Image button opened actual config screen; image labels still Japanese"
+    },
+    {
+      "id": "majiro.env::APPNAME",
+      "evidence": "bg-about",
+      "visual": "레콘퀴스타"
+    },
+    {
+      "id": "majiro.env::VERSION",
+      "evidence": "bg-about",
+      "visual": "버전 1.00"
+    },
+    {
+      "id": "majiro.env::COPYRIGHT",
+      "evidence": "bg-about",
+      "visual": "(C)COTTON SOFTWARE 2007"
+    },
+    {
+      "id": "native::0x47f72c::font_sample",
+      "evidence": "bg-font-sample",
+      "visual": "글자 예시입니다.１２３４"
+    },
+    {
+      "id": "native::0x47cf94::screen_default",
+      "evidence": "bg-config-back",
+      "visual": "기본"
+    },
+    {
+      "id": "native::0x47ce48",
+      "evidence": "bg-native-exit",
+      "visual": "게임을 종료할까요?"
+    }
+  ],
+  "termination": {
+    "action": "Observed Yes button ID 6 in native quit dialog",
+    "process_absent_afterwards": true,
+    "verification": "Get-CimInstance exact alias and physical runtime-ui-bg executable path returned 0 processes",
+    "capture_collector_note": "Empty desktop enumeration returned FALSE with error 0 after successful exit; collector fixed to accept empty result. No game test rerun."
+  },
+  "limits": [
+    "Does not establish all UI state coverage",
+    "Full-screen display changes excluded and unverified",
+    "OP/ED playback and audio synchronization unverified",
+    "No proof for physical input timing or global hotkeys",
+    "In-game image labels beyond title remain mostly untranslated",
+    "UI Font selector still a fixed-family trial limitation"
+  ],
+  "operation_notes": [
+    "Move pointer by WM_MOUSEMOVE, allow .3 sec for hover selection, then press/release",
+    "Menu commands can be queued by engine; re-observe before dependent actions",
+    "Native disabled parent window is rejected by input helper",
+    "Only exact runtime-ui-bg process path accepted; main runtime-ko untouched",
+    "Large archive and movie hard links reference original immutable inputs; never write them"
+  ],
+  "sources": [
+    "https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-createdesktopw",
+    "https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfow",
+    "https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-printwindow",
+    "https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-postmessagew"
+  ]
+}

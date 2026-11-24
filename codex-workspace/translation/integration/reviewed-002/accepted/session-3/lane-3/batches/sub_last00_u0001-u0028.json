@@ -1,0 +1,1060 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-3/lane-3",
+  "coordinator_thread_id": "01a16335-c355-7c83-ad79-53e1812faa34",
+  "agent_id": "01a16337-be36-71c2-8fc8-21283490b7f0",
+  "agent_task": "/root/lane_3",
+  "source_script": "sub_last00.mjo",
+  "source_sha256": "33416fe6658f6ba90aff4c5b667c7854fb2cc11afb46dc3f1ad4df917e2d4870",
+  "source_packet_sha256": "4ce9872279186d95366afaac58b8dd860264012b93119485ba46e2c68706241d",
+  "records": [
+    {
+      "unit": "sub_last00.mjo::u0001",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000039",
+          "source": "「いやね、急な辞令で大変ですわ」",
+          "target": "「거 참, 갑작스러운 발령이라 정신이 없네요」"
+        },
+        {
+          "id": "sub_last00.mjo::000045",
+          "source": "わっはっは、と中年教師のダミ声が響く。",
+          "target": "와하하, 중년 교사의 탁한 웃음소리가 울린다."
+        },
+        {
+          "id": "sub_last00.mjo::000051",
+          "source": "言葉とは裏腹に浮かれた声のトーン。",
+          "target": "말과는 달리 들뜬 목소리."
+        },
+        {
+          "id": "sub_last00.mjo::000057",
+          "source": "…この島を出て行ける事が、余程嬉しいのだろう。",
+          "target": "…이 섬을 떠날 수 있다는 게 어지간히 기쁜 모양이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "중년 교사 / 시오미(서술)",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "교사는 동료에게 격식 있는 구어체; 서술은 냉정한 평서체",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0002",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000064",
+          "source": "「本当に。ですが先生ほどの方でしたら、",
+          "target": "「정말 그렇겠군요. 하지만 선생님 정도 되는 분이라면"
+        },
+        {
+          "id": "sub_last00.mjo::000068",
+          "source": "　新しい学校に行かれてもきっと大丈夫でしょう」",
+          "target": "　새 학교에 가셔도 분명 잘해 내실 겁니다」"
+        },
+        {
+          "id": "sub_last00.mjo::000076",
+          "source": "「こっちは面倒なだけですがね。",
+          "target": "「저야 번거로울 뿐이지요."
+        },
+        {
+          "id": "sub_last00.mjo::000080",
+          "source": "　むしろ私の後釜の方が気になります」",
+          "target": "　오히려 제 후임이 걱정입니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미 / 중년 교사",
+        "addressees": [
+          "중년 교사",
+          "시오미"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "서로 존댓말",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0003",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000087",
+          "source": "「後任の先生は…何と言われましたかな？",
+          "target": "「후임 선생님은… 성함이 뭐라고 하셨지요?"
+        },
+        {
+          "id": "sub_last00.mjo::000091",
+          "source": "　半端な時期で直接引継ぎが出来ないのが心残りですわ」",
+          "target": "　시기가 어중간해서 직접 인계하지 못하는 게 마음에 걸립니다」"
+        },
+        {
+          "id": "sub_last00.mjo::000099",
+          "source": "「さあ…お名前はまだ存じませんが、",
+          "target": "「글쎄요… 저도 아직 성함은 모릅니다만,"
+        },
+        {
+          "id": "sub_last00.mjo::000103",
+          "source": "　あちらも島に越してくるのに手いっぱいだそうで」",
+          "target": "　그분도 섬으로 이사 오느라 경황이 없으시다더군요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "중년 교사 / 시오미",
+        "addressees": [
+          "시오미",
+          "중년 교사"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "서로 격식 있는 존댓말",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0004",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000110",
+          "source": "「お気になさらないでください。",
+          "target": "「신경 쓰지 마십시오."
+        },
+        {
+          "id": "sub_last00.mjo::000114",
+          "source": "　微力ながら、私も新しい先生の手助けをしますから」",
+          "target": "　미력하나마 저도 새 선생님을 돕겠습니다」"
+        },
+        {
+          "id": "sub_last00.mjo::000122",
+          "source": "「や、汐見先生がそう仰ってくれると安心ですわ」",
+          "target": "「아, 시오미 선생님이 그렇게 말씀해 주시니 안심이네요」"
+        },
+        {
+          "id": "sub_last00.mjo::000128",
+          "source": "再び笑い声。",
+          "target": "다시 웃음소리."
+        },
+        {
+          "id": "sub_last00.mjo::000134",
+          "source": "…相変わらず不快だが、",
+          "target": "…여전히 불쾌했지만,"
+        },
+        {
+          "id": "sub_last00.mjo::000138",
+          "source": "私も笑い出したい気分ではあった。",
+          "target": "나 역시 웃음을 터뜨리고 싶은 기분이기는 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미 / 중년 교사 / 시오미(서술)",
+        "addressees": [
+          "중년 교사",
+          "시오미"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "서로 존댓말; 서술은 속내를 숨긴 담담한 평서체",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0005",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000147",
+          "source": "数日前、このミッションスクールの",
+          "target": "며칠 전, 이 미션스쿨에서"
+        },
+        {
+          "id": "sub_last00.mjo::000151",
+          "source": "現代国語を担当する教諭に正式な辞令が下った。",
+          "target": "현대국어를 담당하는 교사에게 정식 발령이 내려왔다."
+        },
+        {
+          "id": "sub_last00.mjo::000157",
+          "source": "内容は系列学校への急を要する移動。",
+          "target": "내용은 계열 학교로의 긴급 전근."
+        },
+        {
+          "id": "sub_last00.mjo::000163",
+          "source": "そして空いた我が校の教員には、",
+          "target": "그리고 우리 학교의 빈자리는"
+        },
+        {
+          "id": "sub_last00.mjo::000167",
+          "source": "上条前牧師の紹介で非常勤講師が採用された。",
+          "target": "전임 목사인 가미조의 소개로 채용된 시간강사가 맡게 되었다."
+        },
+        {
+          "id": "sub_last00.mjo::000173",
+          "source": "…名前は槙野慶吾。",
+          "target": "…이름은 마키노 게이고."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "냉정한 1인칭 서술",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0006",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000178",
+          "source": "書類の改ざんだの上条への教師の当ての相談だので、",
+          "target": "서류를 조작하고 가미조에게 교사를 소개해 달라 부탁하느라"
+        },
+        {
+          "id": "sub_last00.mjo::000182",
+          "source": "多少の骨は折れたが…",
+          "target": "다소 수고가 들기는 했지만…"
+        },
+        {
+          "id": "sub_last00.mjo::000188",
+          "source": "――全ては計画通りだった。",
+          "target": "――모든 것이 계획대로였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "계산적인 평서체",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0007",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000197",
+          "source": "このように悠絵の誕生日に向け、",
+          "target": "이렇게 유에의 생일을 앞두고"
+        },
+        {
+          "id": "sub_last00.mjo::000201",
+          "source": "準備は着々と進行していた。",
+          "target": "준비는 착착 진행되고 있었다."
+        },
+        {
+          "id": "sub_last00.mjo::000209",
+          "source": "「（さて、次にすべきは…）」",
+          "target": "「(자, 다음에 할 일은…)」"
+        },
+        {
+          "id": "sub_last00.mjo::000215",
+          "source": "そうして考え事をしていた所為だろう。",
+          "target": "그렇게 생각에 잠겨 있었기 때문이리라."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백·서술)",
+        "addressees": [],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "계획을 점검하는 독백",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0008",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000223",
+          "source": "どんっ、",
+          "target": "쿵,"
+        },
+        {
+          "id": "sub_last00.mjo::000234",
+          "source": "「きゃっ？」",
+          "target": "「꺅?」"
+        },
+        {
+          "id": "sub_last00.mjo::000240",
+          "source": "廊下の曲がり際に、",
+          "target": "복도 모퉁이를 돌다가"
+        },
+        {
+          "id": "sub_last00.mjo::000244",
+          "source": "人にぶつかるという失態を演じてしまっていた。",
+          "target": "다른 사람과 부딪치는 실수를 저지르고 말았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술) / 마호코",
+        "addressees": [
+          "불특정 주변"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "서술과 놀란 짧은 비명 분리",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0009",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000251",
+          "source": "「申し訳ありません、大丈夫でしたか？」",
+          "target": "「죄송합니다. 괜찮으십니까?」"
+        },
+        {
+          "id": "sub_last00.mjo::000257",
+          "source": "そう声を掛けたところで、私は目を見張った。",
+          "target": "그렇게 말을 걸던 나는 눈을 크게 떴다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미 / 시오미(서술)",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "상대를 아직 알아보기 전 정중한 사과",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0010",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000271",
+          "source": "「あ、汐見先生。",
+          "target": "「아, 시오미 선생님."
+        },
+        {
+          "id": "sub_last00.mjo::000275",
+          "source": "　すみません、ちょっとよそ見してたもので…」",
+          "target": "　죄송해요. 잠깐 한눈을 팔아서…」"
+        },
+        {
+          "id": "sub_last00.mjo::000281",
+          "source": "何と、ぶつかった相手は羽鳥真帆子だった。",
+          "target": "놀랍게도 부딪친 상대는 하토리 마호코였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코 / 시오미(서술)",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "교사에게 부드러운 존댓말",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0011",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000286",
+          "source": "悠絵を受肉する器の第一候補。",
+          "target": "유에가 육신을 얻을 그릇의 첫 번째 후보."
+        },
+        {
+          "id": "sub_last00.mjo::000292",
+          "source": "第二候補の春日井詩菜とは些か面識があるが、",
+          "target": "두 번째 후보인 가스가이 시이나와는 조금 안면이 있지만,"
+        },
+        {
+          "id": "sub_last00.mjo::000296",
+          "source": "私は羽鳥真帆子との個人的な接触が殆どない。",
+          "target": "하토리 마호코와는 개인적으로 접촉한 적이 거의 없다."
+        },
+        {
+          "id": "sub_last00.mjo::000302",
+          "source": "データの上では調べ上げているものの、",
+          "target": "자료상으로는 샅샅이 조사해 두었지만,"
+        },
+        {
+          "id": "sub_last00.mjo::000306",
+          "source": "少し接触しておいてもよかろう。",
+          "target": "직접 접촉해 두는 것도 나쁘지 않겠지."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "대상을 분석하는 냉정한 평서체",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0012",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000320",
+          "source": "「神父様にぶつかるなんて、罰当たりなことを…」",
+          "target": "「신부님께 부딪치다니, 벌받을 짓을…」"
+        },
+        {
+          "id": "sub_last00.mjo::000328",
+          "source": "「ははっ、私は牧師ですよ」",
+          "target": "「하하, 저는 목사랍니다」"
+        },
+        {
+          "id": "sub_last00.mjo::000343",
+          "source": "「あぁっ！？　重ね重ねごめんなさいっ」",
+          "target": "「아앗!? 거듭 죄송해요!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코 / 시오미",
+        "addressees": [
+          "시오미",
+          "마호코"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "마호코는 당황한 존댓말, 시오미는 부드러운 정정",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0013",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000353",
+          "source": "ぺこぺこと頭を下げる羽鳥真帆子に、",
+          "target": "연신 고개를 숙이는 하토리 마호코에게"
+        },
+        {
+          "id": "sub_last00.mjo::000357",
+          "source": "プロテスタントとカトリックの違いをごく簡単に説く。",
+          "target": "개신교와 가톨릭의 차이를 아주 간단하게 설명한다."
+        },
+        {
+          "id": "sub_last00.mjo::000363",
+          "source": "私には特にこだわりもないが、",
+          "target": "나는 딱히 개의치 않지만,"
+        },
+        {
+          "id": "sub_last00.mjo::000367",
+          "source": "ごく自然な話題の流れとしては都合がいい。",
+          "target": "자연스럽게 이야기를 이어 가기에는 좋은 화제였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "계산적인 담담한 서술",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0014",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000372",
+          "source": "会話の反応から",
+          "target": "대화 중 보이는 반응을 살피며"
+        },
+        {
+          "id": "sub_last00.mjo::000376",
+          "source": "緊張をほぐすように誘導し、観察する。",
+          "target": "긴장을 풀도록 유도하고 관찰한다."
+        },
+        {
+          "id": "sub_last00.mjo::000382",
+          "source": "羽鳥真帆子は、かなりおっとりとした性格のようだ。",
+          "target": "하토리 마호코는 상당히 느긋한 성격인 듯하다."
+        },
+        {
+          "id": "sub_last00.mjo::000386",
+          "source": "悠絵とも似てるようで、まるで違う…",
+          "target": "유에와 닮은 듯하면서도 전혀 다르다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "대상 관찰의 평서체",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0015",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000400",
+          "source": "「なるほどぉ、勉強になりました」",
+          "target": "「그렇구나아, 덕분에 하나 배웠어요」"
+        },
+        {
+          "id": "sub_last00.mjo::000406",
+          "source": "言葉そのままに感心の声をあげる。",
+          "target": "말 그대로 감탄하는 목소리를 낸다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코 / 시오미(서술)",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "마호코의 부드러운 늘임과 존댓말",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0016",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000413",
+          "source": "「ところで、何故よそ見をされてたのですか？」",
+          "target": "「그런데 왜 한눈을 팔고 계셨나요?」"
+        },
+        {
+          "id": "sub_last00.mjo::000428",
+          "source": "「あっ、そうでした」",
+          "target": "「아, 맞다」"
+        },
+        {
+          "id": "sub_last00.mjo::000436",
+          "source": "「？」",
+          "target": "「?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미 / 마호코",
+        "addressees": [
+          "마호코",
+          "시오미"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "시오미는 존댓말 질문, 마호코는 혼잣말 반응",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0017",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000450",
+          "source": "「実は信く…じゃなくて三沢君…",
+          "target": "「사실 신… 아니, 미사와…"
+        },
+        {
+          "id": "sub_last00.mjo::000454",
+          "source": "　えっと、クラスの友達なんですけど」",
+          "target": "　그러니까 같은 반 친구인데요」"
+        },
+        {
+          "id": "sub_last00.mjo::000469",
+          "source": "「掃除当番をサボってどこかに行っちゃって…",
+          "target": "「청소 당번을 빼먹고 어디론가 가 버려서…"
+        },
+        {
+          "id": "sub_last00.mjo::000473",
+          "source": "　麻咲ちゃ…じゃなくて、",
+          "target": "　마사키… 아니,"
+        },
+        {
+          "id": "sub_last00.mjo::000477",
+          "source": "　吉森さんってクラスの子がカンカンになってて…」",
+          "target": "　요시모리라는 같은 반 애가 잔뜩 화가 나 있거든요…」"
+        },
+        {
+          "id": "sub_last00.mjo::000483",
+          "source": "ふぅっと息をつく。",
+          "target": "후우, 하고 한숨을 쉰다."
+        },
+        {
+          "id": "sub_last00.mjo::000489",
+          "source": "懐かしい名前だ、吉森麻咲も同じクラスだったか。",
+          "target": "그리운 이름이다. 요시모리 마사키도 같은 반이었던가."
+        },
+        {
+          "id": "sub_last00.mjo::000493",
+          "source": "いや、それはさておき…",
+          "target": "아니, 그건 그렇다 치고…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코 / 시오미(서술)",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "교사 앞에서 친구의 애칭을 성으로 고쳐 부르는 존댓말",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0018",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000500",
+          "source": "「まったく…困ったものですね。",
+          "target": "「정말… 남에게 폐를 끼치는 건 생각도 안 하는"
+        },
+        {
+          "id": "sub_last00.mjo::000504",
+          "source": "　他人の迷惑を顧みない自分勝手な生徒は」",
+          "target": "　제멋대로인 학생들은 곤란하지요」"
+        },
+        {
+          "id": "sub_last00.mjo::000510",
+          "source": "羽鳥真帆子の共感を得る為、",
+          "target": "하토리 마호코의 공감을 얻으려고"
+        },
+        {
+          "id": "sub_last00.mjo::000514",
+          "source": "少し大袈裟に同意してみせる。",
+          "target": "조금 과장해서 맞장구를 쳐 준다."
+        },
+        {
+          "id": "sub_last00.mjo::000520",
+          "source": "しかし…",
+          "target": "그런데…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미 / 시오미(서술)",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "공감을 가장한 부드러운 존댓말",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0019",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000534",
+          "source": "「えっと…」",
+          "target": "「저기…」"
+        },
+        {
+          "id": "sub_last00.mjo::000542",
+          "source": "「（なんだ…？）」",
+          "target": "「(뭐지…?)」"
+        },
+        {
+          "id": "sub_last00.mjo::000548",
+          "source": "何故か彼女は、",
+          "target": "어째서인지 그녀는"
+        },
+        {
+          "id": "sub_last00.mjo::000552",
+          "source": "困ったような顔でこちらを見上げていた。",
+          "target": "난처한 표정으로 나를 올려다보고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코 / 시오미(독백·서술)",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "마호코의 머뭇거림과 시오미의 내적 의문",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0020",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000559",
+          "source": "「どうかされましたか？」",
+          "target": "「무슨 일인가요?」"
+        },
+        {
+          "id": "sub_last00.mjo::000574",
+          "source": "「その、上手く言えないんですけど、",
+          "target": "「그게, 뭐라고 설명해야 할지 모르겠는데요,"
+        },
+        {
+          "id": "sub_last00.mjo::000578",
+          "source": "　信くんの場合はそういうのじゃなくて…」",
+          "target": "　신이는 그런 게 아니라…」"
+        },
+        {
+          "id": "sub_last00.mjo::000584",
+          "source": "…最初、何が言いたいのか分からなかった。",
+          "target": "…처음에는 무슨 말을 하려는지 알 수 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미 / 마호코 / 시오미(서술)",
+        "addressees": [
+          "마호코",
+          "시오미"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "서로 존댓말, 마호코는 신야의 애칭 신 사용",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0021",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000598",
+          "source": "「めんどくさいのもあると思うんですけど、",
+          "target": "「귀찮은 것도 있겠지만,"
+        },
+        {
+          "id": "sub_last00.mjo::000602",
+          "source": "　わたしたちの反応を見て面白がってるって言うか」",
+          "target": "　저희 반응을 보고 재밌어한다고 해야 하나」"
+        },
+        {
+          "id": "sub_last00.mjo::000617",
+          "source": "「決して自分勝手とかそれだけじゃなくて…」",
+          "target": "「절대로 그냥 자기밖에 몰라서 그러는 건 아니에요…」"
+        },
+        {
+          "id": "sub_last00.mjo::000623",
+          "source": "途中でようやく気づく。",
+          "target": "듣다 보니 비로소 깨달았다."
+        },
+        {
+          "id": "sub_last00.mjo::000627",
+          "source": "彼女は、そのクラスメイトの弁明をしてるのだ。",
+          "target": "그녀는 그 반 친구를 변호하고 있는 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코 / 시오미(서술)",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "친구를 조심스럽지만 분명히 두둔하는 존댓말",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0022",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000632",
+          "source": "この一見おっとりとした彼女が",
+          "target": "얼핏 보기에는 그저 느긋해 보이는 그녀가"
+        },
+        {
+          "id": "sub_last00.mjo::000636",
+          "source": "目上の立場である私に対し、わざわざ…",
+          "target": "윗사람인 내게 굳이 그런 말을 하다니…"
+        },
+        {
+          "id": "sub_last00.mjo::000642",
+          "source": "それは、なかなか簡単な事ではない。",
+          "target": "그리 쉬운 일은 아니다."
+        },
+        {
+          "id": "sub_last00.mjo::000648",
+          "source": "むしろ私はそこまで弁護する",
+          "target": "오히려 나는 그녀가 그토록 감싸는"
+        },
+        {
+          "id": "sub_last00.mjo::000652",
+          "source": "そのクラスメイトの方が気になった。",
+          "target": "그 반 친구가 궁금해졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "의외의 반응을 분석하는 평서체",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0023",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000659",
+          "source": "「いや、申し訳ありませんでした。",
+          "target": "「아니, 제가 실례했습니다."
+        },
+        {
+          "id": "sub_last00.mjo::000663",
+          "source": "　詳しいことも知らずに勝手な事を」",
+          "target": "　자세히 알지도 못하면서 함부로 말했군요」"
+        },
+        {
+          "id": "sub_last00.mjo::000671",
+          "source": "「しかし、随分とその友達のこと、",
+          "target": "「그런데 그 친구를"
+        },
+        {
+          "id": "sub_last00.mjo::000675",
+          "source": "　分かってあげてるのですね」",
+          "target": "　참 잘 이해하고 계시는군요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "정중한 사과와 탐색하는 질문",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0024",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000689",
+          "source": "「昔から知ってる…",
+          "target": "「예전부터 알고 지내서…"
+        },
+        {
+          "id": "sub_last00.mjo::000693",
+          "source": "　その、幼なじみみたいなもので」",
+          "target": "　그, 소꿉친구 같은 사이거든요」"
+        },
+        {
+          "id": "sub_last00.mjo::000701",
+          "source": "「………ほぅ…」",
+          "target": "「………호오…」"
+        },
+        {
+          "id": "sub_last00.mjo::000707",
+          "source": "…そんな存在がいるとは知らなかった。",
+          "target": "…그런 사람이 있다는 건 몰랐다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코 / 시오미 / 시오미(서술)",
+        "addressees": [
+          "시오미",
+          "마호코"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "마호코는 머뭇거리는 존댓말, 시오미는 관심을 보이는 짧은 반응",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0025",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000721",
+          "source": "「じゃあ汐見先生、わたしはそろそろ…」",
+          "target": "「그럼 시오미 선생님, 저는 이만…」"
+        },
+        {
+          "id": "sub_last00.mjo::000729",
+          "source": "「いえいえ、",
+          "target": "「아닙니다,"
+        },
+        {
+          "id": "sub_last00.mjo::000733",
+          "source": "　お時間を取らせてしまってすみませんでした」",
+          "target": "　시간을 빼앗아서 미안합니다」"
+        },
+        {
+          "id": "sub_last00.mjo::000748",
+          "source": "「さようならっ」",
+          "target": "「안녕히 계세요!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코 / 시오미",
+        "addressees": [
+          "시오미",
+          "마호코"
+        ],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "상호 존댓말 인사",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0026",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000758",
+          "source": "頭を下げて去って行く羽鳥真帆子。",
+          "target": "고개를 숙이고 떠나가는 하토리 마호코."
+        },
+        {
+          "id": "sub_last00.mjo::000764",
+          "source": "しかし…",
+          "target": "하지만…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "담담한 평서체",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0027",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000775",
+          "source": "「（同じクラスの…三沢…）」",
+          "target": "「(같은 반의… 미사와…)」"
+        },
+        {
+          "id": "sub_last00.mjo::000781",
+          "source": "記憶に刻んだその名前。",
+          "target": "그 이름을 기억에 새겼다."
+        },
+        {
+          "id": "sub_last00.mjo::000785",
+          "source": "すぐさま私は彼の事を調べる事になった。",
+          "target": "나는 곧바로 그에 대해 조사하게 되었다."
+        },
+        {
+          "id": "sub_last00.mjo::000791",
+          "source": "羽鳥真帆子の言う通り、",
+          "target": "하토리 마호코의 말대로,"
+        },
+        {
+          "id": "sub_last00.mjo::000795",
+          "source": "幼なじみでマンションの同じフロアに住む同級生。",
+          "target": "소꿉친구이자 아파트 같은 층에 사는 동급생."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백·서술)",
+        "addressees": [],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "계산적인 내적 독백",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last00.mjo::u0028",
+      "fields": [
+        {
+          "id": "sub_last00.mjo::000800",
+          "source": "三沢信哉――",
+          "target": "미사와 신야――"
+        },
+        {
+          "id": "sub_last00.mjo::000806",
+          "source": "その存在が後々私の前に立ち塞がる事になろうとは、",
+          "target": "그가 훗날 내 앞을 가로막게 되리라고는,"
+        },
+        {
+          "id": "sub_last00.mjo::000810",
+          "source": "この時の私はまだ知る由もなかった…",
+          "target": "이때의 나는 아직 알 도리가 없었다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 동료 교사에게 격식 있는 존댓말, 마호코에게 목사·교사로서 온화한 존댓말을 사용한다. 마호코는 교사에게 존댓말. 서술은 시오미의 냉정하고 계산적인 1인칭.",
+        "story_phase": "부가 시나리오: 유에 생일을 앞둔 시오미의 준비와 마호코 면담",
+        "voice": "미래를 회고하는 담담한 서술",
+        "context_evidence": "sub_last00 전체 28구간 및 sub_last01 첫 12구간 확인. 단일 unit 내부의 교사/시오미/마호코 전환과 서술을 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "悠絵",
+      "target": "유에",
+      "evidence": [
+        "last_kako04.mjo display_literal ゆえ",
+        "last_gendai03.mjo 대사 ゆ…悠絵？ ゆえっ…！"
+      ],
+      "status": "source reading verified; coordinator informed"
+    },
+    {
+      "source": "汐見",
+      "target": "시오미",
+      "evidence": [
+        "sina_19_2.mjo 대사 しおみ…せんせい"
+      ],
+      "status": "source reading verified"
+    },
+    {
+      "source": "上条",
+      "target": "가미조",
+      "evidence": [
+        "kureha_18.mjo::004749 かみじょう"
+      ],
+      "status": "coordinator agreed"
+    },
+    {
+      "source": "受肉 / 器",
+      "target": "육신을 얻다 / 그릇",
+      "evidence": [
+        "sub_last00.mjo::u0011"
+      ],
+      "status": "sentence meaning retained; concept noun 육화 proposal remains for coordinator"
+    }
+  ],
+  "inline_records": [],
+  "review_notes": [
+    "마호코→시오미와 시오미→마호코 모두 존댓말. u0017의 애칭→성 수정은 유지하고 내부 speaker_token은 제외.",
+    "u0018 완결 대사 두 필드의 한국어 어순을 재배치해 자연스럽게 연결. 원문 의미와 필드 수 유지.",
+    "실제 화면 줄바꿈은 runtime_pending."
+  ]
+}

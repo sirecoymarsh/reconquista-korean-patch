@@ -1,0 +1,38 @@
+[
+  {
+    "status": "generated",
+    "sha256": "61D13F77E3956ACD34C492DD69A6A670639D5F6A07545D0A1CD2686310DCD8B9",
+    "output_hint": "Generated images are saved to P:\\AI\\Codex\\generated_images\\01a171d6-8876-7860-97fd-33aac354fca7 as P:\\AI\\Codex\\generated_images\\01a171d6-8876-7860-97fd-33aac354fca7\\exec-b0a8e1e4-689a-4aeb-afa1-18bc0855fb64.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "key": "f0c64e55",
+    "tool_source": "P:\\AI\\Codex\\generated_images\\01a171d6-8876-7860-97fd-33aac354fca7\\exec-b0a8e1e4-689a-4aeb-afa1-18bc0855fb64.png",
+    "generated_path": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\priority2\\generated\\g07-f0c64e55-v1.png",
+    "group": 7
+  },
+  {
+    "status": "generated",
+    "sha256": "5E648417BC59DD78F92CC9A56F987DA1F49CC055CAAB9BBE32C0F79F29E280AB",
+    "output_hint": "Generated images are saved to P:\\AI\\Codex\\generated_images\\01a171d6-8876-7860-97fd-33aac354fca7 as P:\\AI\\Codex\\generated_images\\01a171d6-8876-7860-97fd-33aac354fca7\\exec-79cf6c2c-e138-4565-aa6e-501df2713916.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "key": "56b145e1",
+    "tool_source": "P:\\AI\\Codex\\generated_images\\01a171d6-8876-7860-97fd-33aac354fca7\\exec-79cf6c2c-e138-4565-aa6e-501df2713916.png",
+    "generated_path": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\priority2\\generated\\g08-56b145e1-v1.png",
+    "group": 8
+  },
+  {
+    "status": "generated",
+    "sha256": "91F4AE02EEE49CCBB5AC52FFCB6FA6D3F9047958A772209BD081E5F278581B68",
+    "output_hint": "Generated images are saved to P:\\AI\\Codex\\generated_images\\01a171d6-8876-7860-97fd-33aac354fca7 as P:\\AI\\Codex\\generated_images\\01a171d6-8876-7860-97fd-33aac354fca7\\exec-574715f5-44eb-4bc9-82b5-1dfaa33b24f7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "key": "2a91fe77",
+    "tool_source": "P:\\AI\\Codex\\generated_images\\01a171d6-8876-7860-97fd-33aac354fca7\\exec-574715f5-44eb-4bc9-82b5-1dfaa33b24f7.png",
+    "generated_path": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\priority2\\generated\\g09-2a91fe77-v1.png",
+    "group": 9
+  },
+  {
+    "status": "generated",
+    "sha256": "72618BE7D32D36A5D6ABD1B99E0910D30CDF6B2DB293DECE42700DE5BBA15542",
+    "output_hint": "Generated images are saved to P:\\AI\\Codex\\generated_images\\01a171d6-8876-7860-97fd-33aac354fca7 as P:\\AI\\Codex\\generated_images\\01a171d6-8876-7860-97fd-33aac354fca7\\exec-500032a6-c1ac-458b-8edc-b3c9478afb3e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "key": "c12e54c8",
+    "tool_source": "P:\\AI\\Codex\\generated_images\\01a171d6-8876-7860-97fd-33aac354fca7\\exec-500032a6-c1ac-458b-8edc-b3c9478afb3e.png",
+    "generated_path": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\priority2\\generated\\g10-c12e54c8-v1.png",
+    "group": 10
+  }
+]

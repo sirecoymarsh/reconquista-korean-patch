@@ -1,0 +1,167 @@
+{
+  "target": "config_off.rct top return button",
+  "roi": [
+    615,
+    20,
+    120,
+    20
+  ],
+  "known_pixels": 995,
+  "method": "Discovery-only stable masked red-channel NCC across coherent uniformly resized original donors; fixed mask and minimum variance. RGB affine residual reported, no reconstruction accepted.",
+  "tested_positions_peaks": 216,
+  "elapsed_seconds": 1.16,
+  "top": [
+    {
+      "donor": "レイアウトサンプル",
+      "scale": 2,
+      "xy": [
+        357,
+        152
+      ],
+      "ncc": 0.43480805578747217,
+      "affine_rgb_rmse": 13.406426092632726
+    },
+    {
+      "donor": "レイアウトサンプル",
+      "scale": 2,
+      "xy": [
+        357,
+        151
+      ],
+      "ncc": 0.42845012884873196,
+      "affine_rgb_rmse": 13.461925540324291
+    },
+    {
+      "donor": "レイアウトサンプル",
+      "scale": 2,
+      "xy": [
+        358,
+        152
+      ],
+      "ncc": 0.42110335090733525,
+      "affine_rgb_rmse": 13.39870094792181
+    },
+    {
+      "donor": "選択肢台",
+      "scale": 2,
+      "xy": [
+        1099,
+        564
+      ],
+      "ncc": 0.4170591231984412,
+      "affine_rgb_rmse": 13.462198898335595
+    },
+    {
+      "donor": "レイアウトサンプル",
+      "scale": 2,
+      "xy": [
+        358,
+        151
+      ],
+      "ncc": 0.41632465606905256,
+      "affine_rgb_rmse": 13.442562453998887
+    },
+    {
+      "donor": "askyesno_base",
+      "scale": 2,
+      "xy": [
+        751,
+        622
+      ],
+      "ncc": 0.4156488240730551,
+      "affine_rgb_rmse": 13.574108038030404
+    },
+    {
+      "donor": "askyesno_base",
+      "scale": 2,
+      "xy": [
+        750,
+        622
+      ],
+      "ncc": 0.4147274533335082,
+      "affine_rgb_rmse": 13.564558414678515
+    },
+    {
+      "donor": "選択肢台",
+      "scale": 2,
+      "xy": [
+        1099,
+        563
+      ],
+      "ncc": 0.41186133235467215,
+      "affine_rgb_rmse": 13.29336542967251
+    },
+    {
+      "donor": "選択肢台",
+      "scale": 2,
+      "xy": [
+        1098,
+        564
+      ],
+      "ncc": 0.41142417432415823,
+      "affine_rgb_rmse": 13.563498328968127
+    },
+    {
+      "donor": "選択肢台",
+      "scale": 2,
+      "xy": [
+        1071,
+        167
+      ],
+      "ncc": 0.41085060962645187,
+      "affine_rgb_rmse": 13.456113208167523
+    },
+    {
+      "donor": "askyesno_base",
+      "scale": 2,
+      "xy": [
+        1073,
+        405
+      ],
+      "ncc": 0.41085060962645187,
+      "affine_rgb_rmse": 13.456113208167523
+    },
+    {
+      "donor": "選択肢台",
+      "scale": 1.5,
+      "xy": [
+        646,
+        420
+      ],
+      "ncc": 0.4096980545648187,
+      "affine_rgb_rmse": 13.685859317544708
+    },
+    {
+      "donor": "askyesno_base",
+      "scale": 2,
+      "xy": [
+        751,
+        761
+      ],
+      "ncc": 0.4076991932361644,
+      "affine_rgb_rmse": 13.559803811788033
+    },
+    {
+      "donor": "askyesno_base",
+      "scale": 2,
+      "xy": [
+        751,
+        621
+      ],
+      "ncc": 0.4071430900240134,
+      "affine_rgb_rmse": 13.593165772352217
+    },
+    {
+      "donor": "askyesno_base",
+      "scale": 2,
+      "xy": [
+        750,
+        762
+      ],
+      "ncc": 0.4067650526268552,
+      "affine_rgb_rmse": 13.607727501613217
+    }
+  ],
+  "accepted_donor": null,
+  "asset_modified": false
+}

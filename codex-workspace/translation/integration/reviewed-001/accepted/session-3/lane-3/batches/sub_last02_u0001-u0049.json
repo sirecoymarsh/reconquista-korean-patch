@@ -1,0 +1,1306 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-3/lane-3",
+  "coordinator_thread_id": "01a16335-c355-7c83-ad79-53e1812faa34",
+  "agent_id": "01a16337-be36-71c2-8fc8-21283490b7f0",
+  "agent_task": "/root/lane_3",
+  "source_script": "sub_last02.mjo",
+  "source_sha256": "1bb197ebf0a2617dd1760461ba1b6a5e7a4f2fe1f0b88e6f69850ebe97b99dc5",
+  "source_packet_sha256": "3e8700c8f7eac1d7a5630ffa7bb218f1d756c78ca082d9ce5c0b52f414085275",
+  "records": [
+    {
+      "unit": "sub_last02.mjo::u0001",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000030",
+          "source": "まずはかつて祖父の話していた、",
+          "target": "우선 예전에 할아버지가 말씀하셨던,"
+        },
+        {
+          "id": "sub_last02.mjo::000034",
+          "source": "反魂の法について調べよう――",
+          "target": "반혼술에 대해 알아보자――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "혼자 생각을 정리하는 반말",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0002",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000039",
+          "source": "僕はそう考えて、早速行動に移すことにした。",
+          "target": "그렇게 생각한 나는 곧바로 행동에 옮기기로 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0003",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000051",
+          "source": "長いこと空き家にしていた実家に戻ると、",
+          "target": "오랫동안 비워 두었던 본가로 돌아가,"
+        },
+        {
+          "id": "sub_last02.mjo::000055",
+          "source": "祖父の遺品を整理して何か手がかりがないか調べ始める。",
+          "target": "할아버지의 유품을 정리하며 단서가 없는지 찾기 시작했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0004",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000060",
+          "source": "詳しいことは知らないが、祖父は故郷の村を出て、",
+          "target": "자세한 사정은 모르지만, 할아버지는 고향 마을을 떠나"
+        },
+        {
+          "id": "sub_last02.mjo::000064",
+          "source": "こっちの方に出稼ぎに行ってた頃に祖母と知り合い…",
+          "target": "이 근처로 돈을 벌러 오셨을 때 할머니를 만나…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0005",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000069",
+          "source": "そのまま二人は結婚して、",
+          "target": "그대로 두 분이 결혼해서,"
+        },
+        {
+          "id": "sub_last02.mjo::000073",
+          "source": "こっちで暮らし始めたのだとか。",
+          "target": "이곳에 살기 시작하셨다고 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0006",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000080",
+          "source": "「ん？　これは…日記か」",
+          "target": "「응? 이건… 일기인가」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "혼자 생각을 정리하는 반말",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0007",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000085",
+          "source": "遺品の中にあった立派な革表紙の書物を開いてみると、",
+          "target": "유품 중에 있던 근사한 가죽 표지의 책을 펼치자,"
+        },
+        {
+          "id": "sub_last02.mjo::000089",
+          "source": "手書きの文字がびっしりと書かれていた。",
+          "target": "손으로 쓴 글씨가 빼곡했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0008",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000094",
+          "source": "それはかなりの厚さで、",
+          "target": "꽤 두꺼운 책이라,"
+        },
+        {
+          "id": "sub_last02.mjo::000098",
+          "source": "一冊で３年分くらいはありそうだ。",
+          "target": "한 권에 3년 치 정도는 될 듯하다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0009",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000103",
+          "source": "しかも同じような本が４，５冊はある。",
+          "target": "게다가 비슷한 책이 4~5권이나 있다."
+        },
+        {
+          "id": "sub_last02.mjo::000107",
+          "source": "毎日書き記していたとすれば１０年分以上はあるだろう。",
+          "target": "매일 적으셨다면 10년 치는 넘을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0010",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000112",
+          "source": "名前を確認すると確かに祖父のものであり、",
+          "target": "이름을 확인하니 분명 할아버지의 것이었고,"
+        },
+        {
+          "id": "sub_last02.mjo::000116",
+          "source": "恐らくこれらは祖父の日記に間違いなかった。",
+          "target": "아마 이 책들은 할아버지의 일기가 틀림없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0011",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000123",
+          "source": "「あの時の昔話について、何か書かれていないか…」",
+          "target": "「그때 들려주신 옛날이야기에 대해 뭔가 적혀 있지 않을까…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "혼자 생각을 정리하는 반말",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0012",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000128",
+          "source": "祖父から反魂の法の話を聞いたのは、",
+          "target": "할아버지에게 반혼술 이야기를 들은 건,"
+        },
+        {
+          "id": "sub_last02.mjo::000132",
+          "source": "確か祖父が亡くなる前の年の夏のことだった。",
+          "target": "분명 할아버지가 돌아가시기 전해 여름이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0013",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000137",
+          "source": "祖父は元々、",
+          "target": "할아버지는 원래"
+        },
+        {
+          "id": "sub_last02.mjo::000141",
+          "source": "祖母と一緒にここから遠くの町で暮らしていた。",
+          "target": "할머니와 함께 이곳에서 먼 동네에 살고 계셨다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0014",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000146",
+          "source": "しかし今から１０年以上前、祖母が死んだのをきっかけに、",
+          "target": "그러다 지금으로부터 10년도 더 전, 할머니가 돌아가시자,"
+        },
+        {
+          "id": "sub_last02.mjo::000150",
+          "source": "父が祖父と同居することを決めた。",
+          "target": "아버지가 할아버지를 모시기로 결정했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0015",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000155",
+          "source": "だがその祖父も祖母が死んだ後はめっきり老け込んで、",
+          "target": "하지만 할아버지도 할머니가 돌아가신 뒤로 부쩍 늙으셔서,"
+        },
+        {
+          "id": "sub_last02.mjo::000159",
+          "source": "それから２年も経たない内に後を追うように亡くなった。",
+          "target": "그로부터 2년도 못 되어 뒤따르듯 세상을 떠나셨다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0016",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000164",
+          "source": "祖父から反魂の法のことを聞いたのは、",
+          "target": "할아버지에게 반혼술 이야기를 들은 건,"
+        },
+        {
+          "id": "sub_last02.mjo::000168",
+          "source": "その２年足らずの同居生活の間でのことだ。",
+          "target": "그 2년도 채 안 되는 동거 생활 중의 일이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0017",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000175",
+          "source": "「祖父ちゃんも、祖母ちゃんのことを",
+          "target": "「할아버지도 할머니를"
+        },
+        {
+          "id": "sub_last02.mjo::000179",
+          "source": "　生き返らせたいと思ったのかもしれない」",
+          "target": "　되살리고 싶으셨는지도 몰라」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "혼자 생각을 정리하는 반말",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0018",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000184",
+          "source": "ほとんど部屋に篭りっきりで、",
+          "target": "거의 방에 틀어박혀,"
+        },
+        {
+          "id": "sub_last02.mjo::000188",
+          "source": "毎日祖母の遺影をただじっと見つめるばかりだった祖父…",
+          "target": "날마다 할머니의 영정만 가만히 바라보시던 할아버지…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0019",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000193",
+          "source": "そんな祖父が珍しく僕を部屋に呼んで、",
+          "target": "그런 할아버지가 드물게 나를 방으로 불러,"
+        },
+        {
+          "id": "sub_last02.mjo::000197",
+          "source": "昔話を聞かせてくれた。",
+          "target": "옛날이야기를 들려주셨다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0020",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000202",
+          "source": "それが祖父の故郷に伝わるという、",
+          "target": "그것이 할아버지의 고향에 전해진다는,"
+        },
+        {
+          "id": "sub_last02.mjo::000206",
+          "source": "死者を蘇らせる反魂の法の話だった。",
+          "target": "죽은 이를 되살리는 반혼술 이야기였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0021",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000215",
+          "source": "詳しい内容はもうほとんど忘れてしまったが、",
+          "target": "자세한 내용은 이제 거의 잊어버렸지만,"
+        },
+        {
+          "id": "sub_last02.mjo::000219",
+          "source": "ただ一つだけはっきりと覚えていることがある。",
+          "target": "단 하나만은 또렷하게 기억한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0022",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000224",
+          "source": "祖父の話を聞いた当時の僕は、",
+          "target": "할아버지의 이야기를 들은 당시의 나는,"
+        },
+        {
+          "id": "sub_last02.mjo::000228",
+          "source": "無邪気にこう言ったのだ。",
+          "target": "천진하게 이렇게 말했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0023",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000233",
+          "source": "『じゃあ、死んだお祖母ちゃんも生き返らせればいいんだ』",
+          "target": "『그럼 돌아가신 할머니도 되살리면 되겠네』"
+        }
+      ],
+      "context": {
+        "speaker_identity": "어린 시오미(회상 인용)",
+        "addressees": [
+          "할아버지"
+        ],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "어린 손자의 천진한 반말",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0024",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000238",
+          "source": "すると祖父は僕の頭をやさしく撫でながら、",
+          "target": "그러자 할아버지는 내 머리를 다정하게 쓰다듬으며,"
+        },
+        {
+          "id": "sub_last02.mjo::000242",
+          "source": "目にうっすらと涙を浮かべていた…",
+          "target": "눈가에 옅게 눈물을 머금으셨다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0025",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000247",
+          "source": "悠絵が死んでから反魂の法のことを思い出しのも、",
+          "target": "유에가 죽은 뒤 반혼술을 떠올린 것도,"
+        },
+        {
+          "id": "sub_last02.mjo::000251",
+          "source": "その時の祖父が強く印象に残っていたからかもしれない。",
+          "target": "그때의 할아버지가 깊이 기억에 남아 있었기 때문인지 모른다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0026",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000260",
+          "source": "兎にも角にも、僕は片っ端から、",
+          "target": "어쨌든 나는 닥치는 대로"
+        },
+        {
+          "id": "sub_last02.mjo::000264",
+          "source": "祖父の日記に目を通していった。",
+          "target": "할아버지의 일기를 읽어 나갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0027",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000269",
+          "source": "祖父の日記はえらく達筆で解読が困難だったが、",
+          "target": "할아버지의 일기는 무척 유려한 필체라 알아보기 어려웠지만,"
+        },
+        {
+          "id": "sub_last02.mjo::000273",
+          "source": "根気強く読み解いていくしかない。",
+          "target": "끈기 있게 읽어 내는 수밖에 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0028",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000278",
+          "source": "日記の一番古い日付は、約３０年前のもの。",
+          "target": "일기에서 가장 오래된 날짜는 약 30년 전."
+        },
+        {
+          "id": "sub_last02.mjo::000282",
+          "source": "僕が生まれる前の時代だが、",
+          "target": "내가 태어나기 전의 일이지만,"
+        },
+        {
+          "id": "sub_last02.mjo::000286",
+          "source": "それでも祖父の人生においては後期にあたる頃だろう。",
+          "target": "그래도 할아버지의 삶에서는 후반부에 해당할 무렵일 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0029",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000291",
+          "source": "そこから順番にページを捲っていくが、",
+          "target": "거기서부터 차례로 책장을 넘겼지만,"
+        },
+        {
+          "id": "sub_last02.mjo::000295",
+          "source": "僕の知りたい情報はちらりとも出てこなかった。",
+          "target": "내가 알고 싶은 정보는 조금도 나오지 않았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0030",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000300",
+          "source": "それでも諦めず日記帳を古いものから消化していき、",
+          "target": "그래도 포기하지 않고 오래된 일기부터 읽어 치우다,"
+        },
+        {
+          "id": "sub_last02.mjo::000304",
+          "source": "やがて最後の一冊に差し掛かる。",
+          "target": "마침내 마지막 한 권에 접어들었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0031",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000309",
+          "source": "そしてそこに至ってようやく、",
+          "target": "그리고 거기서야 비로소,"
+        },
+        {
+          "id": "sub_last02.mjo::000313",
+          "source": "暗中模索の中に光明が見え始めた。",
+          "target": "어둠 속을 더듬던 내게 한 줄기 빛이 보이기 시작했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0032",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000327",
+          "source": "日付は、祖父が死ぬ前の年の夏辺り…",
+          "target": "날짜는 할아버지가 돌아가시기 전해 여름 무렵…"
+        },
+        {
+          "id": "sub_last02.mjo::000333",
+          "source": "すなわち僕が、",
+          "target": "즉 내가"
+        },
+        {
+          "id": "sub_last02.mjo::000337",
+          "source": "祖父から反魂の法の話を聞いた頃のものだった。",
+          "target": "할아버지에게 반혼술 이야기를 들었을 때였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0033",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000342",
+          "source": "当たり前だが、その日の正確な日付までは覚えていない。",
+          "target": "당연하지만 그날의 정확한 날짜까지 기억하지는 못한다."
+        },
+        {
+          "id": "sub_last02.mjo::000346",
+          "source": "だがそのページに書かれた内容から、",
+          "target": "그러나 그 페이지에 적힌 내용을 보고,"
+        },
+        {
+          "id": "sub_last02.mjo::000350",
+          "source": "間違いなく“その日”の日記だと悟った。",
+          "target": "틀림없이 ‘그날’의 일기라는 걸 깨달았다."
+        },
+        {
+          "id": "sub_last02.mjo::000356",
+          "source": "そこには孫（すなわち僕）に話したことがきっかけで、",
+          "target": "거기에는 손자, 즉 내게 이야기를 들려준 것을 계기로,"
+        },
+        {
+          "id": "sub_last02.mjo::000360",
+          "source": "昔のことを回想する記述が残っていた。",
+          "target": "옛일을 회상하는 글이 남아 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0034",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000365",
+          "source": "それによると祖父は、出稼ぎで故郷の村を出たのではなく、",
+          "target": "그 글에 따르면 할아버지는 돈을 벌러 고향을 떠난 게 아니라,"
+        },
+        {
+          "id": "sub_last02.mjo::000369",
+          "source": "村の禁忌に触れた為に逃げ出してきたのだという。",
+          "target": "마을의 금기를 건드리는 바람에 도망쳐 온 것이었다."
+        },
+        {
+          "id": "sub_last02.mjo::000375",
+          "source": "大工だった祖父は、",
+          "target": "목수였던 할아버지는"
+        },
+        {
+          "id": "sub_last02.mjo::000379",
+          "source": "ある日村の教会の改築に携わった――",
+          "target": "어느 날 마을 교회의 개축에 참여하셨다――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0035",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000388",
+          "source": "その時偶然祭壇の裏にある隠し通路を発見し、",
+          "target": "그때 우연히 제단 뒤의 비밀 통로를 발견하고,"
+        },
+        {
+          "id": "sub_last02.mjo::000392",
+          "source": "地下の蔵に入ってしまったそうだ。",
+          "target": "지하 창고로 들어가 버리셨다고 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0036",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000397",
+          "source": "そこで見たのは、",
+          "target": "그곳에서 보신 것은,"
+        },
+        {
+          "id": "sub_last02.mjo::000401",
+          "source": "濃厚な闇の中に積み上げられた大量の古い書物…",
+          "target": "짙은 어둠 속에 쌓여 있는 수많은 고서…"
+        },
+        {
+          "id": "sub_last02.mjo::000407",
+          "source": "そして一番奥には大きな切り株と、",
+          "target": "그리고 맨 안쪽에는 커다란 그루터기와,"
+        },
+        {
+          "id": "sub_last02.mjo::000411",
+          "source": "その根に包まれた一体のミイラがあった。",
+          "target": "그 뿌리에 감싸인 미라 한 구가 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0037",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000416",
+          "source": "恐ろしくなった祖父は慌てて外へ出たところで",
+          "target": "겁이 난 할아버지는 황급히 밖으로 나오다가,"
+        },
+        {
+          "id": "sub_last02.mjo::000420",
+          "source": "秋月という名の教会の牧師に見つかってしまったという。",
+          "target": "아키즈키라는 이름의 교회 목사에게 들키고 말았다고 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0038",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000425",
+          "source": "祖父は秋月牧師に自分が見たもののことを正直に話した。",
+          "target": "할아버지는 아키즈키 목사에게 자신이 본 것을 솔직히 털어놓았다."
+        },
+        {
+          "id": "sub_last02.mjo::000431",
+          "source": "すると牧師は、",
+          "target": "그러자 목사는"
+        },
+        {
+          "id": "sub_last02.mjo::000435",
+          "source": "それが反魂樹と呼ばれるものであることを説明した。",
+          "target": "그것이 반혼수라 불리는 것이라고 설명했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0039",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000440",
+          "source": "なんでもかつてこの村では",
+          "target": "듣자 하니 옛날 이 마을에서는"
+        },
+        {
+          "id": "sub_last02.mjo::000444",
+          "source": "大陸から伝わってきたという反魂樹を使って、",
+          "target": "대륙에서 전해졌다는 반혼수를 이용해,"
+        },
+        {
+          "id": "sub_last02.mjo::000448",
+          "source": "死者を蘇らせる『反魂の法』を研究していたのだとか。",
+          "target": "죽은 이를 되살리는 『반혼술』을 연구했다고 한다."
+        },
+        {
+          "id": "sub_last02.mjo::000454",
+          "source": "祖父が地下蔵の中で見たものは、",
+          "target": "할아버지가 지하 창고에서 본 것들은"
+        },
+        {
+          "id": "sub_last02.mjo::000458",
+          "source": "全てその研究の産物や資料であるのだという。",
+          "target": "모두 그 연구의 산물과 자료라는 것이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0040",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000463",
+          "source": "それらを聞かされた上で、",
+          "target": "그런 이야기를 들려준 뒤,"
+        },
+        {
+          "id": "sub_last02.mjo::000467",
+          "source": "祖父は秋月牧師にこの村から出て行くよう勧められた。",
+          "target": "아키즈키 목사는 할아버지에게 마을을 떠나라고 권했다."
+        },
+        {
+          "id": "sub_last02.mjo::000473",
+          "source": "代々村の教会の牧師には、",
+          "target": "대대로 마을 교회의 목사에게는"
+        },
+        {
+          "id": "sub_last02.mjo::000477",
+          "source": "反魂の法のことを村人に秘匿する義務があるらしい。",
+          "target": "반혼술을 마을 사람들에게 숨길 의무가 있는 듯했다."
+        },
+        {
+          "id": "sub_last02.mjo::000483",
+          "source": "秋月牧師はその立場上、",
+          "target": "아키즈키 목사는 자신의 입장상,"
+        },
+        {
+          "id": "sub_last02.mjo::000487",
+          "source": "反魂の法の存在を知った祖父を放ってはおけなかった。",
+          "target": "반혼술의 존재를 알게 된 할아버지를 그냥 둘 수 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0041",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000492",
+          "source": "また祖父も、",
+          "target": "할아버지 역시"
+        },
+        {
+          "id": "sub_last02.mjo::000496",
+          "source": "村で特別な権威を持つ牧師には逆らえなかったようだ。",
+          "target": "마을에서 특별한 권위를 지닌 목사를 거역할 수 없었던 모양이다."
+        },
+        {
+          "id": "sub_last02.mjo::000502",
+          "source": "さもないと、悪魔憑きとして告発される恐れがあるから…",
+          "target": "그러지 않으면 악마 들린 자로 고발당할 우려가 있으니까…"
+        },
+        {
+          "id": "sub_last02.mjo::000507",
+          "source": "（ここでは『悪魔憑き』という言葉が",
+          "target": "(여기서 『악마 들린 자』라는 말이"
+        },
+        {
+          "id": "sub_last02.mjo::000511",
+          "source": "　何を指すのかまでは書かれていなかった）",
+          "target": "　무엇을 가리키는지까지는 적혀 있지 않았다.)"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0042",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000516",
+          "source": "結局祖父は牧師に言われた通り、",
+          "target": "결국 할아버지는 목사의 말대로,"
+        },
+        {
+          "id": "sub_last02.mjo::000520",
+          "source": "村からこっそりと逃げ出した。",
+          "target": "몰래 마을을 빠져나왔다."
+        },
+        {
+          "id": "sub_last02.mjo::000526",
+          "source": "そして故郷を捨ててよその土地で暮し始め、",
+          "target": "그리고 고향을 버리고 다른 땅에서 살기 시작해,"
+        },
+        {
+          "id": "sub_last02.mjo::000530",
+          "source": "反魂の法のことを胸に秘めたまま今日まで生きてきた――",
+          "target": "반혼술을 가슴속에 묻어 둔 채 오늘까지 살아오셨다――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0043",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000547",
+          "source": "どうやら村を出奔して以来、祖父は律儀にも、",
+          "target": "아무래도 마을을 떠난 뒤로 할아버지는 우직하게도,"
+        },
+        {
+          "id": "sub_last02.mjo::000551",
+          "source": "反魂の法のことを一切口にしなかったようだ。",
+          "target": "반혼술에 대해서는 일절 입을 열지 않으셨던 모양이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0044",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000556",
+          "source": "あの夏の日…孫である僕に話して聞かせるまでは。",
+          "target": "그해 여름날… 손자인 내게 들려주시기 전까지는."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0045",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000563",
+          "source": "「反魂の法の原典は、祖父の故郷の村にあるらしいな」",
+          "target": "「반혼술의 원전은 할아버지의 고향 마을에 있는 모양이군」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "혼자 생각을 정리하는 반말",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0046",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000568",
+          "source": "祖父の日記を読んで、",
+          "target": "할아버지의 일기를 읽고,"
+        },
+        {
+          "id": "sub_last02.mjo::000572",
+          "source": "僕の中で反魂の法の信憑性が増していた。",
+          "target": "나는 반혼술이 실제로 존재했을 거라는 믿음을 키워 갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0047",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000577",
+          "source": "少なくとも大昔に死んだ人間を生き返らせようという、",
+          "target": "적어도 아주 먼 옛날, 죽은 사람을 되살리려는"
+        },
+        {
+          "id": "sub_last02.mjo::000581",
+          "source": "そんな試みがあったとしてもおかしくはない。",
+          "target": "시도가 있었다고 해도 이상할 건 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0048",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000586",
+          "source": "その辺のことは実際にその村に行って、",
+          "target": "그런 사정은 직접 그 마을로 가서,"
+        },
+        {
+          "id": "sub_last02.mjo::000590",
+          "source": "教会を調べてみればわかることだ。",
+          "target": "교회를 조사해 보면 알 수 있을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "과거를 추적하는 차분한 1인칭 서술",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last02.mjo::u0049",
+      "fields": [
+        {
+          "id": "sub_last02.mjo::000602",
+          "source": "祖父の日記に書かれてあることが事実なら、あるいは――",
+          "target": "할아버지의 일기에 적힌 것이 사실이라면, 어쩌면――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백)",
+        "addressees": [],
+        "relationship": "시오미 자신의 독백과 회고. 일기에서 할아버지의 과거를 읽으며 서술하고, 어린 시절 자신이 할아버지에게 한 말을 따로 인용함.",
+        "story_phase": "부가 과거: 유에를 잃은 시오미가 할아버지의 일기를 통해 반혼술의 행방을 찾음",
+        "voice": "혼자 생각을 정리하는 반말",
+        "context_evidence": "sub_last02 전체 49구간과 다음 sub_last03 12구간을 검토. 시오미가 과거의 1인칭 僕를 사용하는 서술이며 늙은 할아버지의 일기 내용을 간접 서술."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "反魂の法",
+      "target": "반혼술",
+      "evidence": [
+        "sub_last02.mjo::u0020",
+        "조정자 공통결정"
+      ],
+      "status": "coordinator agreed"
+    },
+    {
+      "source": "反魂樹",
+      "target": "반혼수",
+      "evidence": [
+        "sub_last02.mjo::u0038–0039"
+      ],
+      "status": "plot term proposal"
+    },
+    {
+      "source": "秋月",
+      "target": "아키즈키",
+      "evidence": [
+        "sub_last02.mjo::u0037–0040"
+      ],
+      "status": "standard surname reading provisional; voice reading not verified"
+    },
+    {
+      "source": "悪魔憑き",
+      "target": "악마 들린 자",
+      "evidence": [
+        "sub_last02.mjo::u0041"
+      ],
+      "status": "referent deliberately unexplained in source"
+    }
+  ],
+  "inline_records": [],
+  "review_notes": [
+    "u0025 思い出しのも 원문 오탈자 추정은 원문 필드에 그대로 보존; 한국어 의미는 ‘떠올린 것도’로 처리.",
+    "u0041 악마 들린 자의 정체는 원문에서도 알 수 없으므로 독자에게 임의 설명하지 않음."
+  ]
+}

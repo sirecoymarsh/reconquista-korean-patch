@@ -1,0 +1,141 @@
+{
+  "candidate": "opening-video-ko-v5",
+  "translator_model": "Codex internal",
+  "authoring_model": "current Codex internal primary model; precise backend identifier unavailable",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "created_at_utc": "2026-10-23T13:45:57.735679+00:00",
+  "status": "encoded_video_visual_audio_timing_pass_user_game_playback_pending",
+  "frozen": true,
+  "ready_for_integration": true,
+  "release_pass": false,
+  "changes": [
+    "All four upper logo quotation captions removed",
+    "Both small English logo paragraphs replaced in place with compact Korean; high-resolution 4K glyphs",
+    "Intentional in darkness span retained verbatim in both lyric lines"
+  ],
+  "payloads": [
+    {
+      "relative_path": "movie/Recon_OP800_H.mpg",
+      "payload_path": "payloads/movie/Recon_OP800_H.mpg",
+      "source_sha256": "6da04d09fd954c67b004b6cecfe22fd89da473cbf60fd74856d2170a1972995a",
+      "output_sha256": "c8a8fa38cb35517285fc1fad7d1c09990f57199dae7b1f7915bcfd3e576cc719",
+      "output_bytes": 75319680,
+      "codec": "mpeg1video",
+      "dimensions": [
+        800,
+        600
+      ],
+      "fps": 30,
+      "frames": 3037,
+      "audio": "Original MP2 compressed bytes unchanged"
+    }
+  ],
+  "viewing_outputs": [
+    {
+      "path": "viewing/Reconquista_OP_KO_4K.mp4",
+      "sha256": "9f5d21f41c6f028503136269eea6051fa19def4b9dcea63ad278c44f3b260dd4",
+      "bytes": 1025223086,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "user_layout_choice": "16:9 fill the screen and reposition subtitles",
+      "source_crop": [
+        0,
+        75,
+        800,
+        450
+      ],
+      "fps": 30,
+      "frames": 3037,
+      "codec": "H.264 High",
+      "pixel_format": "yuv420p",
+      "color_space": "BT.709 limited",
+      "audio": "Verified v4 AAC packets unchanged",
+      "native_4k_source": false,
+      "processing": "Original SD video cleaned and upscaled; Korean typography/logo and bilingual captions rendered at 4K; original 30 fps motion"
+    }
+  ],
+  "exact_logo_text": "레콘키스타",
+  "logo_master": "../brand-logo-ko-v3/master/reconquista-ko.png",
+  "logo_master_sha256": "81e8e88a31f70f84ab6bafbe33cfad19787b7e5079206c05f094d82eaa2f51ef",
+  "fonts": {
+    "korean": "Eulyoo1945 SemiBold",
+    "japanese": "Noto Serif CJK KR",
+    "font_delivery": "Rasterized only; internal fonts/build-source are not payloads"
+  },
+  "caption_cues": 32,
+  "japanese_lyric_cues": 16,
+  "korean_lyric_cues": 16,
+  "retained_quotation_cues": 0,
+  "in_picture_surfaces": 20,
+  "new_english_credit_surfaces": 6,
+  "name_mappings": 31,
+  "source_listening_provisional_ids": [
+    "op-lyrics::007"
+  ],
+  "restoration": {
+    "quote_clean_frames": 538,
+    "protected_pixel_diff_count": 0,
+    "methods": [
+      "registered original city artwork with observed motion and photometric matching",
+      "surrounding same-frame dark backdrop color surface",
+      "transition donor gradients joined with Poisson boundary matching"
+    ],
+    "transition_roman_brand": "Source glyph alpha retained and reprojected with original motion in 29.7..30.67s transition only",
+    "new_imagegen_assets": 0,
+    "hidden_original_rgb_identical": false,
+    "inherited_cleaning": "Frozen v4 and v3 clean backgrounds and repairs reused"
+  },
+  "verification": {
+    "native_technical": "evidence/technical-validation.json",
+    "four_k_technical": "evidence/4k-technical-validation.json",
+    "visual": "evidence/final-visual-review.json",
+    "native_samples": 44,
+    "four_k_samples": 44,
+    "semantic": "evidence/semantic-gate.json",
+    "build_inputs": "evidence/build-input-hashes.json",
+    "viewer": "evidence/review-viewer-test.json",
+    "four_k_audio_pcm_reuse": "Previously verified AAC reused after matching compressed hash",
+    "four_k_compressed_frames_reused": 2100
+  },
+  "prior_frozen_candidate": "opening-video-ko-v4",
+  "runtime_review": "No game launch, foreground window, input injection, audio playback or Explorer. Actual game playback/listening remains user review.",
+  "scope": "Opening only; ending, game scripts and title-menu assets untouched",
+  "integration": "Game MPEG already integrated into central v16, per central integration evidence. This OP production task performed no installation or game playback. 4K is a separate viewing output.",
+  "preview": "preview/review.html",
+  "inherited_changes": [
+    "카스가이·타무라 examples applied consistently to OP names",
+    "Six English title/role/staff credit panels replaced in the original picture positions",
+    "STARRING → 등장인물; staff roles, names and team names in Korean",
+    "16 simultaneous lyric pairs, Japanese above Korean"
+  ],
+  "quote_layout": {
+    "native_font_size": 9,
+    "line_step": 10.0,
+    "left": 253,
+    "top": 393.3,
+    "lines": [
+      "죽음과 무덤도 불못에 던져졌다.",
+      "이 불못이 곧 둘째 죽음이다.",
+      "생명책에 이름이 기록되지 않은 사람은",
+      "누구든 불못에 던져졌다."
+    ],
+    "four_k": "Separately rasterized at scale 4.8; no enlargement of game glyph bitmap"
+  },
+  "native_completion_manifest": "game-manifest.json",
+  "four_k_rendering": {
+    "method": "128-row float32 logo compositing; 60-frame resumable encodes; one temporal decoder per master span",
+    "new_frames": 937,
+    "compressed_frames_reused": 2100,
+    "chunks": 16,
+    "equivalence_evidence": "evidence/4k-lowmem-equivalence.json"
+  },
+  "central_integration": {
+    "build": "body-ui-20261023-v16-ui-rest",
+    "report": "../../../candidates/ui-rest-v1/opening-v5-integration.json",
+    "evidence_reused": true,
+    "actual_op_playback": "user_pending"
+  },
+  "foreign_language_policy": "Translate Japanese lyric content; preserve intentional foreign spans. Explicit staff/role and logo paragraph translation requests remain applied."
+}

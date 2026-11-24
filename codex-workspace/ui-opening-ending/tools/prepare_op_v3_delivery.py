@@ -1,0 +1,15 @@
+from pathlib import Path
+import json,re,hashlib,sys
+U=Path.cwd();O=U/'candidates/opening-video-ko-v3'
+p=U/'tools/op_v3_compositor.py';s=p.read_text(encoding='utf-8').replace("if k=='profile':ex|=X>400", "if k.startswith('pre-'):ex=~CLIP\n  if k=='profile':ex|=X>400").replace("valid=CLIP&~m&~sm;pred=np.empty(a.shape,np.float32)","valid=(CLIP&~sm) if k.startswith('pre-') else (CLIP&~m&~sm);pred=np.empty(a.shape,np.float32)");p.write_text(s,encoding='utf-8')
+p=U/'tools/op_v3_typeset.py';s=p.read_text(encoding='utf-8').replace("w.line(text,166,y,size,anchor='center',outline=.65)","w.line(text,166,(y-16 if s>3 and y>=448 else y),size,anchor='center',outline=.65)");p.write_text(s,encoding='utf-8')
+p=O/'subtitles/opening-ko.ass';s=p.read_text(encoding='utf-8');drop={'mahoko','shiina','masaki','momiji','theme-song','kureha','cast-main','cast-support','cast-yue','movie','director'};lines=[l for l in s.splitlines() if not (l.startswith('Dialogue:') and l.split(',')[4].replace('op-credits::','') in drop)];s='\n'.join(lines)+'\n';p.write_text(s,encoding='utf-8');assert s.count('Dialogue:')==26
+k=s.replace('PlayResX: 800','PlayResX: 3840').replace('PlayResY: 600','PlayResY: 2160').replace('YCbCr Matrix: TV.601','YCbCr Matrix: TV.709')
+k=k.replace('Style: Credit,Eulyoo1945 SemiBold,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,0.6,0.3,8,22,22,7,1','Style: Credit,Eulyoo1945 SemiBold,96,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,3.0,1.5,8,106,106,70,1')
+k=k.replace('Style: Lyric,Eulyoo1945 SemiBold,30,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,0.8,0.4,2,24,24,21,1','Style: Lyric,Eulyoo1945 SemiBold,122,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,3.8,2,2,115,115,40,1')
+k=re.sub(r'\\fs(\d+)',lambda m:'\\fs'+str(round(int(m[1])*4.8)),k);(O/'subtitles/opening-ko-4k.ass').write_text(k,encoding='utf-8')
+from fontTools.ttLib import TTFont
+font=TTFont(str(O/'fonts/Eulyoo1945-SemiBold.otf'));cm=font.getBestCmap();targets=json.loads((O/'opening-credits-ko.json').read_text(encoding='utf-8'));chars=set(s+k+''.join(r['target'] for r in targets['records']));missing=sorted(c for c in chars if 0xAC00<=ord(c)<=0xD7A3 and ord(c) not in cm);assert not missing;assert not re.search('[\\u3040-\\u30ff\\u4e00-\\u9fff]',s+k)
+(O/'evidence/semantic-gate.json').write_text(json.dumps(dict(semantic_targets=len(targets['records']),caption_cues=26,lyric_cues=16,upper_credit_cues=10,in_picture_typeset_surfaces=12,replaced_name_mappings=16,translator_model='Codex internal',font_missing_codepoints=missing,residual_Japanese_in_ASS=0,state='semantic and glyph gate pass; visual encoding underway',font_file_distribution=False),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+sys.path.insert(0,'tools');from op_v3_compositor import *
+c=Compositor();a=read(1291);out,m,r=c.compose(a,1291);Image.fromarray(paint(out,1291)).save(O/'preview/motion-review-fix2/1291-final.png');print('caption setup complete')

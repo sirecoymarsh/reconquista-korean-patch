@@ -1,0 +1,2195 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-1/lane-3",
+  "coordinator_thread_id": "01a16335-92a2-79c2-814f-63275a46f2b1",
+  "agent_id": "/root/lane_3",
+  "source_script": "masa_07.mjo",
+  "source_sha256": "5ff0aac8c848194b932f8e5e6689a6e98f9bce84fb704780475c9732dfdcba3f",
+  "provenance": {
+    "date": "2026-10-22",
+    "authored_source": "authored\\masa_07_u0137-0230.json",
+    "agent": "/root/lane_3",
+    "model_setting": "inherited Codex internal",
+    "source_packet_sha256": "81f895c31bace26c4b499123a3147651aa38e1e39d6e8af1eb0722f83d7c7835"
+  },
+  "records": [
+    {
+      "unit": "masa_07.mjo::u0137",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001655",
+          "source": "「…すー…くー…」",
+          "target": "「…새근…새근…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(딸)",
+        "addressees": [],
+        "relationship": "잠든 어린 딸의 숨소리",
+        "story_phase": "masa_07: 식후 잠든 모미지",
+        "voice": "대화가 아닌 가벼운 잠든 숨소리"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0138",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001673",
+          "source": "「あれ…もみじちゃん、寝ちゃってる」",
+          "target": "「어라… 모미지, 잠들었네요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0139",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001678",
+          "source": "夕食後も飽きることなく吉森と喋っていたもみじだったが、",
+          "target": "저녁을 먹고도 질리지 않고 요시모리와 떠들던 모미지는"
+        },
+        {
+          "id": "masa_07.mjo::001682",
+          "source": "急に静かになったかと思うと、微かな寝息を漏らしていた。",
+          "target": "갑자기 조용해졌나 싶더니, 가느다란 숨소리를 내고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0140",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001687",
+          "source": "今日一日の疲労感と満腹感で眠気に襲われたのだろう。",
+          "target": "하루 동안 쌓인 피로와 포만감에 졸음이 밀려온 모양이다."
+        },
+        {
+          "id": "masa_07.mjo::001691",
+          "source": "まるで電池が切れたかのようにコテンと眠ってしまった。",
+          "target": "마치 배터리가 다 된 것처럼 푹 잠들어 버렸다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0141",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001698",
+          "source": "「後でお風呂に入れないといけないから、",
+          "target": "「나중에 씻겨야 하니까,"
+        },
+        {
+          "id": "masa_07.mjo::001702",
+          "source": "　しばらくそこで寝かせておこう」",
+          "target": "　당분간 거기서 자게 두자」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "교사이자 이웃→학생, 협력과 보호를 놓고 대화",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "부드러운 어른의 반말; 설득·경계·당황을 구분"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0142",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001717",
+          "source": "「そうですね。…くすっ、可愛い寝顔」",
+          "target": "「그래요. …후훗, 자는 얼굴도 귀엽네요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0143",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001727",
+          "source": "眠るもみじの頬をつんつんと突付いて微笑む吉森。",
+          "target": "요시모리는 잠든 모미지의 볼을 콕콕 찌르며 미소 짓는다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0144",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001732",
+          "source": "僕はそんな彼女の様子を眺めながら、",
+          "target": "그런 그녀의 모습을 바라보고 있자니,"
+        },
+        {
+          "id": "masa_07.mjo::001736",
+          "source": "何となくむずがゆい気持ちになっていた。",
+          "target": "나는 어쩐지 마음 한구석이 간지러워졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0145",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001741",
+          "source": "まだ吉森と出会ってから一週間も経ってないのに、",
+          "target": "요시모리를 만난 지 아직 일주일도 안 됐는데,"
+        },
+        {
+          "id": "masa_07.mjo::001745",
+          "source": "こんなにも親密な空気を共有しているのが不思議だった。",
+          "target": "이렇게 친밀한 분위기를 나눈다는 게 신기했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0146",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001750",
+          "source": "そう、この感じはまるで…",
+          "target": "그래, 이 느낌은 마치…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0147",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001765",
+          "source": "「あ、そうだ。ちょうどいいから、",
+          "target": "「아, 맞다. 마침 잘됐네요."
+        },
+        {
+          "id": "masa_07.mjo::001769",
+          "source": "　今のうちに聞いて欲しいことがあるんですけど」",
+          "target": "　지금 들어 주셨으면 하는 이야기가 있는데요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0148",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001776",
+          "source": "「聞いて欲しいこと？」",
+          "target": "「들어 줬으면 하는 이야기?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "교사이자 이웃→학생, 협력과 보호를 놓고 대화",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "부드러운 어른의 반말; 설득·경계·당황을 구분"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0149",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001791",
+          "source": "「実は昨日先生から聞いた行方不明者について、",
+          "target": "「사실 어제 선생님께 들은 실종자에 관해서,"
+        },
+        {
+          "id": "masa_07.mjo::001795",
+          "source": "　あたしなりにちょっと調べてみたんです」",
+          "target": "　저 나름대로 좀 알아봤어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0150",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001800",
+          "source": "その瞬間、さっきまでの親密な空気が、",
+          "target": "그 순간, 조금 전까지의 친밀한 분위기가"
+        },
+        {
+          "id": "masa_07.mjo::001804",
+          "source": "不穏なものに変わっていくのを肌で感じた。",
+          "target": "불온하게 변해 가는 것을 피부로 느꼈다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0151",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001814",
+          "source": "僕としては、吉森にはこの件に関わって欲しくない。",
+          "target": "나는 요시모리가 이 일에 관여하지 않았으면 한다."
+        },
+        {
+          "id": "masa_07.mjo::001818",
+          "source": "だが彼女はこのまま引き下がる気は毛頭ないようだ。",
+          "target": "하지만 그녀는 이대로 물러설 생각이 조금도 없는 모양이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0152",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001823",
+          "source": "いくら説き伏せようとも彼女は納得しない。",
+          "target": "아무리 타일러 봐도 그녀는 납득하지 않을 것이다."
+        },
+        {
+          "id": "masa_07.mjo::001827",
+          "source": "それは昨夜のやり取りで僕も理解している。",
+          "target": "어젯밤 대화로 나도 그건 알고 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0153",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001834",
+          "source": "「（なら形式だけでも吉森と協力体制を取ることで、",
+          "target": "「(그렇다면 겉으로라도 요시모리와 협력하면서,"
+        },
+        {
+          "id": "masa_07.mjo::001838",
+          "source": "　彼女が無茶をしないよう見張る方が得策か？）」",
+          "target": "　무모한 짓을 하지 않도록 지켜보는 편이 나을까?)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마사키와의 대화 중 드러내지 않는 속생각",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "상대에게 들리지 않는 내적 독백, 반말"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0154",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001843",
+          "source": "そうすれば少なくとも、",
+          "target": "그렇게 하면 적어도"
+        },
+        {
+          "id": "masa_07.mjo::001847",
+          "source": "僕の目の届かないところで無茶なことはしないだろう。",
+          "target": "내 눈이 닿지 않는 곳에서 무모한 짓을 하지는 않을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0155",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001852",
+          "source": "僕はそう判断して、吉森の話に乗ることにした。",
+          "target": "그렇게 판단한 나는 요시모리의 이야기에 응하기로 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0156",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001859",
+          "source": "「…それで、何かわかったのかい？」",
+          "target": "「…그래서, 알아낸 게 있니?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "교사이자 이웃→학생, 협력과 보호를 놓고 대화",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "부드러운 어른의 반말; 설득·경계·당황을 구분"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0157",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001874",
+          "source": "「はい。先生はあたしが以前話した、",
+          "target": "「네. 선생님, 제가 전에 말씀드린"
+        },
+        {
+          "id": "masa_07.mjo::001878",
+          "source": "　首刈り女の都市伝説のことは覚えてますか？」",
+          "target": "　목 베는 여자라는 도시 전설 기억하세요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0158",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001885",
+          "source": "「あ、ああ。一応覚えてるよ」",
+          "target": "「아, 응. 일단 기억은 해」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "교사이자 이웃→학생, 협력과 보호를 놓고 대화",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "부드러운 어른의 반말; 설득·경계·당황을 구분"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0159",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001890",
+          "source": "首刈り女の都市伝説…それは恐らく暮葉のこと。",
+          "target": "목 베는 여자의 도시 전설… 그건 아마 쿠레하의 이야기다."
+        },
+        {
+          "id": "masa_07.mjo::001894",
+          "source": "まさか、首刈り女の正体が暮葉だとばれたのか？",
+          "target": "설마 목 베는 여자의 정체가 쿠레하라는 걸 들킨 건가?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0160",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001899",
+          "source": "僕は密かに緊張しながら吉森の言葉に耳を傾ける…",
+          "target": "나는 속으로 긴장하며 요시모리의 말에 귀를 기울인다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0161",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001914",
+          "source": "「その首刈り女の噂が流れ始めたのは、一ヶ月くらい前。",
+          "target": "「목 베는 여자 소문이 돌기 시작한 건 한 달쯤 전이에요."
+        },
+        {
+          "id": "masa_07.mjo::001918",
+          "source": "　ある女生徒の目撃証言がきっかけだったらしいんですよ」",
+          "target": "　어떤 여학생의 목격담이 계기였다고 하더라고요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0162",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001933",
+          "source": "「ある晩、長い黒髪のセーラー服の女に出会った…",
+          "target": "「어느 날 밤, 긴 흑발에 세일러복 차림인 여자를 만났는데…"
+        },
+        {
+          "id": "masa_07.mjo::001937",
+          "source": "　以来、その女につきまとわれていると語っていたそうです」",
+          "target": "　그 뒤로 그 여자가 계속 따라다닌다고 했대요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0163",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001952",
+          "source": "「その女は毎晩刈込み鋏のようなものを持って、",
+          "target": "「그 여자가 매일 밤 전지가위 같은 걸 들고"
+        },
+        {
+          "id": "masa_07.mjo::001956",
+          "source": "　自分のことを追いかけてくるのだと。",
+          "target": "　자기를 쫓아온다고 했대요."
+        },
+        {
+          "id": "masa_07.mjo::001960",
+          "source": "　その鋏で首を刈ろうとするのだと怯えていたといいます」",
+          "target": "　그 가위로 목을 베려 한다면서 무서워했다고 해요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0164",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001965",
+          "source": "刈込み鋏…暮葉が持っていたあの片刃の凶器のことだな。",
+          "target": "전지가위… 쿠레하가 들고 있던 그 외날 흉기를 말하는군."
+        },
+        {
+          "id": "masa_07.mjo::001969",
+          "source": "なるほど、あれは刈込み鋏だったのか。",
+          "target": "그렇구나, 그건 전지가위였던 건가."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0165",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001974",
+          "source": "言われてみれば確かに、",
+          "target": "듣고 보니 확실히"
+        },
+        {
+          "id": "masa_07.mjo::001978",
+          "source": "刈込み鋏の刃を二つに分解したらあんな感じになると思う。",
+          "target": "전지가위의 날을 둘로 분리하면 그런 모양이 될 것 같다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0166",
+      "fields": [
+        {
+          "id": "masa_07.mjo::001993",
+          "source": "「その後女生徒は段々とノイローゼ気味になって、",
+          "target": "「그 뒤로 그 여학생은 점점 노이로제 증세를 보였고,"
+        },
+        {
+          "id": "masa_07.mjo::001997",
+          "source": "　それでちょっとした噂になってました」",
+          "target": "　그래서 조금씩 소문이 났어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0167",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002012",
+          "source": "「そして決定的だったのは、ある日を境に、",
+          "target": "「그리고 결정적이었던 건, 어느 날부터"
+        },
+        {
+          "id": "masa_07.mjo::002016",
+          "source": "　その女生徒が学校を無断欠席するようになったこと」",
+          "target": "　그 여학생이 학교에 무단결석하기 시작한 일이에요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0168",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002026",
+          "source": "「彼女の友達が携帯に電話しても連絡が取れず、",
+          "target": "「친구가 휴대폰으로 전화를 해도 연락이 안 돼서,"
+        },
+        {
+          "id": "masa_07.mjo::002030",
+          "source": "　ついに彼女は行方不明になったと周囲に認知されました」",
+          "target": "　결국 주위에서는 실종됐다고 여기게 됐어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0169",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002045",
+          "source": "「その事実が噂に拍車をかけ、",
+          "target": "「그 사실 때문에 소문이 더 퍼지면서,"
+        },
+        {
+          "id": "masa_07.mjo::002049",
+          "source": "　首刈り女の存在が学校中に知れ渡ることになったんです」",
+          "target": "　목 베는 여자의 존재가 학교 전체에 알려진 거예요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0170",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002056",
+          "source": "「そうだったのか…」",
+          "target": "「그랬던 거구나…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "교사이자 이웃→학생, 협력과 보호를 놓고 대화",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "부드러운 어른의 반말; 설득·경계·당황을 구분"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0171",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002061",
+          "source": "その話が本当なら、少なくとも暮葉は一ヶ月以上前から、",
+          "target": "그 이야기가 사실이라면, 쿠레하는 적어도 한 달 전부터"
+        },
+        {
+          "id": "masa_07.mjo::002065",
+          "source": "この街で首刈りを行っていたことになる。",
+          "target": "이 거리에서 목을 베고 다녔다는 뜻이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0172",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002070",
+          "source": "そして現在確認されている二人の行方不明者のうちの一人が",
+          "target": "그리고 현재 확인된 실종자 두 명 중 한 명이"
+        },
+        {
+          "id": "masa_07.mjo::002074",
+          "source": "吉森の語る首刈り女の最初の目撃者だとしたら？",
+          "target": "요시모리가 말한 목 베는 여자의 첫 목격자라면?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0173",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002079",
+          "source": "またこれは推測だが、その女生徒も田村と同じように、",
+          "target": "이 역시 추측이지만, 그 여학생도 다무라처럼"
+        },
+        {
+          "id": "masa_07.mjo::002083",
+          "source": "夜の街を徘徊していた可能性がある。",
+          "target": "밤거리를 배회했을 가능성이 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0174",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002088",
+          "source": "つまりどいうことかというと…",
+          "target": "그러니까 무슨 말이냐면…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0175",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002103",
+          "source": "「それであたし、思うんですけど…この首刈り女の話と、",
+          "target": "「그래서 제 생각엔… 목 베는 여자 이야기와"
+        },
+        {
+          "id": "masa_07.mjo::002107",
+          "source": "　夜中に出歩いてる生徒の噂は、表裏一体だと思うんです」",
+          "target": "　밤중에 돌아다니는 학생들 소문은 서로 맞물려 있어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0176",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002114",
+          "source": "「あっ…」",
+          "target": "「아…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "교사이자 이웃→학생, 협력과 보호를 놓고 대화",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "부드러운 어른의 반말; 설득·경계·당황을 구분"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0177",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002119",
+          "source": "僕はつい小さく声を漏らしてしまった。",
+          "target": "나도 모르게 작은 소리가 새어 나왔다."
+        },
+        {
+          "id": "masa_07.mjo::002123",
+          "source": "それは僕が今まさに考えていたことだったからだ。",
+          "target": "바로 지금 내가 생각하던 내용이었기 때문이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0178",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002138",
+          "source": "「どちらも舞台が夜の街。そして首刈り女の最初の目撃者は",
+          "target": "「둘 다 밤거리가 배경이에요. 그리고 목 베는 여자를"
+        },
+        {
+          "id": "masa_07.mjo::002142",
+          "source": "　このニュータウンの住人でした」",
+          "target": "　처음 목격한 사람은 이 뉴타운 주민이었어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0179",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002152",
+          "source": "「また彼女の証言では、",
+          "target": "「또 그 여학생의 말로는"
+        },
+        {
+          "id": "masa_07.mjo::002156",
+          "source": "　毎晩のように首刈り女に追われていたとありますが…」",
+          "target": "　거의 매일 밤 목 베는 여자에게 쫓겼다고 하잖아요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0180",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002171",
+          "source": "「それってつまり、",
+          "target": "「그렇다는 건 결국"
+        },
+        {
+          "id": "masa_07.mjo::002175",
+          "source": "　彼女自身も毎晩夜の街を出歩いていたことになります」",
+          "target": "　본인도 매일 밤거리를 돌아다녔다는 뜻이에요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0181",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002190",
+          "source": "「だってずっと家に引き篭もっていれば、",
+          "target": "「계속 집에 틀어박혀 있었다면"
+        },
+        {
+          "id": "masa_07.mjo::002194",
+          "source": "　『追いかけられる』なんてことはない筈ですし」",
+          "target": "　『쫓길』 일도 없었을 테니까요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0182",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002209",
+          "source": "「つまり首刈り女の目撃者は、",
+          "target": "「그러니까 목 베는 여자를 목격한 사람은"
+        },
+        {
+          "id": "masa_07.mjo::002213",
+          "source": "　同時に夜の街を徘徊していた生徒にも当てはまるんです」",
+          "target": "　동시에 밤거리를 배회하던 학생이기도 해요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0183",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002218",
+          "source": "確かにその通りだ。最初に首刈り女に遭遇した女生徒は、",
+          "target": "확실히 그렇다. 처음 목 베는 여자를 만난 여학생은"
+        },
+        {
+          "id": "masa_07.mjo::002222",
+          "source": "何故その後も夜の街を出歩いていたのか？",
+          "target": "왜 그 뒤로도 밤거리를 돌아다녔을까?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0184",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002227",
+          "source": "首刈り女に追いかけられるのが怖いなら、",
+          "target": "목 베는 여자에게 쫓기는 게 무섭다면,"
+        },
+        {
+          "id": "masa_07.mjo::002231",
+          "source": "吉森の言う通り家に引き篭もっていればよかったのに。",
+          "target": "요시모리 말대로 집에 틀어박혀 있으면 됐을 텐데."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0185",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002236",
+          "source": "だがもしその彼女が、自分の意思とは関係なく、",
+          "target": "하지만 만약 그 여학생이 자기 의사와는 상관없이"
+        },
+        {
+          "id": "masa_07.mjo::002240",
+          "source": "夜の街を彷徨っていたのだとしたら？",
+          "target": "밤거리를 헤매고 있었던 거라면?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0186",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002245",
+          "source": "そう、まさに夢遊病者のように徘徊していた、",
+          "target": "그래, 몽유병 환자처럼 돌아다니던"
+        },
+        {
+          "id": "masa_07.mjo::002249",
+          "source": "あの田村のように――",
+          "target": "그 다무라처럼――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0187",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002264",
+          "source": "「夜中に徘徊する生徒の噂、",
+          "target": "「밤중에 배회하는 학생들 소문,"
+        },
+        {
+          "id": "masa_07.mjo::002268",
+          "source": "　実際に行方不明になっている生徒、そして首刈り女…」",
+          "target": "　실제로 실종된 학생들, 그리고 목 베는 여자…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0188",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002283",
+          "source": "「これらは全部一つに繋がるんじゃないでしょうか？",
+          "target": "「이건 전부 하나로 이어지는 게 아닐까요?"
+        },
+        {
+          "id": "masa_07.mjo::002287",
+          "source": "　一つの…多分、何らかの事件に」",
+          "target": "　하나의… 아마도 어떤 사건으로요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0189",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002302",
+          "source": "「だから奈那子もその事件に巻き込まれたんじゃないかって",
+          "target": "「그래서 나나코도 그 사건에 휘말린 게 아닐까 하고"
+        },
+        {
+          "id": "masa_07.mjo::002306",
+          "source": "　あたしは思うんです」",
+          "target": "　저는 생각해요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0190",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002311",
+          "source": "僕は吉森の推理の正確さに、密かに舌を巻いた。",
+          "target": "나는 요시모리의 정확한 추리에 속으로 혀를 내둘렀다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0191",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002316",
+          "source": "田村や暮葉のことを目の当たりにした僕でさえ、",
+          "target": "다무라와 쿠레하를 직접 본 나조차"
+        },
+        {
+          "id": "masa_07.mjo::002320",
+          "source": "そこまで合理的な推測は立てられなかった。",
+          "target": "그토록 합리적인 추측은 해내지 못했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0192",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002325",
+          "source": "どうやら吉森は思った以上に頭の回転が速いようだ。",
+          "target": "아무래도 요시모리는 생각보다 머리가 잘 돌아가는 모양이다."
+        },
+        {
+          "id": "masa_07.mjo::002329",
+          "source": "大した名探偵である。",
+          "target": "대단한 명탐정이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0193",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002341",
+          "source": "「（それにしても…どうして吉森は、",
+          "target": "「(그나저나… 요시모리는 어째서"
+        },
+        {
+          "id": "masa_07.mjo::002345",
+          "source": "　ここまでこの事件にこだわるんだろう）」",
+          "target": "　이 사건에 이렇게까지 집착하는 걸까)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마사키와의 대화 중 드러내지 않는 속생각",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "상대에게 들리지 않는 내적 독백, 반말"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0194",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002350",
+          "source": "彼女の迅速な情報収集と論理的な推理は、",
+          "target": "그녀가 신속하게 정보를 모으고 논리적으로 추리하는 건"
+        },
+        {
+          "id": "masa_07.mjo::002354",
+          "source": "単なる好奇心から発せられるものとは思えない。",
+          "target": "단순한 호기심에서 비롯된 행동 같지 않다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0195",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002359",
+          "source": "またいなくなった友人を心配する一人の女子としても、",
+          "target": "사라진 친구를 걱정하는 여학생이라고 해도,"
+        },
+        {
+          "id": "masa_07.mjo::002363",
+          "source": "その行動力は常識を逸脱していた。",
+          "target": "그 행동력은 상식적인 범위를 벗어나 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0196",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002370",
+          "source": "「吉森、一つ聞いていいかい？」",
+          "target": "「요시모리, 하나 물어봐도 될까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "교사이자 이웃→학생, 협력과 보호를 놓고 대화",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "부드러운 어른의 반말; 설득·경계·당황을 구분"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0197",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002385",
+          "source": "「はい、なんですか」",
+          "target": "「네, 뭔데요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0198",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002392",
+          "source": "「君と田村は、そんなに仲が良かったのかい？",
+          "target": "「너랑 다무라는 그렇게 친했니?"
+        },
+        {
+          "id": "masa_07.mjo::002396",
+          "source": "　いわゆる親友同士みたいな感じの」",
+          "target": "　이를테면 단짝 친구라고 할 만큼」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "교사이자 이웃→학생, 협력과 보호를 놓고 대화",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "부드러운 어른의 반말; 설득·경계·당황을 구분"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0199",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002411",
+          "source": "「いいえ、そんなに特別ってわけじゃないです。",
+          "target": "「아니요, 그렇게 특별한 사이는 아니에요."
+        },
+        {
+          "id": "masa_07.mjo::002415",
+          "source": "　ごく普通のクラスメートの関係でした」",
+          "target": "　그냥 평범한 같은 반 친구였어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0200",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002422",
+          "source": "「じゃあどうしてそこまで積極的に関わろうとするんだ？",
+          "target": "「그런데 왜 그렇게 적극적으로 나서려는 거야?"
+        },
+        {
+          "id": "masa_07.mjo::002426",
+          "source": "　今でもそれなりに危険かもしれないって思うだろ」",
+          "target": "　지금도 꽤 위험할지 모른다는 생각은 들잖아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "교사이자 이웃→학생, 협력과 보호를 놓고 대화",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "부드러운 어른의 반말; 설득·경계·당황을 구분"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0201",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002433",
+          "source": "「嫌な言い方になってしまうけど、",
+          "target": "「듣기 싫은 말이겠지만,"
+        },
+        {
+          "id": "masa_07.mjo::002437",
+          "source": "　君にそこまでする義理も義務もない筈だ」",
+          "target": "　네가 그렇게까지 해야 할 의리도 의무도 없을 텐데」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "교사이자 이웃→학생, 협력과 보호를 놓고 대화",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "부드러운 어른의 반말; 설득·경계·당황을 구분"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0202",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002452",
+          "source": "「そうですね…」",
+          "target": "「그렇죠…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0203",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002457",
+          "source": "僕があえて苦言を呈すると、",
+          "target": "내가 일부러 쓴소리를 하자,"
+        },
+        {
+          "id": "masa_07.mjo::002461",
+          "source": "吉森は少し考える素振りを見せた。",
+          "target": "요시모리는 잠시 생각하는 기색을 보였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0204",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002466",
+          "source": "それからしばらくして、",
+          "target": "그러더니 잠시 후"
+        },
+        {
+          "id": "masa_07.mjo::002470",
+          "source": "ちょっと困ったような顔を僕に向ける。",
+          "target": "조금 난처한 표정으로 나를 바라본다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0205",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002485",
+          "source": "「あたしにも上手く言えないんですけど…",
+          "target": "「저도 잘 설명은 못 하겠는데요…"
+        },
+        {
+          "id": "masa_07.mjo::002489",
+          "source": "　なんていうか、嫌なんですよ」",
+          "target": "　뭐랄까, 싫어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0206",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002504",
+          "source": "「得体の知れない何かに、",
+          "target": "「뭔지 알 수 없는 무언가가"
+        },
+        {
+          "id": "masa_07.mjo::002508",
+          "source": "　あたし達の日常を脅かされるのが嫌なんです」",
+          "target": "　우리 일상을 위협하는 게 싫어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0207",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002523",
+          "source": "「もしこのまま事件を放っておいたら、",
+          "target": "「이대로 사건을 내버려 두면,"
+        },
+        {
+          "id": "masa_07.mjo::002527",
+          "source": "　今度は自分の身にそれが襲い掛かってくるかもしれない」",
+          "target": "　다음에는 나한테 닥쳐올지도 모르잖아요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0208",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002542",
+          "source": "「そういうのに怯えて暮らすのは嫌だから…",
+          "target": "「그런 일에 떨면서 살기는 싫으니까…"
+        },
+        {
+          "id": "masa_07.mjo::002546",
+          "source": "　だからこっちから攻めていきたいんです」",
+          "target": "　그래서 제가 먼저 맞서고 싶어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0209",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002551",
+          "source": "…なるほど、吉森の言い分もわかる気がする。",
+          "target": "…그렇군. 요시모리의 말도 이해가 간다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0210",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002556",
+          "source": "クラスメートの身に起きた異変が、",
+          "target": "같은 반 친구에게 일어난 이상한 일이"
+        },
+        {
+          "id": "masa_07.mjo::002560",
+          "source": "いつ自分にも降りかかるかわからない。",
+          "target": "언제 나에게도 닥칠지 모른다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0211",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002565",
+          "source": "クラスメートの消失を見て見ぬ振りをしながら、",
+          "target": "같은 반 친구가 사라진 일을 못 본 척하며"
+        },
+        {
+          "id": "masa_07.mjo::002569",
+          "source": "今まで通りの日常を送るのが本当に安全なのか？",
+          "target": "지금까지처럼 일상을 보내는 게 정말 안전할까?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0212",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002574",
+          "source": "そしてもし実際に、同じようなことが自分の身に起きたら…",
+          "target": "그리고 정말 내게도 같은 일이 일어난다면…"
+        },
+        {
+          "id": "masa_07.mjo::002579",
+          "source": "その時はもう遅いかもしれないのだ。",
+          "target": "그때는 이미 늦었을지도 모른다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0213",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002591",
+          "source": "「（でもだからといって、",
+          "target": "「(하지만 그렇다고 해서"
+        },
+        {
+          "id": "masa_07.mjo::002595",
+          "source": "　このまま吉森を放っておくわけにもいかないよな）」",
+          "target": "　이대로 요시모리를 내버려 둘 수도 없잖아)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마사키와의 대화 중 드러내지 않는 속생각",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "상대에게 들리지 않는 내적 독백, 반말"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0214",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002600",
+          "source": "彼女の言い分は、決して間違っていないと思う。",
+          "target": "그녀의 말이 결코 틀렸다고는 생각하지 않는다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0215",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002605",
+          "source": "けど多少なりとも彼女より事実を知っている僕には、",
+          "target": "하지만 그녀보다 조금이나마 진실을 아는 나는"
+        },
+        {
+          "id": "masa_07.mjo::002609",
+          "source": "それがいかに危険であるかよくわかっていた。",
+          "target": "그게 얼마나 위험한 일인지 잘 알고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0216",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002616",
+          "source": "「吉森…昨日も言ったけど、",
+          "target": "「요시모리… 어제도 말했지만,"
+        },
+        {
+          "id": "masa_07.mjo::002620",
+          "source": "　僕は君に危ないことはして欲しくないんだ」",
+          "target": "　난 네가 위험한 일은 하지 않았으면 해」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "교사이자 이웃→학생, 협력과 보호를 놓고 대화",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "부드러운 어른의 반말; 설득·경계·당황을 구분"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0217",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002627",
+          "source": "「このまま君を、",
+          "target": "「이대로 뻔히 알면서"
+        },
+        {
+          "id": "masa_07.mjo::002631",
+          "source": "　みすみす危険な目には遭わせられないよ」",
+          "target": "　널 위험에 빠뜨릴 수는 없어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "교사이자 이웃→학생, 협력과 보호를 놓고 대화",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "부드러운 어른의 반말; 설득·경계·당황을 구분"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0218",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002646",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0219",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002669",
+          "source": "「…じゃあ、先生が守ってくれますか？」",
+          "target": "「…그럼 선생님이 지켜 주실래요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0220",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002676",
+          "source": "「えっ？　な、なにをいきなり」",
+          "target": "「어? 가, 갑자기 무슨 소리야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "교사이자 이웃→학생, 협력과 보호를 놓고 대화",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "부드러운 어른의 반말; 설득·경계·당황을 구분"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0221",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002691",
+          "source": "「槙野先生があたしのこと、守ってくれます？」",
+          "target": "「마키노 선생님이 저를 지켜 주실래요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0222",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002698",
+          "source": "「なっ、いや、それは…」",
+          "target": "「뭐, 아니, 그건…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "교사이자 이웃→학생, 협력과 보호를 놓고 대화",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "부드러운 어른의 반말; 설득·경계·당황을 구분"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0223",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002703",
+          "source": "思わぬ返しに動揺してしまう僕だったが、",
+          "target": "뜻밖의 반문에 나는 당황했지만,"
+        },
+        {
+          "id": "masa_07.mjo::002707",
+          "source": "吉森は冗談めかすでもなく、真顔で言葉を続ける。",
+          "target": "요시모리는 농담하는 기색도 없이 진지하게 말을 이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0224",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002722",
+          "source": "「その代わり、あたしだって先生を守っちゃいますよ。",
+          "target": "「그 대신 저도 선생님을 지켜 드릴게요."
+        },
+        {
+          "id": "masa_07.mjo::002726",
+          "source": "　先生だけじゃなくて、もみじちゃんのことも」",
+          "target": "　선생님뿐 아니라 모미지도요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0225",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002741",
+          "source": "「どうしようもなく理不尽なことって、",
+          "target": "「세상에는 어쩔 수 없을 만큼"
+        },
+        {
+          "id": "masa_07.mjo::002745",
+          "source": "　世の中にいっぱいあるけど…」",
+          "target": "　불합리한 일이 많지만…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0226",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002760",
+          "source": "「あたしはそういうものに負けたくない。",
+          "target": "「저는 그런 것들에 지고 싶지 않아요."
+        },
+        {
+          "id": "masa_07.mjo::002764",
+          "source": "　大切なものを奪われたくないんです」",
+          "target": "　소중한 것을 빼앗기고 싶지 않아요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학생이자 이웃→교사, 사건 조사 협력을 요청",
+        "story_phase": "masa_07: 식후 실종 사건 대화",
+        "voice": "친근한 존댓말; 추리 설명은 명료하게, 결의는 차분하고 단단하게"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0227",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002769",
+          "source": "静かにそう語る吉森の瞳には、誓いとか決意とか、",
+          "target": "차분하게 말하는 요시모리의 눈에는 맹세라든가 결의라든가,"
+        },
+        {
+          "id": "masa_07.mjo::002773",
+          "source": "そういう類のもので満ち溢れていた。",
+          "target": "그런 것들이 가득 차 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0228",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002778",
+          "source": "そこから彼女の意志の強さを感じ取った僕は、",
+          "target": "그 눈에서 굳은 의지를 느낀 나는"
+        },
+        {
+          "id": "masa_07.mjo::002782",
+          "source": "吉森の説得を諦めるしかなかった。",
+          "target": "요시모리를 설득하는 걸 포기할 수밖에 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0229",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002792",
+          "source": "ならばせめて、彼女の言う通り…守ろうと思う。",
+          "target": "그렇다면 하다못해 그녀의 말대로… 지켜 주려 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_07.mjo::u0230",
+      "fields": [
+        {
+          "id": "masa_07.mjo::002797",
+          "source": "大切なものが奪われないように、",
+          "target": "소중한 것을 빼앗기지 않도록,"
+        },
+        {
+          "id": "masa_07.mjo::002801",
+          "source": "理不尽なことから守り抜こうと、僕も誓った。",
+          "target": "불합리한 일로부터 끝까지 지켜 내겠다고 나도 다짐했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "이웃이자 교사로서 마사키가 실종 사건을 조사하다 위험에 빠질까 걱정함",
+        "story_phase": "masa_07: 식후 모미지가 잠든 사이 마사키와 실종 사건을 논의",
+        "voice": "담백한 1인칭 서술; 추리와 걱정의 강도 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "首刈り女 / 首刈り",
+      "target": "목 베는 여자 / 목을 베는 행위",
+      "evidence": [
+        "masa_07.mjo::u0157",
+        "masa_07.mjo::u0163",
+        "masa_07.mjo::u0171"
+      ],
+      "reason": "도시 전설과 쿠레하의 행위에 관한 동일 모티프를 통일. 행위는 문법에 맞춰 목을 베다로 활용."
+    },
+    {
+      "source": "刈込み鋏",
+      "target": "전지가위",
+      "evidence": [
+        "masa_07.mjo::u0163",
+        "masa_07.mjo::u0164",
+        "masa_07.mjo::u0165"
+      ],
+      "reason": "두 날을 분리하면 쿠레하의 외날 흉기가 되는 원형 도구. 일관된 대상어로 유지."
+    },
+    {
+      "source": "行方不明者 / 行方不明",
+      "target": "실종자 / 실종",
+      "evidence": [
+        "masa_07.mjo::u0149",
+        "masa_07.mjo::u0168",
+        "masa_07.mjo::u0172"
+      ],
+      "reason": "확인된 두 실종자와 소문의 목격자를 구분하여 인과 관계를 임의 확정하지 않음."
+    }
+  ],
+  "inline_records": [],
+  "review_notes": [
+    "masa_07 u0127–0345 문맥을 읽음. 마사키와의 사건 대화가 끝나는 u0230을 경계로 분할; 다음 u0231부터 과거 회상.",
+    "학생 현재 장면의 사용자 제공 대학 과정 설정 적용. 잠든 딸 모미지와의 일상 장면에는 성적 내용 없음.",
+    "전지가위의 같은 도구 지칭과 도시 전설의 같은 이름을 배치 내 통일. 전역 용례·실제 화면 검증은 미완료.",
+    "u0162의 검은색 수식 대상이 머리임을 명확히 함. 首刈り女=목 베는 여자, 刈込み鋏=전지가위는 조정자 공통어 확정 반영."
+  ]
+}

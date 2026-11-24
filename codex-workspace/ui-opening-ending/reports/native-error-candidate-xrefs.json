@@ -1,0 +1,189 @@
+{
+  "source_sha256": "cd1c38ac20d9e502fbc58b7392ca77ec32e3d56f90d988580a3cf58cb6f95146",
+  "method": "Capstone linear x86 .text disassembly; candidate reference sites only; not a reachability or display-consumer proof",
+  "records": [
+    {
+      "id": "native::0x47a1c0",
+      "va": 4694464,
+      "source": "製品ディスクをドライブに入れて下さい　　　",
+      "references": [
+        {
+          "va": 4208243,
+          "instruction": "push 0x47a1c0",
+          "bytes": "68c0a14700"
+        }
+      ],
+      "file_offset": 500160,
+      "byte_length": 42
+    },
+    {
+      "id": "native::0x47a230",
+      "va": 4694576,
+      "source": "ファイル名が長すぎます",
+      "references": [
+        {
+          "va": 4209602,
+          "instruction": "push 0x47a230",
+          "bytes": "6830a24700"
+        },
+        {
+          "va": 4328843,
+          "instruction": "push 0x47a230",
+          "bytes": "6830a24700"
+        }
+      ],
+      "file_offset": 500272,
+      "byte_length": 22
+    },
+    {
+      "id": "native::0x47a248",
+      "va": 4694600,
+      "source": "エラーです",
+      "references": [
+        {
+          "va": 4209565,
+          "instruction": "push 0x47a248",
+          "bytes": "6848a24700"
+        },
+        {
+          "va": 4329017,
+          "instruction": "push 0x47a248",
+          "bytes": "6848a24700"
+        }
+      ],
+      "file_offset": 500296,
+      "byte_length": 10
+    },
+    {
+      "id": "native::0x47c010",
+      "va": 4702224,
+      "source": "ファイルの書き込みでエラーが発生しました",
+      "references": [
+        {
+          "va": 4320422,
+          "instruction": "push 0x47c010",
+          "bytes": "6810c04700"
+        }
+      ],
+      "file_offset": 507920,
+      "byte_length": 40
+    },
+    {
+      "id": "native::0x47c7bc",
+      "va": 4704188,
+      "source": "正常にインストールされていません。再インストールしてください。",
+      "references": [
+        {
+          "va": 4338791,
+          "instruction": "push 0x47c7bc",
+          "bytes": "68bcc74700"
+        }
+      ],
+      "file_offset": 509884,
+      "byte_length": 62
+    },
+    {
+      "id": "native::0x47c7fc",
+      "va": 4704252,
+      "source": "製品ディスクでは有りません",
+      "references": [
+        {
+          "va": 4338641,
+          "instruction": "push 0x47c7fc",
+          "bytes": "68fcc74700"
+        }
+      ],
+      "file_offset": 509948,
+      "byte_length": 26
+    },
+    {
+      "id": "native::0x47c820",
+      "va": 4704288,
+      "source": "ドライブ[ %s ]に製品ディスクを入れてください",
+      "references": [
+        {
+          "va": 4338292,
+          "instruction": "push 0x47c820",
+          "bytes": "6820c84700"
+        },
+        {
+          "va": 4338664,
+          "instruction": "push 0x47c820",
+          "bytes": "6820c84700"
+        }
+      ],
+      "file_offset": 509984,
+      "byte_length": 44
+    },
+    {
+      "id": "native::0x47ca7c",
+      "va": 4704892,
+      "source": "前回のプログラム実行時に異常終了が確認されました。\n繰り返し以上終了が確認される場合はＨＤＤキャッシュの破損が考えられます。\n\nＨＤＤキャッシュを破棄しますか？（推奨）\n",
+      "references": [
+        {
+          "va": 4336461,
+          "instruction": "push 0x47ca7c",
+          "bytes": "687cca4700"
+        }
+      ],
+      "file_offset": 510588,
+      "byte_length": 166
+    },
+    {
+      "id": "native::0x47cb24",
+      "va": 4705060,
+      "source": "異常終了の検出",
+      "references": [
+        {
+          "va": 4336456,
+          "instruction": "push 0x47cb24",
+          "bytes": "6824cb4700"
+        }
+      ],
+      "file_offset": 510756,
+      "byte_length": 14
+    },
+    {
+      "id": "native::0x47cb34",
+      "va": 4705076,
+      "source": "既に起動中です",
+      "references": [
+        {
+          "va": 4336318,
+          "instruction": "push 0x47cb34",
+          "bytes": "6834cb4700"
+        }
+      ],
+      "file_offset": 510772,
+      "byte_length": 14
+    },
+    {
+      "id": "native::0x47cb44",
+      "va": 4705092,
+      "source": "%s スタートアップ",
+      "references": [
+        {
+          "va": 4336170,
+          "instruction": "push 0x47cb44",
+          "bytes": "6844cb4700"
+        }
+      ],
+      "file_offset": 510788,
+      "byte_length": 17
+    },
+    {
+      "id": "native::0x47cb78",
+      "va": 4705144,
+      "source": "起動に必要なファイルが不足しています。\nインストールの異常終了、起動するフォルダ異常、等を確認してください。\nショートカットからの起動は作業フォルダの設定をご確認ください。",
+      "references": [
+        {
+          "va": 4335350,
+          "instruction": "push 0x47cb78",
+          "bytes": "6878cb4700"
+        }
+      ],
+      "file_offset": 510840,
+      "byte_length": 170
+    }
+  ]
+}

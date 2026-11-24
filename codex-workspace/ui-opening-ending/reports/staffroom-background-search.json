@@ -1,0 +1,248 @@
+{
+  "method": "Read-only native800x600 TC00 game-background scan; grayscale normalized correlation at one untextured staffroom patch. No resampling/rotation/delta reconstruction performed. Correlation is discovery only, never clean-plate proof.",
+  "source": "source/decoded/staffroom_off.rct.png",
+  "source_roi": [
+    690,
+    180,
+    90,
+    210
+  ],
+  "decoded_count": 305,
+  "skipped_count": 12,
+  "elapsed_seconds": 39.54809641838074,
+  "top_candidates": [
+    {
+      "archive": "data.arc",
+      "name": "bg_190a.rct",
+      "sha256": "2861ba847a824989e81e2896b035934123d617e9db51d4079dc1a3e3b7a795d5",
+      "same_position_gray_corr": 0.3018535375595093
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_232c.rct",
+      "sha256": "07a9da61e042c1728cdc979db85b480f60d0759fffcb6cdc7751702ec679c328",
+      "same_position_gray_corr": 0.2830933630466461
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_231c.rct",
+      "sha256": "e57271fc33e107d1267399c97b6da7197a36cf61a5b3247bb3d9121d317a7176",
+      "same_position_gray_corr": 0.2830933630466461
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_232a.rct",
+      "sha256": "130b6958043e3d59ac6fd20fca72b300f67fb4ad9d08a022bd4eda5d595e697e",
+      "same_position_gray_corr": 0.28257814049720764
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_231a.rct",
+      "sha256": "11eac17757e3733b2b598f0dfb589b2c5d5ad5d79f582c330db5f8e554f3a646",
+      "same_position_gray_corr": 0.28257814049720764
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_232b.rct",
+      "sha256": "ae70736c8ef5588b152e0b38cad93448daf30f6f758d9dc4ab3d0fb74951f91a",
+      "same_position_gray_corr": 0.2825094163417816
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_231b.rct",
+      "sha256": "cbc3ed20b67036b6b1a383288ad6e4521e63a52670984d55a5b85136e2ea1b3d",
+      "same_position_gray_corr": 0.2825094163417816
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_235c.rct",
+      "sha256": "57ab6b94abaf0215938e7e52ddf219a57c8eb0fe925f3acdcaca522dcdf9d84a",
+      "same_position_gray_corr": 0.281552791595459
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_230c.rct",
+      "sha256": "07dac49cf22f27f15049e6449a551df02be0897e1ed54142aa6a2171f0cfff51",
+      "same_position_gray_corr": 0.281552791595459
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_233c.rct",
+      "sha256": "704a2217d5f1298de0df46c57f5bc6c25bd57be8f6c808fd44de2f76837cda8b",
+      "same_position_gray_corr": 0.281552791595459
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_230e.rct",
+      "sha256": "388cb022f56fef4a014ebd2e80cbe24e797990ceba8e170827f9733f6da0961f",
+      "same_position_gray_corr": 0.28148120641708374
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_230b.rct",
+      "sha256": "5a78a699ec60f070f5a3e57b317f276bc914cdfac2dcc4c7d4ec553d8ba4f54d",
+      "same_position_gray_corr": 0.28084850311279297
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_235b.rct",
+      "sha256": "649c6b314433a085d56a52b38e3d45595a9de17f3ad25258943285ced977e603",
+      "same_position_gray_corr": 0.28084665536880493
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_230a.rct",
+      "sha256": "d2bbea1cdc8dcd7af0516317c166577cc02c56474d488ad5ab006d635a1dd401",
+      "same_position_gray_corr": 0.28079909086227417
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_235a.rct",
+      "sha256": "0f7d1f7acc5ce639537ca301fba913de9aab487fe6b77e27f30ca327c2da8702",
+      "same_position_gray_corr": 0.28079909086227417
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_233a.rct",
+      "sha256": "3056605d9a567f1ec7767208f9dc1ab85f448b6aff9e0fdc632acf6e8a232c9a",
+      "same_position_gray_corr": 0.28079909086227417
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_233b.rct",
+      "sha256": "6f41f41d74f44fcef1677eee353a5ffc012a408907127432065558c37ff5ad3c",
+      "same_position_gray_corr": 0.2807006239891052
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_290b.rct",
+      "sha256": "938eac0dbfb06f60c4e3e6302e1d72de7c538a55050729fc9aa7517ea3417880",
+      "same_position_gray_corr": 0.15814490616321564
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_290a.rct",
+      "sha256": "ec2ddc950c84ca4b63d6ffe5d370bc0441ef3d4314874290c2d4b35b24084862",
+      "same_position_gray_corr": 0.15568050742149353
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_290e.rct",
+      "sha256": "03aa6b279ef33d7752c4bcbdbe7bbc9321b540f62b0870d73ca062f7d20e4366",
+      "same_position_gray_corr": 0.1474248468875885
+    }
+  ],
+  "skipped": [
+    {
+      "archive": "data.arc",
+      "name": "bg_410b.rct",
+      "size": [
+        800,
+        600
+      ],
+      "signature": "TC01"
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_010_03.rct",
+      "size": [
+        800,
+        600
+      ],
+      "signature": "TC01"
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_010_08.rct",
+      "size": [
+        800,
+        600
+      ],
+      "signature": "TC01"
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_130d2.rct",
+      "size": [
+        800,
+        600
+      ],
+      "signature": "TC01"
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_210d.rct",
+      "size": [
+        800,
+        600
+      ],
+      "signature": "TC01"
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_551d.rct",
+      "size": [
+        800,
+        600
+      ],
+      "signature": "TC01"
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_010_09.rct",
+      "size": [
+        800,
+        600
+      ],
+      "signature": "TC01"
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_010_05.rct",
+      "size": [
+        800,
+        600
+      ],
+      "signature": "TC01"
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_400b.rct",
+      "size": [
+        800,
+        600
+      ],
+      "signature": "TC01"
+    },
+    {
+      "archive": "data.arc",
+      "name": "bg_010_06.rct",
+      "size": [
+        800,
+        600
+      ],
+      "signature": "TC01"
+    },
+    {
+      "archive": "data2.arc",
+      "name": "thumb_ev104b2.rct",
+      "size": [
+        149,
+        112
+      ],
+      "signature": "TC00"
+    },
+    {
+      "archive": "data2.arc",
+      "name": "thumb_ev113a.rct",
+      "size": [
+        149,
+        112
+      ],
+      "signature": "TC00"
+    }
+  ],
+  "accepted_donor": null,
+  "assets_modified": false,
+  "preview": "evidence/background-donor-search/staffroom-bg-candidates.png"
+}

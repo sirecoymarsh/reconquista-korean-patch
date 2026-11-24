@@ -1,0 +1,101 @@
+{
+  "reports": [
+    {
+      "archive": "scenario.arc",
+      "entry": "config.mjo",
+      "literal_offsets": [
+        26899,
+        62203
+      ],
+      "changed_byte_offsets": [
+        27075,
+        62379
+      ],
+      "change": "same-length font family KR→K2; every other byte including mixed CP949 diagnostics preserved"
+    },
+    {
+      "archive": "scenario.arc",
+      "entry": "load_sysdata.mjo",
+      "literal_offsets": [
+        56
+      ],
+      "changed_byte_offsets": [
+        112
+      ],
+      "change": "same-length font family KR→K2; every other byte including mixed CP949 diagnostics preserved"
+    },
+    {
+      "archive": "scenario.arc",
+      "entry": "message_box.mjo",
+      "literal_offsets": [
+        809
+      ],
+      "changed_byte_offsets": [
+        953
+      ],
+      "change": "same-length font family KR→K2; every other byte including mixed CP949 diagnostics preserved"
+    },
+    {
+      "archive": "scenario.arc",
+      "entry": "chronicle.mjo",
+      "literal_offsets": [
+        1661,
+        5781,
+        14853
+      ],
+      "changed_byte_offsets": [
+        1861,
+        5981,
+        15053
+      ],
+      "change": "same-length font family KR→K2; every other byte including mixed CP949 diagnostics preserved"
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "menudata.cfg",
+      "family_replacements": 1,
+      "environment_default_replacements": 0,
+      "change": "same-length font family selection only"
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "sysdata.cfg",
+      "family_replacements": 2,
+      "environment_default_replacements": 0,
+      "change": "same-length font family selection only"
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "messagebox.cfg",
+      "family_replacements": 1,
+      "environment_default_replacements": 0,
+      "change": "same-length font family selection only"
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "majiro.env",
+      "family_replacements": 0,
+      "environment_default_replacements": 1,
+      "change": "same-length font family selection only"
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "loadsave.cfg",
+      "family_replacements": 1,
+      "environment_default_replacements": 0,
+      "change": "same-length font family selection only"
+    }
+  ],
+  "archives": [
+    {
+      "archive": "scenario.arc",
+      "output_sha256": "5bd8eff304d3c6e86944d9df4a735e22a6e858bd9e6e21326293dbd9efe5d091"
+    },
+    {
+      "archive": "fastdata.arc",
+      "output_sha256": "ad220541ce859d8d081ec1f281b403e96bfe94d4c50aef357dab4321e008b8b3"
+    }
+  ],
+  "pass": true,
+  "runtime_pass": false
+}

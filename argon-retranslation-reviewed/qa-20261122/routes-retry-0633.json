@@ -1,0 +1,157 @@
+{
+ "mode": "routes",
+ "started": "2026-11-22 06:28:11",
+ "nv_before": 1133,
+ "runs": [
+  {
+   "label": "routes-077-re",
+   "pid": 6212,
+   "steps": [
+    {
+     "step": "route 77",
+     "t": 167.4,
+     "order": 28897,
+     "chapter": "maho_13",
+     "ending": false,
+     "arrive_s": 129.6,
+     "items": 1,
+     "cover_timeout_s": 120.3,
+     "cover_clicks": 1,
+     "presents_after_arrival": 43,
+     "clicks": 8,
+     "ok": true,
+     "mem_mb": 1257
+    }
+   ],
+   "dialogs": [],
+   "mem_mb_start": 959,
+   "routes": [
+    {
+     "i": 77,
+     "order": 28897,
+     "chapter": "maho_13",
+     "ending": false,
+     "arrive_s": 129.6,
+     "items": 1,
+     "cover_timeout_s": 120.3,
+     "cover_clicks": 1,
+     "presents_after_arrival": 43,
+     "clicks": 8,
+     "ok": true,
+     "mem_mb": 1257
+    }
+   ],
+   "new_review_folders": [
+    "savedata-review-6212-253791718"
+   ],
+   "mem_mb_end": 1257,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.3425,
+    "loud_spans": [
+     [
+      21.07,
+      24.32
+     ],
+     [
+      28.89,
+      123.68
+     ],
+     [
+      137.08,
+      137.27
+     ],
+     [
+      142.5,
+      142.98
+     ],
+     [
+      152.07,
+      152.25
+     ]
+    ],
+    "errors": []
+   },
+   "log_mb": 0.4,
+   "log_errors": []
+  },
+  {
+   "label": "routes-078-re",
+   "pid": 12436,
+   "steps": [
+    {
+     "step": "route 78",
+     "t": 169.0,
+     "order": 28928,
+     "chapter": "maho_13",
+     "ending": false,
+     "arrive_s": 131.3,
+     "items": 1,
+     "cover_timeout_s": 120.2,
+     "cover_clicks": 1,
+     "presents_after_arrival": 58,
+     "clicks": 8,
+     "ok": true,
+     "mem_mb": 1207
+    }
+   ],
+   "dialogs": [],
+   "mem_mb_start": 960,
+   "routes": [
+    {
+     "i": 78,
+     "order": 28928,
+     "chapter": "maho_13",
+     "ending": false,
+     "arrive_s": 131.3,
+     "items": 1,
+     "cover_timeout_s": 120.2,
+     "cover_clicks": 1,
+     "presents_after_arrival": 58,
+     "clicks": 8,
+     "ok": true,
+     "mem_mb": 1207
+    }
+   ],
+   "new_review_folders": [
+    "savedata-review-12436-253959875"
+   ],
+   "mem_mb_end": 1207,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.3425,
+    "loud_spans": [
+     [
+      20.97,
+      24.33
+     ],
+     [
+      29.05,
+      123.84
+     ],
+     [
+      136.51,
+      136.69
+     ],
+     [
+      144.32,
+      144.73
+     ],
+     [
+      153.73,
+      153.9
+     ]
+    ],
+    "errors": []
+   },
+   "log_mb": 0.4,
+   "log_errors": []
+  }
+ ],
+ "nv_after": 1133,
+ "ended": "2026-11-22 06:33:50"
+}

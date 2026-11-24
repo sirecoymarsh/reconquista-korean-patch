@@ -1,0 +1,178 @@
+{
+  "translator_model": "Codex internal",
+  "surfaces": [
+    {
+      "id": "UI-TITLE",
+      "status": "pending",
+      "source": "start.mjo + title*",
+      "static_pass": false,
+      "runtime_pass": false,
+      "completed_scope": [
+        "9 title button states / 45 labels; default title/config-hover runtime proof reused"
+      ],
+      "remaining_scope": [
+        "Remaining state coverage; logo/English decorative quote classification"
+      ]
+    },
+    {
+      "id": "UI-CONFIG",
+      "status": "pending",
+      "source": "config.mjo/config.cfg + config_*",
+      "static_pass": false,
+      "runtime_pass": false,
+      "completed_scope": [
+        "Diagnostic script fields, common PE dialogs, 3 raster header states",
+        "Latest raster header observed on private desktop in v8; BGM/voice/SFX toggles set off in test copy",
+        "Config left caption 3 states / 3 labels integrated in v10; exact donor, native-size visual proof."
+      ],
+      "remaining_scope": [
+        "Setting names, character names and buttons; fixed-family font-selector limitation; new caption runtime coverage."
+      ]
+    },
+    {
+      "id": "UI-SAVELOAD",
+      "status": "pending",
+      "source": "loadsave.mjo/loadsave.cfg + sl_*",
+      "static_pass": false,
+      "runtime_pass": false,
+      "completed_scope": [
+        "Script strings, 4 raster headers and 72 slot labels",
+        "Private desktop: nine slots, occupied thumbnail, save, load confirmation and restored scene passed in v8",
+        "Left save/load captions 4 states / 4 labels integrated in v14; header and slot pixels preserved.",
+        "v20:36 decorative quotes in4 save/load states fully translated using earlier wording, exact row backgrounds and preserved normal/focus alpha. Static/native-size asset review passed; runtime pending.",
+        "v20 private-desktop actual load screen:9 new decorative quotes observed, within slots. Empty-slot hover caused no visual change and does not establish that state."
+      ],
+      "remaining_scope": [
+        "Navigation buttons, dynamic title/date coverage; new left captions runtime coverage.",
+        "New decorative quote runtime coverage; all other prior save/load runtime proof reused."
+      ]
+    },
+    {
+      "id": "UI-HISTORY",
+      "status": "pending",
+      "source": "history.mjo/history.cfg",
+      "static_pass": false,
+      "runtime_pass": false,
+      "completed_scope": [
+        "Related console/menu script strings; background art not yet localized",
+        "Four-line decorative footer localized with exact RGB/alpha background restoration in v15; original logo retained."
+      ],
+      "remaining_scope": [
+        "Names and accumulated-log runtime coverage; footer runtime review pending."
+      ]
+    },
+    {
+      "id": "UI-MENU",
+      "status": "pending",
+      "source": "console/buttonmenu/menu/pausemenu + console/submenu",
+      "static_pass": false,
+      "runtime_pass": false,
+      "completed_scope": [
+        "Console/menu/pause script strings, 11-row tooltip atlas"
+      ],
+      "remaining_scope": [
+        "18 console states, 3 submenu states; exact full clean texture restoration unresolved"
+      ]
+    },
+    {
+      "id": "UI-MODAL",
+      "status": "pending",
+      "source": "message_box.mjo/messagebox.cfg + askyesno_base",
+      "static_pass": false,
+      "runtime_pass": false,
+      "completed_scope": [
+        "6 yes/no raster labels, script prompts; v5 normal/no-hover/cancel/exit runtime proof"
+      ],
+      "remaining_scope": [
+        "Yes hover, pressed artwork and all prompt variants runtime coverage"
+      ]
+    },
+    {
+      "id": "UI-EXTRA",
+      "status": "pending",
+      "source": "cgmode/music/chronicle/staffroom/c_setumei/sightchange",
+      "static_pass": false,
+      "runtime_pass": false,
+      "completed_scope": [
+        "89 help strings, 11 view labels, 14 music credits, 24 chapter labels, 33 extra-menu labels",
+        "Timeline 355 CSV cells integrated with all 2765 protected cells unchanged; 352 context-approved and 3 provisional name-reading cells pending.",
+        "K2 family GDI A/W 804 glyphs passed both DEFAULT and SHIFTJIS charsets; private-desktop v12 loaded timeline CSV and displayed Korean date, locked details remain unverified.",
+        "Chronicle caption 3 states and calendar weekday atlas 14 labels integrated in v13; CG/recollection left captions 4 states integrated in v14.",
+        "Staffroom title 2 states localized in v15 with original striped header and red initial preserved.",
+        "Music shared caption and description localized in v16; hover/pressed atlases do not contain these fields. Native source-background composite reviewed.",
+        "v16 private-desktop runtime: music title/description, staffroom title, CG/recollection titles observed; locked media contents and other states remain pending.",
+        "v17:18 music track buttons including3 variant notes across normal/hover/pressed =54 labels; actual consumer crops verified, script/audio references unchanged. Runtime pending.",
+        "v18:3 lower music buttons6,27,28 across3 states =9 additional labels. Cumulative21/28 tracks. Track6 clean mask stops before logo;27/28 source text lies right of decoration.",
+        "v18 private desktop:all21 authored music buttons normal display verified; selected appearances on3,9,10,26 observed. Target28 hover/pressed not proven. All test processes exited; release scenario restored.",
+        "v19:26/28 music titles cumulatively and full decorative quote authored; normal runtime observed for all26 across v18/v19. Logo pixels preserved."
+      ],
+      "remaining_scope": [
+        "Remaining music tracks7,8,14,15,16,22,23 and decorative quote/navigation; other CG/recollection/staffroom/chronicle artwork and buttons; nameplate clean backgrounds; day badges.",
+        "Timeline detail rendering, layout and 3 provisional name-reading cells; new raster runtime coverage.",
+        "Music14/22 overlap original logo; navigation and complete selected/pressed runtime coverage remain pending."
+      ]
+    },
+    {
+      "id": "UI-PE",
+      "status": "pending",
+      "source": "main EXE, setup.exe, install.exe",
+      "static_pass": false,
+      "runtime_pass": false,
+      "completed_scope": [
+        "147 resource strings / 17 resources; 10 dynamic display candidates; ACP949-bound diagnostics included",
+        "11 native error/notice strings added in native-ui-v6; exact .data allowlist, unchanged code/resources/imports, Defender scan passed",
+        "installer-ui-v1:40 Unicode fields in setup/install;12 resources exact allowlist,5 distinct native dialog templates fit without installer execution; Defender scans passed.",
+        "installer-ui-v2:6 launcher button labels; CP949 SetDlgItemTextA/native-layout proof,73 data bytes+MAINDIALOG font-only update, Defender passed. Startup title participates in mutex and window identity, so preserved.",
+        "43 installer error/status/path/confirmation fields authored as pending-build translation; byte limits/placeholders/newlines checked. Current executable remainsinstaller-ui-v2; these43 fields are not included.",
+        "installer-ui-v3:41 messages included after display-consumer audit;2 media-title comparison literals protected. Total87 installer fields. Native-host ACP949/glyph/layout and Defender checks pass. Actual installation/uninstall/error routines not run.",
+        "installer-ui-v4:88 total fields including README label via8-byte display-only override; shared shortcut-name config retained. Host layout and Defender passed; original installer not executed."
+      ],
+      "remaining_scope": [
+        "Remaining engine/native diagnostics and startup title keys require consumer audit.",
+        "Installer configuration-defined README label, path/delete text and remaining configuration/dynamic fields and completeness audit;36 resource placeholders intentionally deferred. Actual install/uninstall operation not run.",
+        "4 earlier native dynamic fields and native-v6 error runtime coverage."
+      ]
+    },
+    {
+      "id": "UI-RASTER",
+      "status": "pending",
+      "source": "source/raster-inventory.json",
+      "static_pass": false,
+      "runtime_pass": false,
+      "completed_scope": [
+        "67 unique RCT entries touched; 44 mask entries changed; 319 raster labels integrated. Touched entries can still contain pending text.",
+        "Four chapter captions repaired in v9; runtime caption and underline pixels match repaired asset exactly"
+      ],
+      "remaining_scope": [
+        "Remaining visible-surface inventory/states; touched count does not imply whole-asset completion"
+      ]
+    },
+    {
+      "id": "OP",
+      "status": "pending",
+      "source": "movie/Recon_OP800_H.mpg",
+      "static_pass": false,
+      "runtime_pass": false,
+      "completed_scope": [],
+      "remaining_scope": [
+        "Source lyrics/credits/timing audit and Korean production"
+      ]
+    },
+    {
+      "id": "ED",
+      "status": "pending",
+      "source": "staffroll.mjo/staffrolla/staffrollb_001..011; audio consumer pending",
+      "static_pass": false,
+      "runtime_pass": false,
+      "completed_scope": [],
+      "remaining_scope": [
+        "Ending variants, staff images, audio/lyrics/timing audit and Korean production"
+      ]
+    }
+  ],
+  "updated_local": "2026-10-23T06:58:49.810375+09:00",
+  "latest_integrated_candidate": "candidates/ui-trial-v18",
+  "completion_note": "Partial scope listed per surface; overall completion gates remain false.",
+  "latest_native_candidate": "candidates/native-ui-v6",
+  "latest_installer_candidate": "candidates/installer-ui-v3"
+}

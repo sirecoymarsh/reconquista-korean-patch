@@ -1,0 +1,2505 @@
+{
+  "coordinator_thread_id": "01a16335-92a2-79c2-814f-63275a46f2b1",
+  "reviewer": "Codex internal /root",
+  "batches": {
+    "lane-1/batches/start2-u0374-u0476.json": {
+      "sha256": "02e2b4edb16d364eceac5275c541aa9758b44c73b6aedce9e9c616b9d970b470",
+      "reviewed_units": 103,
+      "review_scope": "All ordinary source/target fields and supplied inline records; directed recipients, terminology and narrative continuity. Runtime not reviewed.",
+      "status": "accepted",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "00_レコンキスタ_start_2.mjo::u0391",
+          "issue": "Actual reply recipient is Shiina, not Mahoko.",
+          "scope": "context.addressees"
+        },
+        {
+          "unit": "00_レコンキスタ_start_2.mjo::u0394",
+          "issue": "Actual reply recipient is Shiina, not Mahoko.",
+          "scope": "context.addressees"
+        }
+      ],
+      "delta_review": "u0391/u0394 recipient Shiina verified; u0403 soliloquy supported by u0405."
+    },
+    "lane-2/batches/kureha_05_u0001-u0132.json": {
+      "sha256": "ba557d2c39d8281422ccc962732d89faefb76d36502a978f72eca05824c08c85",
+      "status": "accepted",
+      "reviewed_units": 132,
+      "review_scope": "Requested 4 changes inspected; unmodified previous full review reused. Targeted spatial-scope issue discovered by cross-route lexical scan; all other completed review reused. Requested delta inspected; unchanged full review reused.",
+      "resolved_issues": [
+        {
+          "unit": "kureha_05.mjo::u0017",
+          "issue": "物陰 means behind cover; remove unsupported secluded/dark connotation."
+        },
+        {
+          "unit": "kureha_05.mjo::u0083",
+          "issue": "Surprised reaction to arriving Makino, not directed to three men.",
+          "scope": "context.addressees"
+        },
+        {
+          "unit": "kureha_05.mjo::u0094",
+          "issue": "Use teacher-to-students 너희 consistent with informal speech, not 자네들."
+        },
+        {
+          "unit": "kureha_05.mjo::u0093",
+          "issue": "Canonical spelling 미션 스쿨 across lanes."
+        },
+        {
+          "unit": "u0014",
+          "issue": "Town spatial scope: 이곳은 밤이면"
+        }
+      ],
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_06_u0001-0089.json": {
+      "sha256": "7533f9a94eba630a5729bae14a516974b41c140a5cb40528c9dd6a79be5ec409",
+      "status": "accepted",
+      "reviewed_units": 89,
+      "review_scope": "u0016/u0024 homophone readings and u0087 reader direction inspected; original reading evidence attached.",
+      "resolved_issues": [
+        {
+          "unit": "masa_06.mjo::u0016,u0024",
+          "issue": "Preserve 神/紙 homophone with minimal paired 카미 readings."
+        },
+        {
+          "unit": "masa_06.mjo::u0087",
+          "issue": "읽어 줘도 risks reversing reader; preserve Makino letting Kamijo read his work."
+        },
+        {
+          "scope": "term_proposals",
+          "issue": "上条 reading confirmed by kureha_18.mjo::004749-004750."
+        }
+      ],
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_05_u0133-u0183.json": {
+      "sha256": "89f818c27f01f281dbad9249eefad8079c083bfe96f37c7d72cb699f89e41b67",
+      "reviewed_units": 51,
+      "review_scope": "All ordinary source/target fields and supplied inline records; directed recipients, terminology and narrative continuity. Runtime not reviewed.",
+      "status": "accepted",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false
+    },
+    "lane-1/batches/start2-u0477-u0590.json": {
+      "sha256": "f59536b8bbfbd71b34cd58d214d120c9d8ec3d2b7c2250826e4529d325ab4c86",
+      "status": "accepted",
+      "reviewed_units": 114,
+      "review_scope": "u0503 별난 and u0519 explicit admonishment verified; unchanged full review reused.",
+      "resolved_issues": [
+        {
+          "unit": "00_レコンキスタ_start_2.mjo::u0503",
+          "issue": "奇特 here means unusual person; Korean 기특 adds a superior-to-junior approving tone."
+        },
+        {
+          "unit": "00_レコンキスタ_start_2.mjo::u0519",
+          "issue": "Negative question should unambiguously admonish Shinya rather than ask permission to bully."
+        }
+      ],
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_06_u0001-u0134.json": {
+      "sha256": "bf54e31ec4cd441773d3c8689e2ff87590385c1543fe8e16ffa12fdc742889ce",
+      "status": "accepted",
+      "reviewed_units": 134,
+      "review_scope": "Full source/target review plus inline verse composition; 3 width warnings remain runtime-pending.",
+      "resolved_issues": [],
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_07_u0001-0136.json": {
+      "sha256": "cd9fa6c39957c2f5e5527c7539f4ed3afa5f34a060f0fe261578bb2dc4f2b613",
+      "status": "accepted",
+      "reviewed_units": 136,
+      "issues": [],
+      "review_scope": "Full previous source/target review reused; requested changed fields/context and repeated cross-route scene wording inspected. Runtime pending.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "masa_07.mjo::u0044",
+          "issue": "Canonical 逢摩が時/逢魔が時=마가 드는 시간; same scene across routes."
+        },
+        {
+          "unit": "masa_07.mjo::u0052",
+          "issue": "Canonical spelling 미션 스쿨."
+        }
+      ]
+    },
+    "lane-2/batches/kureha_06_u0135-u0276.json": {
+      "sha256": "86dc0ba6e73c43f54eb01cdaf10a0c74e8bcae1ff7160dcb93bcc02ed7ed4aa7",
+      "status": "accepted",
+      "reviewed_units": 142,
+      "issues": [],
+      "review_scope": "Full previous source/target review reused; requested changed fields/context and repeated cross-route scene wording inspected. Runtime pending. Targeted spatial-scope issue discovered by cross-route lexical scan; all other completed review reused. Requested delta inspected; unchanged full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "units": [
+            "u0183"
+          ],
+          "issue": "Natural source-faithful 良くも悪くも phrasing."
+        },
+        {
+          "units": [
+            "u0246"
+          ],
+          "issue": "Actual response is addressed to father."
+        },
+        {
+          "units": [
+            "u0203",
+            "u0204",
+            "u0206",
+            "u0207",
+            "u0208",
+            "u0209",
+            "u0210"
+          ],
+          "issue": "Use chosen identical wording for shared scene with masa_07."
+        },
+        {
+          "units": [
+            "u0233"
+          ],
+          "issue": "Preserve supernatural 神隠し content as 신령에게 끌려가 사라지다."
+        },
+        {
+          "units": [
+            "u0195",
+            "u0196",
+            "u0197"
+          ],
+          "issue": "Town spatial scope; u0195 水面下 is concealed events, not literal underwater."
+        }
+      ]
+    },
+    "lane-1/batches/start2-u0591-u0740.json": {
+      "sha256": "ab55e28a9b29d020dcb19d2740dd9700f1f7c8e86284bdc7d4f8d3fab1a093a2",
+      "status": "accepted",
+      "reviewed_units": 150,
+      "review_scope": "Full source/target review: father-child preparations, school departure, first seminary workday; voice and scene continuity inspected.",
+      "resolved_issues": [],
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/start2-u0741-u0860.json": {
+      "sha256": "339d7f07187a7c71a132935b2ed88b3691cd6edb42cf7fb2721160f8819cdf1f",
+      "status": "accepted",
+      "reviewed_units": 120,
+      "review_scope": "Previous full review reused; three requested target changes verified.",
+      "issues": [],
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "00_レコンキスタ_start_2.mjo::u0840",
+          "issue": "Preserve negative answer ううん unambiguously."
+        },
+        {
+          "unit": "00_レコンキスタ_start_2.mjo::u0828",
+          "issue": "Natural Korean for 間違っても; explicit instruction not to visit."
+        },
+        {
+          "unit": "00_レコンキスタ_start_2.mjo::u0805",
+          "issue": "Replace abstract 작은 엉뚱함 combination with natural narration."
+        }
+      ]
+    },
+    "lane-3/batches/masa_07_u0137-0230.json": {
+      "sha256": "9a7f4e9959eed574368154d3f1b32e940b4dcd88a70aa4f03abeaeac247fa654",
+      "status": "accepted",
+      "reviewed_units": 94,
+      "review_scope": "All source/target fields and narrative identity reviewed. Missing output section u0137–0162 read separately; hair modifier correction confirmed. Requested delta inspected; previous unchanged full review reused.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0171",
+          "issue": "街 denotes town; replace 이 거리에서 with 이곳에서; remainder previously accepted."
+        }
+      ]
+    },
+    "lane-1/batches/start2-u0861-u0974.json": {
+      "sha256": "de8db1cf4283d733e95b0eee03528e7c6367786113ab2918efa428a407921fd7",
+      "status": "accepted",
+      "reviewed_units": 114,
+      "review_scope": "All ordinary and inline fields reviewed, including previously truncated u0948–0974; target wording accepted. Requested delta inspected; previous unchanged full review reused.",
+      "issues": [],
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "00_レコンキスタ_start_2.mjo::u0910",
+          "issue": "Reply is to Shinya; Nanako-directed agreement request starts at u0911.",
+          "scope": "context.addressees"
+        }
+      ],
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_07_u0001-u0120.json": {
+      "sha256": "5cec74e85203e494ad6b5f06fefad50ed8f99b3d9162bc3806231fcb9c3651f9",
+      "status": "accepted",
+      "reviewed_units": 120,
+      "review_scope": "Full source/target review; family-care bath scene is nonsexual. Requested delta inspected; unchanged full review reused.",
+      "issues": [],
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "kureha_07.mjo::u0086",
+          "issue": "いい加減 here means by now/about time, not 적당히."
+        },
+        {
+          "unit": "u0011",
+          "issue": "街 denotes town; use 이곳에서는."
+        },
+        {
+          "unit": "u0017",
+          "issue": "Town spatial scope, use 이곳."
+        }
+      ],
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_07_u0121-u0211.json": {
+      "sha256": "3465c8f6b7758701f2748828f3b0a284d17bb8218a00df5a6ef2ee70d66d3fa2",
+      "status": "accepted",
+      "reviewed_units": 91,
+      "review_scope": "Full source/target and inline review, blank ruby exact source ID verified by disassembly earlier. Requested delta inspected; unchanged full review reused.",
+      "issues": [],
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "units": [
+            "u0160",
+            "u0172",
+            "u0176",
+            "u0195"
+          ],
+          "issue": "街 denotes the whole town; avoid reducing scope to a street."
+        },
+        {
+          "unit": "u0167",
+          "issue": "Natural action for looking at received business card."
+        }
+      ],
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_07_u0231-0345.json": {
+      "sha256": "24fcb324d3ee494795da1024a54eade3137b7629ab3b3b8dd1385b4a9c80185e",
+      "status": "accepted",
+      "reviewed_units": 115,
+      "review_scope": "All source/target fields and creation/reading-subject continuity reviewed. Requested delta inspected; previous unchanged full review reused. Requested delta inspected; unchanged full review reused.",
+      "issues": [],
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "u0261",
+          "issue": "独りよがり describes self-satisfying prose that disregards the reader; use 나만 만족하는 글."
+        }
+      ],
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/start2-u0975-u1114.json": {
+      "sha256": "2600abe4a848492c780edb619f3b5c25b78e1e712a7c7f8efb85b07e795b3e55",
+      "status": "accepted",
+      "reviewed_units": 140,
+      "review_scope": "All source/target fields, shifts between narrators and boxing double-reading ruby inspected. Numeric time literal preserved; runtime pending.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_08_u0001-u0124.json": {
+      "sha256": "8f14df5388a929d254cb0da11a306dc43e125e55b239024dc7e9f0a7fbb67ca6",
+      "status": "accepted",
+      "reviewed_units": 124,
+      "review_scope": "Full source/target, dream wife/daughter distinction and repeated traditional song inspected. Requested delta inspected; unchanged full review reused.",
+      "issues": [],
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "u0041",
+          "issue": "Natural phrase 조금 마음에 걸리긴 했다."
+        },
+        {
+          "unit": "u0073",
+          "issue": "みっともない refers to restless behaviour, not unattractive appearance."
+        },
+        {
+          "unit": "u0121",
+          "issue": "街 refers to town, use 이곳."
+        }
+      ],
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_08_u0001-0140.json": {
+      "sha256": "bf85aef74bba6699bf27bfe6f3ec310d1126a7111dc02565bbd4071985e6f97b",
+      "status": "accepted",
+      "reviewed_units": 140,
+      "review_scope": "Full source/target and inline review; dawn-to-Masaki viewpoint transition, incomplete age evidence and name disambiguation reviewed. Requested delta inspected; unchanged full review reused.",
+      "issues": [],
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "u0037",
+          "issue": "흥미진진한 얼굴 should be 호기심 가득한 얼굴, describing interest rather than an interesting face."
+        }
+      ],
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/start2-u1115-u1264.json": {
+      "sha256": "bcf97cc6424a947ddb1abc8dc0c65196d3bd8cb288c403c70523137060bad166",
+      "status": "accepted",
+      "reviewed_units": 150,
+      "review_scope": "All source/target fields reviewed, father/daughter scene and shifting viewpoint clear; paired 武者震い joke and intentionally unresolved promise retained.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/start2-u1265-u1408.json": {
+      "sha256": "ebb6b668d5949819044ad52984b95234a1255963f7131f9dcfe9e850c2423d06",
+      "status": "accepted",
+      "reviewed_units": 143,
+      "review_scope": "All supplied source/target and inline fields reviewed; u1356 remains deferred and excluded. Childhood object, narrator phase and name/call choices preserved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_08_u0125-u0222.json": {
+      "sha256": "34ac010a311fb525069922814febea2d4653ccc9c39a1b5513b3a23cac326900",
+      "status": "accepted",
+      "reviewed_units": 98,
+      "review_scope": "Full source/target and emphasized composition reviewed; u0221 town scope corrected. Requested delta inspected; unchanged full review reused.",
+      "issues": [],
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "u0149",
+          "issue": "Attempt to move before discovering paralysis; avoid asserting a completed step."
+        },
+        {
+          "unit": "u0207",
+          "issue": "Correct subject marker 무릎이나 어깨가 조금 까진."
+        }
+      ],
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_08_u0141-0261.json": {
+      "sha256": "cee2cf8e21f3cbc284d1f0077f0c9a2eb5121201061db37eb314cd24fc392b04",
+      "status": "accepted",
+      "reviewed_units": 121,
+      "review_scope": "All source/target fields reviewed; viewpoint transitions, anonymous caller identity and repeated warning preserve source certainty.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_08_u0223-u0360.json": {
+      "sha256": "6a08832d0d85b8c3059e74f699c586841a129dcdb03479367ee37c066754e514",
+      "status": "accepted",
+      "reviewed_units": 138,
+      "review_scope": "All source/target reviewed; child inner speech, father viewpoint and concealed masked-man identity preserved. Requested grammar and repeated sound changes inspected; unchanged full review reused.",
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "u0325",
+          "issue": "Natural grammar for continued stand-off."
+        },
+        {
+          "unit": "u0334",
+          "issue": "Keep the man as subject of guarding rather than a hand being vigilant."
+        },
+        {
+          "units": [
+            "u0236",
+            "u0247"
+          ],
+          "issue": "Same door sound as approved memory: ガチャ…=철컥…"
+        },
+        {
+          "unit": "u0237",
+          "issue": "Same sleeping daughter sound as masa_08 u0250: 새근, 새근…"
+        }
+      ],
+      "issues": []
+    },
+    "lane-3/batches/masa_08_u0262-0321.json": {
+      "sha256": "5d482eff6b051a331f8516e0b8075d8a30e266e196e6cb48856a48055de49ad4",
+      "status": "accepted",
+      "reviewed_units": 60,
+      "review_scope": "Full source/target review completed before context checkpoint; search for Masaki, discovery of lie, and anonymous warning retain actual subject and source certainty.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_08_u0322-0456.json": {
+      "sha256": "106b285d93f1d616784e04beaaad830560399b7bdffc1a2353b29af0ee2d9ec4",
+      "status": "accepted",
+      "reviewed_units": 135,
+      "review_scope": "All source/target fields reviewed; abduction and rescue mechanics, source identity uncertainty, directed speech and shared-scene repeats checked. Explicit repeat targets, corrected recipients and all descriptor-change fields including particle repairs inspected. Previously truncated middle delta inspected separately; unchanged full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "scope": "repeat-decisions.json",
+          "issue": "Apply explicitly listed same-scene targets and directed-recipient corrections; other reviewed fields accepted."
+        },
+        {
+          "scope": "term change affected particles",
+          "issue": "Correct 남가/남는/남와 introduced by descriptor change; retain follow-up running sound at u0430. Truncated delta output will be inspected only for previously unseen changed fields."
+        }
+      ],
+      "issues": []
+    },
+    "lane-1/batches/start2-u1409-u1537.json": {
+      "sha256": "4f996ca9c1b7899d4321ecf1a24bf72ac9dd2cce74941605f6ec5da2a028968e",
+      "status": "accepted",
+      "reviewed_units": 129,
+      "review_scope": "Full ordinary and inline source/target review. Alternative branch continuity, unresolved past incident, dinner hospitality and father/daughter/Masaki recipients preserved. Numeric time kept pending consumer proof.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/start2-u1538-u1649.json": {
+      "sha256": "c6f7882631ccae6bcc367bb68fad4ddd25a216538f3b686361408aab0e6e8719",
+      "status": "accepted",
+      "reviewed_units": 112,
+      "review_scope": "Full ordinary and inline source/target review; wife/child names, present-day Nanako, direct-help/call-help alternatives and internal-key protection checked. Requested delta inspected; unchanged full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u1547",
+          "issue": "漆黒 describes hair colour, not length; 칠흑처럼 검은 긴 머리에 검은 세일러복을 입은 소녀."
+        }
+      ],
+      "issues": []
+    },
+    "lane-2/batches/kureha_08_u0361-u0486.json": {
+      "sha256": "919c4c4ce9fe3fcf2626a5f05a160efb6e4c53fede58c4ac0f6240d3b4b2ab39",
+      "status": "accepted",
+      "reviewed_units": 126,
+      "review_scope": "Full ordinary and inline source/target review; rescue aftermath, child care, narrator uncertainty and alternate knowledge branches checked. Requested delta inspected; unchanged full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0469",
+          "issue": "Natural title phrase 아내인 이 부인을 먼저 떠나보내고,"
+        },
+        {
+          "unit": "u0475",
+          "issue": "人情話 in this scene: 애틋한 이야기, avoiding unnatural 인정 이야기."
+        }
+      ],
+      "issues": []
+    },
+    "lane-3/batches/masa_08_u0457-0571.json": {
+      "sha256": "261fc438414d24a18b21c536fca9f173c413bdba8ed48f493fe8894f29b9952e",
+      "status": "accepted",
+      "reviewed_units": 115,
+      "review_scope": "Full source/target review; abductor/telephone identities remain deductions, concealed information and quoted recollections retain viewpoint.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_08_u0572-0626.json": {
+      "sha256": "67fd7b52adf85a7bdb3c4c25291927c9d02070a36df1ba226c4f40ab59c03b19",
+      "status": "accepted",
+      "reviewed_units": 55,
+      "review_scope": "Full source/target and inline review; trauma after rescue, temporary plain speech and return to polite voice retained. Blank reading of leave-taking ruby remains runtime-pending.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/start2-u1650-u1778.json": {
+      "sha256": "d8b812a5e6a5b266f0f4f798953a52304860965b2f26f26139c4790c62daf009",
+      "status": "accepted",
+      "reviewed_units": 129,
+      "review_scope": "All supplied fields reviewed as transformation of provided source; present-day Nanako context kept distinct from explicit childhood. Alternate branches reuse verified targets; narrator and per-field recipients checked. Requested delta inspected; unchanged full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u1661",
+          "issue": "落ち着かない: 그동안 나는 영 마음이 가라앉지 않았다.; avoid unintended happy anticipation."
+        }
+      ],
+      "issues": []
+    },
+    "lane-1/batches/start2-u1779-u1883.json": {
+      "sha256": "8e7929fb3e7f55692770a7ffd9ad871bc20edf3ca6e012595886db471b7606d5",
+      "status": "accepted",
+      "reviewed_units": 105,
+      "review_scope": "Full source/target review; identification chronology, unreliable visual observation, school phone-chain and name-repetition joke inspected. Requested delta inspected; unchanged full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u1787",
+          "issue": "Natural subject: 얼굴도 낯이 익다."
+        },
+        {
+          "unit": "u1838",
+          "issue": "Meal hospitality: 참고로 저녁은 / 마호코네에서 특제 함박스테이크를 대접받았다."
+        },
+        {
+          "unit": "u1847",
+          "issue": "Answering a phone, not going outside: 네네, 지금 받아요."
+        }
+      ],
+      "issues": []
+    },
+    "lane-1/batches/start2-u1884-u2013.json": {
+      "sha256": "1e76a7a7e6f7f720c8c516b63de3b285d346230a97f6cc775e413f40afdfc10b",
+      "status": "accepted",
+      "reviewed_units": 130,
+      "review_scope": "All ordinary and inline source/target fields reviewed; repeated urban legend reused, concealed weapon identification and third attack ruby retained.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_08_u0627-0724.json": {
+      "sha256": "a6b2a5577129e34c98e7c75b46130c2edb0d5a08573642cb2a8e10f8bcf4d9e0",
+      "status": "accepted",
+      "reviewed_units": 98,
+      "review_scope": "Full source/target review; past teacher/reader conversation, explicitly earlier childhood, recurring recovery/loss motif and creative motivation inspected.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_08_u0487-u0630.json": {
+      "sha256": "23280ff9afd2ff271fe5973a25ec1c0330441eb12d6e52073b3fc9b17360c24a",
+      "status": "accepted",
+      "reviewed_units": 144,
+      "review_scope": "All ordinary and inline source/target reviewed; supernatural explanation, source epistemic certainty and invitation motives retained. Requested u0611 delta inspected before usage stop; unchanged full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0611",
+          "issue": "衣食住: 먹을 것과 입을 옷, 지낼 곳 정도는 마련해 줄 수 있을 거야; avoid making all three nouns a location."
+        }
+      ],
+      "issues": []
+    },
+    "lane-2/batches/kureha_12_u0001-u0021.json": {
+      "sha256": "0226137782a9e8e8e050dbc4e656cb17599e7cf4475e60f045ca98649056690f",
+      "status": "accepted",
+      "reviewed_units": 21,
+      "review_scope": "Full source/target dream scene reviewed before usage stop; pregnant wife, unrecoverable past and uncertainty retained.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_09_u0001-0073.json": {
+      "sha256": "19701c433a90fd8142f421b4fdb0f5fcbf03750cc209bcd802af8f5be630dffb",
+      "status": "accepted",
+      "reviewed_units": 73,
+      "review_scope": "Full original batch reviewed before stop. Agent reported two fixes; final changed bytes not yet semantically re-reviewed. Requested two target changes and note inspected on explicit resume; unchanged original full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0044",
+          "issue": "Counseling direction correction requested; agent reports applied, final delta review pending."
+        },
+        {
+          "unit": "u0047",
+          "issue": "사람들의 고민을 들어주는 것도 제 일 중 하나니까요 requested; final delta review pending."
+        }
+      ],
+      "issues": []
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u0001-u0080.json": {
+      "sha256": "a64e91bb19c0bd353ee064253e40af2f7faf44f397f705ac33c20bf1b222b946",
+      "status": "accepted",
+      "reviewed_units": 80,
+      "review_scope": "Full source/target review; night-attack uncertainty, sleep loss, cheek-pulling muffled speech and ambiguous usual greeting hint retained.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_09_u0074-0171.json": {
+      "sha256": "628d1301959c971f1ae445bb93d7dbda8b75348f3d0bb3ac6392ab2d42e052b7",
+      "status": "accepted",
+      "reviewed_units": 98,
+      "review_scope": "Full source/target comparison: Makino and Masaki park conversation, training motive, mixed speech levels and prior attack recall. Only u0122 parallel health/exercise wording requires correction. Requested target delta inspected; original full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0122",
+          "issue": "Use 건강을 지키거나 운동 부족을 해소하기 위해; current 건강이나 운동 부족을 해소 conflates health with lack of exercise."
+        }
+      ],
+      "issues": []
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u0081-u0168.json": {
+      "sha256": "23ef4ec97b30b31e28f788ca86d045da98625eaef1bf426dc15ef961df6fb9c6",
+      "status": "accepted",
+      "reviewed_units": 88,
+      "review_scope": "Full source/target comparison; adult current-day uniform joke, three-party addressees, eye-contact exchange and worry behind ordinary morning conversation.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_09_u0001-u0131.json": {
+      "sha256": "8b3d092a06bcd1ebbc9e89c25185a0c4444c12843fff4866fe3ee8bf93b24fff",
+      "status": "accepted",
+      "reviewed_units": 131,
+      "review_scope": "All ordinary and inline source/target reviewed; dream of expectant wife, Tou-ryanse lyrics, name choice disambiguation, and waking mistaken-identity branches. Target text accepted; four sung-unit addressees require correction. Requested four addressee-only changes inspected and accepted; unchanged full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0023/u0024/u0027/u0030",
+          "scope": "context.addressees",
+          "issue": "Song is sung to unborn baby, explicitly established by u0026; Geigo overhears."
+        }
+      ],
+      "issues": []
+    },
+    "lane-3/batches/masa_09_u0172-0260.json": {
+      "sha256": "7f6bc07911e0ebff90a2394af59e96a8e1c5944777ca6fd6facd3476d581e04f",
+      "status": "accepted",
+      "reviewed_units": 89,
+      "review_scope": "Full ordinary/inline source-target review; adult teasing versus sincere invitation, first reporter introduction, hidden Kureha knowledge, five-year incident ambiguity. Requested target delta inspected; original full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0205",
+          "issue": "縁者 in graveyard context is relatives: 친척의 무덤, not acquaintances."
+        },
+        {
+          "unit": "u0230",
+          "issue": "Natural Korean: 공원에서 곧장 여기로 왔기에 여전히 운동복 차림이었다."
+        }
+      ],
+      "issues": []
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u0169-u0242.json": {
+      "sha256": "9134739e2f58770ef6169cea9b6dbcec43cb44c575e6989b6999007555d4545d",
+      "status": "accepted",
+      "reviewed_units": 74,
+      "review_scope": "Full source/target comparison; classroom collision and switch to Makino on the same morning, uncertainty about prior attack and father-daughter worry. Unproven numeric display candidate preserved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u0243-u0275.json": {
+      "sha256": "b502f9c4630a6e09892f5281e4f07408bf050418cd7d0f30f3cd5459de4d999b",
+      "status": "accepted",
+      "reviewed_units": 33,
+      "review_scope": "Full source/target and inline comparison. School drop-off and ordinary father-daughter farewell request.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u0276-u0307.json": {
+      "sha256": "2baf3d1a37cc6ebd7de53e91af3eb5ce7b4be8fca690efd0bd58996c2f1c91b6",
+      "status": "accepted",
+      "reviewed_units": 32,
+      "review_scope": "Full source/target and inline comparison. Both filial cheek-kiss choice branches and choice labels; matching branch endings consistent. パパ=파파 accepted specifically as contrast to おとーさん=아빠.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u0308-u0327.json": {
+      "sha256": "97de9381a37a8c9ca15a45bcd95c0439f24d5fa33a153d71c1f6c1798cb23a6c",
+      "status": "accepted",
+      "reviewed_units": 20,
+      "review_scope": "Full source/target and inline comparison. Teachers-room concern and school building route; source typo resolved through explicit surrounding context.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u0328-u0359.json": {
+      "sha256": "2500e1df78bf4e2df96d91bcd324e5b0922a0a5349ca4fc1c54737760b3297b2",
+      "status": "accepted",
+      "reviewed_units": 32,
+      "review_scope": "Full source/target and inline comparison. Nanako corridor collision earlier than Shinya viewpoint; character speculation about prior event retained as uncertain.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_09_u0132-u0250.json": {
+      "sha256": "4c5f48022499ada08cb32f59e9dbc12c84902596db62c42114f21e4adff17ba0",
+      "status": "accepted",
+      "reviewed_units": 119,
+      "review_scope": "Full source/target, hairstyle branches and ruby assembly reviewed. One aftermath-versus-memory distinction requires correction. Requested delta inspected; unchanged full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0143",
+          "issue": "尾を引いてない means no lingering impact, not forgotten memory. Use 어제 납치당할 뻔한 일의 충격은 남아 있지 않은 모양이네."
+        }
+      ],
+      "issues": []
+    },
+    "lane-3/batches/masa_09_u0261-0300.json": {
+      "sha256": "747d4f3c1e1b6f3d3a3b74cc34270cdf4b15be2be505543a320f37113a642d7e",
+      "status": "accepted",
+      "reviewed_units": 40,
+      "review_scope": "Full source/target comparison. Reporter account of cursed fill, recollected curse lines, interrupted explanation and directions joke; quoted earlier translations retained.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_09_u0301-0330.json": {
+      "sha256": "2a08117e03926303999ba2eb781c9d62c3e4a9210c6494be763f9dafc5c9841f",
+      "status": "accepted",
+      "reviewed_units": 30,
+      "review_scope": "Full source/target comparison. Earlier writer-reader scene, wife before marriage distinct from current daughter, creative intent and uncertainty.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_09_u0331-0360.json": {
+      "sha256": "eccab7c4b27dfed82116eb6eb604febb5cf1cf3e8e98e8a7f5694170e274a71e",
+      "status": "accepted",
+      "reviewed_units": 30,
+      "review_scope": "Full source/target comparison. Single tear interpreted by narrator, meaning of happy ending, teacher-reader speech direction.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_09_u0361-0380.json": {
+      "sha256": "208846f59da8bbe810f784808052740ca5c66425098b8caf2d570d2d35262c88",
+      "status": "accepted",
+      "reviewed_units": 20,
+      "review_scope": "Full source/target comparison. Mutual gratitude, creator purpose and limited first readership.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_09_u0381-0387.json": {
+      "sha256": "847aaac5921d25716cf5c7a4b36db083eb0831bcd0c17a0fc43b19ac0fc01f70",
+      "status": "accepted",
+      "reviewed_units": 7,
+      "review_scope": "Full source/target comparison. Contest submission decision and wished reader response.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_09_u0251-u0351.json": {
+      "sha256": "156acd0a1585fba3ef9b57cbc8c4e6afe1fe10a0b5a86e826113338f093634ec",
+      "status": "accepted",
+      "reviewed_units": 101,
+      "review_scope": "All source/target and inline ruby reviewed; textbook narration, prior suicidal impulse as character history, tree-search purpose and uncertainty. Text accepted; acknowledgment recipient needs narrowing. Requested delta inspected; unchanged full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0262",
+          "scope": "context.addressees",
+          "issue": "はい responds only to Makino teacher; class-wide audience begins with actual reading u0264."
+        }
+      ],
+      "issues": []
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u0360-u0472.json": {
+      "sha256": "fad6eb4bb27e6e7856dff3eacbf3adc7388e8e08d4b8ed25ebbef9607c12050f",
+      "status": "accepted",
+      "reviewed_units": 113,
+      "review_scope": "Full source/target and three choice branches reviewed; teacher records, source-biased teacher commentary and student disappearance uncertainty retained. 교무 수첩/살생부 accepted in teacher-record nickname context; 가나야마 remains provisional reading. Requested u0460 target delta inspected; unchanged full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0460",
+          "issue": "Natural subject/predicate wording: 학생들끼리 주고받는 정보가 / 더 자세할 테니까."
+        }
+      ],
+      "issues": []
+    },
+    "lane-2/batches/kureha_09_u0352-u0414.json": {
+      "sha256": "54f56a75f4133d1fd55e7d7bbcd7f67f0481c3be121a398b54fbc6939a6c2eb6",
+      "status": "accepted",
+      "reviewed_units": 63,
+      "review_scope": "Full source/target comparison. Reporter encounter, mistaken-name joke, protective cover story and still-unidentified long weapon. Requested target/context delta inspected; original full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0372/u0377",
+          "scope": "context.addressees",
+          "issue": "Silent reaction to reporter introduction/question addresses Yashima only."
+        }
+      ],
+      "issues": []
+    },
+    "lane-2/batches/kureha_09_u0415-u0522.json": {
+      "sha256": "e1f765e17297918c4988d2320c697d5f8eccbac55a6984d33a5b2e914a878d28",
+      "status": "accepted",
+      "reviewed_units": 108,
+      "review_scope": "Full source/target comparison. Night departure and elevator lure; apparent Kureha identity and intent remain uncertain. Inline emphasis assembly reviewed. Requested target/context delta inspected; original full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0446",
+          "issue": "Natural caretaker request: 그 아이 곁을 잘 지켜 줘."
+        },
+        {
+          "unit": "u0470",
+          "issue": "Retain narrator self-assessment つもり: 이해하고 있다고는 생각하지만."
+        },
+        {
+          "unit": "u0521",
+          "issue": "Natural chill reaction: 그 생각에 등골이 오싹해졌다."
+        }
+      ],
+      "issues": []
+    },
+    "lane-3/batches/masa_10_u0001-0103.json": {
+      "sha256": "06366e06f6c1af607bfed09ccd298e8109c0fd0136a27af78611ae38336d1dad",
+      "status": "accepted",
+      "reviewed_units": 103,
+      "review_scope": "Full source/target comparison including nine mixed-speaker units and their exact field-speaker/addressee maps. Island backstory, chronology, rumor certainty and old family loss distinguished. u0015 calling-subject correction and note inspected; unchanged full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0015",
+          "issue": "Calling subject is someone else: 갑자기 누군가 큰 소리로 내 이름을 불렀다."
+        }
+      ],
+      "issues": []
+    },
+    "lane-2/batches/kureha_10_u0001-u0098.json": {
+      "sha256": "fee3eb8ffb1dab90ed4fcfa23f8a1889cb4ff734b9889768d53d508c1ed7c754",
+      "status": "accepted",
+      "reviewed_units": 98,
+      "review_scope": "Full ordinary/inline review: elevator contradiction, weekday tree search, fear of machines versus identity hypothesis; uncertainty preserved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_10_u0099-u0188.json": {
+      "sha256": "f72c766d4f878133c0bb619b4df1207f34c22b61e901dbfef961b700d3a77f6c",
+      "status": "accepted",
+      "reviewed_units": 90,
+      "review_scope": "Full ordinary and emphasis review: uncertain wife identity, pedestrian-crossing anomaly and nonsexual parental reassurance with Sleeping Beauty motif. One assembled spindle phrase requires case correction. Requested case-ending delta and assembled emphasized phrase inspected; full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0186",
+          "issue": "After emphasized 물렛가락 use 에 손가락을 찔려, not 이 손가락에 찔려."
+        }
+      ],
+      "issues": []
+    },
+    "lane-3/batches/masa_10_u0104-0152.json": {
+      "sha256": "5a756aad26b8268f017171728d51b2c77d07b11390dd633e3f5f14c0d5bd2eed",
+      "status": "accepted",
+      "reviewed_units": 49,
+      "review_scope": "Full ordinary/choice source-target comparison: reporter cover/abandon alternatives, inter-party addressees including u0141 switch, directions joke and merged escape.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u0473-u0594.json": {
+      "sha256": "c1e1295efd8d2ea25cd7579a8ba09108311f4cd58498ca915a216ab18c5eb884",
+      "status": "accepted",
+      "reviewed_units": 122,
+      "review_scope": "Full source/target comparison including simultaneous internal narration/classroom conversation, two collapse branches and literal in-body speaker labels. 신야 큥 accepted only teasing/retort pair; 노가미 reading remains provisional. Earlier full review reused; u0490 corrected inability to spare attention for gathering information.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0490",
+          "issue": "Source means lack of capacity with frightened Mahoko present, not wrong time: 정보를 모을 여유도 없을 테니까."
+        }
+      ]
+    },
+    "lane-3/batches/masa_10_u0153-0195.json": {
+      "sha256": "86c0469d7376219ccebc05544965e6f00a1c725d157f9ef70d1748cc0b80cc99",
+      "status": "accepted",
+      "reviewed_units": 22,
+      "review_scope": "All 22 supplied nonsexual caregiving/weather/transition units reviewed. 21 explicitly minor-sexualization units remain deferred without target text and are not accepted or counted as translated. Source age evidence u0065 preserved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_11_u0001-u0079.json": {
+      "sha256": "e467dc98e62298f31d048d15b09e68a2b7a48b8bdc0f2f38c315ea8ef491c42f",
+      "status": "accepted",
+      "reviewed_units": 79,
+      "review_scope": "Full ordinary/inline source-target reviewed; branch-specific reporter relationship and school information boundaries. Same-source school-gate dialogue should reuse already accepted masa10 wording. Earlier full review reused; nine exact-source same-context lines reuse already approved Masa10 rendering; actual changed targets read.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0051",
+          "scope": "fields.target",
+          "issue": "Reuse same-source, same-situation accepted masa_10 u0106 from lane-3/batches/masa_10_u0104-0152.json; preserve current context."
+        },
+        {
+          "unit": "u0054",
+          "scope": "fields.target",
+          "issue": "Reuse same-source, same-situation accepted masa_10 u0122 from lane-3/batches/masa_10_u0104-0152.json; preserve current context."
+        },
+        {
+          "unit": "u0055",
+          "scope": "fields.target",
+          "issue": "Reuse same-source, same-situation accepted masa_10 u0123 from lane-3/batches/masa_10_u0104-0152.json; preserve current context."
+        },
+        {
+          "unit": "u0056",
+          "scope": "fields.target",
+          "issue": "Reuse same-source, same-situation accepted masa_10 u0124 from lane-3/batches/masa_10_u0104-0152.json; preserve current context."
+        },
+        {
+          "unit": "u0057",
+          "scope": "fields.target",
+          "issue": "Reuse same-source, same-situation accepted masa_10 u0125 from lane-3/batches/masa_10_u0104-0152.json; preserve current context."
+        },
+        {
+          "unit": "u0058",
+          "scope": "fields.target",
+          "issue": "Reuse same-source, same-situation accepted masa_10 u0126 from lane-3/batches/masa_10_u0104-0152.json; preserve current context."
+        },
+        {
+          "unit": "u0061",
+          "scope": "fields.target",
+          "issue": "Reuse same-source, same-situation accepted masa_10 u0127 from lane-3/batches/masa_10_u0104-0152.json; preserve current context."
+        },
+        {
+          "unit": "u0062",
+          "scope": "fields.target",
+          "issue": "Reuse same-source, same-situation accepted masa_10 u0128 from lane-3/batches/masa_10_u0104-0152.json; preserve current context."
+        },
+        {
+          "unit": "u0063",
+          "scope": "fields.target",
+          "issue": "Reuse same-source, same-situation accepted masa_10 u0129 from lane-3/batches/masa_10_u0104-0152.json; preserve current context."
+        }
+      ]
+    },
+    "lane-2/batches/kureha_11_u0080-u0173.json": {
+      "sha256": "6ba2cf843229093b3c02b046f881ab3150706597b40fae02ffb3576759ac5b35",
+      "status": "accepted",
+      "reviewed_units": 94,
+      "review_scope": "Full source/target comparison. Coastal-park self-criticism, uncertain apparition, rescue and concealment; balance ruby assembly retained. Prior full review reused; requested dialogue brackets restored in u0099 and checked.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0099",
+          "issue": "未練がましい is lingering attachment: 미련을 못 버린다고 해야 할지; not foolish 미련하다."
+        },
+        {
+          "unit": "u0099",
+          "issue": "Meaning correction accepted; restore source dialogue enclosure 「」 omitted during revision.",
+          "requested_target": "「내가 봐도 미련을 못 버린다고 해야 할지, 우유부단하다고 해야 할지…」"
+        }
+      ]
+    },
+    "lane-2/batches/kureha_11_u0174-u0253.json": {
+      "sha256": "95420f51afa591d88bfbaab7dd0632602ef96eb206a63add35b7a548921ecd77",
+      "status": "accepted",
+      "reviewed_units": 80,
+      "review_scope": "Full source/target comparison. Fatigue concealed from child, childcare, mother-daughter resemblance as narrator wish, and ordinary bath/towel preparation. Earlier full review reused; u0179 emotional exhaustion and u0187 putting on a brave face corrected.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0179",
+          "issue": "Natural psychological strain: 나도 모르는 사이에 마음이 지쳤는지도 모른다."
+        },
+        {
+          "unit": "u0187",
+          "issue": "Concealing fatigue rather than toughness: 여기서 억지로 괜찮은 척해 봐야 다 보일 테니."
+        }
+      ]
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u0595-u0703.json": {
+      "sha256": "f1f6e578b52464c6966ab616fd2de88fc14d77c55e11e74bb14ab1ee30b09161",
+      "status": "accepted",
+      "reviewed_units": 109,
+      "review_scope": "Full source-target review of infirmary recollection alternatives, adult assault aftermath without additions, character speculation/concealment, return to classroom rumor. Earlier full review reused; u0601 accompanying collapsed student, u0613 object particle and u0699 single nurse parent corrected.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0601",
+          "issue": "Accompany collapsed student: 대신 내가 다무라와 함께 보건실로 갔다."
+        },
+        {
+          "unit": "u0613",
+          "issue": "Patient is object of laying down: 다무라 나나코를, not 나나코는."
+        },
+        {
+          "unit": "u0699",
+          "issue": "Single nurse parent: 마사키는 간호사 딸이잖아; do not imply both parents are nurses."
+        }
+      ]
+    },
+    "lane-2/batches/kureha_11_u0254-u0315.json": {
+      "sha256": "72462ee4149a6c3bfe824cd71826cbd0cc926b36320b3d9e6c86a7854d140d78",
+      "status": "accepted",
+      "reviewed_units": 62,
+      "review_scope": "Full ordinary/inline source-target review. Adult Kureha towel encounter, neck mark reveal and wife comparison; child remains in bath with only ordinary dialogue. 호박빛 반점 confirmed through full scene, no bruise/injury assumption added; ruby assembled.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_11_u0316-u0345.json": {
+      "sha256": "8ec7954fbf66bf31ce5ce379326f3333b0f3d6a32a9ae0100b5c4cc0009a7ea4",
+      "status": "accepted",
+      "reviewed_units": 30,
+      "review_scope": "Full ordinary/inline source-target review. Nocturnal conversation and choice not to sleep due to fictional revival side effects.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_11_u0346-u0373.json": {
+      "sha256": "6e2d56be8e1c83321fffae8e220961a0a751eb733b5472e1d1cef04960925dd1",
+      "status": "accepted",
+      "reviewed_units": 28,
+      "review_scope": "Full ordinary/inline source-target review. Long-standing wakefulness subtext and fatigue-role reversal, end-of-chapter moon image; ruby assembly.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_10_u0196-0312.json": {
+      "sha256": "f19607663218a4f05ebe7f23f68163e671727dfe565ae5b6c7e22456536db919",
+      "status": "accepted",
+      "reviewed_units": 117,
+      "review_scope": "All 117 source/target units reviewed: nonsexual bedtime caregiving, adult widowhood and wife photograph discussion, Masaki adult confession and kiss, outing promise. Speaker/addressee shifts and certainty preserved. No acceptance of earlier deferred units.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u0704-u0820.json": {
+      "sha256": "2e24e1f503d7cb417300eab1c931313ac82bb11ba3c968344bb10b70ffe0c32b",
+      "status": "accepted",
+      "reviewed_units": 117,
+      "review_scope": "All 117 units read: gossip as rumor, Masaki confrontation, Mahoko calming Shinya, alternate class branches, staff-room conversation and ominous closing. u0723 threat, nested recalled quotation, adult/child context and unproven time literal preserved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_12_u0022-u0044.json": {
+      "sha256": "1d41416cd8e50dac9b233865f8b45d412b6a037cc87a398edf641ad049463cb8",
+      "status": "accepted",
+      "reviewed_units": 23,
+      "review_scope": "All units read: second Sunday outing, child vitality and adult concerns; conjecture about safety preserved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_12_u0045-u0068.json": {
+      "sha256": "6229c328bb66839ed3286adcc6b9dea1d6719bc2956d6dd9778fef9f7b9e4675",
+      "status": "accepted",
+      "reviewed_units": 24,
+      "review_scope": "All units read: moving walkway, child wording versus narrator terminology and playful excitement preserved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u0821-u0924.json": {
+      "sha256": "0a0b64ea6684b74477406add4b5db3c53289faa06d9638aeb8b0defbec7053f6",
+      "status": "accepted",
+      "reviewed_units": 104,
+      "review_scope": "All units read: father/daughter shopping, Masaki report, rumor and conjecture distinguished; child leaves before adult discussion, spear-like blade not prematurely named.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_10_u0313-0442.json": {
+      "sha256": "87d4dc1a0794effdf740976b57fbb6066ea3369f84f69e91736192fde67d5ec3",
+      "status": "accepted",
+      "reviewed_units": 130,
+      "review_scope": "All 130 units read, including output-truncated middle through narrow followup reads. Nonsexual five-year-earlier loneliness/cats, present adult Masaki and Makino past writer debut/confession kept distinct. Mixed mother/daughter, sound/person fields checked. Loss/recovery motif and conjecture preserved. Prior target review reused unchanged; only three ambiguous cat-cry addressees cleared in units343/344 and inspected.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_12_u0069-u0184.json": {
+      "sha256": "f5f72e9744867e7cc0cc92a66be22f49a61891683eb2fca675e61bb7af880ba6",
+      "status": "accepted",
+      "reviewed_units": 116,
+      "review_scope": "All 116 units read including truncated final 11 via narrow followup. Moving-walkway humor, vanished child/ice cream, wife versus daughter, telephone decision reviewed. Prior full review reused; u0142 now correctly leaves kidnapping unconfirmed.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0142",
+          "issue": "そうと決まった denotes lack of established fact, not an undecided outcome.",
+          "requested_target_field_2": "아니, 진정해. 아직 납치당했다고 단정할 수는 없잖아."
+        }
+      ]
+    },
+    "lane-2/batches/kureha_12_u0185-u0325.json": {
+      "sha256": "f933587c37e54a8644ac82e35ccc234876e7c36942cf16871e6ce16923cca661",
+      "status": "accepted",
+      "reviewed_units": 141,
+      "review_scope": "All units and 3 inline targets reviewed: telephone shop humor; adult fatigue and speculative moonlight solution; nonsexual family bedtime. 同衾 composed phrase and final emphasized pronoun grammatically checked, wife/daughter distinguished.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u0925-u1031.json": {
+      "sha256": "cc17e9d6f57f9f54934402b19306bfa561b605b3d767d8394eded6dc2c700270",
+      "status": "accepted",
+      "reviewed_units": 107,
+      "review_scope": "All units and 2 ruby targets read. Shiina cold polite tone to Shinya and warm polite tone to Mahoko tracked; u1022/1024 distinct addressees. Semantic alternative ruby 반/쪽 correctly uses 반 base (not a sound-only reading); time literal unchanged.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_13_u0001-u0114.json": {
+      "sha256": "727fe5964c761d8ae0073815765706048b7a84474b110be11c0152c46e682810",
+      "status": "accepted",
+      "reviewed_units": 114,
+      "review_scope": "All source/target units and 4 recap choices read; missing output tail read separately. Source sermon, recap chronology, wife/daughter differentiation, hidden conversation and narrator inferences preserved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_13_u0115-u0184.json": {
+      "sha256": "1c21791ad5c591f0c08a1c11d80eb24a20c18ef06d3aa7e3a1331e15984da92a",
+      "status": "accepted",
+      "reviewed_units": 70,
+      "review_scope": "All units read: necklace given to daughter as telephone strap; alternating Kureha/child song lines reuse approved wording, pregnancy memory recipient is unborn child, emotional pain/release preserved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_11_u0001-0101.json": {
+      "sha256": "922e8eed1eadee71332ece3ab60f33b3fae797e60eac2998acfa871446f36e25",
+      "status": "accepted",
+      "reviewed_units": 101,
+      "review_scope": "All units and 5 inline targets read, including separately recovered truncated opening. Masaki polite/plain addressee changes, adult kiss memory, child outing, conjectural safety claims, alternative choice branches and ruby composition checked. Contextual terms 극기심/자물쇠 따기/심리 조종 approved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_14_u0001-u0131.json": {
+      "sha256": "4ae562102237932e161f93c37c8536b34210a06ba3065019e1c6f9c489b14306",
+      "status": "accepted",
+      "reviewed_units": 131,
+      "review_scope": "All units and 2 emphasis targets read. Neighbor promise and school escort, burial site revelation, supplied fictional violence without additions, and narrator correction from apparent composure to suppressed distress preserved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_14_u0132-u0254.json": {
+      "sha256": "f8ee72b6d142c555df41020601c9bdcc0e9a0c8e0f127d178b8d008001c46a85",
+      "status": "accepted",
+      "reviewed_units": 123,
+      "review_scope": "All 123 units and 2 choices read. Limited remaining time, separation, loss motif and family photograph followed; fictional digital-camera explanation translated as supplied, including alternative detailed/simple branches.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u1032-u1148.json": {
+      "sha256": "2e93249c80ef3d7d278f7682b37028be24cf3cebe4bc761dc784ffcc66190f4d",
+      "status": "accepted",
+      "reviewed_units": 117,
+      "review_scope": "All units read. Adult coarse joke remains non-explicit as source states nothing exposed; Shiina/Mahoko/Shinya recipient and politeness distinctions preserved. Contextual 고해실/고해/참회 and escort-wolf idiom approved. u1142 width warning remains runtime_pending.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_11_u0102-0201.json": {
+      "sha256": "f78c4f8d91050581d4a972502c87d0c2b3d28c837b8b4778aa1cfb6f7cf4bcff",
+      "status": "accepted",
+      "reviewed_units": 100,
+      "review_scope": "All units read: park maple/name wordplay with one minimal 단풍(모미지) bridge, nonsexual familial role-play/arm-linking, comic formation name, lost child and telephone purchase. Mixed narrative/dialogue unit185 and mother-in-law joke preserve relationships. Both contextual term proposals accepted.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_15_u0001-u0101.json": {
+      "sha256": "77f756a049a9fded169db02b4234d1139efd94d37a8913aa9360196f8a1ea4f2",
+      "status": "accepted",
+      "reviewed_units": 101,
+      "review_scope": "All units read: missing Masaki, class timetable and witness testimony, shifting girl/girl and teacher/girl addressees, source pastor/priest distinction and recalled prior promise preserved. Emphasis dot retained in source-controlled field.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_15_u0102-u0230.json": {
+      "sha256": "99bdf6a1bd3ff952f317f4bf184096e147ff3178dd743be312c0ec2b8aff2020",
+      "status": "accepted",
+      "reviewed_units": 129,
+      "review_scope": "All units read: chapel approach, Shiomi deliberate explanation and disclosure, death/recovery motive, Nanako murder reveal and Makino anger-driven switch to plain speech. u0137 source adolescence wording preserved as Shiomi dialogue without expanding age assumptions; no sexual target content.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u1149-u1253.json": {
+      "sha256": "5496903df204238f942bb49d1575319b3dbc3968a1dddf3d72460f4d8820af2c",
+      "status": "accepted",
+      "reviewed_units": 105,
+      "review_scope": "All units read: distinct unnamed monologues and source religious quotation, night focus transition, elevator issue, Shinya fear and comic Mahoko visit. 福音の時=복음의 때 accepted. Delta review: u1172 replacement contrast corrected. Prior full review reused.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u1172",
+          "issue": "Source ではなく changes the focus from black-clad girl to Nanako; preserve replacement rather than comparative 보다.",
+          "requested_target_field_1": "오늘 밤에는 그 검은 차림의 소녀가 아니라"
+        }
+      ]
+    },
+    "lane-2/batches/kureha_15_u0231-u0359.json": {
+      "sha256": "6bb307c6fd4599510a3d3326b6c8e10a9b98c19d30c8b5e816fcc905e6bb13f7",
+      "status": "accepted",
+      "reviewed_units": 129,
+      "review_scope": "All units and emphasis target read: Masaki death discovery, daughter/caretaker phone recipient changes, guilt and fictional intrusive self-strangulation experience. Delayed causal recognition in u0353 composed correctly; no added intent, diagnosis or real-world instructions.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_11_u0202-0321.json": {
+      "sha256": "4fac6468ffb7c8624c59db1449162f7510003afc6975f669931c579e359baade",
+      "status": "accepted",
+      "reviewed_units": 120,
+      "review_scope": "All units read. Chase, reported/reconstructed warning and Masaki private plain-form thoughts versus direct polite speech distinguished. Wife/child identities, repeated resurrection definition and loss motif preserved. Existing length warning remains runtime_pending. Delta review: u0203 source recognition and reflexive pursuit preserved in shorter wording; 16 identical relationship metadata corrections verified as a group. Prior full review reused.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u1254-u1398.json": {
+      "sha256": "ae0ad6850c31b9f38ef47d1160f388c15a43fc0f8fad36e8276783a6d737591b",
+      "status": "accepted",
+      "reviewed_units": 145,
+      "review_scope": "All units and 2 menu options read. Adult pregnancy misunderstanding resolves explicitly to missing cereal; alternate sausage-charm/accompany branches rejoin. Context terms 시리얼 and 어육 소시지 accepted. Delta review: u1331 complete natural clauses corrected. Prior full review reused.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u1331",
+          "issue": "Avoid isolating auxiliary 않았다 in its own field; rebalance source meaning across the same two fields.",
+          "requested_targets": [
+            "하지만 그 얘기로 마호코를 겁주는 건",
+            "나로서도 피하고 싶었다."
+          ]
+        }
+      ]
+    },
+    "lane-2/batches/kureha_15_u0360-u0483.json": {
+      "sha256": "f951691bff4b62f98c8f4a47ccebb192b9911afc21481f5a3a16b869080f77d1",
+      "status": "accepted",
+      "reviewed_units": 124,
+      "review_scope": "All source/target units read: Kureha resurrection limitations, Makino burial decision and grief, source prayer wording. Cross-source prayer occurrences in masa_18 and sub_kure02 identified for future consistency; no earlier accepted prayer target claimed. Source quote field boundaries preserved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_11_u0322-0414.json": {
+      "sha256": "1e8663880cbe775ef29841bc1ab0e5c2b08017d828d0dd1ebff899c91f181be6",
+      "status": "accepted",
+      "reviewed_units": 93,
+      "review_scope": "All source/target units read: return to daughter and Masaki, explicit newlywed flashback, surname/given-name shift and momentary informal speech, amber mark location and sap inference. Distinct wife/daughter identities and incomplete knowledge preserved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u1399-u1519.json": {
+      "sha256": "a8df0aacb865e5632595e5d2403ddebda44e37ace1752d7b81919f4e34a00cf0",
+      "status": "accepted",
+      "reviewed_units": 121,
+      "review_scope": "All units read: Makino/Shinya alternate viewpoints, Mahoko weekend family arrangement and detour misunderstanding, sound pursuit and Nanako discovery. Identity knowledge and timing retained.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/00_レコンキスタ_start_3-u1520-u1632.json": {
+      "sha256": "c9a4fcff35f5433891dc3d8787331bccaf2a2247486f2d28528a568b9d17aa60",
+      "status": "accepted",
+      "reviewed_units": 113,
+      "review_scope": "All units and six inline targets read: simultaneous viewpoint prayer agrees, semantic ruby bases compose 구원하실/읊조리듯, pronunciation ruby spaces distinct from font settings; repeated cries and uncertain audible voice preserved. Earlier Job quotation dependency checked; different verses, not conflicting translation.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_15_u0484-u0548.json": {
+      "sha256": "21db9a3b4e23da05338c2947618d21201a8cb6f15acba7e45de2635fb0935a5c",
+      "status": "accepted",
+      "reviewed_units": 65,
+      "review_scope": "All units read: separation and protective warning, child reunion and grief, grandfather-to-son-in-law 하게체 and reciprocal 아버님 존댓말. Family warmth and unresolved consequences retained.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_16_u0001-u0107.json": {
+      "sha256": "fe7adf77bf05c1614d664823632f46e7ea4fc78b0b972e5ab2188302e8f72995",
+      "status": "accepted",
+      "reviewed_units": 107,
+      "review_scope": "All units read: lesson quotation and grief, hidden deaths, Mahoko ignorance, father displaced anger and apology. One Korean narration linkage correction requested. Delta-only review: u0046 grammatical linkage corrected; prior 107-unit full review reused.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0046",
+          "requested_target": "여기 와도 요시모리를 절대 만날 수 없다는 것도 모른 채.",
+          "reason": "Natural narrative grammatical linkage; original impossibility and her ignorance unchanged."
+        }
+      ]
+    },
+    "lane-2/batches/kureha_16_u0108-u0214.json": {
+      "sha256": "37be2c6849c04e1775a73d93a5eef2e48745d1a42e40ad961f54b78630ebeb87",
+      "status": "accepted",
+      "reviewed_units": 107,
+      "review_scope": "All source/target and emphasis targets read: anxious departure, hidden refuge, unrecognized mummy imagery and fictional moonlight dependence. 그것 emphasis composes correctly and recognition not advanced.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_12_u0001-0113.json": {
+      "sha256": "06a560d1f11dc29d126d871bb3cd9c4a1a63fcab0b4b3a43208a229d6bf23dad",
+      "status": "accepted",
+      "reviewed_units": 113,
+      "review_scope": "All units read: reporter distinguishes landslide and typhoon casualties, divergent character deductions retained, sunset and family training conversation. One previous-scene reference wording correction requested. Delta-only review: u0087 reference to earlier training scene corrected; prior 113-unit full review reused.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0087",
+          "requested_target_field_1": "그곳에는 전에 봤을 때처럼",
+          "reason": "いつかと同じように refers to the earlier observed training scene; 언제처럼 is unnatural."
+        }
+      ]
+    },
+    "lane-1/batches/makino_kyoutu-u0001-u0124.json": {
+      "sha256": "8bf067db15b9f769b4e3434b18e29ec809609a26877b28c081614cd830e757e0",
+      "status": "accepted",
+      "reviewed_units": 124,
+      "review_scope": "All source/target and ten inline targets read: aftermath and wife resemblance, necklace symbolic ruby クロス retained, school lesson and two alternative warning/ignorance branches. Concealed knowledge and teacher/student recipient shifts preserved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_16_u0215-u0316.json": {
+      "sha256": "f885f97f09fb7368d673a2d82b8ff6a7cfca67eeac308487477dbe1dc799f8ee",
+      "status": "accepted",
+      "reviewed_units": 102,
+      "review_scope": "All units read: fictional new-moon deadline and Sunday timing, helpless withdrawal, daughter abandonment fear and father promise, subjective chest-pain interpretation. No astronomical correction or medical claim added.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/makino_kyoutu-u0125-u0260.json": {
+      "sha256": "f44066fdefffe8b21b86582b6d9e4a8b94051e7baf6119ad6616ac1da28e4b9e",
+      "status": "accepted",
+      "reviewed_units": 136,
+      "review_scope": "All source/target and four inline targets read: necklace reunion, concern and ulterior motive, home invitation, daughter identifies resemblance, unknown identity retained. Three local wording adjustments requested. Delta-only review: concern object, Korean argument linkage and own home interior corrected; prior full review reused.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0169",
+          "requested_target": "「걱정? 나를?」",
+          "reason": "Explicit object of concern 私のことが; avoid I-as-subject reading."
+        },
+        {
+          "unit": "u0249",
+          "requested_target_field_1": "「저기, 뭐랄까… 네가 신경 쓰였던 건,",
+          "reason": "Natural Korean argument linkage."
+        },
+        {
+          "unit": "u0260",
+          "requested_target_field_2": "그녀를 우리 집 안으로 안내했다.",
+          "reason": "Source specifies own apartment interior, not building generally."
+        }
+      ]
+    },
+    "lane-2/batches/kureha_17_u0001-u0141.json": {
+      "sha256": "edc7fe082b213ffdb0090717aa9907bc3d587cbd343f3e54d12266d181a8e8d7",
+      "status": "accepted",
+      "reviewed_units": 141,
+      "review_scope": "All source/target and ruby targets read: mother unaware of daughter death, father-in-law shared loss, identity and maiden-name reveal only at source turn. 秋月=아키즈키 provisionally accepted with unverified source reading explicitly retained.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_12_u0114-0256.json": {
+      "sha256": "faa712426d32125509e41cbaab0f2c171b5877ff02e917935813f6ad9d7f655c",
+      "status": "accepted",
+      "reviewed_units": 143,
+      "review_scope": "All source/target units read in two parts u114-193 and u194-256, plus inline pair. Adult-to-adult emergency demonstration/comic near-kiss distinct from child onlookers; source fictional procedure preserved without adding advice. Child nickname/teasing rhyme adapted, reassurance conclusion intact. Delta u0195 checked before app restart: shorter Korean retains unusually delighted response; original full review reused.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/makino_kyoutu-u0261-u0410.json": {
+      "sha256": "89a9afe93a6a8d1ff29d9d346db6638c46146f2a602bc5e1f3acdc16cd0986e4",
+      "status": "accepted",
+      "reviewed_units": 150,
+      "review_scope": "All source/target units read in two parts u261-340/u341-410 plus two choice strings. Solitary grieving shower distinct from child laundry help; revealed name and guessed eighteen not actual age; uniform/age are alternative branches. Child reporter imitation and adult cover story preserved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_17_u0142-u0283.json": {
+      "sha256": "e9c794d6b5dd0e2f46dc69d530c8b63cb95df13e6ed8a482afe988f162b80819",
+      "status": "accepted",
+      "reviewed_units": 142,
+      "review_scope": "All source/target read before app restart, in two parts u142-221/u222-283. Rain departure, reporter call, nonsexual child bathing and fear, imagined father presence vs unknown real identity retained. One source meaning narrowing requested. Protected speaker-like literal remains unchanged; callee definition unconfirmed, analogous source call observed. Delta-only review confirms u0230 existence wording corrected; previous full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0230",
+          "requested_target_field_2": "　존재가 분명한 사람을 조사하는 건 간단하니까요』」",
+          "reason": "存在がはっきりしてる concerns clear existence, not confirmed whereabouts."
+        }
+      ],
+      "issues": []
+    },
+    "lane-3/batches/masa_12_u0257-0373.json": {
+      "sha256": "006e3ef94aba39c2dca9402eb17822106409a9379951f3e764cc85c92712d170",
+      "status": "accepted",
+      "reviewed_units": 117,
+      "review_scope": "All 117 source/target units read. Adult lonely near-kiss recollection, distinct five-year-old cat memory, loss and guilt, stolen knife, nine-years-earlier adult pregnancy conversation and radio weather report. Three local fluency/meaning/spacing changes requested. All numerical weather facts preserved. Delta-only review: late-time connective, fur meaning and weather numeral spacing corrected, full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0301",
+          "requested_target_field_1": "시간이 시간인지라 오늘 공사는 이미 끝났고,",
+          "reason": "Late time makes completed work expected; preserve 流石に context."
+        },
+        {
+          "unit": "u0312",
+          "requested_target_last_field": "마치 넝마 같은 털가죽 한 장이었다.",
+          "reason": "毛皮 includes fur."
+        },
+        {
+          "unit": "u0373",
+          "requested_spacing": [
+            "태풍 24호",
+            "약 20킬로미터",
+            "기압은 925헥토파스칼",
+            "초속 50미터",
+            "반경 190킬로미터",
+            "초속 30미터"
+          ],
+          "reason": "Natural Korean numeral spacing, preserve original fields and values."
+        }
+      ],
+      "issues": []
+    },
+    "lane-1/batches/makino_kyoutu-u0411-u0527.json": {
+      "sha256": "9d873f8d8cb009098ad3de9e06d9e9f71b84d73de0bfd66022ae68297c35ac57",
+      "status": "accepted",
+      "reviewed_units": 117,
+      "review_scope": "All source/target read: dried clothes and guarded resemblance discussion, actual necklace return distinct from earlier showing, unknown murder motive and leave-town warning. Daughter danger remains possibility, no hidden identity or motive advanced.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/makino_kyoutu-u0528-u0655.json": {
+      "sha256": "c59452fb193046be392d1446b27084bd741ccb8ec5967f0dcd90b481027eeec3",
+      "status": "accepted",
+      "reviewed_units": 128,
+      "review_scope": "All source/target read: evening meal, grandfather meeting, repeated child menu joke and adult newlywed dream. Wife/daughter name distinction and honorific contrasts retained; interrupted call remains interrupted. Two local fluency changes requested. Delta-only review: idiomatic gloomy news and unnamed bladed implement corrected, full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0607",
+          "requested_target": "참 우울한 이야기였다.",
+          "reason": "Avoid unnatural 불경기스러운 for idiomatic gloomy economic news."
+        },
+        {
+          "unit": "u0619",
+          "requested_replacement": [
+            "자루가 긴 칼날",
+            "자루가 긴 날붙이"
+          ],
+          "reason": "Natural description of a handled bladed implement without naming unknown weapon."
+        }
+      ],
+      "issues": []
+    },
+    "lane-2/batches/kureha_17_u0284-u0402.json": {
+      "sha256": "6bc14c45621104e8f2323a734b97bf492b58ba7e15d9a2a7e8c531d1c9e4776a",
+      "status": "accepted",
+      "reviewed_units": 119,
+      "review_scope": "All source/target read: reporter questions and concealed truth, missed promises and Sunday deadline, child drowning discovery and fictional rescue sequence. Nonsexual danger context, no procedural additions, no identity revelation beyond source.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_17_u0403-u0534.json": {
+      "sha256": "ff3181e063d49098ed34328c1574fcc64c1edea6901069535785763efaf23ba5",
+      "status": "accepted",
+      "reviewed_units": 132,
+      "review_scope": "All source/target read in two parts plus two choices. Confirmed alternative departure/drowning and stay-home branches; u519 mixes their fields without changing actual sequence. Two local wording changes and one deliberately broken utterance awaiting further source evidence. Delta-only: wife relation and lack-of-lead wording corrected. u532 phonetic fragment exception approved: voice=null and no counterpart text found; 쿠노/데 preserve unintelligible sound only, no hidden sentence reconstructed. Prior full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0430",
+          "requested_target_field_2": "쿠레하는 장인의 아내이자 내 아내 모미지의 어머니…",
+          "reason": "紅葉 wife and もみじ daughter same Korean name; clarify relation without advancing reveal."
+        },
+        {
+          "unit": "u0491",
+          "requested_replacement": [
+            "아무런 목적도 없이",
+            "아무런 단서도 없이"
+          ],
+          "reason": "何のアテもなく is lack of lead, not lack of purpose in searching."
+        },
+        {
+          "unit": "u0532",
+          "status": "source_fragment_review_pending",
+          "reason": "くの/で are incomplete; no confirmed full utterance or audio evidence, do not reconstruct hidden words."
+        }
+      ],
+      "issues": []
+    },
+    "lane-3/batches/masa_13_u0001-0134.json": {
+      "sha256": "41f5cb09ddc6e482bbac57ae5e578293b9a921d68a4479c67ae780bceb0c8fb6",
+      "status": "accepted",
+      "reviewed_units": 134,
+      "review_scope": "All source/target read in two parts plus emphasis target. Morning escort contradiction resolved by directly observed scene actions, source discrepancy recorded. Five-year flashback coercion, self-blame vs actual known events and return to adult confession preserved. Source-identical blank fields retained. Delta-only: numeral spacing and accurate already-passed validator note corrected. Prior full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0043",
+          "requested_replacement": [
+            "대신1교시",
+            "대신 1교시"
+          ],
+          "reason": "Korean word boundary spacing."
+        },
+        {
+          "scope": "review_notes",
+          "reason": "Update pending validator note to already completed v2 adapter pass."
+        }
+      ],
+      "issues": []
+    },
+    "lane-3/batches/masa_13_u0135-0269.json": {
+      "sha256": "182c6ae4bb99ef02f9463cea43cf7122279eebd6580067f765c444aa7dbb8065",
+      "status": "accepted",
+      "reviewed_units": 135,
+      "review_scope": "All source/target read in two parts. Confession response, adult teacher/student voices, daughter and deceased wife, farewell with conjectured deadline, nine-year flashback of adult childbirth crisis. Four targeted wording adjustments. Delta-only: self-forgiving subject, wife identity and unavoidable impression corrected. Prior full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0159",
+          "requested_target": "「다른 누구도 아닌 네가 너 자신을 용서할 수 있을 때까지」",
+          "reason": "他の誰でもない focuses subject, not object."
+        },
+        {
+          "unit": "u0187",
+          "requested_target_field_1": "그녀는 여전히 내 아내 모미지를 꼭 닮았고,",
+          "reason": "Distinguish wife from daughter present in scene."
+        },
+        {
+          "unit": "u0204",
+          "requested_target_field_2": "역시 쿠레하에게서 아내의 모습을 보고 있어서일까…",
+          "reason": "Distinguish wife from daughter."
+        },
+        {
+          "unit": "u0203",
+          "requested_target_field_2": "내게는 마치 유품을 나눠 주는 것만 같았다.",
+          "reason": "思えてならない is unavoidable impression, not additional intolerability."
+        }
+      ],
+      "issues": []
+    },
+    "lane-1/batches/makino_kyoutu-u0656-u0790.json": {
+      "sha256": "419cafec8b8a325f651841cd66346281d1df898ffc29c1bb0b8f0cb94bc6faf6",
+      "status": "accepted",
+      "reviewed_units": 135,
+      "review_scope": "All source/target read in two parts. First classroom meeting, current Sunday breakfast, concealed wife-name call, school attendance investigation. Both absence durations and three-person count retained; warning exact repeat reused. Fictional school/police beliefs kept as character assumptions.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-1/batches/makino_kyoutu-u0791-u0916.json": {
+      "sha256": "5d8480d9065434dcbea7c2a825a71f8c6a604cf1e3f1efeba67828169e037a80",
+      "status": "accepted",
+      "reviewed_units": 126,
+      "review_scope": "All source/target read. Child search and pastor politeness, private final remark after departure, night following-person reveal and teacher/student questions. Two localized fluency changes. Delta-only: concealed-location and same-age reference fluency corrected. Prior full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0892",
+          "requested_target_field_1": "숨어 있던 곳에서 웃음소리가 들리더니",
+          "reason": "Natural Korean for concealed 物陰."
+        },
+        {
+          "unit": "u0911",
+          "requested_target_field_1": "보통 그 나이 또래의 여자가",
+          "reason": "Natural 年頃 reference without awkward 한창때."
+        }
+      ],
+      "issues": []
+    },
+    "lane-1/batches/makino_kyoutu-u0917-u1020.json": {
+      "sha256": "31ef77d38ab1998fc2276407efac126a5e5ddcf398bbc11184822ddd8f020072",
+      "status": "accepted",
+      "reviewed_units": 104,
+      "review_scope": "All source/target and two choices read: convenience-store excuse versus partial truth alternatives, adult teasing about menstrual supplies, concealed Nanako death and narrator-only speculation. Four localized voice/fluency adjustments. Delta-only: hesitation, recipient of teasing and night-out wording corrected. Prior full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0924",
+          "requested_target_field_2": "그, 그러니까,",
+          "reason": "Preserve explicit source hesitation ほ、ほら."
+        },
+        {
+          "unit": "u0953",
+          "requested_target_field_1": "마지막까지 비꼬는 말 한마디를 더 듣고 말았다.",
+          "reason": "Narrator receives pointed remark, avoid ambiguous active subject."
+        },
+        {
+          "unit": "u0999",
+          "requested_target_field_1": "한밤중에 여기저기 놀러 다니는 학생들에 대한 소문이",
+          "reason": "Natural 夜遊び wording."
+        },
+        {
+          "unit": "u1008",
+          "requested_target_field_1": "「나나코는 밤에 놀러 다닐 애가 아니에요.",
+          "reason": "Natural 夜遊び wording."
+        }
+      ],
+      "issues": []
+    },
+    "lane-2/batches/kureha_18_u0001-u0150.json": {
+      "sha256": "3e9431adcd0a4173b5c2540b75982655ebf40d43d8f7570b9daf228565efc905",
+      "status": "accepted",
+      "reviewed_units": 150,
+      "review_scope": "All source/target read in two parts: morning child recovery/amnesia, hair-tying promise, reporter pursuit and exact previous-call quotation with source grammar inference. Three Korean question-ending adjustments. Delta-only: three assertion/request endings corrected. Prior full review reused.",
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0053",
+          "requested_target_field_2": "　그런 소리를 한 건 아니거든?」",
+          "reason": "Defensive assertion, not asking own intention."
+        },
+        {
+          "unit": "u0076",
+          "requested_target_field_2": "　멋지게 해 주지는 못할 텐데?」",
+          "reason": "Caution to child, not asking own ability."
+        },
+        {
+          "unit": "u0078",
+          "requested_target_field_2": "　모미지 머리 묶어 줄 거지?」",
+          "reason": "Natural request for continuing promise."
+        }
+      ],
+      "issues": []
+    },
+    "lane-1/batches/makino_kyoutu-u1021-u1116.json": {
+      "sha256": "b3d541d6f12d8d79d3dfdaadc232d8a654cd47841e97967d3fcb18c30ab92a4a",
+      "status": "accepted",
+      "reviewed_units": 96,
+      "review_scope": "All source/target read: development-collapse family background with all long fields retained, patrol argument and concealed death, father comparison with explicit plain-speech reminiscence returning to polite address, transition to former wife classroom memory.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_14_u0001-0136.json": {
+      "sha256": "14a0dce7e69adec2532a670de3e4cc35c9960bd83094dc2794898fe397f90d73",
+      "status": "accepted",
+      "reviewed_units": 136,
+      "review_scope": "All source/target and three choices read in two parts: missing students shared affection clue, senior/junior voices, covert search, speculative evidence and yue sound-only reading. One private-thought speech-level adjustment. Requested text corrections read as exact snapshot delta and approved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0072",
+          "requested_target": "「(미안해, 마키노 선생님… 역시 혼자 확인할게.)」",
+          "reason": "Preserve intimate unspoken plain ごめん/確かめるね versus spoken polite teacher address."
+        }
+      ]
+    },
+    "lane-2/batches/kureha_18_u0151-u0300.json": {
+      "sha256": "7bdeba4f75d5cbd7ad8f1c94e6875ba3d917d822768f85586f7907a75a24db82",
+      "status": "accepted",
+      "reviewed_units": 150,
+      "review_scope": "All source/target and five emphasis strings read in two parts. Reporter pursuit, child phone conversation, inferred crossing location, accident witness uncertainty, narrator subjective hallucination versus actual Kureha still unrecognized. Three local clarity/fluency changes. Requested text corrections read as exact snapshot delta and approved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0175",
+          "requested_target_field_1": "혹시 몰라 교실과 학교 건물, 운동장까지 찾아보았지만",
+          "reason": "校舎 means building; avoid homographic teacher."
+        },
+        {
+          "unit": "u0179",
+          "requested_target": "역시 야시마 씨 때문에 상당히 지체한 모양이다.",
+          "reason": "Natural Korean duration loss phrasing."
+        },
+        {
+          "unit": "u0209",
+          "requested_target_field_1": "「그게 무슨 소리야?",
+          "reason": "Natural urgent response to mismatched conversation."
+        }
+      ]
+    },
+    "lane-3/batches/masa_14_u0137-0260.json": {
+      "sha256": "90302b09511c674c4cbdffedb7b6961222eeedee6e38ad0e9952b55dbb10cdae",
+      "status": "accepted",
+      "reviewed_units": 124,
+      "review_scope": "All source/target read: wardrobe evidence unconfirmed, discovery and covert phone, actual speakers versus eavesdropping receiver, child handoff and prior emergency promise exact reuse. Two local agreement/recipient-voice corrections. Requested sentence/voice fixes accepted; relationship metadata needs one correction. Changed sentences or context metadata read as snapshot deltas and accepted.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0214",
+          "requested_target": "「응, 그럴게… 그런데 왜?」",
+          "reason": "Consent to make call, not asking permission."
+        },
+        {
+          "unit": "u0232",
+          "requested_target": "「…응, 옆에 있어. 지금 아빠 바꿔 줄게」",
+          "reason": "After polite phone greeting u231, source returns to familiar plain speech to grandfather; align prior established voice."
+        },
+        {
+          "scope": "review_notes",
+          "reason": "Specify u231 polite greeting versus u232 familiar plain speech."
+        },
+        {
+          "unit": "u0231/u0232",
+          "scope": "context.relationship",
+          "requested_target": "손녀→외할아버지",
+          "reason": "Actual phone recipient is maternal grandfather, not father. Corrected text is already approved."
+        }
+      ]
+    },
+    "lane-1/batches/shinya_kyoutu-u0001-u0140.json": {
+      "sha256": "14b3d5328fb82b5901ede6868a023367bc19ca3ce595bc8cdc6cc8a0b475bb0c",
+      "status": "accepted",
+      "reviewed_units": 140,
+      "review_scope": "All source/target read in two parts plus eight ruby records and numeric audit. TV unease, recalled violent source scene without expansion, return to school walk, cropped familiar calls and concealed event knowledge. Ruby grammar composes correctly; identical U+3000 blank preserved. Unproven numeric consumer unchanged.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_18_u0301-u0440.json": {
+      "sha256": "a83069559497de74b596bc0e36d3fe806bdadfa6a972bf428f296c61427d3457",
+      "status": "accepted",
+      "reviewed_units": 140,
+      "review_scope": "All source/target read in two parts and two choices. Actual Kureha recognition, conjectured grandmother identity, divided search, observe/avoid reporter alternatives and u415 merge. Source violence unchanged, wife/daughter distinction retained. Two local description fluency changes. Changed sentences or context metadata read as snapshot deltas and accepted.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0399",
+          "requested_target": "반듯이 누운 그녀의 가슴에는 손잡이 같은 것이 솟아 있었다.",
+          "reason": "Natural modifier scope."
+        },
+        {
+          "unit": "u0400",
+          "requested_target_field_1": "칼날이 밑동까지 깊숙이 박힌 칼이라는 걸",
+          "reason": "Natural 刃の根元 noun, preserve source extent."
+        }
+      ]
+    },
+    "lane-3/batches/masa_14_u0261-0406.json": {
+      "sha256": "8e2d8b2fe34f48ba53637aaa5d9047daaa1d2816a471fd2d434239ee4b687454",
+      "status": "accepted",
+      "reviewed_units": 146,
+      "review_scope": "All source/target read in two parts, including repeated phone transcript, feigned confession, concealed portrait identity revealed in-scene, source violence without added detail, hostile speech transition, broken pleas and interrupted rescue. Three local naturalness/meaning corrections. Changed sentences or context metadata read as snapshot deltas and accepted.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0276",
+          "field": 2,
+          "requested_target": "　다른 사람이 듣지 않았으면 해서요」",
+          "reason": "Privacy of conversation being overheard rather than discovery of conduct."
+        },
+        {
+          "unit": "u0300",
+          "field": 2,
+          "requested_target": "　당신 마음을 받아들일 수가 없습니다」",
+          "reason": "Correct Korean idiom for accepting feelings."
+        },
+        {
+          "unit": "u0405",
+          "requested_target": "그래도 그게 정말 마키노 선생님의 목소리라면…",
+          "reason": "Voice belongs to Makino; avoid identifying a voice as the person."
+        }
+      ]
+    },
+    "lane-1/batches/shinya_kyoutu-u0141-u0282.json": {
+      "sha256": "e429d48d3fef3dede5056aaad71e2e6429e1e4576e775ef0da38d880116ecb5e",
+      "status": "accepted",
+      "reviewed_units": 142,
+      "review_scope": "All source/target read in two parts plus two ruby fields. Anonymous monologue identity withheld; source-incomplete 5-year-old rut allusion preserved through ruby composition. Parallel speech and mixed recipients differentiated. Self-review metadata and neutral あの娘 delta read.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-3/batches/masa_14_u0407-0492.json": {
+      "sha256": "fec8980a09369875e8d7dc5474cf79f2da0f07c4ffde6f1501cdcdaf958d6df0",
+      "status": "accepted",
+      "reviewed_units": 86,
+      "review_scope": "All source/target read. Rescue scene and prior CPR dialogue quotations retained as fiction without added advice. Wife addressed in memory after childbirth recollection, not daughter; source beliefs about rescue preserved as beliefs, no asserted supernatural equivalence. Self-reviewed painful-looking neck mark delta accepted.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_18_u0441-u0584.json": {
+      "sha256": "f6e3ccb59aedc6ba6026ac6e53537a9150b0f433ed94d1a2f0b7a40494de80b6",
+      "status": "accepted",
+      "reviewed_units": 144,
+      "review_scope": "All source/target and four ruby fields read. Maternal identity disclosure and adult grief, wife versus daughter references, child first-person shift and incomplete understanding preserved; polite initial gratitude then child plain speech. Changed sentences or context metadata read as snapshot deltas and accepted.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": []
+    },
+    "lane-1/batches/shinya_kyoutu-u0283-u0426.json": {
+      "sha256": "b925cdf53e08a8252337601760f163e2162aba440d5759567e004efd350fe3f7",
+      "status": "accepted",
+      "reviewed_units": 144,
+      "review_scope": "All source/target read, including output recovery of previously truncated section, plus two semantic-alias ruby layers. Parallel unanswered invitations, same departure across narrator switch and clerical consultation retained. Numeric display consumer unproven stays unchanged. Requested three deltas read and accepted.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0288",
+          "field": 2,
+          "requested_target": "마사키 말로는 휴대전화도 연결되지 않는 모양이다.",
+          "reason": "Connection failure, not confirmed unanswered ringing."
+        },
+        {
+          "unit": "u0315",
+          "requested_target": "…하지만 경찰에 신원을 밝히고 나섰다가, / 꼬치꼬치 캐묻는 질문을 받는 것도 귀찮다.",
+          "reason": "Natural Korean for volunteering identity to police."
+        },
+        {
+          "unit": "u0387",
+          "requested_target": "어디까지고, 언제까지고 이어질 것처럼.",
+          "reason": "Spatial and temporal extent."
+        }
+      ]
+    },
+    "lane-3/batches/masa_14_u0493-0609.json": {
+      "sha256": "cc3ec403fd4255edce92c55af94295993e1db624668591928c9553c911f9ae5d",
+      "status": "accepted",
+      "reviewed_units": 117,
+      "review_scope": "All source/target read including output recovery. Hospital cover story distinguished from actual attack, inferences marked, emotional plain speech preserved, Sunday four/three-day count, fairy-tale narration and lost-piece motif. u0604 temporal addition removed and delta accepted; u0496 requested correction remains. u0496 participant correction read and accepted.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0496",
+          "field": 6,
+          "requested_target": "그 때문에 동요한 사이 시오미에게 목을 졸렸다는 것 등을…",
+          "reason": "Correct active/passive participant mismatch."
+        }
+      ]
+    },
+    "lane-2/batches/kureha_19_u0001-u0140.json": {
+      "sha256": "7b79460d5ff907b650083eaee77fed1f9170263e3d66f8bcfc17b927dfd4987b",
+      "status": "accepted",
+      "reviewed_units": 140,
+      "review_scope": "All source/target read. Sunday countdown, delivery misdirection, source Father Day date, card voice and telephoned coercion, earlier declaration reuse. One kinship term correction. Requested corrections and removal of unsupported seated pose read as exact deltas and accepted.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0122",
+          "field": 2,
+          "requested_target": "　자기 핏줄인 외손녀 모미지 씨이기에 가능한 겁니다』」",
+          "reason": "Kureha is maternal grandmother; 친손녀 wrongly specifies paternal lineage."
+        }
+      ]
+    },
+    "lane-3/batches/masa_15_u0001-0123.json": {
+      "sha256": "2a232cc1653eb9c88feb409b5df0153cb0e968ce84689d9e78a4ec71183999fe",
+      "status": "accepted",
+      "reviewed_units": 123,
+      "review_scope": "All source/target read. Identity recognition timing, removed evidence inference, nonsexual caregiving and spoken discipline joke separated from later deferred sexual content. Penguin sound pun localized as Korean nursery 맴매/맴맴 매미, no visual penguin reference in text.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root"
+    },
+    "lane-2/batches/kureha_19_u0141-u0276.json": {
+      "sha256": "ecf57faf6777b69fb32fd3d2408bc039842882d63784b086fa8a33fbaebb1316",
+      "status": "accepted",
+      "reviewed_units": 136,
+      "review_scope": "All source/target read. Phone handoff to direct negotiation, observers versus actual listeners, previous-day confession quotes, unrevealed magical technique, coerced exchange, late-day timing and key handover. Two natural Korean corrections. Requested corrections and removal of unsupported seated pose read as exact deltas and accepted.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0181",
+          "field": 2,
+          "requested_target": "나는 조금 떨어진 곳에 몸을 숨긴 채 귀를 기울였다――",
+          "reason": "Natural hiding-place narration for generic 物陰."
+        },
+        {
+          "unit": "u0257",
+          "field": 2,
+          "requested_target": "눈을 번뜩이며 흡족한 미소를 지었다.",
+          "reason": "Correct verb and object collocation."
+        }
+      ]
+    },
+    "lane-1/batches/shinya_kyoutu-u0427-u0530.json": {
+      "sha256": "26f8d3b7eba45a51e49783cc63ad883f904d9cb755ae83521cc66d37a169e8b8",
+      "status": "accepted",
+      "reviewed_units": 104,
+      "review_scope": "All source/target and eight inline fields read. Genuine concern below conflict, unnoticed whispered subject left implicit, one/twelve clothing layers adapted to speech wrapping pun, semantic enemy/me ruby and chapel stillness compose correctly. Corrected routine and school description accepted; missing closing quote requires restoration. Final requested delta read and accepted. Tail targets separately preserved for integration.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0458",
+          "field": 2,
+          "requested_target": "　마호코랑 늘 같이 돌아가는 것도 아니고…",
+          "reason": "Actual routine rather than normative obligation."
+        },
+        {
+          "unit": "u0528",
+          "requested_target": "이 학교에서 / 가장 ‘미션 스쿨다운’ 곳이라고 할 수 있다.",
+          "reason": "Natural Korean replacement for opaque 그다운."
+        },
+        {
+          "unit": "u0458",
+          "field": 2,
+          "requested_target": "　마호코랑 늘 같이 돌아가는 것도 아니고…」",
+          "reason": "Restore closing quote accidentally omitted in requested delta."
+        }
+      ]
+    },
+    "lane-3/batches/masa_15_u0124-0208.json": {
+      "sha256": "e1b73f08789a1af0c470fe4ad3251ef9f7746b4fe69102607f98558c8da38ab5",
+      "status": "accepted",
+      "reviewed_units": 56,
+      "review_scope": "All 56 translated source/target units read: separate maternal loss, future appearance association without erotic detail, adult jealousy, complete fairy-tale closure and restored-parent-memory motif. 29 deferred child sexual units not translated, not counted completed. Two local Korean syntax corrections. u0177 idiom and u0208 encouragement delta inspected; prior full review of all 56 nondeferred units reused. 29 child-sexual units remain deferred without target.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0177",
+          "requested_target": "그리고 나는 욕심쟁이라서… 어느 쪽도 / 포기할 수는 없을 것 같았다.",
+          "reason": "Natural clause boundary without separating predicate with comma."
+        },
+        {
+          "unit": "u0208",
+          "field": 5,
+          "requested_target": "소년에게 힘을 주었습니다…",
+          "reason": "Natural Korean collocation for 元気を与える."
+        }
+      ]
+    },
+    "lane-2/batches/kureha_19_u0277-u0420.json": {
+      "sha256": "5065532ebbd6e74215b0ab1707b25b30aef8260d84637a60b96fad85f0b6dfff",
+      "status": "accepted",
+      "reviewed_units": 144,
+      "review_scope": "All source/target read in two parts plus two choices and one emphasis. Time limit, rescue, grandmother/daughter/wife references, alternatives at u0368 versus u0383, split closing quote fields retained. Four local grammar/phrasing corrections. u0401 particle and u0416 natural promise-soliciting alternative accepted; u0363/u0403 remain. u0363/u0403/u0416 deltas inspected; unchanged full 144-unit review, two choices and emphasis review reused. Alternative branches retained.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0401",
+          "field": 2,
+          "requested_target": "보낼 수 없어…!",
+          "reason": "Avoid repeated topic particle after emphasized 혼자서는."
+        },
+        {
+          "unit": "u0416",
+          "requested_target": "「대신 빨리 돌아와야 해. 응?」",
+          "reason": "Child solicits promise; not asking whether requirement exists."
+        },
+        {
+          "unit": "u0363",
+          "field": 2,
+          "requested_target": "반혼수와 함께 자신의 삶도 끝낼 생각인 것이다.",
+          "reason": "Natural object for ending own life."
+        },
+        {
+          "unit": "u0403",
+          "field": 1,
+          "requested_target": "모미지의 커다란 눈에 눈물이 그렁그렁 맺혔다.",
+          "reason": "Modifier applies to eyes, not person."
+        }
+      ]
+    },
+    "lane-1/batches/shinya_kyoutu-u0531-u0630.json": {
+      "sha256": "d8b7994b2cb61b1757e9355c72720c2d7a366f79615812eb2a8e889f3eb16524",
+      "status": "accepted",
+      "reviewed_units": 100,
+      "review_scope": "All source/target plus two semantic ruby fields and two tail menu targets read. Shinya knowledge versus actual speakers, door metaphor, apology and lunch, horror irony and final decision. Tail consumer and final ctrl w independently inspected in disassembly; no invented unit or branch-to-option assertion. Final requested delta read and accepted. Tail targets separately preserved for integration.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0622",
+          "requested_target": "모르고 고른 거라지만, 참 얄궂은 선택이다.",
+          "reason": "Natural Korean for uninformed yet ironic choice."
+        },
+        {
+          "scope": "display_literal_audit",
+          "requested_target": "semantic_accepted_integration_pending",
+          "reason": "Root semantic and consumer review completed; still outside unit-based contract."
+        }
+      ]
+    },
+    "lane-3/batches/masa_16_u0001-0111.json": {
+      "sha256": "2e8f5d0116cf99b4e6456e47c1211b93cf0dce042ace04e8baebbcf7ddddb7c9",
+      "status": "accepted",
+      "reviewed_units": 111,
+      "review_scope": "All source/target read. Friday two-day count, source-masked vehicle plates, actual versus suspected car, telephone quote/narrator switch at u64, father-in-law and son-in-law registers, unconfirmed murderer inference. Two Korean grammar fixes. u0088/u0091 natural wording and particle corrections inspected; unchanged full review reused.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0088",
+          "field": 2,
+          "requested_target": "하필 이럴 때 비가 내렸다.",
+          "reason": "Natural timing expression."
+        },
+        {
+          "unit": "u0091",
+          "requested_target": "든든한 장인의 말씀에 나는 진심으로 감사했다.",
+          "reason": "Correct particle for gratitude stimulus."
+        }
+      ]
+    },
+    "lane-2/batches/kureha_19_u0421-u0559.json": {
+      "sha256": "160faea93b2459dae39e9a0ced8550cd29c0c150aa90a639b7bd2b139f62de53",
+      "status": "accepted",
+      "reviewed_units": 139,
+      "review_scope": "All source/target read in two parts. Fictional fire and suicidal crisis source transformed without added instructions; wife apparition differentiated from living daughter, belief versus truth and mother simile retained. Earlier K08 myth quote reused. Four phrasing/meaning fixes. u0452/u0478/u0492/u0551 corrections inspected; unchanged full 139-unit review reused. Mother simile and daughter-alone insufficiency preserved.",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "resolved_issues": [
+        {
+          "unit": "u0452",
+          "field": 1,
+          "requested_target": "그녀는 애틋한 듯, 그리운 듯",
+          "reason": "Affection rather than describing stroking twice."
+        },
+        {
+          "unit": "u0478",
+          "field": 1,
+          "requested_target": "「반혼수와 함께 내 삶도 끝낼 거야.",
+          "reason": "Natural Korean object/verb."
+        },
+        {
+          "unit": "u0492",
+          "field": 2,
+          "requested_target": "다정하면서도 엄격한 어머니 같았다.",
+          "reason": "Preserve source comparison, not identity assertion."
+        },
+        {
+          "unit": "u0551",
+          "field": 1,
+          "requested_target": "「아빠는 모미지만 있어서는",
+          "reason": "Only daughter being insufficient, not daughter presence preventing happiness."
+        }
+      ]
+    },
+    "lane-3/batches/masa_16_u0112-0222.json": {
+      "resolved_issues": [
+        {
+          "unit": "masa_16.mjo::u0193",
+          "issue": "Knife wielder, not ownership: 시오미가 휘두른 것이 아니었다."
+        }
+      ],
+      "sha256": "3d81416f67e63903f68c07e41ed76a9bb1a8335c8f17802a2d594baffa602e7a",
+      "reviewed_units": 111,
+      "status": "accepted",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "review_scope": "All 111 ordinary units and emphasis 1 reviewed; soil/tree movement, five-year excavation causality, addressee registers and knife wielder checked. Requested u0193 wielder correction inspected."
+    },
+    "lane-2/batches/kureha_19_u0560-u0605.json": {
+      "sha256": "964446296f7e3484ede865b490345479d6d041fe3488f7e2a1bb447a395e278f",
+      "reviewed_units": 46,
+      "status": "accepted",
+      "issues": [],
+      "review_scope": "All ordinary source/target read. Wife/daughter name overlap, photograph causality and protagonist interpretation retained.",
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false
+    },
+    "lane-2/batches/kureha_ep_u0001-u0068.json": {
+      "sha256": "c23117edda532c22637a3a8bede63cc75d30673c794f6767df20d3ba63511cdf",
+      "reviewed_units": 68,
+      "status": "accepted",
+      "issues": [],
+      "review_scope": "All ordinary fields plus spindle emphasis read; daughter POV shift u0046 and attributed fictional drug assertion preserved.",
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false
+    },
+    "lane-3/batches/masa_16_u0223-0337.json": {
+      "sha256": "38d9df2ee499dab96c966bf38dfc385385beae99ead585e4364f27dc65396b30",
+      "reviewed_units": 115,
+      "status": "accepted",
+      "issues": [],
+      "review_scope": "All ordinary fields and emphasis read; duel causality, redirection, u0313 corrected sound noun and u0325 mixed address/soliloquy checked.",
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false
+    },
+    "lane-3/batches/masa_16_u0338-0461.json": {
+      "sha256": "6c0ca8c07a023a59f280babd4125cd07710c26cf2aa45d06e66c66a89da15325",
+      "reviewed_units": 124,
+      "status": "accepted",
+      "issues": [],
+      "review_scope": "All ordinary fields read; present adult scene versus five-year recollection, book chronology and recipient registers checked. u0419 체념하고 correction inspected; unchanged full review reused.",
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "masa_16.mjo::u0419",
+          "issue": "Replace Japanese calque 관념하고 with 체념하고 in field1."
+        }
+      ]
+    },
+    "lane-2/batches/sub_kure01_u0001-u0018.json": {
+      "sha256": "c829c8168d39d2a4dfdc2499d65fcef7baa79c199600e185ad6a50bf47223164",
+      "reviewed_units": 18,
+      "status": "accepted",
+      "issues": [],
+      "review_scope": "All source/target fields read including multi-sentence units; resurrection uncertainty, 20-year timeline and folktale analogy retained. Requested u0008 field2/3 naturalization inspected; unchanged full review reused.",
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "sub_kure01.mjo::u0008",
+          "issue": "field2 그제야 나는 깨달았다. / field3 내가 반혼법으로 되살아났다는 사실을."
+        }
+      ]
+    },
+    "lane-2/batches/sub_kure02_u0001-u0052.json": {
+      "resolved_issues": [],
+      "sha256": "eb359041bbe683d042f8a6e890b6e96b3c9b15a452c77ff96d4af3b25831d8fd",
+      "reviewed_units": 52,
+      "status": "accepted",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "review_scope": "All source/target fields and field-level speakers/functions read. Source-contained fictional acts preserved without expansion; u0048–0050 canonical prayer reused with original splits/quotes. Yusuke source reading directly inspected at last_gendai16::001645."
+    },
+    "lane-3/batches/masa_16_u0462-0573.json": {
+      "sha256": "cb8cb3bae7620f0a027d074e00c65360459b6bfbd407d339f83aa680c847744b",
+      "status": "accepted",
+      "reviewed_units": 112,
+      "review_scope": "All ordinary source/target and two menu choices read. Book quote reused from approved masa08; adult present versus childhood recollection, wife/daughter distinction, consent exchange and alternative branch ownership checked.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false
+    },
+    "lane-3/batches/masa_16_u0574-0689.json": {
+      "sha256": "a72efcff7c59e83bf589a3487ca8120fb4c79b4f3012e2f659b1b8b83e3bd4bb",
+      "status": "accepted",
+      "reviewed_units": 116,
+      "review_scope": "All ordinary source/target fields read. Current adult scene, nonsexual parent/child affection reference and source register shifts retained; no inline candidates. u0587 requested naturalness delta inspected; other115 reviews reused.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "masa_16.mjo::u0587",
+          "issue": "Natural request confirmation: 「…아프게 하지는 마, 응?」"
+        }
+      ]
+    },
+    "lane-3/batches/masa_16_u0690-0800.json": {
+      "sha256": "7444cc73353ada5d043de6b7106617d0dd78085d28257244cb6e6171990853f2",
+      "status": "accepted",
+      "reviewed_units": 110,
+      "review_scope": "All110 translated ordinary units read, with u0795 child-sexual reference excluded without target. Current adult scene and source register shifts retained. u0710 causal phrasing and u0776 removal of unsupported movement direction inspected; unchanged108 reviews and deferred boundary reused.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "masa_16.mjo::u0710",
+          "issue": "field1 요시모리가 몸을 움찔움찔 튕기며 몸부림치자, to connect the causal sentence."
+        },
+        {
+          "unit": "masa_16.mjo::u0776",
+          "issue": "field1 나는 요시모리의 허리가 움직이지 않도록 손으로 고정한 뒤,; remove unsupported 뒤로 direction."
+        }
+      ]
+    },
+    "lane-3/batches/masa_16_u0801-0927.json": {
+      "sha256": "9eb85db8b491cd0edd77d7823e9f471dcaa3e39e5d80d24b9e3628550e2b78d5",
+      "status": "accepted",
+      "reviewed_units": 127,
+      "review_scope": "All127 source/target units read. Current adult scene end and branch aftermath, u0893 unspoken thought, return to polite daily register and wife/daughter distinction checked. No inline candidates.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false
+    },
+    "lane-3/batches/masa_16_u0928-0972.json": {
+      "resolved_issues": [],
+      "sha256": "37116140147c64644878ea99fd29e24faebdb87fc172b870b85d3d8070b07912",
+      "reviewed_units": 45,
+      "status": "accepted",
+      "issues": [],
+      "runtime_verified": false,
+      "reviewer": "Codex internal /root",
+      "review_scope": "All45 source/target units read. Separate failed-choice branch, protagonist-bound causal judgment and fictional tragedy preserved without expansion."
+    },
+    "lane-3/batches/masa_17_u0001-0142.json": {
+      "sha256": "1f2747b3dcf9bca495356e124c170889b36d65d523c2242d35fdc1482c25171e",
+      "status": "accepted",
+      "reviewed_units": 142,
+      "review_scope": "All142 source/target plus emphasis1 read. Father/daughter conversation, Masaki POV shift, Kureha identity disclosure sequence and provisional surname reading retained. u0042 correction inspected; unchanged141 reviewed units reused.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "masa_17.mjo::u0042",
+          "issue": "field1 모미지가 단단히 못을 박았다.; daughter is the one securing confirmation from father."
+        }
+      ]
+    },
+    "lane-3/batches/masa_17_u0143-0246.json": {
+      "sha256": "e91a041d29927f826b893f4b70c758715b984a2201b6b45d2f915393dbfdf004",
+      "status": "accepted",
+      "reviewed_units": 104,
+      "review_scope": "All104 source/target read. Traffic accident timing, daughter protection, phone-side POV shift and source control/quote sequences preserved. u0192 wife relation clarified; unchanged103 reviewed units reused.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "masa_17.mjo::u0192",
+          "issue": "field1 쿠레하가 아내의… 어머니라고?; distinguish wife 紅葉 from daughter もみじ present in following narration."
+        }
+      ]
+    },
+    "lane-3/batches/masa_17_u0247-0350.json": {
+      "sha256": "085093786513429428724606b327f4a698f7c3ff71b05f32a151fb3ae1a4b36e",
+      "status": "accepted",
+      "reviewed_units": 104,
+      "review_scope": "All104 source/target and field speaker maps for8 mixed units read. Current-versus-recalled speech, provisional medical outcome and character-bound guilt retained. u0342 unusual-seriousness idiom corrected; unchanged103 reviewed units reused.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "masa_17.mjo::u0342",
+          "issue": "field1 평소와 달리 진지한 미도리 씨의 타이름에,; replace unidiomatic 여느 때 없이."
+        }
+      ]
+    },
+    "lane-3/batches/masa_18_u0001-0117.json": {
+      "sha256": "e539b3528b9f4130d805f20605b82945bb9a4fd7e2b319e1cfea4d1dbf44a228",
+      "status": "accepted",
+      "reviewed_units": 117,
+      "review_scope": "All117 source/target read. Midnight-to-3pm deadline, clockwise/counterclockwise search, call registers and child hostage rescue context checked. Requested u0043/u0079 deltas inspected; unchanged115 reviews reused.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "masa_18.mjo::u0043",
+          "issue": "field2 그때 쿠레하 씨와 협상할 자리를 마련하죠; remove implication of already arranged meeting."
+        },
+        {
+          "unit": "masa_18.mjo::u0079",
+          "issue": "field1 사경을 헤매고 계시다는 것.; repair 생사를 헤매다 collocation."
+        }
+      ]
+    },
+    "lane-3/batches/masa_18_u0118-0204.json": {
+      "sha256": "c27734ad82becdb2d437c0374d490e53cdd08ade93f7f7881d54b24769cde88f",
+      "status": "accepted",
+      "reviewed_units": 87,
+      "review_scope": "All87 source/target read. Countdown and negotiations, fictional purification mechanism and family chronology checked. 禊ぎ=정화 approved. Four requested field corrections and approved term status checked; unchanged83 reviewed units reused.",
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "masa_18.mjo::u0128",
+          "issue": "確証 asks for certain evidence: 뭔가 확실한 근거라도 있어?"
+        },
+        {
+          "unit": "masa_18.mjo::u0156",
+          "issue": "만날 장소와 시간을 알려 주고; avoid implying prior location reset."
+        },
+        {
+          "unit": "masa_18.mjo::u0186",
+          "issue": "Preserve 飲み干す as 남김없이 마시는 거야."
+        },
+        {
+          "unit": "masa_18.mjo::u0187",
+          "issue": "Preserve 生き血 as 생피."
+        }
+      ],
+      "issues": []
+    },
+    "lane-3/batches/masa_18_u0205-0268.json": {
+      "sha256": "d9bf5222fb99ee1c2c8a533ed492b18459d0af4b4d7c1c14f20a035aaa96cf22",
+      "status": "accepted",
+      "reviewed_units": 64,
+      "review_scope": "All64 source/target, emphasis1 and u0205 field register map read. Child rescue and adult pursuit context reviewed; two source-fidelity corrections requested. Two requested field corrections checked; unchanged62 units and emphasis1 review reused.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "masa_18.mjo::u0249",
+          "issue": "Use 입원; normal kana にゅーいん does not evidence a lisp."
+        },
+        {
+          "unit": "masa_18.mjo::u0262",
+          "issue": "field1 「…알았어. 네가 생각하는 대로 해.; remove added moral judgement 옳다고."
+        }
+      ]
+    },
+    "lane-3/batches/masa_18_u0269-0360.json": {
+      "sha256": "bc94e46458895ea5cfcd6f9a8f1fb5c7d02bee3e70dcc3ad64875aa0e617bbff",
+      "status": "accepted",
+      "reviewed_units": 92,
+      "review_scope": "All92 source/target, ruby2 and metadata read. Actor-view weapon names, fictional reincarnation and 원죄 motif, combat actions and intact ruby-plus-body composition checked. Runtime remains pending.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false
+    },
+    "lane-3/batches/masa_18_u0361-0450.json": {
+      "sha256": "e6c93e10770bc7df4f5d791a4cffd36bf5d5458b6244fcfa7efba5a8799a5037",
+      "status": "accepted",
+      "reviewed_units": 90,
+      "review_scope": "All90 source/target and metadata read. Reused prayer matches source-specific punctuation/field boundaries; register transition and fictional ritual consequence preserved. One Korean object-marker correction requested. Requested u0416 object marker checked; unchanged89 units reused.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "masa_18.mjo::u0416",
+          "issue": "field1 나를 공격하기를 망설였다고는 생각되지 않았다. (공격하기→공격하기를)"
+        }
+      ]
+    },
+    "lane-3/batches/masa_18_u0451-0508.json": {
+      "sha256": "3a1a770d9d607121320ee766a2c590d922925b1c85c2cee1ee1fb560a964c418",
+      "status": "accepted",
+      "reviewed_units": 58,
+      "review_scope": "All58 source/target and metadata read. Self-sacrifice argument, unreliable self-blame, adult crying metaphor and uncertain fate/arson attribution preserved.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false
+    },
+    "lane-3/batches/masa_18_u0509-0560.json": {
+      "sha256": "ec952c1f99e5ea95428aff17b7d7969dba0b6c71effaac8e58b2ab6a0e7baad2",
+      "status": "accepted",
+      "reviewed_units": 52,
+      "review_scope": "All52 source/target, u0545–0547 context and u0546 field-speaker map read. Prior book dialogue reused; fairy-tale shift and awakening narrator correctly distinguished. Deceased wife/current child/current adult identities preserved.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false
+    },
+    "lane-3/batches/masa_ep_u0001-0079.json": {
+      "sha256": "0bc59c7ef8bb79df173b1c9514b583ce2c53631cb71cc0fe2e3bdbec75ce21b1",
+      "status": "accepted",
+      "reviewed_units": 79,
+      "review_scope": "All79 source/target and metadata read. Autumn promise/name pun, disability as character-specific experience, book authorship and final given-name transition retained. Two idiom-context corrections requested. Requested u0018/u0047 corrections checked; unchanged77 reviewed units reused.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "masa_ep.mjo::u0018",
+          "issue": "field2 나는 할 말이 없었다.; disambiguate 立つ瀬がない from physical immobility."
+        },
+        {
+          "unit": "masa_ep.mjo::u0047",
+          "issue": "field1 잃은 것을 슬퍼하고 한탄하기보다는,; 憂う here denotes grief rather than worry."
+        }
+      ]
+    },
+    "lane-3/batches/sub_masa01_u0001-0028.json": {
+      "sha256": "1072457f2b2d5b08c19c7bbea2dceb5fd430bc7ef88e2b7ff59263c7f6868447",
+      "status": "accepted",
+      "reviewed_units": 28,
+      "review_scope": "All28 source/target, emphasis1 and six mixed-unit field maps read. Prior shared-event dialogue reused; villain narrator and child victim distinguished. One omitted Korean object requested. Requested u0002 object checked; unchanged27 plus emphasis review reused.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false,
+      "resolved_issues": [
+        {
+          "unit": "sub_masa01.mjo::u0002",
+          "issue": "field3 그 희박한 가능성에 기대를 걸고 이곳에서의 생활을 시작했다."
+        }
+      ]
+    },
+    "lane-3/batches/sub_masa02_u0001-0012.json": {
+      "sha256": "fdb225d466c5fafb7a8ab356a9acd613bd558feba1d022c70b1e91b64f5910d5",
+      "status": "accepted",
+      "reviewed_units": 12,
+      "review_scope": "All12 source/target, metadata and two mixed-unit field-speaker maps read. Fictional development narrative, time/quantity and narrator/soliloquy distinction checked.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false
+    },
+    "lane-3/batches/sub_masa03_u0001-0051.json": {
+      "sha256": "3f8689d815da6fab419194fde11f2d377c9e25d16d97ede5f7a10fd482f546e4",
+      "status": "accepted",
+      "reviewed_units": 51,
+      "review_scope": "All51 source/target and metadata read. Third-person narrator kept distinct from adjacent first-person stories. Prayer, sermon and malicious fictional persuasion attributed to their speakers; dialogue response polarity preserved.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false
+    },
+    "lane-3/batches/sub_masa04_u0001-0006.json": {
+      "sha256": "b54acfdbedd3b2aa8addfdf605d6937087d723a97845afb2fe8bc62bbbfe214d",
+      "status": "accepted",
+      "reviewed_units": 6,
+      "review_scope": "All6 source/target and metadata read. Return to first-person antagonist, reported/suspected event attribution, chronology and fictional development consequences retained.",
+      "issues": [],
+      "reviewer": "Codex internal /root",
+      "runtime_verified": false
+    }
+  },
+  "updated_at": "2026-10-23T05:17:09+09:00"
+}

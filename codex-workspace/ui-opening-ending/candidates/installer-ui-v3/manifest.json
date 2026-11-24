@@ -1,0 +1,1815 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "files": [
+    {
+      "file": "setup.exe",
+      "source_sha256": "d0bdfac202c48da0bb4491b16b66c587fa6efb4ac3eb32dbb816922da74ec2e3",
+      "candidate_sha256": "33e3912d0ecacdada68904ef1ee4fb0c4ba0ead56ed069c3fdf03f642bb47c59",
+      "changed_resources": 7,
+      "nonresource_sections": [
+        {
+          "name": ".text",
+          "unchanged": true
+        },
+        {
+          "name": ".rdata",
+          "unchanged": true
+        },
+        {
+          "name": ".data",
+          "unchanged": false,
+          "scope": "Reviewed launcher and message display strings only"
+        }
+      ],
+      "entrypoint_imports_unchanged": true,
+      "resources_exact_allowlist": true,
+      "untouched_resources_identical": true,
+      "parent_candidate_sha256": "34cbe6cc3087f38192a1306e32f1b7856a90de39be6c6aa5dae8410ce727f5cb",
+      "data_display_fields": 6,
+      "data_changed_bytes": 73,
+      "data_changes_within_exact_allowlist": true,
+      "new_message_fields": 22,
+      "new_message_changed_bytes": 1144,
+      "message_changes_within_exact_allowlist": true,
+      "code_resources_headers_imports_unchanged_from_v2": true
+    },
+    {
+      "file": "install.exe",
+      "source_sha256": "87b10fd242e14e26f7f83af43447579add36b1730d4155bddc7afd072faf0c1f",
+      "candidate_sha256": "cc99b036927fe5aee9517aebeb95ec994f52a7058f082acba68e460163a4ce8c",
+      "changed_resources": 6,
+      "nonresource_sections": [
+        {
+          "name": ".text",
+          "unchanged": true
+        },
+        {
+          "name": ".rdata",
+          "unchanged": true
+        },
+        {
+          "name": ".data",
+          "unchanged": false,
+          "scope": "Reviewed launcher and message display strings only"
+        }
+      ],
+      "entrypoint_imports_unchanged": true,
+      "resources_exact_allowlist": true,
+      "untouched_resources_identical": true,
+      "parent_candidate_sha256": "cd928f4ccbdf9fe69a9d647d6c5f2db2345af8932bd12febca8f9aec5d05a1a0",
+      "new_message_fields": 19,
+      "new_message_changed_bytes": 934,
+      "message_changes_within_exact_allowlist": true,
+      "code_resources_headers_imports_unchanged_from_v2": true
+    }
+  ],
+  "semantic_fields": 87,
+  "resources_changed": 13,
+  "updates": [
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "COPYING",
+      "language": 1041,
+      "ids": [
+        "setup.exe::type5::COPYING::1041::caption",
+        "setup.exe::type5::COPYING::1041::control:2:2"
+      ],
+      "source_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2428502720,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          194,
+          99
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "파일 복사 중...",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1010,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress1",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 1012,
+            "style": 1342308865,
+            "exstyle": 0,
+            "rect": [
+              5,
+              65,
+              185,
+              10
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "コピー中ファイル名",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              140,
+              80,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1020,
+            "style": 1342177283,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              180,
+              40
+            ],
+            "class": "SysAnimate32",
+            "text": "Animate1",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "39212b0f5f204edee780c13b07c5a37d05075913b5064f37fb442698c527a332"
+    },
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "COPYINGDELUX",
+      "language": 1041,
+      "ids": [
+        "setup.exe::type5::COPYINGDELUX::1041::caption",
+        "setup.exe::type5::COPYINGDELUX::1041::control:2:2"
+      ],
+      "source_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2428502720,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          194,
+          109
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "파일 복사 중...",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1010,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress1",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 1012,
+            "style": 1342308865,
+            "exstyle": 0,
+            "rect": [
+              5,
+              75,
+              185,
+              10
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "コピー中ファイル名",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              140,
+              90,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1019,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              60,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress2",
+            "extra": ""
+          },
+          {
+            "index": 4,
+            "id": 1020,
+            "style": 1342177283,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              180,
+              40
+            ],
+            "class": "SysAnimate32",
+            "text": "Animate1",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "af2ca820f959d1b67ee07570c3e99186508be34f6e0095711429d969d5b25c8f"
+    },
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "MAKESHORTCUT",
+      "language": 1041,
+      "ids": [
+        "setup.exe::type5::MAKESHORTCUT::1041::caption",
+        "setup.exe::type5::MAKESHORTCUT::1041::control:1:0",
+        "setup.exe::type5::MAKESHORTCUT::1041::control:2:1",
+        "setup.exe::type5::MAKESHORTCUT::1041::control:65535:2",
+        "setup.exe::type5::MAKESHORTCUT::1041::control:1007:3"
+      ],
+      "source_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2160591040,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          174,
+          75
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "바로 가기 만들기",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242817,
+            "exstyle": 0,
+            "rect": [
+              65,
+              55,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "확인",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              120,
+              55,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              165,
+              20
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "바탕 화면에 게임 실행용 바로 가기를\n만들 수 있습니다.",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1007,
+            "style": 1342242819,
+            "exstyle": 0,
+            "rect": [
+              5,
+              35,
+              160,
+              10
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "바탕 화면에 바로 가기 만들기",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "61068a4e59d71ab59232d97f341a020e964beea91d4b1fb0f2aa916fe75ffd2b"
+    },
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "SETUP",
+      "language": 1041,
+      "ids": [
+        "setup.exe::type5::SETUP::1041::caption",
+        "setup.exe::type5::SETUP::1041::control:1:0",
+        "setup.exe::type5::SETUP::1041::control:2:1",
+        "setup.exe::type5::SETUP::1041::control:1021:3",
+        "setup.exe::type5::SETUP::1041::control:65535:5",
+        "setup.exe::type5::SETUP::1041::control:65535:6"
+      ],
+      "source_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2429026496,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          203,
+          95
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "설치 폴더 지정",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              115,
+              75,
+              40,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "다음",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              160,
+              75,
+              40,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 1000,
+            "style": 1350631552,
+            "exstyle": 0,
+            "rect": [
+              10,
+              26,
+              130,
+              12
+            ],
+            "class": {
+              "ordinal": 129
+            },
+            "text": "",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1021,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              145,
+              25,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "찾아보기(&B)",
+            "extra": ""
+          },
+          {
+            "index": 4,
+            "id": 65535,
+            "style": 1342177287,
+            "exstyle": 0,
+            "rect": [
+              5,
+              15,
+              195,
+              30
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "",
+            "extra": ""
+          },
+          {
+            "index": 5,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              191,
+              20
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "[찾아보기]에서 기존 폴더를 선택합니다.\n[다음]을 누르면 설치를 시작합니다.",
+            "extra": ""
+          },
+          {
+            "index": 6,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              10,
+              5,
+              190,
+              8
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "설치할 폴더를 지정해 주세요.",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "4c9486b9e86a22c183e2a529e6cbc3d2673bd6c18f814a2ef5e81b20fed1eee2"
+    },
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "UNINSTALL",
+      "language": 1041,
+      "ids": [
+        "setup.exe::type5::UNINSTALL::1041::caption",
+        "setup.exe::type5::UNINSTALL::1041::control:1:0",
+        "setup.exe::type5::UNINSTALL::1041::control:2:1",
+        "setup.exe::type5::UNINSTALL::1041::control:1007:3"
+      ],
+      "source_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2160591040,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          215,
+          89
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "삭제 확인",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242817,
+            "exstyle": 0,
+            "rect": [
+              105,
+              70,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "확인",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              160,
+              70,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 1026,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              9,
+              10,
+              197,
+              45
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "フォルダ削除メッセージ",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1007,
+            "style": 1342242819,
+            "exstyle": 0,
+            "rect": [
+              5,
+              60,
+              95,
+              10
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "저장 파일도 삭제",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "59b3737646e216952de84cead53866c62279f1f55e08ab218a70054d7575e085"
+    },
+    {
+      "file": "setup.exe",
+      "type": 6,
+      "name": 1,
+      "language": 1041,
+      "ids": [
+        "setup.exe::type6::1::1041::1"
+      ],
+      "source_sha256": "f21a1c14cc98e88f9107438e6ff340badbc4e344eeb5f5371a17df21d2d0f6f0",
+      "structure": {
+        "kind": "STRING",
+        "strings": [
+          "",
+          " 스크립트 엔진 MAJIRO (C) 2004-2005 越畑声太",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "output_sha256": "d96f5f0effb3537c98ff03d9c1505a7b535108ec6813b99b2e24eb074e7c1496"
+    },
+    {
+      "file": "install.exe",
+      "type": 5,
+      "name": "COPYING",
+      "language": 1041,
+      "ids": [
+        "install.exe::type5::COPYING::1041::caption",
+        "install.exe::type5::COPYING::1041::control:2:2"
+      ],
+      "source_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2428502720,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          194,
+          99
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "파일 복사 중...",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1010,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress1",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 1012,
+            "style": 1342308865,
+            "exstyle": 0,
+            "rect": [
+              5,
+              65,
+              185,
+              10
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "コピー中ファイル名",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              140,
+              80,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1020,
+            "style": 1342177283,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              180,
+              40
+            ],
+            "class": "SysAnimate32",
+            "text": "Animate1",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "39212b0f5f204edee780c13b07c5a37d05075913b5064f37fb442698c527a332"
+    },
+    {
+      "file": "install.exe",
+      "type": 5,
+      "name": "COPYINGDELUX",
+      "language": 1041,
+      "ids": [
+        "install.exe::type5::COPYINGDELUX::1041::caption",
+        "install.exe::type5::COPYINGDELUX::1041::control:2:2"
+      ],
+      "source_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2428502720,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          194,
+          109
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "파일 복사 중...",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1010,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress1",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 1012,
+            "style": 1342308865,
+            "exstyle": 0,
+            "rect": [
+              5,
+              75,
+              185,
+              10
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "コピー中ファイル名",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              140,
+              90,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1019,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              60,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress2",
+            "extra": ""
+          },
+          {
+            "index": 4,
+            "id": 1020,
+            "style": 1342177283,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              180,
+              40
+            ],
+            "class": "SysAnimate32",
+            "text": "Animate1",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "af2ca820f959d1b67ee07570c3e99186508be34f6e0095711429d969d5b25c8f"
+    },
+    {
+      "file": "install.exe",
+      "type": 5,
+      "name": "MAKESHORTCUT",
+      "language": 1041,
+      "ids": [
+        "install.exe::type5::MAKESHORTCUT::1041::caption",
+        "install.exe::type5::MAKESHORTCUT::1041::control:1:0",
+        "install.exe::type5::MAKESHORTCUT::1041::control:2:1",
+        "install.exe::type5::MAKESHORTCUT::1041::control:65535:2",
+        "install.exe::type5::MAKESHORTCUT::1041::control:1007:3"
+      ],
+      "source_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2160591040,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          174,
+          75
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "바로 가기 만들기",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242817,
+            "exstyle": 0,
+            "rect": [
+              65,
+              55,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "확인",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              120,
+              55,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              165,
+              20
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "바탕 화면에 게임 실행용 바로 가기를\n만들 수 있습니다.",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1007,
+            "style": 1342242819,
+            "exstyle": 0,
+            "rect": [
+              5,
+              35,
+              160,
+              10
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "바탕 화면에 바로 가기 만들기",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "61068a4e59d71ab59232d97f341a020e964beea91d4b1fb0f2aa916fe75ffd2b"
+    },
+    {
+      "file": "install.exe",
+      "type": 5,
+      "name": "SETUP",
+      "language": 1041,
+      "ids": [
+        "install.exe::type5::SETUP::1041::caption",
+        "install.exe::type5::SETUP::1041::control:1:0",
+        "install.exe::type5::SETUP::1041::control:2:1",
+        "install.exe::type5::SETUP::1041::control:1021:3",
+        "install.exe::type5::SETUP::1041::control:65535:5",
+        "install.exe::type5::SETUP::1041::control:65535:6"
+      ],
+      "source_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2429026496,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          203,
+          95
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "설치 폴더 지정",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              115,
+              75,
+              40,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "다음",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              160,
+              75,
+              40,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 1000,
+            "style": 1350631552,
+            "exstyle": 0,
+            "rect": [
+              10,
+              26,
+              130,
+              12
+            ],
+            "class": {
+              "ordinal": 129
+            },
+            "text": "",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1021,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              145,
+              25,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "찾아보기(&B)",
+            "extra": ""
+          },
+          {
+            "index": 4,
+            "id": 65535,
+            "style": 1342177287,
+            "exstyle": 0,
+            "rect": [
+              5,
+              15,
+              195,
+              30
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "",
+            "extra": ""
+          },
+          {
+            "index": 5,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              191,
+              20
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "[찾아보기]에서 기존 폴더를 선택합니다.\n[다음]을 누르면 설치를 시작합니다.",
+            "extra": ""
+          },
+          {
+            "index": 6,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              10,
+              5,
+              190,
+              8
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "설치할 폴더를 지정해 주세요.",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "4c9486b9e86a22c183e2a529e6cbc3d2673bd6c18f814a2ef5e81b20fed1eee2"
+    },
+    {
+      "file": "install.exe",
+      "type": 5,
+      "name": "UNINSTALL",
+      "language": 1041,
+      "ids": [
+        "install.exe::type5::UNINSTALL::1041::caption",
+        "install.exe::type5::UNINSTALL::1041::control:1:0",
+        "install.exe::type5::UNINSTALL::1041::control:2:1",
+        "install.exe::type5::UNINSTALL::1041::control:1007:3"
+      ],
+      "source_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2160591040,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          215,
+          89
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "삭제 확인",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242817,
+            "exstyle": 0,
+            "rect": [
+              105,
+              70,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "확인",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              160,
+              70,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 1026,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              9,
+              10,
+              197,
+              45
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "フォルダ削除メッセージ",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1007,
+            "style": 1342242819,
+            "exstyle": 0,
+            "rect": [
+              5,
+              60,
+              95,
+              10
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "저장 파일도 삭제",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "59b3737646e216952de84cead53866c62279f1f55e08ab218a70054d7575e085"
+    },
+    {
+      "file": "install.exe",
+      "type": 6,
+      "name": 1,
+      "language": 1041,
+      "ids": [
+        "install.exe::type6::1::1041::1"
+      ],
+      "source_sha256": "f21a1c14cc98e88f9107438e6ff340badbc4e344eeb5f5371a17df21d2d0f6f0",
+      "structure": {
+        "kind": "STRING",
+        "strings": [
+          "",
+          " 스크립트 엔진 MAJIRO (C) 2004-2005 越畑声太",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "output_sha256": "d96f5f0effb3537c98ff03d9c1505a7b535108ec6813b99b2e24eb074e7c1496"
+    },
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "MAINDIALOG",
+      "language": 1041,
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2160591552,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          234,
+          179
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "ＭＡＪＩＲＯ アプリケーション スタートアップ",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1007,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              55,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button8",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 1006,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              70,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button7",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 1005,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              85,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button6",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1004,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              100,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button5",
+            "extra": ""
+          },
+          {
+            "index": 4,
+            "id": 1003,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              115,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button4",
+            "extra": ""
+          },
+          {
+            "index": 5,
+            "id": 1002,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              130,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button3",
+            "extra": ""
+          },
+          {
+            "index": 6,
+            "id": 1001,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              145,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button2",
+            "extra": ""
+          },
+          {
+            "index": 7,
+            "id": 1000,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              160,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button1",
+            "extra": ""
+          },
+          {
+            "index": 8,
+            "id": 1008,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              177,
+              7,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button9",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "932452f59b6bbc6e1c3f141cbc2a6955b536010b267ae5b17d2c117359cfc0a9",
+      "ids": [],
+      "change": "Font face only; title, placeholders, IDs and DLU rectangles preserved"
+    }
+  ],
+  "deferred_fields": 36,
+  "dialog_font": "Malgun Gothic 9pt",
+  "source_control_rectangles_and_ids_unchanged": true,
+  "structural_pass": true,
+  "layout_visual_pass": true,
+  "runtime_pass": false,
+  "installer_executed": false,
+  "defender_scan_pending": false,
+  "release_ready": false,
+  "scope": "40 resource+6 launcher+41 reviewed message fields. Two media-title comparison keys excluded; startup/mutex/next-disc/font/shortcut identifiers preserved. Actual installation and uninstall remain untested.",
+  "native_layout_report": "../../reports/installer-ui-v1-native-layout.json",
+  "layout_visual_review": "All5 distinct dialogs viewed at native resolution. Translated controls are legible and fit; unmodified dynamic Japanese placeholders remain explicitly pending. Inert template host only; installer EXEs were never executed.",
+  "defender_scan_pass": true,
+  "defender_report": "../../reports/installer-ui-v1-defender-scan.json",
+  "parent": "installer-ui-v2",
+  "dynamic_display_fields": 47,
+  "reused_evidence": [
+    "reports/installer-ui-v1-native-layout.json:unchanged5 templates",
+    "reports/installer-ui-v2-launcher-layout.json:unchanged6 labels and launcher template"
+  ],
+  "native_layout_reports": [
+    "reports/installer-ui-v1-native-layout.json:5 unchanged dialog templates",
+    "reports/installer-ui-v2-launcher-layout.json:6 new labels,2 conditional button arrangements"
+  ],
+  "message_display_fields": 41,
+  "message_patches": [
+    {
+      "id": "setup.exe::0x414030",
+      "file_offset": 81968,
+      "original_slot_bytes": 25,
+      "source_sha256": "ae9b1ace48b9984d3adf8812bbd8c10ac6c4153564c51260e12106651b0e78ac",
+      "replacement_sha256": "47a85c58d841a50e8eaab1c4d8bc0d4a50807cec7008f7dcffaab8216a5bb175",
+      "encoded_bytes": 18
+    },
+    {
+      "id": "setup.exe::0x41404c",
+      "file_offset": 81996,
+      "original_slot_bytes": 33,
+      "source_sha256": "4cd3b50cf89867f52b1ccb444a3cba416f7511a1e0605e4826fcfc4e5ac49546",
+      "replacement_sha256": "401c034db921e0a491c5a89605b2e7a20a9b0b93b9823b72b8a0ba3ea50c117e",
+      "encoded_bytes": 28
+    },
+    {
+      "id": "setup.exe::0x414070",
+      "file_offset": 82032,
+      "original_slot_bytes": 78,
+      "source_sha256": "5934d74ca3e10c84de22cba9de701e1a845ff5f60d9d63f20977334d79d5bd17",
+      "replacement_sha256": "2dd4972d2da58d85252a5ac472433e7cb0e4b825337cdb58d8a5e45775946d87",
+      "encoded_bytes": 69
+    },
+    {
+      "id": "setup.exe::0x4140f0",
+      "file_offset": 82160,
+      "original_slot_bytes": 41,
+      "source_sha256": "e88884f26a5b5e12637305357e02743cc56f129edd64a0c00c6a0d78ec7510c6",
+      "replacement_sha256": "d4b348a660b470a8f0b241e3c3bf8b999e6b9a75e439d442d289c321991ad871",
+      "encoded_bytes": 33
+    },
+    {
+      "id": "setup.exe::0x414268",
+      "file_offset": 82536,
+      "original_slot_bytes": 108,
+      "source_sha256": "881f13028d3a4db4eed9c31bf16918d6c9232a5f079db686c2855fcb88e1004d",
+      "replacement_sha256": "d679783c223c04c989d47654c54d083f8df56b36c1816ee3f78a977a93c7b222",
+      "encoded_bytes": 90
+    },
+    {
+      "id": "setup.exe::0x4143a0",
+      "file_offset": 82848,
+      "original_slot_bytes": 68,
+      "source_sha256": "ea3a2295bf3bf44fef64e584184033b6dd5079c45f21c0d3b0d4839be2821da3",
+      "replacement_sha256": "2839d163b5c409e88e1f3ca4996e8aa692ef0e947cfc0278ef396c01c064e750",
+      "encoded_bytes": 49
+    },
+    {
+      "id": "setup.exe::0x4143e4",
+      "file_offset": 82916,
+      "original_slot_bytes": 62,
+      "source_sha256": "41a5f88741fad86c3c6e7a0537dce0b80d60909ddd99b8cd3c7a8158374546db",
+      "replacement_sha256": "f88eaab0a036a864980903395e7d191857f9f835c5cdf3a20f5710648227d394",
+      "encoded_bytes": 51
+    },
+    {
+      "id": "setup.exe::0x414440",
+      "file_offset": 83008,
+      "original_slot_bytes": 39,
+      "source_sha256": "ad4ce3e7158f8039e543f037cdad56d85fb27612fbb42b1211cf3e9470b7bc18",
+      "replacement_sha256": "3c4b3460471d8c48326479ba3c151dd9133f647b1e2493a0612ab34baf915a6c",
+      "encoded_bytes": 29
+    },
+    {
+      "id": "setup.exe::0x414468",
+      "file_offset": 83048,
+      "original_slot_bytes": 39,
+      "source_sha256": "4085411259cd8ff981bcbb5eca1f8d70be19722e6800dfbd45401ed017be393e",
+      "replacement_sha256": "94032b3b69954f64983788336b82efeb3cc392004b05c1f492e780d61cf82bc9",
+      "encoded_bytes": 35
+    },
+    {
+      "id": "setup.exe::0x414550",
+      "file_offset": 83280,
+      "original_slot_bytes": 137,
+      "source_sha256": "a7cc86af266ea581e16bf2b77096be0c43d0e17a88db7cad71b14be882d3c24c",
+      "replacement_sha256": "9d8b1ae5b748be5d5757b577b9edb49f58954b78d70b38d1bd01082e8ccaeded",
+      "encoded_bytes": 123
+    },
+    {
+      "id": "setup.exe::0x414634",
+      "file_offset": 83508,
+      "original_slot_bytes": 20,
+      "source_sha256": "e5c902f91fc12f69b7bc6d7499ed5448d2b266b482a4242346b86fb8ac97de60",
+      "replacement_sha256": "7e918f9b188ed78bef530deabfec0785dd3f89a276cd4e904b25784808b187b1",
+      "encoded_bytes": 15
+    },
+    {
+      "id": "setup.exe::0x414d84",
+      "file_offset": 85380,
+      "original_slot_bytes": 29,
+      "source_sha256": "3b658562fab608be6de98e7f7b27fba58603b09f271881606875dc56aa3d06bd",
+      "replacement_sha256": "7f0516b7fd4067e8344fa4bef7ad2572186cc43a1f9778448b4ef2445401bc91",
+      "encoded_bytes": 20
+    },
+    {
+      "id": "setup.exe::0x414dc8",
+      "file_offset": 85448,
+      "original_slot_bytes": 39,
+      "source_sha256": "2057040eab6d405d735f9e3f5f5f50d27ea4f3dc025e52a9e355b11a0921a1c4",
+      "replacement_sha256": "0f4e086c9a925bb85ce128ed12f1768d7e0279c0c9272ef84ef0ee3075de237a",
+      "encoded_bytes": 29
+    },
+    {
+      "id": "setup.exe::0x414df0",
+      "file_offset": 85488,
+      "original_slot_bytes": 27,
+      "source_sha256": "a80b1c3e79a22c556403cd1bf71da015e7ea5ac6eedfbdcff1e30e3c19805fb0",
+      "replacement_sha256": "ca35233e03ecbc60520bdcd72af7917afe9f070d7d7181f15dee8a335520ed90",
+      "encoded_bytes": 20
+    },
+    {
+      "id": "setup.exe::0x414e0c",
+      "file_offset": 85516,
+      "original_slot_bytes": 41,
+      "source_sha256": "eb476fda37ee37462cb46f154a10120ca956fd01d218e4492a996baff57dcf5e",
+      "replacement_sha256": "2a2ed3df4d133cb84fdcfcfb2c53718bdebdf646d9664ce2b8a981e7aaa06863",
+      "encoded_bytes": 18
+    },
+    {
+      "id": "setup.exe::0x414ea8",
+      "file_offset": 85672,
+      "original_slot_bytes": 78,
+      "source_sha256": "fa4e2863f9d78e724b68fabe96221c4fdaae14817f5aae78c0af85f8138540cb",
+      "replacement_sha256": "820934485da5b3b58e197b06f99ddee3aaaf5b9ee401d4e3c78f723f6c05dedc",
+      "encoded_bytes": 70
+    },
+    {
+      "id": "setup.exe::0x414ef8",
+      "file_offset": 85752,
+      "original_slot_bytes": 37,
+      "source_sha256": "c8df210e9183409de32e6c60c9a43b64ace061036f0f9eff36382f9b20d570b8",
+      "replacement_sha256": "4a57d615bd4e7da9a48bfb3f7bba06aaf598c80a34bfd05c18c4f9fa6e450f71",
+      "encoded_bytes": 29
+    },
+    {
+      "id": "setup.exe::0x414f28",
+      "file_offset": 85800,
+      "original_slot_bytes": 88,
+      "source_sha256": "33c44f2563af2b49026dcf2a628d03bf925c64a16b215ecda61098d1f29a2f34",
+      "replacement_sha256": "fdcf2d97fb7ecd7ba522d544fc05194ca955049c4f429931de89bded46004836",
+      "encoded_bytes": 83
+    },
+    {
+      "id": "setup.exe::0x4161e4",
+      "file_offset": 90596,
+      "original_slot_bytes": 43,
+      "source_sha256": "dd8f37b63694e9ed9eccf7bc424acead4581ae4193ca20f10e656107f6b3e52f",
+      "replacement_sha256": "b592bfa8578c63776fc89ce7fd2a22f2e8f36343a7bb01aa6046a54ef9ae8c56",
+      "encoded_bytes": 39
+    },
+    {
+      "id": "setup.exe::0x416288",
+      "file_offset": 90760,
+      "original_slot_bytes": 57,
+      "source_sha256": "162bf9f7842d58d07d20099d914544f875cb88fe8d5446f0623165b54dbb66a8",
+      "replacement_sha256": "6b07655e98f974d8a9285cdd590b8577d13353533691e2eee9ac09d373f6b5e8",
+      "encoded_bytes": 44
+    },
+    {
+      "id": "setup.exe::0x4162ec",
+      "file_offset": 90860,
+      "original_slot_bytes": 46,
+      "source_sha256": "8118ac75f7c1b036ae5c551b3f058afae32639c73f0776e7064ad421d6283e49",
+      "replacement_sha256": "e85eb782cbc8cd9dcd8d2a17a27b754050c7aaf9c15903c2ed2626be0c68a521",
+      "encoded_bytes": 35
+    },
+    {
+      "id": "setup.exe::0x416354",
+      "file_offset": 90964,
+      "original_slot_bytes": 47,
+      "source_sha256": "831cf488d8d35f4b3887cdd2c0ca6f53e5be3a7be105fdb4af435bfa91d98694",
+      "replacement_sha256": "3a76081354732a72365ca5631d7267675667f679e573494eb3af2b59de26775d",
+      "encoded_bytes": 36
+    },
+    {
+      "id": "install.exe::0x414030",
+      "file_offset": 81968,
+      "original_slot_bytes": 25,
+      "source_sha256": "ae9b1ace48b9984d3adf8812bbd8c10ac6c4153564c51260e12106651b0e78ac",
+      "replacement_sha256": "47a85c58d841a50e8eaab1c4d8bc0d4a50807cec7008f7dcffaab8216a5bb175",
+      "encoded_bytes": 18
+    },
+    {
+      "id": "install.exe::0x41404c",
+      "file_offset": 81996,
+      "original_slot_bytes": 33,
+      "source_sha256": "4cd3b50cf89867f52b1ccb444a3cba416f7511a1e0605e4826fcfc4e5ac49546",
+      "replacement_sha256": "401c034db921e0a491c5a89605b2e7a20a9b0b93b9823b72b8a0ba3ea50c117e",
+      "encoded_bytes": 28
+    },
+    {
+      "id": "install.exe::0x414070",
+      "file_offset": 82032,
+      "original_slot_bytes": 78,
+      "source_sha256": "5934d74ca3e10c84de22cba9de701e1a845ff5f60d9d63f20977334d79d5bd17",
+      "replacement_sha256": "2dd4972d2da58d85252a5ac472433e7cb0e4b825337cdb58d8a5e45775946d87",
+      "encoded_bytes": 69
+    },
+    {
+      "id": "install.exe::0x4140f0",
+      "file_offset": 82160,
+      "original_slot_bytes": 41,
+      "source_sha256": "e88884f26a5b5e12637305357e02743cc56f129edd64a0c00c6a0d78ec7510c6",
+      "replacement_sha256": "d4b348a660b470a8f0b241e3c3bf8b999e6b9a75e439d442d289c321991ad871",
+      "encoded_bytes": 33
+    },
+    {
+      "id": "install.exe::0x41421c",
+      "file_offset": 82460,
+      "original_slot_bytes": 108,
+      "source_sha256": "881f13028d3a4db4eed9c31bf16918d6c9232a5f079db686c2855fcb88e1004d",
+      "replacement_sha256": "d679783c223c04c989d47654c54d083f8df56b36c1816ee3f78a977a93c7b222",
+      "encoded_bytes": 90
+    },
+    {
+      "id": "install.exe::0x414388",
+      "file_offset": 82824,
+      "original_slot_bytes": 20,
+      "source_sha256": "e5c902f91fc12f69b7bc6d7499ed5448d2b266b482a4242346b86fb8ac97de60",
+      "replacement_sha256": "7e918f9b188ed78bef530deabfec0785dd3f89a276cd4e904b25784808b187b1",
+      "encoded_bytes": 15
+    },
+    {
+      "id": "install.exe::0x414b64",
+      "file_offset": 84836,
+      "original_slot_bytes": 29,
+      "source_sha256": "3b658562fab608be6de98e7f7b27fba58603b09f271881606875dc56aa3d06bd",
+      "replacement_sha256": "7f0516b7fd4067e8344fa4bef7ad2572186cc43a1f9778448b4ef2445401bc91",
+      "encoded_bytes": 20
+    },
+    {
+      "id": "install.exe::0x414ba8",
+      "file_offset": 84904,
+      "original_slot_bytes": 85,
+      "source_sha256": "90897ecf73e13c37802f38cb7b9d9336fad5c8ccdd2826a66a9a99c2914eff4d",
+      "replacement_sha256": "6d9eb064403e0e4f2c7adb4a2c655ea127e95311691ba90627746bbde5dfc918",
+      "encoded_bytes": 66
+    },
+    {
+      "id": "install.exe::0x414c00",
+      "file_offset": 84992,
+      "original_slot_bytes": 39,
+      "source_sha256": "2057040eab6d405d735f9e3f5f5f50d27ea4f3dc025e52a9e355b11a0921a1c4",
+      "replacement_sha256": "0f4e086c9a925bb85ce128ed12f1768d7e0279c0c9272ef84ef0ee3075de237a",
+      "encoded_bytes": 29
+    },
+    {
+      "id": "install.exe::0x414c28",
+      "file_offset": 85032,
+      "original_slot_bytes": 27,
+      "source_sha256": "a80b1c3e79a22c556403cd1bf71da015e7ea5ac6eedfbdcff1e30e3c19805fb0",
+      "replacement_sha256": "ca35233e03ecbc60520bdcd72af7917afe9f070d7d7181f15dee8a335520ed90",
+      "encoded_bytes": 20
+    },
+    {
+      "id": "install.exe::0x414c44",
+      "file_offset": 85060,
+      "original_slot_bytes": 41,
+      "source_sha256": "eb476fda37ee37462cb46f154a10120ca956fd01d218e4492a996baff57dcf5e",
+      "replacement_sha256": "2a2ed3df4d133cb84fdcfcfb2c53718bdebdf646d9664ce2b8a981e7aaa06863",
+      "encoded_bytes": 18
+    },
+    {
+      "id": "install.exe::0x414c80",
+      "file_offset": 85120,
+      "original_slot_bytes": 46,
+      "source_sha256": "e57d93a24cb3237e6a94efa6ac775ec3ab94b268e27a2d3238d5d45671fc23e1",
+      "replacement_sha256": "d215acfe70ed2a5e35ba9d47457b5ddee6fb50795acae53198985a64ab65ec1d",
+      "encoded_bytes": 36
+    },
+    {
+      "id": "install.exe::0x414d2c",
+      "file_offset": 85292,
+      "original_slot_bytes": 78,
+      "source_sha256": "fa4e2863f9d78e724b68fabe96221c4fdaae14817f5aae78c0af85f8138540cb",
+      "replacement_sha256": "820934485da5b3b58e197b06f99ddee3aaaf5b9ee401d4e3c78f723f6c05dedc",
+      "encoded_bytes": 70
+    },
+    {
+      "id": "install.exe::0x414d7c",
+      "file_offset": 85372,
+      "original_slot_bytes": 37,
+      "source_sha256": "c8df210e9183409de32e6c60c9a43b64ace061036f0f9eff36382f9b20d570b8",
+      "replacement_sha256": "4a57d615bd4e7da9a48bfb3f7bba06aaf598c80a34bfd05c18c4f9fa6e450f71",
+      "encoded_bytes": 29
+    },
+    {
+      "id": "install.exe::0x414dac",
+      "file_offset": 85420,
+      "original_slot_bytes": 88,
+      "source_sha256": "33c44f2563af2b49026dcf2a628d03bf925c64a16b215ecda61098d1f29a2f34",
+      "replacement_sha256": "fdcf2d97fb7ecd7ba522d544fc05194ca955049c4f429931de89bded46004836",
+      "encoded_bytes": 83
+    },
+    {
+      "id": "install.exe::0x4160c8",
+      "file_offset": 90312,
+      "original_slot_bytes": 43,
+      "source_sha256": "dd8f37b63694e9ed9eccf7bc424acead4581ae4193ca20f10e656107f6b3e52f",
+      "replacement_sha256": "b592bfa8578c63776fc89ce7fd2a22f2e8f36343a7bb01aa6046a54ef9ae8c56",
+      "encoded_bytes": 39
+    },
+    {
+      "id": "install.exe::0x41616c",
+      "file_offset": 90476,
+      "original_slot_bytes": 57,
+      "source_sha256": "162bf9f7842d58d07d20099d914544f875cb88fe8d5446f0623165b54dbb66a8",
+      "replacement_sha256": "6b07655e98f974d8a9285cdd590b8577d13353533691e2eee9ac09d373f6b5e8",
+      "encoded_bytes": 44
+    },
+    {
+      "id": "install.exe::0x4161d0",
+      "file_offset": 90576,
+      "original_slot_bytes": 46,
+      "source_sha256": "8118ac75f7c1b036ae5c551b3f058afae32639c73f0776e7064ad421d6283e49",
+      "replacement_sha256": "e85eb782cbc8cd9dcd8d2a17a27b754050c7aaf9c15903c2ed2626be0c68a521",
+      "encoded_bytes": 35
+    },
+    {
+      "id": "install.exe::0x416210",
+      "file_offset": 90640,
+      "original_slot_bytes": 47,
+      "source_sha256": "831cf488d8d35f4b3887cdd2c0ca6f53e5be3a7be105fdb4af435bfa91d98694",
+      "replacement_sha256": "3a76081354732a72365ca5631d7267675667f679e573494eb3af2b59de26775d",
+      "encoded_bytes": 36
+    }
+  ],
+  "excluded_functional_message_ids": [
+    "setup.exe::0x4145f0",
+    "install.exe::0x414344"
+  ],
+  "message_display_host_pass": true,
+  "message_host_visual_pass": true,
+  "message_host_report": "reports/installer-ui-v3-message-host.json",
+  "defender_scan_report": "reports/installer-ui-v3-defender-scan.json",
+  "layout_scope": "Inherited5 resource dialogs and6 launcher labels reused; new41 messages checked only in an inert native host, not original engine MessageBox/Browse dialogs."
+}

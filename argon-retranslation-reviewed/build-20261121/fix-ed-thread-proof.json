@@ -1,0 +1,24 @@
+{
+    "date":  "2026-11-22 10:23",
+    "change":  "staffroll.mjo ED 가사 자막 스레드(0xf7adcfda) 64곳·정리 함수(0x47611c0a) 1곳 wait(-2) -\u003e wait(16); 다른 183개 항목 바이트 같음",
+    "tool":  "tools/fix_ed_thread_wait.py",
+    "scenario_before":  "b770d9478e5602000143f3f056c6ca5190a182ea786253c58ddb7ab0d860fb00",
+    "scenario_after":  "ded5300c7cd6bda6529df6427706e3208d6858d5e7f8c7b1b76c948a7db56dd3",
+    "staffroll_before":  "23160baf…",
+    "staffroll_after":  "75297306…",
+    "backup":  "work/backup-b770d947/scenario.arc",
+    "hidden_tests":  {
+                         "before_fix_stall":  "qa-20261122 routes-retry8·retry-0907(hang_probe CPU 1코어 100%)·endsave.json(지도 0번, 세이브로도 멈춤)",
+                         "v1_no_thread":  "variant-v1-nothread.json 타이틀 176클릭",
+                         "v2_empty_worker":  "variant-v2-emptyworker.json 타이틀 175클릭",
+                         "v3_fix_normal":  "variant-v3-wait16.json 타이틀 172클릭, kr_ed 001~032 모두 불림(64줄), 1·10·32번 가사 화면 확인",
+                         "v3_fix_mapjump_37792":  "variant-v3-wait16-jump37792.json 도착 68.6초, 가사 이어짐, 타이틀 172클릭 (고치기 전엔 멈춤)"
+                     },
+    "release_build_same_fix":  "work/fix-final1028/scenario.arc (runtime-final-20261028 072aa90c -\u003e ce29c972, 원본은 안 건드림)",
+    "root_cause":  {
+                       "engine":  "레콘키스타.exe: 프레임마다 [0x494678]=timeGetTime() 은 [0x494674]==0 일 때만(0x40b260). $wait(-2) 는 [0x494674]=1 로 켜고 한 프레임 양보(0x41045f). $timer 는 [0x494678](0x40a620).",
+                       "effect":  "자막 스레드가 $timer 로 16.2초를 기다리며 매 프레임 wait(-2) → 시계가 영영 멈춤 → 스레드도 본문도 시간 기반 동작 전부 정지",
+                       "runtime_evidence":  "qa-20261122/variant-unfixed-deep2.json: 멈춘 동안 20표본 [0x494678]=269437090 고정, [0x494674] 대부분 1, VM 스레드 목표 269437091 대기",
+                       "why_wait16":  "양수 인자는 [0x494674] 를 안 건드리고 첫 호출은 늘 양보(0x41043c→0x412b70)"
+                   }
+}

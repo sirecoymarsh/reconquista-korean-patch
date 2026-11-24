@@ -1,0 +1,18 @@
+from pathlib import Path
+from datetime import datetime,timezone
+import json
+U=Path.cwd();O=U/'candidates/opening-video-ko-v5';E=O/'evidence'
+def read(p):return json.loads(p.read_text(encoding='utf-8'))
+def write(p,j):p.write_text(json.dumps(j,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+n=read(E/'technical-validation.json');v=read(E/'native-visual-review.json');s=read(E/'semantic-gate.json')
+expected='c8a8fa38cb35517285fc1fad7d1c09990f57199dae7b1f7915bcfd3e576cc719'
+assert n['status']=='technical_pass' and v['status']==s['status']=='pass'
+assert n['output_sha256']==v['video_sha256']==expected
+assert (O/'payloads/movie/Recon_OP800_H.mpg').stat().st_size==75319680
+out=O/'game-manifest.json';assert not out.exists()
+now=datetime.now(timezone.utc).isoformat()
+m=dict(candidate='opening-video-ko-v5-game',frozen=True,ready_for_integration=True,created_at_utc=now,translator_model='Codex internal',provenance={'task':'01a162df-720c-77d2-96ed-6429e90b3333','author':'Codex internal primary'},payload={'path':'payloads/movie/Recon_OP800_H.mpg','install_path':'movie/Recon_OP800_H.mpg','sha256':expected,'bytes':75319680,'frames':3037,'fps':30,'codec':'mpeg1video','size':[800,600]},source_sha256='6da04d09fd954c67b004b6cecfe22fd89da473cbf60fd74856d2170a1972995a',audio={'compressed_packets_copied_unchanged':True,'codec':'mp2','packets':3876,'sha256':'8e0702cb615b9322e54e2636590afc1db1186fc24860bac3ad209cfbc0e0f4ad'},evidence=['evidence/technical-validation.json','evidence/native-final-timestamp-remux.json','evidence/native-visual-review.json','evidence/semantic-gate.json','evidence/quote-restoration.json'],changes=['Four upper logo quote captions removed','Small source English paragraph replaced in place with four sharp Korean lines in both logo scenes','Japanese/Korean lyric pairs retained; source spelling in darkness retained in both lines'],inherited=['v4 phonetic names and in-picture Korean staff/cast credits','Approved Korean logo v3','Prior unchanged-scene validation reused'],limitations=['op-lyrics::007 source hearing remains provisional','Actual game playback/listening remains user-owned','No installation or game launch performed'],four_k={'state':'in_progress_memory_bounded_renderer','separate_viewing_output':True,'required_for_native_integration':False},immutable_native=True)
+write(out,m)
+p=U/'progress.json';j=read(p);r=j['active_user_revision']['op_quote_foreign_v5'];r.update(state='Native frozen and ready for integration; 4K renderer being changed to bounded memory and resumable chunks.',native_frozen=True,native_manifest='candidates/opening-video-ko-v5/game-manifest.json',native_sha256=expected,ready_for_native_integration=True,four_k_state='in_progress_memory_bounded_renderer',next='Render 4K using cached clean spans and row-chunk compositing; validate changed scenes, viewer and freeze full manifest.');write(p,j)
+with (U/'HANDOFF.md').open('a',encoding='utf-8') as f:f.write(f'\n\n## {now[:10]} OP v5 게임용 별도 완료본\n\n- `candidates/opening-video-ko-v5/game-manifest.json`: frozen / ready_for_integration. 4K 완료 여부와 별개로 게임용 MPEG 통합 가능.\n- 파일: `candidates/opening-video-ko-v5/payloads/movie/Recon_OP800_H.mpg`, {expected}, 75,319,680바이트.\n- 게임용 실제 저장본 변경/연결부 44장 검토 PASS. 3037프레임 및 원본 MP2 3876패킷 보존, 마지막 PTS와 상대 동기 검증 PASS. `technical-validation.json`, `native-visual-review.json`, `semantic-gate.json` 참조.\n- 상단 인용 자막 4개 제거, 하단 작은 영어 문단을 선명한 한국어 4줄로 제자리 교체, 가사의 `in darkness` 원문 유지.\n- 이 MPEG는 이후 4K 작업에서 수정하지 않음. 4K는 배열 메모리 부족을 해결하는 중이며 아직 미완료. 전체 `manifest.json`은 아직 생성하지 않음.\n- 실제 게임 실행·오디오 재생·전경 조작·설치 없음. OP007 원문 청취 추정은 기존 유보 유지.\n')
+print(json.dumps({'native_frozen':True,'sha256':expected,'manifest':str(out)},ensure_ascii=False))

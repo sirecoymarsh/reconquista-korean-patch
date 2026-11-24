@@ -1,0 +1,1681 @@
+{
+  "source_exe": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\research\\disc\\bin\\レコンキスタ.exe",
+  "source_sha256": "cd1c38ac20d9e502fbc58b7392ca77ec32e3d56f90d988580a3cf58cb6f95146",
+  "scan_scope": "CP932 null-terminated .data strings, at least 8 bytes and two kana characters. This is a candidate inventory, not exhaustive display coverage.",
+  "records": [
+    {
+      "id": "native::0x47a0a8",
+      "va": 4694184,
+      "file_offset": 499880,
+      "byte_length": 38,
+      "source": "set_frontbuffer : ページが存在しません",
+      "source_bytes": "7365745f66726f6e74627566666572203a208379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47a0d0",
+      "va": 4694224,
+      "file_offset": 499920,
+      "byte_length": 30,
+      "source": "乱数の種に０が指定されました。",
+      "source_bytes": "9790909482cc8eed82c9824f82aa8e7792e882b382ea82dc82b582bd8142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47a0f0",
+      "va": 4694256,
+      "file_offset": 499952,
+      "byte_length": 33,
+      "source": "配列数は1以上を指定してください。",
+      "source_bytes": "947a97f1909482cd3188c88fe382f08e7792e882b582c482ad82be82b382a28142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47a128",
+      "va": 4694312,
+      "file_offset": 500008,
+      "byte_length": 39,
+      "source": "get_variable : 変数[ %s ]は存在しません",
+      "source_bytes": "6765745f7661726961626c65203a2095cf90945b202573205d82cd91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47a158",
+      "va": 4694360,
+      "file_offset": 500056,
+      "byte_length": 43,
+      "source": "set_variable : [ %s ]変数名が間違っています",
+      "source_bytes": "7365745f7661726961626c65203a205b202573205d95cf909496bc82aa8ad488e182c182c482a282dc82b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47a184",
+      "va": 4694404,
+      "file_offset": 500100,
+      "byte_length": 49,
+      "source": "set_variable : [ %s ]ローカル変数は設定できません",
+      "source_bytes": "7365745f7661726961626c65203a205b202573205d838d815b834a838b95cf909482cd90dd92e882c582ab82dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47a1c0",
+      "va": 4694464,
+      "file_offset": 500160,
+      "byte_length": 42,
+      "source": "製品ディスクをドライブに入れて下さい　　　",
+      "source_bytes": "90bb9569836683428358834e82f0836883898343837582c993fc82ea82c489ba82b382a2814081408140",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47a230",
+      "va": 4694576,
+      "file_offset": 500272,
+      "byte_length": 22,
+      "source": "ファイル名が長すぎます",
+      "source_bytes": "837483408343838b96bc82aa92b782b782ac82dc82b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47a248",
+      "va": 4694600,
+      "file_offset": 500296,
+      "byte_length": 10,
+      "source": "エラーです",
+      "source_bytes": "83478389815b82c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47a254",
+      "va": 4694612,
+      "file_offset": 500308,
+      "byte_length": 22,
+      "source": "画面の保存(キャプチャ)",
+      "source_bytes": "89e696ca82cc95db91b628834c838383768360838329",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47aa38",
+      "va": 4696632,
+      "file_offset": 502328,
+      "byte_length": 50,
+      "source": "デバッガが応答していません。もう１０秒待ちますか？",
+      "source_bytes": "8366836f8362834b82aa899e939a82b582c482a282dc82b982f1814282e082a48250824f956291d282bf82dc82b782a98148",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47aa6c",
+      "va": 4696684,
+      "file_offset": 502380,
+      "byte_length": 24,
+      "source": "BreakPointが多すぎます。",
+      "source_bytes": "427265616b506f696e7482aa91bd82b782ac82dc82b78142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ab8c",
+      "va": 4696972,
+      "file_offset": 502668,
+      "byte_length": 50,
+      "source": "MajiroObj : ファイル [%s] の読み込みで失敗しました",
+      "source_bytes": "4d616a69726f4f626a203a20837483408343838b205b25735d2082cc93c782dd8d9e82dd82c58eb8947382b582dc82b582bd",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ac38",
+      "va": 4697144,
+      "file_offset": 502840,
+      "byte_length": 52,
+      "source": "ファイル名[%s]が長すぎます%d文字以内にしてください。",
+      "source_bytes": "837483408343838b96bc5b25735d82aa92b782b782ac82dc82b7256495b68e9a88c893e082c982b582c482ad82be82b382a28142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ac78",
+      "va": 4697208,
+      "file_offset": 502904,
+      "byte_length": 34,
+      "source": "[%s]実行関数が設定されていません。",
+      "source_bytes": "5b25735d8ec08d738ad6909482aa90dd92e882b382ea82c482a282dc82b982f18142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ac9c",
+      "va": 4697244,
+      "file_offset": 502940,
+      "byte_length": 104,
+      "source": "関数 [%08X] がメモリ上に発見できませんでした。\n関数が存在する場合には、$load_libraryを忘れていませんか？",
+      "source_bytes": "8ad69094205b253038585d2082aa83818382838a8fe382c994ad8ca982c582ab82dc82b982f182c582b582bd81420a8ad6909482aa91b68ddd82b782e98fea8d8782c982cd8141246c6f61645f6c69627261727982f0965982ea82c482a282dc82b982f182a98148",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ad18",
+      "va": 4697368,
+      "file_offset": 503064,
+      "byte_length": 36,
+      "source": "タイトルに戻ります。よろしいですか？",
+      "source_bytes": "835e83438367838b82c996df82e882dc82b7814282e682eb82b582a282c582b782a98148",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ad48",
+      "va": 4697416,
+      "file_offset": 503112,
+      "byte_length": 32,
+      "source": "コード[%04X]は定義されていません",
+      "source_bytes": "8352815b83685b253034585d82cd92e88b6082b382ea82c482a282dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ad6c",
+      "va": 4697452,
+      "file_offset": 503148,
+      "byte_length": 83,
+      "source": "発見した変数のタイプが違うエラー\nスタックに積まれて居ないのに参照したんではないか？",
+      "source_bytes": "94ad8ca982b582bd95cf909482cc835e8343837682aa88e182a483478389815b0a8358835e8362834e82c990cf82dc82ea82c48b8f82c882a282cc82c98e518fc682b582bd82f182c582cd82c882a282a98148",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47adc0",
+      "va": 4697536,
+      "file_offset": 503232,
+      "byte_length": 52,
+      "source": "Array : イニシャライズされていない配列を参照しました",
+      "source_bytes": "4172726179203a208343836a8356838383898343835982b382ea82c482a282c882a2947a97f182f08e518fc682b582dc82b582bd",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47adf8",
+      "va": 4697592,
+      "file_offset": 503288,
+      "byte_length": 28,
+      "source": "配列が初期化されていません。",
+      "source_bytes": "947a97f182aa8f898afa89bb82b382ea82c482a282dc82b982f18142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ae18",
+      "va": 4697624,
+      "file_offset": 503320,
+      "byte_length": 50,
+      "source": "関数のパラメータが(%d個中、%d番目)間違っています。",
+      "source_bytes": "8ad6909482cc837083898381815b835e82aa2825648cc292868141256494d496da298ad488e182c182c482a282dc82b78142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ae4c",
+      "va": 4697676,
+      "file_offset": 503372,
+      "byte_length": 34,
+      "source": "関数のパラメータが不足しています。",
+      "source_bytes": "8ad6909482cc837083898381815b835e82aa957391ab82b582c482a282dc82b78142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ae70",
+      "va": 4697712,
+      "file_offset": 503408,
+      "byte_length": 38,
+      "source": "組み込み関数[%08X]は定義されていません",
+      "source_bytes": "916782dd8d9e82dd8ad690945b253038585d82cd92e88b6082b382ea82c482a282dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ae98",
+      "va": 4697752,
+      "file_offset": 503448,
+      "byte_length": 50,
+      "source": "thread(0)の終了には$system_end()を使用してください",
+      "source_bytes": "74687265616428302982cc8f4997b982c982cd2473797374656d5f656e64282982f08e67977082b582c482ad82be82b382a2",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47aed0",
+      "va": 4697808,
+      "file_offset": 503504,
+      "byte_length": 13,
+      "source": "ＭＳ ゴシック",
+      "source_bytes": "826c827220835383568362834e",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47af90",
+      "va": 4698000,
+      "file_offset": 503696,
+      "byte_length": 37,
+      "source": "load_font: ファイル[%s]が存在しません",
+      "source_bytes": "6c6f61645f666f6e743a20837483408343838b5b25735d82aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47afc0",
+      "va": 4698048,
+      "file_offset": 503744,
+      "byte_length": 42,
+      "source": "fontout_locate: 出力先ページが存在しません",
+      "source_bytes": "666f6e746f75745f6c6f636174653a208f6f97cd90e68379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47aff4",
+      "va": 4698100,
+      "file_offset": 503796,
+      "byte_length": 35,
+      "source": "fontout: 出力先ページが存在しません",
+      "source_bytes": "666f6e746f75743a208f6f97cd90e68379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b03c",
+      "va": 4698172,
+      "file_offset": 503868,
+      "byte_length": 34,
+      "source": "console_set : ページが存在しません",
+      "source_bytes": "636f6e736f6c655f736574203a208379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b0b0",
+      "va": 4698288,
+      "file_offset": 503984,
+      "byte_length": 98,
+      "source": "ー、。，．」』）？！ぁぃぅぇぉっゃゅょゎァィゥェォャュョヮヵヶ゛゜ゝゞヽヾ〟・…：；‐】〕］｝〉》",
+      "source_bytes": "815b814181428143814481768178816a81488149829f82a182a382a582a782c182e182e382e582ec83408342834483468348838383858387838e83958396814a814b815481558152815387818145816381468147815d817a816c816e817081728174",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b1ec",
+      "va": 4698604,
+      "file_offset": 504300,
+      "byte_length": 28,
+      "source": "差分元画像[%s]が存在しません",
+      "source_bytes": "8db795aa8cb389e6919c5b25735d82aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b20c",
+      "va": 4698636,
+      "file_offset": 504332,
+      "byte_length": 52,
+      "source": "page_create : 大きさが０以下のページは作成できません",
+      "source_bytes": "706167655f637265617465203a2091e582ab82b382aa824f88c889ba82cc8379815b835782cd8dec90ac82c582ab82dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b248",
+      "va": 4698696,
+      "file_offset": 504392,
+      "byte_length": 45,
+      "source": "page_create_file : ファイル[%s]が存在しません",
+      "source_bytes": "706167655f6372656174655f66696c65203a20837483408343838b5b25735d82aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b278",
+      "va": 4698744,
+      "file_offset": 504440,
+      "byte_length": 61,
+      "source": "page_create_withalfa : 大きさが０以下のページは作成できません",
+      "source_bytes": "706167655f6372656174655f77697468616c6661203a2091e582ab82b382aa824f88c889ba82cc8379815b835782cd8dec90ac82c582ab82dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b2bc",
+      "va": 4698812,
+      "file_offset": 504508,
+      "byte_length": 94,
+      "source": "page_release : 指定されたページはスプライトに参照されています\n先にスプライトを解放してください",
+      "source_bytes": "706167655f72656c65617365203a208e7792e882b382ea82bd8379815b835782cd8358837683898343836782c98e518fc682b382ea82c482a282dc82b70a90e682c98358837683898343836782f089f095fa82b582c482ad82be82b382a2",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b31c",
+      "va": 4698908,
+      "file_offset": 504604,
+      "byte_length": 35,
+      "source": "page_release : ページが存在しません",
+      "source_bytes": "706167655f72656c65617365203a208379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b340",
+      "va": 4698944,
+      "file_offset": 504640,
+      "byte_length": 36,
+      "source": "grp_point_get : ページが存在しません",
+      "source_bytes": "6772705f706f696e745f676574203a208379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b368",
+      "va": 4698984,
+      "file_offset": 504680,
+      "byte_length": 36,
+      "source": "grp_point_set : ページが存在しません",
+      "source_bytes": "6772705f706f696e745f736574203a208379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b390",
+      "va": 4699024,
+      "file_offset": 504720,
+      "byte_length": 34,
+      "source": "grp_boxfill : ページが存在しません",
+      "source_bytes": "6772705f626f7866696c6c203a208379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b3b4",
+      "va": 4699060,
+      "file_offset": 504756,
+      "byte_length": 37,
+      "source": "grp_extboxfill : ページが存在しません",
+      "source_bytes": "6772705f657874626f7866696c6c203a208379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b3dc",
+      "va": 4699100,
+      "file_offset": 504796,
+      "byte_length": 44,
+      "source": "grp_mulboxfill : 256色には対応していません。",
+      "source_bytes": "6772705f6d756c626f7866696c6c203a20323536904682c982cd91ce899e82b582c482a282dc82b982f18142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b40c",
+      "va": 4699148,
+      "file_offset": 504844,
+      "byte_length": 37,
+      "source": "grp_mulboxfill : ページが存在しません",
+      "source_bytes": "6772705f6d756c626f7866696c6c203a208379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b434",
+      "va": 4699188,
+      "file_offset": 504884,
+      "byte_length": 41,
+      "source": "grp_reverse : 256色には対応していません。",
+      "source_bytes": "6772705f72657665727365203a20323536904682c982cd91ce899e82b582c482a282dc82b982f18142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b460",
+      "va": 4699232,
+      "file_offset": 504928,
+      "byte_length": 34,
+      "source": "grp_reverse : ページが存在しません",
+      "source_bytes": "6772705f72657665727365203a208379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b484",
+      "va": 4699268,
+      "file_offset": 504964,
+      "byte_length": 32,
+      "source": "grp_sepia : ページが存在しません",
+      "source_bytes": "6772705f7365706961203a208379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b4a8",
+      "va": 4699304,
+      "file_offset": 505000,
+      "byte_length": 34,
+      "source": "grp_copy : 24Bit->8Bitのコピーです",
+      "source_bytes": "6772705f636f7079203a2032344269742d3e3842697482cc83528373815b82c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b4cc",
+      "va": 4699340,
+      "file_offset": 505036,
+      "byte_length": 37,
+      "source": "grp_copy : 転送先ページが存在しません",
+      "source_bytes": "6772705f636f7079203a20935d919790e68379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b4f4",
+      "va": 4699380,
+      "file_offset": 505076,
+      "byte_length": 37,
+      "source": "grp_copy : 転送元ページが存在しません",
+      "source_bytes": "6772705f636f7079203a20935d91978cb38379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b51c",
+      "va": 4699420,
+      "file_offset": 505116,
+      "byte_length": 34,
+      "source": "grp_swap : 8Bit->24Bitのコピーです",
+      "source_bytes": "6772705f73776170203a20384269742d3e323442697482cc83528373815b82c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b540",
+      "va": 4699456,
+      "file_offset": 505152,
+      "byte_length": 34,
+      "source": "grp_swap : 24Bit->8Bitのコピーです",
+      "source_bytes": "6772705f73776170203a2032344269742d3e3842697482cc83528373815b82c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b564",
+      "va": 4699492,
+      "file_offset": 505188,
+      "byte_length": 37,
+      "source": "grp_swap : 転送先ページが存在しません",
+      "source_bytes": "6772705f73776170203a20935d919790e68379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b58c",
+      "va": 4699532,
+      "file_offset": 505228,
+      "byte_length": 37,
+      "source": "grp_swap : 転送元ページが存在しません",
+      "source_bytes": "6772705f73776170203a20935d91978cb38379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b5b4",
+      "va": 4699572,
+      "file_offset": 505268,
+      "byte_length": 45,
+      "source": "grp_extcopy : 転送先に8ビットは指定できません",
+      "source_bytes": "6772705f657874636f7079203a20935d919790e682c93883728362836782cd8e7792e882c582ab82dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b5e4",
+      "va": 4699620,
+      "file_offset": 505316,
+      "byte_length": 40,
+      "source": "grp_extcopy : 転送先ページが存在しません",
+      "source_bytes": "6772705f657874636f7079203a20935d919790e68379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b610",
+      "va": 4699664,
+      "file_offset": 505360,
+      "byte_length": 40,
+      "source": "grp_extcopy : 転送元ページが存在しません",
+      "source_bytes": "6772705f657874636f7079203a20935d91978cb38379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b63c",
+      "va": 4699708,
+      "file_offset": 505404,
+      "byte_length": 60,
+      "source": "page_set_antidata : ページの大きさをそろえる必要が有ります。",
+      "source_bytes": "706167655f7365745f616e746964617461203a208379815b835782cc91e582ab82b382f082bb82eb82a682e9954b977682aa974c82e882dc82b78142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b67c",
+      "va": 4699772,
+      "file_offset": 505468,
+      "byte_length": 64,
+      "source": "page_set_antidata : αデータのページは８ビットで無いといけません",
+      "source_bytes": "706167655f7365745f616e746964617461203a2083bf8366815b835e82cc8379815b835782cd825783728362836782c596b382a282c682a282af82dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b6c0",
+      "va": 4699840,
+      "file_offset": 505536,
+      "byte_length": 37,
+      "source": "set_antidata : αページが存在しません",
+      "source_bytes": "7365745f616e746964617461203a2083bf8379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b6e8",
+      "va": 4699880,
+      "file_offset": 505576,
+      "byte_length": 43,
+      "source": "set_antidata : 設定の親ページが存在しません",
+      "source_bytes": "7365745f616e746964617461203a2090dd92e882cc90658379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b714",
+      "va": 4699924,
+      "file_offset": 505620,
+      "byte_length": 39,
+      "source": "get_alfapage : 指定ページが存在しません",
+      "source_bytes": "6765745f616c666170616765203a208e7792e88379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b73c",
+      "va": 4699964,
+      "file_offset": 505660,
+      "byte_length": 33,
+      "source": "page_len_x : ページが存在しません",
+      "source_bytes": "706167655f6c656e5f78203a208379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b760",
+      "va": 4700000,
+      "file_offset": 505696,
+      "byte_length": 33,
+      "source": "page_len_y : ページが存在しません",
+      "source_bytes": "706167655f6c656e5f79203a208379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b784",
+      "va": 4700036,
+      "file_offset": 505732,
+      "byte_length": 38,
+      "source": "pic_len_x : ファイル[%s]が存在しません",
+      "source_bytes": "7069635f6c656e5f78203a20837483408343838b5b25735d82aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b7ac",
+      "va": 4700076,
+      "file_offset": 505772,
+      "byte_length": 53,
+      "source": "pic_unpack : ファイル[%s]を8bitページに転送しています",
+      "source_bytes": "7069635f756e7061636b203a20837483408343838b5b25735d82f0386269748379815b835782c9935d919782b582c482a282dc82b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b7e4",
+      "va": 4700132,
+      "file_offset": 505828,
+      "byte_length": 39,
+      "source": "pic_unpack : ファイル[%s]が存在しません",
+      "source_bytes": "7069635f756e7061636b203a20837483408343838b5b25735d82aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b80c",
+      "va": 4700172,
+      "file_offset": 505868,
+      "byte_length": 33,
+      "source": "pic_unpack : ページが存在しません",
+      "source_bytes": "7069635f756e7061636b203a208379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b830",
+      "va": 4700208,
+      "file_offset": 505904,
+      "byte_length": 51,
+      "source": "grp_alfa_tabled_copy : 配列の要素が不足しています。",
+      "source_bytes": "6772705f616c66615f7461626c65645f636f7079203a20947a97f182cc9776916682aa957391ab82b582c482a282dc82b78142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b864",
+      "va": 4700260,
+      "file_offset": 505956,
+      "byte_length": 46,
+      "source": "grp_alfa_tabled_copy : 24Bit->8Bitのコピーです",
+      "source_bytes": "6772705f616c66615f7461626c65645f636f7079203a2032344269742d3e3842697482cc83528373815b82c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b894",
+      "va": 4700308,
+      "file_offset": 506004,
+      "byte_length": 57,
+      "source": "grp_alfa_tabled_copy : αのページが８ビットでは有りません",
+      "source_bytes": "6772705f616c66615f7461626c65645f636f7079203a2083bf82cc8379815b835782aa825783728362836782c582cd974c82e882dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b8d0",
+      "va": 4700368,
+      "file_offset": 506064,
+      "byte_length": 53,
+      "source": "grp_alfa_tabled_copy : αのベースページが存在しません",
+      "source_bytes": "6772705f616c66615f7461626c65645f636f7079203a2083bf82cc8378815b83588379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b908",
+      "va": 4700424,
+      "file_offset": 506120,
+      "byte_length": 49,
+      "source": "grp_alfa_tabled_copy : 転送先ページが存在しません",
+      "source_bytes": "6772705f616c66615f7461626c65645f636f7079203a20935d919790e68379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b93c",
+      "va": 4700476,
+      "file_offset": 506172,
+      "byte_length": 49,
+      "source": "grp_alfa_tabled_copy : 転送元ページが存在しません",
+      "source_bytes": "6772705f616c66615f7461626c65645f636f7079203a20935d91978cb38379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b970",
+      "va": 4700528,
+      "file_offset": 506224,
+      "byte_length": 46,
+      "source": "make_alfa_table : 配列の要素が不足しています。",
+      "source_bytes": "6d616b655f616c66615f7461626c65203a20947a97f182cc9776916682aa957391ab82b582c482a282dc82b78142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b9a0",
+      "va": 4700576,
+      "file_offset": 506272,
+      "byte_length": 58,
+      "source": "make_alfa_table : 転送先αのページが８ビットでは有りません",
+      "source_bytes": "6d616b655f616c66615f7461626c65203a20935d919790e683bf82cc8379815b835782aa825783728362836782c582cd974c82e882dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47b9dc",
+      "va": 4700636,
+      "file_offset": 506332,
+      "byte_length": 58,
+      "source": "make_alfa_table : 転送元αのページが８ビットでは有りません",
+      "source_bytes": "6d616b655f616c66615f7461626c65203a20935d91978cb383bf82cc8379815b835782aa825783728362836782c582cd974c82e882dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ba18",
+      "va": 4700696,
+      "file_offset": 506392,
+      "byte_length": 44,
+      "source": "make_alfa_table : 転送先ページが存在しません",
+      "source_bytes": "6d616b655f616c66615f7461626c65203a20935d919790e68379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ba48",
+      "va": 4700744,
+      "file_offset": 506440,
+      "byte_length": 44,
+      "source": "make_alfa_table : 転送元ページが存在しません",
+      "source_bytes": "6d616b655f616c66615f7461626c65203a20935d91978cb38379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ba78",
+      "va": 4700792,
+      "file_offset": 506488,
+      "byte_length": 44,
+      "source": "grp_modify_copy : 転送先ページが存在しません",
+      "source_bytes": "6772705f6d6f646966795f636f7079203a20935d919790e68379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47baa8",
+      "va": 4700840,
+      "file_offset": 506536,
+      "byte_length": 44,
+      "source": "grp_modify_copy : 転送元ページが存在しません",
+      "source_bytes": "6772705f6d6f646966795f636f7079203a20935d91978cb38379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47bad8",
+      "va": 4700888,
+      "file_offset": 506584,
+      "byte_length": 38,
+      "source": "make_mosaic : 8Bitには対応していません",
+      "source_bytes": "6d616b655f6d6f73616963203a203842697482c982cd91ce899e82b582c482a282dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47bb00",
+      "va": 4700928,
+      "file_offset": 506624,
+      "byte_length": 40,
+      "source": "make_mosaic : 転送先ページが存在しません",
+      "source_bytes": "6d616b655f6d6f73616963203a20935d919790e68379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47bb2c",
+      "va": 4700972,
+      "file_offset": 506668,
+      "byte_length": 40,
+      "source": "make_mosaic : 転送元ページが存在しません",
+      "source_bytes": "6d616b655f6d6f73616963203a20935d91978cb38379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47bb58",
+      "va": 4701016,
+      "file_offset": 506712,
+      "byte_length": 40,
+      "source": "grp_modcopy : 転送先ページが存在しません",
+      "source_bytes": "6772705f6d6f64636f7079203a20935d919790e68379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47bb84",
+      "va": 4701060,
+      "file_offset": 506756,
+      "byte_length": 40,
+      "source": "grp_modcopy : 転送元ページが存在しません",
+      "source_bytes": "6772705f6d6f64636f7079203a20935d91978cb38379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47bbb0",
+      "va": 4701104,
+      "file_offset": 506800,
+      "byte_length": 47,
+      "source": "movie_play : ムービーファイル[%s]が存在しません",
+      "source_bytes": "6d6f7669655f706c6179203a208380815b8372815b837483408343838b5b25735d82aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47be6c",
+      "va": 4701804,
+      "file_offset": 507500,
+      "byte_length": 43,
+      "source": "スタックオーバーフロー : ネストが深すぎます",
+      "source_bytes": "8358835e8362834e8349815b836f815b8374838d815b203a20836c8358836782aa905b82b782ac82dc82b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47bf74",
+      "va": 4702068,
+      "file_offset": 507764,
+      "byte_length": 40,
+      "source": "エターナルフラグの読み込みに失敗しました",
+      "source_bytes": "8347835e815b8369838b83748389834f82cc93c782dd8d9e82dd82c98eb8947382b582dc82b582bd",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47c010",
+      "va": 4702224,
+      "file_offset": 507920,
+      "byte_length": 40,
+      "source": "ファイルの書き込みでエラーが発生しました",
+      "source_bytes": "837483408343838b82cc8f9182ab8d9e82dd82c583478389815b82aa94ad90b682b582dc82b582bd",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47c05c",
+      "va": 4702300,
+      "file_offset": 507996,
+      "byte_length": 39,
+      "source": "make_thumbnail: 24Bitのみのサポートです",
+      "source_bytes": "6d616b655f7468756d626e61696c3a20323442697482cc82dd82cc8354837c815b836782c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47c084",
+      "va": 4702340,
+      "file_offset": 508036,
+      "byte_length": 42,
+      "source": "make_thumbnail: 作成元ページが存在しません",
+      "source_bytes": "6d616b655f7468756d626e61696c3a208dec90ac8cb38379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47c0e2",
+      "va": 4702434,
+      "file_offset": 508130,
+      "byte_length": 22,
+      "source": "b＜Qームデータ (*.sav)",
+      "source_bytes": "62818351815b83808366815b835e20282a2e73617629",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47c110",
+      "va": 4702480,
+      "file_offset": 508176,
+      "byte_length": 28,
+      "source": "データの名前を指定してロード",
+      "source_bytes": "8366815b835e82cc96bc914f82f08e7792e882b582c4838d815b8368",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47c130",
+      "va": 4702512,
+      "file_offset": 508208,
+      "byte_length": 28,
+      "source": "データに名前を指定してセーブ",
+      "source_bytes": "8366815b835e82c996bc914f82f08e7792e882b582c4835a815b8375",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47c288",
+      "va": 4702856,
+      "file_offset": 508552,
+      "byte_length": 32,
+      "source": "ＭＡＪＩＲＯ　スクリプトエンジン",
+      "source_bytes": "826c8260826982688271826e81408358834e838a837683678347839383578393",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47c4e4",
+      "va": 4703460,
+      "file_offset": 509156,
+      "byte_length": 43,
+      "source": "[start.msj]に $init@GLOBAL 関数がありません",
+      "source_bytes": "5b73746172742e6d736a5d82c92024696e697440474c4f42414c208ad6909482aa82a082e882dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47c594",
+      "va": 4703636,
+      "file_offset": 509332,
+      "byte_length": 50,
+      "source": "ヘルプ -> バージョン情報で変数のウオッチが可能です",
+      "source_bytes": "8377838b8376202d3e20836f815b8357838783938fee95f182c595cf909482cc834583498362836082aa89c2945c82c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47c7bc",
+      "va": 4704188,
+      "file_offset": 509884,
+      "byte_length": 62,
+      "source": "正常にインストールされていません。再インストールしてください。",
+      "source_bytes": "90b38fed82c98343839383588367815b838b82b382ea82c482a282dc82b982f181428dc48343839383588367815b838b82b582c482ad82be82b382a28142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47c7fc",
+      "va": 4704252,
+      "file_offset": 509948,
+      "byte_length": 26,
+      "source": "製品ディスクでは有りません",
+      "source_bytes": "90bb9569836683428358834e82c582cd974c82e882dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47c820",
+      "va": 4704288,
+      "file_offset": 509984,
+      "byte_length": 44,
+      "source": "ドライブ[ %s ]に製品ディスクを入れてください",
+      "source_bytes": "83688389834383755b202573205d82c990bb9569836683428358834e82f093fc82ea82c482ad82be82b382a2",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ca7c",
+      "va": 4704892,
+      "file_offset": 510588,
+      "byte_length": 166,
+      "source": "前回のプログラム実行時に異常終了が確認されました。\n繰り返し以上終了が確認される場合はＨＤＤキャッシュの破損が考えられます。\n\nＨＤＤキャッシュを破棄しますか？（推奨）\n",
+      "source_bytes": "914f89f182cc8376838d834f838983808ec08d738e9e82c988d98fed8f4997b982aa8a6d944682b382ea82dc82b582bd81420a8c4a82e895d482b588c88fe38f4997b982aa8a6d944682b382ea82e98fea8d8782cd826782638263834c838383628356838582cc946a91b982aa8d6c82a682e782ea82dc82b781420a0a826782638263834c838383628356838582f0946a8afc82b582dc82b782a98148816990848fa7816a0a",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47cb34",
+      "va": 4705076,
+      "file_offset": 510772,
+      "byte_length": 14,
+      "source": "既に起動中です",
+      "source_bytes": "8af982c98b4e93ae928682c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47cb44",
+      "va": 4705092,
+      "file_offset": 510788,
+      "byte_length": 17,
+      "source": "%s スタートアップ",
+      "source_bytes": "2573208358835e815b8367834183628376",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47cb78",
+      "va": 4705144,
+      "file_offset": 510840,
+      "byte_length": 170,
+      "source": "起動に必要なファイルが不足しています。\nインストールの異常終了、起動するフォルダ異常、等を確認してください。\nショートカットからの起動は作業フォルダの設定をご確認ください。",
+      "source_bytes": "8b4e93ae82c9954b977682c8837483408343838b82aa957391ab82b582c482a282dc82b781420a8343839383588367815b838b82cc88d98fed8f4997b981418b4e93ae82b782e983748348838b835f88d98fed8141939982f08a6d944682b582c482ad82be82b382a281420a83568387815b8367834a8362836782a982e782cc8b4e93ae82cd8dec8bc683748348838b835f82cc90dd92e882f082b28a6d944682ad82be82b382a28142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47cd40",
+      "va": 4705600,
+      "file_offset": 511296,
+      "byte_length": 38,
+      "source": "[%s]が更新されました。キャッシュします",
+      "source_bytes": "5b25735d82aa8d58905682b382ea82dc82b582bd8142834c838383628356838582b582dc82b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47cd68",
+      "va": 4705640,
+      "file_offset": 511336,
+      "byte_length": 44,
+      "source": "[%s]が新規に作成されました。キャッシュします",
+      "source_bytes": "5b25735d82aa90568b4b82c98dec90ac82b382ea82dc82b582bd8142834c838383628356838582b582dc82b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47cd98",
+      "va": 4705688,
+      "file_offset": 511384,
+      "byte_length": 60,
+      "source": "[%s]のオリジナルファイルが開けません。キャッシュを消去します",
+      "source_bytes": "5b25735d82cc8349838a83578369838b837483408343838b82aa8a4a82af82dc82b982f18142834c838383628356838582f08fc18b8e82b582dc82b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ce48",
+      "va": 4705864,
+      "file_offset": 511560,
+      "byte_length": 24,
+      "source": "終了してよろしいですか？",
+      "source_bytes": "8f4997b982b582c482e682eb82b582a282c582b782a98148",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ced4",
+      "va": 4706004,
+      "file_offset": 511700,
+      "byte_length": 154,
+      "source": "\nＭＡＪＩＲＯ　スクリプトエンジン\nBuild Wed May 16 20:14:21 2007\nCopyright (C) 越畑 声太/堀井 康弘\nSPR(%d) PAGE(%d) EXTPAGE(%d) CACHE(%dM/%d%%)\nThread(%d)",
+      "source_bytes": "0a826c8260826982688271826e81408358834e838a8376836783478393835783930a4275696c6420576564204d61792031362032303a31343a323120323030370a436f707972696768742028432920897a94a82090ba91be2f967888e4208d4e8d4f0a535052282564292050414745282564292045585450414745282564292043414348452825644d2f25642525290a54687265616428256429",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47d584",
+      "va": 4707716,
+      "file_offset": 513412,
+      "byte_length": 30,
+      "source": "item[%s]が発見できませんでした",
+      "source_bytes": "6974656d5b25735d82aa94ad8ca982c582ab82dc82b982f182c582b582bd",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f034",
+      "va": 4714548,
+      "file_offset": 520244,
+      "byte_length": 10,
+      "source": "ダブル立直",
+      "source_bytes": "835f8375838b97a792bc",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f0c4",
+      "va": 4714692,
+      "file_offset": 520388,
+      "byte_length": 8,
+      "source": "ハイテイ",
+      "source_bytes": "836e834383658343",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f100",
+      "va": 4714752,
+      "file_offset": 520448,
+      "byte_length": 8,
+      "source": "タンヤオ",
+      "source_bytes": "835e839383848349",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f150",
+      "va": 4714832,
+      "file_offset": 520528,
+      "byte_length": 12,
+      "source": "ジュンチャン",
+      "source_bytes": "835783858393836083838393",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f160",
+      "va": 4714848,
+      "file_offset": 520544,
+      "byte_length": 8,
+      "source": "チャンタ",
+      "source_bytes": "836083838393835e",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f1f8",
+      "va": 4715000,
+      "file_offset": 520696,
+      "byte_length": 8,
+      "source": "ドラドラ",
+      "source_bytes": "8368838983688389",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f5bc",
+      "va": 4715964,
+      "file_offset": 521660,
+      "byte_length": 18,
+      "source": "ディスク認証エラー",
+      "source_bytes": "836683428358834e94468fd883478389815b",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f72c",
+      "va": 4716332,
+      "file_offset": 522028,
+      "byte_length": 26,
+      "source": "文字サンプルです。１２３４",
+      "source_bytes": "95b68e9a835483938376838b82c582b781428250825182528253",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f7bc",
+      "va": 4716476,
+      "file_offset": 522172,
+      "byte_length": 34,
+      "source": "music : ファイル[%s]が存在しません",
+      "source_bytes": "6d75736963203a20837483408343838b5b25735d82aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f7e0",
+      "va": 4716512,
+      "file_offset": 522208,
+      "byte_length": 34,
+      "source": "voice : ファイル[%s]が存在しません",
+      "source_bytes": "766f696365203a20837483408343838b5b25735d82aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f80c",
+      "va": 4716556,
+      "file_offset": 522252,
+      "byte_length": 34,
+      "source": "sound : ファイル[%s]が存在しません",
+      "source_bytes": "736f756e64203a20837483408343838b5b25735d82aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f830",
+      "va": 4716592,
+      "file_offset": 522288,
+      "byte_length": 35,
+      "source": "sound2 : ファイル[%s]が存在しません",
+      "source_bytes": "736f756e6432203a20837483408343838b5b25735d82aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f854",
+      "va": 4716628,
+      "file_offset": 522324,
+      "byte_length": 35,
+      "source": "sound3 : ファイル[%s]が存在しません",
+      "source_bytes": "736f756e6433203a20837483408343838b5b25735d82aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f878",
+      "va": 4716664,
+      "file_offset": 522360,
+      "byte_length": 35,
+      "source": "sound4 : ファイル[%s]が存在しません",
+      "source_bytes": "736f756e6434203a20837483408343838b5b25735d82aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f89c",
+      "va": 4716700,
+      "file_offset": 522396,
+      "byte_length": 24,
+      "source": "voice_ch : chは0～%dです",
+      "source_bytes": "766f6963655f6368203a20636882cd308160256482c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f8b8",
+      "va": 4716728,
+      "file_offset": 522424,
+      "byte_length": 37,
+      "source": "voice_ch : ファイル[%s]が存在しません",
+      "source_bytes": "766f6963655f6368203a20837483408343838b5b25735d82aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f8e0",
+      "va": 4716768,
+      "file_offset": 522464,
+      "byte_length": 29,
+      "source": "voice_ch_stop : chは0～%dです",
+      "source_bytes": "766f6963655f63685f73746f70203a20636882cd308160256482c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f900",
+      "va": 4716800,
+      "file_offset": 522496,
+      "byte_length": 28,
+      "source": "voice_ch_vol : chは0～%dです",
+      "source_bytes": "766f6963655f63685f766f6c203a20636882cd308160256482c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f920",
+      "va": 4716832,
+      "file_offset": 522528,
+      "byte_length": 29,
+      "source": "voice_ch_fade : chは0～%dです",
+      "source_bytes": "766f6963655f63685f66616465203a20636882cd308160256482c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f940",
+      "va": 4716864,
+      "file_offset": 522560,
+      "byte_length": 32,
+      "source": "voice_ch_fadeout : chは0～%dです",
+      "source_bytes": "766f6963655f63685f666164656f7574203a20636882cd308160256482c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f964",
+      "va": 4716900,
+      "file_offset": 522596,
+      "byte_length": 29,
+      "source": "voice_ch_stat : chは0～%dです",
+      "source_bytes": "766f6963655f63685f73746174203a20636882cd308160256482c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f984",
+      "va": 4716932,
+      "file_offset": 522628,
+      "byte_length": 29,
+      "source": "voice_ch_wait : chは0～%dです",
+      "source_bytes": "766f6963655f63685f77616974203a20636882cd308160256482c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f9a4",
+      "va": 4716964,
+      "file_offset": 522660,
+      "byte_length": 31,
+      "source": "voice_ch_get_fn : chは0～%dです",
+      "source_bytes": "766f6963655f63685f6765745f666e203a20636882cd308160256482c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f9c4",
+      "va": 4716996,
+      "file_offset": 522692,
+      "byte_length": 24,
+      "source": "sound_ch : chは0～%dです",
+      "source_bytes": "736f756e645f6368203a20636882cd308160256482c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47f9e0",
+      "va": 4717024,
+      "file_offset": 522720,
+      "byte_length": 37,
+      "source": "sound_ch : ファイル[%s]が存在しません",
+      "source_bytes": "736f756e645f6368203a20837483408343838b5b25735d82aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fa08",
+      "va": 4717064,
+      "file_offset": 522760,
+      "byte_length": 29,
+      "source": "sound_ch_stop : chは0～%dです",
+      "source_bytes": "736f756e645f63685f73746f70203a20636882cd308160256482c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fa28",
+      "va": 4717096,
+      "file_offset": 522792,
+      "byte_length": 28,
+      "source": "sound_ch_vol : chは0～%dです",
+      "source_bytes": "736f756e645f63685f766f6c203a20636882cd308160256482c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fa48",
+      "va": 4717128,
+      "file_offset": 522824,
+      "byte_length": 29,
+      "source": "sound_ch_fade : chは0～%dです",
+      "source_bytes": "736f756e645f63685f66616465203a20636882cd308160256482c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fa68",
+      "va": 4717160,
+      "file_offset": 522856,
+      "byte_length": 32,
+      "source": "sound_ch_fadeout : chは0～%dです",
+      "source_bytes": "736f756e645f63685f666164656f7574203a20636882cd308160256482c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fa8c",
+      "va": 4717196,
+      "file_offset": 522892,
+      "byte_length": 29,
+      "source": "sound_ch_stat : chは0～%dです",
+      "source_bytes": "736f756e645f63685f73746174203a20636882cd308160256482c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47faac",
+      "va": 4717228,
+      "file_offset": 522924,
+      "byte_length": 29,
+      "source": "sound_ch_wait : chは0～%dです",
+      "source_bytes": "736f756e645f63685f77616974203a20636882cd308160256482c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47facc",
+      "va": 4717260,
+      "file_offset": 522956,
+      "byte_length": 31,
+      "source": "sound_ch_get_fn : chは0～%dです",
+      "source_bytes": "736f756e645f63685f6765745f666e203a20636882cd308160256482c582b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47faf8",
+      "va": 4717304,
+      "file_offset": 523000,
+      "byte_length": 58,
+      "source": "sprite_create : 大きさが０以下のスプライトは作成できません",
+      "source_bytes": "7370726974655f637265617465203a2091e582ab82b382aa824f88c889ba82cc8358837683898343836782cd8dec90ac82c582ab82dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fb34",
+      "va": 4717364,
+      "file_offset": 523060,
+      "byte_length": 42,
+      "source": "sprite_create : 転送先ページが存在しません",
+      "source_bytes": "7370726974655f637265617465203a20935d919790e68379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fb60",
+      "va": 4717408,
+      "file_offset": 523104,
+      "byte_length": 95,
+      "source": "sprite_create : パラメータは１個か５個か６個(_no, _x, _y, _xl, _y, _topage)のどれかにして下さい",
+      "source_bytes": "7370726974655f637265617465203a20837083898381815b835e82cd82508cc282a982548cc282a982558cc2285f6e6f2c205f782c205f792c205f786c2c205f792c205f746f706167652982cc82c782ea82a982c982b582c489ba82b382a2",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fbc0",
+      "va": 4717504,
+      "file_offset": 523200,
+      "byte_length": 36,
+      "source": "sprite_create : ページが存在しません",
+      "source_bytes": "7370726974655f637265617465203a208379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fbe8",
+      "va": 4717544,
+      "file_offset": 523240,
+      "byte_length": 61,
+      "source": "sprite_create_file : ページの大きさをそろえる必要が有ります。",
+      "source_bytes": "7370726974655f6372656174655f66696c65203a208379815b835782cc91e582ab82b382f082bb82eb82a682e9954b977682aa974c82e882dc82b78142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fc28",
+      "va": 4717608,
+      "file_offset": 523304,
+      "byte_length": 56,
+      "source": "sprite_create_file : ファイル[%s]は8ビットでは有りません",
+      "source_bytes": "7370726974655f6372656174655f66696c65203a20837483408343838b5b25735d82cd3883728362836782c582cd974c82e882dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fc64",
+      "va": 4717668,
+      "file_offset": 523364,
+      "byte_length": 47,
+      "source": "sprite_create_file : ファイル[%s]が存在しません",
+      "source_bytes": "7370726974655f6372656174655f66696c65203a20837483408343838b5b25735d82aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fc94",
+      "va": 4717716,
+      "file_offset": 523412,
+      "byte_length": 41,
+      "source": "sprite_paste : 出力先ページが存在しません",
+      "source_bytes": "7370726974655f7061737465203a208f6f97cd90e68379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fcc0",
+      "va": 4717760,
+      "file_offset": 523456,
+      "byte_length": 39,
+      "source": "sprite_paste : スプライトが存在しません",
+      "source_bytes": "7370726974655f7061737465203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fce8",
+      "va": 4717800,
+      "file_offset": 523496,
+      "byte_length": 41,
+      "source": "sprite_release : スプライトが存在しません",
+      "source_bytes": "7370726974655f72656c65617365203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fd14",
+      "va": 4717844,
+      "file_offset": 523540,
+      "byte_length": 38,
+      "source": "sprite_move : スプライトが存在しません",
+      "source_bytes": "7370726974655f6d6f7665203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fd3c",
+      "va": 4717884,
+      "file_offset": 523580,
+      "byte_length": 43,
+      "source": "sprite_move_wait : スプライトが存在しません",
+      "source_bytes": "7370726974655f6d6f76655f77616974203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fd68",
+      "va": 4717928,
+      "file_offset": 523624,
+      "byte_length": 46,
+      "source": "sprite_animate_wait : スプライトが存在しません",
+      "source_bytes": "7370726974655f616e696d6174655f77616974203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fd98",
+      "va": 4717976,
+      "file_offset": 523672,
+      "byte_length": 43,
+      "source": "sprite_alfa_wait : スプライトが存在しません",
+      "source_bytes": "7370726974655f616c66615f77616974203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fdc4",
+      "va": 4718020,
+      "file_offset": 523716,
+      "byte_length": 50,
+      "source": "sprite_animate_define : アニメデータが多すぎです！",
+      "source_bytes": "7370726974655f616e696d6174655f646566696e65203a208341836a83818366815b835e82aa91bd82b782ac82c582b78149",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fdf8",
+      "va": 4718072,
+      "file_offset": 523768,
+      "byte_length": 48,
+      "source": "sprite_animate_define : スプライトが存在しません",
+      "source_bytes": "7370726974655f616e696d6174655f646566696e65203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fe2c",
+      "va": 4718124,
+      "file_offset": 523820,
+      "byte_length": 47,
+      "source": "sprite_animate_add : アニメデータが多すぎです！",
+      "source_bytes": "7370726974655f616e696d6174655f616464203a208341836a83818366815b835e82aa91bd82b782ac82c582b78149",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fe5c",
+      "va": 4718172,
+      "file_offset": 523868,
+      "byte_length": 45,
+      "source": "sprite_animate_add : スプライトが存在しません",
+      "source_bytes": "7370726974655f616e696d6174655f616464203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fe8c",
+      "va": 4718220,
+      "file_offset": 523916,
+      "byte_length": 45,
+      "source": "sprite_alfa_define : スプライトが存在しません",
+      "source_bytes": "7370726974655f616c66615f646566696e65203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47febc",
+      "va": 4718268,
+      "file_offset": 523964,
+      "byte_length": 42,
+      "source": "sprite_alfa_set : スプライトが存在しません",
+      "source_bytes": "7370726974655f616c66615f736574203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47fee8",
+      "va": 4718312,
+      "file_offset": 524008,
+      "byte_length": 62,
+      "source": "sprite_priority_low : 第２パラメータのスプライトが存在しません",
+      "source_bytes": "7370726974655f7072696f726974795f6c6f77203a2091e68251837083898381815b835e82cc8358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ff28",
+      "va": 4718376,
+      "file_offset": 524072,
+      "byte_length": 62,
+      "source": "sprite_priority_low : 第１パラメータのスプライトが存在しません",
+      "source_bytes": "7370726974655f7072696f726974795f6c6f77203a2091e68250837083898381815b835e82cc8358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ff68",
+      "va": 4718440,
+      "file_offset": 524136,
+      "byte_length": 63,
+      "source": "sprite_priority_high : 第２パラメータのスプライトが存在しません",
+      "source_bytes": "7370726974655f7072696f726974795f68696768203a2091e68251837083898381815b835e82cc8358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ffa8",
+      "va": 4718504,
+      "file_offset": 524200,
+      "byte_length": 63,
+      "source": "sprite_priority_high : 第１パラメータのスプライトが存在しません",
+      "source_bytes": "7370726974655f7072696f726974795f68696768203a2091e68250837083898381815b835e82cc8358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x47ffe8",
+      "va": 4718568,
+      "file_offset": 524264,
+      "byte_length": 69,
+      "source": "sprite_priority_low_single : 第２パラメータのスプライトが存在しません",
+      "source_bytes": "7370726974655f7072696f726974795f6c6f775f73696e676c65203a2091e68251837083898381815b835e82cc8358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x480030",
+      "va": 4718640,
+      "file_offset": 524336,
+      "byte_length": 69,
+      "source": "sprite_priority_low_single : 第１パラメータのスプライトが存在しません",
+      "source_bytes": "7370726974655f7072696f726974795f6c6f775f73696e676c65203a2091e68250837083898381815b835e82cc8358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x480078",
+      "va": 4718712,
+      "file_offset": 524408,
+      "byte_length": 70,
+      "source": "sprite_priority_high_single : 第２パラメータのスプライトが存在しません",
+      "source_bytes": "7370726974655f7072696f726974795f686967685f73696e676c65203a2091e68251837083898381815b835e82cc8358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x4800c0",
+      "va": 4718784,
+      "file_offset": 524480,
+      "byte_length": 70,
+      "source": "sprite_priority_high_single : 第１パラメータのスプライトが存在しません",
+      "source_bytes": "7370726974655f7072696f726974795f686967685f73696e676c65203a2091e68250837083898381815b835e82cc8358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x480108",
+      "va": 4718856,
+      "file_offset": 524552,
+      "byte_length": 40,
+      "source": "sprite_tl_set : スプライトが存在しません",
+      "source_bytes": "7370726974655f746c5f736574203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x480134",
+      "va": 4718900,
+      "file_offset": 524596,
+      "byte_length": 41,
+      "source": "is_sprite_move : スプライトが存在しません",
+      "source_bytes": "69735f7370726974655f6d6f7665203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x480160",
+      "va": 4718944,
+      "file_offset": 524640,
+      "byte_length": 38,
+      "source": "invalidate_rect : ページが存在しません",
+      "source_bytes": "696e76616c69646174655f72656374203a208379815b835782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x480188",
+      "va": 4718984,
+      "file_offset": 524680,
+      "byte_length": 40,
+      "source": "sprite_rotate : スプライトが存在しません",
+      "source_bytes": "7370726974655f726f74617465203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x4801b4",
+      "va": 4719028,
+      "file_offset": 524724,
+      "byte_length": 48,
+      "source": "sprite_xmodify_define : スプライトが存在しません",
+      "source_bytes": "7370726974655f786d6f646966795f646566696e65203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x4801e8",
+      "va": 4719080,
+      "file_offset": 524776,
+      "byte_length": 45,
+      "source": "sprite_xmodify_set : スプライトが存在しません",
+      "source_bytes": "7370726974655f786d6f646966795f736574203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x480218",
+      "va": 4719128,
+      "file_offset": 524824,
+      "byte_length": 48,
+      "source": "sprite_ymodify_define : スプライトが存在しません",
+      "source_bytes": "7370726974655f796d6f646966795f646566696e65203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x48024c",
+      "va": 4719180,
+      "file_offset": 524876,
+      "byte_length": 45,
+      "source": "sprite_ymodify_set : スプライトが存在しません",
+      "source_bytes": "7370726974655f796d6f646966795f736574203a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x48027c",
+      "va": 4719228,
+      "file_offset": 524924,
+      "byte_length": 44,
+      "source": "ps_sprite_get_page: スプライトが存在しません",
+      "source_bytes": "70735f7370726974655f6765745f706167653a208358837683898343836782aa91b68ddd82b582dc82b982f1",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x4802ac",
+      "va": 4719276,
+      "file_offset": 524972,
+      "byte_length": 46,
+      "source": "メモリ容量が不足しています。処理を中断します。",
+      "source_bytes": "83818382838a976597ca82aa957391ab82b582c482a282dc82b781428f88979d82f09286926682b582dc82b78142",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x4802ec",
+      "va": 4719340,
+      "file_offset": 525036,
+      "byte_length": 42,
+      "source": "ファイル[ %s ]が[ %s ]と[ %s ]に存在します",
+      "source_bytes": "837483408343838b5b202573205d82aa5b202573205d82c65b202573205d82c991b68ddd82b582dc82b7",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x480380",
+      "va": 4719488,
+      "file_offset": 525184,
+      "byte_length": 56,
+      "source": "ファイル[%s]が破損しています。再インストールしてください",
+      "source_bytes": "837483408343838b5b25735d82aa946a91b982b582c482a282dc82b781428dc48343839383588367815b838b82b582c482ad82be82b382a2",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x4803dc",
+      "va": 4719580,
+      "file_offset": 525276,
+      "byte_length": 45,
+      "source": "Ffopen : ファイル[%s]の読み込みで失敗しました",
+      "source_bytes": "46666f70656e203a20837483408343838b5b25735d82cc93c782dd8d9e82dd82c58eb8947382b582dc82b582bd",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x48049c",
+      "va": 4719772,
+      "file_offset": 525468,
+      "byte_length": 10,
+      "source": "PNG エラー",
+      "source_bytes": "504e472083478389815b",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x48057c",
+      "va": 4719996,
+      "file_offset": 525692,
+      "byte_length": 41,
+      "source": "DirectSoundのイニシャライズに失敗しました",
+      "source_bytes": "446972656374536f756e6482cc8343836a8356838383898343835982c98eb8947382b582dc82b582bd",
+      "status": "consumer_audit_pending"
+    },
+    {
+      "id": "native::0x4805d0",
+      "va": 4720080,
+      "file_offset": 525776,
+      "byte_length": 36,
+      "source": "ファイル[%s]が発見できませんでした。",
+      "source_bytes": "837483408343838b5b25735d82aa94ad8ca982c582ab82dc82b982f182c582b582bd8142",
+      "status": "consumer_audit_pending"
+    }
+  ]
+}

@@ -1,0 +1,848 @@
+{
+  "translator_model": "Codex internal",
+  "requested_content_review": 57,
+  "restored_general_units": 20,
+  "technical_units_resolved": 5,
+  "technical_text_fields": 19,
+  "new_technical_inline": 9,
+  "retained_direct_context": 33,
+  "retained_boundary_action": 4,
+  "retained_total": 37,
+  "independent_review": "review_opening_early/late read-only source+consumer audit; primary authored and reviewed targets",
+  "decisions": [
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u1356",
+      "prior_reason": "Explicit childhood flashback contains skirt-lifting action involving a child. University-level present-day setting is not extended to childhood. This unit is preserved by ID without a Korean target; neighboring nonsexual narration continues.",
+      "source_artifact": "body-parallel\\session-1\\lane-1\\batches\\start2-u1265-u1408.json",
+      "decision": "retain_boundary_action_review",
+      "root_reason": "Childhood clothing-lifting action is directly described; no body-detail/arousal claim added. Independent reviewer did not certify as ordinary content."
+    },
+    {
+      "unit": "kosihata.mjo::u0025",
+      "prior_reason": "technical_pending: original ordinary text000376 is one U+3000 whitespace; preserve intentional blank and field count without invented text. Entire unit staged separately.",
+      "source_artifact": "body-parallel\\session-3\\lane-3\\batches\\kosihata_u0001-u0024_u0026-u0030.json",
+      "decision": "resolve_technical",
+      "root_reason": "Exact source/target codepoint exception plus complete display consumer audit"
+    },
+    {
+      "unit": "last_gendai05.mjo::u0149",
+      "prior_reason": "manual ruby blank needs central exact-ID allowlist",
+      "source_artifact": "body-parallel\\session-3\\lane-2\\batches\\last_gendai05_u0129-u0225.json",
+      "decision": "resolve_technical",
+      "root_reason": "Exact source/target codepoint exception plus complete display consumer audit"
+    },
+    {
+      "unit": "last_kako12.mjo::u0115",
+      "prior_reason": "기술 보류: ordinary text 001793 원문이 U+3000 한 글자이며 frozen validator의 비공백 target 조건과 충돌. 정확한 공백 원문을 보호하며 중앙 계약 판단 대기. 다른 4필드 완성초안은 work/last_kako12_u0115_whitespace_draft.json에 보존.",
+      "source_artifact": "body-parallel\\session-3\\lane-1\\batches\\last_kako12_u0001-0121.json",
+      "decision": "resolve_technical",
+      "root_reason": "Exact source/target codepoint exception plus complete display consumer audit"
+    },
+    {
+      "unit": "maho_14.mjo::u0229",
+      "prior_reason": "u0131에서 곧 열 살이라고 명시된 어린 시절 회상의 성적 경계상 부적절한 신체 노출 행동 서술. 현재 학생 성인 맥락을 회상에 확대하지 않으며 이 ID만 번역 보류; 주변 비성적 서사는 번역.",
+      "source_artifact": "body-parallel\\session-2\\lane-2\\batches\\maho_14_u0218-u0328.json",
+      "decision": "retain_boundary_action_review",
+      "root_reason": "Childhood clothing-lifting action is directly described; no body-detail/arousal claim added. Independent reviewer did not certify as ordinary content."
+    },
+    {
+      "unit": "maho_14.mjo::u0244",
+      "prior_reason": "u0131에서 곧 열 살이라고 명시된 어린 시절 회상의 성적 경계상 부적절한 신체 노출 행동 서술. 현재 학생 성인 맥락을 회상에 확대하지 않으며 이 ID만 번역 보류; 주변 비성적 서사는 번역.",
+      "source_artifact": "body-parallel\\session-2\\lane-2\\batches\\maho_14_u0218-u0328.json",
+      "decision": "retain_boundary_action_review",
+      "root_reason": "Childhood clothing-lifting action is directly described; no body-detail/arousal claim added. Independent reviewer did not certify as ordinary content."
+    },
+    {
+      "unit": "maho_14.mjo::u0247",
+      "prior_reason": "u0131에서 곧 열 살이라고 명시된 어린 시절 회상의 성적 경계상 부적절한 신체 노출 행동 서술. 현재 학생 성인 맥락을 회상에 확대하지 않으며 이 ID만 번역 보류; 주변 비성적 서사는 번역.",
+      "source_artifact": "body-parallel\\session-2\\lane-2\\batches\\maho_14_u0218-u0328.json",
+      "decision": "retain_boundary_action_review",
+      "root_reason": "Childhood clothing-lifting action is directly described; no body-detail/arousal claim added. Independent reviewer did not certify as ordinary content."
+    },
+    {
+      "unit": "masa_10.mjo::u0168",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_10.mjo::u0169",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_10.mjo::u0170",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_10.mjo::u0171",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_10.mjo::u0172",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_10.mjo::u0173",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_10.mjo::u0174",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_10.mjo::u0175",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_10.mjo::u0176",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_10.mjo::u0177",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_10.mjo::u0178",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_10.mjo::u0179",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_10.mjo::u0180",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_10.mjo::u0181",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_10.mjo::u0184",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_10.mjo::u0185",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_10.mjo::u0187",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_10.mjo::u0188",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_10.mjo::u0189",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_10.mjo::u0191",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_10.mjo::u0192",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_10_u0153-0195.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_15.mjo::u0124",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_15.mjo::u0125",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_15.mjo::u0126",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_15.mjo::u0127",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_15.mjo::u0128",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_15.mjo::u0129",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_15.mjo::u0130",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_15.mjo::u0131",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_15.mjo::u0134",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0135",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0136",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0137",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0138",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0139",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0140",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0141",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0142",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0143",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0144",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0145",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0146",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0147",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0148",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0149",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0150",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0151",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0152",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0153",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "masa_15.mjo::u0154",
+      "prior_reason": "명시적 어린 딸이 포함된 목욕 장면의 성적 연출 및 직접 연결되는 반응 단락. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "decision": "restore_general",
+      "root_reason": "Ordinary independent nonsexual meaning verified by primary and independent reader"
+    },
+    {
+      "unit": "masa_16.mjo::u0795",
+      "prior_reason": "명시적 어린 딸의 앞선 성적 접촉을 현재 성인 성행위와 비교하는 재언급. 해당 대상 문장은 생성하지 않음.",
+      "source_artifact": "body-parallel\\session-1\\lane-3\\batches\\masa_16_u0690-0800.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "sina_19_2.mjo::u0181",
+      "prior_reason": "technical_blank_preserve_pending_central_exception",
+      "source_artifact": "body-parallel\\session-2\\lane-3\\batches\\sina_19_2_u0161-0185.json",
+      "decision": "resolve_technical",
+      "root_reason": "Exact source/target codepoint exception plus complete display consumer audit"
+    },
+    {
+      "unit": "st_pika.mjo::u0010",
+      "prior_reason": "technical_pending: original text000070 is one U+3000 whitespace; preserving it fails validator target.strip requirement. No invented replacement.",
+      "source_artifact": "body-parallel\\session-3\\lane-3\\batches\\st_pika_u0001-u0009_u0011-u0014.json",
+      "decision": "resolve_technical",
+      "root_reason": "Exact source/target codepoint exception plus complete display consumer audit"
+    },
+    {
+      "unit": "st_yana.mjo::u0021",
+      "prior_reason": "not_translated_child_sexualization: staff commentary frames the explicitly child Momiji bath exposure as an object of player viewing. No Korean semantic draft; current university setting does not apply to this child.",
+      "source_artifact": "body-parallel\\session-3\\lane-3\\batches\\st_yana_u0001-u0020_u0023-u0027.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    },
+    {
+      "unit": "st_yana.mjo::u0022",
+      "prior_reason": "not_translated_child_sexualization: staff commentary frames the explicitly child Momiji bath exposure as an object of player viewing. No Korean semantic draft; current university setting does not apply to this child.",
+      "source_artifact": "body-parallel\\session-3\\lane-3\\batches\\st_yana_u0001-u0020_u0023-u0027.json",
+      "decision": "retain_direct_sexual_context",
+      "root_reason": "Source + neighboring context links this unit directly to sexualized child contact, erotic response/comparison, or viewing frame; no target created"
+    }
+  ],
+  "unit_records": [
+    {
+      "unit": "masa_10.mjo::u0169",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002308"
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0170",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002318"
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0171",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002328"
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0172",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002338"
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0175",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002365"
+      ],
+      "context": {
+        "speaker_identity": "마키노",
+        "addressees": [
+          "자기 자신"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0177",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002379",
+        "masa_10.mjo::002383"
+      ],
+      "context": {
+        "speaker_identity": "마키노(서술)",
+        "addressees": [],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0179",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002407"
+      ],
+      "context": {
+        "speaker_identity": "마키노",
+        "addressees": [
+          "자기 자신"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0180",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002417",
+        "masa_10.mjo::002421"
+      ],
+      "context": {
+        "speaker_identity": "마키노",
+        "addressees": [
+          "자기 자신"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0181",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002426"
+      ],
+      "context": {
+        "speaker_identity": "마키노(서술)",
+        "addressees": [],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0189",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002526"
+      ],
+      "context": {
+        "speaker_identity": "마키노",
+        "addressees": [
+          "자기 자신"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0192",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002553",
+        "masa_10.mjo::002557"
+      ],
+      "context": {
+        "speaker_identity": "마키노(서술)",
+        "addressees": [],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0124",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001490"
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0125",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001500"
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0126",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001515"
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0127",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001525"
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0128",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001540"
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0129",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001550",
+        "masa_15.mjo::001554"
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0130",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001569"
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0131",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001574",
+        "masa_15.mjo::001578"
+      ],
+      "context": {
+        "speaker_identity": "마사키(서술)",
+        "addressees": [],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0154",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001841",
+        "masa_15.mjo::001845"
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "sina_19_2.mjo::u0181",
+      "category": "technical_exception_resolved",
+      "fields": [
+        "sina_19_2.mjo::002198"
+      ],
+      "context": {
+        "speaker_identity": "source narrator/test fixture",
+        "addressees": [],
+        "story_phase": "sina_19_2.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      }
+    },
+    {
+      "unit": "last_kako12.mjo::u0115",
+      "category": "technical_exception_resolved",
+      "fields": [
+        "last_kako12.mjo::001778",
+        "last_kako12.mjo::001782",
+        "last_kako12.mjo::001793",
+        "last_kako12.mjo::001797",
+        "last_kako12.mjo::001801"
+      ],
+      "context": {
+        "speaker_identity": "暮葉",
+        "addressees": [],
+        "story_phase": "last_kako12.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      }
+    },
+    {
+      "unit": "last_gendai05.mjo::u0149",
+      "category": "technical_exception_resolved",
+      "fields": [
+        "last_gendai05.mjo::001478",
+        "last_gendai05.mjo::001482",
+        "last_gendai05.mjo::001496",
+        "last_gendai05.mjo::001509"
+      ],
+      "context": {
+        "speaker_identity": "汐見",
+        "addressees": [],
+        "story_phase": "last_gendai05.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      }
+    },
+    {
+      "unit": "kosihata.mjo::u0025",
+      "category": "technical_exception_resolved",
+      "fields": [
+        "kosihata.mjo::000359",
+        "kosihata.mjo::000364",
+        "kosihata.mjo::000368",
+        "kosihata.mjo::000372",
+        "kosihata.mjo::000376",
+        "kosihata.mjo::000387"
+      ],
+      "context": {
+        "speaker_identity": "source narrator/test fixture",
+        "addressees": [],
+        "story_phase": "kosihata.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      }
+    },
+    {
+      "unit": "st_pika.mjo::u0010",
+      "category": "technical_exception_resolved",
+      "fields": [
+        "st_pika.mjo::000070",
+        "st_pika.mjo::000074",
+        "st_pika.mjo::000078"
+      ],
+      "context": {
+        "speaker_identity": "source narrator/test fixture",
+        "addressees": [],
+        "story_phase": "st_pika.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      }
+    }
+  ],
+  "runtime_pending": true
+}

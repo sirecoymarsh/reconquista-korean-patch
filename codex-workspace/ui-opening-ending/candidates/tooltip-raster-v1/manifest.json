@@ -1,0 +1,239 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "created_utc": "2026-10-22T17:28:58.834214+00:00",
+  "entries": [
+    {
+      "id": "fastdata.arc::ボタン説明::00",
+      "source": "ゲームデータをセーブします",
+      "target": "게임을 저장합니다",
+      "consumer_crop": [
+        0,
+        0,
+        150,
+        20
+      ],
+      "target_ink_bounds": [
+        2,
+        1,
+        105,
+        18
+      ],
+      "font_size": 13
+    },
+    {
+      "id": "fastdata.arc::ボタン説明::01",
+      "source": "ゲームデータをロードします",
+      "target": "게임을 불러옵니다",
+      "consumer_crop": [
+        0,
+        20,
+        150,
+        20
+      ],
+      "target_ink_bounds": [
+        2,
+        21,
+        105,
+        38
+      ],
+      "font_size": 13
+    },
+    {
+      "id": "fastdata.arc::ボタン説明::02",
+      "source": "メッセージを自動クリックします",
+      "target": "대사를 자동으로 넘깁니다",
+      "consumer_crop": [
+        0,
+        40,
+        150,
+        20
+      ],
+      "target_ink_bounds": [
+        3,
+        41,
+        144,
+        58
+      ],
+      "font_size": 13
+    },
+    {
+      "id": "fastdata.arc::ボタン説明::03",
+      "source": "メッセージをスキップします",
+      "target": "대사를 빠르게 넘깁니다",
+      "consumer_crop": [
+        0,
+        60,
+        150,
+        20
+      ],
+      "target_ink_bounds": [
+        3,
+        61,
+        132,
+        78
+      ],
+      "font_size": 13
+    },
+    {
+      "id": "fastdata.arc::ボタン説明::04",
+      "source": "システムメニューを呼び出します",
+      "target": "시스템 메뉴를 엽니다",
+      "consumer_crop": [
+        0,
+        80,
+        150,
+        20
+      ],
+      "target_ink_bounds": [
+        2,
+        81,
+        120,
+        98
+      ],
+      "font_size": 13
+    },
+    {
+      "id": "fastdata.arc::ボタン説明::05",
+      "source": "画面上の文字を消します",
+      "target": "화면의 글자를 숨깁니다",
+      "consumer_crop": [
+        0,
+        100,
+        150,
+        20
+      ],
+      "target_ink_bounds": [
+        2,
+        101,
+        132,
+        118
+      ],
+      "font_size": 13
+    },
+    {
+      "id": "fastdata.arc::ボタン説明::06",
+      "source": "バックログを表示します",
+      "target": "지난 대사를 표시합니다",
+      "consumer_crop": [
+        0,
+        120,
+        150,
+        20
+      ],
+      "target_ink_bounds": [
+        2,
+        121,
+        132,
+        138
+      ],
+      "font_size": 13
+    },
+    {
+      "id": "fastdata.arc::ボタン説明::07",
+      "source": "各種設定を行ないます",
+      "target": "설정 화면을 엽니다",
+      "consumer_crop": [
+        0,
+        140,
+        150,
+        20
+      ],
+      "target_ink_bounds": [
+        2,
+        141,
+        108,
+        158
+      ],
+      "font_size": 13
+    },
+    {
+      "id": "fastdata.arc::ボタン説明::08",
+      "source": "クイックセーブします",
+      "target": "빠른 저장을 합니다",
+      "consumer_crop": [
+        0,
+        160,
+        150,
+        20
+      ],
+      "target_ink_bounds": [
+        2,
+        161,
+        108,
+        178
+      ],
+      "font_size": 13
+    },
+    {
+      "id": "fastdata.arc::ボタン説明::09",
+      "source": "クイックロードします",
+      "target": "빠른 불러오기를 합니다",
+      "consumer_crop": [
+        0,
+        180,
+        150,
+        20
+      ],
+      "target_ink_bounds": [
+        2,
+        181,
+        132,
+        198
+      ],
+      "font_size": 13
+    },
+    {
+      "id": "fastdata.arc::ボタン説明::10",
+      "source": "年表を表示します",
+      "target": "연표를 표시합니다",
+      "consumer_crop": [
+        0,
+        200,
+        150,
+        20
+      ],
+      "target_ink_bounds": [
+        2,
+        201,
+        105,
+        218
+      ],
+      "font_size": 13
+    }
+  ],
+  "semantic_labels": 11,
+  "source_hashes": {
+    "ボタン説明.rct": "2501fe84b8eb22a8ea25169fd273c144ec683a6d165b8b9fad421b8c996612e6",
+    "ボタン説明_.rc8": "101b688d168482d6de1f04881b22f123c49c25d803034f006363a4ae3e9e5b30"
+  },
+  "output_hashes": {
+    "ボタン説明.rct": "81ea48e43b500e5ff3f7ffc5ace660b9bd1a61e902ad9cd920e63596f053e037",
+    "ボタン説明_.rc8": "f8c4cbdea2385ac8dba803c1402606d3c09620301f6e932af6182eb81b42d526"
+  },
+  "canvas": [
+    150,
+    240
+  ],
+  "consumer": {
+    "script": "console.mjo",
+    "file_key": "sysdata.cfg SETUMEI_FILE",
+    "sprite_definition": "page_len_y / 12; page_len_x; 0; 0",
+    "crop": [
+      150,
+      20
+    ],
+    "source_script_sha256": "fb2521e6787929bfadf2734192510c43852f7f4b1495ca7ec135df1fe0bb0deb"
+  },
+  "clean_plate": "all source text-only alpha removed including outline and fringe; no background art",
+  "protected_pixel_diff_count": 0,
+  "last_blank_cell_preserved": true,
+  "palette_bytes_identical": true,
+  "persisted_rgb_alpha_exact": true,
+  "font_glyph_coverage_pass": true,
+  "font_sha256": "6bcb2a0703aa137e874fc2dffa85f6c21ba9a67fa329e81b8c801663af7e992a",
+  "structural_pass": true,
+  "visual_pass": true,
+  "runtime_review": "pending",
+  "visual_proof": "preview/tooltip-on-dark.png"
+}

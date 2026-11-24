@@ -1,0 +1,1861 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "entries": [
+    {
+      "entry": "サウンドモード_off.rct",
+      "mask_entry": "サウンドモード_off_.rc8",
+      "prior_payload_sha256": "c692d54136475c1f63239c6a672fb99a76617010b911ad7b7c94151dd37eeb9c",
+      "source_original_sha256": "c233b0e0513b056ad2b9ed791e54ef28f318af73486b7f89bb1363e7f19f3bc3",
+      "source_size": [
+        800,
+        600
+      ],
+      "restoration": [
+        {
+          "track_id": 1,
+          "source_glyph_pixels": 963,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 2,
+          "source_glyph_pixels": 1090,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 3,
+          "source_glyph_pixels": 1091,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 4,
+          "source_glyph_pixels": 956,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 5,
+          "source_glyph_pixels": 844,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 9,
+          "source_glyph_pixels": 879,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 10,
+          "source_glyph_pixels": 1366,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 11,
+          "source_glyph_pixels": 737,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 12,
+          "source_glyph_pixels": 1254,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 13,
+          "source_glyph_pixels": 1055,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 17,
+          "source_glyph_pixels": 524,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 18,
+          "source_glyph_pixels": 1062,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 19,
+          "source_glyph_pixels": 858,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 20,
+          "source_glyph_pixels": 815,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 21,
+          "source_glyph_pixels": 1189,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 24,
+          "source_glyph_pixels": 1570,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 25,
+          "source_glyph_pixels": 1508,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 26,
+          "source_glyph_pixels": 1734,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        }
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-01",
+          "source": "Port Island",
+          "target": "포트 아일랜드",
+          "translator_model": "Codex internal",
+          "track_id": 1,
+          "consumer_crop": [
+            45,
+            185,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            68,
+            195,
+            179,
+            218
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-02",
+          "source": "やわらかな日々",
+          "target": "포근한 나날",
+          "translator_model": "Codex internal",
+          "track_id": 2,
+          "consumer_crop": [
+            45,
+            231,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            68,
+            241,
+            163,
+            264
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-03",
+          "source": "子鹿のステップ",
+          "target": "아기 사슴의 발걸음",
+          "translator_model": "Codex internal",
+          "track_id": 3,
+          "consumer_crop": [
+            45,
+            278,
+            151,
+            46
+          ],
+          "font_size": 15,
+          "target_ink_bounds": [
+            68,
+            289,
+            193,
+            310
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-04",
+          "source": "Sunset city",
+          "target": "노을 지는 도시",
+          "translator_model": "Codex internal",
+          "track_id": 4,
+          "consumer_crop": [
+            45,
+            324,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            68,
+            335,
+            182,
+            358
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-05",
+          "source": "suspicion",
+          "target": "의혹",
+          "translator_model": "Codex internal",
+          "track_id": 5,
+          "consumer_crop": [
+            45,
+            372,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            68,
+            382,
+            106,
+            406
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-09",
+          "source": "歩く速さで",
+          "target": "걷는 속도로",
+          "translator_model": "Codex internal",
+          "track_id": 9,
+          "consumer_crop": [
+            193,
+            185,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            224,
+            195,
+            317,
+            218
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-10",
+          "source": "朝陽のまどろみ",
+          "target": "아침 햇살 속 선잠",
+          "translator_model": "Codex internal",
+          "track_id": 10,
+          "consumer_crop": [
+            193,
+            231,
+            151,
+            46
+          ],
+          "font_size": 15,
+          "target_ink_bounds": [
+            223,
+            242,
+            338,
+            263
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-11",
+          "source": "プロムナード",
+          "target": "산책",
+          "translator_model": "Codex internal",
+          "track_id": 11,
+          "consumer_crop": [
+            193,
+            278,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            223,
+            288,
+            260,
+            311
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-12",
+          "source": "せめて良い夢を",
+          "target": "꿈만은 좋기를",
+          "translator_model": "Codex internal",
+          "track_id": 12,
+          "consumer_crop": [
+            193,
+            324,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            223,
+            334,
+            334,
+            357
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-13",
+          "source": "振り返れば",
+          "target": "돌아보면",
+          "translator_model": "Codex internal",
+          "track_id": 13,
+          "consumer_crop": [
+            193,
+            372,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            223,
+            382,
+            294,
+            405
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-17",
+          "source": "Terror",
+          "target": "공포",
+          "translator_model": "Codex internal",
+          "track_id": 17,
+          "consumer_crop": [
+            352,
+            185,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            374,
+            196,
+            412,
+            217
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-18",
+          "source": "Night Town",
+          "target": "밤의 거리",
+          "translator_model": "Codex internal",
+          "track_id": 18,
+          "consumer_crop": [
+            352,
+            231,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            375,
+            240,
+            449,
+            264
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-19",
+          "source": "rainy blue",
+          "target": "비 오는 날의 우울",
+          "translator_model": "Codex internal",
+          "track_id": 19,
+          "consumer_crop": [
+            352,
+            278,
+            151,
+            46
+          ],
+          "font_size": 16,
+          "target_ink_bounds": [
+            375,
+            289,
+            496,
+            310
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-20",
+          "source": "touching",
+          "target": "감동",
+          "translator_model": "Codex internal",
+          "track_id": 20,
+          "consumer_crop": [
+            352,
+            324,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            374,
+            334,
+            412,
+            357
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-21",
+          "source": "結婚行進曲",
+          "target": "결혼 행진곡",
+          "translator_model": "Codex internal",
+          "track_id": 21,
+          "consumer_crop": [
+            352,
+            372,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            375,
+            382,
+            468,
+            405
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-24",
+          "source": "Reconquista\n(shortver)",
+          "target": "레콘퀴스타\n(짧은 버전)",
+          "translator_model": "Codex internal",
+          "track_id": 24,
+          "consumer_crop": [
+            522,
+            231,
+            214,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            534,
+            237,
+            623,
+            274
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-25",
+          "source": "Reconquista\n(fullver)",
+          "target": "레콘퀴스타\n(전체 버전)",
+          "translator_model": "Codex internal",
+          "track_id": 25,
+          "consumer_crop": [
+            522,
+            278,
+            214,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            534,
+            285,
+            623,
+            321
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-26",
+          "source": "Reconquista\n(instrumental)",
+          "target": "레콘퀴스타\n(연주곡)",
+          "translator_model": "Codex internal",
+          "track_id": 26,
+          "consumer_crop": [
+            522,
+            324,
+            214,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            534,
+            331,
+            623,
+            367
+          ]
+        }
+      ],
+      "protected_pixel_diff_count": 0,
+      "persisted_rgba_exact": true,
+      "palette_preserved": true
+    },
+    {
+      "entry": "サウンドモード_on.rct",
+      "mask_entry": "サウンドモード_on_.rc8",
+      "prior_payload_sha256": "da019a534b1c0d6389262eab25612aefaf956f7fb16e087c9248cd3dcc11fb14",
+      "source_original_sha256": "da019a534b1c0d6389262eab25612aefaf956f7fb16e087c9248cd3dcc11fb14",
+      "source_size": [
+        800,
+        600
+      ],
+      "restoration": [
+        {
+          "track_id": 1,
+          "source_glyph_pixels": 1825,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 2,
+          "source_glyph_pixels": 2075,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 3,
+          "source_glyph_pixels": 2049,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 4,
+          "source_glyph_pixels": 1769,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 5,
+          "source_glyph_pixels": 1551,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 9,
+          "source_glyph_pixels": 1547,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 10,
+          "source_glyph_pixels": 2263,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 11,
+          "source_glyph_pixels": 1571,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 12,
+          "source_glyph_pixels": 2260,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 13,
+          "source_glyph_pixels": 1826,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 17,
+          "source_glyph_pixels": 1022,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 18,
+          "source_glyph_pixels": 2057,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 19,
+          "source_glyph_pixels": 1658,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 20,
+          "source_glyph_pixels": 1500,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 21,
+          "source_glyph_pixels": 1911,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 24,
+          "source_glyph_pixels": 2661,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 25,
+          "source_glyph_pixels": 2623,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 26,
+          "source_glyph_pixels": 2977,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        }
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-01",
+          "source": "Port Island",
+          "target": "포트 아일랜드",
+          "translator_model": "Codex internal",
+          "track_id": 1,
+          "consumer_crop": [
+            45,
+            185,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            68,
+            195,
+            179,
+            218
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-02",
+          "source": "やわらかな日々",
+          "target": "포근한 나날",
+          "translator_model": "Codex internal",
+          "track_id": 2,
+          "consumer_crop": [
+            45,
+            231,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            68,
+            241,
+            163,
+            264
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-03",
+          "source": "子鹿のステップ",
+          "target": "아기 사슴의 발걸음",
+          "translator_model": "Codex internal",
+          "track_id": 3,
+          "consumer_crop": [
+            45,
+            278,
+            151,
+            46
+          ],
+          "font_size": 15,
+          "target_ink_bounds": [
+            68,
+            289,
+            193,
+            310
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-04",
+          "source": "Sunset city",
+          "target": "노을 지는 도시",
+          "translator_model": "Codex internal",
+          "track_id": 4,
+          "consumer_crop": [
+            45,
+            324,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            68,
+            335,
+            182,
+            358
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-05",
+          "source": "suspicion",
+          "target": "의혹",
+          "translator_model": "Codex internal",
+          "track_id": 5,
+          "consumer_crop": [
+            45,
+            372,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            68,
+            382,
+            106,
+            406
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-09",
+          "source": "歩く速さで",
+          "target": "걷는 속도로",
+          "translator_model": "Codex internal",
+          "track_id": 9,
+          "consumer_crop": [
+            193,
+            185,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            224,
+            195,
+            317,
+            218
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-10",
+          "source": "朝陽のまどろみ",
+          "target": "아침 햇살 속 선잠",
+          "translator_model": "Codex internal",
+          "track_id": 10,
+          "consumer_crop": [
+            193,
+            231,
+            151,
+            46
+          ],
+          "font_size": 15,
+          "target_ink_bounds": [
+            223,
+            242,
+            338,
+            263
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-11",
+          "source": "プロムナード",
+          "target": "산책",
+          "translator_model": "Codex internal",
+          "track_id": 11,
+          "consumer_crop": [
+            193,
+            278,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            223,
+            288,
+            260,
+            311
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-12",
+          "source": "せめて良い夢を",
+          "target": "꿈만은 좋기를",
+          "translator_model": "Codex internal",
+          "track_id": 12,
+          "consumer_crop": [
+            193,
+            324,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            223,
+            334,
+            334,
+            357
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-13",
+          "source": "振り返れば",
+          "target": "돌아보면",
+          "translator_model": "Codex internal",
+          "track_id": 13,
+          "consumer_crop": [
+            193,
+            372,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            223,
+            382,
+            294,
+            405
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-17",
+          "source": "Terror",
+          "target": "공포",
+          "translator_model": "Codex internal",
+          "track_id": 17,
+          "consumer_crop": [
+            352,
+            185,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            374,
+            196,
+            412,
+            217
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-18",
+          "source": "Night Town",
+          "target": "밤의 거리",
+          "translator_model": "Codex internal",
+          "track_id": 18,
+          "consumer_crop": [
+            352,
+            231,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            374,
+            240,
+            449,
+            264
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-19",
+          "source": "rainy blue",
+          "target": "비 오는 날의 우울",
+          "translator_model": "Codex internal",
+          "track_id": 19,
+          "consumer_crop": [
+            352,
+            278,
+            151,
+            46
+          ],
+          "font_size": 16,
+          "target_ink_bounds": [
+            375,
+            288,
+            496,
+            310
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-20",
+          "source": "touching",
+          "target": "감동",
+          "translator_model": "Codex internal",
+          "track_id": 20,
+          "consumer_crop": [
+            352,
+            324,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            374,
+            334,
+            412,
+            357
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-21",
+          "source": "結婚行進曲",
+          "target": "결혼 행진곡",
+          "translator_model": "Codex internal",
+          "track_id": 21,
+          "consumer_crop": [
+            352,
+            372,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            375,
+            382,
+            468,
+            405
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-24",
+          "source": "Reconquista\n(shortver)",
+          "target": "레콘퀴스타\n(짧은 버전)",
+          "translator_model": "Codex internal",
+          "track_id": 24,
+          "consumer_crop": [
+            522,
+            231,
+            214,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            534,
+            237,
+            623,
+            274
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-25",
+          "source": "Reconquista\n(fullver)",
+          "target": "레콘퀴스타\n(전체 버전)",
+          "translator_model": "Codex internal",
+          "track_id": 25,
+          "consumer_crop": [
+            522,
+            278,
+            214,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            534,
+            285,
+            623,
+            321
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-26",
+          "source": "Reconquista\n(instrumental)",
+          "target": "레콘퀴스타\n(연주곡)",
+          "translator_model": "Codex internal",
+          "track_id": 26,
+          "consumer_crop": [
+            522,
+            324,
+            214,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            534,
+            331,
+            623,
+            367
+          ]
+        }
+      ],
+      "protected_pixel_diff_count": 0,
+      "persisted_rgba_exact": true,
+      "palette_preserved": true
+    },
+    {
+      "entry": "サウンドモード_push.rct",
+      "mask_entry": "サウンドモード_push_.rc8",
+      "prior_payload_sha256": "e2f50dd765559b7573f6ae2b1c67f689583f43134b90a9ca35840bfbdddd7210",
+      "source_original_sha256": "e2f50dd765559b7573f6ae2b1c67f689583f43134b90a9ca35840bfbdddd7210",
+      "source_size": [
+        800,
+        600
+      ],
+      "restoration": [
+        {
+          "track_id": 1,
+          "source_glyph_pixels": 1825,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 2,
+          "source_glyph_pixels": 2075,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 3,
+          "source_glyph_pixels": 2049,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 4,
+          "source_glyph_pixels": 1769,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 5,
+          "source_glyph_pixels": 1551,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 9,
+          "source_glyph_pixels": 1547,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 10,
+          "source_glyph_pixels": 2263,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 11,
+          "source_glyph_pixels": 1571,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 12,
+          "source_glyph_pixels": 2260,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 13,
+          "source_glyph_pixels": 1826,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 17,
+          "source_glyph_pixels": 1022,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 18,
+          "source_glyph_pixels": 2057,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 19,
+          "source_glyph_pixels": 1658,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 20,
+          "source_glyph_pixels": 1500,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 21,
+          "source_glyph_pixels": 1911,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 24,
+          "source_glyph_pixels": 2661,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 25,
+          "source_glyph_pixels": 2623,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        },
+        {
+          "track_id": 26,
+          "source_glyph_pixels": 2977,
+          "clean_bg_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outside_glyph_hidden_rgb_preserved": true
+        }
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-01",
+          "source": "Port Island",
+          "target": "포트 아일랜드",
+          "translator_model": "Codex internal",
+          "track_id": 1,
+          "consumer_crop": [
+            45,
+            185,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            68,
+            195,
+            179,
+            218
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-02",
+          "source": "やわらかな日々",
+          "target": "포근한 나날",
+          "translator_model": "Codex internal",
+          "track_id": 2,
+          "consumer_crop": [
+            45,
+            231,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            68,
+            241,
+            163,
+            264
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-03",
+          "source": "子鹿のステップ",
+          "target": "아기 사슴의 발걸음",
+          "translator_model": "Codex internal",
+          "track_id": 3,
+          "consumer_crop": [
+            45,
+            278,
+            151,
+            46
+          ],
+          "font_size": 15,
+          "target_ink_bounds": [
+            68,
+            289,
+            193,
+            310
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-04",
+          "source": "Sunset city",
+          "target": "노을 지는 도시",
+          "translator_model": "Codex internal",
+          "track_id": 4,
+          "consumer_crop": [
+            45,
+            324,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            68,
+            335,
+            182,
+            358
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-05",
+          "source": "suspicion",
+          "target": "의혹",
+          "translator_model": "Codex internal",
+          "track_id": 5,
+          "consumer_crop": [
+            45,
+            372,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            68,
+            382,
+            106,
+            406
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-09",
+          "source": "歩く速さで",
+          "target": "걷는 속도로",
+          "translator_model": "Codex internal",
+          "track_id": 9,
+          "consumer_crop": [
+            193,
+            185,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            224,
+            195,
+            317,
+            218
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-10",
+          "source": "朝陽のまどろみ",
+          "target": "아침 햇살 속 선잠",
+          "translator_model": "Codex internal",
+          "track_id": 10,
+          "consumer_crop": [
+            193,
+            231,
+            151,
+            46
+          ],
+          "font_size": 15,
+          "target_ink_bounds": [
+            223,
+            242,
+            338,
+            263
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-11",
+          "source": "プロムナード",
+          "target": "산책",
+          "translator_model": "Codex internal",
+          "track_id": 11,
+          "consumer_crop": [
+            193,
+            278,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            223,
+            288,
+            260,
+            311
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-12",
+          "source": "せめて良い夢を",
+          "target": "꿈만은 좋기를",
+          "translator_model": "Codex internal",
+          "track_id": 12,
+          "consumer_crop": [
+            193,
+            324,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            223,
+            334,
+            334,
+            357
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-13",
+          "source": "振り返れば",
+          "target": "돌아보면",
+          "translator_model": "Codex internal",
+          "track_id": 13,
+          "consumer_crop": [
+            193,
+            372,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            223,
+            382,
+            294,
+            405
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-17",
+          "source": "Terror",
+          "target": "공포",
+          "translator_model": "Codex internal",
+          "track_id": 17,
+          "consumer_crop": [
+            352,
+            185,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            374,
+            196,
+            412,
+            217
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-18",
+          "source": "Night Town",
+          "target": "밤의 거리",
+          "translator_model": "Codex internal",
+          "track_id": 18,
+          "consumer_crop": [
+            352,
+            231,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            374,
+            240,
+            449,
+            264
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-19",
+          "source": "rainy blue",
+          "target": "비 오는 날의 우울",
+          "translator_model": "Codex internal",
+          "track_id": 19,
+          "consumer_crop": [
+            352,
+            278,
+            151,
+            46
+          ],
+          "font_size": 16,
+          "target_ink_bounds": [
+            375,
+            288,
+            496,
+            310
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-20",
+          "source": "touching",
+          "target": "감동",
+          "translator_model": "Codex internal",
+          "track_id": 20,
+          "consumer_crop": [
+            352,
+            324,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            374,
+            334,
+            412,
+            357
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-21",
+          "source": "結婚行進曲",
+          "target": "결혼 행진곡",
+          "translator_model": "Codex internal",
+          "track_id": 21,
+          "consumer_crop": [
+            352,
+            372,
+            151,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            375,
+            382,
+            468,
+            405
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-24",
+          "source": "Reconquista\n(shortver)",
+          "target": "레콘퀴스타\n(짧은 버전)",
+          "translator_model": "Codex internal",
+          "track_id": 24,
+          "consumer_crop": [
+            522,
+            231,
+            214,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            534,
+            237,
+            623,
+            274
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-25",
+          "source": "Reconquista\n(fullver)",
+          "target": "레콘퀴스타\n(전체 버전)",
+          "translator_model": "Codex internal",
+          "track_id": 25,
+          "consumer_crop": [
+            522,
+            278,
+            214,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            534,
+            285,
+            623,
+            321
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-26",
+          "source": "Reconquista\n(instrumental)",
+          "target": "레콘퀴스타\n(연주곡)",
+          "translator_model": "Codex internal",
+          "track_id": 26,
+          "consumer_crop": [
+            522,
+            324,
+            214,
+            46
+          ],
+          "font_size": 18,
+          "target_ink_bounds": [
+            534,
+            331,
+            623,
+            367
+          ]
+        }
+      ],
+      "protected_pixel_diff_count": 0,
+      "persisted_rgba_exact": true,
+      "palette_preserved": true
+    }
+  ],
+  "output_hashes": {
+    "サウンドモード_off.rct": "a33b9030fb48033aee4945e3c9b7f7f42d68b6ae6c2d36ba9ecf952f34399520",
+    "サウンドモード_off_.rc8": "84f8491ccf7a138c8635b2da523d8ad40e3fbe290750b7eb090384b0da0319be",
+    "サウンドモード_on.rct": "077f1b8a3073d5a3a5bc59d31d7a62abe57a4f9877e42d831a1fb49a7dc3188e",
+    "サウンドモード_on_.rc8": "256fcbc94b9ab449b0012d9a8c787da82cdf16035e9dd70121c466a195e40137",
+    "サウンドモード_push.rct": "64c509edba84d3eae8bfc5e1a481aadd0e8dd026384cecb2289d44e4aa3ca82b",
+    "サウンドモード_push_.rc8": "c07845a6dfdf7e61a857c2bce2790db1b0c84a4c9492a915357667034ce063bf"
+  },
+  "semantic_labels": 54,
+  "unique_tracks": 18,
+  "track_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    9,
+    10,
+    11,
+    12,
+    13,
+    17,
+    18,
+    19,
+    20,
+    21,
+    24,
+    25,
+    26
+  ],
+  "remaining_track_ids": [
+    6,
+    7,
+    8,
+    14,
+    15,
+    16,
+    22,
+    23,
+    27,
+    28
+  ],
+  "structural_pass": true,
+  "visual_pass": true,
+  "runtime_pass": false,
+  "font_sha256": "77b4b741f864d27f15e90f275b17106dde90b2ad28f82bab72dc95805db5fb42",
+  "consumer": {
+    "entry": "music.mjo",
+    "source_sha256": "6216e2353f4d17b4078ff72ab3501d371fcad95c580cb47fdf43ff745650cba8",
+    "buttonmenu_set_hash": "0xffc5bc91",
+    "selected_crop_function": "0x6514f86e",
+    "actual_crops_verified": true,
+    "script_and_audio_file_tokens_unchanged": true
+  },
+  "state_style": "Shared baseline/scale; normal warm white, hover outlined gold, pressed darker gold. Original palette and protected source artwork retained.",
+  "scope": "18/28 tracks only; 10 lower tracks, decorative quote, navigation button remain pending.",
+  "targeted_semantic_correction": {
+    "track_id": 12,
+    "source": "せめて良い夢を",
+    "target": "꿈만은 좋기를",
+    "reason": "Preserve せめて: wishing that at least dreams may be good. Prior unapproved wording omitted this nuance.",
+    "proof": [
+      {
+        "state": "off",
+        "only_changed_crop": [
+          193,
+          324,
+          151,
+          46
+        ],
+        "changed_pixel_count": 2263,
+        "target_ink_bounds": [
+          223,
+          334,
+          334,
+          357
+        ]
+      },
+      {
+        "state": "on",
+        "only_changed_crop": [
+          193,
+          324,
+          151,
+          46
+        ],
+        "changed_pixel_count": 2268,
+        "target_ink_bounds": [
+          223,
+          334,
+          334,
+          357
+        ]
+      },
+      {
+        "state": "push",
+        "only_changed_crop": [
+          193,
+          324,
+          151,
+          46
+        ],
+        "changed_pixel_count": 2268,
+        "target_ink_bounds": [
+          223,
+          334,
+          334,
+          357
+        ]
+      }
+    ],
+    "other_17_tracks_reused": true
+  },
+  "visual_review": {
+    "reviewer": "Codex internal",
+    "reviewed_local": "2026-10-23T05:40:40.103567+09:00",
+    "evidence": [
+      "preview/music-native-normal.png",
+      "preview/music-native-on.png",
+      "preview/music-native-push.png",
+      "preview/off-source-clean-final-2x.png",
+      "preview/on-source-clean-final-2x.png",
+      "preview/track12-corrected-three-states-3x.png"
+    ],
+    "result": "18 tracks readable at native scale; 15–18px title fonts and 11px variant notes fit original crops. Source glyphs removed, normal/hover/pressed positions aligned and gold state distinction retained. Other10 tracks and footer explicitly pending.",
+    "targeted_correction": "Only track12 was changed after initial review; other17 tracks reused."
+  },
+  "runtime_partial_evidence": "reports/background-runtime-v18-validation.json",
+  "runtime_normal_pass": true,
+  "runtime_scope": "Normal authored button labels only; do not infer complete state coverage from operation tags."
+}

@@ -1,0 +1,67 @@
+{
+ "mode": "routes",
+ "started": "2026-11-22 07:25:47",
+ "nv_before": 1133,
+ "runs": [
+  {
+   "label": "routes-38511-re",
+   "pid": 12688,
+   "steps": [
+    {
+     "step": "route 38511",
+     "t": 105.2,
+     "order": 37511,
+     "chapter": "?",
+     "ending": false,
+     "arrive_s": 68.1,
+     "items": 1,
+     "presents_after_arrival": 795,
+     "clicks": 8,
+     "ok": true,
+     "mem_mb": 1132
+    }
+   ],
+   "dialogs": [],
+   "mem_mb_start": 958,
+   "routes": [
+    {
+     "i": 38511,
+     "order": 37511,
+     "chapter": "?",
+     "ending": false,
+     "arrive_s": 68.1,
+     "items": 1,
+     "presents_after_arrival": 795,
+     "clicks": 8,
+     "ok": true,
+     "mem_mb": 1132
+    }
+   ],
+   "new_review_folders": [
+    "savedata-review-12688-257248375"
+   ],
+   "mem_mb_end": 1132,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.5116,
+    "loud_spans": [
+     [
+      91.38,
+      93.08
+     ],
+     [
+      95.78,
+      96.3
+     ]
+    ],
+    "errors": []
+   },
+   "log_mb": 2.1,
+   "log_errors": []
+  }
+ ],
+ "nv_after": 1133,
+ "ended": "2026-11-22 07:27:35"
+}

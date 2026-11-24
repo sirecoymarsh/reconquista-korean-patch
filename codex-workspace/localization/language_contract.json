@@ -1,0 +1,8 @@
+{
+  "delivery": "staged trial copy before full-game completion",
+  "replacement": "single original Japanese scenario in separate staged copy",
+  "target_language": "ko",
+  "source_language": "ja",
+  "original_preserved": "Source ISO and extracted baseline",
+  "multilingual_selector": "none found in data/scripts"
+}

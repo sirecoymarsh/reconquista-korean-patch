@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "source_language": "ja",
+  "target_language": "ko",
+  "replacement": "Japanese display surfaces in dedicated staged copy",
+  "authorization": "User requests Japanese Reconquista UI followed by OP/ED Korean localization; common guidelines v1",
+  "original_preserved": true,
+  "in_place_installation": false,
+  "multiple_language_slots": "none identified; inspect before changing any additional slot"
+}

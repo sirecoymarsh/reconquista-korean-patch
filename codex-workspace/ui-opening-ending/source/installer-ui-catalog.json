@@ -1,0 +1,1999 @@
+{
+  "sources": [
+    {
+      "file": "setup.exe",
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\research\\disc\\setup.exe",
+      "sha256": "d0bdfac202c48da0bb4491b16b66c587fa6efb4ac3eb32dbb816922da74ec2e3"
+    },
+    {
+      "file": "install.exe",
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\research\\disc\\install.exe",
+      "sha256": "87b10fd242e14e26f7f83af43447579add36b1730d4155bddc7afd072faf0c1f"
+    }
+  ],
+  "records": [
+    {
+      "id": "setup.exe::type5::COPYING::1041::caption",
+      "source": "ファイルのコピー中...",
+      "role": "dialog_caption",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663"
+    },
+    {
+      "id": "setup.exe::type5::COPYING::1041::control:1010:0",
+      "source": "Progress1",
+      "role": "control_text",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663"
+    },
+    {
+      "id": "setup.exe::type5::COPYING::1041::control:1012:1",
+      "source": "コピー中ファイル名",
+      "role": "control_text",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663"
+    },
+    {
+      "id": "setup.exe::type5::COPYING::1041::control:2:2",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663"
+    },
+    {
+      "id": "setup.exe::type5::COPYING::1041::control:1020:3",
+      "source": "Animate1",
+      "role": "control_text",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663"
+    },
+    {
+      "id": "setup.exe::type5::COPYINGDELUX::1041::caption",
+      "source": "ファイルのコピー中...",
+      "role": "dialog_caption",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d"
+    },
+    {
+      "id": "setup.exe::type5::COPYINGDELUX::1041::control:1010:0",
+      "source": "Progress1",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d"
+    },
+    {
+      "id": "setup.exe::type5::COPYINGDELUX::1041::control:1012:1",
+      "source": "コピー中ファイル名",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d"
+    },
+    {
+      "id": "setup.exe::type5::COPYINGDELUX::1041::control:2:2",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d"
+    },
+    {
+      "id": "setup.exe::type5::COPYINGDELUX::1041::control:1019:3",
+      "source": "Progress2",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d"
+    },
+    {
+      "id": "setup.exe::type5::COPYINGDELUX::1041::control:1020:4",
+      "source": "Animate1",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d"
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::caption",
+      "source": "ＭＡＪＩＲＯ アプリケーション スタートアップ",
+      "role": "dialog_caption",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1007:0",
+      "source": "Button8",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1006:1",
+      "source": "Button7",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1005:2",
+      "source": "Button6",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1004:3",
+      "source": "Button5",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1003:4",
+      "source": "Button4",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1002:5",
+      "source": "Button3",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1001:6",
+      "source": "Button2",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1000:7",
+      "source": "Button1",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1008:8",
+      "source": "Button9",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "setup.exe::type5::MAKESHORTCUT::1041::caption",
+      "source": "ショートカットの作成",
+      "role": "dialog_caption",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370"
+    },
+    {
+      "id": "setup.exe::type5::MAKESHORTCUT::1041::control:1:0",
+      "source": "OK",
+      "role": "control_text",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370"
+    },
+    {
+      "id": "setup.exe::type5::MAKESHORTCUT::1041::control:2:1",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370"
+    },
+    {
+      "id": "setup.exe::type5::MAKESHORTCUT::1041::control:65535:2",
+      "source": "デスクトップ上に、ゲームを起動するショートカットを\n作成できます",
+      "role": "control_text",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370"
+    },
+    {
+      "id": "setup.exe::type5::MAKESHORTCUT::1041::control:1007:3",
+      "source": "デスクトップにショートカットを作成",
+      "role": "control_text",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370"
+    },
+    {
+      "id": "setup.exe::type5::SETUP::1041::caption",
+      "source": "インストール先のフォルダの指定",
+      "role": "dialog_caption",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae"
+    },
+    {
+      "id": "setup.exe::type5::SETUP::1041::control:1:0",
+      "source": "次へ",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae"
+    },
+    {
+      "id": "setup.exe::type5::SETUP::1041::control:2:1",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae"
+    },
+    {
+      "id": "setup.exe::type5::SETUP::1041::control:1021:3",
+      "source": "参照(&B)",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae"
+    },
+    {
+      "id": "setup.exe::type5::SETUP::1041::control:65535:5",
+      "source": "[参照]ボタンで、既存のフォルダを参照できます\n[次へ]ボタンでインストールを開始します",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae"
+    },
+    {
+      "id": "setup.exe::type5::SETUP::1041::control:65535:6",
+      "source": "インストール先フォルダを指定してください",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae"
+    },
+    {
+      "id": "setup.exe::type5::UNINSTALL::1041::caption",
+      "source": "アンインストールの確認",
+      "role": "dialog_caption",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0"
+    },
+    {
+      "id": "setup.exe::type5::UNINSTALL::1041::control:1:0",
+      "source": "OK",
+      "role": "control_text",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0"
+    },
+    {
+      "id": "setup.exe::type5::UNINSTALL::1041::control:2:1",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0"
+    },
+    {
+      "id": "setup.exe::type5::UNINSTALL::1041::control:1026:2",
+      "source": "フォルダ削除メッセージ",
+      "role": "control_text",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0"
+    },
+    {
+      "id": "setup.exe::type5::UNINSTALL::1041::control:1007:3",
+      "source": "セーブファイルも削除する",
+      "role": "control_text",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0"
+    },
+    {
+      "id": "setup.exe::type6::1::1041::1",
+      "source": " スクリプトエンジン MAJIRO (C) 2004-2005 越畑声太",
+      "role": "stringtable",
+      "resource_sha256": "f21a1c14cc98e88f9107438e6ff340badbc4e344eeb5f5371a17df21d2d0f6f0"
+    },
+    {
+      "id": "install.exe::type5::COPYING::1041::caption",
+      "source": "ファイルのコピー中...",
+      "role": "dialog_caption",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663"
+    },
+    {
+      "id": "install.exe::type5::COPYING::1041::control:1010:0",
+      "source": "Progress1",
+      "role": "control_text",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663"
+    },
+    {
+      "id": "install.exe::type5::COPYING::1041::control:1012:1",
+      "source": "コピー中ファイル名",
+      "role": "control_text",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663"
+    },
+    {
+      "id": "install.exe::type5::COPYING::1041::control:2:2",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663"
+    },
+    {
+      "id": "install.exe::type5::COPYING::1041::control:1020:3",
+      "source": "Animate1",
+      "role": "control_text",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663"
+    },
+    {
+      "id": "install.exe::type5::COPYINGDELUX::1041::caption",
+      "source": "ファイルのコピー中...",
+      "role": "dialog_caption",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d"
+    },
+    {
+      "id": "install.exe::type5::COPYINGDELUX::1041::control:1010:0",
+      "source": "Progress1",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d"
+    },
+    {
+      "id": "install.exe::type5::COPYINGDELUX::1041::control:1012:1",
+      "source": "コピー中ファイル名",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d"
+    },
+    {
+      "id": "install.exe::type5::COPYINGDELUX::1041::control:2:2",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d"
+    },
+    {
+      "id": "install.exe::type5::COPYINGDELUX::1041::control:1019:3",
+      "source": "Progress2",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d"
+    },
+    {
+      "id": "install.exe::type5::COPYINGDELUX::1041::control:1020:4",
+      "source": "Animate1",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d"
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::caption",
+      "source": "ＭＡＪＩＲＯ アプリケーション スタートアップ",
+      "role": "dialog_caption",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1007:0",
+      "source": "Button8",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1006:1",
+      "source": "Button7",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1005:2",
+      "source": "Button6",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1004:3",
+      "source": "Button5",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1003:4",
+      "source": "Button4",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1002:5",
+      "source": "Button3",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1001:6",
+      "source": "Button2",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1000:7",
+      "source": "Button1",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1008:8",
+      "source": "Button9",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e"
+    },
+    {
+      "id": "install.exe::type5::MAKESHORTCUT::1041::caption",
+      "source": "ショートカットの作成",
+      "role": "dialog_caption",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370"
+    },
+    {
+      "id": "install.exe::type5::MAKESHORTCUT::1041::control:1:0",
+      "source": "OK",
+      "role": "control_text",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370"
+    },
+    {
+      "id": "install.exe::type5::MAKESHORTCUT::1041::control:2:1",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370"
+    },
+    {
+      "id": "install.exe::type5::MAKESHORTCUT::1041::control:65535:2",
+      "source": "デスクトップ上に、ゲームを起動するショートカットを\n作成できます",
+      "role": "control_text",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370"
+    },
+    {
+      "id": "install.exe::type5::MAKESHORTCUT::1041::control:1007:3",
+      "source": "デスクトップにショートカットを作成",
+      "role": "control_text",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370"
+    },
+    {
+      "id": "install.exe::type5::SETUP::1041::caption",
+      "source": "インストール先のフォルダの指定",
+      "role": "dialog_caption",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae"
+    },
+    {
+      "id": "install.exe::type5::SETUP::1041::control:1:0",
+      "source": "次へ",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae"
+    },
+    {
+      "id": "install.exe::type5::SETUP::1041::control:2:1",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae"
+    },
+    {
+      "id": "install.exe::type5::SETUP::1041::control:1021:3",
+      "source": "参照(&B)",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae"
+    },
+    {
+      "id": "install.exe::type5::SETUP::1041::control:65535:5",
+      "source": "[参照]ボタンで、既存のフォルダを参照できます\n[次へ]ボタンでインストールを開始します",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae"
+    },
+    {
+      "id": "install.exe::type5::SETUP::1041::control:65535:6",
+      "source": "インストール先フォルダを指定してください",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae"
+    },
+    {
+      "id": "install.exe::type5::UNINSTALL::1041::caption",
+      "source": "アンインストールの確認",
+      "role": "dialog_caption",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0"
+    },
+    {
+      "id": "install.exe::type5::UNINSTALL::1041::control:1:0",
+      "source": "OK",
+      "role": "control_text",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0"
+    },
+    {
+      "id": "install.exe::type5::UNINSTALL::1041::control:2:1",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0"
+    },
+    {
+      "id": "install.exe::type5::UNINSTALL::1041::control:1026:2",
+      "source": "フォルダ削除メッセージ",
+      "role": "control_text",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0"
+    },
+    {
+      "id": "install.exe::type5::UNINSTALL::1041::control:1007:3",
+      "source": "セーブファイルも削除する",
+      "role": "control_text",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0"
+    },
+    {
+      "id": "install.exe::type6::1::1041::1",
+      "source": " スクリプトエンジン MAJIRO (C) 2004-2005 越畑声太",
+      "role": "stringtable",
+      "resource_sha256": "f21a1c14cc98e88f9107438e6ff340badbc4e344eeb5f5371a17df21d2d0f6f0"
+    }
+  ],
+  "structures": [
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "COPYING",
+      "language": 1041,
+      "offset": 117912,
+      "size": 288,
+      "parsed_bytes": 288,
+      "sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2428502720,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          194,
+          99
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "ファイルのコピー中...",
+        "font": {
+          "points": 9,
+          "face": "ＭＳ Ｐゴシック"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1010,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress1",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 1012,
+            "style": 1342308865,
+            "exstyle": 0,
+            "rect": [
+              5,
+              65,
+              185,
+              10
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "コピー中ファイル名",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              140,
+              80,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "ｷｬﾝｾﾙ",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1020,
+            "style": 1342177283,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              180,
+              40
+            ],
+            "class": "SysAnimate32",
+            "text": "Animate1",
+            "extra": ""
+          }
+        ]
+      }
+    },
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "COPYINGDELUX",
+      "language": 1041,
+      "offset": 118200,
+      "size": 364,
+      "parsed_bytes": 364,
+      "sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2428502720,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          194,
+          109
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "ファイルのコピー中...",
+        "font": {
+          "points": 9,
+          "face": "ＭＳ Ｐゴシック"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1010,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress1",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 1012,
+            "style": 1342308865,
+            "exstyle": 0,
+            "rect": [
+              5,
+              75,
+              185,
+              10
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "コピー中ファイル名",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              140,
+              90,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "ｷｬﾝｾﾙ",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1019,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              60,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress2",
+            "extra": ""
+          },
+          {
+            "index": 4,
+            "id": 1020,
+            "style": 1342177283,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              180,
+              40
+            ],
+            "class": "SysAnimate32",
+            "text": "Animate1",
+            "extra": ""
+          }
+        ]
+      }
+    },
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "MAINDIALOG",
+      "language": 1041,
+      "offset": 118564,
+      "size": 452,
+      "parsed_bytes": 452,
+      "sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2160591552,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          234,
+          179
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "ＭＡＪＩＲＯ アプリケーション スタートアップ",
+        "font": {
+          "points": 9,
+          "face": "ＭＳ Ｐゴシック"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1007,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              55,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button8",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 1006,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              70,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button7",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 1005,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              85,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button6",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1004,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              100,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button5",
+            "extra": ""
+          },
+          {
+            "index": 4,
+            "id": 1003,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              115,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button4",
+            "extra": ""
+          },
+          {
+            "index": 5,
+            "id": 1002,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              130,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button3",
+            "extra": ""
+          },
+          {
+            "index": 6,
+            "id": 1001,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              145,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button2",
+            "extra": ""
+          },
+          {
+            "index": 7,
+            "id": 1000,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              160,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button1",
+            "extra": ""
+          },
+          {
+            "index": 8,
+            "id": 1008,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              177,
+              7,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button9",
+            "extra": ""
+          }
+        ]
+      }
+    },
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "MAKESHORTCUT",
+      "language": 1041,
+      "offset": 119016,
+      "size": 284,
+      "parsed_bytes": 284,
+      "sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2160591040,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          174,
+          75
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "ショートカットの作成",
+        "font": {
+          "points": 9,
+          "face": "ＭＳ Ｐゴシック"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242817,
+            "exstyle": 0,
+            "rect": [
+              65,
+              55,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "OK",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              120,
+              55,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "ｷｬﾝｾﾙ",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              165,
+              20
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "デスクトップ上に、ゲームを起動するショートカットを\n作成できます",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1007,
+            "style": 1342242819,
+            "exstyle": 0,
+            "rect": [
+              5,
+              35,
+              160,
+              10
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "デスクトップにショートカットを作成",
+            "extra": ""
+          }
+        ]
+      }
+    },
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "SETUP",
+      "language": 1041,
+      "offset": 119300,
+      "size": 422,
+      "parsed_bytes": 422,
+      "sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2429026496,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          203,
+          95
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "インストール先のフォルダの指定",
+        "font": {
+          "points": 9,
+          "face": "ＭＳ Ｐゴシック"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              115,
+              75,
+              40,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "次へ",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              160,
+              75,
+              40,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "ｷｬﾝｾﾙ",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 1000,
+            "style": 1350631552,
+            "exstyle": 0,
+            "rect": [
+              10,
+              26,
+              130,
+              12
+            ],
+            "class": {
+              "ordinal": 129
+            },
+            "text": "",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1021,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              145,
+              25,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "参照(&B)",
+            "extra": ""
+          },
+          {
+            "index": 4,
+            "id": 65535,
+            "style": 1342177287,
+            "exstyle": 0,
+            "rect": [
+              5,
+              15,
+              195,
+              30
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "",
+            "extra": ""
+          },
+          {
+            "index": 5,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              191,
+              20
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "[参照]ボタンで、既存のフォルダを参照できます\n[次へ]ボタンでインストールを開始します",
+            "extra": ""
+          },
+          {
+            "index": 6,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              10,
+              5,
+              190,
+              8
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "インストール先フォルダを指定してください",
+            "extra": ""
+          }
+        ]
+      }
+    },
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "UNINSTALL",
+      "language": 1041,
+      "offset": 119724,
+      "size": 234,
+      "parsed_bytes": 234,
+      "sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2160591040,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          215,
+          89
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "アンインストールの確認",
+        "font": {
+          "points": 9,
+          "face": "ＭＳ Ｐゴシック"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242817,
+            "exstyle": 0,
+            "rect": [
+              105,
+              70,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "OK",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              160,
+              70,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "ｷｬﾝｾﾙ",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 1026,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              9,
+              10,
+              197,
+              45
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "フォルダ削除メッセージ",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1007,
+            "style": 1342242819,
+            "exstyle": 0,
+            "rect": [
+              5,
+              60,
+              95,
+              10
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "セーブファイルも削除する",
+            "extra": ""
+          }
+        ]
+      }
+    },
+    {
+      "file": "setup.exe",
+      "type": 6,
+      "name": 1,
+      "language": 1041,
+      "offset": 119960,
+      "size": 104,
+      "parsed_bytes": 104,
+      "sha256": "f21a1c14cc98e88f9107438e6ff340badbc4e344eeb5f5371a17df21d2d0f6f0",
+      "structure": {
+        "kind": "STRING",
+        "strings": [
+          "",
+          " スクリプトエンジン MAJIRO (C) 2004-2005 越畑声太",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "file": "install.exe",
+      "type": 5,
+      "name": "COPYING",
+      "language": 1041,
+      "offset": 113816,
+      "size": 288,
+      "parsed_bytes": 288,
+      "sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2428502720,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          194,
+          99
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "ファイルのコピー中...",
+        "font": {
+          "points": 9,
+          "face": "ＭＳ Ｐゴシック"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1010,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress1",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 1012,
+            "style": 1342308865,
+            "exstyle": 0,
+            "rect": [
+              5,
+              65,
+              185,
+              10
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "コピー中ファイル名",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              140,
+              80,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "ｷｬﾝｾﾙ",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1020,
+            "style": 1342177283,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              180,
+              40
+            ],
+            "class": "SysAnimate32",
+            "text": "Animate1",
+            "extra": ""
+          }
+        ]
+      }
+    },
+    {
+      "file": "install.exe",
+      "type": 5,
+      "name": "COPYINGDELUX",
+      "language": 1041,
+      "offset": 114104,
+      "size": 364,
+      "parsed_bytes": 364,
+      "sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2428502720,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          194,
+          109
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "ファイルのコピー中...",
+        "font": {
+          "points": 9,
+          "face": "ＭＳ Ｐゴシック"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1010,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress1",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 1012,
+            "style": 1342308865,
+            "exstyle": 0,
+            "rect": [
+              5,
+              75,
+              185,
+              10
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "コピー中ファイル名",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              140,
+              90,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "ｷｬﾝｾﾙ",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1019,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              60,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress2",
+            "extra": ""
+          },
+          {
+            "index": 4,
+            "id": 1020,
+            "style": 1342177283,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              180,
+              40
+            ],
+            "class": "SysAnimate32",
+            "text": "Animate1",
+            "extra": ""
+          }
+        ]
+      }
+    },
+    {
+      "file": "install.exe",
+      "type": 5,
+      "name": "MAINDIALOG",
+      "language": 1041,
+      "offset": 114468,
+      "size": 452,
+      "parsed_bytes": 452,
+      "sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2160591552,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          234,
+          179
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "ＭＡＪＩＲＯ アプリケーション スタートアップ",
+        "font": {
+          "points": 9,
+          "face": "ＭＳ Ｐゴシック"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1007,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              55,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button8",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 1006,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              70,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button7",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 1005,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              85,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button6",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1004,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              100,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button5",
+            "extra": ""
+          },
+          {
+            "index": 4,
+            "id": 1003,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              115,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button4",
+            "extra": ""
+          },
+          {
+            "index": 5,
+            "id": 1002,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              130,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button3",
+            "extra": ""
+          },
+          {
+            "index": 6,
+            "id": 1001,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              145,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button2",
+            "extra": ""
+          },
+          {
+            "index": 7,
+            "id": 1000,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              155,
+              160,
+              75,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button1",
+            "extra": ""
+          },
+          {
+            "index": 8,
+            "id": 1008,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              177,
+              7,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "Button9",
+            "extra": ""
+          }
+        ]
+      }
+    },
+    {
+      "file": "install.exe",
+      "type": 5,
+      "name": "MAKESHORTCUT",
+      "language": 1041,
+      "offset": 114920,
+      "size": 284,
+      "parsed_bytes": 284,
+      "sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2160591040,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          174,
+          75
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "ショートカットの作成",
+        "font": {
+          "points": 9,
+          "face": "ＭＳ Ｐゴシック"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242817,
+            "exstyle": 0,
+            "rect": [
+              65,
+              55,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "OK",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              120,
+              55,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "ｷｬﾝｾﾙ",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              165,
+              20
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "デスクトップ上に、ゲームを起動するショートカットを\n作成できます",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1007,
+            "style": 1342242819,
+            "exstyle": 0,
+            "rect": [
+              5,
+              35,
+              160,
+              10
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "デスクトップにショートカットを作成",
+            "extra": ""
+          }
+        ]
+      }
+    },
+    {
+      "file": "install.exe",
+      "type": 5,
+      "name": "SETUP",
+      "language": 1041,
+      "offset": 115204,
+      "size": 422,
+      "parsed_bytes": 422,
+      "sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2429026496,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          203,
+          95
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "インストール先のフォルダの指定",
+        "font": {
+          "points": 9,
+          "face": "ＭＳ Ｐゴシック"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              115,
+              75,
+              40,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "次へ",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              160,
+              75,
+              40,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "ｷｬﾝｾﾙ",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 1000,
+            "style": 1350631552,
+            "exstyle": 0,
+            "rect": [
+              10,
+              26,
+              130,
+              12
+            ],
+            "class": {
+              "ordinal": 129
+            },
+            "text": "",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1021,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              145,
+              25,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "参照(&B)",
+            "extra": ""
+          },
+          {
+            "index": 4,
+            "id": 65535,
+            "style": 1342177287,
+            "exstyle": 0,
+            "rect": [
+              5,
+              15,
+              195,
+              30
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "",
+            "extra": ""
+          },
+          {
+            "index": 5,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              191,
+              20
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "[参照]ボタンで、既存のフォルダを参照できます\n[次へ]ボタンでインストールを開始します",
+            "extra": ""
+          },
+          {
+            "index": 6,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              10,
+              5,
+              190,
+              8
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "インストール先フォルダを指定してください",
+            "extra": ""
+          }
+        ]
+      }
+    },
+    {
+      "file": "install.exe",
+      "type": 5,
+      "name": "UNINSTALL",
+      "language": 1041,
+      "offset": 115628,
+      "size": 234,
+      "parsed_bytes": 234,
+      "sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2160591040,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          215,
+          89
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "アンインストールの確認",
+        "font": {
+          "points": 9,
+          "face": "ＭＳ Ｐゴシック"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242817,
+            "exstyle": 0,
+            "rect": [
+              105,
+              70,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "OK",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              160,
+              70,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "ｷｬﾝｾﾙ",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 1026,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              9,
+              10,
+              197,
+              45
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "フォルダ削除メッセージ",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1007,
+            "style": 1342242819,
+            "exstyle": 0,
+            "rect": [
+              5,
+              60,
+              95,
+              10
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "セーブファイルも削除する",
+            "extra": ""
+          }
+        ]
+      }
+    },
+    {
+      "file": "install.exe",
+      "type": 6,
+      "name": 1,
+      "language": 1041,
+      "offset": 115864,
+      "size": 104,
+      "parsed_bytes": 104,
+      "sha256": "f21a1c14cc98e88f9107438e6ff340badbc4e344eeb5f5371a17df21d2d0f6f0",
+      "structure": {
+        "kind": "STRING",
+        "strings": [
+          "",
+          " スクリプトエンジン MAJIRO (C) 2004-2005 越畑声太",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    }
+  ],
+  "translator_model": "Codex internal"
+}

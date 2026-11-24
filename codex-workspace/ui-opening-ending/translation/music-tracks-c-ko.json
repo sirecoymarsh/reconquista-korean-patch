@@ -1,0 +1,379 @@
+{
+  "translator_model": "Codex internal",
+  "tracks": [
+    {
+      "track_id": 7,
+      "source": "ambivalent",
+      "target": "엇갈린 마음",
+      "crop": [
+        45,
+        465,
+        151,
+        46
+      ],
+      "left": 68,
+      "top": 476,
+      "size": 18
+    },
+    {
+      "track_id": 8,
+      "source": "散りゆく紅葉",
+      "target": "흩날리는 단풍",
+      "crop": [
+        45,
+        512,
+        151,
+        46
+      ],
+      "left": 68,
+      "top": 517,
+      "size": 18
+    },
+    {
+      "track_id": 15,
+      "source": "葬送曲",
+      "target": "장송곡",
+      "crop": [
+        193,
+        465,
+        151,
+        46
+      ],
+      "left": 222,
+      "top": 476,
+      "size": 18
+    },
+    {
+      "track_id": 16,
+      "source": "都市伝説",
+      "target": "도시전설",
+      "crop": [
+        193,
+        512,
+        151,
+        46
+      ],
+      "left": 222,
+      "top": 517,
+      "size": 18
+    },
+    {
+      "track_id": 23,
+      "source": "忘れえぬ情景",
+      "target": "잊지 못할 풍경",
+      "crop": [
+        352,
+        465,
+        151,
+        46
+      ],
+      "left": 374,
+      "top": 476,
+      "size": 18
+    }
+  ],
+  "records": [
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다.\n이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은\n누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "target_ink_bounds": [
+        58,
+        486,
+        246,
+        549
+      ],
+      "reused_translation": "translation/staff-history-ko.json"
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-07",
+      "track_id": 7,
+      "source": "ambivalent",
+      "target": "엇갈린 마음",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        45,
+        465,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        69,
+        477,
+        162,
+        500
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-08",
+      "track_id": 8,
+      "source": "散りゆく紅葉",
+      "target": "흩날리는 단풍",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        45,
+        512,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        68,
+        517,
+        179,
+        541
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-15",
+      "track_id": 15,
+      "source": "葬送曲",
+      "target": "장송곡",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        193,
+        465,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        222,
+        476,
+        277,
+        499
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-16",
+      "track_id": 16,
+      "source": "都市伝説",
+      "target": "도시전설",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        193,
+        512,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        222,
+        517,
+        293,
+        539
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-23",
+      "track_id": 23,
+      "source": "忘れえぬ情景",
+      "target": "잊지 못할 풍경",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        352,
+        465,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        375,
+        477,
+        488,
+        500
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-07",
+      "track_id": 7,
+      "source": "ambivalent",
+      "target": "엇갈린 마음",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        45,
+        465,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        69,
+        477,
+        162,
+        500
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-08",
+      "track_id": 8,
+      "source": "散りゆく紅葉",
+      "target": "흩날리는 단풍",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        45,
+        512,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        68,
+        517,
+        179,
+        541
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-15",
+      "track_id": 15,
+      "source": "葬送曲",
+      "target": "장송곡",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        193,
+        465,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        222,
+        476,
+        277,
+        499
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-16",
+      "track_id": 16,
+      "source": "都市伝説",
+      "target": "도시전설",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        193,
+        512,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        222,
+        517,
+        293,
+        539
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-23",
+      "track_id": 23,
+      "source": "忘れえぬ情景",
+      "target": "잊지 못할 풍경",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        352,
+        465,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        375,
+        477,
+        488,
+        500
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-07",
+      "track_id": 7,
+      "source": "ambivalent",
+      "target": "엇갈린 마음",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        45,
+        465,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        69,
+        477,
+        162,
+        500
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-08",
+      "track_id": 8,
+      "source": "散りゆく紅葉",
+      "target": "흩날리는 단풍",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        45,
+        512,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        68,
+        517,
+        179,
+        541
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-15",
+      "track_id": 15,
+      "source": "葬送曲",
+      "target": "장송곡",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        193,
+        465,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        222,
+        476,
+        277,
+        499
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-16",
+      "track_id": 16,
+      "source": "都市伝説",
+      "target": "도시전설",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        193,
+        512,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        222,
+        517,
+        293,
+        539
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-23",
+      "track_id": 23,
+      "source": "忘れえぬ情景",
+      "target": "잊지 못할 풍경",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        352,
+        465,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        375,
+        477,
+        488,
+        500
+      ]
+    }
+  ],
+  "remaining_track_ids": [
+    14,
+    22
+  ]
+}

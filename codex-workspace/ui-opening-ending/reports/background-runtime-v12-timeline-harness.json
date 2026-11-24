@@ -1,0 +1,21 @@
+{
+  "candidate": "ui-trial-v12",
+  "purpose": "Extra-menu route for testing locked timeline without modifying global unlock flags or user save data",
+  "source_scenario_sha256": "040db0bf4ab872d47d3a6c06057a0c94f2056e8e8855fd9ae6e9d5a522913625",
+  "test_scenario_sha256": "1590cccce6955cd54976d20f94cab62c73b8527dd307178741cbb8313b660c1f",
+  "entry": "start.mjo",
+  "source_entry_sha256": "6ec38f58c0b5c2d3254ad788062061ab01bb3a9a5e1ebc10ed001dd11ffe5698",
+  "test_entry_sha256": "55b604d77d9ad47deb24f89fc2fd9f00686abff8a9fda85a9acb93ca486e0852",
+  "instruction_index": 1628,
+  "opcode": "call",
+  "argument_count": 0,
+  "old_callee": "0x1f480270 title menu",
+  "test_callee": "0x3331daf2 extra menu",
+  "allowed_byte_region": [
+    11240,
+    4
+  ],
+  "all_other_instruction_bytes_identical": true,
+  "release_candidate_not_modified": true,
+  "restore_after_test": true
+}

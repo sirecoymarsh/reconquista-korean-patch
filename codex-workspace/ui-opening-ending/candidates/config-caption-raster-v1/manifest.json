@@ -1,0 +1,170 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "entries": [
+    {
+      "entry": "config_off.rct",
+      "source_sha256": "a798da6cb3cff18aa217f9723a501f4f8395e4dc404e2572bbf2c1c1d96a5107",
+      "prior_payload_sha256": "28c3a8a9205d50755a0ed5507df9e76ae7cc4ce60eb492c50ef34f692606a38c",
+      "output_sha256": "f982f50ad456a4dc347b4816ba5c12a53750b764123ae8aab8ac06661ac97fb9",
+      "strings": [
+        {
+          "id": "fastdata.arc::config_off.rct::panel-title",
+          "source": "Config",
+          "target": "설정",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "source_region": [
+        64,
+        33,
+        94,
+        39
+      ],
+      "source_glyph_pixels": 962,
+      "source_glyph_derivation": "Exact difference against original blank same-phase texture; known background perimeter identical and caption shadow/descender fully enclosed",
+      "clean_donor": {
+        "entry": "選択肢台.rct",
+        "sha256": "6e9e718f25882d3e4f3a67a041af9c257a2d6838c8ddfa774f990569d3730d0d",
+        "region": [
+          356,
+          81,
+          94,
+          39
+        ],
+        "matched_background_and_alpha": true
+      },
+      "protected_pixel_diff_count": 0,
+      "target_ink_bounds": [
+        86,
+        41,
+        128,
+        66
+      ],
+      "original_mask_preserved": true,
+      "source_caption_alpha": 255,
+      "persisted_rgb_exact": true,
+      "source_size": [
+        800,
+        600
+      ],
+      "scope": "Only panel title; previously translated header and all other pixels retained"
+    },
+    {
+      "entry": "config_on.rct",
+      "source_sha256": "cb4354a1fe28b29fd351aaf06b61cc973bfa4c5a7817628d79b9b580b00b755b",
+      "prior_payload_sha256": "436c337f0297adc7272f0731bcba1cad44a351056f83825109555026516a816b",
+      "output_sha256": "a1dd8756b83ef1e4b6a8a092265431851f7dadb622bd33efa470bec66096b798",
+      "strings": [
+        {
+          "id": "fastdata.arc::config_on.rct::panel-title",
+          "source": "Config",
+          "target": "설정",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "source_region": [
+        64,
+        33,
+        94,
+        39
+      ],
+      "source_glyph_pixels": 962,
+      "source_glyph_derivation": "Exact difference against original blank same-phase texture; known background perimeter identical and caption shadow/descender fully enclosed",
+      "clean_donor": {
+        "entry": "選択肢台.rct",
+        "sha256": "6e9e718f25882d3e4f3a67a041af9c257a2d6838c8ddfa774f990569d3730d0d",
+        "region": [
+          356,
+          81,
+          94,
+          39
+        ],
+        "matched_background_and_alpha": true
+      },
+      "protected_pixel_diff_count": 0,
+      "target_ink_bounds": [
+        86,
+        41,
+        128,
+        66
+      ],
+      "original_mask_preserved": true,
+      "source_caption_alpha": 255,
+      "persisted_rgb_exact": true,
+      "source_size": [
+        800,
+        600
+      ],
+      "scope": "Only panel title; previously translated header and all other pixels retained"
+    },
+    {
+      "entry": "config_push.rct",
+      "source_sha256": "92d6b5e0e6a91bfce75163e5cd71db119a519a85a0c91ee31e488471ef21ecb8",
+      "prior_payload_sha256": "646b9de33ac8045eb02e231cc352ba247de85913cb73900a491dc634a7969eac",
+      "output_sha256": "432833aea0d252510032963200f9a6b12416793d8e5a034cb81d5c693acb31eb",
+      "strings": [
+        {
+          "id": "fastdata.arc::config_push.rct::panel-title",
+          "source": "Config",
+          "target": "설정",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "source_region": [
+        64,
+        33,
+        94,
+        39
+      ],
+      "source_glyph_pixels": 962,
+      "source_glyph_derivation": "Exact difference against original blank same-phase texture; known background perimeter identical and caption shadow/descender fully enclosed",
+      "clean_donor": {
+        "entry": "選択肢台.rct",
+        "sha256": "6e9e718f25882d3e4f3a67a041af9c257a2d6838c8ddfa774f990569d3730d0d",
+        "region": [
+          356,
+          81,
+          94,
+          39
+        ],
+        "matched_background_and_alpha": true
+      },
+      "protected_pixel_diff_count": 0,
+      "target_ink_bounds": [
+        86,
+        41,
+        128,
+        66
+      ],
+      "original_mask_preserved": true,
+      "source_caption_alpha": 255,
+      "persisted_rgb_exact": true,
+      "source_size": [
+        800,
+        600
+      ],
+      "scope": "Only panel title; previously translated header and all other pixels retained"
+    }
+  ],
+  "output_hashes": {
+    "config_off.rct": "f982f50ad456a4dc347b4816ba5c12a53750b764123ae8aab8ac06661ac97fb9",
+    "config_on.rct": "a1dd8756b83ef1e4b6a8a092265431851f7dadb622bd33efa470bec66096b798",
+    "config_push.rct": "432833aea0d252510032963200f9a6b12416793d8e5a034cb81d5c693acb31eb"
+  },
+  "semantic_labels": 3,
+  "font_sha256": "77b4b741f864d27f15e90f275b17106dde90b2ad28f82bab72dc95805db5fb42",
+  "structural_pass": true,
+  "visual_pass": true,
+  "runtime_review": "pending",
+  "asset_completion": "partial; all other setting labels/buttons remain pending",
+  "reused_evidence": "slot-header-raster-v1 header translation and alpha unchanged; common caption state pixels identical",
+  "visual_review": {
+    "reviewer": "Codex internal",
+    "artifacts": [
+      "preview/source-clean-final-3x.png",
+      "preview/config_off.png"
+    ],
+    "result": "Original caption and all shadow pixels removed; mosaic phase, arrow ornament and border intact; Korean caption fits and remains legible at native size; three caption regions pixel-identical."
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "time": 27.8,
+    "bg_correlation": 0.8868003189563751
+  },
+  {
+    "time": 28.0,
+    "bg_correlation": 0.8732548654079437
+  },
+  {
+    "time": 28.2,
+    "bg_correlation": 0.8661557734012604
+  },
+  {
+    "time": 28.4,
+    "bg_correlation": 0.8592438697814941
+  },
+  {
+    "time": 28.6,
+    "bg_correlation": 0.8529874980449677
+  },
+  {
+    "time": 28.8,
+    "bg_correlation": 0.8331177830696106
+  },
+  {
+    "time": 29.0,
+    "bg_correlation": 0.8270143866539001
+  },
+  {
+    "time": 29.2,
+    "bg_correlation": 0.8203089237213135
+  },
+  {
+    "time": 29.4,
+    "bg_correlation": 0.8054826557636261
+  },
+  {
+    "time": 29.6,
+    "bg_correlation": 0.8002228140830994
+  },
+  {
+    "time": 29.8,
+    "bg_correlation": 0.7868741452693939
+  },
+  {
+    "time": 30.0,
+    "bg_correlation": 0.7673206925392151
+  },
+  {
+    "time": 30.1,
+    "bg_correlation": 0.7716642916202545
+  },
+  {
+    "time": 30.2,
+    "bg_correlation": 0.7763985991477966
+  },
+  {
+    "time": 30.3,
+    "bg_correlation": 0.7514170706272125
+  },
+  {
+    "time": 30.4,
+    "bg_correlation": 0.7398342490196228
+  },
+  {
+    "time": 30.5,
+    "bg_correlation": 0.7197695076465607
+  },
+  {
+    "time": 30.6,
+    "bg_correlation": 0.5688979923725128
+  }
+]

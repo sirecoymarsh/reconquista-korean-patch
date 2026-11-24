@@ -1,0 +1,567 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "records": [
+    {
+      "id": "fastdata.arc::extra_off.rct::年表",
+      "source": "年表",
+      "target": "연표",
+      "consumer_crop": [
+        547,
+        328,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        596,
+        335,
+        640,
+        360
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra_off.rct::サウンドモード",
+      "source": "サウンドモード",
+      "target": "음악 감상",
+      "consumer_crop": [
+        547,
+        369,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        375,
+        689,
+        402
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra_off.rct::CGモード",
+      "source": "CGモード",
+      "target": "CG 감상",
+      "consumer_crop": [
+        547,
+        410,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        595,
+        417,
+        678,
+        444
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra_off.rct::回想モード",
+      "source": "回想モード",
+      "target": "장면 회상",
+      "consumer_crop": [
+        547,
+        450,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        457,
+        689,
+        484
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra_off.rct::前の画面に戻る",
+      "source": "前の画面に戻る",
+      "target": "뒤로",
+      "consumer_crop": [
+        547,
+        494,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        499,
+        640,
+        526
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra_on.rct::年表",
+      "source": "年表",
+      "target": "연표",
+      "consumer_crop": [
+        547,
+        328,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        596,
+        335,
+        640,
+        360
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra_on.rct::サウンドモード",
+      "source": "サウンドモード",
+      "target": "음악 감상",
+      "consumer_crop": [
+        547,
+        369,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        375,
+        689,
+        402
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra_on.rct::CGモード",
+      "source": "CGモード",
+      "target": "CG 감상",
+      "consumer_crop": [
+        547,
+        410,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        595,
+        417,
+        678,
+        444
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra_on.rct::回想モード",
+      "source": "回想モード",
+      "target": "장면 회상",
+      "consumer_crop": [
+        547,
+        450,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        457,
+        689,
+        484
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra_on.rct::前の画面に戻る",
+      "source": "前の画面に戻る",
+      "target": "뒤로",
+      "consumer_crop": [
+        547,
+        494,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        499,
+        640,
+        526
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra_push.rct::年表",
+      "source": "年表",
+      "target": "연표",
+      "consumer_crop": [
+        547,
+        328,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        596,
+        335,
+        640,
+        360
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra_push.rct::サウンドモード",
+      "source": "サウンドモード",
+      "target": "음악 감상",
+      "consumer_crop": [
+        547,
+        369,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        375,
+        689,
+        402
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra_push.rct::CGモード",
+      "source": "CGモード",
+      "target": "CG 감상",
+      "consumer_crop": [
+        547,
+        410,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        595,
+        417,
+        678,
+        444
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra_push.rct::回想モード",
+      "source": "回想モード",
+      "target": "장면 회상",
+      "consumer_crop": [
+        547,
+        450,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        457,
+        689,
+        484
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra_push.rct::前の画面に戻る",
+      "source": "前の画面に戻る",
+      "target": "뒤로",
+      "consumer_crop": [
+        547,
+        494,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        499,
+        640,
+        526
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_off.rct::年表",
+      "source": "年表",
+      "target": "연표",
+      "consumer_crop": [
+        547,
+        308,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        596,
+        314,
+        640,
+        339
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_off.rct::サウンドモード",
+      "source": "サウンドモード",
+      "target": "음악 감상",
+      "consumer_crop": [
+        547,
+        349,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        353,
+        689,
+        380
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_off.rct::CGモード",
+      "source": "CGモード",
+      "target": "CG 감상",
+      "consumer_crop": [
+        547,
+        390,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        595,
+        395,
+        678,
+        422
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_off.rct::回想モード",
+      "source": "回想モード",
+      "target": "장면 회상",
+      "consumer_crop": [
+        547,
+        430,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        437,
+        689,
+        464
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_off.rct::スタッフルーム",
+      "source": "スタッフルーム",
+      "target": "스태프룸",
+      "consumer_crop": [
+        547,
+        474,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        478,
+        682,
+        505
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_off.rct::前の画面に戻る",
+      "source": "前の画面に戻る",
+      "target": "뒤로",
+      "consumer_crop": [
+        547,
+        512,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        521,
+        640,
+        548
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_on.rct::年表",
+      "source": "年表",
+      "target": "연표",
+      "consumer_crop": [
+        547,
+        308,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        596,
+        313,
+        640,
+        338
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_on.rct::サウンドモード",
+      "source": "サウンドモード",
+      "target": "음악 감상",
+      "consumer_crop": [
+        547,
+        349,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        353,
+        689,
+        380
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_on.rct::CGモード",
+      "source": "CGモード",
+      "target": "CG 감상",
+      "consumer_crop": [
+        547,
+        390,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        595,
+        395,
+        678,
+        422
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_on.rct::回想モード",
+      "source": "回想モード",
+      "target": "장면 회상",
+      "consumer_crop": [
+        547,
+        430,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        437,
+        689,
+        464
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_on.rct::スタッフルーム",
+      "source": "スタッフルーム",
+      "target": "스태프룸",
+      "consumer_crop": [
+        547,
+        474,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        478,
+        682,
+        505
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_on.rct::前の画面に戻る",
+      "source": "前の画面に戻る",
+      "target": "뒤로",
+      "consumer_crop": [
+        547,
+        512,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        521,
+        640,
+        548
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_push.rct::年表",
+      "source": "年表",
+      "target": "연표",
+      "consumer_crop": [
+        547,
+        308,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        596,
+        313,
+        640,
+        338
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_push.rct::サウンドモード",
+      "source": "サウンドモード",
+      "target": "음악 감상",
+      "consumer_crop": [
+        547,
+        349,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        353,
+        689,
+        380
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_push.rct::CGモード",
+      "source": "CGモード",
+      "target": "CG 감상",
+      "consumer_crop": [
+        547,
+        390,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        595,
+        395,
+        678,
+        422
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_push.rct::回想モード",
+      "source": "回想モード",
+      "target": "장면 회상",
+      "consumer_crop": [
+        547,
+        430,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        437,
+        689,
+        464
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_push.rct::スタッフルーム",
+      "source": "スタッフルーム",
+      "target": "스태프룸",
+      "consumer_crop": [
+        547,
+        474,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        478,
+        682,
+        505
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_push.rct::前の画面に戻る",
+      "source": "前の画面に戻る",
+      "target": "뒤로",
+      "consumer_crop": [
+        547,
+        512,
+        233,
+        40
+      ],
+      "ink_bounds": [
+        594,
+        521,
+        640,
+        548
+      ]
+    }
+  ]
+}

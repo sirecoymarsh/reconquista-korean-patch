@@ -1,0 +1,13 @@
+Use case: precise-object-edit.
+Asset type: high-resolution replacement background for a Japanese visual novel, 3200 x 2400 pixels, EXACT 4:3 landscape aspect ratio.
+
+Image 1 is the original 800 x 600 daytime aerial island illustration. Use it as a strict tracing/reference guide. Redraw this exact existing picture with crisp, coherent, fine architectural and landscape drawing. This is a fidelity restoration, not an alternate island or a redesigned city. The result, viewed at 800 x 600, should closely match every major feature in the original.
+
+Lock the original oblique aerial camera, entire crop, coastline polygon, water-to-land boundaries, breakwaters, bridge endpoints, street paths, placement of dense buildings, park shapes, hills, forest areas, and all large color regions.
+Preserve the huge blue sea around the island, the mainland cropped along the top-left and upper edge, the thin reddish bridge diagonally reaching the island near its upper middle, the marina/breakwater at the island's upper-left edge, and the exact angular seawall perimeter. Keep the broad island filling the central-left area and its pointed right-hand shore touching the right edge. The near shoreline must retain its original shallow curve, long pale seawall, and near-left corner at exactly the reference position.
+Follow the original arrangement of the pale dense northern/eastern city, the small high-rise cluster near the upper middle-left, the dark high-rise cluster on the middle-right, the large green southwestern wooded/park area, and the open ground/roads and pale elongated structures toward the lower-right. Use the source's visible roof and road geometry; clarify what is already there rather than inventing a new street grid.
+Maintain the daytime palette: cyan and cobalt sea with subtle painted streaks, pale grey/white buildings and roofs, grey roads, green trees and slopes, warm off-white cleared ground. Keep the original lighting direction and value balance.
+
+Style: finely painted Japanese visual novel background / illustrated aerial map with precise coherent small roofs, building edges, streets, seawalls and tree masses. Preserve the source's painted nature. Clean lines and refined readable small forms, without gritty sharpening or noisy speckled texture. Not a photorealistic satellite photo and not an isometric toy model.
+
+Do not add labels, route graphics, titles, compass, lettering, UI, map pins, monuments, new landmarks, ships, decorations, logos, people or watermarks. Do not change the topology, mainland outline, any island boundary, bridge route, or major building group. Do not widen the frame, zoom the camera, shift the island, rotate anything, or use a different perspective. Full-bleed 4:3.

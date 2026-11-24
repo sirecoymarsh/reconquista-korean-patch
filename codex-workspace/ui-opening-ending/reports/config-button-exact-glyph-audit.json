@@ -1,0 +1,770 @@
+[
+  {
+    "state": "off",
+    "buttons": [
+      {
+        "xy": [
+          202,
+          102
+        ],
+        "glyph_pixels": 258,
+        "bbox": [
+          12,
+          5,
+          65,
+          19
+        ],
+        "min_g_delta": 8,
+        "residual_pixels": 7,
+        "residual_max_channel_diff": 5,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": [
+          [
+            3,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            3,
+            19
+          ],
+          [
+            4,
+            19
+          ],
+          [
+            71,
+            19
+          ]
+        ]
+      },
+      {
+        "xy": [
+          288,
+          102
+        ],
+        "glyph_pixels": 286,
+        "bbox": [
+          5,
+          6,
+          72,
+          17
+        ],
+        "min_g_delta": 16,
+        "residual_pixels": 7,
+        "residual_max_channel_diff": 7,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": [
+          [
+            3,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            3,
+            19
+          ],
+          [
+            4,
+            19
+          ],
+          [
+            71,
+            19
+          ]
+        ]
+      },
+      {
+        "xy": [
+          202,
+          133
+        ],
+        "glyph_pixels": 432,
+        "bbox": [
+          11,
+          5,
+          66,
+          19
+        ],
+        "min_g_delta": 8,
+        "residual_pixels": 4,
+        "residual_max_channel_diff": 2,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": [
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            3,
+            19
+          ]
+        ]
+      },
+      {
+        "xy": [
+          522,
+          102
+        ],
+        "glyph_pixels": 406,
+        "bbox": [
+          11,
+          5,
+          65,
+          19
+        ],
+        "min_g_delta": 8,
+        "residual_pixels": 7,
+        "residual_max_channel_diff": 7,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": [
+          [
+            3,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            3,
+            19
+          ],
+          [
+            4,
+            19
+          ],
+          [
+            71,
+            19
+          ]
+        ]
+      },
+      {
+        "xy": [
+          522,
+          133
+        ],
+        "glyph_pixels": 476,
+        "bbox": [
+          5,
+          5,
+          69,
+          19
+        ],
+        "min_g_delta": 8,
+        "residual_pixels": 4,
+        "residual_max_channel_diff": 3,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": [
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            3,
+            19
+          ]
+        ]
+      },
+      {
+        "xy": [
+          609,
+          133
+        ],
+        "glyph_pixels": 335,
+        "bbox": [
+          14,
+          5,
+          65,
+          19
+        ],
+        "min_g_delta": 8,
+        "residual_pixels": 0,
+        "residual_max_channel_diff": 0,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": []
+      }
+    ],
+    "all_button": {
+      "row_refs_match": true,
+      "glyph_pixels": 174,
+      "bbox": [
+        18,
+        5,
+        58,
+        19
+      ],
+      "perimeter": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "state": "on",
+    "buttons": [
+      {
+        "xy": [
+          202,
+          102
+        ],
+        "glyph_pixels": 258,
+        "bbox": [
+          12,
+          5,
+          65,
+          19
+        ],
+        "min_g_delta": 12,
+        "residual_pixels": 8,
+        "residual_max_channel_diff": 5,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": [
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            3,
+            19
+          ],
+          [
+            4,
+            19
+          ],
+          [
+            71,
+            19
+          ]
+        ]
+      },
+      {
+        "xy": [
+          288,
+          102
+        ],
+        "glyph_pixels": 286,
+        "bbox": [
+          5,
+          6,
+          72,
+          17
+        ],
+        "min_g_delta": 23,
+        "residual_pixels": 8,
+        "residual_max_channel_diff": 7,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": [
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            3,
+            19
+          ],
+          [
+            4,
+            19
+          ],
+          [
+            71,
+            19
+          ]
+        ]
+      },
+      {
+        "xy": [
+          202,
+          133
+        ],
+        "glyph_pixels": 432,
+        "bbox": [
+          11,
+          5,
+          66,
+          19
+        ],
+        "min_g_delta": 12,
+        "residual_pixels": 4,
+        "residual_max_channel_diff": 2,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": [
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            3,
+            19
+          ]
+        ]
+      },
+      {
+        "xy": [
+          522,
+          102
+        ],
+        "glyph_pixels": 406,
+        "bbox": [
+          11,
+          5,
+          65,
+          19
+        ],
+        "min_g_delta": 12,
+        "residual_pixels": 8,
+        "residual_max_channel_diff": 7,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": [
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            3,
+            19
+          ],
+          [
+            4,
+            19
+          ],
+          [
+            71,
+            19
+          ]
+        ]
+      },
+      {
+        "xy": [
+          522,
+          133
+        ],
+        "glyph_pixels": 476,
+        "bbox": [
+          5,
+          5,
+          69,
+          19
+        ],
+        "min_g_delta": 12,
+        "residual_pixels": 5,
+        "residual_max_channel_diff": 3,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": [
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            3,
+            19
+          ],
+          [
+            4,
+            19
+          ]
+        ]
+      },
+      {
+        "xy": [
+          609,
+          133
+        ],
+        "glyph_pixels": 335,
+        "bbox": [
+          14,
+          5,
+          65,
+          19
+        ],
+        "min_g_delta": 12,
+        "residual_pixels": 0,
+        "residual_max_channel_diff": 0,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": []
+      }
+    ],
+    "all_button": {
+      "row_refs_match": true,
+      "glyph_pixels": 174,
+      "bbox": [
+        18,
+        5,
+        58,
+        19
+      ],
+      "perimeter": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "state": "push",
+    "buttons": [
+      {
+        "xy": [
+          202,
+          102
+        ],
+        "glyph_pixels": 258,
+        "bbox": [
+          12,
+          5,
+          65,
+          19
+        ],
+        "min_g_delta": 11,
+        "residual_pixels": 7,
+        "residual_max_channel_diff": 5,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": [
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            3,
+            19
+          ],
+          [
+            4,
+            19
+          ]
+        ]
+      },
+      {
+        "xy": [
+          288,
+          102
+        ],
+        "glyph_pixels": 286,
+        "bbox": [
+          5,
+          6,
+          72,
+          17
+        ],
+        "min_g_delta": 20,
+        "residual_pixels": 7,
+        "residual_max_channel_diff": 7,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": [
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            3,
+            19
+          ],
+          [
+            4,
+            19
+          ]
+        ]
+      },
+      {
+        "xy": [
+          202,
+          133
+        ],
+        "glyph_pixels": 432,
+        "bbox": [
+          11,
+          5,
+          66,
+          19
+        ],
+        "min_g_delta": 11,
+        "residual_pixels": 4,
+        "residual_max_channel_diff": 2,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": [
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            3,
+            19
+          ]
+        ]
+      },
+      {
+        "xy": [
+          522,
+          102
+        ],
+        "glyph_pixels": 406,
+        "bbox": [
+          11,
+          5,
+          65,
+          19
+        ],
+        "min_g_delta": 11,
+        "residual_pixels": 7,
+        "residual_max_channel_diff": 7,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": [
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            71,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            3,
+            19
+          ],
+          [
+            4,
+            19
+          ]
+        ]
+      },
+      {
+        "xy": [
+          522,
+          133
+        ],
+        "glyph_pixels": 476,
+        "bbox": [
+          5,
+          5,
+          69,
+          19
+        ],
+        "min_g_delta": 11,
+        "residual_pixels": 3,
+        "residual_max_channel_diff": 3,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": [
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            3,
+            19
+          ]
+        ]
+      },
+      {
+        "xy": [
+          609,
+          133
+        ],
+        "glyph_pixels": 335,
+        "bbox": [
+          14,
+          5,
+          65,
+          19
+        ],
+        "min_g_delta": 11,
+        "residual_pixels": 0,
+        "residual_max_channel_diff": 0,
+        "residual_in_glyph_neighborhood": 0,
+        "residual_coords": []
+      }
+    ],
+    "all_button": {
+      "row_refs_match": false,
+      "glyph_pixels": 215,
+      "bbox": [
+        17,
+        5,
+        60,
+        19
+      ],
+      "perimeter": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "glyph_support_cross_state_diff": [
+      0,
+      0
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "user_examples": [
+    "카스가이",
+    "타무라"
+  ],
+  "policy": "Use familiar Japanese phonetic Korean spelling for unvoiced k/t/ts; keep Japanese voiced consonants voiced. Scope OP only.",
+  "changes": {
+    "가스가이": "카스가이",
+    "다무라": "타무라",
+    "도모코": "토모코",
+    "기사라기": "키사라기",
+    "쓰키노": "츠키노",
+    "마쓰다": "마츠다",
+    "아게마쓰": "아게마츠",
+    "기쿠타": "키쿠타",
+    "가노 노조무": "카노 노조무",
+    "모리 다쿠야": "모리 타쿠야",
+    "간즈키": "칸즈키"
+  },
+  "early_credits": {
+    "company": "코튼소프트 두 번째 작품",
+    "illustration": "캐릭터 디자인·원화\n앙코로모치\n사사이 사지",
+    "scenario": "시나리오\n우나토미 하지메\n아키츠 타마키\n오츠키 유스케",
+    "starring": "레콘키스타\n등장인물",
+    "graphics-program": "그래픽 제작\n하루친\n피카이치\n신이치로 외\n프로그래밍\n코시하타 세이타",
+    "music": "음악\n엘리먼츠 가든\n바바리안 온 더 그루브\n센티브\n443\n이데 쿄코\n타테우치 외"
+  },
+  "prior_frozen_candidate": "opening-video-ko-v3",
+  "inherited_clean_background": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\candidates\\opening-video-ko-v3\\build-source\\opening-clean-background.ffv1.mkv",
+  "required_inherited_overrides": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\candidates\\opening-video-ko-v3\\build-source\\review-repair",
+  "four_k_audio": "Reuse v3 AAC without transcoding"
+}

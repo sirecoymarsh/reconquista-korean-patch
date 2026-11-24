@@ -1,0 +1,33 @@
+{
+  "candidate": "ui-trial-v12",
+  "native_candidate": "native-ui-v5",
+  "test_processes": [
+    78664,
+    18384,
+    25916
+  ],
+  "all_test_processes_exited": true,
+  "operations": 12,
+  "focus_samples": 566,
+  "game_foreground_observations": 0,
+  "private_input_desktop_observations": 0,
+  "focus_sampler_errors": [],
+  "before_after_foreground_changes": 1,
+  "foreground_change_note": "Observed change was between other application PIDs66188 and61956; none of the test game PIDs became foreground. Sampling is not continuous outside each command.",
+  "verified": [
+    "Normal v12 startup and title image with new font loader",
+    "Harness2 enters actual chronicle without native CSV mismatch error",
+    "Korean timeline date r001c00 마지막 날 기준 rendered in chronicle",
+    "Normal native exit from chronicle",
+    "Test-only scenario changes restored to exact v12 candidate hash"
+  ],
+  "remaining": [
+    "Event cells and nameplates locked by isolated game progress; all events/details/scrolling not visually verified",
+    "Three provisional name readings",
+    "New native v6 error messages runtime pending"
+  ],
+  "harness": "reports/background-runtime-v12-timeline-harness2.json",
+  "evidence": "evidence/background-runtime/bg-v12h2-chronicle-1906300.png",
+  "restored_scenario_sha256": "040db0bf4ab872d47d3a6c06057a0c94f2056e8e8855fd9ae6e9d5a522913625",
+  "full_timeline_runtime_pass": false
+}

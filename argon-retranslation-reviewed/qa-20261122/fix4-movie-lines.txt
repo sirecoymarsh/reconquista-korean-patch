@@ -1,0 +1,2 @@
+movie_create hwnd=00431BE6 style=5000c60a
+movie_fit logical=0,0,800,600 physical=608,0,2880,2160 ok=1

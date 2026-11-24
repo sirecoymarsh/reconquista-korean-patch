@@ -1,0 +1,2186 @@
+{
+  "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\transcription_work\\recon_op-isolated-timeline.wav",
+  "stt_model": "Systran/faster-whisper-large-v3",
+  "model_path": "P:\\AI\\Codex\\projects\\sorairo_no_fuukin_ko\\work\\ui_video_integration_20260922\\opening_final\\models\\models--Systran--faster-whisper-large-v3\\snapshots\\edaa852ec7e145841d8ffdb056a99866b5f0a478",
+  "language": "ja",
+  "task": "source_transcription_only",
+  "accepted_semantic_translation": false,
+  "source_duration": 259.692,
+  "elapsed_seconds": 8.054145336151123,
+  "segments": [
+    {
+      "id": "op-isolated::001",
+      "start": 0.0,
+      "end": 10.5,
+      "text": "すべて失くした場所で もう一度取り戻すから",
+      "avg_logprob": -0.4208559653033381,
+      "no_speech_prob": 0.043792724609375,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.28,
+          "word": "す",
+          "probability": 0.319091796875
+        },
+        {
+          "start": 0.28,
+          "end": 0.92,
+          "word": "べ",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 0.92,
+          "end": 1.56,
+          "word": "て",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 1.56,
+          "end": 1.9,
+          "word": "失",
+          "probability": 0.39013671875
+        },
+        {
+          "start": 1.9,
+          "end": 2.48,
+          "word": "く",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 2.48,
+          "end": 3.36,
+          "word": "した",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 3.36,
+          "end": 4.1,
+          "word": "場",
+          "probability": 0.9296875
+        },
+        {
+          "start": 4.1,
+          "end": 4.64,
+          "word": "所",
+          "probability": 1.0
+        },
+        {
+          "start": 4.64,
+          "end": 4.86,
+          "word": "で",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 5.28,
+          "end": 6.16,
+          "word": " もう",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 6.16,
+          "end": 6.66,
+          "word": "一",
+          "probability": 0.96923828125
+        },
+        {
+          "start": 6.66,
+          "end": 7.08,
+          "word": "度",
+          "probability": 1.0
+        },
+        {
+          "start": 7.08,
+          "end": 8.14,
+          "word": "取",
+          "probability": 0.720703125
+        },
+        {
+          "start": 8.14,
+          "end": 8.34,
+          "word": "り",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 8.34,
+          "end": 9.0,
+          "word": "戻",
+          "probability": 0.998046875
+        },
+        {
+          "start": 9.0,
+          "end": 9.3,
+          "word": "す",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 9.3,
+          "end": 10.5,
+          "word": "から",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::002",
+      "start": 28.299999999999994,
+      "end": 32.4,
+      "text": "冷たい光が時を止める",
+      "avg_logprob": -0.23818109585688665,
+      "no_speech_prob": 0.52099609375,
+      "words": [
+        {
+          "start": 28.299999999999994,
+          "end": 29.139999999999997,
+          "word": "冷",
+          "probability": 0.36865234375
+        },
+        {
+          "start": 29.139999999999997,
+          "end": 29.98,
+          "word": "たい",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 29.98,
+          "end": 30.46,
+          "word": "光",
+          "probability": 0.9658203125
+        },
+        {
+          "start": 30.46,
+          "end": 30.98,
+          "word": "が",
+          "probability": 0.98486328125
+        },
+        {
+          "start": 30.98,
+          "end": 31.36,
+          "word": "時",
+          "probability": 0.7099609375
+        },
+        {
+          "start": 31.36,
+          "end": 31.78,
+          "word": "を",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 31.78,
+          "end": 32.08,
+          "word": "止",
+          "probability": 0.9462890625
+        },
+        {
+          "start": 32.08,
+          "end": 32.32,
+          "word": "め",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 32.32,
+          "end": 32.4,
+          "word": "る",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::003",
+      "start": 32.4,
+      "end": 36.14,
+      "text": "影さえ凍るin darkness",
+      "avg_logprob": -0.23818109585688665,
+      "no_speech_prob": 0.52099609375,
+      "words": [
+        {
+          "start": 32.4,
+          "end": 33.4,
+          "word": "影",
+          "probability": 0.62841796875
+        },
+        {
+          "start": 33.4,
+          "end": 33.88,
+          "word": "さ",
+          "probability": 0.9951171875
+        },
+        {
+          "start": 33.88,
+          "end": 34.24,
+          "word": "え",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 34.24,
+          "end": 34.66,
+          "word": "凍",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 34.66,
+          "end": 35.24,
+          "word": "る",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 35.24,
+          "end": 35.5,
+          "word": "in",
+          "probability": 0.160888671875
+        },
+        {
+          "start": 35.5,
+          "end": 36.14,
+          "word": " darkness",
+          "probability": 0.98291015625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::004",
+      "start": 36.14,
+      "end": 40.08,
+      "text": "彷徨う孤独な金の瞳",
+      "avg_logprob": -0.23818109585688665,
+      "no_speech_prob": 0.52099609375,
+      "words": [
+        {
+          "start": 36.14,
+          "end": 37.18,
+          "word": "彷",
+          "probability": 0.86083984375
+        },
+        {
+          "start": 37.18,
+          "end": 37.52,
+          "word": "徨",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 37.52,
+          "end": 37.88,
+          "word": "う",
+          "probability": 0.998046875
+        },
+        {
+          "start": 37.88,
+          "end": 38.16,
+          "word": "孤",
+          "probability": 0.984130859375
+        },
+        {
+          "start": 38.16,
+          "end": 38.5,
+          "word": "独",
+          "probability": 0.999267578125
+        },
+        {
+          "start": 38.5,
+          "end": 38.7,
+          "word": "な",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 38.7,
+          "end": 39.08,
+          "word": "金",
+          "probability": 0.8193359375
+        },
+        {
+          "start": 39.08,
+          "end": 39.56,
+          "word": "の",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 39.56,
+          "end": 40.08,
+          "word": "瞳",
+          "probability": 0.988037109375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::005",
+      "start": 40.08,
+      "end": 43.94,
+      "text": "欠けてく錆びた銀の月",
+      "avg_logprob": -0.2297535202872585,
+      "no_speech_prob": 0.81494140625,
+      "words": [
+        {
+          "start": 40.08,
+          "end": 41.02,
+          "word": "欠",
+          "probability": 0.4429512023925781
+        },
+        {
+          "start": 41.02,
+          "end": 41.44,
+          "word": "けて",
+          "probability": 0.9326171875
+        },
+        {
+          "start": 41.44,
+          "end": 41.86,
+          "word": "く",
+          "probability": 0.9189453125
+        },
+        {
+          "start": 41.86,
+          "end": 42.4,
+          "word": "錆",
+          "probability": 0.980224609375
+        },
+        {
+          "start": 42.4,
+          "end": 42.58,
+          "word": "び",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 42.58,
+          "end": 42.76,
+          "word": "た",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 42.76,
+          "end": 43.26,
+          "word": "銀",
+          "probability": 0.986328125
+        },
+        {
+          "start": 43.26,
+          "end": 43.66,
+          "word": "の",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 43.66,
+          "end": 43.94,
+          "word": "月",
+          "probability": 0.89453125
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::006",
+      "start": 43.94,
+      "end": 47.88,
+      "text": "溶けて消えた背なぞり",
+      "avg_logprob": -0.2297535202872585,
+      "no_speech_prob": 0.81494140625,
+      "words": [
+        {
+          "start": 43.94,
+          "end": 45.12,
+          "word": "溶",
+          "probability": 0.72412109375
+        },
+        {
+          "start": 45.12,
+          "end": 45.56,
+          "word": "けて",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 45.56,
+          "end": 45.98,
+          "word": "消",
+          "probability": 0.98291015625
+        },
+        {
+          "start": 45.98,
+          "end": 46.46,
+          "word": "え",
+          "probability": 0.982421875
+        },
+        {
+          "start": 46.46,
+          "end": 46.66,
+          "word": "た",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 46.66,
+          "end": 46.9,
+          "word": "背",
+          "probability": 0.283935546875
+        },
+        {
+          "start": 46.9,
+          "end": 47.38,
+          "word": "な",
+          "probability": 0.93212890625
+        },
+        {
+          "start": 47.38,
+          "end": 47.6,
+          "word": "ぞ",
+          "probability": 0.970703125
+        },
+        {
+          "start": 47.6,
+          "end": 47.88,
+          "word": "り",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::007",
+      "start": 48.42,
+      "end": 51.8,
+      "text": "夢見た明日を辿る",
+      "avg_logprob": -0.2297535202872585,
+      "no_speech_prob": 0.81494140625,
+      "words": [
+        {
+          "start": 48.42,
+          "end": 48.9,
+          "word": "夢",
+          "probability": 0.9365234375
+        },
+        {
+          "start": 48.9,
+          "end": 49.28,
+          "word": "見",
+          "probability": 0.9189453125
+        },
+        {
+          "start": 49.28,
+          "end": 49.66,
+          "word": "た",
+          "probability": 1.0
+        },
+        {
+          "start": 49.66,
+          "end": 49.9,
+          "word": "明",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 49.9,
+          "end": 50.3,
+          "word": "日",
+          "probability": 1.0
+        },
+        {
+          "start": 50.3,
+          "end": 50.62,
+          "word": "を",
+          "probability": 0.998046875
+        },
+        {
+          "start": 50.62,
+          "end": 51.04,
+          "word": "辿",
+          "probability": 0.960205078125
+        },
+        {
+          "start": 51.04,
+          "end": 51.8,
+          "word": "る",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::008",
+      "start": 51.8,
+      "end": 55.44,
+      "text": "深く刻んで伸びた",
+      "avg_logprob": -0.2297535202872585,
+      "no_speech_prob": 0.81494140625,
+      "words": [
+        {
+          "start": 51.8,
+          "end": 52.78,
+          "word": "深",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 52.78,
+          "end": 53.4,
+          "word": "く",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 53.4,
+          "end": 53.8,
+          "word": "刻",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 53.8,
+          "end": 54.6,
+          "word": "んで",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 54.6,
+          "end": 55.2,
+          "word": "伸",
+          "probability": 0.974365234375
+        },
+        {
+          "start": 55.2,
+          "end": 55.34,
+          "word": "び",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 55.34,
+          "end": 55.44,
+          "word": "た",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::009",
+      "start": 56.08,
+      "end": 60.72,
+      "text": "過ちの跡を越えて走る",
+      "avg_logprob": -0.2297535202872585,
+      "no_speech_prob": 0.81494140625,
+      "words": [
+        {
+          "start": 56.08,
+          "end": 56.74,
+          "word": "過",
+          "probability": 0.9853515625
+        },
+        {
+          "start": 56.74,
+          "end": 57.3,
+          "word": "ち",
+          "probability": 0.998046875
+        },
+        {
+          "start": 57.3,
+          "end": 57.88,
+          "word": "の",
+          "probability": 0.98828125
+        },
+        {
+          "start": 57.88,
+          "end": 58.48,
+          "word": "跡",
+          "probability": 0.827392578125
+        },
+        {
+          "start": 58.48,
+          "end": 58.64,
+          "word": "を",
+          "probability": 0.2176513671875
+        },
+        {
+          "start": 58.64,
+          "end": 59.2,
+          "word": "越",
+          "probability": 0.8681640625
+        },
+        {
+          "start": 59.2,
+          "end": 59.68,
+          "word": "えて",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 59.68,
+          "end": 60.02,
+          "word": "走",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 60.02,
+          "end": 60.72,
+          "word": "る",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::010",
+      "start": 63.56,
+      "end": 67.08,
+      "text": "全て失くした場所で",
+      "avg_logprob": -0.2297535202872585,
+      "no_speech_prob": 0.81494140625,
+      "words": [
+        {
+          "start": 63.56,
+          "end": 64.4,
+          "word": "全",
+          "probability": 0.72265625
+        },
+        {
+          "start": 64.4,
+          "end": 64.98,
+          "word": "て",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 64.98,
+          "end": 65.22,
+          "word": "失",
+          "probability": 0.9169921875
+        },
+        {
+          "start": 65.22,
+          "end": 65.58,
+          "word": "く",
+          "probability": 0.9951171875
+        },
+        {
+          "start": 65.58,
+          "end": 66.1,
+          "word": "した",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 66.1,
+          "end": 66.58,
+          "word": "場",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 66.58,
+          "end": 66.88,
+          "word": "所",
+          "probability": 1.0
+        },
+        {
+          "start": 66.88,
+          "end": 67.08,
+          "word": "で",
+          "probability": 0.99365234375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::011",
+      "start": 67.08,
+      "end": 70.92,
+      "text": "もう一度掴む ただひとつ",
+      "avg_logprob": -0.18480113365433432,
+      "no_speech_prob": 0.24755859375,
+      "words": [
+        {
+          "start": 67.08,
+          "end": 67.88,
+          "word": "もう",
+          "probability": 0.94189453125
+        },
+        {
+          "start": 67.88,
+          "end": 68.2,
+          "word": "一",
+          "probability": 0.99365234375
+        },
+        {
+          "start": 68.2,
+          "end": 68.5,
+          "word": "度",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 68.5,
+          "end": 69.26,
+          "word": "掴",
+          "probability": 0.97509765625
+        },
+        {
+          "start": 69.26,
+          "end": 69.52,
+          "word": "む",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 69.52,
+          "end": 69.78,
+          "word": " た",
+          "probability": 0.76708984375
+        },
+        {
+          "start": 69.78,
+          "end": 70.16,
+          "word": "だ",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 70.16,
+          "end": 70.4,
+          "word": "ひ",
+          "probability": 0.7939453125
+        },
+        {
+          "start": 70.4,
+          "end": 70.62,
+          "word": "と",
+          "probability": 0.994140625
+        },
+        {
+          "start": 70.62,
+          "end": 70.92,
+          "word": "つ",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::012",
+      "start": 71.48,
+      "end": 74.94,
+      "text": "守りたかったものを",
+      "avg_logprob": -0.18480113365433432,
+      "no_speech_prob": 0.24755859375,
+      "words": [
+        {
+          "start": 71.48,
+          "end": 71.92,
+          "word": "守",
+          "probability": 0.74755859375
+        },
+        {
+          "start": 71.92,
+          "end": 72.7,
+          "word": "り",
+          "probability": 1.0
+        },
+        {
+          "start": 72.7,
+          "end": 72.8,
+          "word": "た",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 72.8,
+          "end": 73.42,
+          "word": "かった",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 73.42,
+          "end": 74.4,
+          "word": "もの",
+          "probability": 0.96142578125
+        },
+        {
+          "start": 74.4,
+          "end": 74.94,
+          "word": "を",
+          "probability": 0.9501953125
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::013",
+      "start": 74.94,
+      "end": 77.52,
+      "text": "そう二度と離さない",
+      "avg_logprob": -0.18480113365433432,
+      "no_speech_prob": 0.24755859375,
+      "words": [
+        {
+          "start": 74.94,
+          "end": 75.62,
+          "word": "そう",
+          "probability": 0.301513671875
+        },
+        {
+          "start": 75.62,
+          "end": 75.8,
+          "word": "二",
+          "probability": 0.96875
+        },
+        {
+          "start": 75.8,
+          "end": 76.1,
+          "word": "度",
+          "probability": 1.0
+        },
+        {
+          "start": 76.1,
+          "end": 76.52,
+          "word": "と",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 76.52,
+          "end": 76.84,
+          "word": "離",
+          "probability": 0.9375
+        },
+        {
+          "start": 76.84,
+          "end": 77.28,
+          "word": "さ",
+          "probability": 1.0
+        },
+        {
+          "start": 77.28,
+          "end": 77.52,
+          "word": "ない",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::014",
+      "start": 78.32,
+      "end": 82.6,
+      "text": "見失わない 振り返らない",
+      "avg_logprob": -0.18480113365433432,
+      "no_speech_prob": 0.24755859375,
+      "words": [
+        {
+          "start": 78.32,
+          "end": 79.08,
+          "word": "見",
+          "probability": 0.9794921875
+        },
+        {
+          "start": 79.08,
+          "end": 79.44,
+          "word": "失",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 79.44,
+          "end": 80.14,
+          "word": "わ",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 80.14,
+          "end": 80.7,
+          "word": "ない",
+          "probability": 1.0
+        },
+        {
+          "start": 80.98,
+          "end": 81.34,
+          "word": " 振",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 81.34,
+          "end": 81.34,
+          "word": "り",
+          "probability": 1.0
+        },
+        {
+          "start": 81.34,
+          "end": 81.64,
+          "word": "返",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 81.64,
+          "end": 82.22,
+          "word": "ら",
+          "probability": 1.0
+        },
+        {
+          "start": 82.22,
+          "end": 82.6,
+          "word": "ない",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::015",
+      "start": 82.6,
+      "end": 86.02,
+      "text": "必ず取り戻すから",
+      "avg_logprob": -0.18480113365433432,
+      "no_speech_prob": 0.24755859375,
+      "words": [
+        {
+          "start": 82.6,
+          "end": 83.26,
+          "word": "必",
+          "probability": 0.93994140625
+        },
+        {
+          "start": 83.26,
+          "end": 83.82,
+          "word": "ず",
+          "probability": 1.0
+        },
+        {
+          "start": 83.82,
+          "end": 84.44,
+          "word": "取",
+          "probability": 0.90576171875
+        },
+        {
+          "start": 84.44,
+          "end": 84.7,
+          "word": "り",
+          "probability": 1.0
+        },
+        {
+          "start": 84.7,
+          "end": 85.12,
+          "word": "戻",
+          "probability": 1.0
+        },
+        {
+          "start": 85.12,
+          "end": 85.4,
+          "word": "す",
+          "probability": 1.0
+        },
+        {
+          "start": 85.4,
+          "end": 86.02,
+          "word": "から",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::016",
+      "start": 103.69999999999999,
+      "end": 107.3,
+      "text": "伸ばす指先届かなくて",
+      "avg_logprob": -0.20167410863297328,
+      "no_speech_prob": 0.420166015625,
+      "words": [
+        {
+          "start": 103.69999999999999,
+          "end": 104.38,
+          "word": "伸",
+          "probability": 0.94921875
+        },
+        {
+          "start": 104.38,
+          "end": 104.5,
+          "word": "ば",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 104.5,
+          "end": 104.86,
+          "word": "す",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 104.86,
+          "end": 105.34,
+          "word": "指",
+          "probability": 0.97900390625
+        },
+        {
+          "start": 105.34,
+          "end": 105.86,
+          "word": "先",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 105.86,
+          "end": 106.42,
+          "word": "届",
+          "probability": 0.927001953125
+        },
+        {
+          "start": 106.42,
+          "end": 106.82,
+          "word": "かな",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 106.82,
+          "end": 107.12,
+          "word": "く",
+          "probability": 1.0
+        },
+        {
+          "start": 107.12,
+          "end": 107.3,
+          "word": "て",
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::017",
+      "start": 107.3,
+      "end": 111.46,
+      "text": "求めてやまぬオンハッピネス",
+      "avg_logprob": -0.20167410863297328,
+      "no_speech_prob": 0.420166015625,
+      "words": [
+        {
+          "start": 107.3,
+          "end": 108.18,
+          "word": "求",
+          "probability": 0.61279296875
+        },
+        {
+          "start": 108.18,
+          "end": 108.92,
+          "word": "めて",
+          "probability": 0.998046875
+        },
+        {
+          "start": 108.92,
+          "end": 109.34,
+          "word": "や",
+          "probability": 0.74462890625
+        },
+        {
+          "start": 109.34,
+          "end": 109.66,
+          "word": "ま",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 109.66,
+          "end": 110.14,
+          "word": "ぬ",
+          "probability": 1.0
+        },
+        {
+          "start": 110.14,
+          "end": 110.28,
+          "word": "オ",
+          "probability": 0.11181640625
+        },
+        {
+          "start": 110.28,
+          "end": 110.88,
+          "word": "ンハ",
+          "probability": 0.951904296875
+        },
+        {
+          "start": 110.88,
+          "end": 110.88,
+          "word": "ッ",
+          "probability": 0.65869140625
+        },
+        {
+          "start": 110.88,
+          "end": 110.98,
+          "word": "ピ",
+          "probability": 0.998046875
+        },
+        {
+          "start": 110.98,
+          "end": 111.14,
+          "word": "ネ",
+          "probability": 0.93115234375
+        },
+        {
+          "start": 111.14,
+          "end": 111.46,
+          "word": "ス",
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::018",
+      "start": 111.46,
+      "end": 115.06,
+      "text": "揺らめく途切れた赤い軌跡",
+      "avg_logprob": -0.20167410863297328,
+      "no_speech_prob": 0.420166015625,
+      "words": [
+        {
+          "start": 111.46,
+          "end": 112.04,
+          "word": "揺",
+          "probability": 0.79150390625
+        },
+        {
+          "start": 112.04,
+          "end": 112.26,
+          "word": "ら",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 112.26,
+          "end": 112.42,
+          "word": "め",
+          "probability": 0.96240234375
+        },
+        {
+          "start": 112.42,
+          "end": 112.56,
+          "word": "く",
+          "probability": 1.0
+        },
+        {
+          "start": 112.56,
+          "end": 113.08,
+          "word": "途",
+          "probability": 0.985107421875
+        },
+        {
+          "start": 113.08,
+          "end": 113.26,
+          "word": "切",
+          "probability": 1.0
+        },
+        {
+          "start": 113.26,
+          "end": 113.56,
+          "word": "れた",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 113.56,
+          "end": 114.14,
+          "word": "赤",
+          "probability": 0.992919921875
+        },
+        {
+          "start": 114.14,
+          "end": 114.48,
+          "word": "い",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 114.48,
+          "end": 114.72,
+          "word": "軌",
+          "probability": 0.886474609375
+        },
+        {
+          "start": 114.72,
+          "end": 115.06,
+          "word": "跡",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::019",
+      "start": 115.06,
+      "end": 118.78,
+      "text": "流れて過ぎる青い風",
+      "avg_logprob": -0.20167410863297328,
+      "no_speech_prob": 0.420166015625,
+      "words": [
+        {
+          "start": 115.06,
+          "end": 115.92,
+          "word": "流",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 115.92,
+          "end": 116.58,
+          "word": "れて",
+          "probability": 0.978515625
+        },
+        {
+          "start": 116.58,
+          "end": 116.98,
+          "word": "過",
+          "probability": 0.861328125
+        },
+        {
+          "start": 116.98,
+          "end": 117.42,
+          "word": "ぎ",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 117.42,
+          "end": 117.8,
+          "word": "る",
+          "probability": 1.0
+        },
+        {
+          "start": 117.8,
+          "end": 118.1,
+          "word": "青",
+          "probability": 0.96533203125
+        },
+        {
+          "start": 118.1,
+          "end": 118.54,
+          "word": "い",
+          "probability": 1.0
+        },
+        {
+          "start": 118.54,
+          "end": 118.78,
+          "word": "風",
+          "probability": 0.99462890625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::020",
+      "start": 118.78,
+      "end": 122.74,
+      "text": "忘れかけたオン開き",
+      "avg_logprob": -0.20167410863297328,
+      "no_speech_prob": 0.420166015625,
+      "words": [
+        {
+          "start": 118.78,
+          "end": 119.96,
+          "word": "忘",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 119.96,
+          "end": 120.74,
+          "word": "れ",
+          "probability": 1.0
+        },
+        {
+          "start": 120.74,
+          "end": 120.82,
+          "word": "か",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 120.82,
+          "end": 121.14,
+          "word": "け",
+          "probability": 1.0
+        },
+        {
+          "start": 121.14,
+          "end": 121.48,
+          "word": "た",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 121.48,
+          "end": 121.8,
+          "word": "オ",
+          "probability": 0.1187744140625
+        },
+        {
+          "start": 121.8,
+          "end": 122.06,
+          "word": "ン",
+          "probability": 0.98486328125
+        },
+        {
+          "start": 122.06,
+          "end": 122.28,
+          "word": "開",
+          "probability": 0.99609375
+        },
+        {
+          "start": 122.28,
+          "end": 122.74,
+          "word": "き",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::021",
+      "start": 122.74,
+      "end": 126.78,
+      "text": "戻らぬ昨日を探す",
+      "avg_logprob": -0.1907835110374119,
+      "no_speech_prob": 0.378662109375,
+      "words": [
+        {
+          "start": 122.74,
+          "end": 123.94,
+          "word": "戻",
+          "probability": 0.98046875
+        },
+        {
+          "start": 123.94,
+          "end": 124.3,
+          "word": "ら",
+          "probability": 0.998046875
+        },
+        {
+          "start": 124.3,
+          "end": 124.48,
+          "word": "ぬ",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 124.48,
+          "end": 124.74,
+          "word": "昨",
+          "probability": 0.9482421875
+        },
+        {
+          "start": 124.74,
+          "end": 125.1,
+          "word": "日",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 125.1,
+          "end": 125.46,
+          "word": "を",
+          "probability": 0.9765625
+        },
+        {
+          "start": 125.46,
+          "end": 126.12,
+          "word": "探",
+          "probability": 0.989013671875
+        },
+        {
+          "start": 126.12,
+          "end": 126.78,
+          "word": "す",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::022",
+      "start": 126.78,
+      "end": 130.36,
+      "text": "高く羽ばたき飛んだ",
+      "avg_logprob": -0.1907835110374119,
+      "no_speech_prob": 0.378662109375,
+      "words": [
+        {
+          "start": 126.78,
+          "end": 127.78,
+          "word": "高",
+          "probability": 0.87744140625
+        },
+        {
+          "start": 127.78,
+          "end": 128.36,
+          "word": "く",
+          "probability": 1.0
+        },
+        {
+          "start": 128.36,
+          "end": 128.66,
+          "word": "羽",
+          "probability": 0.998291015625
+        },
+        {
+          "start": 128.66,
+          "end": 128.96,
+          "word": "ば",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 128.96,
+          "end": 129.16,
+          "word": "た",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 129.16,
+          "end": 129.54,
+          "word": "き",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 129.54,
+          "end": 129.84,
+          "word": "飛",
+          "probability": 0.97119140625
+        },
+        {
+          "start": 129.84,
+          "end": 130.36,
+          "word": "んだ",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::023",
+      "start": 130.36,
+      "end": 135.5,
+      "text": "鳥のような日々 願い切る",
+      "avg_logprob": -0.1907835110374119,
+      "no_speech_prob": 0.378662109375,
+      "words": [
+        {
+          "start": 130.36,
+          "end": 131.72,
+          "word": "鳥",
+          "probability": 0.9697265625
+        },
+        {
+          "start": 131.72,
+          "end": 132.08,
+          "word": "の",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 132.08,
+          "end": 132.44,
+          "word": "よう",
+          "probability": 0.96923828125
+        },
+        {
+          "start": 132.44,
+          "end": 132.84,
+          "word": "な",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 132.84,
+          "end": 133.14,
+          "word": "日",
+          "probability": 0.99609375
+        },
+        {
+          "start": 133.14,
+          "end": 133.44,
+          "word": "々",
+          "probability": 1.0
+        },
+        {
+          "start": 133.7,
+          "end": 134.32,
+          "word": " 願い",
+          "probability": 0.92919921875
+        },
+        {
+          "start": 134.32,
+          "end": 135.0,
+          "word": "切",
+          "probability": 0.7890625
+        },
+        {
+          "start": 135.0,
+          "end": 135.5,
+          "word": "る",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::024",
+      "start": 138.5,
+      "end": 141.94,
+      "text": "いつか違った場所で",
+      "avg_logprob": -0.1907835110374119,
+      "no_speech_prob": 0.378662109375,
+      "words": [
+        {
+          "start": 138.5,
+          "end": 139.34,
+          "word": "いつ",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 139.34,
+          "end": 139.78,
+          "word": "か",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 139.78,
+          "end": 140.16,
+          "word": "違",
+          "probability": 0.95751953125
+        },
+        {
+          "start": 140.16,
+          "end": 140.86,
+          "word": "った",
+          "probability": 1.0
+        },
+        {
+          "start": 140.86,
+          "end": 141.46,
+          "word": "場",
+          "probability": 0.99365234375
+        },
+        {
+          "start": 141.46,
+          "end": 141.8,
+          "word": "所",
+          "probability": 1.0
+        },
+        {
+          "start": 141.8,
+          "end": 141.94,
+          "word": "で",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::025",
+      "start": 142.54000000000002,
+      "end": 145.68,
+      "text": "孤独と果たすこの想い",
+      "avg_logprob": -0.1907835110374119,
+      "no_speech_prob": 0.378662109375,
+      "words": [
+        {
+          "start": 142.4,
+          "end": 142.82,
+          "word": "孤",
+          "probability": 0.70166015625
+        },
+        {
+          "start": 142.82,
+          "end": 143.06,
+          "word": "独",
+          "probability": 1.0
+        },
+        {
+          "start": 143.06,
+          "end": 143.3,
+          "word": "と",
+          "probability": 0.783203125
+        },
+        {
+          "start": 143.3,
+          "end": 143.94,
+          "word": "果",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 143.94,
+          "end": 144.14,
+          "word": "た",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 144.14,
+          "end": 144.36,
+          "word": "す",
+          "probability": 1.0
+        },
+        {
+          "start": 144.36,
+          "end": 144.94,
+          "word": "この",
+          "probability": 0.9443359375
+        },
+        {
+          "start": 144.94,
+          "end": 145.5,
+          "word": "想",
+          "probability": 0.9736328125
+        },
+        {
+          "start": 145.5,
+          "end": 145.68,
+          "word": "い",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::026",
+      "start": 146.5,
+      "end": 149.88,
+      "text": "大切だという人を",
+      "avg_logprob": -0.1907835110374119,
+      "no_speech_prob": 0.378662109375,
+      "words": [
+        {
+          "start": 146.36,
+          "end": 146.78,
+          "word": "大",
+          "probability": 0.9677734375
+        },
+        {
+          "start": 146.78,
+          "end": 147.58,
+          "word": "切",
+          "probability": 1.0
+        },
+        {
+          "start": 147.58,
+          "end": 148.16,
+          "word": "だ",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 148.16,
+          "end": 148.6,
+          "word": "という",
+          "probability": 0.9853515625
+        },
+        {
+          "start": 148.6,
+          "end": 149.34,
+          "word": "人",
+          "probability": 0.9921875
+        },
+        {
+          "start": 149.34,
+          "end": 149.88,
+          "word": "を",
+          "probability": 0.99609375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::027",
+      "start": 149.88,
+      "end": 152.42,
+      "text": "その胸に抱きしめる",
+      "avg_logprob": -0.20202636579051614,
+      "no_speech_prob": 0.041259765625,
+      "words": [
+        {
+          "start": 149.88,
+          "end": 150.46,
+          "word": "その",
+          "probability": 0.9560546875
+        },
+        {
+          "start": 150.46,
+          "end": 151.06,
+          "word": "胸",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 151.06,
+          "end": 151.44,
+          "word": "に",
+          "probability": 0.99609375
+        },
+        {
+          "start": 151.44,
+          "end": 151.6,
+          "word": "抱",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 151.6,
+          "end": 151.84,
+          "word": "き",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 151.84,
+          "end": 151.98,
+          "word": "し",
+          "probability": 0.9853515625
+        },
+        {
+          "start": 151.98,
+          "end": 152.26,
+          "word": "め",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 152.26,
+          "end": 152.42,
+          "word": "る",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::028",
+      "start": 153.38,
+      "end": 157.22,
+      "text": "大丈夫だと繰り返して",
+      "avg_logprob": -0.20202636579051614,
+      "no_speech_prob": 0.041259765625,
+      "words": [
+        {
+          "start": 153.38,
+          "end": 154.32,
+          "word": "大丈夫",
+          "probability": 0.60888671875
+        },
+        {
+          "start": 154.32,
+          "end": 155.14,
+          "word": "だ",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 155.14,
+          "end": 155.46,
+          "word": "と",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 155.46,
+          "end": 156.2,
+          "word": "繰",
+          "probability": 0.962890625
+        },
+        {
+          "start": 156.2,
+          "end": 156.36,
+          "word": "り",
+          "probability": 1.0
+        },
+        {
+          "start": 156.36,
+          "end": 156.52,
+          "word": "返",
+          "probability": 1.0
+        },
+        {
+          "start": 156.52,
+          "end": 157.22,
+          "word": "して",
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::029",
+      "start": 157.22,
+      "end": 161.54,
+      "text": "守るよ命の限り",
+      "avg_logprob": -0.20202636579051614,
+      "no_speech_prob": 0.041259765625,
+      "words": [
+        {
+          "start": 157.22,
+          "end": 158.16,
+          "word": "守",
+          "probability": 0.9599609375
+        },
+        {
+          "start": 158.16,
+          "end": 158.54,
+          "word": "る",
+          "probability": 1.0
+        },
+        {
+          "start": 158.54,
+          "end": 158.64,
+          "word": "よ",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 158.64,
+          "end": 159.42,
+          "word": "命",
+          "probability": 0.7119140625
+        },
+        {
+          "start": 159.42,
+          "end": 159.98,
+          "word": "の",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 159.98,
+          "end": 160.58,
+          "word": "限",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 160.58,
+          "end": 161.54,
+          "word": "り",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::030",
+      "start": 190.12,
+      "end": 193.82,
+      "text": "全て失くした場所で",
+      "avg_logprob": -0.2060883666934638,
+      "no_speech_prob": 0.344482421875,
+      "words": [
+        {
+          "start": 190.12,
+          "end": 190.96,
+          "word": "全",
+          "probability": 0.68994140625
+        },
+        {
+          "start": 190.96,
+          "end": 191.72,
+          "word": "て",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 191.72,
+          "end": 191.94,
+          "word": "失",
+          "probability": 0.83349609375
+        },
+        {
+          "start": 191.94,
+          "end": 192.28,
+          "word": "く",
+          "probability": 0.97705078125
+        },
+        {
+          "start": 192.28,
+          "end": 192.82,
+          "word": "した",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 192.82,
+          "end": 193.3,
+          "word": "場",
+          "probability": 0.974609375
+        },
+        {
+          "start": 193.3,
+          "end": 193.62,
+          "word": "所",
+          "probability": 1.0
+        },
+        {
+          "start": 193.62,
+          "end": 193.82,
+          "word": "で",
+          "probability": 0.99658203125
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::031",
+      "start": 193.82,
+      "end": 196.26,
+      "text": "もう一度掴む",
+      "avg_logprob": -0.2060883666934638,
+      "no_speech_prob": 0.344482421875,
+      "words": [
+        {
+          "start": 193.82,
+          "end": 194.6,
+          "word": "もう",
+          "probability": 0.59716796875
+        },
+        {
+          "start": 194.6,
+          "end": 194.9,
+          "word": "一",
+          "probability": 0.978515625
+        },
+        {
+          "start": 194.9,
+          "end": 195.18,
+          "word": "度",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 195.18,
+          "end": 196.0,
+          "word": "掴",
+          "probability": 0.93115234375
+        },
+        {
+          "start": 196.0,
+          "end": 196.26,
+          "word": "む",
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::032",
+      "start": 196.26,
+      "end": 197.62,
+      "text": "ただひとつ",
+      "avg_logprob": -0.2060883666934638,
+      "no_speech_prob": 0.344482421875,
+      "words": [
+        {
+          "start": 196.26,
+          "end": 196.78,
+          "word": "ただ",
+          "probability": 0.47900390625
+        },
+        {
+          "start": 196.78,
+          "end": 197.18,
+          "word": "ひ",
+          "probability": 0.634765625
+        },
+        {
+          "start": 197.18,
+          "end": 197.34,
+          "word": "と",
+          "probability": 0.9921875
+        },
+        {
+          "start": 197.34,
+          "end": 197.62,
+          "word": "つ",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::033",
+      "start": 198.3,
+      "end": 201.68,
+      "text": "守りたかったものを",
+      "avg_logprob": -0.2060883666934638,
+      "no_speech_prob": 0.344482421875,
+      "words": [
+        {
+          "start": 198.24,
+          "end": 198.66,
+          "word": "守",
+          "probability": 0.953125
+        },
+        {
+          "start": 198.66,
+          "end": 199.42,
+          "word": "り",
+          "probability": 1.0
+        },
+        {
+          "start": 199.42,
+          "end": 199.5,
+          "word": "た",
+          "probability": 0.998046875
+        },
+        {
+          "start": 199.5,
+          "end": 200.1,
+          "word": "かった",
+          "probability": 0.9951171875
+        },
+        {
+          "start": 200.1,
+          "end": 201.16,
+          "word": "もの",
+          "probability": 0.822265625
+        },
+        {
+          "start": 201.16,
+          "end": 201.68,
+          "word": "を",
+          "probability": 0.9892578125
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::034",
+      "start": 201.68,
+      "end": 204.24,
+      "text": "そう二度と離さない",
+      "avg_logprob": -0.2060883666934638,
+      "no_speech_prob": 0.344482421875,
+      "words": [
+        {
+          "start": 201.68,
+          "end": 202.22,
+          "word": "そう",
+          "probability": 0.8662109375
+        },
+        {
+          "start": 202.22,
+          "end": 202.52,
+          "word": "二",
+          "probability": 0.9228515625
+        },
+        {
+          "start": 202.52,
+          "end": 202.82,
+          "word": "度",
+          "probability": 1.0
+        },
+        {
+          "start": 202.82,
+          "end": 203.24,
+          "word": "と",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 203.24,
+          "end": 203.6,
+          "word": "離",
+          "probability": 0.8896484375
+        },
+        {
+          "start": 203.6,
+          "end": 203.88,
+          "word": "さ",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 203.88,
+          "end": 204.24,
+          "word": "ない",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::035",
+      "start": 205.12,
+      "end": 207.4,
+      "text": "見失わない",
+      "avg_logprob": -0.2060883666934638,
+      "no_speech_prob": 0.344482421875,
+      "words": [
+        {
+          "start": 205.12,
+          "end": 205.8,
+          "word": "見",
+          "probability": 0.97021484375
+        },
+        {
+          "start": 205.8,
+          "end": 206.18,
+          "word": "失",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 206.18,
+          "end": 206.86,
+          "word": "わ",
+          "probability": 0.97802734375
+        },
+        {
+          "start": 206.86,
+          "end": 207.4,
+          "word": "ない",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::036",
+      "start": 207.4,
+      "end": 209.48,
+      "text": "振り返らない",
+      "avg_logprob": -0.2060883666934638,
+      "no_speech_prob": 0.344482421875,
+      "words": [
+        {
+          "start": 207.4,
+          "end": 208.06,
+          "word": "振",
+          "probability": 0.6983642578125
+        },
+        {
+          "start": 208.06,
+          "end": 208.08,
+          "word": "り",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 208.08,
+          "end": 208.4,
+          "word": "返",
+          "probability": 0.9951171875
+        },
+        {
+          "start": 208.4,
+          "end": 208.96,
+          "word": "ら",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 208.96,
+          "end": 209.48,
+          "word": "ない",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::037",
+      "start": 209.48,
+      "end": 212.76,
+      "text": "あなたを 取り戻すから",
+      "avg_logprob": -0.33413460621467006,
+      "no_speech_prob": 0.05145263671875,
+      "words": [
+        {
+          "start": 209.48,
+          "end": 209.92,
+          "word": "あ",
+          "probability": 0.90576171875
+        },
+        {
+          "start": 209.92,
+          "end": 210.32,
+          "word": "なた",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 210.32,
+          "end": 210.54,
+          "word": "を",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 210.66,
+          "end": 211.3,
+          "word": " 取",
+          "probability": 0.9921875
+        },
+        {
+          "start": 211.3,
+          "end": 211.44,
+          "word": "り",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 211.44,
+          "end": 211.82,
+          "word": "戻",
+          "probability": 0.998046875
+        },
+        {
+          "start": 211.82,
+          "end": 212.16,
+          "word": "す",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 212.16,
+          "end": 212.76,
+          "word": "から",
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::038",
+      "start": 245.33999999999997,
+      "end": 256.08,
+      "text": "ご視聴ありがとうございました",
+      "avg_logprob": -0.11920166015625,
+      "no_speech_prob": 0.63720703125,
+      "words": [
+        {
+          "start": 245.33999999999997,
+          "end": 246.73999999999998,
+          "word": "ご",
+          "probability": 0.55224609375
+        },
+        {
+          "start": 246.73999999999998,
+          "end": 248.14,
+          "word": "視",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 248.14,
+          "end": 248.48,
+          "word": "聴",
+          "probability": 1.0
+        },
+        {
+          "start": 248.48,
+          "end": 256.08,
+          "word": "ありがとうございました",
+          "probability": 0.998046875
+        }
+      ]
+    }
+  ]
+}

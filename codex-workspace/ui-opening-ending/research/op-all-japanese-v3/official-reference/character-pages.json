@@ -1,0 +1,143 @@
+[
+  {
+    "path": "mahoko.htm",
+    "url": "https://web.archive.org/web/20160422210034id_/http://cotton-soft.com/gameproducts/02_recon/mahoko.htm",
+    "bytes": 1847,
+    "links": [
+      "chara/mahoko.jpg",
+      "chara.htm",
+      "index.htm",
+      "story.htm",
+      "place.htm",
+      "event.htm",
+      "trial.htm",
+      "spec.htm",
+      "etc.htm",
+      "chara.htm",
+      "kureha.htm",
+      "momizi.htm",
+      "down/maho_1.mp3",
+      "down/maho_2.mp3",
+      "down/maho_3.mp3",
+      "down/maho_4.mp3",
+      "down/maho_5.mp3",
+      "down/maho_6.mp3"
+    ]
+  },
+  {
+    "path": "kureha.htm",
+    "url": "https://web.archive.org/web/20160716113625id_/http://cotton-soft.com/gameproducts/02_recon/kureha.htm",
+    "bytes": 1591,
+    "links": [
+      "chara/kureha.jpg",
+      "chara.htm",
+      "index.htm",
+      "story.htm",
+      "place.htm",
+      "event.htm",
+      "trial.htm",
+      "spec.htm",
+      "etc.htm",
+      "chara.htm",
+      "kamizyo.htm",
+      "mahoko.htm",
+      "down/kure_1.mp3",
+      "down/kure_2.mp3",
+      "down/kure_3.mp3"
+    ]
+  },
+  {
+    "path": "momizi.htm",
+    "url": "https://web.archive.org/web/20160716133442id_/http://cotton-soft.com/gameproducts/02_recon/momizi.htm",
+    "bytes": 1591,
+    "links": [
+      "chara/momiji.jpg",
+      "chara.htm",
+      "index.htm",
+      "story.htm",
+      "place.htm",
+      "event.htm",
+      "trial.htm",
+      "spec.htm",
+      "etc.htm",
+      "chara.htm",
+      "mahoko.htm",
+      "siina.htm",
+      "down/momi_1.mp3",
+      "down/momi_2.mp3",
+      "down/momi_3.mp3"
+    ]
+  },
+  {
+    "path": "siina.htm",
+    "url": "https://web.archive.org/web/20160429014128id_/http://cotton-soft.com/gameproducts/02_recon/siina.htm",
+    "bytes": 1847,
+    "links": [
+      "chara/shiina.jpg",
+      "chara.htm",
+      "index.htm",
+      "story.htm",
+      "place.htm",
+      "event.htm",
+      "trial.htm",
+      "spec.htm",
+      "etc.htm",
+      "chara.htm",
+      "momizi.htm",
+      "masaki.htm",
+      "down/sina_1.mp3",
+      "down/sina_2.mp3",
+      "down/sina_3.mp3",
+      "down/sina_4.mp3",
+      "down/sina_5.mp3",
+      "down/sina_6.mp3"
+    ]
+  },
+  {
+    "path": "masaki.htm",
+    "url": "https://web.archive.org/web/20160423014251id_/http://cotton-soft.com/gameproducts/02_recon/masaki.htm",
+    "bytes": 1842,
+    "links": [
+      "chara/masaki.jpg",
+      "chara.htm",
+      "index.htm",
+      "story.htm",
+      "place.htm",
+      "event.htm",
+      "trial.htm",
+      "spec.htm",
+      "etc.htm",
+      "chara.htm",
+      "siina.htm",
+      "makino.htm",
+      "down/masa_1.mp3",
+      "down/masa_2.mp3",
+      "down/masa_3.mp3",
+      "down/masa_4.mp3",
+      "down/masa_5.mp3",
+      "down/masa_6.mp3"
+    ]
+  },
+  {
+    "path": "mahomama.htm",
+    "url": "https://web.archive.org/web/20160423023546id_/http://cotton-soft.com/gameproducts/02_recon/mahomama.htm",
+    "bytes": 1592,
+    "links": [
+      "chara/mahomama.jpg",
+      "chara.htm",
+      "index.htm",
+      "story.htm",
+      "place.htm",
+      "event.htm",
+      "trial.htm",
+      "spec.htm",
+      "etc.htm",
+      "chara.htm",
+      "nanako.htm",
+      "yasima.htm",
+      "down/mama_1.mp3",
+      "down/mama_2.mp3",
+      "down/mama_3.mp3"
+    ]
+  }
+]

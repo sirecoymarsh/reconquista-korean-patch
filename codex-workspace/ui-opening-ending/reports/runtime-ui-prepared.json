@@ -1,0 +1,69 @@
+{
+  "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui",
+  "original_source_evidence_reused": "../reports/runtime-ko-base-verified.json",
+  "files": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui\\data.arc",
+      "sha256": "f64c1815d5bb02758e0b2ffa8dc9056fc90029868079100ad345d882157bc070",
+      "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\data.arc"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui\\data1.arc",
+      "sha256": "e236b1a858e93d052ed34ebb9eacb5799303b660efd8a9119becb565bfdc386b",
+      "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\data1.arc"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui\\data2.arc",
+      "sha256": "1d5fd4ab1b9bd630068f325114cbc4152722216712fef931298d92f958695ad0",
+      "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\data2.arc"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui\\slowdata.arc",
+      "sha256": "8f69a4f4c9005894f2801091e77b37561132b5531b35b21b4148b73b4e819038",
+      "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\slowdata.arc"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui\\stream.arc",
+      "sha256": "25620230e762ddf92af8dc790a3cd19e5790913905e1224ae2ef527afb1ed140",
+      "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\stream.arc"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui\\voice.arc",
+      "sha256": "357dc1d7dc50c241c2670c1d99642275a9536b71544fa8ed51ce3cce420de07b",
+      "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\voice.arc"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui\\レコンキスタ.exe",
+      "sha256": "cd1c38ac20d9e502fbc58b7392ca77ec32e3d56f90d988580a3cf58cb6f95146",
+      "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\bin\\レコンキスタ.exe"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui\\movie\\Recon_OP800_H.mpg",
+      "sha256": "6da04d09fd954c67b004b6cecfe22fd89da473cbf60fd74856d2170a1972995a",
+      "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\movie\\Recon_OP800_H.mpg"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui\\scenario.arc",
+      "sha256": "6d34561950f831ebf18d99ec37a9afcb147c52c60a77e82b7cbbcde7345e1b6f",
+      "source": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\ui-trial-v1\\scenario.arc"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui\\fastdata.arc",
+      "sha256": "54db45da9b67e4f3862a36ef4ef5c5d4ec7f60e99e9f46da3690a9a338154535",
+      "source": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\ui-trial-v1\\fastdata.arc"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui\\font\\LICENSE.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "source": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\ui-trial-v1\\font\\LICENSE.txt"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui\\font\\ReconquistaUIKR.otf",
+      "sha256": "7703661cd363a137fc025db1d3454980e75021a053cf5693aa737a40ff0bd61f",
+      "source": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\ui-trial-v1\\font\\ReconquistaUIKR.otf"
+    }
+  ],
+  "save_data": "fresh runtime-local savedata",
+  "registry_namespace": "Reconquista-UI-Isolated-20261022",
+  "launch_exe": "レコンキスタ.exe"
+}

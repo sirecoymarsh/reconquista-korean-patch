@@ -1,0 +1,4038 @@
+{
+  "translator_model": "Codex internal",
+  "coordinator_thread_id": "01a16335-afd6-74f0-8990-fd759c6ead35",
+  "scope": "session-2 only",
+  "status": "completed_targeted_review_central_integration_pending",
+  "reviews": [
+    {
+      "batch": "lane-1/batches/maho_04_u0001-0117.json",
+      "sha256": "74dde1ec2af4a4ee27c8df40fc2891c2314381fe7acf2419597a1dcffc0f5f86",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "all source and target ordinary fields plus inline records in the batch; targeted semantic QA",
+      "units_reviewed": 117,
+      "text_fields_reviewed": 180,
+      "inline_records_reviewed": 12,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        "maho_04.mjo::u0039: 행위자 반문 교정 확인(네가 그러겠다고!?)"
+      ],
+      "notes": [
+        "u0007/0049/0050/0057/0070의 text+inline 합성 확인.",
+        "首刈り女/田村 표기와 경찰→신야 존댓말 확인."
+      ],
+      "structural_evidence": "reused lane validation.json; no duplicate validator invocation by coordinator",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_14_u0001-u0107.json",
+      "sha256": "74a6965678fbd49f5373999d2b7366bb8f1f7b45a0cf07f2f575c088f38f2266",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "all source and target ordinary fields plus inline records in the batch; targeted semantic QA",
+      "units_reviewed": 107,
+      "text_fields_reviewed": 143,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        "maho_14.mjo::u0079: 부정하려다 멈추는 대사 교정 확인(그런 건 아니…)"
+      ],
+      "notes": [
+        "부모 사고 소식→마호코 신뢰 고백 장면 전체 대조.",
+        "u0009 발길을+멈추+고 합성 확인."
+      ],
+      "structural_evidence": "reused lane validation.json; no duplicate validator invocation by coordinator",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_10_u0001-0116.json",
+      "sha256": "4afa911888fcc2114aa13f08db2ae354c83456a3b3ea42207a13aabdc81f526e",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "all source and target ordinary fields plus inline records in the batch; targeted semantic QA",
+      "units_reviewed": 116,
+      "text_fields_reviewed": 158,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        "sina_10.mjo::u0011/u0016: 등장 전 시이나 수신자 제거 확인",
+        "sina_10.mjo::u0076: 실제 질문자인 시이나로 수신자 교정 확인",
+        "sina_10.mjo::u0113: 생각하는 심정도 문법 교정 확인"
+      ],
+      "notes": [
+        "등굣길→교문→점심 장면 전체 대조, 화자별 경어 전환 확인."
+      ],
+      "structural_evidence": "reused lane validation.json; no duplicate validator invocation by coordinator",
+      "runtime_verified": false,
+      "subsequent_targeted_corrections": "신+조사 consistency only; changed forms directly verified in 374246. Original semantic review ranges unchanged."
+    },
+    {
+      "batch": "lane-2/batches/maho_14_u0108-u0217.json",
+      "sha256": "c502a6f3ad52a8c05260947dfbfb2d354b5a26d60443637d086a900d57e4a1c5",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "all source and target ordinary fields plus inline records in the batch; targeted semantic QA",
+      "units_reviewed": 110,
+      "text_fields_reviewed": 157,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "structural_evidence": "reused lane validation.json",
+      "runtime_verified": false,
+      "prior_review_sha256": "5c2afed339d8a4dc74f35f9d530b0b53eec3276ebe1e71e70fc2ebcfef6e2b29",
+      "term_only_followup": "caa965: exact35 object terms verified; previous semantic review reused, no whole-batch rereview"
+    },
+    {
+      "batch": "lane-1/batches/maho_04_u0118-0253.json",
+      "sha256": "d53698650ce496fc2b38f48ad1e02c7efe3c512d5aa9d713eeaa00d571443839",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "all source and target ordinary fields plus inline records in the batch; targeted semantic QA",
+      "units_reviewed": 136,
+      "text_fields_reviewed": 189,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "structural_evidence": "reused lane validation.json",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_10_u0117-0246.json",
+      "sha256": "4e536d2fc41f4ce31525ff8b28a6d96dd43ca83c5cca1585e5618e2154817095",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "all source and target ordinary fields plus inline records in the batch; targeted semantic QA",
+      "units_reviewed": 130,
+      "text_fields_reviewed": 182,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        "u0181 확신/앞으로의 불확실성 연결 교정",
+        "u0189 화자의 추측을 객관적 불가능으로 강화하지 않도록 교정"
+      ],
+      "structural_evidence": "reused lane validation.json",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_04_u0254-0360.json",
+      "sha256": "7c929c9d47db285c5d55538596ba0a5f28466ee5101c66a8b0a98d331533adab",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "all fields; narration switch at 274, remembered quotation 291=236, inline base recombination",
+      "unit_ranges": [
+        [
+          254,
+          360
+        ]
+      ],
+      "units_reviewed": 107,
+      "text_fields_reviewed": 141,
+      "inline_records_reviewed": 4,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "structural_evidence": "reused lane validation.json; not a new test run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_14_u0218-u0328.json",
+      "sha256": "6e88cc29ac5e56eed8e3d4b808b00379b55bb8ee94580f7fb589ca19fcc66eaa",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "focused childhood context review; 3 deferred exposure-action units inspected by source ID, nonsexual surrounding translation reviewed",
+      "unit_ranges": [
+        [
+          218,
+          261
+        ]
+      ],
+      "units_reviewed": 41,
+      "text_fields_reviewed": 56,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "structural_evidence": "reused lane validation.json; not a new test run",
+      "runtime_verified": false,
+      "subsequent_targeted_corrections": "신+조사 consistency only; changed forms directly verified in 374246. Original semantic review ranges unchanged.",
+      "prior_review_sha256": "17662ccaea20e65216c4e5c7a7049bf46cdba191363e3f38202e45dc79f74a06",
+      "term_only_followup": "caa965: exact35 object terms verified; previous semantic review reused, no whole-batch rereview"
+    },
+    {
+      "batch": "lane-2/batches/maho_14_u0329-u0476.json",
+      "sha256": "ea668ac65122b65cc4711a246cdfe380f2f40eabd59436499dace26a77ea4b90",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "focused branch and manual-ruby review; ctrl-based ruby at u0453 confirmed in original disassembly",
+      "unit_ranges": [
+        [
+          438,
+          461
+        ]
+      ],
+      "units_reviewed": 24,
+      "text_fields_reviewed": 36,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "structural_evidence": "reused lane validation.json; not a new test run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_10_u0247-0384.json",
+      "sha256": "16a0d6db841aaef7d90b18b05d2b3820220940cb86f6b60efa5ac1d3e7f96560",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "focused narrator switch and directed voice to Shiomi",
+      "unit_ranges": [
+        [
+          260,
+          292
+        ]
+      ],
+      "units_reviewed": 33,
+      "text_fields_reviewed": 45,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "structural_evidence": "reused lane validation.json; not a new test run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_10_u0385-0511.json",
+      "sha256": "a762e1b025dd681c360f117a0423a4fdd9299389958a4342d837e908a26c4208",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "focused Yue name/identity ruby and end-scene POV; preserve source ambiguity and actual participants",
+      "unit_ranges": [
+        [
+          400,
+          425
+        ],
+        [
+          485,
+          511
+        ]
+      ],
+      "units_reviewed": 53,
+      "text_fields_reviewed": 84,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "structural_evidence": "reused lane validation.json; not a new test run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_11_u0272-0409.json",
+      "sha256": "b5101ca0452be356eda314142616b1efed9c8766d985be14053b25686a2d7b98",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "all 138 source/target units; cooking scene, phone recipients, narrator switch at 365, mistaken visual identity and ruby recombination",
+      "unit_ranges": [
+        [
+          272,
+          409
+        ]
+      ],
+      "units_reviewed": 138,
+      "text_fields_reviewed": 183,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_15_u0001-u0123.json",
+      "sha256": "546b865d83c0b9b4e29a141d4844177fa156953f93a08d7e46dfca73ccc5476e",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "all fields; current adult scene and fake dialect, recipients, frozen classroom term",
+      "unit_ranges": [
+        [
+          1,
+          123
+        ]
+      ],
+      "units_reviewed": 123,
+      "text_fields_reviewed": 178,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        "u0016 surplus 도 removed; u0079 recipient corrected to Shiina; verified in bb7e2b"
+      ],
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_06_u0001-0116.json",
+      "sha256": "f3b968c7dbca7a2aeea47bb14de0fd01a3eeec9637ccbf7e70051da95b19de31",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "all fields; scripture, three-party recipients, subjective uncertainty and semantic ruby",
+      "unit_ranges": [
+        [
+          1,
+          116
+        ]
+      ],
+      "units_reviewed": 116,
+      "text_fields_reviewed": 169,
+      "inline_records_reviewed": 6,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        "u0104 筈 modality restored with 있을 뿐일 텐데; verified in bb7e2b"
+      ],
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_05_u0001-0149.json",
+      "sha256": "3640ebb99b987224cfc8ada416fb7edbf3882e694fa7536f1d1c9f5d8c94e701",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "focused stranger dialogue, rumor backstory and semantic/base ruby recombination",
+      "unit_ranges": [
+        [
+          90,
+          149
+        ]
+      ],
+      "units_reviewed": 60,
+      "text_fields_reviewed": 85,
+      "inline_records_reviewed": 4,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_05_u0150-0187.json",
+      "sha256": "eca005322e97d077f65da1e3dd194402c574ac0bbb67985e5a3f0e09a7c7fb00",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "neighboring transition from waiting to unexplained absence and last-night ruby",
+      "unit_ranges": [
+        [
+          150,
+          159
+        ]
+      ],
+      "units_reviewed": 10,
+      "text_fields_reviewed": 16,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_15_u0672-u0755.json",
+      "sha256": "9632b90f5e69edac60fc0076cfb3595ec1d1bddd54af95c191c5bf65bd833404",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "u0672–0742 source/target fields; Kureha negotiation, recipient change, contextual 贖う, new moon deadline and manual ruby roles",
+      "unit_ranges": [
+        [
+          672,
+          742
+        ]
+      ],
+      "units_reviewed": 71,
+      "text_fields_reviewed": 98,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_16_u0001-u0116.json",
+      "sha256": "b7b6cd0d7948ad7943ae1359744381f59decaa23f5993b986aec2d7681e37ed1",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "all fields; hospital childhood viewpoint, adult recipient honorifics, visible/invisible thread motif, parents conversation and child misunderstanding",
+      "unit_ranges": [
+        [
+          1,
+          116
+        ]
+      ],
+      "units_reviewed": 116,
+      "text_fields_reviewed": 167,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        "u0060 restored 안 보이게 됐잖아; verified 346432"
+      ],
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false,
+      "prior_review_sha256": "30adeae336f81902fb907668f315aa65c8285f5dc98396cb72df683c03050dbb",
+      "term_only_followup": "caa965: exact35 object terms verified; previous semantic review reused, no whole-batch rereview"
+    },
+    {
+      "batch": "lane-1/batches/maho_06_u0457-0574.json",
+      "sha256": "baed54207f4737d895e733e8e3a274d73e3ddf312abced3afdb0a4201f3addc3",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "focused missing-person uncertainty, mother conversation and manual ruby 그 사람/애 아빠",
+      "unit_ranges": [
+        [
+          461,
+          481
+        ]
+      ],
+      "units_reviewed": 21,
+      "text_fields_reviewed": 34,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        "u0469 naturalized to 마호코가 무사한 거다; verified 346432"
+      ],
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_12_u0367-0512.json",
+      "sha256": "974cc3896b18621026473ce87498dc2eea70ed0a4a114610c7812236fb802aa4",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Shiomi narrator transition, identity delusion, canonical surname correction, prayer recipients and ruby recombination",
+      "unit_ranges": [
+        [
+          466,
+          512
+        ]
+      ],
+      "units_reviewed": 47,
+      "text_fields_reviewed": 69,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        "u0468 alias 신한테 verified in 374246"
+      ],
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_13_u0001-0075.json",
+      "sha256": "5119f871bde90dec89433084f6fafadb3eba2ecba95429f3d59c6731551e64d2",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "all fields; school scripture quotation, three-party conversation, both disclosure choice branches, protected choice order",
+      "unit_ranges": [
+        [
+          1,
+          75
+        ]
+      ],
+      "units_reviewed": 75,
+      "text_fields_reviewed": 113,
+      "inline_records_reviewed": 4,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_13_u0131-0198.json",
+      "sha256": "80fae4407dc897d5c464682ae41d6e184a68bb778af1e6e178760432837b3038",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "focused source anomaly and explicit polarity interpretation review; only listed ranges",
+      "unit_ranges": [
+        [
+          131,
+          145
+        ],
+        [
+          163,
+          183
+        ]
+      ],
+      "units_reviewed": 36,
+      "text_fields_reviewed": 51,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_13_u0199-0275.json",
+      "sha256": "c89d6db7e848234c6222fc6f490587803db6ce3d252c07994f547e4627e8cfd3",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Yashima/Midori normal name versus deliberate Peki reading and mistaken surname correction joke",
+      "unit_ranges": [
+        [
+          199,
+          218
+        ]
+      ],
+      "units_reviewed": 20,
+      "text_fields_reviewed": 31,
+      "inline_records_reviewed": 4,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_13_u0276-0306.json",
+      "sha256": "017fead621473a96f42ccf65c04b1bc22897831658a05233f8dedc0c8ae84e91",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Reporter conversation; conditional conjecture and mixed narration/self-talk roles preserved",
+      "unit_ranges": [
+        [
+          276,
+          306
+        ]
+      ],
+      "units_reviewed": 31,
+      "text_fields_reviewed": 103,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "22eec1",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_07_u0001-0112.json",
+      "sha256": "26302f35b972f2cef0cf3fd9f3bef1ddc12da86f29400c128689ad80be83bb73",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Whitespace-only source field reflow across adjacent target fields without semantic/control/source changes",
+      "unit_ranges": [
+        [
+          58,
+          60
+        ]
+      ],
+      "units_reviewed": 3,
+      "text_fields_reviewed": 7,
+      "inline_records_reviewed": 4,
+      "status": "reviewed_corrections_verified",
+      "findings": [],
+      "evidence_command": "6b39b0 and 22eec1",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_17_u0171-u0180.json",
+      "sha256": "558d427f47499a35095809ce31bc7687216528d005dcdb1aacd779f2729f3196",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Destroyed-room narrative and 顎/あぎと ruby composition",
+      "unit_ranges": [
+        [
+          171,
+          180
+        ]
+      ],
+      "units_reviewed": 10,
+      "text_fields_reviewed": 17,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_corrections_verified",
+      "findings": [],
+      "evidence_command": "7b524f plus omitted middle recovered in 87543a",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false,
+      "correction_evidence": "10788d"
+    },
+    {
+      "batch": "lane-3/batches/sina_13_u0346-0370.json",
+      "sha256": "4fd09bf298d970311db79cc6a92ca07d5fdd32a60d35f730740fe252dff059e1",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Shiomi/Yue versus actual Shiina roles, vessel metaphor and conditional promise",
+      "unit_ranges": [
+        [
+          346,
+          370
+        ]
+      ],
+      "units_reviewed": 25,
+      "text_fields_reviewed": 34,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "7b524f plus omitted middle recovered in 87543a",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_13_u0371-0384.json",
+      "sha256": "e1e1cdf2cac7cfd2a0a57bfce4e1a102e3ad771dccb769f1eaaaebf9af95100f",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Childhood flashback, per-field speakers, jealousy, Shinya alias and casual childhood voice",
+      "unit_ranges": [
+        [
+          371,
+          384
+        ]
+      ],
+      "units_reviewed": 14,
+      "text_fields_reviewed": 48,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "7b524f plus omitted middle recovered in 87543a",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_13_u0385-0402.json",
+      "sha256": "ce6c2d25be245e9c48b8cea922b266bc7f3c3145d87217742c72f1d9a1df7b6c",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Return to present and self-sacrifice doubt, inner-monologue versus narration",
+      "unit_ranges": [
+        [
+          385,
+          402
+        ]
+      ],
+      "units_reviewed": 18,
+      "text_fields_reviewed": 23,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_corrections_verified",
+      "findings": [],
+      "evidence_command": "7b524f plus omitted middle recovered in 87543a",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false,
+      "correction_evidence": "10788d"
+    },
+    {
+      "batch": "lane-1/batches/maho_07_u0277-0294.json",
+      "sha256": "de76ea9de59f98050ca7c34be24d7d4233ac53f1ede4c0ad7a505a471852d42a",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Captivity: uncertain recipient preserved; Mahoko perspective",
+      "unit_ranges": [
+        [
+          277,
+          294
+        ]
+      ],
+      "units_reviewed": 18,
+      "text_fields_reviewed": 22,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "42122c",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_07_u0295-0309.json",
+      "sha256": "0047be3ce3b2911f4cf3576d9191f014db4074be92b1c25e1ce72a865d8d7f40",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Dream: present Mahoko observing childhood; subjective expectation of visible sky",
+      "unit_ranges": [
+        [
+          295,
+          309
+        ]
+      ],
+      "units_reviewed": 15,
+      "text_fields_reviewed": 18,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_corrections_verified",
+      "findings": [],
+      "evidence_command": "42122c",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false,
+      "correction_evidence": "620884: only u0308 and agent-refined u0330 reread; no blanket re-review"
+    },
+    {
+      "batch": "lane-1/batches/maho_07_u0310-0349.json",
+      "sha256": "5ed5cf1ee64e6bb2414a64ef1003a4e78700ee3017bcdf97ac6fb37adb584ac8",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Repeated injury and 今度は腹部 emphasis ruby",
+      "unit_ranges": [
+        [
+          330,
+          349
+        ]
+      ],
+      "units_reviewed": 20,
+      "text_fields_reviewed": 27,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_corrections_verified",
+      "findings": [],
+      "evidence_command": "77f246",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false,
+      "correction_evidence": "620884: only u0308 and agent-refined u0330 reread; no blanket re-review"
+    },
+    {
+      "batch": "lane-3/batches/sina_14_u0001-0067.json",
+      "sha256": "6aa927d67f8273096f4a868e0fb2bcc5e8bb44967415ddf3d3b656237c36aae8",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Lunch banter, polite sarcasm, recipients and protective secrecy",
+      "unit_ranges": [
+        [
+          1,
+          67
+        ]
+      ],
+      "units_reviewed": 67,
+      "text_fields_reviewed": 95,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "77f246",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_17_u0181-u0272.json",
+      "sha256": "1bd3ff53680e7968729f72d7ee0963e23da92a0377c6260d21668a488931de46",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Destroyed home, attack and identity reveal; noun and verb ruby composition",
+      "unit_ranges": [
+        [
+          205,
+          257
+        ]
+      ],
+      "units_reviewed": 53,
+      "text_fields_reviewed": 76,
+      "inline_records_reviewed": 4,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "10788d",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_17_u0273-u0351.json",
+      "sha256": "374d79bc75382d59d5747b452dcd3a938e86360c5fd6ecd52e00bf6365e94c96",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Villain motive, marrow-donor identity, indirect blame and polite-to-hostile voice change",
+      "unit_ranges": [
+        [
+          273,
+          323
+        ]
+      ],
+      "units_reviewed": 51,
+      "text_fields_reviewed": 69,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_semantic_findings",
+      "findings": [],
+      "evidence_command": "665fa1",
+      "structural_evidence": "reused lane report; maho17 length warning 002829 being resolved by agent",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_07_u0350-0424.json",
+      "sha256": "2e326841dc01ac114d30c69547a8a1e89af7ee563f665ea7abf59f30ad3b346b",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Rescue and chase; perspective versus actual culprit remains Shinya inference",
+      "unit_ranges": [
+        [
+          400,
+          424
+        ]
+      ],
+      "units_reviewed": 25,
+      "text_fields_reviewed": 35,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_semantic_findings",
+      "findings": [],
+      "evidence_command": "665fa1",
+      "structural_evidence": "reused lane report; maho17 length warning 002829 being resolved by agent",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_07_u0425-0513.json",
+      "sha256": "42749f22949438f5e2d0ee3d13bffc85edbf0009f9a7ed618958f75ba1f2e75e",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Threat uncertainty and ordinary-field manual small type 哨戒=순찰",
+      "unit_ranges": [
+        [
+          435,
+          453
+        ]
+      ],
+      "units_reviewed": 19,
+      "text_fields_reviewed": 27,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "0deaeb and omitted segment recovered in 90fe1e",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_14_u0129-0206.json",
+      "sha256": "d08f3ca0200c0b2c7299fc4371f75a07d9728336c7a6c5044a042bc4ecc5c55f",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Kureha confrontation; name, motive uncertainty, conditional protection and pronoun escalation",
+      "unit_ranges": [
+        [
+          129,
+          180
+        ]
+      ],
+      "units_reviewed": 52,
+      "text_fields_reviewed": 66,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "0deaeb and omitted segment recovered in 90fe1e",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_07_u0425-0513.json",
+      "sha256": "42749f22949438f5e2d0ee3d13bffc85edbf0009f9a7ed618958f75ba1f2e75e",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Blood hypothesis, unvoiced identity clues and omitted unheard speech",
+      "unit_ranges": [
+        [
+          459,
+          471
+        ],
+        [
+          496,
+          513
+        ]
+      ],
+      "units_reviewed": 31,
+      "text_fields_reviewed": 43,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "07a827",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_14_u0207-0260.json",
+      "sha256": "8e3e188346c3fbd2257cd32fec5e06386eff2691aa80342f114236569276b9b7",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Narrator transition and hypothetical Yue/actual Shiina relation",
+      "unit_ranges": [
+        [
+          236,
+          260
+        ]
+      ],
+      "units_reviewed": 25,
+      "text_fields_reviewed": 35,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "1939d2",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_08_u0001-0084.json",
+      "sha256": "ab23ea490b863805d7381fa1b9a87eaffe4e465eed7d2719c2aa44f0ea1997f1",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "齟齬 and 歪 ruby composition with narration",
+      "unit_ranges": [
+        [
+          61,
+          65
+        ],
+        [
+          82,
+          84
+        ]
+      ],
+      "units_reviewed": 8,
+      "text_fields_reviewed": 14,
+      "inline_records_reviewed": 4,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "e7d468",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_14_u0261-0283.json",
+      "sha256": "33eaaa08dd050f008705c07085abc72b84234499a009bfb8467bd927635f9767",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Childhood gift and ritual origin, multi-speaker fields and printed name label",
+      "unit_ranges": [
+        [
+          261,
+          283
+        ]
+      ],
+      "units_reviewed": 23,
+      "text_fields_reviewed": 64,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "587f2d",
+      "structural_evidence": "reused lane validation.json; not a new validator run",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_14_u0284-0338.json",
+      "sha256": "4d4fc9c5b748d13214acaa1b8414e5b44b10bdf2f99b006e477fc4cbf8bcedb9",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Shiomi viewpoint, semantic 精神/こころ ruby, obsessive repetition, source homophone error and volitional voice",
+      "unit_ranges": [
+        [
+          284,
+          295
+        ],
+        [
+          315,
+          338
+        ]
+      ],
+      "units_reviewed": 36,
+      "text_fields_reviewed": 58,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_corrections_verified",
+      "findings": [],
+      "evidence_command": "2ba76f",
+      "structural_evidence": "reused lane report; 4 intentional repetition length warnings retained for runtime",
+      "runtime_verified": false,
+      "correction_evidence": "efec51: u0288/u0327/u0335 되겠다 verified; no full re-review"
+    },
+    {
+      "batch": "lane-2/batches/maho_18_u0001-u0049.json",
+      "sha256": "49be062235bfe7cf14a641a5f5970eccae382305dce8da81053029c46e2986d0",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Predawn movement, secret base, weather and established nickname particles",
+      "unit_ranges": [
+        [
+          1,
+          49
+        ]
+      ],
+      "units_reviewed": 49,
+      "text_fields_reviewed": 71,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "20e00e",
+      "structural_evidence": "reused lane validation report; no root validator rerun",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_09_u0093-0166.json",
+      "sha256": "2bb2a353cb90abc257af8a0244928473b0bf70a1f257a97c29774762f407a1f7",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Shiina addressee changes, adult uniform joke, composed text and inline ruby",
+      "unit_ranges": [
+        [
+          117,
+          130
+        ],
+        [
+          150,
+          161
+        ]
+      ],
+      "units_reviewed": 26,
+      "text_fields_reviewed": 44,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "a17d0d",
+      "structural_evidence": "reused lane validation report; no root validator rerun",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_15_u0001-0097.json",
+      "sha256": "cfdbc497293d2dfc6b9e45653bf137353e77a4bde8e00aaf4ebcad2624062f50",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Lecture/narration roles, lunch transition, field-specific addressees and Shiina POV",
+      "unit_ranges": [
+        [
+          6,
+          6
+        ],
+        [
+          10,
+          18
+        ],
+        [
+          35,
+          42
+        ]
+      ],
+      "units_reviewed": 18,
+      "text_fields_reviewed": 34,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "a17d0d; metadata efec51",
+      "structural_evidence": "reused lane validation report; no root validator rerun",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_18_u0050-u0105.json",
+      "sha256": "25b7d7c1798fc7a369f7a39c4693f3060fb98184bc23b843c664ec9ecda60057",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Manual emphasis and ruby composition; semantic text checked, runtime display pending",
+      "unit_ranges": [
+        [
+          77,
+          81
+        ],
+        [
+          86,
+          95
+        ]
+      ],
+      "units_reviewed": 15,
+      "text_fields_reviewed": 31,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "efec51",
+      "structural_evidence": "reused lane validation report; no root validator rerun",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_15_u0188-0287.json",
+      "sha256": "da4a6b6ca3a1561bf3c11374c007331020926c3c3718d9b0d1885610ac528b2d",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Injury care sequence and towel prop identity",
+      "unit_ranges": [
+        [
+          198,
+          214
+        ]
+      ],
+      "units_reviewed": 17,
+      "text_fields_reviewed": 26,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "788cfa",
+      "structural_evidence": "reused lane validation report; no root validator rerun",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_15_u0288-0385.json",
+      "sha256": "ca8c4b65042f62cfc70bd2c627f09362c09bc15d39f752422c4e44c8710ca37d",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Shinya regret, prop continuity, source terminology inconsistency inference",
+      "unit_ranges": [
+        [
+          329,
+          349
+        ]
+      ],
+      "units_reviewed": 21,
+      "text_fields_reviewed": 33,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "9680fa; a3e8f9; f016b7",
+      "structural_evidence": "reused lane validation report; no root validator rerun",
+      "runtime_verified": false,
+      "branch_metadata_correction": "400d66 exact cases verified; original text review reused, no full rerun"
+    },
+    {
+      "batch": "lane-2/batches/maho_18_u0276-u0338.json",
+      "sha256": "f80b8fc0218cb6101cfbcf96d05a9b47e3a9f4f079440eebc6a6c0cb5278d4cb",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Party wordplay, playful names and contextual reference inference",
+      "unit_ranges": [
+        [
+          288,
+          297
+        ],
+        [
+          319,
+          328
+        ]
+      ],
+      "units_reviewed": 20,
+      "text_fields_reviewed": 28,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "9680fa; recovered omitted range16d3b5",
+      "structural_evidence": "reused lane validation report; no root validator rerun",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_09_u0307-0400.json",
+      "sha256": "e2c62a7b78cb8174ec52ee5e5402950f10eeb9a73e1f3f0f24ea04dca8454b61",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Recipient voice, shipping-label joke and Shinya-imagined Shiina speech",
+      "unit_ranges": [
+        [
+          365,
+          379
+        ]
+      ],
+      "units_reviewed": 15,
+      "text_fields_reviewed": 21,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "9680fa",
+      "structural_evidence": "reused lane validation report; no root validator rerun",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_18_u0339-u0427.json",
+      "sha256": "8d1293ed738b2f658ad72692ac4ada9ee5a44cb74ecbaaf3b4535c2867745423",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Childhood hospital recollection versus current confession; appearance and nickname voice",
+      "unit_ranges": [
+        [
+          360,
+          385
+        ]
+      ],
+      "units_reviewed": 26,
+      "text_fields_reviewed": 43,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "ba1b44",
+      "structural_evidence": "reused lane validation report; root did not rerun unchanged validation",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_15_u0386-0478.json",
+      "sha256": "9384ce264df5b11b7a9f364a405d309352d8218ad06d7621e4fa2c115e149611",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Shiomi addressee/register shift, inserted Shinya monologue and ruby suffix assembly",
+      "unit_ranges": [
+        [
+          410,
+          421
+        ],
+        [
+          438,
+          458
+        ]
+      ],
+      "units_reviewed": 33,
+      "text_fields_reviewed": 52,
+      "inline_records_reviewed": 4,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "ba1b44; source context f016b7",
+      "structural_evidence": "reused lane validation report; root did not rerun unchanged validation",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_09_u0401-0476.json",
+      "sha256": "ac2e10888c6950deef88f4fed6ae857373ad01c1dcbfd53c98e37ca980c17db2",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Escort explanation and indirect-passive fleeing subject in recalled encounters",
+      "unit_ranges": [
+        [
+          439,
+          455
+        ]
+      ],
+      "units_reviewed": 17,
+      "text_fields_reviewed": 27,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "cbfc27",
+      "structural_evidence": "reused lane validation report; root did not rerun unchanged validation",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_15_u0479-0557.json",
+      "sha256": "f3cd6207a67d45b9729d41c15a98718c91c8d1f3449a120287e9887b5104b052",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Injury/captor scene, POV change and start of recollection; contextual source typo handling",
+      "unit_ranges": [
+        [
+          479,
+          511
+        ],
+        [
+          542,
+          548
+        ]
+      ],
+      "units_reviewed": 40,
+      "text_fields_reviewed": 51,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "cbfc27",
+      "structural_evidence": "reused lane validation report; root did not rerun unchanged validation",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_09_u0477-0531.json",
+      "sha256": "26adcd2c95a5dd179345d4748724d24f4a6acbbc8fead56751ab736f13fbdca3",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Unusual recovery as character inference, inline conjugated ruby assembly",
+      "unit_ranges": [
+        [
+          521,
+          531
+        ]
+      ],
+      "units_reviewed": 11,
+      "text_fields_reviewed": 18,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "b4d1d1",
+      "structural_evidence": "reused agent changed-batch validation; no root rerun",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_15_u0098-0187.json",
+      "sha256": "89e82511bd8c648e7119e764cc1c8129ae10c0e29ab2c2f6be75fc9351a7b773",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Quoted retort, dialogue choices and cooking terminology in original-period setting",
+      "unit_ranges": [
+        [
+          98,
+          111
+        ],
+        [
+          156,
+          170
+        ]
+      ],
+      "units_reviewed": 29,
+      "text_fields_reviewed": 38,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_corrections_verified",
+      "findings": [],
+      "evidence_command": "b4d1d1;0a5137; correction bebfdb",
+      "structural_evidence": "reused agent changed-batch validation; no root rerun",
+      "runtime_verified": false,
+      "branch_metadata_correction": "400d66 exact cases verified; original text review reused, no full rerun"
+    },
+    {
+      "batch": "lane-1/batches/maho_09_u0592-0647.json",
+      "sha256": "cd6f899a848faa5969d6a66fcd79a9f468d387129c278b0a269d83d48bd8f2e9",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Confused apology register, negative question response intent and unconfirmed sleepwalking hypothesis",
+      "unit_ranges": [
+        [
+          592,
+          619
+        ],
+        [
+          635,
+          647
+        ]
+      ],
+      "units_reviewed": 41,
+      "text_fields_reviewed": 55,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "1682a1",
+      "structural_evidence": "reused agent changed-batch validation; no root rerun",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_16_u0055-0114.json",
+      "sha256": "ae92f4ed9241c8c97d0f2d8959ac42caaf18be0ead5f93d0a3ee303c23f83d10",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Email authorship versus apparent sender, concealed recipient, conjecture strength",
+      "unit_ranges": [
+        [
+          77,
+          104
+        ]
+      ],
+      "units_reviewed": 28,
+      "text_fields_reviewed": 44,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "bebfdb",
+      "structural_evidence": "reused agent changed-batch validation; no root rerun",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_18_2ero_u0001-u0098.json",
+      "sha256": "671f443a34cf51d16ca6dad45a5a60ddf79703e4cd39b9513fed74f4b329d665",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Adult present-scene address, teasing and viewpoint continuity",
+      "unit_ranges": [
+        [
+          88,
+          98
+        ]
+      ],
+      "units_reviewed": 11,
+      "text_fields_reviewed": 17,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "cdcc1f",
+      "structural_evidence": "existing lane validation reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_18_2ero_u0099-u0199.json",
+      "sha256": "da318f7ed5b0d0bb8ad92eb74607c1fc9c62e6104a0e260d07e663fd2c6eed99",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Provided adult-scene source fidelity and inline conjugation assembly",
+      "unit_ranges": [
+        [
+          150,
+          162
+        ]
+      ],
+      "units_reviewed": 13,
+      "text_fields_reviewed": 20,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "cdcc1f",
+      "structural_evidence": "existing lane validation reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_10_u0001-0072.json",
+      "sha256": "86cf7e438e9a21eb118e188669997e0f10a3962b1ff7ebfd988437ff47dbb4f7",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Distorted speech and distinct semantic ruby layers",
+      "unit_ranges": [
+        [
+          56,
+          72
+        ]
+      ],
+      "units_reviewed": 17,
+      "text_fields_reviewed": 20,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "06331b",
+      "structural_evidence": "existing lane validation reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_10_u0073-0134.json",
+      "sha256": "caddb25dceee80b2ab87f7cd27691884e45844de43ac339ad0370b354913eaf1",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Current adult exchange, character book reading and uncertain symptom hypothesis",
+      "unit_ranges": [
+        [
+          101,
+          134
+        ]
+      ],
+      "units_reviewed": 34,
+      "text_fields_reviewed": 50,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_corrections_verified",
+      "findings": [],
+      "evidence_command": "b3d99d",
+      "structural_evidence": "existing lane validation reused",
+      "runtime_verified": false,
+      "correction_evidence": "400d66 directly checked length refinement at001279 only; four treatment-list items preserved; fiction book text not medical guidance"
+    },
+    {
+      "batch": "lane-3/batches/sina_16_u0165-0203.json",
+      "sha256": "7b21b99f0bd1d4ae9d0e74b25e2369b580838be849c2263d48bb1fe79dd723f9",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Mixed speaker fields, concealed positions, duplicate-negation source error and path-dependent fields",
+      "unit_ranges": [
+        [
+          175,
+          184
+        ],
+        [
+          198,
+          203
+        ]
+      ],
+      "units_reviewed": 16,
+      "text_fields_reviewed": 87,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_corrections_verified",
+      "findings": [],
+      "evidence_command": "400d66; correction a659f6",
+      "structural_evidence": "reused lane changed/new-batch validation; unchanged batches not rerun",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_10_u0135-0230.json",
+      "sha256": "9fb480bc898cb31bed0a5f7c3cfee6ad5c81f28a053b35d2a2217bc6740f610c",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Anthropomorphized movie advertising joke, named classmate and addressee voice",
+      "unit_ranges": [
+        [
+          135,
+          143
+        ],
+        [
+          184,
+          190
+        ]
+      ],
+      "units_reviewed": 16,
+      "text_fields_reviewed": 24,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "003ae9",
+      "structural_evidence": "reused lane changed/new-batch validation; unchanged batches not rerun",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_10_u0231-0316.json",
+      "sha256": "8c0fb3d27ae27ef34f08f6dc07470deebab0fdb8357166d5c3776e76f749fe83",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Mother recipient, uncertain explanation and daughter/name semantic ruby with shared particle",
+      "unit_ranges": [
+        [
+          297,
+          310
+        ]
+      ],
+      "units_reviewed": 14,
+      "text_fields_reviewed": 18,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "003ae9",
+      "structural_evidence": "reused lane changed/new-batch validation; unchanged batches not rerun",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_16_u0204-0278.json",
+      "sha256": "0702744cb85b5c8c0dea1cf260bce6e6de6452eba0775ecf957b2e18ccabc734",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Normal-path identity uncertainty without importing failure-route dialogue",
+      "unit_ranges": [
+        [
+          265,
+          278
+        ]
+      ],
+      "units_reviewed": 14,
+      "text_fields_reviewed": 20,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "a659f6",
+      "structural_evidence": "reused lane changed/new-batch validation; unchanged batches not rerun",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_18_3_u0001-u0080.json",
+      "sha256": "7ffa54382be790a2d7072cbe271fdf8f6d74c413d3b491b524363538594a1e39",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Action composition with emphasis ruby",
+      "unit_ranges": [
+        [
+          59,
+          65
+        ]
+      ],
+      "units_reviewed": 7,
+      "text_fields_reviewed": 9,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "963cda",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_18_3_u0081-u0162.json",
+      "sha256": "6b2ca259e87cd669266226dd63adbef22d2405d0b52a681ff1caaed93e64a759",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Mahoko POV transition, Shiomi recipient, coercion conditions and empty-vessel imagery",
+      "unit_ranges": [
+        [
+          81,
+          99
+        ],
+        [
+          152,
+          162
+        ]
+      ],
+      "units_reviewed": 30,
+      "text_fields_reviewed": 54,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "963cda",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_17_u0065-0114.json",
+      "sha256": "4b004d1b715e6d1e7b106cbbfefd6177aa3762a41654feb0783c8cbc654661e0",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Observer POV, isolated possessive ambiguity and phone continuity",
+      "unit_ranges": [
+        [
+          65,
+          87
+        ]
+      ],
+      "units_reviewed": 23,
+      "text_fields_reviewed": 29,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_correction_resolved",
+      "findings": [],
+      "evidence_command": "b45b45;9ed074",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false,
+      "correction_evidence": "2e8adb 메일 target fixes; changed validation reused"
+    },
+    {
+      "batch": "lane-2/batches/maho_19_u0001-u0072.json",
+      "sha256": "3dbe2aa80351125faf7eb484824c45947f0fb8e72d35040bb3e74fdb07a11f9e",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Mahoko POV, Shiomi recipient and u0041 emphasized claim composition",
+      "unit_ranges": [
+        [
+          28,
+          48
+        ]
+      ],
+      "units_reviewed": 21,
+      "text_fields_reviewed": 34,
+      "inline_records_reviewed": 4,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "2e8adb",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_19_u0073-u0165.json",
+      "sha256": "cf95d2d552de827f5897205d40fe2dad2d4ec3b77684a58ac7ba37db749b8fc1",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Observer knowledge limits and anonymous Kureha/Shiomi negotiation voices",
+      "unit_ranges": [
+        [
+          108,
+          136
+        ]
+      ],
+      "units_reviewed": 29,
+      "text_fields_reviewed": 33,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "2e8adb;18d0a1",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_17_u0285-0367.json",
+      "sha256": "cb843dc6ec325e7afeb0baacca4f85a37556d4dafe3a3bd499d8aea21c96b75f",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Shiina POV and hospital return chronology",
+      "unit_ranges": [
+        [
+          358,
+          367
+        ]
+      ],
+      "units_reviewed": 10,
+      "text_fields_reviewed": 11,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "2e8adb",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_17_u0368-0435.json",
+      "sha256": "a21ded3c6f075d0fc03233e74ba22efd0d9a6260d910927b8efd73ea5b9b8cc3",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Phone reappearance, Shiina as Yue and eye gesture",
+      "unit_ranges": [
+        [
+          368,
+          385
+        ]
+      ],
+      "units_reviewed": 18,
+      "text_fields_reviewed": 25,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_correction_resolved",
+      "findings": [],
+      "evidence_command": "2e8adb;18d0a1",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_11_u0164-0243.json",
+      "sha256": "8644d7965b140a344e92914d5027eaf74881f8ec19c96c3581fd3fcdfd43afbe",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Current sworn-sibling address and pinky promise into recollection",
+      "unit_ranges": [
+        [
+          221,
+          243
+        ]
+      ],
+      "units_reviewed": 23,
+      "text_fields_reviewed": 26,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "a77fe6",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_11_u0244-0294.json",
+      "sha256": "03b2e5eb36dbdf743fe4744f1d03e7575f9093c1ee96c01f2978bab9ddc65812",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Explicit childhood, school and paired casual voices",
+      "unit_ranges": [
+        [
+          244,
+          260
+        ]
+      ],
+      "units_reviewed": 17,
+      "text_fields_reviewed": 27,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "a77fe6",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false,
+      "prior_review_sha256": "e7e8104dd5bbce6f25d82835624fd8834255a248d48579915c647090c22ff0ad",
+      "term_only_followup": "caa965: exact35 object terms verified; previous semantic review reused, no whole-batch rereview"
+    },
+    {
+      "batch": "lane-1/batches/maho_11_u0295-0355.json",
+      "sha256": "50c88fd2a020c94370972a4af996939831ef05b335dddf02163350df669cbad8",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Distorted cheek-pulled speech, juice analogy and childhood hope",
+      "unit_ranges": [
+        [
+          313,
+          338
+        ]
+      ],
+      "units_reviewed": 26,
+      "text_fields_reviewed": 36,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "a77fe6",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_11_u0356-0453.json",
+      "sha256": "9b55c7440da3ca06b62bb88506ccadc8241ee8c5d15fc3fa1956aec1dd6aa5b5",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Red-thread metaphor, childhood remorse and shared belief",
+      "unit_ranges": [
+        [
+          365,
+          375
+        ],
+        [
+          406,
+          424
+        ],
+        [
+          435,
+          453
+        ]
+      ],
+      "units_reviewed": 49,
+      "text_fields_reviewed": 67,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_correction_resolved",
+      "findings": [],
+      "evidence_command": "a77fe6",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false,
+      "prior_review_sha256": "c4316f3a4a2a646c7720fad5a118c002df00d6c138174792a23e9d1afb2a9cbf",
+      "term_only_followup": "caa965: exact35 object terms verified; previous semantic review reused, no whole-batch rereview"
+    },
+    {
+      "batch": "lane-2/batches/maho_19_u0166-u0236.json",
+      "sha256": "79aae337f168dddf27837e81907ee2fc306e24da806c8ba2f6deb1393d123b0d",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Rebirth ritual conditions, sacrifice count and Shinya inference",
+      "unit_ranges": [
+        [
+          166,
+          210
+        ]
+      ],
+      "units_reviewed": 45,
+      "text_fields_reviewed": 70,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "d3e90a",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_17_u0285-0367.json",
+      "sha256": "cb843dc6ec325e7afeb0baacca4f85a37556d4dafe3a3bd499d8aea21c96b75f",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Sensor hypotheses and POV change to Shiina jealousy recollection",
+      "unit_ranges": [
+        [
+          307,
+          335
+        ]
+      ],
+      "units_reviewed": 29,
+      "text_fields_reviewed": 46,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "d3e90a",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_17_u0368-0435.json",
+      "sha256": "a21ded3c6f075d0fc03233e74ba22efd0d9a6260d910927b8efd73ea5b9b8cc3",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Book gift chronology, charm origin and transition back to Shinya",
+      "unit_ranges": [
+        [
+          406,
+          435
+        ]
+      ],
+      "units_reviewed": 30,
+      "text_fields_reviewed": 39,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "d3e90a",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_19_u0237-u0330.json",
+      "sha256": "bddbeea4e54ff9cad9311343a41868f815140a213f9643f74f81cd81a098367c",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Mahoko POV, ritual wording and ruby composition of 안성맞춤/반사적으로",
+      "unit_ranges": [
+        [
+          268,
+          302
+        ]
+      ],
+      "units_reviewed": 35,
+      "text_fields_reviewed": 55,
+      "inline_records_reviewed": 4,
+      "status": "reviewed_correction_resolved",
+      "findings": [],
+      "evidence_command": "a887e5",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_11_u0522-0611.json",
+      "sha256": "0f086b9a4ed45489a2652637b8b0d0c4e36f96238e0c5e6594b2031bb62327dd",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Physical posture, extraordinary healing and Mahoko nightmare interpretation",
+      "unit_ranges": [
+        [
+          560,
+          590
+        ]
+      ],
+      "units_reviewed": 31,
+      "text_fields_reviewed": 38,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_correction_resolved",
+      "findings": [],
+      "evidence_command": "a887e5",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_19_u0331-u0429.json",
+      "sha256": "c4308296cac33922e19abd6c1865f28f07dd1c1fd88670b3d42b19187fd05cc5",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Phone recipient changes, violence/recovery chronology and ruby composition",
+      "unit_ranges": [
+        [
+          360,
+          412
+        ]
+      ],
+      "units_reviewed": 53,
+      "text_fields_reviewed": 81,
+      "inline_records_reviewed": 6,
+      "status": "reviewed_correction_resolved",
+      "findings": [],
+      "evidence_command": "aa6984",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false,
+      "correction_evidence": "3dcb2b; affected field only"
+    },
+    {
+      "batch": "lane-3/batches/sina_17_u0520-0573.json",
+      "sha256": "2abfeeae30157d33d953bacc0aa5145e8bdd52167b2a23f1a2f9c99ba60b2b99",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Shiina flashback, hidden identity, Yue reference and nursery-bed metaphor",
+      "unit_ranges": [
+        [
+          548,
+          563
+        ]
+      ],
+      "units_reviewed": 16,
+      "text_fields_reviewed": 107,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "aa6984;f26331",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_17_u0520-0573.json",
+      "sha256": "2abfeeae30157d33d953bacc0aa5145e8bdd52167b2a23f1a2f9c99ba60b2b99",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Ordinary three-line reflow resolving original whitespace-only field",
+      "unit_ranges": [
+        [
+          527,
+          527
+        ]
+      ],
+      "units_reviewed": 1,
+      "text_fields_reviewed": 3,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "60555d;408805;aa6984",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_12_u0095-0154.json",
+      "sha256": "9bbe692b70fcb3696e3c5475f4cc8ef3bc3156b5ab5f2abe2fec65ea01f4bcdb",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Reporter identity, canonical and mistaken readings, MOO title pronunciation",
+      "unit_ranges": [
+        [
+          123,
+          154
+        ]
+      ],
+      "units_reviewed": 32,
+      "text_fields_reviewed": 51,
+      "inline_records_reviewed": 6,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "f26331",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_19_u0430-u0521.json",
+      "sha256": "02a5c55716c7b29d7cea99c87cb83b9fd6219de9ec64d21af7fcea40795fde2a",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Manual redundant ruby and semantic liquid/that ruby",
+      "unit_ranges": [
+        [
+          435,
+          439
+        ],
+        [
+          507,
+          507
+        ]
+      ],
+      "units_reviewed": 6,
+      "text_fields_reviewed": 12,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "37632b",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_18_u0001-0095.json",
+      "sha256": "cead57cc0be1b7684bf19799da781b1861c645c08842d1f4ea6704c71c99c702",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Violent coercion and anomalous 理性を抑える interpreted from surrounding behavior",
+      "unit_ranges": [
+        [
+          67,
+          86
+        ]
+      ],
+      "units_reviewed": 20,
+      "text_fields_reviewed": 30,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "b68776",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_19_u0522-u0610.json",
+      "sha256": "ed0971ba93564a8bd01d45da5686131cf70aa3f28dc92bd1e48a644adc454d66",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Fake poisoning, negation, 体 reading, faith exchange and 五分 equivalence",
+      "unit_ranges": [
+        [
+          535,
+          545
+        ],
+        [
+          565,
+          578
+        ]
+      ],
+      "units_reviewed": 25,
+      "text_fields_reviewed": 42,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_correction_resolved",
+      "findings": [],
+      "evidence_command": "b68776",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false,
+      "correction_evidence": "3dcb2b; affected field only"
+    },
+    {
+      "batch": "lane-1/batches/maho_12_u0203-0296.json",
+      "sha256": "5c47c8d53bc3464a0b1f0204aa1dd9942fda155561d88f52b517c4439e1527c7",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Reporter/mother/Shinya recipient shifts and deliberate name misreading",
+      "unit_ranges": [
+        [
+          235,
+          270
+        ]
+      ],
+      "units_reviewed": 36,
+      "text_fields_reviewed": 51,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "2b8fe0",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_12_u0297-0361.json",
+      "sha256": "38e607b1dbe442f5e66c1b35c04dc40128d4577194996020b34d762601844980",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Migration chronology, maiden name, taboo and reporter hypothesis versus established facts",
+      "unit_ranges": [
+        [
+          319,
+          349
+        ]
+      ],
+      "units_reviewed": 31,
+      "text_fields_reviewed": 44,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "2b8fe0",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_19_u0611-u0710.json",
+      "sha256": "b7d476732bebab1e4190ee43ee899547999854e6ae3e58999a29acbdcb067998",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Counterattack agency, two manual ruby pairs, police-call recipient and moral hesitation",
+      "unit_ranges": [
+        [
+          638,
+          648
+        ],
+        [
+          685,
+          696
+        ]
+      ],
+      "units_reviewed": 23,
+      "text_fields_reviewed": 36,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "3dcb2b",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_19_u0711-u0792.json",
+      "sha256": "50a836a521de8f99cd7933e042a04a350fe9ba63a509c4872a770fece5d96f77",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Rooftop requirements, red-thread motif and same-object 糸車; object term subsequently refined by sub2 evidence",
+      "unit_ranges": [
+        [
+          711,
+          738
+        ]
+      ],
+      "units_reviewed": 28,
+      "text_fields_reviewed": 38,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "3dcb2b",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_18_2ero_u0001-0088.json",
+      "sha256": "f3682f53ee9a42969b949585825e2dafc6237eb0998740346a8cf2b0b9c60cc8",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Physical size and 手に余る idiom; inverted meaning corrected without altering source",
+      "unit_ranges": [
+        [
+          62,
+          82
+        ]
+      ],
+      "units_reviewed": 21,
+      "text_fields_reviewed": 28,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_correction_resolved",
+      "findings": [
+        {
+          "unit": "sina_18_2ero.mjo::u0072",
+          "finding": "手に余る must not become 두 손으로 안고도 여유. Corrected to 두 팔로 안아 들면 한가득; source-error inference withdrawn.",
+          "status": "resolved;9a0eec"
+        }
+      ],
+      "evidence_command": "58704e;9a0eec",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_11_u0356-0453.json",
+      "sha256": "9b55c7440da3ca06b62bb88506ccadc8241ee8c5d15fc3fa1956aec1dd6aa5b5",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Grandmother quotation retold in standard Japanese, object identity and red-thread encouragement",
+      "unit_ranges": [
+        [
+          376,
+          405
+        ]
+      ],
+      "units_reviewed": 30,
+      "text_fields_reviewed": 43,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "342d5c",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_18_2ero_u0180-0248.json",
+      "sha256": "6797238a2c4687e7cdb77d81015f1d8df76c3731e42a70f2ef888579f815dd6f",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Garment removal source retained; later source-only 320-337 continuity comparison",
+      "unit_ranges": [
+        [
+          195,
+          205
+        ]
+      ],
+      "units_reviewed": 11,
+      "text_fields_reviewed": 16,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "9a0eec",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_sub1_u0001-u0015.json",
+      "sha256": "44839922f29f94f4bf0f91cfa0c4974fddba5a49469b74ed00a873660dfcecc9",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Full childhood scene, grandmother dialect, benign べっぴんさん question, illness chronology",
+      "unit_ranges": [
+        [
+          1,
+          15
+        ]
+      ],
+      "units_reviewed": 15,
+      "text_fields_reviewed": 80,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "f70356;a4fa72",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_sub2_u0001-u0021.json",
+      "sha256": "eac39faff13a1c9de2db278c11447d952aeabcfc631d061568e750641fc8564c",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Full childhood scene, kite-winder identity, hopeful red-thread motif and mild Chungcheong voice",
+      "unit_ranges": [
+        [
+          1,
+          21
+        ]
+      ],
+      "units_reviewed": 21,
+      "text_fields_reviewed": 114,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "f70356;a4fa72",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_19_u0860-u0966.json",
+      "sha256": "d93a6ee4d5428808a4ed3dbc0aaa18db707a68b22cf5cf21faf8f18453b8c9e2",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Ending sacrifice, narrator uncertainty about revived identity, reported wrist injury and923/963 existing refinements",
+      "unit_ranges": [
+        [
+          860,
+          966
+        ]
+      ],
+      "units_reviewed": 107,
+      "text_fields_reviewed": 137,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "0e2b49",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_18_3_u0001-0101.json",
+      "sha256": "032ed9a6883751cf11cc66288766fa2940c860a86bc300b4981f280bfe7f0897",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Self-identity reassurance versus resurrection fear, semantic おまえ/詩菜 ruby and contextual もう reading",
+      "unit_ranges": [
+        [
+          65,
+          85
+        ]
+      ],
+      "units_reviewed": 21,
+      "text_fields_reviewed": 32,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "caa965;df5c09",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_13_u0001-0097.json",
+      "sha256": "b9dd20500f8a8f9ec65b8a98b205123905e4ad532339cc722c9ccfe17ed13d7d",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Investigation recap, hypotheses versus established facts and eleven displayed choice labels",
+      "unit_ranges": [
+        [
+          1,
+          61
+        ]
+      ],
+      "units_reviewed": 61,
+      "text_fields_reviewed": 104,
+      "inline_records_reviewed": 11,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "df5c09",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/sina_07_u0125-u0208.json",
+      "sha256": "959422086c52c201bdab0ae7517e8c59bf67844acead9b3c6459fae02332bab0",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Mother/peers/reporter recipient switches, remembered movie promise and introduction banter",
+      "unit_ranges": [
+        [
+          142,
+          164
+        ],
+        [
+          182,
+          208
+        ]
+      ],
+      "units_reviewed": 50,
+      "text_fields_reviewed": 60,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "35f681",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_18_3_u0102-0135.json",
+      "sha256": "67cd31f2de1910cba0200516f3f9f2f4229fe18c395321c066814d871127b27e",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Full Shiomi POV, unreliable Yue identification, field-specific dialogue speakers, joint male cry and eight ruby literals",
+      "unit_ranges": [
+        [
+          102,
+          135
+        ]
+      ],
+      "units_reviewed": 34,
+      "text_fields_reviewed": 182,
+      "inline_records_reviewed": 8,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "07fc24",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/maho_epi_u0001-u0072.json",
+      "sha256": "147d9eafa0367006bf60070b72ebcc579cf66c76ecfe371223e2695983e20206",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Full epilogue, apparent unresolved sleep, reunion, DVD reservation and paper-chain motif",
+      "unit_ranges": [
+        [
+          1,
+          72
+        ]
+      ],
+      "units_reviewed": 72,
+      "text_fields_reviewed": 99,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "d55889",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_19_u0001-0082.json",
+      "sha256": "f5bc9a39c12b603b8475b06af6dcfc52852caa082bd46f976f9dbef6a0eb81e7",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Resurrection uncertainty, unnoticed-presence interpretation at16 and chronology",
+      "unit_ranges": [
+        [
+          1,
+          40
+        ]
+      ],
+      "units_reviewed": 40,
+      "text_fields_reviewed": 61,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "a57355",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/sina_07_u0209-u0288.json",
+      "sha256": "5edcf313c6dea90f6caf0750302485e5ab5ace0d29e1cd0bb218a666b1ad3973",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Reporter banter, two branch alternatives and semantic versus phonetic rubies; menu owned unit233 after metadata correction",
+      "unit_ranges": [
+        [
+          209,
+          266
+        ]
+      ],
+      "units_reviewed": 58,
+      "text_fields_reviewed": 82,
+      "inline_records_reviewed": 8,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "3aa217;b91d72",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_19_u0083-0161.json",
+      "sha256": "cfc6a92a2241ab14fe2fc41f42236816fca311ca8b7c264626c52c88f3dcf642",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Telephone recipient, specified-meeting subject resolved by later source184, emotional hesitation",
+      "unit_ranges": [
+        [
+          126,
+          153
+        ]
+      ],
+      "units_reviewed": 28,
+      "text_fields_reviewed": 40,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "83ac92",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/maho_13_u0199-0289.json",
+      "sha256": "c9066a3fdfe8708480211e0b1ce99f0854e80e10e9ed93795262a827b978ab66",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Mother reassurance, police accident notification and provisional father-name reading without added outcome",
+      "unit_ranges": [
+        [
+          263,
+          289
+        ]
+      ],
+      "units_reviewed": 27,
+      "text_fields_reviewed": 39,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "c2be77",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_19_u0162-0244.json",
+      "sha256": "1c1ccc1f1ede98d113e219dd9e28bdd3598d8a21b128d845292410284ab144b5",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Narration switches at164 and183, contact-name intimacy, ritual explanation versus character inference;235 reflow directly checked",
+      "unit_ranges": [
+        [
+          162,
+          184
+        ],
+        [
+          206,
+          244
+        ]
+      ],
+      "units_reviewed": 62,
+      "text_fields_reviewed": 85,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "7311ef;8c580f",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/sina_04_u0203-0258.json",
+      "sha256": "82f20361620c1e81a7ea9d2c31f575d5423fdda6f8d313afb9bc578e34e7a707",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Pastor-to-student voice, source-authored Bible translation, singular recipient and internal 云々 ruby composition",
+      "unit_ranges": [
+        [
+          203,
+          242
+        ]
+      ],
+      "units_reviewed": 40,
+      "text_fields_reviewed": 60,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "366039",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_19_u0245-0336.json",
+      "sha256": "86ef87c6b9324a1514937948af35b588b13a5d69dd26a7dc2fcee3f609a4fbd3",
+      "reviewer": "Codex internal coordinator01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Mobile-bed referent, knife agency, 贄 ruby, fictional ritual claims and dangling DNA clause",
+      "unit_ranges": [
+        [
+          275,
+          307
+        ]
+      ],
+      "units_reviewed": 33,
+      "text_fields_reviewed": 58,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        {
+          "batch": "lane-3/batches/sina_19_u0245-0336.json",
+          "unit": "sina_19.mjo::u0277",
+          "field_ids": [
+            "sina_19.mjo::002713",
+            "sina_19.mjo::002717"
+          ],
+          "finding": "Awkward 칼을 겨눠진 passive. Requested two-slot active composition preserving Mahoko lying on mobile bed and Shiomi pointing knife.",
+          "status": "resolved;b983d7 direct target verification"
+        }
+      ],
+      "evidence_command": "8c580f;74a765",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false,
+      "prior_sha256": "86ef87c6b9324a1514937948af35b588b13a5d69dd26a7dc2fcee3f609a4fbd3",
+      "correction_evidence": "b983d7; only corrected u0277 fields rechecked; original reviewed ranges unchanged"
+    },
+    {
+      "batch": "lane-1/batches/sina_05_u0108-0174.json",
+      "sha256": "50bd2dc9217f33ee5190b1c6abfdbc18ff6b9ff5877c793395345ee3b90f9cf5",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Explicit name misreadings ヤジマ/ヤシマ and ペキ/みどり, deliberate 三沢(さんたく)信哉(のぶなり) retort, MOO/モー and ruby composition",
+      "unit_ranges": [
+        [
+          131,
+          163
+        ]
+      ],
+      "units_reviewed": 33,
+      "text_fields_reviewed": 60,
+      "inline_records_reviewed": 16,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "b983d7",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_19_u0337-0409.json",
+      "sha256": "ee7d1735cf1e0ed296caf4b024782bec6fc3efe551cacd764d18aaa4ec77f3ad",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Broken bottle and possible spare as character inference, polite yet threatening Shiomi, human-shield refusal and attack sequence, ordinary printed 信哉",
+      "unit_ranges": [
+        [
+          337,
+          409
+        ]
+      ],
+      "units_reviewed": 73,
+      "text_fields_reviewed": 108,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "190303",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/sina_07_u0649-u0714.json",
+      "sha256": "274b2ea8d566b785e21cd7a4442c24edd52f35649dfe9dd1767288b540009626",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Shiina viewpoint, hostage bargain flashback, prayer to God, Shiomi mistaking her for Yue, 虚/現/理/故 ruby composition",
+      "unit_ranges": [
+        [
+          649,
+          714
+        ]
+      ],
+      "units_reviewed": 66,
+      "text_fields_reviewed": 92,
+      "inline_records_reviewed": 10,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "934265",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_epi_u0067-0102.json",
+      "sha256": "426335fa72515503de44b0591a00f62e53ab1daf56ac2b7242f5657531a72865",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Bereavement viewpoint, hypothetical revival, scar continuity, final alternate-choice negative statement",
+      "unit_ranges": [
+        [
+          67,
+          102
+        ]
+      ],
+      "units_reviewed": 36,
+      "text_fields_reviewed": 51,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        {
+          "batch": "lane-3/batches/sina_epi_u0067-0102.json",
+          "unit": "sina_epi.mjo::u0093",
+          "field_id": "sina_epi.mjo::001378",
+          "finding": "Clarify negative hypothetical: she might not have been in this place. Ambiguous 있지는 않았을까 replaced with 없었을지도 모른다.",
+          "status": "resolved;62cb48 direct corrected-target verification; changed validation reused"
+        }
+      ],
+      "evidence_command": "934265;62cb48 correction",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/sina_05_u0316-0393.json",
+      "sha256": "e8e1654ed099bde029a3b8a3ec276b9be3f23557e56e983bce7839c55aeab428",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Nighttime human silhouette with ひとがた reading and 朧 composition, recognition of pastor and register",
+      "unit_ranges": [
+        [
+          316,
+          350
+        ]
+      ],
+      "units_reviewed": 35,
+      "text_fields_reviewed": 48,
+      "inline_records_reviewed": 4,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "e0e3a7",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/sina_05_u0394-0471.json",
+      "sha256": "92d3b247c65ce0092e7ce429e70844b7ae592e7efe5773e079f9585a98cdb82b",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Daily recollection branch, taxi fare receipt, Mahoko absence inferred rather than asserted, final internal monologue",
+      "unit_ranges": [
+        [
+          437,
+          471
+        ]
+      ],
+      "units_reviewed": 35,
+      "text_fields_reviewed": 54,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        {
+          "batch": "lane-1/batches/sina_05_u0394-0471.json",
+          "unit": "sina_05.mjo::u0468",
+          "field_id": "sina_05.mjo::005046",
+          "finding": "Natural casual internal monologue ま、いいか: change 뭐, 됐나. to 뭐, 됐어.",
+          "status": "resolved;063e70"
+        }
+      ],
+      "evidence_command": "e0e3a7;62cb48 branch",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false,
+      "prior_sha256": "92d3b247c65ce0092e7ce429e70844b7ae592e7efe5773e079f9585a98cdb82b",
+      "correction_evidence": "063e70; only u0468 field rechecked"
+    },
+    {
+      "batch": "lane-3/batches/sina_sub1_u0001-0030.json",
+      "sha256": "96c740a7c7d174a9fa742b6487c9b2aece596c2c4e41b393509bf33fe25c60c4",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Field-level speaker changes within dense units, Shiina-to-Mahoko polite speech, Shinya named before appearance, doctor honorific/base distinction",
+      "unit_ranges": [
+        [
+          1,
+          30
+        ]
+      ],
+      "units_reviewed": 30,
+      "text_fields_reviewed": 164,
+      "inline_records_reviewed": 4,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "a9be8a units1–8 and ruby3;063e70 units9–30 and ruby27; truncated section separately recovered",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/sina_08_u0001-u0069.json",
+      "sha256": "6b4db02bf6606be61e343b4d61266dfc9b518ccaea3d314338d8b5016b157767",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Unconfirmed criminal inference, syringe discovery and semantic ruby pronoun with Korean particle redistribution",
+      "unit_ranges": [
+        [
+          45,
+          65
+        ]
+      ],
+      "units_reviewed": 21,
+      "text_fields_reviewed": 27,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "a9be8a",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/sina_08_u0142-u0216.json",
+      "sha256": "fdc9bf7f99445bda588936cb6194dbc700297d67e1db76adc1cd811cd5f3dd0e",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Reunion, 話してくれるな interpreted as confirmation question from following response, Shiina stated explanation distinguished from prior hostage scene",
+      "unit_ranges": [
+        [
+          174,
+          204
+        ]
+      ],
+      "units_reviewed": 31,
+      "text_fields_reviewed": 45,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        {
+          "unit": "sina_08.mjo::u0187",
+          "field_id": "sina_08.mjo::001694",
+          "finding": "メール target 문자 must match frozen 메일 terminology.",
+          "batch": "lane-2/batches/sina_08_u0142-u0216.json",
+          "status": "resolved;6e5221: five directly related メール fields and Korean particles verified after correcting transient 메일를"
+        }
+      ],
+      "evidence_command": "0b80af",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false,
+      "prior_sha256": "faccaf89f782f2245ecb64df866e28a4af7ca19d3bf0265fad4b2440eb82f5c2",
+      "correction_evidence": "6e5221; corrected fields only; changed lane verification reused"
+    },
+    {
+      "batch": "lane-3/batches/sina_sub1_u0031-0060.json",
+      "sha256": "5feb29d40966c77fc65d545b8518c22b6afcc56e4ace90753e671a5ac3c82099",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Field-level shift from clerk to Mahoko, first Shinya meeting and guarded Shiina, cellphone-off joke and honorifics; game excuse, body-size insult, Mahoko rebuke, lasting change and emotional plain-speech switch",
+      "unit_ranges": [
+        [
+          31,
+          60
+        ]
+      ],
+      "units_reviewed": 30,
+      "text_fields_reviewed": 151,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        {
+          "unit": "sina_sub1.mjo::u0041",
+          "field_id": "sina_sub1.mjo::001759",
+          "finding": "Natural retort to 그래?: replace 그래고 뭐고 with 그렇냐니.",
+          "batch": "lane-3/batches/sina_sub1_u0031-0060.json",
+          "status": "resolved;6e5221: 그렇냐니 directly verified"
+        }
+      ],
+      "evidence_command": "0b80af;63524b units46–60",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false,
+      "prior_sha256": "2742ac6cb6bf5dd8e7098671e0da8710f5b41c7770c7832adb3b33eda6655780",
+      "correction_evidence": "6e5221; corrected fields only; changed lane verification reused"
+    },
+    {
+      "batch": "lane-1/batches/sina_06_u0119-0192.json",
+      "sha256": "78ae54cf2a8f7de5704cfd03a2185b9dad64d25f796da4c2130b39ed6a1379eb",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Shinya offers message delivery, Shiina insists on immediate visit, adult current scene distinguished from childhood attendance recollection",
+      "unit_ranges": [
+        [
+          164,
+          192
+        ]
+      ],
+      "units_reviewed": 29,
+      "text_fields_reviewed": 42,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "0837a6",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-1/batches/sina_06_u0193-0284.json",
+      "sha256": "386c2d0927d7d79e50e39aaa19125cdd6fd62c837745d3094bfd808b8b826b73",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Awkward walk and film-title joke 三丁目/三丁目の夕日/ALWAYS; Shiina retort refers back to prior quoted phrase",
+      "unit_ranges": [
+        [
+          193,
+          223
+        ]
+      ],
+      "units_reviewed": 31,
+      "text_fields_reviewed": 46,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "bdbb2c",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false,
+      "external_term_evidence": {
+        "title": "주한일본대사관 2007-12-05 칼럼",
+        "url": "https://www.kr.emb-japan.go.jp/itpr_ko/dsk_column_koushi_takahashi_20071205.html",
+        "finding": "Primary Korean cultural source uses 3번가의 석양. Supports existing title rendering; does not establish theatrical release title.",
+        "semantic_translation_author": "Codex internal"
+      }
+    },
+    {
+      "batch": "lane-2/batches/sina_08_u0264-u0322.json",
+      "sha256": "8b6aa5e49056dc613d3b76fa7f5001035e4d3d06a844674fc3dd52613fc8e56e",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Yashima/Shinya banter, heat death as hyperbolic endpoint, redundant English ruby suppressed while body remains 열적 죽음",
+      "unit_ranges": [
+        [
+          281,
+          301
+        ]
+      ],
+      "units_reviewed": 21,
+      "text_fields_reviewed": 30,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "bdbb2c",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_sub2_u0001-0024.json",
+      "sha256": "f3483f985865f3871916aa4572840e012f97d660efaee1690d33a977e17205c2",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Explicit childhood hospitalization, warm but polite Shiina-to-roommate voice, gift passed on, discharge and mother/father absence explanation, address spoken by Mahoko inferred from surrounding exchange",
+      "unit_ranges": [
+        [
+          1,
+          24
+        ]
+      ],
+      "units_reviewed": 24,
+      "text_fields_reviewed": 133,
+      "inline_records_reviewed": 4,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        {
+          "batch": "lane-3/batches/sina_sub2_u0001-0024.json",
+          "unit": "sina_sub2.mjo::u0010",
+          "field_id": "sina_sub2.mjo::000405",
+          "finding": "Child hastily retracts her previous teasing remark; render わーうそうそっ as 아, 아니야, 아니야 rather than 와, 거짓말이야, 거짓말.",
+          "status": "resolved;339ed4 direct target verification"
+        }
+      ],
+      "evidence_command": "d22829;482d73",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false,
+      "prior_sha256": "eeaffbeb5e673e9421c6f44f32f9aef1845d9e91e8b948c630af9472cbce111d",
+      "correction_evidence": "339ed4; changed target only"
+    },
+    {
+      "batch": "lane-1/batches/sina_06_u0436-0494.json",
+      "sha256": "d473eba0c1875394b6ea73490e0844a3e4ee4be3ddee3e9ce2abe1db53d2964a",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Mother addressing both students, Shinya/Aunt and Shiina/Aunt honorific distinction, conjectured kidnapping versus fact, subtle voice trembling ruby, private reassuring chant",
+      "unit_ranges": [
+        [
+          436,
+          494
+        ]
+      ],
+      "units_reviewed": 59,
+      "text_fields_reviewed": 90,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "a4f86c",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_sub3_u0001-0016.json",
+      "sha256": "0229d7cbbecc58fb9bf51f6655cc95843441181bdb886e5c8b1424e3945fdd8a",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Shiomi viewpoint and concealed hostility, semantic 女生徒/かのじょ and 女子生徒/しにん ruby, resurrection precondition, confidant dialogue and desire agency",
+      "unit_ranges": [
+        [
+          1,
+          16
+        ]
+      ],
+      "units_reviewed": 16,
+      "text_fields_reviewed": 100,
+      "inline_records_reviewed": 6,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        {
+          "batch": "lane-3/batches/sina_sub3_u0001-0016.json",
+          "unit": "sina_sub3.mjo::u0001",
+          "field_ids": [
+            "sina_sub3.mjo::000058",
+            "sina_sub3.mjo::000059",
+            "sina_sub3.mjo::000061"
+          ],
+          "finding": "Subject particle redistributed to both semantic ruby layers: 그녀는/그 여학생은.",
+          "status": "resolved;62dc1b direct corrected-target verification;changed lane validation reused"
+        },
+        {
+          "batch": "lane-3/batches/sina_sub3_u0001-0016.json",
+          "unit": "sina_sub3.mjo::u0015",
+          "field_ids": [
+            "sina_sub3.mjo::000703"
+          ],
+          "finding": "Clarify Shiina wishes Shiomi not to broach this subject; narrator action explicit.",
+          "status": "resolved;62dc1b direct corrected-target verification;changed lane validation reused"
+        }
+      ],
+      "evidence_command": "b2f214;62dc1b corrections",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-3/batches/sina_sub3_u0017-0032.json",
+      "sha256": "5258760afdd51c0f95796fc9466af9323a3ec5e6d7b6b9ea711e2433f4acee27",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Fictional transplant history as dialogue, hypothesis followed by investigation, Yue donor identity, villain possessiveness and 悦 ruby composition",
+      "unit_ranges": [
+        [
+          17,
+          32
+        ]
+      ],
+      "units_reviewed": 16,
+      "text_fields_reviewed": 107,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_corrections_verified",
+      "findings": [
+        {
+          "batch": "lane-3/batches/sina_sub3_u0017-0032.json",
+          "unit": "sina_sub3.mjo::u0030",
+          "field_ids": [
+            "sina_sub3.mjo::001449"
+          ],
+          "finding": "Unambiguous apposition establishes Yue as donor, not narrator.",
+          "status": "resolved;62dc1b direct corrected-target verification;changed lane validation reused"
+        }
+      ],
+      "evidence_command": "339ed4;62dc1b corrections",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false,
+      "layout_followups": {
+        "fields": [
+          "sina_sub3.mjo::000942",
+          "sina_sub3.mjo::001358"
+        ],
+        "status": "resolved;62dc1b shortened targets preserve meaning and validator warnings return to four previously accepted repetition warnings; runtime wrapping still unverified"
+      }
+    },
+    {
+      "batch": "lane-2/batches/sina_08_u0488-u0536.json",
+      "sha256": "af5b0e555840cf8be32d05a3f989905ecbba4ded395c542af7766eb546bd5c2a",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Shiina retaining polite speech while forced to play Yue, explicit desu/masu clue, coercer beliefs distinct from narrator knowledge, flashback speaker changes and 断片 ruby",
+      "unit_ranges": [
+        [
+          501,
+          536
+        ]
+      ],
+      "units_reviewed": 36,
+      "text_fields_reviewed": 77,
+      "inline_records_reviewed": 2,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "8f0527",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    },
+    {
+      "batch": "lane-2/batches/sina_09_u0251-u0301.json",
+      "sha256": "7fe7320f25228a8cd18ad81e7a7a128b06db571aa48d7370b5059d0cc539d662",
+      "reviewer": "Codex internal coordinator 01a16335-afd6-74f0-8990-fd759c6ead35",
+      "scope": "Shiina unaware of being followed; initially hidden speaker resolved to Shiomi by u0279; Shinya fabricates a classmate punishment and escape excuse; polite teacher/student dialogue. Full source scene u0267-u0320 plus u0257-u0266/u0321-u0330 context read.",
+      "unit_ranges": [
+        [
+          267,
+          301
+        ]
+      ],
+      "units_reviewed": 35,
+      "text_fields_reviewed": 48,
+      "inline_records_reviewed": 0,
+      "status": "reviewed_no_actionable_findings",
+      "findings": [],
+      "evidence_command": "bff27a",
+      "structural_evidence": "existing lane verification reused",
+      "runtime_verified": false
+    }
+  ],
+  "term_decisions": [
+    {
+      "source": "首刈り女 / クビカリオンナ",
+      "target": "목 베는 여자",
+      "evidence": [
+        "maho_04.mjo::u0064",
+        "maho_04.mjo::u0104"
+      ],
+      "scope": "session-2 provisional; central final glossary pending"
+    },
+    {
+      "source": "田村",
+      "target": "다무라",
+      "evidence": [
+        "maho_04.mjo::u0050",
+        "maho_04.mjo::u0055"
+      ],
+      "note": "일반 독음; 음성 미대조"
+    },
+    {
+      "source": "ダルマ",
+      "target": "달마 인형",
+      "evidence": [
+        "maho_14.mjo::u0021"
+      ]
+    },
+    {
+      "source": "反魂の法 / 反魂の術 / ハンゴンの術",
+      "target": "반혼술",
+      "evidence": [
+        "maho_14.mjo::u0371",
+        "maho_14.mjo::u0374",
+        "session-3/lane-2/batches/last_gendai02_u0001-u0144.json",
+        "session-3/lane-3/batches/sub_last01_u0001-u0106.json"
+      ],
+      "note": "인물이 낯설게 듣는 반응 보존"
+    },
+    {
+      "source": "悪魔憑き",
+      "target": "악마 들린 자",
+      "evidence": [
+        "maho_14.mjo::u0370-u0377",
+        "session-3/lane-3/batches/sub_last02_u0001-u0049.json"
+      ],
+      "context_exception": "인물 지칭=악마 들린 자; 상태 자체=악마 들림"
+    },
+    {
+      "source": "悠絵 / ゆえ",
+      "target": "유에",
+      "evidence": [
+        "session-3/lane-3/batches/sub_last00_u0001-u0028.json"
+      ],
+      "note": "source reading ゆえ와 해당 세션 근거 재사용"
+    },
+    {
+      "source": "汐見",
+      "target": "시오미",
+      "evidence": [
+        "session-3/lane-3/batches/sub_last00_u0001-u0028.json"
+      ],
+      "note": "sina_19_2 しおみ…せんせい source reading 근거 재사용"
+    },
+    {
+      "source": "糸巻き",
+      "target": "얼레",
+      "evidence": [
+        "maho_sub2.mjo::u0012",
+        "maho_sub2.mjo::000420 凧揚げの糸を巻く道具だ。",
+        "a4fa72;caa965"
+      ],
+      "scope": "session-2 same kite-winder object, including contextual 糸車; central reconciliation pending",
+      "previous_target": "실패",
+      "note": "No matching frozen glossary or approved-memory entry. New explicit referent evidence supersedes earlier generic spool rendering; ordinary 失敗 unchanged."
+    },
+    {
+      "source": "秘密基地",
+      "target": "비밀기지",
+      "evidence": [
+        "maho_14.mjo::u0182",
+        "maho_14.mjo::u0206"
+      ],
+      "scope": "session-2 accepted; central merge pending"
+    },
+    {
+      "source": "まほ",
+      "target": "마호",
+      "evidence": [
+        "maho_14.mjo::u0115"
+      ],
+      "scope": "session-2 accepted; central merge pending"
+    },
+    {
+      "source": "まほまほ",
+      "target": "마호마호",
+      "evidence": [
+        "maho_04.mjo::u0208"
+      ],
+      "scope": "session-2 accepted; central merge pending"
+    },
+    {
+      "source": "神棚",
+      "target": "신단",
+      "evidence": [
+        "maho_04.mjo::u0170"
+      ],
+      "scope": "session-2 accepted; central merge pending"
+    },
+    {
+      "source": "礼拝堂",
+      "target": "예배당",
+      "evidence": [
+        "sina_10.mjo::u0220"
+      ],
+      "scope": "session-2 accepted; central merge pending"
+    },
+    {
+      "source": "桟",
+      "target": "가로대",
+      "evidence": [
+        "maho_04.mjo::u0307"
+      ],
+      "scope": "window key-storage context"
+    },
+    {
+      "source": "おまじない",
+      "target": "주문",
+      "evidence": [
+        "sina_10.mjo::u0404-u0417",
+        "sina_10.mjo::u0511"
+      ],
+      "note": "psychological ritual/gesture; does not newly assert actual magic"
+    },
+    {
+      "source": "神 (school/Bible context)",
+      "target": "하나님",
+      "evidence": [
+        "00_レコンキスタ_start_2.mjo::u0455 (004957) プロテスタント系",
+        "00_レコンキスタ_start_2.mjo::u0720 (007762) プロテスタント派",
+        "kureha_15.mjo::u0078 distinguishes 牧師 from 神父"
+      ],
+      "note": "Lane-1 source evidence shared; not generalized to other gods or 神棚"
+    },
+    {
+      "source": "土 / 祟り",
+      "target": "흙 / 저주",
+      "evidence": [
+        "maho_05.mjo::u0131"
+      ],
+      "note": "rumor wording accepted in scene; broader cause not newly asserted"
+    },
+    {
+      "source": "反魂香",
+      "target": "반혼향",
+      "evidence": [
+        "maho_15.mjo::u0286",
+        "maho_15.mjo::u0288",
+        "maho_15.mjo::u0289"
+      ],
+      "note": "lane-2 proposal shared, same lexical stem as 반혼술"
+    },
+    {
+      "source": "はとり",
+      "target": "하토리",
+      "evidence": [
+        "maho_06.mjo::u0336"
+      ],
+      "note": "lane-1 exact source phonetic evidence; confirms frozen name"
+    },
+    {
+      "source": "新月",
+      "target": "신월",
+      "evidence": [
+        "maho_15.mjo::u0730",
+        "maho_15.mjo::u0731",
+        "session-3 last_kako03.mjo::u0168-u0175",
+        "session-3 last_kako04.mjo::u0001/u0318"
+      ],
+      "note": "same lunar phase term across existing session outputs; not crescent"
+    },
+    {
+      "source": "贖う (Kureha responsibility transfer)",
+      "target": "속죄하다",
+      "evidence": [
+        "maho_15.mjo::u0722",
+        "maho_14.mjo::u0382"
+      ],
+      "note": "contextual link to 贖罪; school scripture quotation at maho_06 u0001 uses 속량하다. Do not mechanically replace both senses."
+    },
+    {
+      "source": "矢嶋碧",
+      "target": "야시마 미도리",
+      "evidence": [
+        "sina_13.mjo::u0203-u0204",
+        "session-1 kureha_07.mjo::u0168/u0173",
+        "session-3 last_gendai03.mjo::u0174/u0178"
+      ],
+      "note": "correct やしま/みどり versus deliberate misread やじま=야지마 and ぺき=페키; semantic wrong-reading ruby retained"
+    },
+    {
+      "source": "依代",
+      "target": "그릇",
+      "evidence": [
+        "sina_13.mjo::u0360",
+        "sina_13.mjo::u0363-u0364"
+      ],
+      "note": "Yue vessel metaphor for Shiina; direct context reviewed. No other published cross-session occurrence found in prior search; contextual decision, not central glossary edit."
+    },
+    {
+      "source": "田村奈那子",
+      "target": "다무라 나나코",
+      "evidence": [
+        "lane-3 term proposal: source script-002 self-introduction and script-003 personal details",
+        "earlier coordinator conversational decision"
+      ],
+      "note": "Spelling occurrences confirmed by lane-3; conventional reading, no direct furigana/audio verification. Central glossary unmodified."
+    },
+    {
+      "source": "上条",
+      "target": "카미조",
+      "evidence": [
+        "source/script-027.json kureha_18.mjo::004749 かみじょう / ::004750 上条 offsets52551/52566",
+        "session-1/lane-3 masa_06 u0021/u0023 and neighboring published examples"
+      ],
+      "note": "Direct phonetic source evidence db7689; existing cross-session spelling reused. 上条暮葉=카미조 쿠레하; 上条紅葉=카미조 모미지. Central glossary unmodified."
+    },
+    {
+      "source": "アルハンブラ宮殿 / ナスル朝",
+      "target": "알람브라 궁전 / 나스르 왕조",
+      "evidence": [
+        "https://kli.korean.go.kr/term/trgtWord/indexTrgtWord.do?trgtWordNo=2085803"
+      ],
+      "note": "National Institute of Korean Language term entry uses both spellings. Terminology lookup only; target prose authored by Codex internal. Lane-3 informed; central glossary unchanged."
+    },
+    {
+      "source": "前田",
+      "target": "마에다",
+      "evidence": [
+        "maho_10.mjo::u0187 ::002032;003ae9",
+        "source/script-002.json same-class classmate named 前田;bd652e"
+      ],
+      "note": "Conventional surname reading; no explicit kana/audio verified. Central glossary unchanged."
+    },
+    {
+      "source": "全米",
+      "target": "전미",
+      "evidence": [
+        "maho_10.mjo::u0136-u0137;003ae9"
+      ],
+      "note": "Advertising 全米が泣いた personified as 全米さん; 전미 씨/울보 preserves joke, not a new character."
+    },
+    {
+      "source": "反魂樹",
+      "target": "반혼수",
+      "evidence": [
+        "session-1/term-decisions.json session_canonical kureha09",
+        "session-3/terminology-decisions.json sub_last02 u38-u39"
+      ],
+      "note": "b065de existing decisions reused and shared with three lanes; central glossary unchanged"
+    },
+    {
+      "source": "禊ぎ",
+      "target": "정화 의식",
+      "evidence": [
+        "session-3/terminology-decisions.json sina19 side-effect removal/return to life"
+      ],
+      "note": "b065de existing decisions reused and shared with three lanes; central glossary unchanged"
+    },
+    {
+      "source": "運命の赤い糸",
+      "target": "운명의 붉은 실",
+      "evidence": "a77fe6 maho11u0370/u0440",
+      "note": "Codex internal context decision; central glossary unchanged"
+    },
+    {
+      "source": "米軍基地跡",
+      "target": "옛 미군 기지",
+      "evidence": "lane2 scene context and2e8adb",
+      "note": "Codex internal context decision; central glossary unchanged"
+    },
+    {
+      "source": "苗床",
+      "target": "모판",
+      "evidence": "session-3/terminology-decisions.json;sub_last05u0082/u0084;source sina17u0559;5a8f7e,d1e6a0",
+      "note": "Existing metaphor reused; 命の苗床=생명을 싹틔울 모판"
+    },
+    {
+      "source": "朋子",
+      "target": "도모코",
+      "evidence": "session-3/terminology-decisions.json;df104a",
+      "note": "Existing conventional reading; kana/audio evidence unconfirmed. 一ノ瀬朋子=이치노세 도모코;羽鳥朋子=하토리 도모코"
+    },
+    {
+      "source": "反魂液",
+      "target": "반혼액",
+      "evidence": "a887e5 maho19u0292",
+      "note": "Contextual liquid name consistent with 반혼술/반혼수"
+    },
+    {
+      "source": "ＭＯＯ/モー",
+      "target": "MOO/모",
+      "evidence": "f26331 maho12u0136/u0145",
+      "note": "Explicit source reading; preserve Latin base plus Korean reading"
+    },
+    {
+      "source": "ヤスィマ",
+      "target": "야쓰마",
+      "evidence": "f26331 maho12u0141",
+      "note": "th pronunciation joke only; does not replace canonical 야시마"
+    },
+    {
+      "source": "Grandmother direct dialect in maho_sub1/sub2",
+      "target": "mild Chungcheong family: 그려, 허다, ~겨, ~구먼, 할미",
+      "evidence": "342d5c;f70356;a4fa72",
+      "note": "Recurring nonstandard Japanese preserved; granddaughter-retold standard quotation in maho11 stays warm standard Korean."
+    },
+    {
+      "source": "べっぴんさん",
+      "target": "고운 처자",
+      "evidence": "maho_sub1u0010;f70356",
+      "note": "Benign older-speaker wording preserves the child asking its meaning."
+    },
+    {
+      "source": "羽鳥高文",
+      "target": "하토리 다카후미",
+      "evidence": "maho13u0282;6d3846",
+      "note": "Provisional conventional name reading only; no kana/audio evidence, narrow external search found no relevant source. Central final name confirmation pending."
+    },
+    {
+      "source": "エキス",
+      "target": "추출액",
+      "evidence": "sina17u0518::005427 existing lane result;sina19u0220/0223/0237 7311ef",
+      "scope": "same ritual liquid; not every unrelated extract"
+    },
+    {
+      "source": "生き血",
+      "target": "생피",
+      "evidence": "sina19u0214/0291;7311ef;8c580f",
+      "scope": "ritual explanation"
+    },
+    {
+      "source": "贄",
+      "target": "제물",
+      "evidence": "sina19u0289/0291;8c580f;74a765",
+      "scope": "ritual victim; preserve original speaker claim"
+    },
+    {
+      "source": "キャスター",
+      "target": "이동식 침대",
+      "evidence": "sina19u0277 lying person/u0283 knife placed on it;8c580f",
+      "scope": "hospital wheeled bed as whole referent; not bare wheels elsewhere"
+    },
+    {
+      "source": "永遠の雫",
+      "target": "영원의 물방울",
+      "evidence": "sina07u0481::005172;0x0d6f2;74a765",
+      "scope": "currently unexplained expression; retain ambiguity for Shinya"
+    }
+  ],
+  "runtime_verified": false,
+  "reviewed_units": 4974,
+  "repetition_review": {
+    "result": "0 exact normalized full-unit variants among currently written session-2 batches with source length >=8",
+    "evidence_command": "f85cb1",
+    "scope_limits": [
+      "short formulae and punctuation-only units excluded",
+      "ruby/composite cases with ambiguous role labeling excluded",
+      "project-wide all-word final audit still pending"
+    ],
+    "runtime_verified": false
+  },
+  "integration_notes": [
+    {
+      "unit": "maho_14.mjo::u0453",
+      "id": "maho_14.mjo::004449",
+      "finding": "ordinary text リターン is a manual ruby reading above 情報源; target 보상 / 정보원, preserve control stream",
+      "evidence": "mjil 0b12d ctrl f, 0b133 text, 0b142 ctrl r, 0b14e ctrl s, 0b185 ctrl f, 0b18b base text",
+      "runtime_pending": "ruby placement and overlap"
+    },
+    {
+      "unit": "maho_15.mjo::u0287",
+      "finding": "manual ruby はんごん/反魂の法 expected; redundant Korean reading suppression conflicts with current ordinary-text nonblank validation. Agent will record display roles; final integration policy/handling required.",
+      "status": "staged_text_can_continue; final_display_qa_pending"
+    },
+    {
+      "unit": "maho_15.mjo::u0722",
+      "reading_id": "maho_15.mjo::007626",
+      "body_id": "maho_15.mjo::007639",
+      "finding": "manual ruby あがな / 贖うのよ; current target 속죄 / 속죄해야 해. suppress redundant reading during integration with manual-role exception to ordinary nonblank validator.",
+      "evidence": "reuse lane-2 mjil evidence 12fb7..12ff4 ctrl s/o/f font12, 12ffa reading, ctrl r/s/f, 13050 base",
+      "status": "staged text valid, final display handling and runtime pending"
+    },
+    {
+      "unit": "maho_06.mjo::u0471",
+      "reading_id": "maho_06.mjo::004621",
+      "body_id": "maho_06.mjo::004634",
+      "finding": "ordinary-field manual ruby: あ の 人/お父さん → 그 사 람/애 아빠; semantically distinct, retain both.",
+      "evidence": "lane-1 mjil 0ba31–0baca ctrl s/o/f/r; roles in context.manual_ruby; direct target and surrounding conversation reviewed",
+      "runtime_pending": "manual ruby placement/spacing"
+    },
+    {
+      "unit": "maho_16.mjo::u0301",
+      "reading_id": "maho_16.mjo::002838",
+      "body_id": "maho_16.mjo::002851",
+      "finding": "ordinary-field manual ruby; たが/箍→고삐; redundant Korean reading staged due nonblank constraint, suppress during central integration with exact role allowance.",
+      "evidence": "lane-2 context.display_evidence including original offsets and ctrl s/o/f/r; coordinator read field roles in db272d",
+      "status": "display handling and runtime pending"
+    },
+    {
+      "unit": "maho_16.mjo::u0340",
+      "reading_id": "maho_16.mjo::003262",
+      "body_id": "maho_16.mjo::003275",
+      "finding": "ordinary-field manual ruby; みの/蓑 within 隠れ蓑→은신처; redundant Korean reading staged due nonblank constraint, suppress during central integration with exact role allowance.",
+      "evidence": "lane-2 context.display_evidence including original offsets and ctrl s/o/f/r; coordinator read field roles in db272d",
+      "status": "display handling and runtime pending"
+    },
+    {
+      "unit": "maho_07.mjo::u0445",
+      "field_id": "maho_07.mjo::004323",
+      "finding": "哨戒=순찰 is ordinary small offset type, not duplicated inline ruby. Three fields combine as 아파트 주변을 + 순찰 + 했지만.",
+      "evidence": "lane context manual_display_evidence ctrl s/o/f/r0aa76–0ab07 and coordinator source/target read0deaeb",
+      "status": "source roles preserved; final font/offset placement runtime pending"
+    },
+    {
+      "unit": "sina_14.mjo::u0263",
+      "field_id": "sina_14.mjo::002900",
+      "finding": "Ordinary text label 詩菜→시이나 before thought, not protected voice-config speaker key",
+      "evidence": "reuse lane-3 display_text_label_audit: mjil0x075a9 text then proc and ctrl n; source/target directly read587f2d",
+      "status": "static role verified by lane; actual layout runtime pending"
+    },
+    {
+      "unit": "maho_18.mjo::u0079",
+      "fields": [
+        "maho_18.mjo::000779",
+        "maho_18.mjo::000792"
+      ],
+      "finding": "3 emphasis dots retained above 완전한 in 완전한 반혼술일 것이다",
+      "evidence": "efec51 direct text; lane disassembly offsets0x01f80/0x01fdc ctrl s/o/f12 y-12 then restore reused",
+      "status": "semantic composition reviewed; runtime alignment pending"
+    },
+    {
+      "unit": "maho_18.mjo::u0088",
+      "fields": [
+        "maho_18.mjo::000885",
+        "maho_18.mjo::000898"
+      ],
+      "finding": "2 emphasis dots retained above 반혼 in 반혼술…이라",
+      "evidence": "efec51 direct text; lane offsets0x023cb/0x02423 reused",
+      "status": "semantic composition reviewed; runtime alignment pending"
+    },
+    {
+      "unit": "maho_18.mjo::u0093",
+      "fields": [
+        "maho_18.mjo::000960",
+        "maho_18.mjo::000973"
+      ],
+      "finding": "Pronunciation-only manual ruby くら/晦ましたなら staged 감췄/감췄다면, under current nonblank validator",
+      "evidence": "efec51 direct composition; lane offsets0x026a5/0x026f9 reused",
+      "status": "central exact display-role suppression needed for reading; runtime pending; central validator unchanged"
+    },
+    {
+      "unit": "maho_18_3.mjo::u0081",
+      "fields": [
+        "maho_18_3.mjo::000703",
+        "maho_18_3.mjo::000716"
+      ],
+      "finding": "Manual emphasis over わたし3 chars becomes one dot over 나1 char, preserving POV emphasis",
+      "evidence": "963cda direct text/display roles; lane offsets0x01ad2/0x01b2e ctrl s/o/f12 y-12 and restore reused",
+      "status": "semantic adaptation reviewed; actual alignment runtime pending"
+    },
+    {
+      "unit": "maho_19.mjo::u0041",
+      "fields": [
+        "maho_19.mjo::000358",
+        "maho_19.mjo::000362",
+        "maho_19.mjo::000365",
+        "maho_19.mjo::000370"
+      ],
+      "finding": "Existing phrase 골수이식의 결과로 split across adjacent ordinary text fields so whitespace-only field remains valid. Emphasized death/possession claim retains both inline bodies and dots; no invented content.",
+      "evidence": "2e8adb source/target composition; lane consumer offsets0x00eb1–0x00f2b reused",
+      "status": "semantic composition accepted; runtime line and emphasis placement pending"
+    },
+    {
+      "unit": "sina_17.mjo::u0527",
+      "fields": [
+        "sina_17.mjo::005517",
+        "sina_17.mjo::005521",
+        "sina_17.mjo::005525"
+      ],
+      "finding": "Trailing U+3000 field is ordinary third text line. Reflow existing Korean across3 fields: 「…네, 요즘 들어 / 가끔 이렇게 눈이 / 변할 때가 있어요…」. No added meaning, no central validator changes.",
+      "evidence": "60555d;408805 text0x0e607/0x0e630/0x0e673 with ctrl n, proc, p/w",
+      "status": "exact reflow verified aa6984; agent changed-batch validation passed; runtime line placement pending"
+    },
+    {
+      "unit": "sub_last05.mjo::u0082",
+      "fields": [
+        "sub_last05.mjo::000791"
+      ],
+      "finding": "Read-only cross-session reference uses 가미조 while this session follows established 카미조. No edit to another owner.",
+      "evidence": "d1e6a0;prior 上条 kana evidence preserved",
+      "status": "central terminology reconciliation note; outside this session assignment"
+    },
+    {
+      "unit": "maho_19.mjo::u0437",
+      "fields": [
+        "maho_19.mjo::004359",
+        "maho_19.mjo::004372"
+      ],
+      "finding": "Manual ひとしお/一入 redundant pronunciation staged as 남달랐/남달랐다. to keep ordinary-field nonblank validation. Central suppress reading field at exact display role.",
+      "evidence": "37632b;lane offset0x0b381 reading font12 and0x0b3d9 body reused",
+      "status": "semantic composition reviewed; central reading suppression and runtime pending"
+    },
+    {
+      "unit": "maho_19.mjo::u0539",
+      "fields": [
+        "maho_19.mjo::005298",
+        "maho_19.mjo::005311"
+      ],
+      "finding": "Manual てい/体で means outward state, staged 모습/모습으로. Suppress redundant reading centrally at exact display role.",
+      "evidence": "b68776;lane offsets0x0da87 reading/font12 and0x0dadb body reused",
+      "status": "meaning reviewed; central reading suppression and runtime pending"
+    },
+    {
+      "unit": "maho_19.mjo::u0643",
+      "fields": [
+        "maho_19.mjo::006431",
+        "maho_19.mjo::006444",
+        "maho_19.mjo::006458",
+        "maho_19.mjo::006471"
+      ],
+      "finding": "Manual か/掻い and くぐ/潜ると pronunciation pairs staged as 파고/파고 and 들어/들어가. Centrally suppress redundant reading fields only; preserve body 파고들어가.",
+      "evidence": "3dcb2b; offsets0x10571/105c3 and0x10611/10665",
+      "status": "semantic composition reviewed; central reading suppression and runtime pending"
+    },
+    {
+      "unit": "maho_19.mjo::u0690",
+      "fields": [
+        "maho_19.mjo::006904",
+        "maho_19.mjo::006917"
+      ],
+      "finding": "Manual やから/輩がいて staged 놈/놈이 있어서요. Suppress pronunciation only; preserve polite police-call body.",
+      "evidence": "3dcb2b; offsets0x116d1/11727",
+      "status": "semantic composition reviewed; central reading suppression and runtime pending"
+    },
+    {
+      "unit": "maho_19.mjo::u0717",
+      "fields": [
+        "maho_19.mjo::007174",
+        "maho_19.mjo::007187"
+      ],
+      "finding": "Manual とばり/帳、 staged 장막/장막,. Suppress redundant pronunciation centrally at exact reading display role.",
+      "evidence": "3dcb2b; offsets0x120ae/12104",
+      "status": "semantic composition reviewed; central reading suppression and runtime pending"
+    },
+    {
+      "unit": "maho_13.mjo::u0010",
+      "fields": [],
+      "finding": "select_color@MENU displays supplied labels via inter_select and returns its numeric selection unchanged. Label concatenation CRC32 keys prior-selection lookup/recording; compatibility with Japanese-label history needs central/runtime review. No story-branch equivalence claim beyond this wrapper.",
+      "evidence": "6d3846; menu.mjo0x722b-0x7728; lane-1/review-notes/maho_13_choice_consumer.json",
+      "status": "display consumer and unchanged wrapper return verified statically; history helpers and runtime compatibility pending"
+    },
+    {
+      "unit": "cross-session kite winder",
+      "fields": [],
+      "finding": "maho_sub2u0012::000420 explicitly describes kite-string winder. Session2 changes same-object 糸巻き/糸車 실패 to 얼레. Session1 start_2 uses 실감개 at five source fields; central owner must reconcile without replacing ordinary 失敗.",
+      "evidence": "a4fa72; term-reconciliation-kite-winder.json",
+      "status": "session2 35 target corrections verified;caa965;cross-session5 fields central integration pending"
+    },
+    {
+      "unit": "sina_19_2.mjo::u0181",
+      "fields": [
+        "sina_19_2.mjo::002198"
+      ],
+      "finding": "Standalone U+3000 blackout text requires exact original preservation, while current ordinary-field validator rejects blanks. One technical deferred unit, separate from3 content holds.",
+      "evidence": "d7d14b;blank-preserve-proposal.json",
+      "status": "central hash-bound blank exception pending; no control/neighboring text change; runtime pending"
+    },
+    {
+      "unit": "sina_19.mjo::u0344",
+      "fields": [
+        "sina_19.mjo::003413"
+      ],
+      "finding": "Ordinary displayed 信哉 translated 신야; must not be classified as an internal voice/speaker key. Agent consumer record: text at0x08dd5 followed by proc and ctrln. Coordinator directly reviewed source and target in the completed batch.",
+      "evidence": "190303 target review; lane3 consumer evidence for opcode classification",
+      "status": "retain ordinary translated target; runtime pending"
+    }
+  ],
+  "pov_screen": {
+    "evidence_command": "a00d59",
+    "batches": 20,
+    "translated_units": 2389,
+    "flags": 0,
+    "scope": "Mechanical scan only: narration/monologue contexts versus source initial 私/わたし/俺/オレ pronouns. No full semantic certification."
+  },
+  "pending_findings": [],
+  "source_anomaly_reviews": [
+    {
+      "unit": "sina_12.mjo::u0346",
+      "field_id": "sina_12.mjo::003607",
+      "original_source": "　お前と真帆子のどこが似てるんだよ」",
+      "correction": "Comparison name should be 시이나, not 마호코; preserve exact source in batch.",
+      "evidence": "source packet script-113 u0326–0361 directly read, u0336/u0343/u0351 establish Shinya speaking to Mahoko about Shiina.",
+      "status": "target verified in ef40dd; exact source and source_anomalies preserved"
+    },
+    {
+      "unit": "sina_12.mjo::u0487",
+      "field_id": "sina_12.mjo::005046",
+      "original_name": "春日野詩菜",
+      "target_name": "가스가이 시이나",
+      "evidence": "same scene u0478 春日井詩菜 and frozen name; original source preserved",
+      "status": "target and source_anomalies verified in 4b0c39"
+    },
+    {
+      "unit": "sina_13.mjo::u0131",
+      "decision": "いたように interpreted as omitted 言った, preceding instruction context",
+      "evidence": "c147ed; source and target context directly reviewed; lane source_anomalies retains exact source",
+      "status": "accepted with explicit inference provenance"
+    },
+    {
+      "unit": "sina_13.mjo::u0144",
+      "decision": "malformed particle/passive interpreted as Shiomi targeting Shinya, following protective motivation",
+      "evidence": "c147ed; source and target context directly reviewed; lane source_anomalies retains exact source",
+      "status": "accepted with explicit inference provenance"
+    },
+    {
+      "unit": "sina_13.mjo::u0175",
+      "decision": "literal negative question has inverted polarity relative to pretext and response; target 이상할 건 없잖아? accepted as contextual source-error inference, not an assertion that original literal meaning matches",
+      "evidence": "c147ed; source and target context directly reviewed; lane source_anomalies retains exact source",
+      "status": "accepted with explicit inference provenance"
+    },
+    {
+      "unit": "maho_07.mjo::u0464",
+      "field_id": "maho_07.mjo::004548",
+      "original_source_fragment": "塗れタオル",
+      "decision": "젖은 수건, contextual 濡れ typo inference; exact source unchanged",
+      "evidence": "07a827 surrounding blood-cleaning account directly read",
+      "status": "accepted with inference provenance"
+    },
+    {
+      "unit": "sina_14.mjo::u0331",
+      "field_id": "sina_14.mjo::003866",
+      "original_source_fragment": "愛してるが悠絵の行為",
+      "decision": "が悠絵 inferred as homophone conversion error for が故; 너를 사랑하기 때문에 한 일이니까 preserves causal self-justification",
+      "evidence": "2ba76f direct scene reading, including following 愛の証; exact source preserved in lane batch",
+      "status": "accepted with inference provenance"
+    },
+    {
+      "unit": "sina_15.mjo::u0339",
+      "field_id": "sina_15.mjo::003855",
+      "original_source_fragment": "ハンカチ",
+      "decision": "수건, matching the object given in u0204 and stained by the same wound in u0208; original source retained",
+      "evidence": "788cfa u0198–0214; a3e8f9 u0329–0349; f016b7 term search found only towel204/208 and handkerchief339 across198–339; target9680fa",
+      "status": "accepted as contextual prop-name inconsistency inference, not confirmed author correction"
+    },
+    {
+      "unit": "sina_15.mjo::u0480",
+      "field_id": "sina_15.mjo::005572",
+      "original_source_fragment": "先輩との間に身を割った入った瞬間、",
+      "decision": "身を割った入った를 割って入った의 활용 오기로 해석하여 몸을 가로막는 동작으로 번역; source exact 유지.",
+      "evidence": "cbfc27 direct source/target and adjacent scene review; lane evidence retained in batch",
+      "status": "accepted with inference provenance; exact source retained"
+    },
+    {
+      "unit": "sina_15.mjo::u0487",
+      "field_id": "sina_15.mjo::005655",
+      "original_source_fragment": "悲鳴に誓い汐見先生の言葉。",
+      "decision": "悲鳴に誓い는 悲鳴に近い의 동음 오변환 추정; 비명에 가까운으로 복원.",
+      "evidence": "cbfc27 direct source/target and adjacent scene review; lane evidence retained in batch",
+      "status": "accepted with inference provenance; exact source retained"
+    },
+    {
+      "unit": "sina_15.mjo::u0489",
+      "field_id": "sina_15.mjo::005674",
+      "original_source_fragment": "私は眩を押し殺しながら、必死で言葉を続ける。",
+      "decision": "眩은 문맥상 眩暈의 탈락/축약 오기로 해석해 어지럼으로 번역. 문자 복원은 source에 적용하지 않음.",
+      "evidence": "cbfc27 direct source/target and adjacent scene review; lane evidence retained in batch",
+      "status": "accepted with inference provenance; exact source retained"
+    },
+    {
+      "unit": "sina_15.mjo::u0545",
+      "field_id": "sina_15.mjo::006156",
+      "original_source_fragment": "だがそこにあるのは、詩菜のバッグや使っていたピルケース、。",
+      "decision": "나열 말미의 、。 중복 문장부호를 목표문에서 정리; 두 본문 필드와 exact source 유지.",
+      "evidence": "cbfc27 direct source/target and adjacent scene review; lane evidence retained in batch",
+      "status": "accepted with inference provenance; exact source retained"
+    },
+    {
+      "unit": "sina_16.mjo::u0180",
+      "field_id": "sina_16.mjo::002106",
+      "original_source_fragment": "役に立てなかった事が出来なかった",
+      "decision": "아무 도움이 되지 못했다, inferred duplicated negative from following 無力感 and resolve to help Shiina",
+      "evidence": "400d66 direct source/target and neighboring fields",
+      "status": "accepted with inference provenance; exact source retained"
+    },
+    {
+      "unit": "maho_18_3.mjo::u0160",
+      "field_id": "maho_18_3.mjo::001495",
+      "original_source_fragment": "でければ",
+      "decision": "그러지 않으면, inferred missing な in でなければ from coercion condition and threat",
+      "evidence": "963cda u0159-u0162",
+      "status": "contextual inference; source unchanged, author intent not confirmed"
+    },
+    {
+      "unit": "sina_17.mjo::u0375",
+      "field_id": "sina_17.mjo::003949",
+      "original_source_fragment": "私の携帯",
+      "decision": "Keep Shiina phone wording. Earlieru0076 phone broken; lateru0371–0376 same owner is explicit. No replacement explained in intervening phone mentions;u0124 belongs to Shinya. Do not invent replacement or silently change owner.",
+      "evidence": "2e8adb;18d0a1 source/target and intervening source search",
+      "status": "source continuity unresolved; translation preserves text without added explanation"
+    },
+    {
+      "unit": "maho_19.mjo::u0274",
+      "field_id": "maho_19.mjo::002628",
+      "original_source_fragment": "』」」",
+      "decision": "Remove duplicated final 」 only from Korean target. Exact source unchanged.",
+      "evidence": "a887e5;37632b",
+      "status": "punctuation correction verified"
+    },
+    {
+      "unit": "sina_18.mjo::u0077",
+      "fields": [
+        "sina_18.mjo::000745",
+        "sina_18.mjo::000749"
+      ],
+      "original_source_fragment": "己の理性を、抑える事が出来なくなっている",
+      "decision": "이성적으로 행동하지 못하는 걸까, based on violence, concealed madness and loss of restraint aroundu0068–0086. Literal suppression of reason would invert scene sense.",
+      "evidence": "b68776 direct source/target context",
+      "status": "contextual inference accepted; source unchanged; author intent unconfirmed"
+    },
+    {
+      "unit": "sina_18_2ero.mjo::u0200",
+      "fields": [
+        "sina_18_2ero.mjo::001806"
+      ],
+      "original_source_fragment": "ぐっしょりと濡れたパンティを脱がし",
+      "decision": "Preserve actual removal at200 and later visible/worn garment at327-329. No invented redressing and no replacement with mere shifting aside.",
+      "evidence": "9a0eec: target195-205; source-only320-337",
+      "status": "unresolved source clothing continuity retained; not a new plot explanation"
+    },
+    {
+      "unit": "sina_18_3.mjo::u0074",
+      "fields": [
+        "sina_18_3.mjo::000743"
+      ],
+      "original_source_fragment": "先輩もうそう思いますよね",
+      "decision": "선배도 그렇게 생각하시죠 as contextual も reading in reciprocal identity reassurance.",
+      "evidence": "caa965:65-85",
+      "status": "contextual inference accepted; source unchanged; not confirmed author typo"
+    },
+    {
+      "unit": "sina_19.mjo::u0016",
+      "fields": [
+        "sina_19.mjo::000165"
+      ],
+      "original_source_fragment": "汐見に気づかず",
+      "decision": "시오미에게 들키지 않고, based on explicit wish to conceal own presence at26 and prior scene.",
+      "evidence": "a57355;units1-40",
+      "status": "contextual passive reading; source unchanged; omission is inferred"
+    },
+    {
+      "unit": "sina_19.mjo::u0143",
+      "fields": [
+        "sina_19.mjo::001423",
+        "sina_19.mjo::001427"
+      ],
+      "original_source_fragment": "詩菜が汐見の交渉相手に指定した",
+      "decision": "Shiina reports time/place specified by Shiomi; source184 explicitly 汐見が指定した場所.",
+      "evidence": "83ac92 target126-153/source176-188;7311ef target184",
+      "status": "subject resolved contextually; source unchanged; no confirmed typo claim"
+    },
+    {
+      "unit": "sina_19.mjo::u0296",
+      "fields": [
+        "sina_19.mjo::002899",
+        "sina_19.mjo::002903",
+        "sina_19.mjo::002907"
+      ],
+      "original_source_fragment": "春日井詩菜の血の中にある悠絵のＤＮＡを、",
+      "decision": "Keep the dangling object as a spoken fragment; do not invent DNA extraction/transfusion mechanism.",
+      "evidence": "8c580f",
+      "status": "source discontinuity preserved"
+    }
+  ],
+  "alias_correction_review": {
+    "trigger": "sina_12 u0468 신이한테 discovery",
+    "search_evidence": "1a72d6: 3999 currently staged units, narrow alias compound regex only, 10 matches",
+    "additional_agent_findings": [
+      "sina_12 u0374 신이였다면→신이었다면"
+    ],
+    "changed_target_verification": "374246, all 11 corrections read directly",
+    "scope_limit": "same alias forms only; no full semantic re-review or blanket regression"
+  },
+  "resolved_findings": [
+    {
+      "unit": "maho_07.mjo::u0059",
+      "resolution": "Same Korean words reflowed across ordinary fields 000613 and 000617; source whitespace, controls, IDs and inline ruby preserved. Central validator unmodified.",
+      "evidence": "22eec1 direct target check plus lane-1 PASS report; existing evidence reused",
+      "status": "resolved_static_verified_runtime_pending"
+    },
+    {
+      "batch": "lane-2/batches/maho_17_u0171-u0180.json",
+      "unit": "maho_17.mjo::u0174",
+      "field_id": "maho_17.mjo::001673",
+      "finding": "Space as subject needs passive state: 완전히 다른 곳처럼 엉망으로 헤집어져 있었다.",
+      "status": "resolved; changed target directly checked in 10788d; lane changed-batch structural evidence reused"
+    },
+    {
+      "batch": "lane-3/batches/sina_13_u0385-0402.json",
+      "unit": "sina_13.mjo::u0389",
+      "field_id": "sina_13.mjo::004908",
+      "finding": "Unnatural 끌어돌린다 corrected to 나를 다시 현실로 끌어당긴다.",
+      "status": "resolved; changed target directly checked in 10788d; lane changed-batch structural evidence reused"
+    },
+    {
+      "batch": "lane-1/batches/maho_07_u0295-0309.json",
+      "unit": "maho_07.mjo::u0308",
+      "field_id": "maho_07.mjo::003043",
+      "finding": "Preserve expected visibility with 보여야 할 하늘이 어디에도 없고…; agent acknowledged, final target pending",
+      "status": "resolved; changed target directly checked in 620884; existing lane changed-batch validation reused"
+    },
+    {
+      "batch": "lane-3/batches/sina_14_u0284-0338.json",
+      "unit": "sina_14.mjo::u0288",
+      "field_id": "sina_14.mjo::003360",
+      "finding": "나는 ... 되자 mixes subject with hortative; requested consistent 결의형 되겠다 across 3 repeated lines",
+      "status": "resolved; changed targets directly checked efec51; changed-batch validation reused"
+    },
+    {
+      "batch": "lane-3/batches/sina_14_u0284-0338.json",
+      "unit": "sina_14.mjo::u0327",
+      "field_id": "sina_14.mjo::003826",
+      "finding": "나는 ... 되자 mixes subject with hortative; requested consistent 결의형 되겠다 across 3 repeated lines",
+      "status": "resolved; changed targets directly checked efec51; changed-batch validation reused"
+    },
+    {
+      "batch": "lane-3/batches/sina_14_u0284-0338.json",
+      "unit": "sina_14.mjo::u0335",
+      "field_id": "sina_14.mjo::003915",
+      "finding": "나는 ... 되자 mixes subject with hortative; requested consistent 결의형 되겠다 across 3 repeated lines",
+      "status": "resolved; changed targets directly checked efec51; changed-batch validation reused"
+    },
+    {
+      "batch": "lane-3/batches/sina_15_u0098-0187.json",
+      "unit": "sina_15.mjo::u0105",
+      "field_id": "sina_15.mjo::001452",
+      "finding": "Unnatural quote ending 당연하다라 corrected to 당연하다고, matching u0102 당연하죠",
+      "status": "resolved; direct changed target bebfdb; agent changed-batch validation reused"
+    },
+    {
+      "batch": "lane-3/batches/sina_16_u0165-0203.json",
+      "unit": "sina_16.mjo::u0175",
+      "field_id": "sina_16.mjo::001917",
+      "finding": "物陰 refined from 그늘 to physical concealment without inventing an object",
+      "status": "resolved; changed target directly verified a659f6; changed-batch validation reused"
+    },
+    {
+      "batch": "lane-3/batches/sina_16_u0165-0203.json",
+      "unit": "sina_16.mjo::u0182",
+      "field_id": "sina_16.mjo::002233",
+      "finding": "物陰 refined from 그늘 to physical concealment without inventing an object",
+      "status": "resolved; changed target directly verified a659f6; changed-batch validation reused"
+    },
+    {
+      "batch": "lane-3/batches/sina_17_u0001-0064.json",
+      "unit": "sina_17.mjo::u0040",
+      "field_id": "sina_17.mjo::000476",
+      "finding": "Same previous email changed 메일 to 문자; requested established 메일",
+      "status": "resolved; changed targets directly verified2e8adb; agent changed-batch validation reused"
+    },
+    {
+      "batch": "lane-3/batches/sina_17_u0065-0114.json",
+      "unit": "sina_17.mjo::u0072",
+      "field_id": "sina_17.mjo::000778",
+      "finding": "Same previous email changed 메일 to 문자; requested established 메일",
+      "status": "resolved; changed targets directly verified2e8adb; agent changed-batch validation reused"
+    },
+    {
+      "batch": "lane-3/batches/sina_17_u0368-0435.json",
+      "unit": "sina_17.mjo::u0376",
+      "field_id": "sina_17.mjo::003954",
+      "finding": "目で頷く duplicated eye/head gesture; requested 나는 그런 선배에게 눈짓으로 답하고,",
+      "status": "resolved; target directly verified by this ledger update; changed-batch validation reused"
+    },
+    {
+      "batch": "lane-1/batches/maho_11_u0356-0453.json",
+      "unit": "maho_11.mjo::u0439",
+      "field_id": "maho_11.mjo::004335",
+      "finding": "Overlapping Korean idioms 그럴 리 있을 턱이 없다; requested 그럴 리가 없다.",
+      "status": "resolved; target directly verified by this ledger update; changed-batch validation reused"
+    },
+    {
+      "batch": "lane-2/batches/maho_19_u0166-u0236.json",
+      "unit": "maho_19.mjo::u0175",
+      "field_id": "maho_19.mjo::001696",
+      "finding": "飲み干す completion meaning: preserve 남김없이 마시는",
+      "status": "resolved; target directly verified by this ledger update; changed-batch validation reused"
+    },
+    {
+      "batch": "lane-2/batches/maho_19_u0237-u0330.json",
+      "unit": "maho_19.mjo::u0269",
+      "field_id": "maho_19.mjo::002577",
+      "finding": "儀式的な意味: clarify ritual meaning as 의식으로서의 의미",
+      "status": "resolved;37632b direct target verification; changed-batch validation reused"
+    },
+    {
+      "batch": "lane-2/batches/maho_19_u0237-u0330.json",
+      "unit": "maho_19.mjo::u0274",
+      "field_id": "maho_19.mjo::002628",
+      "finding": "Remove duplicated closing quote only from target; retain exact source",
+      "status": "resolved;37632b direct target verification; changed-batch validation reused"
+    },
+    {
+      "batch": "lane-1/batches/maho_11_u0522-0611.json",
+      "unit": "maho_11.mjo::u0567",
+      "field_id": "maho_11.mjo::005463",
+      "finding": "起き上がらせる: use 몸을 일으켜 주었다 without asserting standing posture before u0582",
+      "status": "resolved;37632b direct target verification; changed-batch validation reused"
+    },
+    {
+      "batch": "lane-2/batches/maho_19_u0331-u0429.json",
+      "unit": "maho_19.mjo::u0360",
+      "field_id": "maho_19.mjo::003533",
+      "finding": "신의 안에 revised to natural 마음은 이미 신에게 남겨 두고 왔으니까.",
+      "status": "resolved;b68776 direct target verification;changed validation reused"
+    },
+    {
+      "batch": "lane-2/batches/maho_19_u0331-u0429.json",
+      "unit": "maho_19.mjo::u0366",
+      "field_id": "maho_19.mjo::003603",
+      "finding": "Semantic phrasing accepted b68776; append accidentally omitted closing 」 to updated target",
+      "status": "resolved;3dcb2b direct corrected-target verification;changed lane validation reused"
+    },
+    {
+      "batch": "lane-2/batches/maho_19_u0522-u0610.json",
+      "unit": "maho_19.mjo::u0541",
+      "field_id": "maho_19.mjo::005337",
+      "finding": "中身が減ってな…い？ means amount did not decrease. Use explicit 안 줄었어 to avoid opposite rhetorical reading.",
+      "status": "resolved;3dcb2b direct corrected-target verification;changed lane validation reused"
+    },
+    {
+      "batch": "lane-3/batches/sina_18_2ero_u0001-0088.json",
+      "unit": "sina_18_2ero.mjo::u0072",
+      "finding": "Reversed 手に余る idiom corrected to a full armful. Former source-typo inference withdrawn.",
+      "status": "resolved;9a0eec direct corrected target and note verification;changed validation reused"
+    },
+    {
+      "batch": "lane-3/batches/sina_19_u0245-0336.json",
+      "unit": "sina_19.mjo::u0277",
+      "field_ids": [
+        "sina_19.mjo::002713",
+        "sina_19.mjo::002717"
+      ],
+      "finding": "Awkward 칼을 겨눠진 passive. Requested two-slot active composition preserving Mahoko lying on mobile bed and Shiomi pointing knife.",
+      "status": "resolved;b983d7 direct verification of two corrected fields;changed lane validation reused"
+    },
+    {
+      "batch": "lane-3/batches/sina_epi_u0067-0102.json",
+      "unit": "sina_epi.mjo::u0093",
+      "field_id": "sina_epi.mjo::001378",
+      "finding": "Clarify negative hypothetical: she might not have been in this place. Ambiguous 있지는 않았을까 replaced with 없었을지도 모른다.",
+      "status": "resolved;62cb48 direct corrected-target verification; changed validation reused"
+    },
+    {
+      "batch": "lane-1/batches/sina_05_u0394-0471.json",
+      "unit": "sina_05.mjo::u0468",
+      "field_id": "sina_05.mjo::005046",
+      "finding": "Natural casual internal monologue ま、いいか: change 뭐, 됐나. to 뭐, 됐어.",
+      "status": "resolved;063e70 direct corrected-target verification; changed validation reused"
+    },
+    {
+      "unit": "sina_08.mjo::u0187",
+      "field_id": "sina_08.mjo::001694",
+      "finding": "メール target 문자 must match frozen 메일 terminology.",
+      "batch": "lane-2/batches/sina_08_u0142-u0216.json",
+      "status": "resolved;6e5221: five directly related メール fields and Korean particles verified after correcting transient 메일를"
+    },
+    {
+      "unit": "sina_sub1.mjo::u0041",
+      "field_id": "sina_sub1.mjo::001759",
+      "finding": "Natural retort to 그래?: replace 그래고 뭐고 with 그렇냐니.",
+      "batch": "lane-3/batches/sina_sub1_u0031-0060.json",
+      "status": "resolved;6e5221: 그렇냐니 directly verified"
+    },
+    {
+      "batch": "lane-3/batches/sina_sub2_u0001-0024.json",
+      "unit": "sina_sub2.mjo::u0010",
+      "field_id": "sina_sub2.mjo::000405",
+      "finding": "Child hastily retracts her previous teasing remark; render わーうそうそっ as 아, 아니야, 아니야 rather than 와, 거짓말이야, 거짓말.",
+      "status": "resolved;339ed4 direct corrected-target verification"
+    },
+    {
+      "batch": "lane-3/batches/sina_sub3_u0001-0016.json",
+      "unit": "sina_sub3.mjo::u0001",
+      "field_ids": [
+        "sina_sub3.mjo::000058",
+        "sina_sub3.mjo::000059",
+        "sina_sub3.mjo::000061"
+      ],
+      "finding": "Subject particle redistributed to both semantic ruby layers: 그녀는/그 여학생은.",
+      "status": "resolved;62dc1b direct corrected-target verification;changed lane validation reused"
+    },
+    {
+      "batch": "lane-3/batches/sina_sub3_u0001-0016.json",
+      "unit": "sina_sub3.mjo::u0015",
+      "field_ids": [
+        "sina_sub3.mjo::000703"
+      ],
+      "finding": "Clarify Shiina wishes Shiomi not to broach this subject; narrator action explicit.",
+      "status": "resolved;62dc1b direct corrected-target verification;changed lane validation reused"
+    },
+    {
+      "batch": "lane-3/batches/sina_sub3_u0017-0032.json",
+      "unit": "sina_sub3.mjo::u0030",
+      "field_ids": [
+        "sina_sub3.mjo::001449"
+      ],
+      "finding": "Unambiguous apposition establishes Yue as donor, not narrator.",
+      "status": "resolved;62dc1b direct corrected-target verification;changed lane validation reused"
+    }
+  ],
+  "source_term_notes": [
+    {
+      "unit": "maho_17.mjo::u0274",
+      "source": "寛解（完全治療）",
+      "target": "관해(완전 치료)",
+      "note": "Original fiction parenthetical preserved, not editorially reconciled or offered as medical advice. Direct source/target inspection 665fa1."
+    }
+  ],
+  "layout_warnings": [
+    {
+      "batch": "lane-3/batches/sina_14_u0284-0338.json",
+      "fields": [
+        "sina_14.mjo::003396",
+        "sina_14.mjo::003542",
+        "sina_14.mjo::003657",
+        "sina_14.mjo::003678"
+      ],
+      "count": 4,
+      "reason": "Intentional repeated phrases retained; shortening would remove authored characterization",
+      "evidence": "lane-3 report reused; coordinator directly inspected003396 and003678 in2ba76f",
+      "required_remaining": "final width/wrapping runtime check; no runtime certification"
+    }
+  ],
+  "branch_reviews": [
+    {
+      "unit": "sina_15.mjo::u0108",
+      "cases": {
+        "1": "信じていないんですね → u0108-u0112",
+        "2": "証拠をお見せしましょうか → u0113-u0117"
+      },
+      "evidence": "67c4e0 code;400d66 corrected metadata; display text review b4d1d1",
+      "runtime_verified": false
+    },
+    {
+      "unit": "sina_15.mjo::u0352",
+      "cases": {
+        "1": "明日になったら話そう → u0352-u0385 failure",
+        "2": "詩菜の後を追いかける → u0386 continuation"
+      },
+      "evidence": "67c4e0 code;400d66 display texts and corrected metadata",
+      "runtime_verified": false
+    },
+    {
+      "unit": "sina_16.mjo::u0191",
+      "cases": {
+        "1": "いったん撤退 → u0191-u0197 failure",
+        "2": "病院に向かう → u0198 ::002892 then0x07561→0x07f67/u0204",
+        "3": "configured timeout branch → rest of u0198-u0203 failure"
+      },
+      "evidence": "93d43e direct code;7c5cf2 source IDs;400d66 display choices and field_contexts; timeout call loads3 and10000, no runtime timing measurement",
+      "runtime_verified": false
+    },
+    {
+      "source_script": "sina_07.mjo",
+      "menu_offset": "0x069ef",
+      "menu_owned_unit": "sina_07.mjo::u0233",
+      "preceding_text_unit": "sina_07.mjo::u0232",
+      "cases": [
+        {
+          "value": 1,
+          "constant_offset": "0x06a05",
+          "case_offset": "0x06a0b",
+          "label_id": "sina_07.mjo::002563",
+          "label": "또 길을 잃었나?",
+          "units": [
+            233,
+            242
+          ]
+        },
+        {
+          "value": 2,
+          "constant_offset": "0x06dfa",
+          "case_offset": "0x06e00",
+          "label_id": "sina_07.mjo::002562",
+          "label": "설마 벌써 마호코의 일을……",
+          "units": [
+            243,
+            258
+          ]
+        }
+      ],
+      "merge_offset": "0x07524",
+      "shared_continuation_unit": "sina_07.mjo::u0259",
+      "evidence": "b91d72;8c580f; lane corrected source-order versus argument-order labels",
+      "runtime_verified": false
+    },
+    {
+      "script": "sina_05.mjo",
+      "unit": "sina_05.mjo::u0447",
+      "call": "0xca94 $0238c9e1 select_color@MENU",
+      "cases": [
+        {
+          "case": 1,
+          "test": "0xcaaa/0xcab0",
+          "label_field": "sina_05.mjo::004868",
+          "target": "오늘 하루를 돌아본다",
+          "units": "0447–0452"
+        },
+        {
+          "case": 2,
+          "test": "0xcd43/0xcd49",
+          "label_field": "sina_05.mjo::004867",
+          "target": "깊이 생각하지 않는다",
+          "units": "0453"
+        }
+      ],
+      "merge": "0xcdb3;next text0xcdbb/u0454",
+      "evidence": "62cb48 direct disassembly; e0e3a7 translated labels; existing MENU consumer evidence reused",
+      "note": "ldstr order is not case number. Japanese-label CRC read-history compatibility remains pending.",
+      "runtime_verified": false
+    }
+  ],
+  "unique_reviewed_units": 4974,
+  "session_events": [
+    {
+      "time": "2026-10-22T18:47:07.046838+00:00",
+      "event": "app_restart_resume",
+      "authorization_source_thread": "01a15c71-48db-70e0-ba03-0372b192e87c",
+      "instruction": "Human explicitly requested restarting interrupted sessions; same assignments and prior verification retained",
+      "checks": {
+        "used_percent": 48,
+        "remaining_percent": 52,
+        "stop_marker": false,
+        "live_children_before": 0,
+        "matching_project_worker_processes": 0
+      },
+      "action": "followup_task reactivated original lane_1/lane_2/lane_3; final live list confirms3 running; no new agents/model overrides",
+      "evidence": [
+        "dd7269",
+        "fea117",
+        "collaboration list_agents"
+      ]
+    },
+    {
+      "event": "session_2_permitted_assignment_complete",
+      "at": "2026-10-22T20:47:30.377901+00:00",
+      "completed_units": 17420,
+      "deferred_units": 4,
+      "remaining_units": 0,
+      "included_used_percent": 97,
+      "included_remaining_percent": 3,
+      "stop_marker_exists": false,
+      "next_action": "Central integration by the owning session: retain the three content-deferred units; decide the exact-ID/source-hash U+3000 preservation exception; apply documented manual/semantic ruby handling; reconcile cross-session terminology and provisional readings; then verify fonts, wrapping, choice routing/read-history compatibility and runtime. No central integration, build or runtime verification was performed by session-2."
+    }
+  ],
+  "review_count_note": "Count recomputed from recorded unique stable-ID review scopes; legacy running counter was3 lower. No semantic checks rerun.",
+  "updated_at": "2026-10-22T20:47:30.377901+00:00",
+  "completed_lane_evidence": {
+    "session-2/lane-1": {
+      "completed_units": 5810,
+      "deferred_units": 0,
+      "remaining_units": 0,
+      "batches": 80,
+      "all_current_hashes_match_cached_structural_pass": true,
+      "validation_sha256": "f0a59986b2e27ad5ad0296665f9401612f38b6b69f7ebbb0268ccb60f371ee99",
+      "errors": 0,
+      "warnings": 0,
+      "evidence": "0c1498 final completed-lane hash aggregation; a08f14 reused cache flags and unchanged validation artifact confirmed",
+      "method": "Reused final existing hash-bound verification; no validator rerun",
+      "runtime_verified": false
+    },
+    "session-2/lane-3": {
+      "completed_units": 5292,
+      "deferred_units": 1,
+      "remaining_units": 0,
+      "batches": 72,
+      "all_current_hashes_match_cached_structural_pass": true,
+      "validation_sha256": "1b8f6c65eed0e1e60d6a4f7d199e3d991a959ebd7af2d8dccb4f2ce12d576c92",
+      "errors": 0,
+      "warnings": 4,
+      "evidence": "0c1498 final completed-lane hash aggregation; a08f14 reused cache flags and unchanged validation artifact confirmed",
+      "method": "Reused final existing hash-bound verification; no validator rerun",
+      "runtime_verified": false
+    },
+    "session-2/lane-2": {
+      "completed_units": 6318,
+      "deferred_units": 3,
+      "remaining_units": 0,
+      "batches": 97,
+      "all_current_hashes_match_cached_structural_pass": true,
+      "validation_sha256": "f9a8a490d0ddb9c04569286b768004db670eaf8f1d6a4b7245c8a7f8445e4998",
+      "errors": 0,
+      "warnings": 0,
+      "evidence": "1b3e35 final validation snapshot; final coordinator aggregation matches all 97 cached batch hashes; lane-2/completion-evidence.json coverage and per-file evidence",
+      "method": "Reused final existing verification: 1 final new batch checked by lane author, 96 existing batch results reused; no coordinator validator rerun.",
+      "runtime_verified": false
+    }
+  }
+}

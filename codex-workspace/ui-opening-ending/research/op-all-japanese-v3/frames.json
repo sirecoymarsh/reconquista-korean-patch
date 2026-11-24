@@ -1,0 +1,2512 @@
+[
+  {
+    "frame": 0,
+    "time": 0.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0000.png"
+  },
+  {
+    "frame": 15,
+    "time": 0.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0015.png"
+  },
+  {
+    "frame": 30,
+    "time": 1.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0030.png"
+  },
+  {
+    "frame": 45,
+    "time": 1.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0045.png"
+  },
+  {
+    "frame": 60,
+    "time": 2.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0060.png"
+  },
+  {
+    "frame": 75,
+    "time": 2.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0075.png"
+  },
+  {
+    "frame": 90,
+    "time": 3.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0090.png"
+  },
+  {
+    "frame": 105,
+    "time": 3.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0105.png"
+  },
+  {
+    "frame": 120,
+    "time": 4.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0120.png"
+  },
+  {
+    "frame": 135,
+    "time": 4.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0135.png"
+  },
+  {
+    "frame": 150,
+    "time": 5.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0150.png"
+  },
+  {
+    "frame": 165,
+    "time": 5.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0165.png"
+  },
+  {
+    "frame": 180,
+    "time": 6.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0180.png"
+  },
+  {
+    "frame": 195,
+    "time": 6.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0195.png"
+  },
+  {
+    "frame": 210,
+    "time": 7.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0210.png"
+  },
+  {
+    "frame": 225,
+    "time": 7.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0225.png"
+  },
+  {
+    "frame": 240,
+    "time": 8.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0240.png"
+  },
+  {
+    "frame": 255,
+    "time": 8.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0255.png"
+  },
+  {
+    "frame": 270,
+    "time": 9.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0270.png"
+  },
+  {
+    "frame": 285,
+    "time": 9.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0285.png"
+  },
+  {
+    "frame": 300,
+    "time": 10.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0300.png"
+  },
+  {
+    "frame": 315,
+    "time": 10.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0315.png"
+  },
+  {
+    "frame": 330,
+    "time": 11.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0330.png"
+  },
+  {
+    "frame": 345,
+    "time": 11.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0345.png"
+  },
+  {
+    "frame": 360,
+    "time": 12.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0360.png"
+  },
+  {
+    "frame": 375,
+    "time": 12.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0375.png"
+  },
+  {
+    "frame": 390,
+    "time": 13.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0390.png"
+  },
+  {
+    "frame": 405,
+    "time": 13.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0405.png"
+  },
+  {
+    "frame": 420,
+    "time": 14.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0420.png"
+  },
+  {
+    "frame": 435,
+    "time": 14.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0435.png"
+  },
+  {
+    "frame": 450,
+    "time": 15.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0450.png"
+  },
+  {
+    "frame": 465,
+    "time": 15.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0465.png"
+  },
+  {
+    "frame": 480,
+    "time": 16.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0480.png"
+  },
+  {
+    "frame": 495,
+    "time": 16.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0495.png"
+  },
+  {
+    "frame": 510,
+    "time": 17.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0510.png"
+  },
+  {
+    "frame": 525,
+    "time": 17.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0525.png"
+  },
+  {
+    "frame": 540,
+    "time": 18.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0540.png"
+  },
+  {
+    "frame": 555,
+    "time": 18.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0555.png"
+  },
+  {
+    "frame": 570,
+    "time": 19.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0570.png"
+  },
+  {
+    "frame": 585,
+    "time": 19.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0585.png"
+  },
+  {
+    "frame": 600,
+    "time": 20.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0600.png"
+  },
+  {
+    "frame": 615,
+    "time": 20.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0615.png"
+  },
+  {
+    "frame": 630,
+    "time": 21.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0630.png"
+  },
+  {
+    "frame": 645,
+    "time": 21.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0645.png"
+  },
+  {
+    "frame": 660,
+    "time": 22.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0660.png"
+  },
+  {
+    "frame": 675,
+    "time": 22.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0675.png"
+  },
+  {
+    "frame": 690,
+    "time": 23.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0690.png"
+  },
+  {
+    "frame": 705,
+    "time": 23.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0705.png"
+  },
+  {
+    "frame": 720,
+    "time": 24.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0720.png"
+  },
+  {
+    "frame": 735,
+    "time": 24.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0735.png"
+  },
+  {
+    "frame": 750,
+    "time": 25.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0750.png"
+  },
+  {
+    "frame": 765,
+    "time": 25.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0765.png"
+  },
+  {
+    "frame": 780,
+    "time": 26.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0780.png"
+  },
+  {
+    "frame": 795,
+    "time": 26.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0795.png"
+  },
+  {
+    "frame": 810,
+    "time": 27.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0810.png"
+  },
+  {
+    "frame": 825,
+    "time": 27.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0825.png"
+  },
+  {
+    "frame": 840,
+    "time": 28.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0840.png"
+  },
+  {
+    "frame": 855,
+    "time": 28.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0855.png"
+  },
+  {
+    "frame": 870,
+    "time": 29.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0870.png"
+  },
+  {
+    "frame": 885,
+    "time": 29.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0885.png"
+  },
+  {
+    "frame": 900,
+    "time": 30.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0900.png"
+  },
+  {
+    "frame": 915,
+    "time": 30.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0915.png"
+  },
+  {
+    "frame": 930,
+    "time": 31.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0930.png"
+  },
+  {
+    "frame": 945,
+    "time": 31.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0945.png"
+  },
+  {
+    "frame": 960,
+    "time": 32.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0960.png"
+  },
+  {
+    "frame": 975,
+    "time": 32.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0975.png"
+  },
+  {
+    "frame": 990,
+    "time": 33.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\0990.png"
+  },
+  {
+    "frame": 1005,
+    "time": 33.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1005.png"
+  },
+  {
+    "frame": 1020,
+    "time": 34.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1020.png"
+  },
+  {
+    "frame": 1035,
+    "time": 34.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1035.png"
+  },
+  {
+    "frame": 1050,
+    "time": 35.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1050.png"
+  },
+  {
+    "frame": 1065,
+    "time": 35.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1065.png"
+  },
+  {
+    "frame": 1080,
+    "time": 36.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1080.png"
+  },
+  {
+    "frame": 1083,
+    "time": 36.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1083.png"
+  },
+  {
+    "frame": 1086,
+    "time": 36.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1086.png"
+  },
+  {
+    "frame": 1089,
+    "time": 36.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1089.png"
+  },
+  {
+    "frame": 1092,
+    "time": 36.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1092.png"
+  },
+  {
+    "frame": 1095,
+    "time": 36.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1095.png"
+  },
+  {
+    "frame": 1098,
+    "time": 36.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1098.png"
+  },
+  {
+    "frame": 1101,
+    "time": 36.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1101.png"
+  },
+  {
+    "frame": 1104,
+    "time": 36.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1104.png"
+  },
+  {
+    "frame": 1107,
+    "time": 36.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1107.png"
+  },
+  {
+    "frame": 1110,
+    "time": 37.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1110.png"
+  },
+  {
+    "frame": 1113,
+    "time": 37.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1113.png"
+  },
+  {
+    "frame": 1116,
+    "time": 37.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1116.png"
+  },
+  {
+    "frame": 1119,
+    "time": 37.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1119.png"
+  },
+  {
+    "frame": 1122,
+    "time": 37.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1122.png"
+  },
+  {
+    "frame": 1125,
+    "time": 37.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1125.png"
+  },
+  {
+    "frame": 1128,
+    "time": 37.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1128.png"
+  },
+  {
+    "frame": 1131,
+    "time": 37.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1131.png"
+  },
+  {
+    "frame": 1134,
+    "time": 37.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1134.png"
+  },
+  {
+    "frame": 1137,
+    "time": 37.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1137.png"
+  },
+  {
+    "frame": 1140,
+    "time": 38.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1140.png"
+  },
+  {
+    "frame": 1143,
+    "time": 38.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1143.png"
+  },
+  {
+    "frame": 1146,
+    "time": 38.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1146.png"
+  },
+  {
+    "frame": 1149,
+    "time": 38.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1149.png"
+  },
+  {
+    "frame": 1152,
+    "time": 38.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1152.png"
+  },
+  {
+    "frame": 1155,
+    "time": 38.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1155.png"
+  },
+  {
+    "frame": 1158,
+    "time": 38.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1158.png"
+  },
+  {
+    "frame": 1161,
+    "time": 38.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1161.png"
+  },
+  {
+    "frame": 1164,
+    "time": 38.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1164.png"
+  },
+  {
+    "frame": 1170,
+    "time": 39.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1170.png"
+  },
+  {
+    "frame": 1185,
+    "time": 39.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1185.png"
+  },
+  {
+    "frame": 1200,
+    "time": 40.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1200.png"
+  },
+  {
+    "frame": 1215,
+    "time": 40.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1215.png"
+  },
+  {
+    "frame": 1230,
+    "time": 41.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1230.png"
+  },
+  {
+    "frame": 1245,
+    "time": 41.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1245.png"
+  },
+  {
+    "frame": 1260,
+    "time": 42.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1260.png"
+  },
+  {
+    "frame": 1269,
+    "time": 42.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1269.png"
+  },
+  {
+    "frame": 1272,
+    "time": 42.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1272.png"
+  },
+  {
+    "frame": 1275,
+    "time": 42.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1275.png"
+  },
+  {
+    "frame": 1278,
+    "time": 42.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1278.png"
+  },
+  {
+    "frame": 1281,
+    "time": 42.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1281.png"
+  },
+  {
+    "frame": 1284,
+    "time": 42.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1284.png"
+  },
+  {
+    "frame": 1287,
+    "time": 42.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1287.png"
+  },
+  {
+    "frame": 1290,
+    "time": 43.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1290.png"
+  },
+  {
+    "frame": 1293,
+    "time": 43.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1293.png"
+  },
+  {
+    "frame": 1296,
+    "time": 43.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1296.png"
+  },
+  {
+    "frame": 1299,
+    "time": 43.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1299.png"
+  },
+  {
+    "frame": 1302,
+    "time": 43.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1302.png"
+  },
+  {
+    "frame": 1305,
+    "time": 43.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1305.png"
+  },
+  {
+    "frame": 1308,
+    "time": 43.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1308.png"
+  },
+  {
+    "frame": 1311,
+    "time": 43.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1311.png"
+  },
+  {
+    "frame": 1314,
+    "time": 43.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1314.png"
+  },
+  {
+    "frame": 1317,
+    "time": 43.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1317.png"
+  },
+  {
+    "frame": 1320,
+    "time": 44.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1320.png"
+  },
+  {
+    "frame": 1323,
+    "time": 44.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1323.png"
+  },
+  {
+    "frame": 1326,
+    "time": 44.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1326.png"
+  },
+  {
+    "frame": 1329,
+    "time": 44.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1329.png"
+  },
+  {
+    "frame": 1332,
+    "time": 44.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1332.png"
+  },
+  {
+    "frame": 1335,
+    "time": 44.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1335.png"
+  },
+  {
+    "frame": 1338,
+    "time": 44.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1338.png"
+  },
+  {
+    "frame": 1341,
+    "time": 44.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1341.png"
+  },
+  {
+    "frame": 1344,
+    "time": 44.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1344.png"
+  },
+  {
+    "frame": 1347,
+    "time": 44.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1347.png"
+  },
+  {
+    "frame": 1350,
+    "time": 45.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1350.png"
+  },
+  {
+    "frame": 1365,
+    "time": 45.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1365.png"
+  },
+  {
+    "frame": 1380,
+    "time": 46.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1380.png"
+  },
+  {
+    "frame": 1395,
+    "time": 46.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1395.png"
+  },
+  {
+    "frame": 1410,
+    "time": 47.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1410.png"
+  },
+  {
+    "frame": 1425,
+    "time": 47.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1425.png"
+  },
+  {
+    "frame": 1440,
+    "time": 48.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1440.png"
+  },
+  {
+    "frame": 1446,
+    "time": 48.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1446.png"
+  },
+  {
+    "frame": 1449,
+    "time": 48.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1449.png"
+  },
+  {
+    "frame": 1452,
+    "time": 48.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1452.png"
+  },
+  {
+    "frame": 1455,
+    "time": 48.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1455.png"
+  },
+  {
+    "frame": 1458,
+    "time": 48.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1458.png"
+  },
+  {
+    "frame": 1461,
+    "time": 48.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1461.png"
+  },
+  {
+    "frame": 1464,
+    "time": 48.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1464.png"
+  },
+  {
+    "frame": 1467,
+    "time": 48.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1467.png"
+  },
+  {
+    "frame": 1470,
+    "time": 49.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1470.png"
+  },
+  {
+    "frame": 1473,
+    "time": 49.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1473.png"
+  },
+  {
+    "frame": 1476,
+    "time": 49.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1476.png"
+  },
+  {
+    "frame": 1479,
+    "time": 49.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1479.png"
+  },
+  {
+    "frame": 1482,
+    "time": 49.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1482.png"
+  },
+  {
+    "frame": 1485,
+    "time": 49.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1485.png"
+  },
+  {
+    "frame": 1488,
+    "time": 49.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1488.png"
+  },
+  {
+    "frame": 1491,
+    "time": 49.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1491.png"
+  },
+  {
+    "frame": 1494,
+    "time": 49.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1494.png"
+  },
+  {
+    "frame": 1497,
+    "time": 49.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1497.png"
+  },
+  {
+    "frame": 1500,
+    "time": 50.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1500.png"
+  },
+  {
+    "frame": 1503,
+    "time": 50.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1503.png"
+  },
+  {
+    "frame": 1506,
+    "time": 50.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1506.png"
+  },
+  {
+    "frame": 1509,
+    "time": 50.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1509.png"
+  },
+  {
+    "frame": 1512,
+    "time": 50.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1512.png"
+  },
+  {
+    "frame": 1515,
+    "time": 50.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1515.png"
+  },
+  {
+    "frame": 1518,
+    "time": 50.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1518.png"
+  },
+  {
+    "frame": 1521,
+    "time": 50.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1521.png"
+  },
+  {
+    "frame": 1524,
+    "time": 50.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1524.png"
+  },
+  {
+    "frame": 1527,
+    "time": 50.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1527.png"
+  },
+  {
+    "frame": 1530,
+    "time": 51.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1530.png"
+  },
+  {
+    "frame": 1545,
+    "time": 51.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1545.png"
+  },
+  {
+    "frame": 1560,
+    "time": 52.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1560.png"
+  },
+  {
+    "frame": 1575,
+    "time": 52.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1575.png"
+  },
+  {
+    "frame": 1590,
+    "time": 53.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1590.png"
+  },
+  {
+    "frame": 1596,
+    "time": 53.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1596.png"
+  },
+  {
+    "frame": 1599,
+    "time": 53.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1599.png"
+  },
+  {
+    "frame": 1602,
+    "time": 53.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1602.png"
+  },
+  {
+    "frame": 1605,
+    "time": 53.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1605.png"
+  },
+  {
+    "frame": 1608,
+    "time": 53.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1608.png"
+  },
+  {
+    "frame": 1611,
+    "time": 53.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1611.png"
+  },
+  {
+    "frame": 1614,
+    "time": 53.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1614.png"
+  },
+  {
+    "frame": 1617,
+    "time": 53.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1617.png"
+  },
+  {
+    "frame": 1620,
+    "time": 54.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1620.png"
+  },
+  {
+    "frame": 1623,
+    "time": 54.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1623.png"
+  },
+  {
+    "frame": 1626,
+    "time": 54.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1626.png"
+  },
+  {
+    "frame": 1629,
+    "time": 54.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1629.png"
+  },
+  {
+    "frame": 1632,
+    "time": 54.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1632.png"
+  },
+  {
+    "frame": 1635,
+    "time": 54.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1635.png"
+  },
+  {
+    "frame": 1638,
+    "time": 54.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1638.png"
+  },
+  {
+    "frame": 1641,
+    "time": 54.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1641.png"
+  },
+  {
+    "frame": 1644,
+    "time": 54.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1644.png"
+  },
+  {
+    "frame": 1647,
+    "time": 54.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1647.png"
+  },
+  {
+    "frame": 1650,
+    "time": 55.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1650.png"
+  },
+  {
+    "frame": 1653,
+    "time": 55.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1653.png"
+  },
+  {
+    "frame": 1656,
+    "time": 55.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1656.png"
+  },
+  {
+    "frame": 1659,
+    "time": 55.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1659.png"
+  },
+  {
+    "frame": 1662,
+    "time": 55.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1662.png"
+  },
+  {
+    "frame": 1665,
+    "time": 55.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1665.png"
+  },
+  {
+    "frame": 1668,
+    "time": 55.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1668.png"
+  },
+  {
+    "frame": 1671,
+    "time": 55.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1671.png"
+  },
+  {
+    "frame": 1674,
+    "time": 55.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1674.png"
+  },
+  {
+    "frame": 1677,
+    "time": 55.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1677.png"
+  },
+  {
+    "frame": 1680,
+    "time": 56.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1680.png"
+  },
+  {
+    "frame": 1683,
+    "time": 56.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1683.png"
+  },
+  {
+    "frame": 1686,
+    "time": 56.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1686.png"
+  },
+  {
+    "frame": 1689,
+    "time": 56.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1689.png"
+  },
+  {
+    "frame": 1692,
+    "time": 56.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1692.png"
+  },
+  {
+    "frame": 1695,
+    "time": 56.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1695.png"
+  },
+  {
+    "frame": 1698,
+    "time": 56.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1698.png"
+  },
+  {
+    "frame": 1701,
+    "time": 56.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1701.png"
+  },
+  {
+    "frame": 1704,
+    "time": 56.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1704.png"
+  },
+  {
+    "frame": 1707,
+    "time": 56.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1707.png"
+  },
+  {
+    "frame": 1710,
+    "time": 57.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1710.png"
+  },
+  {
+    "frame": 1713,
+    "time": 57.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1713.png"
+  },
+  {
+    "frame": 1716,
+    "time": 57.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1716.png"
+  },
+  {
+    "frame": 1719,
+    "time": 57.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1719.png"
+  },
+  {
+    "frame": 1722,
+    "time": 57.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1722.png"
+  },
+  {
+    "frame": 1725,
+    "time": 57.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1725.png"
+  },
+  {
+    "frame": 1728,
+    "time": 57.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1728.png"
+  },
+  {
+    "frame": 1731,
+    "time": 57.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1731.png"
+  },
+  {
+    "frame": 1734,
+    "time": 57.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1734.png"
+  },
+  {
+    "frame": 1737,
+    "time": 57.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1737.png"
+  },
+  {
+    "frame": 1740,
+    "time": 58.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1740.png"
+  },
+  {
+    "frame": 1743,
+    "time": 58.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1743.png"
+  },
+  {
+    "frame": 1746,
+    "time": 58.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1746.png"
+  },
+  {
+    "frame": 1749,
+    "time": 58.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1749.png"
+  },
+  {
+    "frame": 1752,
+    "time": 58.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1752.png"
+  },
+  {
+    "frame": 1755,
+    "time": 58.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1755.png"
+  },
+  {
+    "frame": 1758,
+    "time": 58.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1758.png"
+  },
+  {
+    "frame": 1761,
+    "time": 58.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1761.png"
+  },
+  {
+    "frame": 1764,
+    "time": 58.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1764.png"
+  },
+  {
+    "frame": 1767,
+    "time": 58.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1767.png"
+  },
+  {
+    "frame": 1770,
+    "time": 59.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1770.png"
+  },
+  {
+    "frame": 1773,
+    "time": 59.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1773.png"
+  },
+  {
+    "frame": 1776,
+    "time": 59.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1776.png"
+  },
+  {
+    "frame": 1779,
+    "time": 59.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1779.png"
+  },
+  {
+    "frame": 1782,
+    "time": 59.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1782.png"
+  },
+  {
+    "frame": 1785,
+    "time": 59.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1785.png"
+  },
+  {
+    "frame": 1800,
+    "time": 60.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1800.png"
+  },
+  {
+    "frame": 1815,
+    "time": 60.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1815.png"
+  },
+  {
+    "frame": 1830,
+    "time": 61.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1830.png"
+  },
+  {
+    "frame": 1845,
+    "time": 61.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1845.png"
+  },
+  {
+    "frame": 1860,
+    "time": 62.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1860.png"
+  },
+  {
+    "frame": 1875,
+    "time": 62.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1875.png"
+  },
+  {
+    "frame": 1878,
+    "time": 62.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1878.png"
+  },
+  {
+    "frame": 1881,
+    "time": 62.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1881.png"
+  },
+  {
+    "frame": 1884,
+    "time": 62.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1884.png"
+  },
+  {
+    "frame": 1887,
+    "time": 62.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1887.png"
+  },
+  {
+    "frame": 1890,
+    "time": 63.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1890.png"
+  },
+  {
+    "frame": 1893,
+    "time": 63.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1893.png"
+  },
+  {
+    "frame": 1896,
+    "time": 63.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1896.png"
+  },
+  {
+    "frame": 1899,
+    "time": 63.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1899.png"
+  },
+  {
+    "frame": 1902,
+    "time": 63.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1902.png"
+  },
+  {
+    "frame": 1905,
+    "time": 63.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1905.png"
+  },
+  {
+    "frame": 1908,
+    "time": 63.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1908.png"
+  },
+  {
+    "frame": 1911,
+    "time": 63.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1911.png"
+  },
+  {
+    "frame": 1914,
+    "time": 63.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1914.png"
+  },
+  {
+    "frame": 1917,
+    "time": 63.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1917.png"
+  },
+  {
+    "frame": 1920,
+    "time": 64.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1920.png"
+  },
+  {
+    "frame": 1923,
+    "time": 64.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1923.png"
+  },
+  {
+    "frame": 1926,
+    "time": 64.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1926.png"
+  },
+  {
+    "frame": 1929,
+    "time": 64.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1929.png"
+  },
+  {
+    "frame": 1932,
+    "time": 64.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1932.png"
+  },
+  {
+    "frame": 1935,
+    "time": 64.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1935.png"
+  },
+  {
+    "frame": 1938,
+    "time": 64.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1938.png"
+  },
+  {
+    "frame": 1941,
+    "time": 64.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1941.png"
+  },
+  {
+    "frame": 1944,
+    "time": 64.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1944.png"
+  },
+  {
+    "frame": 1947,
+    "time": 64.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1947.png"
+  },
+  {
+    "frame": 1950,
+    "time": 65.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1950.png"
+  },
+  {
+    "frame": 1953,
+    "time": 65.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1953.png"
+  },
+  {
+    "frame": 1956,
+    "time": 65.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1956.png"
+  },
+  {
+    "frame": 1959,
+    "time": 65.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1959.png"
+  },
+  {
+    "frame": 1965,
+    "time": 65.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1965.png"
+  },
+  {
+    "frame": 1980,
+    "time": 66.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1980.png"
+  },
+  {
+    "frame": 1995,
+    "time": 66.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1995.png"
+  },
+  {
+    "frame": 1998,
+    "time": 66.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\1998.png"
+  },
+  {
+    "frame": 2001,
+    "time": 66.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2001.png"
+  },
+  {
+    "frame": 2004,
+    "time": 66.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2004.png"
+  },
+  {
+    "frame": 2007,
+    "time": 66.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2007.png"
+  },
+  {
+    "frame": 2010,
+    "time": 67.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2010.png"
+  },
+  {
+    "frame": 2013,
+    "time": 67.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2013.png"
+  },
+  {
+    "frame": 2016,
+    "time": 67.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2016.png"
+  },
+  {
+    "frame": 2019,
+    "time": 67.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2019.png"
+  },
+  {
+    "frame": 2022,
+    "time": 67.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2022.png"
+  },
+  {
+    "frame": 2025,
+    "time": 67.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2025.png"
+  },
+  {
+    "frame": 2028,
+    "time": 67.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2028.png"
+  },
+  {
+    "frame": 2031,
+    "time": 67.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2031.png"
+  },
+  {
+    "frame": 2034,
+    "time": 67.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2034.png"
+  },
+  {
+    "frame": 2037,
+    "time": 67.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2037.png"
+  },
+  {
+    "frame": 2040,
+    "time": 68.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2040.png"
+  },
+  {
+    "frame": 2043,
+    "time": 68.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2043.png"
+  },
+  {
+    "frame": 2046,
+    "time": 68.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2046.png"
+  },
+  {
+    "frame": 2049,
+    "time": 68.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2049.png"
+  },
+  {
+    "frame": 2052,
+    "time": 68.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2052.png"
+  },
+  {
+    "frame": 2055,
+    "time": 68.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2055.png"
+  },
+  {
+    "frame": 2058,
+    "time": 68.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2058.png"
+  },
+  {
+    "frame": 2061,
+    "time": 68.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2061.png"
+  },
+  {
+    "frame": 2064,
+    "time": 68.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2064.png"
+  },
+  {
+    "frame": 2067,
+    "time": 68.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2067.png"
+  },
+  {
+    "frame": 2070,
+    "time": 69.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2070.png"
+  },
+  {
+    "frame": 2073,
+    "time": 69.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2073.png"
+  },
+  {
+    "frame": 2076,
+    "time": 69.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2076.png"
+  },
+  {
+    "frame": 2079,
+    "time": 69.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2079.png"
+  },
+  {
+    "frame": 2082,
+    "time": 69.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2082.png"
+  },
+  {
+    "frame": 2085,
+    "time": 69.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2085.png"
+  },
+  {
+    "frame": 2088,
+    "time": 69.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2088.png"
+  },
+  {
+    "frame": 2091,
+    "time": 69.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2091.png"
+  },
+  {
+    "frame": 2094,
+    "time": 69.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2094.png"
+  },
+  {
+    "frame": 2097,
+    "time": 69.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2097.png"
+  },
+  {
+    "frame": 2100,
+    "time": 70.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2100.png"
+  },
+  {
+    "frame": 2103,
+    "time": 70.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2103.png"
+  },
+  {
+    "frame": 2106,
+    "time": 70.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2106.png"
+  },
+  {
+    "frame": 2109,
+    "time": 70.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2109.png"
+  },
+  {
+    "frame": 2112,
+    "time": 70.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2112.png"
+  },
+  {
+    "frame": 2115,
+    "time": 70.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2115.png"
+  },
+  {
+    "frame": 2118,
+    "time": 70.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2118.png"
+  },
+  {
+    "frame": 2121,
+    "time": 70.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2121.png"
+  },
+  {
+    "frame": 2124,
+    "time": 70.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2124.png"
+  },
+  {
+    "frame": 2127,
+    "time": 70.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2127.png"
+  },
+  {
+    "frame": 2130,
+    "time": 71.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2130.png"
+  },
+  {
+    "frame": 2133,
+    "time": 71.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2133.png"
+  },
+  {
+    "frame": 2136,
+    "time": 71.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2136.png"
+  },
+  {
+    "frame": 2139,
+    "time": 71.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2139.png"
+  },
+  {
+    "frame": 2142,
+    "time": 71.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2142.png"
+  },
+  {
+    "frame": 2145,
+    "time": 71.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2145.png"
+  },
+  {
+    "frame": 2148,
+    "time": 71.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2148.png"
+  },
+  {
+    "frame": 2151,
+    "time": 71.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2151.png"
+  },
+  {
+    "frame": 2154,
+    "time": 71.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2154.png"
+  },
+  {
+    "frame": 2157,
+    "time": 71.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2157.png"
+  },
+  {
+    "frame": 2160,
+    "time": 72.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2160.png"
+  },
+  {
+    "frame": 2163,
+    "time": 72.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2163.png"
+  },
+  {
+    "frame": 2166,
+    "time": 72.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2166.png"
+  },
+  {
+    "frame": 2169,
+    "time": 72.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2169.png"
+  },
+  {
+    "frame": 2172,
+    "time": 72.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2172.png"
+  },
+  {
+    "frame": 2175,
+    "time": 72.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2175.png"
+  },
+  {
+    "frame": 2178,
+    "time": 72.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2178.png"
+  },
+  {
+    "frame": 2181,
+    "time": 72.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2181.png"
+  },
+  {
+    "frame": 2184,
+    "time": 72.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2184.png"
+  },
+  {
+    "frame": 2187,
+    "time": 72.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2187.png"
+  },
+  {
+    "frame": 2190,
+    "time": 73.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2190.png"
+  },
+  {
+    "frame": 2193,
+    "time": 73.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2193.png"
+  },
+  {
+    "frame": 2196,
+    "time": 73.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2196.png"
+  },
+  {
+    "frame": 2199,
+    "time": 73.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2199.png"
+  },
+  {
+    "frame": 2202,
+    "time": 73.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2202.png"
+  },
+  {
+    "frame": 2205,
+    "time": 73.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2205.png"
+  },
+  {
+    "frame": 2208,
+    "time": 73.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2208.png"
+  },
+  {
+    "frame": 2211,
+    "time": 73.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2211.png"
+  },
+  {
+    "frame": 2214,
+    "time": 73.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2214.png"
+  },
+  {
+    "frame": 2217,
+    "time": 73.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2217.png"
+  },
+  {
+    "frame": 2220,
+    "time": 74.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2220.png"
+  },
+  {
+    "frame": 2223,
+    "time": 74.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2223.png"
+  },
+  {
+    "frame": 2226,
+    "time": 74.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2226.png"
+  },
+  {
+    "frame": 2229,
+    "time": 74.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2229.png"
+  },
+  {
+    "frame": 2232,
+    "time": 74.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2232.png"
+  },
+  {
+    "frame": 2235,
+    "time": 74.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2235.png"
+  },
+  {
+    "frame": 2238,
+    "time": 74.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2238.png"
+  },
+  {
+    "frame": 2241,
+    "time": 74.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2241.png"
+  },
+  {
+    "frame": 2244,
+    "time": 74.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2244.png"
+  },
+  {
+    "frame": 2247,
+    "time": 74.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2247.png"
+  },
+  {
+    "frame": 2250,
+    "time": 75.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2250.png"
+  },
+  {
+    "frame": 2253,
+    "time": 75.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2253.png"
+  },
+  {
+    "frame": 2256,
+    "time": 75.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2256.png"
+  },
+  {
+    "frame": 2259,
+    "time": 75.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2259.png"
+  },
+  {
+    "frame": 2262,
+    "time": 75.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2262.png"
+  },
+  {
+    "frame": 2265,
+    "time": 75.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2265.png"
+  },
+  {
+    "frame": 2268,
+    "time": 75.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2268.png"
+  },
+  {
+    "frame": 2271,
+    "time": 75.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2271.png"
+  },
+  {
+    "frame": 2274,
+    "time": 75.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2274.png"
+  },
+  {
+    "frame": 2277,
+    "time": 75.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2277.png"
+  },
+  {
+    "frame": 2280,
+    "time": 76.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2280.png"
+  },
+  {
+    "frame": 2283,
+    "time": 76.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2283.png"
+  },
+  {
+    "frame": 2286,
+    "time": 76.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2286.png"
+  },
+  {
+    "frame": 2295,
+    "time": 76.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2295.png"
+  },
+  {
+    "frame": 2310,
+    "time": 77.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2310.png"
+  },
+  {
+    "frame": 2322,
+    "time": 77.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2322.png"
+  },
+  {
+    "frame": 2325,
+    "time": 77.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2325.png"
+  },
+  {
+    "frame": 2328,
+    "time": 77.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2328.png"
+  },
+  {
+    "frame": 2331,
+    "time": 77.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2331.png"
+  },
+  {
+    "frame": 2334,
+    "time": 77.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2334.png"
+  },
+  {
+    "frame": 2337,
+    "time": 77.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2337.png"
+  },
+  {
+    "frame": 2340,
+    "time": 78.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2340.png"
+  },
+  {
+    "frame": 2343,
+    "time": 78.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2343.png"
+  },
+  {
+    "frame": 2346,
+    "time": 78.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2346.png"
+  },
+  {
+    "frame": 2349,
+    "time": 78.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2349.png"
+  },
+  {
+    "frame": 2352,
+    "time": 78.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2352.png"
+  },
+  {
+    "frame": 2355,
+    "time": 78.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2355.png"
+  },
+  {
+    "frame": 2358,
+    "time": 78.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2358.png"
+  },
+  {
+    "frame": 2361,
+    "time": 78.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2361.png"
+  },
+  {
+    "frame": 2364,
+    "time": 78.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2364.png"
+  },
+  {
+    "frame": 2367,
+    "time": 78.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2367.png"
+  },
+  {
+    "frame": 2370,
+    "time": 79.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2370.png"
+  },
+  {
+    "frame": 2373,
+    "time": 79.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2373.png"
+  },
+  {
+    "frame": 2376,
+    "time": 79.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2376.png"
+  },
+  {
+    "frame": 2379,
+    "time": 79.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2379.png"
+  },
+  {
+    "frame": 2382,
+    "time": 79.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2382.png"
+  },
+  {
+    "frame": 2385,
+    "time": 79.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2385.png"
+  },
+  {
+    "frame": 2388,
+    "time": 79.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2388.png"
+  },
+  {
+    "frame": 2391,
+    "time": 79.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2391.png"
+  },
+  {
+    "frame": 2394,
+    "time": 79.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2394.png"
+  },
+  {
+    "frame": 2397,
+    "time": 79.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2397.png"
+  },
+  {
+    "frame": 2400,
+    "time": 80.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2400.png"
+  },
+  {
+    "frame": 2403,
+    "time": 80.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2403.png"
+  },
+  {
+    "frame": 2406,
+    "time": 80.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2406.png"
+  },
+  {
+    "frame": 2409,
+    "time": 80.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2409.png"
+  },
+  {
+    "frame": 2412,
+    "time": 80.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2412.png"
+  },
+  {
+    "frame": 2415,
+    "time": 80.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2415.png"
+  },
+  {
+    "frame": 2418,
+    "time": 80.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2418.png"
+  },
+  {
+    "frame": 2421,
+    "time": 80.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2421.png"
+  },
+  {
+    "frame": 2424,
+    "time": 80.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2424.png"
+  },
+  {
+    "frame": 2427,
+    "time": 80.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2427.png"
+  },
+  {
+    "frame": 2430,
+    "time": 81.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2430.png"
+  },
+  {
+    "frame": 2433,
+    "time": 81.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2433.png"
+  },
+  {
+    "frame": 2436,
+    "time": 81.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2436.png"
+  },
+  {
+    "frame": 2439,
+    "time": 81.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2439.png"
+  },
+  {
+    "frame": 2442,
+    "time": 81.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2442.png"
+  },
+  {
+    "frame": 2445,
+    "time": 81.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2445.png"
+  },
+  {
+    "frame": 2448,
+    "time": 81.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2448.png"
+  },
+  {
+    "frame": 2451,
+    "time": 81.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2451.png"
+  },
+  {
+    "frame": 2454,
+    "time": 81.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2454.png"
+  },
+  {
+    "frame": 2457,
+    "time": 81.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2457.png"
+  },
+  {
+    "frame": 2460,
+    "time": 82.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2460.png"
+  },
+  {
+    "frame": 2463,
+    "time": 82.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2463.png"
+  },
+  {
+    "frame": 2466,
+    "time": 82.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2466.png"
+  },
+  {
+    "frame": 2469,
+    "time": 82.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2469.png"
+  },
+  {
+    "frame": 2472,
+    "time": 82.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2472.png"
+  },
+  {
+    "frame": 2475,
+    "time": 82.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2475.png"
+  },
+  {
+    "frame": 2490,
+    "time": 83.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2490.png"
+  },
+  {
+    "frame": 2505,
+    "time": 83.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2505.png"
+  },
+  {
+    "frame": 2520,
+    "time": 84.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2520.png"
+  },
+  {
+    "frame": 2535,
+    "time": 84.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2535.png"
+  },
+  {
+    "frame": 2550,
+    "time": 85.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2550.png"
+  },
+  {
+    "frame": 2565,
+    "time": 85.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2565.png"
+  },
+  {
+    "frame": 2580,
+    "time": 86.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2580.png"
+  },
+  {
+    "frame": 2589,
+    "time": 86.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2589.png"
+  },
+  {
+    "frame": 2592,
+    "time": 86.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2592.png"
+  },
+  {
+    "frame": 2595,
+    "time": 86.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2595.png"
+  },
+  {
+    "frame": 2598,
+    "time": 86.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2598.png"
+  },
+  {
+    "frame": 2601,
+    "time": 86.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2601.png"
+  },
+  {
+    "frame": 2604,
+    "time": 86.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2604.png"
+  },
+  {
+    "frame": 2607,
+    "time": 86.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2607.png"
+  },
+  {
+    "frame": 2610,
+    "time": 87.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2610.png"
+  },
+  {
+    "frame": 2613,
+    "time": 87.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2613.png"
+  },
+  {
+    "frame": 2616,
+    "time": 87.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2616.png"
+  },
+  {
+    "frame": 2619,
+    "time": 87.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2619.png"
+  },
+  {
+    "frame": 2622,
+    "time": 87.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2622.png"
+  },
+  {
+    "frame": 2625,
+    "time": 87.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2625.png"
+  },
+  {
+    "frame": 2628,
+    "time": 87.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2628.png"
+  },
+  {
+    "frame": 2631,
+    "time": 87.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2631.png"
+  },
+  {
+    "frame": 2634,
+    "time": 87.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2634.png"
+  },
+  {
+    "frame": 2637,
+    "time": 87.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2637.png"
+  },
+  {
+    "frame": 2640,
+    "time": 88.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2640.png"
+  },
+  {
+    "frame": 2643,
+    "time": 88.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2643.png"
+  },
+  {
+    "frame": 2646,
+    "time": 88.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2646.png"
+  },
+  {
+    "frame": 2649,
+    "time": 88.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2649.png"
+  },
+  {
+    "frame": 2652,
+    "time": 88.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2652.png"
+  },
+  {
+    "frame": 2655,
+    "time": 88.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2655.png"
+  },
+  {
+    "frame": 2658,
+    "time": 88.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2658.png"
+  },
+  {
+    "frame": 2661,
+    "time": 88.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2661.png"
+  },
+  {
+    "frame": 2664,
+    "time": 88.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2664.png"
+  },
+  {
+    "frame": 2667,
+    "time": 88.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2667.png"
+  },
+  {
+    "frame": 2670,
+    "time": 89.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2670.png"
+  },
+  {
+    "frame": 2673,
+    "time": 89.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2673.png"
+  },
+  {
+    "frame": 2676,
+    "time": 89.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2676.png"
+  },
+  {
+    "frame": 2679,
+    "time": 89.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2679.png"
+  },
+  {
+    "frame": 2682,
+    "time": 89.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2682.png"
+  },
+  {
+    "frame": 2685,
+    "time": 89.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2685.png"
+  },
+  {
+    "frame": 2688,
+    "time": 89.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2688.png"
+  },
+  {
+    "frame": 2691,
+    "time": 89.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2691.png"
+  },
+  {
+    "frame": 2694,
+    "time": 89.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2694.png"
+  },
+  {
+    "frame": 2697,
+    "time": 89.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2697.png"
+  },
+  {
+    "frame": 2700,
+    "time": 90.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2700.png"
+  },
+  {
+    "frame": 2703,
+    "time": 90.1,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2703.png"
+  },
+  {
+    "frame": 2706,
+    "time": 90.2,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2706.png"
+  },
+  {
+    "frame": 2709,
+    "time": 90.3,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2709.png"
+  },
+  {
+    "frame": 2712,
+    "time": 90.4,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2712.png"
+  },
+  {
+    "frame": 2715,
+    "time": 90.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2715.png"
+  },
+  {
+    "frame": 2718,
+    "time": 90.6,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2718.png"
+  },
+  {
+    "frame": 2721,
+    "time": 90.7,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2721.png"
+  },
+  {
+    "frame": 2724,
+    "time": 90.8,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2724.png"
+  },
+  {
+    "frame": 2727,
+    "time": 90.9,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2727.png"
+  },
+  {
+    "frame": 2730,
+    "time": 91.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2730.png"
+  },
+  {
+    "frame": 2745,
+    "time": 91.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2745.png"
+  },
+  {
+    "frame": 2760,
+    "time": 92.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2760.png"
+  },
+  {
+    "frame": 2775,
+    "time": 92.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2775.png"
+  },
+  {
+    "frame": 2790,
+    "time": 93.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2790.png"
+  },
+  {
+    "frame": 2805,
+    "time": 93.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2805.png"
+  },
+  {
+    "frame": 2820,
+    "time": 94.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2820.png"
+  },
+  {
+    "frame": 2835,
+    "time": 94.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2835.png"
+  },
+  {
+    "frame": 2850,
+    "time": 95.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2850.png"
+  },
+  {
+    "frame": 2865,
+    "time": 95.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2865.png"
+  },
+  {
+    "frame": 2880,
+    "time": 96.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2880.png"
+  },
+  {
+    "frame": 2895,
+    "time": 96.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2895.png"
+  },
+  {
+    "frame": 2910,
+    "time": 97.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2910.png"
+  },
+  {
+    "frame": 2925,
+    "time": 97.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2925.png"
+  },
+  {
+    "frame": 2940,
+    "time": 98.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2940.png"
+  },
+  {
+    "frame": 2955,
+    "time": 98.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2955.png"
+  },
+  {
+    "frame": 2970,
+    "time": 99.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2970.png"
+  },
+  {
+    "frame": 2985,
+    "time": 99.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\2985.png"
+  },
+  {
+    "frame": 3000,
+    "time": 100.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\3000.png"
+  },
+  {
+    "frame": 3015,
+    "time": 100.5,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\3015.png"
+  },
+  {
+    "frame": 3030,
+    "time": 101.0,
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-all-japanese-v3\\source-frames\\3030.png"
+  }
+]

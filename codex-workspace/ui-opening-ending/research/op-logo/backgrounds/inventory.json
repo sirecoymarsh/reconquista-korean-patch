@@ -1,0 +1,1522 @@
+[
+  {
+    "name": "bg.170a.rct",
+    "archive": "data1.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg.170a.rct.png"
+  },
+  {
+    "name": "bg.170b.rct",
+    "archive": "data1.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg.170b.rct.png"
+  },
+  {
+    "name": "bg.170c.rct",
+    "archive": "data1.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg.170c.rct.png"
+  },
+  {
+    "name": "bg.170d.rct",
+    "archive": "data1.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg.170d.rct.png"
+  },
+  {
+    "name": "bg.170e.rct",
+    "archive": "data1.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg.170e.rct.png"
+  },
+  {
+    "name": "bg_001.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_001.rct.png"
+  },
+  {
+    "name": "bg_002.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_002.rct.png"
+  },
+  {
+    "name": "bg_003.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_003.rct.png"
+  },
+  {
+    "name": "bg_004.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_004.rct.png"
+  },
+  {
+    "name": "bg_005.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_005.rct.png"
+  },
+  {
+    "name": "bg_006.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_006.rct.png"
+  },
+  {
+    "name": "bg_007.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_007.rct.png"
+  },
+  {
+    "name": "bg_008.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_008.rct.png"
+  },
+  {
+    "name": "bg_009.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_009.rct.png"
+  },
+  {
+    "name": "bg_010_01.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_010_01.rct.png"
+  },
+  {
+    "name": "bg_010_02.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_010_02.rct.png"
+  },
+  {
+    "name": "bg_010_04.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_010_04.rct.png"
+  },
+  {
+    "name": "bg_010_07.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_010_07.rct.png"
+  },
+  {
+    "name": "bg_020a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_020a.rct.png"
+  },
+  {
+    "name": "bg_020a_red.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_020a_red.rct.png"
+  },
+  {
+    "name": "bg_020b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_020b.rct.png"
+  },
+  {
+    "name": "bg_020c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_020c.rct.png"
+  },
+  {
+    "name": "bg_030a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_030a.rct.png"
+  },
+  {
+    "name": "bg_030b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_030b.rct.png"
+  },
+  {
+    "name": "bg_030c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_030c.rct.png"
+  },
+  {
+    "name": "bg_030e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_030e.rct.png"
+  },
+  {
+    "name": "bg_040a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_040a.rct.png"
+  },
+  {
+    "name": "bg_040b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_040b.rct.png"
+  },
+  {
+    "name": "bg_040e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_040e.rct.png"
+  },
+  {
+    "name": "bg_050a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_050a.rct.png"
+  },
+  {
+    "name": "bg_050b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_050b.rct.png"
+  },
+  {
+    "name": "bg_050e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_050e.rct.png"
+  },
+  {
+    "name": "bg_060a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_060a.rct.png"
+  },
+  {
+    "name": "bg_060b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_060b.rct.png"
+  },
+  {
+    "name": "bg_060c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_060c.rct.png"
+  },
+  {
+    "name": "bg_060d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_060d.rct.png"
+  },
+  {
+    "name": "bg_060e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_060e.rct.png"
+  },
+  {
+    "name": "bg_070a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_070a.rct.png"
+  },
+  {
+    "name": "bg_070b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_070b.rct.png"
+  },
+  {
+    "name": "bg_070e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_070e.rct.png"
+  },
+  {
+    "name": "bg_080a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_080a.rct.png"
+  },
+  {
+    "name": "bg_080b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_080b.rct.png"
+  },
+  {
+    "name": "bg_080c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_080c.rct.png"
+  },
+  {
+    "name": "bg_080e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_080e.rct.png"
+  },
+  {
+    "name": "bg_090a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_090a.rct.png"
+  },
+  {
+    "name": "bg_090b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_090b.rct.png"
+  },
+  {
+    "name": "bg_090c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_090c.rct.png"
+  },
+  {
+    "name": "bg_090d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_090d.rct.png"
+  },
+  {
+    "name": "bg_090e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_090e.rct.png"
+  },
+  {
+    "name": "bg_100a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_100a.rct.png"
+  },
+  {
+    "name": "bg_100b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_100b.rct.png"
+  },
+  {
+    "name": "bg_100c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_100c.rct.png"
+  },
+  {
+    "name": "bg_100d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_100d.rct.png"
+  },
+  {
+    "name": "bg_101a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_101a.rct.png"
+  },
+  {
+    "name": "bg_110c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_110c.rct.png"
+  },
+  {
+    "name": "bg_120a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_120a.rct.png"
+  },
+  {
+    "name": "bg_120b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_120b.rct.png"
+  },
+  {
+    "name": "bg_120c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_120c.rct.png"
+  },
+  {
+    "name": "bg_130a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_130a.rct.png"
+  },
+  {
+    "name": "bg_130b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_130b.rct.png"
+  },
+  {
+    "name": "bg_130c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_130c.rct.png"
+  },
+  {
+    "name": "bg_130d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_130d.rct.png"
+  },
+  {
+    "name": "bg_130e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_130e.rct.png"
+  },
+  {
+    "name": "bg_140a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_140a.rct.png"
+  },
+  {
+    "name": "bg_140b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_140b.rct.png"
+  },
+  {
+    "name": "bg_140c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_140c.rct.png"
+  },
+  {
+    "name": "bg_140d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_140d.rct.png"
+  },
+  {
+    "name": "bg_140e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_140e.rct.png"
+  },
+  {
+    "name": "bg_150a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_150a.rct.png"
+  },
+  {
+    "name": "bg_150b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_150b.rct.png"
+  },
+  {
+    "name": "bg_150c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_150c.rct.png"
+  },
+  {
+    "name": "bg_150d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_150d.rct.png"
+  },
+  {
+    "name": "bg_150e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_150e.rct.png"
+  },
+  {
+    "name": "bg_151a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_151a.rct.png"
+  },
+  {
+    "name": "bg_151b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_151b.rct.png"
+  },
+  {
+    "name": "bg_151e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_151e.rct.png"
+  },
+  {
+    "name": "bg_160a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_160a.rct.png"
+  },
+  {
+    "name": "bg_160b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_160b.rct.png"
+  },
+  {
+    "name": "bg_160c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_160c.rct.png"
+  },
+  {
+    "name": "bg_160d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_160d.rct.png"
+  },
+  {
+    "name": "bg_160e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_160e.rct.png"
+  },
+  {
+    "name": "bg_170a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_170a.rct.png"
+  },
+  {
+    "name": "bg_170b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_170b.rct.png"
+  },
+  {
+    "name": "bg_170c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_170c.rct.png"
+  },
+  {
+    "name": "bg_170d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_170d.rct.png"
+  },
+  {
+    "name": "bg_170e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_170e.rct.png"
+  },
+  {
+    "name": "bg_180a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_180a.rct.png"
+  },
+  {
+    "name": "bg_180a.rct",
+    "archive": "data1.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_180a.rct.png"
+  },
+  {
+    "name": "bg_180b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_180b.rct.png"
+  },
+  {
+    "name": "bg_180c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_180c.rct.png"
+  },
+  {
+    "name": "bg_180d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_180d.rct.png"
+  },
+  {
+    "name": "bg_180d2.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_180d2.rct.png"
+  },
+  {
+    "name": "bg_180e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_180e.rct.png"
+  },
+  {
+    "name": "bg_180e.rct",
+    "archive": "data1.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_180e.rct.png"
+  },
+  {
+    "name": "bg_190a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_190a.rct.png"
+  },
+  {
+    "name": "bg_200a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_200a.rct.png"
+  },
+  {
+    "name": "bg_200b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_200b.rct.png"
+  },
+  {
+    "name": "bg_200c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_200c.rct.png"
+  },
+  {
+    "name": "bg_210a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_210a.rct.png"
+  },
+  {
+    "name": "bg_210b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_210b.rct.png"
+  },
+  {
+    "name": "bg_210c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_210c.rct.png"
+  },
+  {
+    "name": "bg_210d.rct",
+    "archive": "data1.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_210d.rct.png"
+  },
+  {
+    "name": "bg_210e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_210e.rct.png"
+  },
+  {
+    "name": "bg_211a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_211a.rct.png"
+  },
+  {
+    "name": "bg_211b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_211b.rct.png"
+  },
+  {
+    "name": "bg_211c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_211c.rct.png"
+  },
+  {
+    "name": "bg_211e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_211e.rct.png"
+  },
+  {
+    "name": "bg_220a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_220a.rct.png"
+  },
+  {
+    "name": "bg_220b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_220b.rct.png"
+  },
+  {
+    "name": "bg_220c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_220c.rct.png"
+  },
+  {
+    "name": "bg_220e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_220e.rct.png"
+  },
+  {
+    "name": "bg_221a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_221a.rct.png"
+  },
+  {
+    "name": "bg_221b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_221b.rct.png"
+  },
+  {
+    "name": "bg_221c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_221c.rct.png"
+  },
+  {
+    "name": "bg_221e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_221e.rct.png"
+  },
+  {
+    "name": "bg_221f.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_221f.rct.png"
+  },
+  {
+    "name": "bg_230a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_230a.rct.png"
+  },
+  {
+    "name": "bg_230b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_230b.rct.png"
+  },
+  {
+    "name": "bg_230c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_230c.rct.png"
+  },
+  {
+    "name": "bg_230c_nega.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_230c_nega.rct.png"
+  },
+  {
+    "name": "bg_230e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_230e.rct.png"
+  },
+  {
+    "name": "bg_231a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_231a.rct.png"
+  },
+  {
+    "name": "bg_231b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_231b.rct.png"
+  },
+  {
+    "name": "bg_231c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_231c.rct.png"
+  },
+  {
+    "name": "bg_232a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_232a.rct.png"
+  },
+  {
+    "name": "bg_232a2.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_232a2.rct.png"
+  },
+  {
+    "name": "bg_232b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_232b.rct.png"
+  },
+  {
+    "name": "bg_232c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_232c.rct.png"
+  },
+  {
+    "name": "bg_233a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_233a.rct.png"
+  },
+  {
+    "name": "bg_233b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_233b.rct.png"
+  },
+  {
+    "name": "bg_233c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_233c.rct.png"
+  },
+  {
+    "name": "bg_235a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_235a.rct.png"
+  },
+  {
+    "name": "bg_235a2.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_235a2.rct.png"
+  },
+  {
+    "name": "bg_235b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_235b.rct.png"
+  },
+  {
+    "name": "bg_235c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_235c.rct.png"
+  },
+  {
+    "name": "bg_240a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_240a.rct.png"
+  },
+  {
+    "name": "bg_240b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_240b.rct.png"
+  },
+  {
+    "name": "bg_240c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_240c.rct.png"
+  },
+  {
+    "name": "bg_240d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_240d.rct.png"
+  },
+  {
+    "name": "bg_240e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_240e.rct.png"
+  },
+  {
+    "name": "bg_240ti.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_240ti.rct.png"
+  },
+  {
+    "name": "bg_240ti2.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_240ti2.rct.png"
+  },
+  {
+    "name": "bg_240ti3.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_240ti3.rct.png"
+  },
+  {
+    "name": "bg_241d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_241d.rct.png"
+  },
+  {
+    "name": "bg_250a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_250a.rct.png"
+  },
+  {
+    "name": "bg_250b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_250b.rct.png"
+  },
+  {
+    "name": "bg_250c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_250c.rct.png"
+  },
+  {
+    "name": "bg_250c_nega.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_250c_nega.rct.png"
+  },
+  {
+    "name": "bg_251a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_251a.rct.png"
+  },
+  {
+    "name": "bg_260a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_260a.rct.png"
+  },
+  {
+    "name": "bg_260b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_260b.rct.png"
+  },
+  {
+    "name": "bg_260c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_260c.rct.png"
+  },
+  {
+    "name": "bg_260f.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_260f.rct.png"
+  },
+  {
+    "name": "bg_270a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_270a.rct.png"
+  },
+  {
+    "name": "bg_270b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_270b.rct.png"
+  },
+  {
+    "name": "bg_270c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_270c.rct.png"
+  },
+  {
+    "name": "bg_270f.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_270f.rct.png"
+  },
+  {
+    "name": "bg_271c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_271c.rct.png"
+  },
+  {
+    "name": "bg_280a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_280a.rct.png"
+  },
+  {
+    "name": "bg_280b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_280b.rct.png"
+  },
+  {
+    "name": "bg_280c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_280c.rct.png"
+  },
+  {
+    "name": "bg_280e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_280e.rct.png"
+  },
+  {
+    "name": "bg_281a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_281a.rct.png"
+  },
+  {
+    "name": "bg_290a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_290a.rct.png"
+  },
+  {
+    "name": "bg_290b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_290b.rct.png"
+  },
+  {
+    "name": "bg_290c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_290c.rct.png"
+  },
+  {
+    "name": "bg_290e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_290e.rct.png"
+  },
+  {
+    "name": "bg_291c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_291c.rct.png"
+  },
+  {
+    "name": "bg_300a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_300a.rct.png"
+  },
+  {
+    "name": "bg_300b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_300b.rct.png"
+  },
+  {
+    "name": "bg_300c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_300c.rct.png"
+  },
+  {
+    "name": "bg_300e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_300e.rct.png"
+  },
+  {
+    "name": "bg_310a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_310a.rct.png"
+  },
+  {
+    "name": "bg_310b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_310b.rct.png"
+  },
+  {
+    "name": "bg_310c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_310c.rct.png"
+  },
+  {
+    "name": "bg_320a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_320a.rct.png"
+  },
+  {
+    "name": "bg_320b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_320b.rct.png"
+  },
+  {
+    "name": "bg_320c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_320c.rct.png"
+  },
+  {
+    "name": "bg_322a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_322a.rct.png"
+  },
+  {
+    "name": "bg_322b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_322b.rct.png"
+  },
+  {
+    "name": "bg_322c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_322c.rct.png"
+  },
+  {
+    "name": "bg_322f.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_322f.rct.png"
+  },
+  {
+    "name": "bg_330a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_330a.rct.png"
+  },
+  {
+    "name": "bg_330b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_330b.rct.png"
+  },
+  {
+    "name": "bg_330c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_330c.rct.png"
+  },
+  {
+    "name": "bg_330e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_330e.rct.png"
+  },
+  {
+    "name": "bg_331a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_331a.rct.png"
+  },
+  {
+    "name": "bg_331b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_331b.rct.png"
+  },
+  {
+    "name": "bg_331c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_331c.rct.png"
+  },
+  {
+    "name": "bg_340a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_340a.rct.png"
+  },
+  {
+    "name": "bg_340b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_340b.rct.png"
+  },
+  {
+    "name": "bg_340c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_340c.rct.png"
+  },
+  {
+    "name": "bg_340c2.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_340c2.rct.png"
+  },
+  {
+    "name": "bg_341a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_341a.rct.png"
+  },
+  {
+    "name": "bg_350a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_350a.rct.png"
+  },
+  {
+    "name": "bg_350b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_350b.rct.png"
+  },
+  {
+    "name": "bg_350c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_350c.rct.png"
+  },
+  {
+    "name": "bg_350f.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_350f.rct.png"
+  },
+  {
+    "name": "bg_360a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_360a.rct.png"
+  },
+  {
+    "name": "bg_360b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_360b.rct.png"
+  },
+  {
+    "name": "bg_361d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_361d.rct.png"
+  },
+  {
+    "name": "bg_362d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_362d.rct.png"
+  },
+  {
+    "name": "bg_370a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_370a.rct.png"
+  },
+  {
+    "name": "bg_370b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_370b.rct.png"
+  },
+  {
+    "name": "bg_370c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_370c.rct.png"
+  },
+  {
+    "name": "bg_370e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_370e.rct.png"
+  },
+  {
+    "name": "bg_380a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_380a.rct.png"
+  },
+  {
+    "name": "bg_380b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_380b.rct.png"
+  },
+  {
+    "name": "bg_380c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_380c.rct.png"
+  },
+  {
+    "name": "bg_390a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_390a.rct.png"
+  },
+  {
+    "name": "bg_390b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_390b.rct.png"
+  },
+  {
+    "name": "bg_390c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_390c.rct.png"
+  },
+  {
+    "name": "bg_391a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_391a.rct.png"
+  },
+  {
+    "name": "bg_391b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_391b.rct.png"
+  },
+  {
+    "name": "bg_391c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_391c.rct.png"
+  },
+  {
+    "name": "bg_391e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_391e.rct.png"
+  },
+  {
+    "name": "bg_400a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_400a.rct.png"
+  },
+  {
+    "name": "bg_400a.rct",
+    "archive": "data1.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_400a.rct.png"
+  },
+  {
+    "name": "bg_400c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_400c.rct.png"
+  },
+  {
+    "name": "bg_400d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_400d.rct.png"
+  },
+  {
+    "name": "bg_401a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_401a.rct.png"
+  },
+  {
+    "name": "bg_401b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_401b.rct.png"
+  },
+  {
+    "name": "bg_401d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_401d.rct.png"
+  },
+  {
+    "name": "bg_401e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_401e.rct.png"
+  },
+  {
+    "name": "bg_410a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_410a.rct.png"
+  },
+  {
+    "name": "bg_410a.rct",
+    "archive": "data1.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_410a.rct.png"
+  },
+  {
+    "name": "bg_410c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_410c.rct.png"
+  },
+  {
+    "name": "bg_410c.rct",
+    "archive": "data1.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_410c.rct.png"
+  },
+  {
+    "name": "bg_410d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_410d.rct.png"
+  },
+  {
+    "name": "bg_411a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_411a.rct.png"
+  },
+  {
+    "name": "bg_411b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_411b.rct.png"
+  },
+  {
+    "name": "bg_411d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_411d.rct.png"
+  },
+  {
+    "name": "bg_420a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_420a.rct.png"
+  },
+  {
+    "name": "bg_420b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_420b.rct.png"
+  },
+  {
+    "name": "bg_420c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_420c.rct.png"
+  },
+  {
+    "name": "bg_421a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_421a.rct.png"
+  },
+  {
+    "name": "bg_421b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_421b.rct.png"
+  },
+  {
+    "name": "bg_421c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_421c.rct.png"
+  },
+  {
+    "name": "bg_430a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_430a.rct.png"
+  },
+  {
+    "name": "bg_430b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_430b.rct.png"
+  },
+  {
+    "name": "bg_430c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_430c.rct.png"
+  },
+  {
+    "name": "bg_431a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_431a.rct.png"
+  },
+  {
+    "name": "bg_431b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_431b.rct.png"
+  },
+  {
+    "name": "bg_431c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_431c.rct.png"
+  },
+  {
+    "name": "bg_440a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_440a.rct.png"
+  },
+  {
+    "name": "bg_440b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_440b.rct.png"
+  },
+  {
+    "name": "bg_440c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_440c.rct.png"
+  },
+  {
+    "name": "bg_450a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_450a.rct.png"
+  },
+  {
+    "name": "bg_450b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_450b.rct.png"
+  },
+  {
+    "name": "bg_450c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_450c.rct.png"
+  },
+  {
+    "name": "bg_451a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_451a.rct.png"
+  },
+  {
+    "name": "bg_451b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_451b.rct.png"
+  },
+  {
+    "name": "bg_451c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_451c.rct.png"
+  },
+  {
+    "name": "bg_452a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_452a.rct.png"
+  },
+  {
+    "name": "bg_452b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_452b.rct.png"
+  },
+  {
+    "name": "bg_452c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_452c.rct.png"
+  },
+  {
+    "name": "bg_453c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_453c.rct.png"
+  },
+  {
+    "name": "bg_460a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_460a.rct.png"
+  },
+  {
+    "name": "bg_460b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_460b.rct.png"
+  },
+  {
+    "name": "bg_460c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_460c.rct.png"
+  },
+  {
+    "name": "bg_470a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_470a.rct.png"
+  },
+  {
+    "name": "bg_480a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_480a.rct.png"
+  },
+  {
+    "name": "bg_480b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_480b.rct.png"
+  },
+  {
+    "name": "bg_480c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_480c.rct.png"
+  },
+  {
+    "name": "bg_490a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_490a.rct.png"
+  },
+  {
+    "name": "bg_490b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_490b.rct.png"
+  },
+  {
+    "name": "bg_490c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_490c.rct.png"
+  },
+  {
+    "name": "bg_490d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_490d.rct.png"
+  },
+  {
+    "name": "bg_500a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_500a.rct.png"
+  },
+  {
+    "name": "bg_500b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_500b.rct.png"
+  },
+  {
+    "name": "bg_500c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_500c.rct.png"
+  },
+  {
+    "name": "bg_500d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_500d.rct.png"
+  },
+  {
+    "name": "bg_501a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_501a.rct.png"
+  },
+  {
+    "name": "bg_501b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_501b.rct.png"
+  },
+  {
+    "name": "bg_501c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_501c.rct.png"
+  },
+  {
+    "name": "bg_501d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_501d.rct.png"
+  },
+  {
+    "name": "bg_502a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_502a.rct.png"
+  },
+  {
+    "name": "bg_510a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_510a.rct.png"
+  },
+  {
+    "name": "bg_510b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_510b.rct.png"
+  },
+  {
+    "name": "bg_510c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_510c.rct.png"
+  },
+  {
+    "name": "bg_510d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_510d.rct.png"
+  },
+  {
+    "name": "bg_510e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_510e.rct.png"
+  },
+  {
+    "name": "bg_520a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_520a.rct.png"
+  },
+  {
+    "name": "bg_520a2.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_520a2.rct.png"
+  },
+  {
+    "name": "bg_530a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_530a.rct.png"
+  },
+  {
+    "name": "bg_530b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_530b.rct.png"
+  },
+  {
+    "name": "bg_530c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_530c.rct.png"
+  },
+  {
+    "name": "bg_540a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_540a.rct.png"
+  },
+  {
+    "name": "bg_540b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_540b.rct.png"
+  },
+  {
+    "name": "bg_540c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_540c.rct.png"
+  },
+  {
+    "name": "bg_540d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_540d.rct.png"
+  },
+  {
+    "name": "bg_550a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_550a.rct.png"
+  },
+  {
+    "name": "bg_550b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_550b.rct.png"
+  },
+  {
+    "name": "bg_550d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_550d.rct.png"
+  },
+  {
+    "name": "bg_551a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_551a.rct.png"
+  },
+  {
+    "name": "bg_551b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_551b.rct.png"
+  },
+  {
+    "name": "bg_551c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_551c.rct.png"
+  },
+  {
+    "name": "bg_552a.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_552a.rct.png"
+  },
+  {
+    "name": "bg_552b.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_552b.rct.png"
+  },
+  {
+    "name": "bg_552c.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_552c.rct.png"
+  },
+  {
+    "name": "bg_552e.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_552e.rct.png"
+  },
+  {
+    "name": "bg_552ml.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_552ml.rct.png"
+  },
+  {
+    "name": "bg_553d.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_553d.rct.png"
+  },
+  {
+    "name": "bg_555.rct",
+    "archive": "data.arc",
+    "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\op-logo\\backgrounds\\bg_555.rct.png"
+  }
+]

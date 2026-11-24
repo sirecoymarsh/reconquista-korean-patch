@@ -1,0 +1,141 @@
+{
+ "mode": "routes",
+ "started": "2026-11-22 07:28:37",
+ "nv_before": 1133,
+ "runs": [
+  {
+   "label": "routes-36572-re",
+   "pid": 9152,
+   "steps": [
+    {
+     "step": "route 36572",
+     "t": 3634.5,
+     "order": 35572,
+     "chapter": "?",
+     "ending": true,
+     "arrive_s": 8.5,
+     "items": 1,
+     "title_timeout": true,
+     "presents_after_arrival": 9686,
+     "clicks": 3941,
+     "ok": true,
+     "mem_mb": 1290
+    }
+   ],
+   "dialogs": [],
+   "mem_mb_start": 959,
+   "routes": [
+    {
+     "i": 36572,
+     "order": 35572,
+     "chapter": "?",
+     "ending": true,
+     "arrive_s": 8.5,
+     "items": 1,
+     "title_timeout": true,
+     "presents_after_arrival": 9686,
+     "clicks": 3941,
+     "ok": true,
+     "mem_mb": 1290
+    }
+   ],
+   "new_review_folders": [
+    "savedata-review-9152-257418312"
+   ],
+   "mem_mb_end": 1290,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.9621,
+    "loud_spans": [
+     [
+      31.29,
+      37.73
+     ],
+     [
+      103.46,
+      104.44
+     ],
+     [
+      106.78,
+      107.2
+     ],
+     [
+      117.11,
+      118.07
+     ],
+     [
+      126.47,
+      127.19
+     ],
+     [
+      128.34,
+      129.95
+     ],
+     [
+      132.59,
+      134.5
+     ],
+     [
+      136.38,
+      138.16
+     ],
+     [
+      140.17,
+      140.88
+     ],
+     [
+      142.83,
+      143.59
+     ],
+     [
+      153.68,
+      154.54
+     ],
+     [
+      155.57,
+      156.42
+     ],
+     [
+      158.43,
+      159.2
+     ],
+     [
+      164.84,
+      168.47
+     ],
+     [
+      169.55,
+      171.17
+     ],
+     [
+      176.84,
+      182.44
+     ],
+     [
+      188.15,
+      188.85
+     ],
+     [
+      190.74,
+      193.54
+     ],
+     [
+      201.13,
+      203.81
+     ],
+     [
+      205.65,
+      207.53
+     ]
+    ],
+    "errors": []
+   },
+   "log_mb": 11.6,
+   "log_errors": []
+  }
+ ],
+ "nv_after": 1133,
+ "ended": "2026-11-22 08:29:16"
+}

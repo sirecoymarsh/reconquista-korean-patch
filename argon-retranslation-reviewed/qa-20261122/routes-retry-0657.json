@@ -1,0 +1,64 @@
+{
+ "mode": "routes",
+ "started": "2026-11-22 06:46:09",
+ "nv_before": 1133,
+ "runs": [
+  {
+   "label": "routes-38791-re",
+   "pid": 18752,
+   "steps": [
+    {
+     "step": "route 38791",
+     "t": 695.3,
+     "order": 37791,
+     "chapter": "?",
+     "ending": true,
+     "arrive_s": 69.8,
+     "items": 1,
+     "stall_enter_presents": 0,
+     "stall_rclick_presents": 0,
+     "title_timeout": true,
+     "presents_after_arrival": 0,
+     "clicks": 366,
+     "ok": true,
+     "mem_mb": 1054
+    }
+   ],
+   "dialogs": [],
+   "mem_mb_start": 957,
+   "routes": [
+    {
+     "i": 38791,
+     "order": 37791,
+     "chapter": "?",
+     "ending": true,
+     "arrive_s": 69.8,
+     "items": 1,
+     "stall_enter_presents": 0,
+     "stall_rclick_presents": 0,
+     "title_timeout": true,
+     "presents_after_arrival": 0,
+     "clicks": 366,
+     "ok": true,
+     "mem_mb": 1054
+    }
+   ],
+   "new_review_folders": [
+    "savedata-review-18752-254870578"
+   ],
+   "mem_mb_end": 1054,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.0,
+    "loud_spans": [],
+    "errors": []
+   },
+   "log_mb": 1.7,
+   "log_errors": []
+  }
+ ],
+ "nv_after": 1133,
+ "ended": "2026-11-22 06:57:47"
+}

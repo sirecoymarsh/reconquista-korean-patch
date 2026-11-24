@@ -1,0 +1,872 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-3/lane-1",
+  "coordinator_thread_id": "01a16335-c355-7c83-ad79-53e1812faa34",
+  "agent_id": "01a16337-2f8b-7960-8351-632c9eaa3a60",
+  "source_script": "last_kako01.mjo",
+  "source_sha256": "dc131181be3c8f29ad706ade7130695620965a35a47d040a5975f1428ad9c2d3",
+  "records": [
+    {
+      "unit": "last_kako01.mjo::u0001",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000027",
+          "source": "私が七つの時、シロが死んだ――",
+          "target": "내가 일곱 살 때, 시로가 죽었다――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0001; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0002",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000032",
+          "source": "シロというのはうちで飼っていた犬の名前。",
+          "target": "시로는 우리 집에서 기르던 개의 이름이다."
+        },
+        {
+          "id": "last_kako01.mjo::000036",
+          "source": "私が生まれた時からずっと一緒にいた、大切な友達だった。",
+          "target": "내가 태어났을 때부터 줄곧 함께한 소중한 친구였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0002; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0003",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000041",
+          "source": "その頃の私はまだ幼く、",
+          "target": "그 무렵의 나는 아직 어려서"
+        },
+        {
+          "id": "last_kako01.mjo::000045",
+          "source": "『死』というものを理解できずにいた。",
+          "target": "『죽음』이라는 것을 이해하지 못했다."
+        },
+        {
+          "id": "last_kako01.mjo::000051",
+          "source": "だからシロが死んだ時は、すごく悲しくて耐え切れなくて…",
+          "target": "그래서 시로가 죽었을 때는 너무 슬퍼서 견딜 수가 없었다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0003; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0004",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000056",
+          "source": "そして私は、禁を破った。",
+          "target": "그리고 나는 금기를 어겼다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0004; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0005",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000069",
+          "source": "かつて父に聞いたことがある。",
+          "target": "예전에 아버지에게 들은 적이 있다."
+        },
+        {
+          "id": "last_kako01.mjo::000075",
+          "source": "その昔…この村のご先祖様は、",
+          "target": "아주 먼 옛날… 이 마을의 조상들은"
+        },
+        {
+          "id": "last_kako01.mjo::000079",
+          "source": "死んだ者を生き返らせる方法を研究していたって。",
+          "target": "죽은 이를 되살리는 방법을 연구했다고."
+        },
+        {
+          "id": "last_kako01.mjo::000085",
+          "source": "でも結局研究は失敗に終わり、",
+          "target": "하지만 결국 연구는 실패로 끝났고,"
+        },
+        {
+          "id": "last_kako01.mjo::000089",
+          "source": "その資料が地下の蔵に納められているんだって。",
+          "target": "그 자료가 지하 창고에 보관돼 있다고 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0005; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0006",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000094",
+          "source": "当時の私は父の話をほとんど理解できなかったけど、",
+          "target": "당시에는 아버지의 이야기를 거의 이해하지 못했지만,"
+        },
+        {
+          "id": "last_kako01.mjo::000098",
+          "source": "『死んだ者を生き返らせる』という下りだけは覚えていた。",
+          "target": "『죽은 이를 되살린다』는 대목만은 기억하고 있었다."
+        },
+        {
+          "id": "last_kako01.mjo::000104",
+          "source": "その記憶を頼りに、",
+          "target": "그 기억에 의지해"
+        },
+        {
+          "id": "last_kako01.mjo::000108",
+          "source": "私は蔵の鍵を持ち出して地下へと降りる。",
+          "target": "나는 창고 열쇠를 몰래 들고 지하로 내려간다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0006; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0007",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000113",
+          "source": "そしてひんやりと冷たく淀んだ空気をかき分けて、",
+          "target": "그리고 서늘하게 고여 있는 공기를 헤치며"
+        },
+        {
+          "id": "last_kako01.mjo::000117",
+          "source": "厳重な地下蔵の扉を開けた。",
+          "target": "굳게 잠긴 지하 창고의 문을 열었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0007; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0008",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000129",
+          "source": "ガシャッ、ギィー…",
+          "target": "철컥, 끼이익…"
+        },
+        {
+          "id": "last_kako01.mjo::000135",
+          "source": "そこでは持ってきた自前のランタンだけが、",
+          "target": "그곳에서는 내가 가져온 랜턴만이"
+        },
+        {
+          "id": "last_kako01.mjo::000139",
+          "source": "唯一の光源だった。",
+          "target": "유일한 빛이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0008; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0009",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000144",
+          "source": "私は濃厚な暗闇の中、地下蔵の中を見て回る。",
+          "target": "나는 짙은 어둠 속에서 지하 창고 안을 둘러본다."
+        },
+        {
+          "id": "last_kako01.mjo::000150",
+          "source": "けど壁際に置かれた棚には本や巻物のようなものしかなく、",
+          "target": "하지만 벽에 붙은 선반에는 책과 두루마리 같은 것밖에 없어"
+        },
+        {
+          "id": "last_kako01.mjo::000154",
+          "source": "幼い私にはその内容がさっぱりわからない。",
+          "target": "어린 나는 그 내용을 전혀 알 수 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0009; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0010",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000159",
+          "source": "そこで私が見つけた書物以外のものといったら、",
+          "target": "그곳에서 내가 찾아낸 책 이외의 물건이라고는"
+        },
+        {
+          "id": "last_kako01.mjo::000163",
+          "source": "太い木の根のようなものしかなかった。",
+          "target": "굵은 나무뿌리 같은 것뿐이었다."
+        },
+        {
+          "id": "last_kako01.mjo::000169",
+          "source": "だから私はそれを持ち出して、外へ出た。",
+          "target": "그래서 나는 그것을 들고 밖으로 나왔다."
+        },
+        {
+          "id": "last_kako01.mjo::000173",
+          "source": "その木の根が死者を蘇らせる力を持つと信じて。",
+          "target": "그 나무뿌리에 죽은 이를 되살리는 힘이 있으리라 믿으며."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0010; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0011",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000181",
+          "source": "ギィ～…ガシャンッ",
+          "target": "끼이익… 철컹"
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0011; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0012",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000193",
+          "source": "ホー、ホー…",
+          "target": "부엉, 부엉…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0012; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0013",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000198",
+          "source": "夜空に冠する下弦の月の下、",
+          "target": "밤하늘에 걸린 하현달 아래,"
+        },
+        {
+          "id": "last_kako01.mjo::000202",
+          "source": "シロを埋めたお墓へと走る。",
+          "target": "시로를 묻은 무덤으로 달려간다."
+        },
+        {
+          "id": "last_kako01.mjo::000208",
+          "source": "そこはシロと一緒に遊んでる時に見つけた、",
+          "target": "그곳은 시로와 함께 놀다가 찾아낸,"
+        },
+        {
+          "id": "last_kako01.mjo::000212",
+          "source": "私のとっておきの場所。",
+          "target": "나만의 특별한 장소였다."
+        },
+        {
+          "id": "last_kako01.mjo::000218",
+          "source": "そこの土の下に、シロは眠っていた…",
+          "target": "그 땅 밑에 시로가 잠들어 있었다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0013; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0014",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000228",
+          "source": "シロのお墓までやって来た私は、",
+          "target": "시로의 무덤에 도착한 나는"
+        },
+        {
+          "id": "last_kako01.mjo::000232",
+          "source": "懸命に土を掘り返す。",
+          "target": "필사적으로 흙을 파헤친다."
+        },
+        {
+          "id": "last_kako01.mjo::000238",
+          "source": "ここにシロを埋めた時は、",
+          "target": "여기에 시로를 묻을 때는"
+        },
+        {
+          "id": "last_kako01.mjo::000242",
+          "source": "父が大きなスコップで穴を掘った。",
+          "target": "아버지가 커다란 삽으로 구덩이를 팠다."
+        },
+        {
+          "id": "last_kako01.mjo::000248",
+          "source": "でも幼い私にそのスコップは大きすぎたので、",
+          "target": "하지만 어린 나에게 그 삽은 너무 컸기에"
+        },
+        {
+          "id": "last_kako01.mjo::000252",
+          "source": "両手で一生懸命お墓を掘り返した。",
+          "target": "두 손으로 열심히 무덤을 파헤쳤다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0014; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0015",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000261",
+          "source": "爪の奥まで土がめり込み、指先がボロボロになっても、",
+          "target": "손톱 깊숙이 흙이 박히고 손끝이 만신창이가 되어도"
+        },
+        {
+          "id": "last_kako01.mjo::000265",
+          "source": "痛みを堪えて穴を掘り続ける。",
+          "target": "아픔을 참으며 계속 구덩이를 팠다."
+        },
+        {
+          "id": "last_kako01.mjo::000271",
+          "source": "しばらくすると、ようやくシロの体が見えてきた。",
+          "target": "얼마 뒤, 마침내 시로의 몸이 보이기 시작했다."
+        },
+        {
+          "id": "last_kako01.mjo::000277",
+          "source": "幸い遺体はまだ腐っておらず、",
+          "target": "다행히 시체는 아직 썩지 않아서"
+        },
+        {
+          "id": "last_kako01.mjo::000281",
+          "source": "今にものそりと起き出すんじゃないかと思えた。",
+          "target": "금방이라도 느릿느릿 일어날 것만 같았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0015; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0016",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000286",
+          "source": "けれど、いつまで経ってもシロは目を覚まさない。",
+          "target": "하지만 아무리 기다려도 시로는 눈을 뜨지 않는다."
+        },
+        {
+          "id": "last_kako01.mjo::000292",
+          "source": "当然だ。それが死ぬということなのだから。",
+          "target": "당연했다. 죽는다는 건 그런 것이니까."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0016; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0017",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000297",
+          "source": "だから私は地下の蔵から持ち出した木の根を",
+          "target": "그래서 나는 지하 창고에서 가져온 나무뿌리를"
+        },
+        {
+          "id": "last_kako01.mjo::000301",
+          "source": "シロのお腹の辺りに置いた。",
+          "target": "시로의 배 위에 올려놓았다."
+        },
+        {
+          "id": "last_kako01.mjo::000307",
+          "source": "この木の根に死者を生き返らせる力があるのなら、",
+          "target": "이 나무뿌리에 죽은 이를 되살리는 힘이 있다면"
+        },
+        {
+          "id": "last_kako01.mjo::000311",
+          "source": "きっとシロは目を覚ます筈…",
+          "target": "분명 시로는 눈을 뜰 것이다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0017; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0018",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000316",
+          "source": "だけど、やっぱりシロは目を覚まさなかった。",
+          "target": "하지만 역시 시로는 눈을 뜨지 않았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0018; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0019",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000321",
+          "source": "何時間も待ち続けてその木の根に効果がないと理解した時…",
+          "target": "몇 시간이고 기다린 끝에 그 나무뿌리가 아무 효과도 없다는 걸 깨달았을 때…"
+        },
+        {
+          "id": "last_kako01.mjo::000327",
+          "source": "私は声を上げて泣いた。",
+          "target": "나는 소리 내어 울었다."
+        },
+        {
+          "id": "last_kako01.mjo::000333",
+          "source": "泣いて泣いて泣き尽くした後、",
+          "target": "울고 울고, 더는 울 수 없을 만큼 울고 나서"
+        },
+        {
+          "id": "last_kako01.mjo::000337",
+          "source": "ほとんど放心状態で再びシロの亡骸に土を被せる私――",
+          "target": "나는 거의 넋이 나간 채 다시 시로의 주검에 흙을 덮는다――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0019; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0020",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000346",
+          "source": "そして元通りにお墓を埋めなおすと、",
+          "target": "그리고 무덤을 원래대로 메우고는"
+        },
+        {
+          "id": "last_kako01.mjo::000350",
+          "source": "悲しみに暮れながら家に戻った。",
+          "target": "슬픔에 잠긴 채 집으로 돌아갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0020; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0021",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000355",
+          "source": "この時の私はすっかり忘れてしまっていた。",
+          "target": "그때의 나는 까맣게 잊고 있었다."
+        },
+        {
+          "id": "last_kako01.mjo::000361",
+          "source": "あの木の根を、シロの亡骸と一緒に埋めてしまったことに。",
+          "target": "그 나무뿌리를 시로의 주검과 함께 묻어 버렸다는 사실을."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 여성 회상 서술자",
+        "addressees": [],
+        "relationship": "자신의 일곱 살 시절과 반려견 시로를 회상",
+        "story_phase": "과거편 서두; 일곱 살의 죽음과 금기 경험",
+        "voice": "성장한 시점의 담담한 1인칭 회상; 원문의 현재/과거 전환 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0021; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0022",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000388",
+          "source": "人は生まれた時のことを覚えているものなのだろうか。",
+          "target": "사람은 자신이 태어났을 때를 기억하는 걸까."
+        },
+        {
+          "id": "last_kako01.mjo::000394",
+          "source": "他の人はわからないけど、僕ははっきりと覚えている。",
+          "target": "다른 사람은 모르겠지만, 나는 똑똑히 기억하고 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 남성 독백 화자(僕)",
+        "addressees": [],
+        "relationship": "내면 독백",
+        "story_phase": "과거편 서두; 탄생과 행복의 대가에 대한 별도 독백",
+        "voice": "조용하고 사색적인 1인칭 문어체",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0022; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0023",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000406",
+          "source": "薄暗い繭の中から這い出して、",
+          "target": "어둑한 고치 속에서 기어 나와"
+        },
+        {
+          "id": "last_kako01.mjo::000410",
+          "source": "初めて白い光に包まれた時のことを覚えている。",
+          "target": "처음으로 하얀 빛에 감싸였을 때를 기억한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 남성 독백 화자(僕)",
+        "addressees": [],
+        "relationship": "내면 독백",
+        "story_phase": "과거편 서두; 탄생과 행복의 대가에 대한 별도 독백",
+        "voice": "조용하고 사색적인 1인칭 문어체",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0023; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0024",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000415",
+          "source": "世界から祝福された瞬間――",
+          "target": "세상의 축복을 받은 순간――"
+        },
+        {
+          "id": "last_kako01.mjo::000421",
+          "source": "僕は生まれてくることを許された。",
+          "target": "나는 태어나는 것을 허락받았다."
+        },
+        {
+          "id": "last_kako01.mjo::000427",
+          "source": "この世にはびこる幸も不幸も、",
+          "target": "이 세상에 만연한 행복도 불행도"
+        },
+        {
+          "id": "last_kako01.mjo::000431",
+          "source": "等しく我が身に受け入れることを許された。",
+          "target": "똑같이 내 몸으로 받아들이는 것을 허락받았다."
+        },
+        {
+          "id": "last_kako01.mjo::000437",
+          "source": "両親の愛が、隣人の愛が、",
+          "target": "부모의 사랑이, 이웃의 사랑이"
+        },
+        {
+          "id": "last_kako01.mjo::000441",
+          "source": "一身に注がれるのを感じていた。",
+          "target": "온전히 내게 쏟아지는 것을 느꼈다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 남성 독백 화자(僕)",
+        "addressees": [],
+        "relationship": "내면 독백",
+        "story_phase": "과거편 서두; 탄생과 행복의 대가에 대한 별도 독백",
+        "voice": "조용하고 사색적인 1인칭 문어체",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0024; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0025",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000446",
+          "source": "ああ、世界は何て素晴らしいんだろう。",
+          "target": "아아, 세상은 어쩌면 이렇게 멋질까."
+        },
+        {
+          "id": "last_kako01.mjo::000452",
+          "source": "もし当時の僕が気持ちを表現する言葉を紡げたなら、",
+          "target": "그때의 내가 마음을 표현할 말을 할 수 있었다면"
+        },
+        {
+          "id": "last_kako01.mjo::000456",
+          "source": "きっとそんな風に感嘆の声を上げたに違いない。",
+          "target": "분명 그렇게 감탄했을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 남성 독백 화자(僕)",
+        "addressees": [],
+        "relationship": "내면 독백",
+        "story_phase": "과거편 서두; 탄생과 행복의 대가에 대한 별도 독백",
+        "voice": "조용하고 사색적인 1인칭 문어체",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0025; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0026",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000461",
+          "source": "それは誰にでもある権利。",
+          "target": "그것은 누구에게나 있는 권리."
+        },
+        {
+          "id": "last_kako01.mjo::000465",
+          "source": "ただそこにいるだけで愛される権利。",
+          "target": "그저 그 자리에 있는 것만으로 사랑받을 권리."
+        },
+        {
+          "id": "last_kako01.mjo::000471",
+          "source": "それは永遠に続くものではないけれど、",
+          "target": "영원히 계속되는 것은 아니지만"
+        },
+        {
+          "id": "last_kako01.mjo::000475",
+          "source": "その間だけは無条件に幸せでいられる。",
+          "target": "그동안만큼은 아무 조건 없이 행복할 수 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 남성 독백 화자(僕)",
+        "addressees": [],
+        "relationship": "내면 독백",
+        "story_phase": "과거편 서두; 탄생과 행복의 대가에 대한 별도 독백",
+        "voice": "조용하고 사색적인 1인칭 문어체",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0026; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0027",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000480",
+          "source": "だからこそ、今の僕はこう思うんだ。",
+          "target": "그렇기에 지금의 나는 이렇게 생각한다."
+        },
+        {
+          "id": "last_kako01.mjo::000486",
+          "source": "人は世界から祝福されたその代償を、",
+          "target": "사람은 세상의 축복을 받은 대가를"
+        },
+        {
+          "id": "last_kako01.mjo::000490",
+          "source": "後で払わなければならないのだと。",
+          "target": "나중에 치러야만 한다고."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 남성 독백 화자(僕)",
+        "addressees": [],
+        "relationship": "내면 독백",
+        "story_phase": "과거편 서두; 탄생과 행복의 대가에 대한 별도 독백",
+        "voice": "조용하고 사색적인 1인칭 문어체",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0027; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako01.mjo::u0028",
+      "fields": [
+        {
+          "id": "last_kako01.mjo::000495",
+          "source": "誕生という名の幸福のツケを、",
+          "target": "탄생이라는 이름의 행복을 외상으로 받은 만큼,"
+        },
+        {
+          "id": "last_kako01.mjo::000499",
+          "source": "生きている間にいつか返済しなければならないのだと――",
+          "target": "살아 있는 동안 언젠가는 그 빚을 갚아야 한다고――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체 미공개 남성 독백 화자(僕)",
+        "addressees": [],
+        "relationship": "내면 독백",
+        "story_phase": "과거편 서두; 탄생과 행복의 대가에 대한 별도 독백",
+        "voice": "조용하고 사색적인 1인칭 문어체",
+        "source_speaker_token": null,
+        "evidence": "last_kako01.mjo::u0028; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "シロ",
+      "target": "시로",
+      "evidence": [
+        "last_kako01.mjo::u0002"
+      ],
+      "reason": "서술자의 반려견 이름"
+    },
+    {
+      "source": "木の根",
+      "target": "나무뿌리",
+      "evidence": [
+        "last_kako01.mjo::u0010",
+        "last_kako01.mjo::u0017",
+        "last_kako01.mjo::u0021"
+      ],
+      "reason": "죽은 이를 되살린다고 믿어 가져온 동일한 물건; 반복 핵심어"
+    }
+  ],
+  "inline_records": [],
+  "notes": [
+    "전체 28 units와 다음 원본 135 units 문맥을 읽음. u22부터 私→僕 및 배경 전환에 따라 화자를 분리. 실제 정체는 이 서두만으로 확정하지 않음.",
+    "모든 83 ordinary text fields 직접 번역; inline 후보 없음."
+  ],
+  "runtime_verified": false
+}

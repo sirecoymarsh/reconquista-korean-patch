@@ -1,0 +1,15 @@
+{
+  "snapshot": "nuance-20261025-v1",
+  "snapshot_path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\nuance-20261025-v1\\integrated-targets.json",
+  "snapshot_sha256": "7faf308f8e9e2e4d89e458b9e47a276e68f49ab18956d5858e6b9ba906ad821c",
+  "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261025-v20-nuance",
+  "normal_runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-body-ui-20261025-v20-nuance",
+  "status": "text_nuance_17_fields_installed_verified_with_runtime_limit",
+  "units": 46935,
+  "text_fields": 73350,
+  "inline_fields": 625,
+  "verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\translation-nuance-20261025-v1\\build-verification.json",
+  "body_units_remaining": 16,
+  "user_visual_deferred": true,
+  "manual_visual_profile": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\recovery-full-20261023-v2\\manual-visual-profile.json"
+}

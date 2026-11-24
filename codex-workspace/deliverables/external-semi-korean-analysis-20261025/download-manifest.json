@@ -1,0 +1,86 @@
+{
+  "analysis_date": "2026-10-25",
+  "release_version": "2021-09-01",
+  "source_post": "https://polaris.hided.net/aral_pds/2711339",
+  "original_release_post": "https://polaris.hided.net/aral_pds/1088232",
+  "download_url": "https://drive.google.com/file/d/1Kk_PfeCL9vEDnC4pRPUE0MGgG_MA45Uf/view",
+  "original_filename": "레콘키스타 준한글화 수정판 20210901.zip",
+  "archive_bytes": 10088255,
+  "archive_sha256": "af67300f98ad69fc6a5602925a75be2b6e731219cac99e76ce47e1f03c54fc89",
+  "zip_crc": "pass",
+  "files": [
+    {
+      "path": "extracted\\atdata\\2장. 찾으라, 그러면 찾을 것이요.txt",
+      "bytes": 794114,
+      "sha256": "291c817e2f60054b5cdd4d2704ea7eff7ef2609db5ae3912be01209caa273e1a"
+    },
+    {
+      "path": "extracted\\atdata\\3장. 문을 두드리라, 그리하면 열릴 것이니라.txt",
+      "bytes": 876566,
+      "sha256": "62dd5d57b1b483126bd1a4a61b70a4d1b82e298e30063cd70d17206ac806eab7"
+    },
+    {
+      "path": "extracted\\atdata\\마사키 END.txt",
+      "bytes": 1191652,
+      "sha256": "db0a9c02f5d13f4ff72cdcd303121e25e98bf0fd9b89d2b2a0613d361c3e6211"
+    },
+    {
+      "path": "extracted\\atdata\\마호코 END.txt",
+      "bytes": 1615508,
+      "sha256": "07ca4cb212767740533c9e8dbe23f82b480bea2ccf4f16c77d208f895ebe8c01"
+    },
+    {
+      "path": "extracted\\atdata\\메뉴.txt",
+      "bytes": 2118,
+      "sha256": "f5fe45cb4548ff073cb19bd091c4dd4ee7a63873ff6e73e4fab4b313e98c5649"
+    },
+    {
+      "path": "extracted\\atdata\\서브 에피소드.txt",
+      "bytes": 332112,
+      "sha256": "93b348ff4b00aa4b0a9f575ce6bb1fee0843dbc38158c2551fba89900c76e9ac"
+    },
+    {
+      "path": "extracted\\atdata\\스태프 룸.txt",
+      "bytes": 74792,
+      "sha256": "9dab24f3eaab6dfe1a964899eeb3ffaac9c8b753fd2ff7cf37446e18c3da9816"
+    },
+    {
+      "path": "extracted\\atdata\\시이나 END.txt",
+      "bytes": 1371870,
+      "sha256": "b0519e93418c77ee3b4694151cbb0d52e6597cf48242fc821d8346aa8ff5bf98"
+    },
+    {
+      "path": "extracted\\atdata\\연표.txt",
+      "bytes": 37532,
+      "sha256": "5ccfa55a2cee6293d06e8fa0ecf6e3601b8700dc6305dc3856b5c75961407db2"
+    },
+    {
+      "path": "extracted\\atdata\\추가번역.txt",
+      "bytes": 31912,
+      "sha256": "fbb8a572fd3f292a1c706127cbaf888d3bd69f36b71f78b65584b14beee9cd32"
+    },
+    {
+      "path": "extracted\\atdata\\쿠레하 END.txt",
+      "bytes": 1789064,
+      "sha256": "7c3337cc9214c19a2a5c602881676bf41de0c5821e407efbd956de7f20c0cdc0"
+    },
+    {
+      "path": "extracted\\package\\atdata.zip",
+      "bytes": 3129717,
+      "sha256": "5ddf7ebd995e27be1bc5918f64db067e15b99dc99aed447f42d39c4267e2b5fa"
+    },
+    {
+      "path": "extracted\\package\\KR_Readme.txt",
+      "bytes": 4347,
+      "sha256": "9d156ada6cd4e690abcc748abbbddf7e43deeaa5aafc6cb36c638df282dbe1f2"
+    },
+    {
+      "path": "extracted\\package\\recon_update101.exe",
+      "bytes": 7014321,
+      "sha256": "8fd8155d190fbd1b774f2108d43e1e10154e1dcdd746fc8a749e0f3218fe2ce1"
+    }
+  ],
+  "executed_package_binaries": false,
+  "semantic_reviewer": "Codex internal",
+  "translator_model": "Codex internal (analysis and proposed corrections only; downloaded targets are third-party)"
+}

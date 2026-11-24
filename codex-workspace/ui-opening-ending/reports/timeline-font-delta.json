@@ -1,0 +1,12 @@
+{
+  "method": "Reuse completed CSV assertions; recheck only corrected font cmap allowlist and directly affected font tables",
+  "prior_failure": "The guard incorrectly required new unused CJK aliases to keep their previous CJK glyph mappings. These 31 aliases are the intended Hangul changes.",
+  "CSV_checks_repeated": false,
+  "new_aliases": 31,
+  "old_773_aliases_unchanged": true,
+  "only_new_aliases_changed": true,
+  "all_CFF_programs_unchanged": true,
+  "name_OS2_metrics_tables_unchanged": true,
+  "font_sha256": "b041481d25734ae4b3ffd304d1d32fc49cb19b162bff84c6d5f6b739d3d35360",
+  "pass": true
+}

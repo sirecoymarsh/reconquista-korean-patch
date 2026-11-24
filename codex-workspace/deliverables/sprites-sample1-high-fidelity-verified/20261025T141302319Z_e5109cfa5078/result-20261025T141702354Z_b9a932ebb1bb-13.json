@@ -1,0 +1,837 @@
+{
+  "author": "Codex internal",
+  "next_steps": [
+    "Blend using the existing method",
+    "Extract face patches and blend seams",
+    "Prepare masks and DLL integration"
+  ],
+  "history_run_id": "20261025T141302319Z_e5109cfa5078",
+  "output_directory": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\ai",
+  "count": 12,
+  "created_utc": "2026-10-25T14:17:01.1422460Z",
+  "total_upscale_seconds": 51.7609348,
+  "scope": "12 full-frame raw AI upscales only",
+  "device": "NVIDIA GeForce RTX 5080",
+  "scale": 4,
+  "input_preparation": "Supplied by Claude: composited expressions with RGB edge-color fill under transparent areas. Used unchanged.",
+  "resampling_fallback_used": false,
+  "earlier_cpu_candidates_preserved": true,
+  "next_owner": "Claude",
+  "input_manifest_sha256": "48a871b36abcb5c8e4dee51bb4f4b5ec4cb3bb19017b394c79374b0e9ed4462e",
+  "executable": "P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\bin\\upscayl-bin.exe",
+  "postprocessing": "none",
+  "status": "complete",
+  "model": "high-fidelity-4x",
+  "runtime_installed": false,
+  "schema": 2,
+  "files": [
+    {
+      "bytes": 6019967,
+      "method": "Upscayl high-fidelity-4x, GPU, scale 4",
+      "input_sha256": "399d29587c2a8f225f436af8eea1880bc53b705abe318bdf10fb2bdb3b57b950",
+      "path": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\ai\\ef61881b.png",
+      "file": "ef61881b.png",
+      "qa": {
+        "output_mean_rgb": [
+          126.0883560180664,
+          98.79972839355469,
+          88.03016662597656
+        ],
+        "visual_check": "12-output contact sheet checked; expected input-filled surroundings retained",
+        "source_output_correlation": 0.9976872803960728,
+        "near_black_fraction": 0.0,
+        "not_black": true,
+        "downsample_mae_rgb": 2.374934673309326,
+        "input_mean_rgb": [
+          123.40522766113281,
+          99.63378143310547,
+          87.49526977539062
+        ],
+        "record": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\qa\\high-fidelity-ef61881b.json"
+      },
+      "key": "ef61881b",
+      "size_4k": [
+        2452,
+        2400
+      ],
+      "request_step_id": "20261025T141303572Z_4003594d6d05",
+      "argv": [
+        "-i",
+        "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\ef61881b.png",
+        "-o",
+        "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\ef61881b.png",
+        "-m",
+        "P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models",
+        "-n",
+        "high-fidelity-4x",
+        "-s",
+        "4",
+        "-z",
+        "4",
+        "-g",
+        "0",
+        "-f",
+        "png"
+      ],
+      "output_sha256": "ab050cef0473ffa8a1f42151f8a1642dbb62530b04151b010b4ce04aa6535612",
+      "input": "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\ef61881b.png",
+      "command": "& 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\bin\\upscayl-bin.exe' '-i' 'F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\ef61881b.png' '-o' 'F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\ef61881b.png' '-m' 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models' '-n' 'high-fidelity-4x' '-s' '4' '-z' '4' '-g' '0' '-f' 'png'",
+      "result_step_id": "20261025T141308073Z_dfd4d871c5ab",
+      "elapsed_seconds": 4.2537152,
+      "size_1x": [
+        613,
+        600
+      ],
+      "format": {
+        "bit_depth": 8,
+        "interlace": 0,
+        "png_color_type": 2,
+        "mode": "RGB"
+      },
+      "kind": "base",
+      "name": "masa_3b_1_01.rct"
+    },
+    {
+      "bytes": 6201596,
+      "method": "Upscayl high-fidelity-4x, GPU, scale 4",
+      "input_sha256": "08a328991fa501005e76c9ed09437c795af2b39cba7e0e2fc02e7ceca08bb61d",
+      "path": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\ai\\df814e2c.png",
+      "file": "df814e2c.png",
+      "qa": {
+        "output_mean_rgb": [
+          75.63298797607422,
+          74.15521240234375,
+          77.69776153564453
+        ],
+        "visual_check": "12-output contact sheet checked; expected input-filled surroundings retained",
+        "source_output_correlation": 0.9981187322790714,
+        "near_black_fraction": 0.41038617484177214,
+        "not_black": true,
+        "downsample_mae_rgb": 3.5413625240325928,
+        "input_mean_rgb": [
+          74.59257507324219,
+          72.72917938232422,
+          77.27005767822266
+        ],
+        "record": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\qa\\high-fidelity-df814e2c.json"
+      },
+      "key": "df814e2c",
+      "size_4k": [
+        2528,
+        2400
+      ],
+      "request_step_id": "20261025T141328778Z_b0e2ee7b0824",
+      "argv": [
+        "-i",
+        "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\df814e2c.png",
+        "-o",
+        "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\df814e2c.png",
+        "-m",
+        "P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models",
+        "-n",
+        "high-fidelity-4x",
+        "-s",
+        "4",
+        "-z",
+        "4",
+        "-g",
+        "0",
+        "-f",
+        "png"
+      ],
+      "output_sha256": "3d5be5f1339b6f293faedd5381834f025a502f9dae6610234e5905f38e7bf412",
+      "input": "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\df814e2c.png",
+      "command": "& 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\bin\\upscayl-bin.exe' '-i' 'F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\df814e2c.png' '-o' 'F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\df814e2c.png' '-m' 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models' '-n' 'high-fidelity-4x' '-s' '4' '-z' '4' '-g' '0' '-f' 'png'",
+      "result_step_id": "20261025T141333276Z_63d3afe932a6",
+      "elapsed_seconds": 4.1363329,
+      "size_1x": [
+        632,
+        600
+      ],
+      "format": {
+        "bit_depth": 8,
+        "interlace": 0,
+        "png_color_type": 2,
+        "mode": "RGB"
+      },
+      "kind": "base",
+      "name": "momi_2a_1_01.rct"
+    },
+    {
+      "bytes": 6022293,
+      "method": "Upscayl high-fidelity-4x, GPU, scale 4",
+      "input_sha256": "6b867eea5292873c5d3024b8bbe23ced8e9b06aae4acb8ca10b9e9447be6a6f6",
+      "path": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\ai\\a8c1f2cb.png",
+      "file": "a8c1f2cb.png",
+      "qa": {
+        "output_mean_rgb": [
+          126.06840515136719,
+          98.7452392578125,
+          87.97911071777344
+        ],
+        "visual_check": "12-output contact sheet checked; expected input-filled surroundings retained",
+        "source_output_correlation": 0.9976748944346526,
+        "near_black_fraction": 0.0,
+        "not_black": true,
+        "downsample_mae_rgb": 2.3797245025634766,
+        "input_mean_rgb": [
+          123.38341522216797,
+          99.57418060302734,
+          87.44412994384766
+        ],
+        "record": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\qa\\high-fidelity-a8c1f2cb.json"
+      },
+      "key": "a8c1f2cb",
+      "size_4k": [
+        2452,
+        2400
+      ],
+      "request_step_id": "20261025T141334634Z_8f70dc4e92c0",
+      "argv": [
+        "-i",
+        "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\a8c1f2cb.png",
+        "-o",
+        "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\a8c1f2cb.png",
+        "-m",
+        "P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models",
+        "-n",
+        "high-fidelity-4x",
+        "-s",
+        "4",
+        "-z",
+        "4",
+        "-g",
+        "0",
+        "-f",
+        "png"
+      ],
+      "output_sha256": "d66317a91257835a4499915ee6d1142619d35196402543d86f13218d74fce166",
+      "input": "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\a8c1f2cb.png",
+      "command": "& 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\bin\\upscayl-bin.exe' '-i' 'F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\a8c1f2cb.png' '-o' 'F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\a8c1f2cb.png' '-m' 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models' '-n' 'high-fidelity-4x' '-s' '4' '-z' '4' '-g' '0' '-f' 'png'",
+      "result_step_id": "20261025T141338664Z_4fc2b2e3a4e5",
+      "elapsed_seconds": 3.7731097,
+      "size_1x": [
+        613,
+        600
+      ],
+      "format": {
+        "bit_depth": 8,
+        "interlace": 0,
+        "png_color_type": 2,
+        "mode": "RGB"
+      },
+      "kind": "expression",
+      "name": "masa_3b_1_02.rct"
+    },
+    {
+      "bytes": 6020368,
+      "method": "Upscayl high-fidelity-4x, GPU, scale 4",
+      "input_sha256": "520aea57970450a52849a4307956eee1254668e8e0dffecc03b64da4483a0e51",
+      "path": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\ai\\95a1db7b.png",
+      "file": "95a1db7b.png",
+      "qa": {
+        "output_mean_rgb": [
+          126.18029022216797,
+          98.82528686523438,
+          88.05735778808594
+        ],
+        "visual_check": "12-output contact sheet checked; expected input-filled surroundings retained",
+        "source_output_correlation": 0.9976962092791409,
+        "near_black_fraction": 0.0,
+        "not_black": true,
+        "downsample_mae_rgb": 2.373312473297119,
+        "input_mean_rgb": [
+          123.4896469116211,
+          99.6641616821289,
+          87.52011108398438
+        ],
+        "record": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\qa\\high-fidelity-95a1db7b.json"
+      },
+      "key": "95a1db7b",
+      "size_4k": [
+        2452,
+        2400
+      ],
+      "request_step_id": "20261025T141339945Z_9292ab7ef6cc",
+      "argv": [
+        "-i",
+        "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\95a1db7b.png",
+        "-o",
+        "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\95a1db7b.png",
+        "-m",
+        "P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models",
+        "-n",
+        "high-fidelity-4x",
+        "-s",
+        "4",
+        "-z",
+        "4",
+        "-g",
+        "0",
+        "-f",
+        "png"
+      ],
+      "output_sha256": "7f5cc6060596c853c11c44e7ea7483032eae154c2fb3e53ed6312ccfa85c0f9b",
+      "input": "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\95a1db7b.png",
+      "command": "& 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\bin\\upscayl-bin.exe' '-i' 'F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\95a1db7b.png' '-o' 'F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\95a1db7b.png' '-m' 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models' '-n' 'high-fidelity-4x' '-s' '4' '-z' '4' '-g' '0' '-f' 'png'",
+      "result_step_id": "20261025T141344234Z_e98be9be66a6",
+      "elapsed_seconds": 4.0625468,
+      "size_1x": [
+        613,
+        600
+      ],
+      "format": {
+        "bit_depth": 8,
+        "interlace": 0,
+        "png_color_type": 2,
+        "mode": "RGB"
+      },
+      "kind": "expression",
+      "name": "masa_3b_1_03.rct"
+    },
+    {
+      "bytes": 6023678,
+      "method": "Upscayl high-fidelity-4x, GPU, scale 4",
+      "input_sha256": "66f18d8fcb7ed762269ac675ed21f9f13b069f3011375b9f39c52de40f5f1ce5",
+      "path": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\ai\\5d41540b.png",
+      "file": "5d41540b.png",
+      "qa": {
+        "output_mean_rgb": [
+          126.09183502197266,
+          98.78182983398438,
+          88.02359771728516
+        ],
+        "visual_check": "12-output contact sheet checked; expected input-filled surroundings retained",
+        "source_output_correlation": 0.9976307336893092,
+        "near_black_fraction": 0.0,
+        "not_black": true,
+        "downsample_mae_rgb": 2.3914637565612793,
+        "input_mean_rgb": [
+          123.40679931640625,
+          99.61768341064453,
+          87.4908676147461
+        ],
+        "record": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\qa\\high-fidelity-5d41540b.json"
+      },
+      "key": "5d41540b",
+      "size_4k": [
+        2452,
+        2400
+      ],
+      "request_step_id": "20261025T141345553Z_32d8658ddd2a",
+      "argv": [
+        "-i",
+        "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\5d41540b.png",
+        "-o",
+        "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\5d41540b.png",
+        "-m",
+        "P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models",
+        "-n",
+        "high-fidelity-4x",
+        "-s",
+        "4",
+        "-z",
+        "4",
+        "-g",
+        "0",
+        "-f",
+        "png"
+      ],
+      "output_sha256": "fad63364a823e53f5d87e0f4402b6797397a8026387f6ee8948a29de56b8d524",
+      "input": "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\5d41540b.png",
+      "command": "& 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\bin\\upscayl-bin.exe' '-i' 'F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\5d41540b.png' '-o' 'F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\5d41540b.png' '-m' 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models' '-n' 'high-fidelity-4x' '-s' '4' '-z' '4' '-g' '0' '-f' 'png'",
+      "result_step_id": "20261025T141349885Z_47122edf7925",
+      "elapsed_seconds": 4.1025542,
+      "size_1x": [
+        613,
+        600
+      ],
+      "format": {
+        "bit_depth": 8,
+        "interlace": 0,
+        "png_color_type": 2,
+        "mode": "RGB"
+      },
+      "kind": "expression",
+      "name": "masa_3b_1_06.rct"
+    },
+    {
+      "bytes": 6018935,
+      "method": "Upscayl high-fidelity-4x, GPU, scale 4",
+      "input_sha256": "0c66f1931a5b93870d421de7a6e1bd6d1dd3b9a308b3abe6f2dd6908b627d184",
+      "path": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\ai\\5efd08de.png",
+      "file": "5efd08de.png",
+      "qa": {
+        "output_mean_rgb": [
+          126.09363555908203,
+          98.78180694580078,
+          88.01246643066406
+        ],
+        "visual_check": "12-output contact sheet checked; expected input-filled surroundings retained",
+        "source_output_correlation": 0.9976929707215559,
+        "near_black_fraction": 0.0,
+        "not_black": true,
+        "downsample_mae_rgb": 2.3734982013702393,
+        "input_mean_rgb": [
+          123.40766906738281,
+          99.61566162109375,
+          87.4793701171875
+        ],
+        "record": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\qa\\high-fidelity-5efd08de.json"
+      },
+      "key": "5efd08de",
+      "size_4k": [
+        2452,
+        2400
+      ],
+      "request_step_id": "20261025T141351203Z_63749de33033",
+      "argv": [
+        "-i",
+        "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\5efd08de.png",
+        "-o",
+        "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\5efd08de.png",
+        "-m",
+        "P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models",
+        "-n",
+        "high-fidelity-4x",
+        "-s",
+        "4",
+        "-z",
+        "4",
+        "-g",
+        "0",
+        "-f",
+        "png"
+      ],
+      "output_sha256": "8cc4cd259460d067ec278b6ca87cc866e189a34d6152e7226362cba61f7bbe36",
+      "input": "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\5efd08de.png",
+      "command": "& 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\bin\\upscayl-bin.exe' '-i' 'F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\5efd08de.png' '-o' 'F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\5efd08de.png' '-m' 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models' '-n' 'high-fidelity-4x' '-s' '4' '-z' '4' '-g' '0' '-f' 'png'",
+      "result_step_id": "20261025T141355312Z_e646092d0d43",
+      "elapsed_seconds": 3.8932235,
+      "size_1x": [
+        613,
+        600
+      ],
+      "format": {
+        "bit_depth": 8,
+        "interlace": 0,
+        "png_color_type": 2,
+        "mode": "RGB"
+      },
+      "kind": "expression",
+      "name": "masa_3b_1_13.rct"
+    },
+    {
+      "bytes": 6051127,
+      "method": "Upscayl high-fidelity-4x, GPU, scale 4",
+      "input_sha256": "419bffa4ee9e3026774846ed809044bd4d3163781f251301d2b7d871f3852bfd",
+      "path": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\ai\\292d39cf.png",
+      "file": "292d39cf.png",
+      "qa": {
+        "output_mean_rgb": [
+          127.39330291748047,
+          99.15570068359375,
+          88.59819793701172
+        ],
+        "visual_check": "12-output contact sheet checked; expected input-filled surroundings retained",
+        "source_output_correlation": 0.9976214397333294,
+        "near_black_fraction": 0.0,
+        "not_black": true,
+        "downsample_mae_rgb": 2.413762092590332,
+        "input_mean_rgb": [
+          124.66893768310547,
+          100.02305603027344,
+          88.02640533447266
+        ],
+        "record": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\qa\\high-fidelity-292d39cf.json"
+      },
+      "key": "292d39cf",
+      "size_4k": [
+        2452,
+        2400
+      ],
+      "request_step_id": "20261025T141356623Z_e4facf5fadf5",
+      "argv": [
+        "-i",
+        "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\292d39cf.png",
+        "-o",
+        "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\292d39cf.png",
+        "-m",
+        "P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models",
+        "-n",
+        "high-fidelity-4x",
+        "-s",
+        "4",
+        "-z",
+        "4",
+        "-g",
+        "0",
+        "-f",
+        "png"
+      ],
+      "output_sha256": "050a2cda3ef3a953337faba20afae09fb7ae7dbb86dcebc982caeb0694bf0ac7",
+      "input": "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\292d39cf.png",
+      "command": "& 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\bin\\upscayl-bin.exe' '-i' 'F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\292d39cf.png' '-o' 'F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\292d39cf.png' '-m' 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models' '-n' 'high-fidelity-4x' '-s' '4' '-z' '4' '-g' '0' '-f' 'png'",
+      "result_step_id": "20261025T141401674Z_322d343785e3",
+      "elapsed_seconds": 4.7812682,
+      "size_1x": [
+        613,
+        600
+      ],
+      "format": {
+        "bit_depth": 8,
+        "interlace": 0,
+        "png_color_type": 2,
+        "mode": "RGB"
+      },
+      "kind": "expression",
+      "name": "masa_3b_1_18.rct"
+    },
+    {
+      "bytes": 6202920,
+      "method": "Upscayl high-fidelity-4x, GPU, scale 4",
+      "input_sha256": "9775f2c8374468838fc4e522cc8ac8f788b66e9309aa5b4806b572969c323945",
+      "path": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\ai\\982134fc.png",
+      "file": "982134fc.png",
+      "qa": {
+        "output_mean_rgb": [
+          75.61878967285156,
+          74.11402130126953,
+          77.66693878173828
+        ],
+        "visual_check": "12-output contact sheet checked; expected input-filled surroundings retained",
+        "source_output_correlation": 0.998112910111316,
+        "near_black_fraction": 0.4103886471518987,
+        "not_black": true,
+        "downsample_mae_rgb": 3.5448672771453857,
+        "input_mean_rgb": [
+          74.57749938964844,
+          72.6902084350586,
+          77.23628234863281
+        ],
+        "record": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\qa\\high-fidelity-982134fc.json"
+      },
+      "key": "982134fc",
+      "size_4k": [
+        2528,
+        2400
+      ],
+      "request_step_id": "20261025T141403337Z_d245bc854a71",
+      "argv": [
+        "-i",
+        "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\982134fc.png",
+        "-o",
+        "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\982134fc.png",
+        "-m",
+        "P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models",
+        "-n",
+        "high-fidelity-4x",
+        "-s",
+        "4",
+        "-z",
+        "4",
+        "-g",
+        "0",
+        "-f",
+        "png"
+      ],
+      "output_sha256": "bccba16c6523155b7f872111c6b74ada80436e7d9ccf0b3ad6f6489f6a14d077",
+      "input": "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\982134fc.png",
+      "command": "& 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\bin\\upscayl-bin.exe' '-i' 'F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\982134fc.png' '-o' 'F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\982134fc.png' '-m' 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models' '-n' 'high-fidelity-4x' '-s' '4' '-z' '4' '-g' '0' '-f' 'png'",
+      "result_step_id": "20261025T141408440Z_7aa32902b551",
+      "elapsed_seconds": 4.7763625,
+      "size_1x": [
+        632,
+        600
+      ],
+      "format": {
+        "bit_depth": 8,
+        "interlace": 0,
+        "png_color_type": 2,
+        "mode": "RGB"
+      },
+      "kind": "expression",
+      "name": "momi_2a_1_02.rct"
+    },
+    {
+      "bytes": 6208327,
+      "method": "Upscayl high-fidelity-4x, GPU, scale 4",
+      "input_sha256": "791bfeb59fbfdb1540ed0daaa4fd9eb47c9d9c9c61eb9c1d03c1247abcadab01",
+      "path": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\ai\\a5411d4c.png",
+      "file": "a5411d4c.png",
+      "qa": {
+        "output_mean_rgb": [
+          75.58767700195312,
+          74.07856750488281,
+          77.6446762084961
+        ],
+        "visual_check": "12-output contact sheet checked; expected input-filled surroundings retained",
+        "source_output_correlation": 0.9980693613189074,
+        "near_black_fraction": 0.41038798786919833,
+        "not_black": true,
+        "downsample_mae_rgb": 3.5664408206939697,
+        "input_mean_rgb": [
+          74.5431137084961,
+          72.65476989746094,
+          77.21305084228516
+        ],
+        "record": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\qa\\high-fidelity-a5411d4c.json"
+      },
+      "key": "a5411d4c",
+      "size_4k": [
+        2528,
+        2400
+      ],
+      "request_step_id": "20261025T141409885Z_196f172c1e36",
+      "argv": [
+        "-i",
+        "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\a5411d4c.png",
+        "-o",
+        "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\a5411d4c.png",
+        "-m",
+        "P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models",
+        "-n",
+        "high-fidelity-4x",
+        "-s",
+        "4",
+        "-z",
+        "4",
+        "-g",
+        "0",
+        "-f",
+        "png"
+      ],
+      "output_sha256": "2d715834fdfb425a3be8a847add47cc47cdef9b37083a124381fdb3601f93f7a",
+      "input": "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\a5411d4c.png",
+      "command": "& 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\bin\\upscayl-bin.exe' '-i' 'F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\a5411d4c.png' '-o' 'F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\a5411d4c.png' '-m' 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models' '-n' 'high-fidelity-4x' '-s' '4' '-z' '4' '-g' '0' '-f' 'png'",
+      "result_step_id": "20261025T141414098Z_55cc44fcc1b5",
+      "elapsed_seconds": 3.9907256,
+      "size_1x": [
+        632,
+        600
+      ],
+      "format": {
+        "bit_depth": 8,
+        "interlace": 0,
+        "png_color_type": 2,
+        "mode": "RGB"
+      },
+      "kind": "expression",
+      "name": "momi_2a_1_03.rct"
+    },
+    {
+      "bytes": 6191238,
+      "method": "Upscayl high-fidelity-4x, GPU, scale 4",
+      "input_sha256": "2229d4852244c900ac1254b3134e635ab973d49d970cf131de2f0772ffe4f7e0",
+      "path": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\ai\\1761c15c.png",
+      "file": "1761c15c.png",
+      "qa": {
+        "output_mean_rgb": [
+          76.1457290649414,
+          74.49009704589844,
+          77.97095489501953
+        ],
+        "visual_check": "12-output contact sheet checked; expected input-filled surroundings retained",
+        "source_output_correlation": 0.9981701831220752,
+        "near_black_fraction": 0.4103878230485232,
+        "not_black": true,
+        "downsample_mae_rgb": 3.5155651569366455,
+        "input_mean_rgb": [
+          75.11338806152344,
+          73.06932830810547,
+          77.5443115234375
+        ],
+        "record": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\qa\\high-fidelity-1761c15c.json"
+      },
+      "key": "1761c15c",
+      "size_4k": [
+        2528,
+        2400
+      ],
+      "request_step_id": "20261025T141415493Z_fcb9451b3986",
+      "argv": [
+        "-i",
+        "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\1761c15c.png",
+        "-o",
+        "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\1761c15c.png",
+        "-m",
+        "P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models",
+        "-n",
+        "high-fidelity-4x",
+        "-s",
+        "4",
+        "-z",
+        "4",
+        "-g",
+        "0",
+        "-f",
+        "png"
+      ],
+      "output_sha256": "609f8ca80bf5972490db1c0d8a8660c653dd77334745db4e24984369a340cdfa",
+      "input": "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\1761c15c.png",
+      "command": "& 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\bin\\upscayl-bin.exe' '-i' 'F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\1761c15c.png' '-o' 'F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\1761c15c.png' '-m' 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models' '-n' 'high-fidelity-4x' '-s' '4' '-z' '4' '-g' '0' '-f' 'png'",
+      "result_step_id": "20261025T141420899Z_c3d0261aef8f",
+      "elapsed_seconds": 5.0806817,
+      "size_1x": [
+        632,
+        600
+      ],
+      "format": {
+        "bit_depth": 8,
+        "interlace": 0,
+        "png_color_type": 2,
+        "mode": "RGB"
+      },
+      "kind": "expression",
+      "name": "momi_2a_1_04.rct"
+    },
+    {
+      "bytes": 6205765,
+      "method": "Upscayl high-fidelity-4x, GPU, scale 4",
+      "input_sha256": "54d4c77c6499e98a221ed6599b3e9311d73d39661585d9f83ecc3fef8cd82128",
+      "path": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\ai\\6da1923c.png",
+      "file": "6da1923c.png",
+      "qa": {
+        "output_mean_rgb": [
+          75.60792541503906,
+          74.15668487548828,
+          77.70940399169922
+        ],
+        "visual_check": "12-output contact sheet checked; expected input-filled surroundings retained",
+        "source_output_correlation": 0.9980784177061733,
+        "near_black_fraction": 0.41038666930379747,
+        "not_black": true,
+        "downsample_mae_rgb": 3.561532974243164,
+        "input_mean_rgb": [
+          74.56641387939453,
+          72.73155212402344,
+          77.28193664550781
+        ],
+        "record": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\qa\\high-fidelity-6da1923c.json"
+      },
+      "key": "6da1923c",
+      "size_4k": [
+        2528,
+        2400
+      ],
+      "request_step_id": "20261025T141422458Z_101f6d5740a9",
+      "argv": [
+        "-i",
+        "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\6da1923c.png",
+        "-o",
+        "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\6da1923c.png",
+        "-m",
+        "P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models",
+        "-n",
+        "high-fidelity-4x",
+        "-s",
+        "4",
+        "-z",
+        "4",
+        "-g",
+        "0",
+        "-f",
+        "png"
+      ],
+      "output_sha256": "19d0873df19dbbabc583bd06d98ea233bae8fc12269513b526089442ccc250c9",
+      "input": "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\6da1923c.png",
+      "command": "& 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\bin\\upscayl-bin.exe' '-i' 'F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\6da1923c.png' '-o' 'F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\6da1923c.png' '-m' 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models' '-n' 'high-fidelity-4x' '-s' '4' '-z' '4' '-g' '0' '-f' 'png'",
+      "result_step_id": "20261025T141427381Z_12bff6c3c335",
+      "elapsed_seconds": 4.5904974,
+      "size_1x": [
+        632,
+        600
+      ],
+      "format": {
+        "bit_depth": 8,
+        "interlace": 0,
+        "png_color_type": 2,
+        "mode": "RGB"
+      },
+      "kind": "expression",
+      "name": "momi_2a_1_06.rct"
+    },
+    {
+      "bytes": 6210990,
+      "method": "Upscayl high-fidelity-4x, GPU, scale 4",
+      "input_sha256": "039b9215b7fd8fafe93f2effacfdc393d307f0f144c920c95846927e2ab40b51",
+      "path": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\ai\\dc3d12f9.png",
+      "file": "dc3d12f9.png",
+      "qa": {
+        "output_mean_rgb": [
+          75.64311218261719,
+          74.17881774902344,
+          77.74478149414062
+        ],
+        "visual_check": "12-output contact sheet checked; expected input-filled surroundings retained",
+        "source_output_correlation": 0.9980610334606976,
+        "near_black_fraction": 0.41038831751054855,
+        "not_black": true,
+        "downsample_mae_rgb": 3.5783183574676514,
+        "input_mean_rgb": [
+          74.5981674194336,
+          72.75471496582031,
+          77.31703186035156
+        ],
+        "record": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\qa\\high-fidelity-dc3d12f9.json"
+      },
+      "key": "dc3d12f9",
+      "size_4k": [
+        2528,
+        2400
+      ],
+      "request_step_id": "20261025T141428955Z_f8d69f432946",
+      "argv": [
+        "-i",
+        "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\dc3d12f9.png",
+        "-o",
+        "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\dc3d12f9.png",
+        "-m",
+        "P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models",
+        "-n",
+        "high-fidelity-4x",
+        "-s",
+        "4",
+        "-z",
+        "4",
+        "-g",
+        "0",
+        "-f",
+        "png"
+      ],
+      "output_sha256": "2849405b4e80457bfeceb194cf1ca23e415ec33937b726745429d307b3da0c7e",
+      "input": "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\dc3d12f9.png",
+      "command": "& 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\bin\\upscayl-bin.exe' '-i' 'F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\dc3d12f9.png' '-o' 'F:\\AI\\Codex\\projects\\reconquista-art-20261025\\sprites-sample1\\candidates\\high-fidelity-4x\\dc3d12f9.png' '-m' 'P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models' '-n' 'high-fidelity-4x' '-s' '4' '-z' '4' '-g' '0' '-f' 'png'",
+      "result_step_id": "20261025T141433589Z_6b29f8002cb0",
+      "elapsed_seconds": 4.3199171,
+      "size_1x": [
+        632,
+        600
+      ],
+      "format": {
+        "bit_depth": 8,
+        "interlace": 0,
+        "png_color_type": 2,
+        "mode": "RGB"
+      },
+      "kind": "expression",
+      "name": "momi_2a_1_14.rct"
+    }
+  ],
+  "model_files": {
+    "high-fidelity-4x.param": {
+      "bytes": 108039,
+      "sha256": "4576ed5c2fc5fa250d3c3d585ef02248f26abdfc1867088078f501fe71e5d61e",
+      "path": "P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models\\high-fidelity-4x.param"
+    },
+    "high-fidelity-4x.bin": {
+      "bytes": 33424520,
+      "sha256": "8a135402b4f39286121b76abb47601a6b7b7e8d4f3e999a5aaa45ed277824fb4",
+      "path": "P:\\AI\\Codex\\projects\\image-upscaling-tools\\apps\\Upscayl-2.15.0\\resources\\models\\high-fidelity-4x.bin"
+    }
+  },
+  "gpu_id": 0,
+  "history_archive": "P:\\AI\\Codex\\projects\\image-history-guard\\vault\\20261025T141302319Z_e5109cfa5078",
+  "executable_sha256": "704fd622984220c8c646a8dff4c7eba1cc62fbb8c47383996f38571f76b73fbf",
+  "input_manifest": "F:\\AI\\reconquista-qa\\sprites-sample1\\ai-input\\inputs.json"
+}

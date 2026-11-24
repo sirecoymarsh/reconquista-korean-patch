@@ -1,0 +1,50 @@
+{
+  "bus": {
+    "before": {
+      "mae": 15.883688194444444,
+      "mean_rgb_error": [
+        -8.88592083333333,
+        -6.517089583333345,
+        3.3595083333333093
+      ],
+      "saturation_change_pct": 34.33680216900412,
+      "brightness_change": 8.2104875
+    },
+    "after": {
+      "mae": 4.733138888888889,
+      "mean_rgb_error": [
+        -0.9737395833333267,
+        -0.9387708333333364,
+        -0.7994687500000168
+      ],
+      "saturation_change_pct": 3.6041937497677257,
+      "brightness_change": 0.2349020833333384
+    },
+    "protected_lettering_changed_channels": 0,
+    "motion_core_difference_from_source": 0.1234893798828125,
+    "reason": "Wheel ghosting and diagonal road streaks are motion; side-window reflections are horizontally smeared; clouds/sea are soft painted atmosphere. Source blur is retained, not sharpened."
+  },
+  "701f6540": {
+    "before": {
+      "mae": 14.422796527777777,
+      "mean_rgb_error": [
+        -0.2107083333333435,
+        -0.6161249999999967,
+        -1.3926687499999844
+      ],
+      "saturation_change_pct": -4.263350363127283,
+      "brightness_change": -3.1856750000000034
+    },
+    "after": {
+      "mae": 13.324559027777777,
+      "mean_rgb_error": [
+        -0.09538125000000264,
+        -0.49264374999999916,
+        -0.7405187500000068
+      ],
+      "saturation_change_pct": 0.8063381345752685,
+      "brightness_change": -1.0170437499999991
+    },
+    "reason": "Fine structures are under-resolved; the variant color filter is deliberate and retained through source Lab chroma."
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "before_snapshot_sha256": "147f6e6284ad5a3649d42d9b1c7210f74fbfabf4228b3cfeaf1296ea8976624a",
+  "before_scenario_sha256": "1aafd3beb343a448891f735c4c00d1116568f357b9d42e4840529d92a802c45d",
+  "fields": 25,
+  "changes": [
+    {
+      "id": "kureha_08.mjo::004986",
+      "source": "彼女がとうの昔に死んでいる？　反魂の法で生き返った？",
+      "before": "그녀가 아주 오래전에 죽었다고? 반혼술으로 되살아났다고?",
+      "after": "그녀가 아주 오래전에 죽었다고? 반혼술로 되살아났다고?",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "kureha_08.mjo::005581",
+      "source": "「…これが、私が反魂の法で生き返った証」",
+      "before": "「…이게 내가 반혼술으로 되살아났다는 증거야」",
+      "after": "「…이게 내가 반혼술로 되살아났다는 증거야」",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "kureha_08.mjo::005595",
+      "source": "「反魂の法で蘇った人間は、月の光が力の源となる」",
+      "before": "「반혼술으로 되살아난 사람은 달빛이 힘의 원천이 돼」",
+      "after": "「반혼술로 되살아난 사람은 달빛이 힘의 원천이 돼」",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "kureha_08.mjo::005759",
+      "source": "あれがつまり、反魂の法で蘇った副作用ってことは…",
+      "before": "그게 반혼술으로 되살아난 부작용이라는 말은…",
+      "after": "그게 반혼술로 되살아난 부작용이라는 말은…",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "kureha_08.mjo::005784",
+      "source": "　反魂の法で生き返った人間なのよ」",
+      "before": "　반혼술으로 되살아난 사람이야」",
+      "after": "　반혼술로 되살아난 사람이야」",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "kureha_10.mjo::001038",
+      "source": "反魂の法で蘇った紅葉本人なのではと思ったのだ。",
+      "before": "반혼술으로 되살아난 모미지 본인이 아닐까 생각했던 것이다.",
+      "after": "반혼술로 되살아난 모미지 본인이 아닐까 생각했던 것이다.",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "kureha_11.mjo::001123",
+      "source": "『一度死んで反魂の法により蘇った人間』と言った。",
+      "before": "『한 번 죽었다가 반혼술으로 되살아난 사람』이라고 했다.",
+      "after": "『한 번 죽었다가 반혼술로 되살아난 사람』이라고 했다.",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "kureha_13.mjo::000245",
+      "source": "反魂の法で蘇った人間には副作用があり、",
+      "before": "반혼술으로 되살아난 사람에게는 부작용이 있어서,",
+      "after": "반혼술로 되살아난 사람에게는 부작용이 있어서,",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "kureha_13.mjo::000437",
+      "source": "暮葉が、反魂の法で蘇った紅葉本人であるという希望を。",
+      "before": "쿠레하가 반혼술으로 되살아난 모미지 본인일 거라는 희망을.",
+      "after": "쿠레하가 반혼술로 되살아난 모미지 본인일 거라는 희망을.",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "kureha_14.mjo::001526",
+      "source": "自分も反魂の法で生き返った人間だと。",
+      "before": "자기도 반혼술으로 되살아난 사람이라고.",
+      "after": "자기도 반혼술로 되살아난 사람이라고.",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "kureha_19.mjo::002184",
+      "source": "「反魂の法で蘇り、副作用に苦しむ幼い娘を…",
+      "before": "「반혼술으로 되살아나 부작용에 시달리던 어린 딸을…",
+      "after": "「반혼술로 되살아나 부작용에 시달리던 어린 딸을…",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "kureha_19.mjo::002231",
+      "source": "暮葉が反魂の法で、自分の娘を蘇らせた…？",
+      "before": "쿠레하가 반혼술으로 자기 딸을 되살렸다고…?",
+      "after": "쿠레하가 반혼술로 자기 딸을 되살렸다고…?",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "kureha_19.mjo::002245",
+      "source": "僕と出会う以前に一度死んでいて、反魂の法で蘇った？",
+      "before": "나를 만나기 전에 한 번 죽었다가 반혼술으로 되살아난 건가?",
+      "after": "나를 만나기 전에 한 번 죽었다가 반혼술로 되살아난 건가?",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "kureha_19.mjo::002594",
+      "source": "「反魂の法で蘇った者から、副作用を取り除く方法は…」",
+      "before": "「반혼술으로 되살아난 사람에게서 부작용을 없애는 방법은…」",
+      "after": "「반혼술로 되살아난 사람에게서 부작용을 없애는 방법은…」",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "masa_11.mjo::003418",
+      "source": "　反魂の法で蘇った死人なの」",
+      "before": "　반혼술으로 되살아난 죽은 사람이야」",
+      "after": "　반혼술로 되살아난 죽은 사람이야」",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "masa_13.mjo::003005",
+      "source": "暮葉は自身が反魂の法で蘇った人間だといっていた。",
+      "before": "쿠레하는 자신이 반혼술으로 되살아난 사람이라고 했다.",
+      "after": "쿠레하는 자신이 반혼술로 되살아난 사람이라고 했다.",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "masa_18.mjo::001794",
+      "source": "汐見の要求とは、反魂の法で蘇った者から、",
+      "before": "시오미의 요구는 반혼술으로 되살아난 사람에게서,",
+      "after": "시오미의 요구는 반혼술로 되살아난 사람에게서,",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "masa_18.mjo::001901",
+      "source": "「反魂の法で蘇り、副作用に苦しむ幼い娘を…",
+      "before": "「반혼술으로 되살아나 부작용에 시달리던 어린 딸을…",
+      "after": "「반혼술로 되살아나 부작용에 시달리던 어린 딸을…",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "masa_18.mjo::002055",
+      "source": "「反魂の法で蘇った者から、副作用を取り除く方法は…」",
+      "before": "「반혼술으로 되살아난 사람에게서 부작용을 없애는 방법은…」",
+      "after": "「반혼술로 되살아난 사람에게서 부작용을 없애는 방법은…」",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "masa_18.mjo::005094",
+      "source": "「…反魂の法で蘇った者は、毎晩月の光を必要とする」",
+      "before": "「…반혼술으로 되살아난 사람은 매일 밤 달빛이 필요해」",
+      "after": "「…반혼술로 되살아난 사람은 매일 밤 달빛이 필요해」",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "masa_18.mjo::005624",
+      "source": "反魂の法で槙野先生を生き返らせれば、",
+      "before": "반혼술으로 마키노 선생님을 되살리면,",
+      "after": "반혼술로 마키노 선생님을 되살리면,",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "sub_kure01.mjo::000105",
+      "source": "村の禁を破り、娘を反魂の法で生き返らせたこと。",
+      "before": "마을의 금기를 어기고 딸을 반혼술으로 되살렸다는 것.",
+      "after": "마을의 금기를 어기고 딸을 반혼술로 되살렸다는 것.",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "sub_kure01.mjo::000196",
+      "source": "自分が反魂の法で生き返ったのだということに。",
+      "before": "내가 반혼술으로 되살아났다는 사실을.",
+      "after": "내가 반혼술로 되살아났다는 사실을.",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "sub_kure02.mjo::000418",
+      "source": "この少女も私と同じ…反魂の法で生き返ったのだ。",
+      "before": "이 소녀도 나처럼… 반혼술으로 되살아난 것이다.",
+      "after": "이 소녀도 나처럼… 반혼술로 되살아난 것이다.",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "sub_kure02.mjo::001008",
+      "source": "反魂の法で生き返ったのかはわからない。",
+      "before": "반혼술으로 되살아났는지는 모른다.",
+      "after": "반혼술로 되살아났는지는 모른다.",
+      "reason": "Canonical 反魂の法 term ends with ㄹ: instrumental particle 로. Fix particle left behind by prior terminology replacement.",
+      "translator_model": "Codex internal"
+    }
+  ],
+  "script_validation": {
+    "kureha_08.mjo": {
+      "source_sha256": "666006c9d76c705dfc4f1ee615917e8fb403e3c42c9979e77c91a177745de2cd",
+      "output_sha256": "ce7bdacb46e67edb80adb44f26cbfe49b788b3ed6ded02f729ea9ae74d838f3a",
+      "original_instructions": 6442,
+      "output_instructions": 6442,
+      "replacement_indices": [
+        4986,
+        5581,
+        5595,
+        5759,
+        5784
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 4,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "kureha_10.mjo": {
+      "source_sha256": "62dc168c88f17358ce9affe18397f780dd21ea07d343355c6cb3e5a69a2f2283",
+      "output_sha256": "8f5dd5ae3f31610d295034b6ef8b997e6c1f8f3dcab44eee539fd8697d9c00ea",
+      "original_instructions": 1988,
+      "output_instructions": 1988,
+      "replacement_indices": [
+        1038
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 0,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "kureha_11.mjo": {
+      "source_sha256": "8ffe3ad8a80aad2258d097a255c870237f2469cb153267d8f66fae9b4f522e98",
+      "output_sha256": "a7bc2bde81fee64a0ab82b9eddc7ba2139e7f2782651162819ba6978507e6e2c",
+      "original_instructions": 4011,
+      "output_instructions": 4011,
+      "replacement_indices": [
+        1123
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 0,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "kureha_13.mjo": {
+      "source_sha256": "9ba7bb11ad6679174b06b9d20b149c131e4fb2f0a6bfbc42782a8a2809ce1dda",
+      "output_sha256": "64e2b0dfd42f77433a15a745545e6461cabf3924e6d8db2e90b43fcff8f5febb",
+      "original_instructions": 1980,
+      "output_instructions": 1980,
+      "replacement_indices": [
+        245,
+        437
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 11,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "kureha_14.mjo": {
+      "source_sha256": "ce62ed4e3a924993b3e3d0d70671541fcd401e57c3496cfcdfda9ba53a964f5d",
+      "output_sha256": "4c8fc5248014aadeda3b349c4978d568da89734f6b3baa6c6056e8955a16eb41",
+      "original_instructions": 2839,
+      "output_instructions": 2839,
+      "replacement_indices": [
+        1526
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 4,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "kureha_19.mjo": {
+      "source_sha256": "de71d77371bb7f0a569a84cde3b33f6f578dc05f40e7c158e0ad88a875de0932",
+      "output_sha256": "47564b80d856ae492e737374e5bb4e2ccabf5421b47e96d4831dbc26db57a646",
+      "original_instructions": 6618,
+      "output_instructions": 6618,
+      "replacement_indices": [
+        2184,
+        2231,
+        2245,
+        2594
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 5,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "masa_11.mjo": {
+      "source_sha256": "c1730d3392a6607aeb38fb4218fd2d3c34d016e00712a5f56646582202907fbe",
+      "output_sha256": "fa4cbb7759745b02449bf09769e09feec4ee17383d861af519e129c5e622a2de",
+      "original_instructions": 4799,
+      "output_instructions": 4799,
+      "replacement_indices": [
+        3418
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 4,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "masa_13.mjo": {
+      "source_sha256": "91b9588478783e9a87b8a1272b30d8491cc5dbf3a9f49c2345ebb4e1310fab31",
+      "output_sha256": "b8f086331bfd7a5c736bce01b4722ca28373d6faf6cb87f18ccbb5bfe872ec08",
+      "original_instructions": 3891,
+      "output_instructions": 3891,
+      "replacement_indices": [
+        3005
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 0,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "masa_18.mjo": {
+      "source_sha256": "08168b4c09832f61bbc887a754244f4fd3a1c4bd5c27cb6648c8e397107dbf2c",
+      "output_sha256": "b28a53e5ba97cfa0d765773ff25339a4e19e0c473a9e5b573519cc33f0f3dab1",
+      "original_instructions": 6607,
+      "output_instructions": 6607,
+      "replacement_indices": [
+        1794,
+        1901,
+        2055,
+        5094,
+        5624
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 0,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "sub_kure01.mjo": {
+      "source_sha256": "51a56f40d4b78c8cf0d94ac184582be0f97bb796b4a765861fbc9d7cee55e01f",
+      "output_sha256": "fd156b2456f1792919bbf97e9a911a94e1369f0470d769c23650f5c2fab9d295",
+      "original_instructions": 409,
+      "output_instructions": 409,
+      "replacement_indices": [
+        105,
+        196
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 0,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "sub_kure02.mjo": {
+      "source_sha256": "c079f826f5e31f7887c58316133581de6e143ce9575ec7853387337360b8ba6c",
+      "output_sha256": "2370f020b48d80b6d808cc184cd43a2fa9df9057f0f5f72c6170bdb19f88a818",
+      "original_instructions": 1201,
+      "output_instructions": 1201,
+      "replacement_indices": [
+        418,
+        1008
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 0,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    }
+  },
+  "scope": "Only instrumental particle 으로→로 after canonical 반혼술; targets shorten by one mapped character."
+}

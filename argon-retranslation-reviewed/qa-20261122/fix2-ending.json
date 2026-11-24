@@ -1,0 +1,117 @@
+{
+ "mode": "routes",
+ "started": "2026-11-22 15:44:05",
+ "nv_before": 1133,
+ "runs": [
+  {
+   "label": "routes-38758-re",
+   "pid": 2708,
+   "steps": [
+    {
+     "step": "route 38758",
+     "t": 178.1,
+     "order": 37758,
+     "chapter": "?",
+     "ending": true,
+     "arrive_s": 66.9,
+     "items": 1,
+     "timeline": [
+      [
+       30,
+       33,
+       1666,
+       "kr_ed_003_.rc8",
+       151
+      ],
+      [
+       60,
+       65,
+       2056,
+       "kr_ed_009_.rc8",
+       301
+      ]
+     ],
+     "title_after_clicks": 90,
+     "presents_after_arrival": 5100,
+     "clicks": 90,
+     "ok": true,
+     "mem_mb": 1728
+    }
+   ],
+   "dialogs": [],
+   "mem_mb_start": 985,
+   "routes": [
+    {
+     "i": 38758,
+     "order": 37758,
+     "chapter": "?",
+     "ending": true,
+     "arrive_s": 66.9,
+     "items": 1,
+     "timeline": [
+      [
+       30,
+       33,
+       1666,
+       "kr_ed_003_.rc8",
+       151
+      ],
+      [
+       60,
+       65,
+       2056,
+       "kr_ed_009_.rc8",
+       301
+      ]
+     ],
+     "title_after_clicks": 90,
+     "presents_after_arrival": 5100,
+     "clicks": 90,
+     "ok": true,
+     "mem_mb": 1728
+    }
+   ],
+   "new_review_folders": [
+    "savedata-review-2708-287145765"
+   ],
+   "mem_mb_end": 1728,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.9137,
+    "loud_spans": [
+     [
+      89.66,
+      91.05
+     ],
+     [
+      99.19,
+      100.19
+     ],
+     [
+      126.08,
+      126.88
+     ],
+     [
+      130.05,
+      130.3
+     ],
+     [
+      145.18,
+      146.79
+     ],
+     [
+      165.3,
+      166.19
+     ]
+    ],
+    "errors": []
+   },
+   "log_mb": 3.5,
+   "log_errors": []
+  }
+ ],
+ "nv_after": 1133,
+ "ended": "2026-11-22 15:47:06"
+}

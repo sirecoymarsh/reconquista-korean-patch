@@ -1,0 +1,24 @@
+{
+  "translator_model": "Codex internal",
+  "records": [
+    {
+      "script": "00_レコンキスタ_start_2.mjo",
+      "unit": 81,
+      "index": 801,
+      "source": "それ",
+      "target": " ",
+      "consumer": "3198fd01 ruby reading",
+      "reason": "지시어를 덧댄 루비. 본명+한국어 조사로 의미를 구성하며 안전한 공백 한 칸 유지",
+      "role": "ruby_reading"
+    },
+    {
+      "script": "00_レコンキスタ_start_2.mjo",
+      "unit": 81,
+      "index": 802,
+      "source": "三沢信哉",
+      "target": "미사와 신야",
+      "consumer": "3198fd01 ruby body",
+      "role": "ruby_body"
+    }
+  ]
+}

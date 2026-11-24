@@ -1,0 +1,126 @@
+{
+  "candidate": "opening-video-ko-v3",
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "created_at_utc": "2026-10-23T08:14:36.663846+00:00",
+  "status": "encoded_video_visual_audio_timing_pass_user_game_playback_pending",
+  "frozen": true,
+  "ready_for_integration": true,
+  "release_pass": false,
+  "payloads": [
+    {
+      "relative_path": "movie/Recon_OP800_H.mpg",
+      "payload_path": "payloads/movie/Recon_OP800_H.mpg",
+      "source_path": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\movie\\Recon_OP800_H.mpg",
+      "source_sha256": "6da04d09fd954c67b004b6cecfe22fd89da473cbf60fd74856d2170a1972995a",
+      "output_sha256": "3bec1af99ce27ed85d006d0a2daff7dbe667e229d0e1089eba999cb589c1df6d",
+      "output_bytes": 76622848
+    }
+  ],
+  "viewing_outputs": [
+    {
+      "path": "viewing/Reconquista_OP_KO_4K.mp4",
+      "sha256": "536d5b1335370881585e102717304ab7c0e137fc0aa27eacef78b05e1cea1555",
+      "bytes": 1017556605,
+      "purpose": "separate 16:9 viewing remaster",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "user_layout_choice": "16:9 fill the screen, reposition subtitles",
+      "source_crop": [
+        0,
+        75,
+        800,
+        450
+      ],
+      "fps": 30,
+      "frames": 3037,
+      "codec": "H.264 High",
+      "pixel_format": "yuv420p",
+      "color_space": "BT.709 limited",
+      "audio": "AAC stereo 44.1 kHz; 320 kbps target",
+      "native_4k_source": false,
+      "processing": "Mild MPEG noise reduction, Lanczos upscale, restrained sharpening; Korean typography/logo directly rendered at 4K; original 30 fps motion, no interpolated frames"
+    }
+  ],
+  "exact_logo_text": "레콘키스타",
+  "logo_master": "../brand-logo-ko-v3/master/reconquista-ko.png",
+  "logo_master_sha256": "81e8e88a31f70f84ab6bafbe33cfad19787b7e5079206c05f094d82eaa2f51ef",
+  "subtitle_font": "Eulyoo1945 SemiBold",
+  "subtitle_font_file_redistributed": false,
+  "font_license": "https://www.eulyoo.co.kr/member/font.html",
+  "font_delivery": "Rasterized only; internal fonts and build-source are not payloads",
+  "semantic_targets": 24,
+  "in_picture_typeset_surfaces": 12,
+  "caption_cues": 26,
+  "upper_credit_cues": 10,
+  "lyric_cues": 16,
+  "verified_korean_name_mappings": 16,
+  "retained_quotation_cues": 4,
+  "video": {
+    "codec": "mpeg1video",
+    "size": [
+      800,
+      600
+    ],
+    "pixel_format": "yuv420p",
+    "source_and_output_r_frame_rate": "60/1",
+    "average_frame_rate": "30/1",
+    "frames": 3037,
+    "relative_pts_max_error_seconds": 1.00000000458067e-06,
+    "video_duration_seconds": 101.216667,
+    "container_duration_estimate_seconds": 101.224489,
+    "duration_note": "MPEG-PS duration estimate ends at the final audio packet start; all 3876 audio packets remain present through 101.250611 s. No audio is trimmed."
+  },
+  "audio": {
+    "codec": "mp2",
+    "sample_rate": 44100,
+    "channels": 2,
+    "packets": 3876,
+    "elementary_payload_identical": true,
+    "elementary_sha256": "8e0702cb615b9322e54e2636590afc1db1186fc24860bac3ad209cfbc0e0f4ad",
+    "actual_packet_timeline_seconds": 101.250611,
+    "av_start_offset": 0
+  },
+  "verification": {
+    "native_technical": "evidence/technical-validation.json",
+    "four_k_technical": "evidence/4k-technical-validation.json",
+    "final_visual": "evidence/final-visual-review.json",
+    "native_encoded": "evidence/encoded-review.json",
+    "four_k_encoded": "evidence/4k-encoded-review.json",
+    "repair_samples": [
+      "evidence/native-repair-encoded-review.json",
+      "evidence/4k-repair-encoded-review.json"
+    ],
+    "semantic": "evidence/semantic-gate.json",
+    "build_inputs": "evidence/build-input-hashes.json",
+    "native_timestamp_mux": "evidence/native-final-timestamp-remux.json",
+    "viewer": "evidence/review-viewer-test.json",
+    "native_unique_samples": 93,
+    "four_k_unique_samples": 69,
+    "preencoding_changes_outside_owned_masks": 0
+  },
+  "restoration": {
+    "text_frames": 975,
+    "review_corrected_frames": 88,
+    "methods": [
+      "registered original game art",
+      "temporally registered original frames",
+      "same-frame smooth background fits",
+      "masked ImageGen clean plates",
+      "continuous Poisson boundary repair in two reviewed sequences"
+    ],
+    "generated_reference_count": 10,
+    "generated_pixels_scope": "Only recorded source text restoration regions; original source pixels outside declared masks preserved before encoding",
+    "hidden_original_rgb_identical": false
+  },
+  "runtime_review": "No game launch, foreground desktop activation, user input injection, or audio playback. User game playback and listening remain pending.",
+  "source_listening_provisional_ids": [
+    "op-lyrics::007"
+  ],
+  "scope": "Opening video only; existing ending/scenario/runtime packages untouched",
+  "integration_scope": "Integrate only payloads/movie/Recon_OP800_H.mpg into the next central build. The 4K MP4 is a separate viewing output.",
+  "central_integration": "Not installed by this task; prior centrally integrated OP v2 unchanged",
+  "preview": "preview/review.html"
+}

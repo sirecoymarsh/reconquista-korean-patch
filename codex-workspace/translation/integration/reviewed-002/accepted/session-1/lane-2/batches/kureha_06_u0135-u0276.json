@@ -1,0 +1,3237 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-1/lane-2",
+  "coordinator_thread_id": "01a16335-92a2-79c2-814f-63275a46f2b1",
+  "agent_id": "/root/lane_2",
+  "source_script": "kureha_06.mjo",
+  "source_sha256": "9b4ddb30b11f242a13760c89383dca98e5260a4efabc680da71de5bb3ce7a186",
+  "records": [
+    {
+      "unit": "kureha_06.mjo::u0135",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001463",
+          "source": "「ねーねー、おとーさん」",
+          "target": "「있잖아, 아빠」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0136",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001477",
+          "source": "「なんだい、もみじ」",
+          "target": "「왜 그러니, 모미지」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "딸에게 다정한 반말 / 쿠레하에게 당혹한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0137",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001491",
+          "source": "「おじーちゃんって、どんなお仕事してるの？」",
+          "target": "「할아버지는 무슨 일을 해?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0138",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001496",
+          "source": "もみじは二房の黒いしっぽを揺らしながら、",
+          "target": "모미지는 검은 꼬리 두 개를 흔들며,"
+        },
+        {
+          "id": "kureha_06.mjo::001500",
+          "source": "隣りを歩く僕にそう尋ねてくる。",
+          "target": "옆에서 걷는 나에게 그렇게 물었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0139",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001505",
+          "source": "学校からの帰り道。いつもの場所でもみじと合流した僕は、",
+          "target": "학교에서 돌아오는 길. 늘 만나던 곳에서 모미지와 만난 나는"
+        },
+        {
+          "id": "kureha_06.mjo::001509",
+          "source": "少し寄り道をしていくことにした。",
+          "target": "잠깐 다른 곳에 들르기로 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0140",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001514",
+          "source": "引っ越してきた初日以来、忙しくて義父と会っていない。",
+          "target": "이사 온 첫날 이후로 바빠서 장인을 만나지 못했다."
+        },
+        {
+          "id": "kureha_06.mjo::001518",
+          "source": "なので今から義父の仕事場へ顔を出すことにしたのだ。",
+          "target": "그래서 지금 장인이 일하는 곳에 얼굴을 비추러 가기로 한 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0141",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001525",
+          "source": "「おじいちゃんはね、お墓のお世話をしてるんだよ」",
+          "target": "「할아버지는 무덤을 돌보는 일을 하신단다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "딸에게 다정한 반말 / 쿠레하에게 당혹한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0142",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001539",
+          "source": "「お墓？　お墓って死んだ人が寝てるところ？」",
+          "target": "「무덤? 무덤이 죽은 사람이 자는 곳이야?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0143",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001546",
+          "source": "「そうだよ。そこでおじいちゃんはお葬式をしてあげたり、",
+          "target": "「그래. 거기서 할아버지는 장례식도 해 주시고,"
+        },
+        {
+          "id": "kureha_06.mjo::001550",
+          "source": "　お墓の周りの掃除をしたりしてるんだ」",
+          "target": "　무덤 주위를 청소하기도 하셔」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "딸에게 다정한 반말 / 쿠레하에게 당혹한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0144",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001555",
+          "source": "義父は現在、島の南方に位置する霊園で管理人をしていた。",
+          "target": "장인은 현재 섬 남쪽에 있는 공원묘지에서 관리인으로 일하고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0145",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001560",
+          "source": "話によると結構大きな霊園らしく、",
+          "target": "듣기로는 상당히 큰 공원묘지라고 하는데,"
+        },
+        {
+          "id": "kureha_06.mjo::001564",
+          "source": "そこで住み込みで働いているという。",
+          "target": "거기서 숙식하며 일하고 있다고 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0146",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001569",
+          "source": "元々牧師だった義父は埋葬の立会いなんかもやっており、",
+          "target": "원래 목사였던 장인은 매장할 때 입회도 하는데,"
+        },
+        {
+          "id": "kureha_06.mjo::001573",
+          "source": "いつ葬儀が入るかわからないので気が気でないらしい。",
+          "target": "언제 장례 일정이 잡힐지 몰라 마음을 놓을 수 없다고 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0147",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001578",
+          "source": "なので今日は僕たちの方から、",
+          "target": "그래서 오늘은 우리 쪽에서"
+        },
+        {
+          "id": "kureha_06.mjo::001582",
+          "source": "義父のところへ訪問してみることにした。",
+          "target": "장인이 있는 곳으로 찾아가 보기로 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0148",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001594",
+          "source": "「えっと、確かここだった筈だけど」",
+          "target": "「어디 보자, 분명 여기였을 텐데」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "딸에게 다정한 반말 / 쿠레하에게 당혹한 반말",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0149",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001608",
+          "source": "「わ～、ホントだぁ。お墓がいっぱいっ」",
+          "target": "「와아, 진짜다. 무덤이 잔뜩 있어!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0150",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001613",
+          "source": "霊園にたどり着くと、",
+          "target": "공원묘지에 도착하자,"
+        },
+        {
+          "id": "kureha_06.mjo::001617",
+          "source": "もみじはこの場所には不釣合いな歓声を上げた。",
+          "target": "모미지는 이곳과는 어울리지 않는 환성을 질렀다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0151",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001627",
+          "source": "ここは主にキリスト教式の埋葬を行っている霊園で、",
+          "target": "이곳은 주로 기독교식으로 매장하는 공원묘지로,"
+        },
+        {
+          "id": "kureha_06.mjo::001631",
+          "source": "十字架の墓標が整然と立ち並んでいる。",
+          "target": "십자가 묘비가 가지런히 늘어서 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0152",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001636",
+          "source": "近くには海もあって、",
+          "target": "근처에는 바다도 있어서,"
+        },
+        {
+          "id": "kureha_06.mjo::001640",
+          "source": "微かな潮風がここまで吹き付けていた。",
+          "target": "희미한 바닷바람이 여기까지 불어왔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0153",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001647",
+          "source": "「おお、慶吾君か。それにもみじも、いらっしゃい」",
+          "target": "「오, 게이고 군이로군. 모미지도 왔구나, 어서 와라」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장인",
+        "addressees": [
+          "마키노",
+          "모미지"
+        ],
+        "relationship": "사위와 손녀를 맞이한 장인",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "사위에게 온화한 하게체, 손녀에게 다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0154",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001658",
+          "source": "「あ、お義父さん。どうも、こんにちわ」",
+          "target": "「아, 아버님. 안녕하세요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "장인"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "장인에게 아버님, 존댓말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0155",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001668",
+          "source": "「こんにちわ、おじーちゃん」",
+          "target": "「안녕, 할아버지」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "할아버지"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0156",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001679",
+          "source": "「二人ともこんにちわ。",
+          "target": "「둘 다 반갑네."
+        },
+        {
+          "id": "kureha_06.mjo::001683",
+          "source": "　もしかして私に会いに来てくれたのかい？」",
+          "target": "　혹시 나를 만나러 와 준 건가?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장인",
+        "addressees": [
+          "마키노",
+          "모미지"
+        ],
+        "relationship": "사위와 손녀를 맞이한 장인",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "사위에게 온화한 하게체, 손녀에게 다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0157",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001690",
+          "source": "「ええ。ようやく片付けの方も落ち着いてきたので、",
+          "target": "「네. 이제 짐 정리도 어느 정도 끝나서,"
+        },
+        {
+          "id": "kureha_06.mjo::001694",
+          "source": "　改めて挨拶に伺おうと思いまして」",
+          "target": "　다시 인사드리러 오려고요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "장인"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "장인에게 아버님, 존댓말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0158",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001705",
+          "source": "「そうだったのかい。気を遣わせてしまって申し訳ない」",
+          "target": "「그랬나. 괜히 신경 쓰게 한 것 같아 미안하군」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장인",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "사위와 손녀를 맞이한 장인",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "사위에게 온화한 하게체, 손녀에게 다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0159",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001712",
+          "source": "「いえ、そんな…むしろお邪魔じゃなかったですか？",
+          "target": "「아뇨, 그런 말씀 마세요… 오히려 방해가 된 건 아닌가요?"
+        },
+        {
+          "id": "kureha_06.mjo::001716",
+          "source": "　お仕事の方は大丈夫ですか」",
+          "target": "　일은 괜찮으세요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "장인"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "장인에게 아버님, 존댓말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0160",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001727",
+          "source": "「ああ、今は大丈夫。今日は葬儀の予定もないし、",
+          "target": "「아아, 지금은 괜찮네. 오늘은 장례식도 없으니,"
+        },
+        {
+          "id": "kureha_06.mjo::001731",
+          "source": "　君たちをもてなす時間くらいあるさ」",
+          "target": "　자네들을 대접할 시간 정도는 있지」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장인",
+        "addressees": [
+          "마키노",
+          "모미지"
+        ],
+        "relationship": "사위와 손녀를 맞이한 장인",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "사위에게 온화한 하게체, 손녀에게 다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0161",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001742",
+          "source": "「わざわざ来てくれてありがとう。歓迎するよ」",
+          "target": "「일부러 찾아와 줘서 고맙네. 잘 왔어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장인",
+        "addressees": [
+          "마키노",
+          "모미지"
+        ],
+        "relationship": "사위와 손녀를 맞이한 장인",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "사위에게 온화한 하게체, 손녀에게 다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0162",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001752",
+          "source": "突然の訪問にも関わらず、",
+          "target": "갑작스레 찾아왔는데도,"
+        },
+        {
+          "id": "kureha_06.mjo::001756",
+          "source": "義父は僕たちを温かく迎えてくれた。",
+          "target": "장인은 우리를 따뜻하게 맞아 주었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0163",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001761",
+          "source": "もし忙しいようなら挨拶だけして帰ろうと思っていたが、",
+          "target": "바쁘면 인사만 하고 돌아갈 생각이었는데,"
+        },
+        {
+          "id": "kureha_06.mjo::001765",
+          "source": "今日はゆっくりと話せる余裕がありそうだ。",
+          "target": "오늘은 느긋하게 이야기할 여유가 있을 듯했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0164",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001776",
+          "source": "「おや、今日のもみじはいつもと髪型が違うね」",
+          "target": "「어라, 모미지 오늘은 머리가 평소랑 다르구나」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장인",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "사위와 손녀를 맞이한 장인",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "사위에게 온화한 하게체, 손녀에게 다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0165",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001790",
+          "source": "「うん。おとーさんが結んでくれたの」",
+          "target": "「응. 아빠가 묶어 줬어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "할아버지"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0166",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001797",
+          "source": "「そうかそうか。とってもよく似合ってるよ」",
+          "target": "「그렇구나, 그렇구나. 아주 잘 어울리는걸」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장인",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "사위와 손녀를 맞이한 장인",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "사위에게 온화한 하게체, 손녀에게 다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0167",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001811",
+          "source": "「えへへ、そうでしょ～」",
+          "target": "「에헤헤, 그렇지?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "할아버지"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0168",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001816",
+          "source": "左右のしっぽを揺らして少し得意げなもみじ。",
+          "target": "양쪽 꼬리를 흔들며 조금 우쭐해하는 모미지."
+        },
+        {
+          "id": "kureha_06.mjo::001820",
+          "source": "そんなもみじをシワのように目を細めて見守る義父。",
+          "target": "장인은 눈이 주름처럼 가늘어지도록 웃으며 모미지를 바라봤다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0169",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001825",
+          "source": "義父も喜んでくれているようで何よりだった。",
+          "target": "장인도 기뻐하는 것 같아 무엇보다 다행이었다."
+        },
+        {
+          "id": "kureha_06.mjo::001829",
+          "source": "折角近くに住んでるんだし、たまには顔を出さないとな。",
+          "target": "모처럼 가까이 사니까 가끔은 얼굴을 비춰야겠지."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0170",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001843",
+          "source": "「ねーねーおじーちゃん。",
+          "target": "「있잖아, 할아버지."
+        },
+        {
+          "id": "kureha_06.mjo::001847",
+          "source": "　お墓とか、ちょっと見てきていい？」",
+          "target": "　무덤 좀 구경하고 와도 돼?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "할아버지"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0171",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001854",
+          "source": "「ああ、いいよ。でもここは結構広いから、",
+          "target": "「그럼, 괜찮지. 하지만 여긴 꽤 넓으니까"
+        },
+        {
+          "id": "kureha_06.mjo::001858",
+          "source": "　あまり遠くまではいかないように」",
+          "target": "　너무 멀리까지는 가지 마라」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장인",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "사위와 손녀를 맞이한 장인",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "사위에게 온화한 하게체, 손녀에게 다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0172",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001865",
+          "source": "「それと無闇にお墓に触っちゃ駄目だよ。",
+          "target": "「그리고 함부로 무덤을 만지면 안 된단다."
+        },
+        {
+          "id": "kureha_06.mjo::001869",
+          "source": "　その下でみんな静かに眠ってるんだからね」",
+          "target": "　그 밑에서 다들 조용히 자고 있으니까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장인",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "사위와 손녀를 맞이한 장인",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "사위에게 온화한 하게체, 손녀에게 다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0173",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001883",
+          "source": "「はーい。じゃあおとーさん、おじーちゃん。",
+          "target": "「네에. 그럼 아빠, 할아버지."
+        },
+        {
+          "id": "kureha_06.mjo::001887",
+          "source": "　いってきまーす」",
+          "target": "　다녀올게!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠",
+          "할아버지"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0174",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001894",
+          "source": "「いってらっしゃい」",
+          "target": "「다녀오렴」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노와 장인",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "아이를 배웅하는 아버지와 할아버지",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0175",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001904",
+          "source": "もみじはパタパタと足を鳴らして走っていった。",
+          "target": "모미지는 파닥파닥 발소리를 내며 달려갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0176",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001909",
+          "source": "この霊園は辺りの見渡しがいいので、",
+          "target": "이 공원묘지는 사방이 잘 보이니,"
+        },
+        {
+          "id": "kureha_06.mjo::001913",
+          "source": "遠くに行かなければ迷子になることもないだろう。",
+          "target": "멀리 가지 않으면 길을 잃을 일도 없을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0177",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001924",
+          "source": "「もみじは今日も元気いっぱいだね。安心したよ」",
+          "target": "「모미지는 오늘도 기운이 넘치는군. 안심이야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장인",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "사위와 손녀를 맞이한 장인",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "사위에게 온화한 하게체, 손녀에게 다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0178",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001931",
+          "source": "「ええ。あの子の明るさにはいつも救われてます」",
+          "target": "「네. 저 아이의 밝은 모습에 늘 힘을 얻고 있어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "장인"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "장인에게 아버님, 존댓말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0179",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001942",
+          "source": "「どうだい、新しい生活には慣れたかな？」",
+          "target": "「어떤가, 새 생활에는 적응이 좀 됐나?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장인",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "사위와 손녀를 맞이한 장인",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "사위에게 온화한 하게체, 손녀에게 다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0180",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001949",
+          "source": "「そうですね…まあなんとかやってます」",
+          "target": "「글쎄요… 뭐, 그럭저럭 지내고 있어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "장인"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "장인에게 아버님, 존댓말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0181",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001954",
+          "source": "本音では義父に言えないようなことが立て続けにあって、",
+          "target": "사실 장인에게 말할 수 없는 일이 연달아 생겨서,"
+        },
+        {
+          "id": "kureha_06.mjo::001958",
+          "source": "生活に慣れるというより追われている感じではあったが。",
+          "target": "생활에 적응한다기보다 쫓기는 기분이긴 했지만."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0182",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001965",
+          "source": "「お義父さんの方はどうですか。",
+          "target": "「아버님은 어떠세요?"
+        },
+        {
+          "id": "kureha_06.mjo::001969",
+          "source": "　やっぱり忙しいんですか？」",
+          "target": "　역시 바쁘신가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "장인"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "장인에게 아버님, 존댓말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0183",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001980",
+          "source": "「そうだね。ここは良くも悪くも人が少なくて静かだから、",
+          "target": "「그렇지. 여긴 사람이 적고 조용하다는 게 장점이자 단점인데,"
+        },
+        {
+          "id": "kureha_06.mjo::001984",
+          "source": "　霊園スポットしては人気があるみたいだ」",
+          "target": "　공원묘지 자리로는 인기가 있는 모양이네」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장인",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "사위와 손녀를 맞이한 장인",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "사위에게 온화한 하게체, 손녀에게 다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0184",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001995",
+          "source": "「それに開発が止まって土地は余ってるわけだし",
+          "target": "「게다가 개발이 멈춰서 땅은 남아도니,"
+        },
+        {
+          "id": "kureha_06.mjo::001999",
+          "source": "　大規模霊園として再利用する計画もあるらしいよ」",
+          "target": "　대규모 공원묘지로 다시 활용할 계획도 있다는군」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장인",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "사위와 손녀를 맞이한 장인",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "사위에게 온화한 하게체, 손녀에게 다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0185",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002006",
+          "source": "「そうなんですか」",
+          "target": "「그런가요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "장인"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "장인에게 아버님, 존댓말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0186",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002016",
+          "source": "今ではすっかり寂れた感のあるこのニュータウンだが、",
+          "target": "지금은 완전히 쇠락한 느낌이 드는 이 뉴타운도,"
+        },
+        {
+          "id": "kureha_06.mjo::002020",
+          "source": "開発当初は行政側もかなり力を入れていたらしい。",
+          "target": "개발 초기에는 행정 당국에서 상당히 힘을 쏟았다고 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0187",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002025",
+          "source": "だが折り重なる不況といくつかの不幸な事故が重なって、",
+          "target": "하지만 거듭된 불황과 몇 차례 불행한 사고가 겹치면서,"
+        },
+        {
+          "id": "kureha_06.mjo::002029",
+          "source": "結局開発は途中で頓挫してしまったとか。",
+          "target": "결국 개발은 도중에 좌초되고 말았다나."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0188",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002034",
+          "source": "特にこの霊園がある島の南半分の区域は、",
+          "target": "특히 이 공원묘지가 있는 섬의 남쪽 절반에는,"
+        },
+        {
+          "id": "kureha_06.mjo::002038",
+          "source": "放置された更地や手付かずの空き地が沢山あるという。",
+          "target": "방치된 나대지나 손대지 않은 빈터가 많이 있다고 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0189",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002043",
+          "source": "そこを大規模霊園として再利用するというのは、",
+          "target": "그곳을 대규모 공원묘지로 다시 활용한다니,"
+        },
+        {
+          "id": "kureha_06.mjo::002047",
+          "source": "なるほど利に適っているように思えた。",
+          "target": "확실히 이치에 맞는 생각 같았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0190",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002054",
+          "source": "「最近じゃ都会の霊園はもういっぱいみたいですからね。",
+          "target": "「요즘은 도시의 공원묘지는 이미 꽉 찼다더군요."
+        },
+        {
+          "id": "kureha_06.mjo::002058",
+          "source": "　だからって埋立地にお墓増やすのも妙な感じですけど」",
+          "target": "　그렇다고 매립지에 무덤을 늘린다는 것도 묘한 느낌이지만요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "장인"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "장인에게 아버님, 존댓말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0191",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002069",
+          "source": "「そうだね。もしこの調子で霊園の規模が拡大して、",
+          "target": "「그렇지. 만약 이대로 공원묘지의 규모가 커지고,"
+        },
+        {
+          "id": "kureha_06.mjo::002073",
+          "source": "　同時にここの過疎化が進んでいったとしたら…」",
+          "target": "　동시에 여기 사는 사람들도 계속 줄어든다면…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장인",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "사위와 손녀를 맞이한 장인",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "사위에게 온화한 하게체, 손녀에게 다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0192",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002084",
+          "source": "「そのうちこのニュータウンは、生きてる人間よりも",
+          "target": "「언젠가는 이 뉴타운에 산 사람보다"
+        },
+        {
+          "id": "kureha_06.mjo::002088",
+          "source": "　死んでる人間の方が多くなるんじゃないかな」",
+          "target": "　죽은 사람이 더 많아지지 않겠나」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장인",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "사위와 손녀를 맞이한 장인",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "사위에게 온화한 하게체, 손녀에게 다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0193",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002095",
+          "source": "「…そう考えると、ちょっと怖いですね」",
+          "target": "「…그렇게 생각하니 좀 무섭네요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "장인"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "장인에게 아버님, 존댓말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0194",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002100",
+          "source": "義父の言葉から想像して、薄ら寒くなる僕。",
+          "target": "장인의 말을 듣고 상상하니, 한기가 느껴졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0195",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002110",
+          "source": "この街では今、水面下で異常な事態が起きている。",
+          "target": "지금 이 거리에서는 수면 아래로 이상한 일이 벌어지고 있다."
+        },
+        {
+          "id": "kureha_06.mjo::002114",
+          "source": "死んだ人間に瓜二つの者が、生きてる人間を殺すという――",
+          "target": "죽은 사람과 똑같이 생긴 사람이 산 사람을 죽인다는――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0196",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002119",
+          "source": "暮葉に殺された田村の死体は見つかっていない。",
+          "target": "쿠레하에게 살해당한 다무라의 시체는 발견되지 않았다."
+        },
+        {
+          "id": "kureha_06.mjo::002123",
+          "source": "彼女もこの街のどこかに埋められているのだろうか？",
+          "target": "그녀도 이 거리 어딘가에 묻혀 있는 걸까?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0197",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002128",
+          "source": "もしかしたらこの街には、墓標のない墓がいくつもあって、",
+          "target": "어쩌면 이 거리에는 묘비 없는 무덤이 곳곳에 있고,"
+        },
+        {
+          "id": "kureha_06.mjo::002132",
+          "source": "僕たちはその上で暮しているんじゃないか…",
+          "target": "우리는 그 위에서 살아가는 게 아닐까…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0198",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002137",
+          "source": "そんなことまで想像してしまい、",
+          "target": "그런 생각까지 하게 되면서,"
+        },
+        {
+          "id": "kureha_06.mjo::002141",
+          "source": "僕は不気味さと不吉さを同時に感じていた。",
+          "target": "나는 섬뜩함과 불길함을 동시에 느꼈다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0199",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002153",
+          "source": "その後もみじが霊園の散策から帰ってきて、",
+          "target": "그 뒤 모미지가 공원묘지를 둘러보고 돌아오자,"
+        },
+        {
+          "id": "kureha_06.mjo::002157",
+          "source": "義父は僕たちに管理人室でお茶を飲むよう誘ってくれた。",
+          "target": "장인은 관리인실에서 차라도 한 잔 하고 가라며 우리를 불렀다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0200",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002162",
+          "source": "お茶菓子があると聞いてもみじは大喜び。",
+          "target": "다과가 있다는 말에 모미지는 무척 기뻐했다."
+        },
+        {
+          "id": "kureha_06.mjo::002166",
+          "source": "僕たちは義父の厚意に甘えてお茶をご馳走になり、",
+          "target": "우리는 장인의 호의에 기대어 차를 대접받았고,"
+        },
+        {
+          "id": "kureha_06.mjo::002170",
+          "source": "思いのほか長居してしまった。",
+          "target": "생각보다 오래 머물고 말았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0201",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002175",
+          "source": "やがて日が傾き始めた頃、",
+          "target": "이윽고 해가 기울기 시작할 무렵,"
+        },
+        {
+          "id": "kureha_06.mjo::002179",
+          "source": "義父に礼を言って霊園を後にする――",
+          "target": "장인에게 감사 인사를 하고 공원묘지를 나섰다――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0202",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002193",
+          "source": "「お義父さん、それじゃまた来ます」",
+          "target": "「아버님, 그럼 또 올게요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "장인"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "장인에게 아버님, 존댓말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0203",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002203",
+          "source": "「おじーちゃん、ばいば～い」",
+          "target": "「할아버지, 안녀엉」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "할아버지"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0204",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002210",
+          "source": "「ああ。私もまた今度遊びに行かせてもらうよ」",
+          "target": "「그래. 나도 다음에 또 놀러 가마」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장인",
+        "addressees": [
+          "마키노",
+          "모미지"
+        ],
+        "relationship": "사위와 손녀를 맞이한 장인",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "사위에게 온화한 하게체, 손녀에게 다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0205",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002217",
+          "source": "「はい、是非来てください。待ってますから」",
+          "target": "「네, 꼭 오세요. 기다릴게요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "장인"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 장인의 공원묘지 방문",
+        "voice": "장인에게 아버님, 존댓말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0206",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002225",
+          "source": "夕刻。祖父に見送られ、霊園を後にする槙野親子。",
+          "target": "해 질 무렵. 할아버지의 배웅을 받으며 공원묘지를 떠나는 마키노 부녀."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체불명 관찰자",
+        "addressees": [],
+        "relationship": "부녀를 미행하며 모미지를 노리는 인물(정체 미공개)",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "냉정한 관찰과 내면 독백",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0207",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002230",
+          "source": "その様子を遠目からじっと眺め、",
+          "target": "그 모습을 멀리서 가만히 지켜보며,"
+        },
+        {
+          "id": "kureha_06.mjo::002234",
+          "source": "一挙手一挙動をつぶさに観察する。",
+          "target": "일거수일투족을 낱낱이 관찰한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체불명 관찰자",
+        "addressees": [],
+        "relationship": "부녀를 미행하며 모미지를 노리는 인물(정체 미공개)",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "냉정한 관찰과 내면 독백",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0208",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002239",
+          "source": "親子はマンションへの帰途へ着き、",
+          "target": "부녀는 아파트로 돌아가는 길에 접어들어,"
+        },
+        {
+          "id": "kureha_06.mjo::002243",
+          "source": "人気のない夕暮れの道を並んで歩いていた。",
+          "target": "인적 없는 저녁 길을 나란히 걷고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체불명 관찰자",
+        "addressees": [],
+        "relationship": "부녀를 미행하며 모미지를 노리는 인물(정체 미공개)",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "냉정한 관찰과 내면 독백",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0209",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002248",
+          "source": "そんな二人の後を尾行し、",
+          "target": "그 두 사람을 미행하며,"
+        },
+        {
+          "id": "kureha_06.mjo::002252",
+          "source": "時には先回りまでしてチャンスを窺う。",
+          "target": "때로는 앞질러 가기까지 하면서 기회를 엿본다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체불명 관찰자",
+        "addressees": [],
+        "relationship": "부녀를 미행하며 모미지를 노리는 인물(정체 미공개)",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "냉정한 관찰과 내면 독백",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0210",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002257",
+          "source": "今は昼と夜との境目の時間――",
+          "target": "지금은 낮과 밤의 경계――"
+        },
+        {
+          "id": "kureha_06.mjo::002262",
+          "source": "が時。",
+          "target": " 시간."
+        },
+        {
+          "id": "kureha_06.mjo::002266",
+          "source": "人が消えるには悪くない時間だった。",
+          "target": "사람이 사라지기에 나쁘지 않은 시간이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체불명 관찰자",
+        "addressees": [],
+        "relationship": "부녀를 미행하며 모미지를 노리는 인물(정체 미공개)",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "냉정한 관찰과 내면 독백",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0211",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002276",
+          "source": "「おとーさん、今日の晩ご飯はなあに？」",
+          "target": "「아빠, 오늘 저녁은 뭐야?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0212",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002283",
+          "source": "「そうだなぁ…もみじは何が食べたい？」",
+          "target": "「글쎄… 모미지는 뭐 먹고 싶니?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "딸에게 다정한 반말 / 쿠레하에게 당혹한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0213",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002293",
+          "source": "「えっとね、ハンバーグっ」",
+          "target": "「음, 함박스테이크!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0214",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002298",
+          "source": "夕飯の献立について無邪気に語らう親子。",
+          "target": "저녁 메뉴를 두고 천진하게 이야기를 나누는 부녀."
+        },
+        {
+          "id": "kureha_06.mjo::002302",
+          "source": "こちらの気配に気付いている様子は一切ない。",
+          "target": "이쪽의 기척을 눈치챈 기미는 전혀 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체불명 관찰자",
+        "addressees": [],
+        "relationship": "부녀를 미행하며 모미지를 노리는 인물(정체 미공개)",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "냉정한 관찰과 내면 독백",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0215",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002307",
+          "source": "狙いは幼い娘の方…槙野もみじだった。",
+          "target": "목표는 어린 딸 쪽… 마키노 모미지였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체불명 관찰자",
+        "addressees": [],
+        "relationship": "부녀를 미행하며 모미지를 노리는 인물(정체 미공개)",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "냉정한 관찰과 내면 독백",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0216",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002312",
+          "source": "彼女は必要不可欠な“２枚のカード”のうちの１枚であり、",
+          "target": "그 아이는 반드시 필요한 “두 장의 카드” 중 한 장이었고,"
+        },
+        {
+          "id": "kureha_06.mjo::002316",
+          "source": "もう１枚の方は既にこちらの手の内にある。",
+          "target": "나머지 한 장은 이미 이쪽 손안에 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체불명 관찰자",
+        "addressees": [],
+        "relationship": "부녀를 미행하며 모미지를 노리는 인물(정체 미공개)",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "냉정한 관찰과 내면 독백",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0217",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002321",
+          "source": "あとは槙野もみじさえ手に入れてしまえば…",
+          "target": "이제 마키노 모미지만 손에 넣으면…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체불명 관찰자",
+        "addressees": [],
+        "relationship": "부녀를 미행하며 모미지를 노리는 인물(정체 미공개)",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "냉정한 관찰과 내면 독백",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0218",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002331",
+          "source": "「あっ、あれは…」",
+          "target": "「앗, 저건…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0219",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002338",
+          "source": "「うん？　もみじ、どうしたんだ」",
+          "target": "「응? 모미지, 왜 그러니?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "딸에게 다정한 반말 / 쿠레하에게 당혹한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0220",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002348",
+          "source": "「おーい、お～いっ」",
+          "target": "「여기야, 여기!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0221",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002356",
+          "source": "タッタッタッタ…",
+          "target": "타다다닥…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "부녀를 미행하며 모미지를 노리는 인물(정체 미공개)",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "발소리 의성어",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0222",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002363",
+          "source": "「あ、もみじっ。待ちなさい」",
+          "target": "「아, 모미지! 기다려」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "딸에게 다정한 반말 / 쿠레하에게 당혹한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0223",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002368",
+          "source": "その時槙野もみじが父親の傍を離れ、一人で駆け出した。",
+          "target": "그때 마키노 모미지가 아버지 곁을 떠나 혼자 달리기 시작했다."
+        },
+        {
+          "id": "kureha_06.mjo::002372",
+          "source": "そしてこちらの方へと向かってくる。",
+          "target": "그리고 이쪽으로 다가왔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체불명 관찰자",
+        "addressees": [],
+        "relationship": "부녀를 미행하며 모미지를 노리는 인물(정체 미공개)",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "냉정한 관찰과 내면 독백",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0224",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002377",
+          "source": "これはチャンスか？　今なら父親が追いつく前に、",
+          "target": "기회인가? 지금이라면 아버지가 따라잡기 전에"
+        },
+        {
+          "id": "kureha_06.mjo::002381",
+          "source": "ターゲットを確保できる。",
+          "target": "표적을 확보할 수 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체불명 관찰자",
+        "addressees": [],
+        "relationship": "부녀를 미행하며 모미지를 노리는 인물(정체 미공개)",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "냉정한 관찰과 내면 독백",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0225",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002386",
+          "source": "狙いが近づいてくるごとに、緊張が高まった。",
+          "target": "목표가 가까워질 때마다 긴장이 고조되었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체불명 관찰자",
+        "addressees": [],
+        "relationship": "부녀를 미행하며 모미지를 노리는 인물(정체 미공개)",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "냉정한 관찰과 내면 독백",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0226",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002391",
+          "source": "よし、もうすぐだ。あともう少し、こっちへ来い…！",
+          "target": "좋아, 이제 곧이다. 조금만 더, 이쪽으로 와라…!"
+        }
+      ],
+      "context": {
+        "speaker_identity": "정체불명 관찰자",
+        "addressees": [],
+        "relationship": "부녀를 미행하며 모미지를 노리는 인물(정체 미공개)",
+        "story_phase": "kureha_06 / 정체불명 인물의 부녀 미행",
+        "voice": "냉정한 관찰과 내면 독백",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0227",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002418",
+          "source": "「おーい、お～いっ」",
+          "target": "「여기야, 여기!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0228",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002426",
+          "source": "タッタッタッタ…",
+          "target": "타다다닥…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "발소리 의성어",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0229",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002433",
+          "source": "「あ、もみじっ。待ちなさい」",
+          "target": "「아, 모미지! 기다려」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "딸에게 다정한 반말 / 쿠레하에게 당혹한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0230",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002438",
+          "source": "もみじが急に走り出し、その先の角を曲がっていった。",
+          "target": "모미지가 갑자기 달려가더니, 앞에 있는 모퉁이를 돌아갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0231",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002443",
+          "source": "視界から消えたもみじの後を追って、",
+          "target": "시야에서 사라진 모미지의 뒤를 쫓아,"
+        },
+        {
+          "id": "kureha_06.mjo::002447",
+          "source": "僕も慌ててその角を曲がる。",
+          "target": "나도 서둘러 그 모퉁이를 돌았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0232",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002452",
+          "source": "もみじの姿が見えなくなると急に不安になってきた。",
+          "target": "모미지의 모습이 보이지 않자 갑자기 불안해졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0233",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002457",
+          "source": "まさかその角の向こうで神隠しに遭うなんてことは…",
+          "target": "설마 저 모퉁이 너머에서 신령에게 끌려가 사라지기라도 하는 건…"
+        },
+        {
+          "id": "kureha_06.mjo::002462",
+          "source": "ここではないと言い切れない。",
+          "target": "이곳에서는 절대 없으리라고 장담할 수 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0234",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002475",
+          "source": "タッタッタッタ…",
+          "target": "타다다닥…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "발소리 의성어",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0235",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002482",
+          "source": "「もみじっ？」",
+          "target": "「모미지?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "딸에게 다정한 반말 / 쿠레하에게 당혹한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0236",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002487",
+          "source": "角を曲がって新たな道に出る。するとそこには…",
+          "target": "모퉁이를 돌아 다른 길로 들어섰다. 그러자 그곳에는…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0237",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002509",
+          "source": "「あ、おとーさんっ」",
+          "target": "「아, 아빠!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0238",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002516",
+          "source": "「なっ…」",
+          "target": "「뭐…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "딸에게 다정한 반말 / 쿠레하에게 당혹한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0239",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002521",
+          "source": "…そこにはもみじと、思いがけない人物の姿があった。",
+          "target": "…그곳에는 모미지와 뜻밖의 인물이 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0240",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002528",
+          "source": "「く、暮葉…？」",
+          "target": "「쿠, 쿠레하…?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "딸에게 다정한 반말 / 쿠레하에게 당혹한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0241",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002538",
+          "source": "「…こんばんわ、槙野さん」",
+          "target": "「…안녕하세요, 마키노 씨」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "투신 후 다시 나타난 정체불명의 지인",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "첫 인사만 정중한 관용 인사, 이어서 차분한 반말; 모미지에게 조금 부드러움",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0242",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002543",
+          "source": "昨夜、マンションから落下して消えた筈の暮葉――",
+          "target": "지난밤 아파트에서 떨어진 뒤 사라졌을 쿠레하――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0243",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002548",
+          "source": "その彼女が、夕日を背にして僕の目の前に立っていた。",
+          "target": "그녀가 저녁 해를 등지고 내 눈앞에 서 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0244",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002563",
+          "source": "「おとーさん。もみじがね、",
+          "target": "「아빠. 모미지가 말이야,"
+        },
+        {
+          "id": "kureha_06.mjo::002567",
+          "source": "　さっき暮葉おねーちゃんを見つけたんだよ」",
+          "target": "　아까 쿠레하 언니를 찾았어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0245",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002574",
+          "source": "「そうか…それで急に走っていっちゃったのか」",
+          "target": "「그랬구나… 그래서 갑자기 뛰어간 거였구나」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "딸에게 다정한 반말 / 쿠레하에게 당혹한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0246",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002589",
+          "source": "「うん。だって暮葉おねーちゃん、歩くの早いんだもん」",
+          "target": "「응. 쿠레하 언니는 걸음이 빠르단 말이야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0247",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002604",
+          "source": "「ごめんなさい。二人のことに気付かなくて」",
+          "target": "「미안해. 둘이 있는 줄 몰랐어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "투신 후 다시 나타난 정체불명의 지인",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "첫 인사만 정중한 관용 인사, 이어서 차분한 반말; 모미지에게 조금 부드러움",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0248",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002609",
+          "source": "暮葉はそう言いながらもみじの頭を撫でた。",
+          "target": "쿠레하는 그렇게 말하며 모미지의 머리를 쓰다듬었다."
+        },
+        {
+          "id": "kureha_06.mjo::002613",
+          "source": "もみじも無邪気な様子で暮葉の足にまとわりついている。",
+          "target": "모미지도 천진하게 쿠레하의 다리에 달라붙어 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0249",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002618",
+          "source": "それは端から見れば、",
+          "target": "남들이 보기에는"
+        },
+        {
+          "id": "kureha_06.mjo::002622",
+          "source": "じゃれ合う姉妹のような微笑ましい光景だっただろう。",
+          "target": "자매가 서로 장난치는 듯한 흐뭇한 광경이었을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0250",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002627",
+          "source": "だが僕はまるで幽霊を見ているような…",
+          "target": "하지만 나는 마치 유령을 보는 듯한…"
+        },
+        {
+          "id": "kureha_06.mjo::002631",
+          "source": "いや、実際に幽霊を目の当たりにした気分だった。",
+          "target": "아니, 실제로 유령을 눈앞에서 본 기분이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0251",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002642",
+          "source": "「…暮葉、君は一体…」",
+          "target": "「…쿠레하, 너는 대체…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "딸에게 다정한 반말 / 쿠레하에게 당혹한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0252",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002659",
+          "source": "「…昨日、殴られたところは大丈夫？」",
+          "target": "「…어제 맞은 데는 괜찮아?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "투신 후 다시 나타난 정체불명의 지인",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "첫 인사만 정중한 관용 인사, 이어서 차분한 반말; 모미지에게 조금 부드러움",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0253",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002666",
+          "source": "「！」",
+          "target": "「!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "딸에게 다정한 반말 / 쿠레하에게 당혹한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0254",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002680",
+          "source": "「見たところ腫れてはいないみたいだから、安心したわ」",
+          "target": "「보아하니 붓지는 않은 것 같아서, 안심했어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "투신 후 다시 나타난 정체불명의 지인",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "첫 인사만 정중한 관용 인사, 이어서 차분한 반말; 모미지에게 조금 부드러움",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0255",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002687",
+          "source": "、",
+          "target": ","
+        },
+        {
+          "id": "kureha_06.mjo::002691",
+          "source": "何食わぬ顔でそんなことを言い出す暮葉。",
+          "target": "아무 일도 없었다는 듯 그런 말을 꺼내는 쿠레하."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0256",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002696",
+          "source": "わからない…何が何だかさっぱりわからなかった。",
+          "target": "모르겠다… 뭐가 뭔지 도무지 알 수 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0257",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002701",
+          "source": "だから僕はもう一度、改めて暮葉に向かって問う。",
+          "target": "그래서 나는 다시 한번, 쿠레하를 향해 물었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0258",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002708",
+          "source": "「暮葉…君は一体何者なんだ？」",
+          "target": "「쿠레하… 너는 대체 누구야?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "사위 / 아버지 / 쿠레하에게 정체를 묻는 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "딸에게 다정한 반말 / 쿠레하에게 당혹한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0259",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002722",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "투신 후 다시 나타난 정체불명의 지인",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "첫 인사만 정중한 관용 인사, 이어서 차분한 반말; 모미지에게 조금 부드러움",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0260",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002727",
+          "source": "しかし暮葉は何も答えず、",
+          "target": "하지만 쿠레하는 아무 대답도 하지 않았고,"
+        },
+        {
+          "id": "kureha_06.mjo::002731",
+          "source": "夕日の陰翳がその表情すらもかき消していた。",
+          "target": "석양이 드리운 그림자가 그 표정마저 지워 버렸다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0261",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002745",
+          "source": "「…私、もう行かなくちゃ」",
+          "target": "「…나, 이제 가 봐야 해」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "마키노",
+          "모미지"
+        ],
+        "relationship": "투신 후 다시 나타난 정체불명의 지인",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "첫 인사만 정중한 관용 인사, 이어서 차분한 반말; 모미지에게 조금 부드러움",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0262",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002755",
+          "source": "「えーっ、もう行っちゃうのぉ？",
+          "target": "「에이, 벌써 가려고?"
+        },
+        {
+          "id": "kureha_06.mjo::002759",
+          "source": "　そうだ、またうちにおいでよ」",
+          "target": "　참, 또 우리 집에 놀러 와」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0263",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002773",
+          "source": "「ありがとう。でも今日は遠慮しておくわ」",
+          "target": "「고마워. 하지만 오늘은 사양할게」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "투신 후 다시 나타난 정체불명의 지인",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "첫 인사만 정중한 관용 인사, 이어서 차분한 반말; 모미지에게 조금 부드러움",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0264",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002783",
+          "source": "「そっかぁ…残念」",
+          "target": "「그렇구나… 아쉽다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0265",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002788",
+          "source": "申し出を断られ、本気で残念そうなもみじ。",
+          "target": "제안을 거절당한 모미지는 정말로 아쉬워했다."
+        },
+        {
+          "id": "kureha_06.mjo::002792",
+          "source": "気のせいか暮葉も少し寂しげな風に見えた。",
+          "target": "기분 탓인지 쿠레하도 조금 쓸쓸해 보였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0266",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002797",
+          "source": "その様子がさっき僕が問うた時と随分違っていて、",
+          "target": "그 모습이 아까 내 질문을 받았을 때와는 사뭇 달라서,"
+        },
+        {
+          "id": "kureha_06.mjo::002801",
+          "source": "ますます暮葉のことがわからなくなる。",
+          "target": "쿠레하에 대해 점점 더 알 수 없게 되었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0267",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002806",
+          "source": "僕の目の前に居るのは、一体…",
+          "target": "지금 내 눈앞에 있는 건, 대체…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0268",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002820",
+          "source": "「それじゃ、さよなら」",
+          "target": "「그럼, 잘 있어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "마키노",
+          "모미지"
+        ],
+        "relationship": "투신 후 다시 나타난 정체불명의 지인",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "첫 인사만 정중한 관용 인사, 이어서 차분한 반말; 모미지에게 조금 부드러움",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0269",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002830",
+          "source": "「うん、またね。バイバイ」",
+          "target": "「응, 또 봐. 잘 가」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "딸과 손녀 / 쿠레하를 좋아하는 아이",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0270",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002844",
+          "source": "「…ええ、またね」",
+          "target": "「…그래, 또 보자」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "투신 후 다시 나타난 정체불명의 지인",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "첫 인사만 정중한 관용 인사, 이어서 차분한 반말; 모미지에게 조금 부드러움",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0271",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002849",
+          "source": "ブンブンと手を振るもみじに、わずかに微笑みかける暮葉。",
+          "target": "힘차게 손을 흔드는 모미지에게 살짝 웃어 주는 쿠레하."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0272",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002859",
+          "source": "それから僕に向けて無言で会釈をすると、",
+          "target": "그러고는 내게 말없이 고개를 숙여 인사하더니,"
+        },
+        {
+          "id": "kureha_06.mjo::002863",
+          "source": "暮葉は夕日の向こうへ溶けるように立ち去っていった。",
+          "target": "쿠레하는 석양 너머로 녹아들듯 떠나갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0273",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002868",
+          "source": "僕はもみじと共に、その後ろ姿を黙って眺める。",
+          "target": "나는 모미지와 함께 그 뒷모습을 말없이 바라봤다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0274",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002873",
+          "source": "彼女は最後に『またね』と言った。",
+          "target": "그녀는 마지막에 『또 보자』고 했다."
+        },
+        {
+          "id": "kureha_06.mjo::002877",
+          "source": "ならきっとまた会うことになるだろう。",
+          "target": "그렇다면 분명 다시 만나게 될 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0275",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002882",
+          "source": "そしていつかきっと、彼女の根本を知る機会も訪れる筈…",
+          "target": "그리고 언젠가는 분명 그녀의 본질을 알 기회도 찾아오겠지…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0276",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002887",
+          "source": "今はそう信じて、彼女の背中を見送った。",
+          "target": "지금은 그렇게 믿으며 그녀의 뒷모습을 배웅했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸과 장인을 만난 아버지 / 쿠레하의 생존에 혼란스러운 목격자",
+        "story_phase": "kureha_06 / 모미지를 따라가 쿠레하와 재회",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "逢魔が時 / 逢摩が時",
+      "target": "마가 드는 시간",
+      "evidence": [
+        "kureha_06.mjo::u0210",
+        "masa_07.mjo::u0044"
+      ],
+      "note": "Coordinator canonical term for repeated source scene"
+    },
+    {
+      "source": "神隠し",
+      "target": "신령에게 끌려가 사라지다",
+      "evidence": [
+        "kureha_06.mjo::u0233"
+      ],
+      "note": "Preserves supernatural disappearance per coordinator review"
+    }
+  ],
+  "inline_records": [
+    {
+      "unit": "kureha_06.mjo::u0210",
+      "id": "kureha_06.mjo::002259",
+      "source": "おうま",
+      "target": " ",
+      "consumer": "yazlib $3198fd01 ruby reading then body",
+      "evidence": "research/disassembly/kureha_06.mjo.mjil 063d6/063e1 ldstr -> 063ea callp $3198fd01 (2), before 063f6 text が時。"
+    },
+    {
+      "unit": "kureha_06.mjo::u0210",
+      "id": "kureha_06.mjo::002260",
+      "source": "逢魔",
+      "target": "마가 드는",
+      "consumer": "yazlib $3198fd01 ruby reading then body",
+      "evidence": "research/disassembly/kureha_06.mjo.mjil 063d6/063e1 ldstr -> 063ea callp $3198fd01 (2), before 063f6 text が時。"
+    },
+    {
+      "unit": "kureha_06.mjo::u0255",
+      "id": "kureha_06.mjo::002685",
+      "source": "自分のことは棚に上げ",
+      "target": "자기 일은 제쳐 두고",
+      "consumer": "yazlib $2f93f26a emphasized displayed body",
+      "evidence": "research/disassembly/kureha_06.mjo.mjil 07563 ldstr -> 0757c callp $2f93f26a (1) before 07588 comma text"
+    }
+  ],
+  "context_coverage": "Read full kureha_06; previous batch 125-134 supplies overlap.",
+  "notes": [
+    "Narrator changes at u0206 to an unidentified observer, returns to Makino at u0227; no hidden identity disclosed.",
+    "u0220/u0227, u0222/u0229 use identical Korean for repeated camera-angle dialogue."
+  ],
+  "coordinator_review_applied": [
+    "u0183 natural meaning-preserving phrasing",
+    "u0246 recipient father",
+    "u0203-0210 shared scene aligned with masa_07",
+    "逢魔が時 and 神隠し canonical terms"
+  ]
+}

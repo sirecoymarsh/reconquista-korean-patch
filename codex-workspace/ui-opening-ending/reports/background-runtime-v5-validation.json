@@ -1,0 +1,79 @@
+{
+  "updated_utc": "2026-10-22T11:53:21.035851+00:00",
+  "result": "private_desktop_v5_modal_runtime_pass",
+  "prepared_artifact": "reports/background-runtime-v5-prepared.json",
+  "exe_sha256": "f67195682944663b9546665eb3b63a639ace3f910e2ebf6ffaccda001d625b50",
+  "scenario_sha256": "db150e681b1096eec109b0b94ee304573ff44d320de4628fd973bbe32392cc5c",
+  "fastdata_sha256": "bcadb79e854a3bbe00af83e515b4bafd516e2b860a7e5286cacd65627a2041bf",
+  "method": "CreateProcessW lpDesktop on non-input desktop; scoped PostMessageW; PrintWindow; no Computer Use, global input, cursor movement or SwitchDesktop",
+  "proofs": {
+    "bg-v5-exit": "evidence\\background-runtime\\bg-v5-exit.json",
+    "bg-v5-modal-cancel": "evidence\\background-runtime\\bg-v5-modal-cancel.json",
+    "bg-v5-modal-hover": "evidence\\background-runtime\\bg-v5-modal-hover.json",
+    "bg-v5-modal-pressed": "evidence\\background-runtime\\bg-v5-modal-pressed.json",
+    "bg-v5-quit-confirm": "evidence\\background-runtime\\bg-v5-quit-confirm.json",
+    "bg-v5-quit-modal": "evidence\\background-runtime\\bg-v5-quit-modal.json",
+    "bg-v5-start": "evidence\\background-runtime\\bg-v5-start.json",
+    "bg-v5-title": "evidence\\background-runtime\\bg-v5-title.json"
+  },
+  "operations": 8,
+  "focus_sampling": {
+    "interval_ms": 50,
+    "total_samples": 346,
+    "errors": [],
+    "game_became_foreground": false,
+    "private_desktop_became_input": false,
+    "pre_post_input_desktop_changes": 0,
+    "pre_post_foreground_changes": 2,
+    "foreground_change_interpretation": "Two foreground changes among other applications were observed; no sampled foreground PID matched the tested game. No claim that user foreground was identical throughout.",
+    "limits": "Samples during each command only; 50ms intervals and gaps between commands are not continuously observed"
+  },
+  "verified": [
+    {
+      "id": "UI-MODAL::exit-prompt",
+      "text": "게임을 종료할까요?",
+      "proof": "bg-v5-quit-modal"
+    },
+    {
+      "id": "UI-MODAL::yes-normal",
+      "text": "예",
+      "proof": "bg-v5-quit-modal"
+    },
+    {
+      "id": "UI-MODAL::no-normal",
+      "text": "아니요",
+      "proof": "bg-v5-quit-modal"
+    },
+    {
+      "id": "UI-MODAL::no-hover",
+      "text": "아니요",
+      "proof": "bg-v5-modal-hover"
+    },
+    {
+      "id": "UI-MODAL::cancel-action",
+      "result": "No press immediately canceled; title restored exactly to prior captured title hash",
+      "proof": "bg-v5-modal-cancel"
+    },
+    {
+      "id": "UI-MODAL::yes-action",
+      "result": "Exit confirmation Yes closed exact background test process",
+      "proof": "bg-v5-exit"
+    }
+  ],
+  "not_established": [
+    "Pressed artwork: engine immediately transitions on button down; delayed capture contains title fade, not a pressed-state proof",
+    "Yes hover and press artwork not captured",
+    "Other UI state coverage is incomplete",
+    "Fullscreen, physical input timing, audio and OP/ED playback synchronization"
+  ],
+  "termination": {
+    "pid": 96524,
+    "exact_runtime_path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui-bg",
+    "process_absent_afterwards": true,
+    "proof": "Get-CimInstance exact runtime-ui-bg executable filter returned no process after bg-v5-exit"
+  },
+  "reused_evidence": [
+    "reports/background-runtime-validation.json: unchanged title/native resource behavior from earlier probe",
+    "reports/native-ui-v5-defender-scan.json: same executable hash, scan not repeated"
+  ]
+}

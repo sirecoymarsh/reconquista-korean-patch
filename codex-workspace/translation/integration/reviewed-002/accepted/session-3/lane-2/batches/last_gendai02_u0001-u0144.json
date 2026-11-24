@@ -1,0 +1,3731 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-3/lane-2",
+  "coordinator_thread_id": "01a16335-c355-7c83-ad79-53e1812faa34",
+  "agent_id": "01a16337-764a-7392-87ca-8293c19b2997",
+  "agent_task": "/root/lane_2",
+  "source_script": "last_gendai02.mjo",
+  "source_sha256": "be7c458724cf519a1eeead4aaf04bc24ff0bea4426a6abeba3392f19f3e359e1",
+  "records": [
+    {
+      "unit": "last_gendai02.mjo::u0001",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000036",
+          "source": "「あ、汐見先生。さよーなら～」",
+          "target": "「아, 시오미 선생님. 안녕히 계세요～」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "여학생",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "女生徒",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0002",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000046",
+          "source": "「はい、さようなら」",
+          "target": "「네, 잘 가요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "여학생"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0003",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000051",
+          "source": "土曜日の放課後。悩みのなさそうな女生徒の声に答えながら、",
+          "target": "토요일 방과 후. 걱정 없어 보이는 여학생의 목소리에 답하며"
+        },
+        {
+          "id": "last_gendai02.mjo::000055",
+          "source": "私はひとり廊下を歩いていた。",
+          "target": "나는 혼자 복도를 걷고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0004",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000060",
+          "source": "牧師としての表層が半自動的に生徒達に対応している間も、",
+          "target": "목사로서의 겉모습은 거의 자동으로 학생들을 상대하면서도"
+        },
+        {
+          "id": "last_gendai02.mjo::000064",
+          "source": "頭の中では全く別のことを考える。",
+          "target": "머릿속으로는 전혀 다른 생각을 하고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0005",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000073",
+          "source": "…昨夜、上条暮葉の手にかかり、",
+          "target": "…어젯밤, 가미조 쿠레하의 손에"
+        },
+        {
+          "id": "last_gendai02.mjo::000077",
+          "source": "田村奈那子が首を刈られた。",
+          "target": "다무라 나나코의 목이 베였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0006",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000082",
+          "source": "私が反魂の法により蘇らせた彼女は、",
+          "target": "내가 반혼술로 되살린 그녀는"
+        },
+        {
+          "id": "last_gendai02.mjo::000086",
+          "source": "副作用により月明かりの下ではそう簡単に死なない筈――",
+          "target": "그 부작용으로 달빛 아래에서는 그리 쉽게 죽지 않을 터였다――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0007",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000091",
+          "source": "だがそれを承知の私の目から見ても、",
+          "target": "하지만 그 사실을 아는 내가 보기에도"
+        },
+        {
+          "id": "last_gendai02.mjo::000095",
+          "source": "あの首への一撃は致命的だった。",
+          "target": "목에 가해진 그 일격은 치명적이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0008",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000102",
+          "source": "「（上条暮葉は私よりも反魂について詳しい筈。",
+          "target": "「(가미조 쿠레하는 나보다 반혼에 대해 잘 알 터."
+        },
+        {
+          "id": "last_gendai02.mjo::000106",
+          "source": "　その彼女がわざわざ首を狙ったことを考えると…）」",
+          "target": "　그녀가 굳이 목을 노렸다는 것을 생각하면…)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "자신"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "aside",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0009",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000111",
+          "source": "恐らく半不死とも言える反魂の副作用でも、",
+          "target": "아마 반쯤 불사라 할 만한 반혼의 부작용으로도"
+        },
+        {
+          "id": "last_gendai02.mjo::000115",
+          "source": "首を斬られると回復不可能なのだろう。",
+          "target": "목이 잘리면 회복할 수 없는 것이리라."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0010",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000120",
+          "source": "だからこそ上条暮葉は、",
+          "target": "그래서 가미조 쿠레하는"
+        },
+        {
+          "id": "last_gendai02.mjo::000124",
+          "source": "反魂の副作用で夜中に徘徊している者を見極め、",
+          "target": "반혼의 부작용으로 한밤중에 배회하는 이들을 가려내어"
+        },
+        {
+          "id": "last_gendai02.mjo::000128",
+          "source": "首を刈って回っていたのだと推測できる。",
+          "target": "목을 베고 다녔으리라 추측할 수 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0011",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000133",
+          "source": "その行為が今生徒たちの間で噂されている、",
+          "target": "그 행동이 지금 학생들 사이에서 떠도는"
+        },
+        {
+          "id": "last_gendai02.mjo::000137",
+          "source": "『首刈り女』という都市伝説となっていった…",
+          "target": "『목 베는 여자』라는 도시전설이 된 것이다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0012",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000144",
+          "source": "「（やはり上条暮葉は知っている…",
+          "target": "「(역시 가미조 쿠레하는 알고 있어…"
+        },
+        {
+          "id": "last_gendai02.mjo::000148",
+          "source": "　私の知らない反魂の法の秘密を）」",
+          "target": "　내가 모르는 반혼술의 비밀을)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "자신"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "aside",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0013",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000153",
+          "source": "反魂の法の副作用を取り除く方法――",
+          "target": "반혼술의 부작용을 없애는 방법――"
+        },
+        {
+          "id": "last_gendai02.mjo::000157",
+          "source": "それは必ずあるに違いない。",
+          "target": "그것은 반드시 있을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0014",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000162",
+          "source": "それを聞き出す為にも、",
+          "target": "그걸 알아내기 위해서라도"
+        },
+        {
+          "id": "last_gendai02.mjo::000166",
+          "source": "交渉材料として槙野もみじを確保する。",
+          "target": "협상 카드로 삼을 마키노 모미지를 확보한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0015",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000171",
+          "source": "だが今はそれよりも先に、やるべきことがあった。",
+          "target": "하지만 지금은 그보다 먼저 해야 할 일이 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0016",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000182",
+          "source": "「（ん？　あそこに居るのは…）」",
+          "target": "「(응? 저기 있는 건…)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "자신"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "aside",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0017",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000187",
+          "source": "その時、賑やかな廊下の喧騒に紛れて、",
+          "target": "그때 시끌벅적한 복도의 소란 속에"
+        },
+        {
+          "id": "last_gendai02.mjo::000191",
+          "source": "寂しげに佇む少女の姿が目に入った。",
+          "target": "쓸쓸히 서 있는 소녀의 모습이 눈에 들어왔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0018",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000205",
+          "source": "「晴れてるといいな…」",
+          "target": "「날씨가 맑으면 좋겠다…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "자신"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "혼잣말, 부드러운 반말",
+        "text_function": "aside",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0019",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000210",
+          "source": "羽鳥真帆子が開け放たれた廊下の窓に目を向けて、",
+          "target": "하토리 마호코는 활짝 열린 복도 창문을 바라보며"
+        },
+        {
+          "id": "last_gendai02.mjo::000214",
+          "source": "何やら独り言を呟いていた。",
+          "target": "무언가 혼잣말을 중얼거리고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0020",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000219",
+          "source": "空は一目瞭然に晴れているので、",
+          "target": "하늘이 맑다는 건 한눈에 알 수 있으니"
+        },
+        {
+          "id": "last_gendai02.mjo::000223",
+          "source": "『晴れてるといいな』という言い回しはいささか不自然だ。",
+          "target": "『날씨가 맑으면 좋겠다』는 말은 조금 부자연스럽다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0021",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000228",
+          "source": "しかし、そんなことはどうでもいい。",
+          "target": "하지만 그런 건 아무래도 좋다."
+        },
+        {
+          "id": "last_gendai02.mjo::000232",
+          "source": "重要なのは彼女が珍しく一人きりという事実だった。",
+          "target": "중요한 것은 그녀가 드물게 혼자 있다는 사실이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0022",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000242",
+          "source": "一番最初に妹の血と遺伝子を受け継いだ者として、",
+          "target": "나는 동생의 피와 유전자를 가장 먼저 물려받은"
+        },
+        {
+          "id": "last_gendai02.mjo::000246",
+          "source": "私は羽鳥真帆子に目をつけていた。",
+          "target": "하토리 마호코를 눈여겨보고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0023",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000251",
+          "source": "そして隙あらば確保しようと狙っていたが、",
+          "target": "틈만 나면 확보하려고 노렸지만"
+        },
+        {
+          "id": "last_gendai02.mjo::000255",
+          "source": "彼女はなかなか一人きりになる機会を見せない。",
+          "target": "그녀는 좀처럼 혼자가 되지 않았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0024",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000260",
+          "source": "もう一人の候補者でもある春日井詩菜、",
+          "target": "또 한 명의 후보자인 가스가이 시이나,"
+        },
+        {
+          "id": "last_gendai02.mjo::000264",
+          "source": "そして彼女の幼なじみである三沢信哉…",
+          "target": "그리고 그녀의 소꿉친구 미사와 신야…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0025",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000269",
+          "source": "家の外ではこの二人が必ずと言っていいほど、",
+          "target": "집 밖에서는 거의 언제나 이 둘이"
+        },
+        {
+          "id": "last_gendai02.mjo::000273",
+          "source": "羽鳥真帆子の傍に居たせいだ。",
+          "target": "하토리 마호코 곁에 있었기 때문이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0026",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000278",
+          "source": "しかし今は彼女一人きり。家路や寄り道に急ぐ生徒達は、",
+          "target": "하지만 지금 그녀는 혼자다. 집으로 돌아가거나 다른 곳에 들르려고 서두르는 학생들은"
+        },
+        {
+          "id": "last_gendai02.mjo::000282",
+          "source": "彼女の存在を気にも留めていない。",
+          "target": "그녀에게 관심도 두지 않는다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0027",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000287",
+          "source": "これは好機か…？",
+          "target": "지금이 기회인가…?"
+        },
+        {
+          "id": "last_gendai02.mjo::000291",
+          "source": "そう考えながら、私は彼女の方へ近づいていった。",
+          "target": "그런 생각을 하며 나는 그녀 쪽으로 다가갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0028",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000305",
+          "source": "「はぁ…」",
+          "target": "「하아…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "자신"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "혼잣말, 부드러운 반말",
+        "text_function": "aside",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0029",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000310",
+          "source": "傍に寄っても羽鳥真帆子はこちらに気付かず、",
+          "target": "곁에 다가가도 하토리 마호코는 나를 눈치채지 못하고"
+        },
+        {
+          "id": "last_gendai02.mjo::000314",
+          "source": "ため息なんかをついている。",
+          "target": "한숨을 쉬고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0030",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000319",
+          "source": "私はいかにも生徒を気遣う牧師の態度で",
+          "target": "나는 학생을 걱정하는 목사다운 태도로"
+        },
+        {
+          "id": "last_gendai02.mjo::000323",
+          "source": "彼女に声をかけることにした。",
+          "target": "그녀에게 말을 걸었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0031",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000330",
+          "source": "「おやおや、どうしましたか？」",
+          "target": "「이런, 무슨 일인가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0032",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000344",
+          "source": "「えっ？」",
+          "target": "「네?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0033",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000351",
+          "source": "「いけませんね、溜め息とは。",
+          "target": "「한숨을 쉬다니, 좋지 않네요."
+        },
+        {
+          "id": "last_gendai02.mjo::000355",
+          "source": "　何かお悩みがあるのでしたら、相談に乗りますよ？」",
+          "target": "　무슨 고민이라도 있다면 상담해 드릴게요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0034",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000360",
+          "source": "私が声をかけると、",
+          "target": "내가 말을 걸자"
+        },
+        {
+          "id": "last_gendai02.mjo::000364",
+          "source": "羽鳥真帆子は驚いた様子でこちらに顔を向ける。",
+          "target": "하토리 마호코는 놀란 듯 이쪽으로 고개를 돌렸다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0035",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000373",
+          "source": "そしてそのまま心ここにあらずといった感じで",
+          "target": "그러고는 마음이 다른 곳에 가 있는 듯"
+        },
+        {
+          "id": "last_gendai02.mjo::000377",
+          "source": "ぼんやりと私の方を見上げていた。",
+          "target": "멍하니 나를 올려다보았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0036",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000382",
+          "source": "…いや、その目は私を見ているようで、見ていない。",
+          "target": "…아니, 그 눈은 나를 보는 듯하면서도 보고 있지 않았다."
+        },
+        {
+          "id": "last_gendai02.mjo::000386",
+          "source": "誰か別の相手のことを考えているように感じられた。",
+          "target": "누군가 다른 사람을 생각하고 있는 듯했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0037",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000400",
+          "source": "「はうぅっ…！」",
+          "target": "「하우으…!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0038",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000407",
+          "source": "「…はい？",
+          "target": "「…네?"
+        },
+        {
+          "id": "last_gendai02.mjo::000411",
+          "source": "　赤い顔をして、どうかなさいましたか？」",
+          "target": "　얼굴이 빨간데, 무슨 일인가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0039",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000425",
+          "source": "「いえいえっ、なんでもないんですっ」",
+          "target": "「아, 아뇨! 아무것도 아니에요!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0040",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000430",
+          "source": "頬を紅潮させたまま、",
+          "target": "하토리 마호코는 두 뺨을 붉힌 채"
+        },
+        {
+          "id": "last_gendai02.mjo::000434",
+          "source": "ぶんぶんと首を横に振る羽鳥真帆子。",
+          "target": "고개를 세차게 저었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0041",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000439",
+          "source": "その反応で、",
+          "target": "그 반응을 보고"
+        },
+        {
+          "id": "last_gendai02.mjo::000443",
+          "source": "何となく彼女の思考を支配していた人物に見当がついた。",
+          "target": "그녀의 머릿속을 차지하고 있던 사람이 누구인지 얼추 짐작이 갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0042",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000448",
+          "source": "しかし私はあえて何も気付かぬフリをして、",
+          "target": "하지만 나는 짐짓 아무것도 눈치채지 못한 척하며"
+        },
+        {
+          "id": "last_gendai02.mjo::000452",
+          "source": "彼女に語りかける。",
+          "target": "그녀에게 말을 건넸다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0043",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000459",
+          "source": "「あまり大丈夫そうには見えないんですが…」",
+          "target": "「별로 괜찮아 보이지는 않는데요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0044",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000473",
+          "source": "「いえ、大したことじゃないんです」",
+          "target": "「아뇨, 별일 아니에요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0045",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000480",
+          "source": "「そうですか？",
+          "target": "「그런가요?"
+        },
+        {
+          "id": "last_gendai02.mjo::000484",
+          "source": "　何やら深刻そうでしたから…要らぬお節介でしたね」",
+          "target": "　뭔가 심각해 보였는데… 괜한 참견이었군요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0046",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000498",
+          "source": "「あ、いえ…」",
+          "target": "「아, 아니…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0047",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000503",
+          "source": "羽鳥真帆子の瞳に迷いの色が浮かんでいた。",
+          "target": "하토리 마호코의 눈에 망설임이 어렸다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0048",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000508",
+          "source": "彼女には何か悩みがあるらしい。",
+          "target": "무언가 고민이 있는 모양이다."
+        },
+        {
+          "id": "last_gendai02.mjo::000512",
+          "source": "職業柄そういう雰囲気はすぐに察せられた。",
+          "target": "직업이 직업인 만큼 그런 기색은 금방 알아차릴 수 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0049",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000517",
+          "source": "こういう場合、無理に聞き出そうとしても逆効果。",
+          "target": "이럴 때 억지로 캐물어 봐야 역효과다."
+        },
+        {
+          "id": "last_gendai02.mjo::000521",
+          "source": "押して駄目なら引いて…という格言に私は従うことにした。",
+          "target": "밀어서 안 되면 당겨 보라는… 그 격언을 따르기로 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0050",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000528",
+          "source": "「では、私はこれで…」",
+          "target": "「그럼 저는 이만…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0051",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000542",
+          "source": "「あの、汐見先生…！」",
+          "target": "「저기, 시오미 선생님…!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0052",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000549",
+          "source": "「…はい？」",
+          "target": "「…네?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0053",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000554",
+          "source": "…かかった。",
+          "target": "…걸려들었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0054",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000559",
+          "source": "内心でそうほくそ笑みながら、",
+          "target": "속으로 그렇게 회심의 미소를 지으면서"
+        },
+        {
+          "id": "last_gendai02.mjo::000563",
+          "source": "私はさも不思議そうな顔を彼女に向けてやる。",
+          "target": "나는 영문을 모르겠다는 얼굴로 그녀를 보았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0055",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000568",
+          "source": "すると羽鳥真帆子はためらうように波打つ髪を揺らしながら",
+          "target": "그러자 하토리 마호코는 망설이듯 굽이치는 머리카락을 흔들며"
+        },
+        {
+          "id": "last_gendai02.mjo::000572",
+          "source": "おずおずと口を開いた。",
+          "target": "조심스레 입을 열었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0056",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000586",
+          "source": "「すみません…",
+          "target": "「죄송해요…"
+        },
+        {
+          "id": "last_gendai02.mjo::000590",
+          "source": "　やっぱり聞いて頂きたい事が…」",
+          "target": "　역시 들어 주셨으면 하는 이야기가…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0057",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000597",
+          "source": "「ああ、そうでしたか。",
+          "target": "「아, 그러셨군요."
+        },
+        {
+          "id": "last_gendai02.mjo::000601",
+          "source": "　いやいや、全然構いませんとも」",
+          "target": "　아니에요, 얼마든지 괜찮습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0058",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000606",
+          "source": "生徒の悩みに牧師が相談に乗る。",
+          "target": "목사가 학생의 고민을 들어 준다."
+        },
+        {
+          "id": "last_gendai02.mjo::000610",
+          "source": "何の違和感もないシチュエーションだった。",
+          "target": "조금도 이상할 것 없는 상황이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0059",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000615",
+          "source": "今この場でどうこうするつもりはないが、",
+          "target": "지금 이 자리에서 어떻게 할 생각은 없지만"
+        },
+        {
+          "id": "last_gendai02.mjo::000619",
+          "source": "彼女を手に入れる糸口は掴めるかもしれない…",
+          "target": "그녀를 손에 넣을 실마리는 잡을 수 있을지도 모른다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0060",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000626",
+          "source": "「では立ち話もなんですし、落ち着ける場所――",
+          "target": "「그럼 여기 서서 이야기하기도 그렇고, 편히 이야기할 곳으로――"
+        },
+        {
+          "id": "last_gendai02.mjo::000630",
+          "source": "　宜しければ礼拝堂に移動しましょうか？」",
+          "target": "　괜찮다면 예배당으로 갈까요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0061",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000644",
+          "source": "「はい、お願いします」",
+          "target": "「네, 부탁드릴게요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0062",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000654",
+          "source": "そうして二人で歩き出そうとしたその時…",
+          "target": "그렇게 둘이 걷기 시작하려던 순간…"
+        },
+        {
+          "id": "last_gendai02.mjo::000663",
+          "source": "私は視線を感じて足を止めた。",
+          "target": "나는 시선을 느끼고 걸음을 멈췄다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0063",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000668",
+          "source": "その姿はすぐ廊下の角の向こうに消えてしまったが、",
+          "target": "그 모습은 곧 복도 모퉁이 너머로 사라졌지만"
+        },
+        {
+          "id": "last_gendai02.mjo::000672",
+          "source": "あの髪型と小柄な体躯には見覚えがある。",
+          "target": "저 머리 모양과 자그마한 체구는 낯이 익었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0064",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000679",
+          "source": "「（春日井詩菜か…",
+          "target": "「(가스가이 시이나인가…"
+        },
+        {
+          "id": "last_gendai02.mjo::000683",
+          "source": "　見られたくない相手に見られてしまったな）」",
+          "target": "　보이고 싶지 않은 상대에게 들켜 버렸군)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "자신"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "aside",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0065",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000688",
+          "source": "他の人間ならどうということはないが、",
+          "target": "다른 사람이라면 아무래도 좋지만"
+        },
+        {
+          "id": "last_gendai02.mjo::000692",
+          "source": "羽鳥真帆子を慕う彼女に見られたとなると少々やりにくい。",
+          "target": "하토리 마호코를 따르는 그녀에게 보였다면 조금 까다로워진다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0066",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000697",
+          "source": "どうやら下手な行動は避け、",
+          "target": "아무래도 섣불리 행동하지 말고"
+        },
+        {
+          "id": "last_gendai02.mjo::000701",
+          "source": "探りを入れる程度にしていた方が良さそうだ。",
+          "target": "떠보는 정도로 그치는 편이 좋겠다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0067",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000718",
+          "source": "「…どうかされましたか？」",
+          "target": "「…무슨 일 있으세요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0068",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000725",
+          "source": "「いえいえ、何でもありません」",
+          "target": "「아뇨, 아무것도 아닙니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0069",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000730",
+          "source": "あくまで柔和な表情を保ったまま、",
+          "target": "나는 온화한 표정을 유지한 채"
+        },
+        {
+          "id": "last_gendai02.mjo::000734",
+          "source": "彼女の方を振り返る。",
+          "target": "그녀를 돌아보았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0070",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000741",
+          "source": "「…では、参りましょうか」",
+          "target": "「…그럼 갈까요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0071",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000751",
+          "source": "私は羽鳥真帆子を連れて、礼拝堂の方へ向かった。",
+          "target": "나는 하토리 마호코를 데리고 예배당으로 향했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0072",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000763",
+          "source": "「今日も天気が良いですね」",
+          "target": "「오늘도 날씨가 좋네요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0073",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000777",
+          "source": "「はい。そろそろ梅雨の季節なのに、",
+          "target": "「네. 슬슬 장마철인데"
+        },
+        {
+          "id": "last_gendai02.mjo::000781",
+          "source": "　全然雨が降りそうにないですし」",
+          "target": "　비가 올 기미가 전혀 없네요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0074",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000788",
+          "source": "「全くです。春先の頃は長雨が続きましたから、",
+          "target": "「그러게요. 초봄에는 비가 오래 내렸으니"
+        },
+        {
+          "id": "last_gendai02.mjo::000792",
+          "source": "　その反動でしょうか？」",
+          "target": "　그 반동일까요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0075",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000806",
+          "source": "「あ、そうかもしれないですね。",
+          "target": "「아, 그럴지도 모르겠네요."
+        },
+        {
+          "id": "last_gendai02.mjo::000810",
+          "source": "　あの頃はまだ寒くて雨が冷たかったなぁ」",
+          "target": "　그때는 아직 날씨도 춥고 비도 차가웠는데」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0076",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000817",
+          "source": "「ええ、本当に…」",
+          "target": "「네, 정말 그랬죠…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0077",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000822",
+          "source": "軽い世間話をしながら礼拝堂の前までやって来る。",
+          "target": "가벼운 이야기를 나누며 예배당 앞에 도착했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0078",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000827",
+          "source": "今は土曜日の午後。礼拝堂の関係者もこの時間は手薄で、",
+          "target": "지금은 토요일 오후다. 이 시간에는 예배당 관계자도 적으니"
+        },
+        {
+          "id": "last_gendai02.mjo::000831",
+          "source": "中でなら込み入った話もしやすいだろう。",
+          "target": "안에 들어가면 복잡한 이야기도 하기 쉬울 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0079",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000845",
+          "source": "「そうだ。折角いい天気ですし、",
+          "target": "「맞다. 모처럼 날씨도 좋은데"
+        },
+        {
+          "id": "last_gendai02.mjo::000849",
+          "source": "　このまま散歩しながら話を聞いてもらっていいですか？」",
+          "target": "　이대로 산책하면서 이야기를 들어 주시면 안 될까요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0080",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000854",
+          "source": "しかしそこで、",
+          "target": "하지만 그때"
+        },
+        {
+          "id": "last_gendai02.mjo::000858",
+          "source": "出鼻を挫くようにそんなことを言い出す羽鳥真帆子。",
+          "target": "하토리 마호코가 기세를 꺾는 소리를 꺼냈다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0081",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000863",
+          "source": "私はとっさに断る理由も思いつかず、",
+          "target": "나는 당장 거절할 이유도 떠오르지 않아"
+        },
+        {
+          "id": "last_gendai02.mjo::000867",
+          "source": "不自然さを見せない為にも頷くしかなかった。",
+          "target": "수상해 보이지 않으려면 고개를 끄덕일 수밖에 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0082",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000874",
+          "source": "「ああ…ええ、構いませんよ」",
+          "target": "「아… 네, 괜찮아요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0083",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000888",
+          "source": "「わー、ありがとうございます」",
+          "target": "「와, 감사합니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0084",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000893",
+          "source": "私の返事に彼女は朗らかな笑顔で応えた。",
+          "target": "내 대답에 그녀는 밝은 미소를 지었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0085",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000902",
+          "source": "しかしすぐにその笑みは引っ込んで、",
+          "target": "하지만 그 미소는 금세 사라졌고"
+        },
+        {
+          "id": "last_gendai02.mjo::000906",
+          "source": "迷いを感じている人間特有の俯き加減となる。",
+          "target": "마음에 망설임이 있는 사람 특유의 모습으로 고개를 숙였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0086",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000916",
+          "source": "こういう時は、向こうが話し始めるまで待ったほうが良い。",
+          "target": "이럴 때는 상대가 이야기를 꺼낼 때까지 기다리는 게 좋다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0087",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000921",
+          "source": "牧師としての経験からそう判断した私は、",
+          "target": "목사로서의 경험으로 그렇게 판단한 나는"
+        },
+        {
+          "id": "last_gendai02.mjo::000925",
+          "source": "しばらく黙って礼拝堂の周囲を歩き回った。",
+          "target": "잠시 말없이 예배당 주변을 걸었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0088",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000930",
+          "source": "６月の日差しはまだ柔らかくて、",
+          "target": "６월의 햇볕은 아직 부드럽고"
+        },
+        {
+          "id": "last_gendai02.mjo::000934",
+          "source": "散歩にはうってつけの清々しい気候だ。",
+          "target": "날씨도 상쾌해서 산책하기에 더없이 좋았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0089",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000939",
+          "source": "そしてしばらくすると、",
+          "target": "그리고 잠시 후"
+        },
+        {
+          "id": "last_gendai02.mjo::000943",
+          "source": "羽鳥真帆子は意を決したのか顔を上げて口を開いた。",
+          "target": "하토리 마호코는 마음을 정했는지 고개를 들고 입을 열었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0090",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000957",
+          "source": "「あの…実はわたしの友達が、",
+          "target": "「저기… 사실은 제 친구가"
+        },
+        {
+          "id": "last_gendai02.mjo::000961",
+          "source": "　少し元気ないみたいなんです」",
+          "target": "　좀 기운이 없어 보여요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0091",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000968",
+          "source": "「ほう、友達…ですか」",
+          "target": "「허어, 친구… 말인가요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0092",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::000982",
+          "source": "「はい。その人はわたしにとって大切な友達で、",
+          "target": "「네. 제게는 소중한 친구라서"
+        },
+        {
+          "id": "last_gendai02.mjo::000986",
+          "source": "　だからわたしも何かしてあげたくて…」",
+          "target": "　저도 뭔가 해 주고 싶어서요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0093",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001000",
+          "source": "「それで明日は日曜だし、",
+          "target": "「그래서 내일은 일요일이니까"
+        },
+        {
+          "id": "last_gendai02.mjo::001004",
+          "source": "　映画に行かないかって誘おうと思ったんですけど…」",
+          "target": "　영화 보러 가지 않겠냐고 하려고 했는데…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0094",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001018",
+          "source": "「けどなかなか上手くいかなくて、",
+          "target": "「그런데 좀처럼 잘 안 돼서"
+        },
+        {
+          "id": "last_gendai02.mjo::001022",
+          "source": "　それでやっぱり迷惑かなーとか思っちゃったりして」",
+          "target": "　역시 귀찮으려나 싶기도 하고요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0095",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001029",
+          "source": "「ふむふむ…なるほどね」",
+          "target": "「흐음… 그렇군요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0096",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001039",
+          "source": "私は相槌を打ちながら、",
+          "target": "나는 맞장구를 치면서"
+        },
+        {
+          "id": "last_gendai02.mjo::001043",
+          "source": "羽鳥真帆子の話の内容について素早く推測を重ねる。",
+          "target": "하토리 마호코의 이야기에 대해 재빨리 추측을 거듭했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0097",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001048",
+          "source": "彼女の言う『大切な友達』に該当するのは、",
+          "target": "내가 알기로 그녀가 말한 『소중한 친구』에"
+        },
+        {
+          "id": "last_gendai02.mjo::001052",
+          "source": "私の知る限り二人しか居ない。",
+          "target": "해당하는 사람은 둘뿐이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0098",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001057",
+          "source": "すなわち、春日井詩菜か三沢信哉のいずれかだろう。",
+          "target": "즉 가스가이 시이나 아니면 미사와 신야일 것이다."
+        },
+        {
+          "id": "last_gendai02.mjo::001062",
+          "source": "そしてこの場合だと恐らく後者の方だと思われる。",
+          "target": "그리고 이 경우에는 아마 후자일 듯하다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0099",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001067",
+          "source": "何故なら昨夜三沢信哉は、",
+          "target": "어젯밤 미사와 신야는"
+        },
+        {
+          "id": "last_gendai02.mjo::001071",
+          "source": "上条暮葉が彼の級友である田村奈那子の首を刈る瞬間を",
+          "target": "가미조 쿠레하가 같은 반 친구 다무라 나나코의 목을 베는 순간을"
+        },
+        {
+          "id": "last_gendai02.mjo::001075",
+          "source": "目撃していたから。",
+          "target": "목격했기 때문이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0100",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001080",
+          "source": "普通の神経の持ち主なら、",
+          "target": "보통의 신경을 가진 사람이라면"
+        },
+        {
+          "id": "last_gendai02.mjo::001084",
+          "source": "あんなものを目にして平静でいられるわけがない。",
+          "target": "그런 것을 보고 평정심을 유지할 수 있을 리 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0101",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001091",
+          "source": "「（羽鳥真帆子の様子からして、",
+          "target": "「(하토리 마호코의 태도를 보니"
+        },
+        {
+          "id": "last_gendai02.mjo::001095",
+          "source": "　そのことを話したわけではなさそうだな）」",
+          "target": "　그 이야기를 하지는 않은 모양이군)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "자신"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "aside",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0102",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001100",
+          "source": "話しても信じてもらえないと思ったのか、",
+          "target": "말해도 믿어 주지 않을 거라 생각했는지"
+        },
+        {
+          "id": "last_gendai02.mjo::001104",
+          "source": "それとも羽鳥真帆子を気遣ってのことなのか。",
+          "target": "아니면 하토리 마호코를 배려한 것인지."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0103",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001109",
+          "source": "ともかく、大体の事情は推察できた。",
+          "target": "어쨌든 대강의 사정은 짐작할 수 있었다."
+        },
+        {
+          "id": "last_gendai02.mjo::001113",
+          "source": "あとはこの状況をどう利用できるかという問題だが…",
+          "target": "문제는 이 상황을 어떻게 이용하느냐인데…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0104",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001120",
+          "source": "「（そういえばさっき、",
+          "target": "「(그러고 보니 아까"
+        },
+        {
+          "id": "last_gendai02.mjo::001124",
+          "source": "　映画に誘おうとか言っていたな）」",
+          "target": "　영화 보러 가자고 한다고 했었지)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "자신"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "aside",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0105",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001129",
+          "source": "この街には映画館がない。",
+          "target": "이 마을에는 영화관이 없다."
+        },
+        {
+          "id": "last_gendai02.mjo::001133",
+          "source": "一番近い映画館だと、橋を渡った隣町になる。",
+          "target": "가장 가까운 영화관은 다리를 건너 이웃 마을에 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0106",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001138",
+          "source": "明日は日曜で、映画を見に行くという人間も多いだろう。",
+          "target": "내일은 일요일이니 영화를 보러 가는 사람도 많을 것이다."
+        },
+        {
+          "id": "last_gendai02.mjo::001142",
+          "source": "だとすれば前売り券を買っておいた方が安心だ。",
+          "target": "그렇다면 예매권을 사 두는 편이 안심이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0107",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001147",
+          "source": "そしてこの街で映画の前売り券が買えるのは、",
+          "target": "그리고 이 마을에서 영화 예매권을 살 수 있는 곳은"
+        },
+        {
+          "id": "last_gendai02.mjo::001151",
+          "source": "海沿いの街外れにあるコンビニだけ…",
+          "target": "바닷가 외곽에 있는 편의점뿐…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0108",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001158",
+          "source": "「（…使えるかもしれない）」",
+          "target": "「(…이용할 수 있겠군)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "자신"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "aside",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0109",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001163",
+          "source": "私は瞬時に羽鳥真帆子の確保プランを立てて、",
+          "target": "나는 순식간에 하토리 마호코를 확보할 계획을 세우고"
+        },
+        {
+          "id": "last_gendai02.mjo::001167",
+          "source": "彼女を罠に誘導する言葉を紡ぎ出す。",
+          "target": "그녀를 함정으로 유도할 말을 꺼냈다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0110",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001178",
+          "source": "「いいじゃないですか。",
+          "target": "「좋지 않습니까."
+        },
+        {
+          "id": "last_gendai02.mjo::001182",
+          "source": "　映画、誘ってみてはいかがですか？」",
+          "target": "　영화 보러 가자고 해 보지 그래요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0111",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001196",
+          "source": "「えぇっ。で、でも…",
+          "target": "「네에? 하, 하지만…"
+        },
+        {
+          "id": "last_gendai02.mjo::001200",
+          "source": "　邪魔に思われたりしませんか？」",
+          "target": "　방해된다고 생각하지 않을까요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0112",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001207",
+          "source": "「大丈夫ですよ。あなたの大切なお友達は、",
+          "target": "「괜찮아요. 그 소중한 친구도"
+        },
+        {
+          "id": "last_gendai02.mjo::001211",
+          "source": "　きっとあなたのことを邪魔に思ったりはしません」",
+          "target": "　분명 귀찮게 여기지는 않을 겁니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0113",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001218",
+          "source": "「そのお友達もあなたのことを",
+          "target": "「그 친구도"
+        },
+        {
+          "id": "last_gendai02.mjo::001222",
+          "source": "　同じように大切に思っているのならね」",
+          "target": "　똑같이 소중하게 생각한다면 말이지요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0114",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001236",
+          "source": "「あっ…」",
+          "target": "「아…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0115",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001241",
+          "source": "反射的に飛び出したもっともらしい台詞に、",
+          "target": "반사적으로 튀어나온 그럴듯한 말에"
+        },
+        {
+          "id": "last_gendai02.mjo::001245",
+          "source": "羽鳥真帆子は目を見開いた。",
+          "target": "하토리 마호코는 눈을 크게 떴다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0116",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001250",
+          "source": "私は彼女の気持ちを乗せる為、",
+          "target": "나는 그녀의 마음을 북돋으려고"
+        },
+        {
+          "id": "last_gendai02.mjo::001254",
+          "source": "更なる言葉を並べようと口を開いて…",
+          "target": "말을 더 보태려다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0117",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001261",
+          "source": "「…求めよ、さらば与えられん」",
+          "target": "「…구하라, 그러면 얻으리라」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0118",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001275",
+          "source": "「えっ？」",
+          "target": "「네?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0119",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001282",
+          "source": "「尋ねよ、さらば見出さん。",
+          "target": "「찾으라, 그러면 찾으리라."
+        },
+        {
+          "id": "last_gendai02.mjo::001286",
+          "source": "　門を叩け、さらば開かれん」",
+          "target": "　문을 두드리라, 그러면 열리리라」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0120",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001291",
+          "source": "…そんな言葉が口をついて出た。",
+          "target": "…그런 말이 입에서 흘러나왔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0121",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001305",
+          "source": "「それ、どこかで聞いたことがある気がします。",
+          "target": "「어디선가 들어 본 말 같아요."
+        },
+        {
+          "id": "last_gendai02.mjo::001309",
+          "source": "　もしかして聖書の言葉ですか？」",
+          "target": "　혹시 성경에 나오는 말인가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0122",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001316",
+          "source": "「ええ…マタイの福音書、第７章。",
+          "target": "「네… 마태복음 ７장에 나오는"
+        },
+        {
+          "id": "last_gendai02.mjo::001320",
+          "source": "　聖書の中でも特に有名な言葉の一つですよ」",
+          "target": "　성경에서도 특히 유명한 구절 중 하나예요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0123",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001327",
+          "source": "「迷わずひたすら神に祈って救いを求めれば、",
+          "target": "「망설임 없이 오로지 하나님께 기도하며 구원을 청하면"
+        },
+        {
+          "id": "last_gendai02.mjo::001331",
+          "source": "　神は必ず応えてくださる…」",
+          "target": "　하나님은 반드시 응답해 주신다…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0124",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001338",
+          "source": "「転じて、与えられるのを待つのではなく、",
+          "target": "「다시 말해, 받기만을 기다리지 말고"
+        },
+        {
+          "id": "last_gendai02.mjo::001342",
+          "source": "　自分から積極的に努力する必要があるという",
+          "target": "　스스로 적극적으로 노력해야 한다는"
+        },
+        {
+          "id": "last_gendai02.mjo::001346",
+          "source": "　意味でもあります」",
+          "target": "　뜻이기도 하지요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0125",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001360",
+          "source": "「そうなんですか…うん、いい言葉ですね」",
+          "target": "「그렇군요… 네, 좋은 말이네요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0126",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001365",
+          "source": "確かに、我ながら今の彼女に贈るには、",
+          "target": "내가 생각해도 확실히 지금의 그녀에게 건네기에"
+        },
+        {
+          "id": "last_gendai02.mjo::001369",
+          "source": "ふさわしい言葉だと思えた。",
+          "target": "알맞은 말이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0127",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001374",
+          "source": "だが私は言ってしまってから、激しく後悔を覚える。",
+          "target": "하지만 나는 말을 내뱉고 나서 몹시 후회했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0128",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001379",
+          "source": "何故ならこの言葉は、",
+          "target": "예전에 유에도"
+        },
+        {
+          "id": "last_gendai02.mjo::001383",
+          "source": "かつて悠絵が私に告げた言葉でもあったから…",
+          "target": "내게 이 말을 해 주었기 때문이다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0129",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001397",
+          "source": "「…わかりました。わたし、勇気を出して",
+          "target": "「…알겠어요. 용기를 내서"
+        },
+        {
+          "id": "last_gendai02.mjo::001401",
+          "source": "　もう一度信くんを映画に誘ってみます」",
+          "target": "　신에게 다시 영화 보러 가자고 할게요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0130",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001408",
+          "source": "「そうですね。それがいいでしょう…」",
+          "target": "「그래요. 그러는 게 좋겠네요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0131",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001413",
+          "source": "…ともかく、思惑通りに事は運んだ。",
+          "target": "…어쨌든 일은 생각대로 흘러갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0132",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001418",
+          "source": "私は頭を切り替えて、",
+          "target": "나는 생각을 전환하고"
+        },
+        {
+          "id": "last_gendai02.mjo::001422",
+          "source": "羽鳥真帆子を誘導するべく話を続ける。",
+          "target": "하토리 마호코를 유도하기 위해 말을 이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0133",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001427",
+          "source": "彼女を人気のないところまでおびき寄せて、",
+          "target": "인적 없는 곳으로 그녀를 꾀어내"
+        },
+        {
+          "id": "last_gendai02.mjo::001431",
+          "source": "拉致する為に。",
+          "target": "납치하기 위해."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0134",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001438",
+          "source": "「ところで、映画に誘うなら",
+          "target": "「그런데 영화 보러 가자고 할 거라면"
+        },
+        {
+          "id": "last_gendai02.mjo::001442",
+          "source": "　前売り券を買った方がいいですよ」",
+          "target": "　예매권을 사 두는 편이 좋겠어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0135",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001456",
+          "source": "「前売り券ですか？」",
+          "target": "「예매권이요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0136",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001463",
+          "source": "「明日は日曜ですし、映画館も混んでるでしょう？」",
+          "target": "「내일은 일요일이니 영화관도 붐빌 테니까요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0137",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001470",
+          "source": "「確実に席を確保するなら、",
+          "target": "「확실히 자리를 잡으려면"
+        },
+        {
+          "id": "last_gendai02.mjo::001474",
+          "source": "　今日中に前売り券を買っておいた方がいいと思いまして」",
+          "target": "　오늘 안에 예매권을 사 두는 게 좋을 것 같아서요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0138",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001488",
+          "source": "「なるほど、そうですよね。",
+          "target": "「아, 그렇겠네요."
+        },
+        {
+          "id": "last_gendai02.mjo::001492",
+          "source": "　でも前売り券ってどこで売ってるのかな…」",
+          "target": "　그런데 예매권은 어디서 팔지…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0139",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001499",
+          "source": "「…この辺だと、海沿い近くのコンビニが",
+          "target": "「…이 근처라면 바닷가에 있는 편의점에서"
+        },
+        {
+          "id": "last_gendai02.mjo::001503",
+          "source": "　映画のチケットを取り扱ってますよ」",
+          "target": "　영화표를 팔고 있어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0140",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001517",
+          "source": "「そうなんですか。何から何までありがとうございます～」",
+          "target": "「그렇군요. 이것저것 알려 주셔서 감사해요～」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 마호코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "교사/목사에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0141",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001524",
+          "source": "「いえいえ、どういたしまして」",
+          "target": "「아니에요, 천만에요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 마호코"
+        ],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "친절한 목사의 온화한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見",
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0142",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001529",
+          "source": "羽鳥真帆子は私の企みに気付くことなく、",
+          "target": "하토리 마호코는 내 속셈도 모른 채"
+        },
+        {
+          "id": "last_gendai02.mjo::001533",
+          "source": "嬉しそうに礼を言った。",
+          "target": "기쁜 듯이 인사했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0143",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001538",
+          "source": "単純な娘だ…まんまと罠にはめられたことも知らずに。",
+          "target": "단순한 아이다… 감쪽같이 함정에 걸려든 줄도 모르고."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_gendai02.mjo::u0144",
+      "fields": [
+        {
+          "id": "last_gendai02.mjo::001543",
+          "source": "これでお膳立ては整った。",
+          "target": "이제 준비는 끝났다."
+        },
+        {
+          "id": "last_gendai02.mjo::001547",
+          "source": "後は例のコンビニの近くで待ち伏せしていればいい――",
+          "target": "남은 건 그 편의점 근처에 숨어서 기다리는 것뿐――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [],
+        "relationship": "학교의 목사/학생; 시오미는 마호코를 납치할 속셈을 숨긴 채 상담",
+        "story_phase": "현재편 2: 토요일 방과 후, 복도에서 예배당 주변 산책; 영화 예매권으로 유인 계획",
+        "voice": "냉정하고 계산적인 1인칭 독백; 기억이 떠오를 때 동요",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "last_gendai02.mjo::u0001-u0196 read; u0144 plan completion boundary; preceding last_gendai01 complete"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "反魂の法 / 反魂",
+      "target": "반혼술 / 반혼",
+      "evidence": [
+        "last_gendai02.mjo::u0006-u0014",
+        "last_kako12.mjo::u0380-u0384"
+      ],
+      "status": "coordinator_accepted_session3"
+    },
+    {
+      "source": "首刈り女",
+      "target": "목 베는 여자",
+      "evidence": [
+        "last_gendai02.mjo::u0011"
+      ],
+      "status": "coordinator_accepted_session3"
+    },
+    {
+      "source": "求めよ、さらば与えられん / 尋ねよ、さらば見出さん / 門を叩け、さらば開かれん",
+      "target": "구하라, 그러면 얻으리라 / 찾으라, 그러면 찾으리라 / 문을 두드리라, 그러면 열리리라",
+      "evidence": [
+        "last_gendai02.mjo::u0117-u0119",
+        "last_kako12.mjo::u0386-u0387"
+      ],
+      "status": "coordinator_accepted_session3"
+    },
+    {
+      "source": "田村奈那子",
+      "target": "다무라 나나코",
+      "evidence": [
+        "last_gendai02.mjo::u0005"
+      ],
+      "status": "standard_reading_provisional; phonetic evidence still to be confirmed"
+    }
+  ],
+  "inline_records": [],
+  "semantic_notes": [
+    "Present-day student setting follows user university-level seminary clarification; ordinary target 娘 rendered 아이 as adult speaker perspective, no asserted numeric age.",
+    "u0024 彼女の幼なじみ refers to Mahoko by u0025 and frozen Shinya relationship; no claim Shinya is Shiina childhood friend.",
+    "神 uses 하나님 in Protestant pastor/mission-school context; 神 as a separate in-world sense requires per-occurrence review."
+  ],
+  "runtime_verified": false,
+  "coordinator_semantic_review": {
+    "status": "accepted_with_targeted_fixes_applied",
+    "reviewer_thread_id": "01a16335-c355-7c83-ad79-53e1812faa34",
+    "scope": "u0001-u0144",
+    "fixes": [
+      "u0022 subject unambiguous across two fields",
+      "u0112-u0113 natural object and unnecessary pronoun omission",
+      "u0117/u0119 canonical repeated scripture"
+    ],
+    "runtime_verified": false
+  }
+}

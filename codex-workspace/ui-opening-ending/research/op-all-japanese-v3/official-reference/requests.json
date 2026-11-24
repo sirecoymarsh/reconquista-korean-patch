@@ -1,0 +1,24 @@
+[
+  {
+    "file": "getchu.html",
+    "url": "https://www.getchu.com/soft.phtml?id=375925",
+    "status": 200,
+    "bytes": 12308
+  },
+  {
+    "file": "archived-official.html",
+    "url": "https://web.archive.org/web/20160716153107id_/http://cotton-soft.com/gameproducts/02_recon/index.htm",
+    "status": 200,
+    "bytes": 4954
+  },
+  {
+    "file": "cover.webp",
+    "url": "https://vnclub.org/img/cv/11/96111.webp?vn=v471&w=512",
+    "error": "HTTP Error 410: Gone"
+  },
+  {
+    "file": "mahoko.html",
+    "url": "https://vnclub.org/character/c31148/",
+    "error": "HTTP Error 410: Gone"
+  }
+]

@@ -1,0 +1,837 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "entries": [
+    {
+      "entry": "staffroom_off.rct",
+      "mask_entry": null,
+      "source_sha256": "1cbec35657e708b570a73e9ba7d6aff26e18665da9e07ea80d657bb4a51df59a",
+      "source_mask_sha256": null,
+      "source_size": [
+        800,
+        600
+      ],
+      "source_region": [
+        16,
+        3,
+        262,
+        55
+      ],
+      "source_glyph_pixels": 4381,
+      "target_ink_bounds": [
+        27,
+        12,
+        199,
+        58
+      ],
+      "donor": {
+        "reference_xs": [
+          540,
+          550,
+          560
+        ],
+        "same_row_pixels_identical": true,
+        "striped_header_original_rows": [
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            77,
+            77,
+            77,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            77,
+            77,
+            77,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            77,
+            77,
+            77,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            77,
+            77,
+            77,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            76,
+            76,
+            76,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            76,
+            76,
+            76,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            75,
+            75,
+            75,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            74,
+            74,
+            74,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            73,
+            73,
+            73,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            72,
+            72,
+            72,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            70,
+            70,
+            70,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            68,
+            68,
+            68,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            66,
+            66,
+            66,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            63,
+            63,
+            63,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            61,
+            61,
+            61,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            58,
+            58,
+            58,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            54,
+            54,
+            54,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            51,
+            51,
+            51,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            47,
+            47,
+            47,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            43,
+            43,
+            43,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            40,
+            40,
+            40,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            36,
+            36,
+            36,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            31,
+            31,
+            31,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            27,
+            27,
+            27,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            23,
+            23,
+            23,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            19,
+            19,
+            19,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            15,
+            15,
+            15,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ]
+        ]
+      },
+      "protected_pixel_diff_count": 0,
+      "persisted_rgba_exact": true,
+      "palette_preserved": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::staffroom_off.rct::panel-title",
+          "source": "Staffroom",
+          "target": "스태프룸",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "other_text_in_asset": "pending; title or decorative quote only"
+    },
+    {
+      "entry": "staffroom_on.rct",
+      "mask_entry": null,
+      "source_sha256": "0e0b10a0380ac818f603940f809398e80ca5a29e55e50feddac81bce7ab6463c",
+      "source_mask_sha256": null,
+      "source_size": [
+        800,
+        600
+      ],
+      "source_region": [
+        16,
+        3,
+        262,
+        55
+      ],
+      "source_glyph_pixels": 4381,
+      "target_ink_bounds": [
+        27,
+        12,
+        199,
+        58
+      ],
+      "donor": {
+        "reference_xs": [
+          540,
+          550,
+          560
+        ],
+        "same_row_pixels_identical": true,
+        "striped_header_original_rows": [
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            77,
+            77,
+            77,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            77,
+            77,
+            77,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            77,
+            77,
+            77,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            77,
+            77,
+            77,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            76,
+            76,
+            76,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            76,
+            76,
+            76,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            75,
+            75,
+            75,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            74,
+            74,
+            74,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            73,
+            73,
+            73,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            72,
+            72,
+            72,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            70,
+            70,
+            70,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            68,
+            68,
+            68,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            66,
+            66,
+            66,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            63,
+            63,
+            63,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            61,
+            61,
+            61,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            58,
+            58,
+            58,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            54,
+            54,
+            54,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            51,
+            51,
+            51,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            47,
+            47,
+            47,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            43,
+            43,
+            43,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            40,
+            40,
+            40,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            36,
+            36,
+            36,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            31,
+            31,
+            31,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            27,
+            27,
+            27,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            23,
+            23,
+            23,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            19,
+            19,
+            19,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ],
+          [
+            15,
+            15,
+            15,
+            255
+          ],
+          [
+            0,
+            0,
+            0,
+            255
+          ]
+        ]
+      },
+      "protected_pixel_diff_count": 0,
+      "persisted_rgba_exact": true,
+      "palette_preserved": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::staffroom_on.rct::panel-title",
+          "source": "Staffroom",
+          "target": "스태프룸",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "other_text_in_asset": "pending; title or decorative quote only"
+    },
+    {
+      "entry": "バックログ画面.rct",
+      "mask_entry": "バックログ画面_.rc8",
+      "source_sha256": "12bfa456e538397ea1ea4ca0a89fa0dea04046e91e6380002e3719e1c45012d9",
+      "source_mask_sha256": "3a936e974b1c670182408160676600aa5c02618cf881b9094896a96e5f15fea1",
+      "source_size": [
+        800,
+        600
+      ],
+      "source_region": [
+        28,
+        500,
+        550,
+        73
+      ],
+      "source_glyph_pixels": 9002,
+      "target_ink_bounds": [
+        41,
+        505,
+        229,
+        565
+      ],
+      "donor": {
+        "reference_xs": [
+          580,
+          600,
+          620
+        ],
+        "same_row_pixels_identical": true,
+        "rgba": [
+          0,
+          0,
+          0,
+          165
+        ],
+        "glyph_style": "Foreground145/alpha108 composites onto original background to RGB77/alpha203, matching source peak."
+      },
+      "protected_pixel_diff_count": 0,
+      "persisted_rgba_exact": true,
+      "palette_preserved": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::バックログ画面.rct::decorative-quote",
+          "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+          "target": "죽음과 무덤도 불못에 던져졌다.\n이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은\n누구든 불못에 던져졌다.",
+          "translator_model": "Codex internal"
+        }
+      ],
+      "other_text_in_asset": "pending; title or decorative quote only"
+    }
+  ],
+  "output_hashes": {
+    "staffroom_off.rct": "7eaf07e7656e9a440fb09dad3844118c6ad203218bf51d0d4ecf908adf67f9ed",
+    "staffroom_on.rct": "5ecb9c70dd0952416cdbdb3e25d6c7e4323c93a00abbfc05e34f61097bd8b258",
+    "バックログ画面.rct": "34df126ed423c9f79327e331f916343baab589b46c524ed30b4800ae841ebedb",
+    "バックログ画面_.rc8": "b662515dc750054502057ab556270569d9cca23628f11898e2f2b224523bc672"
+  },
+  "semantic_labels": 3,
+  "structural_pass": true,
+  "visual_pass": true,
+  "runtime_pass": false,
+  "consumers": {
+    "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\research\\extracted\\scenario\\staffroom.mjo": "42063c5e5ce5ef66baa9e8c8ce4c1cd01f18fb186e0d75dff3a6e9b8565196d1",
+    "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\research\\extracted\\scenario\\history.mjo": "3488100045c118a150abd0cec7b3c5105420875e1408a0710a318dc7cdeab0f2",
+    "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\research\\extracted\\fastdata\\history.cfg": "2ad1488023a9dd3129de63f1385d42e629d84f02a5d068abfc73727de78cbb02"
+  },
+  "font_hashes": {
+    "NotoSerifCJKkr-Regular.otf": "77b4b741f864d27f15e90f275b17106dde90b2ad28f82bab72dc95805db5fb42",
+    "NotoSansCJKkr-Regular.otf": "6bcb2a0703aa137e874fc2dffa85f6c21ba9a67fa329e81b8c801663af7e992a"
+  },
+  "style_note": "First title syllable retains the original red initial; footer retains quiet gray and alpha. Original game logo preserved.",
+  "visual_review": {
+    "reviewer": "Codex internal",
+    "reviewed_local": "2026-10-23T05:16:26.613275+09:00",
+    "evidence": [
+      "preview/staffroom_off.png",
+      "preview/staffroom_off.source-clean-final-3x.png",
+      "preview/バックログ画面.on-dark.png",
+      "preview/バックログ画面.source-clean-final-3x.png"
+    ],
+    "result": "Native-size type is readable and source residue absent. Staffroom header stripes, red initial and brand line preserved; quiet gray footer stays within original visual area and preserves logo. Other staff text remains pending."
+  }
+}

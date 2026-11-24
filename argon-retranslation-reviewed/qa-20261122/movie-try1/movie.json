@@ -1,0 +1,88 @@
+{
+ "mode": "movie",
+ "started": "2026-11-22 01:32:59",
+ "nv_before": 1143,
+ "runs": [
+  {
+   "label": "movie",
+   "pid": 11376,
+   "steps": [
+    {
+     "step": "arrived 5414",
+     "t": 28.4,
+     "secs": 8.3
+    },
+    {
+     "step": "windows before",
+     "t": 31.6,
+     "classes": [
+      "CicLoaderWndClass",
+      "CiceroUIWndFrame",
+      "Edit",
+      "IME",
+      "MAJIRO_EXEC_CLASS",
+      "MSCTFIME UI",
+      "ReconquistaInGameFlow",
+      "Touch Tooltip Window",
+      "UAC Input Indicator",
+      "UAC_InputIndicatorOverlayWnd"
+     ]
+    },
+    {
+     "step": "movie started after click",
+     "t": 32.2,
+     "click": 1,
+     "new_windows": [],
+     "loud": true
+    },
+    {
+     "step": "movie ended",
+     "t": 47.2,
+     "seconds": 15.0,
+     "loud_spans": [
+      [
+       23.69,
+       29.66
+      ]
+     ],
+     "windows_seen": []
+    },
+    {
+     "step": "after movie",
+     "t": 58.3,
+     "loads_after": 2393
+    }
+   ],
+   "dialogs": [],
+   "gpu": {
+    "base": 1143,
+    "hits": []
+   },
+   "new_review_folders": [
+    "savedata-review-11376-236081609"
+   ],
+   "mem_mb_end": 1411,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.7534,
+    "loud_spans": [
+     [
+      23.69,
+      29.66
+     ],
+     [
+      55.31,
+      58.38
+     ]
+    ],
+    "errors": []
+   },
+   "log_mb": 0.3,
+   "log_errors": []
+  }
+ ],
+ "nv_after": 1143,
+ "ended": "2026-11-22 01:34:00"
+}

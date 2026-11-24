@@ -1,0 +1,1276 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "files": [
+    {
+      "file": "setup.exe",
+      "source_sha256": "d0bdfac202c48da0bb4491b16b66c587fa6efb4ac3eb32dbb816922da74ec2e3",
+      "candidate_sha256": "41b8ad992a52075f8848fd7a97823a90ca37de1d702692a8ab5bdc99d50e9d7a",
+      "changed_resources": 6,
+      "nonresource_sections": [
+        {
+          "name": ".text",
+          "unchanged": true
+        },
+        {
+          "name": ".rdata",
+          "unchanged": true
+        },
+        {
+          "name": ".data",
+          "unchanged": true
+        },
+        {
+          "name": ".rsrc",
+          "unchanged": false
+        }
+      ],
+      "entrypoint_imports_unchanged": true,
+      "resources_exact_allowlist": true,
+      "untouched_resources_identical": true
+    },
+    {
+      "file": "install.exe",
+      "source_sha256": "87b10fd242e14e26f7f83af43447579add36b1730d4155bddc7afd072faf0c1f",
+      "candidate_sha256": "cd928f4ccbdf9fe69a9d647d6c5f2db2345af8932bd12febca8f9aec5d05a1a0",
+      "changed_resources": 6,
+      "nonresource_sections": [
+        {
+          "name": ".text",
+          "unchanged": true
+        },
+        {
+          "name": ".rdata",
+          "unchanged": true
+        },
+        {
+          "name": ".data",
+          "unchanged": true
+        },
+        {
+          "name": ".rsrc",
+          "unchanged": false
+        }
+      ],
+      "entrypoint_imports_unchanged": true,
+      "resources_exact_allowlist": true,
+      "untouched_resources_identical": true
+    }
+  ],
+  "semantic_fields": 40,
+  "resources_changed": 12,
+  "updates": [
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "COPYING",
+      "language": 1041,
+      "ids": [
+        "setup.exe::type5::COPYING::1041::caption",
+        "setup.exe::type5::COPYING::1041::control:2:2"
+      ],
+      "source_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2428502720,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          194,
+          99
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "파일 복사 중...",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1010,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress1",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 1012,
+            "style": 1342308865,
+            "exstyle": 0,
+            "rect": [
+              5,
+              65,
+              185,
+              10
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "コピー中ファイル名",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              140,
+              80,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1020,
+            "style": 1342177283,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              180,
+              40
+            ],
+            "class": "SysAnimate32",
+            "text": "Animate1",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "39212b0f5f204edee780c13b07c5a37d05075913b5064f37fb442698c527a332"
+    },
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "COPYINGDELUX",
+      "language": 1041,
+      "ids": [
+        "setup.exe::type5::COPYINGDELUX::1041::caption",
+        "setup.exe::type5::COPYINGDELUX::1041::control:2:2"
+      ],
+      "source_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2428502720,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          194,
+          109
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "파일 복사 중...",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1010,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress1",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 1012,
+            "style": 1342308865,
+            "exstyle": 0,
+            "rect": [
+              5,
+              75,
+              185,
+              10
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "コピー中ファイル名",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              140,
+              90,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1019,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              60,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress2",
+            "extra": ""
+          },
+          {
+            "index": 4,
+            "id": 1020,
+            "style": 1342177283,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              180,
+              40
+            ],
+            "class": "SysAnimate32",
+            "text": "Animate1",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "af2ca820f959d1b67ee07570c3e99186508be34f6e0095711429d969d5b25c8f"
+    },
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "MAKESHORTCUT",
+      "language": 1041,
+      "ids": [
+        "setup.exe::type5::MAKESHORTCUT::1041::caption",
+        "setup.exe::type5::MAKESHORTCUT::1041::control:1:0",
+        "setup.exe::type5::MAKESHORTCUT::1041::control:2:1",
+        "setup.exe::type5::MAKESHORTCUT::1041::control:65535:2",
+        "setup.exe::type5::MAKESHORTCUT::1041::control:1007:3"
+      ],
+      "source_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2160591040,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          174,
+          75
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "바로 가기 만들기",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242817,
+            "exstyle": 0,
+            "rect": [
+              65,
+              55,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "확인",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              120,
+              55,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              165,
+              20
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "바탕 화면에 게임 실행용 바로 가기를\n만들 수 있습니다.",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1007,
+            "style": 1342242819,
+            "exstyle": 0,
+            "rect": [
+              5,
+              35,
+              160,
+              10
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "바탕 화면에 바로 가기 만들기",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "61068a4e59d71ab59232d97f341a020e964beea91d4b1fb0f2aa916fe75ffd2b"
+    },
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "SETUP",
+      "language": 1041,
+      "ids": [
+        "setup.exe::type5::SETUP::1041::caption",
+        "setup.exe::type5::SETUP::1041::control:1:0",
+        "setup.exe::type5::SETUP::1041::control:2:1",
+        "setup.exe::type5::SETUP::1041::control:1021:3",
+        "setup.exe::type5::SETUP::1041::control:65535:5",
+        "setup.exe::type5::SETUP::1041::control:65535:6"
+      ],
+      "source_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2429026496,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          203,
+          95
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "설치 폴더 지정",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              115,
+              75,
+              40,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "다음",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              160,
+              75,
+              40,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 1000,
+            "style": 1350631552,
+            "exstyle": 0,
+            "rect": [
+              10,
+              26,
+              130,
+              12
+            ],
+            "class": {
+              "ordinal": 129
+            },
+            "text": "",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1021,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              145,
+              25,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "찾아보기(&B)",
+            "extra": ""
+          },
+          {
+            "index": 4,
+            "id": 65535,
+            "style": 1342177287,
+            "exstyle": 0,
+            "rect": [
+              5,
+              15,
+              195,
+              30
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "",
+            "extra": ""
+          },
+          {
+            "index": 5,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              191,
+              20
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "[찾아보기]에서 기존 폴더를 선택합니다.\n[다음]을 누르면 설치를 시작합니다.",
+            "extra": ""
+          },
+          {
+            "index": 6,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              10,
+              5,
+              190,
+              8
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "설치할 폴더를 지정해 주세요.",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "4c9486b9e86a22c183e2a529e6cbc3d2673bd6c18f814a2ef5e81b20fed1eee2"
+    },
+    {
+      "file": "setup.exe",
+      "type": 5,
+      "name": "UNINSTALL",
+      "language": 1041,
+      "ids": [
+        "setup.exe::type5::UNINSTALL::1041::caption",
+        "setup.exe::type5::UNINSTALL::1041::control:1:0",
+        "setup.exe::type5::UNINSTALL::1041::control:2:1",
+        "setup.exe::type5::UNINSTALL::1041::control:1007:3"
+      ],
+      "source_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2160591040,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          215,
+          89
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "삭제 확인",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242817,
+            "exstyle": 0,
+            "rect": [
+              105,
+              70,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "확인",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              160,
+              70,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 1026,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              9,
+              10,
+              197,
+              45
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "フォルダ削除メッセージ",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1007,
+            "style": 1342242819,
+            "exstyle": 0,
+            "rect": [
+              5,
+              60,
+              95,
+              10
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "저장 파일도 삭제",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "59b3737646e216952de84cead53866c62279f1f55e08ab218a70054d7575e085"
+    },
+    {
+      "file": "setup.exe",
+      "type": 6,
+      "name": 1,
+      "language": 1041,
+      "ids": [
+        "setup.exe::type6::1::1041::1"
+      ],
+      "source_sha256": "f21a1c14cc98e88f9107438e6ff340badbc4e344eeb5f5371a17df21d2d0f6f0",
+      "structure": {
+        "kind": "STRING",
+        "strings": [
+          "",
+          " 스크립트 엔진 MAJIRO (C) 2004-2005 越畑声太",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "output_sha256": "d96f5f0effb3537c98ff03d9c1505a7b535108ec6813b99b2e24eb074e7c1496"
+    },
+    {
+      "file": "install.exe",
+      "type": 5,
+      "name": "COPYING",
+      "language": 1041,
+      "ids": [
+        "install.exe::type5::COPYING::1041::caption",
+        "install.exe::type5::COPYING::1041::control:2:2"
+      ],
+      "source_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2428502720,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          194,
+          99
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "파일 복사 중...",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1010,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress1",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 1012,
+            "style": 1342308865,
+            "exstyle": 0,
+            "rect": [
+              5,
+              65,
+              185,
+              10
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "コピー中ファイル名",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              140,
+              80,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1020,
+            "style": 1342177283,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              180,
+              40
+            ],
+            "class": "SysAnimate32",
+            "text": "Animate1",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "39212b0f5f204edee780c13b07c5a37d05075913b5064f37fb442698c527a332"
+    },
+    {
+      "file": "install.exe",
+      "type": 5,
+      "name": "COPYINGDELUX",
+      "language": 1041,
+      "ids": [
+        "install.exe::type5::COPYINGDELUX::1041::caption",
+        "install.exe::type5::COPYINGDELUX::1041::control:2:2"
+      ],
+      "source_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2428502720,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          194,
+          109
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "파일 복사 중...",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1010,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress1",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 1012,
+            "style": 1342308865,
+            "exstyle": 0,
+            "rect": [
+              5,
+              75,
+              185,
+              10
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "コピー中ファイル名",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              140,
+              90,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1019,
+            "style": 1350565889,
+            "exstyle": 0,
+            "rect": [
+              5,
+              60,
+              185,
+              10
+            ],
+            "class": "msctls_progress32",
+            "text": "Progress2",
+            "extra": ""
+          },
+          {
+            "index": 4,
+            "id": 1020,
+            "style": 1342177283,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              180,
+              40
+            ],
+            "class": "SysAnimate32",
+            "text": "Animate1",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "af2ca820f959d1b67ee07570c3e99186508be34f6e0095711429d969d5b25c8f"
+    },
+    {
+      "file": "install.exe",
+      "type": 5,
+      "name": "MAKESHORTCUT",
+      "language": 1041,
+      "ids": [
+        "install.exe::type5::MAKESHORTCUT::1041::caption",
+        "install.exe::type5::MAKESHORTCUT::1041::control:1:0",
+        "install.exe::type5::MAKESHORTCUT::1041::control:2:1",
+        "install.exe::type5::MAKESHORTCUT::1041::control:65535:2",
+        "install.exe::type5::MAKESHORTCUT::1041::control:1007:3"
+      ],
+      "source_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2160591040,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          174,
+          75
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "바로 가기 만들기",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242817,
+            "exstyle": 0,
+            "rect": [
+              65,
+              55,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "확인",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              120,
+              55,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              5,
+              5,
+              165,
+              20
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "바탕 화면에 게임 실행용 바로 가기를\n만들 수 있습니다.",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1007,
+            "style": 1342242819,
+            "exstyle": 0,
+            "rect": [
+              5,
+              35,
+              160,
+              10
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "바탕 화면에 바로 가기 만들기",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "61068a4e59d71ab59232d97f341a020e964beea91d4b1fb0f2aa916fe75ffd2b"
+    },
+    {
+      "file": "install.exe",
+      "type": 5,
+      "name": "SETUP",
+      "language": 1041,
+      "ids": [
+        "install.exe::type5::SETUP::1041::caption",
+        "install.exe::type5::SETUP::1041::control:1:0",
+        "install.exe::type5::SETUP::1041::control:2:1",
+        "install.exe::type5::SETUP::1041::control:1021:3",
+        "install.exe::type5::SETUP::1041::control:65535:5",
+        "install.exe::type5::SETUP::1041::control:65535:6"
+      ],
+      "source_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2429026496,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          203,
+          95
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "설치 폴더 지정",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              115,
+              75,
+              40,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "다음",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              160,
+              75,
+              40,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 1000,
+            "style": 1350631552,
+            "exstyle": 0,
+            "rect": [
+              10,
+              26,
+              130,
+              12
+            ],
+            "class": {
+              "ordinal": 129
+            },
+            "text": "",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1021,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              145,
+              25,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "찾아보기(&B)",
+            "extra": ""
+          },
+          {
+            "index": 4,
+            "id": 65535,
+            "style": 1342177287,
+            "exstyle": 0,
+            "rect": [
+              5,
+              15,
+              195,
+              30
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "",
+            "extra": ""
+          },
+          {
+            "index": 5,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              5,
+              50,
+              191,
+              20
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "[찾아보기]에서 기존 폴더를 선택합니다.\n[다음]을 누르면 설치를 시작합니다.",
+            "extra": ""
+          },
+          {
+            "index": 6,
+            "id": 65535,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              10,
+              5,
+              190,
+              8
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "설치할 폴더를 지정해 주세요.",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "4c9486b9e86a22c183e2a529e6cbc3d2673bd6c18f814a2ef5e81b20fed1eee2"
+    },
+    {
+      "file": "install.exe",
+      "type": 5,
+      "name": "UNINSTALL",
+      "language": 1041,
+      "ids": [
+        "install.exe::type5::UNINSTALL::1041::caption",
+        "install.exe::type5::UNINSTALL::1041::control:1:0",
+        "install.exe::type5::UNINSTALL::1041::control:2:1",
+        "install.exe::type5::UNINSTALL::1041::control:1007:3"
+      ],
+      "source_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0",
+      "structure": {
+        "kind": "DIALOG",
+        "style": 2160591040,
+        "exstyle": 0,
+        "rect": [
+          0,
+          0,
+          215,
+          89
+        ],
+        "menu": "",
+        "class": "",
+        "caption": "삭제 확인",
+        "font": {
+          "points": 9,
+          "face": "Malgun Gothic"
+        },
+        "controls": [
+          {
+            "index": 0,
+            "id": 1,
+            "style": 1342242817,
+            "exstyle": 0,
+            "rect": [
+              105,
+              70,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "확인",
+            "extra": ""
+          },
+          {
+            "index": 1,
+            "id": 2,
+            "style": 1342242816,
+            "exstyle": 0,
+            "rect": [
+              160,
+              70,
+              50,
+              14
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "취소",
+            "extra": ""
+          },
+          {
+            "index": 2,
+            "id": 1026,
+            "style": 1342308352,
+            "exstyle": 0,
+            "rect": [
+              9,
+              10,
+              197,
+              45
+            ],
+            "class": {
+              "ordinal": 130
+            },
+            "text": "フォルダ削除メッセージ",
+            "extra": ""
+          },
+          {
+            "index": 3,
+            "id": 1007,
+            "style": 1342242819,
+            "exstyle": 0,
+            "rect": [
+              5,
+              60,
+              95,
+              10
+            ],
+            "class": {
+              "ordinal": 128
+            },
+            "text": "저장 파일도 삭제",
+            "extra": ""
+          }
+        ]
+      },
+      "output_sha256": "59b3737646e216952de84cead53866c62279f1f55e08ab218a70054d7575e085"
+    },
+    {
+      "file": "install.exe",
+      "type": 6,
+      "name": 1,
+      "language": 1041,
+      "ids": [
+        "install.exe::type6::1::1041::1"
+      ],
+      "source_sha256": "f21a1c14cc98e88f9107438e6ff340badbc4e344eeb5f5371a17df21d2d0f6f0",
+      "structure": {
+        "kind": "STRING",
+        "strings": [
+          "",
+          " 스크립트 엔진 MAJIRO (C) 2004-2005 越畑声太",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "output_sha256": "d96f5f0effb3537c98ff03d9c1505a7b535108ec6813b99b2e24eb074e7c1496"
+    }
+  ],
+  "deferred_fields": 36,
+  "dialog_font": "Malgun Gothic 9pt",
+  "source_control_rectangles_and_ids_unchanged": true,
+  "structural_pass": true,
+  "layout_visual_pass": true,
+  "runtime_pass": false,
+  "installer_executed": false,
+  "defender_scan_pending": false,
+  "release_ready": false,
+  "scope": "Static resource subset only. Dynamic captions/messages, launcher buttons, title lookup and actual installation/uninstall flow remain unaudited.",
+  "native_layout_report": "../../reports/installer-ui-v1-native-layout.json",
+  "layout_visual_review": "All5 distinct dialogs viewed at native resolution. Translated controls are legible and fit; unmodified dynamic Japanese placeholders remain explicitly pending. Inert template host only; installer EXEs were never executed.",
+  "defender_scan_pass": true,
+  "defender_report": "../../reports/installer-ui-v1-defender-scan.json"
+}

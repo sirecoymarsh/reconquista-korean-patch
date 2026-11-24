@@ -1,0 +1,363 @@
+﻿keys ['translator_model', 'base_manifest_sha256', 'base_scenario_sha256', 'chapters', 'edges', 'nodes', 'counts', 'method']
+counts {'chapters': 103, 'pages': 43886, 'choices': 40, 'branches': 91, 'viewpoints': 3}
+
+[도입부] 3 chapters, pages=4264
+  00_レコンキスタ_start              도입부 1              p=619   c=0 b=0 v=0
+  00_レコンキスタ_start_2            도입부 2              p=2013  c=4 b=10 v=1
+  00_レコンキスタ_start_3            도입부 3              p=1632  c=3 b=11 v=2
+
+[최종편 · 과거] 12 chapters, pages=4295
+  last_kako01                  최종편 · 과거 01        p=28    c=0 b=0 v=0
+  last_kako02                  최종편 · 과거 02        p=507   c=0 b=0 v=0
+  last_kako03                  최종편 · 과거 03        p=224   c=0 b=0 v=0
+  last_kako04                  최종편 · 과거 04        p=1015  c=0 b=0 v=0
+  last_kako05                  최종편 · 과거 05        p=130   c=0 b=0 v=0
+  last_kako06                  최종편 · 과거 06        p=462   c=0 b=0 v=0
+  last_kako07                  최종편 · 과거 07        p=444   c=0 b=0 v=0
+  last_kako08                  최종편 · 과거 08        p=459   c=1 b=2 v=0
+  last_kako09                  최종편 · 과거 09        p=235   c=0 b=0 v=0
+  last_kako10                  최종편 · 과거 10        p=152   c=0 b=0 v=0
+  last_kako11                  최종편 · 과거 11        p=250   c=0 b=0 v=0
+  last_kako12                  최종편 · 과거 12        p=389   c=0 b=0 v=0
+
+[최종편 · 현재] 16 chapters, pages=4447
+  last_gendai01                최종편 · 현재 01        p=111   c=0 b=0 v=0
+  last_gendai02                최종편 · 현재 02        p=469   c=2 b=4 v=0
+  last_gendai03                최종편 · 현재 03        p=300   c=1 b=2 v=0
+  last_gendai04                최종편 · 현재 04        p=186   c=0 b=0 v=0
+  last_gendai05                최종편 · 현재 05        p=225   c=0 b=0 v=0
+  last_gendai06                최종편 · 현재 06        p=60    c=0 b=0 v=0
+  last_gendai07                최종편 · 현재 07        p=96    c=0 b=0 v=0
+  last_gendai08                최종편 · 현재 08        p=107   c=0 b=0 v=0
+  last_gendai09                최종편 · 현재 09        p=287   c=0 b=0 v=0
+  last_gendai10                최종편 · 현재 10        p=393   c=0 b=0 v=0
+  last_gendai11                최종편 · 현재 11        p=159   c=0 b=0 v=0
+  last_gendai12                최종편 · 현재 12        p=230   c=0 b=0 v=0
+  last_gendai13                최종편 · 현재 13        p=134   c=0 b=0 v=0
+  last_gendai14                최종편 · 현재 14        p=210   c=0 b=0 v=0
+  last_gendai15                최종편 · 현재 15        p=411   c=0 b=0 v=0
+  last_gendai16                최종편 · 현재 16        p=1069  c=0 b=0 v=0
+
+[마키노 공통] 1 chapters, pages=1116
+  makino_kyoutu                마키노 공통             p=1116  c=3 b=6 v=0
+
+[신야 공통] 1 chapters, pages=630
+  shinya_kyoutu                신야 공통              p=630   c=1 b=2 v=0
+
+[쿠레하] 16 chapters, pages=5801
+  kureha_05                    쿠레하 05             p=183   c=0 b=0 v=0
+  kureha_06                    쿠레하 06             p=276   c=0 b=0 v=0
+  kureha_07                    쿠레하 07             p=211   c=0 b=0 v=0
+  kureha_08                    쿠레하 08             p=630   c=1 b=2 v=0
+  kureha_09                    쿠레하 09             p=522   c=2 b=6 v=0
+  kureha_10                    쿠레하 10             p=188   c=0 b=0 v=0
+  kureha_11                    쿠레하 11             p=373   c=0 b=0 v=0
+  kureha_12                    쿠레하 12             p=325   c=0 b=0 v=0
+  kureha_13                    쿠레하 13             p=184   c=1 b=4 v=0
+  kureha_14                    쿠레하 14             p=254   c=1 b=2 v=0
+  kureha_15                    쿠레하 15             p=548   c=0 b=0 v=0
+  kureha_16                    쿠레하 16             p=316   c=0 b=0 v=0
+  kureha_17                    쿠레하 17             p=534   c=1 b=2 v=0
+  kureha_18                    쿠레하 18             p=584   c=1 b=2 v=0
+  kureha_19                    쿠레하 19             p=605   c=1 b=2 v=0
+  kureha_ep                    쿠레하 후일담            p=68    c=0 b=0 v=0
+
+[마사키] 14 chapters, pages=5821
+  masa_06                      마사키 06             p=89    c=0 b=0 v=0
+  masa_07                      마사키 07             p=345   c=0 b=0 v=0
+  masa_08                      마사키 08             p=724   c=0 b=0 v=0
+  masa_09                      마사키 09             p=387   c=0 b=0 v=0
+  masa_10                      마사키 10             p=442   c=1 b=2 v=0
+  masa_11                      마사키 11             p=414   c=1 b=2 v=0
+  masa_12                      마사키 12             p=373   c=0 b=0 v=0
+  masa_13                      마사키 13             p=269   c=0 b=0 v=0
+  masa_14                      마사키 14             p=609   c=1 b=3 v=0
+  masa_15                      마사키 15             p=208   c=0 b=0 v=0
+  masa_16                      마사키 16             p=972   c=1 b=2 v=0
+  masa_17                      마사키 17             p=350   c=0 b=0 v=0
+  masa_18                      마사키 18             p=560   c=0 b=0 v=0
+  masa_ep                      마사키 후일담            p=79    c=0 b=0 v=0
+
+[마호코] 19 chapters, pages=9116
+  maho_04                      마호코 04             p=360   c=0 b=0 v=0
+  maho_05                      마호코 05             p=187   c=0 b=0 v=0
+  maho_06                      마호코 06             p=715   c=0 b=0 v=0
+  maho_07                      마호코 07             p=513   c=0 b=0 v=0
+  maho_08                      마호코 08             p=290   c=0 b=0 v=0
+  maho_09                      마호코 09             p=647   c=0 b=0 v=0
+  maho_10                      마호코 10             p=358   c=0 b=0 v=0
+  maho_11                      마호코 11             p=611   c=0 b=0 v=0
+  maho_12                      마호코 12             p=617   c=0 b=0 v=0
+  maho_13                      마호코 13             p=289   c=5 b=8 v=0
+  maho_14                      마호코 14             p=476   c=1 b=2 v=0
+  maho_15                      마호코 15             p=755   c=0 b=0 v=0
+  maho_16                      마호코 16             p=559   c=0 b=0 v=0
+  maho_17                      마호코 17             p=572   c=0 b=0 v=0
+  maho_18                      마호코 18             p=427   c=0 b=0 v=0
+  maho_18_2ero                 마호코 18_2ero        p=508   c=0 b=0 v=0
+  maho_18_3                    마호코 18_3           p=194   c=0 b=0 v=0
+  maho_19                      마호코 19             p=966   c=0 b=0 v=0
+  maho_epi                     마호코 후일담            p=72    c=0 b=0 v=0
+
+[시이나] 20 chapters, pages=8113
+  sina_04                      시이나 04             p=258   c=0 b=0 v=0
+  sina_05                      시이나 05             p=471   c=1 b=2 v=0
+  sina_06                      시이나 06             p=494   c=0 b=0 v=0
+  sina_07                      시이나 07             p=714   c=1 b=2 v=0
+  sina_08                      시이나 08             p=536   c=0 b=0 v=0
+  sina_09                      시이나 09             p=487   c=0 b=0 v=0
+  sina_10                      시이나 10             p=511   c=0 b=0 v=0
+  sina_11                      시이나 11             p=409   c=1 b=2 v=0
+  sina_12                      시이나 12             p=512   c=0 b=0 v=0
+  sina_13                      시이나 13             p=402   c=1 b=2 v=0
+  sina_14                      시이나 14             p=338   c=0 b=0 v=0
+  sina_15                      시이나 15             p=557   c=2 b=4 v=0
+  sina_16                      시이나 16             p=278   c=1 b=3 v=0
+  sina_17                      시이나 17             p=639   c=0 b=0 v=0
+  sina_18                      시이나 18             p=245   c=0 b=0 v=0
+  sina_18_2ero                 시이나 18_2ero        p=431   c=0 b=0 v=0
+  sina_18_3                    시이나 18_3           p=135   c=0 b=0 v=0
+  sina_19                      시이나 19             p=409   c=0 b=0 v=0
+  sina_19_2                    시이나 19_2           p=185   c=0 b=0 v=0
+  sina_epi                     시이나 후일담            p=102   c=0 b=0 v=0
+
+[최종편 · 결말] 1 chapters, pages=283
+  last_ep                      최종편 · 결말 후일담       p=283   c=0 b=0 v=0
+
+edges 102 unique 100
+  00_レコンキスタ_start -> 00_レコンキスタ_start_2
+  last_kako01 -> last_kako02
+  last_gendai01 -> last_gendai02
+  00_レコンキスタ_start_2 -> 00_レコンキスタ_start_3
+  last_kako02 -> last_kako03
+  last_gendai02 -> last_gendai03
+  00_レコンキスタ_start_3 -> makino_kyoutu
+  00_レコンキスタ_start_3 -> shinya_kyoutu
+  last_kako03 -> last_kako04
+  last_gendai03 -> last_gendai04
+  makino_kyoutu -> kureha_05 x2
+  makino_kyoutu -> masa_06
+  shinya_kyoutu -> maho_04 x2
+  shinya_kyoutu -> sina_04
+  last_kako04 -> last_kako05
+  last_gendai04 -> last_gendai05
+  kureha_05 -> kureha_06
+  masa_06 -> masa_07
+  maho_04 -> maho_05
+  sina_04 -> sina_05
+  last_kako05 -> last_kako06
+  last_gendai05 -> last_gendai06
+  kureha_06 -> kureha_07
+  masa_07 -> masa_08
+  maho_05 -> maho_06
+  sina_05 -> sina_06
+  last_kako06 -> last_kako07
+  last_gendai06 -> last_gendai07
+  kureha_07 -> kureha_08
+  masa_08 -> masa_09
+  maho_06 -> maho_07
+  sina_06 -> sina_07
+  last_kako07 -> last_kako08
+  last_gendai07 -> last_gendai08
+  kureha_08 -> kureha_09
+  masa_09 -> masa_10
+  maho_07 -> maho_08
+  sina_07 -> sina_08
+  last_kako08 -> last_kako09
+  last_gendai08 -> last_gendai09
+  kureha_09 -> kureha_10
+  masa_10 -> masa_11
+  maho_08 -> maho_09
+  sina_08 -> sina_09
+  last_kako09 -> last_kako10
+  last_gendai09 -> last_gendai10
+  kureha_10 -> kureha_11
+  masa_11 -> masa_12
+  maho_09 -> maho_10
+  sina_09 -> sina_10
+  last_kako10 -> last_kako11
+  last_gendai10 -> last_gendai11
+  kureha_11 -> kureha_12
+  masa_12 -> masa_13
+  maho_10 -> maho_11
+  sina_10 -> sina_11
+  last_kako11 -> last_kako12
+  last_gendai11 -> last_gendai12
+  kureha_12 -> kureha_13
+  masa_13 -> masa_14
+  maho_11 -> maho_12
+  sina_11 -> sina_12
+  last_gendai12 -> last_gendai13
+  kureha_13 -> kureha_14
+  masa_14 -> masa_15
+  maho_12 -> maho_13
+  sina_12 -> sina_13
+  last_gendai13 -> last_gendai14
+  kureha_14 -> kureha_15
+  masa_15 -> masa_16
+  maho_13 -> maho_14
+  sina_13 -> sina_14
+  last_gendai14 -> last_gendai15
+  kureha_15 -> kureha_16
+  masa_16 -> masa_17
+  maho_14 -> maho_15
+  sina_14 -> sina_15
+  last_gendai15 -> last_gendai16
+  kureha_16 -> kureha_17
+  masa_17 -> masa_18
+  maho_15 -> maho_16
+  sina_15 -> sina_16
+  last_gendai16 -> last_ep
+  kureha_17 -> kureha_18
+  masa_18 -> masa_ep
+  maho_16 -> maho_17
+  sina_16 -> sina_17
+  kureha_18 -> kureha_19
+  maho_17 -> maho_18
+  sina_17 -> sina_18
+  kureha_19 -> kureha_ep
+  maho_18 -> maho_18_2ero
+  sina_18 -> sina_18_2ero
+  maho_18_2ero -> maho_18_3
+  sina_18_2ero -> sina_18_3
+  maho_18_3 -> maho_19
+  sina_18_3 -> sina_19
+  maho_19 -> maho_epi
+  sina_19 -> sina_19_2
+  sina_19_2 -> sina_epi
+
+choice/branch/view nodes
+  00_レコンキスタ_start_2:14195    choice  선택지 1                  '' switch=None
+  00_レコンキスタ_start_2:14200    branch  분기 1 · 선택 1            '「…왜 그래, 마호 누나」' switch=00_レコンキスタ_start_2:14195
+  00_レコンキスタ_start_2:15345    branch  분기 1 · 선택 2            '못 들은 척한다' switch=00_レコンキスタ_start_2:14195
+  00_レコンキスタ_start_2:16874    view    시점 전환                  '' switch=None
+  00_レコンキスタ_start_2:16879    branch  시점 전환 · 마키노            '' switch=00_レコンキスタ_start_2:16874
+  00_レコンキスタ_start_2:16892    branch  시점 전환 · 신야             '' switch=00_レコンキスタ_start_2:16874
+  00_レコンキスタ_start_2:17105    choice  선택지 2                  '' switch=None
+  00_レコンキスタ_start_2:17110    branch  분기 2 · 선택 1            '찾으러 간다' switch=00_レコンキスタ_start_2:17105
+  00_レコンキスタ_start_2:17710    choice  선택지 3                  '' switch=None
+  00_レコンキスタ_start_2:17715    branch  분기 3 · 선택 1            '도우러 들어간다' switch=00_レコンキスタ_start_2:17710
+  00_レコンキスタ_start_2:17822    branch  분기 3 · 선택 2            '사람을 부른다' switch=00_レコンキスタ_start_2:17710
+  00_レコンキスタ_start_2:17967    branch  분기 3 · 선택 2            '사람을 부른다' switch=00_レコンキスタ_start_2:17710
+  00_レコンキスタ_start_2:19229    choice  선택지 4                  '' switch=None
+  00_レコンキスタ_start_2:19234    branch  분기 4 · 선택 1            '도우러 들어간다' switch=00_レコンキスタ_start_2:19229
+  00_レコンキスタ_start_2:19338    branch  분기 4 · 선택 2            '사람을 부른다' switch=00_レコンキスタ_start_2:19229
+  last_gendai02:3051         choice  선택지 1                  '' switch=None
+  last_gendai02:3056         branch  분기 1 · 선택 1            '영화 이야기를 시이나에게 한다' switch=last_gendai02:3051
+  last_gendai02:3250         branch  분기 1 · 선택 2            '말하지 않는다' switch=last_gendai02:3051
+  last_gendai02:4040         choice  선택지 2                  '' switch=None
+  last_gendai02:4045         branch  분기 2 · 선택 1            '초대를 받아들인다' switch=last_gendai02:4040
+  last_gendai02:4963         branch  분기 2 · 선택 2            '사양한다' switch=last_gendai02:4040
+  00_レコンキスタ_start_3:3000     choice  선택지 1                  '' switch=None
+  00_レコンキスタ_start_3:3005     branch  분기 1 · 선택 1            '뽀뽀한다' switch=00_レコンキスタ_start_3:3000
+  00_レコンキスタ_start_3:3150     branch  분기 1 · 선택 2            '뽀뽀하지 않는다' switch=00_レコンキスタ_start_3:3000
+  00_レコンキスタ_start_3:3841     view    시점 전환                  '' switch=None
+  00_レコンキスタ_start_3:3846     branch  시점 전환 · 마키노            '' switch=00_レコンキスタ_start_3:3841
+  00_レコンキスタ_start_3:3980     choice  선택지 2                  '' switch=None
+  00_レコンキスタ_start_3:3985     branch  분기 2 · 선택 1            '미사와 신야' switch=00_レコンキスタ_start_3:3980
+  00_レコンキスタ_start_3:4052     branch  분기 2 · 선택 2            '하토리 마호코' switch=00_レコンキスタ_start_3:3980
+  00_レコンキスタ_start_3:4166     branch  분기 2 · 선택 3            '요시모리 마사키' switch=00_レコンキスタ_start_3:3980
+  00_レコンキスタ_start_3:4983     branch  분기 2 · 선택 1            '미사와 신야' switch=00_レコンキスタ_start_3:3980
+  00_レコンキスタ_start_3:8396     view    시점 전환                  '' switch=None
+  00_レコンキスタ_start_3:8401     branch  시점 전환 · 마키노            '' switch=00_レコンキスタ_start_3:8396
+  00_レコンキスタ_start_3:9929     branch  시점 전환 · 신야             '' switch=00_レコンキスタ_start_3:8396
+  00_レコンキスタ_start_3:14343    choice  선택지 3                  '' switch=None
+  00_レコンキスタ_start_3:14348    branch  분기 3 · 선택 1            '같이 간다' switch=00_レコンキスタ_start_3:14343
+  00_レコンキスタ_start_3:14489    branch  분기 3 · 선택 2            '「이 부적을 가져가」' switch=00_レコンキスタ_start_3:14343
+  last_gendai03:360          choice  선택지 1                  '' switch=None
+  last_gendai03:365          branch  분기 1 · 선택 1            '말없이 보낸다' switch=last_gendai03:360
+  last_gendai03:418          branch  분기 1 · 선택 2            '불러 세운다' switch=last_gendai03:360
+  makino_kyoutu:763          choice  선택지 1                  '' switch=None
+  makino_kyoutu:779          branch  분기 1 · 선택 1            '모르는 척한다' switch=makino_kyoutu:763
+  makino_kyoutu:881          branch  분기 1 · 선택 2            '이 일에 깊이 관여하지 말라고 주의를 준다' switch=makino_kyoutu:763
+  makino_kyoutu:3510         choice  선택지 2                  '' switch=None
+  makino_kyoutu:3515         branch  분기 2 · 선택 1            '나이는?' switch=makino_kyoutu:3510
+  makino_kyoutu:3788         branch  분기 2 · 선택 2            '그 세일러복은?' switch=makino_kyoutu:3510
+  makino_kyoutu:9422         choice  선택지 3                  '' switch=None
+  makino_kyoutu:9427         branch  분기 3 · 선택 1            '둘러댄다' switch=makino_kyoutu:9422
+  makino_kyoutu:9955         branch  분기 3 · 선택 2            '어느 정도 솔직히 말한다' switch=makino_kyoutu:9422
+  shinya_kyoutu:6411         choice  선택지 1                  '' switch=None
+  shinya_kyoutu:6416         branch  분기 1 · 선택 1            '마호코의 제안을 받아들인다' switch=shinya_kyoutu:6411
+  shinya_kyoutu:6423         branch  분기 1 · 선택 2            '마호코의 제안을 거절한다' switch=shinya_kyoutu:6411
+  sina_05:4869               choice  선택지 1                  '' switch=None
+  sina_05:4874               branch  분기 1 · 선택 1            '오늘 하루를 돌아본다' switch=sina_05:4869
+  sina_05:4932               branch  분기 1 · 선택 2            '깊이 생각하지 않는다' switch=sina_05:4869
+  kureha_08:4531             choice  선택지 1                  '' switch=None
+  kureha_08:4536             branch  분기 1 · 선택 1            '알고 있다' switch=kureha_08:4531
+  kureha_08:4607             branch  분기 1 · 선택 2            '모른다' switch=kureha_08:4531
+  sina_07:2564               choice  선택지 1                  '' switch=None
+  sina_07:2569               branch  분기 1 · 선택 1            '또 길을 잃었나?' switch=sina_07:2564
+  sina_07:2669               branch  분기 1 · 선택 2            '설마 벌써 마호코의 일을……' switch=sina_07:2564
+  last_kako08:3012           choice  선택지 1                  '' switch=None
+  last_kako08:3017           branch  분기 1 · 선택 1            '입안에 사정한다' switch=last_kako08:3012
+  last_kako08:3278           branch  분기 1 · 선택 2            '입 밖에 사정한다' switch=last_kako08:3012
+  kureha_09:497              choice  선택지 1                  '' switch=None
+  kureha_09:502              branch  분기 1 · 선택 1            '쿠레하' switch=kureha_09:497
+  kureha_09:508              branch  분기 1 · 선택 2            '모미지(아내)' switch=kureha_09:497
+  kureha_09:725              branch  분기 1 · 선택 3            '모미지(딸)' switch=kureha_09:497
+  kureha_09:1556             choice  선택지 2                  '' switch=None
+  kureha_09:1561             branch  분기 2 · 선택 1            '리본 묶기' switch=kureha_09:1556
+  kureha_09:1686             branch  분기 2 · 선택 2            '양 갈래' switch=kureha_09:1556
+  kureha_09:1811             branch  분기 2 · 선택 3            '곧게 풀어 내리기' switch=kureha_09:1556
+  masa_10:1615               choice  선택지 1                  '' switch=None
+  masa_10:1620               branch  분기 1 · 선택 1            '모르는 척한다' switch=masa_10:1615
+  masa_10:1831               branch  분기 1 · 선택 2            '야시마 씨를 감싼다' switch=masa_10:1615
+  masa_11:817                choice  선택지 1                  '' switch=None
+  masa_11:822                branch  분기 1 · 선택 1            '지는 걸 싫어하니?' switch=masa_11:817
+  masa_11:948                branch  분기 1 · 선택 2            '몸을 단련하는 게 취미니?' switch=masa_11:817
+  sina_11:925                choice  선택지 1                  '' switch=None
+  sina_11:930                branch  분기 1 · 선택 1            '받아들인다' switch=sina_11:925
+  sina_11:1067               branch  분기 1 · 선택 2            '거절한다' switch=sina_11:925
+  kureha_13:122              choice  선택지 1                  '' switch=None
+  kureha_13:127              branch  분기 1 · 선택 1            '이번 사건에 대해' switch=kureha_13:122
+  kureha_13:310              branch  분기 1 · 선택 2            '쿠레하에 대해' switch=kureha_13:122
+  kureha_13:456              branch  분기 1 · 선택 3            '모미지에 대해' switch=kureha_13:122
+  kureha_13:592              branch  분기 1 · 선택 4            '이제 아무 생각도 하지 않는다' switch=kureha_13:122
+  masa_14:1004               choice  선택지 1                  '' switch=None
+  masa_14:1009               branch  분기 1 · 선택 1            '부엌' switch=masa_14:1004
+  masa_14:1149               branch  분기 1 · 선택 2            '컴퓨터' switch=masa_14:1004
+  masa_14:1342               branch  분기 1 · 선택 3            '옷장' switch=masa_14:1004
+  kureha_14:2222             choice  선택지 1                  '' switch=None
+  kureha_14:2227             branch  분기 1 · 선택 1            '자세히 설명한다' switch=kureha_14:2222
+  kureha_14:2363             branch  분기 1 · 선택 2            '간단히 설명한다' switch=kureha_14:2222
+  maho_13:105                choice  선택지 1                  '' switch=None
+  maho_13:113                choice  선택지 2                  '' switch=None
+  maho_13:123                branch  분기 2 · 선택 1            '악마 들림에 대해' switch=maho_13:113
+  maho_13:178                choice  선택지 3                  '' switch=None
+  maho_13:183                branch  분기 3 · 선택 1            '마을에 대해' switch=maho_13:178
+  maho_13:224                branch  분기 3 · 선택 2            '목 베는 여자에 대해' switch=maho_13:178
+  maho_13:276                choice  선택지 4                  '' switch=None
+  maho_13:281                branch  분기 4 · 선택 1            '아주머니에 대해' switch=maho_13:276
+  maho_13:395                branch  분기 4 · 선택 2            '목 베는 여자의 목적에 대해' switch=maho_13:276
+  maho_13:462                choice  선택지 5                  '' switch=None
+  maho_13:467                branch  분기 5 · 선택 1            '마호코에 대해' switch=maho_13:462
+  maho_13:645                branch  분기 5 · 선택 2            '마호코를 노린 사람에 대해' switch=maho_13:462
+  maho_13:831                branch  분기 5 · 선택 2            '마호코를 노린 사람에 대해' switch=maho_13:462
+  sina_13:495                choice  선택지 1                  '' switch=None
+  sina_13:500                branch  분기 1 · 선택 1            '말한다' switch=sina_13:495
+  sina_13:762                branch  분기 1 · 선택 2            '말하지 않는다' switch=sina_13:495
+  masa_16:5861               choice  선택지 1                  '' switch=None
+  masa_16:5866               branch  분기 1 · 선택 1            '요시모리를 끌어안는다' switch=masa_16:5861
+  masa_16:10005              branch  분기 1 · 선택 2            '혼자 있게 둔다' switch=masa_16:5861
+  maho_14:4293               choice  선택지 1                  '' switch=None
+  maho_14:4298               branch  분기 1 · 선택 1            '그래도 섬을 나가자' switch=maho_14:4293
+  maho_14:4410               branch  분기 1 · 선택 2            '역시 섬에 남자' switch=maho_14:4293
+  sina_15:1477               choice  선택지 1                  '' switch=None
+  sina_15:1482               branch  분기 1 · 선택 1            '못 믿으시는군요' switch=sina_15:1477
+  sina_15:1543               branch  분기 1 · 선택 2            '증거를 보여 드릴까요?' switch=sina_15:1477
+  sina_15:3956               choice  선택지 2                  '' switch=None
+  sina_15:3961               branch  분기 2 · 선택 1            '내일 이야기하자' switch=sina_15:3956
+  sina_15:4262               branch  분기 2 · 선택 2            '시이나를 뒤쫓는다' switch=sina_15:3956
+  kureha_17:4312             choice  선택지 1                  '' switch=None
+  kureha_17:4317             branch  분기 1 · 선택 1            '쿠레하에게 간다' switch=kureha_17:4312
+  kureha_17:5144             branch  분기 1 · 선택 2            '모미지 곁에 머문다' switch=kureha_17:4312
+  sina_16:2584               choice  선택지 1                  '' switch=None
+  sina_16:2589               branch  분기 1 · 선택 1            '일단 물러난다' switch=sina_16:2584
+  sina_16:2889               branch  분기 1 · 선택 2            '병원으로 간다' switch=sina_16:2584
+  sina_16:2901               branch  분기 1 · 선택 3            '' switch=sina_16:2584
+  kureha_18:3717             choice  선택지 1                  '' switch=None
+  kureha_18:3722             branch  분기 1 · 선택 1            '야시마 씨의 행동을 지켜본다' switch=kureha_18:3717
+  kureha_18:4135             branch  분기 1 · 선택 2            '야시마 씨를 피한다' switch=kureha_18:3717
+  kureha_19:3872             choice  선택지 1                  '' switch=None
+  kureha_19:3877             branch  분기 1 · 선택 1            '쿠레하에게 간다' switch=kureha_19:3872
+  kureha_19:3883             branch  분기 1 · 선택 2            '모미지를 데리고 집에 돌아간다' switch=kureha_19:3872

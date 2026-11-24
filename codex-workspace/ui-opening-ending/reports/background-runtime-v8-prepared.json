@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-10-22T18:09:18.463760+00:00",
+  "source": "candidates/ui-trial-v8",
+  "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui-bg",
+  "exe_sha256": "f67195682944663b9546665eb3b63a639ace3f910e2ebf6ffaccda001d625b50",
+  "scenario_sha256": "db150e681b1096eec109b0b94ee304573ff44d320de4628fd973bbe32392cc5c",
+  "fastdata_sha256": "7990d7b53a2da1d68f25193c612988964178d0911be0563811706b8bebb2148f",
+  "source_fastdata_sha256": "816891d3c237f6f4165849e216eacf81a5deac60e4dcfa8da3fc78ca2bfb3426",
+  "prior_runtime_fastdata_sha256": "bcadb79e854a3bbe00af83e515b4bafd516e2b860a7e5286cacd65627a2041bf",
+  "only_runtime_adjustments": {
+    "TITLEBAR": "Reconquista-UI-BG-v8",
+    "REG_LOCAL": "Reconquista-UI-BG-v8-20261023",
+    "MUSICVOL": "0",
+    "SOUNDVOL": "0",
+    "VOICEVOL": "0",
+    "ISPLAYMUSIC": "0"
+  },
+  "purpose": "Silent private-desktop validation of changed v6-v8 UI only; no physical input, foreground activation or desktop switch",
+  "payload_identity_except_majiro_env": true,
+  "unchanged_input_links": "Reused reports/background-runtime-prepared.json; no linked input was written",
+  "reuse": [
+    "Native EXE v5 Defender scan",
+    "773-glyph font GDI proof",
+    "v5 modal runtime proof",
+    "scenario v4 unchanged"
+  ]
+}

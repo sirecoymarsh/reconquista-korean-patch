@@ -1,0 +1,100 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "purpose": "Correction only: original English p descender remained below the old source-erasure bounds and crossed the preserved underline",
+  "entries": [
+    {
+      "entry": "chapter_off_1.rct",
+      "previous_sha256": "bd5f0f042d64bc6708937ed83c205b8569ab8918eabc81b664c1715968f986fe",
+      "output_sha256": "3a326b42f76c6d0d860c596bf52007b537c713a522f7febb6d406b5c574d8885",
+      "removed_source_pixels": 23,
+      "repair_source_region": [
+        600,
+        570,
+        14,
+        5
+      ],
+      "background": "original black field and exact same-state uniform rule run at y=571, RGB 82/84/113; matching donors x600:606 and x609:614",
+      "outside_repair_diff_pixels": 0,
+      "accepted_Korean_ink_changed": false,
+      "alpha_mask_unchanged": true,
+      "metadata_preserved": true,
+      "persisted_effective_decode_equal": true
+    },
+    {
+      "entry": "chapter_off_2.rct",
+      "previous_sha256": "8e7fc93fdf1cf6ab4c4391c1c63d06bb7ff6439d0f1a0f606d1a68fd5826358c",
+      "output_sha256": "6185f7ef8b9f2da10dd9a64cfe6f572f3fe49cf2052b2e19ae099a2154935cbc",
+      "removed_source_pixels": 23,
+      "repair_source_region": [
+        600,
+        570,
+        14,
+        5
+      ],
+      "background": "original black field and exact same-state uniform rule run at y=571, RGB 82/84/113; matching donors x600:606 and x609:614",
+      "outside_repair_diff_pixels": 0,
+      "accepted_Korean_ink_changed": false,
+      "alpha_mask_unchanged": true,
+      "metadata_preserved": true,
+      "persisted_effective_decode_equal": true
+    },
+    {
+      "entry": "chapter_on.rct",
+      "previous_sha256": "b4069e0da2f9fa362aace70f4bb1897366d37a4ee3760cdd25a8cb7caa618e8f",
+      "output_sha256": "2d2dc01f7fa68817f4ea239773bbd7a75377c83e08ec0a01bc9ae90539fdedf0",
+      "removed_source_pixels": 23,
+      "repair_source_region": [
+        600,
+        570,
+        14,
+        5
+      ],
+      "background": "original black field and exact same-state uniform rule run at y=571, RGB 82/84/113; matching donors x600:606 and x609:614",
+      "outside_repair_diff_pixels": 0,
+      "accepted_Korean_ink_changed": false,
+      "alpha_mask_unchanged": true,
+      "metadata_preserved": true,
+      "persisted_effective_decode_equal": true
+    },
+    {
+      "entry": "chapter_push.rct",
+      "previous_sha256": "aa6ce4d131afca37fbeb14df5b40b7316a12783dae4836327351101482189f9c",
+      "output_sha256": "d007655ccc9d5077f3de18a407ec0d7c4d0626f154fb6c3243e86c0c84ef59c4",
+      "removed_source_pixels": 23,
+      "repair_source_region": [
+        600,
+        570,
+        14,
+        5
+      ],
+      "background": "original black field and exact same-state uniform rule run at y=571, RGB 82/84/113; matching donors x600:606 and x609:614",
+      "outside_repair_diff_pixels": 0,
+      "accepted_Korean_ink_changed": false,
+      "alpha_mask_unchanged": true,
+      "metadata_preserved": true,
+      "persisted_effective_decode_equal": true
+    }
+  ],
+  "output_hashes": {
+    "chapter_off_1.rct": "3a326b42f76c6d0d860c596bf52007b537c713a522f7febb6d406b5c574d8885",
+    "chapter_off_2.rct": "6185f7ef8b9f2da10dd9a64cfe6f572f3fe49cf2052b2e19ae099a2154935cbc",
+    "chapter_on.rct": "2d2dc01f7fa68817f4ea239773bbd7a75377c83e08ec0a01bc9ae90539fdedf0",
+    "chapter_push.rct": "d007655ccc9d5077f3de18a407ec0d7c4d0626f154fb6c3243e86c0c84ef59c4"
+  },
+  "semantic_labels": 0,
+  "repaired_label_instances": 4,
+  "structural_pass": true,
+  "visual_pass": true,
+  "runtime_review": {
+    "status": "caption_pass",
+    "report": "../../reports/background-runtime-v9-validation.json",
+    "states": "Common caption has identical pixels in all four files; runtime observed chapter_off_2 caption sprite. Other button states not re-tested."
+  },
+  "reuses": {
+    "accepted_translation_and_fonts": "chapter-raster-v1, unchanged",
+    "all_other_pixels": "chapter-raster-v1, byte-level image equality outside 23-pixel repair per state"
+  },
+  "detected_by": "evidence/background-runtime/bg-v8-load-restored.json",
+  "visual_review": "Native repair region and 4x before/after reviewed; all four repaired caption regions are exactly identical."
+}

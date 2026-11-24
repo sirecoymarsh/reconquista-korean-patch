@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-25",
+  "sample_count": 300,
+  "all_sample_fields_aligned": true,
+  "manual_alignment_count": 1,
+  "same_japanese_sample_units": 294,
+  "version_difference_units": 6,
+  "known_issue_count": 13,
+  "semantic_review": "Completed by Codex internal; not a numeric whole-corpus quality score",
+  "hashes": {
+    "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\external-semi-korean-analysis-20261025\\현재번역-준한글-비교.txt": "6a5390feaf4620f9332c03059de34847827cf75c5bffa384aee7b01cd74f8007",
+    "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\external-semi-korean-analysis-20261025\\current-translation-comparison.json": "947c9229f2e4b5f5bf9e90eb18e3ebd9c702306e3c328a40b416ea062c739b6e",
+    "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\research\\semi-korean-patch-20261025\\outputs101\\current-comparison-300-reviewed.json": "bc7c412783c04e6940be5a501968111c6887f4f00e6565cb3e250d34a1270146"
+  },
+  "reused_evidence": [
+    "Original patch download and CRC verification",
+    "Japanese 1.01 extraction and structural analysis",
+    "Current snapshot hash matches BUILD-IDENTITY (earlier this turn)"
+  ]
+}

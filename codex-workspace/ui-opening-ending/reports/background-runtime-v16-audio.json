@@ -1,0 +1,25 @@
+{
+  "time_utc": "2026-10-22T20:24:57.212934+00:00",
+  "target_pid": 30576,
+  "target_exe": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui-bg\\レコンキスタ.exe",
+  "target_exe_sha256": "f67195682944663b9546665eb3b63a639ace3f910e2ebf6ffaccda001d625b50",
+  "active_render_endpoints_enumerated": 9,
+  "sessions": [
+    {
+      "endpoint_index": 6,
+      "session_index": 0,
+      "pid": 30576,
+      "muted_before": true,
+      "muted_after": true
+    }
+  ],
+  "muted_target_sessions": 1,
+  "all_observed_target_sessions_muted": true,
+  "other_processes_modified": false,
+  "endpoint_master_volume_modified": false,
+  "limits": "Applies to observed sessions; a newly created separate audio session must be checked before movie validation.",
+  "references": [
+    "https://learn.microsoft.com/en-us/windows/win32/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2",
+    "https://learn.microsoft.com/en-us/windows/win32/api/audioclient/nf-audioclient-isimpleaudiovolume-setmute"
+  ]
+}

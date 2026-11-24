@@ -1,0 +1,1391 @@
+{
+  "translator_model": "Codex internal",
+  "reviewer_model": "Codex internal",
+  "provenance": {
+    "session": "01a17264-f707-7103-ae03-63b796a4d38d",
+    "date": "2026-10-25",
+    "translation_author": "active Codex internal model"
+  },
+  "baseline_snapshot": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\recovery-full-20261023-v2\\integrated-targets.json",
+  "baseline_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+  "quality_authority": "P:\\AI\\Codex\\skills\\contextual-game-localization\\references\\translation-quality.md",
+  "quality_authority_sha256": "42e3ffce11f3931d2d97cd051964a62856516128b689fee89a88bba007e96e14",
+  "delivery": "New local cumulative build and launcher update; preserve v19 for rollback. No source discs or protected art directories modified.",
+  "records": [
+    {
+      "id": "00_レコンキスタ_start.mjo::002355",
+      "unit": "00_レコンキスタ_start.mjo::u0216",
+      "source": "「ああ、えっと、槙野です。よろしく」",
+      "before": "「아, 그러니까, 난 마키노야. 잘 부탁해」",
+      "target": "「아, 그러니까, 마키노입니다. 잘 부탁해요」",
+      "category": "register",
+      "reason_ko": "마사키의 정중한 첫 자기소개에 응답하는 마키노의 槙野です를 보존. 이후 친근한 반말은 유지.",
+      "context": {
+        "story_phase": "opening",
+        "source_display_token": "槙野",
+        "evidence": "source unit and adjacent scene, primary Codex review 2026-10-22",
+        "scene": "masaki_introduction",
+        "speaker_identity": "마키노",
+        "addressees": [
+          "마사키"
+        ],
+        "text_function": "dialogue",
+        "voice": "첫 인사 정중체에서 친근한 어른 반말로 전환"
+      },
+      "voice_asset": null,
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "00_レコンキスタ_start.mjo::002434",
+      "unit": "00_レコンキスタ_start.mjo::u0222",
+      "source": "「ＯＫＯＫ。やーんもう、もみじちゃんてば可愛いなぁ」",
+      "before": "「좋아, 좋아! 아유, 우리 모미지 너무 귀엽다」",
+      "target": "「오케이, 오케이! 아유, 우리 모미지 너무 귀엽다」",
+      "category": "loanword",
+      "reason_ko": "ＯＫＯＫ를 오케이로 보존.",
+      "context": {
+        "story_phase": "opening",
+        "source_display_token": "麻咲",
+        "evidence": "source unit and adjacent scene, primary Codex review 2026-10-22",
+        "scene": "masaki_introduction",
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지(딸)"
+        ],
+        "text_function": "dialogue",
+        "voice": "동생을 대하는 반말"
+      },
+      "voice_asset": "masa_0059",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "00_レコンキスタ_start_2.mjo::003358",
+      "unit": "00_レコンキスタ_start_2.mjo::u0316",
+      "source": "　詩菜ちゃんのギャグは面白いねぇ」",
+      "before": "　시이나 농담은 재미있네에」",
+      "target": "　시이나 개그는 재미있네에」",
+      "category": "loanword",
+      "reason_ko": "마호코가 시이나의 공격적인 말을 개그로 받아들이는 어휘를 보존.",
+      "context": {
+        "story_phase": "chapter02",
+        "source_display_token": "真帆子",
+        "evidence": "source unit and adjacent scene, primary Codex review 2026-10-22",
+        "scene": "school_gate_shiina_introduction",
+        "speaker_identity": "마호코",
+        "addressees": [
+          "시이나"
+        ],
+        "text_function": "dialogue",
+        "voice": "부드러운 반말; 신야에게는 신 애칭; 시이나에게는 이름"
+      },
+      "voice_asset": "maho_0495",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "00_レコンキスタ_start_2.mjo::003458",
+      "unit": "00_レコンキスタ_start_2.mjo::u0325",
+      "source": "　ギャグとして受け取ることが出来るんだよっ」",
+      "before": "　어떻게 농담으로 받아들일 수가 있어!」",
+      "target": "　어떻게 개그로 받아들일 수가 있어!」",
+      "category": "loanword",
+      "reason_ko": "직전 마호코의 ギャグ를 신야가 되받는 동일 어휘 유지.",
+      "context": {
+        "story_phase": "chapter02",
+        "source_display_token": "信哉",
+        "evidence": "source unit and adjacent scene, primary Codex review 2026-10-22",
+        "scene": "school_gate_shiina_introduction",
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "text_function": "dialogue",
+        "voice": "친근하거나 불평하는 반말; 시이나에게 짓궂은 선배"
+      },
+      "voice_asset": null,
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "last_ep.mjo::001749",
+      "unit": "last_ep.mjo::u0180",
+      "source": "“お父さんと一緒にお風呂に入るのは何歳までＯＫなのか”",
+      "before": "“아빠랑 같이 목욕해도 되는 건 몇 살까지일까”를 두고",
+      "target": "“아빠랑 같이 목욕하는 건 몇 살까지 오케이일까”를 두고",
+      "category": "loanword",
+      "reason_ko": "인용된 아이들의 일상적 화제에 쓰인 ＯＫ를 보존. 비성적 문맥.",
+      "context": {
+        "speaker_identity": "시호(서술)",
+        "addressees": [],
+        "relationship": "시호는 신야 가족의 외동인 초등학생; 모미지는 위층 친한 언니. 소년은 시호와 동갑이며 친남매가 아니지만 오빠로 부름. 모미지와 젊은 목사는 첫 만남",
+        "story_phase": "에필로그 등굣길134-197 시호 시점,198-228 모미지,229-259 시호,260-283 모미지로 교차",
+        "voice": "시호↔모미지 친한 언니동생 반말; 시호↔소년 어린이 반말/오빠 호칭, 소년의 역호칭236은 누나. 모미지→새 목사 존댓말, 목사→모미지 부드러운 반말과 자기소개 정중체",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_evidence": "Complete ep1-283 and prior124-133 read. Child affection and ordinary family-bathing discussion are nonsexual; no sexual or numerical-age content added. Token-based unrevealed identities retained, no reincarnation identity explained in target."
+      },
+      "voice_asset": null,
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "maho_07.mjo::002158",
+      "unit": "maho_07.mjo::u0214",
+      "source": "「オッケーなら帰ろうぜ」",
+      "before": "「좋으면 돌아가자.」",
+      "target": "「오케이라면 돌아가자.」",
+      "category": "loanword",
+      "reason_ko": "오케이 여부를 묻는 어린 신야의 친근한 반말. 비성적 어린 시절 장면.",
+      "context": {
+        "speaker_identity": "어린 신야",
+        "addressees": [
+          "어린 마호코"
+        ],
+        "relationship": "처음 만난 아이 둘이 친구가 되고 오빠/동생처럼 부르기로 함",
+        "story_phase": "마호코 루트 / childhood_first_friend_and_nicknames",
+        "voice": "신야→마호코: 다소 짓궂으나 챙겨 주는 아이의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_07 u0113–0236 full childhood memory and next10 u0237–0246 read; previous u0176–0185/next u0231–0240 available",
+        "age_context": "Explicit childhood nonsexual scene; adult university context not applied."
+      },
+      "voice_asset": null,
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "maho_10.mjo::001954",
+      "unit": "maho_10.mjo::u0181",
+      "source": "「ＯＫ、まずは出席簿でも確認しようぜ。",
+      "before": "「좋아, 일단 출석부부터 확인하자.",
+      "target": "「오케이, 일단 출석부부터 확인하자.",
+      "category": "loanword",
+      "reason_ko": "신야가 시이나에게 말하는 ＯＫ를 보존.",
+      "context": {
+        "speaker_identity": "미사와 신야",
+        "addressees": [
+          "가스가이 시이나"
+        ],
+        "relationship": "시이나→마호코 언니·부드러운 존댓말, 시이나→신야 선배·차가운 존댓말, 신야↔마호코/시이나 반말",
+        "story_phase": "점심시간 영화 잡지를 보는 마호코와 시이나에게 신야가 끼어들어 기억을 자극할 화제를 돌림",
+        "voice": "광고 전미 의인화 농담과 교사 흉내의 말투를 구분. 냉담한 시이나와 신야의 자칭 포용력 농담 유지",
+        "context_read": "maho_10 전체 u0001–0358 읽음. 잡지 대화 u0135–0230 전체와 전후10 이상; u0201 ruby consumer0x55e2 확인",
+        "age_context": "사용자 승인 대학 성격 신학교 현재 성인 학생 장면. 사물함 성인용 도서 언급도 현재 학생 대상",
+        "source_display_token": "信哉",
+        "text_function": "dialogue"
+      },
+      "voice_asset": null,
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "makino_kyoutu.mjo::002818",
+      "unit": "makino_kyoutu.mjo::u0274",
+      "source": "「うん、ＯＫ。洗濯機を使う時は踏み台に乗って、",
+      "before": "「응, 그래. 세탁기 쓸 때는 발판을 밟고 올라서서,",
+      "target": "「응, 오케이. 세탁기 쓸 때는 발판을 밟고 올라서서,",
+      "category": "loanword",
+      "reason_ko": "아버지가 딸의 답을 수긍하는 ＯＫ를 보존.",
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(어린 딸)"
+        ],
+        "relationship": "마키노와 낯선 손님 쿠레하, 어린 딸 모미지. 쿠레하는 u0325-u0326에서 이름을 밝힘; 죽은 아내 紅葉 모미지와 어린 딸 もみじ를 구분",
+        "story_phase": "집 안으로 안내하고 샤워/세탁을 권함",
+        "voice": "쿠레하는 단정한 반말, 첫 입실 인사만 정중체. 마키노는 긴장한 반말. 모미지는 자기 이름을 쓰는 밝은 반말, 인터뷰 흉내 부분만 공손한 문장",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "voice_asset": null,
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "makino_kyoutu.mjo::006926",
+      "unit": "makino_kyoutu.mjo::u0659",
+      "source": "　今日からこのクラスの担任となった槙野です。よろしく」",
+      "before": "　오늘부터 이 반 담임을 맡게 된 마키노야. 잘 부탁한다」",
+      "target": "　오늘부터 이 반 담임을 맡게 된 마키노입니다. 잘 부탁합니다」",
+      "category": "register",
+      "reason_ko": "같은 槙野です가 등장하는 신임 담임의 공식 첫 자기소개. 긴장하는 서술 및 초면 학급 전체를 향한 말이라는 근거로 해당 인사만 정중체 복원.",
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "처음 담임 맡은 반 학생들"
+        ],
+        "relationship": "과거 신임 담임 마키노와 훗날 아내가 되는 반장 紅葉의 첫 만남",
+        "story_phase": "아내를 처음 만난 담임 시절 회상",
+        "voice": "초면 학급 전체를 향한 공식 첫 자기소개는 정중체. 이후 일상적인 교사→학생 반말과 구별. 현재 아버지는 딸에게 다정한 반말.",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "voice_asset": null,
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "masa_06.mjo::000239",
+      "unit": "masa_06.mjo::u0022",
+      "source": "「だから進路調査のアンケート用紙、",
+      "before": "「그러니까 진로 조사 설문지를",
+      "target": "「그러니까 진로 조사 앙케트 용지를",
+      "category": "loanword",
+      "reason_ko": "말장난의 뒤 문맥에 있는 アンケート를 앙케트로 보존. 기존 신(카미)/종이(카미) 장치는 유지.",
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "voice_asset": "mom2_181",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "sina_05.mjo::001767",
+      "unit": "sina_05.mjo::u0161",
+      "source": "「…ひょっとしてそれはギャグで言っているの？」",
+      "before": "「…혹시 그거 농담으로 하는 소리야?」",
+      "target": "「…혹시 그거 개그라고 하는 소리야?」",
+      "category": "loanword",
+      "reason_ko": "야시마가 무례한 농담에 되묻는 ギャグ를 보존하고 어미의 반말 유지.",
+      "context": {
+        "speaker_identity": "야시마 미도리 (이 분기 첫 만남, 임시 표시명은 그대로)",
+        "addressees": [
+          "미사와 신야"
+        ],
+        "relationship": "야시마→신야 반말, 신야→연상 여성/야시마 씨 가벼운 해요체에 장난·무례를 실음; 어머니/누나는 신야의 즉석 설정 농담",
+        "story_phase": "현재 일요일 오후; 시이나에게 말싸움에서 진 뒤 기자에게 화풀이하는 첫 만남. 과거 출산 설정은 명시적 농담이며 실제 신원/연령 근거 아님",
+        "voice": "야지마/페키와 산타쿠/노부나리 오독은 농담일 때만 보존; 이름 정상 표기는 야시마 미도리/미사와 신야",
+        "source_display_token": "矢嶋",
+        "text_function": "dialogue"
+      },
+      "voice_asset": "yasi_020",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "sina_06.mjo::001264",
+      "unit": "sina_06.mjo::u0124",
+      "source": "俺の不安感を熱くぶつければ案外オッケーが出るかも。",
+      "before": "열렬히 호소하면 의외로 허락할지도 몰라.",
+      "target": "열렬히 호소하면 의외로 오케이가 나올지도 몰라.",
+      "category": "loanword",
+      "reason_ko": "내적 독백의 オッケーが出る를 오케이가 나오다로 보존.",
+      "context": {
+        "speaker_identity": "미사와 신야 (대사/1인칭 서술)",
+        "addressees": [
+          "자기 자신/독자"
+        ],
+        "relationship": "시이나→신야 선배/존댓말, 신야→시이나 반말. 부재한 마호코는 시이나의 언니 호칭/높임",
+        "story_phase": "현재 월요일 오전 쉬는 시간과 점심, 마호코 결석. 현재 학생 장면만 승인된 대학 성격 신학교 설정; u0165 어린 시절 잦은 결석 회상은 그대로 어린 시절",
+        "voice": "시이나의 다급함과 신야의 아직 모르는 태도 구분. 감기 원인은 추정임을 u0136/0139에서 명시; u0186 사정의 가능성도 미확정 유지",
+        "source_display_token": null,
+        "text_function": "narration"
+      },
+      "voice_asset": null,
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "sina_06.mjo::002171",
+      "unit": "sina_06.mjo::u0210",
+      "source": "つまらんギャグをあえてカマしてみたのに。",
+      "before": "일부러 시시한 농담을 던져 본 건데.",
+      "target": "일부러 시시한 개그를 던져 본 건데.",
+      "category": "loanword",
+      "reason_ko": "시이나의 반응을 끌어내기 위한 ギャグ를 보존.",
+      "context": {
+        "speaker_identity": "미사와 신야 (대사/1인칭 서술)",
+        "addressees": [
+          "자기 자신/독자"
+        ],
+        "relationship": "신야→시이나 반말, 시이나→신야 선배/존댓말. 시이나→마호코 언니/존댓말. 신야→마호코 소꿉친구 반말",
+        "story_phase": "현재 월요일 방과 후, 노을길193-239와 마호코 집 문 앞240-284. 현재 학생은 승인된 대학 성격 신학교 설정",
+        "voice": "신야는 시이나의 사정을 아직 모른 채 농담에서 의심/불안으로 이행. 시이나는 마음이 딴 데 가 있고 불안한 존댓말. u0223은 직전 인용 선배랑 상관없다는 말을 해도 되는지 되묻는다. 배터리/부재 이유는 추측 유지",
+        "source_display_token": null,
+        "text_function": "narration"
+      },
+      "voice_asset": null,
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "sina_11.mjo::000707",
+      "unit": "sina_11.mjo::u0073",
+      "source": "　それは先輩のギャグがつまらないからですっ」",
+      "before": " 선배 농담이 재미없어서예요!」",
+      "target": " 선배 개그가 재미없어서예요!」",
+      "category": "loanword",
+      "reason_ko": "시이나→신야의 가시 돋친 존댓말 유지, ギャグ를 보존.",
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "후배가 선배에게 쇼핑 동행을 부탁",
+        "story_phase": "시이나 루트 sina_11 / 시이나의 쇼핑 동행 요청",
+        "voice": "선배 호칭, 조심스러운 부탁 뒤 가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "voice_asset": "sina_0496",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "sina_11.mjo::000714",
+      "unit": "sina_11.mjo::u0074",
+      "source": "「いや、それはギャグじゃなくて俺としては大マジなんだが」",
+      "before": "「아니, 농담이 아니라 난 정말 진지한데」",
+      "target": "「아니, 개그가 아니라 난 정말 진지한데」",
+      "category": "loanword",
+      "reason_ko": "신야가 직전 시이나의 ギャグ를 되받는 동일 어휘 유지.",
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "선배가 후배에게",
+        "story_phase": "시이나 루트 sina_11 / 시이나의 쇼핑 동행 요청",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "voice_asset": null,
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "sub_last.mjo::009222",
+      "unit": "sub_last.mjo::u0787",
+      "source": "先生に告白して、皆には内緒という条件でＯＫしてもらって、",
+      "before": "선생님께 고백하고, 모두에게 비밀로 한다는 조건으로 받아 주셔서,",
+      "target": "선생님께 고백하고, 모두에게 비밀로 한다는 조건으로 오케이를 받고,",
+      "category": "loanword",
+      "reason_ko": "ＯＫしてもらう의 어휘 보존. 연결본/개별 에피소드 동일 문장은 동일 번역.",
+      "context": {
+        "speaker_identity": "정체불명 여학생(실험체 제1호)(서술)",
+        "addressees": [],
+        "relationship": "시오미는 자신을 좋아하는 대학과정 신학교 여학생을 연인인 척 이용한다. 여학생은 선생님을 향한 존댓말과 흥분한 친근체를 오간다. u0029부터 서술자가 여학생으로 바뀜.",
+        "story_phase": "sub_last 연결본: 부가 현재 학생 시점: 반혼술 동물실험 뒤 첫 인간 실험체를 고르는 시오미와 되살아난 여학생의 시점",
+        "voice": "잠에서 깨어 혼란스럽다가 연애 감정을 느끼는 1인칭 서술",
+        "reuse_context": "순서가 같은 동일 장면 원문과 실제 화자/상대 확인; 새·변경 필드만 직접 번역",
+        "source_context_units": [
+          "sub_last07.mjo::u0036"
+        ]
+      },
+      "voice_asset": null,
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "sub_last07.mjo::000661",
+      "unit": "sub_last07.mjo::u0036",
+      "source": "先生に告白して、皆には内緒という条件でＯＫしてもらって、",
+      "before": "선생님께 고백하고, 모두에게 비밀로 한다는 조건으로 받아 주셔서,",
+      "target": "선생님께 고백하고, 모두에게 비밀로 한다는 조건으로 오케이를 받고,",
+      "category": "loanword",
+      "reason_ko": "ＯＫしてもらう의 어휘 보존. 연결본/개별 에피소드 동일 문장은 동일 번역.",
+      "context": {
+        "speaker_identity": "정체불명 여학생(실험체 제1호)(서술)",
+        "addressees": [],
+        "relationship": "시오미는 자신을 좋아하는 대학과정 신학교 여학생을 연인인 척 이용한다. 여학생은 선생님을 향한 존댓말과 흥분한 친근체를 오간다. u0029부터 서술자가 여학생으로 바뀜.",
+        "story_phase": "부가 현재 학생 시점: 반혼술 동물실험 뒤 첫 인간 실험체를 고르는 시오미와 되살아난 여학생의 시점",
+        "voice": "잠에서 깨어 혼란스럽다가 연애 감정을 느끼는 1인칭 서술",
+        "context_evidence": "sub_last07전체와 sub_last06·08전체 문맥을 검토. 사용자 제공 대학과정 신학교 맥락을 이 현재 학생 장면에 적용. 과거 유에의 나이에 확대하지 않음."
+      },
+      "voice_asset": null,
+      "translator_model": "Codex internal"
+    }
+  ],
+  "occurrence_inventory": [
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "00_レコンキスタ_start.mjo::002434",
+      "unit": "00_レコンキスタ_start.mjo::u0222",
+      "source": "「ＯＫＯＫ。やーんもう、もみじちゃんてば可愛いなぁ」",
+      "before": "「좋아, 좋아! 아유, 우리 모미지 너무 귀엽다」",
+      "target": "「오케이, 오케이! 아유, 우리 모미지 너무 귀엽다」",
+      "decision": "change"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "00_レコンキスタ_start_2.mjo::009304",
+      "unit": "00_レコンキスタ_start_2.mjo::u0858",
+      "source": "「オッケーオッケー、任せといて」",
+      "before": "「오케이, 오케이. 나한테 맡겨」",
+      "target": "「오케이, 오케이. 나한테 맡겨」",
+      "decision": "retain_already_preserved"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "last_ep.mjo::001749",
+      "unit": "last_ep.mjo::u0180",
+      "source": "“お父さんと一緒にお風呂に入るのは何歳までＯＫなのか”",
+      "before": "“아빠랑 같이 목욕해도 되는 건 몇 살까지일까”를 두고",
+      "target": "“아빠랑 같이 목욕하는 건 몇 살까지 오케이일까”를 두고",
+      "decision": "change"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "maho_06.mjo::003309",
+      "unit": "maho_06.mjo::u0337",
+      "source": "「オーケー。",
+      "before": "「오케이.",
+      "target": "「오케이.",
+      "decision": "retain_already_preserved"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "maho_07.mjo::002158",
+      "unit": "maho_07.mjo::u0214",
+      "source": "「オッケーなら帰ろうぜ」",
+      "before": "「좋으면 돌아가자.」",
+      "target": "「오케이라면 돌아가자.」",
+      "decision": "change"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "maho_10.mjo::001954",
+      "unit": "maho_10.mjo::u0181",
+      "source": "「ＯＫ、まずは出席簿でも確認しようぜ。",
+      "before": "「좋아, 일단 출석부부터 확인하자.",
+      "target": "「오케이, 일단 출석부부터 확인하자.",
+      "decision": "change"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "makino_kyoutu.mjo::002818",
+      "unit": "makino_kyoutu.mjo::u0274",
+      "source": "「うん、ＯＫ。洗濯機を使う時は踏み台に乗って、",
+      "before": "「응, 그래. 세탁기 쓸 때는 발판을 밟고 올라서서,",
+      "target": "「응, 오케이. 세탁기 쓸 때는 발판을 밟고 올라서서,",
+      "decision": "change"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "sina_06.mjo::001264",
+      "unit": "sina_06.mjo::u0124",
+      "source": "俺の不安感を熱くぶつければ案外オッケーが出るかも。",
+      "before": "열렬히 호소하면 의외로 허락할지도 몰라.",
+      "target": "열렬히 호소하면 의외로 오케이가 나올지도 몰라.",
+      "decision": "change"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "sub_last.mjo::009222",
+      "unit": "sub_last.mjo::u0787",
+      "source": "先生に告白して、皆には内緒という条件でＯＫしてもらって、",
+      "before": "선생님께 고백하고, 모두에게 비밀로 한다는 조건으로 받아 주셔서,",
+      "target": "선생님께 고백하고, 모두에게 비밀로 한다는 조건으로 오케이를 받고,",
+      "decision": "change"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "sub_last07.mjo::000661",
+      "unit": "sub_last07.mjo::u0036",
+      "source": "先生に告白して、皆には内緒という条件でＯＫしてもらって、",
+      "before": "선생님께 고백하고, 모두에게 비밀로 한다는 조건으로 받아 주셔서,",
+      "target": "선생님께 고백하고, 모두에게 비밀로 한다는 조건으로 오케이를 받고,",
+      "decision": "change"
+    },
+    {
+      "term": "ギャグ",
+      "id": "00_レコンキスタ_start_2.mjo::003358",
+      "unit": "00_レコンキスタ_start_2.mjo::u0316",
+      "source": "　詩菜ちゃんのギャグは面白いねぇ」",
+      "before": "　시이나 농담은 재미있네에」",
+      "target": "　시이나 개그는 재미있네에」",
+      "decision": "change"
+    },
+    {
+      "term": "ギャグ",
+      "id": "00_レコンキスタ_start_2.mjo::003458",
+      "unit": "00_レコンキスタ_start_2.mjo::u0325",
+      "source": "　ギャグとして受け取ることが出来るんだよっ」",
+      "before": "　어떻게 농담으로 받아들일 수가 있어!」",
+      "target": "　어떻게 개그로 받아들일 수가 있어!」",
+      "decision": "change"
+    },
+    {
+      "term": "ギャグ",
+      "id": "sina_05.mjo::001767",
+      "unit": "sina_05.mjo::u0161",
+      "source": "「…ひょっとしてそれはギャグで言っているの？」",
+      "before": "「…혹시 그거 농담으로 하는 소리야?」",
+      "target": "「…혹시 그거 개그라고 하는 소리야?」",
+      "decision": "change"
+    },
+    {
+      "term": "ギャグ",
+      "id": "sina_06.mjo::002171",
+      "unit": "sina_06.mjo::u0210",
+      "source": "つまらんギャグをあえてカマしてみたのに。",
+      "before": "일부러 시시한 농담을 던져 본 건데.",
+      "target": "일부러 시시한 개그를 던져 본 건데.",
+      "decision": "change"
+    },
+    {
+      "term": "ギャグ",
+      "id": "sina_08.mjo::004303",
+      "unit": "sina_08.mjo::u0424",
+      "source": "　相変わらず詩菜ちゃんと信くんのギャグは面白いよね」",
+      "before": "　시이나랑 신이 하는 개그는 여전히 재미있네」",
+      "target": "　시이나랑 신이 하는 개그는 여전히 재미있네」",
+      "decision": "retain_already_preserved"
+    },
+    {
+      "term": "ギャグ",
+      "id": "sina_08.mjo::004324",
+      "unit": "sina_08.mjo::u0426",
+      "source": "「信くんの目指すギャグは、",
+      "before": "「네가 추구하는 개그는",
+      "target": "「네가 추구하는 개그는",
+      "decision": "retain_already_preserved"
+    },
+    {
+      "term": "ギャグ",
+      "id": "sina_11.mjo::000707",
+      "unit": "sina_11.mjo::u0073",
+      "source": "　それは先輩のギャグがつまらないからですっ」",
+      "before": " 선배 농담이 재미없어서예요!」",
+      "target": " 선배 개그가 재미없어서예요!」",
+      "decision": "change"
+    },
+    {
+      "term": "ギャグ",
+      "id": "sina_11.mjo::000714",
+      "unit": "sina_11.mjo::u0074",
+      "source": "「いや、それはギャグじゃなくて俺としては大マジなんだが」",
+      "before": "「아니, 농담이 아니라 난 정말 진지한데」",
+      "target": "「아니, 개그가 아니라 난 정말 진지한데」",
+      "decision": "change"
+    },
+    {
+      "term": "アンケート",
+      "id": "masa_06.mjo::000239",
+      "unit": "masa_06.mjo::u0022",
+      "source": "「だから進路調査のアンケート用紙、",
+      "before": "「그러니까 진로 조사 설문지를",
+      "target": "「그러니까 진로 조사 앙케트 용지를",
+      "decision": "change"
+    }
+  ],
+  "contexts": [
+    {
+      "unit": "00_レコンキスタ_start.mjo::u0213",
+      "speaker": null,
+      "voice": null,
+      "source": "そう思ってしまうくらい、この街は人気が少なかった。",
+      "before": "이 도시에는 그만큼 사람이 없었다."
+    },
+    {
+      "unit": "00_レコンキスタ_start.mjo::u0214",
+      "speaker": "＊＊＊（麻咲）",
+      "voice": "masa_0055",
+      "source": "「あっ、そう言えば自己紹介がまだでした」",
+      "before": "「아, 그러고 보니 제 소개도 아직 안 했네요」"
+    },
+    {
+      "unit": "00_レコンキスタ_start.mjo::u0215",
+      "speaker": "＊＊＊（麻咲）",
+      "voice": "masa_0056",
+      "source": "「あたし、ここに住んでる吉森麻咲っていいます。　よろしくどうぞー」",
+      "before": "「전 여기 사는 요시모리 마사키라고 해요.　잘 부탁드려요!」"
+    },
+    {
+      "unit": "00_レコンキスタ_start.mjo::u0216",
+      "speaker": "槙野",
+      "voice": null,
+      "source": "「ああ、えっと、槙野です。よろしく」",
+      "before": "「아, 그러니까, 난 마키노야. 잘 부탁해」"
+    },
+    {
+      "unit": "00_レコンキスタ_start.mjo::u0217",
+      "speaker": "もみじ",
+      "voice": "momi_0053",
+      "source": "「もみじでーす。どうかよろしくお願いします」",
+      "before": "「저는 모미지예요. 아무쪼록 잘 부탁드립니다」"
+    },
+    {
+      "unit": "00_レコンキスタ_start.mjo::u0218",
+      "speaker": "麻咲",
+      "voice": "masa_0057",
+      "source": "「あらら、すごくしっかりしてるのねー。　こちらこそよろしくっ」",
+      "before": "「어머, 인사도 참 똑 부러지게 하네.　나도 잘 부탁해!」"
+    },
+    {
+      "unit": "00_レコンキスタ_start.mjo::u0219",
+      "speaker": "もみじ",
+      "voice": "momi_0054",
+      "source": "「うんっ、…えっと、吉森のお姉ちゃん」",
+      "before": "「응! …음, 요시모리 언니」"
+    },
+    {
+      "unit": "00_レコンキスタ_start.mjo::u0220",
+      "speaker": "麻咲",
+      "voice": "masa_0058",
+      "source": "「麻咲でいいわよ、もみじちゃん」",
+      "before": "「마사키라고 불러, 모미지」"
+    },
+    {
+      "unit": "00_レコンキスタ_start.mjo::u0221",
+      "speaker": "もみじ",
+      "voice": "momi_0055",
+      "source": "「それじゃあ、麻咲ちゃんって呼んでいい？」",
+      "before": "「그럼 마사키 언니라고 불러도 돼?」"
+    },
+    {
+      "unit": "00_レコンキスタ_start.mjo::u0222",
+      "speaker": "麻咲",
+      "voice": "masa_0059",
+      "source": "「ＯＫＯＫ。やーんもう、もみじちゃんてば可愛いなぁ」",
+      "before": "「좋아, 좋아! 아유, 우리 모미지 너무 귀엽다」"
+    },
+    {
+      "unit": "00_レコンキスタ_start.mjo::u0223",
+      "speaker": null,
+      "voice": null,
+      "source": "初対面で早くも打ち解けた様子の二人。",
+      "before": "두 사람은 처음 만났는데도 벌써 친해진 듯했다."
+    },
+    {
+      "unit": "00_レコンキスタ_start.mjo::u0224",
+      "speaker": null,
+      "voice": null,
+      "source": "もみじは行儀がよくて愛想もいいから、老若男女問わず誰からも好かれるタイプだった。",
+      "before": "모미지는 예의 바르고 붙임성도 좋아서남녀노소 가릴 것 없이 누구에게나 사랑받는 아이였다."
+    },
+    {
+      "unit": "00_レコンキスタ_start.mjo::u0225",
+      "speaker": null,
+      "voice": null,
+      "source": "こういうところは僕とは正反対なので、きっと母親に似たのだろう。",
+      "before": "이런 점은 나와 정반대이니분명 엄마를 닮았을 것이다."
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0313",
+      "speaker": null,
+      "voice": null,
+      "source": "どうやらこれまでの様子から判断すると、俺と真帆子の仲がいいのが、こいつには気にくわないらしい。",
+      "before": "여태까지 봐 온 바로는내가 마호코랑 친한 게 마음에 안 드는 모양이다."
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0314",
+      "speaker": null,
+      "voice": null,
+      "source": "だがその理由となると、俺にはさっぱりだ。",
+      "before": "하지만 그 이유는 도무지 모르겠다."
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0315",
+      "speaker": null,
+      "voice": null,
+      "source": "その理由を機会があったら聞いてみようとは思うのだが、詩菜が素直に答えてくれるかどうか、かなり怪しいところだった。",
+      "before": "기회가 나면 이유를 물어볼 생각이긴 한데시이나가 순순히 대답해 줄지는꽤 의심스러웠다."
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0316",
+      "speaker": "真帆子",
+      "voice": "maho_0495",
+      "source": "「うんうん、相変わらず、　詩菜ちゃんのギャグは面白いねぇ」",
+      "before": "「응응, 여전히　시이나 농담은 재미있네에」"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0317",
+      "speaker": null,
+      "voice": null,
+      "source": "脳天気なセリフと共に、俺たちの会話に真帆子が加わってくる。",
+      "before": "태평한 소리를 하며마호코가 우리 대화에 끼어들었다."
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0318",
+      "speaker": null,
+      "voice": null,
+      "source": "ていうか、なんでそういう解釈になるんだか。少しは正確に場の空気を読めってんだ。",
+      "before": "아니, 어떻게 그런 해석이 나오냐.분위기 좀 제대로 읽으라고."
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0319",
+      "speaker": "詩菜",
+      "voice": "sina_1505",
+      "source": "「えっ、そ、そんなぁ…。　真帆子ちゃんに褒められるなんて…」",
+      "before": "「네? 그, 그런…　마호코 언니가 칭찬을 다 해 주시고…」"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0322",
+      "speaker": "信哉",
+      "voice": null,
+      "source": "「あのな…」",
+      "before": "「저기 말이야…」"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0323",
+      "speaker": "真帆子",
+      "voice": "maho_0496",
+      "source": "「あれれ、信くんは面白くなかったの？」",
+      "before": "「어라, 신은 재미없었어?」"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0324",
+      "speaker": "信哉",
+      "voice": null,
+      "source": "「いや、だから面白いとか、　面白くないとかの問題じゃなくて…」",
+      "before": "「아니, 그러니까 재미있고　없고의 문제가 아니라…」"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0325",
+      "speaker": "信哉",
+      "voice": null,
+      "source": "「というか、なんで今の会話を、　ギャグとして受け取ることが出来るんだよっ」",
+      "before": "「그보다 방금 대화를　어떻게 농담으로 받아들일 수가 있어!」"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0326",
+      "speaker": "真帆子",
+      "voice": "maho_0497",
+      "source": "「だって、詩菜ちゃん面白かったよ？」",
+      "before": "「그치만 시이나 재미있었는걸?」"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0327",
+      "speaker": "信哉",
+      "voice": null,
+      "source": "「いや、今の詩菜の口ぶりはどう考えても、　喧嘩を売ってるとしか思えないぞっ」",
+      "before": "「아니, 방금 시이나 말투는 아무리 생각해도　싸우자는 소리로밖에 안 들리거든!」"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0328",
+      "speaker": "真帆子",
+      "voice": "maho_0498",
+      "source": "「そんなぁ。詩菜ちゃんが、　信くんにそんな事するわけないよぉ」",
+      "before": "「설마아. 시이나가　신한테 그럴 리 없잖아아」"
+    },
+    {
+      "unit": "last_ep.mjo::u0177",
+      "speaker": null,
+      "voice": null,
+      "source": "わたしも、もみじお姉ちゃんの意見に賛成だった。",
+      "before": "나도 모미지 언니의 생각에 찬성했다."
+    },
+    {
+      "unit": "last_ep.mjo::u0178",
+      "speaker": null,
+      "voice": null,
+      "source": "けど多分そういうわけにいかないのが『オトナのジジョー』っていうのなんだと思う。",
+      "before": "하지만 아마 그렇게 할 수 없는 이유가『어른들의 사정』이라는 건가 보다."
+    },
+    {
+      "unit": "last_ep.mjo::u0179",
+      "speaker": null,
+      "voice": null,
+      "source": "…大人って、やっぱりタイヘンなんだなぁ。",
+      "before": "…어른은 역시 힘들구나."
+    },
+    {
+      "unit": "last_ep.mjo::u0180",
+      "speaker": null,
+      "voice": null,
+      "source": "それからしばらく二人して、“お父さんと一緒にお風呂に入るのは何歳までＯＫなのか”について大いに盛り上がった。",
+      "before": "그 뒤로도 한동안 둘이서“아빠랑 같이 목욕해도 되는 건 몇 살까지일까”를 두고신나게 이야기를 나눴다."
+    },
+    {
+      "unit": "last_ep.mjo::u0181",
+      "speaker": "もみじ",
+      "voice": "momi_0412",
+      "source": "「あ、もうここまで着いちゃった」",
+      "before": "「아, 벌써 여기까지 왔네」"
+    },
+    {
+      "unit": "last_ep.mjo::u0182",
+      "speaker": null,
+      "voice": null,
+      "source": "小学校とミッションスクールの分かれ道までやって来た。",
+      "before": "초등학교와 미션스쿨로 가는 갈림길에 도착했다."
+    },
+    {
+      "unit": "last_ep.mjo::u0183",
+      "speaker": null,
+      "voice": null,
+      "source": "もみじお姉ちゃんとはここでお別れ。ちょっと残念だなぁ。",
+      "before": "모미지 언니와는 여기서 헤어진다.조금 아쉽다."
+    },
+    {
+      "unit": "maho_07.mjo::u0211",
+      "speaker": null,
+      "voice": null,
+      "source": "脱出ごっこなんて、所詮はごっこなんだから。",
+      "before": "탈출 놀이야 어차피 놀이일 뿐이니까."
+    },
+    {
+      "unit": "maho_07.mjo::u0212",
+      "speaker": null,
+      "voice": null,
+      "source": "別に島を出ようとしなくてもいい筈だ。",
+      "before": "꼭 섬을 나가려고 하지 않아도 될 거다."
+    },
+    {
+      "unit": "maho_07.mjo::u0213",
+      "speaker": null,
+      "voice": null,
+      "source": "明日も晴れてるって信じる為だけの約束があってもいい筈だ…",
+      "before": "내일도 맑을 거라고믿기 위한 약속만 해도 괜찮을 거다…"
+    },
+    {
+      "unit": "maho_07.mjo::u0214",
+      "speaker": "信哉",
+      "voice": null,
+      "source": "「オッケーなら帰ろうぜ」",
+      "before": "「좋으면 돌아가자.」"
+    },
+    {
+      "unit": "maho_07.mjo::u0215",
+      "speaker": "まほこ",
+      "voice": "maho_1054",
+      "source": "「ま、待ってよぉ～」",
+      "before": "「기, 기다려어~」"
+    },
+    {
+      "unit": "maho_07.mjo::u0216",
+      "speaker": null,
+      "voice": null,
+      "source": "まほこが慌ててついてくる。",
+      "before": "마호코가 황급히 따라온다."
+    },
+    {
+      "unit": "maho_07.mjo::u0217",
+      "speaker": null,
+      "voice": null,
+      "source": "どうやら了承してくれたらしい。",
+      "before": "아무래도 그러기로 한 모양이다."
+    },
+    {
+      "unit": "maho_10.mjo::u0178",
+      "speaker": "詩菜",
+      "voice": "sina_1843",
+      "source": "「…また先輩ですか。　と言うか、今日もこの教室にいるんですか」",
+      "before": "「…또 선배예요?　아니, 오늘도 이 교실에 계시네요」"
+    },
+    {
+      "unit": "maho_10.mjo::u0179",
+      "speaker": "信哉",
+      "voice": null,
+      "source": "「いや、それはこっちの台詞だから。　ここは正真正銘、俺の教室でもあるから」",
+      "before": "「아니, 그건 내가 할 말이거든.　여긴 틀림없이 내 교실이기도 하니까」"
+    },
+    {
+      "unit": "maho_10.mjo::u0180",
+      "speaker": "詩菜",
+      "voice": "sina_1844",
+      "source": "「そんな脳内設定聞かされましても…」",
+      "before": "「선배 머릿속 설정까지 들려주셔도…」"
+    },
+    {
+      "unit": "maho_10.mjo::u0181",
+      "speaker": "信哉",
+      "voice": null,
+      "source": "「ＯＫ、まずは出席簿でも確認しようぜ。　話はそれからだ」",
+      "before": "「좋아, 일단 출석부부터 확인하자.　얘기는 그다음에 하고」"
+    },
+    {
+      "unit": "maho_10.mjo::u0182",
+      "speaker": null,
+      "voice": null,
+      "source": "…詩菜的には会話を邪魔されて腹立たしかろうが、これだけは絶対に譲る事ができない。",
+      "before": "…시이나야 대화를 방해받아서 화가 나겠지만이것만큼은 절대 양보할 수 없다."
+    },
+    {
+      "unit": "maho_10.mjo::u0183",
+      "speaker": "信哉",
+      "voice": null,
+      "source": "「とにかく学校で雑誌なんか広げてんじゃない。　先生に見つかったら厄介だろ？」",
+      "before": "「아무튼 학교에서 잡지 같은 거 펼치지 마.　선생님한테 걸리면 귀찮아지잖아?」"
+    },
+    {
+      "unit": "maho_10.mjo::u0184",
+      "speaker": "詩菜",
+      "voice": "sina_1845",
+      "source": "「授業中にこそこそマンガを読んでるような人に、　正論をぶたれたくありませんが」",
+      "before": "「수업 시간에 몰래 만화책을 읽는 분한테　훈계를 듣고 싶지는 않은데요」"
+    },
+    {
+      "unit": "makino_kyoutu.mjo::u0271",
+      "speaker": "もみじ",
+      "voice": "momi_1015",
+      "source": "「はーい」",
+      "before": "「네에」"
+    },
+    {
+      "unit": "makino_kyoutu.mjo::u0272",
+      "speaker": "槙野",
+      "voice": null,
+      "source": "「それと彼女が服を脱いだら、洗濯機にかけて欲しい。　洗濯機の使い方はわかるよね？」",
+      "before": "「그리고 옷을 벗으면 세탁기에 넣고 돌려 줘.　세탁기 쓰는 법은 알지?」"
+    },
+    {
+      "unit": "makino_kyoutu.mjo::u0273",
+      "speaker": "もみじ",
+      "voice": "momi_1016",
+      "source": "「大丈夫だよぉ。　洗剤を入れて、スイッチを押すだけでしょ？」",
+      "before": "「걱정 마아.　세제 넣고 스위치만 누르면 되잖아?」"
+    },
+    {
+      "unit": "makino_kyoutu.mjo::u0274",
+      "speaker": "槙野",
+      "voice": null,
+      "source": "「うん、ＯＫ。洗濯機を使う時は踏み台に乗って、　中に落っこちないよう気をつけて」",
+      "before": "「응, 그래. 세탁기 쓸 때는 발판을 밟고 올라서서,　안으로 떨어지지 않게 조심해」"
+    },
+    {
+      "unit": "makino_kyoutu.mjo::u0275",
+      "speaker": "もみじ",
+      "voice": "momi_1017",
+      "source": "「わかってるもん。おとーさんは心配しすぎなんだからぁ」",
+      "before": "「알고 있거든. 아빠는 걱정이 너무 많다니까아」"
+    },
+    {
+      "unit": "makino_kyoutu.mjo::u0276",
+      "speaker": null,
+      "voice": null,
+      "source": "口うるさく言う僕に、不満そうに唇をとがらせるもみじ。",
+      "before": "내 잔소리에 모미지가 불만스레 입술을 삐죽 내밀었다."
+    },
+    {
+      "unit": "makino_kyoutu.mjo::u0277",
+      "speaker": null,
+      "voice": null,
+      "source": "確かにもみじはしっかり者だから心配ないとは思うけど、親としては少し口うるさいくらいでちょうどいいんだ。",
+      "before": "모미지는 야무진 아이니까 걱정 없을 것 같긴 하지만,부모로서는 잔소리를 좀 하는 정도가 딱 좋다."
+    },
+    {
+      "unit": "makino_kyoutu.mjo::u0656",
+      "speaker": null,
+      "voice": null,
+      "source": "…僕が初めて彼女と出会ったのは、教師の職について初めてクラスの担任になった時だった。",
+      "before": "…내가 그녀를 처음 만난 것은교사가 된 뒤 처음으로 담임을 맡았을 때였다."
+    },
+    {
+      "unit": "makino_kyoutu.mjo::u0657",
+      "speaker": null,
+      "voice": null,
+      "source": "二年生のあるクラスの担任だった女性教師が、めでたくご懐妊となり…",
+      "before": "2학년 어느 반의 담임이었던 여교사가경사스럽게도 임신을 해서…"
+    },
+    {
+      "unit": "makino_kyoutu.mjo::u0658",
+      "speaker": null,
+      "voice": null,
+      "source": "産休で半年ほど学校を離れることになったので、まだ新任だった僕に急きょ白羽の矢が立ったというわけだ。",
+      "before": "출산 휴가로 반년쯤 자리를 비우게 되는 바람에아직 신임이던 내가 급히 대신 맡게 된 것이다."
+    },
+    {
+      "unit": "makino_kyoutu.mjo::u0659",
+      "speaker": "槙野",
+      "voice": null,
+      "source": "「あー、というわけで、　今日からこのクラスの担任となった槙野です。よろしく」",
+      "before": "「아, 그렇게 돼서　오늘부터 이 반 담임을 맡게 된 마키노야. 잘 부탁한다」"
+    },
+    {
+      "unit": "makino_kyoutu.mjo::u0660",
+      "speaker": null,
+      "voice": null,
+      "source": "黒板の前に立ち、緊張しながら生徒達に挨拶をする僕。",
+      "before": "칠판 앞에 서서 긴장한 채 학생들에게 인사했다."
+    },
+    {
+      "unit": "makino_kyoutu.mjo::u0661",
+      "speaker": null,
+      "voice": null,
+      "source": "普段から授業で教壇に立っている筈なのに、今までにないプレッシャーを感じていた。",
+      "before": "평소에도 수업 시간에 교단에 서면서여태 느껴 보지 못한 부담감에 짓눌렸다."
+    },
+    {
+      "unit": "makino_kyoutu.mjo::u0662",
+      "speaker": null,
+      "voice": null,
+      "source": "僕はこのクラスの授業を受け持っていなかったので、生徒達とほとんど面識がないのもその理由の一つだった。",
+      "before": "이 반 수업은 맡고 있지 않아서학생들과 거의 안면이 없는 것도 이유 중 하나였다."
+    },
+    {
+      "unit": "masa_06.mjo::u0019",
+      "speaker": null,
+      "voice": null,
+      "source": "独り言のつもりがそこに絶妙なタイミングで返事があって、僕はのけぞりつつ振り返った。",
+      "before": "혼잣말이었는데 절묘한 타이밍에 대답이 들려와,나는 몸을 뒤로 젖히며 돌아봤다."
+    },
+    {
+      "unit": "masa_06.mjo::u0020",
+      "speaker": "紅葉",
+      "voice": "mom2_180",
+      "source": "「ホントですよ。持ってきました、進路調査の紙」",
+      "before": "「정말이죠. 가져왔어요, 진로 조사서」"
+    },
+    {
+      "unit": "masa_06.mjo::u0021",
+      "speaker": "槙野",
+      "voice": null,
+      "source": "「か、上条？　どうしてここに…」",
+      "before": "「가, 가미조? 어쩐 일로 여기에…」"
+    },
+    {
+      "unit": "masa_06.mjo::u0022",
+      "speaker": "紅葉",
+      "voice": "mom2_181",
+      "source": "「だから進路調査のアンケート用紙、　持ってきたんですってば」",
+      "before": "「그러니까 진로 조사 설문지를　가져왔다니까요」"
+    },
+    {
+      "unit": "masa_06.mjo::u0023",
+      "speaker": null,
+      "voice": null,
+      "source": "そこにいたのはクラス委員の上条紅葉だった。",
+      "before": "거기에 서 있는 사람은 학급위원 가미조 모미지였다."
+    },
+    {
+      "unit": "masa_06.mjo::u0024",
+      "speaker": null,
+      "voice": null,
+      "source": "手にはわら半紙の束を携えており、それが彼女の言う『カミ』であるらしい。",
+      "before": "손에는 갱지 뭉치를 들고 있었는데,그게 그녀가 말한 『종이(카미)』인 모양이었다."
+    },
+    {
+      "unit": "masa_06.mjo::u0025",
+      "speaker": "槙野",
+      "voice": null,
+      "source": "「あ…ああ、進路調査の紙ね。今日提出だったっけ」",
+      "before": "「아… 아아, 진로 조사서 말이지. 오늘까지 내는 거였나」"
+    },
+    {
+      "unit": "sina_05.mjo::u0158",
+      "speaker": "信哉",
+      "voice": null,
+      "source": "「いや、そういうわけじゃないけど、　さっき年下のヤツにやり込められて、ついつい、　その鬱憤が向いてしまったというわけで」",
+      "before": "「아뇨, 그런 건 아닌데　아까 후배한테 된통 당하는 바람에 그만　그 울분이 이쪽으로 향한 거예요」"
+    },
+    {
+      "unit": "sina_05.mjo::u0159",
+      "speaker": "矢嶋",
+      "voice": "yasi_019",
+      "source": "「まったく失礼な話ね……」",
+      "before": "「정말 실례되는 이야기네……」"
+    },
+    {
+      "unit": "sina_05.mjo::u0160",
+      "speaker": "信哉",
+      "voice": null,
+      "source": "「矢嶋さんもそう思うだろ？　最近の若いヤツは　年上に対する礼儀がなってないんだよなぁ」",
+      "before": "「야시마 씨도 그렇게 생각하시죠? 요즘 젊은 애들은　윗사람한테 예의가 없다니까요」"
+    },
+    {
+      "unit": "sina_05.mjo::u0161",
+      "speaker": "矢嶋",
+      "voice": "yasi_020",
+      "source": "「…ひょっとしてそれはギャグで言っているの？」",
+      "before": "「…혹시 그거 농담으로 하는 소리야?」"
+    },
+    {
+      "unit": "sina_05.mjo::u0162",
+      "speaker": "信哉",
+      "voice": null,
+      "source": "「さて、なんの事やら」",
+      "before": "「글쎄요, 무슨 말씀이신지」"
+    },
+    {
+      "unit": "sina_05.mjo::u0163",
+      "speaker": "矢嶋",
+      "voice": "yasi_021",
+      "source": "「取材初日から、とんでもない子に当たっちゃったなぁ。　この先が思いやられるわ」",
+      "before": "「취재 첫날부터 별난 애를 만났네.　앞날이 걱정이야」"
+    },
+    {
+      "unit": "sina_05.mjo::u0164",
+      "speaker": "信哉",
+      "voice": null,
+      "source": "「まぁまぁ。　仕事ってのは苦労の連続なんだしさ」",
+      "before": "「자, 자.　일이라는 게 고생의 연속이잖아요」"
+    },
+    {
+      "unit": "sina_06.mjo::u0121",
+      "speaker": null,
+      "voice": null,
+      "source": "ああ、放課後は果てしなく遠い…",
+      "before": "아, 방과 후는 아득히 멀다…"
+    },
+    {
+      "unit": "sina_06.mjo::u0122",
+      "speaker": null,
+      "voice": null,
+      "source": "いっそのこと真帆子の見舞いに行くとでも言って、フケるってのはどうだろうか。",
+      "before": "차라리 마호코 병문안에 간다면서빠져나가는 건 어떨까."
+    },
+    {
+      "unit": "sina_06.mjo::u0123",
+      "speaker": null,
+      "voice": null,
+      "source": "…だめだろうな。麻咲が速攻で文句を付けてくる。",
+      "before": "…안 되겠지.마사키가 곧바로 뭐라고 할 거다."
+    },
+    {
+      "unit": "sina_06.mjo::u0124",
+      "speaker": null,
+      "voice": null,
+      "source": "いや、病気で休んでいる真帆子に対する、俺の不安感を熱くぶつければ案外オッケーが出るかも。",
+      "before": "아니, 아파서 쉬는 마호코가 걱정된다는 마음을열렬히 호소하면 의외로 허락할지도 몰라."
+    },
+    {
+      "unit": "sina_06.mjo::u0125",
+      "speaker": null,
+      "voice": null,
+      "source": "麻咲もなんだかんだ言って、結構人情家な所があるからな。",
+      "before": "마사키도 뭐니 뭐니 해도 제법 정이 많은 녀석이니까."
+    },
+    {
+      "unit": "sina_06.mjo::u0126",
+      "speaker": null,
+      "voice": null,
+      "source": "そんな事をあれこれ考えていると、",
+      "before": "이런저런 생각을 하고 있는데,"
+    },
+    {
+      "unit": "sina_06.mjo::u0127",
+      "speaker": null,
+      "voice": null,
+      "source": "ガラガラ～",
+      "before": "드르륵～"
+    },
+    {
+      "unit": "sina_06.mjo::u0207",
+      "speaker": "詩菜",
+      "voice": "sina_0104",
+      "source": "「そうですか…」",
+      "before": "「그런가요…」"
+    },
+    {
+      "unit": "sina_06.mjo::u0208",
+      "speaker": null,
+      "voice": null,
+      "source": "やば、スベった。",
+      "before": "아차, 썰렁해졌다."
+    },
+    {
+      "unit": "sina_06.mjo::u0209",
+      "speaker": null,
+      "voice": null,
+      "source": "つーか、少しは会話のキャッチボールをしようって気になれよな。",
+      "before": "아니, 조금은 대화를 주고받을생각을 해 보라고."
+    },
+    {
+      "unit": "sina_06.mjo::u0210",
+      "speaker": null,
+      "voice": null,
+      "source": "だからこそ、ネタフリの意味も込めてつまらんギャグをあえてカマしてみたのに。",
+      "before": "그러라고, 뭐라도 받아치기 좋게일부러 시시한 농담을 던져 본 건데."
+    },
+    {
+      "unit": "sina_06.mjo::u0211",
+      "speaker": null,
+      "voice": null,
+      "source": "…それにしても、今日の詩菜はどことなく普段と違うよな。",
+      "before": "…그건 그렇고, 오늘 시이나는어딘가 평소와 다르다."
+    },
+    {
+      "unit": "sina_06.mjo::u0212",
+      "speaker": null,
+      "voice": null,
+      "source": "これがいつもなら、冷たい目で俺を見てからなにか鋭い切り返しの一つもしてくるはずだ。",
+      "before": "평소라면 차가운 눈으로 나를 쳐다본 다음날카로운 말 한마디쯤은 받아쳤을 것이다."
+    },
+    {
+      "unit": "sina_06.mjo::u0213",
+      "speaker": null,
+      "voice": null,
+      "source": "あるいは、切り返しもなく、ただ無言で見つめて返してくるとか。",
+      "before": "아니면 아무 대꾸도 없이그저 말없이 빤히 쳐다보거나."
+    },
+    {
+      "unit": "sina_11.mjo::u0070",
+      "speaker": "信哉",
+      "voice": null,
+      "source": "「つか、なに怒ってるんだよ」",
+      "before": "「그보다 왜 화내는 건데?」"
+    },
+    {
+      "unit": "sina_11.mjo::u0071",
+      "speaker": "詩菜",
+      "voice": "sina_0495",
+      "source": "「べつに怒っていませんっ」",
+      "before": "「딱히 화 안 났어요!」"
+    },
+    {
+      "unit": "sina_11.mjo::u0072",
+      "speaker": "信哉",
+      "voice": null,
+      "source": "「いや、怒っている。絶対に。　その証拠に顔も赤くなっているし」",
+      "before": "「아니, 화났어. 분명히. 그 증거로 얼굴도 빨개졌잖아」"
+    },
+    {
+      "unit": "sina_11.mjo::u0073",
+      "speaker": "詩菜",
+      "voice": "sina_0496",
+      "source": "「もし、怒っているなら、　それは先輩のギャグがつまらないからですっ」",
+      "before": "「만약 화가 났다면, 선배 농담이 재미없어서예요!」"
+    },
+    {
+      "unit": "sina_11.mjo::u0074",
+      "speaker": "信哉",
+      "voice": null,
+      "source": "「いや、それはギャグじゃなくて俺としては大マジなんだが」",
+      "before": "「아니, 농담이 아니라 난 정말 진지한데」"
+    },
+    {
+      "unit": "sina_11.mjo::u0075",
+      "speaker": "詩菜",
+      "voice": "sina_0497",
+      "source": "「ならば尚更ですっ」",
+      "before": "「그럼 더더욱 그래요!」"
+    },
+    {
+      "unit": "sina_11.mjo::u0076",
+      "speaker": "信哉",
+      "voice": null,
+      "source": "「でも、最初から顔が赤かったぞ」",
+      "before": "「그런데 아까부터 얼굴 빨갰어」"
+    },
+    {
+      "unit": "sina_11.mjo::u0077",
+      "speaker": "詩菜",
+      "voice": "sina_0498",
+      "source": "「そ、それは…恥を忍んでいるからです…　先輩にこんなお願いをしなきゃならないなんて…」",
+      "before": "「그, 그건… 부끄러움을 무릅쓰고 있어서예요… 선배한테 이런 부탁을 해야 한다니…」"
+    },
+    {
+      "unit": "sub_last.mjo::u0784",
+      "speaker": "女子",
+      "voice": "etc3_063",
+      "source": "「あっ、汐見先生…」",
+      "before": "「아, 시오미 선생님…」"
+    },
+    {
+      "unit": "sub_last.mjo::u0785",
+      "speaker": null,
+      "voice": null,
+      "source": "暗がりから不意に姿を現して、私に声をかけてきたのは汐見先生だった。",
+      "before": "어둠 속에서 갑자기 나타나,내게 말을 건 것은 시오미 선생님이었다."
+    },
+    {
+      "unit": "sub_last.mjo::u0786",
+      "speaker": null,
+      "voice": null,
+      "source": "そこで私はようやく思い出す。",
+      "before": "그제야 나는 떠올렸다."
+    },
+    {
+      "unit": "sub_last.mjo::u0787",
+      "speaker": null,
+      "voice": null,
+      "source": "先生に告白して、皆には内緒という条件でＯＫしてもらって、そしてそのまま肌を重ねたことも。",
+      "before": "선생님께 고백하고, 모두에게 비밀로 한다는 조건으로 받아 주셔서,그대로 몸을 겹쳤던 일도."
+    },
+    {
+      "unit": "sub_last.mjo::u0788",
+      "speaker": "汐見",
+      "voice": null,
+      "source": "「気分はどうですか？」",
+      "before": "「기분은 어떤가요?」"
+    },
+    {
+      "unit": "sub_last.mjo::u0789",
+      "speaker": "女子",
+      "voice": "etc3_064",
+      "source": "「えっ？　あ、はい…大丈夫です」",
+      "before": "「네? 아, 네… 괜찮아요」"
+    },
+    {
+      "unit": "sub_last.mjo::u0790",
+      "speaker": null,
+      "voice": null,
+      "source": "私は首筋を撫でながら、そう答えた。",
+      "before": "나는 목덜미를 쓰다듬으며 대답했다."
+    },
+    {
+      "unit": "sub_last07.mjo::u0033",
+      "speaker": "女子",
+      "voice": "etc3_063",
+      "source": "「あっ、汐見先生…」",
+      "before": "「아, 시오미 선생님…」"
+    },
+    {
+      "unit": "sub_last07.mjo::u0034",
+      "speaker": null,
+      "voice": null,
+      "source": "暗がりから不意に姿を現して、私に声をかけてきたのは汐見先生だった。",
+      "before": "어둠 속에서 갑자기 나타나,내게 말을 건 것은 시오미 선생님이었다."
+    },
+    {
+      "unit": "sub_last07.mjo::u0035",
+      "speaker": null,
+      "voice": null,
+      "source": "そこで私はようやく思い出す。",
+      "before": "그제야 나는 떠올렸다."
+    },
+    {
+      "unit": "sub_last07.mjo::u0036",
+      "speaker": null,
+      "voice": null,
+      "source": "先生に告白して、皆には内緒という条件でＯＫしてもらって、そしてそのまま肌を重ねたことも。",
+      "before": "선생님께 고백하고, 모두에게 비밀로 한다는 조건으로 받아 주셔서,그대로 몸을 겹쳤던 일도."
+    },
+    {
+      "unit": "sub_last07.mjo::u0037",
+      "speaker": "汐見",
+      "voice": null,
+      "source": "「気分はどうですか？」",
+      "before": "「기분은 어떤가요?」"
+    },
+    {
+      "unit": "sub_last07.mjo::u0038",
+      "speaker": "女子",
+      "voice": "etc3_064",
+      "source": "「えっ？　あ、はい…大丈夫です」",
+      "before": "「네? 아, 네… 괜찮아요」"
+    },
+    {
+      "unit": "sub_last07.mjo::u0039",
+      "speaker": null,
+      "voice": null,
+      "source": "私は首筋を撫でながら、そう答えた。",
+      "before": "나는 목덜미를 쓰다듬으며 대답했다."
+    }
+  ],
+  "wordplay_erratum": {
+    "previous_claim": "The paper-side kami pun was not conveyed.",
+    "corrected_finding": "Further context at masa_06 u0024 already explicitly reads 종이(카미). Both sides of the pun are present. Preserve this existing solution; do not duplicate pronunciation glosses.",
+    "retained_records": [
+      {
+        "id": "masa_06.mjo::000173",
+        "unit": "masa_06.mjo::u0016",
+        "source": "「はぁー…なんかこう、神が降りて来ないかなぁ」",
+        "target": "「하아… 뭔가 이렇게, 신(카미)이라도 내려와 주면 좋겠네」"
+      },
+      {
+        "id": "masa_06.mjo::000217",
+        "unit": "masa_06.mjo::u0020",
+        "source": "「ホントですよ。持ってきました、進路調査の紙」",
+        "target": "「정말이죠. 가져왔어요, 진로 조사서」"
+      },
+      {
+        "id": "masa_06.mjo::000257",
+        "unit": "masa_06.mjo::u0024",
+        "source": "それが彼女の言う『カミ』であるらしい。",
+        "target": "그게 그녀가 말한 『종이(카미)』인 모양이었다."
+      }
+    ]
+  },
+  "scope_exclusions": [
+    "No global retranslation",
+    "No deliberate rewrite of literary shared-dead metaphor",
+    "No raster, movie, font design, or engine code change"
+  ],
+  "independent_review": {
+    "reviewer": "independent read-only Codex agent /root/nuance_review",
+    "verdict": "PASS: all 17 target strings",
+    "metadata_finding": {
+      "id": "makino_kyoutu.mjo::006926",
+      "issue": "context.voice still generalized teacher speech as casual",
+      "resolution": "Explicit first-introduction exception added to all fields of unit u0659; text unchanged from reviewed draft"
+    },
+    "wordplay_erratum_confirmed": true,
+    "no_runtime_audio_encoding_review_claimed_by_reviewer": true
+  }
+}

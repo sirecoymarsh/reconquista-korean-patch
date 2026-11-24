@@ -1,0 +1,506 @@
+[
+  {
+    "state": "off",
+    "reference_rows_match": true,
+    "template_glyph_bbox": [
+      18,
+      6,
+      58,
+      19
+    ],
+    "template_diff_pixels": 172,
+    "template_mask_touches_roi_edge": true,
+    "buttons": [
+      {
+        "xy": [
+          202,
+          102
+        ],
+        "difference_pixels": 654,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          65,
+          65,
+          14,
+          15
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          288,
+          102
+        ],
+        "difference_pixels": 693,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          65,
+          65,
+          15,
+          15
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          202,
+          133
+        ],
+        "difference_pixels": 804,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          65,
+          65,
+          14,
+          15
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          288,
+          133
+        ],
+        "difference_pixels": 172,
+        "difference_bbox": [
+          18,
+          6,
+          58,
+          19
+        ],
+        "perimeter_counts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          522,
+          102
+        ],
+        "difference_pixels": 759,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          65,
+          65,
+          14,
+          15
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          522,
+          133
+        ],
+        "difference_pixels": 804,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          65,
+          65,
+          14,
+          15
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          609,
+          133
+        ],
+        "difference_pixels": 721,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          65,
+          65,
+          14,
+          15
+        ],
+        "alpha_unique": [
+          255
+        ]
+      }
+    ]
+  },
+  {
+    "state": "on",
+    "reference_rows_match": true,
+    "template_glyph_bbox": [
+      18,
+      6,
+      58,
+      19
+    ],
+    "template_diff_pixels": 172,
+    "template_mask_touches_roi_edge": true,
+    "buttons": [
+      {
+        "xy": [
+          202,
+          102
+        ],
+        "difference_pixels": 672,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          65,
+          65,
+          15,
+          16
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          288,
+          102
+        ],
+        "difference_pixels": 706,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          65,
+          65,
+          15,
+          16
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          202,
+          133
+        ],
+        "difference_pixels": 822,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          65,
+          65,
+          15,
+          16
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          288,
+          133
+        ],
+        "difference_pixels": 172,
+        "difference_bbox": [
+          18,
+          6,
+          58,
+          19
+        ],
+        "perimeter_counts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          522,
+          102
+        ],
+        "difference_pixels": 777,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          65,
+          65,
+          15,
+          16
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          522,
+          133
+        ],
+        "difference_pixels": 812,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          65,
+          65,
+          15,
+          16
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          609,
+          133
+        ],
+        "difference_pixels": 739,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          65,
+          65,
+          15,
+          16
+        ],
+        "alpha_unique": [
+          255
+        ]
+      }
+    ]
+  },
+  {
+    "state": "push",
+    "reference_rows_match": true,
+    "template_glyph_bbox": [
+      18,
+      6,
+      58,
+      19
+    ],
+    "template_diff_pixels": 172,
+    "template_mask_touches_roi_edge": true,
+    "buttons": [
+      {
+        "xy": [
+          202,
+          102
+        ],
+        "difference_pixels": 598,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          64,
+          65,
+          15,
+          12
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          288,
+          102
+        ],
+        "difference_pixels": 636,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          64,
+          65,
+          15,
+          12
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          202,
+          133
+        ],
+        "difference_pixels": 753,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          64,
+          65,
+          15,
+          12
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          288,
+          133
+        ],
+        "difference_pixels": 172,
+        "difference_bbox": [
+          18,
+          6,
+          58,
+          19
+        ],
+        "perimeter_counts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          522,
+          102
+        ],
+        "difference_pixels": 714,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          64,
+          65,
+          15,
+          12
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          522,
+          133
+        ],
+        "difference_pixels": 759,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          64,
+          65,
+          15,
+          12
+        ],
+        "alpha_unique": [
+          255
+        ]
+      },
+      {
+        "xy": [
+          609,
+          133
+        ],
+        "difference_pixels": 669,
+        "difference_bbox": [
+          5,
+          5,
+          70,
+          21
+        ],
+        "perimeter_counts": [
+          64,
+          65,
+          15,
+          12
+        ],
+        "alpha_unique": [
+          255
+        ]
+      }
+    ]
+  }
+]

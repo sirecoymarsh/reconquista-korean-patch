@@ -1,0 +1,57 @@
+[
+  {
+    "file": "Eulyoo1945-Regular.otf",
+    "names": {
+      "1": "Eulyoo1945",
+      "2": "Regular",
+      "4": "Eulyoo1945",
+      "6": "Eulyoo1945-Regular"
+    },
+    "sha256": "5cc9cc5959d68affa3f2f674ab61eba33b4ec89cedc6f1ff878e818fa0a4c20f",
+    "cmap": 17492
+  },
+  {
+    "file": "Eulyoo1945-SemiBold.otf",
+    "names": {
+      "1": "Eulyoo1945 SemiBold",
+      "2": "Bold",
+      "4": "Eulyoo1945 SemiBold",
+      "6": "Eulyoo1945-SemiBold"
+    },
+    "sha256": "1f2b498cae74bac4c37ce616ab6ac0ced85e33b6c666f95e67c9a9e01dc82928",
+    "cmap": 17492
+  },
+  {
+    "file": "MaruBuri-Bold.ttf",
+    "names": {
+      "1": "MaruBuri Bold",
+      "2": "Regular",
+      "4": "MaruBuri Bold",
+      "6": "MaruBuri-Bold"
+    },
+    "sha256": "13aa1058c135e8f0b2c41de4e5e7866b18f970a15db2b1a290227e52dc02aba8",
+    "cmap": 12398
+  },
+  {
+    "file": "MaruBuri-SemiBold.ttf",
+    "names": {
+      "1": "MaruBuri SemiBold",
+      "2": "Regular",
+      "4": "MaruBuri SemiBold",
+      "6": "MaruBuri-SemiBold"
+    },
+    "sha256": "2d86f0b4950955fb69f069c415d01a51bbbbcf03682d59a6adab7f5b05d16fe5",
+    "cmap": 12398
+  },
+  {
+    "file": "NotoSerifKR-SemiBold.ttf",
+    "names": {
+      "1": "Reconquista Noto Serif Review",
+      "2": "Regular",
+      "4": "Reconquista Noto Serif Review",
+      "6": "ReconquistaNotoSerifReview"
+    },
+    "sha256": "f7e9f855fa93d199d5928acdbfa833331edca13d66f21b58eb7daef81df0d882",
+    "cmap": 23123
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "source_setup_sha256": "d0bdfac202c48da0bb4491b16b66c587fa6efb4ac3eb32dbb816922da74ec2e3",
+  "parent_setup_sha256": "33e3912d0ecacdada68904ef1ee4fb0c4ba0ead56ed069c3fdf03f642bb47c59",
+  "output_setup_sha256": "546f64b7d0128521d0fc163da7d9190a44cbe0fec2bf429f0a6666c058fbbc4d",
+  "source_config_field": {
+    "entry": "fastdata.arc::majiro.env",
+    "key": "INSTREADME",
+    "value": "お読みください",
+    "unchanged": true
+  },
+  "consumer_evidence": {
+    "lookup_call": "0x402031 →0x406280",
+    "display_call": "0x402050 callEBP, SetDlgItemTextA alias established in installer-launcher-consumer-audit.json",
+    "control_id_table_va": "0x414128",
+    "table_values": [
+      1000,
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008
+    ],
+    "action_store": "0x402052 [edi*4+0x4192c8]=5",
+    "shared_naming_evidence": [
+      "ev_2c422b38a744a7948c6225dbec6a336cb12155afefec7dbd2fc55c93f7c6ca54",
+      "ev_92413c67cff428412ba19aca07537eee76889bf10c4ff07949f990f4dcfffb3a"
+    ],
+    "shared_naming_source": "evidence/installer-setup-consumers-rea.json; original INSTREADME flows to shortcut create/delete names. It is intentionally not translated in config."
+  },
+  "changes": {
+    "id": "setup.exe::README-button-display-only",
+    "source": "お読みください",
+    "target": "안내문",
+    "translator_model": "Codex internal",
+    "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+    "encoding": "cp949",
+    "literal_va": 4277485,
+    "literal_offset": 83181,
+    "literal_bytes": "bec8b3bbb9ae00",
+    "code_instruction_va": 4202569,
+    "code_instruction_offset": 8265,
+    "old_operand": "0x4191b8",
+    "new_operand": "0x4144ed",
+    "control_id": 1002,
+    "action_id": 5,
+    "scope": "Only pointer passed as lpString to existing SetDlgItemTextA. Environment lookup/presence guard, shared INSTREADME shortcut naming/deletion consumers, file target and dispatch action are unchanged."
+  },
+  "changed_file_offsets": [
+    8266,
+    8267,
+    83181,
+    83182,
+    83183,
+    83184,
+    83185,
+    83186
+  ],
+  "allowed_file_ranges": [
+    [
+      83181,
+      7
+    ],
+    [
+      8266,
+      4
+    ]
+  ],
+  "before_instructions": [
+    "00402042 mov eax, dword ptr [edi*4 + 0x414128]",
+    "00402049 push 0x4191b8",
+    "0040204e push eax",
+    "0040204f push esi",
+    "00402050 call ebp",
+    "00402052 mov dword ptr [edi*4 + 0x4192c8], 5",
+    "0040205d inc edi"
+  ],
+  "after_instructions": [
+    "00402042 mov eax, dword ptr [edi*4 + 0x414128]",
+    "00402049 push 0x4144ed",
+    "0040204e push eax",
+    "0040204f push esi",
+    "00402050 call ebp",
+    "00402052 mov dword ptr [edi*4 + 0x4192c8], 5",
+    "0040205d inc edi"
+  ],
+  "headers_resources_imports_unchanged": true,
+  "installer_executed": false,
+  "runtime_pass": false,
+  "limits": "Static argument/byte proof plus separate inert-native-host display validation required. Real installer flow is not executed."
+}

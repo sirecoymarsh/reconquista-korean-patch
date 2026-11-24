@@ -1,0 +1,1016 @@
+{
+  "status": "integrated_installed_static_gdi_pass_visual_pending",
+  "label": "recovery-full-20261023-v1",
+  "translator_model": "Codex internal",
+  "created_at": "2026-10-23T08:11:09.843495+09:00",
+  "units": 46913,
+  "ordinary_fields": 73314,
+  "inline_fields": 625,
+  "new_recovery_units": 25,
+  "content_recovered": 20,
+  "technical_resolved": 5,
+  "extra_redundant_manual_ruby_fixed": 11,
+  "names": 117,
+  "canonical_edits": [
+    {
+      "id": "kureha_08.mjo::004863",
+      "before": "　우리는 그 방법을 『반혼법』이라고 불러」",
+      "after": "　우리는 그 방법을 『반혼술』이라고 불러」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_08.mjo::004877",
+      "before": "죽은 사람을 되살리는 방법… 반혼법?",
+      "after": "죽은 사람을 되살리는 방법… 반혼술?",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_08.mjo::004899",
+      "before": "　그 반혼법이 비밀리에 전해 내려오고 있었어」",
+      "after": "　그 반혼술이 비밀리에 전해 내려오고 있었어」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_08.mjo::004942",
+      "before": "　이 동네에서 그 반혼법을 행하는 자가 있어」",
+      "after": "　이 동네에서 그 반혼술을 행하는 자가 있어」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_08.mjo::004956",
+      "before": "「누군가가 반혼법을 써서…",
+      "after": "「누군가가 반혼술을 써서…",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_08.mjo::004977",
+      "before": "반혼법이 어쩌고 하는 이야기보다도,",
+      "after": "반혼술이 어쩌고 하는 이야기보다도,",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_08.mjo::004986",
+      "before": "그녀가 아주 오래전에 죽었다고? 반혼법으로 되살아났다고?",
+      "after": "그녀가 아주 오래전에 죽었다고? 반혼술으로 되살아났다고?",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_08.mjo::005110",
+      "before": "「너는 한 번 죽었다가 반혼법이라는 걸로 되살아났어.",
+      "after": "「너는 한 번 죽었다가 반혼술이라는 걸로 되살아났어.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_08.mjo::005581",
+      "before": "「…이게 내가 반혼법으로 되살아났다는 증거야」",
+      "after": "「…이게 내가 반혼술으로 되살아났다는 증거야」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_08.mjo::005595",
+      "before": "「반혼법으로 되살아난 사람은 달빛이 힘의 원천이 돼」",
+      "after": "「반혼술으로 되살아난 사람은 달빛이 힘의 원천이 돼」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_08.mjo::005759",
+      "before": "그게 반혼법으로 되살아난 부작용이라는 말은…",
+      "after": "그게 반혼술으로 되살아난 부작용이라는 말은…",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_08.mjo::005784",
+      "before": "　반혼법으로 되살아난 사람이야」",
+      "after": "　반혼술으로 되살아난 사람이야」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_08.mjo::005890",
+      "before": "　반혼법의 부작용은 그게 다가 아니야」",
+      "after": "　반혼술의 부작용은 그게 다가 아니야」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_08.mjo::005974",
+      "before": "모두 그 『반혼법』이 얽혀 있었다는 말인가――",
+      "after": "모두 그 『반혼술』이 얽혀 있었다는 말인가――",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_08.mjo::006014",
+      "before": "　다시는 반혼법을 행하지 못하도록 처리하는 것」",
+      "after": "　다시는 반혼술을 행하지 못하도록 처리하는 것」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_08.mjo::006042",
+      "before": "이 동네에서 반혼법을 행하는 누군가.",
+      "after": "이 동네에서 반혼술을 행하는 누군가.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_09.mjo::003063",
+      "before": "「…어제 이야기한 반혼법은 기억하지?」",
+      "after": "「…어제 이야기한 반혼술은 기억하지?」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_09.mjo::003084",
+      "before": "「반혼법을 행하려면 특별한 나무가 하나 필요해.",
+      "after": "「반혼술을 행하려면 특별한 나무가 하나 필요해.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_09.mjo::003124",
+      "before": "「이 동네에서 반혼법이 행해지고 있다는 건",
+      "after": "「이 동네에서 반혼술이 행해지고 있다는 건",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_09.mjo::003146",
+      "before": "　더는 반혼법을 행할 수 없게 돼」",
+      "after": "　더는 반혼술을 행할 수 없게 돼」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_10.mjo::001038",
+      "before": "반혼법으로 되살아난 모미지 본인이 아닐까 생각했던 것이다.",
+      "after": "반혼술으로 되살아난 모미지 본인이 아닐까 생각했던 것이다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_11.mjo::000986",
+      "before": "반혼법을 행하는 주모자를 어떻게든 하는 것은 물론,",
+      "after": "반혼술을 행하는 주모자를 어떻게든 하는 것은 물론,",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_11.mjo::000995",
+      "before": "쿠레하의 일도, 반혼법의 일도",
+      "after": "쿠레하의 일도, 반혼술의 일도",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_11.mjo::001123",
+      "before": "『한 번 죽었다가 반혼법으로 되살아난 사람』이라고 했다.",
+      "after": "『한 번 죽었다가 반혼술으로 되살아난 사람』이라고 했다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_13.mjo::000191",
+      "before": "죽은 사람을 되살린다는 반혼법.",
+      "after": "죽은 사람을 되살린다는 반혼술.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_13.mjo::000211",
+      "before": "「(그리고 반혼법을 쓰는 데 필요한",
+      "after": "「(그리고 반혼술을 쓰는 데 필요한",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_13.mjo::000240",
+      "before": "　반혼법을 계속 쓰는 걸까)」",
+      "after": "　반혼술을 계속 쓰는 걸까)」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_13.mjo::000245",
+      "before": "반혼법으로 되살아난 사람에게는 부작용이 있어서,",
+      "after": "반혼술으로 되살아난 사람에게는 부작용이 있어서,",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_13.mjo::000254",
+      "before": "즉 반혼법은 불완전한 것이다.",
+      "after": "즉 반혼술은 불완전한 것이다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_13.mjo::000437",
+      "before": "쿠레하가 반혼법으로 되살아난 모미지 본인일 거라는 희망을.",
+      "after": "쿠레하가 반혼술으로 되살아난 모미지 본인일 거라는 희망을.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_14.mjo::001526",
+      "before": "자기도 반혼법으로 되살아난 사람이라고.",
+      "after": "자기도 반혼술으로 되살아난 사람이라고.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_14.mjo::001948",
+      "before": "이건 반혼법 같은 것과는 별개로, 나 자신의 문제였다.",
+      "after": "이건 반혼술 같은 것과는 별개로, 나 자신의 문제였다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_15.mjo::001838",
+      "before": "반혼법이」",
+      "after": "반혼술이」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_15.mjo::001855",
+      "before": "방금 『반혼법』이라고 한 건가?",
+      "after": "방금 『반혼술』이라고 한 건가?",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_15.mjo::001864",
+      "before": "시오미 선생님은 분명 『반혼법』이라고 말했다.",
+      "after": "시오미 선생님은 분명 『반혼술』이라고 말했다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_15.mjo::001920",
+      "before": "반혼법. 죽은 사람을 불완전한 모습으로 되살리는 비술.",
+      "after": "반혼술. 죽은 사람을 불완전한 모습으로 되살리는 비술.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_15.mjo::002065",
+      "before": "「그건 실험입니다. 반혼법의 실험」",
+      "after": "「그건 실험입니다. 반혼술의 실험」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_15.mjo::002214",
+      "before": "「반혼법 실험… 그런 일 때문에",
+      "after": "「반혼술 실험… 그런 일 때문에",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_15.mjo::003855",
+      "before": "올바른 반혼법에는 부작용도 없지 않을까?",
+      "after": "올바른 반혼술에는 부작용도 없지 않을까?",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_15.mjo::003860",
+      "before": "즉 반혼법을 올바르게 쓰면,",
+      "after": "즉 반혼술을 올바르게 쓰면,",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_15.mjo::003891",
+      "before": "　반혼법은 처음부터 불완전하다고」",
+      "after": "　반혼술은 처음부터 불완전하다고」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_15.mjo::003956",
+      "before": "　완전한 반혼법 같은 건 존재하지 않아」",
+      "after": "　완전한 반혼술 같은 건 존재하지 않아」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_15.mjo::003977",
+      "before": "「게다가 여기에는 반혼법에 필요한 반혼수도 없어.",
+      "after": "「게다가 여기에는 반혼술에 필요한 반혼수도 없어.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_15.mjo::004159",
+      "before": "　반혼법의 존재가 세상에 알려지고 말아」",
+      "after": "　반혼술의 존재가 세상에 알려지고 말아」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_15.mjo::004177",
+      "before": "　반혼법이 악용되면 큰일이 나」",
+      "after": "　반혼술이 악용되면 큰일이 나」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_15.mjo::004298",
+      "before": "내가 반혼법의 존재를 알았다면…",
+      "after": "내가 반혼술의 존재를 알았다면…",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_15.mjo::005239",
+      "before": "　내 최우선 목표는 어디까지나 반혼법을 없애는 거니까」",
+      "after": "　내 최우선 목표는 어디까지나 반혼술을 없애는 거니까」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_16.mjo::002638",
+      "before": "「최악의 경우라도, 다시는 반혼법을 쓸 수 없도록",
+      "after": "「최악의 경우라도, 다시는 반혼술을 쓸 수 없도록",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_18.mjo::004540",
+      "before": "　반혼법을 현대에 되살리려 했어」",
+      "after": "　반혼술을 현대에 되살리려 했어」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_18.mjo::004547",
+      "before": "「반혼법을 되살리다니, 그건…」",
+      "after": "「반혼술을 되살리다니, 그건…」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_18.mjo::004561",
+      "before": "「봉인되어 있던 반혼법을 풀어",
+      "after": "「봉인되어 있던 반혼술을 풀어",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_18.mjo::004598",
+      "before": "자신이 태어난 마을에는 반혼법이 은밀히 전해져 왔고…",
+      "after": "자신이 태어난 마을에는 반혼술이 은밀히 전해져 왔고…",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_18.mjo::004621",
+      "before": "「나는 반혼법의 전승자이자 관리인이야. 반혼을 몰래 전하고",
+      "after": "「나는 반혼술의 전승자이자 관리인이야. 반혼을 몰래 전하고",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_18.mjo::004643",
+      "before": "　반혼법에 손을 대고 말았어」",
+      "after": "　반혼술에 손을 대고 말았어」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_18.mjo::004682",
+      "before": "「내가 어리석었어. 반혼법이 불완전하다는 것도 모르고",
+      "after": "「내가 어리석었어. 반혼술이 불완전하다는 것도 모르고",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_18.mjo::004886",
+      "before": "「그 뒤에 반혼법 이야기를 들었을 때도",
+      "after": "「그 뒤에 반혼술 이야기를 들었을 때도",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_19.mjo::000097",
+      "before": "아마 쿠레하에게 반혼법에 관한 정보를 알아내기 위해서겠지.",
+      "after": "아마 쿠레하에게 반혼술에 관한 정보를 알아내기 위해서겠지.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_19.mjo::001402",
+      "before": "「…반혼법 말인가」",
+      "after": "「…반혼술 말인가」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_19.mjo::002000",
+      "before": "　반혼법에 관한 정보입니다」",
+      "after": "　반혼술에 관한 정보입니다」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_19.mjo::002053",
+      "before": "「불가능해… 반혼법은 어디까지나 불완전해.",
+      "after": "「불가능해… 반혼술은 어디까지나 불완전해.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_19.mjo::002184",
+      "before": "「반혼법으로 되살아나 부작용에 시달리던 어린 딸을…",
+      "after": "「반혼술으로 되살아나 부작용에 시달리던 어린 딸을…",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_19.mjo::002231",
+      "before": "쿠레하가 반혼법으로 자기 딸을 되살렸다고…?",
+      "after": "쿠레하가 반혼술으로 자기 딸을 되살렸다고…?",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_19.mjo::002245",
+      "before": "나를 만나기 전에 한 번 죽었다가 반혼법으로 되살아난 건가?",
+      "after": "나를 만나기 전에 한 번 죽었다가 반혼술으로 되살아난 건가?",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_19.mjo::002261",
+      "before": "　반혼법의 봉인을 푼 건 자신이라고)」",
+      "after": "　반혼술의 봉인을 푼 건 자신이라고)」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_19.mjo::002279",
+      "before": "　반혼법을 현대에 되살리려 했어』",
+      "after": "　반혼술을 현대에 되살리려 했어』",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_19.mjo::002284",
+      "before": "『봉인되어 있던 반혼법을 풀어",
+      "after": "『봉인되어 있던 반혼술을 풀어",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_19.mjo::002295",
+      "before": "「(반혼법의 관리인인 쿠레하가",
+      "after": "「(반혼술의 관리인인 쿠레하가",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_19.mjo::002356",
+      "before": "　반혼법의 존재를 알게 된 건 아닙니다」",
+      "after": "　반혼술의 존재를 알게 된 건 아닙니다」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_19.mjo::002382",
+      "before": "「하지만 정작 반혼법에 대해서는 거의 알 수 없었죠…",
+      "after": "「하지만 정작 반혼술에 대해서는 거의 알 수 없었죠…",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_19.mjo::002594",
+      "before": "「반혼법으로 되살아난 사람에게서 부작용을 없애는 방법은…」",
+      "after": "「반혼술으로 되살아난 사람에게서 부작용을 없애는 방법은…」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_19.mjo::003581",
+      "before": "반혼법을 두 번 다시 쓸 수 없게 하는 것이다.",
+      "after": "반혼술을 두 번 다시 쓸 수 없게 하는 것이다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "kureha_19.mjo::003586",
+      "before": "그러기 위해 반혼법의 근원인 반혼수를 없애는 것.",
+      "after": "그러기 위해 반혼술의 근원인 반혼수를 없애는 것.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_kure01.mjo::000105",
+      "before": "마을의 금기를 어기고 딸을 반혼법으로 되살렸다는 것.",
+      "after": "마을의 금기를 어기고 딸을 반혼술으로 되살렸다는 것.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_kure01.mjo::000196",
+      "before": "내가 반혼법으로 되살아났다는 사실을.",
+      "after": "내가 반혼술으로 되살아났다는 사실을.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_kure01.mjo::000385",
+      "before": "「반혼법의 존재를 아는 사람이…",
+      "after": "「반혼술의 존재를 아는 사람이…",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_kure02.mjo::000086",
+      "before": "이게 반혼법의 부작용이라는 건 알고 있었지만",
+      "after": "이게 반혼술의 부작용이라는 건 알고 있었지만",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_kure02.mjo::000120",
+      "before": "반혼법에 관한 자료에 적혀 있던",
+      "after": "반혼술에 관한 자료에 적혀 있던",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_kure02.mjo::000418",
+      "before": "이 소녀도 나처럼… 반혼법으로 되살아난 것이다.",
+      "after": "이 소녀도 나처럼… 반혼술으로 되살아난 것이다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_kure02.mjo::000434",
+      "before": "우리 마을의 비전이었을 반혼법이…",
+      "after": "우리 마을의 비전이었을 반혼술이…",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_kure02.mjo::000462",
+      "before": "반혼법을 관리하는 건 내 몫이었다.",
+      "after": "반혼술을 관리하는 건 내 몫이었다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_kure02.mjo::000497",
+      "before": "반혼법이 세상에 알려지면 큰 혼란이 일어날 것이다.",
+      "after": "반혼술이 세상에 알려지면 큰 혼란이 일어날 것이다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_kure02.mjo::000516",
+      "before": "실제로 반혼법을 써 버린 나는",
+      "after": "실제로 반혼술을 써 버린 나는",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_kure02.mjo::000530",
+      "before": "내 손으로 반혼법을 없애야 한다――",
+      "after": "내 손으로 반혼술을 없애야 한다――",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_kure02.mjo::000555",
+      "before": "더는 반혼법을 쓰지 못하게 하겠다고.",
+      "after": "더는 반혼술을 쓰지 못하게 하겠다고.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_kure02.mjo::000652",
+      "before": "게다가 반혼법이 세상에 알려지는 걸 막으려면",
+      "after": "게다가 반혼술이 세상에 알려지는 걸 막으려면",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_kure02.mjo::000774",
+      "before": "반혼법을 세상에 내놓은 책임으로",
+      "after": "반혼술을 세상에 내놓은 책임으로",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_kure02.mjo::001008",
+      "before": "반혼법으로 되살아났는지는 모른다.",
+      "after": "반혼술으로 되살아났는지는 모른다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_11.mjo::003063",
+      "before": "죽은 자를 되살리는 『반혼법』이라는 방법에 대해.",
+      "after": "죽은 자를 되살리는 『반혼술』이라는 방법에 대해.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_11.mjo::003399",
+      "before": "「반혼법… 그게 모든 일의 원흉이라고?」",
+      "after": "「반혼술… 그게 모든 일의 원흉이라고?」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_11.mjo::003418",
+      "before": "　반혼법으로 되살아난 죽은 사람이야」",
+      "after": "　반혼술으로 되살아난 죽은 사람이야」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_11.mjo::003452",
+      "before": "「그리고 반혼법의 근원인 반혼수를 처분하는 것…",
+      "after": "「그리고 반혼술의 근원인 반혼수를 처분하는 것…",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_11.mjo::003470",
+      "before": "죽은 사람을 되살린다는 반혼법.",
+      "after": "죽은 사람을 되살린다는 반혼술.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_12.mjo::000811",
+      "before": "「(그리고 어제 쿠레하에게 들은 반혼법 이야기도 있어)」",
+      "after": "「(그리고 어제 쿠레하에게 들은 반혼술 이야기도 있어)」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_12.mjo::000816",
+      "before": "쿠레하 말로는 누군가 반혼법이라는 수단을 써서",
+      "after": "쿠레하 말로는 누군가 반혼술이라는 수단을 써서",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_13.mjo::003005",
+      "before": "쿠레하는 자신이 반혼법으로 되살아난 사람이라고 했다.",
+      "after": "쿠레하는 자신이 반혼술으로 되살아난 사람이라고 했다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_14.mjo::005686",
+      "before": "그리고 쿠레하가 말한 반혼법에 대해서.",
+      "after": "그리고 쿠레하가 말한 반혼술에 대해서.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_14.mjo::005717",
+      "before": "「죽은 사람을 되살리는 반혼법…",
+      "after": "「죽은 사람을 되살리는 반혼술…",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_14.mjo::005772",
+      "before": "다무라와 다른 두 여학생에게 반혼법을 쓴 것 같다.",
+      "after": "다무라와 다른 두 여학생에게 반혼술을 쓴 것 같다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_16.mjo::001123",
+      "before": "정말 시오미가 반혼법이라는 것을 쓰고,",
+      "after": "정말 시오미가 반혼술이라는 것을 쓰고,",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_16.mjo::001454",
+      "before": "　누군가 반혼법이라는 것으로 되살렸다고요」",
+      "after": "　누군가 반혼술이라는 것으로 되살렸다고요」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_16.mjo::001489",
+      "before": "　반혼법의 실험체로 말이지요」",
+      "after": "　반혼술의 실험체로 말이지요」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_16.mjo::001498",
+      "before": "반혼법이 존재한다는 것도, 다무라 일행에게 사용했다는 것도.",
+      "after": "반혼술이 존재한다는 것도, 다무라 일행에게 사용했다는 것도.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_16.mjo::001503",
+      "before": "게다가 반혼법의 실험체라고? 그 말은 곧,",
+      "after": "게다가 반혼술의 실험체라고? 그 말은 곧,",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_16.mjo::001620",
+      "before": "「애초에 제가 어떻게 반혼법을 손에 넣었는지,",
+      "after": "「애초에 제가 어떻게 반혼술을 손에 넣었는지,",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_16.mjo::001636",
+      "before": "쿠레하의 마을에 비밀리에 전해 내려오던 반혼법이,",
+      "after": "쿠레하의 마을에 비밀리에 전해 내려오던 반혼술이,",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_16.mjo::001702",
+      "before": "반혼수――분명 반혼법에 필요한,",
+      "after": "반혼수――분명 반혼술에 필요한,",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_16.mjo::001757",
+      "before": "그런 거였나… 쿠레하의 마을에 전해 내려오는 반혼법,",
+      "after": "그런 거였나… 쿠레하의 마을에 전해 내려오는 반혼술,",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_16.mjo::002403",
+      "before": "「그리고 저는 그 도박에서 이겨 반혼법을 얻었지요.",
+      "after": "「그리고 저는 그 도박에서 이겨 반혼술을 얻었지요.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_17.mjo::000719",
+      "before": "『반혼법』이라는 소생 방법을 아는 사람이었다.",
+      "after": "『반혼술』이라는 소생 방법을 아는 사람이었다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_17.mjo::000853",
+      "before": "　목을 베는 일도, 반혼법도요」",
+      "after": "　목을 베는 일도, 반혼술도요」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_17.mjo::000967",
+      "before": "　반혼법을 쓰던 장본인이라는 거네」",
+      "after": "　반혼술을 쓰던 장본인이라는 거네」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_17.mjo::001346",
+      "before": "　금기를 어기고 반혼법을 썼지…」",
+      "after": "　금기를 어기고 반혼술을 썼지…」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::000971",
+      "before": "「아마… 반혼법 얘기겠지.",
+      "after": "「아마… 반혼술 얘기겠지.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::000990",
+      "before": "「시오미라는 남자는 반혼법에 대해",
+      "after": "「시오미라는 남자는 반혼술에 대해",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::001008",
+      "before": "나나코와 다른 사람들을 반혼법의 “실험체”라고…",
+      "after": "나나코와 다른 사람들을 반혼술의 “실험체”라고…",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::001031",
+      "before": "그게 반혼법이라는 것의 혜택이라면…",
+      "after": "그게 반혼술이라는 것의 혜택이라면…",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::001070",
+      "before": "　그 반혼법이라는 걸 쓰면…」",
+      "after": "　그 반혼술이라는 걸 쓰면…」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::001794",
+      "before": "시오미의 요구는 반혼법으로 되살아난 사람에게서,",
+      "after": "시오미의 요구는 반혼술으로 되살아난 사람에게서,",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::001901",
+      "before": "「반혼법으로 되살아나 부작용에 시달리던 어린 딸을…",
+      "after": "「반혼술으로 되살아나 부작용에 시달리던 어린 딸을…",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::002055",
+      "before": "「반혼법으로 되살아난 사람에게서 부작용을 없애는 방법은…」",
+      "after": "「반혼술으로 되살아난 사람에게서 부작용을 없애는 방법은…」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::002137",
+      "before": "「이게 반혼법의 부작용을 없애는 방법…",
+      "after": "「이게 반혼술의 부작용을 없애는 방법…",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::002247",
+      "before": "　그게 반혼법이 불완전한 이유야」",
+      "after": "　그게 반혼술이 불완전한 이유야」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::002266",
+      "before": "반혼법의 존재가 세상에 알려지지 않고 은폐되어 온 이유도.",
+      "after": "반혼술의 존재가 세상에 알려지지 않고 은폐되어 온 이유도.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::002310",
+      "before": "　그러니 완전한 반혼법은 존재하지 않아」",
+      "after": "　그러니 완전한 반혼술은 존재하지 않아」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::002368",
+      "before": "반혼법을 찾아 헤맨 시오미…",
+      "after": "반혼술을 찾아 헤맨 시오미…",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::002793",
+      "before": "그 반혼수야말로 반혼법의 근원이었다.",
+      "after": "그 반혼수야말로 반혼술의 근원이었다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::002797",
+      "before": "반혼법도 『정화』도 반혼수 없이는 쓸 수 없다.",
+      "after": "반혼술도 『정화』도 반혼수 없이는 쓸 수 없다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::003363",
+      "before": "　반혼법을 쓰는 방법을요」",
+      "after": "　반혼술을 쓰는 방법을요」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::003487",
+      "before": "　반혼법을 쓰게 할 수 없어…」",
+      "after": "　반혼술을 쓰게 할 수 없어…」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::003520",
+      "before": "　반혼법은 불완전해」",
+      "after": "　반혼술은 불완전해」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::003578",
+      "before": "「반혼법은 그 생명의 소중함을 짓밟을 수도 있어.",
+      "after": "「반혼술은 그 생명의 소중함을 짓밟을 수도 있어.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::003666",
+      "before": "　반혼법을 알아내겠어요!」",
+      "after": "　반혼술을 알아내겠어요!」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::003725",
+      "before": "「물론이에요. 자, 반혼법을 가르쳐 주세요」",
+      "after": "「물론이에요. 자, 반혼술을 가르쳐 주세요」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::004572",
+      "before": "　반혼법을 가르쳐 주세요」",
+      "after": "　반혼술을 가르쳐 주세요」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::004993",
+      "before": "남은 건 반혼법을 알아내는 것뿐…",
+      "after": "남은 건 반혼술을 알아내는 것뿐…",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::005003",
+      "before": "「자, 가르쳐 줘. 반혼법을 쓰는 방법을!」",
+      "after": "「자, 가르쳐 줘. 반혼술을 쓰는 방법을!」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::005094",
+      "before": "「…반혼법으로 되살아난 사람은 매일 밤 달빛이 필요해」",
+      "after": "「…반혼술으로 되살아난 사람은 매일 밤 달빛이 필요해」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::005229",
+      "before": "반혼법의 존재도 실감이 났다.",
+      "after": "반혼술의 존재도 실감이 났다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::005360",
+      "before": "반혼법만으로는 부족하다.",
+      "after": "반혼술만으로는 부족하다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::005624",
+      "before": "반혼법으로 마키노 선생님을 되살리면,",
+      "after": "반혼술으로 마키노 선생님을 되살리면,",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::005657",
+      "before": "　금기를 어기고 반혼법을 썼어」",
+      "after": "　금기를 어기고 반혼술을 썼어」",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "masa_18.mjo::005904",
+      "before": "이제 반혼법을 얻을 방법은 사라졌다.",
+      "after": "이제 반혼술을 얻을 방법은 사라졌다.",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_masa01.mjo::000031",
+      "before": "반혼법을 찾아,",
+      "after": "반혼술을 찾아,",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "sub_masa01.mjo::000040",
+      "before": "반혼법의 근원인 반혼수가,",
+      "after": "반혼술의 근원인 반혼수가,",
+      "reason": "Reuse canonical name of same resurrection rite; source-scoped"
+    },
+    {
+      "id": "maho_17.mjo::004355",
+      "before": "　젠장, 역시 카미조 쿠레하야…!」",
+      "after": "　젠장, 역시 가미조 쿠레하야…!」",
+      "reason": "Existing central canonical surname and school term"
+    },
+    {
+      "id": "maho_17.mjo::004362",
+      "before": "「카미조 쿠레하에게서 정보를 알아내서",
+      "after": "「가미조 쿠레하에게서 정보를 알아내서",
+      "reason": "Existing central canonical surname and school term"
+    },
+    {
+      "id": "00_レコンキスタ_start_2.mjo::014467",
+      "before": "거센 바닷바람을 받아 달각달각 돌아가는 실감개.",
+      "after": "거센 바닷바람을 받아 달각달각 돌아가는 얼레.",
+      "reason": "Same kite-winder object, maho_sub2::000420 explicit definition; ordinary 失敗 excluded"
+    },
+    {
+      "id": "00_レコンキスタ_start_2.mjo::014824",
+      "before": "손에 들고 있던 실감개를 땅에 떨어뜨렸다.",
+      "after": "손에 들고 있던 얼레를 땅에 떨어뜨렸다.",
+      "reason": "Same kite-winder object, maho_sub2::000420 explicit definition; ordinary 失敗 excluded"
+    },
+    {
+      "id": "00_レコンキスタ_start_2.mjo::014852",
+      "before": "실이 없는 실감개에 마치 실이 이어져 있기라도 한 것처럼.",
+      "after": "실이 없는 얼레에 마치 실이 이어져 있기라도 한 것처럼.",
+      "reason": "Same kite-winder object, maho_sub2::000420 explicit definition; ordinary 失敗 excluded"
+    },
+    {
+      "id": "00_レコンキスタ_start_2.mjo::014988",
+      "before": "지금은 내가 들고 있는 마호의 실감개가 힘차게 돌아간다.",
+      "after": "지금은 내가 들고 있는 마호의 얼레가 힘차게 돌아간다.",
+      "reason": "Same kite-winder object, maho_sub2::000420 explicit definition; ordinary 失敗 excluded"
+    },
+    {
+      "id": "00_レコンキスタ_start_2.mjo::015115",
+      "before": "바람을 받아 돌아가는 실감개를 떠올리는 걸까.",
+      "after": "바람을 받아 돌아가는 얼레를 떠올리는 걸까.",
+      "reason": "Same kite-winder object, maho_sub2::000420 explicit definition; ordinary 失敗 excluded"
+    },
+    {
+      "id": "maho_15.mjo::003235",
+      "before": "　반혼",
+      "after": " ",
+      "reason": "Audited phonetic-only manual ruby; exact reading suppressed, ctrl stream and base meaning retained"
+    },
+    {
+      "id": "maho_15.mjo::007626",
+      "before": "속죄",
+      "after": " ",
+      "reason": "Audited phonetic-only manual ruby; exact reading suppressed, ctrl stream and base meaning retained"
+    },
+    {
+      "id": "maho_16.mjo::002838",
+      "before": "고삐",
+      "after": " ",
+      "reason": "Audited phonetic-only manual ruby; exact reading suppressed, ctrl stream and base meaning retained"
+    },
+    {
+      "id": "maho_16.mjo::003262",
+      "before": "은신처",
+      "after": " ",
+      "reason": "Audited phonetic-only manual ruby; exact reading suppressed, ctrl stream and base meaning retained"
+    },
+    {
+      "id": "maho_18.mjo::000960",
+      "before": "감췄",
+      "after": " ",
+      "reason": "Audited phonetic-only manual ruby; exact reading suppressed, ctrl stream and base meaning retained"
+    },
+    {
+      "id": "maho_19.mjo::004359",
+      "before": "남달랐",
+      "after": " ",
+      "reason": "Audited phonetic-only manual ruby; exact reading suppressed, ctrl stream and base meaning retained"
+    },
+    {
+      "id": "maho_19.mjo::005298",
+      "before": "모습",
+      "after": " ",
+      "reason": "Audited phonetic-only manual ruby; exact reading suppressed, ctrl stream and base meaning retained"
+    },
+    {
+      "id": "maho_19.mjo::006431",
+      "before": "파고",
+      "after": " ",
+      "reason": "Audited phonetic-only manual ruby; exact reading suppressed, ctrl stream and base meaning retained"
+    },
+    {
+      "id": "maho_19.mjo::006458",
+      "before": "들어",
+      "after": " ",
+      "reason": "Audited phonetic-only manual ruby; exact reading suppressed, ctrl stream and base meaning retained"
+    },
+    {
+      "id": "maho_19.mjo::006904",
+      "before": "놈",
+      "after": " ",
+      "reason": "Audited phonetic-only manual ruby; exact reading suppressed, ctrl stream and base meaning retained"
+    },
+    {
+      "id": "maho_19.mjo::007174",
+      "before": "장막",
+      "after": " ",
+      "reason": "Audited phonetic-only manual ruby; exact reading suppressed, ctrl stream and base meaning retained"
+    },
+    {
+      "id": "maho_14.mjo::000259",
+      "before": "똑똑,",
+      "after": "똑똑.",
+      "reason": "Reuse prior approved central knocking punctuation; source batch merge had reverted it"
+    }
+  ],
+  "pending": {
+    "body_units": 38,
+    "original_content_holds": 37,
+    "semantic_pending": [
+      "st_gin.mjo::u0068"
+    ],
+    "ui_owned_units_separate": 70,
+    "full_route_runtime": true
+  },
+  "reused_baseline_sha256": "19ac94342116cd2d07f1bb2a4f5b7612b18c230665368c34f4fff606108c7901",
+  "snapshot_sha256": "cbfc68273106ce94a74f34c179e104be7ae3de0330023ee5de1cd3ee30542415",
+  "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-recovery-full-20261023-v1",
+  "verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\recovery-full-20261023-v1\\verification.json",
+  "launcher_prepare_pass": {
+    "disc": "G:",
+    "patch_font_exe_hashes": true,
+    "native_game_started": false
+  },
+  "launcher": "Start-Korean-Recovery.ps1",
+  "usage_remaining_percent_at_completion": 89,
+  "file_explorer_opened": false,
+  "file_explorer_blocker": "Computer Use kernel initialization error3 after reset; no alternate native UI path used"
+}

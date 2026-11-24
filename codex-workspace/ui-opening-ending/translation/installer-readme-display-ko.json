@@ -1,0 +1,18 @@
+{
+  "id": "setup.exe::README-button-display-only",
+  "source": "お読みください",
+  "target": "안내문",
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "encoding": "cp949",
+  "literal_va": 4277485,
+  "literal_offset": 83181,
+  "literal_bytes": "bec8b3bbb9ae00",
+  "code_instruction_va": 4202569,
+  "code_instruction_offset": 8265,
+  "old_operand": "0x4191b8",
+  "new_operand": "0x4144ed",
+  "control_id": 1002,
+  "action_id": 5,
+  "scope": "Only pointer passed as lpString to existing SetDlgItemTextA. Environment lookup/presence guard, shared INSTREADME shortcut naming/deletion consumers, file target and dispatch action are unchanged."
+}

@@ -1,0 +1,2673 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-2/lane-3",
+  "coordinator_thread_id": "01a16335-afd6-74f0-8990-fd759c6ead35",
+  "agent_id": "01a16337-f0a2-7012-b7fc-7bb7ed45ffbb",
+  "agent_canonical_id": "/root/lane_3",
+  "source_script": "sina_10.mjo",
+  "source_sha256": "aa035fda5a58542643dddd45cc6f8668498e1efced1dc8b0c316a763e18570c8",
+  "records": [
+    {
+      "unit": "sina_10.mjo::u0001",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000033",
+          "source": "通い慣れた通学路。",
+          "target": "익숙한 등굣길."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0002",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000038",
+          "source": "早朝の空を縦横無尽に飛び回りながら、",
+          "target": "이른 아침 하늘을 종횡무진 날아다니며,"
+        },
+        {
+          "id": "sina_10.mjo::000042",
+          "source": "雀たちが交わしあう鳴き声の挨拶。",
+          "target": "참새들이 지저귀는 소리로 인사를 나눈다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0003",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000050",
+          "source": "ダダダダダ…",
+          "target": "다다다다다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0004",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000058",
+          "source": "そんなどこまでも澄み切った初夏の空の下、",
+          "target": "그렇게 한없이 맑은 초여름 하늘 아래,"
+        },
+        {
+          "id": "sina_10.mjo::000062",
+          "source": "俺はそんな情景に目もくれず、全力ダッシュをしている。",
+          "target": "나는 그런 풍경에는 눈길도 주지 않고 전력 질주 중이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0005",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000069",
+          "source": "「（どうせ、真帆子が起こしてくれるだろう）」",
+          "target": "「(어차피 마호코가 깨워 주겠지)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "혼잣말",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "internal_monologue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0006",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000074",
+          "source": "などと考えていた俺がバカだった。",
+          "target": "그런 생각을 한 내가 바보였다."
+        },
+        {
+          "id": "sina_10.mjo::000078",
+          "source": "今日からあいつはタクシー通学だったのだから…",
+          "target": "오늘부터 그 녀석은 택시로 등교하기로 했으니까…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0007",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000083",
+          "source": "おばさんからはどうせなら一緒にと誘われたが、",
+          "target": "아주머니는 이왕이면 같이 타자고 하셨지만,"
+        },
+        {
+          "id": "sina_10.mjo::000087",
+          "source": "さすがにそれはマズいと俺は断わったが……",
+          "target": "아무래도 그건 좀 아닌 것 같아서 거절했는데……"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0008",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000094",
+          "source": "「（こんな事なら見栄なんか張らなきゃ良かったかも…）」",
+          "target": "「(이럴 줄 알았으면 괜히 허세 부리지 말걸…)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "혼잣말",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "internal_monologue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0009",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000099",
+          "source": "わずか半日で後悔する意志の弱さに、",
+          "target": "겨우 반나절 만에 후회하는 의지박약이라니,"
+        },
+        {
+          "id": "sina_10.mjo::000103",
+          "source": "我ながら少しだけ情けなかった。",
+          "target": "내가 생각해도 좀 한심했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0010",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000108",
+          "source": "今日もエレベーターが故障中だったということも、",
+          "target": "오늘도 엘리베이터가 고장 나 있었다는 사실이,"
+        },
+        {
+          "id": "sina_10.mjo::000112",
+          "source": "そんな心理に追い打ちをかけているのだろう",
+          "target": "그런 기분에 한몫했을 것이다."
+        },
+        {
+          "id": "sina_10.mjo::000115",
+          "source": "…たぶん。",
+          "target": "…아마도."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0011",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000127",
+          "source": "「ハァハァハァ～～」",
+          "target": "「하아, 하아, 하아~~」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "홀로 숨을 고르는 소리",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "숨을 고르는 소리",
+        "text_function": "vocalization",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0012",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000132",
+          "source": "息を荒がせながらようやく校門前にたどり着く。",
+          "target": "거친 숨을 몰아쉬며 겨우 교문 앞에 도착한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0013",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000137",
+          "source": "走ったおかげで汗が浮かび、",
+          "target": "달려온 탓에 땀이 배어나와,"
+        },
+        {
+          "id": "sina_10.mjo::000141",
+          "source": "シャツを肌に張り付かせていた。",
+          "target": "셔츠가 살갗에 달라붙어 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0014",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000146",
+          "source": "時間を見ると始業開始には、まだある程度の間はある。",
+          "target": "시간을 보니 수업이 시작되려면 아직 여유가 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0015",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000151",
+          "source": "軽い勝利者の気分だった。",
+          "target": "살짝 승리자가 된 기분이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0016",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000158",
+          "source": "「スー　ハー　スー　ハー」",
+          "target": "「스으　하아　스으　하아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "홀로 숨을 고르는 소리",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "숨을 고르는 소리",
+        "text_function": "vocalization",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0017",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000163",
+          "source": "呼吸を落ち着かせるための深呼吸を繰り返す。",
+          "target": "호흡을 가라앉히려고 심호흡을 반복한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0018",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000168",
+          "source": "朝の透徹した大気が、",
+          "target": "맑디맑은 아침 공기가,"
+        },
+        {
+          "id": "sina_10.mjo::000172",
+          "source": "火照った肺を冷やしていく感覚が気持ちよかったりする。",
+          "target": "달아오른 폐를 식혀 주는 느낌이 꽤 기분 좋다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0019",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000177",
+          "source": "……と、",
+          "target": "……그런데,"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0020",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000185",
+          "source": "ブロロロローーーキッ",
+          "target": "부르르르릉ーー끼익"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0021",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000193",
+          "source": "カチャッ",
+          "target": "철컥"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0022",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000207",
+          "source": "「それじゃ、行ってらっしゃい」",
+          "target": "「그럼 잘 다녀와」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코 어머니",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "모녀",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "다정한 어른의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "おばさん＠朋子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0023",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000221",
+          "source": "「はい、行ってきます。お母さん」",
+          "target": "「응, 다녀올게. 엄마」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "마호코 어머니"
+        ],
+        "relationship": "모녀",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0024",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000231",
+          "source": "「それじゃあね」",
+          "target": "「그럼 이따 보자」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코 어머니",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "모녀",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "다정한 어른의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "おばさん＠朋子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0025",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000244",
+          "source": "ブロロロー",
+          "target": "부르르릉ー"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0026",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000249",
+          "source": "そして、おばさんを乗せたタクシーが、",
+          "target": "그리고 아주머니를 태운 택시가,"
+        },
+        {
+          "id": "sina_10.mjo::000253",
+          "source": "走り去ったその後で、",
+          "target": "멀어져 간 뒤,"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0027",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000267",
+          "source": "「あ、おはよう信くん」",
+          "target": "「아, 안녕, 신아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0028",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000272",
+          "source": "笑顔と明るい声で、",
+          "target": "밝은 목소리로 웃으며,"
+        },
+        {
+          "id": "sina_10.mjo::000276",
+          "source": "俺に挨拶をしてくる真帆子。",
+          "target": "내게 인사하는 마호코."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0029",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000281",
+          "source": "爽やかな笑顔で…",
+          "target": "산뜻한 미소를 지으며…"
+        },
+        {
+          "id": "sina_10.mjo::000285",
+          "source": "汗一つ浮かべないその笑顔で…",
+          "target": "땀 한 방울 흘리지 않은 그 얼굴로…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0030",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000296",
+          "source": "「（きっとタクシーの中は、",
+          "target": "「(택시 안은 틀림없이,"
+        },
+        {
+          "id": "sina_10.mjo::000300",
+          "source": "　冷房が効いてたんだろうなぁ…）」",
+          "target": " 냉방이 빵빵했겠지…)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "혼잣말",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "internal_monologue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0031",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000307",
+          "source": "「…………」",
+          "target": "「…………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0032",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000312",
+          "source": "真帆子への…否、冷房の中登校してきたというその事実への、",
+          "target": "마호코에게… 아니, 냉방을 쐬며 등교했다는 사실에,"
+        },
+        {
+          "id": "sina_10.mjo::000316",
+          "source": "理不尽なやっかみが俺の中で膨らんでくる。",
+          "target": "터무니없는 질투가 마음속에서 부풀어 오른다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0033",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000330",
+          "source": "「ん、信くん？　どうしたのかな～～？」",
+          "target": "「응, 신아? 왜 그래~~?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0034",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000342",
+          "source": "「…………」",
+          "target": "「…………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0035",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000356",
+          "source": "「真帆子ちゃん、おはようございます」",
+          "target": "「마호코 언니, 안녕하세요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "친한 선배",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "마호코 언니, 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0036",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000361",
+          "source": "だから、真帆子の登校を待ってたらしい詩菜が、",
+          "target": "그래서 마호코가 오기를 기다렸던 듯한 시이나가,"
+        },
+        {
+          "id": "sina_10.mjo::000365",
+          "source": "声をかけてくるのが後一歩遅かったら…",
+          "target": "조금만 늦게 말을 걸었다면…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0037",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000370",
+          "source": "俺の手は、間違いなく真帆子のスカートへと",
+          "target": "내 손은 틀림없이 마호코의 치마로"
+        },
+        {
+          "id": "sina_10.mjo::000374",
+          "source": "伸びていただろう。",
+          "target": "뻗어 갔을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0038",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000383",
+          "source": "よりによって詩菜の目の前でめくったりしたら……",
+          "target": "하필 시이나가 보는 앞에서 치마를 들췄다간……"
+        },
+        {
+          "id": "sina_10.mjo::000387",
+          "source": "そんな恐ろしいことは想像するだに出来なかった。",
+          "target": "그런 끔찍한 일은 상상조차 할 수 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0039",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000401",
+          "source": "「それじゃ真帆子ちゃん、",
+          "target": "「그럼 마호코 언니,"
+        },
+        {
+          "id": "sina_10.mjo::000405",
+          "source": "　『誰も』いないことですし教室に行きませんか」",
+          "target": " 『아무도』 없으니 교실로 갈까요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "친한 선배",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "마호코 언니, 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0040",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000412",
+          "source": "「いや、いるからっ！",
+          "target": "「아니, 있거든!"
+        },
+        {
+          "id": "sina_10.mjo::000416",
+          "source": "　ＭｅがＹｏｕの目の前にっ！」",
+          "target": " Ｍｅ가 Ｙｏｕ 눈앞에 있잖아!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "선배가 후배에게",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0041",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000430",
+          "source": "「……あ、先輩。気づきませんでした」",
+          "target": "「……아, 선배. 계신 줄 몰랐어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "친한 선배",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "선배, 냉담하고 가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0042",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000437",
+          "source": "「んなわけねーだろっ。",
+          "target": "「그럴 리가 없잖아!"
+        },
+        {
+          "id": "sina_10.mjo::000441",
+          "source": "　こんだけ間近にいるんだから」",
+          "target": " 이렇게 코앞에 있는데」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "선배가 후배에게",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0043",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000451",
+          "source": "「不思議なこともあるもんだねー」",
+          "target": "「참 신기한 일도 다 있네ー」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0044",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000458",
+          "source": "「だから、なんでお前は納得するんだよっ」",
+          "target": "「그러니까 넌 왜 그걸 납득하는 건데!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0045",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000472",
+          "source": "「恐らく視覚的に先輩を見ていたとしても、",
+          "target": "「아마 눈으로는 선배를 보고 있었어도,"
+        },
+        {
+          "id": "sina_10.mjo::000476",
+          "source": "　心理的に拒否していたからでしょうね」",
+          "target": " 마음속으로는 거부하고 있었기 때문이겠죠」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "친한 선배",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "선배, 냉담하고 가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0046",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000490",
+          "source": "「……もちろん、その理由は口には出来ませんが」",
+          "target": "「……물론 그 이유를 입에 담을 수는 없지만요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "친한 선배",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "선배, 냉담하고 가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0047",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000502",
+          "source": "「（ぜってーロクでもない理由に決まってるな…）」",
+          "target": "「(틀림없이 시답잖은 이유겠지…)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "혼잣말",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "internal_monologue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0048",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000516",
+          "source": "「難しくてよくわからないけど、",
+          "target": "「어려워서 잘 모르겠지만,"
+        },
+        {
+          "id": "sina_10.mjo::000520",
+          "source": "　それならしょうがないよね」",
+          "target": " 그렇다면 어쩔 수 없겠네」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야",
+          "시이나"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0049",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000527",
+          "source": "「だから意味もわからず納得するなってのっ！」",
+          "target": "「그러니까 뜻도 모르면서 납득하지 말라니까!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0050",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000537",
+          "source": "そんな、やり取りを交わしながら教室に向かう俺たち。",
+          "target": "그런 말을 주고받으며 교실로 향하는 우리들."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0051",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000542",
+          "source": "でも、少しだけ気になる。",
+          "target": "하지만 조금 신경이 쓰인다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0052",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000547",
+          "source": "詩菜の俺への絡み方が、いつもより",
+          "target": "시이나가 내게 시비를 거는 모습이,"
+        },
+        {
+          "id": "sina_10.mjo::000551",
+          "source": "わざとらしかったような気がしたことに。",
+          "target": "평소보다 일부러 그러는 듯했기 때문이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 등굣길과 교문 인사",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0053",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000564",
+          "source": "・・・・・・・・・",
+          "target": "・・・・・・・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 장면 전환",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0054",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000569",
+          "source": "・・・・・・",
+          "target": "・・・・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 장면 전환",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0055",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000574",
+          "source": "・・・",
+          "target": "・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 장면 전환",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0056",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000587",
+          "source": "そして、午前の授業も済んで昼休み。",
+          "target": "그리고 오전 수업이 끝나고 점심시간."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0057",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000592",
+          "source": "昼飯を食う俺たち。",
+          "target": "우리는 점심을 먹는다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0058",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000597",
+          "source": "そこには当然のように詩菜もいたりした。",
+          "target": "그 자리에는 당연하다는 듯 시이나도 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0059",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000611",
+          "source": "「あ～信くん。またコンビニのお弁当だね。",
+          "target": "「아~ 신아. 또 편의점 도시락이네."
+        },
+        {
+          "id": "sina_10.mjo::000615",
+          "source": "　休み時間にいなくなったと思ったらこんなの買ってたんだ」",
+          "target": " 쉬는 시간에 없어졌다 했더니 이런 걸 사 왔구나」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0060",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000622",
+          "source": "「ほっといてくれよ。俺はこれが好きなんだから」",
+          "target": "「신경 꺼. 난 이게 좋으니까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0061",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000636",
+          "source": "「でもでも、こればっかだと栄養が偏っちゃうよ」",
+          "target": "「그래도, 맨날 이것만 먹으면 영양이 불균형해져」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0062",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000650",
+          "source": "「信くんさえ良かったら作ってきてあげても」",
+          "target": "「신아, 괜찮으면 내가 만들어 와도 되는데」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0063",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000671",
+          "source": "「…………っ！」",
+          "target": "「…………!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야",
+          "마호코"
+        ],
+        "relationship": "마호코의 도시락 제안에 반응",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "선배, 냉담하고 가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0064",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000681",
+          "source": "また、詩菜にエサを与えるような問題発言をっ。",
+          "target": "또 시이나한테 먹잇감을 던져 주는 문제 발언을!"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0065",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000686",
+          "source": "実はわかってやってるんじゃねーかこの方は。",
+          "target": "이분, 사실은 다 알고 이러는 거 아냐?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0066",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000693",
+          "source": "「…いや、まぁ好意だけ受け取っておくから」",
+          "target": "「…아니, 뭐, 마음만 받을게」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0067",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000707",
+          "source": "「遠慮しなくてもいいのに」",
+          "target": "「사양 안 해도 되는데」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0068",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000721",
+          "source": "「それにしても信くんも、勿体ないよね」",
+          "target": "「그건 그렇고 신이는 참 아까워」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0069",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000728",
+          "source": "「え？　勿体ないってなにが？」",
+          "target": "「어? 뭐가 아깝다는 건데?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0070",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000742",
+          "source": "「だって、信くん本気を出せばお料理って上手じゃない。",
+          "target": "「신이도 마음만 먹으면 요리 잘하잖아."
+        },
+        {
+          "id": "sina_10.mjo::000746",
+          "source": "　それなのになぁと思って」",
+          "target": " 그런데 왜 그럴까 싶어서」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0071",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000760",
+          "source": "「本当なんですか？」",
+          "target": "「정말이에요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "요리 실력을 확인하는 질문; 신야가 먼저 답해도 마호코에게 재확인",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "마호코 언니, 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0072",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000767",
+          "source": "「まぁ俺がちょっと実力を出せばな」",
+          "target": "「뭐, 내가 실력을 좀 발휘하면 그렇지」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "선배가 후배에게",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0073",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000778",
+          "source": "「…………」",
+          "target": "「…………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "친한 선배",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "선배, 냉담하고 가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0074",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000792",
+          "source": "「本当なんですか真帆子ちゃん？」",
+          "target": "「정말이에요, 마호코 언니?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "친한 선배",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "마호코 언니, 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0075",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000804",
+          "source": "「…………」",
+          "target": "「…………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "선배가 후배에게",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0076",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000818",
+          "source": "「うん。前に私が風邪を引いたときがあってね、",
+          "target": "「응. 전에 내가 감기에 걸린 적이 있었거든."
+        },
+        {
+          "id": "sina_10.mjo::000822",
+          "source": "　その時信くんが作ってくれたんだよ」",
+          "target": " 그때 신이가 만들어 줬어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "친한 후배의 질문에 답변",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0077",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000832",
+          "source": "「ええと、真帆子ちゃん。風邪をひくと",
+          "target": "「저기, 마호코 언니. 감기에 걸리면,"
+        },
+        {
+          "id": "sina_10.mjo::000836",
+          "source": "　舌がバカになることもあるって知っていますか？」",
+          "target": " 입맛이 이상해지기도 한다는 거 아세요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "친한 선배",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "마호코 언니, 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0078",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000843",
+          "source": "「真帆子の言葉を通じて攻撃とは、",
+          "target": "「마호코의 말을 이용해서 공격하다니,"
+        },
+        {
+          "id": "sina_10.mjo::000847",
+          "source": "　中々高度なテクニックだな…」",
+          "target": " 상당히 고급 기술인데…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "선배가 후배에게",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0079",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000861",
+          "source": "「詩菜ちゃんの言うとおり私も最初は思ったんだけどね」",
+          "target": "「시이나 말대로 나도 처음엔 그렇게 생각했는데」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "친한 후배",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0080",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000871",
+          "source": "「思うなよっ」",
+          "target": "「그런 생각 하지 마!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0081",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000885",
+          "source": "「一緒に食べたお母さんも褒めていたから、",
+          "target": "「같이 먹은 엄마도 칭찬하셨으니까,"
+        },
+        {
+          "id": "sina_10.mjo::000889",
+          "source": "　たぶん間違いないと思うよ」",
+          "target": " 아마 틀림없을 거야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "친한 후배",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0082",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000899",
+          "source": "「そうですか。おばさままで…………残念です」",
+          "target": "「그렇군요. 아주머니까지…………안타깝네요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "친한 선배",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "마호코 언니, 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0083",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000906",
+          "source": "「もう、突っこまないからな…」",
+          "target": "「이젠 받아 주지도 않을 거야…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "선배가 후배에게",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0084",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000920",
+          "source": "「中でもスパゲティなんかは特に上手だよねー。",
+          "target": "「특히 스파게티 같은 건 정말 잘하지ー."
+        },
+        {
+          "id": "sina_10.mjo::000924",
+          "source": "　私なんかより全然上手いし」",
+          "target": " 나보다 훨씬 잘하고」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0085",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000931",
+          "source": "「いや、お前のスパゲティと比べられてもな」",
+          "target": "「아니, 네 스파게티랑 비교해 봤자…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0086",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000941",
+          "source": "料理はそれなりにこなせる真帆子なのだが、",
+          "target": "요리는 그럭저럭 할 줄 아는 마호코지만,"
+        },
+        {
+          "id": "sina_10.mjo::000945",
+          "source": "なぜかゆで物系は苦手だったりする。",
+          "target": "어째선지 삶는 요리에는 약하다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0087",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000950",
+          "source": "さらに不思議なことに、",
+          "target": "더 신기한 건,"
+        },
+        {
+          "id": "sina_10.mjo::000954",
+          "source": "それにかけたり絡めたりするソースも含めて。",
+          "target": "거기에 뿌리거나 버무리는 소스까지도 그렇다는 점이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0088",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000959",
+          "source": "なんか深い心理的な理由でもあるのだろうか……",
+          "target": "뭔가 깊은 심리적인 이유라도 있는 걸까……"
+        },
+        {
+          "id": "sina_10.mjo::000964",
+          "source": "いや無いだろうな。",
+          "target": "아니, 없겠지."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0089",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000971",
+          "source": "「あそこまで壊滅的なのは不思議なもんだ」",
+          "target": "「그렇게까지 끔찍한 것도 신기한 일이야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "소꿉친구",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0090",
+      "fields": [
+        {
+          "id": "sina_10.mjo::000985",
+          "source": "「別にいいじゃないですか。",
+          "target": "「별로 상관없잖아요."
+        },
+        {
+          "id": "sina_10.mjo::000989",
+          "source": "　誰だって不得意な物は一つぐらいあります」",
+          "target": " 누구나 못하는 게 하나쯤은 있어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코를 두둔하며 신야에게 반박",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "선배, 냉담하고 가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0091",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001003",
+          "source": "「得意料理が一つしかない人よりはよっぽどマシです」",
+          "target": "「잘하는 요리가 하나밖에 없는 사람보단 훨씬 낫죠」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코를 두둔하며 신야에게 반박",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "선배, 냉담하고 가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0092",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001008",
+          "source": "妙にムキになった口調で詩菜が責める。",
+          "target": "이상하게 발끈한 말투로 시이나가 나를 나무란다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0093",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001013",
+          "source": "…て、ははぁ～～ん、さてはこいつ。",
+          "target": "…잠깐, 아하~~ 그렇구나, 이 녀석."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0094",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001020",
+          "source": "「まぁ……確かにな。世の中には得意料理が",
+          "target": "「뭐…… 그렇긴 해. 세상에는 잘하는 요리가,"
+        },
+        {
+          "id": "sina_10.mjo::001024",
+          "source": "　一つも無いヤツもいるわけだし」",
+          "target": " 하나도 없는 사람도 있으니까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "선배가 후배에게",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0095",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001038",
+          "source": "「…………」",
+          "target": "「…………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "친한 선배",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "선배, 냉담하고 가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0096",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001043",
+          "source": "おしっ、ビンゴ！",
+          "target": "좋았어, 정답!"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0097",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001053",
+          "source": "って、年下相手にマジで喜んでんどうするっ＞俺",
+          "target": "아니, 후배 상대로 진심으로 좋아해서 어쩌자는 거냐＞나"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0098",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001067",
+          "source": "「いいんじゃないかな。別に料理だけで",
+          "target": "「괜찮지 않을까. 요리만으로,"
+        },
+        {
+          "id": "sina_10.mjo::001071",
+          "source": "　その人の良さって決められるわけでもないし」",
+          "target": " 그 사람이 얼마나 괜찮은지 정할 수는 없잖아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "친한 후배",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0099",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001076",
+          "source": "珍しく正論を言う真帆子。",
+          "target": "드물게도 옳은 말을 하는 마호코."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0100",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001081",
+          "source": "確かにそうだが、",
+          "target": "그렇긴 하지만,"
+        },
+        {
+          "id": "sina_10.mjo::001085",
+          "source": "今はその正論でまとまってしまっては話が面白くないぞ。",
+          "target": "지금 그 옳은 말로 끝나 버리면 재미없잖아."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0101",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001095",
+          "source": "「それにしても本当なんですか？」",
+          "target": "「그런데 정말이에요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "친한 선배",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "마호코 언니, 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0102",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001109",
+          "source": "「ん？　本当ってなにが？」",
+          "target": "「응? 뭐가 정말이냐고?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "친한 후배",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0103",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001119",
+          "source": "「いえ、あの……真帆子ちゃんは、",
+          "target": "「아니, 저…… 마호코 언니가,"
+        },
+        {
+          "id": "sina_10.mjo::001123",
+          "source": "　スパゲティが苦手って事です」",
+          "target": " 스파게티를 잘 못 만든다는 거요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "친한 선배",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "마호코 언니, 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0104",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001137",
+          "source": "「うん、そうだよ」",
+          "target": "「응, 맞아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "친한 후배",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0105",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001142",
+          "source": "なぜか無駄に明るく返事をする真帆子。",
+          "target": "어째서인지 쓸데없이 밝게 대답하는 마호코."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0106",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001147",
+          "source": "まぁ、それだけ真帆子にとっては、",
+          "target": "뭐, 그만큼 마호코에게는,"
+        },
+        {
+          "id": "sina_10.mjo::001151",
+          "source": "重要でないということなのだろう。",
+          "target": "중요한 일이 아니라는 뜻이겠지."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0107",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001161",
+          "source": "「そうですか…」",
+          "target": "「그렇군요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "친한 선배",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "마호코 언니, 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0108",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001175",
+          "source": "「まぁまぁ気にしないで。",
+          "target": "「뭐, 너무 신경 쓰지 마."
+        },
+        {
+          "id": "sina_10.mjo::001179",
+          "source": "　それより一生懸命練習すれば上手くなるよ」",
+          "target": " 그보다 열심히 연습하면 잘하게 될 거야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "친한 후배",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0109",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001193",
+          "source": "「私も詩菜ちゃんも」",
+          "target": "「나도 시이나도」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "친한 후배",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "부드러운 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0110",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001207",
+          "source": "「……気づいてたんですか？」",
+          "target": "「……눈치채고 계셨어요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "친한 선배",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "마호코 언니, 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0111",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001214",
+          "source": "「…………」",
+          "target": "「…………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "선배가 후배에게",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0112",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001224",
+          "source": "気づいてないと……",
+          "target": "눈치 못 챘을 거라고……"
+        },
+        {
+          "id": "sina_10.mjo::001228",
+          "source": "いや、バレていないと考えられるお前も凄いよ。",
+          "target": "아니, 안 들켰다고 생각할 수 있는 너도 대단하다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0113",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001233",
+          "source": "相手が真帆子なら、",
+          "target": "상대가 마호코라면,"
+        },
+        {
+          "id": "sina_10.mjo::001237",
+          "source": "そう考えてしまう気持ちもわからないわけではないが。",
+          "target": "그렇게 생각하는 심정도 이해 못 하는 건 아니지만."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 세 사람의 점심과 요리 이야기",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0114",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001249",
+          "source": "・・・・・・・・・",
+          "target": "・・・・・・・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 장면 전환",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0115",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001254",
+          "source": "・・・・・・",
+          "target": "・・・・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 장면 전환",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sina_10.mjo::u0116",
+      "fields": [
+        {
+          "id": "sina_10.mjo::001259",
+          "source": "・・・",
+          "target": "・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 서술",
+        "story_phase": "시이나 루트 sina_10 / 장면 전환",
+        "voice": "가볍고 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [],
+  "inline_records": [],
+  "context_read": [
+    "sina_09.mjo::u0473-u0487",
+    "sina_10.mjo::u0001-u0170"
+  ],
+  "review_notes": [
+    "u0035 frozen approved-memory 인사 재사용. 장면 전환 점과 침묵은 원문/기존 메모리 유지.",
+    "u0040 의도적 영어 Me/You 표현의 표기/대문자 보존.",
+    "학교의 대학 과정 설정은 현재 학생 장면에 적용. 숫자 나이를 추가하지 않음.",
+    "조정자 의미 검토 반영: u0011/u0016 혼자 호흡; u0076 마호코→시이나; u0113 결합 표현 교정."
+  ],
+  "runtime_verified": false
+}

@@ -1,0 +1,3021 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-3/lane-3",
+  "coordinator_thread_id": "01a16335-c355-7c83-ad79-53e1812faa34",
+  "agent_id": "01a16337-be36-71c2-8fc8-21283490b7f0",
+  "agent_task": "/root/lane_3",
+  "source_script": "sub_last03.mjo",
+  "source_sha256": "887f60dc1118ef0562934760136121beff1bb03f0f923b93fc27838c89983961",
+  "source_packet_sha256": "08c6b7b65dd86d6b885107c607245525357ee015c146e95ea6aa253e23f3ea31",
+  "records": [
+    {
+      "unit": "sub_last03.mjo::u0001",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000028",
+          "source": "更に遺品を調べていくうちに、",
+          "target": "유품을 더 조사하다 보니,"
+        },
+        {
+          "id": "sub_last03.mjo::000032",
+          "source": "祖父の故郷をある程度特定することが出来た。",
+          "target": "할아버지의 고향이 어디인지 어느 정도 알아낼 수 있었다."
+        },
+        {
+          "id": "sub_last03.mjo::000038",
+          "source": "そこは人里離れた山奥にある小さな村で、",
+          "target": "사람 사는 곳에서 멀리 떨어진 산속의 작은 마을로,"
+        },
+        {
+          "id": "sub_last03.mjo::000042",
+          "source": "電車はおろかバスもろくに通っていないへき地のようだ。",
+          "target": "전철은커녕 버스도 제대로 다니지 않는 외진 곳인 듯했다."
+        },
+        {
+          "id": "sub_last03.mjo::000048",
+          "source": "一応特産品はぶどうとワインということらしいが、",
+          "target": "일단 특산품은 포도와 와인인 모양이지만,"
+        },
+        {
+          "id": "sub_last03.mjo::000052",
+          "source": "特に有名というわけでもなく、",
+          "target": "특별히 유명한 것은 아니고,"
+        },
+        {
+          "id": "sub_last03.mjo::000056",
+          "source": "地方の土産の品として出回っている程度らしい。",
+          "target": "그 지방의 기념품으로 유통되는 정도라고 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0002",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000063",
+          "source": "「行ってみるしかないな」",
+          "target": "「가 보는 수밖에 없겠군」"
+        },
+        {
+          "id": "sub_last03.mjo::000069",
+          "source": "僕は反魂の法の手がかりを知る為、",
+          "target": "나는 반혼술의 단서를 찾기 위해,"
+        },
+        {
+          "id": "sub_last03.mjo::000073",
+          "source": "早速その村へと向かった。",
+          "target": "곧바로 그 마을로 향했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백·서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "혼자 생각하는 반말, 서술은 평서체",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0003",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000086",
+          "source": "「…そんな…」",
+          "target": "「…그럴 수가…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백·서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "혼자 생각하는 반말, 서술은 평서체",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0004",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000094",
+          "source": "ところがその村は、",
+          "target": "그런데 그 마을은,"
+        },
+        {
+          "id": "sub_last03.mjo::000098",
+          "source": "周囲の山ごと綺麗さっぱりなくなっていた…",
+          "target": "주변 산과 함께 흔적도 없이 사라져 있었다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0005",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000103",
+          "source": "かつて山があった場所の近所の人に話を聞くと、",
+          "target": "예전에 산이 있던 곳 근처의 주민에게 물어보니,"
+        },
+        {
+          "id": "sub_last03.mjo::000107",
+          "source": "３年前に台風の影響で土砂崩れが起きて、",
+          "target": "3년 전 태풍으로 산사태가 일어나,"
+        },
+        {
+          "id": "sub_last03.mjo::000111",
+          "source": "山は半壊してしまったそうだ。",
+          "target": "산이 반쯤 무너졌다고 한다."
+        },
+        {
+          "id": "sub_last03.mjo::000117",
+          "source": "そのままにしておくと残りも崩れる恐れがあるということで",
+          "target": "그대로 두면 나머지도 무너질 우려가 있어서,"
+        },
+        {
+          "id": "sub_last03.mjo::000121",
+          "source": "完全に更地にしてしまったのだという。",
+          "target": "아예 평지로 밀어 버렸다는 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0006",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000128",
+          "source": "「まさか、山ごと丸々なくなってるなんて…」",
+          "target": "「설마 산까지 통째로 없어졌을 줄이야…」"
+        },
+        {
+          "id": "sub_last03.mjo::000134",
+          "source": "出鼻から挫かれてしまい、",
+          "target": "시작부터 일이 어그러져,"
+        },
+        {
+          "id": "sub_last03.mjo::000138",
+          "source": "さすがにショックを隠し切れない僕。",
+          "target": "나도 충격을 감출 수 없었다."
+        },
+        {
+          "id": "sub_last03.mjo::000144",
+          "source": "反魂の法の唯一の手がかりが、",
+          "target": "반혼술의 유일한 단서가,"
+        },
+        {
+          "id": "sub_last03.mjo::000148",
+          "source": "丸ごと失われてしまった…",
+          "target": "통째로 사라져 버렸다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백·서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "혼자 생각하는 반말, 서술은 평서체",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0007",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000159",
+          "source": "「（いや、まだ諦めるのは早い。",
+          "target": "「(아니, 아직 포기하기는 일러."
+        },
+        {
+          "id": "sub_last03.mjo::000163",
+          "source": "　まさか村の住人が全滅したわけじゃないだろう）」",
+          "target": "　설마 마을 주민이 전부 죽은 건 아닐 테지.)」"
+        },
+        {
+          "id": "sub_last03.mjo::000169",
+          "source": "そう思い直して、",
+          "target": "그렇게 마음을 고쳐먹고,"
+        },
+        {
+          "id": "sub_last03.mjo::000173",
+          "source": "最寄の役場に行って色々と調べてみることにする。",
+          "target": "가장 가까운 관청에 가서 이것저것 알아보기로 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백·서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "혼자 생각하는 반말, 서술은 평서체",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0008",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000178",
+          "source": "すると例の土砂崩れは村の反対側の斜面で起こったそうで、",
+          "target": "알아보니 산사태는 마을 반대편 비탈에서 일어났다고 하며,"
+        },
+        {
+          "id": "sub_last03.mjo::000182",
+          "source": "実質的な被害者はゼロだった。",
+          "target": "실질적인 인명 피해는 없었다."
+        },
+        {
+          "id": "sub_last03.mjo::000188",
+          "source": "ただし前述の通り山は丸ごと更地にされることになり、",
+          "target": "다만 앞서 들은 대로 산은 통째로 평지가 되었고,"
+        },
+        {
+          "id": "sub_last03.mjo::000192",
+          "source": "そこに住んでた村人達のうちの何割かは",
+          "target": "그곳에 살던 마을 사람 중 일부는"
+        },
+        {
+          "id": "sub_last03.mjo::000196",
+          "source": "海側に新しく出来た人工島の方へ移住したようだ。",
+          "target": "바닷가에 새로 생긴 인공섬으로 이주한 듯했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0009",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000201",
+          "source": "なんでもその人工島の埋め立てには、土砂崩れの堆積土や、",
+          "target": "듣자 하니 그 인공섬을 매립할 때 산사태로 쌓인 토사와,"
+        },
+        {
+          "id": "sub_last03.mjo::000205",
+          "source": "山を削って出来た土砂が使われているのだとか。",
+          "target": "산을 깎아 낸 흙을 사용했다고 한다."
+        },
+        {
+          "id": "sub_last03.mjo::000211",
+          "source": "人工島への移住も、",
+          "target": "인공섬으로의 이주 역시,"
+        },
+        {
+          "id": "sub_last03.mjo::000215",
+          "source": "山を削られ住む土地を奪われた住人への",
+          "target": "산이 깎여 살 곳을 잃은 주민들을 위한"
+        },
+        {
+          "id": "sub_last03.mjo::000219",
+          "source": "アフターケアの一環ということらしい。",
+          "target": "사후 지원의 일환인 모양이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0010",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000226",
+          "source": "「（そうだ…村の住人だった人間なら、",
+          "target": "「(그래… 그 마을에 살았던 사람이라면,"
+        },
+        {
+          "id": "sub_last03.mjo::000230",
+          "source": "　反魂の法について何か知っているかもしれない）」",
+          "target": "　반혼술에 대해 뭔가 알지도 몰라.)」"
+        },
+        {
+          "id": "sub_last03.mjo::000236",
+          "source": "僕はそこにわずかな可能性を見出した。",
+          "target": "나는 거기서 자그마한 가능성을 찾았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백·서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "혼자 생각하는 반말, 서술은 평서체",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0011",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000241",
+          "source": "祖父の日記を見る限り、",
+          "target": "할아버지의 일기로 보아,"
+        },
+        {
+          "id": "sub_last03.mjo::000245",
+          "source": "反魂の法のことは村人に対しても隠されていたようだが…",
+          "target": "반혼술은 마을 사람들에게도 비밀이었던 듯하지만…"
+        },
+        {
+          "id": "sub_last03.mjo::000251",
+          "source": "祖父のように何らかの理由で、",
+          "target": "할아버지처럼 무슨 이유로든"
+        },
+        {
+          "id": "sub_last03.mjo::000255",
+          "source": "その存在を知り得た人間がいてもおかしくない。",
+          "target": "그 존재를 알게 된 사람이 있어도 이상하지 않다."
+        },
+        {
+          "id": "sub_last03.mjo::000261",
+          "source": "かすかだが、まだ希望は残っている…",
+          "target": "희미하지만 아직 희망은 남아 있다…"
+        },
+        {
+          "id": "sub_last03.mjo::000265",
+          "source": "その人工島に行ってみる価値はある筈だった。",
+          "target": "그 인공섬에 가 볼 가치는 있을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0012",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000286",
+          "source": "例の人工島は、海上ニュータウンとも呼ばれるところで、",
+          "target": "문제의 인공섬은 해상 뉴타운이라고도 불리는 곳으로,"
+        },
+        {
+          "id": "sub_last03.mjo::000290",
+          "source": "ちょうど開発の真っ盛りだった。",
+          "target": "한창 개발이 진행 중이었다."
+        },
+        {
+          "id": "sub_last03.mjo::000296",
+          "source": "最近では島内に大きなミッションスクールが出来たらしく、",
+          "target": "최근에는 섬 안에 큰 미션스쿨도 들어선 모양이라,"
+        },
+        {
+          "id": "sub_last03.mjo::000300",
+          "source": "人の出入りも多く街は賑やかに活気づいていた。",
+          "target": "오가는 사람도 많고 거리에는 활기가 넘쳤다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0013",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000314",
+          "source": "「我々はァ、この島で米軍基地が建設されることをォ、",
+          "target": "「우리는―, 이 섬에 미군 기지가 건설되는 것을―,"
+        },
+        {
+          "id": "sub_last03.mjo::000318",
+          "source": "　まことに遺憾に思っておりィ――」",
+          "target": "　참으로 유감스럽게 생각하며―」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가두 연설자",
+        "addressees": [
+          "거리의 행인들"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "음절을 길게 끄는 연설체",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0014",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000325",
+          "source": "「そもそも憲法第９条におけるゥ、戦争の放棄とはァ、",
+          "target": "「본래 헌법 제9조에서의―, 전쟁의 포기란―,"
+        },
+        {
+          "id": "sub_last03.mjo::000329",
+          "source": "　他国の戦力に対しても一切の加担をせずゥ――」",
+          "target": "　타국의 전력에도 일절 가담하지 않고―」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가두 연설자",
+        "addressees": [
+          "거리의 행인들"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "음절을 길게 끄는 연설체",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0015",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000334",
+          "source": "バスで海上ニュータウンまでやって来た僕は、",
+          "target": "버스를 타고 해상 뉴타운에 온 나는,"
+        },
+        {
+          "id": "sub_last03.mjo::000338",
+          "source": "とりあえず繁華街方面に足を伸ばした。",
+          "target": "우선 번화가 쪽으로 발걸음을 옮겼다."
+        },
+        {
+          "id": "sub_last03.mjo::000344",
+          "source": "そこではさっきからずっと、",
+          "target": "그곳에서는 아까부터 줄곧,"
+        },
+        {
+          "id": "sub_last03.mjo::000348",
+          "source": "けたたましい街頭演説が行われている。",
+          "target": "요란한 가두 연설이 이어지고 있었다."
+        },
+        {
+          "id": "sub_last03.mjo::000354",
+          "source": "見ると演説だけでなくチラシも配っており、",
+          "target": "보아하니 연설만 하는 게 아니라 전단도 돌리고 있었고,"
+        },
+        {
+          "id": "sub_last03.mjo::000358",
+          "source": "道端に落ちていたそれには",
+          "target": "길가에 떨어진 전단에는"
+        },
+        {
+          "id": "sub_last03.mjo::000362",
+          "source": "『米軍基地建設反対』と書かれていた。",
+          "target": "『미군 기지 건설 반대』라고 적혀 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0016",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000367",
+          "source": "しかし僕はそれらに何の関心も抱かない。",
+          "target": "하지만 나는 그런 것에는 아무 관심도 없었다."
+        },
+        {
+          "id": "sub_last03.mjo::000373",
+          "source": "僕が求めるものはただ一つ、反魂の法だけだった。",
+          "target": "내가 찾는 것은 오직 하나, 반혼술뿐이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0017",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000378",
+          "source": "そしてその手がかりを得るべく、この街に移住したという、",
+          "target": "그리고 그 단서를 얻기 위해, 이곳으로 이주했다는"
+        },
+        {
+          "id": "sub_last03.mjo::000382",
+          "source": "村の出身者を訪ねて回ることにした。",
+          "target": "마을 출신 사람들을 찾아다니기로 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0018",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000397",
+          "source": "例の村があった場所の近隣の役場で調べた結果、",
+          "target": "마을이 있던 곳 근처 관청에서 조사한 덕분에,"
+        },
+        {
+          "id": "sub_last03.mjo::000401",
+          "source": "この街に移住してきた元・村人達の見当は大体ついている。",
+          "target": "이곳으로 이주한 옛 주민들이 어디 사는지는 대략 알고 있었다."
+        },
+        {
+          "id": "sub_last03.mjo::000407",
+          "source": "それを元に一軒ずつ訪ねていったが、",
+          "target": "그 정보를 바탕으로 한 집씩 찾아갔지만,"
+        },
+        {
+          "id": "sub_last03.mjo::000411",
+          "source": "村の出身者たちから得た情報はあまり芳しくなかった。",
+          "target": "마을 출신들에게 얻은 정보는 그리 신통치 않았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0019",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000416",
+          "source": "結局わかったのはその村には、",
+          "target": "결국 알아낸 것은 그 마을에"
+        },
+        {
+          "id": "sub_last03.mjo::000420",
+          "source": "『悪魔憑き』という因習があったことだけ。",
+          "target": "『악마 들린 자』라는 인습이 있었다는 것뿐."
+        },
+        {
+          "id": "sub_last03.mjo::000426",
+          "source": "それは一応祖父の日記の内容を裏付けるものだったけど、",
+          "target": "일단 할아버지 일기의 내용을 뒷받침하는 이야기였지만,"
+        },
+        {
+          "id": "sub_last03.mjo::000430",
+          "source": "皆反魂の法については何も知らない様子だった。",
+          "target": "반혼술에 대해서는 모두 아무것도 모르는 듯했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0020",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000442",
+          "source": "それから更に何軒目かに、僕はあるマンションを訪ねた。",
+          "target": "그 뒤로도 몇 집을 더 돌다가, 나는 어느 아파트를 찾았다."
+        },
+        {
+          "id": "sub_last03.mjo::000448",
+          "source": "そこには村出身者の羽鳥朋子…",
+          "target": "그곳에는 그 마을 출신인 하토리 도모코…"
+        },
+        {
+          "id": "sub_last03.mjo::000452",
+          "source": "旧姓一ノ瀬朋子が家族と共に暮らしている筈だ。",
+          "target": "결혼 전 이름이 이치노세 도모코인 여성이 가족과 살고 있을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0021",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000478",
+          "source": "ピンポーン",
+          "target": "딩동―"
+        }
+      ],
+      "context": {
+        "speaker_identity": "환경음",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "효과음",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0022",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000488",
+          "source": "「はい、どちら様ですか？」",
+          "target": "「네, 누구세요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 도모코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "낯선 교회 관계자에게 조심스러운 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0023",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000495",
+          "source": "「こんにちわ。私、＊＊教会のものですが」",
+          "target": "「안녕하세요. 저는 ＊＊ 교회에서 왔습니다만」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 도모코"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "정중한 교회 관계자를 가장한 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0024",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000505",
+          "source": "「あっ…」",
+          "target": "「아…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 도모코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "낯선 교회 관계자에게 조심스러운 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0025",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000512",
+          "source": "「失礼ですが、羽鳥朋子さんでいらっしゃいますか？」",
+          "target": "「실례지만 하토리 도모코 씨이신가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 도모코"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "정중한 교회 관계자를 가장한 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0026",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000522",
+          "source": "「は、はい…」",
+          "target": "「네, 네…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 도모코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "낯선 교회 관계자에게 조심스러운 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0027",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000529",
+          "source": "「実は今、●●村出身の信徒の方々の",
+          "target": "「실은 지금 ●● 마을 출신 신도분들의"
+        },
+        {
+          "id": "sub_last03.mjo::000533",
+          "source": "　現住所確認を行っていまして…」",
+          "target": "　현주소를 확인하고 있어서요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 도모코"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "정중한 교회 관계자를 가장한 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0028",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000538",
+          "source": "僕はこんな風にしてもっともらしいウソをでっち上げ、",
+          "target": "나는 이런 식으로 그럴듯한 거짓말을 꾸며,"
+        },
+        {
+          "id": "sub_last03.mjo::000542",
+          "source": "村出身者から話を聞いて回っていた。",
+          "target": "마을 출신들의 이야기를 듣고 다녔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0029",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000547",
+          "source": "祖父の故郷は村人のほとんどが教会の信徒で、",
+          "target": "할아버지의 고향은 주민 대부분이 교회 신도였고,"
+        },
+        {
+          "id": "sub_last03.mjo::000551",
+          "source": "祖父自身も含め、皆そろって信心深かったという。",
+          "target": "할아버지 본인도 포함해서 모두 신앙심이 깊었다고 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0030",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000556",
+          "source": "僕の父が敬虔なクリスチャンだったのも、",
+          "target": "내 아버지가 독실한 기독교인이었던 것도,"
+        },
+        {
+          "id": "sub_last03.mjo::000560",
+          "source": "そんな祖父の影響が大きかったのだろう。",
+          "target": "그런 할아버지의 영향이 컸을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0031",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000565",
+          "source": "そこで僕は教会の名と伝道師という身分を利用して、",
+          "target": "그래서 나는 교회의 이름과 전도사라는 신분을 이용해,"
+        },
+        {
+          "id": "sub_last03.mjo::000569",
+          "source": "（この部分は紛れもなく真実だ）",
+          "target": "(이 부분은 엄연한 사실이다.)"
+        },
+        {
+          "id": "sub_last03.mjo::000573",
+          "source": "村の出身者から話を聞き出していた。",
+          "target": "마을 출신들에게서 이야기를 끌어내고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0032",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000581",
+          "source": "ガチャ",
+          "target": "철컥"
+        }
+      ],
+      "context": {
+        "speaker_identity": "환경음",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "효과음",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0033",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000595",
+          "source": "「…こんにちわ」",
+          "target": "「…안녕하세요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 도모코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "낯선 교회 관계자에게 조심스러운 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0034",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000602",
+          "source": "「初めまして。＊＊教会で伝道師をしております、",
+          "target": "「처음 뵙겠습니다. ＊＊ 교회에서 전도사로 일하는,"
+        },
+        {
+          "id": "sub_last03.mjo::000606",
+          "source": "　汐見といいます」",
+          "target": "　시오미라고 합니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 도모코"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "정중한 교회 관계자를 가장한 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0035",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000620",
+          "source": "「どうも…」",
+          "target": "「네…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 도모코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "낯선 교회 관계자에게 조심스러운 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0036",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000627",
+          "source": "「早速ですが、あなたは●●村のご出身ですね？」",
+          "target": "「바로 여쭙겠습니다만, ●● 마을 출신이시지요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 도모코"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "정중한 교회 관계자를 가장한 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0037",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000641",
+          "source": "「…はい、そうです」",
+          "target": "「…네, 맞아요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 도모코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "낯선 교회 관계자에게 조심스러운 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0038",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000648",
+          "source": "「では確認の為、",
+          "target": "「그럼 확인을 위해,"
+        },
+        {
+          "id": "sub_last03.mjo::000652",
+          "source": "　いくつか質問をさせていただきたいのですが…」",
+          "target": "　몇 가지 여쭤보고 싶은데요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 도모코"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "정중한 교회 관계자를 가장한 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0039",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000662",
+          "source": "そう言って僕は遠回しに、村のことについて…",
+          "target": "그렇게 말하며 나는 마을에 관해…"
+        },
+        {
+          "id": "sub_last03.mjo::000666",
+          "source": "反魂の法について探りを入れる。",
+          "target": "반혼술에 관해 넌지시 떠본다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0040",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000671",
+          "source": "そしてその結果、羽鳥朋子もまた、",
+          "target": "그 결과, 하토리 도모코 역시"
+        },
+        {
+          "id": "sub_last03.mjo::000675",
+          "source": "反魂の法のことは何も知らないことが判明した。",
+          "target": "반혼술에 대해서는 아무것도 모른다는 사실을 알게 되었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0041",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000680",
+          "source": "だが反魂の法が封印されていたという、",
+          "target": "하지만 반혼술이 봉인되어 있었다는,"
+        },
+        {
+          "id": "sub_last03.mjo::000684",
+          "source": "村の教会については他の者より多少は詳しかった。",
+          "target": "마을 교회에 대해서는 다른 사람들보다 조금 자세히 알고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0042",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000698",
+          "source": "「私の家は教会に近かったので、",
+          "target": "「저희 집이 교회와 가까워서,"
+        },
+        {
+          "id": "sub_last03.mjo::000702",
+          "source": "　牧師先生の一家とは親しくさせていただいてました…」",
+          "target": "　목사님 가족과는 친하게 지냈어요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 도모코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "낯선 교회 관계자에게 조심스러운 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0043",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000707",
+          "source": "羽鳥朋子はそう前置きしてから、",
+          "target": "하토리 도모코는 그렇게 운을 떼고,"
+        },
+        {
+          "id": "sub_last03.mjo::000711",
+          "source": "今から１６年前の事件について語った。",
+          "target": "지금으로부터 16년 전의 사건을 이야기했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0044",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000721",
+          "source": "当時の牧師の一人娘が、",
+          "target": "당시 목사의 외동딸이"
+        },
+        {
+          "id": "sub_last03.mjo::000725",
+          "source": "『悪魔憑き』になったと噂が流れたこと…",
+          "target": "『악마 들린 자』가 되었다는 소문이 돌았다는 것…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0045",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000730",
+          "source": "またその後の教会全焼事件と、",
+          "target": "그리고 그 뒤에 일어난 교회 전소 사건과,"
+        },
+        {
+          "id": "sub_last03.mjo::000734",
+          "source": "牧師一家失踪事件のことも聞かされた。",
+          "target": "목사 일가의 실종 사건에 대해서도 들었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0046",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000739",
+          "source": "それらは実に興味深い話だった。",
+          "target": "참으로 흥미로운 이야기였다."
+        },
+        {
+          "id": "sub_last03.mjo::000743",
+          "source": "恐らく反魂の法とも深く関わりがあるに違いない。",
+          "target": "반혼술과도 깊은 관계가 있을 게 틀림없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0047",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000748",
+          "source": "更にはその１６年前に失踪した筈の牧師が、",
+          "target": "게다가 16년 전에 실종되었다던 목사가,"
+        },
+        {
+          "id": "sub_last03.mjo::000752",
+          "source": "今このニュータウンのミッションスクールで、",
+          "target": "지금 이 뉴타운의 미션스쿨에서,"
+        },
+        {
+          "id": "sub_last03.mjo::000756",
+          "source": "礼拝堂の牧師をやっているという情報も得た。",
+          "target": "예배당 목사로 일한다는 정보까지 얻었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0048",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000761",
+          "source": "祖父の日記によると、",
+          "target": "할아버지의 일기에 따르면,"
+        },
+        {
+          "id": "sub_last03.mjo::000765",
+          "source": "教会の牧師は反魂の秘密を知る最大の手がかりの筈…",
+          "target": "교회의 목사는 반혼의 비밀을 알아낼 가장 큰 단서일 것이다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0049",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000770",
+          "source": "ようやく実りのある情報を得た僕は、",
+          "target": "마침내 쓸 만한 정보를 얻은 나는,"
+        },
+        {
+          "id": "sub_last03.mjo::000774",
+          "source": "早速その礼拝堂へ行ってみることにした。",
+          "target": "곧바로 그 예배당에 가 보기로 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0050",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000781",
+          "source": "「わかりました。では詳しい話は",
+          "target": "「알겠습니다. 그럼 자세한 이야기는"
+        },
+        {
+          "id": "sub_last03.mjo::000785",
+          "source": "　その牧師先生にお聞きした方が良さそうですね」",
+          "target": "　그 목사님께 여쭙는 편이 좋겠군요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 도모코"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "정중한 교회 관계자를 가장한 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0051",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000799",
+          "source": "「はい…」",
+          "target": "「네…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 도모코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "낯선 교회 관계자에게 조심스러운 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0052",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000806",
+          "source": "「お時間を取らせて申し訳ありませんでした。",
+          "target": "「시간을 빼앗아 죄송했습니다."
+        },
+        {
+          "id": "sub_last03.mjo::000810",
+          "source": "　それではこれで失礼します」",
+          "target": "　그럼 이만 실례하겠습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 도모코"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "정중한 교회 관계자를 가장한 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0053",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000824",
+          "source": "「いえ…あまりお役に立てなくて申し訳ありません」",
+          "target": "「아니에요… 별로 도움이 못 되어 죄송해요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 도모코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "낯선 교회 관계자에게 조심스러운 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0054",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000829",
+          "source": "羽鳥朋子は伏し目がちのまま、小さく会釈した。",
+          "target": "하토리 도모코는 시선을 내리깐 채 살짝 고개를 숙였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0055",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000834",
+          "source": "…彼女の態度が少し気になった。どうもさっきから、",
+          "target": "…그녀의 태도가 조금 마음에 걸렸다. 아까부터 어쩐지,"
+        },
+        {
+          "id": "sub_last03.mjo::000838",
+          "source": "何か後ろめたいことでもあるような素振りを見せている。",
+          "target": "뭔가 켕기는 게 있는 듯한 모습을 보이고 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0056",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000843",
+          "source": "僕はふって湧いた疑問と好奇心に駆られ、",
+          "target": "문득 떠오른 의문과 호기심에 이끌려,"
+        },
+        {
+          "id": "sub_last03.mjo::000847",
+          "source": "再び口を開いた。",
+          "target": "나는 다시 입을 열었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0057",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000854",
+          "source": "「あの、最後にもう一つ質問させていただきたいのですが」",
+          "target": "「저, 마지막으로 한 가지만 더 여쭤보고 싶은데요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 도모코"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "정중한 교회 관계자를 가장한 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0058",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000868",
+          "source": "「はい…？」",
+          "target": "「네…?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 도모코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "낯선 교회 관계자에게 조심스러운 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0059",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000875",
+          "source": "「この街でその牧師先生と再会してからは、",
+          "target": "「이곳에서 그 목사님과 다시 만나신 뒤로는,"
+        },
+        {
+          "id": "sub_last03.mjo::000879",
+          "source": "　また以前のように親しくしていらっしゃるのですか？」",
+          "target": "　예전처럼 친하게 지내고 계신가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 도모코"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "정중한 교회 관계자를 가장한 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0060",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000893",
+          "source": "「い、いえ…正直に言いますと、",
+          "target": "「아, 아뇨… 솔직히 말씀드리면,"
+        },
+        {
+          "id": "sub_last03.mjo::000897",
+          "source": "　今では礼拝堂の方にもほとんど顔を出していないんです」",
+          "target": "　지금은 예배당에도 거의 나가지 않아요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 도모코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "낯선 교회 관계자에게 조심스러운 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0061",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000911",
+          "source": "「勿論上条先生と顔を合わせづらいというのもありますが、",
+          "target": "「물론 가미조 선생님을 뵙기가 어려운 것도 있지만,"
+        },
+        {
+          "id": "sub_last03.mjo::000915",
+          "source": "　村を出て以来、何となく足が遠のいてしまって…」",
+          "target": "　마을을 나온 뒤로 왠지 발길이 뜸해져서요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "하토리 도모코",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "낯선 교회 관계자에게 조심스러운 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0062",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000922",
+          "source": "「…そうですか」",
+          "target": "「…그렇군요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "하토리 도모코"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "정중한 교회 관계자를 가장한 존댓말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0063",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000927",
+          "source": "何故だか僕には、彼女の気持ちがわかるような気がした。",
+          "target": "어째서인지 나는 그녀의 심정을 알 것 같았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0064",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000932",
+          "source": "恐らく、彼女の心はもう信仰から離れているのだろう。",
+          "target": "아마 그녀의 마음은 이미 신앙을 떠나 있을 것이다."
+        },
+        {
+          "id": "sub_last03.mjo::000937",
+          "source": "話しぶりから察するに、１６年前の事件の時から。",
+          "target": "말하는 투로 짐작하건대, 16년 전의 사건 때부터."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0065",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000942",
+          "source": "この羽鳥朋子という女性もまた、",
+          "target": "하토리 도모코라는 이 여성도,"
+        },
+        {
+          "id": "sub_last03.mjo::000946",
+          "source": "信仰でも救われない欠落を抱えているのかもしれない。",
+          "target": "신앙으로도 구원받지 못하는 결핍을 안고 있는지도 모른다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0066",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000951",
+          "source": "大切な妹を失った、僕と同じように――",
+          "target": "소중한 여동생을 잃은 나처럼――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0067",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000971",
+          "source": "「ここが礼拝堂か…」",
+          "target": "「여기가 예배당인가…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백·서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "혼자 생각하는 반말, 서술은 평서체",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0068",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000976",
+          "source": "羽鳥朋子から聞いた情報を元に、",
+          "target": "하토리 도모코에게 들은 정보를 바탕으로,"
+        },
+        {
+          "id": "sub_last03.mjo::000980",
+          "source": "ミッションスクール内にある礼拝堂へとやって来た。",
+          "target": "미션스쿨 안에 있는 예배당을 찾았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0069",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000985",
+          "source": "ここの牧師が、",
+          "target": "이곳의 목사가"
+        },
+        {
+          "id": "sub_last03.mjo::000989",
+          "source": "かつて祖父の故郷の村でも牧師をやっていたのなら…",
+          "target": "예전에 할아버지의 고향 마을에서도 목사였다면…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0070",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::000994",
+          "source": "必ず反魂の法について何か知っている筈だった。",
+          "target": "분명 반혼술에 대해 뭔가 알고 있을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0071",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001007",
+          "source": "ギィー…",
+          "target": "끼이익…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "환경음",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "효과음",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0072",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001014",
+          "source": "「ごめんください」",
+          "target": "「실례합니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0073",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001028",
+          "source": "「はい、どちら様ですか？」",
+          "target": "「네, 누구십니까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음에는 정중한 존댓말, 비밀을 들키며 동요",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0074",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001033",
+          "source": "中に入ると、初老の男性が僕を出迎えた。",
+          "target": "안으로 들어가자 초로의 남자가 나를 맞이했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0075",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001038",
+          "source": "雰囲気や佇まいから察するに、",
+          "target": "분위기와 태도를 보아,"
+        },
+        {
+          "id": "sub_last03.mjo::001042",
+          "source": "彼がこの礼拝堂の牧師なのだろう。",
+          "target": "이 사람이 이 예배당의 목사일 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0076",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001047",
+          "source": "僕は緊張を高めながら、",
+          "target": "나는 점점 긴장하면서,"
+        },
+        {
+          "id": "sub_last03.mjo::001051",
+          "source": "慎重に話を切り出すことにした。",
+          "target": "신중하게 말을 꺼내기로 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0077",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001058",
+          "source": "「あの、失礼ですが上条先生ですか？」",
+          "target": "「저, 실례지만 가미조 선생님이십니까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0078",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001069",
+          "source": "「はい、いかにも私が上条ですが…あなたは？」",
+          "target": "「네, 제가 가미조입니다만… 누구신지요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음에는 정중한 존댓말, 비밀을 들키며 동요",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0079",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001076",
+          "source": "「失礼しました。",
+          "target": "「실례했습니다."
+        },
+        {
+          "id": "sub_last03.mjo::001080",
+          "source": "　私は＊＊教会の伝道師の汐見と申します」",
+          "target": "　저는 ＊＊ 교회의 전도사, 시오미라고 합니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0080",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001085",
+          "source": "そう名乗りながら、僕は今にも掴みかかり、",
+          "target": "그렇게 이름을 밝히면서도, 나는 당장 멱살이라도 잡고"
+        },
+        {
+          "id": "sub_last03.mjo::001089",
+          "source": "反魂のことを洗いざらい吐かせたい衝動に駆られる。",
+          "target": "반혼에 대해 모조리 실토하게 만들고 싶은 충동에 휩싸인다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0081",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001094",
+          "source": "しかしそんなやり方はスマートではないし、",
+          "target": "하지만 그런 방법은 현명하지 못하고,"
+        },
+        {
+          "id": "sub_last03.mjo::001098",
+          "source": "話がこじれる可能性も高い。",
+          "target": "이야기가 꼬일 가능성도 크다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0082",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001103",
+          "source": "僕の目的はあくまで、",
+          "target": "내 목적은 어디까지나,"
+        },
+        {
+          "id": "sub_last03.mjo::001107",
+          "source": "迅速かつ正確に反魂の法の情報を得ること…",
+          "target": "신속하고 정확하게 반혼술의 정보를 얻는 것…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0083",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001112",
+          "source": "僕はそう自分に言い聞かせ、",
+          "target": "나는 스스로에게 그렇게 되뇌며,"
+        },
+        {
+          "id": "sub_last03.mjo::001116",
+          "source": "なんとか冷静さを保とうとした。",
+          "target": "어떻게든 냉정을 유지하려 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0084",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001127",
+          "source": "「それで汐見さん、私に何か御用でしょうか？」",
+          "target": "「그래서 시오미 씨, 제게 무슨 볼일이 있으신가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음에는 정중한 존댓말, 비밀을 들키며 동요",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0085",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001134",
+          "source": "「はい…実は上条先生にお聞きしたいことがありまして」",
+          "target": "「네… 실은 가미조 선생님께 여쭐 것이 있어서요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0086",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001145",
+          "source": "「私に聞きたいこと？　何でしょうか」",
+          "target": "「제게 물으실 것이요? 어떤 일인가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음에는 정중한 존댓말, 비밀을 들키며 동요",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0087",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001152",
+          "source": "「上条先生はかつて、",
+          "target": "「가미조 선생님께서는 예전에,"
+        },
+        {
+          "id": "sub_last03.mjo::001156",
+          "source": "　●●村の教会で牧師をなさっていましたよね？」",
+          "target": "　●● 마을의 교회에서 목사로 일하셨지요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0088",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001167",
+          "source": "「！」",
+          "target": "「!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음에는 정중한 존댓말, 비밀을 들키며 동요",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0089",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001174",
+          "source": "「その教会には",
+          "target": "「그 교회에는 "
+        },
+        {
+          "id": "sub_last03.mjo::001178",
+          "source": "が封印されていた筈です。",
+          "target": "이 봉인되어 있었을 겁니다."
+        },
+        {
+          "id": "sub_last03.mjo::001182",
+          "source": "　村人にも知られず密かに隠し続けていたものが」",
+          "target": "　마을 사람들에게도 알리지 않고 몰래 숨겨 온 것이」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0090",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001193",
+          "source": "「汐見さん、あなた…？」",
+          "target": "「시오미 씨, 당신…?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음에는 정중한 존댓말, 비밀을 들키며 동요",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0091",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001200",
+          "source": "「",
+          "target": "「"
+        },
+        {
+          "id": "sub_last03.mjo::001202",
+          "source": "『反魂の法』…あなたならその存在を知っている筈」",
+          "target": "『반혼술』… 당신이라면 그 존재를 알고 계실 겁니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0092",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001213",
+          "source": "「…何故、そのことを…」",
+          "target": "「…어떻게, 그 일을…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음에는 정중한 존댓말, 비밀을 들키며 동요",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0093",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001218",
+          "source": "上条氏は驚いた様子で目を見開いていた。",
+          "target": "가미조 씨는 놀란 듯 눈을 크게 뜨고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0094",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001223",
+          "source": "やはり、この男は反魂の法のことを知っている…！",
+          "target": "역시 이 남자는 반혼술을 알고 있다…!"
+        },
+        {
+          "id": "sub_last03.mjo::001227",
+          "source": "僕はそう確信した。",
+          "target": "나는 확신했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0095",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001232",
+          "source": "もし反魂の法が実在するなら、",
+          "target": "반혼술이 실재한다면,"
+        },
+        {
+          "id": "sub_last03.mjo::001236",
+          "source": "本当に悠絵を生き返らせることが出来るかもしれない――",
+          "target": "정말 유에를 되살릴 수 있을지도 모른다――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0096",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001243",
+          "source": "「上条先生…どうか私に教えてくださいませんか？",
+          "target": "「가미조 선생님… 부디 제게 가르쳐 주시겠습니까?"
+        },
+        {
+          "id": "sub_last03.mjo::001247",
+          "source": "　反魂の法のことを」",
+          "target": "　반혼술에 대해서요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0097",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001258",
+          "source": "「…知らない。私は何も知らないんだ」",
+          "target": "「…모릅니다. 난 아무것도 몰라요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음에는 정중한 존댓말, 비밀을 들키며 동요",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0098",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001265",
+          "source": "「まさか、そんな筈はないでしょう？　村の教会の牧師は、",
+          "target": "「설마, 그럴 리 없잖습니까? 마을 교회의 목사는,"
+        },
+        {
+          "id": "sub_last03.mjo::001269",
+          "source": "　反魂の法を管理する立場にあった筈だ」",
+          "target": "　반혼술을 관리하는 입장이었을 텐데요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0099",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001274",
+          "source": "少なくとも祖父の日記にはそう書かれていた。",
+          "target": "적어도 할아버지의 일기에는 그렇게 적혀 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0100",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001279",
+          "source": "祖父を村から出奔させた牧師は『秋月』という名だったが、",
+          "target": "할아버지를 마을에서 떠나게 한 목사의 이름은 『아키즈키』였고,"
+        },
+        {
+          "id": "sub_last03.mjo::001283",
+          "source": "年代的にも合わないので、目の前の上条氏とは別人だろう。",
+          "target": "시기상으로도 맞지 않으니 눈앞의 가미조 씨와는 다른 사람일 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0101",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001288",
+          "source": "しかし両者とも同じ村の牧師であった以上、",
+          "target": "하지만 두 사람 다 같은 마을의 목사였던 이상,"
+        },
+        {
+          "id": "sub_last03.mjo::001292",
+          "source": "上条氏も秋月牧師と同じ情報を共有している筈だった。",
+          "target": "가미조 씨도 아키즈키 목사와 같은 정보를 알고 있을 터였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0102",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001299",
+          "source": "「さあ、上条先生。反魂の法のことを教えてください」",
+          "target": "「자, 가미조 선생님. 반혼술에 대해 가르쳐 주십시오」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0103",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001310",
+          "source": "「私は、知らない…」",
+          "target": "「나는, 몰라요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음에는 정중한 존댓말, 비밀을 들키며 동요",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0104",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001317",
+          "source": "「この期におよんでまだとぼける気ですか…",
+          "target": "「이 지경에 와서도 시치미를 떼실 생각입니까…"
+        },
+        {
+          "id": "sub_last03.mjo::001321",
+          "source": "　それとも、反魂の法を独り占めしようとでも？」",
+          "target": "　아니면 반혼술을 혼자 독차지하시려는 겁니까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0105",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001332",
+          "source": "「バカな、そんなことがあるわけないっ」",
+          "target": "「말도 안 돼, 그럴 리가 없잖소!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "동요하여 부인하는 단정적인 반말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0106",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001339",
+          "source": "「だってあなたは反魂の法で、",
+          "target": "「하지만 당신은 반혼술로,"
+        },
+        {
+          "id": "sub_last03.mjo::001343",
+          "source": "　自分の娘を生き返らせたんじゃないんですか？」",
+          "target": "　자기 딸을 되살리신 것 아닙니까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0107",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001354",
+          "source": "「なっ…！？」",
+          "target": "「뭐…!?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "동요하여 부인하는 단정적인 반말",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0108",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001361",
+          "source": "「ふむ…どうやら図星のようですね」",
+          "target": "「흠… 아무래도 정곡을 찌른 모양이군요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0109",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001366",
+          "source": "それは僕の推測だった。",
+          "target": "그건 내 추측이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0110",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001371",
+          "source": "羽鳥朋子の話によると、上条氏の娘は病弱で、",
+          "target": "하토리 도모코의 말에 따르면, 가미조 씨의 딸은 몸이 약해서,"
+        },
+        {
+          "id": "sub_last03.mjo::001375",
+          "source": "長い間病気で伏せっていたことがあったという。",
+          "target": "오랫동안 병으로 누워 지낸 적이 있다고 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0111",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001380",
+          "source": "あまりに長いこと顔を見せなかったので、",
+          "target": "너무 오래 모습을 보이지 않아,"
+        },
+        {
+          "id": "sub_last03.mjo::001384",
+          "source": "もう死んでるんじゃないかと噂され始めた頃、",
+          "target": "이미 죽은 게 아니냐는 소문이 돌기 시작할 무렵,"
+        },
+        {
+          "id": "sub_last03.mjo::001388",
+          "source": "突然何事もなかったかのように元気になっていた。",
+          "target": "갑자기 아무 일도 없었다는 듯 건강해졌다는 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0112",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001393",
+          "source": "ところがその直後、娘が今度は村のしきたりを破って",
+          "target": "그런데 바로 그 뒤, 이번에는 딸이 마을의 관습을 어겨,"
+        },
+        {
+          "id": "sub_last03.mjo::001397",
+          "source": "村人達に『悪魔憑き』の疑いを持たれてしまう…",
+          "target": "마을 사람들에게 『악마 들린 자』라는 의심을 받게 된다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0113",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001402",
+          "source": "その『悪魔憑き』という村独特の因習も、",
+          "target": "그 『악마 들린 자』라는 마을 특유의 인습도,"
+        },
+        {
+          "id": "sub_last03.mjo::001406",
+          "source": "反魂と何か関係があるのではないかと思えた。",
+          "target": "반혼과 무언가 관계가 있지 않을까 싶었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "집요하고 계산적인 1인칭 서술",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0114",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001413",
+          "source": "「あなたの娘さんは病気で一度死んだ。",
+          "target": "「따님은 병으로 한 번 죽었습니다."
+        },
+        {
+          "id": "sub_last03.mjo::001417",
+          "source": "　そこであなたは禁を破り、反魂の法で生き返らせた…」",
+          "target": "　그래서 당신은 금기를 깨고, 반혼술로 되살리셨죠…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0115",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001428",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음에는 정중한 존댓말, 비밀을 들키며 동요",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0116",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001435",
+          "source": "「それから程なくして教会の全焼事件と、",
+          "target": "「그로부터 얼마 지나지 않아 교회 전소 사건과,"
+        },
+        {
+          "id": "sub_last03.mjo::001439",
+          "source": "　あなた方一家の失踪事件が起きているのも、",
+          "target": "　당신 일가의 실종 사건이 일어난 것도,"
+        },
+        {
+          "id": "sub_last03.mjo::001443",
+          "source": "　そのことと深く関係していると思うのですがね」",
+          "target": "　그 일과 깊은 관련이 있다고 생각합니다만」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0117",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001454",
+          "source": "「…それは…」",
+          "target": "「…그건…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음에는 정중한 존댓말, 비밀을 들키며 동요",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0118",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001461",
+          "source": "「勘違いしないで下さい。",
+          "target": "「오해하지 마십시오."
+        },
+        {
+          "id": "sub_last03.mjo::001465",
+          "source": "　そのことであなたを責めるつもりは毛頭ないんです」",
+          "target": "　그 일로 당신을 탓할 생각은 추호도 없습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0119",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001472",
+          "source": "「私はただ、あなたと同じように、",
+          "target": "「저는 그저 당신처럼,"
+        },
+        {
+          "id": "sub_last03.mjo::001476",
+          "source": "　大切なものを取り戻したいだけなんですから」",
+          "target": "　소중한 것을 되찾고 싶을 뿐이니까요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음 만난 목사에게 존댓말; 점차 강압적으로 추궁",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0120",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001487",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "시오미는 첫 대면의 도모코와 가미조에게 존댓말을 쓰며 교회 업무를 가장한다. 가미조가 반혼술을 부인하자 정중함 속에 압박을 높이고 가미조는 동요해 일시적으로 반말을 쓴다.",
+        "story_phase": "부가 과거: 사라진 마을을 찾아 해상 뉴타운에 온 시오미가 하토리 도모코와 가미조를 조사함",
+        "voice": "처음에는 정중한 존댓말, 비밀을 들키며 동요",
+        "context_evidence": "sub_last03 206구간 전체와 앞 sub_last02 전체, 뒤 sub_last04 첫10구간 확인. u0089 inline 강조 소비자는 mjil 033bb ldstr→033c8 callp $2f93f26a(1)로 입증."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "羽鳥朋子 / 一ノ瀬朋子",
+      "target": "하토리 도모코 / 이치노세 도모코",
+      "evidence": [
+        "sub_last03.mjo::u0020"
+      ],
+      "status": "朋子 reading inferred conventional; local kana/voice pending"
+    },
+    {
+      "source": "伝道師",
+      "target": "전도사",
+      "evidence": [
+        "sub_last03.mjo::u0031–0034"
+      ],
+      "status": "ordination status distinct from 牧師=목사"
+    }
+  ],
+  "inline_records": [
+    {
+      "unit": "sub_last03.mjo::u0089",
+      "id": "sub_last03.mjo::001176",
+      "source": "あるもの",
+      "target": "어떤 것",
+      "consumer": "yazlib $2f93f26a emphasis body display",
+      "evidence": "research/disassembly/sub_last03.mjo.mjil: 033bb ldstr あるもの -> 033c8 callp $2f93f26a(1), surrounded by text その教会には / が封印されていた筈です。; established shared consumer contract"
+    }
+  ],
+  "review_notes": [
+    "u0013–0014 연설자의 끄는 어조 보존, 원문 정치적 내용은 번역이며 현실 법률 주장 아님.",
+    "교회 ＊＊ 및 마을 ●● 표시를 그대로 보존.",
+    "u0089는 text+inline+text를 합쳐 ‘그 교회에는 어떤 것이 봉인되어 있었을 겁니다’로 읽힘.",
+    "u0097 이후 가미조는 충격 속에 격식이 낮아지지만 상대와의 거리감을 존댓말/하오체로 보존.",
+    "길이 경고 000452/001283는 의미 생략 없이 보존; 실제 화면 줄바꿈 확인 필요.",
+    "조정자 공통결정 しきたり=관습 적용."
+  ]
+}

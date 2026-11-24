@@ -1,0 +1,3132 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-1/lane-2",
+  "coordinator_thread_id": "01a16335-92a2-79c2-814f-63275a46f2b1",
+  "agent_id": "/root/lane_2",
+  "source_script": "kureha_06.mjo",
+  "source_sha256": "9b4ddb30b11f242a13760c89383dca98e5260a4efabc680da71de5bb3ce7a186",
+  "records": [
+    {
+      "unit": "kureha_06.mjo::u0001",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000022",
+          "source": "「ふっ…ふわぁ～…」",
+          "target": "「흐… 후아암…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "딸에게 다정한 아버지",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0002",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000032",
+          "source": "「おとーさん、どうしたの？　眠いの？」",
+          "target": "「아빠, 왜 그래? 졸려?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "아버지에게 머리를 맡긴 딸",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0003",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000039",
+          "source": "「あ、いや…」",
+          "target": "「아, 아니…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "딸에게 다정한 아버지",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0004",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000053",
+          "source": "「何でもないんだよ。ごめんごめん」",
+          "target": "「아무것도 아니야. 미안, 미안」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "딸에게 다정한 아버지",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0005",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000058",
+          "source": "僕はもみじの後頭部に向かって謝った。",
+          "target": "나는 모미지의 뒤통수를 향해 사과했다."
+        },
+        {
+          "id": "kureha_06.mjo::000062",
+          "source": "濡れ羽色の黒髪に寝ぼけた顔が映りこみそうで恥ずかしい。",
+          "target": "윤기 흐르는 검은 머리에 잠 덜 깬 내 얼굴이 비칠 것 같아 부끄러웠다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0006",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000067",
+          "source": "もみじの髪を結びながら、",
+          "target": "모미지의 머리를 묶어 주다가"
+        },
+        {
+          "id": "kureha_06.mjo::000071",
+          "source": "つい欠伸してしまった自分にとりあえず反省。",
+          "target": "그만 하품해 버린 자신을 일단 반성했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0007",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000076",
+          "source": "ここのところ夜回りが続いてて寝不足だからな…",
+          "target": "요즘 밤마다 돌아다니느라 잠이 부족하니까…"
+        },
+        {
+          "id": "kureha_06.mjo::000080",
+          "source": "本当にそろそろいい加減にしないと。",
+          "target": "이제 정말 적당히 해야 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0008",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000087",
+          "source": "「さて、もみじ。今日の髪型はどうする？」",
+          "target": "「자, 모미지. 오늘은 머리를 어떻게 해 줄까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "딸에게 다정한 아버지",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0009",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000102",
+          "source": "「えーっとね、うーんとぉー…」",
+          "target": "「그러니까, 음으으…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "아버지에게 머리를 맡긴 딸",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0010",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000107",
+          "source": "寝不足をもみじに悟られないよう、努めて明るく振舞う僕。",
+          "target": "잠이 부족한 걸 모미지에게 들키지 않으려고 애써 밝게 굴었다."
+        },
+        {
+          "id": "kureha_06.mjo::000111",
+          "source": "するともみじは可愛らしく小首を傾げながら悩み始めた。",
+          "target": "그러자 모미지는 귀엽게 고개를 갸웃하며 고민하기 시작했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0011",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000121",
+          "source": "それからしばらく考えた後、",
+          "target": "그러고 잠시 생각하더니,"
+        },
+        {
+          "id": "kureha_06.mjo::000125",
+          "source": "花が咲くようにぱっと笑顔を見せて答える。",
+          "target": "꽃이 피듯 활짝 웃으며 대답했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0012",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000135",
+          "source": "「あのね、今日はしっぽみたいに結んで欲しいな。",
+          "target": "「있잖아, 오늘은 꼬리처럼 묶어 줘."
+        },
+        {
+          "id": "kureha_06.mjo::000139",
+          "source": "　しっぽ二つなのがいい」",
+          "target": "　꼬리가 두 개면 좋겠어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "아버지에게 머리를 맡긴 딸",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0013",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000146",
+          "source": "「ああ、ツインテールね。承知いたしました、お姫様」",
+          "target": "「아, 양 갈래구나. 알겠습니다, 공주님」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "딸에게 다정한 아버지",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0014",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000151",
+          "source": "我が家の姫のご所望に、僕は恭しい態度で応えた。",
+          "target": "우리 집 공주님의 요구에 나는 공손하게 응했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0015",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000161",
+          "source": "まずは真っ直ぐに梳かした髪を真ん中で二つに分ける。",
+          "target": "먼저 곧게 빗은 머리카락을 가운데서 둘로 나눈다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0016",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000166",
+          "source": "そしていつものリボンとは違う、",
+          "target": "그리고 평소의 리본 대신,"
+        },
+        {
+          "id": "kureha_06.mjo::000170",
+          "source": "髪飾りの付いたゴムリングで括って頭の左右に束ねていく。",
+          "target": "장식이 달린 머리끈으로 양옆에 하나씩 묶어 준다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0017",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000177",
+          "source": "「もみじがツインテールにすると、",
+          "target": "「모미지가 양 갈래로 묶으니까"
+        },
+        {
+          "id": "kureha_06.mjo::000181",
+          "source": "　夏が来たって感じがするね」",
+          "target": "　여름이 왔다는 느낌이 드네」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "딸에게 다정한 아버지",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0018",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000196",
+          "source": "「うん。夏はこっちの方が涼しいの」",
+          "target": "「응. 여름에는 이게 더 시원해」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "아버지에게 머리를 맡긴 딸",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0019",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000201",
+          "source": "長くてボリュームのあるもみじの髪は、",
+          "target": "길고 숱도 많은 모미지의 머리는,"
+        },
+        {
+          "id": "kureha_06.mjo::000205",
+          "source": "肩から背中までを完全に覆い尽くす程の量がある。",
+          "target": "어깨부터 등까지 완전히 덮을 만큼 풍성하다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0020",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000210",
+          "source": "なので冬場はマフラー代わりとなって温かいが、",
+          "target": "그래서 겨울에는 목도리 대신 따뜻하게 해 주지만,"
+        },
+        {
+          "id": "kureha_06.mjo::000214",
+          "source": "夏は首回りがとても暑く感じるそうだ。",
+          "target": "여름에는 목 주위가 무척 덥다고 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0021",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000219",
+          "source": "だから夏場はツインテールにして、",
+          "target": "그래서 여름에는 양 갈래로 묶어"
+        },
+        {
+          "id": "kureha_06.mjo::000223",
+          "source": "通気性を良くすることが多かった。",
+          "target": "바람이 잘 통하게 해 줄 때가 많았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0022",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000230",
+          "source": "「でもいきなり髪形を変えて学校に行ったら、",
+          "target": "「그런데 갑자기 머리를 바꾸고 학교에 가면"
+        },
+        {
+          "id": "kureha_06.mjo::000234",
+          "source": "　新しい友達はもみじだって気付かないんじゃないか？」",
+          "target": "　새 친구들이 모미지인 줄 모르지 않을까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "딸에게 다정한 아버지",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0023",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000249",
+          "source": "「大丈夫だよぉ。こんなに髪が長いの、",
+          "target": "「괜찮아. 이렇게 머리가 긴 건"
+        },
+        {
+          "id": "kureha_06.mjo::000253",
+          "source": "　クラスではもみじだけだから」",
+          "target": "　우리 반에서 모미지뿐이니까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "아버지에게 머리를 맡긴 딸",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0024",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000258",
+          "source": "なるほど、納得である。",
+          "target": "그렇구나. 납득이 갔다."
+        },
+        {
+          "id": "kureha_06.mjo::000262",
+          "source": "確かにこれだけ長くて綺麗な髪はそうそうないだろう。",
+          "target": "확실히 이렇게 길고 예쁜 머리는 흔치 않을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0025",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000267",
+          "source": "僕はもみじの髪に触れるのが好きだった。",
+          "target": "나는 모미지의 머리를 만지는 게 좋았다."
+        },
+        {
+          "id": "kureha_06.mjo::000271",
+          "source": "そしてその髪を毎朝結ぶ役目を誇りに思っている。",
+          "target": "그리고 매일 아침 그 머리를 묶어 주는 내 역할이 자랑스러웠다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0026",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000276",
+          "source": "父親としてはつたなく頼りない僕だけど、",
+          "target": "아버지로서는 서툴고 못 미더운 나지만,"
+        },
+        {
+          "id": "kureha_06.mjo::000280",
+          "source": "この時間だけは少し胸を張れるような気がした。",
+          "target": "이 시간만큼은 조금 가슴을 펴도 될 것 같았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0027",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000294",
+          "source": "「はい、完成」",
+          "target": "「자, 완성」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "딸에게 다정한 아버지",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0028",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000308",
+          "source": "「えへへっ。ありがと、おとーさん」",
+          "target": "「에헤헤. 고마워, 아빠」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "아버지에게 머리를 맡긴 딸",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0029",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000315",
+          "source": "「どういたしまして」",
+          "target": "「천만에」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "딸에게 다정한 아버지",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0030",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000320",
+          "source": "見事なツインテールとなったもみじが振り返って礼を言う。",
+          "target": "예쁘게 양 갈래 머리를 한 모미지가 돌아보며 인사했다."
+        },
+        {
+          "id": "kureha_06.mjo::000324",
+          "source": "ウンウン、もみじはどんな髪型にしても可愛いなぁ。",
+          "target": "그래, 그래. 모미지는 어떤 머리를 해도 귀엽구나."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0031",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000329",
+          "source": "親バカとはわかっていても、",
+          "target": "딸바보라는 걸 알면서도,"
+        },
+        {
+          "id": "kureha_06.mjo::000333",
+          "source": "やっぱり自分の娘が一番かわいく思えるのだった。",
+          "target": "역시 내 딸이 세상에서 가장 귀여워 보였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0032",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000347",
+          "source": "「どう、似合ってる？」",
+          "target": "「어때, 잘 어울려?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "아버지에게 머리를 맡긴 딸",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0033",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000354",
+          "source": "「うん、世界一かわいいよ」",
+          "target": "「응, 세상에서 제일 귀여워」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "딸에게 다정한 아버지",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "다정한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0034",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000368",
+          "source": "「まあ、おとーさんったらお上手なんだからぁ」",
+          "target": "「어머, 아빠도 참. 말은 잘한다니까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "아빠"
+        ],
+        "relationship": "아버지에게 머리를 맡긴 딸",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "밝은 어린이 반말, 자기 이름으로 자신을 지칭",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0035",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000373",
+          "source": "愛娘の問いに、迷わず断言するおバカな父親。",
+          "target": "사랑하는 딸의 질문에 한 치 망설임도 없이 단언하는 팔불출 아빠."
+        },
+        {
+          "id": "kureha_06.mjo::000377",
+          "source": "その答えにもみじもご満悦のようだった。",
+          "target": "그 대답에 모미지도 아주 만족한 모양이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0036",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000389",
+          "source": "そんな親子のスキンシップの後で、",
+          "target": "그렇게 부녀가 살갑게 시간을 보내고 나서야,"
+        },
+        {
+          "id": "kureha_06.mjo::000393",
+          "source": "月曜日は朝の礼拝があることを思い出した。",
+          "target": "월요일에는 아침 예배가 있다는 게 생각났다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0037",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000398",
+          "source": "僕はもみじと一緒に、慌てて家を出る…",
+          "target": "나는 모미지와 함께 서둘러 집을 나섰다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 아침 모미지의 머리를 묶어 줌",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0038",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000417",
+          "source": "「",
+          "target": "「"
+        },
+        {
+          "id": "kureha_06.mjo::000419",
+          "source": "『わたしは知っている。",
+          "target": "『나는 알고 있다."
+        },
+        {
+          "id": "kureha_06.mjo::000423",
+          "source": "　わたしを",
+          "target": "　나를 "
+        },
+        {
+          "id": "kureha_06.mjo::000428",
+          "source": "う方は生きておられ、",
+          "target": "하실 분이 살아 계시며,"
+        },
+        {
+          "id": "kureha_06.mjo::000432",
+          "source": "　ついには塵の上に立たれるであろう』",
+          "target": "　마침내 티끌 위에 서시리라는 것을』"
+        },
+        {
+          "id": "kureha_06.mjo::000434",
+          "source": "」",
+          "target": "」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "예배 참석 학생과 교직원"
+        ],
+        "relationship": "예배를 인도하는 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "성서 인용은 엄숙한 문어체, 설교는 격식 있는 존댓말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0039",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000445",
+          "source": "「",
+          "target": "「"
+        },
+        {
+          "id": "kureha_06.mjo::000447",
+          "source": "『この皮膚が損なわれようとも、",
+          "target": "『이 살갗이 망가질지라도,"
+        },
+        {
+          "id": "kureha_06.mjo::000451",
+          "source": "　この身をもってわたしは神を仰ぎ見るであろう』",
+          "target": "　나는 이 몸으로 하나님을 우러러보리라』"
+        },
+        {
+          "id": "kureha_06.mjo::000453",
+          "source": "」",
+          "target": "」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "예배 참석 학생과 교직원"
+        ],
+        "relationship": "예배를 인도하는 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "성서 인용은 엄숙한 문어체, 설교는 격식 있는 존댓말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0040",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000464",
+          "source": "「これは旧約聖書の800ページに書かれた、",
+          "target": "「이는 구약 성서 800쪽에 실린"
+        },
+        {
+          "id": "kureha_06.mjo::000468",
+          "source": "　ヨブ記19章の一節ですが…」",
+          "target": "　욥기 19장의 한 구절입니다만…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "예배 참석 학생과 교직원"
+        ],
+        "relationship": "예배를 인도하는 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "성서 인용은 엄숙한 문어체, 설교는 격식 있는 존댓말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0041",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000478",
+          "source": "汐見先生の朗々とした声が、礼拝堂の中に響き渡る。",
+          "target": "시오미 선생님의 낭랑한 목소리가 예배당 안에 울려 퍼졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0042",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000483",
+          "source": "毎週月曜の朝に行われている朝の礼拝は、",
+          "target": "매주 월요일 아침에 열리는 아침 예배는,"
+        },
+        {
+          "id": "kureha_06.mjo::000487",
+          "source": "厳かな空気の中しめやかに行われていた。",
+          "target": "엄숙한 분위기 속에서 경건하게 진행되고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0043",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000492",
+          "source": "僕はこういうものに初めて参加したのだが、",
+          "target": "나는 이런 자리에 처음 참석했는데,"
+        },
+        {
+          "id": "kureha_06.mjo::000496",
+          "source": "普通の学校の朝礼よりも遥かに格式高い印象を受ける。",
+          "target": "일반 학교의 조례보다 훨씬 격식이 높다는 인상을 받았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0044",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000501",
+          "source": "汐見先生の話し方も単調ではなく張りや抑揚に富んでいて、",
+          "target": "시오미 선생님의 말투도 단조롭지 않고 힘과 억양이 풍부해서,"
+        },
+        {
+          "id": "kureha_06.mjo::000505",
+          "source": "人の意識を惹きつけるものがあった。",
+          "target": "사람의 주의를 사로잡는 데가 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0045",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000512",
+          "source": "「（…でも、睡眠不足の身には結構こたえるな）」",
+          "target": "「(…하지만 잠이 부족한 몸으로는 꽤 힘드네)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0046",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000517",
+          "source": "汐見先生には申し訳ないが、",
+          "target": "시오미 선생님께는 죄송하지만,"
+        },
+        {
+          "id": "kureha_06.mjo::000521",
+          "source": "頭がボーっとして内容が入ってこない。",
+          "target": "머리가 멍해서 내용이 들어오지 않았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0047",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000526",
+          "source": "その代わりに脳裏に浮かんでくるのは、",
+          "target": "그 대신 머릿속에 떠오르는 건,"
+        },
+        {
+          "id": "kureha_06.mjo::000530",
+          "source": "やはり昨夜の出来事だった",
+          "target": "역시 지난밤의 일이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0048",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000537",
+          "source": "「（暮葉は一体どこに行ったんだろう）」",
+          "target": "「(쿠레하는 대체 어디로 간 걸까)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0049",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000542",
+          "source": "まさか本当にあれで死んでしまったのか？",
+          "target": "설마 정말 그렇게 죽어 버린 건가?"
+        },
+        {
+          "id": "kureha_06.mjo::000546",
+          "source": "だとしたら、これで一連の事件も終わったというのか。",
+          "target": "그렇다면 이걸로 일련의 사건도 끝났다는 건가."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0050",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000553",
+          "source": "「（そんな筈がない…まだ何も終わっちゃいないんだ）」",
+          "target": "「(그럴 리 없어… 아직 아무것도 끝나지 않았어)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0051",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000558",
+          "source": "そう。僕にはこれで終わりだとはどうしても思えなかった。",
+          "target": "그래. 나는 아무리 생각해도 이걸로 끝이라는 생각은 들지 않았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0052",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000563",
+          "source": "それは事件の全貌が何も分かってないからか。それとも、",
+          "target": "사건의 전모를 전혀 모르기 때문일까. 아니면,"
+        },
+        {
+          "id": "kureha_06.mjo::000567",
+          "source": "『暮葉に生きていて欲しい』という願望がそう思わせるのか。",
+          "target": "『쿠레하가 살아 있었으면 좋겠다』는 바람 때문에 그렇게 느끼는 걸까."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0053",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000572",
+          "source": "…正直、自分でもよくわからなかった。",
+          "target": "…솔직히 나도 잘 모르겠다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0054",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000583",
+          "source": "「また、旧約聖書８０３ページには、",
+          "target": "「또한 구약 성서 803쪽에는"
+        },
+        {
+          "id": "kureha_06.mjo::000587",
+          "source": "　こうも書かれています…」",
+          "target": "　이런 말씀도 있습니다…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "예배 참석 학생과 교직원"
+        ],
+        "relationship": "예배를 인도하는 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "성서 인용은 엄숙한 문어체, 설교는 격식 있는 존댓말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0055",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000598",
+          "source": "「",
+          "target": "「"
+        },
+        {
+          "id": "kureha_06.mjo::000600",
+          "source": "『それなのに空しい言葉で",
+          "target": "『그런데도 헛된 말로"
+        },
+        {
+          "id": "kureha_06.mjo::000604",
+          "source": "　どのようにわたしを慰めるつもりか。",
+          "target": "　어찌 나를 위로하려 하는가."
+        },
+        {
+          "id": "kureha_06.mjo::000608",
+          "source": "　あなたたちの反論は欺きにすぎない――』",
+          "target": "　그대들의 반론은 기만에 지나지 않는다――』"
+        },
+        {
+          "id": "kureha_06.mjo::000610",
+          "source": "　」",
+          "target": "　」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "예배 참석 학생과 교직원"
+        ],
+        "relationship": "예배를 인도하는 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "성서 인용은 엄숙한 문어체, 설교는 격식 있는 존댓말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0056",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000618",
+          "source": "・・・・・・・・・",
+          "target": "・・・・・・・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장면 전환",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0057",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000623",
+          "source": "・・・・・・",
+          "target": "・・・・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장면 전환",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0058",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000628",
+          "source": "・・・",
+          "target": "・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장면 전환",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 월요일 예배",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0059",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000643",
+          "source": "「ふわぁー…ダメだ、また眠気が…」",
+          "target": "「후아암… 안 되겠네, 또 졸음이…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0060",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000648",
+          "source": "僕は周期的に襲ってくる眠気と戦いながら、",
+          "target": "나는 주기적으로 밀려오는 졸음과 싸우며"
+        },
+        {
+          "id": "kureha_06.mjo::000652",
+          "source": "欠伸をかみ殺した。",
+          "target": "하품을 참았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0061",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000657",
+          "source": "月曜の朝の礼拝は、生徒も教師も全員参加が原則だった。",
+          "target": "월요일 아침 예배에는 학생과 교사 모두 참석하는 게 원칙이었다."
+        },
+        {
+          "id": "kureha_06.mjo::000661",
+          "source": "それは非常勤講師の僕も同様である。",
+          "target": "시간강사인 나도 마찬가지다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0062",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000666",
+          "source": "しかし僕の月曜の受け持ち授業は３限からなので、",
+          "target": "하지만 내가 월요일에 맡은 수업은 3교시부터라서,"
+        },
+        {
+          "id": "kureha_06.mjo::000670",
+          "source": "時間を持て余してしまう。",
+          "target": "시간이 남아돌았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0063",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000677",
+          "source": "「（だからって、",
+          "target": "「(그렇다고"
+        },
+        {
+          "id": "kureha_06.mjo::000681",
+          "source": "　職員室で居眠りするわけにもいかないしな…）」",
+          "target": "　교무실에서 졸 수도 없는 노릇이고…)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0064",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000686",
+          "source": "こうなったら授業の予習でもしておこう。",
+          "target": "이렇게 된 거 수업 준비라도 해 두자."
+        },
+        {
+          "id": "kureha_06.mjo::000690",
+          "source": "予習は基本的に、前日の晩にやってるんだけどね。",
+          "target": "수업 준비는 보통 전날 밤에 해 두긴 하지만."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0065",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000698",
+          "source": "ガラガラガラ",
+          "target": "드르륵"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0066",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000708",
+          "source": "「失礼しまーす」",
+          "target": "「실례합니다아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "교무실 교직원"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0067",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000722",
+          "source": "「槙野先生、ちょっといいですか？」",
+          "target": "「마키노 선생님, 잠깐 괜찮으세요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0068",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000729",
+          "source": "「あれ、吉森？　授業はどうしたんだ」",
+          "target": "「어, 요시모리? 수업은 어쩌고 왔니?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0069",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000743",
+          "source": "「何言ってるんですか。今は休み時間ですよ？」",
+          "target": "「무슨 말씀이세요. 지금 쉬는 시간인데요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0070",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000750",
+          "source": "「あ…あぁ、そうか。もう休み時間か」",
+          "target": "「아… 아아, 그렇구나. 벌써 쉬는 시간이네」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0071",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000764",
+          "source": "「もう、先生ってばしっかりしてくださいよー」",
+          "target": "「정말, 선생님도 참. 정신 좀 차리세요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0072",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000769",
+          "source": "突然職員室にやって来た吉森は、",
+          "target": "갑자기 교무실에 찾아온 요시모리는"
+        },
+        {
+          "id": "kureha_06.mjo::000773",
+          "source": "トンチンカンなことを言い出す僕に呆れた顔をしてみせた。",
+          "target": "엉뚱한 소리를 하는 나를 보고 어이없다는 표정을 지었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0073",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000778",
+          "source": "一体いつの間に休み時間になっていたのだろう。",
+          "target": "대체 언제 쉬는 시간이 된 걸까."
+        },
+        {
+          "id": "kureha_06.mjo::000782",
+          "source": "チャイムにも気付かなかったとは、我ながら重症だった。",
+          "target": "종소리도 못 듣다니, 내가 생각해도 상태가 심각했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0074",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000789",
+          "source": "「そ、それで吉森はどうして職員室に？」",
+          "target": "「그, 그런데 요시모리는 교무실에 무슨 일이니?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0075",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000803",
+          "source": "「あの、ちょっと槙野先生に話があって…」",
+          "target": "「저, 마키노 선생님께 드릴 말씀이 있어서요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0076",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000810",
+          "source": "「僕に？」",
+          "target": "「나한테?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0077",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000824",
+          "source": "「はい。奈那子のことなんですけど」",
+          "target": "「네. 나나코 일인데요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0078",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000829",
+          "source": "その名前を聞いた瞬間、",
+          "target": "그 이름을 듣는 순간,"
+        },
+        {
+          "id": "kureha_06.mjo::000833",
+          "source": "僕は下腹の辺りにきりりと痛みを感じた。",
+          "target": "나는 아랫배가 찌르르 아파지는 것을 느꼈다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0079",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000838",
+          "source": "彼女は死んだ。僕の目の前で殺された。",
+          "target": "그녀는 죽었다. 내 눈앞에서 살해당했다."
+        },
+        {
+          "id": "kureha_06.mjo::000842",
+          "source": "故にもう二度と学校へ来ることはない――",
+          "target": "그러니 두 번 다시 학교에 올 일은 없다――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0080",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000847",
+          "source": "でも僕はその事実を隠し続けなければならなかった。",
+          "target": "하지만 나는 그 사실을 계속 숨겨야만 했다."
+        },
+        {
+          "id": "kureha_06.mjo::000851",
+          "source": "田村を殺した張本人である、暮葉を庇う為に。",
+          "target": "다무라를 죽인 장본인인 쿠레하를 감싸기 위해서."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0081",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000865",
+          "source": "「奈那子、やっぱり今日も学校に来てないんです。",
+          "target": "「나나코가 역시 오늘도 학교에 안 왔어요."
+        },
+        {
+          "id": "kureha_06.mjo::000869",
+          "source": "　担任の先生も欠席の連絡は入ってないって言うし…」",
+          "target": "　담임 선생님께서도 결석한다는 연락은 못 받으셨대요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0082",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000883",
+          "source": "「それにこの間から携帯にかけても繋がらないんです。",
+          "target": "「게다가 전부터 휴대전화로 걸어도 연결이 안 돼요."
+        },
+        {
+          "id": "kureha_06.mjo::000887",
+          "source": "　これってどう考えてもおかしいですよね？」",
+          "target": "　이건 아무리 생각해도 이상하잖아요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0083",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000892",
+          "source": "まずいな…吉森は田村の件を完全に怪しんでいる。",
+          "target": "곤란하네… 요시모리는 다무라의 일을 완전히 수상하게 여기고 있다."
+        },
+        {
+          "id": "kureha_06.mjo::000896",
+          "source": "もう体調不良では誤魔化しきれない。",
+          "target": "이제 몸이 안 좋다는 말로는 더 속일 수 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0084",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000901",
+          "source": "かといって真実を話すわけにもいかないし、",
+          "target": "그렇다고 진실을 말할 수도 없으니,"
+        },
+        {
+          "id": "kureha_06.mjo::000905",
+          "source": "一体どうすればいいのだろう。",
+          "target": "대체 어떻게 해야 할까."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0085",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000919",
+          "source": "「先生、お願い。奈那子のことを調べるの手伝ってっ」",
+          "target": "「선생님, 부탁이에요. 나나코 일을 알아보는 것 좀 도와주세요!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0086",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000926",
+          "source": "「えっ…えぇっ？」",
+          "target": "「어… 어어?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0087",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000940",
+          "source": "「うちの担任は放任主義でアテにならないし、",
+          "target": "「우리 담임은 방임주의라 믿을 수가 없고,"
+        },
+        {
+          "id": "kureha_06.mjo::000944",
+          "source": "　槙野先生だけが頼りなんです」",
+          "target": "　의지할 사람은 마키노 선생님뿐이에요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0088",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000949",
+          "source": "そう言って僕に調査の協力を求めてくる吉森。",
+          "target": "그렇게 말하며 조사에 협조해 달라는 요시모리."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0089",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000954",
+          "source": "だが彼女の死を目の当たりにしてる僕に、",
+          "target": "하지만 그녀의 죽음을 직접 본 나더러"
+        },
+        {
+          "id": "kureha_06.mjo::000958",
+          "source": "一体どうしろと言うのか。",
+          "target": "대체 어떻게 하라는 말인가."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0090",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000963",
+          "source": "もちろん吉森はそんなこと知る由もないだろうが、",
+          "target": "물론 요시모리는 그런 사실을 알 리 없겠지만,"
+        },
+        {
+          "id": "kureha_06.mjo::000967",
+          "source": "僕はまた居たたまれない気持ちになった。",
+          "target": "나는 다시 견디기 힘든 기분이 들었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0091",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000974",
+          "source": "「…ごめん、吉森。それは出来ない」",
+          "target": "「…미안해, 요시모리. 그건 못 하겠어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0092",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000988",
+          "source": "「そんなっ。先生、どうしてですか？」",
+          "target": "「그런… 선생님, 왜요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0093",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000995",
+          "source": "「僕は何の力にもなってやれないんだ。すまない…」",
+          "target": "「나는 아무런 도움도 줄 수가 없어. 미안해…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0094",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001009",
+          "source": "「槙野先生…」",
+          "target": "「마키노 선생님…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0095",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001014",
+          "source": "僕の答えに、吉森は明らかに落胆した表情を見せた。",
+          "target": "내 대답에 요시모리는 눈에 띄게 실망한 표정을 지었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0096",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001019",
+          "source": "僕にはこうとしか答えようがない。",
+          "target": "나로서는 이렇게 대답할 수밖에 없다."
+        },
+        {
+          "id": "kureha_06.mjo::001023",
+          "source": "吉森を危険に巻き込まない為にも。",
+          "target": "요시모리를 위험에 끌어들이지 않기 위해서라도."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0097",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001037",
+          "source": "「…わかりました。無理を言っちゃってどうもすみません」",
+          "target": "「…알겠어요. 무리한 부탁을 드려서 죄송해요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0098",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001044",
+          "source": "「吉森…すまない」",
+          "target": "「요시모리… 미안해」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0099",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001058",
+          "source": "「いいんです、あたし一人でなんとかしますから。",
+          "target": "「괜찮아요. 저 혼자 어떻게든 할 테니까요."
+        },
+        {
+          "id": "kureha_06.mjo::001062",
+          "source": "　どうも失礼しました」",
+          "target": "　그럼 실례했어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0100",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001072",
+          "source": "吉森は一方的にそう告げると、",
+          "target": "요시모리는 일방적으로 그렇게 말하고는,"
+        },
+        {
+          "id": "kureha_06.mjo::001076",
+          "source": "そのまま回れ右して職員室の扉へ足を向けた。",
+          "target": "그대로 뒤돌아 교무실 문으로 발길을 향했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0101",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001081",
+          "source": "しかし僕は彼女の最後の台詞が引っ掛かり、",
+          "target": "하지만 나는 그녀의 마지막 말이 마음에 걸려,"
+        },
+        {
+          "id": "kureha_06.mjo::001085",
+          "source": "慌てて彼女を呼び止める。",
+          "target": "서둘러 그녀를 불러 세웠다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0102",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001092",
+          "source": "「ま、待て吉森っ。",
+          "target": "「자, 잠깐만, 요시모리!"
+        },
+        {
+          "id": "kureha_06.mjo::001096",
+          "source": "　『一人でなんとか』ってどういう意味なんだ？」",
+          "target": "　『혼자 어떻게든』이라니, 무슨 뜻이야?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0103",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001110",
+          "source": "「そのまんまの意味ですよ。こうなったらあたし一人で、",
+          "target": "「말 그대로예요. 이렇게 된 이상 저 혼자서"
+        },
+        {
+          "id": "kureha_06.mjo::001114",
+          "source": "　奈那子のこととかを調べるんです」",
+          "target": "　나나코 일 같은 걸 알아볼 거예요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0104",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001121",
+          "source": "「何言ってるんだ、そんなこと止めなさい」",
+          "target": "「무슨 소리야. 그런 짓은 그만둬」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0105",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001135",
+          "source": "「どうしてですか？　友達が一人いなくなったのに、",
+          "target": "「왜요? 친구가 사라졌는데도"
+        },
+        {
+          "id": "kureha_06.mjo::001139",
+          "source": "　知らんぷりしてろって言うんですかっ」",
+          "target": "　모른 척하고 있으라는 말씀이세요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0106",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001146",
+          "source": "「そうは言ってない。",
+          "target": "「그런 말이 아니야."
+        },
+        {
+          "id": "kureha_06.mjo::001150",
+          "source": "　でも君まで何か事件に巻き込まれたらどうする？」",
+          "target": "　하지만 너까지 무슨 사건에 휘말리면 어떡해?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0107",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001164",
+          "source": "「大丈夫です。あたし、結構鍛えてますから。",
+          "target": "「괜찮아요. 저, 꽤 단련했거든요."
+        },
+        {
+          "id": "kureha_06.mjo::001168",
+          "source": "　そう簡単にはやられません…」",
+          "target": "　그렇게 쉽게 당하지는 않아요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0108",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001188",
+          "source": "「バカっ、そういう問題じゃないだろ！！」",
+          "target": "「바보야, 그런 문제가 아니잖아!!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0109",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001202",
+          "source": "「あっ…」",
+          "target": "「앗…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0110",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001207",
+          "source": "僕は思わず吉森を怒鳴りつけていた。",
+          "target": "나는 나도 모르게 요시모리에게 소리를 질렀다."
+        },
+        {
+          "id": "kureha_06.mjo::001211",
+          "source": "驚いてぽかんとこちらを見つめる吉森。",
+          "target": "요시모리는 놀라 멍하니 나를 바라봤다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0111",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001216",
+          "source": "しまった…つい興奮してしまった。何やってるんだ、僕は。",
+          "target": "아차… 그만 흥분해 버렸다. 내가 무슨 짓을 하는 거야."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0112",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001221",
+          "source": "内心で心を落ち着かせながら、",
+          "target": "나는 속으로 마음을 가라앉히며,"
+        },
+        {
+          "id": "kureha_06.mjo::001225",
+          "source": "僕は未だ驚きに見開かれてる吉森の目を見て話す。",
+          "target": "아직 놀라서 크게 뜨고 있는 요시모리의 눈을 보며 말했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0113",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001236",
+          "source": "「…吉森、頼むから危ないことはしないでくれ。",
+          "target": "「…요시모리, 제발 위험한 일은 하지 마."
+        },
+        {
+          "id": "kureha_06.mjo::001240",
+          "source": "　君にまで何かあったらどうするんだ？」",
+          "target": "　너까지 무슨 일이 생기면 어떡하니?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0114",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001247",
+          "source": "「君は僕の生徒で、ご近所のお隣さんだ。",
+          "target": "「너는 내 학생이자 이웃이야."
+        },
+        {
+          "id": "kureha_06.mjo::001251",
+          "source": "　だから変なことに首を突っ込んで欲しくないんだよ」",
+          "target": "　그러니까 이상한 일에 끼어들지 않았으면 해」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0115",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001261",
+          "source": "「先生…」",
+          "target": "「선생님…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0116",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001266",
+          "source": "僕は必死で吉森を説得した。",
+          "target": "나는 필사적으로 요시모리를 설득했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0117",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001271",
+          "source": "真実を何も告げず、",
+          "target": "진실은 아무것도 말하지 않고,"
+        },
+        {
+          "id": "kureha_06.mjo::001275",
+          "source": "都合のいいことしか言ってないのはわかってる。",
+          "target": "내게 편한 말만 하고 있다는 건 안다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0118",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001280",
+          "source": "けど吉森のことが心配なのは嘘じゃない。",
+          "target": "하지만 요시모리가 걱정된다는 건 거짓말이 아니다."
+        },
+        {
+          "id": "kureha_06.mjo::001284",
+          "source": "この件に彼女を巻き込みたくないのは本心だった。",
+          "target": "이 일에 그녀를 끌어들이고 싶지 않다는 건 진심이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0119",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001291",
+          "source": "「頼む、吉森。",
+          "target": "「부탁이야, 요시모리."
+        },
+        {
+          "id": "kureha_06.mjo::001295",
+          "source": "　一人で危ないことはしないって、約束して欲しい」",
+          "target": "　혼자 위험한 일은 하지 않겠다고 약속해 줘」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0120",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001309",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0121",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001316",
+          "source": "「吉森、お願いだ…」",
+          "target": "「요시모리, 제발…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0122",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001330",
+          "source": "「…わかりました。先生がそこまで言うなら」",
+          "target": "「…알겠어요. 선생님께서 그렇게까지 말씀하시니까요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0123",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001344",
+          "source": "「無茶なことはしないって約束します。",
+          "target": "「무모한 짓은 하지 않겠다고 약속할게요."
+        },
+        {
+          "id": "kureha_06.mjo::001348",
+          "source": "　お隣さんの頼みじゃ無下にはできないですし」",
+          "target": "　이웃분의 부탁을 매정하게 거절할 수도 없고요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0124",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001353",
+          "source": "吉森は少し困った表情でそう答えた。",
+          "target": "요시모리는 조금 난처한 표정으로 그렇게 대답했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0125",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001360",
+          "source": "「吉森…ありがとう」",
+          "target": "「요시모리… 고마워」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0126",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001374",
+          "source": "「くすっ。変なの」",
+          "target": "「풋. 이상해요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0127",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001381",
+          "source": "「えっ？」",
+          "target": "「응?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "요시모리 마사키"
+        ],
+        "relationship": "비밀을 숨기면서도 학생을 걱정하는 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "걱정과 죄책감이 섞인 어른의 반말; u0108은 갑자기 높아진 목소리",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0128",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001395",
+          "source": "「ここで感謝すべきなのはあたしの方の筈なのに。",
+          "target": "「여기서 고맙다고 해야 하는 건 저일 텐데요."
+        },
+        {
+          "id": "kureha_06.mjo::001399",
+          "source": "　『心配してくれてありがとう』って」",
+          "target": "　『걱정해 주셔서 고마워요』 하고요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "요시모리 마사키",
+        "addressees": [
+          "마키노 선생님"
+        ],
+        "relationship": "학교에서 교사에게 실종된 친구 일을 상담하는 학생",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "붙임성 있는 존댓말, 거절에 실망한 뒤 누그러짐",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0129",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001404",
+          "source": "吉森はさも可笑しそうにくすくすと笑っていた。",
+          "target": "요시모리는 정말 우스운 듯 쿡쿡 웃었다."
+        },
+        {
+          "id": "kureha_06.mjo::001408",
+          "source": "僕も恥ずかしくなって苦笑いを浮かべる。",
+          "target": "나도 쑥스러워져 멋쩍은 웃음을 지었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0130",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001413",
+          "source": "多分吉森も心から納得はしていないだろう。",
+          "target": "아마 요시모리도 진심으로 납득한 건 아닐 것이다."
+        },
+        {
+          "id": "kureha_06.mjo::001417",
+          "source": "田村のことを気にするなというのも無理な話だった。",
+          "target": "다무라를 신경 쓰지 말라는 것부터가 무리한 말이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0131",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001422",
+          "source": "それでも無茶はしないと約束してくれたから、",
+          "target": "그래도 무모한 짓은 하지 않겠다고 약속했으니,"
+        },
+        {
+          "id": "kureha_06.mjo::001426",
+          "source": "僕はそれを信じることにした。",
+          "target": "나는 그 말을 믿기로 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0132",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001438",
+          "source": "・・・・・・・・・",
+          "target": "・・・・・・・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장면 전환",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0133",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001443",
+          "source": "・・・・・・",
+          "target": "・・・・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장면 전환",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_06.mjo::u0134",
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001448",
+          "source": "・・・",
+          "target": "・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "장면 전환",
+        "addressees": [],
+        "relationship": "딸을 돌보는 아버지이자 교사",
+        "story_phase": "kureha_06 / 교무실에서 나나코 실종 상담",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "汐見",
+      "target": "시오미",
+      "evidence": [
+        "kureha_06.mjo::u0041"
+      ],
+      "note": "성씨 일반 독음 임시안; 음성/루비 대조 필요"
+    },
+    {
+      "source": "奈那子",
+      "target": "나나코",
+      "evidence": [
+        "kureha_06.mjo::u0077"
+      ],
+      "note": "여성 이름 일반 독음 임시안; 후속 독음 확인 필요"
+    },
+    {
+      "source": "ツインテール",
+      "target": "양 갈래 머리",
+      "evidence": [
+        "kureha_06.mjo::u0013",
+        "kureha_06.mjo::u0030"
+      ],
+      "note": "머리 모양 서술. 발화 중 묶는 방식은 양 갈래로 표현"
+    }
+  ],
+  "inline_records": [
+    {
+      "unit": "kureha_06.mjo::u0038",
+      "id": "kureha_06.mjo::000425",
+      "source": "あがな",
+      "target": " ",
+      "consumer": "yazlib $3198fd01 ruby reading then body",
+      "evidence": "research/disassembly/kureha_06.mjo.mjil 01270/0127b ldstr -> 01282 callp $3198fd01 (2), between わたしを and う方は生きておられ、"
+    },
+    {
+      "unit": "kureha_06.mjo::u0038",
+      "id": "kureha_06.mjo::000426",
+      "source": "贖",
+      "target": "구원",
+      "consumer": "yazlib $3198fd01 ruby reading then body",
+      "evidence": "research/disassembly/kureha_06.mjo.mjil 01270/0127b ldstr -> 01282 callp $3198fd01 (2), between わたしを and う方は生きておられ、"
+    }
+  ],
+  "context_coverage": "Read kureha_06 units 1-276 before drafting; includes 135-144 following context.",
+  "notes": [
+    "Bible quotations translated directly from supplied Japanese; no claim to quote a published Korean Bible translation.",
+    "u0038 displayed combination 나를 + 구원 + 하실 분이...; redundant Korean ruby reading is ASCII space per contract."
+  ]
+}

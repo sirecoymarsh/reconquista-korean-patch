@@ -1,0 +1,38 @@
+[
+  {
+    "path": "chara/mahoko.jpg",
+    "url": "https://web.archive.org/web/20160817214857id_/http://cotton-soft.com/gameproducts/02_recon/chara/mahoko.jpg",
+    "file": "chara__mahoko.jpg",
+    "bytes": 381510,
+    "sha256": "1b72e9cdffbcf4089b2f0ff612d489c6ee37a4801b361eb26ee6bfe05e492ea3"
+  },
+  {
+    "path": "chara/kureha.jpg",
+    "url": "https://web.archive.org/web/20160908234102id_/http://cotton-soft.com/gameproducts/02_recon/chara/kureha.jpg",
+    "file": "chara__kureha.jpg",
+    "bytes": 355636,
+    "sha256": "004d63b3504a9b6e9793d32d989fcc8afbaeda2823d053ba0ae2f696944b1bdb"
+  },
+  {
+    "path": "chara/momiji.jpg",
+    "url": "https://web.archive.org/web/20160818062650id_/http://cotton-soft.com/gameproducts/02_recon/chara/momiji.jpg",
+    "file": "chara__momiji.jpg",
+    "bytes": 367828,
+    "sha256": "43f59f6219f1f08d69b7b1e6ba06d55d27e023e6ff8b6b599e6777825468e926"
+  },
+  {
+    "path": "chara/shiina.jpg",
+    "url": "https://web.archive.org/web/20160829113428id_/http://cotton-soft.com/gameproducts/02_recon/chara/shiina.jpg",
+    "file": "chara__shiina.jpg",
+    "bytes": 360079,
+    "sha256": "9c9d28123a2ca9423dd4e903198675f7eddceaecdd12d2b808a0ca7cbeebbaaf"
+  },
+  {
+    "path": "chara/masaki.jpg",
+    "error": "<urlopen error [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다>"
+  },
+  {
+    "path": "chara/mahomama.jpg",
+    "error": "<urlopen error [WinError 10061] 대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다>"
+  }
+]

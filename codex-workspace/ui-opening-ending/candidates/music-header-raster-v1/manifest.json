@@ -1,0 +1,127 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "entries": [
+    {
+      "entry": "サウンドモード_off.rct",
+      "mask_entry": "サウンドモード_off_.rc8",
+      "source_sha256": "c233b0e0513b056ad2b9ed791e54ef28f318af73486b7f89bb1363e7f19f3bc3",
+      "source_mask_sha256": "bba4282d72acbc178a9c0b6395378af02f3fba382017584026a9870b9750fb03",
+      "source_size": [
+        800,
+        600
+      ],
+      "source_regions": [
+        [
+          62,
+          40,
+          117,
+          27
+        ],
+        [
+          223,
+          41,
+          351,
+          33
+        ]
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::caption",
+          "source": "SoundMode",
+          "target": "음악 감상",
+          "translator_model": "Codex internal",
+          "source_region": [
+            62,
+            40,
+            117,
+            27
+          ],
+          "target_ink_bounds": [
+            75,
+            42,
+            163,
+            66
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::description",
+          "source": "ゲーム中で使用した音楽を聴く事が出来ます。",
+          "target": "게임에 사용된 음악을 감상합니다.",
+          "translator_model": "Codex internal",
+          "source_region": [
+            223,
+            41,
+            351,
+            33
+          ],
+          "target_ink_bounds": [
+            270,
+            47,
+            529,
+            68
+          ]
+        }
+      ],
+      "restoration": [
+        {
+          "id": "caption",
+          "source_glyph_pixels": 1255,
+          "restoration": {
+            "clean_donor": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\config-caption-raster-v1\\clean\\config_off.png",
+            "sha256": "dcc08caea52f65e38245fa9dff726119da09760f88ebc7ac4f65346cd6749120",
+            "exact_phase_opaque_caption": true
+          }
+        },
+        {
+          "id": "description",
+          "source_glyph_pixels": 5652,
+          "restoration": {
+            "clean_rgba": [
+              255,
+              255,
+              255,
+              0
+            ],
+            "all_original_nonink_pixels_match": true
+          }
+        }
+      ],
+      "protected_pixel_diff_count": 0,
+      "persisted_rgba_exact": true,
+      "palette_preserved": true
+    }
+  ],
+  "output_hashes": {
+    "サウンドモード_off.rct": "c692d54136475c1f63239c6a672fb99a76617010b911ad7b7c94151dd37eeb9c",
+    "サウンドモード_off_.rc8": "b15ef5f2bb4b87478dc5ff8ce3a9bca078760bcfd2b95695f60f82c922ef3a00"
+  },
+  "semantic_labels": 2,
+  "structural_pass": true,
+  "visual_pass": true,
+  "runtime_pass": true,
+  "font_sha256": "77b4b741f864d27f15e90f275b17106dde90b2ad28f82bab72dc95805db5fb42",
+  "consumer": {
+    "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\research\\disassembly\\music.mjo.mjil",
+    "sha256": "a87e359f2a2e0101a88ff60e266c28b593f0ce088fdc79076a2e26506c27d7c9",
+    "shared_base_instructions": [
+      "0x585 ldstr サウンドモード_off",
+      "0x5a6 pic_unpack"
+    ],
+    "hover_only": "0x4bc サウンドモード_on buttonmenu_file_set",
+    "pressed_only": "0x4ee サウンドモード_push buttonmenu_file_push_set",
+    "state_closure": "Caption and header live only in shared off background; on/push images have no source ink in those regions and retain byte identity."
+  },
+  "remaining": "Song titles/versions, decorative quote, navigation button and complete playback runtime review.",
+  "visual_review": {
+    "reviewer": "Codex internal",
+    "reviewed_local": "2026-10-23T05:20:32.395800+09:00",
+    "evidence": [
+      "preview/music-composite-native.png",
+      "preview/source-clean-final-2x.png"
+    ],
+    "result": "No source text residue; native composite has legible warm Korean text, correct caption alignment and no protected ornament change. Hover/pressed source alpha is zero in both changed regions."
+  },
+  "runtime_evidence": "evidence/background-runtime/bg-v16-music-203144.png",
+  "runtime_scope": "Shared caption and description actually rendered in engine; other music content excluded."
+}

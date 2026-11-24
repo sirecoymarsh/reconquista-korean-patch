@@ -1,0 +1,817 @@
+{
+  "client_capture_offset": [
+    3,
+    46
+  ],
+  "method": "Exact RGB match of opaque control interiors against current candidate states; no image scaling or tolerance. Font-selection ink establishes the unique client offset.",
+  "captures": [
+    {
+      "capture": "evidence/background-runtime/bg-v22-config-2498866.png",
+      "controls": [
+        {
+          "id": "window",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "fullscreen",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "read-only",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "all",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "font-select",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "choice-color",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "choice-keep",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-bgm",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-voice",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-se",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-kureha",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-momiji",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-mahoko",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-shiina",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-masaki",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-others",
+          "matched_visual_states": [
+            "on"
+          ]
+        }
+      ]
+    },
+    {
+      "capture": "evidence/background-runtime/bg-v22-skip-all-hover-2498866.png",
+      "controls": [
+        {
+          "id": "window",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "fullscreen",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "read-only",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "all",
+          "matched_visual_states": []
+        },
+        {
+          "id": "font-select",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "choice-color",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "choice-keep",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-bgm",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-voice",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-se",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-kureha",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-momiji",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-mahoko",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-shiina",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-masaki",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-others",
+          "matched_visual_states": [
+            "on"
+          ]
+        }
+      ]
+    },
+    {
+      "capture": "evidence/background-runtime/bg-v22-skip-all-press-2498866.png",
+      "controls": [
+        {
+          "id": "window",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "fullscreen",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "read-only",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "all",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "font-select",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "choice-color",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "choice-keep",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-bgm",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-voice",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-se",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-kureha",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-momiji",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-mahoko",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-shiina",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-masaki",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-others",
+          "matched_visual_states": [
+            "on"
+          ]
+        }
+      ]
+    },
+    {
+      "capture": "evidence/background-runtime/bg-v22-skip-all-release-2498866.png",
+      "controls": [
+        {
+          "id": "window",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "fullscreen",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "read-only",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "all",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "font-select",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "choice-color",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "choice-keep",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-bgm",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-voice",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-se",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-kureha",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-momiji",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-mahoko",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-shiina",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-masaki",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-others",
+          "matched_visual_states": [
+            "on"
+          ]
+        }
+      ]
+    },
+    {
+      "capture": "evidence/background-runtime/bg-v22-character-off-2498866.png",
+      "controls": [
+        {
+          "id": "window",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "fullscreen",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "read-only",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "all",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "font-select",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "choice-color",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "choice-keep",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-bgm",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-voice",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-se",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-kureha",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-momiji",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-mahoko",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-shiina",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-masaki",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-others",
+          "matched_visual_states": [
+            "on"
+          ]
+        }
+      ]
+    },
+    {
+      "capture": "evidence/background-runtime/bg-v22-character-restored-2498866.png",
+      "controls": [
+        {
+          "id": "window",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "fullscreen",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "read-only",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "all",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "font-select",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "choice-color",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "choice-keep",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-bgm",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-voice",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-se",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-kureha",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-momiji",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-mahoko",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-shiina",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-masaki",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-others",
+          "matched_visual_states": [
+            "on"
+          ]
+        }
+      ]
+    },
+    {
+      "capture": "evidence/background-runtime/bg-v22-skip-restored-2498866.png",
+      "controls": [
+        {
+          "id": "window",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "fullscreen",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "read-only",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "all",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "font-select",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "choice-color",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "choice-keep",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-bgm",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-voice",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-se",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-kureha",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-momiji",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-mahoko",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-shiina",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-masaki",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-others",
+          "matched_visual_states": [
+            "on"
+          ]
+        }
+      ]
+    },
+    {
+      "capture": "evidence/background-runtime/bg-v22-character-volume-restored-2498866.png",
+      "controls": [
+        {
+          "id": "window",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "fullscreen",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "read-only",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "all",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "font-select",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "choice-color",
+          "matched_visual_states": [
+            "push"
+          ]
+        },
+        {
+          "id": "choice-keep",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-bgm",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-voice",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-se",
+          "matched_visual_states": [
+            "off"
+          ]
+        },
+        {
+          "id": "audio-kureha",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-momiji",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-mahoko",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-shiina",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-masaki",
+          "matched_visual_states": [
+            "on"
+          ]
+        },
+        {
+          "id": "audio-others",
+          "matched_visual_states": [
+            "on"
+          ]
+        }
+      ]
+    }
+  ],
+  "initial_equals_restored_full_capture": true,
+  "scope": "Only new control labels; unchanged native/layout surfaces reuse older evidence."
+}

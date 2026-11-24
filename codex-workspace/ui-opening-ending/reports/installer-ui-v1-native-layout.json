@@ -1,0 +1,497 @@
+{
+  "created_utc": "2026-10-22T21:00:01.379356+00:00",
+  "candidate": "installer-ui-v1",
+  "host_pid": 15292,
+  "installer_executed": false,
+  "host_behavior": "CreateDialogIndirectParamW with inert Python callback; no installer initialization/commands/filesystem operation was invoked. All private-desktop windows destroyed.",
+  "input_before": {
+    "hwnd": 2557746,
+    "pid": 6480,
+    "input_desktop": "Default"
+  },
+  "input_after": {
+    "hwnd": 2557746,
+    "pid": 6480,
+    "input_desktop": "Default"
+  },
+  "focus_sampler": {
+    "sample_interval_ms": 50,
+    "samples": 128,
+    "events": [
+      {
+        "monotonic": 231634.406,
+        "hwnd": 2557746,
+        "pid": 6480,
+        "input_desktop": "Default"
+      }
+    ],
+    "errors": [],
+    "game_became_foreground": false,
+    "private_desktop_became_input": false,
+    "continuous_monitor": false,
+    "scope": "50 ms samples during this command; gaps between commands not monitored"
+  },
+  "dialog_count": 5,
+  "dialogs": [
+    {
+      "resource": "COPYING",
+      "template_sha256": "39212b0f5f204edee780c13b07c5a37d05075913b5064f37fb442698c527a332",
+      "reused_for_identical_install_exe_resource": true,
+      "caption": "파일 복사 중...",
+      "window": {
+        "hwnd": 4332068,
+        "pid": 15292,
+        "text": "파일 복사 중...",
+        "class": "#32770",
+        "id": 0,
+        "rect": [
+          0,
+          0,
+          356,
+          225
+        ],
+        "client": [
+          0,
+          0,
+          340,
+          186
+        ],
+        "visible": true,
+        "enabled": true
+      },
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-dialogs\\installer-copying-4332068.png",
+        "sha256": "09534efa49dadfe74974a59558ff32dd646c384a427049e6c35dd3257988a11d",
+        "print_window_return": true,
+        "size": [
+          356,
+          225
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      },
+      "layout": [
+        {
+          "id": "setup.exe::type5::COPYING::1041::control:2:2",
+          "window_text_matches": true,
+          "control_pixels": [
+            88,
+            26
+          ],
+          "required_text_pixels": [
+            24,
+            15
+          ],
+          "reserved_indicator_padding": 12,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "resource": "COPYINGDELUX",
+      "template_sha256": "af2ca820f959d1b67ee07570c3e99186508be34f6e0095711429d969d5b25c8f",
+      "reused_for_identical_install_exe_resource": true,
+      "caption": "파일 복사 중...",
+      "window": {
+        "hwnd": 4397604,
+        "pid": 15292,
+        "text": "파일 복사 중...",
+        "class": "#32770",
+        "id": 0,
+        "rect": [
+          0,
+          0,
+          356,
+          243
+        ],
+        "client": [
+          0,
+          0,
+          340,
+          204
+        ],
+        "visible": true,
+        "enabled": true
+      },
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-dialogs\\installer-copyingdelux-4397604.png",
+        "sha256": "0aab5c51e135b24f73ce2802812e1ca6798d1a633e4c92ab29e9329dd0337384",
+        "print_window_return": true,
+        "size": [
+          356,
+          243
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      },
+      "layout": [
+        {
+          "id": "setup.exe::type5::COPYINGDELUX::1041::control:2:2",
+          "window_text_matches": true,
+          "control_pixels": [
+            88,
+            26
+          ],
+          "required_text_pixels": [
+            24,
+            15
+          ],
+          "reserved_indicator_padding": 12,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "resource": "MAKESHORTCUT",
+      "template_sha256": "61068a4e59d71ab59232d97f341a020e964beea91d4b1fb0f2aa916fe75ffd2b",
+      "reused_for_identical_install_exe_resource": true,
+      "caption": "바로 가기 만들기",
+      "window": {
+        "hwnd": 4463140,
+        "pid": 15292,
+        "text": "바로 가기 만들기",
+        "class": "#32770",
+        "id": 0,
+        "rect": [
+          0,
+          0,
+          321,
+          180
+        ],
+        "client": [
+          0,
+          0,
+          305,
+          141
+        ],
+        "visible": true,
+        "enabled": true
+      },
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-dialogs\\installer-makeshortcut-4463140.png",
+        "sha256": "9b7c6f9d341e1579920c17d6b7249b75b38483d3d1b25887f49165b2dee056f8",
+        "print_window_return": true,
+        "size": [
+          321,
+          180
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      },
+      "layout": [
+        {
+          "id": "setup.exe::type5::MAKESHORTCUT::1041::control:1:0",
+          "window_text_matches": true,
+          "control_pixels": [
+            88,
+            26
+          ],
+          "required_text_pixels": [
+            24,
+            15
+          ],
+          "reserved_indicator_padding": 12,
+          "fits": true
+        },
+        {
+          "id": "setup.exe::type5::MAKESHORTCUT::1041::control:2:1",
+          "window_text_matches": true,
+          "control_pixels": [
+            88,
+            26
+          ],
+          "required_text_pixels": [
+            24,
+            15
+          ],
+          "reserved_indicator_padding": 12,
+          "fits": true
+        },
+        {
+          "id": "setup.exe::type5::MAKESHORTCUT::1041::control:65535:2",
+          "window_text_matches": true,
+          "control_pixels": [
+            289,
+            38
+          ],
+          "required_text_pixels": [
+            200,
+            30
+          ],
+          "reserved_indicator_padding": 0,
+          "fits": true
+        },
+        {
+          "id": "setup.exe::type5::MAKESHORTCUT::1041::control:1007:3",
+          "window_text_matches": true,
+          "control_pixels": [
+            280,
+            19
+          ],
+          "required_text_pixels": [
+            160,
+            15
+          ],
+          "reserved_indicator_padding": 22,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "resource": "SETUP",
+      "template_sha256": "4c9486b9e86a22c183e2a529e6cbc3d2673bd6c18f814a2ef5e81b20fed1eee2",
+      "reused_for_identical_install_exe_resource": true,
+      "caption": "설치 폴더 지정",
+      "window": {
+        "hwnd": 4528676,
+        "pid": 15292,
+        "text": "설치 폴더 지정",
+        "class": "#32770",
+        "id": 0,
+        "rect": [
+          0,
+          0,
+          371,
+          217
+        ],
+        "client": [
+          0,
+          0,
+          355,
+          178
+        ],
+        "visible": true,
+        "enabled": true
+      },
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-dialogs\\installer-setup-4528676.png",
+        "sha256": "e0df318e36dc53ae0048e3bccad3411009082bdbc7bd177d9c48e9189f87ba1f",
+        "print_window_return": true,
+        "size": [
+          371,
+          217
+        ],
+        "extrema": [
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ],
+          [
+            0,
+            255
+          ]
+        ]
+      },
+      "layout": [
+        {
+          "id": "setup.exe::type5::SETUP::1041::control:1:0",
+          "window_text_matches": true,
+          "control_pixels": [
+            70,
+            26
+          ],
+          "required_text_pixels": [
+            24,
+            15
+          ],
+          "reserved_indicator_padding": 12,
+          "fits": true
+        },
+        {
+          "id": "setup.exe::type5::SETUP::1041::control:2:1",
+          "window_text_matches": true,
+          "control_pixels": [
+            70,
+            26
+          ],
+          "required_text_pixels": [
+            24,
+            15
+          ],
+          "reserved_indicator_padding": 12,
+          "fits": true
+        },
+        {
+          "id": "setup.exe::type5::SETUP::1041::control:1021:3",
+          "window_text_matches": true,
+          "control_pixels": [
+            88,
+            26
+          ],
+          "required_text_pixels": [
+            63,
+            15
+          ],
+          "reserved_indicator_padding": 12,
+          "fits": true
+        },
+        {
+          "id": "setup.exe::type5::SETUP::1041::control:65535:5",
+          "window_text_matches": true,
+          "control_pixels": [
+            334,
+            38
+          ],
+          "required_text_pixels": [
+            215,
+            30
+          ],
+          "reserved_indicator_padding": 0,
+          "fits": true
+        },
+        {
+          "id": "setup.exe::type5::SETUP::1041::control:65535:6",
+          "window_text_matches": true,
+          "control_pixels": [
+            333,
+            15
+          ],
+          "required_text_pixels": [
+            159,
+            15
+          ],
+          "reserved_indicator_padding": 0,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "resource": "UNINSTALL",
+      "template_sha256": "59b3737646e216952de84cead53866c62279f1f55e08ab218a70054d7575e085",
+      "reused_for_identical_install_exe_resource": true,
+      "caption": "삭제 확인",
+      "window": {
+        "hwnd": 4594212,
+        "pid": 15292,
+        "text": "삭제 확인",
+        "class": "#32770",
+        "id": 0,
+        "rect": [
+          0,
+          0,
+          392,
+          206
+        ],
+        "client": [
+          0,
+          0,
+          376,
+          167
+        ],
+        "visible": true,
+        "enabled": true
+      },
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-dialogs\\installer-uninstall-4594212.png",
+        "sha256": "b2a577de3761cf3fc26ca7174ba51c6ef36aed0a5b0841c1a9c443e39be1fb40",
+        "print_window_return": true,
+        "size": [
+          392,
+          206
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      },
+      "layout": [
+        {
+          "id": "setup.exe::type5::UNINSTALL::1041::control:1:0",
+          "window_text_matches": true,
+          "control_pixels": [
+            88,
+            26
+          ],
+          "required_text_pixels": [
+            24,
+            15
+          ],
+          "reserved_indicator_padding": 12,
+          "fits": true
+        },
+        {
+          "id": "setup.exe::type5::UNINSTALL::1041::control:2:1",
+          "window_text_matches": true,
+          "control_pixels": [
+            88,
+            26
+          ],
+          "required_text_pixels": [
+            24,
+            15
+          ],
+          "reserved_indicator_padding": 12,
+          "fits": true
+        },
+        {
+          "id": "setup.exe::type5::UNINSTALL::1041::control:1007:3",
+          "window_text_matches": true,
+          "control_pixels": [
+            166,
+            19
+          ],
+          "required_text_pixels": [
+            92,
+            15
+          ],
+          "reserved_indicator_padding": 22,
+          "fits": true
+        }
+      ]
+    }
+  ],
+  "all_translated_control_text_matches": true,
+  "all_measured_text_fits": true,
+  "runtime_pass": false,
+  "scope": "Native resource-layout proof only; real installer logic and dynamic text remain pending."
+}

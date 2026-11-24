@@ -1,0 +1,32 @@
+[
+  {
+    "file": "spec.htm",
+    "url": "https://web.archive.org/web/20160716144415id_/http://cotton-soft.com/gameproducts/02_recon/spec.htm",
+    "bytes": 1589,
+    "sha256": "d482344355bb04595f7326e06da7a9ac1b30d95c6aab0846f84f1ff1eb2574ab"
+  },
+  {
+    "file": "trial.htm",
+    "url": "https://web.archive.org/web/20160417014304id_/http://cotton-soft.com/gameproducts/02_recon/trial.htm",
+    "bytes": 3553,
+    "sha256": "ea7cbac55f6d80cb7a7a2cc8c7a1585838d11b4ef91e86911f5679ad4e9ff27d"
+  },
+  {
+    "file": "cover-vndb.jpg",
+    "url": "https://s.vndb.org/cv/11/96111.jpg",
+    "bytes": 185106,
+    "sha256": "bedce38e944c664ed1840de2e0d5a8c2adedb129d581f8542e12160813e0adba"
+  },
+  {
+    "file": "chara__masaki.jpg",
+    "url": "https://web.archive.org/web/20110131222753id_/http://cotton-soft.com/gameproducts/02_recon/chara/masaki.jpg",
+    "bytes": 376689,
+    "sha256": "52b675e2183557fcc1fe84bc088006db353faec2a51ba67b916ca65d213aa5b7"
+  },
+  {
+    "file": "chara__mahomama.jpg",
+    "url": "https://web.archive.org/web/20160818064425id_/http://cotton-soft.com/gameproducts/02_recon/chara/mahomama.jpg",
+    "bytes": 326576,
+    "sha256": "a91e83cab6faa029d7a84c9b301d23c3d2f5469081adc310806a77baceb1d476"
+  }
+]

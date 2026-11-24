@@ -1,0 +1,41 @@
+{
+  "verified_utc": "2026-10-25T10:40:55.181960+00:00",
+  "url": "http://127.0.0.1:8769/review/priority2.html",
+  "visible_intro_keys": 15,
+  "hidden_priority2_images_in_viewer": 0,
+  "actual_interaction": "cua_repl browser scroll; ordinary wheel with no modifiers",
+  "wheel_up": {
+    "before": 1,
+    "after": 2.94468
+  },
+  "wheel_down": {
+    "before": 2.94468,
+    "after": 1.716007
+  },
+  "synchronized_canvas_zoom": true,
+  "synchronized_canvas_pan": true,
+  "pointer_drift_source_pixels": [
+    0.0022806499449856688,
+    0.00025750811083469216
+  ],
+  "fit_button": {
+    "zoom": 1,
+    "pan": [
+      0,
+      0
+    ],
+    "all_three_canvases": true
+  },
+  "loaded_assets_verified_by_browser": [
+    "1d997c8c",
+    "04896a46"
+  ],
+  "other_assets": "Static file/hash checks reused; all 15 expected paths exist",
+  "screenshot": "review/priority2-review-proof.png",
+  "screenshot_sha256": "ee58da7559ef1761f2b447f038907d71592e92761a006428d4d1fbeb7f6ec3b0",
+  "tab_id": "5",
+  "marked_deliverable": true,
+  "native_app_image_viewer": "Uncontrolled; the custom browser viewer provides the verified wheel behavior",
+  "server_unchanged": true,
+  "review_new_pngs_are_hardlinks": true
+}

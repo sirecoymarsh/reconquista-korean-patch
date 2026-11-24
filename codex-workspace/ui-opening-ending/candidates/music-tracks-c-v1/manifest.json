@@ -1,0 +1,494 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "entries": [
+    {
+      "entry": "サウンドモード_off.rct",
+      "mask_entry": "サウンドモード_off_.rc8",
+      "prior_payload_sha256": "c351e3510eff9328d6e7a578cecedc45404e9c9393991e3690876993ef6767ad",
+      "prior_mask_sha256": "e788d54add4c4f2f2729dccbee3dc3ff9be282f4dff99d7dd7df1787ea783b22",
+      "source_size": [
+        800,
+        600
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::decorative-quote",
+          "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+          "target": "죽음과 무덤도 불못에 던져졌다.\n이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은\n누구든 불못에 던져졌다.",
+          "translator_model": "Codex internal",
+          "target_ink_bounds": [
+            58,
+            486,
+            246,
+            549
+          ],
+          "reused_translation": "translation/staff-history-ko.json"
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-07",
+          "track_id": 7,
+          "source": "ambivalent",
+          "target": "엇갈린 마음",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            45,
+            465,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            69,
+            477,
+            162,
+            500
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-08",
+          "track_id": 8,
+          "source": "散りゆく紅葉",
+          "target": "흩날리는 단풍",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            45,
+            512,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            68,
+            517,
+            179,
+            541
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-15",
+          "track_id": 15,
+          "source": "葬送曲",
+          "target": "장송곡",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            193,
+            465,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            222,
+            476,
+            277,
+            499
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-16",
+          "track_id": 16,
+          "source": "都市伝説",
+          "target": "도시전설",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            193,
+            512,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            222,
+            517,
+            293,
+            539
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-23",
+          "track_id": 23,
+          "source": "忘れえぬ情景",
+          "target": "잊지 못할 풍경",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            352,
+            465,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            375,
+            477,
+            488,
+            500
+          ]
+        }
+      ],
+      "restoration": [
+        {
+          "joint_source_region": [
+            52,
+            472,
+            448,
+            84
+          ],
+          "source_glyph_pixels": 12457,
+          "source_owned_content": "5 track titles plus entire English quote; grayscale logo support excluded",
+          "uniform_background_rgba": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "preserved_logo_tail_pixels": 41,
+          "retained_tail_matches_observed_template_codes": true,
+          "logo_pixels_reconstructed": 0,
+          "quote_composite_peak_rgba": [
+            56,
+            56,
+            56,
+            118
+          ]
+        }
+      ],
+      "protected_pixel_diff_count": 0,
+      "logo_diff_count": 0,
+      "logo_scope": "Original logo is in normal base only; on/push are transparent text overlays",
+      "persisted_rgba_exact": true,
+      "palette_preserved": true
+    },
+    {
+      "entry": "サウンドモード_on.rct",
+      "mask_entry": "サウンドモード_on_.rc8",
+      "prior_payload_sha256": "f11d5288b64ecb5a41f5426f07d73223197192bdbcf655c48f491750dba78227",
+      "prior_mask_sha256": "4b2d31f9fe9fc4871b49e9843c0e021048dd1904c961a48d0c7352ad14d5e4e1",
+      "source_size": [
+        800,
+        600
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-07",
+          "track_id": 7,
+          "source": "ambivalent",
+          "target": "엇갈린 마음",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            45,
+            465,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            69,
+            477,
+            162,
+            500
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-08",
+          "track_id": 8,
+          "source": "散りゆく紅葉",
+          "target": "흩날리는 단풍",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            45,
+            512,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            68,
+            517,
+            179,
+            541
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-15",
+          "track_id": 15,
+          "source": "葬送曲",
+          "target": "장송곡",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            193,
+            465,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            222,
+            476,
+            277,
+            499
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-16",
+          "track_id": 16,
+          "source": "都市伝説",
+          "target": "도시전설",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            193,
+            512,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            222,
+            517,
+            293,
+            539
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-23",
+          "track_id": 23,
+          "source": "忘れえぬ情景",
+          "target": "잊지 못할 풍경",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            352,
+            465,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            375,
+            477,
+            488,
+            500
+          ]
+        }
+      ],
+      "restoration": [
+        {
+          "track_id": 7,
+          "source_glyph_pixels": 1813,
+          "alpha_background": 0
+        },
+        {
+          "track_id": 8,
+          "source_glyph_pixels": 1912,
+          "alpha_background": 0
+        },
+        {
+          "track_id": 15,
+          "source_glyph_pixels": 1179,
+          "alpha_background": 0
+        },
+        {
+          "track_id": 16,
+          "source_glyph_pixels": 1525,
+          "alpha_background": 0
+        },
+        {
+          "track_id": 23,
+          "source_glyph_pixels": 2088,
+          "alpha_background": 0
+        }
+      ],
+      "protected_pixel_diff_count": 0,
+      "logo_diff_count": null,
+      "logo_scope": "Original logo is in normal base only; on/push are transparent text overlays",
+      "persisted_rgba_exact": true,
+      "palette_preserved": true
+    },
+    {
+      "entry": "サウンドモード_push.rct",
+      "mask_entry": "サウンドモード_push_.rc8",
+      "prior_payload_sha256": "e2eb1cacce7627c4da2416f850637d6ea911fd79a8d05a25a8733424c0b9ea82",
+      "prior_mask_sha256": "2184a10d1a9118c759e80a7092e255b80981efea3b5a8e987f1805227028f740",
+      "source_size": [
+        800,
+        600
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-07",
+          "track_id": 7,
+          "source": "ambivalent",
+          "target": "엇갈린 마음",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            45,
+            465,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            69,
+            477,
+            162,
+            500
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-08",
+          "track_id": 8,
+          "source": "散りゆく紅葉",
+          "target": "흩날리는 단풍",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            45,
+            512,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            68,
+            517,
+            179,
+            541
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-15",
+          "track_id": 15,
+          "source": "葬送曲",
+          "target": "장송곡",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            193,
+            465,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            222,
+            476,
+            277,
+            499
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-16",
+          "track_id": 16,
+          "source": "都市伝説",
+          "target": "도시전설",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            193,
+            512,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            222,
+            517,
+            293,
+            539
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-23",
+          "track_id": 23,
+          "source": "忘れえぬ情景",
+          "target": "잊지 못할 풍경",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            352,
+            465,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            375,
+            477,
+            488,
+            500
+          ]
+        }
+      ],
+      "restoration": [
+        {
+          "track_id": 7,
+          "source_glyph_pixels": 1813,
+          "alpha_background": 0
+        },
+        {
+          "track_id": 8,
+          "source_glyph_pixels": 1912,
+          "alpha_background": 0
+        },
+        {
+          "track_id": 15,
+          "source_glyph_pixels": 1179,
+          "alpha_background": 0
+        },
+        {
+          "track_id": 16,
+          "source_glyph_pixels": 1525,
+          "alpha_background": 0
+        },
+        {
+          "track_id": 23,
+          "source_glyph_pixels": 2088,
+          "alpha_background": 0
+        }
+      ],
+      "protected_pixel_diff_count": 0,
+      "logo_diff_count": null,
+      "logo_scope": "Original logo is in normal base only; on/push are transparent text overlays",
+      "persisted_rgba_exact": true,
+      "palette_preserved": true
+    }
+  ],
+  "output_hashes": {
+    "サウンドモード_off.rct": "3523090a1bee16d56d72a8587839273f2ecbdc77a05165a753746dd316bdacf4",
+    "サウンドモード_off_.rc8": "800ede6bb2cf6022fab750b077a75bfa1884919d000ba094c243a8e6d04ec3cd",
+    "サウンドモード_on.rct": "aac8a73c6a55f87f2710957161e3b3a108766456cc8b2e16dfab287e86e2a019",
+    "サウンドモード_on_.rc8": "4c6284a0663c673d023a3cf624555d8b29b6deba61c6237bd66c71ff193b9619",
+    "サウンドモード_push.rct": "acd339c5f8823d46af0927c2b5bd693ac7636bffd312354cd36ab4057d2b06f0",
+    "サウンドモード_push_.rc8": "ba09f05e52921a93bac6c41dd44094ae8bf5bf2504f01f7ca5f403731bd7acd6"
+  },
+  "semantic_labels": 16,
+  "unique_tracks": 5,
+  "track_ids": [
+    7,
+    8,
+    15,
+    16,
+    23
+  ],
+  "remaining_track_ids": [
+    14,
+    22
+  ],
+  "structural_pass": true,
+  "visual_pass": true,
+  "runtime_pass": false,
+  "font_hashes": {
+    "NotoSerifCJKkr-Regular.otf": "77b4b741f864d27f15e90f275b17106dde90b2ad28f82bab72dc95805db5fb42",
+    "NotoSansCJKkr-Regular.otf": "6bcb2a0703aa137e874fc2dffa85f6c21ba9a67fa329e81b8c801663af7e992a"
+  },
+  "consumer_sha256": "6216e2353f4d17b4078ff72ab3501d371fcad95c580cb47fdf43ff745650cba8",
+  "actual_crops_verified": true,
+  "script_audio_tokens_unchanged": true,
+  "scope": "26/28 music buttons cumulatively. Complete quote localized using earlier approved wording. Original logo preserved byte-for-byte; no ambiguous logo reconstruction applied. Two original titles14/22 and navigation pending.",
+  "visual_review": {
+    "reviewer": "Codex internal",
+    "native_scale": [
+      "preview/music-native-normal.png",
+      "preview/music-native-on.png",
+      "preview/music-native-push.png"
+    ],
+    "zoomed_source_clean_final": "preview/off-source-clean-final-2x.png",
+    "findings": [
+      "Five titles readable within actual crops in all three states.",
+      "Entire source quote and the five original titles absent from persisted clean region.",
+      "Original logo retained; new title effects do not overlap its pixels.",
+      "Quote remains a quiet decorative background layer, with track text composited over it."
+    ],
+    "scope": "Static assets and reconstructed crops only; actual runtime pending.",
+    "repair_note": "Normal state outputs were already valid in the first partial run and remain byte-identical. Fixed an incorrect normal-logo identity assertion on transparent text-only on/push overlays; those source glyphs may occupy the same coordinates as the normal base logo."
+  },
+  "runtime_normal_pass": true,
+  "runtime_normal_track_ids": [
+    7,
+    8,
+    15,
+    16,
+    23
+  ],
+  "runtime_evidence": "reports/background-runtime-v19-validation.json"
+}

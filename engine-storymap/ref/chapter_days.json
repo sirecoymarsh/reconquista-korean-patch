@@ -1,0 +1,669 @@
+{
+ "00_レコンキスタ_start": {
+  "start": null,
+  "end": 1,
+  "plates": [
+   1
+  ]
+ },
+ "last_kako01": {
+  "start": null,
+  "end": null,
+  "plates": []
+ },
+ "last_gendai01": {
+  "start": 2,
+  "end": 2,
+  "plates": [
+   2
+  ]
+ },
+ "00_レコンキスタ_start_2": {
+  "start": 2,
+  "end": 2,
+  "plates": [
+   2
+  ]
+ },
+ "last_kako02": {
+  "start": null,
+  "end": null,
+  "plates": []
+ },
+ "last_gendai02": {
+  "start": 4,
+  "end": 4,
+  "plates": [
+   4
+  ]
+ },
+ "00_レコンキスタ_start_3": {
+  "start": 3,
+  "end": 3,
+  "plates": [
+   3
+  ]
+ },
+ "last_kako03": {
+  "start": null,
+  "end": null,
+  "plates": []
+ },
+ "last_gendai03": {
+  "start": 5,
+  "end": 5,
+  "plates": [
+   5
+  ]
+ },
+ "makino_kyoutu": {
+  "start": 3,
+  "end": 5,
+  "plates": [
+   4,
+   5
+  ]
+ },
+ "shinya_kyoutu": {
+  "start": 3,
+  "end": 4,
+  "plates": [
+   4
+  ]
+ },
+ "last_kako04": {
+  "start": null,
+  "end": null,
+  "plates": []
+ },
+ "last_gendai04": {
+  "start": 6,
+  "end": 6,
+  "plates": [
+   6
+  ]
+ },
+ "kureha_05": {
+  "start": 5,
+  "end": 5,
+  "plates": []
+ },
+ "masa_06": {
+  "start": 5,
+  "end": 5,
+  "plates": []
+ },
+ "maho_04": {
+  "start": 4,
+  "end": 4,
+  "plates": []
+ },
+ "sina_04": {
+  "start": 4,
+  "end": 4,
+  "plates": []
+ },
+ "last_kako05": {
+  "start": null,
+  "end": null,
+  "plates": []
+ },
+ "last_gendai05": {
+  "start": 7,
+  "end": 7,
+  "plates": [
+   7
+  ]
+ },
+ "kureha_06": {
+  "start": 6,
+  "end": 6,
+  "plates": [
+   6
+  ]
+ },
+ "masa_07": {
+  "start": 6,
+  "end": 6,
+  "plates": [
+   6
+  ]
+ },
+ "maho_05": {
+  "start": 5,
+  "end": 5,
+  "plates": [
+   5
+  ]
+ },
+ "sina_05": {
+  "start": 5,
+  "end": 5,
+  "plates": [
+   5
+  ]
+ },
+ "last_kako06": {
+  "start": null,
+  "end": null,
+  "plates": []
+ },
+ "last_gendai06": {
+  "start": 8,
+  "end": 8,
+  "plates": [
+   8
+  ]
+ },
+ "kureha_07": {
+  "start": 7,
+  "end": 7,
+  "plates": [
+   7
+  ]
+ },
+ "masa_08": {
+  "start": 8,
+  "end": 8,
+  "plates": [
+   8
+  ]
+ },
+ "maho_06": {
+  "start": 6,
+  "end": 6,
+  "plates": [
+   6
+  ]
+ },
+ "sina_06": {
+  "start": 6,
+  "end": 6,
+  "plates": [
+   6
+  ]
+ },
+ "last_kako07": {
+  "start": null,
+  "end": null,
+  "plates": []
+ },
+ "last_gendai07": {
+  "start": 9,
+  "end": 9,
+  "plates": [
+   9
+  ]
+ },
+ "kureha_08": {
+  "start": 7,
+  "end": 8,
+  "plates": [
+   8
+  ]
+ },
+ "masa_09": {
+  "start": 10,
+  "end": 10,
+  "plates": [
+   10
+  ]
+ },
+ "maho_07": {
+  "start": 7,
+  "end": 7,
+  "plates": [
+   7
+  ]
+ },
+ "sina_07": {
+  "start": 7,
+  "end": 7,
+  "plates": [
+   7
+  ]
+ },
+ "last_kako08": {
+  "start": null,
+  "end": null,
+  "plates": []
+ },
+ "last_gendai08": {
+  "start": 10,
+  "end": 10,
+  "plates": [
+   10
+  ]
+ },
+ "kureha_09": {
+  "start": 8,
+  "end": 9,
+  "plates": [
+   9
+  ]
+ },
+ "masa_10": {
+  "start": 11,
+  "end": 11,
+  "plates": [
+   11
+  ]
+ },
+ "maho_08": {
+  "start": 8,
+  "end": 8,
+  "plates": [
+   8
+  ]
+ },
+ "sina_08": {
+  "start": 8,
+  "end": 8,
+  "plates": [
+   8
+  ]
+ },
+ "last_kako09": {
+  "start": null,
+  "end": null,
+  "plates": []
+ },
+ "last_gendai09": {
+  "start": 12,
+  "end": 12,
+  "plates": [
+   12
+  ]
+ },
+ "kureha_10": {
+  "start": 10,
+  "end": 10,
+  "plates": [
+   10
+  ]
+ },
+ "masa_11": {
+  "start": 11,
+  "end": 11,
+  "plates": []
+ },
+ "maho_09": {
+  "start": 9,
+  "end": 9,
+  "plates": [
+   9
+  ]
+ },
+ "sina_09": {
+  "start": 9,
+  "end": 9,
+  "plates": [
+   9
+  ]
+ },
+ "last_kako10": {
+  "start": null,
+  "end": null,
+  "plates": []
+ },
+ "last_gendai10": {
+  "start": 13,
+  "end": 13,
+  "plates": [
+   13
+  ]
+ },
+ "kureha_11": {
+  "start": 11,
+  "end": 11,
+  "plates": [
+   11
+  ]
+ },
+ "masa_12": {
+  "start": 13,
+  "end": 13,
+  "plates": [
+   13
+  ]
+ },
+ "maho_10": {
+  "start": 10,
+  "end": 10,
+  "plates": [
+   10
+  ]
+ },
+ "sina_10": {
+  "start": 10,
+  "end": 10,
+  "plates": [
+   10
+  ]
+ },
+ "last_kako11": {
+  "start": null,
+  "end": null,
+  "plates": []
+ },
+ "last_gendai11": {
+  "start": 14,
+  "end": 14,
+  "plates": [
+   14
+  ]
+ },
+ "kureha_12": {
+  "start": 11,
+  "end": 12,
+  "plates": [
+   12
+  ]
+ },
+ "masa_13": {
+  "start": 14,
+  "end": 14,
+  "plates": [
+   14
+  ]
+ },
+ "maho_11": {
+  "start": 11,
+  "end": 11,
+  "plates": [
+   11
+  ]
+ },
+ "sina_11": {
+  "start": 11,
+  "end": 11,
+  "plates": [
+   11
+  ]
+ },
+ "last_kako12": {
+  "start": null,
+  "end": null,
+  "plates": []
+ },
+ "last_gendai12": {
+  "start": 15,
+  "end": 15,
+  "plates": [
+   15
+  ]
+ },
+ "kureha_13": {
+  "start": 13,
+  "end": 13,
+  "plates": [
+   13
+  ]
+ },
+ "masa_14": {
+  "start": 15,
+  "end": 15,
+  "plates": [
+   15
+  ]
+ },
+ "maho_12": {
+  "start": 12,
+  "end": 12,
+  "plates": [
+   12
+  ]
+ },
+ "sina_12": {
+  "start": 12,
+  "end": 12,
+  "plates": [
+   12
+  ]
+ },
+ "last_gendai13": {
+  "start": 16,
+  "end": 16,
+  "plates": [
+   16
+  ]
+ },
+ "kureha_14": {
+  "start": 14,
+  "end": 14,
+  "plates": [
+   14
+  ]
+ },
+ "masa_15": {
+  "start": 16,
+  "end": 16,
+  "plates": [
+   16
+  ]
+ },
+ "maho_13": {
+  "start": 12,
+  "end": 12,
+  "plates": []
+ },
+ "sina_13": {
+  "start": 13,
+  "end": 13,
+  "plates": [
+   13
+  ]
+ },
+ "last_gendai14": {
+  "start": 17,
+  "end": 17,
+  "plates": [
+   17
+  ]
+ },
+ "kureha_15": {
+  "start": 15,
+  "end": 15,
+  "plates": [
+   15
+  ]
+ },
+ "masa_16": {
+  "start": 17,
+  "end": 17,
+  "plates": [
+   17
+  ]
+ },
+ "maho_14": {
+  "start": 14,
+  "end": 14,
+  "plates": [
+   14
+  ]
+ },
+ "sina_14": {
+  "start": 14,
+  "end": 14,
+  "plates": [
+   14
+  ]
+ },
+ "last_gendai15": {
+  "start": 18,
+  "end": 18,
+  "plates": [
+   18
+  ]
+ },
+ "kureha_16": {
+  "start": 16,
+  "end": 16,
+  "plates": [
+   16
+  ]
+ },
+ "masa_17": {
+  "start": 18,
+  "end": 18,
+  "plates": [
+   18
+  ]
+ },
+ "maho_15": {
+  "start": 15,
+  "end": 15,
+  "plates": [
+   15
+  ]
+ },
+ "sina_15": {
+  "start": 15,
+  "end": 15,
+  "plates": [
+   15
+  ]
+ },
+ "last_gendai16": {
+  "start": 19,
+  "end": 19,
+  "plates": [
+   19
+  ]
+ },
+ "kureha_17": {
+  "start": 17,
+  "end": 17,
+  "plates": [
+   17
+  ]
+ },
+ "masa_18": {
+  "start": 19,
+  "end": 19,
+  "plates": [
+   19
+  ]
+ },
+ "maho_16": {
+  "start": 15,
+  "end": 16,
+  "plates": [
+   16
+  ]
+ },
+ "sina_16": {
+  "start": 16,
+  "end": 16,
+  "plates": [
+   16
+  ]
+ },
+ "last_ep": {
+  "start": 19,
+  "end": 19,
+  "plates": []
+ },
+ "kureha_18": {
+  "start": 18,
+  "end": 18,
+  "plates": [
+   18
+  ]
+ },
+ "masa_ep": {
+  "start": 19,
+  "end": 19,
+  "plates": []
+ },
+ "maho_17": {
+  "start": 16,
+  "end": 17,
+  "plates": [
+   17
+  ]
+ },
+ "sina_17": {
+  "start": 17,
+  "end": 17,
+  "plates": [
+   17,
+   17
+  ]
+ },
+ "kureha_19": {
+  "start": 19,
+  "end": 19,
+  "plates": [
+   19
+  ]
+ },
+ "maho_18": {
+  "start": 18,
+  "end": 18,
+  "plates": [
+   18
+  ]
+ },
+ "sina_18": {
+  "start": 18,
+  "end": 18,
+  "plates": [
+   18
+  ]
+ },
+ "kureha_ep": {
+  "start": 19,
+  "end": 19,
+  "plates": []
+ },
+ "maho_18_2ero": {
+  "start": 18,
+  "end": 18,
+  "plates": []
+ },
+ "sina_18_2ero": {
+  "start": 18,
+  "end": 18,
+  "plates": []
+ },
+ "maho_18_3": {
+  "start": 18,
+  "end": 18,
+  "plates": []
+ },
+ "sina_18_3": {
+  "start": 18,
+  "end": 18,
+  "plates": []
+ },
+ "maho_19": {
+  "start": 19,
+  "end": 19,
+  "plates": [
+   19
+  ]
+ },
+ "sina_19": {
+  "start": 19,
+  "end": 19,
+  "plates": [
+   19
+  ]
+ },
+ "maho_epi": {
+  "start": 19,
+  "end": 19,
+  "plates": []
+ },
+ "sina_19_2": {
+  "start": 19,
+  "end": 19,
+  "plates": []
+ },
+ "sina_epi": {
+  "start": 19,
+  "end": 19,
+  "plates": []
+ }
+}

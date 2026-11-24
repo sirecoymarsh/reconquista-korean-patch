@@ -1,0 +1,100 @@
+{
+ "mode": "movie",
+ "started": "2026-11-22 15:42:11",
+ "nv_before": 1133,
+ "runs": [
+  {
+   "label": "movie",
+   "pid": 83520,
+   "steps": [
+    {
+     "step": "arrived 5414",
+     "t": 25.0,
+     "secs": 5.2
+    },
+    {
+     "step": "windows before",
+     "t": 28.1,
+     "classes": [
+      "CicLoaderWndClass",
+      "CiceroUIWndFrame",
+      "Edit",
+      "IME",
+      "MAJIRO_EXEC_CLASS",
+      "MSCTFIME UI",
+      "ReconquistaInGameFlow",
+      "Touch Tooltip Window",
+      "UAC Input Indicator",
+      "UAC_InputIndicatorOverlayWnd"
+     ]
+    },
+    {
+     "step": "movie window",
+     "t": 49.4,
+     "after_clicks": 4,
+     "game_client": [
+      0,
+      0,
+      4096,
+      2160
+     ],
+     "game_window": [
+      -20000,
+      -20000,
+      -15904,
+      -17840
+     ],
+     "movie_window": [
+      -20000,
+      -20000,
+      -19700,
+      -20000
+     ],
+     "movie_client": [
+      0,
+      0,
+      300,
+      0
+     ],
+     "visible": true,
+     "length_ms": 0
+    }
+   ],
+   "dialogs": [],
+   "styles": {
+    "game": "0x0",
+    "movie": "0x0"
+   },
+   "new_review_folders": [
+    "savedata-review-83520-287033546"
+   ],
+   "mem_mb_end": 405,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.7534,
+    "loud_spans": [
+     [
+      21.99,
+      26.61
+     ],
+     [
+      38.9,
+      41.81
+     ],
+     [
+      42.92,
+      43.71
+     ]
+    ],
+    "errors": []
+   },
+   "log_mb": 0.3,
+   "log_errors": []
+  }
+ ],
+ "error": "RuntimeError('process exited 0xc0000005')",
+ "nv_after": 1133,
+ "ended": "2026-11-22 15:43:03"
+}

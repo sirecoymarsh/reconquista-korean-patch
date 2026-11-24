@@ -1,0 +1,140 @@
+{
+  "translator_model": "Codex internal",
+  "native_display_encoding": "cp949",
+  "required_windows_acp": 949,
+  "records": [
+    {
+      "id": "majiro.env::APPNAME",
+      "source": "レコンキスタ",
+      "target": "레콘퀴스타",
+      "consumer": "native About dialog SetWindowTextA",
+      "encoding": "cp949",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "majiro.env::VERSION",
+      "source": "Version 1.00",
+      "target": "버전 1.00",
+      "consumer": "native About dialog SetWindowTextA",
+      "encoding": "cp949",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "majiro.env::COPYRIGHT",
+      "source": "(C)コットンソフト 2007",
+      "target": "(C)COTTON SOFTWARE 2007",
+      "consumer": "native About dialog SetWindowTextA",
+      "encoding": "cp949",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "native::0x47cf94::screen_default",
+      "source": "標準",
+      "target": "기본",
+      "display_encoding": "cp949",
+      "required_windows_acp": 949,
+      "source_bytes": "95578f80",
+      "target_bytes": "b1e2babb",
+      "file_offset": 511892,
+      "source_va": "0x47cf94",
+      "consumer": "0x42689b push string; 0x4268a2 CB_INSERTSTRING; 0x4268ad call SendMessageA",
+      "exact_change_allowlist": [
+        511892,
+        511896
+      ],
+      "code_changed": false
+    },
+    {
+      "id": "native::0x47f72c::font_sample",
+      "source": "文字サンプルです。１２３４",
+      "target": "글자 예시입니다.１２３４",
+      "encoding": "cp932 mapped to dedicated Korean font",
+      "mapping_sha256": "0e080b3cc3654c0d58e2f8f11bcadc7bd658f84fd0b6c05d5a7030e15cd57451",
+      "source_bytes": "95b68e9a835483938376838b82c582b781428250825182528253",
+      "output_bytes": "e3f0e1a220e182e15ae19fe084e0862e82508251825282532020",
+      "file_offset": 522028,
+      "consumer": "0x432054 push fixed count 26; 0x432056 sample pointer; 0x432060 TextOutA through ebx",
+      "fixed_draw_length_preserved": 26,
+      "font": "Reconquista UI KR",
+      "trailing_ascii_spaces": 2,
+      "integration": "Re-encode from Unicode with final central mapping; keep 26-byte TextOutA draw bound."
+    },
+    {
+      "id": "native::0x47ce48",
+      "source": "終了してよろしいですか？",
+      "target": "게임을 종료할까요?",
+      "consumer": "native WM_CLOSE MessageBoxA observed",
+      "encoding": "cp949",
+      "required_windows_acp": 949,
+      "rva": 511560,
+      "file_offset": 511560,
+      "original_size": 24,
+      "target_size": 18,
+      "source_bytes": "8f4997b982b582c482e682eb82b582a282c582b782a98148",
+      "target_bytes": "b0d4c0d3c0bb20c1beb7e1c7d2b1eebfe43f",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "native::0x47ad18",
+      "source": "タイトルに戻ります。よろしいですか？",
+      "target": "타이틀로 돌아갈까요?",
+      "consumer": "native title return confirmation",
+      "encoding": "cp949",
+      "required_windows_acp": 949,
+      "rva": 503064,
+      "file_offset": 503064,
+      "original_size": 36,
+      "target_size": 20,
+      "source_bytes": "835e83438367838b82c996df82e882dc82b7814282e682eb82b582a282c582b782a98148",
+      "target_bytes": "c5b8c0ccc6b2b7ce20b5b9bec6b0a5b1eebfe43f",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "native::0x47c110",
+      "source": "データの名前を指定してロード",
+      "target": "이름을 지정해 불러오기",
+      "consumer": "native load-by-name dialog caption",
+      "encoding": "cp949",
+      "required_windows_acp": 949,
+      "rva": 508176,
+      "file_offset": 508176,
+      "original_size": 28,
+      "target_size": 22,
+      "source_bytes": "8366815b835e82cc96bc914f82f08e7792e882b582c4838d815b8368",
+      "target_bytes": "c0ccb8a7c0bb20c1f6c1a4c7d820bad2b7afbfc0b1e2",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "native::0x47c130",
+      "source": "データに名前を指定してセーブ",
+      "target": "이름을 지정해 저장",
+      "consumer": "native save-as dialog caption",
+      "encoding": "cp949",
+      "required_windows_acp": 949,
+      "rva": 508208,
+      "file_offset": 508208,
+      "original_size": 28,
+      "target_size": 18,
+      "source_bytes": "8366815b835e82c996bc914f82f08e7792e882b582c4835a815b8375",
+      "target_bytes": "c0ccb8a7c0bb20c1f6c1a4c7d820c0fac0e5",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "native::0x47a254",
+      "source": "画面の保存(キャプチャ)",
+      "target": "화면 저장(캡처)",
+      "consumer": "native capture file dialog caption",
+      "encoding": "cp949",
+      "required_windows_acp": 949,
+      "rva": 500308,
+      "file_offset": 500308,
+      "original_size": 22,
+      "target_size": 15,
+      "source_bytes": "89e696ca82cc95db91b628834c838383768360838329",
+      "target_bytes": "c8adb8e920c0fac0e528c4b8c3b329",
+      "translator_model": "Codex internal"
+    }
+  ],
+  "engine_text_stays_cp932_mapped": true,
+  "cross_locale_runtime_unverified": true
+}

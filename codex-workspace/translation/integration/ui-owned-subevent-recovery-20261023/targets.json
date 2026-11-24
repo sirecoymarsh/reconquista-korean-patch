@@ -1,0 +1,1172 @@
+{
+  "translator_model": "Codex internal",
+  "source_script": "サブイベント.mjo",
+  "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+  "provenance": "primary root integration from verified Codex-authored kureha_09 flashback",
+  "records": [
+    {
+      "unit": "サブイベント.mjo::u0001",
+      "id": "サブイベント.mjo::000015",
+      "source": "「慶吾さん、慶吾さん」",
+      "target": "「게이고 씨, 게이고 씨」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000014",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "게이고"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0002",
+      "id": "サブイベント.mjo::000022",
+      "source": "「なんだい、紅葉」",
+      "target": "「왜, 모미지?」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000021",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(아내)"
+        ],
+        "relationship": "아내와 아이를 기다리는 남편",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 반말, 당황한 사과와 응답만 원문처럼 존댓말",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0003",
+      "id": "サブイベント.mjo::000039",
+      "source": "「今ね、赤ちゃんがお腹を蹴ったんですよ」",
+      "target": "「방금 아기가 배를 찼어요」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000038",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "게이고"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0004",
+      "id": "サブイベント.mjo::000046",
+      "source": "「えっ、本当かい？」",
+      "target": "「어, 정말이야?」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000045",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(아내)"
+        ],
+        "relationship": "아내와 아이를 기다리는 남편",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 반말, 당황한 사과와 응답만 원문처럼 존댓말",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0005",
+      "id": "サブイベント.mjo::000056",
+      "source": "「ええ、ぽこんって。",
+      "target": "「네, 톡 하고요.",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000055",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "게이고"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0005",
+      "id": "サブイベント.mjo::000060",
+      "source": "　とっても元気な子に育つわね、きっと」",
+      "target": "　분명 아주 씩씩한 아이로 자라겠죠」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000059",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "게이고"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0006",
+      "id": "サブイベント.mjo::000067",
+      "source": "「そうだね。もしかしたら男の子かな」",
+      "target": "「그러게. 어쩌면 남자아이일지도 모르겠네」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000066",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(아내)"
+        ],
+        "relationship": "아내와 아이를 기다리는 남편",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 반말, 당황한 사과와 응답만 원문처럼 존댓말",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0007",
+      "id": "サブイベント.mjo::000077",
+      "source": "「女の子でも、元気な方がいいわ」",
+      "target": "「여자아이여도 씩씩한 게 좋죠」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000076",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "게이고"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0008",
+      "id": "サブイベント.mjo::000084",
+      "source": "「うーん…僕としては、",
+      "target": "「음… 내 생각에는",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000083",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(아내)"
+        ],
+        "relationship": "아내와 아이를 기다리는 남편",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 반말, 당황한 사과와 응답만 원문처럼 존댓말",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0008",
+      "id": "サブイベント.mjo::000088",
+      "source": "　女の子ならおしとやかに育って欲しいけどね」",
+      "target": "　여자아이라면 얌전하게 자라 줬으면 하지만」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000087",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(아내)"
+        ],
+        "relationship": "아내와 아이를 기다리는 남편",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 반말, 당황한 사과와 응답만 원문처럼 존댓말",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0009",
+      "id": "サブイベント.mjo::000098",
+      "source": "「うふふっ…けど本当は、どっちでもいいんです。",
+      "target": "「후후… 그래도 사실은 어느 쪽이든 좋아요.",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000097",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "게이고"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0009",
+      "id": "サブイベント.mjo::000102",
+      "source": "　男の子でも女の子でも、元気に生まれてきてくれたら」",
+      "target": "　남자아이든 여자아이든 건강하게 태어나기만 한다면」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000101",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "게이고"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0010",
+      "id": "サブイベント.mjo::000109",
+      "source": "「うん、それが一番だよ」",
+      "target": "「응, 그게 제일이지」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000108",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(아내)"
+        ],
+        "relationship": "아내와 아이를 기다리는 남편",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 반말, 당황한 사과와 응답만 원문처럼 존댓말",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0011",
+      "id": "サブイベント.mjo::000114",
+      "source": "そう言ってお互いに笑い合う、僕と紅葉。",
+      "target": "그렇게 말하며 나와 모미지는 서로 마주 보고 웃었다.",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000113",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0012",
+      "id": "サブイベント.mjo::000119",
+      "source": "幸せが育まれていた。この頃は世界の全てが、",
+      "target": "행복이 자라나고 있었다. 이 무렵에는 온 세상이",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000118",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0012",
+      "id": "サブイベント.mjo::000123",
+      "source": "僕たちを祝福しているように感じられた。",
+      "target": "우리를 축복해 주는 것처럼 느껴졌다.",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000122",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0013",
+      "id": "サブイベント.mjo::000128",
+      "source": "僕たちは無垢な子どものように幸せな未来を思い描いて、",
+      "target": "우리는 순진한 아이처럼 행복한 미래를 그렸고,",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000127",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0013",
+      "id": "サブイベント.mjo::000132",
+      "source": "それが破られることなど考えもしなかったんだ。",
+      "target": "그것이 깨질 거라고는 생각조차 하지 않았다.",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000131",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0014",
+      "id": "サブイベント.mjo::000142",
+      "source": "「慶吾さん、子どもの名前はどうします？」",
+      "target": "「게이고 씨, 아이 이름은 어떻게 할까요?」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000141",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "게이고"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0015",
+      "id": "サブイベント.mjo::000149",
+      "source": "「うーん、そうだなぁ。色々考えてみたんだけど…",
+      "target": "「음, 글쎄. 이것저것 생각해 봤는데…",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000148",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(아내)"
+        ],
+        "relationship": "아내와 아이를 기다리는 남편",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 반말, 당황한 사과와 응답만 원문처럼 존댓말",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0015",
+      "id": "サブイベント.mjo::000153",
+      "source": "　なかなかイメージが固まらなくて」",
+      "target": "　좀처럼 떠오르는 이름이 없네」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000152",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(아내)"
+        ],
+        "relationship": "아내와 아이를 기다리는 남편",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 반말, 당황한 사과와 응답만 원문처럼 존댓말",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0016",
+      "id": "サブイベント.mjo::000163",
+      "source": "「私も考えてみたんですけど、やっぱり赤ちゃんが",
+      "target": "「저도 생각해 봤는데, 역시 아기가",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000162",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "게이고"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0016",
+      "id": "サブイベント.mjo::000167",
+      "source": "　生まれてから決めた方がいいかなって思うんです」",
+      "target": "　태어난 뒤에 정하는 게 좋을 것 같아요」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000166",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "게이고"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0017",
+      "id": "サブイベント.mjo::000174",
+      "source": "「うん、実は僕もそう思ってた。",
+      "target": "「응, 사실 나도 그렇게 생각했어.",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000173",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(아내)"
+        ],
+        "relationship": "아내와 아이를 기다리는 남편",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 반말, 당황한 사과와 응답만 원문처럼 존댓말",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0017",
+      "id": "サブイベント.mjo::000178",
+      "source": "　この目で赤ちゃんを見てから決めたいなって」",
+      "target": "　내 눈으로 아기를 보고 나서 정하고 싶다고」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000177",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(아내)"
+        ],
+        "relationship": "아내와 아이를 기다리는 남편",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 반말, 당황한 사과와 응답만 원문처럼 존댓말",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0018",
+      "id": "サブイベント.mjo::000188",
+      "source": "「ですよね。じゃあこの子が生まれてから、",
+      "target": "「그렇죠? 그럼 이 아이가 태어나면",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000187",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "게이고"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0018",
+      "id": "サブイベント.mjo::000192",
+      "source": "　二人で一緒に考えましょう」",
+      "target": "　둘이 함께 생각해 봐요」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000191",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "게이고"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0019",
+      "id": "サブイベント.mjo::000199",
+      "source": "「ああ、そうしよう。",
+      "target": "「그래, 그러자.",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000198",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(아내)"
+        ],
+        "relationship": "아내와 아이를 기다리는 남편",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 반말, 당황한 사과와 응답만 원문처럼 존댓말",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0019",
+      "id": "サブイベント.mjo::000203",
+      "source": "　楽しみは後に取っておいた方がいいしね」",
+      "target": "　즐거움은 나중을 위해 남겨 두는 게 좋으니까」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000202",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(아내)"
+        ],
+        "relationship": "아내와 아이를 기다리는 남편",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 반말, 당황한 사과와 응답만 원문처럼 존댓말",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0020",
+      "id": "サブイベント.mjo::000208",
+      "source": "そして僕はこの言葉を後で悔いることになる。",
+      "target": "그리고 나는 나중에 이 말을 후회하게 된다.",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000207",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0021",
+      "id": "サブイベント.mjo::000213",
+      "source": "時間はたっぷりあったんだから、",
+      "target": "시간은 충분했으니,",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000212",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0021",
+      "id": "サブイベント.mjo::000217",
+      "source": "生まれる前に紅葉と相談して決めれば良かったんだ。",
+      "target": "태어나기 전에 모미지와 상의해서 정했어야 했다.",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000216",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0022",
+      "id": "サブイベント.mjo::000222",
+      "source": "だって残された僕独りでは、",
+      "target": "혼자 남은 나는 ",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000221",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0022",
+      "id": "サブイベント.mjo::000228",
+      "source": "しか思い浮かばなかったから",
+      "target": "밖에 떠올릴 수 없었으니까",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000227",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Primary Codex: preserve source absence of final punctuation; preceding emphasized 그 이름 remains separate."
+    },
+    {
+      "unit": "サブイベント.mjo::u0023",
+      "id": "サブイベント.mjo::000238",
+      "source": "「とーりゃんせー、とーりゃんせー…」",
+      "target": "「지나가세요, 지나가세요…」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000237",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "뱃속 아이"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0024",
+      "id": "サブイベント.mjo::000248",
+      "source": "「こーこはどーこのほそみちじゃー…",
+      "target": "「이 길은 어디로 가는 좁은 길인가…",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000247",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "뱃속 아이"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0024",
+      "id": "サブイベント.mjo::000252",
+      "source": "　てんじんーさまのほそみちじゃー」",
+      "target": "　텐진님께 이르는 좁은 길이라…」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000251",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "뱃속 아이"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0025",
+      "id": "サブイベント.mjo::000257",
+      "source": "大きくなったお腹を愛しそうに撫でながら、",
+      "target": "불러온 배를 사랑스럽게 쓰다듬으며,",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000256",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0025",
+      "id": "サブイベント.mjo::000261",
+      "source": "いつものように歌を口ずさむ紅葉。",
+      "target": "모미지는 늘 그렇듯 노래를 흥얼거렸다.",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000260",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0026",
+      "id": "サブイベント.mjo::000266",
+      "source": "紅葉はいつもこの歌をお腹の子に聞かせていた。",
+      "target": "모미지는 언제나 뱃속 아이에게 이 노래를 들려주었다.",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000265",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0026",
+      "id": "サブイベント.mjo::000270",
+      "source": "子守唄の代わりということらしい。",
+      "target": "자장가 대신이라는 모양이었다.",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000269",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0027",
+      "id": "サブイベント.mjo::000280",
+      "source": "「ちーっととーしてくだしゃんせー…",
+      "target": "「잠시 지나가게 해 주시구려…",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000279",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "뱃속 아이"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0027",
+      "id": "サブイベント.mjo::000284",
+      "source": "　ごようのないものとおしゃせぬー…」",
+      "target": "　볼일 없는 이는 지나가지 못하오…」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000283",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "뱃속 아이"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0028",
+      "id": "サブイベント.mjo::000289",
+      "source": "でも僕はこの歌を聴くと、",
+      "target": "하지만 나는 이 노래를 들으면",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000288",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0028",
+      "id": "サブイベント.mjo::000293",
+      "source": "何故かいつも不安な気持ちにさせられた。",
+      "target": "어쩐지 늘 불안해지곤 했다.",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000292",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Primary Codex: source changes present habitual narration to past habitual narration."
+    },
+    {
+      "unit": "サブイベント.mjo::u0029",
+      "id": "サブイベント.mjo::000298",
+      "source": "目の前にあるのはどこからどう見ても幸せな光景なのに、",
+      "target": "눈앞의 풍경은 누가 봐도 행복해 보이는데,",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000297",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0029",
+      "id": "サブイベント.mjo::000302",
+      "source": "それでも僕は無性に不安になるのだ。",
+      "target": "그런데도 나는 견딜 수 없이 불안해지는 것이다.",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000301",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0030",
+      "id": "サブイベント.mjo::000312",
+      "source": "「このこのななつのおいわいにー…」",
+      "target": "「이 아이 일곱 살을 축하하려고…」",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000311",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "모미지(아내)",
+        "addressees": [
+          "뱃속 아이"
+        ],
+        "relationship": "출산을 기다리는 부부",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "다정한 존댓말, 익숙한 도랸세 가사",
+        "text_function": "dialogue"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0031",
+      "id": "サブイベント.mjo::000317",
+      "source": "この子の七つのお祝いに――",
+      "target": "이 아이 일곱 살을 축하하려고――",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000316",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0031",
+      "id": "サブイベント.mjo::000322",
+      "source": "そうか、この歌は子どもの成長を祝う歌なのか。",
+      "target": "그렇구나. 이 노래는 아이의 성장을 축하하는 노래인가.",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000321",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0032",
+      "id": "サブイベント.mjo::000327",
+      "source": "でもそれじゃあ、どうしてこんなに…",
+      "target": "하지만 그렇다면, 왜 이렇게…",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000326",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0033",
+      "id": "サブイベント.mjo::000342",
+      "source": "…どうしてこの歌は、",
+      "target": "…왜 이 노래의 선율은",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000338",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    },
+    {
+      "unit": "サブイベント.mjo::u0033",
+      "id": "サブイベント.mjo::000346",
+      "source": "こんなにも物悲しいメロディーなんだろう…",
+      "target": "이토록 애처로운 걸까…",
+      "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000342",
+      "reused_snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "아내를 잃은 남편이자 모미지의 아버지",
+        "story_phase": "kureha_09 / 과거 아내의 임신과 딸의 이름을 회상하는 꿈",
+        "voice": "담백한 일인칭 서술, 과거 회상에서 현재 오인과 당황으로 이동",
+        "text_function": "narration"
+      },
+      "review_note": "Same scene, speaker, unit order and exact Japanese source; accepted Codex text reused."
+    }
+  ],
+  "inline_records": [
+    {
+      "id": "サブイベント.mjo::000226",
+      "unit": "サブイベント.mjo::u0022",
+      "source": "あの名前",
+      "target": "그 이름",
+      "opcode": "ldstr",
+      "translator_model": "Codex internal",
+      "reused_from_id": "kureha_09.mjo::000225",
+      "consumer": "same following callp 0x2f93f26a; display emphasis"
+    }
+  ],
+  "units": 33,
+  "text_fields": 53,
+  "inline_fields": 1,
+  "exact_source_and_context_reused_fields": 52,
+  "primary_source_difference_adjusted_ids": [
+    "サブイベント.mjo::000228",
+    "サブイベント.mjo::000293"
+  ],
+  "validation": {
+    "source_sha256": "5583341d9ac9230332a81b99d7bdb9cd98dd5d44bcd2f51197f5d6a1b1161780",
+    "output_sha256": "ffea7cfc65a355ef4bb96c21dba39ae31feacdb9ddcd5044cdfa67fd1c750762",
+    "original_instructions": 361,
+    "output_instructions": 361,
+    "replacement_indices": [
+      15,
+      22,
+      39,
+      46,
+      56,
+      60,
+      67,
+      77,
+      84,
+      88,
+      98,
+      102,
+      109,
+      114,
+      119,
+      123,
+      128,
+      132,
+      142,
+      149,
+      153,
+      163,
+      167,
+      174,
+      178,
+      188,
+      192,
+      199,
+      203,
+      208,
+      213,
+      217,
+      222,
+      226,
+      228,
+      238,
+      248,
+      252,
+      257,
+      261,
+      266,
+      270,
+      280,
+      284,
+      289,
+      293,
+      298,
+      302,
+      312,
+      317,
+      322,
+      327,
+      342,
+      346
+    ],
+    "insertion_indices": [],
+    "relocated_jumps": 0,
+    "relocated_switch_cases": 0,
+    "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+  },
+  "source_authority_body_snapshot": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\recovery-full-20261023-v2\\integrated-targets.json",
+  "source_authority_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+  "ui_owned_unit_accounting": {
+    "total": 70,
+    "c_setumei_translated_units": 36,
+    "subevent_recovered_units": 33,
+    "yazlib_nonlinguistic_marker_preserved_units": 1,
+    "unaccounted_units": 0
+  },
+  "reachability": "Source script translated; runtime call reachability has not been newly verified.",
+  "runtime_verified": false
+}

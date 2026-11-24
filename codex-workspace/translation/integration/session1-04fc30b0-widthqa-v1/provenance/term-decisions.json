@@ -1,0 +1,591 @@
+{
+  "translator_model": "Codex internal",
+  "scope": "session-1 only; central frozen glossary untouched",
+  "decisions": [
+    {
+      "source": "上条",
+      "target": "카미조",
+      "status": "source_reading_confirmed",
+      "evidence": [
+        "kureha_18.mjo::004749=かみじょう",
+        "kureha_18.mjo::004750=上条",
+        "kureha_18.mjo::u0464 connects the maiden name 上条紅葉"
+      ],
+      "note": "Do not advance identity disclosures."
+    },
+    {
+      "source": "汐見",
+      "target": "시오미",
+      "status": "source_reading_confirmed",
+      "evidence": [
+        "sina_19.mjo::002540 contains しおみ…せんせい"
+      ]
+    },
+    {
+      "source": "ミッションスクール",
+      "target": "미션 스쿨",
+      "status": "session_canonical",
+      "evidence": [
+        "00_レコンキスタ_start_2.mjo::u0448-u0456",
+        "kureha_05.mjo::u0093"
+      ]
+    },
+    {
+      "source": "廃マンション",
+      "target": "폐아파트",
+      "status": "session_canonical",
+      "evidence": [
+        "kureha_05.mjo::u0053-u0056",
+        "kureha_05.mjo::u0145"
+      ]
+    },
+    {
+      "source": "田村",
+      "target": "다무라",
+      "status": "provisional_reading_not_yet_confirmed",
+      "evidence": [
+        "kureha_05.mjo::u0050"
+      ]
+    },
+    {
+      "source": "金山",
+      "target": "가나야마",
+      "status": "provisional_reading_not_yet_confirmed",
+      "evidence": [
+        "lane-3 masa_07 source inspection"
+      ]
+    },
+    {
+      "source": "奈那子",
+      "target": "나나코",
+      "status": "provisional_reading_not_yet_confirmed",
+      "evidence": [
+        "lane-2 kureha_06 source inspection"
+      ]
+    },
+    {
+      "source": "首刈り女",
+      "target": "목 베는 여자",
+      "status": "session_canonical",
+      "evidence": [
+        "00_レコンキスタ_start_2.mjo::u0835-u0885",
+        "masa_07.mjo::u0162-u0165"
+      ]
+    },
+    {
+      "source": "刈込み鋏",
+      "target": "전지가위",
+      "status": "session_canonical",
+      "evidence": [
+        "masa_07.mjo::u0163-u0165",
+        "kureha_09.mjo::u0468"
+      ]
+    },
+    {
+      "source": "矢嶋碧",
+      "target": "야시마 미도리",
+      "status": "source_reading_confirmed",
+      "evidence": [
+        "masa_08.mjo::001272=やしまみどり",
+        "masa_08.mjo::001273=矢嶋碧",
+        "sina_13.mjo::u0204 explicitly corrects やじま/ぺき to やしま/みどり"
+      ]
+    },
+    {
+      "source": "逢魔が時 / 逢摩が時",
+      "target": "마가 드는 시간",
+      "status": "session_canonical",
+      "evidence": [
+        "kureha_06.mjo::u0210 (inline 002260=逢魔)",
+        "masa_07.mjo::u0044"
+      ]
+    },
+    {
+      "source": "神隠し",
+      "target": "신령에게 끌려가 사라지다",
+      "status": "session_canonical",
+      "evidence": [
+        "kureha_06.mjo::u0233"
+      ],
+      "note": "Preserve supernatural disappearance rather than ordinary unexplained vanishing."
+    },
+    {
+      "source": "因果",
+      "target": "인연 (past connection between Shiomi and Masaki)",
+      "status": "sense_scoped_canonical",
+      "evidence": [
+        "masa_07.mjo::u0062,u0063,u0084,u0085"
+      ],
+      "note": "Other senses 因果関係/因果応報 and cursed fate require their own semantic sense."
+    },
+    {
+      "source": "街",
+      "target": "이곳/동네 when the referent is the whole New Town; 거리/밤거리 for actual streets",
+      "status": "sense_scoped_canonical",
+      "evidence": [
+        "kureha_07.mjo::u0160,u0172,u0176,u0195",
+        "kureha_06.mjo::u0195-u0197"
+      ],
+      "note": "No global literal replacement. Preserve the spatial scope of each sentence."
+    },
+    {
+      "source": "糸巻き / 糸車",
+      "target": "실감개",
+      "status": "scene_scoped_canonical",
+      "evidence": [
+        "lane-1 childhood handheld-object scene near start2 u1323-u1377"
+      ],
+      "note": "Same portable object only; an actual spinning wheel elsewhere may require 물레."
+    },
+    {
+      "source": "反魂香 / 反魂の法 / 反魂",
+      "target": "반혼향 / 반혼법 / 반혼",
+      "status": "session_canonical",
+      "evidence": [
+        "lane-2 kureha_08 u0361-u0486 source report"
+      ],
+      "note": "Noh/落語 and 漢の武帝/李夫人 use 노/라쿠고 and 한 무제/이 부인; no added factual exposition."
+    },
+    {
+      "source": "米軍基地跡",
+      "target": "옛 미군 기지",
+      "status": "session_canonical",
+      "evidence": [
+        "kureha_07.mjo::u0025-u0033"
+      ]
+    },
+    {
+      "source": "反魂樹",
+      "target": "반혼수",
+      "status": "session_canonical",
+      "evidence": [
+        "lane-2 kureha_09 u0251-u0351 source report"
+      ]
+    },
+    {
+      "source": "宮沢賢治 / よだかの星 / よだか",
+      "target": "미야자와 겐지 / 쏙독새의 별 / 쏙독새",
+      "status": "session_canonical",
+      "evidence": [
+        "masa_07.mjo::u0285-u0298",
+        "kureha_09.mjo::u0266-u0268"
+      ]
+    },
+    {
+      "source": "臨海公園",
+      "target": "해안 공원",
+      "status": "session_canonical",
+      "evidence": [
+        "00_レコンキスタ_start_2.mjo::u1120"
+      ]
+    },
+    {
+      "source": "ブルマ",
+      "target": "부르마",
+      "status": "session_canonical",
+      "evidence": [
+        "00_レコンキスタ_start_3.mjo::u0087",
+        "masa_09.mjo::u0074-u0171"
+      ],
+      "note": "Gym uniform lower garment; distinct from underwear. Preserve English imitation 잇츠 부르마! in common scene."
+    },
+    {
+      "source": "失ったものを取り戻す",
+      "target": "잃어버린 것을 되찾다",
+      "status": "session_canonical",
+      "evidence": [
+        "masa_08.mjo::u0693-u0724"
+      ],
+      "note": "Recurring happy-ending/recovery motif."
+    },
+    {
+      "source": "三者面談",
+      "target": "학부모 동반 면담",
+      "status": "session_canonical",
+      "evidence": [
+        "masa_08.mjo::u0647,u0700"
+      ]
+    },
+    {
+      "source": "琥珀色の痣",
+      "target": "호박빛 반점",
+      "status": "session_canonical_pending_full_scene_review",
+      "evidence": [
+        "lane-2 reported kureha_11.mjo::u0278-u0287"
+      ],
+      "note": "Preserve uncertain scar-like appearance and location comparison; not a temporary bruise assertion."
+    },
+    {
+      "source": "克己心",
+      "target": "극기심",
+      "status": "session_contextual_approved",
+      "evidence": [
+        "masa_11.mjo::u0071-u0075"
+      ],
+      "note": "Self-mastery in alternative training branch; ruby reading remains approved blank."
+    },
+    {
+      "source": "ピッキング",
+      "target": "자물쇠 따기",
+      "status": "session_contextual_approved",
+      "evidence": [
+        "masa_11.mjo::u0088-u0091"
+      ],
+      "note": "Named skill in fictional self-defense course dialogue; no procedural expansion."
+    },
+    {
+      "source": "マインドコントロール",
+      "target": "심리 조종",
+      "status": "session_contextual_approved",
+      "evidence": [
+        "masa_11.mjo::u0088-u0091"
+      ],
+      "note": "Influencing another person, not self-regulation."
+    },
+    {
+      "source": "モミジ",
+      "target": "단풍(모미지)",
+      "status": "session_contextual_approved",
+      "evidence": [
+        "masa_11.mjo::u0111-u0114"
+      ],
+      "note": "Contextual first-occurrence bridge only for name pun. Ordinary maple narration remains 단풍."
+    },
+    {
+      "source": "ラブラブ・トリニティ・フォーメーション",
+      "target": "러브러브 트리니티 포메이션",
+      "status": "session_contextual_approved",
+      "evidence": [
+        "masa_11.mjo::u0158"
+      ],
+      "note": "One-scene comic name for nonsexual family arm-linking."
+    },
+    {
+      "source": "告会室／告解／懺悔",
+      "target": "고해실／고해／참회",
+      "status": "session_contextual_approved",
+      "evidence": [
+        "00_レコンキスタ_start_3.mjo::u1037-u1091"
+      ],
+      "note": "Preserve supplied pastor/confession terminology without importing denominational corrections."
+    },
+    {
+      "source": "送りオオカミ",
+      "target": "데려다준다며 딴맘 먹는 늑대",
+      "status": "session_contextual_approved",
+      "evidence": [
+        "00_レコンキスタ_start_3.mjo::u1120/u1142"
+      ],
+      "note": "Contextual teasing idiom; u1142 width remains runtime_pending."
+    },
+    {
+      "source": "福音の時",
+      "target": "복음의 때",
+      "status": "session_canonical",
+      "evidence": [
+        "00_レコンキスタ_start_3.mjo::u1149-u1253"
+      ]
+    },
+    {
+      "source": "フレーク／朝食シリアル",
+      "target": "시리얼",
+      "status": "session_canonical",
+      "evidence": [
+        "00_レコンキスタ_start_3.mjo::u1254-u1398"
+      ]
+    },
+    {
+      "source": "魚肉ソーセージ",
+      "target": "어육소시지",
+      "status": "session_canonical",
+      "evidence": [
+        "00_レコンキスタ_start_3.mjo::u1254-u1398"
+      ]
+    },
+    {
+      "source": "書き記せ。今から後、主に結ばれて死ぬ人は幸いである。霊も言う。然り。彼らは労苦を解かれて、安らぎを得る。その行いが報われるからである",
+      "target": "기록하여라. 이제부터 주님과 하나 되어 죽는 이는 복되다. 성령도 말씀하신다. 그렇다. 그들은 수고를 벗고 안식을 얻으리니, 그들의 행위가 보답받기 때문이다",
+      "status": "session_canonical_source_prayer",
+      "evidence": [
+        "kureha_15.mjo::u0467-u0475",
+        "masa_18.mjo::u0392-u0398",
+        "sub_kure02.mjo::u0048-u0052"
+      ],
+      "note": "Source-authored translation from reviewed K15. Preserve actual quote marks, omissions, field boundaries and narrative adaptations. Future occurrences identified, not yet accepted. No external Bible text imported."
+    },
+    {
+      "source": "贖う方",
+      "target": "구원하실 분",
+      "status": "session_canonical",
+      "evidence": [
+        "00_レコンキスタ_start_3.mjo::u1579",
+        "00_レコンキスタ_start_3.mjo::u1588"
+      ],
+      "note": "Religious quotation; 구원 ruby base composes with 하실 분. Preserve source distribution."
+    },
+    {
+      "source": "十字架（クロス）",
+      "target": "십자가（루비: 크로스）",
+      "status": "session_canonical",
+      "evidence": [
+        "makino_kyoutu.mjo::u0046"
+      ],
+      "note": "Foreign-word ruby adds a source layer unlike ordinary pronunciation; preserve both."
+    },
+    {
+      "source": "新月",
+      "target": "신월",
+      "status": "session_canonical",
+      "evidence": [
+        "kureha_16.mjo::u0226-u0239"
+      ],
+      "note": "Recurring fictional deadline; source explains absence of moonlight, keep explanation and Sunday/three-day timing."
+    },
+    {
+      "source": "秋月",
+      "target": "아키즈키",
+      "status": "session_provisional_reading_unconfirmed",
+      "evidence": [
+        "kureha_17.mjo::u0130",
+        "kureha_17.mjo::u0137"
+      ],
+      "note": "Conventional surname reading; direct kana/audio evidence not established. Semantic acceptance does not assert verified reading."
+    },
+    {
+      "source": "さっちん",
+      "target": "삿친",
+      "status": "session_canonical",
+      "evidence": [
+        "masa_12.mjo::u0114-u0133"
+      ]
+    },
+    {
+      "source": "ぽえみぃ",
+      "target": "포에미",
+      "status": "session_canonical",
+      "evidence": [
+        "masa_12.mjo::u0115-u0133"
+      ]
+    },
+    {
+      "source": "エッチ、スケッチ、ワンタッチ",
+      "target": "엉큼쟁이, 얼레리꼴레리",
+      "status": "session_canonical_contextual_rhyme",
+      "evidence": [
+        "masa_12.mjo::u0244-u0250"
+      ],
+      "note": "Child teasing chant about adults near-kiss; preserve rhyme function rather than literal filler words."
+    },
+    {
+      "source": "ワイドショー",
+      "target": "와이드쇼",
+      "status": "session_canonical",
+      "evidence": [
+        "makino_kyoutu.mjo::u0261-u0410"
+      ]
+    },
+    {
+      "source": "チビ",
+      "target": "꼬맹이",
+      "status": "session_canonical",
+      "evidence": [
+        "masa_12.mjo::u0283"
+      ]
+    },
+    {
+      "source": "ラマーズ法",
+      "target": "라마즈 호흡법",
+      "status": "session_canonical",
+      "evidence": [
+        "masa_12.mjo::u0355-u0356"
+      ]
+    },
+    {
+      "source": "奄美大島",
+      "target": "아마미오시마",
+      "status": "session_canonical",
+      "evidence": [
+        "masa_12.mjo::u0373"
+      ]
+    },
+    {
+      "source": "お子さまランチ",
+      "target": "어린이 정식",
+      "status": "session_canonical",
+      "evidence": [
+        "makino_kyoutu.mjo::u0539",
+        "makino_kyoutu.mjo::u0580",
+        "makino_kyoutu.mjo::u0625"
+      ]
+    },
+    {
+      "source": "ユエ / ｙｕｅ",
+      "target": "유에 / ｙｕｅ",
+      "status": "source_reading_confirmed_identity_unconfirmed",
+      "evidence": [
+        "masa_14.mjo::u0133",
+        "masa_14.mjo::u0134"
+      ],
+      "note": "Kana confirms sound only; name/abbreviation identity speculative. Roman-letter filename preserved."
+    },
+    {
+      "source": "イド",
+      "target": "이드",
+      "status": "session_canonical",
+      "evidence": [
+        "kureha_18.mjo::u0294"
+      ],
+      "note": "Narrator psychological interpretation; no explanatory diagnosis added."
+    },
+    {
+      "source": "マウントポジション",
+      "target": "마운트 포지션",
+      "status": "session_contextual_approved",
+      "evidence": [
+        "masa_14.mjo::u0378-u0379"
+      ],
+      "note": "Fictional source position label only; no explanatory or procedural expansion."
+    },
+    {
+      "source": "報いの夜",
+      "target": "보응의 밤",
+      "status": "session_canonical",
+      "evidence": [
+        "shinya_kyoutu.mjo::u0279"
+      ]
+    },
+    {
+      "source": "贖罪",
+      "target": "속죄",
+      "status": "session_canonical",
+      "evidence": [
+        "shinya_kyoutu.mjo::u0281"
+      ]
+    },
+    {
+      "source": "クレリカル",
+      "target": "성직복",
+      "status": "session_canonical",
+      "evidence": [
+        "shinya_kyoutu.mjo::u0398"
+      ]
+    },
+    {
+      "source": "賢者の山",
+      "target": "현자의 산",
+      "status": "session_canonical",
+      "evidence": [
+        "masa_14.mjo::u0607-u0609"
+      ]
+    },
+    {
+      "source": "おしりペンペン / ペンギン",
+      "target": "엉덩이 맴매 / 맴맴 매미",
+      "status": "session_contextual_pun_approved",
+      "evidence": [
+        "masa_15.mjo::u0101-u0114"
+      ],
+      "note": "Sound-based innocent child misunderstanding; animal noun adapted to preserve Korean pun, source penguin documented. No global replacement of penguin."
+    },
+    {
+      "source": "歯に衣／十二単を着せる",
+      "target": "말을 한 겹이 아니라 열두 겹쯤 포장해서 하다",
+      "status": "session_contextual_pun_approved",
+      "evidence": [
+        "shinya_kyoutu.mjo::u0508"
+      ],
+      "note": "Layered clothing metaphor carried through Korean speech wrapping; not global garment terminology."
+    },
+    {
+      "source": "たこ焼き",
+      "target": "타코야키",
+      "status": "session_contextual_approved",
+      "evidence": [
+        "shinya_kyoutu.mjo::u0596-u0604"
+      ]
+    },
+    {
+      "source": "カツオ節／青海苔／紅しょうが",
+      "target": "가쓰오부시／파래／붉은 생강절임",
+      "status": "session_contextual_approved",
+      "evidence": [
+        "shinya_kyoutu.mjo::u0600"
+      ]
+    },
+    {
+      "source": "ドクダミ茶",
+      "target": "어성초차",
+      "status": "session_canonical",
+      "evidence": [
+        "kureha_ep.mjo::u0010"
+      ]
+    },
+    {
+      "source": "浦島太郎",
+      "target": "우라시마 타로",
+      "status": "session_canonical",
+      "evidence": [
+        "sub_kure01.mjo::u0014",
+        "masa_ep.mjo::u0007"
+      ]
+    },
+    {
+      "source": "玉手箱",
+      "target": "보물 상자",
+      "status": "session_canonical",
+      "evidence": [
+        "sub_kure01.mjo::u0014"
+      ]
+    },
+    {
+      "source": "裕輔",
+      "target": "유스케",
+      "status": "source_reading_confirmed",
+      "evidence": [
+        "last_gendai16.mjo::001645 = 裕輔さん、ゆうすけさんっ",
+        "sub_kure02.mjo::u0018"
+      ]
+    },
+    {
+      "source": "介錯",
+      "target": "마지막 고통을 덜어 주다",
+      "status": "contextual_rendering_only",
+      "evidence": [
+        "sub_kure02.mjo::u0033"
+      ],
+      "note": "Context already identifies the lethal action; not a global replacement for all uses."
+    },
+    {
+      "source": "業",
+      "target": "업",
+      "status": "contextual_rendering_only",
+      "evidence": [
+        "masa_17.mjo::u0053",
+        "masa_17.mjo::u0058–0059"
+      ],
+      "note": "Past-bound anger/hatred motif; do not flatten to 죄/저주 globally."
+    },
+    {
+      "source": "禊ぎ",
+      "target": "정화",
+      "status": "session_canonical",
+      "evidence": [
+        "masa_18.mjo::u0190",
+        "masa_18.mjo::u0196",
+        "masa_18.mjo::u0200",
+        "masa_18.mjo::u0202"
+      ],
+      "note": "Fictional rite removing resurrection side effects; preserve one-person sacrifice and ineligible previous medium rules."
+    },
+    {
+      "source": "原罪",
+      "target": "원죄",
+      "status": "session_canonical",
+      "evidence": [
+        "masa_18.mjo::u0314"
+      ],
+      "note": "Character names her original transgression and subsequent atonement; preserve fictional religious motif."
+    }
+  ],
+  "updated_at": "2026-10-23T05:10:45+09:00"
+}

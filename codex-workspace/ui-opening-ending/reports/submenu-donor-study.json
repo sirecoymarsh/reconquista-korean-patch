@@ -1,0 +1,554 @@
+[
+  {
+    "entry": "submenu_off.rct",
+    "row": 0,
+    "button_y": [
+      29,
+      80
+    ],
+    "region": [
+      550,
+      34,
+      175,
+      42
+    ],
+    "known_pixels": 4675,
+    "best": {
+      "xy": [
+        146,
+        78
+      ],
+      "mse": 63.49825311942959,
+      "different_known_pixels": 1113
+    }
+  },
+  {
+    "entry": "submenu_off.rct",
+    "row": 1,
+    "button_y": [
+      92,
+      143
+    ],
+    "region": [
+      550,
+      97,
+      175,
+      42
+    ],
+    "known_pixels": 4750,
+    "best": {
+      "xy": [
+        146,
+        78
+      ],
+      "mse": 62.495649122807016,
+      "different_known_pixels": 1113
+    }
+  },
+  {
+    "entry": "submenu_off.rct",
+    "row": 2,
+    "button_y": [
+      154,
+      205
+    ],
+    "region": [
+      550,
+      159,
+      175,
+      42
+    ],
+    "known_pixels": 4429,
+    "best": {
+      "xy": [
+        146,
+        78
+      ],
+      "mse": 67.73756303153458,
+      "different_known_pixels": 2794
+    }
+  },
+  {
+    "entry": "submenu_off.rct",
+    "row": 3,
+    "button_y": [
+      217,
+      268
+    ],
+    "region": [
+      550,
+      222,
+      175,
+      42
+    ],
+    "known_pixels": 4186,
+    "best": {
+      "xy": [
+        146,
+        78
+      ],
+      "mse": 71.6359292881032,
+      "different_known_pixels": 2668
+    }
+  },
+  {
+    "entry": "submenu_off.rct",
+    "row": 4,
+    "button_y": [
+      279,
+      330
+    ],
+    "region": [
+      550,
+      284,
+      175,
+      42
+    ],
+    "known_pixels": 4610,
+    "best": {
+      "xy": [
+        146,
+        78
+      ],
+      "mse": 66.92856109906002,
+      "different_known_pixels": 3342
+    }
+  },
+  {
+    "entry": "submenu_off.rct",
+    "row": 5,
+    "button_y": [
+      342,
+      393
+    ],
+    "region": [
+      550,
+      347,
+      175,
+      42
+    ],
+    "known_pixels": 3978,
+    "best": {
+      "xy": [
+        146,
+        78
+      ],
+      "mse": 79.30534607005195,
+      "different_known_pixels": 3101
+    }
+  },
+  {
+    "entry": "submenu_off.rct",
+    "row": 6,
+    "button_y": [
+      404,
+      455
+    ],
+    "region": [
+      550,
+      409,
+      175,
+      42
+    ],
+    "known_pixels": 3705,
+    "best": {
+      "xy": [
+        284,
+        78
+      ],
+      "mse": 82.23670715249662,
+      "different_known_pixels": 2887
+    }
+  },
+  {
+    "entry": "submenu_off.rct",
+    "row": 7,
+    "button_y": [
+      467,
+      518
+    ],
+    "region": [
+      550,
+      472,
+      175,
+      42
+    ],
+    "known_pixels": 2977,
+    "best": {
+      "xy": [
+        146,
+        78
+      ],
+      "mse": 78.33669241966186,
+      "different_known_pixels": 2348
+    }
+  },
+  {
+    "entry": "submenu_on.rct",
+    "row": 0,
+    "button_y": [
+      29,
+      80
+    ],
+    "region": [
+      550,
+      34,
+      175,
+      42
+    ],
+    "known_pixels": 4661,
+    "best": {
+      "xy": [
+        146,
+        177
+      ],
+      "mse": 187.7634270185225,
+      "different_known_pixels": 3896
+    }
+  },
+  {
+    "entry": "submenu_on.rct",
+    "row": 1,
+    "button_y": [
+      92,
+      143
+    ],
+    "region": [
+      550,
+      97,
+      175,
+      42
+    ],
+    "known_pixels": 4722,
+    "best": {
+      "xy": [
+        146,
+        177
+      ],
+      "mse": 185.4404207256812,
+      "different_known_pixels": 3955
+    }
+  },
+  {
+    "entry": "submenu_on.rct",
+    "row": 2,
+    "button_y": [
+      154,
+      205
+    ],
+    "region": [
+      550,
+      159,
+      175,
+      42
+    ],
+    "known_pixels": 4414,
+    "best": {
+      "xy": [
+        146,
+        177
+      ],
+      "mse": 199.64083975230326,
+      "different_known_pixels": 3780
+    }
+  },
+  {
+    "entry": "submenu_on.rct",
+    "row": 3,
+    "button_y": [
+      217,
+      268
+    ],
+    "region": [
+      550,
+      222,
+      175,
+      42
+    ],
+    "known_pixels": 4136,
+    "best": {
+      "xy": [
+        146,
+        177
+      ],
+      "mse": 212.72864281108963,
+      "different_known_pixels": 3540
+    }
+  },
+  {
+    "entry": "submenu_on.rct",
+    "row": 4,
+    "button_y": [
+      279,
+      330
+    ],
+    "region": [
+      550,
+      284,
+      175,
+      42
+    ],
+    "known_pixels": 4609,
+    "best": {
+      "xy": [
+        146,
+        177
+      ],
+      "mse": 197.0066536486584,
+      "different_known_pixels": 4003
+    }
+  },
+  {
+    "entry": "submenu_on.rct",
+    "row": 5,
+    "button_y": [
+      342,
+      393
+    ],
+    "region": [
+      550,
+      347,
+      175,
+      42
+    ],
+    "known_pixels": 3962,
+    "best": {
+      "xy": [
+        146,
+        177
+      ],
+      "mse": 232.56116439508665,
+      "different_known_pixels": 3507
+    }
+  },
+  {
+    "entry": "submenu_on.rct",
+    "row": 6,
+    "button_y": [
+      404,
+      455
+    ],
+    "region": [
+      550,
+      409,
+      175,
+      42
+    ],
+    "known_pixels": 3692,
+    "best": {
+      "xy": [
+        146,
+        177
+      ],
+      "mse": 242.1719934994583,
+      "different_known_pixels": 3224
+    }
+  },
+  {
+    "entry": "submenu_on.rct",
+    "row": 7,
+    "button_y": [
+      467,
+      518
+    ],
+    "region": [
+      550,
+      472,
+      175,
+      42
+    ],
+    "known_pixels": 2965,
+    "best": {
+      "xy": [
+        146,
+        177
+      ],
+      "mse": 231.29308600337268,
+      "different_known_pixels": 2676
+    }
+  },
+  {
+    "entry": "submenu_push.rct",
+    "row": 0,
+    "button_y": [
+      29,
+      80
+    ],
+    "region": [
+      550,
+      34,
+      175,
+      42
+    ],
+    "known_pixels": 4639,
+    "best": {
+      "xy": [
+        146,
+        177
+      ],
+      "mse": 340.96852769993535,
+      "different_known_pixels": 4097
+    }
+  },
+  {
+    "entry": "submenu_push.rct",
+    "row": 1,
+    "button_y": [
+      92,
+      143
+    ],
+    "region": [
+      550,
+      97,
+      175,
+      42
+    ],
+    "known_pixels": 4717,
+    "best": {
+      "xy": [
+        146,
+        177
+      ],
+      "mse": 337.247897675076,
+      "different_known_pixels": 4185
+    }
+  },
+  {
+    "entry": "submenu_push.rct",
+    "row": 2,
+    "button_y": [
+      154,
+      205
+    ],
+    "region": [
+      550,
+      159,
+      175,
+      42
+    ],
+    "known_pixels": 4412,
+    "best": {
+      "xy": [
+        146,
+        177
+      ],
+      "mse": 356.41069809610156,
+      "different_known_pixels": 3919
+    }
+  },
+  {
+    "entry": "submenu_push.rct",
+    "row": 3,
+    "button_y": [
+      217,
+      268
+    ],
+    "region": [
+      550,
+      222,
+      175,
+      42
+    ],
+    "known_pixels": 4125,
+    "best": {
+      "xy": [
+        146,
+        177
+      ],
+      "mse": 377.53923232323234,
+      "different_known_pixels": 3654
+    }
+  },
+  {
+    "entry": "submenu_push.rct",
+    "row": 4,
+    "button_y": [
+      279,
+      330
+    ],
+    "region": [
+      550,
+      284,
+      175,
+      42
+    ],
+    "known_pixels": 4607,
+    "best": {
+      "xy": [
+        146,
+        177
+      ],
+      "mse": 356.39642572896315,
+      "different_known_pixels": 4092
+    }
+  },
+  {
+    "entry": "submenu_push.rct",
+    "row": 5,
+    "button_y": [
+      342,
+      393
+    ],
+    "region": [
+      550,
+      347,
+      175,
+      42
+    ],
+    "known_pixels": 3940,
+    "best": {
+      "xy": [
+        284,
+        177
+      ],
+      "mse": 409.42089678510996,
+      "different_known_pixels": 3654
+    }
+  },
+  {
+    "entry": "submenu_push.rct",
+    "row": 6,
+    "button_y": [
+      404,
+      455
+    ],
+    "region": [
+      550,
+      409,
+      175,
+      42
+    ],
+    "known_pixels": 3670,
+    "best": {
+      "xy": [
+        284,
+        177
+      ],
+      "mse": 418.0431425976385,
+      "different_known_pixels": 3387
+    }
+  },
+  {
+    "entry": "submenu_push.rct",
+    "row": 7,
+    "button_y": [
+      467,
+      518
+    ],
+    "region": [
+      550,
+      472,
+      175,
+      42
+    ],
+    "known_pixels": 2955,
+    "best": {
+      "xy": [
+        146,
+        177
+      ],
+      "mse": 399.5746192893401,
+      "different_known_pixels": 2702
+    }
+  }
+]

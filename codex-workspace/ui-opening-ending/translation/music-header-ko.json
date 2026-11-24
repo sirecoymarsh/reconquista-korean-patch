@@ -1,0 +1,41 @@
+{
+  "translator_model": "Codex internal",
+  "records": [
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::caption",
+      "source": "SoundMode",
+      "target": "음악 감상",
+      "translator_model": "Codex internal",
+      "source_region": [
+        62,
+        40,
+        117,
+        27
+      ],
+      "target_ink_bounds": [
+        75,
+        42,
+        163,
+        66
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::description",
+      "source": "ゲーム中で使用した音楽を聴く事が出来ます。",
+      "target": "게임에 사용된 음악을 감상합니다.",
+      "translator_model": "Codex internal",
+      "source_region": [
+        223,
+        41,
+        351,
+        33
+      ],
+      "target_ink_bounds": [
+        270,
+        47,
+        529,
+        68
+      ]
+    }
+  ]
+}

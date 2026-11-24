@@ -1,0 +1,21 @@
+{
+  "candidate": "ui-trial-v22",
+  "native_candidate": "native-ui-v5",
+  "created_utc": "2026-10-22T23:38:35.449171+00:00",
+  "source_fastdata_sha256": "3ac688758ff60af61a7dbc21910d30c11d977bd959c0cddc3638dd2563fcfbc2",
+  "runtime_fastdata_sha256": "a4e271fb2c02d26f6cef2a87a63c025231e93a5774903bd4a344212b46c0d57d",
+  "source_scenario_sha256": "040db0bf4ab872d47d3a6c06057a0c94f2056e8e8855fd9ae6e9d5a522913625",
+  "runtime_scenario_sha256": "040db0bf4ab872d47d3a6c06057a0c94f2056e8e8855fd9ae6e9d5a522913625",
+  "runtime_env_changes": {
+    "TITLEBAR": "Reconquista-UI-BG-v22",
+    "REG_LOCAL": "Reconquista-UI-BG-v11-20261023",
+    "MUSICVOL": "0",
+    "SOUNDVOL": "0",
+    "VOICEVOL": "0",
+    "ISPLAYMUSIC": "0"
+  },
+  "test_entry": null,
+  "candidate_untouched": true,
+  "scenario_modified": false,
+  "scope": "Normal title entry with existing isolated save/registry state. Only new config option and audio toggle text targeted. Fullscreen and physical input tests excluded."
+}

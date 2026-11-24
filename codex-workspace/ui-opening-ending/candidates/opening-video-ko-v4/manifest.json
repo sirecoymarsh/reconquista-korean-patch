@@ -1,0 +1,108 @@
+{
+  "candidate": "opening-video-ko-v4",
+  "translator_model": "Codex internal",
+  "authoring_model": "current Codex internal primary model; precise backend identifier unavailable",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "created_at_utc": "2026-10-23T10:22:54.746729+00:00",
+  "status": "encoded_video_visual_audio_timing_pass_user_game_playback_pending",
+  "frozen": true,
+  "ready_for_integration": true,
+  "release_pass": false,
+  "changes": [
+    "카스가이·타무라 examples applied consistently to OP names",
+    "Six English title/role/staff credit panels replaced in the original picture positions",
+    "STARRING → 등장인물; staff roles, names and team names in Korean",
+    "16 simultaneous lyric pairs, Japanese above Korean"
+  ],
+  "payloads": [
+    {
+      "relative_path": "movie/Recon_OP800_H.mpg",
+      "payload_path": "payloads/movie/Recon_OP800_H.mpg",
+      "source_sha256": "6da04d09fd954c67b004b6cecfe22fd89da473cbf60fd74856d2170a1972995a",
+      "output_sha256": "8ad40abd04837b5b5e14c8911ecefcacb08a98ce6cf44955123eb8ef4ab763ef",
+      "output_bytes": 76011648,
+      "codec": "mpeg1video",
+      "dimensions": [
+        800,
+        600
+      ],
+      "fps": 30,
+      "frames": 3037,
+      "audio": "Original MP2 compressed bytes unchanged"
+    }
+  ],
+  "viewing_outputs": [
+    {
+      "path": "viewing/Reconquista_OP_KO_4K.mp4",
+      "sha256": "89850e2555a1dd0c7d07892639f544b1b2a2ee46ba8aaa6c473de9cd38aed4c5",
+      "bytes": 1012242883,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "user_layout_choice": "16:9 fill the screen and reposition subtitles",
+      "source_crop": [
+        0,
+        75,
+        800,
+        450
+      ],
+      "fps": 30,
+      "frames": 3037,
+      "codec": "H.264 High",
+      "pixel_format": "yuv420p",
+      "color_space": "BT.709 limited",
+      "audio": "V3 AAC compressed bytes unchanged",
+      "native_4k_source": false,
+      "processing": "Original SD video cleaned and upscaled; Korean typography/logo and bilingual captions rendered at 4K; original 30 fps motion"
+    }
+  ],
+  "exact_logo_text": "레콘키스타",
+  "logo_master": "../brand-logo-ko-v3/master/reconquista-ko.png",
+  "logo_master_sha256": "81e8e88a31f70f84ab6bafbe33cfad19787b7e5079206c05f094d82eaa2f51ef",
+  "fonts": {
+    "korean": "Eulyoo1945 SemiBold",
+    "japanese": "Noto Serif CJK KR",
+    "font_delivery": "Rasterized only; internal fonts/build-source are not payloads"
+  },
+  "caption_cues": 36,
+  "japanese_lyric_cues": 16,
+  "korean_lyric_cues": 16,
+  "retained_quotation_cues": 4,
+  "in_picture_surfaces": 18,
+  "new_english_credit_surfaces": 6,
+  "name_mappings": 31,
+  "source_listening_provisional_ids": [
+    "op-lyrics::007"
+  ],
+  "restoration": {
+    "new_english_clean_frames": 745,
+    "inherited_v3_repairs": 88,
+    "preencode_changes_outside_owned_masks": 0,
+    "methods": [
+      "registered original game art",
+      "temporally registered original source frames",
+      "original alpha sprite and background reconstruction",
+      "source-owned continuous boundary restoration"
+    ],
+    "new_imagegen_assets": 0,
+    "inherited_v3_generated_clean_plates": 10,
+    "hidden_original_rgb_identical": false
+  },
+  "verification": {
+    "native_technical": "evidence/technical-validation.json",
+    "four_k_technical": "evidence/4k-technical-validation.json",
+    "visual": "evidence/final-visual-review.json",
+    "native_samples": 63,
+    "four_k_samples": 51,
+    "semantic": "evidence/semantic-gate.json",
+    "build_inputs": "evidence/build-input-hashes.json",
+    "viewer": "evidence/review-viewer-test.json",
+    "four_k_audio_pcm_reuse": "Frozen v3 tests reused after unchanged AAC compressed hash confirmation"
+  },
+  "prior_frozen_candidate": "opening-video-ko-v3",
+  "runtime_review": "No game launch, foreground window, input injection, audio playback or Explorer. Actual game playback/listening remains user review.",
+  "scope": "Opening only; ending, game scripts and title-menu assets untouched",
+  "integration": "Not installed. Integrate only payloads/movie/Recon_OP800_H.mpg into a future central build; 4K is a separate viewing output.",
+  "preview": "preview/review.html"
+}

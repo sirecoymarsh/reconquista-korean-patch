@@ -1,0 +1,102 @@
+{
+  "entries": [
+    {
+      "entry": "config_off",
+      "roi": [
+        615,
+        20,
+        120,
+        20
+      ],
+      "known_mask": "Exclude source bright glyphs with2px expansion; discovery only",
+      "results": [
+        {
+          "donor": "選択肢台",
+          "position": [
+            174,
+            89
+          ],
+          "known_pixels": 995,
+          "different_known_pixels": 984,
+          "mse": 318.41541038525963
+        },
+        {
+          "donor": "askyesno_base",
+          "position": [
+            175,
+            208
+          ],
+          "known_pixels": 995,
+          "different_known_pixels": 984,
+          "mse": 318.41541038525963
+        }
+      ]
+    },
+    {
+      "entry": "config_on",
+      "roi": [
+        615,
+        20,
+        120,
+        20
+      ],
+      "known_mask": "Exclude source bright glyphs with2px expansion; discovery only",
+      "results": [
+        {
+          "donor": "選択肢台",
+          "position": [
+            398,
+            175
+          ],
+          "known_pixels": 862,
+          "different_known_pixels": 838,
+          "mse": 850.8955916473318
+        },
+        {
+          "donor": "askyesno_base",
+          "position": [
+            526,
+            204
+          ],
+          "known_pixels": 862,
+          "different_known_pixels": 851,
+          "mse": 915.7150038669761
+        }
+      ]
+    },
+    {
+      "entry": "config_push",
+      "roi": [
+        615,
+        20,
+        120,
+        20
+      ],
+      "known_mask": "Exclude source bright glyphs with2px expansion; discovery only",
+      "results": [
+        {
+          "donor": "選択肢台",
+          "position": [
+            525,
+            184
+          ],
+          "known_pixels": 851,
+          "different_known_pixels": 843,
+          "mse": 1561.4132393262828
+        },
+        {
+          "donor": "askyesno_base",
+          "position": [
+            525,
+            204
+          ],
+          "known_pixels": 851,
+          "different_known_pixels": 841,
+          "mse": 1899.8358793576185
+        }
+      ]
+    }
+  ],
+  "accepted_donor": null,
+  "asset_modified": false
+}

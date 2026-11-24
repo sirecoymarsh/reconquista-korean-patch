@@ -1,0 +1,4606 @@
+{
+  "images": [
+    {
+      "id": "fastdata.arc::kaisou_on.rct",
+      "file": "kaisou_on.rct",
+      "sha256": "d07c6d299943cbd0cdda11b14afc819f64955c3b79b9a4d4415c18f6f2434f11",
+      "header": "985a929a54433030200300005802000008690700",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::ame_.rc8",
+      "file": "ame_.rc8",
+      "sha256": "f9d4a5314d5f4678e208d632a14868a5623092bdd333e51a1fb894c4e80d57cf",
+      "header": "985a929a385f3030800c000058020000c6d70b00",
+      "signature": "8_00",
+      "width": 3200,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct",
+      "file": "sl_load_f.rct",
+      "sha256": "200ff4c4f0132279b163eec2d8740645776d40cc64c824410fe8eae6d3d0e255",
+      "header": "985a929a54433030200300005802000045790200",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::staffrollb_001.rct",
+      "file": "staffrollb_001.rct",
+      "sha256": "cda03d897fb0ae714617fb9557b546171a15df1e8b3ed0316362b921e8c26c2b",
+      "header": "985a929a544330302003000058020000d7760400",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "credits_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::麻咲_view.rct",
+      "file": "麻咲_view.rct",
+      "sha256": "e4296c794e9af1f888d84718aaef67be71ac48fb7c4f951034685db634e35232",
+      "header": "985a929a544330302003000058020000aa110000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001524"
+      ]
+    },
+    {
+      "id": "fastdata.arc::wink_▽.rct",
+      "file": "wink_▽.rct",
+      "sha256": "aa4e1ed2d0da4974f3b4041eb652e5589a054a7c5d066b9a7b0e0d4544e2cf62",
+      "header": "985a929a54433030000100002000000050050000",
+      "signature": "TC00",
+      "width": 256,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::コンフィグボタン.rct",
+      "file": "コンフィグボタン.rct",
+      "sha256": "cd1f9e165e23e7f1f89d930224e71bf4f2831285e2cf06ce82ebe0c4ce87a465",
+      "header": "985a929a54433030270000001100000090030000",
+      "signature": "TC00",
+      "width": 39,
+      "height": 17,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::003158"
+      ]
+    },
+    {
+      "id": "fastdata.arc::名前プレート_ゆえ.rct",
+      "file": "名前プレート_ゆえ.rct",
+      "sha256": "6d756db2f48ec992e6027f8e454a9a04ff6764f715e47030fe81c418e2360eb3",
+      "header": "985a929a54433030830000002b000000f52f0000",
+      "signature": "TC00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::000373"
+      ]
+    },
+    {
+      "id": "fastdata.arc::console_on_e_.rc8",
+      "file": "console_on_e_.rc8",
+      "sha256": "2f5f829d027df1a643ca11cde969de48ee62fa938f2cc49dcbb841ec449cd424",
+      "header": "985a929a385f303020030000580200003c090000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::extra2_on.rct",
+      "file": "extra2_on.rct",
+      "sha256": "c5b340bc03151360887b9828988d86269a6745fa47981abe3fda9828bd9ce13a",
+      "header": "985a929a544330302003000058020000278c0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::001327"
+      ]
+    },
+    {
+      "id": "fastdata.arc::momiba5.rct",
+      "file": "momiba5.rct",
+      "sha256": "c02e5f533b0a3217960b60a7b52cad5184c74b0af81b85d8ff02ea146364035f",
+      "header": "985a929a544330303a00000039000000a4080000",
+      "signature": "TC00",
+      "width": 58,
+      "height": 57,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::cgm_num_6.rc8",
+      "file": "cgm_num_6.rc8",
+      "sha256": "39d5ebf51ba6453671f0043a88d4ad45f33ebe8cd329741f4a2292e84b3f0526",
+      "header": "985a929a385f3030270000002000000055020000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::cgm_off.rct",
+      "file": "cgm_off.rct",
+      "sha256": "31a997d21d7cb9392147db13fb6f1cfd477c3ab635f3c5e003c39cfdd5fa1cf6",
+      "header": "985a929a544330302003000058020000178d0400",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::staffrollb_008.rct",
+      "file": "staffrollb_008.rct",
+      "sha256": "d4969711080bcaf2ea16b8c27981c82a18b1bce3da4d96b0c681e607b435ca90",
+      "header": "985a929a5443303120030000580200005fc00000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "credits_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_背景_off.rct",
+      "file": "サウンドモード_背景_off.rct",
+      "sha256": "513b2cd3373c20868c08e563bf1008b458d48176d34b9676c24f26d37ab61362",
+      "header": "985a929a544330302003000058020000860b0b00",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000163"
+      ]
+    },
+    {
+      "id": "fastdata.arc::カーソル、パー_.rc8",
+      "file": "カーソル、パー_.rc8",
+      "sha256": "b02f700a7d5453e7e379f306b094000536a54b664b4c40ef1f33cb4659fae63b",
+      "header": "985a929a385f30301800000018000000b8000000",
+      "signature": "8_00",
+      "width": 24,
+      "height": 24,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_push_k.rct",
+      "file": "console_push_k.rct",
+      "sha256": "9afc1e750425ad1c242ba10ee4e552015763b7fb9df335222de1c24bb1cc2934",
+      "header": "985a929a54433030200300005802000065650000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::ボタン説明_.rc8",
+      "file": "ボタン説明_.rc8",
+      "sha256": "101b688d168482d6de1f04881b22f123c49c25d803034f006363a4ae3e9e5b30",
+      "header": "985a929a385f303096000000f000000096470000",
+      "signature": "8_00",
+      "width": 150,
+      "height": 240,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::コンフィグボタン_.rc8",
+      "file": "コンフィグボタン_.rc8",
+      "sha256": "9493d44235eff22f2cff033b7a5e5673cc8e1a29f719e4a71fd64e0a976a0e17",
+      "header": "985a929a385f3030270000001100000016010000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 17,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::薄い黒シード_.rc8",
+      "file": "薄い黒シード_.rc8",
+      "sha256": "7bcfdbd93a00270b63b74814967ffa9e36f00ac208eca34a0a3f0c8ccaad2c90",
+      "header": "985a929a385f3030200300005802000019000000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::extra_push.rct",
+      "file": "extra_push.rct",
+      "sha256": "1be8c09afcefd55a8b711dd6fca844ebf2a90089d617f81bc8a410ff9bf53328",
+      "header": "985a929a544330302003000058020000fc730000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::001101"
+      ]
+    },
+    {
+      "id": "fastdata.arc::真帆子シルエットカット_.rc8",
+      "file": "真帆子シルエットカット_.rc8",
+      "sha256": "00f27060e105af978c469436820497f283a5d3da95c3a825fbf8b73823c20b27",
+      "header": "985a929a385f30302402000058020000394f0000",
+      "signature": "8_00",
+      "width": 548,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_6.rct",
+      "file": "作曲_クレジット_6.rct",
+      "sha256": "c8b003b7da5d5f9f36123ba96ce2e8dee5fd96b133e7f648c4e9ad99940b6286",
+      "header": "985a929a544330307c02000026000000f7120000",
+      "signature": "TC00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000069"
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_背景_on.rct",
+      "file": "サウンドモード_背景_on.rct",
+      "sha256": "e4a7daeb58929e40bc2a71ab3d2e38990ebfb2bb6af4afc37b217daed62b531a",
+      "header": "985a929a544330302003000058020000c26b0b00",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000161"
+      ]
+    },
+    {
+      "id": "fastdata.arc::submenu_off.rct",
+      "file": "submenu_off.rct",
+      "sha256": "f9e3181feafee89e9fb19382dad623ba2d5efe641e160c8232276498f2b4ec2e",
+      "header": "985a929a5443303020030000580200002a070300",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "pausemenu.mjo::000858"
+      ]
+    },
+    {
+      "id": "fastdata.arc::クロニクル枠_null.rct",
+      "file": "クロニクル枠_null.rct",
+      "sha256": "528401554e30ff32a67b2f2fb7daaef24b0cab5a42151be429241a76de90cf41",
+      "header": "985a929a54433030200300005802000060970100",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::config_on.rct",
+      "file": "config_on.rct",
+      "sha256": "cb4354a1fe28b29fd351aaf06b61cc973bfa4c5a7817628d79b9b580b00b755b",
+      "header": "985a929a54433031200300005802000075a50000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::名前プレート_紅葉_.rc8",
+      "file": "名前プレート_紅葉_.rc8",
+      "sha256": "b9f4d5ee93782398a21cba0e22faaf350a826313d6b9df673e29e91647479881",
+      "header": "985a929a385f3030830000002b00000007030000",
+      "signature": "8_00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::暮葉_view.rct",
+      "file": "暮葉_view.rct",
+      "sha256": "f06e23d15c3bcd35655f9d7dcee902b3d6bbd3efa1657baf10714252593bc511",
+      "header": "985a929a544330302003000058020000c9100000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001444"
+      ]
+    },
+    {
+      "id": "fastdata.arc::title3_push.rct",
+      "file": "title3_push.rct",
+      "sha256": "968c5ebcc0b43dbe456a171a32e1861169cdd768d274aeedad6ec61844e12e98",
+      "header": "985a929a544330312003000058020000ad570000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000614"
+      ]
+    },
+    {
+      "id": "fastdata.arc::汐見牧師シルエットカット.rc8",
+      "file": "汐見牧師シルエットカット.rc8",
+      "sha256": "ed543f3da55c831b160501f03987c80753f20344d9ad0afff30266e9b66f9b32",
+      "header": "985a929a385f30305d01000058020000ad580000",
+      "signature": "8_00",
+      "width": 349,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001534"
+      ]
+    },
+    {
+      "id": "fastdata.arc::kaisou_sina_.rc8",
+      "file": "kaisou_sina_.rc8",
+      "sha256": "c1c2d9f3227b650ede6bb8616692d012f7cea5574cb6df0fae630b8f71541149",
+      "header": "985a929a385f30302003000058020000ab260000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::真帆子_view.rct",
+      "file": "真帆子_view.rct",
+      "sha256": "029deec4f1cddffb7db289ec2416cfa240c13ca042cd6600b451a5aea5b93a47",
+      "header": "985a929a5443303020030000580200000c130000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001484"
+      ]
+    },
+    {
+      "id": "fastdata.arc::苦しむマスク_.rc8",
+      "file": "苦しむマスク_.rc8",
+      "sha256": "bc7457e2717c4ef2ef7a0bfe7feb63e5d2cd2f6447520fa53eb1079409906521",
+      "header": "985a929a385f30302003000058020000bb8d0200",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::シャッター左_.rc8",
+      "file": "シャッター左_.rc8",
+      "sha256": "55b0620574b1850effb381ad222617f92a1694871f8bf29b50995ac057afe178",
+      "header": "985a929a385f303020030000580200003d0e0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_on_t.rct",
+      "file": "console_on_t.rct",
+      "sha256": "fcbed933452342739699433f28c972d79fe16f71bd00de18cc839fe4e6ac51db",
+      "header": "985a929a544330302003000058020000c95b0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001873"
+      ]
+    },
+    {
+      "id": "fastdata.arc::title1_push.rct",
+      "file": "title1_push.rct",
+      "sha256": "466e9d362be553312ff1befd98cf44a04a658c6666216716d0533e86af6faedc",
+      "header": "985a929a54433031200300005802000024e60100",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000312"
+      ]
+    },
+    {
+      "id": "fastdata.arc::title1_on.rct",
+      "file": "title1_on.rct",
+      "sha256": "3290eef8c2d2e300017fd1d5d2dc500a89b64e4258bcb22373a057b3426bf9eb",
+      "header": "985a929a54433031200300005802000037e30100",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000309"
+      ]
+    },
+    {
+      "id": "fastdata.arc::薄い黒シード.rc8",
+      "file": "薄い黒シード.rc8",
+      "sha256": "2343776eb3e5f5fa06325a54c0acfe39831da453d038a21600426769507d753e",
+      "header": "985a929a385f3030200300005802000019000000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::sl_save_f_.rc8",
+      "file": "sl_save_f_.rc8",
+      "sha256": "19a1b631af7a3a7fc2047077d49ca0cdc903a819c1828ba409e79e406e1b731d",
+      "header": "985a929a385f303020030000580200001d590000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::汐見牧師_view.rct",
+      "file": "汐見牧師_view.rct",
+      "sha256": "1facde4339713b072a61a06e46dcba5f0d75240ed7f165775bde2aacb3b6432c",
+      "header": "985a929a5443303020030000580200000a110000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001544"
+      ]
+    },
+    {
+      "id": "fastdata.arc::麻咲_view_.rc8",
+      "file": "麻咲_view_.rc8",
+      "sha256": "af44663f0f93b927b703be11868d411ee67dfdd923c6d294ff9fc3fb5c3509a3",
+      "header": "985a929a385f30302003000058020000231c0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::extra2_push_.rc8",
+      "file": "extra2_push_.rc8",
+      "sha256": "3c5f7551c6981cf683e705ee3ea06b4053642714d66dc7fcac56a7fdcdbc3c44",
+      "header": "985a929a385f30302003000058020000d6360000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct",
+      "file": "サウンドモード_push.rct",
+      "sha256": "e2f50dd765559b7573f6ae2b1c67f689583f43134b90a9ca35840bfbdddd7210",
+      "header": "985a929a544330302003000058020000d1ba0200",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000154"
+      ]
+    },
+    {
+      "id": "fastdata.arc::ame.rc8",
+      "file": "ame.rc8",
+      "sha256": "5a2387462c208db4213cf910212fc0ed83b1dd45cb44951f0a03476ba292f221",
+      "header": "985a929a385f3030800c0000580200005b000000",
+      "signature": "8_00",
+      "width": 3200,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_5_.rc8",
+      "file": "作曲_クレジット_5_.rc8",
+      "sha256": "b1a0b4443b88042bf106bc26e6427e4f95cc734c80246cc727fa5486f84840eb",
+      "header": "985a929a385f30307c02000026000000ec080000",
+      "signature": "8_00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_off_h_.rc8",
+      "file": "console_off_h_.rc8",
+      "sha256": "761021a67ae10f3429146bc04c6f5d02a5c2d1f25b748e5cc53f750f6c9d8119",
+      "header": "985a929a385f30302003000058020000cf0c0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::汐見牧師_view_.rc8",
+      "file": "汐見牧師_view_.rc8",
+      "sha256": "a8b86c4a5e9abe36c127ec0232dabd0ef7319eb0f7ffd42eb5acbf52f1d04e29",
+      "header": "985a929a385f30302003000058020000b41b0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::名前プレート_まほこ.rct",
+      "file": "名前プレート_まほこ.rct",
+      "sha256": "8ce31f2c5f6daee41d7a2ab9a6d52856b8ed78bd0d6552033dbdd1024ed9cc3a",
+      "header": "985a929a54433030830000002b000000c1320000",
+      "signature": "TC00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::000361"
+      ]
+    },
+    {
+      "id": "fastdata.arc::2nd_makino_.rc8",
+      "file": "2nd_makino_.rc8",
+      "sha256": "bc65c4cbc8d5d4315ce1aa9cf18229472770842bdbd34e470827e1333fc649ab",
+      "header": "985a929a385f3030d700000052000000be0e0000",
+      "signature": "8_00",
+      "width": 215,
+      "height": 82,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::submenu_on_.rc8",
+      "file": "submenu_on_.rc8",
+      "sha256": "5bd2a07b3d6c54e4adcbefc879945d69ee63022079cd1eda2c920e6d1e59b485",
+      "header": "985a929a385f303020030000580200000e1c0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::名前プレート_麻咲.rct",
+      "file": "名前プレート_麻咲.rct",
+      "sha256": "d7bc236b1c2bb64abaa4d911fa6ac294e0e6e51818269b26a07b6b42865b2a36",
+      "header": "985a929a54433030830000002b0000005d340000",
+      "signature": "TC00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::000367"
+      ]
+    },
+    {
+      "id": "fastdata.arc::ヒストリボタン.rct",
+      "file": "ヒストリボタン.rct",
+      "sha256": "f2bc8824570e26b7a995056a82d44437b77d47ce71495b3eed8d91e87d09aa97",
+      "header": "985a929a544330300f000000170000009b020000",
+      "signature": "TC00",
+      "width": 15,
+      "height": 23,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::003174",
+        "history.mjo::001515",
+        "history.mjo::001520",
+        "history.mjo::001525"
+      ]
+    },
+    {
+      "id": "fastdata.arc::momiba3_.rc8",
+      "file": "momiba3_.rc8",
+      "sha256": "998ad2edbc5d853d6fd6a9ea825830c6df4adbb0771a971cf507fad3bdd3d007",
+      "header": "985a929a385f30303a0000003900000089020000",
+      "signature": "8_00",
+      "width": 58,
+      "height": 57,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::その他_view_.rc8",
+      "file": "その他_view_.rc8",
+      "sha256": "97d20a521d84325c2a307897e9f53e2060aee958668b2a512feca7073bc6f3b1",
+      "header": "985a929a385f3030200300005802000098170000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::config_off_.rc8",
+      "file": "config_off_.rc8",
+      "sha256": "4379cf17359976e4853412714e6ab54e3062dcf9b87832a38c9fcd93edb659c7",
+      "header": "985a929a385f3030200300005802000015780000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_14.rct",
+      "file": "作曲_クレジット_14.rct",
+      "sha256": "14c43fda5f4acc35e3dc002aca7a66b26ee80a726e54958877c9f130b41c09b3",
+      "header": "985a929a544330307c02000026000000410c0000",
+      "signature": "TC00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000085"
+      ]
+    },
+    {
+      "id": "fastdata.arc::console_off_h.rct",
+      "file": "console_off_h.rct",
+      "sha256": "0b62e6cd2bbd9af9f082084af6d221ac671035cfe81026461c3ee77cb6cba601",
+      "header": "985a929a544330302003000058020000ff4d0100",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001826",
+        "sightchange.mjo::001834",
+        "sightchange.mjo::001842",
+        "sightchange.mjo::001850",
+        "sightchange.mjo::001858",
+        "start.mjo::001650"
+      ]
+    },
+    {
+      "id": "fastdata.arc::staffrolla_.rc8",
+      "file": "staffrolla_.rc8",
+      "sha256": "e645454fbb83200e5d3a4a7fea9d33d9776fba878b5947394764c30710923c5c",
+      "header": "985a929a385f3030200300003812000066440300",
+      "signature": "8_00",
+      "width": 800,
+      "height": 4664,
+      "role": "credits_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_7.rct",
+      "file": "作曲_クレジット_7.rct",
+      "sha256": "af99d470cdd0775fa7250125fa710ec43dec1c90b7f529423af6d5dc659e3f12",
+      "header": "985a929a544330307c02000026000000e70f0000",
+      "signature": "TC00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000071"
+      ]
+    },
+    {
+      "id": "fastdata.arc::askyesno_base_.rc8",
+      "file": "askyesno_base_.rc8",
+      "sha256": "852dfbfd622cc277c27c46cbeb70d80beee8fe57ce0a8de96fd5f0fb90bc6ecd",
+      "header": "985a929a385f30302003000058020000d41d0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::信哉シルエットカット.rct",
+      "file": "信哉シルエットカット.rct",
+      "sha256": "425fa0ec160463f6bd04c509d3262d0d42fa9bbf680ba7411046d625dcba5f5b",
+      "header": "985a929a54433030a6010000580200002acc0200",
+      "signature": "TC00",
+      "width": 422,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::000063",
+        "sightchange.mjo::000906",
+        "sightchange.mjo::001394"
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct",
+      "file": "sl_load_n.rct",
+      "sha256": "0eabd58d0c79e63a42c1c2759e7b1b1d8c210848d2623bf185d933a91ef73d5b",
+      "header": "985a929a54433030200300005802000030750200",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_on_k_.rc8",
+      "file": "console_on_k_.rc8",
+      "sha256": "3178f5611af4973bbd2f793d7e53d44d09e6f17383b76f5e72dc40c6db7e634c",
+      "header": "985a929a385f30302003000058020000b0090000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::momiba4_.rc8",
+      "file": "momiba4_.rc8",
+      "sha256": "ab3d069a93dbb7128519d499d9006a6e647d3c8f3f42c47bf57d1ae218d31c6c",
+      "header": "985a929a385f30303a0000003900000003030000",
+      "signature": "8_00",
+      "width": 58,
+      "height": 57,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::staffrollb_009.rct",
+      "file": "staffrollb_009.rct",
+      "sha256": "5cad60f251045336cfcdaade9501dadbc3a53c2b25bd99f0ce490742f9260795",
+      "header": "985a929a544330312003000058020000e98f0000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "credits_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::右上▲_ダーク_.rc8",
+      "file": "右上▲_ダーク_.rc8",
+      "sha256": "c783ad43df730fd824d539a4ea7306a89e414e85aca335773a25eef4f7554db8",
+      "header": "985a929a385f30300a0000000a00000037000000",
+      "signature": "8_00",
+      "width": 10,
+      "height": 10,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::title1_null2.rct",
+      "file": "title1_null2.rct",
+      "sha256": "508ba2a175bc90bfe99de133f246bc7ef6fc8f5792a041632351c93ab7b5f119",
+      "header": "985a929a5443303120030000580200006a9b0000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000211"
+      ]
+    },
+    {
+      "id": "fastdata.arc::詩菜_view_.rc8",
+      "file": "詩菜_view_.rc8",
+      "sha256": "49ebbe8b05685f02865bb0740f2d93d78ad642c9f52e39b8ab237c24647bca50",
+      "header": "985a929a385f303020030000580200006f180000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::クロニクル青バー.rct",
+      "file": "クロニクル青バー.rct",
+      "sha256": "600171b5efb9b2c3892d639bf3a948abea78c4a625de7540fc9194a077e33d03",
+      "header": "985a929a544330307600000058020000ea370100",
+      "signature": "TC00",
+      "width": 118,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::003042"
+      ]
+    },
+    {
+      "id": "fastdata.arc::cgm_num_7_.rc8",
+      "file": "cgm_num_7_.rc8",
+      "sha256": "437b64c97d187f822ee10c62bb418e6ff683caf1acefa96313b512c9f0d93ed4",
+      "header": "985a929a385f3030270000002000000080020000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::cgm_num_7.rc8",
+      "file": "cgm_num_7.rc8",
+      "sha256": "c2014826a819908c9b30e83bb345e51196ac9786efe22be20cedc93dec04b748",
+      "header": "985a929a385f30302700000020000000ff010000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::momiba4.rct",
+      "file": "momiba4.rct",
+      "sha256": "9f268e38672c96e00bcf72deb314ce052b230bedda422f236221ca4ef1099a48",
+      "header": "985a929a544330303a000000390000004e110000",
+      "signature": "TC00",
+      "width": 58,
+      "height": 57,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::sl_load_f_.rc8",
+      "file": "sl_load_f_.rc8",
+      "sha256": "c34fe087f430c0d121580aebf48a521a073abc47d4cd7f88708bc83e678463fe",
+      "header": "985a929a385f303020030000580200005f590000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_off_s.rct",
+      "file": "console_off_s.rct",
+      "sha256": "1c3e68b2f14464a3bac1a4b19c0bf890d87efca1f2313a5f4c1b312ecf33ce29",
+      "header": "985a929a5443303020030000580200007d730200",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::000815",
+        "sightchange.mjo::001323",
+        "sightchange.mjo::001810"
+      ]
+    },
+    {
+      "id": "fastdata.arc::chapter_on.rct",
+      "file": "chapter_on.rct",
+      "sha256": "f85d16d2ee499e25f07afa306537fd70030d13a0251eb78e130bb5ee55c367c1",
+      "header": "985a929a544330312003000058020000e1840000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000893"
+      ]
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_2_.rc8",
+      "file": "作曲_クレジット_2_.rc8",
+      "sha256": "703b26be3863d1cef1b2d8c9905d8f446ee25eb7b8a6f45fc54c86d58e07cda9",
+      "header": "985a929a385f30307c020000260000002e0e0000",
+      "signature": "8_00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::submenu_push.rct",
+      "file": "submenu_push.rct",
+      "sha256": "b9701ffae79be9855153dcdc23391ee53dc04f4a67aacedc1e55c85b45513b4a",
+      "header": "985a929a54433030200300005802000002550300",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "pausemenu.mjo::000867"
+      ]
+    },
+    {
+      "id": "fastdata.arc::auto.rc8",
+      "file": "auto.rc8",
+      "sha256": "1f916204a547aaeea3069b5ecd581683f22894d71e062ca4a046934791f10d17",
+      "header": "985a929a385f30304a00000010000000a8010000",
+      "signature": "8_00",
+      "width": 74,
+      "height": 16,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::名前プレート_上条_.rc8",
+      "file": "名前プレート_上条_.rc8",
+      "sha256": "b59ee6495ad84dbf27aec1b110c1ea42d2f6aeaaa5ced5f0b370f5f28abb5655",
+      "header": "985a929a385f3030830000002b0000004d030000",
+      "signature": "8_00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_12_.rc8",
+      "file": "作曲_クレジット_12_.rc8",
+      "sha256": "79dba13329eafe451059b1e1a249d0015c70d61e6b44a7e0101c99f1548c9f42",
+      "header": "985a929a385f30307c02000026000000aa030000",
+      "signature": "8_00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::voice_on_.rc8",
+      "file": "voice_on_.rc8",
+      "sha256": "410fedf6aa5384425a656b457c58c8969e10596da3273daa5fd273ef356607b8",
+      "header": "985a929a385f3030200000001b000000e3000000",
+      "signature": "8_00",
+      "width": 32,
+      "height": 27,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_on_e.rct",
+      "file": "console_on_e.rct",
+      "sha256": "5512a63a5d77cad2151a0c42911f5ffd9a2af8fb8f82269f68666e3c0c80f365",
+      "header": "985a929a5443303020030000580200001e610000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "c_setumei.mjo::000006",
+        "sightchange.mjo::001865",
+        "sightchange.mjo::001881",
+        "staffroom.mjo::000045"
+      ]
+    },
+    {
+      "id": "fastdata.arc::★ブランドロゴ.rct",
+      "file": "★ブランドロゴ.rct",
+      "sha256": "bbd31b8e5a221f887285cfa9a13facfba7348c9c8b93575caa446bdb21d5230a",
+      "header": "985a929a54433030200300005802000040120000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000149"
+      ]
+    },
+    {
+      "id": "fastdata.arc::選択肢台_.rc8",
+      "file": "選択肢台_.rc8",
+      "sha256": "ff42391672c41c0a6f3b04f860a3321815b96ddd81ba517583c7d341bdab6bc8",
+      "header": "985a929a385f30302003000058020000dc0f0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::上条シルエットカット_.rc8",
+      "file": "上条シルエットカット_.rc8",
+      "sha256": "b4dc4899ba505e9b82eb8abd269a96da5acab0683e428627befdae91c4048f16",
+      "header": "985a929a385f3030610100005802000027230000",
+      "signature": "8_00",
+      "width": 353,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::汐見トオルシルエットカット.rct",
+      "file": "汐見トオルシルエットカット.rct",
+      "sha256": "92b3fb62d9b30632310b2e41d2039830532232a0c1f1a3534c0ce3297213aaa3",
+      "header": "985a929a544330304f0100005802000062b80000",
+      "signature": "TC00",
+      "width": 335,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001554"
+      ]
+    },
+    {
+      "id": "fastdata.arc::1st_shinya.rct",
+      "file": "1st_shinya.rct",
+      "sha256": "eefee2ca3cc24b74639a8312994f22c0767320fe6863a0a2bc244f5e4b06022f",
+      "header": "985a929a54433030d700000052000000c0570000",
+      "signature": "TC00",
+      "width": 215,
+      "height": 82,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::submenu_下敷き.rc8",
+      "file": "submenu_下敷き.rc8",
+      "sha256": "a1af036fb2b4b75c3f5d833071f4bf5e95239ab664d10a3aea11da8a6039c02f",
+      "header": "985a929a385f3030200300005802000036380000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "pausemenu.mjo::000304"
+      ]
+    },
+    {
+      "id": "fastdata.arc::kaisou_nanako_.rc8",
+      "file": "kaisou_nanako_.rc8",
+      "sha256": "9e2b7f29fc5bed649f8f1dadd91d29d16ed23cf10b32e5ce2fc5821dffcec288",
+      "header": "985a929a385f30302003000058020000901c0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::staffrollb_002.rct",
+      "file": "staffrollb_002.rct",
+      "sha256": "b660fef8e81e2f35f39f89633689becfabe6736f96f057ae9bdb66ee30cda6ba",
+      "header": "985a929a544330312003000058020000e1410000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "credits_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::momiba8_.rc8",
+      "file": "momiba8_.rc8",
+      "sha256": "bd3372bbdf509b474caba84e76fcbfad4e100f9a72635e0ca4ddbef1f1d74063",
+      "header": "985a929a385f30303a00000039000000be040000",
+      "signature": "8_00",
+      "width": 58,
+      "height": 57,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::苦しむマスク.rc8",
+      "file": "苦しむマスク.rc8",
+      "sha256": "2343776eb3e5f5fa06325a54c0acfe39831da453d038a21600426769507d753e",
+      "header": "985a929a385f3030200300005802000019000000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::名前プレート_暮葉_.rc8",
+      "file": "名前プレート_暮葉_.rc8",
+      "sha256": "6e2ac7ddd1db999aa5a4c86ffa2c3c4bb06eb695740727f951a738a6e512973c",
+      "header": "985a929a385f3030830000002b000000b8020000",
+      "signature": "8_00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_push_h.rct",
+      "file": "console_push_h.rct",
+      "sha256": "e2d3a714233dd1568146b541d1d1c96e3126683cfc1df1aabacab10aeb64e2ee",
+      "header": "985a929a5443303020030000580200007a5e0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_push_e_.rc8",
+      "file": "console_push_e_.rc8",
+      "sha256": "2f5f829d027df1a643ca11cde969de48ee62fa938f2cc49dcbb841ec449cd424",
+      "header": "985a929a385f303020030000580200003c090000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::真帆子シルエットカット.rct",
+      "file": "真帆子シルエットカット.rct",
+      "sha256": "98fc634b3a33a535cbfac7f2736cb4535a386e80ee6f3be367d7639bfc8d1e22",
+      "header": "985a929a54433030240200005802000064200100",
+      "signature": "TC00",
+      "width": 548,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001474"
+      ]
+    },
+    {
+      "id": "fastdata.arc::汐見トオル_view_.rc8",
+      "file": "汐見トオル_view_.rc8",
+      "sha256": "18e29cb94e6f513a9961bfe99c586e439d9d46456475b12d1384b500c17502a7",
+      "header": "985a929a385f30302003000058020000ca150000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::cgm_num_5.rc8",
+      "file": "cgm_num_5.rc8",
+      "sha256": "303eaf9c824aac13f6fcb0d05a67592ac007a46ade588fd3184dca16de46f3e6",
+      "header": "985a929a385f3030270000002000000044020000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::レイアウトサンプル.rct",
+      "file": "レイアウトサンプル.rct",
+      "sha256": "15813de071d1978bb019c6f6655f6b1ca4c8feb0bc420488dd64a7f17c6e577f",
+      "header": "985a929a5443303020030000580200009d801000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::momiba6.rct",
+      "file": "momiba6.rct",
+      "sha256": "35c5b464f44cacad06e555fa76483c12651410dd7bf4affa2e6237957223451f",
+      "header": "985a929a544330303a00000039000000de050000",
+      "signature": "TC00",
+      "width": 58,
+      "height": 57,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_off_s_.rc8",
+      "file": "console_off_s_.rc8",
+      "sha256": "07397d6365ff2cf17c542f61bbf9845b8e101dc99e5b7e5338fce92a8bcadab8",
+      "header": "985a929a385f30302003000058020000eb0b0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::シャッター上.rct",
+      "file": "シャッター上.rct",
+      "sha256": "018c438078dcb55ea886cd77806219e520eaa006ba1079e60bdd5c453476e9d2",
+      "header": "985a929a544330302003000058020000a73f0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::サブエピソード用の枠_.rc8",
+      "file": "サブエピソード用の枠_.rc8",
+      "sha256": "b0ef42aabf5afebaa5c872bd74adabf5064cd9a02c207383dc2e7b24792dded2",
+      "header": "985a929a385f3030880000003400000029020000",
+      "signature": "8_00",
+      "width": 136,
+      "height": 52,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct",
+      "file": "サウンドモード_on.rct",
+      "sha256": "da019a534b1c0d6389262eab25612aefaf956f7fb16e087c9248cd3dcc11fb14",
+      "header": "985a929a5443303020030000580200003fb70200",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000149"
+      ]
+    },
+    {
+      "id": "fastdata.arc::black.rct",
+      "file": "black.rct",
+      "sha256": "1e19d919ef06a4a70d03952228668fd881f34865f458921c05e6728674d1dff3",
+      "header": "985a929a54433030200300005802000045000000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "c_setumei.mjo::000010",
+        "cgmode.mjo::001998",
+        "cgmode.mjo::002040",
+        "cgmode.mjo::002128",
+        "cgmode.mjo::002211",
+        "cgmode.mjo::002333",
+        "cgmode.mjo::002385",
+        "menu.mjo::000499",
+        "message_box.mjo::000363",
+        "pausemenu.mjo::000826",
+        "sightchange.mjo::000038",
+        "sightchange.mjo::000782",
+        "sightchange.mjo::000793",
+        "sightchange.mjo::000858",
+        "sightchange.mjo::001290",
+        "sightchange.mjo::001301",
+        "sightchange.mjo::001361",
+        "sightchange.mjo::001777",
+        "sightchange.mjo::001788",
+        "staffroll.mjo::000204",
+        "staffroom.mjo::000067",
+        "start.mjo::000162",
+        "start.mjo::001705"
+      ]
+    },
+    {
+      "id": "fastdata.arc::名前プレート_詞菜.rct",
+      "file": "名前プレート_詞菜.rct",
+      "sha256": "07d82730369439c13605faec50bfbac06b5e81cc10ec08c36c28d4e67f0b1f10",
+      "header": "985a929a54433031830000002b00000092080000",
+      "signature": "TC01",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::000365"
+      ]
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_9_.rc8",
+      "file": "作曲_クレジット_9_.rc8",
+      "sha256": "6942d55cb2bd7ade999cd1a58569f5cc574083873e90e00b557d464fe7a65daf",
+      "header": "985a929a385f30307c02000026000000f0040000",
+      "signature": "8_00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::カーソル、グー_.rc8",
+      "file": "カーソル、グー_.rc8",
+      "sha256": "91aa5e12214338307a18c0d287539d1f2f15a3965409eb9d7bc43e444befc52a",
+      "header": "985a929a385f3030180000001800000093000000",
+      "signature": "8_00",
+      "width": 24,
+      "height": 24,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_off_t_.rc8",
+      "file": "console_off_t_.rc8",
+      "sha256": "21555662b20f180d2174f24163e538afa905f59e01b0c4317caa3eb22f3be9be",
+      "header": "985a929a385f30302003000058020000e20c0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::config_off.rct",
+      "file": "config_off.rct",
+      "sha256": "a798da6cb3cff18aa217f9723a501f4f8395e4dc404e2572bbf2c1c1d96a5107",
+      "header": "985a929a544330302003000058020000ee1d0800",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::上条シルエットカット.rct",
+      "file": "上条シルエットカット.rct",
+      "sha256": "79f467b354bafddb9f47f391673c6a2b52f636e61772601829bd92d5d7de912e",
+      "header": "985a929a5443303061010000580200008bb90000",
+      "signature": "TC00",
+      "width": 353,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001414"
+      ]
+    },
+    {
+      "id": "fastdata.arc::もみじ_view.rct",
+      "file": "もみじ_view.rct",
+      "sha256": "268d991bf6b99730e262ea751f825cf615155385649841f2957a29a9dc2aeed6",
+      "header": "985a929a544330302003000058020000a9110000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001464"
+      ]
+    },
+    {
+      "id": "fastdata.arc::kaisou_masaki_.rc8",
+      "file": "kaisou_masaki_.rc8",
+      "sha256": "186a01a2e512cabe871e3addb16717a2be680b952566b0d75ee5154287e0aaa3",
+      "header": "985a929a385f30302003000058020000e91f0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_5.rct",
+      "file": "作曲_クレジット_5.rct",
+      "sha256": "ac01fb1b5c0d5c0634cbc1999f1de3baae835e94f77fc6a0f2c61a9359ebb2fd",
+      "header": "985a929a544330307c020000260000007f120000",
+      "signature": "TC00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000067"
+      ]
+    },
+    {
+      "id": "fastdata.arc::kaisou_sina.rct",
+      "file": "kaisou_sina.rct",
+      "sha256": "f50ff311c99eb805b7045637c935be36a3a7993e5d0cb9337ab79ea59e9c9a18",
+      "header": "985a929a54433030200300005802000054930100",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "cgmode.mjo::000093"
+      ]
+    },
+    {
+      "id": "fastdata.arc::名前プレート_上条.rct",
+      "file": "名前プレート_上条.rct",
+      "sha256": "29af2e41b58f0d99db855e4447836e4d4ad270fe31d226fb5091bba3445482cc",
+      "header": "985a929a54433031830000002b000000cf080000",
+      "signature": "TC01",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::000353"
+      ]
+    },
+    {
+      "id": "fastdata.arc::title3_on.rct",
+      "file": "title3_on.rct",
+      "sha256": "3695047c1f36b7ac26bca2c1b2dd40c4bde0a8060eb373c35bf5f64f3ceec4bf",
+      "header": "985a929a544330312003000058020000a5540000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000611"
+      ]
+    },
+    {
+      "id": "fastdata.arc::名前プレート_まほこ母.rct",
+      "file": "名前プレート_まほこ母.rct",
+      "sha256": "b209f5003fcffc04246f6868a8bc7bb85e1f7e3489d4b41923b08e40d4bc5a65",
+      "header": "985a929a54433030830000002b00000031300000",
+      "signature": "TC00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::000363"
+      ]
+    },
+    {
+      "id": "fastdata.arc::名前プレート_詞菜_.rc8",
+      "file": "名前プレート_詞菜_.rc8",
+      "sha256": "b9f4d5ee93782398a21cba0e22faaf350a826313d6b9df673e29e91647479881",
+      "header": "985a929a385f3030830000002b00000007030000",
+      "signature": "8_00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::バックログ画面.rct",
+      "file": "バックログ画面.rct",
+      "sha256": "12bfa456e538397ea1ea4ca0a89fa0dea04046e91e6380002e3719e1c45012d9",
+      "header": "985a929a544330302003000058020000a4390400",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "history.mjo::000756"
+      ]
+    },
+    {
+      "id": "fastdata.arc::1st_makino_.rc8",
+      "file": "1st_makino_.rc8",
+      "sha256": "bc65c4cbc8d5d4315ce1aa9cf18229472770842bdbd34e470827e1333fc649ab",
+      "header": "985a929a385f3030d700000052000000be0e0000",
+      "signature": "8_00",
+      "width": 215,
+      "height": 82,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_push_s.rct",
+      "file": "console_push_s.rct",
+      "sha256": "9f71e688c72f094e02c7f9ff3ff10094e30fcb07f455fcac910e74633e2b311a",
+      "header": "985a929a544330302003000058020000036b0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::kaisou_nanako.rct",
+      "file": "kaisou_nanako.rct",
+      "sha256": "dfb7f1b83e9d9ae5bdc05160888767f1b9a06ca3698942b5e837aa1c239e8d86",
+      "header": "985a929a54433030200300005802000011490100",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "cgmode.mjo::000089"
+      ]
+    },
+    {
+      "id": "fastdata.arc::名前プレート_？？？.rct",
+      "file": "名前プレート_？？？.rct",
+      "sha256": "f3f39be3fb6f062c145eea6d2a859f47ed2174580d80c14a0fc1b96712633b32",
+      "header": "985a929a54433030830000002b0000006c2a0000",
+      "signature": "TC00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::000385"
+      ]
+    },
+    {
+      "id": "fastdata.arc::視点変更背景_off.rct",
+      "file": "視点変更背景_off.rct",
+      "sha256": "f7c080151a25572ffa22d26d1bf50fc6171d234d66f87a1fa4e0dceab45aaedd",
+      "header": "985a929a544330312003000058020000db8e0000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::000265",
+        "sightchange.mjo::000273"
+      ]
+    },
+    {
+      "id": "fastdata.arc::もみじシルエットカット_.rc8",
+      "file": "もみじシルエットカット_.rc8",
+      "sha256": "0ccce79c1bbbded537b5957b4f0579976762ecb2a2de5efc4e1828eeab4b06a5",
+      "header": "985a929a385f303053020000580200002d7d0000",
+      "signature": "8_00",
+      "width": 595,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::kaisou_yue_.rc8",
+      "file": "kaisou_yue_.rc8",
+      "sha256": "5039d2b49dea1f5a421241dbc975ba932eccdefcce6f3bed21255b2b6590950e",
+      "header": "985a929a385f303020030000580200004d210000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::waku_mh_.rc8",
+      "file": "waku_mh_.rc8",
+      "sha256": "eb5be9b01349c68948522e88374092a0b7c1f0d35a398d4c958a255afafe6c7a",
+      "header": "985a929a385f303064010000b400000060000000",
+      "signature": "8_00",
+      "width": 356,
+      "height": 180,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::3rd_shinya_.rc8",
+      "file": "3rd_shinya_.rc8",
+      "sha256": "8a5d683a7bcd7fc8fdee84944e1b552e933262437aa2a11db078e9e5b6d27617",
+      "header": "985a929a385f3030d700000052000000840e0000",
+      "signature": "8_00",
+      "width": 215,
+      "height": 82,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::選択肢台.rct",
+      "file": "選択肢台.rct",
+      "sha256": "6e9e718f25882d3e4f3a67a041af9c257a2d6838c8ddfa774f990569d3730d0d",
+      "header": "985a929a544330302003000058020000164c0200",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::config_push_.rc8",
+      "file": "config_push_.rc8",
+      "sha256": "3fa2d86a947284cf05fc992dd2dc49a05ca6539a349ad5ded5e3133d2445b527",
+      "header": "985a929a385f30302003000058020000db760000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::momiba1_.rc8",
+      "file": "momiba1_.rc8",
+      "sha256": "b64470b327aff28d305b1073f84f2f3a41bd2d427a6ff3353a26462bb8f5dbda",
+      "header": "985a929a385f30303a0000003900000015040000",
+      "signature": "8_00",
+      "width": 58,
+      "height": 57,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::auto_.rc8",
+      "file": "auto_.rc8",
+      "sha256": "85e25f4d37cef606b3f4e3903e12a36d599396cef416cd7ca9e0eccd0d757f22",
+      "header": "985a929a385f30304a000000100000004a020000",
+      "signature": "8_00",
+      "width": 74,
+      "height": 16,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::chapter_on_.rc8",
+      "file": "chapter_on_.rc8",
+      "sha256": "6f6afe81d5f3276e1f5aa0d5453516747205457670c4ce66b53bd679ebc7ff32",
+      "header": "985a929a385f30302003000058020000485e0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::右上▲_ライト.rct",
+      "file": "右上▲_ライト.rct",
+      "sha256": "872d1dfa25a007781b83ce2d1963e72849240ffbdbb5d1225b8f98daef5680b9",
+      "header": "985a929a544330300a0000000a00000097000000",
+      "signature": "TC00",
+      "width": 10,
+      "height": 10,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::002232"
+      ]
+    },
+    {
+      "id": "fastdata.arc::chapter_off_1_.rc8",
+      "file": "chapter_off_1_.rc8",
+      "sha256": "6f6afe81d5f3276e1f5aa0d5453516747205457670c4ce66b53bd679ebc7ff32",
+      "header": "985a929a385f30302003000058020000485e0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::staffroom_off.rct",
+      "file": "staffroom_off.rct",
+      "sha256": "1cbec35657e708b570a73e9ba7d6aff26e18665da9e07ea80d657bb4a51df59a",
+      "header": "985a929a5443303020030000580200008d590600",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "staffroom.mjo::000081"
+      ]
+    },
+    {
+      "id": "fastdata.arc::クロニクル枠_on.rct",
+      "file": "クロニクル枠_on.rct",
+      "sha256": "caa631d2dfb27c7d8512df762929474d2414b32320014c839e3c15712edf3e3e",
+      "header": "985a929a5443303120030000580200004f4e0000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::003267"
+      ]
+    },
+    {
+      "id": "fastdata.arc::シャッター右.rct",
+      "file": "シャッター右.rct",
+      "sha256": "246cca4e8c39168f91cc39fa06bda0db13e4bbff8b4e07a4679401188184c4cc",
+      "header": "985a929a54433030200300005802000030290000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::cgm_num_2_.rc8",
+      "file": "cgm_num_2_.rc8",
+      "sha256": "68cc7799b9b9c60bc4a4980e6896f31bf26a9d087140f9330835b85312a4fdec",
+      "header": "985a929a385f30302700000020000000c3020000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::名前プレート_麻咲_.rc8",
+      "file": "名前プレート_麻咲_.rc8",
+      "sha256": "64c566c1122b9d5638ada3765928d4a3179798b0d3610255920e0254bf9d3dba",
+      "header": "985a929a385f3030830000002b000000ac020000",
+      "signature": "8_00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::skip.rc8",
+      "file": "skip.rc8",
+      "sha256": "db6e489f55ac4c2fafaa476ade9375985610b913af607c1276a3e4f8bf7af7b9",
+      "header": "985a929a385f30304a00000010000000a4010000",
+      "signature": "8_00",
+      "width": 74,
+      "height": 16,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_4.rct",
+      "file": "作曲_クレジット_4.rct",
+      "sha256": "3ea8099f5502b3a8851ae1c2acfd093a94ba0fd709e16708e1dd4214b26a3229",
+      "header": "985a929a544330307c02000026000000930a0000",
+      "signature": "TC00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000065"
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_off_.rc8",
+      "file": "extra2_off_.rc8",
+      "sha256": "dd4d4384afe96ef1d5544c2a00f02d043a46fe5110fbd66d81014f43b711f7f4",
+      "header": "985a929a385f30302003000058020000ad340000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_off_k.rct",
+      "file": "console_off_k.rct",
+      "sha256": "e5811cc27e959b0120fb7859bc2b2a6083a52e5a46aecea572ced4937b340e57",
+      "header": "985a929a54433030200300005802000007520100",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001818"
+      ]
+    },
+    {
+      "id": "fastdata.arc::バックログ画面_.rc8",
+      "file": "バックログ画面_.rc8",
+      "sha256": "3a936e974b1c670182408160676600aa5c02618cf881b9094896a96e5f15fea1",
+      "header": "985a929a385f30302003000058020000fe380000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::クロニクル灰バー_.rc8",
+      "file": "クロニクル灰バー_.rc8",
+      "sha256": "eee7bd8aa5e49177de6d09ca52724dbfa1822f8e25e2b591935922260a79104e",
+      "header": "985a929a385f3030760000005802000057030000",
+      "signature": "8_00",
+      "width": 118,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_7_.rc8",
+      "file": "作曲_クレジット_7_.rc8",
+      "sha256": "f528be81528c153adac9c48b9463df6e0ded658113fdc5529b37a607357380c9",
+      "header": "985a929a385f30307c020000260000003d070000",
+      "signature": "8_00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::麻咲シルエットカット_.rc8",
+      "file": "麻咲シルエットカット_.rc8",
+      "sha256": "d95e418ed48a863b40421eb9147210f33e8760dbc385c80b017ec9bfa7a86e79",
+      "header": "985a929a385f30307f010000580200007b290000",
+      "signature": "8_00",
+      "width": 383,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::config_on_.rc8",
+      "file": "config_on_.rc8",
+      "sha256": "fe609a989d5f6d1d8bd3d4512f87827516891bf0959e06ffbb07118d204c0927",
+      "header": "985a929a385f30302003000058020000ec770000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::クロニクル灰バー.rc8",
+      "file": "クロニクル灰バー.rc8",
+      "sha256": "6fbcc1b6346b5a5b6b9b68113c0a1464fbe71457bbdc695de49bca7d371338d2",
+      "header": "985a929a385f30307600000058020000808b0000",
+      "signature": "8_00",
+      "width": 118,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::002978"
+      ]
+    },
+    {
+      "id": "fastdata.arc::submenu_下敷き_.rc8",
+      "file": "submenu_下敷き_.rc8",
+      "sha256": "8428aeaaa33e639cafbcf07b4b962ddfac3efa083eebf079f937263a4b4e1d3d",
+      "header": "985a929a385f3030200300005802000036380000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::momiba7.rct",
+      "file": "momiba7.rct",
+      "sha256": "76d574af10b355f1f8b5f1887efd1e54226c17a8b7b31965f0df2e7dae0dd975",
+      "header": "985a929a544330303a000000390000008b0b0000",
+      "signature": "TC00",
+      "width": 58,
+      "height": 57,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::chapter_push_.rc8",
+      "file": "chapter_push_.rc8",
+      "sha256": "6f6afe81d5f3276e1f5aa0d5453516747205457670c4ce66b53bd679ebc7ff32",
+      "header": "985a929a385f30302003000058020000485e0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_on_m.rct",
+      "file": "console_on_m.rct",
+      "sha256": "03ba55366f02833caf64f769bd7aaab8b324680e37b9b56690ea4a432b2c2541",
+      "header": "985a929a5443303020030000580200002f6d0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::000806",
+        "sightchange.mjo::001314",
+        "sightchange.mjo::001801",
+        "start.mjo::001546",
+        "start.mjo::001596",
+        "start.mjo::001638"
+      ]
+    },
+    {
+      "id": "fastdata.arc::wink.rc8",
+      "file": "wink.rc8",
+      "sha256": "b6a0fa189800fdac0ffc37ed33dfb226f1a02faad67e7415aa3324e3f5ffebbf",
+      "header": "985a929a385f3030200000002000000061000000",
+      "signature": "8_00",
+      "width": 32,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::信哉シルエットカット小.rct",
+      "file": "信哉シルエットカット小.rct",
+      "sha256": "1f944b1f1b00f21158a0e2eaf52b4f48ca9b229105a389d15f297f3d5e3c5425",
+      "header": "985a929a544330306d00000052010000c3080100",
+      "signature": "TC00",
+      "width": 109,
+      "height": 338,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::000051",
+        "sightchange.mjo::000900"
+      ]
+    },
+    {
+      "id": "fastdata.arc::cgm_num_4.rc8",
+      "file": "cgm_num_4.rc8",
+      "sha256": "482dcff4c45adea8c8234e0d7c66d522be01c3a5159e260bea8e5c33c4790cca",
+      "header": "985a929a385f3030270000002000000047020000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_push_k_.rc8",
+      "file": "console_push_k_.rc8",
+      "sha256": "3178f5611af4973bbd2f793d7e53d44d09e6f17383b76f5e72dc40c6db7e634c",
+      "header": "985a929a385f30302003000058020000b0090000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_10_.rc8",
+      "file": "作曲_クレジット_10_.rc8",
+      "sha256": "c34b40c4ddd63944e249d6318785209d78304c18152ba362aea4d00d375fcb26",
+      "header": "985a929a385f30307c02000026000000be030000",
+      "signature": "8_00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::title1_null.rct",
+      "file": "title1_null.rct",
+      "sha256": "a7fcc8fbdd602c738873adf1c548b303077eaad07fc3350dfbaac7544039db3f",
+      "header": "985a929a54433030200300005802000026b70a00",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000221",
+        "start.mjo::000367",
+        "start.mjo::000408",
+        "start.mjo::000582",
+        "start.mjo::000667"
+      ]
+    },
+    {
+      "id": "fastdata.arc::汐見牧師シルエットカット_.rc8",
+      "file": "汐見牧師シルエットカット_.rc8",
+      "sha256": "d0ea72b93d77a9824a392a90a0c3b0db153efe36bd693a7cf7761d1512fefe0a",
+      "header": "985a929a385f30305d01000058020000d51f0000",
+      "signature": "8_00",
+      "width": 349,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::3rd_shinya.rct",
+      "file": "3rd_shinya.rct",
+      "sha256": "c185eddfbbdbe35a10c15a85c98f2001ee024978c68a16884ac3294cf378211a",
+      "header": "985a929a54433030d700000052000000d2580000",
+      "signature": "TC00",
+      "width": 215,
+      "height": 82,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::2nd_makino.rct",
+      "file": "2nd_makino.rct",
+      "sha256": "c232363d9ed9b82754ac4c2a7978645dd6168aa2accba0f209a4f0ee28cc8e3e",
+      "header": "985a929a54433030d700000052000000c1650000",
+      "signature": "TC00",
+      "width": 215,
+      "height": 82,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::麻咲シルエットカット.rct",
+      "file": "麻咲シルエットカット.rct",
+      "sha256": "bdd017a26620a6247f4d7fb3274eed8adf86ead7a47c76d41ba8a8612b5f438d",
+      "header": "985a929a544330307f010000580200009af20000",
+      "signature": "TC00",
+      "width": 383,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001514"
+      ]
+    },
+    {
+      "id": "fastdata.arc::名前プレート_まほこ_.rc8",
+      "file": "名前プレート_まほこ_.rc8",
+      "sha256": "6e2ac7ddd1db999aa5a4c86ffa2c3c4bb06eb695740727f951a738a6e512973c",
+      "header": "985a929a385f3030830000002b000000b8020000",
+      "signature": "8_00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_off_m_.rc8",
+      "file": "console_off_m_.rc8",
+      "sha256": "62b20945f64e7c4c5508f094136f3547cdf9af8b9965359cd61e4677d00fb282",
+      "header": "985a929a385f30302003000058020000b70c0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::名前プレート_槙野_.rc8",
+      "file": "名前プレート_槙野_.rc8",
+      "sha256": "64c566c1122b9d5638ada3765928d4a3179798b0d3610255920e0254bf9d3dba",
+      "header": "985a929a385f3030830000002b000000ac020000",
+      "signature": "8_00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::kaisou_yue.rct",
+      "file": "kaisou_yue.rct",
+      "sha256": "1b472a39350913efc129ead460623d0e0fc5c35f2f659151e3bf9004c4e4a404",
+      "header": "985a929a544330302003000058020000e4d20100",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "cgmode.mjo::000099",
+        "cgmode.mjo::000101"
+      ]
+    },
+    {
+      "id": "fastdata.arc::信哉_view_.rc8",
+      "file": "信哉_view_.rc8",
+      "sha256": "7db67e4e27c5dd5faf3a3f74b2faa5477f62ae9f006cd16b6e765b2fa18765dc",
+      "header": "985a929a385f30302003000058020000bb1b0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::submenu_push_.rc8",
+      "file": "submenu_push_.rc8",
+      "sha256": "be50f7ddd35a481d85646cd96aefa78be489f7d9ec5680460d78cffbcd24d597",
+      "header": "985a929a385f3030200300005802000030190000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::視点変更背景_on.rct",
+      "file": "視点変更背景_on.rct",
+      "sha256": "745f3f277aa49d1b1fe87ddc0cbf87c0609de1e75eb2450afd6f1d704a77b640",
+      "header": "985a929a5443303120030000580200000a980000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::000288"
+      ]
+    },
+    {
+      "id": "fastdata.arc::シャッター右_.rc8",
+      "file": "シャッター右_.rc8",
+      "sha256": "ca0f6c372084c3850142c949cffb6396589622587af87831e297f58f6397a408",
+      "header": "985a929a385f303020030000580200003b0e0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::staffrollb_003.rct",
+      "file": "staffrollb_003.rct",
+      "sha256": "7ca3ba923d975812cf34a172f587c4df8606cb53b2fc5f20c4015f10cfc3bf82",
+      "header": "985a929a54433031200300005802000066d80000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "credits_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::cgm_num_5_.rc8",
+      "file": "cgm_num_5_.rc8",
+      "sha256": "465d82734b11ff33622cae5e08672b4625845bedac559fd05352cb6ed3f215b5",
+      "header": "985a929a385f30302700000020000000c2020000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::skip_.rc8",
+      "file": "skip_.rc8",
+      "sha256": "c488fa5edd90f1539099a46629412851bedad7d68b36d23f5623a5eb4549e988",
+      "header": "985a929a385f30304a000000100000004b020000",
+      "signature": "8_00",
+      "width": 74,
+      "height": 16,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::momiba6_.rc8",
+      "file": "momiba6_.rc8",
+      "sha256": "f049b14cabf8e208a06f67c6ac923b08cc615f32161c85d13d99515e8ad3b583",
+      "header": "985a929a385f30303a000000390000007c010000",
+      "signature": "8_00",
+      "width": 58,
+      "height": 57,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::waku_mh.rct",
+      "file": "waku_mh.rct",
+      "sha256": "818a140a1cfb85b5f770620afa5655be08ade323e08cd7d73b267c568b7b6341",
+      "header": "985a929a5443303064010000b4000000df010000",
+      "signature": "TC00",
+      "width": 356,
+      "height": 180,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "console.mjo::004020"
+      ]
+    },
+    {
+      "id": "fastdata.arc::名前プレート_ゆえ_.rc8",
+      "file": "名前プレート_ゆえ_.rc8",
+      "sha256": "b59ee6495ad84dbf27aec1b110c1ea42d2f6aeaaa5ced5f0b370f5f28abb5655",
+      "header": "985a929a385f3030830000002b0000004d030000",
+      "signature": "8_00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::サブエピソード用の枠.rct",
+      "file": "サブエピソード用の枠.rct",
+      "sha256": "896d16925f8f21233885acefbe05761b7589a13fae91d6828a101b638b1eabbd",
+      "header": "985a929a5443303088000000340000009b0c0000",
+      "signature": "TC00",
+      "width": 136,
+      "height": 52,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::004354"
+      ]
+    },
+    {
+      "id": "fastdata.arc::voice_off.rct",
+      "file": "voice_off.rct",
+      "sha256": "391fc1bc30e98a9cf54d74832e848193eab82ec666a8abd0270ee9e038280e67",
+      "header": "985a929a54433030200000001b000000ab020000",
+      "signature": "TC00",
+      "width": 32,
+      "height": 27,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "history.mjo::001534"
+      ]
+    },
+    {
+      "id": "fastdata.arc::console_push_m.rct",
+      "file": "console_push_m.rct",
+      "sha256": "96f15bf72def71dd12016365776dbaa1829e5971ed1131582b22050e61e3d6c4",
+      "header": "985a929a544330302003000058020000396d0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_push_t_.rc8",
+      "file": "console_push_t_.rc8",
+      "sha256": "0775ec7435e34332ba7dd377b1fcfc62c95a8ee9af82970f04a37e000aa5de21",
+      "header": "985a929a385f30302003000058020000a1090000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::chapter_off_1.rct",
+      "file": "chapter_off_1.rct",
+      "sha256": "e0440ebbb68b8964bd580990cadb1c807caddd118e4d7d56f759776d3ad51f70",
+      "header": "985a929a54433030200300005802000095f60000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000773"
+      ]
+    },
+    {
+      "id": "fastdata.arc::momiba3.rct",
+      "file": "momiba3.rct",
+      "sha256": "b9fe002d42985e226321ca8ba9378f4006491edec1c5a6f8741d79eb28dcf2a5",
+      "header": "985a929a544330303a00000039000000d10b0000",
+      "signature": "TC00",
+      "width": 58,
+      "height": 57,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::上条_view.rct",
+      "file": "上条_view.rct",
+      "sha256": "a9ab8f9210133ce47abc0cd4014f7c54a7989f538a6187f2d32ab2177c6c4937",
+      "header": "985a929a5443303020030000580200004c110000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001424"
+      ]
+    },
+    {
+      "id": "fastdata.arc::詩菜シルエットカット_.rc8",
+      "file": "詩菜シルエットカット_.rc8",
+      "sha256": "2e16c85e6a185e859ae299e51a530cab10464d5776928f8dcc6ee6fbd3dd1d0b",
+      "header": "985a929a385f3030450100005802000078350000",
+      "signature": "8_00",
+      "width": 325,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_off_t.rct",
+      "file": "console_off_t.rct",
+      "sha256": "40a82a4af1a4c336624f4856c2f94ca09f7181dbdb799c39eff39c5db345fc8c",
+      "header": "985a929a5443303020030000580200001d390100",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001874"
+      ]
+    },
+    {
+      "id": "fastdata.arc::クロニクル枠_off.rct",
+      "file": "クロニクル枠_off.rct",
+      "sha256": "e52c35956bff568b1aad4325a066f6a6ea31f8c9053aa1ea6d387852f2e7319b",
+      "header": "985a929a5443303120030000580200004b4e0000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::003100"
+      ]
+    },
+    {
+      "id": "fastdata.arc::その他シルエットカット_.rc8",
+      "file": "その他シルエットカット_.rc8",
+      "sha256": "c0699e9756b6548480e054c09ba73d5bd651a625097cded65a30a2a0a4baf6bf",
+      "header": "985a929a385f3030a601000058020000db280000",
+      "signature": "8_00",
+      "width": 422,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::その他_view.rct",
+      "file": "その他_view.rct",
+      "sha256": "55ad4f259af141eacef07331550b73c200a95846d75d33bc910a4365afefa739",
+      "header": "985a929a544330302003000058020000d50c0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001584"
+      ]
+    },
+    {
+      "id": "fastdata.arc::上条_view_.rc8",
+      "file": "上条_view_.rc8",
+      "sha256": "9650af615796c046fc5f198d9e68d3eb0be242807974c1b1005dba707c4a4616",
+      "header": "985a929a385f30302003000058020000821b0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::もみじ_view_.rc8",
+      "file": "もみじ_view_.rc8",
+      "sha256": "1fd388656e8dea63deee88dcf9c096546421e20d29736830a3fcdc174d25b191",
+      "header": "985a929a385f30302003000058020000d31c0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::ラスター用パターン.rc8",
+      "file": "ラスター用パターン.rc8",
+      "sha256": "674b9d4b2462471ed263b79c5ea4b427de06b4abee2e4d77b61beab85ef2046f",
+      "header": "985a929a385f3030200300005802000025d90300",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::名前プレート_信哉.rct",
+      "file": "名前プレート_信哉.rct",
+      "sha256": "93492fa543a75e058a5b9fcec30a598efaa7aa68afe61bf2052de1cded5e40ea",
+      "header": "985a929a54433030830000002b0000006b350000",
+      "signature": "TC00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::000369"
+      ]
+    },
+    {
+      "id": "fastdata.arc::staffrollb_007.rct",
+      "file": "staffrollb_007.rct",
+      "sha256": "21e4f2759279a54c0ddb123fb50570bcdf5121b18b907c53840f332dcb7e6803",
+      "header": "985a929a544330312003000058020000f1900000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "credits_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::extra2_on_.rc8",
+      "file": "extra2_on_.rc8",
+      "sha256": "3c5f7551c6981cf683e705ee3ea06b4053642714d66dc7fcac56a7fdcdbc3c44",
+      "header": "985a929a385f30302003000058020000d6360000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::title2_on.rct",
+      "file": "title2_on.rct",
+      "sha256": "f8caa79fc2ab07c2cb3b09d7bf3ab86bdeccadbb12df8df8d11381e002ce77b4",
+      "header": "985a929a54433031200300005802000058530000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000490"
+      ]
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_9.rct",
+      "file": "作曲_クレジット_9.rct",
+      "sha256": "2c65f66aab56eac914efccfa8ccc695fd3c65005cca49e5c461d3d68427c9563",
+      "header": "985a929a544330307c02000026000000a0090000",
+      "signature": "TC00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000075"
+      ]
+    },
+    {
+      "id": "fastdata.arc::信哉シルエットカット_.rc8",
+      "file": "信哉シルエットカット_.rc8",
+      "sha256": "c0699e9756b6548480e054c09ba73d5bd651a625097cded65a30a2a0a4baf6bf",
+      "header": "985a929a385f3030a601000058020000db280000",
+      "signature": "8_00",
+      "width": 422,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::名前プレート_汐見.rct",
+      "file": "名前プレート_汐見.rct",
+      "sha256": "56b565c5f8142085ade34a028d6e09864f7e21d14e3cbf28e35f0131a8744b18",
+      "header": "985a929a54433030830000002b000000c1320000",
+      "signature": "TC00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::000371"
+      ]
+    },
+    {
+      "id": "fastdata.arc::小カレンダーフォント.rct",
+      "file": "小カレンダーフォント.rct",
+      "sha256": "e8dadbae102e1bc97b1e1a6b80fea39299e9899bd10a636dbf3fdf0b9696f8af",
+      "header": "985a929a54433030200300005802000057090000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::002177"
+      ]
+    },
+    {
+      "id": "fastdata.arc::tscr.rct",
+      "file": "tscr.rct",
+      "sha256": "e1f4b706bb2c9356b3b5c1a21abd06be3f5c61e9924514ce6b1a78ba7ddbd1c3",
+      "header": "985a929a544330300001000000010000acb60200",
+      "signature": "TC00",
+      "width": 256,
+      "height": 256,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::2nd_shinya_.rc8",
+      "file": "2nd_shinya_.rc8",
+      "sha256": "8a5d683a7bcd7fc8fdee84944e1b552e933262437aa2a11db078e9e5b6d27617",
+      "header": "985a929a385f3030d700000052000000840e0000",
+      "signature": "8_00",
+      "width": 215,
+      "height": 82,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_8_.rc8",
+      "file": "作曲_クレジット_8_.rc8",
+      "sha256": "7c58c162a0c913a070d1acb5ef1ddc6465fed613aeab503f03448ae98c663972",
+      "header": "985a929a385f30307c02000026000000ec020000",
+      "signature": "8_00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::もみじシルエットカット.rct",
+      "file": "もみじシルエットカット.rct",
+      "sha256": "d7bbca90ebbe135b785c0a34e646658b1158d2243bed261b4098361a6fdbc8e4",
+      "header": "985a929a544330305302000058020000cf200100",
+      "signature": "TC00",
+      "width": 595,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001454"
+      ]
+    },
+    {
+      "id": "fastdata.arc::console_off_e_.rc8",
+      "file": "console_off_e_.rc8",
+      "sha256": "70c4072d4f2bfd71e05258e042f74000724537bfdb881c9ee5a19f20c20ed272",
+      "header": "985a929a385f30302003000058020000d00c0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::視点変更背景_null.rct",
+      "file": "視点変更背景_null.rct",
+      "sha256": "a8fd12315b85ee11dd2d64a0d4ce09818164a6dc211e8cd24ec682cc14925986",
+      "header": "985a929a544330302003000058020000432f0500",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::000119",
+        "sightchange.mjo::000923"
+      ]
+    },
+    {
+      "id": "fastdata.arc::console_push_s_.rc8",
+      "file": "console_push_s_.rc8",
+      "sha256": "6dedb53678798f6f3df63e2aef40711cc94b163a8a166a9455e5366babe09db2",
+      "header": "985a929a385f3030200300005802000076090000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_13.rct",
+      "file": "作曲_クレジット_13.rct",
+      "sha256": "54c449b2818e53c020bf04db7722200026d758277e9f72babff20567771996c0",
+      "header": "985a929a544330307c0200002600000001130000",
+      "signature": "TC00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000083"
+      ]
+    },
+    {
+      "id": "fastdata.arc::詩菜_view.rct",
+      "file": "詩菜_view.rct",
+      "sha256": "cbe5382ae069da7113005caea0de54ded6debcb04690b8b9a4fc9759aaaabfb2",
+      "header": "985a929a544330302003000058020000290f0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001504"
+      ]
+    },
+    {
+      "id": "fastdata.arc::シャッター下_.rc8",
+      "file": "シャッター下_.rc8",
+      "sha256": "db588a06632957630e6c2130d42eda062675fe064789737d4944742ac6f7f203",
+      "header": "985a929a385f30302003000058020000180e0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::名前プレート_もみじ_.rc8",
+      "file": "名前プレート_もみじ_.rc8",
+      "sha256": "951df3a7ea892ba10da95b5048a9515d5345ff3ca9cbe6fed1afddd2e3c8466a",
+      "header": "985a929a385f3030830000002b000000c3020000",
+      "signature": "8_00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::名前プレート_槙野.rct",
+      "file": "名前プレート_槙野.rct",
+      "sha256": "466daa5855a6609eef0a51abc1b22ba993299e30df9366eeba35d57b90180955",
+      "header": "985a929a54433030830000002b000000a9340000",
+      "signature": "TC00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::000357"
+      ]
+    },
+    {
+      "id": "fastdata.arc::ヒストリボタン_.rc8",
+      "file": "ヒストリボタン_.rc8",
+      "sha256": "20596eaf0e64b594639ae62d219afe1674fbfb1297c4c2772587de040363faf4",
+      "header": "985a929a385f30300f000000170000007d000000",
+      "signature": "8_00",
+      "width": 15,
+      "height": 23,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_6_.rc8",
+      "file": "作曲_クレジット_6_.rc8",
+      "sha256": "0d7d8d08d6e6c4e136c7d5db7feab0a2208b70b5400cf0f805c46bf30e8623f1",
+      "header": "985a929a385f30307c02000026000000bd090000",
+      "signature": "8_00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::white.rct",
+      "file": "white.rct",
+      "sha256": "2b7642da179f1b77b7246faafbc80e88100ffaf9d86a7f1b815e6dc86a71d0bc",
+      "header": "985a929a54433030200300005802000045000000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_1.rct",
+      "file": "作曲_クレジット_1.rct",
+      "sha256": "0c3f85c32f03ba23b7f172183c98af415d9392383e25aed17b1ed78334da32b9",
+      "header": "985a929a544330307c0200002600000021290000",
+      "signature": "TC00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000059"
+      ]
+    },
+    {
+      "id": "fastdata.arc::console_off_k_.rc8",
+      "file": "console_off_k_.rc8",
+      "sha256": "70c4072d4f2bfd71e05258e042f74000724537bfdb881c9ee5a19f20c20ed272",
+      "header": "985a929a385f30302003000058020000d00c0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_12.rct",
+      "file": "作曲_クレジット_12.rct",
+      "sha256": "39b25f57d63753408f713ca02eda155ae4322e975f12d017a09ce8d768d5bc29",
+      "header": "985a929a544330307c02000026000000c5070000",
+      "signature": "TC00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000081"
+      ]
+    },
+    {
+      "id": "fastdata.arc::staffroom_on.rct",
+      "file": "staffroom_on.rct",
+      "sha256": "0e0b10a0380ac818f603940f809398e80ca5a29e55e50feddac81bce7ab6463c",
+      "header": "985a929a54433031200300005802000020670100",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "staffroom.mjo::000090"
+      ]
+    },
+    {
+      "id": "fastdata.arc::カーソル、パー.rct",
+      "file": "カーソル、パー.rct",
+      "sha256": "b8de52d0caf9b4c9af039303afd78fab3e66d39e62d50ec2f93fd603c59dd332",
+      "header": "985a929a544330301800000018000000af010000",
+      "signature": "TC00",
+      "width": 24,
+      "height": 24,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::001573"
+      ]
+    },
+    {
+      "id": "fastdata.arc::console_push_m_.rc8",
+      "file": "console_push_m_.rc8",
+      "sha256": "622e6216a1d8a7361335203669afc203c598e4c7f2d138eee419772799ce858f",
+      "header": "985a929a385f303020030000580200009d090000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::staffrolla.rct",
+      "file": "staffrolla.rct",
+      "sha256": "6ae2b7f62d2252cdc764236f0f3b6d58a34e2f47bfa47494b0b153f7b6876e97",
+      "header": "985a929a54433030200300003812000041600200",
+      "signature": "TC00",
+      "width": 800,
+      "height": 4664,
+      "role": "credits_pending",
+      "status": "source_verified",
+      "consumers": [
+        "staffroll.mjo::000406",
+        "staffroll.mjo::000417"
+      ]
+    },
+    {
+      "id": "fastdata.arc::詩菜シルエットカット.rct",
+      "file": "詩菜シルエットカット.rct",
+      "sha256": "d892177a3246cb6b8b6e4f9a6a21af18396a76d31ee49f74d7aefe54019b1bb5",
+      "header": "985a929a544330304501000058020000a0f10000",
+      "signature": "TC00",
+      "width": 325,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001494"
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_push.rct",
+      "file": "extra2_push.rct",
+      "sha256": "57a53949a78217416150a029fa4e7c1b592803fa371dbb8520427012d7b8cce2",
+      "header": "985a929a544330302003000058020000808d0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::001350"
+      ]
+    },
+    {
+      "id": "fastdata.arc::voice_on.rct",
+      "file": "voice_on.rct",
+      "sha256": "0b3cc427319c5e9a90540d34f9220f42731acf957b2feefe2c65cc2dc9cc82ef",
+      "header": "985a929a54433030200000001b000000b1020000",
+      "signature": "TC00",
+      "width": 32,
+      "height": 27,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "history.mjo::001539"
+      ]
+    },
+    {
+      "id": "fastdata.arc::慶吾シルエットカット小.rct",
+      "file": "慶吾シルエットカット小.rct",
+      "sha256": "00f84367bb7652b544b728a760a627c5bb072c85ee32a5fb2a107a70284a65bb",
+      "header": "985a929a544330306d00000052010000da220100",
+      "signature": "TC00",
+      "width": 109,
+      "height": 338,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::000045",
+        "sightchange.mjo::000876"
+      ]
+    },
+    {
+      "id": "fastdata.arc::名前プレート_もみじ.rct",
+      "file": "名前プレート_もみじ.rct",
+      "sha256": "021ac4eb47b2adc3fa1ca6f158bbefbec237f9fdbe5a48cf757bd2a69d569433",
+      "header": "985a929a54433030830000002b0000002a360000",
+      "signature": "TC00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::000359"
+      ]
+    },
+    {
+      "id": "fastdata.arc::title2_null2.rct",
+      "file": "title2_null2.rct",
+      "sha256": "c5474a93010268a04a849778300b7644b5fa24e280e15fd5d492d4c2515f22db",
+      "header": "985a929a544330312003000058020000e56b0000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000398"
+      ]
+    },
+    {
+      "id": "fastdata.arc::その他シルエットカット.rct",
+      "file": "その他シルエットカット.rct",
+      "sha256": "425fa0ec160463f6bd04c509d3262d0d42fa9bbf680ba7411046d625dcba5f5b",
+      "header": "985a929a54433030a6010000580200002acc0200",
+      "signature": "TC00",
+      "width": 422,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001574"
+      ]
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_8.rct",
+      "file": "作曲_クレジット_8.rct",
+      "sha256": "62532d1d9277b4da0bdb2b6f8cd99a0cec4c5c1d4c22fc8bd807b0a1a9021891",
+      "header": "985a929a544330307c020000260000006b060000",
+      "signature": "TC00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000073"
+      ]
+    },
+    {
+      "id": "fastdata.arc::シャッター下.rct",
+      "file": "シャッター下.rct",
+      "sha256": "8e47b2ede4a3c9fbf92c8d6665f2f34e5451242c47f842170b8ae9150b5c5cde",
+      "header": "985a929a544330302003000058020000c03a0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::クロニクル枠_null_.rc8",
+      "file": "クロニクル枠_null_.rc8",
+      "sha256": "0f85760daa919c72f9134023dad1f465645cde95dd17477cfd381014ed25a490",
+      "header": "985a929a385f3030200300005802000097100000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::慶吾シルエットカット小_.rc8",
+      "file": "慶吾シルエットカット小_.rc8",
+      "sha256": "0ab402db6ba85daae84e73a04f47aaaddc261792a74d3a35956a10d60b65a50b",
+      "header": "985a929a385f30306d00000052010000c4170000",
+      "signature": "8_00",
+      "width": 109,
+      "height": 338,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::cgm_num_3_.rc8",
+      "file": "cgm_num_3_.rc8",
+      "sha256": "39d88e0aff1c04c7ebb89831f98a217413867c7d5f595482f2215121cacd2aac",
+      "header": "985a929a385f30302700000020000000ca020000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::cgm_on.rct",
+      "file": "cgm_on.rct",
+      "sha256": "ae8246807d8fe98ba110959d18071c7626d1e3c99ae8ab9b1da82ded0a16e698",
+      "header": "985a929a544330302003000058020000e1090600",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::kaisou_kureha.rct",
+      "file": "kaisou_kureha.rct",
+      "sha256": "90831876062d803904b78db330e331e4cc7ed79b1df9986b7cf46816df67549e",
+      "header": "985a929a54433030200300005802000066280200",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "cgmode.mjo::000097"
+      ]
+    },
+    {
+      "id": "fastdata.arc::console_on_s.rct",
+      "file": "console_on_s.rct",
+      "sha256": "23308eabc041a7b44259207be966c8e703b338d155748446e635da4932d239d6",
+      "header": "985a929a544330302003000058020000976a0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::000814",
+        "sightchange.mjo::001322",
+        "sightchange.mjo::001809"
+      ]
+    },
+    {
+      "id": "fastdata.arc::console_push_e.rct",
+      "file": "console_push_e.rct",
+      "sha256": "9e7f8f96d1654ead9c36cf272f68a2090cb6ee95947f232da484252f3a8b78f7",
+      "header": "985a929a54433030200300005802000033610000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::cgm_num_4_.rc8",
+      "file": "cgm_num_4_.rc8",
+      "sha256": "452ae856ca3eff5b696b4074a26f04cb6701645bba1280f593692b10414b571d",
+      "header": "985a929a385f30302700000020000000cd020000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::汐見トオル_view.rct",
+      "file": "汐見トオル_view.rct",
+      "sha256": "517ae20a5d8c9e8ca0574b5d210dacbeab0f5b00a576e0979b6684b1b587847f",
+      "header": "985a929a544330302003000058020000b80c0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001564"
+      ]
+    },
+    {
+      "id": "fastdata.arc::askyesno_base.rct",
+      "file": "askyesno_base.rct",
+      "sha256": "0db69e27dd5d3c22b9b0517986f17d859126b62e3b06768cf3a296cf3b0f1e87",
+      "header": "985a929a54433030200300005802000086de0100",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "message_box.mjo::000723"
+      ]
+    },
+    {
+      "id": "fastdata.arc::extra2_off.rct",
+      "file": "extra2_off.rct",
+      "sha256": "1b6ed336ab65532b9210a271f3eaedd05dbcb9438b1f3b5641fe1fb7b85e2ba9",
+      "header": "985a929a5443303020030000580200002a340000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::001296"
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push_.rc8",
+      "file": "サウンドモード_push_.rc8",
+      "sha256": "f062acac010e10653d2328181c2ad5508c11c37c44fd123a6dbe97b1d4631642",
+      "header": "985a929a385f3030200300005802000006cc0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::staffrollb_006.rct",
+      "file": "staffrollb_006.rct",
+      "sha256": "acd37715a9adfef5aa9384d2bafb10b773aee2b621f2b05289286416af709a91",
+      "header": "985a929a5443303120030000580200009a990100",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "credits_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::cgm_num_8.rc8",
+      "file": "cgm_num_8.rc8",
+      "sha256": "a4fe7613bf7856dd8dc40e08814b0a9e6d5ff684d28349ce3beedd9477a4fdc9",
+      "header": "985a929a385f3030270000002000000088020000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::クロニクル枠_off_.rc8",
+      "file": "クロニクル枠_off_.rc8",
+      "sha256": "0f85760daa919c72f9134023dad1f465645cde95dd17477cfd381014ed25a490",
+      "header": "985a929a385f3030200300005802000097100000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::extra_on.rct",
+      "file": "extra_on.rct",
+      "sha256": "78a0b97dd95523d28cce4a887805266dfb23b5d0395090f550ee0664ac04a7f1",
+      "header": "985a929a544330302003000058020000776c0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::001078"
+      ]
+    },
+    {
+      "id": "fastdata.arc::console_on_h_.rc8",
+      "file": "console_on_h_.rc8",
+      "sha256": "2f5f829d027df1a643ca11cde969de48ee62fa938f2cc49dcbb841ec449cd424",
+      "header": "985a929a385f303020030000580200003c090000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::名前プレート_信哉_.rc8",
+      "file": "名前プレート_信哉_.rc8",
+      "sha256": "951df3a7ea892ba10da95b5048a9515d5345ff3ca9cbe6fed1afddd2e3c8466a",
+      "header": "985a929a385f3030830000002b000000c3020000",
+      "signature": "8_00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::submenu_マーク_.rc8",
+      "file": "submenu_マーク_.rc8",
+      "sha256": "083d9122c7e7a1c4ca479b7dcfa07ee621884a23e61863494ff35bcdeeae0a0e",
+      "header": "985a929a385f30302003000058020000d0390000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::momiba7_.rc8",
+      "file": "momiba7_.rc8",
+      "sha256": "c2448755714510b2b23f8a4d01590389edc549c05492857cfee613d036fbd610",
+      "header": "985a929a385f30303a0000003900000065020000",
+      "signature": "8_00",
+      "width": 58,
+      "height": 57,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::クロニクル枠_on_.rc8",
+      "file": "クロニクル枠_on_.rc8",
+      "sha256": "0f85760daa919c72f9134023dad1f465645cde95dd17477cfd381014ed25a490",
+      "header": "985a929a385f3030200300005802000097100000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::信哉_view.rct",
+      "file": "信哉_view.rct",
+      "sha256": "40aeea01b5e803f61c43e0c650f504f37abd2cd64f1f62426b83737ca70c245b",
+      "header": "985a929a54433030200300005802000025110000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::000083",
+        "sightchange.mjo::000916",
+        "sightchange.mjo::001404"
+      ]
+    },
+    {
+      "id": "fastdata.arc::console_on_h.rct",
+      "file": "console_on_h.rct",
+      "sha256": "4d2de841464037ed52af651462e52179d5f0e5acb75aaea178a765cbf7859ce3",
+      "header": "985a929a544330302003000058020000705e0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001825",
+        "sightchange.mjo::001833",
+        "sightchange.mjo::001841",
+        "sightchange.mjo::001849",
+        "sightchange.mjo::001857",
+        "start.mjo::001649"
+      ]
+    },
+    {
+      "id": "fastdata.arc::momiba2.rct",
+      "file": "momiba2.rct",
+      "sha256": "832230b46f957b69f4acbe8cfa0a77c610b031ae2b8030edcb531ec394dd4318",
+      "header": "985a929a544330303a00000039000000e2050000",
+      "signature": "TC00",
+      "width": 58,
+      "height": 57,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::cgm_num_1.rc8",
+      "file": "cgm_num_1.rc8",
+      "sha256": "9f06c5d15ff7d4d3df4809ddc2b5aca22b894504130683a1d83dc4dcf7bb77fe",
+      "header": "985a929a385f3030270000002000000018020000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::kaishou_mahoko_.rc8",
+      "file": "kaishou_mahoko_.rc8",
+      "sha256": "57ba831f1bf72c1f1a09e4cc474829be83369640aa1cca3d6cdb6c260b5d05bc",
+      "header": "985a929a385f303020030000580200004b2c0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_11_.rc8",
+      "file": "作曲_クレジット_11_.rc8",
+      "sha256": "a9e266ed079ad41db5096de52820710c1eeca08f5551d22d6be2c8768c90df6b",
+      "header": "985a929a385f30307c02000026000000c6020000",
+      "signature": "8_00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::暮葉シルエットカット_.rc8",
+      "file": "暮葉シルエットカット_.rc8",
+      "sha256": "d1e41be67730915df1b9c5a40946dfd5900c235518bd4143d84bece67e0c252d",
+      "header": "985a929a385f30303f02000058020000675c0000",
+      "signature": "8_00",
+      "width": 575,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::chapter_push.rct",
+      "file": "chapter_push.rct",
+      "sha256": "cf9b26d7f5719a03523ecbf2ff526255744cbbf65aec5bac675c25b9d34d9eed",
+      "header": "985a929a54433031200300005802000072830000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000916"
+      ]
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_1_.rc8",
+      "file": "作曲_クレジット_1_.rc8",
+      "sha256": "c73587116bcc5966c3ee1d1b7e75dea72cc38ee89cdb4a2a0c6554ad001be83a",
+      "header": "985a929a385f30307c02000026000000ef100000",
+      "signature": "8_00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::名前プレート_暮葉.rct",
+      "file": "名前プレート_暮葉.rct",
+      "sha256": "f9a174aa09c0445f8bdd8975b7be173aac46dd619b41f5855e70caba34c3285e",
+      "header": "985a929a54433030830000002b00000032330000",
+      "signature": "TC00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::000351"
+      ]
+    },
+    {
+      "id": "fastdata.arc::kaisou_off.rct",
+      "file": "kaisou_off.rct",
+      "sha256": "227d643ca19ee499b87f58314571f98dcc0ace97b86bda72f99d30ba67b4b650",
+      "header": "985a929a544330302003000058020000521f0700",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::extra_on_.rc8",
+      "file": "extra_on_.rc8",
+      "sha256": "699cac48f416db55b81655178bf0e96edfa20936ba2237280ae007729050c931",
+      "header": "985a929a385f303020030000580200006f2d0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::title3_off.rct",
+      "file": "title3_off.rct",
+      "sha256": "b21232b137fafa9497fa9ad02f63b2d607cba686d848f03b5dab9b6aa4f787a9",
+      "header": "985a929a544330302003000058020000c28e0d00",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000596"
+      ]
+    },
+    {
+      "id": "fastdata.arc::console_on_t_.rc8",
+      "file": "console_on_t_.rc8",
+      "sha256": "0775ec7435e34332ba7dd377b1fcfc62c95a8ee9af82970f04a37e000aa5de21",
+      "header": "985a929a385f30302003000058020000a1090000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::右上▲_ライト_.rc8",
+      "file": "右上▲_ライト_.rc8",
+      "sha256": "c783ad43df730fd824d539a4ea7306a89e414e85aca335773a25eef4f7554db8",
+      "header": "985a929a385f30300a0000000a00000037000000",
+      "signature": "8_00",
+      "width": 10,
+      "height": 10,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::chapter_off_2.rct",
+      "file": "chapter_off_2.rct",
+      "sha256": "cf689229aee48211a8ec953f9b226b2228080fb7b4b0aa5a89958e882019d0d7",
+      "header": "985a929a54433031200300005802000010850000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000827",
+        "start.mjo::000861"
+      ]
+    },
+    {
+      "id": "fastdata.arc::cgm_num_3.rc8",
+      "file": "cgm_num_3.rc8",
+      "sha256": "b7e856c2e0fb52bdc6b5778dfb743318d70fb7a171e63cca19fb17f5159db035",
+      "header": "985a929a385f3030270000002000000053020000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::submenu_マーク.rc8",
+      "file": "submenu_マーク.rc8",
+      "sha256": "56a1d03d4b8a4e52d9a9f8bab28e837868166a3019539e384c268cbfc7f7a967",
+      "header": "985a929a385f3030200300005802000019000000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::003028",
+        "history.mjo::000614",
+        "pausemenu.mjo::000313"
+      ]
+    },
+    {
+      "id": "fastdata.arc::名前プレート_汐見_.rc8",
+      "file": "名前プレート_汐見_.rc8",
+      "sha256": "6e2ac7ddd1db999aa5a4c86ffa2c3c4bb06eb695740727f951a738a6e512973c",
+      "header": "985a929a385f3030830000002b000000b8020000",
+      "signature": "8_00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct",
+      "file": "サウンドモード_off.rct",
+      "sha256": "c233b0e0513b056ad2b9ed791e54ef28f318af73486b7f89bb1363e7f19f3bc3",
+      "header": "985a929a5443303020030000580200001f4b0200",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000167"
+      ]
+    },
+    {
+      "id": "fastdata.arc::cgm_num_8_.rc8",
+      "file": "cgm_num_8_.rc8",
+      "sha256": "e34971c236617ccaa48bcbf35182b7ccdfc468a3c5984c232817f4b2f391fc0d",
+      "header": "985a929a385f30302700000020000000f5020000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::3rd_makino.rct",
+      "file": "3rd_makino.rct",
+      "sha256": "01d8ae12e2c6dd6fcb6f9ed31b0a6c6f5c926b882023c84181deebc91ab72364",
+      "header": "985a929a54433030d700000052000000f6650000",
+      "signature": "TC00",
+      "width": 215,
+      "height": 82,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::2nd_shinya.rct",
+      "file": "2nd_shinya.rct",
+      "sha256": "ddc9a41c78ac6b01f84581a958ba6cee4518f35739063e32683d88dcd8de64be",
+      "header": "985a929a54433030d7000000520000009b580000",
+      "signature": "TC00",
+      "width": 215,
+      "height": 82,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::名前プレート_まほこ母_.rc8",
+      "file": "名前プレート_まほこ母_.rc8",
+      "sha256": "b59ee6495ad84dbf27aec1b110c1ea42d2f6aeaaa5ced5f0b370f5f28abb5655",
+      "header": "985a929a385f3030830000002b0000004d030000",
+      "signature": "8_00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::名前プレート_紅葉.rct",
+      "file": "名前プレート_紅葉.rct",
+      "sha256": "fb7db452e4f7e9e04c24ede817b1473887f3a009af2d60cac822ace23eb0ab50",
+      "header": "985a929a54433030830000002b000000e1300000",
+      "signature": "TC00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::000355"
+      ]
+    },
+    {
+      "id": "fastdata.arc::staffrollb_004.rct",
+      "file": "staffrollb_004.rct",
+      "sha256": "269655d8f83643431f400097882b102189ca519269759bf983a8c4db91988968",
+      "header": "985a929a5443303120030000580200005c730100",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "credits_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::staffrollb_011.rct",
+      "file": "staffrollb_011.rct",
+      "sha256": "61434148df43af340fb38771cb8354067153b1fae627390f9fec640acf932c05",
+      "header": "985a929a544330312003000058020000c33b0000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "credits_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::クロニクル青バー_.rc8",
+      "file": "クロニクル青バー_.rc8",
+      "sha256": "eee7bd8aa5e49177de6d09ca52724dbfa1822f8e25e2b591935922260a79104e",
+      "header": "985a929a385f3030760000005802000057030000",
+      "signature": "8_00",
+      "width": 118,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::情報隠蔽.rc8",
+      "file": "情報隠蔽.rc8",
+      "sha256": "6c5e68e14833edc30508f28d015edc53ca7540800dd98135b31bc209962def71",
+      "header": "985a929a385f3030c80000005101000086070100",
+      "signature": "8_00",
+      "width": 200,
+      "height": 337,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::002973"
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct",
+      "file": "sl_save_f.rct",
+      "sha256": "de712b8c1d6be199a86ae2a1b2e1f3a4270b37b8ae8948ea30ade97a7367f0f0",
+      "header": "985a929a544330302003000058020000e97b0200",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::暮葉_view_.rc8",
+      "file": "暮葉_view_.rc8",
+      "sha256": "71623f0f5980f064f686a4ce71f8a25172d6be688d601b00a7e2036cdda0a28e",
+      "header": "985a929a385f30302003000058020000c21b0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::wink_.rc8",
+      "file": "wink_.rc8",
+      "sha256": "8e27c2f7ea71ea8c8606d49795ac33c07d1948274e43e998f38fdbbf832f25c6",
+      "header": "985a929a385f303020000000200000009e000000",
+      "signature": "8_00",
+      "width": 32,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::sl_load_n_.rc8",
+      "file": "sl_load_n_.rc8",
+      "sha256": "50c09259ae71d64774a3f9c699d4f6883214bbb6d6d9a52255ded9eddc858a58",
+      "header": "985a929a385f30302003000058020000cc2d0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_off_e.rct",
+      "file": "console_off_e.rct",
+      "sha256": "483a0d1d861303e3ee2cf43fb1ad95b6503ca714af5f8a63c13874d7134e5ad1",
+      "header": "985a929a544330302003000058020000a24b0100",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "c_setumei.mjo::000007",
+        "sightchange.mjo::001866",
+        "sightchange.mjo::001882",
+        "staffroom.mjo::000046"
+      ]
+    },
+    {
+      "id": "fastdata.arc::title2_off.rct",
+      "file": "title2_off.rct",
+      "sha256": "4e7258ff2caedc369fbe194ceb22a82dec6b7860ff394cf5571f5ed4f53305d0",
+      "header": "985a929a5443303020030000580200003b090600",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000472"
+      ]
+    },
+    {
+      "id": "fastdata.arc::シャッター上_.rc8",
+      "file": "シャッター上_.rc8",
+      "sha256": "0ac760b07db3be484628b2840eae1dcc596fa9af81b876a77730ef19cad65348",
+      "header": "985a929a385f30302003000058020000130e0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_10.rct",
+      "file": "作曲_クレジット_10.rct",
+      "sha256": "327648e20b27df6746e6234db01e5bb6d4096afc373eda069ff2711f1469f58e",
+      "header": "985a929a544330307c020000260000008e060000",
+      "signature": "TC00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000077"
+      ]
+    },
+    {
+      "id": "fastdata.arc::右上▲_ダーク.rct",
+      "file": "右上▲_ダーク.rct",
+      "sha256": "51e0ec52fb87d756ac20ba1b3de086d37dfc1e25cdb204b15adf95f5787d3591",
+      "header": "985a929a544330300a0000000a00000091000000",
+      "signature": "TC00",
+      "width": 10,
+      "height": 10,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::000929",
+        "chronicle.mjo::001929"
+      ]
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_3.rct",
+      "file": "作曲_クレジット_3.rct",
+      "sha256": "c2bae74fe891a360ecd6a5df892a3f6d36ecae34256d1829f2d4e1e8d3102ff1",
+      "header": "985a929a544330307c020000260000003a0e0000",
+      "signature": "TC00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000063"
+      ]
+    },
+    {
+      "id": "fastdata.arc::kaisou_kureha_.rc8",
+      "file": "kaisou_kureha_.rc8",
+      "sha256": "f85f3296c02bde81f653eb57d093b6a39870b40f40277ebe4c339f7acab1e3c7",
+      "header": "985a929a385f3030200300005802000066330000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::小カレンダーフォント_.rc8",
+      "file": "小カレンダーフォント_.rc8",
+      "sha256": "5111e5b1d7eccafb2c7beeb12aa5c07e15d6c4c4037319e0610a2e8726e9be56",
+      "header": "985a929a385f303020030000580200008b100000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::red.rct",
+      "file": "red.rct",
+      "sha256": "1d99c9ef5ed82e4797870f7c4d6c520c117edf6a0ecac24f07d6e9f1cad9515c",
+      "header": "985a929a54433030200300005802000045000000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::3rd_makino_.rc8",
+      "file": "3rd_makino_.rc8",
+      "sha256": "bc65c4cbc8d5d4315ce1aa9cf18229472770842bdbd34e470827e1333fc649ab",
+      "header": "985a929a385f3030d700000052000000be0e0000",
+      "signature": "8_00",
+      "width": 215,
+      "height": 82,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::kaisou_masaki.rct",
+      "file": "kaisou_masaki.rct",
+      "sha256": "e70cc194a1a0bcda101b7fe96a493e1a85de972fa2468887296485f5d35347af",
+      "header": "985a929a5443303020030000580200008caa0100",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "cgmode.mjo::000095"
+      ]
+    },
+    {
+      "id": "fastdata.arc::汐見トオルシルエットカット_.rc8",
+      "file": "汐見トオルシルエットカット_.rc8",
+      "sha256": "1061ca549581baa4884162f6b3b2a96519a94e038787c4d597f257855e8b4fd0",
+      "header": "985a929a385f30304f01000058020000dd280000",
+      "signature": "8_00",
+      "width": 335,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::kaishou_mahoko.rct",
+      "file": "kaishou_mahoko.rct",
+      "sha256": "aaed27e73c3f5f11b956a2f7acb79f1986d64cb591a3faa49a85d5f776d05e88",
+      "header": "985a929a54433030200300005802000008600200",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "cgmode.mjo::000091"
+      ]
+    },
+    {
+      "id": "fastdata.arc::信哉シルエットカット小_.rc8",
+      "file": "信哉シルエットカット小_.rc8",
+      "sha256": "9a35ca0111e9d0d209eaebbe027a0159618519e64fd3ec452c4ea20acb72b810",
+      "header": "985a929a385f30306d0000005201000055180000",
+      "signature": "8_00",
+      "width": 109,
+      "height": 338,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_on_s_.rc8",
+      "file": "console_on_s_.rc8",
+      "sha256": "6dedb53678798f6f3df63e2aef40711cc94b163a8a166a9455e5366babe09db2",
+      "header": "985a929a385f3030200300005802000076090000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::extra_off_.rc8",
+      "file": "extra_off_.rc8",
+      "sha256": "823da01e87af03f68a20e44b1753c43b3cfea2678f16899e5a88d378d9bfd2a4",
+      "header": "985a929a385f303020030000580200009c2b0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::config_push.rct",
+      "file": "config_push.rct",
+      "sha256": "92d6b5e0e6a91bfce75163e5cd71db119a519a85a0c91ee31e488471ef21ecb8",
+      "header": "985a929a544330312003000058020000fbc20000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::cgm_num_1_.rc8",
+      "file": "cgm_num_1_.rc8",
+      "sha256": "2a8e68825ffc27c27e19337bf47dc3154f874f63c9c3339a4fd300843a5f818c",
+      "header": "985a929a385f30302700000020000000b1020000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::1st_shinya_.rc8",
+      "file": "1st_shinya_.rc8",
+      "sha256": "8a5d683a7bcd7fc8fdee84944e1b552e933262437aa2a11db078e9e5b6d27617",
+      "header": "985a929a385f3030d700000052000000840e0000",
+      "signature": "8_00",
+      "width": 215,
+      "height": 82,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::chapter_off_2_.rc8",
+      "file": "chapter_off_2_.rc8",
+      "sha256": "6f6afe81d5f3276e1f5aa0d5453516747205457670c4ce66b53bd679ebc7ff32",
+      "header": "985a929a385f30302003000058020000485e0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::コンフィグ転送.rc8",
+      "file": "コンフィグ転送.rc8",
+      "sha256": "901ba2ea567bf70779eee2139d9f1905f6357aba5200cb06d63a9e7aae32b309",
+      "header": "985a929a385f30302003000058020000c0190400",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "cgmode.mjo::001800",
+        "cgmode.mjo::002002",
+        "cgmode.mjo::002044",
+        "cgmode.mjo::002178",
+        "cgmode.mjo::002261",
+        "cgmode.mjo::002349",
+        "cgmode.mjo::002389",
+        "chronicle.mjo::003232",
+        "chronicle.mjo::003629",
+        "config.mjo::005639",
+        "config.mjo::007954",
+        "loadsave.mjo::000847",
+        "loadsave.mjo::001335"
+      ]
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_11.rct",
+      "file": "作曲_クレジット_11.rct",
+      "sha256": "95ef7785758ac0e6b7129bb68345f0d5dc6a4ba9500973890cbccb368cede1a0",
+      "header": "985a929a544330307c02000026000000c0040000",
+      "signature": "TC00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000079"
+      ]
+    },
+    {
+      "id": "fastdata.arc::rule_左上から少し丸い.rc8",
+      "file": "rule_左上から少し丸い.rc8",
+      "sha256": "878d3c26898688e50be73773cddeb373cb6474813cb2781704dac3d15f17e9c4",
+      "header": "985a929a385f30302003000058020000ef560200",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_off_m.rct",
+      "file": "console_off_m.rct",
+      "sha256": "1ef33b74faf79da3d5344cb04906fecb26fce28caf6cd2beef01c42ee9bede7a",
+      "header": "985a929a54433030200300005802000099460200",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::000807",
+        "sightchange.mjo::001315",
+        "sightchange.mjo::001802",
+        "start.mjo::001547",
+        "start.mjo::001597",
+        "start.mjo::001639"
+      ]
+    },
+    {
+      "id": "fastdata.arc::console_on_m_.rc8",
+      "file": "console_on_m_.rc8",
+      "sha256": "622e6216a1d8a7361335203669afc203c598e4c7f2d138eee419772799ce858f",
+      "header": "985a929a385f303020030000580200009d090000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_2.rct",
+      "file": "作曲_クレジット_2.rct",
+      "sha256": "278c332771912f8930f9d8508d0595b59f923b6846274bd88ff0be1fd5635d32",
+      "header": "985a929a544330307c0200002600000000220000",
+      "signature": "TC00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "music.mjo::000061"
+      ]
+    },
+    {
+      "id": "fastdata.arc::momiba2_.rc8",
+      "file": "momiba2_.rc8",
+      "sha256": "3cf6bf27d3526189f385c8974e2ab6aaf8f601a011d884406da9229a3d8d3ab5",
+      "header": "985a929a385f30303a000000390000006a010000",
+      "signature": "8_00",
+      "width": 58,
+      "height": 57,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_14_.rc8",
+      "file": "作曲_クレジット_14_.rc8",
+      "sha256": "84a23c7505d37f4f4c5f2c457acb259196dfbb65a27f1c7e10cfaf8c86abdfdb",
+      "header": "985a929a385f30307c020000260000006e050000",
+      "signature": "8_00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::槙野_view.rct",
+      "file": "槙野_view.rct",
+      "sha256": "55174b5f78258e6898411132e6a976879cac90a6e4357580c57bdc84886ab6f2",
+      "header": "985a929a544330302003000058020000fc110000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::000073",
+        "sightchange.mjo::000892",
+        "sightchange.mjo::001384"
+      ]
+    },
+    {
+      "id": "fastdata.arc::慶吾シルエットカット.rct",
+      "file": "慶吾シルエットカット.rct",
+      "sha256": "5ff24bb8be36e8272fb296ae52ec06d80db7aebe08b9709cb3545e7d907811dd",
+      "header": "985a929a54433030a601000058020000a0e00200",
+      "signature": "TC00",
+      "width": 422,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::000057",
+        "sightchange.mjo::000882",
+        "sightchange.mjo::001374"
+      ]
+    },
+    {
+      "id": "fastdata.arc::console_push_t.rct",
+      "file": "console_push_t.rct",
+      "sha256": "283400b814ef3575d1e02591b298ce2151d5ef7c8efd98d1096a043e8aa1011a",
+      "header": "985a929a544330302003000058020000fd5b0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::title2_null1.rct",
+      "file": "title2_null1.rct",
+      "sha256": "4a421659c4d65d35cb9f3c044e196b63f831170f0506bfc9818c77408248082c",
+      "header": "985a929a5443303020030000580200001df70500",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000414",
+        "start.mjo::000546"
+      ]
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_4_.rc8",
+      "file": "作曲_クレジット_4_.rc8",
+      "sha256": "6b53624a2b505e858807c26dd2e788ded311d1ccac99eb581f794cba70fc66aa",
+      "header": "985a929a385f30307c0200002600000034050000",
+      "signature": "8_00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::title1_off.rct",
+      "file": "title1_off.rct",
+      "sha256": "5357d38b3a5d2701510e4536ce1df9427ec211535992e9622d106a66d25b5b2b",
+      "header": "985a929a54433031200300005802000077d90100",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000279"
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off_.rc8",
+      "file": "サウンドモード_off_.rc8",
+      "sha256": "bba4282d72acbc178a9c0b6395378af02f3fba382017584026a9870b9750fb03",
+      "header": "985a929a385f30302003000058020000c9bb0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::submenu_off_.rc8",
+      "file": "submenu_off_.rc8",
+      "sha256": "a1d1d2534176b00dad66d3ecab54f282f9d55add273965a89aa80123f271fc99",
+      "header": "985a929a385f30302003000058020000181d0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_3_.rc8",
+      "file": "作曲_クレジット_3_.rc8",
+      "sha256": "af8cc7010c1b61bdd26973dc41e89320dc369b7caa24f45575f9daf1c9b4d814",
+      "header": "985a929a385f30307c02000026000000f5060000",
+      "signature": "8_00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::extra_push_.rc8",
+      "file": "extra_push_.rc8",
+      "sha256": "699cac48f416db55b81655178bf0e96edfa20936ba2237280ae007729050c931",
+      "header": "985a929a385f303020030000580200006f2d0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::momiba8.rct",
+      "file": "momiba8.rct",
+      "sha256": "5e57ab7be1043e269a1ff5eff884e292fbc0cf721d0abfb232972c6286329c66",
+      "header": "985a929a544330303a00000039000000d01b0000",
+      "signature": "TC00",
+      "width": 58,
+      "height": 57,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::シャッター左.rct",
+      "file": "シャッター左.rct",
+      "sha256": "194b07d98b76a079c4a2b8fca2f8faa66f64c408b8894f1eeee8f9d6f16fe06c",
+      "header": "985a929a544330302003000058020000232a0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::sl_save_n_.rc8",
+      "file": "sl_save_n_.rc8",
+      "sha256": "ebd69ac33f1da889f13ce30f5936a7ca770d848c079dadf4da8d2435bf9121e5",
+      "header": "985a929a385f303020030000580200009b2d0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_13_.rc8",
+      "file": "作曲_クレジット_13_.rc8",
+      "sha256": "f0830b4f3eb53565e14e2394ca27c0b77ce6106b263a29a9b8765de54330d867",
+      "header": "985a929a385f30307c0200002600000025080000",
+      "signature": "8_00",
+      "width": 636,
+      "height": 38,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::慶吾シルエットカット_.rc8",
+      "file": "慶吾シルエットカット_.rc8",
+      "sha256": "06dbb5df228822893e4c70ab2d0cba77bce79525457190a395b0533680cc3d0e",
+      "header": "985a929a385f3030a60100005802000007280000",
+      "signature": "8_00",
+      "width": 422,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::staffrollb_005.rct",
+      "file": "staffrollb_005.rct",
+      "sha256": "eba1365d010a73ff84ea227bf27a8c89c89d48d457d8bc37754ca8a09ec2cb6c",
+      "header": "985a929a544330312003000058020000a4b60000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "credits_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_push_h_.rc8",
+      "file": "console_push_h_.rc8",
+      "sha256": "2f5f829d027df1a643ca11cde969de48ee62fa938f2cc49dcbb841ec449cd424",
+      "header": "985a929a385f303020030000580200003c090000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::title2_push.rct",
+      "file": "title2_push.rct",
+      "sha256": "67de67f8710083b6d5492194e307076ce4255e338108db719f976d4fd5547d96",
+      "header": "985a929a54433031200300005802000036530000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::000493"
+      ]
+    },
+    {
+      "id": "fastdata.arc::ボタン説明.rct",
+      "file": "ボタン説明.rct",
+      "sha256": "2501fe84b8eb22a8ea25169fd273c144ec683a6d165b8b9fad421b8c996612e6",
+      "header": "985a929a5443303096000000f000000085380000",
+      "signature": "TC00",
+      "width": 150,
+      "height": 240,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::staffrollb_010.rct",
+      "file": "staffrollb_010.rct",
+      "sha256": "3b182038361fca01c28c3636dc9b4e8deb2534f079042d93852e4d7c2178eb7c",
+      "header": "985a929a5443303120030000580200002b6f0000",
+      "signature": "TC01",
+      "width": 800,
+      "height": 600,
+      "role": "credits_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::1st_makino.rct",
+      "file": "1st_makino.rct",
+      "sha256": "edddc0fb1acc87495032bb16a8dec0d5eec8c6c4894fa1b0f1e4082c61c4be91",
+      "header": "985a929a54433030d70000005200000012650000",
+      "signature": "TC00",
+      "width": 215,
+      "height": 82,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::perfectcircle.rc8",
+      "file": "perfectcircle.rc8",
+      "sha256": "1b5b92a957c5eb754dee2735cef9ab702ef55eec2767d831e928d82e31bcdf3a",
+      "header": "985a929a385f30304006000040060000af020a00",
+      "signature": "8_00",
+      "width": 1600,
+      "height": 1600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::voice_off_.rc8",
+      "file": "voice_off_.rc8",
+      "sha256": "8300b2d641a036566f7ea41e664b08cf320ce81928645a09dff156960c4694a5",
+      "header": "985a929a385f3030200000001b000000ef000000",
+      "signature": "8_00",
+      "width": 32,
+      "height": 27,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::槙野_view_.rc8",
+      "file": "槙野_view_.rc8",
+      "sha256": "24024b9e25995238585aff500791b4102312400b4cf9792c89d172c277a015c0",
+      "header": "985a929a385f303020030000580200003b1d0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::カーソル、グー.rct",
+      "file": "カーソル、グー.rct",
+      "sha256": "7471abae45ca24d7fce06982b267a98acf4760e504504bc2f54cab8c32687211",
+      "header": "985a929a54433030180000001800000034010000",
+      "signature": "TC00",
+      "width": 24,
+      "height": 24,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "chronicle.mjo::001585"
+      ]
+    },
+    {
+      "id": "fastdata.arc::暮葉シルエットカット.rct",
+      "file": "暮葉シルエットカット.rct",
+      "sha256": "9a05f818959f0a483401f818b3c667748256b93933b457780ead85cabe7f87ce",
+      "header": "985a929a544330303f02000058020000c80f0100",
+      "signature": "TC00",
+      "width": 575,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001434"
+      ]
+    },
+    {
+      "id": "fastdata.arc::wink_▽_.rc8",
+      "file": "wink_▽_.rc8",
+      "sha256": "d217e247761405938899432b4c6e2e7ac6b523ca31f16e0567b847ca5f41c896",
+      "header": "985a929a385f303000010000200000003a090000",
+      "signature": "8_00",
+      "width": 256,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::momiba5_.rc8",
+      "file": "momiba5_.rc8",
+      "sha256": "3ae020c500b6164d987e8a29dff5121c3da322c887a3a28e2824174153c8d4c5",
+      "header": "985a929a385f30303a00000039000000d7010000",
+      "signature": "8_00",
+      "width": 58,
+      "height": 57,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on_.rc8",
+      "file": "サウンドモード_on_.rc8",
+      "sha256": "9cc0b6ec17b54a0193e3e23f379923a68e950409ef84a0e26b82562a8f017efd",
+      "header": "985a929a385f303020030000580200000dcc0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::submenu_on.rct",
+      "file": "submenu_on.rct",
+      "sha256": "b84b1b467a75b59ac4866c5684ff12952a5c5555db8bda40f99f14104b3660b3",
+      "header": "985a929a544330302003000058020000e74f0300",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "pausemenu.mjo::000849"
+      ]
+    },
+    {
+      "id": "fastdata.arc::名前プレート_？？？_.rc8",
+      "file": "名前プレート_？？？_.rc8",
+      "sha256": "951df3a7ea892ba10da95b5048a9515d5345ff3ca9cbe6fed1afddd2e3c8466a",
+      "header": "985a929a385f3030830000002b000000c3020000",
+      "signature": "8_00",
+      "width": 131,
+      "height": 43,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::cgm_num_6_.rc8",
+      "file": "cgm_num_6_.rc8",
+      "sha256": "146dd1ab00d0d7e11a1bef1eec5addd538fa57747f2cae4251b2ed08c149ac37",
+      "header": "985a929a385f30302700000020000000db020000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct",
+      "file": "sl_save_n.rct",
+      "sha256": "6f96a52b648ce266a65b40626d2da9425859b69cb8fbc4b98d503e594a837014",
+      "header": "985a929a54433030200300005802000092750200",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::extra_off.rct",
+      "file": "extra_off.rct",
+      "sha256": "0b26296f753f77e6d0750f6c464e3f902b92dc65566df22b7e741ee3a2cb8744",
+      "header": "985a929a5443303020030000580200001a2c0000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "start.mjo::001047"
+      ]
+    },
+    {
+      "id": "fastdata.arc::cgm_num_2.rc8",
+      "file": "cgm_num_2.rc8",
+      "sha256": "a259d73ab7adaa522dbc939783f576a66e7a39a3e81cd1c90dacc7c707374c87",
+      "header": "985a929a385f3030270000002000000032020000",
+      "signature": "8_00",
+      "width": 39,
+      "height": 32,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::momiba1.rct",
+      "file": "momiba1.rct",
+      "sha256": "471b1ab65b43c0f32e171f34a14a5fc405b252068dbcb7bd51a9609eff907a97",
+      "header": "985a929a544330303a00000039000000161a0000",
+      "signature": "TC00",
+      "width": 58,
+      "height": 57,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::真帆子_view_.rc8",
+      "file": "真帆子_view_.rc8",
+      "sha256": "79b8d0a015db83a01677fb00126e50bf17472d73e819a35e17e5d122d5f46f51",
+      "header": "985a929a385f30302003000058020000a01e0000",
+      "signature": "8_00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": []
+    },
+    {
+      "id": "fastdata.arc::console_on_k.rct",
+      "file": "console_on_k.rct",
+      "sha256": "86647d8845d844428a46850813e130c716e70ca556659dfaf0acbd7ff1bce64a",
+      "header": "985a929a54433030200300005802000064650000",
+      "signature": "TC00",
+      "width": 800,
+      "height": 600,
+      "role": "ui_audit_pending",
+      "status": "source_verified",
+      "consumers": [
+        "sightchange.mjo::001817"
+      ]
+    }
+  ],
+  "count": 354,
+  "format_counts": {
+    "TC00": 146,
+    "8_00": 177,
+    "TC01": 31
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "prior_frozen_candidate": "opening-video-ko-v4",
+  "requests": [
+    "Remove four upper logo quote cues; replace small English paragraph in place in both logo scenes",
+    "Retain deliberate foreign-language lyric spans, including source spelling in darkness",
+    "Keep translated small English text compact and sharp; independently render at 4K"
+  ],
+  "unchanged": "Prior staff/role translation; 16 lyric pairs; original audio",
+  "quote_lines": [
+    "죽음과 무덤도 불못에 던져졌다.",
+    "이 불못이 곧 둘째 죽음이다.",
+    "생명책에 이름이 기록되지 않은 사람은",
+    "누구든 불못에 던져졌다."
+  ],
+  "runtime": "File-only background; no playback or focus takeover"
+}

@@ -1,0 +1,26 @@
+{
+  "previous_report": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\external-semi-korean-analysis-20261025\\현재번역-준한글-비교.txt",
+  "finding": "C04",
+  "correction_ko": "이전 비교에서 神/紙 말장난이 미해결이라고 한 평가는 잘못되었습니다. masa_06 u0024에 이미 종이(카미)가 있어 앞의 신(카미)와 연결됩니다. 기존 표현을 그대로 유지했습니다.",
+  "evidence": [
+    {
+      "id": "masa_06.mjo::000173",
+      "unit": "masa_06.mjo::u0016",
+      "source": "「はぁー…なんかこう、神が降りて来ないかなぁ」",
+      "target": "「하아… 뭔가 이렇게, 신(카미)이라도 내려와 주면 좋겠네」"
+    },
+    {
+      "id": "masa_06.mjo::000217",
+      "unit": "masa_06.mjo::u0020",
+      "source": "「ホントですよ。持ってきました、進路調査の紙」",
+      "target": "「정말이죠. 가져왔어요, 진로 조사서」"
+    },
+    {
+      "id": "masa_06.mjo::000257",
+      "unit": "masa_06.mjo::u0024",
+      "source": "それが彼女の言う『カミ』であるらしい。",
+      "target": "그게 그녀가 말한 『종이(카미)』인 모양이었다."
+    }
+  ],
+  "translator_model": "Codex internal"
+}

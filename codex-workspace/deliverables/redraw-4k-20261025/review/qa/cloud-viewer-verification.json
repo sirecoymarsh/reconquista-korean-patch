@@ -1,0 +1,21 @@
+{
+  "url": "http://127.0.0.1:8770/review/cloud.html",
+  "asset": "fb441157",
+  "ordinary_wheel_zoom": [
+    "1.716007",
+    "1.716007",
+    "1.716007"
+  ],
+  "screenshots": [
+    "cloud-review-loading.png",
+    "cloud-review-wheel.png",
+    "cloud-review-fit.png"
+  ],
+  "engine_reused": "original verified source/current/new synchronized pointer-centered wheel code",
+  "verified": true,
+  "fit_zoom": [
+    "1.000000",
+    "1.000000",
+    "1.000000"
+  ]
+}

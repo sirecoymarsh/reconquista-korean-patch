@@ -1,0 +1,1111 @@
+{
+  "candidate": "installer-ui-v3",
+  "created_utc": "2026-10-22T21:56:59.580920+00:00",
+  "system_acp": 949,
+  "unique_message_targets": 24,
+  "included_fields": 41,
+  "records": [
+    {
+      "ordinal": 1,
+      "ids": [
+        "setup.exe::0x414030",
+        "install.exe::0x414030"
+      ],
+      "target": "[%s]에 설치합니다.",
+      "formatted_sample": "[P:\\게임\\레콘퀴스타\\data.arc]에 설치합니다.",
+      "sample_arguments": [
+        "P:\\게임\\레콘퀴스타\\data.arc"
+      ],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        250,
+        15
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-01-4332318.png",
+        "sha256": "3164da02f7e273d95fb401fde4148b0b6fbeed963dffda98036d3a3c721ab27f",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 2,
+      "ids": [
+        "setup.exe::0x41404c",
+        "install.exe::0x41404c"
+      ],
+      "target": "루트에는 설치할 수 없습니다.",
+      "formatted_sample": "루트에는 설치할 수 없습니다.",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        159,
+        15
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-02-4397854.png",
+        "sha256": "1595377e698b09ca470a616bbaf9ac6f6af4c460c847ccdd1f9a82765a3932cb",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 3,
+      "ids": [
+        "setup.exe::0x414070",
+        "install.exe::0x414070"
+      ],
+      "target": "네트워크 드라이브는 지원하지 않습니다.\n로컬 드라이브를 선택해 주세요.",
+      "formatted_sample": "네트워크 드라이브는 지원하지 않습니다.\n로컬 드라이브를 선택해 주세요.",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        219,
+        30
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-03-4463390.png",
+        "sha256": "88feed305629122b3fcea8837364408e44ad61929456e840d46d0839e4b04840",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 4,
+      "ids": [
+        "setup.exe::0x4140f0",
+        "install.exe::0x4140f0"
+      ],
+      "target": "폴더를 만들 위치를 선택해 주세요.",
+      "formatted_sample": "폴더를 만들 위치를 선택해 주세요.",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        187,
+        15
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-04-4528926.png",
+        "sha256": "ed8d7ae6d912afc378990d167213738ad3142d11ae2c703a2a8ca41eeb8752e5",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 5,
+      "ids": [
+        "setup.exe::0x414268",
+        "install.exe::0x41421c"
+      ],
+      "target": "실행에 필요한 파일이 누락됐습니다.\n설치가 중단됐거나 실행 폴더가 잘못됐는지 확인해 주세요.",
+      "formatted_sample": "실행에 필요한 파일이 누락됐습니다.\n설치가 중단됐거나 실행 폴더가 잘못됐는지 확인해 주세요.",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        315,
+        30
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-05-4594462.png",
+        "sha256": "04fae5c34b0de056ad20f36916854fb3d0d5f6cde1c4b3e7108f0415dab39ba8",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 6,
+      "ids": [
+        "setup.exe::0x4143a0"
+      ],
+      "target": "설치 폴더를 찾을 수 없습니다.\n다시 설치해 주세요.",
+      "formatted_sample": "설치 폴더를 찾을 수 없습니다.\n다시 설치해 주세요.",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        163,
+        30
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-06-4659998.png",
+        "sha256": "5da2b4206cbd232639400e6991e1a808c634c8b718416a93e26573ee99adf5b7",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 7,
+      "ids": [
+        "setup.exe::0x4143e4"
+      ],
+      "target": "프로그램을 실행하지 못했습니다.\n다시 설치해 주세요.",
+      "formatted_sample": "프로그램을 실행하지 못했습니다.\n다시 설치해 주세요.",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        179,
+        30
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-07-4725534.png",
+        "sha256": "87ca3010f838c9aaad7516d2defb1fb1de99f6c938c2206ac2046bd47b772a63",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 8,
+      "ids": [
+        "setup.exe::0x414440"
+      ],
+      "target": "설치 폴더를 찾을 수 없습니다.",
+      "formatted_sample": "설치 폴더를 찾을 수 없습니다.",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        163,
+        15
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-08-4791070.png",
+        "sha256": "53ee83d2f9f5afaa231baca52045994ea78a2bd1dc35c3108cf773a84dc9f924",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 9,
+      "ids": [
+        "setup.exe::0x414468"
+      ],
+      "target": "삭제 프로그램을 실행할 수 없습니다.",
+      "formatted_sample": "삭제 프로그램을 실행할 수 없습니다.",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        199,
+        15
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-09-4856606.png",
+        "sha256": "ad4def41a247531b1998c247e628fee09c3f6fadb0f8233bc07f0cb014ed607d",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 10,
+      "ids": [
+        "setup.exe::0x414550"
+      ],
+      "target": "[확인]을 누르고 다음 디스크를 넣어 주세요.\n\n(*) 디스크를 넣어도 자동 실행되지 않으면\n드라이브 아이콘을 두 번 클릭해 주세요.",
+      "formatted_sample": "[확인]을 누르고 다음 디스크를 넣어 주세요.\n\n(*) 디스크를 넣어도 자동 실행되지 않으면\n드라이브 아이콘을 두 번 클릭해 주세요.",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        235,
+        60
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-10-4922142.png",
+        "sha256": "998218d20ee1a973eec8d5c6cc308658b74d29ea2f44e6c1b044746b78f4b75d",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 11,
+      "ids": [
+        "setup.exe::0x414634",
+        "install.exe::0x414388"
+      ],
+      "target": "파일 검사 중...",
+      "formatted_sample": "파일 검사 중...",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        77,
+        15
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-11-4987678.png",
+        "sha256": "1b7b6d4998afc142e415a79eb47e164060a0d297ac3e52b7c150ee2c2ddc611f",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            243
+          ],
+          [
+            0,
+            243
+          ],
+          [
+            0,
+            243
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 12,
+      "ids": [
+        "setup.exe::0x414d84",
+        "install.exe::0x414b64"
+      ],
+      "target": "설치가 완료됐습니다.",
+      "formatted_sample": "설치가 완료됐습니다.",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        115,
+        15
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-12-5053214.png",
+        "sha256": "8d298ef9bef4d8837e5b444c1ddd2ed8908a37109d41ecc7532363b21eef4802",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 13,
+      "ids": [
+        "setup.exe::0x414dc8",
+        "install.exe::0x414c00"
+      ],
+      "target": "지정한 위치에 쓸 수 없습니다.",
+      "formatted_sample": "지정한 위치에 쓸 수 없습니다.",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        163,
+        15
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-13-5118750.png",
+        "sha256": "5e910a7e137580f12137046072c1f0089f202af6d55b3c73b1751869a7c78330",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 14,
+      "ids": [
+        "setup.exe::0x414df0",
+        "install.exe::0x414c28"
+      ],
+      "target": "설치를 취소했습니다.",
+      "formatted_sample": "설치를 취소했습니다.",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        115,
+        15
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-14-5184286.png",
+        "sha256": "b49b93ded8093be5976554b108e7706cde002076d713d6a7e5ec88ba77c8e45c",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 15,
+      "ids": [
+        "setup.exe::0x414e0c",
+        "install.exe::0x414c44"
+      ],
+      "target": "설치를 계속할까요?",
+      "formatted_sample": "설치를 계속할까요?",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        106,
+        15
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-15-5249822.png",
+        "sha256": "5d1e16f4fef8cd5249f9b5f3a1efdf11998f19ff4455d586d64ddd0fde101825",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 16,
+      "ids": [
+        "setup.exe::0x414ea8",
+        "install.exe::0x414d2c"
+      ],
+      "target": "파일[%s]을 복사하지 못했습니다.\n설치 위치의 여유 공간을 확인해 주세요.",
+      "formatted_sample": "파일[P:\\게임\\레콘퀴스타\\data.arc]을 복사하지 못했습니다.\n설치 위치의 여유 공간을 확인해 주세요.",
+      "sample_arguments": [
+        "P:\\게임\\레콘퀴스타\\data.arc"
+      ],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        326,
+        30
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-16-5315358.png",
+        "sha256": "e27a0d8b5bf3757447a1a178fe2e8922936c3a3c3bbb6fa8f3b68891246617f7",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 17,
+      "ids": [
+        "setup.exe::0x414ef8",
+        "install.exe::0x414d7c"
+      ],
+      "target": "파일[%s] 복사를 취소했습니다.",
+      "formatted_sample": "파일[P:\\게임\\레콘퀴스타\\data.arc] 복사를 취소했습니다.",
+      "sample_arguments": [
+        "P:\\게임\\레콘퀴스타\\data.arc"
+      ],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        314,
+        15
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-17-5380894.png",
+        "sha256": "72c308fb12a9ece1ce84a694cc21b267cfad3b1fa787bcd1acf83491c9d6f62e",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 18,
+      "ids": [
+        "setup.exe::0x414f28",
+        "install.exe::0x414dac"
+      ],
+      "target": "드라이브의 공간이 부족합니다.\n여유 공간을 확보하거나 다른 드라이브를 선택해 주세요.",
+      "formatted_sample": "드라이브의 공간이 부족합니다.\n여유 공간을 확보하거나 다른 드라이브를 선택해 주세요.",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        303,
+        30
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-18-5446430.png",
+        "sha256": "c16321b2e9049f68a687dec789837204b4149ba92c2eb9f58410b3462aefad68",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 19,
+      "ids": [
+        "setup.exe::0x4161e4",
+        "install.exe::0x4160c8"
+      ],
+      "target": "파일[ %s ]이 [ %s ]과 [ %s ]에 있습니다",
+      "formatted_sample": "파일[ sample.rct ]이 [ data.arc ]과 [ fastdata.arc ]에 있습니다",
+      "sample_arguments": [
+        "sample.rct",
+        "data.arc",
+        "fastdata.arc"
+      ],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        326,
+        15
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-19-5511966.png",
+        "sha256": "6d0d700ff03d72a54d0d19e64cc92c317defe7fc70ed785f6ec580b7d24024ab",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 20,
+      "ids": [
+        "setup.exe::0x416288",
+        "install.exe::0x41616c"
+      ],
+      "target": "파일[%s]이 손상됐습니다. 다시 설치해 주세요.",
+      "formatted_sample": "파일[P:\\게임\\레콘퀴스타\\data.arc]이 손상됐습니다. 다시 설치해 주세요.",
+      "sample_arguments": [
+        "P:\\게임\\레콘퀴스타\\data.arc"
+      ],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        397,
+        15
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-20-5577502.png",
+        "sha256": "50237243ee1e164dd66d9dfaaf15eab1efd931edf2930edc3aeec87d5eb096be",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 21,
+      "ids": [
+        "setup.exe::0x4162ec",
+        "install.exe::0x4161d0"
+      ],
+      "target": "Ffopen : 파일[%s]을 읽지 못했습니다",
+      "formatted_sample": "Ffopen : 파일[P:\\게임\\레콘퀴스타\\data.arc]을 읽지 못했습니다",
+      "sample_arguments": [
+        "P:\\게임\\레콘퀴스타\\data.arc"
+      ],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        347,
+        15
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-21-5643038.png",
+        "sha256": "26086aadca0e01d75b8cb7723e3a76d43b0779a13c86d73b51db06f955740a81",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 22,
+      "ids": [
+        "setup.exe::0x416354",
+        "install.exe::0x416210"
+      ],
+      "target": "메모리가 부족하여 작업을 중단합니다.",
+      "formatted_sample": "메모리가 부족하여 작업을 중단합니다.",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        207,
+        15
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-22-5708574.png",
+        "sha256": "6097dada178ff1a5fd3bfd10c70061e29a1a1248c264597efa1ef1c80eb63201",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 23,
+      "ids": [
+        "install.exe::0x414ba8"
+      ],
+      "target": "지정한 위치에 쓸 수 없습니다.\n설치하려면 관리자 권한이 필요합니다.",
+      "formatted_sample": "지정한 위치에 쓸 수 없습니다.\n설치하려면 관리자 권한이 필요합니다.",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        207,
+        30
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-23-5774110.png",
+        "sha256": "73d0623f4f00c2de3c1e6a311b5867ab95bcb703242c214744bfd24b3d667fb2",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    },
+    {
+      "ordinal": 24,
+      "ids": [
+        "install.exe::0x414c80"
+      ],
+      "target": "설치하려면 관리자 권한이 필요합니다.",
+      "formatted_sample": "설치하려면 관리자 권한이 필요합니다.",
+      "sample_arguments": [],
+      "window_text_matches": true,
+      "missing_glyphs": [],
+      "host_control_pixels": [
+        497,
+        144
+      ],
+      "required_text_pixels": [
+        207,
+        15
+      ],
+      "fits_host_control": true,
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-messages\\installer-v3-message-24-5839646.png",
+        "sha256": "1085f707e6c71d196b730a1f2997a4977cb34a37de18e98c6a685c26367da440",
+        "print_window_return": true,
+        "size": [
+          541,
+          249
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      }
+    }
+  ],
+  "all_text_matches": true,
+  "all_glyphs_available": true,
+  "all_fit_host": true,
+  "input_before": {
+    "hwnd": 103219422,
+    "pid": 66188,
+    "input_desktop": "Default"
+  },
+  "input_after": {
+    "hwnd": 103219422,
+    "pid": 66188,
+    "input_desktop": "Default"
+  },
+  "focus_sampler": {
+    "sample_interval_ms": 50,
+    "samples": 877,
+    "events": [
+      {
+        "monotonic": 235003.562,
+        "hwnd": 103219422,
+        "pid": 66188,
+        "input_desktop": "Default"
+      }
+    ],
+    "errors": [],
+    "game_became_foreground": false,
+    "private_desktop_became_input": false,
+    "continuous_monitor": false,
+    "scope": "50 ms samples during this command; gaps between commands not monitored"
+  },
+  "clipboard_sequence_before": 153,
+  "clipboard_sequence_after": 153,
+  "clipboard_write_api_used": false,
+  "installer_executed": false,
+  "engine_error_helpers_called": false,
+  "runtime_pass": false,
+  "scope": "Candidate bytes shown through native SetDlgItemTextA/CP949 in an inert MalgunGothic9pt dialog. Confirms text roundtrip and glyph coverage and host layout only; original MessageBox/SHBrowseForFolder layouts, installer logic and actual argument values remain untested.",
+  "layout_visual_pass": true,
+  "visual_review": "All24 distinct native-host captures reviewed through3 contact sheets: Korean text readable, no missing glyphs or host clipping; actual installer dialogs remain unexecuted."
+}

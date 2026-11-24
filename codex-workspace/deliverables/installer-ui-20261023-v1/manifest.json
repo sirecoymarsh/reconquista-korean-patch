@@ -1,0 +1,32 @@
+{
+  "translator_model": "Codex internal",
+  "status": "reviewed_original_installer_ui_payloads",
+  "installer_fields": 88,
+  "readme_fields": 10,
+  "files": [
+    {
+      "file": "payloads/setup.exe",
+      "source": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\installer-ui-v4\\setup.exe",
+      "sha256": "546f64b7d0128521d0fc163da7d9190a44cbe0fec2bf429f0a6666c058fbbc4d"
+    },
+    {
+      "file": "payloads/install.exe",
+      "source": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\installer-ui-v4\\install.exe",
+      "sha256": "cc99b036927fe5aee9517aebeb95ec994f52a7058f082acba68e460163a4ce8c"
+    },
+    {
+      "file": "payloads/readme.txt",
+      "source": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\installer-readme-v1\\payloads\\readme.txt",
+      "sha256": "11855ae54b41419296aa037898cb1bdac8374a011eb6a99bdf7899e653e128ec"
+    }
+  ],
+  "exact_existing_security_and_display_proofs_reused": [
+    "ui-opening-ending/reports/installer-ui-v4-defender-scan.json",
+    "ui-opening-ending/reports/installer-ui-v3-defender-scan.json",
+    "ui-opening-ending/candidates/installer-ui-v4/manifest.json",
+    "ui-opening-ending/candidates/installer-readme-v1/manifest.json"
+  ],
+  "installer_executed": false,
+  "standalone_installer": false,
+  "required_windows_acp": 949
+}

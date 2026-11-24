@@ -1,0 +1,2458 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-2/lane-2",
+  "coordinator_thread_id": "01a16335-afd6-74f0-8990-fd759c6ead35",
+  "agent_id": "01a16337-bfbb-7823-8401-2f69faea65eb",
+  "agent_canonical_id": "/root/lane_2",
+  "source_script": "maho_14.mjo",
+  "source_sha256": "a9424d3caba95a428e65dfbc50f09e469d7b6de485ce5c783b973b8a9047b116",
+  "packet_sha256": "f82e50ba6fe2545e9d9a1f613a83b2cde85fa8cba6e898a47a9a5158d212d741",
+  "contract_revision": "20261022-2-path-and-inline-ownership",
+  "source_context_read": [
+    "maho_14.mjo::u0001-u0180"
+  ],
+  "records": [
+    {
+      "unit": "maho_14.mjo::u0001",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000032",
+          "source": "「もうこんな時間か…」",
+          "target": "「벌써 시간이 이렇게 됐나…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0002",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000037",
+          "source": "いつの間にか、日が替わっていた。",
+          "target": "어느새 자정이 지나 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0003",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000042",
+          "source": "警察からの事故の報せ――",
+          "target": "경찰이 전해 온 사고 소식――"
+        },
+        {
+          "id": "maho_14.mjo::000046",
+          "source": "あの後すぐに病院に確認を入れたが、間違いなかった。",
+          "target": "곧바로 병원에 확인해 봤지만, 틀림없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0004",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000051",
+          "source": "病院からニュータウンへと渡る、唯一の橋。",
+          "target": "병원에서 뉴타운으로 건너오는 유일한 다리."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0005",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000056",
+          "source": "あの橋の上で、",
+          "target": "그 다리 위에서"
+        },
+        {
+          "id": "maho_14.mjo::000060",
+          "source": "おじさんとおばさんは事故を起こしたらしい。",
+          "target": "아저씨와 아주머니가 사고를 당하신 모양이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0006",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000065",
+          "source": "電話での約束通り、",
+          "target": "전화로 약속한 대로"
+        },
+        {
+          "id": "maho_14.mjo::000069",
+          "source": "真帆子と俺を迎えに来ようとしていたのだろう。",
+          "target": "마호코와 나를 데리러 오시던 길이었겠지."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0007",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000074",
+          "source": "しかし、その途中で…",
+          "target": "그런데 오시는 도중에…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0008",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000081",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0009",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000086",
+          "source": "すぐにでも駆けつけようとした。",
+          "target": "곧장 달려가려고 했다."
+        },
+        {
+          "id": "maho_14.mjo::000090",
+          "source": "だが、そこで俺は踏み",
+          "target": "하지만 거기서 발길을 "
+        },
+        {
+          "id": "maho_14.mjo::000095",
+          "source": "まってしまった。",
+          "target": "고 말았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0010",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000102",
+          "source": "「（真帆子に、何て言えばいいんだよ…）」",
+          "target": "「(마호코한테 뭐라고 말해야 한단 말이야…)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0011",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000107",
+          "source": "真帆子は事故どころか、",
+          "target": "마호코는 사고는커녕"
+        },
+        {
+          "id": "maho_14.mjo::000111",
+          "source": "昨夜からおばさんが病院にいた事も知る筈ない。",
+          "target": "어젯밤부터 아주머니가 병원에 계셨다는 것도 모를 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0012",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000116",
+          "source": "事態ばかりが悪化していき、",
+          "target": "상황은 갈수록 나빠지는데,"
+        },
+        {
+          "id": "maho_14.mjo::000120",
+          "source": "その中で真帆子だけは情報から隔離されている。",
+          "target": "그 속에서 마호코만 아무것도 모르고 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0013",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000125",
+          "source": "その状況を作ったのも、望んだのも俺だった。",
+          "target": "그런 상황을 만든 것도, 바란 것도 나였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0014",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000130",
+          "source": "真帆子の生活を守るつもりで…",
+          "target": "마호코의 일상을 지켜 주려 했는데…"
+        },
+        {
+          "id": "maho_14.mjo::000134",
+          "source": "でも結局はこのザマだった。",
+          "target": "결국 이 꼴이 되고 말았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0015",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000139",
+          "source": "正直、俺ももうどうしていいのか分からない。",
+          "target": "솔직히 나도 이제 어떻게 해야 할지 모르겠다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0016",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000144",
+          "source": "何が正しくて何が間違っているのか、",
+          "target": "무엇이 옳고 무엇이 그른지,"
+        },
+        {
+          "id": "maho_14.mjo::000148",
+          "source": "自信がなくなりつつあった。",
+          "target": "점점 자신이 없어졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0017",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000153",
+          "source": "あの後、もう一度だけ鳴った電話は、",
+          "target": "그 후 딱 한 번 더 울린 전화는"
+        },
+        {
+          "id": "maho_14.mjo::000157",
+          "source": "おばさん達の手術の成功を告げるものだった。",
+          "target": "두 분의 수술이 무사히 끝났다는 소식이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0018",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000162",
+          "source": "まだ意識は戻ってないが、",
+          "target": "아직 의식은 돌아오지 않았지만,"
+        },
+        {
+          "id": "maho_14.mjo::000166",
+          "source": "幸い、命に別状はないらしい。",
+          "target": "다행히 생명에는 지장이 없다고 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0019",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000171",
+          "source": "でも俺は、二人が手術を受けてる事実を",
+          "target": "하지만 나는 두 분이 수술을 받았다는 것조차"
+        },
+        {
+          "id": "maho_14.mjo::000175",
+          "source": "その時知ったくらいで…",
+          "target": "그때서야 알았을 정도라…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0020",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000182",
+          "source": "「（おじさんおばさん、すみません…）」",
+          "target": "「(아저씨, 아주머니, 죄송해요…)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코의 부모(마음속 사과)"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0021",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000187",
+          "source": "ダルマのような気分だった。",
+          "target": "달마 인형이 된 기분이었다."
+        },
+        {
+          "id": "maho_14.mjo::000191",
+          "source": "状況に、手も足もでない。",
+          "target": "이 상황에 손도 발도 쓸 수가 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0022",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000196",
+          "source": "やる事だけは、明確に分かっていた。",
+          "target": "내가 해야 할 일만큼은 분명히 알고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0023",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000201",
+          "source": "真帆子の為に…",
+          "target": "마호코를 위해…"
+        },
+        {
+          "id": "maho_14.mjo::000205",
+          "source": "俺に何が出来るのだろう、何が言えるのだろう…？",
+          "target": "내가 뭘 할 수 있을까, 무슨 말을 해 줄 수 있을까…?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0024",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000212",
+          "source": "「（そう言えばアイツ、どうしてるんだ…？）」",
+          "target": "「(그러고 보니 걔는 지금 뭘 하고 있지…?)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0025",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000217",
+          "source": "時間が欲しいと言われ、少し距離を取っていた。",
+          "target": "시간을 달라고 해서 잠시 거리를 두고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0026",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000222",
+          "source": "けど考えてみたら、食事もロクに摂ってない。",
+          "target": "그런데 생각해 보니 밥도 제대로 못 먹었다."
+        },
+        {
+          "id": "maho_14.mjo::000226",
+          "source": "もしかしたら、睡眠だって…",
+          "target": "어쩌면 잠도…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0027",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000233",
+          "source": "「くそっ、俺は何をしてたんだ…！」",
+          "target": "「젠장, 난 지금까지 뭘 한 거야…!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0028",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000238",
+          "source": "言える事もやれる事も分からなくても、",
+          "target": "무슨 말을 해야 할지, 뭘 해야 할지 모르더라도"
+        },
+        {
+          "id": "maho_14.mjo::000242",
+          "source": "側にいなきゃいけなかったのにっ。",
+          "target": "곁에 있어 줬어야 했는데."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0029",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000247",
+          "source": "慌てて俺は、真帆子の部屋へと向かった。",
+          "target": "나는 서둘러 마호코의 방으로 향했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0030",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000259",
+          "source": "コンコン、",
+          "target": "똑똑,"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0031",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000269",
+          "source": "「はい、どうぞ…」",
+          "target": "「응, 들어와…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0032",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000277",
+          "source": "カチャッ…、",
+          "target": "달칵…,"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0033",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000284",
+          "source": "「悪いな、時間が欲しいって言ってたのに」",
+          "target": "「미안해. 시간을 달라고 했는데」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0034",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000302",
+          "source": "「大丈夫だよ、もう答えは出たから」",
+          "target": "「괜찮아. 이제 답은 찾았으니까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0035",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000307",
+          "source": "そう言って、薄く微笑む。",
+          "target": "그렇게 말하며 옅게 미소 짓는다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0036",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000312",
+          "source": "隠し切れない疲労の中で、",
+          "target": "숨기지 못한 피로 속에서도"
+        },
+        {
+          "id": "maho_14.mjo::000316",
+          "source": "それでも何かが吹っ切れたような表情。",
+          "target": "뭔가 마음을 정리한 듯한 표정이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0037",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000321",
+          "source": "あれだけの事があった後なのに、",
+          "target": "그런 일을 겪은 뒤인데도"
+        },
+        {
+          "id": "maho_14.mjo::000325",
+          "source": "酷く落ち着いて見えるのが不思議だった。",
+          "target": "무척 침착해 보여서 이상했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0038",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000332",
+          "source": "「それは、お前の言ってた一番の問題ってのか？」",
+          "target": "「네가 말한 가장 큰 문제, 그거 말이야?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0039",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000346",
+          "source": "「少しだけ悩んじゃった。ごめんね」",
+          "target": "「조금 고민했어. 미안해」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0040",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000353",
+          "source": "「？　何で謝るんだよ？」",
+          "target": "「응? 왜 사과해?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0041",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000367",
+          "source": "「そうするって、ずっと昔に決めてた事だから…」",
+          "target": "「그렇게 하겠다고 아주 옛날에 정했으니까…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0042",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000372",
+          "source": "よく分からない答えだった。",
+          "target": "잘 이해되지 않는 대답이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0043",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000377",
+          "source": "それでも真帆子の表情は、",
+          "target": "그래도 마호코의 표정에서는"
+        },
+        {
+          "id": "maho_14.mjo::000381",
+          "source": "ある種の決意を覗かせてるように見えて…",
+          "target": "어떤 결심 같은 것이 엿보이는 듯해서…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0044",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000395",
+          "source": "「何があったのか、聞かせてくれる？」",
+          "target": "「무슨 일이 있었는지 말해 줄래?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0045",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000402",
+          "source": "「…ああ…」",
+          "target": "「…그래…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0046",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000407",
+          "source": "来た、と思った。",
+          "target": "결국 이 순간이 왔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0047",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000412",
+          "source": "真帆子の日常を守る為…",
+          "target": "마호코의 일상을 지키기 위해…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0048",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000417",
+          "source": "これ以上守る場所があるのかも分からないまま、",
+          "target": "더 지킬 게 남아 있는지도 모르는 채"
+        },
+        {
+          "id": "maho_14.mjo::000421",
+          "source": "嘘を重ねなければならない。",
+          "target": "또 거짓말을 해야 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0049",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000426",
+          "source": "数日前までは意味があった。",
+          "target": "며칠 전까지만 해도 의미가 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0050",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000431",
+          "source": "少なくともそう信じられた行為も、",
+          "target": "적어도 그렇다고 믿을 수 있었던 행동도"
+        },
+        {
+          "id": "maho_14.mjo::000435",
+          "source": "今となっては言い訳がましい、",
+          "target": "이제는 구차한 변명처럼,"
+        },
+        {
+          "id": "maho_14.mjo::000439",
+          "source": "その場凌ぎの意味でしかないように感じられる。",
+          "target": "그저 당장을 모면하려는 짓으로밖에 느껴지지 않았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0051",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000453",
+          "source": "「どうしたの…？」",
+          "target": "「왜 그래…?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0052",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000460",
+          "source": "「いや…」",
+          "target": "「아니…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0053",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000470",
+          "source": "不意に真帆子が立ち上がって、背中の方へと回りこむ。",
+          "target": "마호코가 불쑥 일어서더니 내 등 뒤로 돌아왔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0054",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000475",
+          "source": "まるで、俺の言葉を",
+          "target": "마치 내 말을"
+        },
+        {
+          "id": "maho_14.mjo::000479",
+          "source": "見透かそうとでもするかのように。",
+          "target": "꿰뚫어 보려는 것처럼."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0055",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000484",
+          "source": "でも、だからと言ってどうする事も出来ない。",
+          "target": "하지만 그렇다고 달리 어쩔 도리는 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0056",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000489",
+          "source": "真帆子に本当の事なんて…",
+          "target": "마호코에게 사실을 말할 수는…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0057",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000501",
+          "source": "「話していいよ」",
+          "target": "「말해도 돼」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0058",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000508",
+          "source": "「…え？」",
+          "target": "「…어?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0059",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000513",
+          "source": "最初、俺は自分が考えを",
+          "target": "처음에는 내가 생각을"
+        },
+        {
+          "id": "maho_14.mjo::000517",
+          "source": "口に出しているのかと思ってしまった。",
+          "target": "입 밖으로 내뱉은 줄 알았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0060",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000522",
+          "source": "けれど、そうではなかった。",
+          "target": "하지만 그게 아니었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0061",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000548",
+          "source": "「信くんが思うように、話してくれればいい…」",
+          "target": "「신이 마음 가는 대로 말해 주면 돼…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0062",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000558",
+          "source": "「わたしは、信じるから…」",
+          "target": "「난 믿을 테니까…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0063",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000568",
+          "source": "「信くんの言うこと、全部信じるって決めたから…」",
+          "target": "「신이 하는 말은 전부 믿기로 했으니까…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0064",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000575",
+          "source": "「真帆子…」",
+          "target": "「마호코…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0065",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000580",
+          "source": "涙が、零れそうになった。",
+          "target": "눈물이 쏟아질 것 같았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0066",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000585",
+          "source": "…真帆子は、俺が嘘をついてるのに気付いてる。",
+          "target": "…마호코는 내가 거짓말을 한다는 걸 알고 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0067",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000590",
+          "source": "ずっと騙し続けてると気付いていて、",
+          "target": "계속 자기를 속여 왔다는 걸 알면서도"
+        },
+        {
+          "id": "maho_14.mjo::000594",
+          "source": "それでも俺を信じると言ってくれてる。",
+          "target": "나를 믿겠다고 말해 주고 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0068",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000599",
+          "source": "想像もつかない不安と恐怖があった筈なのに。",
+          "target": "상상도 못 할 불안과 두려움에 시달렸을 텐데."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0069",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000604",
+          "source": "何度も何度も疑ったりした筈なのに。",
+          "target": "몇 번이고, 몇 번이고 의심했을 텐데."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0070",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000609",
+          "source": "悩んで、悩んで…",
+          "target": "고민하고 또 고민해서…"
+        },
+        {
+          "id": "maho_14.mjo::000613",
+          "source": "ようやく出した答えもそれで…",
+          "target": "겨우 찾아낸 답도 그것이었다니…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0071",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000620",
+          "source": "「なんで、そんな…」",
+          "target": "「왜 그렇게까지…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0072",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000635",
+          "source": "「だって、信くんの言葉だもん…」",
+          "target": "「신이 하는 말이니까…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0073",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000640",
+          "source": "本当にそんな、馬鹿みたいな理由だけで…",
+          "target": "정말 그런 바보 같은 이유 하나만으로…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0074",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000650",
+          "source": "「ごめんね…」",
+          "target": "「미안해…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0075",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000657",
+          "source": "「え？」",
+          "target": "「응?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0076",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000667",
+          "source": "「ごめん…ごめんね…」",
+          "target": "「미안해… 미안해…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0077",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000674",
+          "source": "「…何で謝るんだよ？」",
+          "target": "「…왜 사과하는 거야?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0078",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000684",
+          "source": "「わたしのせいで、辛い思いしてるんだよね？",
+          "target": "「나 때문에 힘든 거지?"
+        },
+        {
+          "id": "maho_14.mjo::000688",
+          "source": "　苦しい思い、してるんだよね…？」",
+          "target": "　괴로운 거지…?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0079",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000695",
+          "source": "「そんなこと…」",
+          "target": "「그런 건 아니…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0080",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000705",
+          "source": "「信くんが、わたしを思って",
+          "target": "「신이 나를 생각해서"
+        },
+        {
+          "id": "maho_14.mjo::000709",
+          "source": "　色々と抱えてるんだって分かる…」",
+          "target": "　혼자 여러 가지를 떠안고 있다는 거, 알아…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0081",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000719",
+          "source": "「だから信くんの言う事は信じられるし、",
+          "target": "「그래서 신이 하는 말은 믿을 수 있고,"
+        },
+        {
+          "id": "maho_14.mjo::000723",
+          "source": "　不安も、怖いのだってガマンできる…」",
+          "target": "　불안한 것도, 무서운 것도 참을 수 있어…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0082",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000728",
+          "source": "僅かな沈黙。",
+          "target": "잠깐의 침묵."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0083",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000738",
+          "source": "「でも…でもねっ…」",
+          "target": "「하지만… 하지만 있잖아…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0084",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000743",
+          "source": "真帆子の肩が大きくしゃくりあげる。",
+          "target": "마호코가 어깨를 크게 들썩이며 흐느낀다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0085",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000748",
+          "source": "身体が震え、抱き締めた腕に力がこもった…",
+          "target": "몸이 떨리고, 나를 끌어안은 팔에 힘이 들어갔다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0086",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000763",
+          "source": "「本当は…、わたしも抱えてあげたいのっ…」",
+          "target": "「사실은… 나도 같이 떠안고 싶어…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0087",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000773",
+          "source": "「わがままかもしれないけど…",
+          "target": "「내 욕심일지도 모르지만…"
+        },
+        {
+          "id": "maho_14.mjo::000777",
+          "source": "　迷惑かもしれないけどっ…」",
+          "target": "　폐가 될지도 모르지만…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0088",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000787",
+          "source": "「一緒に考えようって、言って欲しいよぉっ…」",
+          "target": "「같이 생각해 보자고 말해 줬으면 좋겠어어…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0089",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000797",
+          "source": "「うわぁぁああぁぁ…んっ」",
+          "target": "「으아아아아아… 앙…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0090",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000802",
+          "source": "…泣いていた。",
+          "target": "…울고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0091",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000807",
+          "source": "どんな不安の中でも、",
+          "target": "아무리 불안해도,"
+        },
+        {
+          "id": "maho_14.mjo::000811",
+          "source": "恐怖に襲われても泣かなかった真帆子が、",
+          "target": "두려움에 휩싸여도 울지 않았던 마호코가"
+        },
+        {
+          "id": "maho_14.mjo::000815",
+          "source": "ただ、こんな事で泣いていた。",
+          "target": "그저 이런 일로 울고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0092",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000820",
+          "source": "その声を聞いていたら、",
+          "target": "그 목소리를 듣고 있자니"
+        },
+        {
+          "id": "maho_14.mjo::000824",
+          "source": "俺まで泣きそうになって、必死で堪えた。",
+          "target": "나까지 울 것 같아서 필사적으로 참았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0093",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000838",
+          "source": "「うぅ、ひっく…」",
+          "target": "「흐으, 흑…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0094",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000843",
+          "source": "暫くして、真帆子が泣き止み始めた頃…",
+          "target": "조금 지나 마호코가 울음을 그치기 시작했을 때…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0095",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000850",
+          "source": "「俺さ…」",
+          "target": "「나 말이야…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0096",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000857",
+          "source": "「…結構ヒドい嘘ついてるぞ」",
+          "target": "「…꽤 심한 거짓말을 하고 있어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0097",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000867",
+          "source": "「…うん」",
+          "target": "「…응」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0098",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000874",
+          "source": "「お前にとって、かなり辛い話になると思う…」",
+          "target": "「너한텐 무척 힘든 얘기가 될 것 같아…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0099",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000884",
+          "source": "「うん…うんっ…」",
+          "target": "「응… 응…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0100",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000891",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0101",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000898",
+          "source": "「先に言っておく…」",
+          "target": "「미리 말해 둘게…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0102",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000905",
+          "source": "「絶対に独りで抱え込もうとするな」",
+          "target": "「절대 혼자 다 떠안으려고 하지 마」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야→마호코: 죄책감과 걱정이 담긴 반말",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0103",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000915",
+          "source": "「それは…ひっく、こっちのセリフぅ…」",
+          "target": "「그건… 흑, 내가 할 말이야아…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "마호코→신야: 부드러운 반말, 울음과 늘이는 소리 보존",
+        "text_function": "dialogue",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0104",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000924",
+          "source": "そうして俺は、",
+          "target": "그렇게 나는"
+        },
+        {
+          "id": "maho_14.mjo::000928",
+          "source": "何もかも包み隠さず真帆子に話す事にした。",
+          "target": "아무것도 숨기지 않고 전부 마호코에게 말하기로 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0105",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000933",
+          "source": "そうする事が、",
+          "target": "그것만이"
+        },
+        {
+          "id": "maho_14.mjo::000937",
+          "source": "唯一真帆子の思いに報えるのだと思った。",
+          "target": "마호코의 마음에 보답하는 길이라고 생각했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0106",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000942",
+          "source": "…俺だって信じてる。",
+          "target": "…나도 믿고 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_14.mjo::u0107",
+      "fields": [
+        {
+          "id": "maho_14.mjo::000947",
+          "source": "真帆子が辛い時は、",
+          "target": "마호코가 힘들 때는"
+        },
+        {
+          "id": "maho_14.mjo::000951",
+          "source": "きっと力になれると信じているから…",
+          "target": "분명 힘이 되어 줄 수 있다고 믿으니까…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "마호코와 신야는 소꿉친구; 신야가 마호코 부모의 사고와 숨겨 온 사실을 털어놓기로 함",
+        "story_phase": "마호코 루트 maho_14, 현재 시점, 자정 이후 마호코의 방",
+        "voice": "신야의 담담하고 자책하는 1인칭 서술/독백",
+        "text_function": "narration",
+        "evidence": "maho_14 u0001–0107 complete scene; u0108–0180 transition read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "ダルマ",
+      "target": "달마 인형",
+      "evidence": [
+        "maho_14.mjo::u0021"
+      ],
+      "reason": "팔다리가 없는 달마 인형과 손발을 쓸 수 없는 무력감의 비유 보존; 일본 배경 유지"
+    }
+  ],
+  "inline_records": [
+    {
+      "unit": "maho_14.mjo::u0009",
+      "id": "maho_14.mjo::000092",
+      "source": "とど",
+      "target": " ",
+      "consumer": "yazlib $3198fd01 ruby reading argument",
+      "evidence": "maho_14.mjo.mjil offsets 0037d ldstr とど, 00386 ldstr 止, 0038d callp $3198fd01 (2); approved blank-reading convention"
+    },
+    {
+      "unit": "maho_14.mjo::u0009",
+      "id": "maho_14.mjo::000093",
+      "source": "止",
+      "target": "멈추",
+      "consumer": "yazlib $3198fd01 ruby body argument",
+      "evidence": "maho_14.mjo.mjil 00362 text 踏み + 00386 ldstr 止 + 00399 text まってしまった; Korean composition: 발길을 + 멈추 + 고 말았다."
+    }
+  ],
+  "runtime_verified": false,
+  "semantic_corrections": [
+    {
+      "unit": "maho_14.mjo::u0079",
+      "reason": "상대의 자책을 부정하려는 중단 발화의 극성 명료화"
+    }
+  ]
+}

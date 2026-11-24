@@ -1,0 +1,39 @@
+{
+  "candidate": "ui-trial-v16",
+  "native_candidate": "native-ui-v5",
+  "test_processes": [
+    30576
+  ],
+  "all_test_processes_exited": true,
+  "operations": 10,
+  "focus_samples": 384,
+  "game_foreground_observations": 0,
+  "private_input_desktop_observations": 0,
+  "focus_sampler_errors": [],
+  "before_after_foreground_changes": 0,
+  "sampling_scope": "50ms samples during each command; gaps between commands not monitored",
+  "verified": [
+    "UI-EXTRA::music-shared-caption-description",
+    "UI-EXTRA::staffroom-caption-normal",
+    "UI-EXTRA::cg-caption-normal",
+    "UI-EXTRA::recollection-caption-normal"
+  ],
+  "evidence": {
+    "UI-EXTRA::music-shared-caption-description": "evidence/background-runtime/bg-v16-music-203144.png",
+    "UI-EXTRA::staffroom-caption-normal": "evidence/background-runtime/bg-v16-staffroom-ready-203144.png",
+    "UI-EXTRA::cg-caption-normal": "evidence/background-runtime/bg-v16-cg-203144.png",
+    "UI-EXTRA::recollection-caption-normal": "evidence/background-runtime/bg-v16-recollection-203144.png"
+  },
+  "harness": "reports/background-runtime-v16-prepared.json",
+  "harness_limit": "Initial title background was bypassed; gray extra-menu background is a test-harness artifact. These results cover the subsequent actual screens only, not normal extra-menu startup or unlock progression.",
+  "remaining": [
+    "New save/load captions and history footer runtime review",
+    "Chronicle v13 caption/calendar atlas runtime",
+    "Music track/variant text and navigation buttons still untranslated",
+    "Other title/hover/pressed states",
+    "Native v6 errors runtime pending"
+  ],
+  "restored_scenario_sha256": "040db0bf4ab872d47d3a6c06057a0c94f2056e8e8855fd9ae6e9d5a522913625",
+  "audio_report": "reports/background-runtime-v16-audio.json",
+  "whole_UI_complete": false
+}

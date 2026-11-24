@@ -1,0 +1,914 @@
+{
+  "translator_model": "Codex internal",
+  "existing_approved_wording_unchanged": true,
+  "font": "Batang88",
+  "scale": 4,
+  "entries": [
+    {
+      "name": "title1_off.rct",
+      "key": "ef1f6a40",
+      "file": "ef1f6a40.png",
+      "size": [
+        800,
+        600
+      ],
+      "output_size": [
+        3200,
+        2400
+      ],
+      "sha256": "9c34fa181f6181e765f78f4ade68d0bd8e760e3ea181492457d54df3511a0e2e",
+      "labels": [
+        {
+          "target": "처음부터",
+          "bbox": [
+            2380,
+            1346,
+            2732,
+            1431
+          ],
+          "logical_hitbox": [
+            565,
+            328,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "불러오기",
+          "bbox": [
+            2380,
+            1515,
+            2732,
+            1598
+          ],
+          "logical_hitbox": [
+            565,
+            369,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "설정",
+          "bbox": [
+            2380,
+            1683,
+            2556,
+            1765
+          ],
+          "logical_hitbox": [
+            565,
+            410,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "추가 메뉴",
+          "bbox": [
+            2380,
+            1847,
+            2761,
+            1930
+          ],
+          "logical_hitbox": [
+            565,
+            450,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "종료",
+          "bbox": [
+            2380,
+            2014,
+            2556,
+            2091
+          ],
+          "logical_hitbox": [
+            565,
+            494,
+            143,
+            41
+          ]
+        }
+      ],
+      "bytes": 7272430,
+      "changed_pixels": 148336,
+      "change_bounds": [
+        212,
+        328,
+        1143,
+        1233
+      ],
+      "unchanged_menu_quote_background": true
+    },
+    {
+      "name": "title1_on.rct",
+      "key": "1e6c5001",
+      "file": "1e6c5001.png",
+      "size": [
+        800,
+        600
+      ],
+      "output_size": [
+        3200,
+        2400
+      ],
+      "sha256": "815caa5615d9b65185697f13756119de6a7b68d2ff472fe3762a3998922d337b",
+      "labels": [
+        {
+          "target": "처음부터",
+          "bbox": [
+            2380,
+            1346,
+            2732,
+            1431
+          ],
+          "logical_hitbox": [
+            565,
+            328,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "불러오기",
+          "bbox": [
+            2380,
+            1515,
+            2732,
+            1598
+          ],
+          "logical_hitbox": [
+            565,
+            369,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "설정",
+          "bbox": [
+            2380,
+            1683,
+            2556,
+            1765
+          ],
+          "logical_hitbox": [
+            565,
+            410,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "추가 메뉴",
+          "bbox": [
+            2380,
+            1847,
+            2761,
+            1930
+          ],
+          "logical_hitbox": [
+            565,
+            450,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "종료",
+          "bbox": [
+            2380,
+            2014,
+            2556,
+            2091
+          ],
+          "logical_hitbox": [
+            565,
+            494,
+            143,
+            41
+          ]
+        }
+      ],
+      "bytes": 7279189,
+      "changed_pixels": 148336,
+      "change_bounds": [
+        212,
+        328,
+        1143,
+        1233
+      ],
+      "unchanged_menu_quote_background": true
+    },
+    {
+      "name": "title1_push.rct",
+      "key": "1de0628c",
+      "file": "1de0628c.png",
+      "size": [
+        800,
+        600
+      ],
+      "output_size": [
+        3200,
+        2400
+      ],
+      "sha256": "705702f80138c09ce08e7cbf60111985d9f5f120071ae583ba3e202347e35b57",
+      "labels": [
+        {
+          "target": "처음부터",
+          "bbox": [
+            2380,
+            1346,
+            2732,
+            1431
+          ],
+          "logical_hitbox": [
+            565,
+            328,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "불러오기",
+          "bbox": [
+            2380,
+            1515,
+            2732,
+            1598
+          ],
+          "logical_hitbox": [
+            565,
+            369,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "설정",
+          "bbox": [
+            2380,
+            1683,
+            2556,
+            1765
+          ],
+          "logical_hitbox": [
+            565,
+            410,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "추가 메뉴",
+          "bbox": [
+            2380,
+            1847,
+            2761,
+            1930
+          ],
+          "logical_hitbox": [
+            565,
+            450,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "종료",
+          "bbox": [
+            2380,
+            2014,
+            2556,
+            2091
+          ],
+          "logical_hitbox": [
+            565,
+            494,
+            143,
+            41
+          ]
+        }
+      ],
+      "bytes": 7267742,
+      "changed_pixels": 148336,
+      "change_bounds": [
+        212,
+        328,
+        1143,
+        1233
+      ],
+      "unchanged_menu_quote_background": true
+    },
+    {
+      "name": "title2_off.rct",
+      "key": "d6925685",
+      "file": "d6925685.png",
+      "size": [
+        800,
+        600
+      ],
+      "output_size": [
+        3200,
+        2400
+      ],
+      "sha256": "3ebdd24758bf8386f3a5fc2be7f03cb1bb1bc65f3ff4e08771341845343c901c",
+      "labels": [
+        {
+          "target": "처음부터",
+          "bbox": [
+            2380,
+            1346,
+            2732,
+            1431
+          ],
+          "logical_hitbox": [
+            565,
+            328,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "불러오기",
+          "bbox": [
+            2380,
+            1515,
+            2732,
+            1598
+          ],
+          "logical_hitbox": [
+            565,
+            369,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "설정",
+          "bbox": [
+            2380,
+            1683,
+            2556,
+            1765
+          ],
+          "logical_hitbox": [
+            565,
+            410,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "추가 메뉴",
+          "bbox": [
+            2380,
+            1847,
+            2761,
+            1930
+          ],
+          "logical_hitbox": [
+            565,
+            450,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "종료",
+          "bbox": [
+            2380,
+            2014,
+            2556,
+            2091
+          ],
+          "logical_hitbox": [
+            565,
+            494,
+            143,
+            41
+          ]
+        }
+      ],
+      "bytes": 7562267,
+      "changed_pixels": 149220,
+      "change_bounds": [
+        212,
+        328,
+        1143,
+        1233
+      ],
+      "unchanged_menu_quote_background": true
+    },
+    {
+      "name": "title2_on.rct",
+      "key": "90e357e2",
+      "file": "90e357e2.png",
+      "size": [
+        800,
+        600
+      ],
+      "output_size": [
+        3200,
+        2400
+      ],
+      "sha256": "373dd397919ca745bdb5b1271891d0f411f1f46dc1bee0d2ed9719df9b49130e",
+      "labels": [
+        {
+          "target": "처음부터",
+          "bbox": [
+            2380,
+            1346,
+            2732,
+            1431
+          ],
+          "logical_hitbox": [
+            565,
+            328,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "불러오기",
+          "bbox": [
+            2380,
+            1515,
+            2732,
+            1598
+          ],
+          "logical_hitbox": [
+            565,
+            369,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "설정",
+          "bbox": [
+            2380,
+            1683,
+            2556,
+            1765
+          ],
+          "logical_hitbox": [
+            565,
+            410,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "추가 메뉴",
+          "bbox": [
+            2380,
+            1847,
+            2761,
+            1930
+          ],
+          "logical_hitbox": [
+            565,
+            450,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "종료",
+          "bbox": [
+            2380,
+            2014,
+            2556,
+            2091
+          ],
+          "logical_hitbox": [
+            565,
+            494,
+            143,
+            41
+          ]
+        }
+      ],
+      "bytes": 7564679,
+      "changed_pixels": 149220,
+      "change_bounds": [
+        212,
+        328,
+        1143,
+        1233
+      ],
+      "unchanged_menu_quote_background": true
+    },
+    {
+      "name": "title2_push.rct",
+      "key": "f6d7d98f",
+      "file": "f6d7d98f.png",
+      "size": [
+        800,
+        600
+      ],
+      "output_size": [
+        3200,
+        2400
+      ],
+      "sha256": "5701775b9fd621cf6599fcfdc690143bb9faa9dd16af1135a262069be3fe35b1",
+      "labels": [
+        {
+          "target": "처음부터",
+          "bbox": [
+            2380,
+            1346,
+            2732,
+            1431
+          ],
+          "logical_hitbox": [
+            565,
+            328,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "불러오기",
+          "bbox": [
+            2380,
+            1511,
+            2732,
+            1594
+          ],
+          "logical_hitbox": [
+            565,
+            369,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "설정",
+          "bbox": [
+            2380,
+            1683,
+            2556,
+            1765
+          ],
+          "logical_hitbox": [
+            565,
+            410,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "추가 메뉴",
+          "bbox": [
+            2380,
+            1847,
+            2761,
+            1930
+          ],
+          "logical_hitbox": [
+            565,
+            450,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "종료",
+          "bbox": [
+            2380,
+            2014,
+            2556,
+            2091
+          ],
+          "logical_hitbox": [
+            565,
+            494,
+            143,
+            41
+          ]
+        }
+      ],
+      "bytes": 7558280,
+      "changed_pixels": 149220,
+      "change_bounds": [
+        212,
+        328,
+        1143,
+        1233
+      ],
+      "unchanged_menu_quote_background": true
+    },
+    {
+      "name": "title3_off.rct",
+      "key": "c1e942c6",
+      "file": "c1e942c6.png",
+      "size": [
+        800,
+        600
+      ],
+      "output_size": [
+        3200,
+        2400
+      ],
+      "sha256": "e632c6fdd4dcd58d1e7dbea0a2b3e2a06878d953cd16db5880d86974bd664db3",
+      "labels": [
+        {
+          "target": "처음부터",
+          "bbox": [
+            2380,
+            1346,
+            2732,
+            1431
+          ],
+          "logical_hitbox": [
+            565,
+            328,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "불러오기",
+          "bbox": [
+            2380,
+            1515,
+            2732,
+            1598
+          ],
+          "logical_hitbox": [
+            565,
+            369,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "설정",
+          "bbox": [
+            2380,
+            1683,
+            2556,
+            1765
+          ],
+          "logical_hitbox": [
+            565,
+            410,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "추가 메뉴",
+          "bbox": [
+            2380,
+            1847,
+            2761,
+            1930
+          ],
+          "logical_hitbox": [
+            565,
+            450,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "종료",
+          "bbox": [
+            2380,
+            2014,
+            2556,
+            2091
+          ],
+          "logical_hitbox": [
+            565,
+            494,
+            143,
+            41
+          ]
+        }
+      ],
+      "bytes": 8748268,
+      "changed_pixels": 150400,
+      "change_bounds": [
+        1540,
+        0,
+        2471,
+        903
+      ],
+      "unchanged_menu_quote_background": true
+    },
+    {
+      "name": "title3_on.rct",
+      "key": "5c49577c",
+      "file": "5c49577c.png",
+      "size": [
+        800,
+        600
+      ],
+      "output_size": [
+        3200,
+        2400
+      ],
+      "sha256": "0678656a8199370c5addf666e1d14e44a4094b40e7d5838add4139730491dd62",
+      "labels": [
+        {
+          "target": "처음부터",
+          "bbox": [
+            2380,
+            1346,
+            2732,
+            1431
+          ],
+          "logical_hitbox": [
+            565,
+            328,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "불러오기",
+          "bbox": [
+            2380,
+            1515,
+            2732,
+            1598
+          ],
+          "logical_hitbox": [
+            565,
+            369,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "설정",
+          "bbox": [
+            2380,
+            1683,
+            2556,
+            1765
+          ],
+          "logical_hitbox": [
+            565,
+            410,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "추가 메뉴",
+          "bbox": [
+            2380,
+            1847,
+            2761,
+            1930
+          ],
+          "logical_hitbox": [
+            565,
+            450,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "종료",
+          "bbox": [
+            2380,
+            2014,
+            2556,
+            2091
+          ],
+          "logical_hitbox": [
+            565,
+            494,
+            143,
+            41
+          ]
+        }
+      ],
+      "bytes": 8754459,
+      "changed_pixels": 150400,
+      "change_bounds": [
+        1540,
+        0,
+        2471,
+        903
+      ],
+      "unchanged_menu_quote_background": true
+    },
+    {
+      "name": "title3_push.rct",
+      "key": "1915b2b1",
+      "file": "1915b2b1.png",
+      "size": [
+        800,
+        600
+      ],
+      "output_size": [
+        3200,
+        2400
+      ],
+      "sha256": "2894a44a2af3ccf0697b1b96220dff1ba92ad1c4257b3bc659591d220e83bf92",
+      "labels": [
+        {
+          "target": "처음부터",
+          "bbox": [
+            2380,
+            1346,
+            2732,
+            1431
+          ],
+          "logical_hitbox": [
+            565,
+            328,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "불러오기",
+          "bbox": [
+            2380,
+            1515,
+            2732,
+            1598
+          ],
+          "logical_hitbox": [
+            565,
+            369,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "설정",
+          "bbox": [
+            2380,
+            1683,
+            2556,
+            1765
+          ],
+          "logical_hitbox": [
+            565,
+            410,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "추가 메뉴",
+          "bbox": [
+            2380,
+            1847,
+            2761,
+            1930
+          ],
+          "logical_hitbox": [
+            565,
+            450,
+            143,
+            41
+          ]
+        },
+        {
+          "target": "종료",
+          "bbox": [
+            2380,
+            2014,
+            2556,
+            2091
+          ],
+          "logical_hitbox": [
+            565,
+            494,
+            143,
+            41
+          ]
+        }
+      ],
+      "bytes": 8742648,
+      "changed_pixels": 150400,
+      "change_bounds": [
+        1540,
+        0,
+        2471,
+        903
+      ],
+      "unchanged_menu_quote_background": true
+    }
+  ],
+  "clean_plate_proofs_reused": [
+    "title-menu-v1",
+    "brand-logo-ko-v1"
+  ],
+  "logo_master_reused": "brand-logo-ko-v3",
+  "button_geometry_unchanged_in_logical_coordinates": true
+}

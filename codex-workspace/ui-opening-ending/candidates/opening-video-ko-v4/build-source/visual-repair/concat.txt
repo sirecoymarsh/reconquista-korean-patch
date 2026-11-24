@@ -1,0 +1,7 @@
+ffconcat version 1.0
+file 'P:/AI/Codex/projects/migrated-from-c/onedrive-chatgpt/레콘퀴스타/ui-opening-ending/candidates/opening-video-ko-v4/build-source/visual-repair/prefix.mp4'
+duration 28.333333333333
+file 'P:/AI/Codex/projects/migrated-from-c/onedrive-chatgpt/레콘퀴스타/ui-opening-ending/candidates/opening-video-ko-v4/build-source/visual-repair/render.mp4'
+duration 6.000000000000
+file 'P:/AI/Codex/projects/migrated-from-c/onedrive-chatgpt/레콘퀴스타/ui-opening-ending/candidates/opening-video-ko-v4/build-source/visual-repair/suffix.mp4'
+duration 66.900000000000

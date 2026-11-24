@@ -1,0 +1,1241 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "status": "partial_ui_static_pass_user_final_runtime_review_pending",
+  "semantic_authored": 143,
+  "semantic_included": 143,
+  "deferred_native_diagnostic_ids": [],
+  "archives": [
+    {
+      "archive": "scenario.arc",
+      "source_sha256": "95b6592ce3d9f4f94a4051bbbc217e26fbb9c63586a4e0b5bcd9932f961aeb99",
+      "output_sha256": "db150e681b1096eec109b0b94ee304573ff44d320de4628fd973bbe32392cc5c",
+      "entries": 184,
+      "changed": [
+        {
+          "entry": "staffroom.mjo",
+          "source_sha256": "42063c5e5ce5ef66baa9e8c8ce4c1cd01f18fb186e0d75dff3a6e9b8565196d1",
+          "output_sha256": "baaa7392457a612a5efb2541d25d02af7e0a3258fa0842ca1181b5f934379ed0"
+        },
+        {
+          "entry": "start.mjo",
+          "source_sha256": "377fe926323fc7fef91f85c6bf90aa70a02cd423a95975418d41622f36a5b0bd",
+          "output_sha256": "6ec38f58c0b5c2d3254ad788062061ab01bb3a9a5e1ebc10ed001dd11ffe5698"
+        },
+        {
+          "entry": "console.mjo",
+          "source_sha256": "fb2521e6787929bfadf2734192510c43852f7f4b1495ca7ec135df1fe0bb0deb",
+          "output_sha256": "319beb7ca9e43ca6fc75680b7fb07462931d103fdba702f0bd56f47d936c7d48"
+        },
+        {
+          "entry": "config.mjo",
+          "source_sha256": "cf2ff91985edbaf828425e7e2f152785461d877b42d58c3de0511e744f643033",
+          "output_sha256": "f1e4bd261d2ff66946278e2c0a6d71ff9171c05828bd9b9fb053ca34ce179015"
+        },
+        {
+          "entry": "pausemenu.mjo",
+          "source_sha256": "5318b5b7bcf9eec30be2b16a859e7c463739281564c42e173430d518d55eec88",
+          "output_sha256": "f719bc171af83d4722399f789124da463ceb0d7c69804699404964d740d894fe"
+        },
+        {
+          "entry": "cgmode.mjo",
+          "source_sha256": "9599979808cb9be850c84c300981ea6970f740a1a8f3c26e529f18d943e62c4e",
+          "output_sha256": "f4fee20a17d531bc7a2dd34368e90df5c2e9eeb212d0e0fb3a516958dcf26dde"
+        },
+        {
+          "entry": "load_sysdata.mjo",
+          "source_sha256": "0f169d1866501deb84dc31b50be55729b22965005136940690f7153b8c5f1e9f",
+          "output_sha256": "18d3a7052f9a70fda825712849d5630408129be1a607c4813721089c8c311600"
+        },
+        {
+          "entry": "message_box.mjo",
+          "source_sha256": "d0e5e90a9c5a805b5df74ac99eb98018c5b59ac3288f1d5e825e9199900f2377",
+          "output_sha256": "ef5c89506ef40a1752a06c48517dde9ef5729e2215de0cb6c44390b0f8960bb0"
+        },
+        {
+          "entry": "loadsave.mjo",
+          "source_sha256": "5d0109457b85a150243a6919c0a0cda1205a3e2df8f0d726a566c852a364edcf",
+          "output_sha256": "4195917ceadef536a4e87c7b5402f24d88bbe7336ad54f65c1d43c97b9992ed1"
+        },
+        {
+          "entry": "c_setumei.mjo",
+          "source_sha256": "2c70b1c18a715ace2f1f37a842be2d0d0cda456b096629cb31628837d1fe1f5d",
+          "output_sha256": "c0e7c6a443a59aaf2ba7022e0c596ba5d90c00ee5cb22d0d133c8f94097e415a"
+        },
+        {
+          "entry": "chronicle.mjo",
+          "source_sha256": "d1e9bec703dd40db2deb7e858166756adc22108c6e6d00f933e0df7cf31d81f8",
+          "output_sha256": "568a0399d19aed4075bab63a3ebb58080e6933989e2daf4bea2c7c8067798e69"
+        },
+        {
+          "entry": "menu.mjo",
+          "source_sha256": "5df429fd84418773e78652c0996838d8e94873e663425fd8c4a0e2fde73a812b",
+          "output_sha256": "ad8b3d06fdd48b1302bb2be5b3401aeabba864c4fa576f3543866923bc58a7d2"
+        },
+        {
+          "entry": "music.mjo",
+          "source_sha256": "6216e2353f4d17b4078ff72ab3501d371fcad95c580cb47fdf43ff745650cba8",
+          "output_sha256": "92eac783f092c4edb8e97a3ae9aadf474334d6aab99dcafc20d2a21a81b9e479"
+        },
+        {
+          "entry": "sightchange.mjo",
+          "source_sha256": "8966751a63163e361ded0cf3fdcb49cb9b731788f230b10fa4e80fa5c366f1de",
+          "output_sha256": "99957df1d08d0a73eb0fbc4e98dbad67e554ba9c41eacecfd99431b21cc98d0a"
+        }
+      ],
+      "unchanged_payloads_identical": true,
+      "entry_order_names_hashes_preserved": true
+    },
+    {
+      "archive": "fastdata.arc",
+      "source_sha256": "167b61cf2305c98d1865e9c806a9175d30f5ddf03f6e5bc587f828f017a8b179",
+      "output_sha256": "284ffdd86c205cbb5105945b4bff0c14614b872be9652ca8623b0216e34be766",
+      "entries": 383,
+      "changed": [
+        {
+          "entry": "麻咲_view.rct",
+          "source_sha256": "e4296c794e9af1f888d84718aaef67be71ac48fb7c4f951034685db634e35232",
+          "output_sha256": "7419954c7e8111b5419c5045b7eeba5698719a670fb20d85e2d98791ab23df92"
+        },
+        {
+          "entry": "作曲_クレジット_6.rct",
+          "source_sha256": "c8b003b7da5d5f9f36123ba96ce2e8dee5fd96b133e7f648c4e9ad99940b6286",
+          "output_sha256": "70ac622f8439b09cff69f2e563060668ffcc78e41bee9d2eb4224efed44c3f62"
+        },
+        {
+          "entry": "暮葉_view.rct",
+          "source_sha256": "f06e23d15c3bcd35655f9d7dcee902b3d6bbd3efa1657baf10714252593bc511",
+          "output_sha256": "fd43da3287d31dbc0726cfe9afd1b9062d1183c285a6ec83417963ec568b6a0a"
+        },
+        {
+          "entry": "title3_push.rct",
+          "source_sha256": "968c5ebcc0b43dbe456a171a32e1861169cdd768d274aeedad6ec61844e12e98",
+          "output_sha256": "fe58740eebf6511f9ac4b311213624a9e7b40068dcacbac38e2cbb6bf804f9ce"
+        },
+        {
+          "entry": "真帆子_view.rct",
+          "source_sha256": "029deec4f1cddffb7db289ec2416cfa240c13ca042cd6600b451a5aea5b93a47",
+          "output_sha256": "5965e7be037cb8a94157337756f5dab420758107fe41978447dcf2f2ffa09f50"
+        },
+        {
+          "entry": "title1_push.rct",
+          "source_sha256": "466e9d362be553312ff1befd98cf44a04a658c6666216716d0533e86af6faedc",
+          "output_sha256": "003200bbebcf1c09726c0039704326732aed9dcde2552c1fc6b1d5cdbb66f21b"
+        },
+        {
+          "entry": "title1_on.rct",
+          "source_sha256": "3290eef8c2d2e300017fd1d5d2dc500a89b64e4258bcb22373a057b3426bf9eb",
+          "output_sha256": "c466d5e85c6544b8e247b69195e9acb5128d56e452112a7bf1498a00284d2876"
+        },
+        {
+          "entry": "汐見牧師_view.rct",
+          "source_sha256": "1facde4339713b072a61a06e46dcba5f0d75240ed7f165775bde2aacb3b6432c",
+          "output_sha256": "b99219c69d4df4cf5f5a0a99f967149634b19af200eee7fa530cc163b45236a4"
+        },
+        {
+          "entry": "麻咲_view_.rc8",
+          "source_sha256": "af44663f0f93b927b703be11868d411ee67dfdd923c6d294ff9fc3fb5c3509a3",
+          "output_sha256": "f1d300770cf175a641800a88402025142b6d992179b0a51fe3a234953c1afbbe"
+        },
+        {
+          "entry": "作曲_クレジット_5_.rc8",
+          "source_sha256": "b1a0b4443b88042bf106bc26e6427e4f95cc734c80246cc727fa5486f84840eb",
+          "output_sha256": "ed6fdcf435286d4a0dc66b9c7dffc7432b7510cdb729d2581028fe67baf77e36"
+        },
+        {
+          "entry": "汐見牧師_view_.rc8",
+          "source_sha256": "a8b86c4a5e9abe36c127ec0232dabd0ef7319eb0f7ffd42eb5acbf52f1d04e29",
+          "output_sha256": "99b3a68bddea4b2dcd0c040e759746f02ef0ecad794977531768919b526b41e6"
+        },
+        {
+          "entry": "その他_view_.rc8",
+          "source_sha256": "97d20a521d84325c2a307897e9f53e2060aee958668b2a512feca7073bc6f3b1",
+          "output_sha256": "08131179802c0333586acf8af8b2ea94a9ce08f2b80a00bfd9059e1cc53f2946"
+        },
+        {
+          "entry": "作曲_クレジット_14.rct",
+          "source_sha256": "14c43fda5f4acc35e3dc002aca7a66b26ee80a726e54958877c9f130b41c09b3",
+          "output_sha256": "306d22920e9ef77a904f09da44ffcb9ca94d278586975bbbb79f5445c3d1342f"
+        },
+        {
+          "entry": "作曲_クレジット_7.rct",
+          "source_sha256": "af99d470cdd0775fa7250125fa710ec43dec1c90b7f529423af6d5dc659e3f12",
+          "output_sha256": "e1800051e451b86c11a2175fbe9f9eb8b8d82b0e406115638b6ad1da1a406683"
+        },
+        {
+          "entry": "詩菜_view_.rc8",
+          "source_sha256": "49ebbe8b05685f02865bb0740f2d93d78ad642c9f52e39b8ab237c24647bca50",
+          "output_sha256": "fab87eaee09e9e0a1b3a1b14145d7fff55a40a74610b34267800e6e331a2df70"
+        },
+        {
+          "entry": "作曲_クレジット_2_.rc8",
+          "source_sha256": "703b26be3863d1cef1b2d8c9905d8f446ee25eb7b8a6f45fc54c86d58e07cda9",
+          "output_sha256": "599c18dac5b606d3c46d7d700aa1fef3d7ab2b57b5c2dd0164f245833bc1afe3"
+        },
+        {
+          "entry": "menudata.cfg",
+          "source_sha256": "293b5bad72539435e5350ac5d1f78f6f6037ce19bb2cdf02230c8e849c273021",
+          "output_sha256": "88cbc0dced3e7e03d0429f60de142852e6238590c789b9d29b063214ff959e85"
+        },
+        {
+          "entry": "作曲_クレジット_12_.rc8",
+          "source_sha256": "79dba13329eafe451059b1e1a249d0015c70d61e6b44a7e0101c99f1548c9f42",
+          "output_sha256": "29b405e54bd1f219070b1279151acb4ef6454c4c9fe583ba9f0030cd7140e177"
+        },
+        {
+          "entry": "汐見トオル_view_.rc8",
+          "source_sha256": "18e29cb94e6f513a9961bfe99c586e439d9d46456475b12d1384b500c17502a7",
+          "output_sha256": "8daecb0dd5ae53b6f093616f4cb580a167fbc459a6b46fc359d4b73424de76d9"
+        },
+        {
+          "entry": "作曲_クレジット_9_.rc8",
+          "source_sha256": "6942d55cb2bd7ade999cd1a58569f5cc574083873e90e00b557d464fe7a65daf",
+          "output_sha256": "34382b7bddd42187e59b77fa1354f6cc8aee0c873619eb1a593c1b161d6eaeed"
+        },
+        {
+          "entry": "もみじ_view.rct",
+          "source_sha256": "268d991bf6b99730e262ea751f825cf615155385649841f2957a29a9dc2aeed6",
+          "output_sha256": "cf484aa267be6960437cefb0cf2bc8aa75656d351ec9e87662d6d88af2f574b9"
+        },
+        {
+          "entry": "作曲_クレジット_5.rct",
+          "source_sha256": "ac01fb1b5c0d5c0634cbc1999f1de3baae835e94f77fc6a0f2c61a9359ebb2fd",
+          "output_sha256": "6ed0704d5ecd14e0323ba26194fedbd8e9dab35c52439aecf0568f66cd0a33c7"
+        },
+        {
+          "entry": "title3_on.rct",
+          "source_sha256": "3695047c1f36b7ac26bca2c1b2dd40c4bde0a8060eb373c35bf5f64f3ceec4bf",
+          "output_sha256": "94a218b89e499c3e5249f2508bc9ca5e65f27b5bdeaa589475de7a5f15f26cfe"
+        },
+        {
+          "entry": "sysdata.cfg",
+          "source_sha256": "f9cf9032e176e2bd482d56b2642aa973e500f08fcd93bd82f44f9c7bc843e280",
+          "output_sha256": "6109f43830073afe46bd30c06e8b23d0207db715b9933bc2e3f641b0e4420f96"
+        },
+        {
+          "entry": "作曲_クレジット_4.rct",
+          "source_sha256": "3ea8099f5502b3a8851ae1c2acfd093a94ba0fd709e16708e1dd4214b26a3229",
+          "output_sha256": "4f320ad54db599edb3c47571bb1f96942dfc42b9dfe67ae865585fda1c4ebc12"
+        },
+        {
+          "entry": "作曲_クレジット_7_.rc8",
+          "source_sha256": "f528be81528c153adac9c48b9463df6e0ded658113fdc5529b37a607357380c9",
+          "output_sha256": "1d30ccdfd63aeb95a1abe886ff25655df47da9fec75a2d8c472fad825b0acd43"
+        },
+        {
+          "entry": "作曲_クレジット_10_.rc8",
+          "source_sha256": "c34b40c4ddd63944e249d6318785209d78304c18152ba362aea4d00d375fcb26",
+          "output_sha256": "c9dfb0b342a95a95e0484a81c15926f66dd118ff26bb2493508551c9a8f9873d"
+        },
+        {
+          "entry": "信哉_view_.rc8",
+          "source_sha256": "7db67e4e27c5dd5faf3a3f74b2faa5477f62ae9f006cd16b6e765b2fa18765dc",
+          "output_sha256": "93802b24c6c4bce98efd04bac9ca32b13b0d43c15e09518463fb23518e6b05b6"
+        },
+        {
+          "entry": "上条_view.rct",
+          "source_sha256": "a9ab8f9210133ce47abc0cd4014f7c54a7989f538a6187f2d32ab2177c6c4937",
+          "output_sha256": "44c360df4b5bb305e3b224c47679b6b853d8a545ae9a9a63e68f11efd13e1918"
+        },
+        {
+          "entry": "その他_view.rct",
+          "source_sha256": "55ad4f259af141eacef07331550b73c200a95846d75d33bc910a4365afefa739",
+          "output_sha256": "152392ed5c5942042b1a3418e8ffb5d6823486474861cdff969631935149de15"
+        },
+        {
+          "entry": "上条_view_.rc8",
+          "source_sha256": "9650af615796c046fc5f198d9e68d3eb0be242807974c1b1005dba707c4a4616",
+          "output_sha256": "b5639693097af621bde742d2e27f11e3cd77848160f278cf0e4be9feb4a74271"
+        },
+        {
+          "entry": "もみじ_view_.rc8",
+          "source_sha256": "1fd388656e8dea63deee88dcf9c096546421e20d29736830a3fcdc174d25b191",
+          "output_sha256": "71534fbbf5b94e6d3adcb15da332868a9e1766392f2a006195ed7895b9eea64b"
+        },
+        {
+          "entry": "title2_on.rct",
+          "source_sha256": "f8caa79fc2ab07c2cb3b09d7bf3ab86bdeccadbb12df8df8d11381e002ce77b4",
+          "output_sha256": "764f17a4834ae50a291c0434d5394ca97e21819a6047cc1b601de2e62f0fee5d"
+        },
+        {
+          "entry": "作曲_クレジット_9.rct",
+          "source_sha256": "2c65f66aab56eac914efccfa8ccc695fd3c65005cca49e5c461d3d68427c9563",
+          "output_sha256": "a8b331380d7a206d16538835ea93aacf2c6531d9751a82b9a141d9d40e4b7c6f"
+        },
+        {
+          "entry": "messagebox.cfg",
+          "source_sha256": "a6d329a5107a7a395c07ead4ed17aa88d4bce056d4bda9fad6a7ee472f1acdf9",
+          "output_sha256": "db551330040e88796f6012856d032608b991a126dd0a96b1b526c015a66554c8"
+        },
+        {
+          "entry": "作曲_クレジット_8_.rc8",
+          "source_sha256": "7c58c162a0c913a070d1acb5ef1ddc6465fed613aeab503f03448ae98c663972",
+          "output_sha256": "393323fd7a620ba78ae2597bec6d1c5184121dbcbd4b13182a3fac5004fc8084"
+        },
+        {
+          "entry": "作曲_クレジット_13.rct",
+          "source_sha256": "54c449b2818e53c020bf04db7722200026d758277e9f72babff20567771996c0",
+          "output_sha256": "18441571575b44698e3300cecdbbcd6cdb9243c1ad2eccb49d045091193fd1eb"
+        },
+        {
+          "entry": "詩菜_view.rct",
+          "source_sha256": "cbe5382ae069da7113005caea0de54ded6debcb04690b8b9a4fc9759aaaabfb2",
+          "output_sha256": "dea2ed38593dabb14e35ebf4a98bf5f9b3cb572c78ea2942aa455406c061aba0"
+        },
+        {
+          "entry": "作曲_クレジット_6_.rc8",
+          "source_sha256": "0d7d8d08d6e6c4e136c7d5db7feab0a2208b70b5400cf0f805c46bf30e8623f1",
+          "output_sha256": "a0693857656dbe2158073f8fda1decefaf88d52fba41191da981b8be0c312a27"
+        },
+        {
+          "entry": "作曲_クレジット_1.rct",
+          "source_sha256": "0c3f85c32f03ba23b7f172183c98af415d9392383e25aed17b1ed78334da32b9",
+          "output_sha256": "a690a71914a8bc0a4307f3bbbb308b75f65f17bf9a93b5657fac07e8075b98de"
+        },
+        {
+          "entry": "作曲_クレジット_12.rct",
+          "source_sha256": "39b25f57d63753408f713ca02eda155ae4322e975f12d017a09ce8d768d5bc29",
+          "output_sha256": "fb5f1f6c9f24ba145c8dd0801240c4b8ce410a6606b319c46e66c40c0f959797"
+        },
+        {
+          "entry": "作曲_クレジット_8.rct",
+          "source_sha256": "62532d1d9277b4da0bdb2b6f8cd99a0cec4c5c1d4c22fc8bd807b0a1a9021891",
+          "output_sha256": "f6a2fb4a5b7e4cbcb761b1e8710dec968c269d50a423e26746640332ff5f4dcc"
+        },
+        {
+          "entry": "汐見トオル_view.rct",
+          "source_sha256": "517ae20a5d8c9e8ca0574b5d210dacbeab0f5b00a576e0979b6684b1b587847f",
+          "output_sha256": "82ce2019072505ac6eb31fac382ee32aa48d6a6190eb2ebf7dabe80c7d2863a1"
+        },
+        {
+          "entry": "askyesno_base.rct",
+          "source_sha256": "0db69e27dd5d3c22b9b0517986f17d859126b62e3b06768cf3a296cf3b0f1e87",
+          "output_sha256": "3e04c60e6705344a4d9977d10a2dff1248f5fdcb8ca363dd168652f798dbf318"
+        },
+        {
+          "entry": "信哉_view.rct",
+          "source_sha256": "40aeea01b5e803f61c43e0c650f504f37abd2cd64f1f62426b83737ca70c245b",
+          "output_sha256": "97587d8cf7876434271b4e1a70b011fce62c104d887f67641cc6e0961b0e998e"
+        },
+        {
+          "entry": "作曲_クレジット_11_.rc8",
+          "source_sha256": "a9e266ed079ad41db5096de52820710c1eeca08f5551d22d6be2c8768c90df6b",
+          "output_sha256": "a39356db059674f8f6ba70f56ad18c3631af3f996f5240c52bd142b185ca827a"
+        },
+        {
+          "entry": "作曲_クレジット_1_.rc8",
+          "source_sha256": "c73587116bcc5966c3ee1d1b7e75dea72cc38ee89cdb4a2a0c6554ad001be83a",
+          "output_sha256": "7f582ac82cfd2838a4ab2b62a9332a71dfe7ada483a013fce6f5ab9e0d6741aa"
+        },
+        {
+          "entry": "title3_off.rct",
+          "source_sha256": "b21232b137fafa9497fa9ad02f63b2d607cba686d848f03b5dab9b6aa4f787a9",
+          "output_sha256": "1131b450cda64d2c6fcb29936604f4cc348dc7404dce22f3e62094e7261fd784"
+        },
+        {
+          "entry": "majiro.env",
+          "source_sha256": "c0828af78faa78b2b8eed01f9d78a79c1fe8d9671f3ca4c7ea2b12602c398e9f",
+          "output_sha256": "7eedc5e63dffd5daa6804ba08512a5657b3a7f656857bb75e200bf2878cf499c"
+        },
+        {
+          "entry": "loadsave.cfg",
+          "source_sha256": "893cc237fa9d7e1d57045fc3c347e93f1ac2f75f96d01d7b474c9aed8827a4c8",
+          "output_sha256": "7a39ba5fcbabde7ad5cc0f6afeb69269ade807ac7f5d4c76ffc4640ce297df77"
+        },
+        {
+          "entry": "暮葉_view_.rc8",
+          "source_sha256": "71623f0f5980f064f686a4ce71f8a25172d6be688d601b00a7e2036cdda0a28e",
+          "output_sha256": "e152fb55de9587de1a5a8c6e5c4fd8b6a5674649c41f21c8cb5319fe87a20df8"
+        },
+        {
+          "entry": "title2_off.rct",
+          "source_sha256": "4e7258ff2caedc369fbe194ceb22a82dec6b7860ff394cf5571f5ed4f53305d0",
+          "output_sha256": "189b7c6852a4233d486c103fb4c8288d9074c254d6cf1bf913a4acafb6dffd17"
+        },
+        {
+          "entry": "作曲_クレジット_10.rct",
+          "source_sha256": "327648e20b27df6746e6234db01e5bb6d4096afc373eda069ff2711f1469f58e",
+          "output_sha256": "7e04b53f9c8ee105c627b7f975594c366cdeefe351003af467265611979b7384"
+        },
+        {
+          "entry": "作曲_クレジット_3.rct",
+          "source_sha256": "c2bae74fe891a360ecd6a5df892a3f6d36ecae34256d1829f2d4e1e8d3102ff1",
+          "output_sha256": "d17a2e3d6dfbe480f326bbdbffc45d46fb367030ee844b918ab57e4415c45ae6"
+        },
+        {
+          "entry": "作曲_クレジット_11.rct",
+          "source_sha256": "95ef7785758ac0e6b7129bb68345f0d5dc6a4ba9500973890cbccb368cede1a0",
+          "output_sha256": "3fbc45f44a747b47a1f08456f2df2ee58c597a434f2c027eb39e70aec4906442"
+        },
+        {
+          "entry": "作曲_クレジット_2.rct",
+          "source_sha256": "278c332771912f8930f9d8508d0595b59f923b6846274bd88ff0be1fd5635d32",
+          "output_sha256": "5e01c41ba6c26dee3b65ab6d1a20f16ed32fece6f225a84591c5f81442976ba0"
+        },
+        {
+          "entry": "作曲_クレジット_14_.rc8",
+          "source_sha256": "84a23c7505d37f4f4c5f2c457acb259196dfbb65a27f1c7e10cfaf8c86abdfdb",
+          "output_sha256": "3a64853f92186b990c2dc7ab40309808b0536ea60c95a4b48c844668a16664ac"
+        },
+        {
+          "entry": "槙野_view.rct",
+          "source_sha256": "55174b5f78258e6898411132e6a976879cac90a6e4357580c57bdc84886ab6f2",
+          "output_sha256": "612637d45d187121e5189350c696cbf08f6f4ed9f72f355949a777ec6de13094"
+        },
+        {
+          "entry": "作曲_クレジット_4_.rc8",
+          "source_sha256": "6b53624a2b505e858807c26dd2e788ded311d1ccac99eb581f794cba70fc66aa",
+          "output_sha256": "7c60564b304ce64a711487edbd32e1ce35298612f32df114cdd74ccf85a15bec"
+        },
+        {
+          "entry": "title1_off.rct",
+          "source_sha256": "5357d38b3a5d2701510e4536ce1df9427ec211535992e9622d106a66d25b5b2b",
+          "output_sha256": "e5ae6f013d407a05e73fbb23e854ec8954f35b796127c5caa1b57b9def52ffa4"
+        },
+        {
+          "entry": "作曲_クレジット_3_.rc8",
+          "source_sha256": "af8cc7010c1b61bdd26973dc41e89320dc369b7caa24f45575f9daf1c9b4d814",
+          "output_sha256": "cd0b05fb5c7d6f36682bd7b31efd49d2cc006f665d622b6cba00d94d7daaf3eb"
+        },
+        {
+          "entry": "作曲_クレジット_13_.rc8",
+          "source_sha256": "f0830b4f3eb53565e14e2394ca27c0b77ce6106b263a29a9b8765de54330d867",
+          "output_sha256": "c49b1ff574e50e95e21b8a2dcb4bab5241abab32d3a93623c56a63ce71470e01"
+        },
+        {
+          "entry": "title2_push.rct",
+          "source_sha256": "67de67f8710083b6d5492194e307076ce4255e338108db719f976d4fd5547d96",
+          "output_sha256": "9e1a4582c993d68c9ad347897972106c8345e8631c997cb23fe5e0d1b3882004"
+        },
+        {
+          "entry": "槙野_view_.rc8",
+          "source_sha256": "24024b9e25995238585aff500791b4102312400b4cf9792c89d172c277a015c0",
+          "output_sha256": "5f7cddce4d43c4f8ffed59202ec6a821ce4993bb56dd9594981269f2e278ce7a"
+        },
+        {
+          "entry": "真帆子_view_.rc8",
+          "source_sha256": "79b8d0a015db83a01677fb00126e50bf17472d73e819a35e17e5d122d5f46f51",
+          "output_sha256": "c934ceefec4092f0ae921a49d2804dbb0a0fcc8f4cfa1873de1609f78a28a7ed"
+        },
+        {
+          "entry": "chapter_off_1.rct",
+          "source_sha256": "e0440ebbb68b8964bd580990cadb1c807caddd118e4d7d56f759776d3ad51f70",
+          "output_sha256": "bd5f0f042d64bc6708937ed83c205b8569ab8918eabc81b664c1715968f986fe"
+        },
+        {
+          "entry": "chapter_off_2.rct",
+          "source_sha256": "cf689229aee48211a8ec953f9b226b2228080fb7b4b0aa5a89958e882019d0d7",
+          "output_sha256": "8e7fc93fdf1cf6ab4c4391c1c63d06bb7ff6439d0f1a0f606d1a68fd5826358c"
+        },
+        {
+          "entry": "chapter_on.rct",
+          "source_sha256": "f85d16d2ee499e25f07afa306537fd70030d13a0251eb78e130bb5ee55c367c1",
+          "output_sha256": "b4069e0da2f9fa362aace70f4bb1897366d37a4ee3760cdd25a8cb7caa618e8f"
+        },
+        {
+          "entry": "chapter_push.rct",
+          "source_sha256": "cf9b26d7f5719a03523ecbf2ff526255744cbbf65aec5bac675c25b9d34d9eed",
+          "output_sha256": "aa6ce4d131afca37fbeb14df5b40b7316a12783dae4836327351101482189f9c"
+        }
+      ],
+      "unchanged_payloads_identical": true,
+      "entry_order_names_hashes_preserved": true
+    }
+  ],
+  "scripts": {
+    "c_setumei.mjo": {
+      "source_sha256": "2c70b1c18a715ace2f1f37a842be2d0d0cda456b096629cb31628837d1fe1f5d",
+      "output_sha256": "c0e7c6a443a59aaf2ba7022e0c596ba5d90c00ee5cb22d0d133c8f94097e415a",
+      "original_instructions": 541,
+      "output_instructions": 541,
+      "replacement_indices": [
+        17,
+        22,
+        32,
+        33,
+        34,
+        35,
+        36,
+        47,
+        51,
+        56,
+        60,
+        64,
+        69,
+        73,
+        77,
+        86,
+        90,
+        94,
+        103,
+        107,
+        112,
+        116,
+        121,
+        125,
+        130,
+        134,
+        139,
+        143,
+        147,
+        152,
+        156,
+        160,
+        176,
+        177,
+        178,
+        179,
+        190,
+        194,
+        203,
+        207,
+        211,
+        226,
+        230,
+        239,
+        243,
+        252,
+        257,
+        261,
+        270,
+        274,
+        278,
+        287,
+        292,
+        296,
+        311,
+        315,
+        319,
+        328,
+        332,
+        336,
+        345,
+        349,
+        353,
+        362,
+        366,
+        375,
+        379,
+        383,
+        405,
+        409,
+        414,
+        423,
+        427,
+        431,
+        436,
+        440,
+        455,
+        459,
+        464,
+        468,
+        483,
+        487,
+        491,
+        496,
+        500,
+        509,
+        513,
+        517,
+        528
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 25,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "chronicle.mjo": {
+      "source_sha256": "d1e9bec703dd40db2deb7e858166756adc22108c6e6d00f933e0df7cf31d81f8",
+      "output_sha256": "568a0399d19aed4075bab63a3ebb58080e6933989e2daf4bea2c7c8067798e69",
+      "original_instructions": 4839,
+      "output_instructions": 4839,
+      "replacement_indices": [
+        250,
+        847,
+        2274,
+        2912,
+        3392,
+        3487,
+        3841,
+        4029
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 349,
+      "relocated_switch_cases": 12,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "config.mjo": {
+      "source_sha256": "cf2ff91985edbaf828425e7e2f152785461d877b42d58c3de0511e744f643033",
+      "output_sha256": "5dee061ec6830e1728a5c67c4c0c87024a50daaafc0a97f41e960e448e58c69b",
+      "original_instructions": 11987,
+      "output_instructions": 11991,
+      "replacement_indices": [],
+      "insertion_indices": [
+        3546,
+        8695
+      ],
+      "relocated_jumps": 1481,
+      "relocated_switch_cases": 168,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "console.mjo": {
+      "source_sha256": "fb2521e6787929bfadf2734192510c43852f7f4b1495ca7ec135df1fe0bb0deb",
+      "output_sha256": "319beb7ca9e43ca6fc75680b7fb07462931d103fdba702f0bd56f47d936c7d48",
+      "original_instructions": 7572,
+      "output_instructions": 7572,
+      "replacement_indices": [
+        5505,
+        5601,
+        5729,
+        5739,
+        5750,
+        5766,
+        5777
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 636,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "load_sysdata.mjo": {
+      "source_sha256": "0f169d1866501deb84dc31b50be55729b22965005136940690f7153b8c5f1e9f",
+      "output_sha256": "4f0af117990acbe80e55153e845dbd065016bea5c53695872440578321abeecd",
+      "original_instructions": 1394,
+      "output_instructions": 1399,
+      "replacement_indices": [],
+      "insertion_indices": [
+        3
+      ],
+      "relocated_jumps": 67,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "loadsave.mjo": {
+      "source_sha256": "5d0109457b85a150243a6919c0a0cda1205a3e2df8f0d726a566c852a364edcf",
+      "output_sha256": "8766cbb1626ffa2bc3980e1e17b09490302095f0447aae6254edf387e95d7efd",
+      "original_instructions": 2167,
+      "output_instructions": 2167,
+      "replacement_indices": [
+        821,
+        842,
+        1138,
+        1174,
+        1287
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 126,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "menu.mjo": {
+      "source_sha256": "5df429fd84418773e78652c0996838d8e94873e663425fd8c4a0e2fde73a812b",
+      "output_sha256": "d1d2b671dbc673badc620ad5d6d6e140f172a8bef6044c61b87ef514a6a2f257",
+      "original_instructions": 5278,
+      "output_instructions": 5278,
+      "replacement_indices": [
+        3119,
+        3239,
+        3249,
+        3260,
+        3276
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 461,
+      "relocated_switch_cases": 168,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "message_box.mjo": {
+      "source_sha256": "d0e5e90a9c5a805b5df74ac99eb98018c5b59ac3288f1d5e825e9199900f2377",
+      "output_sha256": "5522d7d42c5dcf02961717d37a824046c13130431c8fd0ded9a7f3c89ecc122c",
+      "original_instructions": 905,
+      "output_instructions": 905,
+      "replacement_indices": [
+        639,
+        650
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 32,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "music.mjo": {
+      "source_sha256": "6216e2353f4d17b4078ff72ab3501d371fcad95c580cb47fdf43ff745650cba8",
+      "output_sha256": "92eac783f092c4edb8e97a3ae9aadf474334d6aab99dcafc20d2a21a81b9e479",
+      "original_instructions": 1081,
+      "output_instructions": 1081,
+      "replacement_indices": [
+        137
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 132,
+      "relocated_switch_cases": 14,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "pausemenu.mjo": {
+      "source_sha256": "5318b5b7bcf9eec30be2b16a859e7c463739281564c42e173430d518d55eec88",
+      "output_sha256": "f719bc171af83d4722399f789124da463ceb0d7c69804699404964d740d894fe",
+      "original_instructions": 874,
+      "output_instructions": 874,
+      "replacement_indices": [
+        723,
+        790,
+        801,
+        818
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 57,
+      "relocated_switch_cases": 8,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "sightchange.mjo": {
+      "source_sha256": "8966751a63163e361ded0cf3fdcb49cb9b731788f230b10fa4e80fa5c366f1de",
+      "output_sha256": "99957df1d08d0a73eb0fbc4e98dbad67e554ba9c41eacecfd99431b21cc98d0a",
+      "original_instructions": 2188,
+      "output_instructions": 2188,
+      "replacement_indices": [
+        11,
+        615,
+        617
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 122,
+      "relocated_switch_cases": 41,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "staffroom.mjo": {
+      "source_sha256": "42063c5e5ce5ef66baa9e8c8ce4c1cd01f18fb186e0d75dff3a6e9b8565196d1",
+      "output_sha256": "baaa7392457a612a5efb2541d25d02af7e0a3258fa0842ca1181b5f934379ed0",
+      "original_instructions": 398,
+      "output_instructions": 398,
+      "replacement_indices": [
+        18
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 51,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "start.mjo": {
+      "source_sha256": "377fe926323fc7fef91f85c6bf90aa70a02cd423a95975418d41622f36a5b0bd",
+      "output_sha256": "6ec38f58c0b5c2d3254ad788062061ab01bb3a9a5e1ebc10ed001dd11ffe5698",
+      "original_instructions": 1721,
+      "output_instructions": 1721,
+      "replacement_indices": [
+        1543,
+        1622,
+        1699
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 104,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    }
+  },
+  "support_changes": [
+    {
+      "file": "load_sysdata.mjo",
+      "index": 3,
+      "change": "register dedicated UI font/select family",
+      "integration_overlap": "main loader hook; merge once"
+    },
+    {
+      "file": "config.mjo",
+      "index": 3546,
+      "change": "trial font fixed to compatible mapped family"
+    },
+    {
+      "file": "config.mjo",
+      "index": 8695,
+      "change": "trial font fixed to compatible mapped family"
+    },
+    {
+      "file": "chronicle.mjo",
+      "index": 250,
+      "change": "direct UI font consumer"
+    },
+    {
+      "file": "chronicle.mjo",
+      "index": 847,
+      "change": "direct UI font consumer"
+    },
+    {
+      "file": "chronicle.mjo",
+      "index": 2274,
+      "change": "direct UI font consumer"
+    },
+    {
+      "file": "menudata.cfg",
+      "change": "UI font consumer",
+      "occurrences": 1
+    },
+    {
+      "file": "sysdata.cfg",
+      "change": "UI font consumer",
+      "occurrences": 2
+    },
+    {
+      "file": "messagebox.cfg",
+      "change": "UI font consumer",
+      "occurrences": 1
+    },
+    {
+      "file": "loadsave.cfg",
+      "change": "UI font consumer",
+      "occurrences": 1
+    },
+    {
+      "file": "majiro.env",
+      "change": "runtime-only registry/title/capture isolation and font default",
+      "exclude_from_final_integration": [
+        "REG_LOCAL",
+        "TITLEBAR",
+        "CAPTURE_NAME"
+      ]
+    },
+    {
+      "file": "message_box.mjo",
+      "index": 126,
+      "change": "direct MS UI Gothic fontout consumer replaced",
+      "reason": "runtime v1 showed question marks"
+    }
+  ],
+  "font": {
+    "family": "Reconquista UI KR",
+    "source_sha256": "6bcb2a0703aa137e874fc2dffa85f6c21ba9a67fa329e81b8c801663af7e992a",
+    "output_sha256": "7703661cd363a137fc025db1d3454980e75021a053cf5693aa737a40ff0bd61f",
+    "mapping_base_sha256": "eb4c849713de5af1a0e38f4cfa8868ca01eb22c0f95f109ea1878f180d6cfc66",
+    "map_sha256": "0e080b3cc3654c0d58e2f8f11bcadc7bd658f84fd0b6c05d5a7030e15cd57451",
+    "mapped_glyphs": 773,
+    "additions": 16,
+    "persisted_cmap_pass": true,
+    "runtime_pass": false
+  },
+  "raster_manifest": "../title-menu-v1/manifest.json",
+  "raster_entries": 39,
+  "runtime_pass": false,
+  "remaining": [
+    "Remaining raster UI: config, save/load, menu/console, tooltip, chronicle, names and extra screens",
+    "Timeline CSV and dynamic-name audit",
+    "Installer/uninstaller/native remaining surface audit",
+    "OP/ED authoring after UI production gate",
+    "Remaining private-desktop state coverage and user final combined runtime review"
+  ],
+  "inherits_static_evidence": "../ui-trial-v5/manifest.json",
+  "targeted_change_report": {
+    "message_box_font": {
+      "source_sha256": "5522d7d42c5dcf02961717d37a824046c13130431c8fd0ded9a7f3c89ecc122c",
+      "output_sha256": "ef5c89506ef40a1752a06c48517dde9ef5729e2215de0cb6c44390b0f8960bb0",
+      "original_instructions": 905,
+      "output_instructions": 905,
+      "replacement_indices": [
+        126
+      ],
+      "insertion_indices": [],
+      "relocated_jumps": 32,
+      "relocated_switch_cases": 0,
+      "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+    },
+    "title": "Reconquista-UI-Test",
+    "unchanged_scenario_entries_identical_to_v1": true,
+    "semantic_text_unchanged": true,
+    "font_payload_unchanged": true
+  },
+  "required_windows_acp": 949,
+  "native_display_fields": [
+    {
+      "id": "majiro.env::APPNAME",
+      "source": "レコンキスタ",
+      "target": "레콘퀴스타",
+      "consumer": "native About dialog SetWindowTextA",
+      "encoding": "cp949",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "majiro.env::VERSION",
+      "source": "Version 1.00",
+      "target": "버전 1.00",
+      "consumer": "native About dialog SetWindowTextA",
+      "encoding": "cp949",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "majiro.env::COPYRIGHT",
+      "source": "(C)コットンソフト 2007",
+      "target": "(C)COTTON SOFTWARE 2007",
+      "consumer": "native About dialog SetWindowTextA",
+      "encoding": "cp949",
+      "translator_model": "Codex internal"
+    }
+  ],
+  "native_diagnostic_encoding": "cp949",
+  "native_diagnostic_reports": {
+    "cgmode.mjo": {
+      "structural_rewrite": {
+        "source_sha256": "9599979808cb9be850c84c300981ea6970f740a1a8f3c26e529f18d943e62c4e",
+        "output_sha256": "8882f5d5604eeeebec979d1c6b7ceac11a0cb88634c8eb500ccf9bbc65e9cc82",
+        "original_instructions": 2741,
+        "output_instructions": 2741,
+        "replacement_indices": [
+          576,
+          817,
+          932,
+          971
+        ],
+        "insertion_indices": [],
+        "relocated_jumps": 197,
+        "relocated_switch_cases": 9,
+        "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+      },
+      "output_sha256": "f4fee20a17d531bc7a2dd34368e90df5c2e9eeb212d0e0fb3a516958dcf26dde",
+      "native_bytes_preserve_length": true,
+      "outside_string_ranges_unchanged": true,
+      "roundtrip_target_text_verified": true,
+      "records": [
+        {
+          "id": "cgmode.mjo::000576",
+          "source": " ] CHECK1の時点でパラメータ数が合いません。",
+          "target": " ] CHECK1 위치에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 576,
+          "payload_hex": "205d20434845434b3120c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            3962,
+            4009
+          ]
+        },
+        {
+          "id": "cgmode.mjo::000817",
+          "source": " ] CHECK2の時点でパラメータ数が合いません。",
+          "target": " ] CHECK2 위치에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 817,
+          "payload_hex": "205d20434845434b3220c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            5642,
+            5689
+          ]
+        },
+        {
+          "id": "cgmode.mjo::000932",
+          "source": " ] CHECK3の時点でパラメータ数が合いません。",
+          "target": " ] CHECK3 위치에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 932,
+          "payload_hex": "205d20434845434b3320c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            6393,
+            6440
+          ]
+        },
+        {
+          "id": "cgmode.mjo::000971",
+          "source": " ] ALL_ENDの時点でパラメータ数が合いません。",
+          "target": " ] ALL_END 위치에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 971,
+          "payload_hex": "205d20414c4c5f454e4420c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            6694,
+            6742
+          ]
+        }
+      ]
+    },
+    "config.mjo": {
+      "structural_rewrite": {
+        "source_sha256": "5dee061ec6830e1728a5c67c4c0c87024a50daaafc0a97f41e960e448e58c69b",
+        "output_sha256": "91c36a2efacd76e81fe091baeec143565a7816255fa565ec36cacc184e583a44",
+        "original_instructions": 11991,
+        "output_instructions": 11991,
+        "replacement_indices": [
+          8007,
+          8013,
+          8730,
+          9002,
+          9446,
+          9713,
+          11911
+        ],
+        "insertion_indices": [],
+        "relocated_jumps": 1481,
+        "relocated_switch_cases": 168,
+        "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+      },
+      "output_sha256": "f1e4bd261d2ff66946278e2c0a6d71ff9171c05828bd9b9fb053ca34ce179015",
+      "native_bytes_preserve_length": true,
+      "outside_string_ranges_unchanged": true,
+      "roundtrip_target_text_verified": true,
+      "records": [
+        {
+          "id": "config.mjo::008005",
+          "source": " / 音量 : ",
+          "target": " / 음량 : ",
+          "instruction_index_current": 8007,
+          "payload_hex": "202f20c0bdb7ae203a20",
+          "native_consumer_hash": "4d2d4277",
+          "encoding": "cp949",
+          "bytecode_range": [
+            56679,
+            56689
+          ]
+        },
+        {
+          "id": "config.mjo::008011",
+          "source": "文字速度 : ",
+          "target": "글자 표시 속도 : ",
+          "instruction_index_current": 8013,
+          "payload_hex": "b1dbc0da20c7a5bdc320bcd3b5b5203a20",
+          "native_consumer_hash": "4d2d4277",
+          "encoding": "cp949",
+          "bytecode_range": [
+            56738,
+            56755
+          ]
+        },
+        {
+          "id": "config.mjo::008726",
+          "source": "[ config.cfg ]の check パラメータの数が不足しています",
+          "target": "[ config.cfg ]의 check 항목 수가 부족합니다",
+          "instruction_index_current": 8730,
+          "payload_hex": "5b20636f6e6669672e636667205dc0c720636865636b20c7d7b8f120bcf6b0a120bacec1b7c7d5b4cfb4d9",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            62420,
+            62463
+          ]
+        },
+        {
+          "id": "config.mjo::008998",
+          "source": "[ config.cfg ] [EOF]の存在と位置を確認してください",
+          "target": "[ config.cfg ]에서 [EOF]의 존재 여부와 위치를 확인해 주세요",
+          "instruction_index_current": 9002,
+          "payload_hex": "5b20636f6e6669672e636667205dbfa1bcad205b454f465dc0c720c1b8c0e720bfa9bacebfcd20c0a7c4a1b8a620c8aec0cec7d820c1d6bcbcbfe4",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            64158,
+            64217
+          ]
+        },
+        {
+          "id": "config.mjo::009442",
+          "source": "[ config.cfg ] 画面関連セクション終了時点でパラメータ数が合いません。",
+          "target": "[ config.cfg ] 화면 설정 구역 끝에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 9446,
+          "payload_hex": "5b20636f6e6669672e636667205d20c8adb8e920bcb3c1a420b1b8bfaa20b3a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            67243,
+            67308
+          ]
+        },
+        {
+          "id": "config.mjo::009709",
+          "source": "[ config.cfg ] 音量関連セクション終了時点でパラメータ数が合いません。",
+          "target": "[ config.cfg ] 음량 설정 구역 끝에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 9713,
+          "payload_hex": "5b20636f6e6669672e636667205d20c0bdb7ae20bcb3c1a420b1b8bfaa20b3a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            69115,
+            69180
+          ]
+        },
+        {
+          "id": "config.mjo::011907",
+          "source": "[ config.cfg ] 人物個別セクション終了時点でパラメータ数が合いません。",
+          "target": "[ config.cfg ] 인물별 설정 구역 끝에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 11911,
+          "payload_hex": "5b20636f6e6669672e636667205d20c0ceb9b0bab020bcb3c1a420b1b8bfaa20b3a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            84089,
+            84156
+          ]
+        }
+      ]
+    },
+    "load_sysdata.mjo": {
+      "structural_rewrite": {
+        "source_sha256": "4f0af117990acbe80e55153e845dbd065016bea5c53695872440578321abeecd",
+        "output_sha256": "883dc91f3128cfbb7116e0ea02cbdc792b384c85919569a7185aa2a308274c3f",
+        "original_instructions": 1399,
+        "output_instructions": 1399,
+        "replacement_indices": [
+          1383
+        ],
+        "insertion_indices": [],
+        "relocated_jumps": 67,
+        "relocated_switch_cases": 0,
+        "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+      },
+      "output_sha256": "18d3a7052f9a70fda825712849d5630408129be1a607c4813721089c8c311600",
+      "native_bytes_preserve_length": true,
+      "outside_string_ranges_unchanged": true,
+      "roundtrip_target_text_verified": true,
+      "records": [
+        {
+          "id": "load_sysdata.mjo::001378",
+          "source": "[ sysdata.cfg ] CHECK_ENDの時点でパラメータ数が合いません。",
+          "target": "[ sysdata.cfg ] CHECK_END 위치에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 1383,
+          "payload_hex": "5b20737973646174612e636667205d20434845434b5f454e4420c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            10031,
+            10094
+          ]
+        }
+      ]
+    },
+    "loadsave.mjo": {
+      "structural_rewrite": {
+        "source_sha256": "8766cbb1626ffa2bc3980e1e17b09490302095f0447aae6254edf387e95d7efd",
+        "output_sha256": "9e123bfbd8013aeaa6216e0e60118e1c0e174b62bfe6e99a64aa500948f81312",
+        "original_instructions": 2167,
+        "output_instructions": 2167,
+        "replacement_indices": [
+          1698,
+          1798,
+          2083
+        ],
+        "insertion_indices": [],
+        "relocated_jumps": 126,
+        "relocated_switch_cases": 0,
+        "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+      },
+      "output_sha256": "4195917ceadef536a4e87c7b5402f24d88bbe7336ad54f65c1d43c97b9992ed1",
+      "native_bytes_preserve_length": true,
+      "outside_string_ranges_unchanged": true,
+      "roundtrip_target_text_verified": true,
+      "records": [
+        {
+          "id": "loadsave.mjo::001698",
+          "source": "[ loadsave.cfg ] PARAM_CHK1の時点でパラメータ数が合いません。",
+          "target": "[ loadsave.cfg ] PARAM_CHK1 위치에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 1698,
+          "payload_hex": "5b206c6f6164736176652e636667205d20504152414d5f43484b3120c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            11439,
+            11504
+          ]
+        },
+        {
+          "id": "loadsave.mjo::001798",
+          "source": "[ loadsave.cfg ] PARAM_CHK2の時点でパラメータ数が合いません。",
+          "target": "[ loadsave.cfg ] PARAM_CHK2 위치에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 1798,
+          "payload_hex": "5b206c6f6164736176652e636667205d20504152414d5f43484b3220c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            12156,
+            12221
+          ]
+        },
+        {
+          "id": "loadsave.mjo::002083",
+          "source": "[ loadsave.cfg ] PARAM_CHK3の時点でパラメータ数が合いません。",
+          "target": "[ loadsave.cfg ] PARAM_CHK3 위치에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 2083,
+          "payload_hex": "5b206c6f6164736176652e636667205d20504152414d5f43484b3320c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            14161,
+            14226
+          ]
+        }
+      ]
+    },
+    "menu.mjo": {
+      "structural_rewrite": {
+        "source_sha256": "d1d2b671dbc673badc620ad5d6d6e140f172a8bef6044c61b87ef514a6a2f257",
+        "output_sha256": "f48ec7e30a54539a621fcda969922bc18e8e8542eebec661a1837d17c8894ec9",
+        "original_instructions": 5278,
+        "output_instructions": 5278,
+        "replacement_indices": [
+          4647,
+          4853,
+          5105
+        ],
+        "insertion_indices": [],
+        "relocated_jumps": 461,
+        "relocated_switch_cases": 168,
+        "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+      },
+      "output_sha256": "ad8b3d06fdd48b1302bb2be5b3401aeabba864c4fa576f3543866923bc58a7d2",
+      "native_bytes_preserve_length": true,
+      "outside_string_ranges_unchanged": true,
+      "roundtrip_target_text_verified": true,
+      "records": [
+        {
+          "id": "menu.mjo::004647",
+          "source": "[ menudata.cfg ] PARAM_CHKの時点でパラメータ数が合いません。MENUMODE等を確認してください",
+          "target": "[ menudata.cfg ] PARAM_CHK 위치에서 매개변수 수가 맞지 않습니다. MENUMODE 등을 확인해 주세요",
+          "instruction_index_current": 4647,
+          "payload_hex": "5b206d656e75646174612e636667205d20504152414d5f43484b20c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e204d454e554d4f444520b5eec0bb20c8aec0cec7d820c1d6bcbcbfe4",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            31958,
+            32050
+          ]
+        },
+        {
+          "id": "menu.mjo::004853",
+          "source": "[ menudata.cfg ] PARAM_CHKの時点でパラメータ数が合いません。MENUMODE等を確認してください",
+          "target": "[ menudata.cfg ] PARAM_CHK 위치에서 매개변수 수가 맞지 않습니다. MENUMODE 등을 확인해 주세요",
+          "instruction_index_current": 4853,
+          "payload_hex": "5b206d656e75646174612e636667205d20504152414d5f43484b20c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e204d454e554d4f444520b5eec0bb20c8aec0cec7d820c1d6bcbcbfe4",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            33374,
+            33466
+          ]
+        },
+        {
+          "id": "menu.mjo::005105",
+          "source": "[ menudata.cfg ] PARAM_CHKの時点でパラメータ数が合いません。MENUMODE等を確認してください",
+          "target": "[ menudata.cfg ] PARAM_CHK 위치에서 매개변수 수가 맞지 않습니다. MENUMODE 등을 확인해 주세요",
+          "instruction_index_current": 5105,
+          "payload_hex": "5b206d656e75646174612e636667205d20504152414d5f43484b20c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e204d454e554d4f444520b5eec0bb20c8aec0cec7d820c1d6bcbcbfe4",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            35227,
+            35319
+          ]
+        }
+      ]
+    }
+  },
+  "validation_owner": "User final combined runtime review",
+  "raster_manifests": [
+    "../title-menu-v1/manifest.json",
+    "../modal-raster-v1/manifest.json",
+    "../text-raster-v1/manifest.json",
+    "../chapter-raster-v1/manifest.json"
+  ],
+  "raster_mask_entries_changed": 25,
+  "raster_semantic_labels": 100,
+  "new_payloads_exactly": [
+    "chapter_off_1.rct",
+    "chapter_off_2.rct",
+    "chapter_on.rct",
+    "chapter_push.rct"
+  ],
+  "unchanged_v5_payloads_reused": true
+}

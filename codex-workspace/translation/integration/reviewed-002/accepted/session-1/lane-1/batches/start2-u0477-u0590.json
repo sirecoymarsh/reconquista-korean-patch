@@ -1,0 +1,2686 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-1/lane-1",
+  "coordinator_thread_id": "01a16335-92a2-79c2-814f-63275a46f2b1",
+  "agent_id": "/root/lane_1",
+  "source_script": "00_レコンキスタ_start_2.mjo",
+  "source_sha256": "9d81bc362eb009825acbcb26d4bc28a286a9cae0ffd6047ae32e2be2c3f1f073",
+  "source_packet_sha256": "dd612197a63ea218d04ccab01d26b0dda035013e8c1d385ac16c34042cd2b00d",
+  "contract_revision": "20261022-2-path-and-inline-ownership",
+  "records": [
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0477",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005196",
+          "source": "ガラガラガラッ…、",
+          "target": "드르르륵…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0478",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005210",
+          "source": "「あれ、あんたたち珍しく早いわね」",
+          "target": "「어라, 너희 웬일로 일찍 왔네」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "신야",
+          "마호코"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "밝고 활달한 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "＊＊＊（麻咲）"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0479",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005215",
+          "source": "自分たちのクラスの教室に入ると、",
+          "target": "우리 반 교실로 들어가자"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005219",
+          "source": "早速そんな声が飛び出してくる。",
+          "target": "곧바로 그런 목소리가 날아왔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0480",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005234",
+          "source": "「どったの、三沢？",
+          "target": "「왜 그래, 미사와?"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005238",
+          "source": "　何か悪いものでも拾って食べた？」",
+          "target": "　뭐 잘못 주워 먹었어?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "밝고 활달한 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "麻咲"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0481",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005245",
+          "source": "「麻咲…お前は朝からご挨拶な奴だな…」",
+          "target": "「마사키… 넌 아침부터 인사 한번 고약하게 한다…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마사키"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "장난기 있는 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0482",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005260",
+          "source": "「あ、真帆子もおはよん」",
+          "target": "「아, 마호코도 안녀엉」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "밝고 활달한 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "麻咲"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0483",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005270",
+          "source": "「おはよう、麻咲ちゃん」",
+          "target": "「안녕, 마사키」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "마사키"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "부드러운 소꿉친구 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0484",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005285",
+          "source": "「そうそう、アンタたち聞いてよ～」",
+          "target": "「참, 너희 이것 좀 들어 봐~」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "신야",
+          "마호코"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "밝고 활달한 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "麻咲"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0485",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005292",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마사키"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "장난기 있는 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0486",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005297",
+          "source": "こっちの発言をあっさりとスルーし、",
+          "target": "내 말은 가볍게 무시하고"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005301",
+          "source": "勝手に話し始める。",
+          "target": "제멋대로 이야기를 시작한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0487",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005306",
+          "source": "詩菜と違ってこいつの場合、",
+          "target": "시이나와 달리 얘는"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005310",
+          "source": "悪意がある訳じゃないから余計にタチが悪い。",
+          "target": "악의가 있는 것도 아니라 더 골치 아프다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0488",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005315",
+          "source": "吉森麻咲。",
+          "target": "요시모리 마사키."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005319",
+          "source": "俺や真帆子のクラスメイトにして…",
+          "target": "나와 마호코의 반 친구이자…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0489",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005334",
+          "source": "「ウチの隣、人が引っ越して来たんだからっ」",
+          "target": "「우리 옆집에 사람이 이사 왔다니까!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "신야",
+          "마호코"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "밝고 활달한 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "麻咲"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0490",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005344",
+          "source": "「えぇっ？」",
+          "target": "「어어?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "마사키"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "부드러운 소꿉친구 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0491",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005351",
+          "source": "「マジかよっ？」",
+          "target": "「진짜야?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마사키"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "장난기 있는 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0492",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005356",
+          "source": "…同じマンションの１フロア上に住む、",
+          "target": "…같은 아파트에서 우리보다 한 층 위에 사는,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005360",
+          "source": "４階唯一の住人だった。",
+          "target": "4층의 유일한 주민이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0493",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005365",
+          "source": "って、今の話が本当なら唯一じゃなくなったのか。",
+          "target": "아니, 지금 말이 사실이면 더는 유일하지 않은 건가."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005370",
+          "source": "つか何でお前が誇らしげなんだよ。",
+          "target": "그런데 넌 왜 그렇게 뿌듯해하냐."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0494",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005385",
+          "source": "「前からお隣に荷物運んでるのは気づいてたけどさ、",
+          "target": "「전부터 옆집에 짐을 들이는 건 알았는데,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005389",
+          "source": "　勘違いだと寂しいから黙ってたんだぁ」",
+          "target": "　착각이면 허전할 것 같아서 말 안 했어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "신야",
+          "마호코"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "밝고 활달한 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "麻咲"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0495",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005396",
+          "source": "「確かに…あまりの過疎っぷりに",
+          "target": "「하긴… 워낙 사람이 없어서"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005400",
+          "source": "　倉庫代わりに使われてもおかしくないもんな」",
+          "target": "　창고로 쓴대도 이상할 게 없으니까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마사키"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "장난기 있는 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0496",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005405",
+          "source": "ちなみにあのマンション、",
+          "target": "참고로 그 아파트"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005409",
+          "source": "３階に住んでるのは俺と真帆子の家だけだったりする。",
+          "target": "3층에는 우리 집이랑 마호코네만 살고 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0497",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005414",
+          "source": "どこのフロアも似たようなもんか、もっと酷い。",
+          "target": "어느 층이든 비슷하거나, 더 심하다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0498",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005419",
+          "source": "けど、人が少なくなってるのは",
+          "target": "하지만 사람이 줄어드는 건"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005423",
+          "source": "何もここに限った事ではなかった。",
+          "target": "비단 여기만의 일이 아니었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0499",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005436",
+          "source": "大々的な触れ込みで始まったらしいこの島、",
+          "target": "요란한 선전과 함께 시작됐다는 이 섬,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005440",
+          "source": "『海上ニュータウン』の開発計画。",
+          "target": "『해상 뉴타운』의 개발 계획."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0500",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005445",
+          "source": "しかしそれは、",
+          "target": "하지만 그 계획은"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005449",
+          "source": "ある時期を境に開発半ばにして頓挫してしまった。",
+          "target": "어느 시점을 기점으로 개발 도중에 좌초하고 말았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0501",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005454",
+          "source": "様々な企業や組織・団体は既に軒並み撤退し、",
+          "target": "여러 기업과 조직, 단체가 이미 줄줄이 철수했고,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005458",
+          "source": "今もこの島の人口は減少の一途を辿っている。",
+          "target": "지금도 이 섬의 인구는 계속 줄어들고 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0502",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005463",
+          "source": "マンションでも学校でも人を送り出すばかり。",
+          "target": "아파트에서도 학교에서도 떠나는 사람을 배웅할 뿐."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005467",
+          "source": "そんな日常に俺たちはすっかり慣れてしまっていて…",
+          "target": "우리는 그런 일상에 완전히 익숙해져 있었다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0503",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005472",
+          "source": "だからこそ、今さらこんな場所に",
+          "target": "그러니 이제 와 이런 곳으로"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005476",
+          "source": "引っ越して来ようなんて奇特な人間は珍しかった。",
+          "target": "이사 오겠다는 별난 사람은 드물 수밖에."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0504",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005494",
+          "source": "「わぁ、どんな人なのかな？",
+          "target": "「와아, 어떤 사람일까?"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005498",
+          "source": "　麻咲ちゃん、もう挨拶した？」",
+          "target": "　마사키, 벌써 인사했어?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "마사키"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "부드러운 소꿉친구 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0505",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005513",
+          "source": "「もっちろん。あたしが見たのは、",
+          "target": "「물론이지. 내가 본 건"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005517",
+          "source": "　お父さんと女の子だけだったけどね」",
+          "target": "　아빠랑 여자애뿐이었지만」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "신야",
+          "마호코"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "밝고 활달한 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "麻咲"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0506",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005532",
+          "source": "「女の子の方はもうすっごーーーく可愛くてさぁ、",
+          "target": "「여자애는 정말 어어엄청 귀여워."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005536",
+          "source": "　素直で明るくてぇ…」",
+          "target": "　착하고 밝고…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "신야",
+          "마호코"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "밝고 활달한 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "麻咲"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0507",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005551",
+          "source": "「お父さんの方は、ちょーっと頼りなさそうで、",
+          "target": "「아빠는 쪼끔 미덥지 못해 보이고,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005555",
+          "source": "　鈍感ぽくてぼーっとしてて…でも優しそうな目でさ」",
+          "target": "　둔하고 멍해 보여도… 눈빛은 다정하더라」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "신야",
+          "마호코"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "밝고 활달한 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "麻咲"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0508",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005562",
+          "source": "「………お父さんの説明の方がいっこ多いな」",
+          "target": "「………아빠 쪽 설명이 하나 더 많네」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마사키"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "장난기 있는 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0509",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005577",
+          "source": "「ぬあっ」",
+          "target": "「느앗」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "밝고 활달한 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "麻咲"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0510",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005584",
+          "source": "「麻咲…年上好きもいいけどな、",
+          "target": "「마사키… 연상 좋아하는 건 좋은데,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005588",
+          "source": "　",
+          "target": "　"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005593",
+          "source": "の旦那には手を出すなよ」",
+          "target": " 남편은 건드리지 마라」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마사키"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "장난기 있는 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0511",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005603",
+          "source": "「あ、あははは…」",
+          "target": "「아, 아하하하…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야",
+          "마사키"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "부드러운 소꿉친구 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0512",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005618",
+          "source": "「なっ…なっ…なぁっ…！」",
+          "target": "「뭐… 뭐… 뭐어…!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "밝고 활달한 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "麻咲"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0513",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005626",
+          "source": "キーンコーンカーン…",
+          "target": "딩동댕동…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0514",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005631",
+          "source": "麻咲の声が形になる前に、タイミングよく予鈴が鳴る。",
+          "target": "마사키의 외침이 말이 되기도 전에 마침 예비종이 울린다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0515",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005638",
+          "source": "「ほれ、チャイム鳴ったぞ。席にもどれ」",
+          "target": "「자, 종 쳤다. 자리로 돌아가」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마사키"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "장난기 있는 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0516",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005653",
+          "source": "「ぬぬぬ…三沢、覚えてなさいよぉ…」",
+          "target": "「으으으… 미사와, 두고 보자아…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "밝고 활달한 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "麻咲"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0517",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005663",
+          "source": "恨めしそうに言い残して、自分の席へと戻る麻咲。",
+          "target": "원망스럽게 한마디 남기고 자기 자리로 돌아가는 마사키."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0518",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005668",
+          "source": "やれやれ、命拾いしたかな…？",
+          "target": "휴, 목숨 건진 건가…?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0519",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005683",
+          "source": "「もう、信くん…",
+          "target": "「정말, 신도…"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005687",
+          "source": "　あんまり麻咲ちゃんをいじめちゃダメだよ？」",
+          "target": "　마사키 너무 괴롭히지 마, 응?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "부드러운 소꿉친구 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0520",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005694",
+          "source": "「あいつはそんなタマじゃないって。",
+          "target": "「걘 그럴 애가 아니라니까."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005698",
+          "source": "　俺に虐められてくれるのは、お前くらいなもんだ」",
+          "target": "　나한테 괴롭힘당해 주는 건 너 정도야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "장난기 있는 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0521",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005713",
+          "source": "「あの…わたしも好きで",
+          "target": "「저기… 나도 좋아서"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005717",
+          "source": "　いじめられてるんじゃないんですけど…」",
+          "target": "　괴롭힘당하는 건 아니거든요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "소꿉친구에게 일부러 존댓말을 섞어 항의",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0522",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005724",
+          "source": "「世の中、どうにもならない事ってあるよなぁ」",
+          "target": "「세상엔 어쩔 수 없는 일도 있는 법이지이」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "장난기 있는 또래 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0523",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005739",
+          "source": "「うぅ…ぐすん…」",
+          "target": "「우우… 훌쩍…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "부드러운 소꿉친구 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0524",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005749",
+          "source": "がっくりと去っていく真帆子を見送ってから、",
+          "target": "축 처진 채 돌아가는 마호코를 배웅하고"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005753",
+          "source": "俺も椅子に腰を落とす。",
+          "target": "나도 의자에 몸을 내려놓는다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0525",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005771",
+          "source": "どさっ",
+          "target": "털썩."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0526",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005778",
+          "source": "「やれやれ、やっと寝れるな…」",
+          "target": "「휴, 이제야 잘 수 있겠네…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "혼잣말/독백; 다른 인물에게 하는 발화가 아님",
+        "text_function": "inner_monologue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0527",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005783",
+          "source": "何だか妙に疲れる朝だったけど、",
+          "target": "묘하게 피곤한 아침이었지만"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005787",
+          "source": "これでようやく人心地つけそうだ。",
+          "target": "이제 좀 한숨 돌릴 수 있을 것 같다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0528",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005792",
+          "source": "願わくば、昼休みくらいまで安眠できますように…",
+          "target": "부디 점심시간쯤까지 푹 잘 수 있기를…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0529",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005799",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "혼잣말/독백; 다른 인물에게 하는 발화가 아님",
+        "text_function": "inner_monologue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0530",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005806",
+          "source": "「ぐぅ…」",
+          "target": "「쿨…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "혼잣말/독백; 다른 인물에게 하는 발화가 아님",
+        "text_function": "inner_monologue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0531",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005811",
+          "source": "・・・・・・・・・",
+          "target": "・・・・・・・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0532",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005816",
+          "source": "・・・・・・",
+          "target": "・・・・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0533",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005829",
+          "source": "「あーーっ、あなたはっ！」",
+          "target": "「아아앗, 당신은!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "교단의 낯선 남자(마키노 게이고)"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "놀라 말이 막힌 성인 이웃에 대한 발화",
+        "text_function": "dialogue",
+        "source_display_token": "＊＊＊（麻咲）"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0534",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005839",
+          "source": "がばっ！",
+          "target": "벌떡!"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0535",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005844",
+          "source": "突然の大声に驚いて、反射的に顔をあげる。",
+          "target": "갑작스러운 큰 소리에 놀라 반사적으로 고개를 들었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0536",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005851",
+          "source": "「（なんだなんだっ？）」",
+          "target": "「(뭐야, 뭐야?)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "혼잣말/독백; 다른 인물에게 하는 발화가 아님",
+        "text_function": "inner_monologue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0537",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005856",
+          "source": "てっきり寝ていた俺が怒られたのかと思ったが…",
+          "target": "분명 자고 있던 나를 혼내는 줄 알았는데…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0538",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005871",
+          "source": "「あ…あ…」",
+          "target": "「아… 아…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "교단의 낯선 남자(마키노 게이고)"
+        ],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "놀라 말이 막힌 성인 이웃에 대한 발화",
+        "text_function": "dialogue",
+        "source_display_token": "麻咲"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0539",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005876",
+          "source": "静かな教室には、席から立ち上がって",
+          "target": "조용한 교실에는 자리에서 일어나"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005880",
+          "source": "驚いた表情のまま教壇を見つめる麻咲と、",
+          "target": "놀란 표정으로 교단을 바라보는 마사키와,"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0540",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005885",
+          "source": "その視線の先で、麻咲と同じような表情を浮かべている、",
+          "target": "그 시선 끝에서 마사키와 비슷한 표정을 짓고 있는"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005889",
+          "source": "見慣れない男の姿があった…",
+          "target": "낯선 남자가 있었다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코·마사키는 같은 반이며 같은 아파트에 거주; 마사키는 신야와 반말을 쓰는 또래",
+        "story_phase": "공통 초반: 교실에서 마사키의 새 이웃 이야기와 새 교사 등장",
+        "voice": "가볍고 빈정거리는 신야의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0541",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005915",
+          "source": "チュンチュン…",
+          "target": "짹짹…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0542",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005925",
+          "source": "「おとーさん、もう朝だよ～」",
+          "target": "「아빠, 벌써 아침이야~」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "밝은 어린이 반말; 어려운 어휘를 흉내 내는 특징 유지",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0543",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005932",
+          "source": "「んっ…」",
+          "target": "「으음…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "혼잣말/독백; 다른 인물에게 하는 발화가 아님",
+        "text_function": "inner_monologue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0544",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005937",
+          "source": "白々と瞼を差す陽の光。",
+          "target": "눈꺼풀을 하얗게 비추는 햇살."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005941",
+          "source": "そして朝から元気なもみじの声。",
+          "target": "그리고 아침부터 기운찬 모미지의 목소리."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0545",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005946",
+          "source": "ああ、もう朝か…早いな…",
+          "target": "아, 벌써 아침인가… 빠르네…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0546",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005951",
+          "source": "なんだか寝足りない気分だった。",
+          "target": "잠을 덜 잔 기분이었다."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005955",
+          "source": "でも起きてもみじの朝食を作らないと…",
+          "target": "그래도 일어나서 모미지 아침밥을 해 줘야지…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0547",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005962",
+          "source": "「ふわぁ～…」",
+          "target": "「후아암~…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "혼잣말/독백; 다른 인물에게 하는 발화가 아님",
+        "text_function": "inner_monologue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0548",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005967",
+          "source": "大あくびをしつつ、のそのそと布団から這い出る僕。",
+          "target": "크게 하품하며 이불 속에서 느릿느릿 기어 나온다."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005971",
+          "source": "きつい朝日と重い瞼のせいで、目がちゃんと開かない。",
+          "target": "강한 햇살과 무거운 눈꺼풀 때문에 눈이 잘 떠지지 않는다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0549",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005976",
+          "source": "しかたなくほとんど手探り状態で、",
+          "target": "어쩔 수 없이 거의 더듬다시피 하며"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005980",
+          "source": "寝室の扉を開けた。",
+          "target": "침실 문을 열었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0550",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005993",
+          "source": "ガチャ",
+          "target": "철컥."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0551",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006003",
+          "source": "「…あれ？」",
+          "target": "「…어라?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "혼잣말/독백; 다른 인물에게 하는 발화가 아님",
+        "text_function": "inner_monologue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0552",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006008",
+          "source": "寝室を出てようやく目を開くと、",
+          "target": "침실을 나와 겨우 눈을 뜨자"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006012",
+          "source": "見慣れない光景が広がっていた。",
+          "target": "낯선 광경이 펼쳐졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0553",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006017",
+          "source": "そこは六畳一間の畳部屋じゃない。",
+          "target": "다다미 여섯 장짜리 단칸방이 아니다."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006021",
+          "source": "広々としたフローリング、小洒落たオープンキッチン…",
+          "target": "넓은 마룻바닥에 제법 멋스러운 오픈 키친…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0554",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006028",
+          "source": "「あ、そうか…引っ越して来たんだっけ」",
+          "target": "「아, 맞다… 이사 왔었지」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "혼잣말/독백; 다른 인물에게 하는 발화가 아님",
+        "text_function": "inner_monologue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0555",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006033",
+          "source": "寝ぼけていた脳が、ようやく覚醒した。",
+          "target": "잠에 취해 있던 머리가 겨우 깨어났다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0556",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006048",
+          "source": "「おはよー、おとーさん」",
+          "target": "「안녕, 아빠」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "밝은 어린이 반말; 어려운 어휘를 흉내 내는 특징 유지",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0557",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006055",
+          "source": "「ああ、おはようもみじ。",
+          "target": "「그래, 안녕, 모미지."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006059",
+          "source": "　いつもながら起きるの早いね」",
+          "target": "　언제나 일찍 일어나는구나」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "아이를 다정하게 대하는 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0558",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006074",
+          "source": "「ちがうよー。おとーさんがお寝坊さんなんだもん」",
+          "target": "「아니야아. 아빠가 늦잠꾸러기인걸」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "밝은 어린이 반말; 어려운 어휘를 흉내 내는 특징 유지",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0559",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006081",
+          "source": "「そっか。ごめんごめん」",
+          "target": "「그렇구나. 미안, 미안」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "아이를 다정하게 대하는 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0560",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006086",
+          "source": "もみじは健康優良児だから、夜寝るのも朝起きるのも早い。",
+          "target": "모미지는 건강한 아이라 밤에 일찍 자고 아침에도 일찍 일어난다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0561",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006091",
+          "source": "それに引きかえ、僕はどちらかというと夜型人間と言える。",
+          "target": "그에 비해 나는 굳이 말하자면 야행성이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0562",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006096",
+          "source": "だから僕ら親子は大抵もみじが先に起きて、",
+          "target": "그래서 우리 부녀는 대개 모미지가 먼저 일어나서"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006100",
+          "source": "僕がもみじに起こされるのというのが定番だった。",
+          "target": "나를 깨우는 게 일상이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0563",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006115",
+          "source": "「それよりおとーさん、牛乳がないよ？」",
+          "target": "「그보다 아빠, 우유가 없어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "밝은 어린이 반말; 어려운 어휘를 흉내 내는 특징 유지",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0564",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006122",
+          "source": "「牛乳？」",
+          "target": "「우유?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "아이를 다정하게 대하는 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0565",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006137",
+          "source": "「うん。朝ご飯用のパンはあるけど、牛乳がないの」",
+          "target": "「응. 아침으로 먹을 빵은 있는데 우유가 없어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "밝은 어린이 반말; 어려운 어휘를 흉내 내는 특징 유지",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0566",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006144",
+          "source": "「あ、そっか。昨日買い忘れてたから、それで…」",
+          "target": "「아, 맞다. 어제 깜빡하고 안 사서, 그래서…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "아이를 다정하게 대하는 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0567",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006157",
+          "source": "…それで？　僕はどうした？",
+          "target": "…그래서? 내가 어떻게 했지?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0568",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006162",
+          "source": "義父を見送るついでにコンビニへ行こうとして、",
+          "target": "장인을 배웅하면서 편의점에 가려다가"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006166",
+          "source": "けど迷子になって知らない公園に来ちゃって、それで…",
+          "target": "길을 잃고 모르는 공원에 들어갔고, 그래서…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0569",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006192",
+          "source": "そうだ…それで、彼女に出会ったんだ…",
+          "target": "그래… 그래서 그 애를 만났지…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0570",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006208",
+          "source": "「（思い出したぞ…昨日の夜のこと）」",
+          "target": "「(생각났다… 어젯밤 일)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "혼잣말/독백; 다른 인물에게 하는 발화가 아님",
+        "text_function": "inner_monologue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0571",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006213",
+          "source": "昨日の夜、僕は出会った。",
+          "target": "어젯밤, 나는 만났다."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006217",
+          "source": "亡き妻・紅葉にそっくりな、あの黒い少女に。",
+          "target": "죽은 아내 모미지와 똑 닮은 그 검은 소녀를."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0572",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006222",
+          "source": "あの時僕はすっかり驚いてしまって、",
+          "target": "그때 나는 너무 놀라서"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006226",
+          "source": "その場に立ち尽くしていた。",
+          "target": "그 자리에 멈춰 서 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0573",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006231",
+          "source": "そうしてる間に黒いセーラー服の少女は身を翻し、",
+          "target": "그러는 동안 검은 세일러복 차림의 소녀는 몸을 돌려"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006235",
+          "source": "夜の闇に溶け込んで見えなくなった。",
+          "target": "밤의 어둠 속에 녹아들듯 사라졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0574",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006240",
+          "source": "だけどその後も僕はただ呆けたまま、",
+          "target": "하지만 그 뒤로도 나는 멍한 채"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006244",
+          "source": "長い時間そこで佇んでいたんだ。",
+          "target": "오랫동안 그 자리에 서 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0575",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006259",
+          "source": "「おとーさん、どうするの？」",
+          "target": "「아빠, 어떡할 거야?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "밝은 어린이 반말; 어려운 어휘를 흉내 내는 특징 유지",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0576",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006270",
+          "source": "「え、な、何が？」",
+          "target": "「응? 뭐, 뭐가?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "아이를 다정하게 대하는 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0577",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006285",
+          "source": "「だから、牛乳だよぉ」",
+          "target": "「그러니까, 우유 말이야아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "밝은 어린이 반말; 어려운 어휘를 흉내 내는 특징 유지",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0578",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006292",
+          "source": "「あぁ、そっか。牛乳がないんだったね」",
+          "target": "「아, 맞다. 우유가 없었지」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "아이를 다정하게 대하는 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0579",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006297",
+          "source": "もみじの声で我に返る僕。",
+          "target": "모미지의 목소리에 정신이 든다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0580",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006302",
+          "source": "結局昨夜のことはよくわからなかった。",
+          "target": "결국 어젯밤 일은 잘 모르겠다."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006306",
+          "source": "もしかしたら全部、僕の夢だったのかもしれない。",
+          "target": "어쩌면 전부 꿈이었을지도 모른다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0581",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006311",
+          "source": "でも今はとりあえず後回しにしよう。",
+          "target": "하지만 지금은 일단 나중으로 미루자."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006315",
+          "source": "今日からもみじも僕も、新しい学校なんだから。",
+          "target": "오늘부터 모미지도 나도 새 학교에 가니까."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0582",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006322",
+          "source": "「しょうがない。今朝はパンとお茶で我慢するか」",
+          "target": "「어쩔 수 없지. 오늘 아침은 빵이랑 차로 참을까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "아이를 다정하게 대하는 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0583",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006337",
+          "source": "「えーっ、そんなのジャドーだよぉ」",
+          "target": "「에엥, 그건 사도잖아아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "밝은 어린이 반말; 어려운 어휘를 흉내 내는 특징 유지",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0584",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006344",
+          "source": "「しかたないだろ。他に飲み物もないし」",
+          "target": "「어쩔 수 없잖아. 다른 마실 것도 없고」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "아이를 다정하게 대하는 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0585",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006359",
+          "source": "「そんな食べ方だとパンが泣いちゃう」",
+          "target": "「그렇게 먹으면 빵이 울어 버려」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "밝은 어린이 반말; 어려운 어휘를 흉내 내는 특징 유지",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0586",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006366",
+          "source": "「泣かないよ。それにパンはパンでも、",
+          "target": "「안 울어. 그리고 빵도 빵 나름이지."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006370",
+          "source": "　今朝のパンはアンパンだから」",
+          "target": "　오늘 아침은 단팥빵이니까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "아이를 다정하게 대하는 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0587",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006385",
+          "source": "「うぅ～、すごくビミョ～かもぉ」",
+          "target": "「우우~ 너무 미묘한 거 같아아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "밝은 어린이 반말; 어려운 어휘를 흉내 내는 특징 유지",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0588",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006392",
+          "source": "「というかもみじ…邪道とか微妙とか、",
+          "target": "「그보다 모미지… 사도니 미묘하다느니,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006396",
+          "source": "　そういう言葉をどこで覚えてくるんだ？」",
+          "target": "　그런 말은 어디서 배우는 거니?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "아이를 다정하게 대하는 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0589",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006406",
+          "source": "などと戯れつつ、",
+          "target": "그런 농담을 주고받으며"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006410",
+          "source": "僕はもみじと一緒に朝食の準備を始めた。",
+          "target": "나는 모미지와 함께 아침 식사 준비를 시작했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0590",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006415",
+          "source": "…昨夜の出来事を、ひとまず胸のうちに仕舞いながら。",
+          "target": "…어젯밤 일은 잠시 가슴속에 묻어 두고."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노 게이고와 어린 딸 모미지; 아내 紅葉도 같은 독음 모미지이나 별도 인물",
+        "story_phase": "공통 초반: 이사 다음 날 아침, 마키노 시점으로 되돌아감",
+        "voice": "담백하고 다정한 아버지의 1인칭",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "邪道 / ジャドー",
+      "target": "사도",
+      "evidence": [
+        "00_レコンキスタ_start_2.mjo::u0583",
+        "00_レコンキスタ_start_2.mjo::u0588"
+      ],
+      "reason": "아이의 의외로 어려운 어휘를 아버지가 다시 지적하는 구조. 단순 싫다는 뜻으로 풀지 않고 반복 어휘 보존."
+    }
+  ],
+  "inline_records": [
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0510",
+      "id": "00_レコンキスタ_start_2.mjo::005590",
+      "source": "よそさま",
+      "target": " ",
+      "consumer": "yazlib $3198fd01 (ruby reading, body)",
+      "evidence": "research/disassembly/00_レコンキスタ_start_2.mjo.mjil: instructions 5590,5591 ldstr reading/body before callp $3198fd01 (2); text before and after composes 남의 남편은 건드리지 마라"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0510",
+      "id": "00_レコンキスタ_start_2.mjo::005591",
+      "source": "他所様",
+      "target": "남의",
+      "consumer": "yazlib $3198fd01 (ruby reading, body)",
+      "evidence": "research/disassembly/00_レコンキスタ_start_2.mjo.mjil: instructions 5590,5591 ldstr reading/body before callp $3198fd01 (2); text before and after composes 남의 남편은 건드리지 마라"
+    }
+  ],
+  "review_notes": [
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0510",
+      "note": "ruby 앞 원문 text U+3000을 바이트 동일하게 보존; 읽기 루비 공백/본문 남의/뒤 필드 남편을 이어 완성한다."
+    },
+    {
+      "scope": [
+        "u0503",
+        "u0519"
+      ],
+      "note": "조정자 의미 검토 반영: 奇特의 이례성/별남과 마호코의 만류 의도 명확화."
+    }
+  ],
+  "display_literal_audit": [
+    {
+      "id": "00_レコンキスタ_start_2.mjo::005907",
+      "source": "６：５９",
+      "disposition": "unchanged_numeric_candidate_consumer_pending",
+      "evidence": "callp $c520320e (3) with 2,0 follows; no Korean semantic change required; exact display consumer not yet proven"
+    }
+  ]
+}

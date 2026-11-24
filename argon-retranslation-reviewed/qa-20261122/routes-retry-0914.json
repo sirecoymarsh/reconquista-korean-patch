@@ -1,0 +1,227 @@
+{
+ "mode": "routes",
+ "started": "2026-11-22 09:08:29",
+ "nv_before": 1133,
+ "runs": [
+  {
+   "label": "routes-38758-re",
+   "pid": 58416,
+   "steps": [
+    {
+     "step": "route 38758",
+     "t": 380.7,
+     "order": 37758,
+     "chapter": "?",
+     "ending": true,
+     "arrive_s": 68.6,
+     "items": 1,
+     "timeline": [
+      [
+       31,
+       19,
+       1499,
+       "ev509b.rct",
+       51
+      ],
+      [
+       61,
+       38,
+       1771,
+       "white.rct",
+       151
+      ],
+      [
+       90,
+       56,
+       1445,
+       "ev510_01.rct",
+       251
+      ],
+      [
+       121,
+       75,
+       1553,
+       "ev501.rct",
+       301
+      ],
+      [
+       150,
+       93,
+       1203,
+       "staffrollb_011.rct",
+       301
+      ],
+      [
+       181,
+       112,
+       627,
+       "staffrollb_011.rct",
+       301
+      ],
+      [
+       210,
+       130,
+       479,
+       "staffrollb_011.rct",
+       301
+      ],
+      [
+       241,
+       149,
+       477,
+       "staffrollb_011.rct",
+       301
+      ],
+      [
+       271,
+       167,
+       552,
+       "ev5043b.rct",
+       301
+      ]
+     ],
+     "title_after_clicks": 177,
+     "presents_after_arrival": 10255,
+     "clicks": 177,
+     "ok": true,
+     "mem_mb": 1138
+    }
+   ],
+   "dialogs": [],
+   "mem_mb_start": 958,
+   "routes": [
+    {
+     "i": 38758,
+     "order": 37758,
+     "chapter": "?",
+     "ending": true,
+     "arrive_s": 68.6,
+     "items": 1,
+     "timeline": [
+      [
+       31,
+       19,
+       1499,
+       "ev509b.rct",
+       51
+      ],
+      [
+       61,
+       38,
+       1771,
+       "white.rct",
+       151
+      ],
+      [
+       90,
+       56,
+       1445,
+       "ev510_01.rct",
+       251
+      ],
+      [
+       121,
+       75,
+       1553,
+       "ev501.rct",
+       301
+      ],
+      [
+       150,
+       93,
+       1203,
+       "staffrollb_011.rct",
+       301
+      ],
+      [
+       181,
+       112,
+       627,
+       "staffrollb_011.rct",
+       301
+      ],
+      [
+       210,
+       130,
+       479,
+       "staffrollb_011.rct",
+       301
+      ],
+      [
+       241,
+       149,
+       477,
+       "staffrollb_011.rct",
+       301
+      ],
+      [
+       271,
+       167,
+       552,
+       "ev5043b.rct",
+       301
+      ]
+     ],
+     "title_after_clicks": 177,
+     "presents_after_arrival": 10255,
+     "clicks": 177,
+     "ok": true,
+     "mem_mb": 1138
+    }
+   ],
+   "new_review_folders": [
+    "savedata-review-58416-263409843"
+   ],
+   "mem_mb_end": 1138,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.9461,
+    "loud_spans": [
+     [
+      94.55,
+      97.65
+     ],
+     [
+      113.37,
+      115.03
+     ],
+     [
+      156.38,
+      158.99
+     ],
+     [
+      163.18,
+      165.55
+     ],
+     [
+      191.14,
+      195.47
+     ],
+     [
+      220.31,
+      226.49
+     ],
+     [
+      335.67,
+      359.46
+     ],
+     [
+      363.65,
+      368.17
+     ],
+     [
+      374.36,
+      374.75
+     ]
+    ],
+    "errors": []
+   },
+   "log_mb": 6.0,
+   "log_errors": []
+  }
+ ],
+ "nv_after": 1133,
+ "ended": "2026-11-22 09:14:52"
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "key": "eulyoo",
+    "family": "Eulyoo1945 SemiBold",
+    "file": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\typography\\fonts\\Eulyoo1945-SemiBold.otf",
+    "lyric_nominal_fs": 30,
+    "credit_scale": 1.25,
+    "missing_codepoints": [
+      "沢",
+      "青"
+    ],
+    "fontselect": [
+      "[Parsed_ass_0 @ 000001ca3f914d00] fontselect: (Eulyoo1945 SemiBold, 400, 0) -> Eulyoo1945-SemiBold, 0, Eulyoo1945-SemiBold",
+      "[Parsed_ass_0 @ 000001ca3f914d00] fontselect: (Eulyoo1945 SemiBold, 400, 0) -> MicrosoftJhengHeiUIRegular, 1, MicrosoftJhengHeiUIRegular",
+      "[Parsed_ass_0 @ 0000022b58dc4d00] fontselect: (Eulyoo1945 SemiBold, 400, 0) -> Eulyoo1945-SemiBold, 0, Eulyoo1945-SemiBold"
+    ]
+  },
+  {
+    "key": "maru",
+    "family": "MaruBuri SemiBold",
+    "file": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\typography\\fonts\\MaruBuri-SemiBold.ttf",
+    "lyric_nominal_fs": 30,
+    "credit_scale": 1.25,
+    "missing_codepoints": [
+      "い",
+      "か",
+      "き",
+      "ぞ",
+      "づ",
+      "の",
+      "ま",
+      "み",
+      "ゆ",
+      "り",
+      "カ",
+      "ヒ",
+      "ル",
+      "一",
+      "上",
+      "乃",
+      "介",
+      "加",
+      "北",
+      "南",
+      "原",
+      "哉",
+      "大",
+      "如",
+      "子",
+      "富",
+      "山",
+      "康",
+      "月",
+      "朋",
+      "望",
+      "松",
+      "森",
+      "沙",
+      "沢",
+      "海",
+      "理",
+      "琢",
+      "田",
+      "社",
+      "神",
+      "範",
+      "納",
+      "羽",
+      "色",
+      "芝",
+      "菊",
+      "葵",
+      "蘭",
+      "都",
+      "青",
+      "飛"
+    ],
+    "fontselect": [
+      "[Parsed_ass_0 @ 0000022efaed3ec0] fontselect: (MaruBuri SemiBold, 400, 0) -> MaruBuri-SemiBold, 0, MaruBuri-SemiBold",
+      "[Parsed_ass_0 @ 00000265a6c7ecc0] fontselect: (MaruBuri SemiBold, 400, 0) -> MalgunGothic, 0, MalgunGothic",
+      "[Parsed_ass_0 @ 00000265a6c7ecc0] fontselect: (MaruBuri SemiBold, 400, 0) -> MaruBuri-SemiBold, 0, MaruBuri-SemiBold",
+      "[Parsed_ass_0 @ 00000265a6c7ecc0] fontselect: (MaruBuri SemiBold, 400, 0) -> MicrosoftJhengHeiUIRegular, 1, MicrosoftJhengHeiUIRegular"
+    ]
+  },
+  {
+    "key": "noto",
+    "family": "Reconquista Noto Serif Review",
+    "file": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\typography\\fonts\\NotoSerifKR-SemiBold.ttf",
+    "lyric_nominal_fs": 34,
+    "credit_scale": 1.45,
+    "missing_codepoints": [],
+    "fontselect": [
+      "[Parsed_ass_0 @ 000001f31e523c40] fontselect: (Reconquista Noto Serif Review, 400, 0) -> ReconquistaNotoSerifReview, 0, ReconquistaNotoSerifReview",
+      "[Parsed_ass_0 @ 00000205defb8cc0] fontselect: (Reconquista Noto Serif Review, 400, 0) -> ReconquistaNotoSerifReview, 0, ReconquistaNotoSerifReview"
+    ]
+  }
+]

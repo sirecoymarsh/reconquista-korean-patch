@@ -1,0 +1,58 @@
+{
+  "candidate": "ui-trial-v18",
+  "native_candidate": "native-ui-v5",
+  "test_processes": [
+    51364
+  ],
+  "all_test_processes_exited": true,
+  "operations": 11,
+  "focus_samples": 423,
+  "game_foreground_observations": 0,
+  "private_input_desktop_observations": 0,
+  "focus_sampler_errors": [],
+  "before_after_foreground_changes": 0,
+  "sampling_scope": "50ms samples during each command; gaps between commands not monitored",
+  "verified_normal_music_track_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11,
+    12,
+    13,
+    17,
+    18,
+    19,
+    20,
+    21,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "verified_scope": [
+    "All21 authored music buttons visible in actual normal screen; readable and inside their consumer button area.",
+    "Selected/highlight appearance observed on track26(initial screen),track3(press capture),track9 andtrack10(later captures). Labels readable."
+  ],
+  "evidence_normal": "evidence/background-runtime/bg-v18-music-normal-3743164.png",
+  "state_coverage_limit": "File tag describes requested input, not proof of corresponding hover/pressed state. Playback selection changed without matching target28 during later operations; target28 hover/pressed NOT verified. Track3 press capture proves selected appearance, not exact atlas-layer identity. Root cause of automatic track changes not established.",
+  "harness": "reports/background-runtime-v18-prepared.json",
+  "harness_limit": "Initial extra-menu background is gray because entry harness bypasses title background initialization; normal startup/unlock progression not tested.",
+  "remaining": [
+    "Music7,8,14,15,16,22,23 untranslated",
+    "All unobserved selected/hover/pressed combinations",
+    "Other UI surfaces and native-v6 errors",
+    "OP/ED and final user review"
+  ],
+  "restored_scenario_sha256": "040db0bf4ab872d47d3a6c06057a0c94f2056e8e8855fd9ae6e9d5a522913625",
+  "audio_reports": [
+    "reports/background-runtime-v18-audio.json",
+    "reports/background-runtime-v18-post-music-audio.json"
+  ],
+  "whole_UI_complete": false
+}

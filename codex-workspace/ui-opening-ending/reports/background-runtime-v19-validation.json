@@ -1,0 +1,38 @@
+{
+  "candidate": "ui-trial-v19",
+  "native_candidate": "native-ui-v5",
+  "test_processes": [
+    64080
+  ],
+  "all_test_processes_exited": true,
+  "operations": 4,
+  "focus_samples": 225,
+  "game_foreground_observations": 0,
+  "private_input_desktop_observations": 0,
+  "focus_sampler_errors": [],
+  "before_after_foreground_changes": 1,
+  "foreground_change_context": "During start, foreground changed between other processes6480 and45076 on Default; target game64080 never observed foreground. Cause of other-app change not inferred.",
+  "sampling_scope": "50ms samples during each operation only; gaps between operations not monitored.",
+  "verified_new_normal_music_track_ids": [
+    7,
+    8,
+    15,
+    16,
+    23
+  ],
+  "verified_scope": [
+    "Five new Korean titles are readable and within button crops in actual game.",
+    "Localized decorative quote and original logo displayed together; logo preserved by static byte identity."
+  ],
+  "evidence_normal": "evidence/background-runtime/bg-v19-music-4529856.png",
+  "state_coverage_limit": "Only normal appearance of the five newly authored titles observed. All three raster states passed static composite QA; selected/pressed runtime states remain pending.",
+  "harness": "reports/background-runtime-v19-prepared.json",
+  "harness_limit": "Test-only entry bypasses title dispatcher and unlock gate; first extra-menu background uninitialized gray as before. Normal startup/progression not tested.",
+  "scenario_restored": true,
+  "restored_scenario_sha256": "040db0bf4ab872d47d3a6c06057a0c94f2056e8e8855fd9ae6e9d5a522913625",
+  "reused_previous_runtime": "reports/background-runtime-v18-validation.json; other unchanged surfaces not retested",
+  "audio_reports": [
+    "reports/background-runtime-v19-audio.json",
+    "reports/background-runtime-v19-post-music-audio.json"
+  ]
+}

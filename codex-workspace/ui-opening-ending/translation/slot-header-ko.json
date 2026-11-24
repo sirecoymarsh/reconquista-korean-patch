@@ -1,0 +1,2850 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "records": [
+    {
+      "id": "fastdata.arc::sl_save_n.rct::header",
+      "source": "ゲームデータをセーブ（書き込み）します。",
+      "target": "게임 데이터를 저장합니다.",
+      "source_region": [
+        228,
+        20,
+        354,
+        34
+      ],
+      "target_slot": [
+        228,
+        20,
+        354,
+        34
+      ],
+      "source_ink_bounds": [
+        232,
+        27,
+        568,
+        48
+      ],
+      "target_ink_bounds": [
+        298,
+        28,
+        501,
+        49
+      ],
+      "font_size": 18,
+      "fill_from_source": [
+        246,
+        222,
+        199,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-1-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        50,
+        94,
+        67,
+        10
+      ],
+      "target_slot": [
+        50,
+        91,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        52,
+        95,
+        96,
+        103
+      ],
+      "target_ink_bounds": [
+        52,
+        93,
+        95,
+        105
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-1-empty",
+      "source": "-No Date-",
+      "target": "비어 있음",
+      "source_region": [
+        146,
+        135,
+        120,
+        35
+      ],
+      "target_slot": [
+        146,
+        135,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        154,
+        143,
+        240,
+        157
+      ],
+      "target_ink_bounds": [
+        163,
+        140,
+        231,
+        159
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        176,
+        123,
+        133,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-2-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        291,
+        94,
+        67,
+        10
+      ],
+      "target_slot": [
+        291,
+        91,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        298,
+        95,
+        342,
+        103
+      ],
+      "target_ink_bounds": [
+        298,
+        93,
+        341,
+        105
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-2-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        387,
+        135,
+        120,
+        35
+      ],
+      "target_slot": [
+        387,
+        135,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        395,
+        143,
+        481,
+        157
+      ],
+      "target_ink_bounds": [
+        405,
+        140,
+        473,
+        159
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        177,
+        125,
+        134,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-3-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        533,
+        94,
+        67,
+        10
+      ],
+      "target_slot": [
+        533,
+        91,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        535,
+        95,
+        579,
+        103
+      ],
+      "target_ink_bounds": [
+        536,
+        93,
+        579,
+        105
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-3-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        629,
+        135,
+        120,
+        35
+      ],
+      "target_slot": [
+        629,
+        135,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        637,
+        143,
+        723,
+        157
+      ],
+      "target_ink_bounds": [
+        647,
+        140,
+        715,
+        159
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        176,
+        123,
+        133,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-4-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        50,
+        261,
+        67,
+        10
+      ],
+      "target_slot": [
+        50,
+        258,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        52,
+        262,
+        96,
+        270
+      ],
+      "target_ink_bounds": [
+        52,
+        260,
+        95,
+        272
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-4-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        146,
+        297,
+        120,
+        35
+      ],
+      "target_slot": [
+        146,
+        297,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        154,
+        304,
+        240,
+        318
+      ],
+      "target_ink_bounds": [
+        163,
+        302,
+        231,
+        321
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        181,
+        133,
+        141,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-5-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        291,
+        261,
+        67,
+        10
+      ],
+      "target_slot": [
+        291,
+        258,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        298,
+        262,
+        342,
+        270
+      ],
+      "target_ink_bounds": [
+        298,
+        260,
+        341,
+        272
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-5-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        387,
+        297,
+        120,
+        35
+      ],
+      "target_slot": [
+        387,
+        297,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        398,
+        304,
+        477,
+        318
+      ],
+      "target_ink_bounds": [
+        404,
+        302,
+        472,
+        321
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        181,
+        133,
+        141,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-6-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        533,
+        261,
+        67,
+        10
+      ],
+      "target_slot": [
+        533,
+        258,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        535,
+        262,
+        579,
+        270
+      ],
+      "target_ink_bounds": [
+        536,
+        260,
+        579,
+        272
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-6-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        629,
+        297,
+        120,
+        35
+      ],
+      "target_slot": [
+        629,
+        297,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        640,
+        304,
+        719,
+        318
+      ],
+      "target_ink_bounds": [
+        646,
+        302,
+        714,
+        321
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        181,
+        133,
+        141,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-7-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        50,
+        423,
+        67,
+        10
+      ],
+      "target_slot": [
+        50,
+        420,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        52,
+        424,
+        96,
+        432
+      ],
+      "target_ink_bounds": [
+        52,
+        422,
+        95,
+        434
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-7-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        146,
+        459,
+        120,
+        35
+      ],
+      "target_slot": [
+        146,
+        459,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        154,
+        466,
+        240,
+        480
+      ],
+      "target_ink_bounds": [
+        163,
+        464,
+        231,
+        483
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        188,
+        142,
+        150,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-8-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        291,
+        423,
+        67,
+        10
+      ],
+      "target_slot": [
+        291,
+        420,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        298,
+        424,
+        342,
+        432
+      ],
+      "target_ink_bounds": [
+        298,
+        422,
+        341,
+        434
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-8-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        387,
+        459,
+        120,
+        35
+      ],
+      "target_slot": [
+        387,
+        459,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        395,
+        466,
+        481,
+        480
+      ],
+      "target_ink_bounds": [
+        405,
+        464,
+        473,
+        483
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        188,
+        142,
+        150,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-9-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        533,
+        423,
+        67,
+        10
+      ],
+      "target_slot": [
+        533,
+        420,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        535,
+        424,
+        579,
+        432
+      ],
+      "target_ink_bounds": [
+        536,
+        422,
+        579,
+        434
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        221,
+        200,
+        218,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-9-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        629,
+        459,
+        120,
+        35
+      ],
+      "target_slot": [
+        629,
+        459,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        636,
+        466,
+        722,
+        480
+      ],
+      "target_ink_bounds": [
+        645,
+        464,
+        713,
+        483
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        188,
+        142,
+        150,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::header",
+      "source": "ゲームデータをセーブ（書き込み）します。",
+      "target": "게임 데이터를 저장합니다.",
+      "source_region": [
+        228,
+        20,
+        354,
+        34
+      ],
+      "target_slot": [
+        228,
+        20,
+        354,
+        34
+      ],
+      "source_ink_bounds": [
+        232,
+        27,
+        568,
+        48
+      ],
+      "target_ink_bounds": [
+        298,
+        28,
+        501,
+        49
+      ],
+      "font_size": 18,
+      "fill_from_source": [
+        246,
+        222,
+        199,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-1-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        50,
+        94,
+        67,
+        10
+      ],
+      "target_slot": [
+        50,
+        91,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        52,
+        95,
+        96,
+        103
+      ],
+      "target_ink_bounds": [
+        52,
+        93,
+        95,
+        105
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-1-empty",
+      "source": "-No Date-",
+      "target": "비어 있음",
+      "source_region": [
+        146,
+        135,
+        120,
+        35
+      ],
+      "target_slot": [
+        146,
+        135,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        154,
+        143,
+        240,
+        157
+      ],
+      "target_ink_bounds": [
+        163,
+        140,
+        231,
+        159
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        138,
+        140,
+        142,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-2-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        291,
+        94,
+        67,
+        10
+      ],
+      "target_slot": [
+        291,
+        91,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        298,
+        95,
+        342,
+        103
+      ],
+      "target_ink_bounds": [
+        298,
+        93,
+        341,
+        105
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-2-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        387,
+        135,
+        120,
+        35
+      ],
+      "target_slot": [
+        387,
+        135,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        395,
+        143,
+        481,
+        157
+      ],
+      "target_ink_bounds": [
+        405,
+        140,
+        473,
+        159
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        139,
+        142,
+        143,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-3-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        533,
+        94,
+        67,
+        10
+      ],
+      "target_slot": [
+        533,
+        91,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        535,
+        95,
+        579,
+        103
+      ],
+      "target_ink_bounds": [
+        536,
+        93,
+        579,
+        105
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-3-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        629,
+        135,
+        120,
+        35
+      ],
+      "target_slot": [
+        629,
+        135,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        637,
+        143,
+        723,
+        157
+      ],
+      "target_ink_bounds": [
+        647,
+        140,
+        715,
+        159
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        138,
+        140,
+        142,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-4-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        50,
+        261,
+        67,
+        10
+      ],
+      "target_slot": [
+        50,
+        258,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        52,
+        262,
+        96,
+        270
+      ],
+      "target_ink_bounds": [
+        52,
+        260,
+        95,
+        272
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-4-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        146,
+        297,
+        120,
+        35
+      ],
+      "target_slot": [
+        146,
+        297,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        154,
+        304,
+        240,
+        318
+      ],
+      "target_ink_bounds": [
+        163,
+        302,
+        231,
+        321
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        148,
+        151,
+        153,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-5-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        291,
+        261,
+        67,
+        10
+      ],
+      "target_slot": [
+        291,
+        258,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        298,
+        262,
+        342,
+        270
+      ],
+      "target_ink_bounds": [
+        298,
+        260,
+        341,
+        272
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-5-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        387,
+        297,
+        120,
+        35
+      ],
+      "target_slot": [
+        387,
+        297,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        398,
+        304,
+        477,
+        318
+      ],
+      "target_ink_bounds": [
+        404,
+        302,
+        472,
+        321
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        148,
+        151,
+        153,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-6-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        533,
+        261,
+        67,
+        10
+      ],
+      "target_slot": [
+        533,
+        258,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        535,
+        262,
+        579,
+        270
+      ],
+      "target_ink_bounds": [
+        536,
+        260,
+        579,
+        272
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-6-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        629,
+        297,
+        120,
+        35
+      ],
+      "target_slot": [
+        629,
+        297,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        640,
+        304,
+        719,
+        318
+      ],
+      "target_ink_bounds": [
+        646,
+        302,
+        714,
+        321
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        148,
+        151,
+        153,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-7-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        50,
+        423,
+        67,
+        10
+      ],
+      "target_slot": [
+        50,
+        420,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        52,
+        424,
+        96,
+        432
+      ],
+      "target_ink_bounds": [
+        52,
+        422,
+        95,
+        434
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-7-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        146,
+        459,
+        120,
+        35
+      ],
+      "target_slot": [
+        146,
+        459,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        154,
+        466,
+        240,
+        480
+      ],
+      "target_ink_bounds": [
+        163,
+        464,
+        231,
+        483
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        159,
+        162,
+        164,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-8-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        291,
+        423,
+        67,
+        10
+      ],
+      "target_slot": [
+        291,
+        420,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        298,
+        424,
+        342,
+        432
+      ],
+      "target_ink_bounds": [
+        298,
+        422,
+        341,
+        434
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-8-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        387,
+        459,
+        120,
+        35
+      ],
+      "target_slot": [
+        387,
+        459,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        395,
+        466,
+        481,
+        480
+      ],
+      "target_ink_bounds": [
+        405,
+        464,
+        473,
+        483
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        159,
+        162,
+        164,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-9-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        533,
+        423,
+        67,
+        10
+      ],
+      "target_slot": [
+        533,
+        420,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        535,
+        424,
+        579,
+        432
+      ],
+      "target_ink_bounds": [
+        536,
+        422,
+        579,
+        434
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        198,
+        200,
+        216,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-9-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        629,
+        459,
+        120,
+        35
+      ],
+      "target_slot": [
+        629,
+        459,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        636,
+        466,
+        722,
+        480
+      ],
+      "target_ink_bounds": [
+        645,
+        464,
+        713,
+        483
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        159,
+        162,
+        164,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::header",
+      "source": "ゲームデータをロード（読み込み）します。",
+      "target": "저장한 게임 데이터를 불러옵니다.",
+      "source_region": [
+        228,
+        20,
+        354,
+        34
+      ],
+      "target_slot": [
+        228,
+        20,
+        354,
+        34
+      ],
+      "source_ink_bounds": [
+        232,
+        27,
+        565,
+        48
+      ],
+      "target_ink_bounds": [
+        270,
+        28,
+        529,
+        49
+      ],
+      "font_size": 18,
+      "fill_from_source": [
+        246,
+        222,
+        199,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-1-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        50,
+        94,
+        67,
+        10
+      ],
+      "target_slot": [
+        50,
+        91,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        52,
+        95,
+        96,
+        103
+      ],
+      "target_ink_bounds": [
+        52,
+        93,
+        95,
+        105
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-1-empty",
+      "source": "-No Date-",
+      "target": "비어 있음",
+      "source_region": [
+        146,
+        135,
+        120,
+        35
+      ],
+      "target_slot": [
+        146,
+        135,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        154,
+        143,
+        240,
+        157
+      ],
+      "target_ink_bounds": [
+        163,
+        140,
+        231,
+        159
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        133,
+        139,
+        165,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-2-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        291,
+        94,
+        67,
+        10
+      ],
+      "target_slot": [
+        291,
+        91,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        298,
+        95,
+        342,
+        103
+      ],
+      "target_ink_bounds": [
+        298,
+        93,
+        341,
+        105
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-2-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        387,
+        135,
+        120,
+        35
+      ],
+      "target_slot": [
+        387,
+        135,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        395,
+        143,
+        481,
+        157
+      ],
+      "target_ink_bounds": [
+        405,
+        140,
+        473,
+        159
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        134,
+        141,
+        166,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-3-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        533,
+        94,
+        67,
+        10
+      ],
+      "target_slot": [
+        533,
+        91,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        535,
+        95,
+        579,
+        103
+      ],
+      "target_ink_bounds": [
+        536,
+        93,
+        579,
+        105
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-3-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        629,
+        135,
+        120,
+        35
+      ],
+      "target_slot": [
+        629,
+        135,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        637,
+        143,
+        723,
+        157
+      ],
+      "target_ink_bounds": [
+        647,
+        140,
+        715,
+        159
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        133,
+        139,
+        165,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-4-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        50,
+        261,
+        67,
+        10
+      ],
+      "target_slot": [
+        50,
+        258,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        52,
+        262,
+        96,
+        270
+      ],
+      "target_ink_bounds": [
+        52,
+        260,
+        95,
+        272
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-4-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        146,
+        297,
+        120,
+        35
+      ],
+      "target_slot": [
+        146,
+        297,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        154,
+        304,
+        240,
+        318
+      ],
+      "target_ink_bounds": [
+        163,
+        302,
+        231,
+        321
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        141,
+        148,
+        172,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-5-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        291,
+        261,
+        67,
+        10
+      ],
+      "target_slot": [
+        291,
+        258,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        298,
+        262,
+        342,
+        270
+      ],
+      "target_ink_bounds": [
+        298,
+        260,
+        341,
+        272
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-5-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        387,
+        297,
+        120,
+        35
+      ],
+      "target_slot": [
+        387,
+        297,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        398,
+        304,
+        477,
+        318
+      ],
+      "target_ink_bounds": [
+        404,
+        302,
+        472,
+        321
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        141,
+        148,
+        172,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-6-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        533,
+        261,
+        67,
+        10
+      ],
+      "target_slot": [
+        533,
+        258,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        535,
+        262,
+        579,
+        270
+      ],
+      "target_ink_bounds": [
+        536,
+        260,
+        579,
+        272
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-6-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        629,
+        297,
+        120,
+        35
+      ],
+      "target_slot": [
+        629,
+        297,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        640,
+        304,
+        719,
+        318
+      ],
+      "target_ink_bounds": [
+        646,
+        302,
+        714,
+        321
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        141,
+        148,
+        172,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-7-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        50,
+        423,
+        67,
+        10
+      ],
+      "target_slot": [
+        50,
+        420,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        52,
+        424,
+        96,
+        432
+      ],
+      "target_ink_bounds": [
+        52,
+        422,
+        95,
+        434
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-7-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        146,
+        459,
+        120,
+        35
+      ],
+      "target_slot": [
+        146,
+        459,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        154,
+        466,
+        240,
+        480
+      ],
+      "target_ink_bounds": [
+        163,
+        464,
+        231,
+        483
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        149,
+        157,
+        178,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-8-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        291,
+        423,
+        67,
+        10
+      ],
+      "target_slot": [
+        291,
+        420,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        298,
+        424,
+        342,
+        432
+      ],
+      "target_ink_bounds": [
+        298,
+        422,
+        341,
+        434
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-8-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        387,
+        459,
+        120,
+        35
+      ],
+      "target_slot": [
+        387,
+        459,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        395,
+        466,
+        481,
+        480
+      ],
+      "target_ink_bounds": [
+        405,
+        464,
+        473,
+        483
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        149,
+        157,
+        178,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-9-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        533,
+        423,
+        67,
+        10
+      ],
+      "target_slot": [
+        533,
+        420,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        535,
+        424,
+        579,
+        432
+      ],
+      "target_ink_bounds": [
+        536,
+        422,
+        579,
+        434
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        203,
+        207,
+        228,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-9-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        629,
+        459,
+        120,
+        35
+      ],
+      "target_slot": [
+        629,
+        459,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        636,
+        466,
+        722,
+        480
+      ],
+      "target_ink_bounds": [
+        645,
+        464,
+        713,
+        483
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        149,
+        157,
+        178,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::header",
+      "source": "ゲームデータをロード（読み込み）します。",
+      "target": "저장한 게임 데이터를 불러옵니다.",
+      "source_region": [
+        228,
+        20,
+        354,
+        34
+      ],
+      "target_slot": [
+        228,
+        20,
+        354,
+        34
+      ],
+      "source_ink_bounds": [
+        232,
+        27,
+        565,
+        48
+      ],
+      "target_ink_bounds": [
+        270,
+        28,
+        529,
+        49
+      ],
+      "font_size": 18,
+      "fill_from_source": [
+        246,
+        222,
+        199,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-1-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        50,
+        94,
+        67,
+        10
+      ],
+      "target_slot": [
+        50,
+        91,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        52,
+        95,
+        96,
+        103
+      ],
+      "target_ink_bounds": [
+        52,
+        93,
+        95,
+        105
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-1-empty",
+      "source": "-No Date-",
+      "target": "비어 있음",
+      "source_region": [
+        146,
+        135,
+        120,
+        35
+      ],
+      "target_slot": [
+        146,
+        135,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        154,
+        143,
+        240,
+        157
+      ],
+      "target_ink_bounds": [
+        163,
+        140,
+        231,
+        159
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        138,
+        140,
+        142,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-2-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        291,
+        94,
+        67,
+        10
+      ],
+      "target_slot": [
+        291,
+        91,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        298,
+        95,
+        342,
+        103
+      ],
+      "target_ink_bounds": [
+        298,
+        93,
+        341,
+        105
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-2-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        387,
+        135,
+        120,
+        35
+      ],
+      "target_slot": [
+        387,
+        135,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        395,
+        143,
+        481,
+        157
+      ],
+      "target_ink_bounds": [
+        405,
+        140,
+        473,
+        159
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        139,
+        142,
+        143,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-3-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        533,
+        94,
+        67,
+        10
+      ],
+      "target_slot": [
+        533,
+        91,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        535,
+        95,
+        579,
+        103
+      ],
+      "target_ink_bounds": [
+        536,
+        93,
+        579,
+        105
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-3-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        629,
+        135,
+        120,
+        35
+      ],
+      "target_slot": [
+        629,
+        135,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        637,
+        143,
+        723,
+        157
+      ],
+      "target_ink_bounds": [
+        647,
+        140,
+        715,
+        159
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        138,
+        140,
+        142,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-4-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        50,
+        261,
+        67,
+        10
+      ],
+      "target_slot": [
+        50,
+        258,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        52,
+        262,
+        96,
+        270
+      ],
+      "target_ink_bounds": [
+        52,
+        260,
+        95,
+        272
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-4-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        146,
+        297,
+        120,
+        35
+      ],
+      "target_slot": [
+        146,
+        297,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        154,
+        304,
+        240,
+        318
+      ],
+      "target_ink_bounds": [
+        163,
+        302,
+        231,
+        321
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        148,
+        151,
+        153,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-5-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        291,
+        261,
+        67,
+        10
+      ],
+      "target_slot": [
+        291,
+        258,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        298,
+        262,
+        342,
+        270
+      ],
+      "target_ink_bounds": [
+        298,
+        260,
+        341,
+        272
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-5-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        387,
+        297,
+        120,
+        35
+      ],
+      "target_slot": [
+        387,
+        297,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        398,
+        304,
+        477,
+        318
+      ],
+      "target_ink_bounds": [
+        404,
+        302,
+        472,
+        321
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        148,
+        151,
+        153,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-6-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        533,
+        261,
+        67,
+        10
+      ],
+      "target_slot": [
+        533,
+        258,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        535,
+        262,
+        579,
+        270
+      ],
+      "target_ink_bounds": [
+        536,
+        260,
+        579,
+        272
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-6-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        629,
+        297,
+        120,
+        35
+      ],
+      "target_slot": [
+        629,
+        297,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        640,
+        304,
+        719,
+        318
+      ],
+      "target_ink_bounds": [
+        646,
+        302,
+        714,
+        321
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        148,
+        151,
+        153,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-7-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        50,
+        423,
+        67,
+        10
+      ],
+      "target_slot": [
+        50,
+        420,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        52,
+        424,
+        96,
+        432
+      ],
+      "target_ink_bounds": [
+        52,
+        422,
+        95,
+        434
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-7-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        146,
+        459,
+        120,
+        35
+      ],
+      "target_slot": [
+        146,
+        459,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        154,
+        466,
+        240,
+        480
+      ],
+      "target_ink_bounds": [
+        163,
+        464,
+        231,
+        483
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        159,
+        162,
+        164,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-8-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        291,
+        423,
+        67,
+        10
+      ],
+      "target_slot": [
+        291,
+        420,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        298,
+        424,
+        342,
+        432
+      ],
+      "target_ink_bounds": [
+        298,
+        422,
+        341,
+        434
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-8-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        387,
+        459,
+        120,
+        35
+      ],
+      "target_slot": [
+        387,
+        459,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        395,
+        466,
+        481,
+        480
+      ],
+      "target_ink_bounds": [
+        405,
+        464,
+        473,
+        483
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        159,
+        162,
+        164,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-9-number",
+      "source": "Save No.",
+      "target": "저장 번호",
+      "source_region": [
+        533,
+        423,
+        67,
+        10
+      ],
+      "target_slot": [
+        533,
+        420,
+        67,
+        16
+      ],
+      "source_ink_bounds": [
+        535,
+        424,
+        579,
+        432
+      ],
+      "target_ink_bounds": [
+        536,
+        422,
+        579,
+        434
+      ],
+      "font_size": 10,
+      "fill_from_source": [
+        198,
+        200,
+        216,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-9-empty",
+      "source": "-No Data-",
+      "target": "비어 있음",
+      "source_region": [
+        629,
+        459,
+        120,
+        35
+      ],
+      "target_slot": [
+        629,
+        459,
+        120,
+        35
+      ],
+      "source_ink_bounds": [
+        636,
+        466,
+        722,
+        480
+      ],
+      "target_ink_bounds": [
+        645,
+        464,
+        713,
+        483
+      ],
+      "font_size": 17,
+      "fill_from_source": [
+        159,
+        162,
+        164,
+        224
+      ]
+    },
+    {
+      "id": "fastdata.arc::config_off.rct::header",
+      "source": "プレイ環境の各種設定を行います",
+      "target": "게임 환경을 설정합니다.",
+      "source_region": [
+        228,
+        20,
+        354,
+        34
+      ],
+      "target_slot": [
+        228,
+        20,
+        354,
+        34
+      ],
+      "source_ink_bounds": [
+        263,
+        27,
+        538,
+        48
+      ],
+      "target_ink_bounds": [
+        307,
+        28,
+        493,
+        49
+      ],
+      "font_size": 18,
+      "fill_from_source": [
+        246,
+        222,
+        199,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::config_on.rct::header",
+      "source": "プレイ環境の各種設定を行います",
+      "target": "게임 환경을 설정합니다.",
+      "source_region": [
+        228,
+        20,
+        354,
+        34
+      ],
+      "target_slot": [
+        228,
+        20,
+        354,
+        34
+      ],
+      "source_ink_bounds": [
+        263,
+        27,
+        538,
+        48
+      ],
+      "target_ink_bounds": [
+        307,
+        28,
+        493,
+        49
+      ],
+      "font_size": 18,
+      "fill_from_source": [
+        246,
+        222,
+        199,
+        255
+      ]
+    },
+    {
+      "id": "fastdata.arc::config_push.rct::header",
+      "source": "プレイ環境の各種設定を行います",
+      "target": "게임 환경을 설정합니다.",
+      "source_region": [
+        228,
+        20,
+        354,
+        34
+      ],
+      "target_slot": [
+        228,
+        20,
+        354,
+        34
+      ],
+      "source_ink_bounds": [
+        263,
+        27,
+        538,
+        48
+      ],
+      "target_ink_bounds": [
+        307,
+        28,
+        493,
+        49
+      ],
+      "font_size": 18,
+      "fill_from_source": [
+        246,
+        222,
+        199,
+        255
+      ]
+    }
+  ]
+}

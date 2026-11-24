@@ -1,0 +1,70 @@
+{
+  "purpose": "Non-interactive private desktop runtime probe",
+  "source_runtime": "runtime-ui",
+  "readonly_links": [
+    {
+      "relative": "data.arc",
+      "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\data.arc",
+      "sha256_reused": "F64C1815D5BB02758E0B2FFA8DC9056FC90029868079100AD345D882157BC070",
+      "same_file_id": true
+    },
+    {
+      "relative": "data1.arc",
+      "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\data1.arc",
+      "sha256_reused": "E236B1A858E93D052ED34EBB9EACB5799303B660EFD8A9119BECB565BFDC386B",
+      "same_file_id": true
+    },
+    {
+      "relative": "data2.arc",
+      "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\data2.arc",
+      "sha256_reused": "1D5FD4AB1B9BD630068F325114CBC4152722216712FEF931298D92F958695AD0",
+      "same_file_id": true
+    },
+    {
+      "relative": "slowdata.arc",
+      "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\slowdata.arc",
+      "sha256_reused": "8F69A4F4C9005894F2801091E77B37561132B5531B35B21B4148B73B4E819038",
+      "same_file_id": true
+    },
+    {
+      "relative": "stream.arc",
+      "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\stream.arc",
+      "sha256_reused": "25620230E762DDF92AF8DC790A3CD19E5790913905E1224AE2EF527AFB1ED140",
+      "same_file_id": true
+    },
+    {
+      "relative": "voice.arc",
+      "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\voice.arc",
+      "sha256_reused": "357DC1D7DC50C241C2670C1D99642275A9536B71544FA8ED51CE3CCE420DE07B",
+      "same_file_id": true
+    },
+    {
+      "relative": "movie/Recon_OP800_H.mpg",
+      "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\movie\\Recon_OP800_H.mpg",
+      "sha256_reused": "6DA04D09FD954C67B004B6CECFE22FD89DA473CBF60FD74856D2170A1972995A",
+      "same_file_id": true
+    }
+  ],
+  "copied_files": [
+    {
+      "relative": "レコンキスタ.exe",
+      "sha256": "f67195682944663b9546665eb3b63a639ace3f910e2ebf6ffaccda001d625b50"
+    },
+    {
+      "relative": "scenario.arc",
+      "sha256": "ae140d599e9df16afd9c76edeeca3426fd1a7a54202c0d94b949c3a86b087a2e"
+    }
+  ],
+  "fastdata": {
+    "sha256": "724d54a87437cd0381492530c3b98fa85c11df5f34b84ac8129f604af1b4aa99",
+    "source_sha256": "8c371f8873ded4eb9c8a09fab641fb9cd0de633845887535c8754abb7d4dfd0f",
+    "only_entry_changed": "majiro.env",
+    "only_fields_changed": [
+      "TITLEBAR",
+      "REG_LOCAL"
+    ],
+    "display_payloads_unchanged": true
+  },
+  "game_executable": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui-bg\\レコンキスタ.exe",
+  "runtime_path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui-bg"
+}

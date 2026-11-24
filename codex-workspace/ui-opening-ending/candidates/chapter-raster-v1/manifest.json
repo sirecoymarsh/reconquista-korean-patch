@@ -1,0 +1,564 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "entries": [
+    {
+      "entry": "chapter_off_1.rct",
+      "source_sha256": "e0440ebbb68b8964bd580990cadb1c807caddd118e4d7d56f759776d3ad51f70",
+      "output_sha256": "bd5f0f042d64bc6708937ed83c205b8569ab8918eabc81b664c1715968f986fe",
+      "canvas": [
+        800,
+        600
+      ],
+      "clean_plate": "original constant-black interior slots",
+      "mask_unchanged": "chapter_off_1_.rc8",
+      "protected_pixel_diff_count": 0,
+      "persisted_decode_pass": true,
+      "metadata_preserved": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::chapter_off_1.rct::0",
+          "source": "求めよ、さらば与えられん",
+          "target": "구하라, 그리하면 받으리라",
+          "source_region": [
+            271,
+            120,
+            254,
+            43
+          ],
+          "ink_bounds": [
+            308,
+            132,
+            487,
+            150
+          ],
+          "font_size": 16
+        },
+        {
+          "id": "fastdata.arc::chapter_off_1.rct::1",
+          "source": "尋ねよ、さらば見出さん",
+          "target": "찾으라, 그리하면 찾으리라",
+          "source_region": [
+            271,
+            201,
+            254,
+            43
+          ],
+          "ink_bounds": [
+            308,
+            213,
+            487,
+            231
+          ],
+          "font_size": 16
+        },
+        {
+          "id": "fastdata.arc::chapter_off_1.rct::2",
+          "source": "門を叩け、さらば開かれん",
+          "target": "문을 두드리라, 그리하면 열리리라",
+          "source_region": [
+            271,
+            294,
+            254,
+            43
+          ],
+          "ink_bounds": [
+            284,
+            306,
+            512,
+            324
+          ],
+          "font_size": 16
+        },
+        {
+          "id": "fastdata.arc::chapter_off_1.rct::3",
+          "source": "マタイによる福音書　第7章",
+          "target": "마태복음 제7장",
+          "source_region": [
+            320,
+            383,
+            160,
+            27
+          ],
+          "ink_bounds": [
+            359,
+            390,
+            441,
+            404
+          ],
+          "font_size": 12
+        },
+        {
+          "id": "fastdata.arc::chapter_off_1.rct::4",
+          "source": "Chapter Select",
+          "target": "챕터 선택",
+          "source_region": [
+            558,
+            543,
+            171,
+            27
+          ],
+          "ink_bounds": [
+            594,
+            546,
+            685,
+            570
+          ],
+          "font_size": 23
+        },
+        {
+          "id": "fastdata.arc::chapter_off_1.rct::5",
+          "source": "AND DEATH AND THE GRAVE WERE THROWN INTO THE LAKE OF FIRE.\nTHIS IS THE SECOND DEATH—THE LAKE OF FIRE.\nAND ANYONE WHOSE NAME WAS NOT FOUND RECORDED\nIN THE BOOK OF LIFE WAS THROWN INTO THE LAKE OF FIRE.",
+          "target": "죽음과 무덤은 불못에 던져졌다.\n이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 자도\n불못에 던져졌다.",
+          "source_region": [
+            82,
+            502,
+            440,
+            70
+          ],
+          "ink_bounds": [
+            87,
+            506,
+            279,
+            571
+          ],
+          "font_size": 12
+        }
+      ],
+      "verification_reused": "Earlier successful per-entry pass wrote preview/mask/layer only after all assertions; later chapter_on delta dependency failed. Reuse these two unchanged outputs."
+    },
+    {
+      "entry": "chapter_off_2.rct",
+      "source_sha256": "cf689229aee48211a8ec953f9b226b2228080fb7b4b0aa5a89958e882019d0d7",
+      "output_sha256": "8e7fc93fdf1cf6ab4c4391c1c63d06bb7ff6439d0f1a0f606d1a68fd5826358c",
+      "canvas": [
+        800,
+        600
+      ],
+      "clean_plate": "original constant-black interior slots",
+      "mask_unchanged": "chapter_off_2_.rc8",
+      "protected_pixel_diff_count": 0,
+      "persisted_decode_pass": true,
+      "metadata_preserved": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::chapter_off_2.rct::0",
+          "source": "求めよ、さらば与えられん",
+          "target": "구하라, 그리하면 받으리라",
+          "source_region": [
+            271,
+            120,
+            254,
+            43
+          ],
+          "ink_bounds": [
+            304,
+            129,
+            491,
+            154
+          ],
+          "font_size": 16
+        },
+        {
+          "id": "fastdata.arc::chapter_off_2.rct::1",
+          "source": "尋ねよ、さらば見出さん",
+          "target": "찾으라, 그리하면 찾으리라",
+          "source_region": [
+            271,
+            201,
+            254,
+            43
+          ],
+          "ink_bounds": [
+            305,
+            210,
+            491,
+            235
+          ],
+          "font_size": 16
+        },
+        {
+          "id": "fastdata.arc::chapter_off_2.rct::2",
+          "source": "門を叩け、さらば開かれん",
+          "target": "문을 두드리라, 그리하면 열리리라",
+          "source_region": [
+            271,
+            294,
+            254,
+            43
+          ],
+          "ink_bounds": [
+            280,
+            303,
+            516,
+            328
+          ],
+          "font_size": 16
+        },
+        {
+          "id": "fastdata.arc::chapter_off_2.rct::3",
+          "source": "マタイによる福音書　第7章",
+          "target": "마태복음 제7장",
+          "source_region": [
+            320,
+            383,
+            160,
+            27
+          ],
+          "ink_bounds": [
+            359,
+            390,
+            441,
+            404
+          ],
+          "font_size": 12
+        },
+        {
+          "id": "fastdata.arc::chapter_off_2.rct::4",
+          "source": "Chapter Select",
+          "target": "챕터 선택",
+          "source_region": [
+            558,
+            543,
+            171,
+            27
+          ],
+          "ink_bounds": [
+            594,
+            546,
+            685,
+            570
+          ],
+          "font_size": 23
+        },
+        {
+          "id": "fastdata.arc::chapter_off_2.rct::5",
+          "source": "AND DEATH AND THE GRAVE WERE THROWN INTO THE LAKE OF FIRE.\nTHIS IS THE SECOND DEATH—THE LAKE OF FIRE.\nAND ANYONE WHOSE NAME WAS NOT FOUND RECORDED\nIN THE BOOK OF LIFE WAS THROWN INTO THE LAKE OF FIRE.",
+          "target": "죽음과 무덤은 불못에 던져졌다.\n이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 자도\n불못에 던져졌다.",
+          "source_region": [
+            82,
+            502,
+            440,
+            70
+          ],
+          "ink_bounds": [
+            87,
+            506,
+            279,
+            571
+          ],
+          "font_size": 12
+        }
+      ],
+      "verification_reused": "Earlier successful per-entry pass wrote preview/mask/layer only after all assertions; later chapter_on delta dependency failed. Reuse these two unchanged outputs."
+    },
+    {
+      "entry": "chapter_on.rct",
+      "source_sha256": "f85d16d2ee499e25f07afa306537fd70030d13a0251eb78e130bb5ee55c367c1",
+      "output_sha256": "b4069e0da2f9fa362aace70f4bb1897366d37a4ee3760cdd25a8cb7caa618e8f",
+      "canvas": [
+        800,
+        600
+      ],
+      "clean_plate": "original constant-black interior slots, all original text/glow removed",
+      "mask_unchanged": "chapter_on_.rc8",
+      "protected_pixel_diff_count": 0,
+      "persisted_decode_pass": true,
+      "metadata_preserved": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::chapter_on.rct::0",
+          "source": "求めよ、さらば与えられん",
+          "target": "구하라, 그리하면 받으리라",
+          "source_region": [
+            271,
+            120,
+            254,
+            43
+          ],
+          "ink_bounds": [
+            304,
+            129,
+            491,
+            154
+          ],
+          "font_size": 16
+        },
+        {
+          "id": "fastdata.arc::chapter_on.rct::1",
+          "source": "尋ねよ、さらば見出さん",
+          "target": "찾으라, 그리하면 찾으리라",
+          "source_region": [
+            271,
+            201,
+            254,
+            43
+          ],
+          "ink_bounds": [
+            305,
+            210,
+            491,
+            235
+          ],
+          "font_size": 16
+        },
+        {
+          "id": "fastdata.arc::chapter_on.rct::2",
+          "source": "門を叩け、さらば開かれん",
+          "target": "문을 두드리라, 그리하면 열리리라",
+          "source_region": [
+            271,
+            294,
+            254,
+            43
+          ],
+          "ink_bounds": [
+            280,
+            303,
+            516,
+            328
+          ],
+          "font_size": 16
+        },
+        {
+          "id": "fastdata.arc::chapter_on.rct::3",
+          "source": "マタイによる福音書　第7章",
+          "target": "마태복음 제7장",
+          "source_region": [
+            320,
+            383,
+            160,
+            27
+          ],
+          "ink_bounds": [
+            359,
+            390,
+            441,
+            404
+          ],
+          "font_size": 12
+        },
+        {
+          "id": "fastdata.arc::chapter_on.rct::4",
+          "source": "Chapter Select",
+          "target": "챕터 선택",
+          "source_region": [
+            558,
+            543,
+            171,
+            27
+          ],
+          "ink_bounds": [
+            594,
+            546,
+            685,
+            570
+          ],
+          "font_size": 23
+        },
+        {
+          "id": "fastdata.arc::chapter_on.rct::5",
+          "source": "AND DEATH AND THE GRAVE WERE THROWN INTO THE LAKE OF FIRE.\nTHIS IS THE SECOND DEATH—THE LAKE OF FIRE.\nAND ANYONE WHOSE NAME WAS NOT FOUND RECORDED\nIN THE BOOK OF LIFE WAS THROWN INTO THE LAKE OF FIRE.",
+          "target": "죽음과 무덤은 불못에 던져졌다.\n이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 자도\n불못에 던져졌다.",
+          "source_region": [
+            82,
+            502,
+            440,
+            70
+          ],
+          "ink_bounds": [
+            87,
+            506,
+            279,
+            571
+          ],
+          "font_size": 12
+        }
+      ],
+      "inherited_base_cancellation_pixels": 0
+    },
+    {
+      "entry": "chapter_push.rct",
+      "source_sha256": "cf9b26d7f5719a03523ecbf2ff526255744cbbf65aec5bac675c25b9d34d9eed",
+      "output_sha256": "aa6ce4d131afca37fbeb14df5b40b7316a12783dae4836327351101482189f9c",
+      "canvas": [
+        800,
+        600
+      ],
+      "clean_plate": "original constant-black interior slots, all original text/glow removed",
+      "mask_unchanged": "chapter_push_.rc8",
+      "protected_pixel_diff_count": 0,
+      "persisted_decode_pass": true,
+      "metadata_preserved": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::chapter_push.rct::0",
+          "source": "求めよ、さらば与えられん",
+          "target": "구하라, 그리하면 받으리라",
+          "source_region": [
+            271,
+            120,
+            254,
+            43
+          ],
+          "ink_bounds": [
+            304,
+            129,
+            491,
+            154
+          ],
+          "font_size": 16
+        },
+        {
+          "id": "fastdata.arc::chapter_push.rct::1",
+          "source": "尋ねよ、さらば見出さん",
+          "target": "찾으라, 그리하면 찾으리라",
+          "source_region": [
+            271,
+            201,
+            254,
+            43
+          ],
+          "ink_bounds": [
+            305,
+            210,
+            491,
+            235
+          ],
+          "font_size": 16
+        },
+        {
+          "id": "fastdata.arc::chapter_push.rct::2",
+          "source": "門を叩け、さらば開かれん",
+          "target": "문을 두드리라, 그리하면 열리리라",
+          "source_region": [
+            271,
+            294,
+            254,
+            43
+          ],
+          "ink_bounds": [
+            280,
+            303,
+            516,
+            328
+          ],
+          "font_size": 16
+        },
+        {
+          "id": "fastdata.arc::chapter_push.rct::3",
+          "source": "マタイによる福音書　第7章",
+          "target": "마태복음 제7장",
+          "source_region": [
+            320,
+            383,
+            160,
+            27
+          ],
+          "ink_bounds": [
+            359,
+            390,
+            441,
+            404
+          ],
+          "font_size": 12
+        },
+        {
+          "id": "fastdata.arc::chapter_push.rct::4",
+          "source": "Chapter Select",
+          "target": "챕터 선택",
+          "source_region": [
+            558,
+            543,
+            171,
+            27
+          ],
+          "ink_bounds": [
+            594,
+            546,
+            685,
+            570
+          ],
+          "font_size": 23
+        },
+        {
+          "id": "fastdata.arc::chapter_push.rct::5",
+          "source": "AND DEATH AND THE GRAVE WERE THROWN INTO THE LAKE OF FIRE.\nTHIS IS THE SECOND DEATH—THE LAKE OF FIRE.\nAND ANYONE WHOSE NAME WAS NOT FOUND RECORDED\nIN THE BOOK OF LIFE WAS THROWN INTO THE LAKE OF FIRE.",
+          "target": "죽음과 무덤은 불못에 던져졌다.\n이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 자도\n불못에 던져졌다.",
+          "source_region": [
+            82,
+            502,
+            440,
+            70
+          ],
+          "ink_bounds": [
+            87,
+            506,
+            279,
+            571
+          ],
+          "font_size": 12
+        }
+      ],
+      "inherited_base_cancellation_pixels": 0
+    }
+  ],
+  "consumer": {
+    "file": "start.mjo",
+    "source_sha256": "377fe926323fc7fef91f85c6bf90aa70a02cd423a95975418d41622f36a5b0bd",
+    "chapter_title_sprite_x": 271,
+    "chapter_title_sprite_width": 254,
+    "chapter_select_crop": [
+      546,
+      522,
+      254,
+      78
+    ]
+  },
+  "shared_quote_font_size": 16,
+  "brand_logo_retained": true,
+  "structural_pass": true,
+  "visual_pass": false,
+  "runtime_review": "not_run_for_chapter; user_final_batch_or_future_private_desktop",
+  "target_font_glyph_coverage_pass": true,
+  "visual_review": {
+    "off_1": "earlier direct full-image review reused",
+    "off_2": "direct full-image review passed",
+    "on_push": "colored quote states reviewed directly; identical static footer/attribution/label regions reuse off_2 inspection",
+    "static_region_identity": {
+      "chapter_on.rct.png": {
+        "attribution": {
+          "equal_to_visually_reviewed_off_2": true,
+          "nonblack_pixels": 463
+        },
+        "footer": {
+          "equal_to_visually_reviewed_off_2": true,
+          "nonblack_pixels": 3236
+        },
+        "chapter_label": {
+          "equal_to_visually_reviewed_off_2": true,
+          "nonblack_pixels": 748
+        }
+      },
+      "chapter_push.rct.png": {
+        "attribution": {
+          "equal_to_visually_reviewed_off_2": true,
+          "nonblack_pixels": 463
+        },
+        "footer": {
+          "equal_to_visually_reviewed_off_2": true,
+          "nonblack_pixels": 3236
+        },
+        "chapter_label": {
+          "equal_to_visually_reviewed_off_2": true,
+          "nonblack_pixels": 748
+        }
+      }
+    }
+  },
+  "known_issue_found_by_runtime": {
+    "description": "23 original English descender pixels per state survived below the prior source mask, including 3 pixels crossing the rule. Prior visual pass missed this.",
+    "scope": "Chapter Select caption only; other verified pixels and translations reused",
+    "superseded_by": "../chapter-caption-repair-v1/manifest.json"
+  }
+}

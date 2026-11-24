@@ -1,0 +1,2466 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-3/lane-3",
+  "coordinator_thread_id": "01a16335-c355-7c83-ad79-53e1812faa34",
+  "agent_id": "01a16337-be36-71c2-8fc8-21283490b7f0",
+  "agent_task": "/root/lane_3",
+  "source_script": "sub_last01.mjo",
+  "source_sha256": "10126467f464a461838cf7a073b5eaa0a09e68a38c959b10afd5571f164b8104",
+  "source_packet_sha256": "8000389aa3b3ff7f82d4a20634b8b1bbf9994edfec238fb9efe245a57227d848",
+  "records": [
+    {
+      "unit": "sub_last01.mjo::u0001",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000033",
+          "source": "キーンコーンカーンコーン…",
+          "target": "딩동댕동…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "환경음",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "소리 효과",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0002",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000048",
+          "source": "「お父さーん」",
+          "target": "「아빠아―」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "아빠에게 친근한 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0003",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000065",
+          "source": "「お父さん、こっちこっち」",
+          "target": "「아빠, 여기 여기」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "아빠에게 친근한 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0004",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000070",
+          "source": "私を呼ぶ声がして、",
+          "target": "나를 부르는 소리에"
+        },
+        {
+          "id": "sub_last01.mjo::000074",
+          "source": "そちらを振り返ると娘の姿があった。",
+          "target": "뒤돌아보니 딸이 서 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0005",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000079",
+          "source": "見慣れない学校の中をさ迷っていた私は、",
+          "target": "낯선 학교 안을 헤매던 나는"
+        },
+        {
+          "id": "sub_last01.mjo::000083",
+          "source": "見慣れた制服姿の紅葉を目にして少しほっとする。",
+          "target": "익숙한 교복 차림의 모미지를 보고 조금 안심했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0006",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000088",
+          "source": "どうやらここが娘のクラスの教室らしい。",
+          "target": "아무래도 여기가 딸의 교실인 모양이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0007",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000095",
+          "source": "「間に合ったかい？」",
+          "target": "「늦지 않았니?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "다정한 아버지의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0008",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000109",
+          "source": "「うん、大丈夫。私たちの番までまだ少し時間はあるから」",
+          "target": "「응, 괜찮아. 우리 차례까지는 아직 조금 남았으니까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "아빠에게 친근한 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0009",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000116",
+          "source": "「そうか、良かった」",
+          "target": "「그렇구나, 다행이구나」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "다정한 아버지의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0010",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000121",
+          "source": "ほっと胸を撫で下ろす私。",
+          "target": "나는 안도의 한숨을 내쉬었다."
+        },
+        {
+          "id": "sub_last01.mjo::000125",
+          "source": "父親の遅刻で娘に恥をかかせるわけにはいかなかった。",
+          "target": "아버지가 늦어서 딸에게 창피를 줄 수는 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0011",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000135",
+          "source": "今日、私は三者面談へ出席する為に、",
+          "target": "오늘 나는 삼자 면담에 참석하려고"
+        },
+        {
+          "id": "sub_last01.mjo::000139",
+          "source": "娘の通う学校へと訪れていた。",
+          "target": "딸이 다니는 학교를 찾았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0012",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000144",
+          "source": "来年には娘の紅葉も三年生となるので、",
+          "target": "내년이면 딸 모미지도 3학년이 되니,"
+        },
+        {
+          "id": "sub_last01.mjo::000148",
+          "source": "そろそろ進路のことも考えねばならない。",
+          "target": "슬슬 진로도 생각해야 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0013",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000153",
+          "source": "紅葉はしっかりした子なのであまり心配はしていないが、",
+          "target": "모미지는 야무진 아이라 그리 걱정되지는 않지만,"
+        },
+        {
+          "id": "sub_last01.mjo::000157",
+          "source": "それでもひとり娘の行く末は気になるものだ。",
+          "target": "그래도 외동딸의 앞날은 신경이 쓰이는 법이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0014",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000168",
+          "source": "「そう言えば、",
+          "target": "「그러고 보니,"
+        },
+        {
+          "id": "sub_last01.mjo::000172",
+          "source": "　紅葉のクラスは担任の先生が代わったと言ってたね」",
+          "target": "　너희 반 담임 선생님이 바뀌었다고 했었지」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "다정한 아버지의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0015",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000186",
+          "source": "「うん、そう。前の先生が産休を取ったからって、",
+          "target": "「응, 맞아. 전 선생님이 출산 휴가를 받으셔서,"
+        },
+        {
+          "id": "sub_last01.mjo::000190",
+          "source": "　代わりに来たのが今の先生」",
+          "target": "　대신 오신 분이 지금 선생님이야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "아빠에게 친근한 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0016",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000197",
+          "source": "「そうか…どうなんだい、今度の先生は？」",
+          "target": "「그렇구나… 새로 오신 선생님은 어떠시니?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "다정한 아버지의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0017",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000211",
+          "source": "「うーんとね…ちょっと頼りないかな」",
+          "target": "「으음, 그러니까… 좀 못 미덥달까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "아빠에게 친근한 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0018",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000218",
+          "source": "「そうなのか？　それは困ったな」",
+          "target": "「그러니? 그건 곤란하구나」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "다정한 아버지의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0019",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000232",
+          "source": "「ああ、ウソウソっ。いや、ウソじゃないんだけど…",
+          "target": "「아아, 거짓말이야. 아니, 거짓말은 아니지만…"
+        },
+        {
+          "id": "sub_last01.mjo::000247",
+          "source": "　でも一生懸命な良い先生だから」",
+          "target": "　그래도 열심히 하시는 좋은 선생님이야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "아빠에게 친근한 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0020",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000252",
+          "source": "『頼りない』っていう部分は否定しないんだな…",
+          "target": "『못 미덥다』는 부분은 부정하지 않는구나…"
+        },
+        {
+          "id": "sub_last01.mjo::000256",
+          "source": "そう思って私は内心で苦笑した。",
+          "target": "그렇게 생각하며 나는 속으로 쓴웃음을 지었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0021",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000266",
+          "source": "でも紅葉の様子から察するに、悪い人物ではないようだ。",
+          "target": "하지만 모미지의 태도로 보아 나쁜 사람은 아닌 듯하다."
+        },
+        {
+          "id": "sub_last01.mjo::000270",
+          "source": "それで少しだけ緊張がほぐれる。",
+          "target": "덕분에 긴장이 조금 풀렸다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0022",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000275",
+          "source": "三者面談という学校行事は、",
+          "target": "삼자 면담이라는 학교 행사는"
+        },
+        {
+          "id": "sub_last01.mjo::000279",
+          "source": "うちのような片親の家庭にとっては気の重いイベントだった。",
+          "target": "우리처럼 부모 중 한쪽이 없는 가정에는 부담스러운 자리였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0023",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000284",
+          "source": "母親が居ないというだけで、",
+          "target": "엄마가 없다는 이유만으로"
+        },
+        {
+          "id": "sub_last01.mjo::000288",
+          "source": "娘に肩身の狭い思いはさせたくない…",
+          "target": "딸이 위축되는 일은 없었으면 한다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0024",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000293",
+          "source": "それはつまらない意地かもしれないが、",
+          "target": "그건 하찮은 고집일지 모르지만,"
+        },
+        {
+          "id": "sub_last01.mjo::000297",
+          "source": "私にとっては無視できないものだった。",
+          "target": "내게는 외면할 수 없는 문제였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0025",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000311",
+          "source": "「それよりお父さん、教会の方は大丈夫なの？」",
+          "target": "「그보다 아빠, 교회 쪽은 괜찮아?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "아빠에게 친근한 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0026",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000318",
+          "source": "「ああ、大丈夫。何とか都合がついたから」",
+          "target": "「그래, 괜찮아. 어떻게든 시간을 냈으니까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "다정한 아버지의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0027",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000332",
+          "source": "「無理しなくても良かったのに…",
+          "target": "「무리하지 않아도 됐는데…"
+        },
+        {
+          "id": "sub_last01.mjo::000336",
+          "source": "　三者面談って言ったって、まだ受験生でもないし」",
+          "target": "　삼자 면담이라고 해 봐야 아직 입시생도 아니잖아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "아빠에게 친근한 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0028",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000343",
+          "source": "「何を言ってるんだ。",
+          "target": "「무슨 소리니."
+        },
+        {
+          "id": "sub_last01.mjo::000347",
+          "source": "　お前はそんなこと気にしなくてもいいんだよ」",
+          "target": "　너는 그런 건 신경 쓰지 않아도 돼」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "다정한 아버지의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0029",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000361",
+          "source": "「うん…」",
+          "target": "「응…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "아빠에게 친근한 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0030",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000366",
+          "source": "私の言葉に、紅葉はどこか申し訳なさそうに頷いた。",
+          "target": "내 말에 모미지는 어쩐지 미안한 듯 고개를 끄덕였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0031",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000375",
+          "source": "今紅葉が言っていた通り、",
+          "target": "방금 모미지가 말했듯이,"
+        },
+        {
+          "id": "sub_last01.mjo::000379",
+          "source": "私は今も牧師として教会に務めている。",
+          "target": "나는 지금도 목사로서 교회에서 일하고 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0032",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000384",
+          "source": "だがもちろんあの村の教会ではない。",
+          "target": "물론 그 마을의 교회는 아니다."
+        },
+        {
+          "id": "sub_last01.mjo::000388",
+          "source": "あそこから遠く離れた地方都市の教会が、",
+          "target": "그곳에서 멀리 떨어진 지방 도시의 교회가"
+        },
+        {
+          "id": "sub_last01.mjo::000392",
+          "source": "今の私の配属先だった。",
+          "target": "지금 내가 배속된 곳이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0033",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000397",
+          "source": "１０年前…紅葉を連れて夜逃げ同然にあの村を出た私は、",
+          "target": "10년 전… 모미지를 데리고 야반도주하듯 그 마을을 나온 나는,"
+        },
+        {
+          "id": "sub_last01.mjo::000401",
+          "source": "責任放棄だとして教会側から厳しい叱責を受けた。",
+          "target": "책임을 저버렸다며 교회 측으로부터 호된 질책을 받았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0034",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000406",
+          "source": "反魂の法に関することを口にするわけにもいかず、",
+          "target": "반혼술에 관한 일을 입에 올릴 수도 없었기에,"
+        },
+        {
+          "id": "sub_last01.mjo::000410",
+          "source": "それを甘んじて受け入れるしかない。",
+          "target": "그저 달게 받아들일 수밖에 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0035",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000415",
+          "source": "その結果私はあの村の教会の責任者から外され、",
+          "target": "그 결과 나는 그 마을 교회의 책임자 자리에서 물러나,"
+        },
+        {
+          "id": "sub_last01.mjo::000419",
+          "source": "今住んでいるこの土地の教会に配属されられた。",
+          "target": "지금 사는 이곳의 교회로 배속되었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0036",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000424",
+          "source": "だがそれは私たちにとって好都合だった。",
+          "target": "하지만 우리에게는 오히려 잘된 일이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0037",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000429",
+          "source": "あの村から少しでも離れた場所で、",
+          "target": "그 마을에서 조금이라도 먼 곳에서,"
+        },
+        {
+          "id": "sub_last01.mjo::000433",
+          "source": "紅葉と一緒にやり直す必要があったから――",
+          "target": "모미지와 함께 다시 시작해야 했으니까――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0038",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000444",
+          "source": "「今の私はそれほど責任のある立場じゃないからね…",
+          "target": "「지금은 내가 그리 책임이 무거운 자리도 아니니…"
+        },
+        {
+          "id": "sub_last01.mjo::000448",
+          "source": "　ひとり娘のために時間を作るなんてわけないよ」",
+          "target": "　외동딸을 위해 시간 내는 것쯤이야 어렵지 않지」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "다정한 아버지의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0039",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000462",
+          "source": "「お父さん…そういう言い方は、しないで欲しい」",
+          "target": "「아빠… 그런 말은 안 했으면 좋겠어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "아빠에게 친근한 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0040",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000469",
+          "source": "「…そうか。すまない」",
+          "target": "「…그렇구나. 미안하구나」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "다정한 아버지의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0041",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000483",
+          "source": "「あっ…ううん、私の方こそごめんなさい」",
+          "target": "「아… 아니야, 내가 미안해」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "아빠에게 친근한 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0042",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000490",
+          "source": "「いや、いいんだ」",
+          "target": "「아니, 괜찮다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "다정한 아버지의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0043",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000504",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "아빠에게 친근한 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0044",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000511",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "다정한 아버지의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0045",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000521",
+          "source": "私たち親子の間に、少し気まずい沈黙が流れた。",
+          "target": "우리 부녀 사이에 조금 어색한 침묵이 흘렀다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0046",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000526",
+          "source": "最近は特にこういうことが多い。",
+          "target": "요즘 들어 특히 이런 일이 많다."
+        },
+        {
+          "id": "sub_last01.mjo::000530",
+          "source": "決して仲が悪いわけではないのに、気持ちがすれ違う。",
+          "target": "결코 사이가 나쁜 것도 아닌데 마음이 엇갈린다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0047",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000535",
+          "source": "それは娘が思春期という難しい年頃になったから…",
+          "target": "그건 딸이 사춘기라는 어려운 나이가 되었기 때문…"
+        },
+        {
+          "id": "sub_last01.mjo::000539",
+          "source": "というだけではないだろう。",
+          "target": "만은 아닐 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0048",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000544",
+          "source": "成長するにつれ、暮葉とそっくりになっていく紅葉の姿に、",
+          "target": "자라면서 쿠레하를 점점 더 닮아 가는 모미지를 보면,"
+        },
+        {
+          "id": "sub_last01.mjo::000548",
+          "source": "私は１０年前のことを思い出さずにはいられなかった。",
+          "target": "나는 10년 전 일을 떠올리지 않을 수 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0049",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000556",
+          "source": "ガラガラガラ",
+          "target": "드르륵"
+        }
+      ],
+      "context": {
+        "speaker_identity": "환경음",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "소리 효과",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0050",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000566",
+          "source": "「上条さーん、次はあなた達の番だよ」",
+          "target": "「가미조―, 다음은 너희 차례야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "동급생",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "친근한 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0051",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000580",
+          "source": "「あ、うん。ありがとう」",
+          "target": "「아, 응. 고마워」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "동급생"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "친근한 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0052",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000585",
+          "source": "教室の引き戸が開いて、",
+          "target": "교실의 미닫이문이 열리고,"
+        },
+        {
+          "id": "sub_last01.mjo::000589",
+          "source": "クラスメートらしき女生徒が私たちに呼びかける。",
+          "target": "같은 반으로 보이는 여학생이 우리를 불렀다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0053",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000594",
+          "source": "いよいよ出番が回ってきたようで、",
+          "target": "드디어 우리 차례가 온 모양이라,"
+        },
+        {
+          "id": "sub_last01.mjo::000598",
+          "source": "私は頭を切り替えることにした。",
+          "target": "나는 생각을 털어 내기로 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0054",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000603",
+          "source": "担任の先生を前にして、",
+          "target": "담임 선생님 앞에서까지"
+        },
+        {
+          "id": "sub_last01.mjo::000607",
+          "source": "今のような気まずい雰囲気になるわけにはいかない…",
+          "target": "지금처럼 어색한 분위기를 만들 수는 없다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0055",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000614",
+          "source": "「それじゃあ、入ろうか」",
+          "target": "「그럼 들어갈까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "다정한 아버지의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0056",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000628",
+          "source": "「うん」",
+          "target": "「응」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "아빠에게 친근한 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0057",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000638",
+          "source": "紅葉は頷いて、",
+          "target": "모미지는 고개를 끄덕이고,"
+        },
+        {
+          "id": "sub_last01.mjo::000642",
+          "source": "私を先導するように教室へと足を踏み入れた。",
+          "target": "나를 이끌듯 교실로 들어섰다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0058",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000655",
+          "source": "ガラガラガラ",
+          "target": "드르륵"
+        }
+      ],
+      "context": {
+        "speaker_identity": "환경음",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "소리 효과",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0059",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000665",
+          "source": "「失礼します」",
+          "target": "「실례합니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "선생님에게 친근한 존댓말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0060",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000672",
+          "source": "「失礼します…」",
+          "target": "「실례합니다…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "처음 만난 교사에게 예의 있는 존댓말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0061",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000677",
+          "source": "中に入ると、教室はガラリと人気がなかった。",
+          "target": "안으로 들어가니 교실은 텅 비어 있었다."
+        },
+        {
+          "id": "sub_last01.mjo::000681",
+          "source": "無人の机が整然と列を成している。",
+          "target": "빈 책상들이 가지런히 줄지어 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0062",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000686",
+          "source": "その中で唯一教壇の前には、",
+          "target": "그중 교단 앞에만"
+        },
+        {
+          "id": "sub_last01.mjo::000690",
+          "source": "向かい合わせに並べられた席が置かれていた。",
+          "target": "서로 마주 보도록 좌석이 마련되어 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0063",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000695",
+          "source": "三者面談の為、当事者達しか居ない閑散とした教室。",
+          "target": "삼자 면담을 위해 당사자들만 남은 한산한 교실."
+        },
+        {
+          "id": "sub_last01.mjo::000699",
+          "source": "そこに居るのは生徒と保護者、そして教師の三者…",
+          "target": "그곳에 있는 건 학생과 보호자, 그리고 교사 세 사람…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0064",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000710",
+          "source": "「上条さんのお父さんですか？」",
+          "target": "「가미조 학생 아버님이신가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "학부모에게 긴장한 존댓말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0065",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000717",
+          "source": "「あ、はい。そうです」",
+          "target": "「아, 네. 그렇습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "처음 만난 교사에게 예의 있는 존댓말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0066",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000728",
+          "source": "「初めまして、担任の槙野と申します」",
+          "target": "「처음 뵙겠습니다. 담임을 맡은 마키노라고 합니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "학부모에게 긴장한 존댓말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0067",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000733",
+          "source": "それが、紅葉の新しい担任の先生との…",
+          "target": "그것이 모미지의 새 담임 선생님…"
+        },
+        {
+          "id": "sub_last01.mjo::000738",
+          "source": "慶吾君との初めての出会いだった。",
+          "target": "게이고 군과의 첫 만남이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0068",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000743",
+          "source": "私の彼に対する第一印象を述べるなら、",
+          "target": "그에 대한 내 첫인상을 말하자면,"
+        },
+        {
+          "id": "sub_last01.mjo::000747",
+          "source": "紅葉の言った通り『ちょっと頼りなさそう』になるだろう。",
+          "target": "모미지 말대로 『조금 못 미더워 보인다』였으리라."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0069",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000752",
+          "source": "齢もまだ若く見え、まさに新米教師といった感じがする。",
+          "target": "나이도 아직 젊어 보여, 그야말로 신참 교사라는 느낌이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0070",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000757",
+          "source": "しかし同時に人当たりの良い、",
+          "target": "하지만 동시에 사람을 편하게 해 주는,"
+        },
+        {
+          "id": "sub_last01.mjo::000761",
+          "source": "優しそうな雰囲気を醸し出していた。",
+          "target": "상냥한 분위기가 풍겼다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0071",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000768",
+          "source": "「どうも、初めまして。",
+          "target": "「네, 처음 뵙겠습니다."
+        },
+        {
+          "id": "sub_last01.mjo::000772",
+          "source": "　上条紅葉の父親の、上条裕輔といいます」",
+          "target": "　가미조 모미지의 아버지, 가미조 유스케라고 합니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "처음 만난 교사에게 예의 있는 존댓말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0072",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000783",
+          "source": "「今日はお忙しいところを",
+          "target": "「오늘 바쁘신 와중에도"
+        },
+        {
+          "id": "sub_last01.mjo::000787",
+          "source": "　お越しくださってありがとうございました」",
+          "target": "　찾아와 주셔서 감사합니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "학부모에게 긴장한 존댓말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0073",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000794",
+          "source": "「いえ、こちらこそ娘がいつもお世話になっております」",
+          "target": "「아닙니다. 늘 딸을 보살펴 주셔서 제가 감사하지요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "처음 만난 교사에게 예의 있는 존댓말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0074",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000805",
+          "source": "「いえいえ、とんでもない。",
+          "target": "「아뇨, 천만에요."
+        },
+        {
+          "id": "sub_last01.mjo::000809",
+          "source": "　むしろ世話になっているのはこっちの方で…」",
+          "target": "　오히려 보살핌을 받는 건 제 쪽이라서…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "학부모에게 긴장한 존댓말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0075",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000816",
+          "source": "「はい？」",
+          "target": "「네?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "처음 만난 교사에게 예의 있는 존댓말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0076",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000827",
+          "source": "「あ、いや…何でもありません、何でも」",
+          "target": "「아, 아니… 아무것도 아닙니다. 아무것도요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "학부모에게 긴장한 존댓말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0077",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000832",
+          "source": "私が思わず疑問符を投げかけると、",
+          "target": "내가 무심코 되묻자,"
+        },
+        {
+          "id": "sub_last01.mjo::000836",
+          "source": "槙野先生は慌てた様子で首を横に振った。",
+          "target": "마키노 선생은 당황한 듯 고개를 저었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0078",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000841",
+          "source": "教師が生徒にお世話になるというのもおかしな話だが…",
+          "target": "교사가 학생의 보살핌을 받는다는 것도 이상한 말인데…"
+        },
+        {
+          "id": "sub_last01.mjo::000845",
+          "source": "それはどういう意味なのだろう？",
+          "target": "그건 무슨 뜻일까?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0079",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000860",
+          "source": "「…うふふっ。くすくす…」",
+          "target": "「…우후훗. 후후…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "선생님에게 친근한 존댓말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0080",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000867",
+          "source": "「紅葉？　どうしたんだ、急に」",
+          "target": "「모미지? 갑자기 왜 그러니?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "다정한 아버지의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0081",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000874",
+          "source": "「こら、上条っ。そこで笑うか？」",
+          "target": "「얘, 가미조. 여기서 웃으면 어떡해?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "학생에게 친근한 교사의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0082",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000888",
+          "source": "「うふふ、あははは…",
+          "target": "「우후후, 아하하하…"
+        },
+        {
+          "id": "sub_last01.mjo::000892",
+          "source": "　だって槙野先生ったら、おかしいんだもの」",
+          "target": "　마키노 선생님이 너무 웃기잖아요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "선생님에게 친근한 존댓말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0083",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000899",
+          "source": "「だから笑うなって。先生だって緊張してるんだから」",
+          "target": "「그러니까 웃지 말라니까. 선생님도 긴장하고 있단 말이야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "학생에게 친근한 교사의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0084",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000913",
+          "source": "「ご、ごめんなさい。どうしても我慢できなくて…」",
+          "target": "「죄, 죄송해요. 아무래도 못 참겠어서…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "선생님에게 친근한 존댓말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0085",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000918",
+          "source": "そう言いながら、",
+          "target": "그렇게 말하면서도,"
+        },
+        {
+          "id": "sub_last01.mjo::000922",
+          "source": "紅葉はまだ笑いをこらえ切れないようだった。",
+          "target": "모미지는 여전히 웃음을 참지 못하는 듯했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0086",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000932",
+          "source": "そして私はそんな娘の様子に、",
+          "target": "그리고 그런 딸의 모습에,"
+        },
+        {
+          "id": "sub_last01.mjo::000936",
+          "source": "少なからずショックを受けていた。",
+          "target": "나는 적잖은 충격을 받았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0087",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000941",
+          "source": "何故なら紅葉がこんなにも無邪気に笑う姿を見るのは、",
+          "target": "모미지가 이토록 천진하게 웃는 모습을 보는 건,"
+        },
+        {
+          "id": "sub_last01.mjo::000945",
+          "source": "私にとって随分と久しいことだったから。",
+          "target": "내게는 참으로 오랜만이었기 때문이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0088",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000950",
+          "source": "暮葉が死んで、紅葉と二人であの村を出たあの日以来…",
+          "target": "쿠레하가 죽고, 모미지와 둘이서 그 마을을 떠난 날 이후…"
+        },
+        {
+          "id": "sub_last01.mjo::000954",
+          "source": "この子の笑顔にはどこか陰りがあった気がする。",
+          "target": "이 아이의 웃음에는 어딘지 그늘이 있었던 것 같다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0089",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000959",
+          "source": "普段は明るく振舞っていても、",
+          "target": "평소에는 밝게 행동해도,"
+        },
+        {
+          "id": "sub_last01.mjo::000963",
+          "source": "心のどこかで一歩引いているような素振りを感じていた。",
+          "target": "마음 한구석에서는 한발 물러서 있는 듯한 느낌이 들었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0090",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000968",
+          "source": "しかし今目の当たりにした紅葉の表情は、",
+          "target": "하지만 지금 눈앞에 있는 모미지의 표정은,"
+        },
+        {
+          "id": "sub_last01.mjo::000972",
+          "source": "掛け値なしに心からの笑顔のように思える。",
+          "target": "더할 나위 없이 진심 어린 웃음으로 보였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0091",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000983",
+          "source": "「全くもう、勘弁してくれ…",
+          "target": "「정말이지, 좀 봐줘라…"
+        },
+        {
+          "id": "sub_last01.mjo::000987",
+          "source": "　これじゃ最初からいきなり台無しじゃないか」",
+          "target": "　이래서야 시작부터 다 망쳤잖아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "학생에게 친근한 교사의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0092",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::000997",
+          "source": "「大丈夫ですよ、先生。お父さんにはちゃんと、",
+          "target": "「괜찮아요, 선생님. 아빠한테는 미리"
+        },
+        {
+          "id": "sub_last01.mjo::001001",
+          "source": "　先生のこと頼りない感じって説明してますから」",
+          "target": "　선생님이 좀 못 미더운 느낌이라고 말씀드렸거든요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "선생님에게 친근한 존댓말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0093",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::001012",
+          "source": "「それは全然大丈夫じゃないっ」",
+          "target": "「그건 하나도 안 괜찮잖아!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지(紅葉)"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "학생에게 친근한 교사의 반말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0094",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::001022",
+          "source": "「そんなに肩肘張らなくてもいいのに。",
+          "target": "「그렇게 힘주고 계시지 않아도 되는데."
+        },
+        {
+          "id": "sub_last01.mjo::001026",
+          "source": "　ね、お父さん？」",
+          "target": "　그렇지, 아빠?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지(紅葉)",
+        "addressees": [
+          "마키노 게이고",
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "선생님을 향한 문장 뒤 아빠에게 반말로 확인",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0095",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::001033",
+          "source": "「あ、ああ…そうだね。娘と仲良くしてくれているようで、",
+          "target": "「아, 그래… 그렇지. 딸과 잘 지내 주시는 것 같아서,"
+        },
+        {
+          "id": "sub_last01.mjo::001037",
+          "source": "　私としても安心しました」",
+          "target": "　저도 안심했습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "모미지(紅葉)",
+          "마키노 게이고"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "딸의 확인에 반말로 답한 뒤 교사에게 존댓말 전환",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0096",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::001048",
+          "source": "「す、すみません…若輩者で頼りないかもしれませんが、",
+          "target": "「죄, 죄송합니다… 아직 미숙하고 못 미더울지도 모르지만,"
+        },
+        {
+          "id": "sub_last01.mjo::001052",
+          "source": "　精一杯娘さんの担任を務めておりますので」",
+          "target": "　따님의 담임으로서 최선을 다하고 있으니…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "학부모에게 긴장한 존댓말",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0097",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::001062",
+          "source": "しどろもどろになりながらも、",
+          "target": "말을 더듬으면서도,"
+        },
+        {
+          "id": "sub_last01.mjo::001066",
+          "source": "生真面目にそう口にする槙野先生。",
+          "target": "진지하게 그렇게 말하는 마키노 선생."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0098",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::001075",
+          "source": "そしてそんな彼の姿を、",
+          "target": "그리고 그런 그의 모습을,"
+        },
+        {
+          "id": "sub_last01.mjo::001079",
+          "source": "紅葉は柔らかな表情で見つめていた。",
+          "target": "모미지는 부드러운 표정으로 바라보고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0099",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::001084",
+          "source": "その表情に私は見覚えがあった。",
+          "target": "그 표정은 낯익었다."
+        },
+        {
+          "id": "sub_last01.mjo::001089",
+          "source": "けどそれは、娘が私に一度も見せたことのない顔でもある。",
+          "target": "하지만 딸이 내게는 단 한 번도 보여 준 적 없는 얼굴이기도 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0100",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::001094",
+          "source": "そう、私にそんな表情を向けてくれたのは、",
+          "target": "그래, 내게 그런 표정을 지어 주었던 건,"
+        },
+        {
+          "id": "sub_last01.mjo::001098",
+          "source": "この子ではなくて…",
+          "target": "이 아이가 아니라…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0101",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::001103",
+          "source": "それは私と出会ったばかりの頃の、",
+          "target": "그건 나를 처음 만났을 무렵,"
+        },
+        {
+          "id": "sub_last01.mjo::001107",
+          "source": "暮葉が見せてくれた眼差しによく似ていた。",
+          "target": "쿠레하가 보여 주었던 눈빛을 꼭 닮아 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0102",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::001120",
+          "source": "それから、１年と半年後――",
+          "target": "그로부터 1년 반 뒤――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0103",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::001125",
+          "source": "紅葉の卒業が間近に迫ったある日、",
+          "target": "모미지의 졸업이 코앞으로 다가온 어느 날,"
+        },
+        {
+          "id": "sub_last01.mjo::001129",
+          "source": "突然慶吾君が私たちの家を訪れた。",
+          "target": "갑자기 게이고 군이 우리 집을 찾아왔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0104",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::001134",
+          "source": "その用件は、紅葉と結婚させて欲しいということ。",
+          "target": "용건은 모미지와 결혼하게 해 달라는 것이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0105",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::001139",
+          "source": "私はあの三者面談の時から、",
+          "target": "나는 그 삼자 면담 때부터,"
+        },
+        {
+          "id": "sub_last01.mjo::001143",
+          "source": "いつかこんな日が来るだろうと予感していた。",
+          "target": "언젠가 이런 날이 오리라고 예감하고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last01.mjo::u0106",
+      "fields": [
+        {
+          "id": "sub_last01.mjo::001148",
+          "source": "だから一抹の寂しさを覚えながらも、",
+          "target": "그래서 조금은 쓸쓸했지만,"
+        },
+        {
+          "id": "sub_last01.mjo::001152",
+          "source": "それを快く承諾したのだった…",
+          "target": "기꺼이 승낙해 주었다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케(서술)",
+        "addressees": [],
+        "relationship": "가미조 유스케→딸 모미지는 온화한 아버지의 반말. 모미지→아빠는 친근한 반말. 마키노→모미지는 교사의 반말, 모미지→마키노는 친근하되 존댓말. 학부모 가미조와 교사 마키노는 첫 대면의 존댓말.",
+        "story_phase": "부가 과거 회상: 가미조가 모미지의 삼자 면담에서 마키노를 처음 만나고, 1년 반 뒤 결혼을 허락함",
+        "voice": "차분하고 다정한 아버지의 1인칭 서술",
+        "context_evidence": "sub_last01 전체 및 sub_last00 전체, sub_last02 첫 10구간 검토. 이 장면 紅葉는 성인 시점 아내였던 과거의 모미지이며 어린 딸 もみじ와 구분."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "三者面談",
+      "target": "삼자 면담",
+      "evidence": [
+        "sub_last01.mjo::u0011",
+        "sub_last01.mjo::u0063 학생·보호자·교사 세 명"
+      ],
+      "status": "장면의 세 사람 구성 보존"
+    },
+    {
+      "source": "反魂の法",
+      "target": "반혼술",
+      "evidence": [
+        "sub_last01.mjo::u0034",
+        "sub_last02.mjo::u0001"
+      ],
+      "status": "coordinator agreed"
+    }
+  ],
+  "inline_records": [],
+  "review_notes": [
+    "inline candidate sub_last01.mjo::000244 紅葉는 callp $8e803141(1)에 전달되는 이름 토큰이다. 일반 text가 아니므로 원문 유지; name-display consumer의 중앙 검토가 필요하다.",
+    "u0094는 마키노에게 존댓말 뒤 아버지에게 반말로 전환. u0095 가미조는 아버지로서 딸의 말을 받아 교사에게 정중하게 답한다.",
+    "과거 성장·진학·교사와 졸업 무렵 결혼 서술이 있으며 성적 묘사는 없음. 대학 설정을 과거 숫자 나이로 확대하지 않음.",
+    "조정자 의미검토 피드백: u0009/0040 응답형, u0095 딸→교사 수신자 전환 수정."
+  ]
+}

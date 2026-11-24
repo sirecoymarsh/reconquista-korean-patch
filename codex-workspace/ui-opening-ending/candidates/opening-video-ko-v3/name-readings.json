@@ -1,0 +1,119 @@
+{
+  "translator_model": "Codex internal",
+  "scope": "Opening visible names only; credited aliases preserved; no performer identity substitution",
+  "records": [
+    {
+      "source": "まきいづみ",
+      "target": "마키 이즈미",
+      "reading": "まきいづみ",
+      "evidence": "source kana",
+      "translator_model": "Codex internal"
+    },
+    {
+      "source": "芝原のぞみ",
+      "target": "시바하라 노조미",
+      "reading": "しばはらのぞみ",
+      "evidence": "https://myoji.jitenon.jp/content/芝原",
+      "translator_model": "Codex internal"
+    },
+    {
+      "source": "羽沢月乃",
+      "target": "하자와 쓰키노",
+      "reading": "はざわつきの",
+      "evidence": "https://days366.com/title/31_06_01_177.html",
+      "translator_model": "Codex internal"
+    },
+    {
+      "source": "北都南",
+      "target": "호쿠토 미나미",
+      "reading": "ほくとみなみ",
+      "evidence": "https://www.animecharactersdatabase.com/characters.php?id=840",
+      "translator_model": "Codex internal"
+    },
+    {
+      "source": "青山ゆかり",
+      "target": "아오야마 유카리",
+      "reading": "あおやまゆかり",
+      "evidence": "source credit; established credited-stage-name reading",
+      "translator_model": "Codex internal"
+    },
+    {
+      "source": "如月葵",
+      "target": "기사라기 아오이",
+      "reading": "きさらぎあおい",
+      "evidence": "https://www.hermit-game.com/h02/",
+      "translator_model": "Codex internal"
+    },
+    {
+      "source": "一色ヒカル",
+      "target": "잇시키 히카루",
+      "reading": "いっしきひかる",
+      "evidence": "source credit; established credited-stage-name reading",
+      "translator_model": "Codex internal"
+    },
+    {
+      "source": "松田理沙",
+      "target": "마쓰다 리사",
+      "reading": "まつだりさ",
+      "evidence": "source credit; established credited-stage-name reading",
+      "translator_model": "Codex internal"
+    },
+    {
+      "source": "飛蘭",
+      "target": "페이란",
+      "reading": "フェイラン",
+      "evidence": "https://faylan.jp/biography.html",
+      "translator_model": "Codex internal"
+    },
+    {
+      "source": "海富一",
+      "target": "우나토미 하지메",
+      "reading": "HAJIME UNATOMI",
+      "evidence": "original OP 14s Roman credit",
+      "translator_model": "Codex internal"
+    },
+    {
+      "source": "上松範康",
+      "target": "아게마쓰 노리야스",
+      "reading": "Noriyasu Agematsu",
+      "evidence": "https://www.ariamusic.co.jp/creators/agematsu.php",
+      "translator_model": "Codex internal"
+    },
+    {
+      "source": "菊田大介",
+      "target": "기쿠타 다이스케",
+      "reading": "Daisuke Kikuta",
+      "evidence": "https://www.ariamusic.co.jp/creators/kikuta.php",
+      "translator_model": "Codex internal"
+    },
+    {
+      "source": "加納望",
+      "target": "가노 노조무",
+      "reading": "KANOW NOZOMU",
+      "evidence": "https://no3guitar.com/",
+      "translator_model": "Codex internal"
+    },
+    {
+      "source": "森琢哉",
+      "target": "모리 다쿠야",
+      "reading": "Takuya Mori",
+      "evidence": "https://www.kenichi-m.com/ghcd-3025/",
+      "translator_model": "Codex internal"
+    },
+    {
+      "source": "神月社",
+      "target": "간즈키 야시로",
+      "reading": "Kanzuki Yashiro",
+      "evidence": "https://mjuz-dept.com/web/",
+      "translator_model": "Codex internal"
+    },
+    {
+      "source": "朋子",
+      "target": "도모코",
+      "reading": "TOMOKO HATORI",
+      "evidence": "Archived official character plate chara/mahomama.jpg; Roman TOMOKO HATORI confirms reading",
+      "translator_model": "Codex internal",
+      "source_art_sha256": "a91e83cab6faa029d7a84c9b301d23c3d2f5469081adc310806a77baceb1d476"
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "entries": [
+    {
+      "entry": "cgm_off.rct",
+      "source_sha256": "31a997d21d7cb9392147db13fb6f1cfd477c3ab635f3c5e003c39cfdd5fa1cf6",
+      "prior_payload_sha256": "31a997d21d7cb9392147db13fb6f1cfd477c3ab635f3c5e003c39cfdd5fa1cf6",
+      "output_sha256": "c831a3e53e39ce2603972276586e8a02995f67f3705907b57ca9359a87c9a56f",
+      "source_region": [
+        62,
+        36,
+        114,
+        37
+      ],
+      "source_glyph_pixels": 1052,
+      "clean_donor": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\config-caption-raster-v1\\clean\\config_off.png",
+      "clean_donor_sha256": "dcc08caea52f65e38245fa9dff726119da09760f88ebc7ac4f65346cd6749120",
+      "donor_lineage": "Verified config-caption clean plate built from original choice-panel exact-phase donor; same opaque texture matches this whole caption perimeter and every nonglyph pixel",
+      "target_ink_bounds": [
+        80,
+        42,
+        158,
+        66
+      ],
+      "protected_pixel_diff_count": 0,
+      "original_mask_unchanged": true,
+      "mask_entry": null,
+      "source_alpha": 255,
+      "persisted_rgb_exact": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::cgm_off.rct::panel-title",
+          "source": "CGmode",
+          "target": "CG 감상",
+          "translator_model": "Codex internal"
+        }
+      ]
+    },
+    {
+      "entry": "cgm_on.rct",
+      "source_sha256": "ae8246807d8fe98ba110959d18071c7626d1e3c99ae8ab9b1da82ded0a16e698",
+      "prior_payload_sha256": "ae8246807d8fe98ba110959d18071c7626d1e3c99ae8ab9b1da82ded0a16e698",
+      "output_sha256": "0224f290a6c00571e74693384bb10f3ea39139e8ce05d92fdb4e0702275fd15b",
+      "source_region": [
+        62,
+        36,
+        114,
+        37
+      ],
+      "source_glyph_pixels": 1052,
+      "clean_donor": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\config-caption-raster-v1\\clean\\config_off.png",
+      "clean_donor_sha256": "dcc08caea52f65e38245fa9dff726119da09760f88ebc7ac4f65346cd6749120",
+      "donor_lineage": "Verified config-caption clean plate built from original choice-panel exact-phase donor; same opaque texture matches this whole caption perimeter and every nonglyph pixel",
+      "target_ink_bounds": [
+        80,
+        42,
+        158,
+        66
+      ],
+      "protected_pixel_diff_count": 0,
+      "original_mask_unchanged": true,
+      "mask_entry": null,
+      "source_alpha": 255,
+      "persisted_rgb_exact": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::cgm_on.rct::panel-title",
+          "source": "CGmode",
+          "target": "CG 감상",
+          "translator_model": "Codex internal"
+        }
+      ]
+    },
+    {
+      "entry": "sl_save_n.rct",
+      "source_sha256": "6f96a52b648ce266a65b40626d2da9425859b69cb8fbc4b98d503e594a837014",
+      "prior_payload_sha256": "a3f220e5ac907885db937ec5199df6af8e6603215355ecd8349c4cdc7530cdac",
+      "output_sha256": "7107093b2d1879104f42f476cccb3112f101e5c239add980961a9a644a63c820",
+      "source_region": [
+        62,
+        36,
+        114,
+        37
+      ],
+      "source_glyph_pixels": 1230,
+      "clean_donor": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\config-caption-raster-v1\\clean\\config_off.png",
+      "clean_donor_sha256": "dcc08caea52f65e38245fa9dff726119da09760f88ebc7ac4f65346cd6749120",
+      "donor_lineage": "Verified config-caption clean plate built from original choice-panel exact-phase donor; same opaque texture matches this whole caption perimeter and every nonglyph pixel",
+      "target_ink_bounds": [
+        96,
+        40,
+        142,
+        66
+      ],
+      "protected_pixel_diff_count": 0,
+      "original_mask_unchanged": true,
+      "mask_entry": "sl_save_n_.rc8",
+      "source_alpha": 255,
+      "persisted_rgb_exact": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::sl_save_n.rct::panel-title",
+          "source": "SaveData",
+          "target": "저장",
+          "translator_model": "Codex internal"
+        }
+      ]
+    },
+    {
+      "entry": "sl_save_f.rct",
+      "source_sha256": "de712b8c1d6be199a86ae2a1b2e1f3a4270b37b8ae8948ea30ade97a7367f0f0",
+      "prior_payload_sha256": "dc6d516dbded7c049c471f96bd57f757e8c36c2532777b27a3f37bbebae53f04",
+      "output_sha256": "2492380ec7ceadf1e3702102bc0089e1b53b0652ef8d7906879d32af2e771e89",
+      "source_region": [
+        62,
+        36,
+        114,
+        37
+      ],
+      "source_glyph_pixels": 1230,
+      "clean_donor": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\config-caption-raster-v1\\clean\\config_off.png",
+      "clean_donor_sha256": "dcc08caea52f65e38245fa9dff726119da09760f88ebc7ac4f65346cd6749120",
+      "donor_lineage": "Verified config-caption clean plate built from original choice-panel exact-phase donor; same opaque texture matches this whole caption perimeter and every nonglyph pixel",
+      "target_ink_bounds": [
+        96,
+        40,
+        142,
+        66
+      ],
+      "protected_pixel_diff_count": 0,
+      "original_mask_unchanged": true,
+      "mask_entry": "sl_save_f_.rc8",
+      "source_alpha": 255,
+      "persisted_rgb_exact": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::sl_save_f.rct::panel-title",
+          "source": "SaveData",
+          "target": "저장",
+          "translator_model": "Codex internal"
+        }
+      ]
+    },
+    {
+      "entry": "sl_load_n.rct",
+      "source_sha256": "0eabd58d0c79e63a42c1c2759e7b1b1d8c210848d2623bf185d933a91ef73d5b",
+      "prior_payload_sha256": "a373112e8b360f93fe0322818a42e4496241b7b550ab23e67b81debfb8528dd3",
+      "output_sha256": "659a6e5bbab94afbd6a27d4138bad7e867df561016ea9eab8a7e96502643c2a7",
+      "source_region": [
+        62,
+        36,
+        114,
+        37
+      ],
+      "source_glyph_pixels": 1253,
+      "clean_donor": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\config-caption-raster-v1\\clean\\config_off.png",
+      "clean_donor_sha256": "dcc08caea52f65e38245fa9dff726119da09760f88ebc7ac4f65346cd6749120",
+      "donor_lineage": "Verified config-caption clean plate built from original choice-panel exact-phase donor; same opaque texture matches this whole caption perimeter and every nonglyph pixel",
+      "target_ink_bounds": [
+        75,
+        41,
+        158,
+        66
+      ],
+      "protected_pixel_diff_count": 0,
+      "original_mask_unchanged": true,
+      "mask_entry": "sl_load_n_.rc8",
+      "source_alpha": 255,
+      "persisted_rgb_exact": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::sl_load_n.rct::panel-title",
+          "source": "LoadData",
+          "target": "불러오기",
+          "translator_model": "Codex internal"
+        }
+      ]
+    },
+    {
+      "entry": "sl_load_f.rct",
+      "source_sha256": "200ff4c4f0132279b163eec2d8740645776d40cc64c824410fe8eae6d3d0e255",
+      "prior_payload_sha256": "3a1a34e9d4b56184a2711fd5147147e7ca1e0e9568e16b7b68cc6db3ce0275a5",
+      "output_sha256": "65433f1d83a429294890a08bf4adaab04ad7f7c9d082f00d6587848110a09633",
+      "source_region": [
+        62,
+        36,
+        114,
+        37
+      ],
+      "source_glyph_pixels": 1253,
+      "clean_donor": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\config-caption-raster-v1\\clean\\config_off.png",
+      "clean_donor_sha256": "dcc08caea52f65e38245fa9dff726119da09760f88ebc7ac4f65346cd6749120",
+      "donor_lineage": "Verified config-caption clean plate built from original choice-panel exact-phase donor; same opaque texture matches this whole caption perimeter and every nonglyph pixel",
+      "target_ink_bounds": [
+        75,
+        41,
+        158,
+        66
+      ],
+      "protected_pixel_diff_count": 0,
+      "original_mask_unchanged": true,
+      "mask_entry": "sl_load_f_.rc8",
+      "source_alpha": 255,
+      "persisted_rgb_exact": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::sl_load_f.rct::panel-title",
+          "source": "LoadData",
+          "target": "불러오기",
+          "translator_model": "Codex internal"
+        }
+      ]
+    },
+    {
+      "entry": "kaisou_off.rct",
+      "source_sha256": "227d643ca19ee499b87f58314571f98dcc0ace97b86bda72f99d30ba67b4b650",
+      "prior_payload_sha256": "227d643ca19ee499b87f58314571f98dcc0ace97b86bda72f99d30ba67b4b650",
+      "output_sha256": "f423bdc7d3c42034d3840b6cbf0beba20386f8eab0d8510d8adc63a7ee4b5ed1",
+      "source_region": [
+        62,
+        36,
+        114,
+        37
+      ],
+      "source_glyph_pixels": 1023,
+      "clean_donor": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\config-caption-raster-v1\\clean\\config_off.png",
+      "clean_donor_sha256": "dcc08caea52f65e38245fa9dff726119da09760f88ebc7ac4f65346cd6749120",
+      "donor_lineage": "Verified config-caption clean plate built from original choice-panel exact-phase donor; same opaque texture matches this whole caption perimeter and every nonglyph pixel",
+      "target_ink_bounds": [
+        74,
+        42,
+        162,
+        66
+      ],
+      "protected_pixel_diff_count": 0,
+      "original_mask_unchanged": true,
+      "mask_entry": null,
+      "source_alpha": 255,
+      "persisted_rgb_exact": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::kaisou_off.rct::panel-title",
+          "source": "Memory",
+          "target": "장면 회상",
+          "translator_model": "Codex internal"
+        }
+      ]
+    },
+    {
+      "entry": "kaisou_on.rct",
+      "source_sha256": "d07c6d299943cbd0cdda11b14afc819f64955c3b79b9a4d4415c18f6f2434f11",
+      "prior_payload_sha256": "d07c6d299943cbd0cdda11b14afc819f64955c3b79b9a4d4415c18f6f2434f11",
+      "output_sha256": "13defb2758a902ccb5653b49c01643990467da8c6922e0e5c9c5733b375d06fb",
+      "source_region": [
+        62,
+        36,
+        114,
+        37
+      ],
+      "source_glyph_pixels": 1023,
+      "clean_donor": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\config-caption-raster-v1\\clean\\config_off.png",
+      "clean_donor_sha256": "dcc08caea52f65e38245fa9dff726119da09760f88ebc7ac4f65346cd6749120",
+      "donor_lineage": "Verified config-caption clean plate built from original choice-panel exact-phase donor; same opaque texture matches this whole caption perimeter and every nonglyph pixel",
+      "target_ink_bounds": [
+        74,
+        42,
+        162,
+        66
+      ],
+      "protected_pixel_diff_count": 0,
+      "original_mask_unchanged": true,
+      "mask_entry": null,
+      "source_alpha": 255,
+      "persisted_rgb_exact": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::kaisou_on.rct::panel-title",
+          "source": "Memory",
+          "target": "장면 회상",
+          "translator_model": "Codex internal"
+        }
+      ]
+    }
+  ],
+  "output_hashes": {
+    "cgm_off.rct": "c831a3e53e39ce2603972276586e8a02995f67f3705907b57ca9359a87c9a56f",
+    "cgm_on.rct": "0224f290a6c00571e74693384bb10f3ea39139e8ce05d92fdb4e0702275fd15b",
+    "sl_save_n.rct": "7107093b2d1879104f42f476cccb3112f101e5c239add980961a9a644a63c820",
+    "sl_save_f.rct": "2492380ec7ceadf1e3702102bc0089e1b53b0652ef8d7906879d32af2e771e89",
+    "sl_load_n.rct": "659a6e5bbab94afbd6a27d4138bad7e867df561016ea9eab8a7e96502643c2a7",
+    "sl_load_f.rct": "65433f1d83a429294890a08bf4adaab04ad7f7c9d082f00d6587848110a09633",
+    "kaisou_off.rct": "f423bdc7d3c42034d3840b6cbf0beba20386f8eab0d8510d8adc63a7ee4b5ed1",
+    "kaisou_on.rct": "13defb2758a902ccb5653b49c01643990467da8c6922e0e5c9c5733b375d06fb"
+  },
+  "semantic_labels": 8,
+  "structural_pass": true,
+  "visual_pass": true,
+  "runtime_pass": false,
+  "asset_scope": "Left caption only; center descriptions, navigation buttons and other pending artwork untouched.",
+  "visual_review": {
+    "source_clean_final": "preview/source-clean-final-four-families-3x.png",
+    "native_context": "preview/sl_load_n.png",
+    "result": "All four caption families have clear Korean type and coherent clean texture, no residual source glyphs; normal/active caption pixels are identical. Native load layout preserves ornament, header and slots. Other text remains pending.",
+    "reviewer": "Codex internal",
+    "reviewed_local": "2026-10-23T05:11:54.884460+09:00"
+  }
+}

@@ -1,0 +1,1665 @@
+{
+  "translator_model": "Codex internal",
+  "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+  "source_files": {
+    "kosihata.mjo": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+    "last_gendai05.mjo": "9e5f8bfd3a885fdb298039123c95c604a19bc669315986a1a52ac5517704b34d",
+    "last_kako12.mjo": "a3093e064afb783a9806afeb23ecccbc878b817fa93e3b27535c1bc3575d2e75",
+    "masa_10.mjo": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+    "masa_15.mjo": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+    "sina_19_2.mjo": "34820d62b45f38b7781ad1acbe0e956340dca23db049209496a445557b37a43d",
+    "st_pika.mjo": "7271c0d5eb542c8ebaf3c58c4a55bafa687cb6dd375a904e3433a38da39d5fa9"
+  },
+  "records": [
+    {
+      "id": "masa_10.mjo::002308",
+      "unit": "masa_10.mjo::u0169",
+      "source": "「麻咲ちゃん、今度はもみじがお背中ながしてあげる」",
+      "target": "「마사키 언니, 이번엔 모미지가 등을 씻어 줄게.」",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_10.mjo::002318",
+      "unit": "masa_10.mjo::u0170",
+      "source": "「ホント？　じゃあお願いしようかな」",
+      "target": "「정말? 그럼 부탁할까?」",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_10.mjo::002328",
+      "unit": "masa_10.mjo::u0171",
+      "source": "「ごしごし、ごしごしっ…」",
+      "target": "「쓱싹쓱싹, 쓱싹쓱싹…」",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_10.mjo::002338",
+      "unit": "masa_10.mjo::u0172",
+      "source": "「あひゃひゃっ。やだもー、くすぐったぁい」",
+      "target": "「아하하핫. 아, 정말, 간지러워어.」",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_10.mjo::002365",
+      "unit": "masa_10.mjo::u0175",
+      "source": "「………」",
+      "target": "「………」",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "context": {
+        "speaker_identity": "마키노",
+        "addressees": [
+          "자기 자신"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_10.mjo::002379",
+      "unit": "masa_10.mjo::u0177",
+      "source": "でも考えてみれば、",
+      "target": "하지만 생각해 보면,",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "context": {
+        "speaker_identity": "마키노(서술)",
+        "addressees": [],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_10.mjo::002383",
+      "unit": "masa_10.mjo::u0177",
+      "source": "もみじは女の人とお風呂に入った経験がほとんどなかった。",
+      "target": "모미지는 여자와 함께 목욕한 경험이 거의 없었다.",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "context": {
+        "speaker_identity": "마키노(서술)",
+        "addressees": [],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_10.mjo::002407",
+      "unit": "masa_10.mjo::u0179",
+      "source": "「（…って、何を考えてるんだ僕はっ）」",
+      "target": "「（…아니, 난 지금 무슨 생각을 하는 거야!）」",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "context": {
+        "speaker_identity": "마키노",
+        "addressees": [
+          "자기 자신"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_10.mjo::002417",
+      "unit": "masa_10.mjo::u0180",
+      "source": "「（というかそもそも僕は、",
+      "target": "「（아니, 애초에 난",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "context": {
+        "speaker_identity": "마키노",
+        "addressees": [
+          "자기 자신"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_10.mjo::002421",
+      "unit": "masa_10.mjo::u0180",
+      "source": "　何を聞き耳立てているんだっ）」",
+      "target": "　왜 귀를 기울이고 있는 거야!）」",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "context": {
+        "speaker_identity": "마키노",
+        "addressees": [
+          "자기 자신"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_10.mjo::002426",
+      "unit": "masa_10.mjo::u0181",
+      "source": "トホホ…これじゃほとんど変態だよ。",
+      "target": "에휴… 이래서야 변태나 다름없잖아.",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "context": {
+        "speaker_identity": "마키노(서술)",
+        "addressees": [],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_10.mjo::002526",
+      "unit": "masa_10.mjo::u0189",
+      "source": "「…テレビに集中できない…」",
+      "target": "「…TV에 집중이 안 돼…」",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "context": {
+        "speaker_identity": "마키노",
+        "addressees": [
+          "자기 자신"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_10.mjo::002553",
+      "unit": "masa_10.mjo::u0192",
+      "source": "対照的な二人の様子に僕は苦笑しながら、",
+      "target": "대조적인 두 사람의 모습에 쓴웃음을 지으며,",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "context": {
+        "speaker_identity": "마키노(서술)",
+        "addressees": [],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_10.mjo::002557",
+      "unit": "masa_10.mjo::u0192",
+      "source": "湯冷めしないうちにもみじをベッドに寝かしつける…",
+      "target": "몸이 식기 전에 모미지를 침대에 눕혀 재운다…",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "context": {
+        "speaker_identity": "마키노(서술)",
+        "addressees": [],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_15.mjo::001490",
+      "unit": "masa_15.mjo::u0124",
+      "source": "「じぃ～…」",
+      "target": "「빤히~…」",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_15.mjo::001500",
+      "unit": "masa_15.mjo::u0125",
+      "source": "「うん？　なあに、もみじちゃん」",
+      "target": "「응? 왜 그래, 모미지야?」",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_15.mjo::001515",
+      "unit": "masa_15.mjo::u0126",
+      "source": "「いいなぁ、麻咲ちゃんは。おっぱいがあって」",
+      "target": "「좋겠다, 마사키 언니는. 가슴이 있어서.」",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_15.mjo::001525",
+      "unit": "masa_15.mjo::u0127",
+      "source": "「そうかな？　別に普通くらいだと思うけど」",
+      "target": "「그런가? 그냥 보통 정도인 것 같은데.」",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_15.mjo::001540",
+      "unit": "masa_15.mjo::u0128",
+      "source": "「でも、もみじのはぺったんこだよ？」",
+      "target": "「그런데 모미지 건 납작하잖아?」",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_15.mjo::001550",
+      "unit": "masa_15.mjo::u0129",
+      "source": "「そりゃーもみじちゃんはまだ小さいもの。",
+      "target": "「그야 모미지는 아직 어리잖아.",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_15.mjo::001554",
+      "unit": "masa_15.mjo::u0129",
+      "source": "　大きくなったら胸だってふくらんでくるわよ」",
+      "target": "　크면 가슴도 자랄 거야.」",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_15.mjo::001569",
+      "unit": "masa_15.mjo::u0130",
+      "source": "「ふーん…そうなんだ」",
+      "target": "「흐음… 그렇구나.」",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_15.mjo::001574",
+      "unit": "masa_15.mjo::u0131",
+      "source": "ウンウンと深く頷きながらも、",
+      "target": "응, 응, 하고 깊이 고개를 끄덕이면서도",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "context": {
+        "speaker_identity": "마사키(서술)",
+        "addressees": [],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_15.mjo::001578",
+      "unit": "masa_15.mjo::u0131",
+      "source": "あたしの胸をじっと凝視するもみじちゃん。",
+      "target": "내 가슴을 빤히 바라보는 모미지.",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "context": {
+        "speaker_identity": "마사키(서술)",
+        "addressees": [],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_15.mjo::001841",
+      "unit": "masa_15.mjo::u0154",
+      "source": "「焦らなくても大丈夫。",
+      "target": "「서두르지 않아도 괜찮아.",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "masa_15.mjo::001845",
+      "unit": "masa_15.mjo::u0154",
+      "source": "　そのうちイヤでも大きくなるから」",
+      "target": "　때가 되면 싫어도 커질 테니까.」",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "nonsexual_general_dialogue_restored"
+    },
+    {
+      "id": "sina_19_2.mjo::002198",
+      "unit": "sina_19_2.mjo::u0181",
+      "source": "　",
+      "target": "　",
+      "source_sha256": "34820d62b45f38b7781ad1acbe0e956340dca23db049209496a445557b37a43d",
+      "context": {
+        "speaker_identity": "source narrator/test fixture",
+        "addressees": [],
+        "story_phase": "sina_19_2.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "last_kako12.mjo::001778",
+      "unit": "last_kako12.mjo::u0115",
+      "source": "「その健やかなるときも、病めるときも、",
+      "target": "「건강할 때나 병들 때나,",
+      "source_sha256": "a3093e064afb783a9806afeb23ecccbc878b817fa93e3b27535c1bc3575d2e75",
+      "context": {
+        "speaker_identity": "暮葉",
+        "addressees": [],
+        "story_phase": "last_kako12.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "last_kako12.mjo::001782",
+      "unit": "last_kako12.mjo::u0115",
+      "source": "　喜びのときも、悲しみのときも…",
+      "target": "　기쁠 때나 슬플 때나…",
+      "source_sha256": "a3093e064afb783a9806afeb23ecccbc878b817fa93e3b27535c1bc3575d2e75",
+      "context": {
+        "speaker_identity": "暮葉",
+        "addressees": [],
+        "story_phase": "last_kako12.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "last_kako12.mjo::001793",
+      "unit": "last_kako12.mjo::u0115",
+      "source": "　",
+      "target": "　",
+      "source_sha256": "a3093e064afb783a9806afeb23ecccbc878b817fa93e3b27535c1bc3575d2e75",
+      "context": {
+        "speaker_identity": "暮葉",
+        "addressees": [],
+        "story_phase": "last_kako12.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "last_kako12.mjo::001797",
+      "unit": "last_kako12.mjo::u0115",
+      "source": "　富めるときも、貧しいときも、",
+      "target": "　부유할 때나 가난할 때나,",
+      "source_sha256": "a3093e064afb783a9806afeb23ecccbc878b817fa93e3b27535c1bc3575d2e75",
+      "context": {
+        "speaker_identity": "暮葉",
+        "addressees": [],
+        "story_phase": "last_kako12.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "last_kako12.mjo::001801",
+      "unit": "last_kako12.mjo::u0115",
+      "source": "　これを愛し、これを敬い、これを慰め、これを助け――」",
+      "target": "　서로 사랑하고 존중하며, 위로하고 도우며――」",
+      "source_sha256": "a3093e064afb783a9806afeb23ecccbc878b817fa93e3b27535c1bc3575d2e75",
+      "context": {
+        "speaker_identity": "暮葉",
+        "addressees": [],
+        "story_phase": "last_kako12.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "last_gendai05.mjo::001478",
+      "unit": "last_gendai05.mjo::u0149",
+      "source": "「それ以外の事象は、",
+      "target": "「그 밖의 일들은",
+      "source_sha256": "9e5f8bfd3a885fdb298039123c95c604a19bc669315986a1a52ac5517704b34d",
+      "context": {
+        "speaker_identity": "汐見",
+        "addressees": [],
+        "story_phase": "last_gendai05.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "last_gendai05.mjo::001482",
+      "unit": "last_gendai05.mjo::u0149",
+      "source": "　私にとって",
+      "target": "　제게는 ",
+      "source_sha256": "9e5f8bfd3a885fdb298039123c95c604a19bc669315986a1a52ac5517704b34d",
+      "context": {
+        "speaker_identity": "汐見",
+        "addressees": [],
+        "story_phase": "last_gendai05.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "last_gendai05.mjo::001496",
+      "unit": "last_gendai05.mjo::u0149",
+      "source": "ちりあくた",
+      "target": " ",
+      "source_sha256": "9e5f8bfd3a885fdb298039123c95c604a19bc669315986a1a52ac5517704b34d",
+      "context": {
+        "speaker_identity": "汐見",
+        "addressees": [],
+        "story_phase": "last_gendai05.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "last_gendai05.mjo::001509",
+      "unit": "last_gendai05.mjo::u0149",
+      "source": "塵芥にも等しいわけですし…ククク」",
+      "target": "먼지나 다를 바 없으니까요… 크크크」",
+      "source_sha256": "9e5f8bfd3a885fdb298039123c95c604a19bc669315986a1a52ac5517704b34d",
+      "context": {
+        "speaker_identity": "汐見",
+        "addressees": [],
+        "story_phase": "last_gendai05.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "kosihata.mjo::000359",
+      "unit": "kosihata.mjo::u0025",
+      "source": "『逃げろ逃げろ",
+      "target": "『도망쳐도망쳐",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "context": {
+        "speaker_identity": "source narrator/test fixture",
+        "addressees": [],
+        "story_phase": "kosihata.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "kosihata.mjo::000364",
+      "unit": "kosihata.mjo::u0025",
+      "source": "逃げろ逃げろ逃げろ逃げろ逃げろ逃げろ",
+      "target": "도망쳐도망쳐도망쳐도망쳐도망쳐도망쳐",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "context": {
+        "speaker_identity": "source narrator/test fixture",
+        "addressees": [],
+        "story_phase": "kosihata.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "kosihata.mjo::000368",
+      "unit": "kosihata.mjo::u0025",
+      "source": "　逃げろ",
+      "target": "　도망쳐",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "context": {
+        "speaker_identity": "source narrator/test fixture",
+        "addressees": [],
+        "story_phase": "kosihata.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "kosihata.mjo::000372",
+      "unit": "kosihata.mjo::u0025",
+      "source": "逃げろ逃げろ逃げろ逃げろ逃げろ逃げろ逃げろ",
+      "target": "도망쳐도망쳐도망쳐도망쳐도망쳐도망쳐도망쳐",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "context": {
+        "speaker_identity": "source narrator/test fixture",
+        "addressees": [],
+        "story_phase": "kosihata.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "kosihata.mjo::000376",
+      "unit": "kosihata.mjo::u0025",
+      "source": "　",
+      "target": "　",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "context": {
+        "speaker_identity": "source narrator/test fixture",
+        "addressees": [],
+        "story_phase": "kosihata.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "kosihata.mjo::000387",
+      "unit": "kosihata.mjo::u0025",
+      "source": "にげろにげろにげろニゲロニゲロ――！』",
+      "target": "도망쳐도망쳐도망쳐도망쳐도망쳐――!』",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "context": {
+        "speaker_identity": "source narrator/test fixture",
+        "addressees": [],
+        "story_phase": "kosihata.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "st_pika.mjo::000070",
+      "unit": "st_pika.mjo::u0010",
+      "source": "　",
+      "target": "　",
+      "source_sha256": "7271c0d5eb542c8ebaf3c58c4a55bafa687cb6dd375a904e3433a38da39d5fa9",
+      "context": {
+        "speaker_identity": "source narrator/test fixture",
+        "addressees": [],
+        "story_phase": "st_pika.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "st_pika.mjo::000074",
+      "unit": "st_pika.mjo::u0010",
+      "source": "アメリカのホットドッグ大食い大会のホットドッグの大食い記録が",
+      "target": "미국의 핫도그 많이 먹기 대회에서 최다 섭취 기록이",
+      "source_sha256": "7271c0d5eb542c8ebaf3c58c4a55bafa687cb6dd375a904e3433a38da39d5fa9",
+      "context": {
+        "speaker_identity": "source narrator/test fixture",
+        "addressees": [],
+        "story_phase": "st_pika.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    },
+    {
+      "id": "st_pika.mjo::000078",
+      "unit": "st_pika.mjo::u0010",
+      "source": "破られたとのニュースが報じられていたようです。",
+      "target": "경신됐다는 뉴스가 나왔던 모양입니다.",
+      "source_sha256": "7271c0d5eb542c8ebaf3c58c4a55bafa687cb6dd375a904e3433a38da39d5fa9",
+      "context": {
+        "speaker_identity": "source narrator/test fixture",
+        "addressees": [],
+        "story_phase": "st_pika.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      },
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "author": "primary model; technical existing Codex drafts checked and adopted/edited"
+      },
+      "status": "root_context_reviewed_static_pending_runtime_pending",
+      "recovery_category": "technical_exception_resolved"
+    }
+  ],
+  "inline_records": [
+    {
+      "id": "kosihata.mjo::000361",
+      "unit": "kosihata.mjo::u0025",
+      "index": 361,
+      "opcode": "ldstr",
+      "source": "げろげろげろげろ",
+      "target": "게로게로게로게로",
+      "role": "ruby_reading_nonstandard_phonetic_fixture",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "consumer": "yazlib $3198fd01",
+      "evidence": "Original instruction 361 follows source fixture; actual call at363; nonstandard reading361 retained as phonetic fixture, other redundant kana readings suppressed with one ASCII space",
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23"
+      },
+      "status": "consumer_verified_runtime_pending"
+    },
+    {
+      "id": "kosihata.mjo::000362",
+      "unit": "kosihata.mjo::u0025",
+      "index": 362,
+      "opcode": "ldstr",
+      "source": "逃げろ",
+      "target": "도망쳐",
+      "role": "ruby_body",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "consumer": "yazlib $3198fd01",
+      "evidence": "Original instruction 362 follows source fixture; actual call at363; nonstandard reading361 retained as phonetic fixture, other redundant kana readings suppressed with one ASCII space",
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23"
+      },
+      "status": "consumer_verified_runtime_pending"
+    },
+    {
+      "id": "kosihata.mjo::000370",
+      "unit": "kosihata.mjo::u0025",
+      "index": 370,
+      "opcode": "ldstr",
+      "source": "逃げろ",
+      "target": "도망쳐",
+      "role": "emphasis_body",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "consumer": "yazlib $2f93f26a",
+      "evidence": "Original instruction 370 follows source fixture; actual call at371; nonstandard reading361 retained as phonetic fixture, other redundant kana readings suppressed with one ASCII space",
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23"
+      },
+      "status": "consumer_verified_runtime_pending"
+    },
+    {
+      "id": "kosihata.mjo::000378",
+      "unit": "kosihata.mjo::u0025",
+      "index": 378,
+      "opcode": "ldstr",
+      "source": "ニゲロ",
+      "target": " ",
+      "role": "ruby_reading_redundant",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "consumer": "yazlib $3198fd01",
+      "evidence": "Original instruction 378 follows source fixture; actual call at380; nonstandard reading361 retained as phonetic fixture, other redundant kana readings suppressed with one ASCII space",
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23"
+      },
+      "status": "consumer_verified_runtime_pending"
+    },
+    {
+      "id": "kosihata.mjo::000379",
+      "unit": "kosihata.mjo::u0025",
+      "index": 379,
+      "opcode": "ldstr",
+      "source": "逃げろ",
+      "target": "도망쳐",
+      "role": "ruby_body",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "consumer": "yazlib $3198fd01",
+      "evidence": "Original instruction 379 follows source fixture; actual call at380; nonstandard reading361 retained as phonetic fixture, other redundant kana readings suppressed with one ASCII space",
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23"
+      },
+      "status": "consumer_verified_runtime_pending"
+    },
+    {
+      "id": "kosihata.mjo::000381",
+      "unit": "kosihata.mjo::u0025",
+      "index": 381,
+      "opcode": "ldstr",
+      "source": "ニゲロ",
+      "target": " ",
+      "role": "ruby_reading_redundant",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "consumer": "yazlib $3198fd01",
+      "evidence": "Original instruction 381 follows source fixture; actual call at383; nonstandard reading361 retained as phonetic fixture, other redundant kana readings suppressed with one ASCII space",
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23"
+      },
+      "status": "consumer_verified_runtime_pending"
+    },
+    {
+      "id": "kosihata.mjo::000382",
+      "unit": "kosihata.mjo::u0025",
+      "index": 382,
+      "opcode": "ldstr",
+      "source": "逃げろ",
+      "target": "도망쳐",
+      "role": "ruby_body",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "consumer": "yazlib $3198fd01",
+      "evidence": "Original instruction 382 follows source fixture; actual call at383; nonstandard reading361 retained as phonetic fixture, other redundant kana readings suppressed with one ASCII space",
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23"
+      },
+      "status": "consumer_verified_runtime_pending"
+    },
+    {
+      "id": "kosihata.mjo::000384",
+      "unit": "kosihata.mjo::u0025",
+      "index": 384,
+      "opcode": "ldstr",
+      "source": "ニゲロ",
+      "target": " ",
+      "role": "ruby_reading_redundant",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "consumer": "yazlib $3198fd01",
+      "evidence": "Original instruction 384 follows source fixture; actual call at386; nonstandard reading361 retained as phonetic fixture, other redundant kana readings suppressed with one ASCII space",
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23"
+      },
+      "status": "consumer_verified_runtime_pending"
+    },
+    {
+      "id": "kosihata.mjo::000385",
+      "unit": "kosihata.mjo::u0025",
+      "index": 385,
+      "opcode": "ldstr",
+      "source": "逃げろ",
+      "target": "도망쳐",
+      "role": "ruby_body",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "consumer": "yazlib $3198fd01",
+      "evidence": "Original instruction 385 follows source fixture; actual call at386; nonstandard reading361 retained as phonetic fixture, other redundant kana readings suppressed with one ASCII space",
+      "translator_model": "Codex internal",
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23"
+      },
+      "status": "consumer_verified_runtime_pending"
+    }
+  ],
+  "units": [
+    {
+      "unit": "masa_10.mjo::u0169",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002308"
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0170",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002318"
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0171",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002328"
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0172",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002338"
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0175",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002365"
+      ],
+      "context": {
+        "speaker_identity": "마키노",
+        "addressees": [
+          "자기 자신"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0177",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002379",
+        "masa_10.mjo::002383"
+      ],
+      "context": {
+        "speaker_identity": "마키노(서술)",
+        "addressees": [],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0179",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002407"
+      ],
+      "context": {
+        "speaker_identity": "마키노",
+        "addressees": [
+          "자기 자신"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0180",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002417",
+        "masa_10.mjo::002421"
+      ],
+      "context": {
+        "speaker_identity": "마키노",
+        "addressees": [
+          "자기 자신"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0181",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002426"
+      ],
+      "context": {
+        "speaker_identity": "마키노(서술)",
+        "addressees": [],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0189",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002526"
+      ],
+      "context": {
+        "speaker_identity": "마키노",
+        "addressees": [
+          "자기 자신"
+        ],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_10.mjo::u0192",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_10.mjo::002553",
+        "masa_10.mjo::002557"
+      ],
+      "context": {
+        "speaker_identity": "마키노(서술)",
+        "addressees": [],
+        "story_phase": "마사키 루트 10, 일상 목욕 돌봄과 거실 시점",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Independent washing/care, background, silence, self-reflection or mundane reaction; original scene u0155-u0198 checked; sexualized contact/erotic framing excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0124",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001490"
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0125",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001500"
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0126",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001515"
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0127",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001525"
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0128",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001540"
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0129",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001550",
+        "masa_15.mjo::001554"
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0130",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001569"
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마사키"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0131",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001574",
+        "masa_15.mjo::001578"
+      ],
+      "context": {
+        "speaker_identity": "마사키(서술)",
+        "addressees": [],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "masa_15.mjo::u0154",
+      "category": "nonsexual_general_dialogue_restored",
+      "fields": [
+        "masa_15.mjo::001841",
+        "masa_15.mjo::001845"
+      ],
+      "context": {
+        "speaker_identity": "마사키",
+        "addressees": [
+          "모미지"
+        ],
+        "story_phase": "마사키 루트 15, 비성적 신체 발달 문답",
+        "voice": "기존 가족/친근한 반말 관계 또는 해당 서술자의 1인칭",
+        "review_reason": "Nonsexual developmental curiosity/dialogue before intimate contact, or general growth reassurance; u0115-u0161 checked; contact proposal/action/reactions excluded separately"
+      }
+    },
+    {
+      "unit": "sina_19_2.mjo::u0181",
+      "category": "technical_exception_resolved",
+      "fields": [
+        "sina_19_2.mjo::002198"
+      ],
+      "context": {
+        "speaker_identity": "source narrator/test fixture",
+        "addressees": [],
+        "story_phase": "sina_19_2.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      }
+    },
+    {
+      "unit": "last_kako12.mjo::u0115",
+      "category": "technical_exception_resolved",
+      "fields": [
+        "last_kako12.mjo::001778",
+        "last_kako12.mjo::001782",
+        "last_kako12.mjo::001793",
+        "last_kako12.mjo::001797",
+        "last_kako12.mjo::001801"
+      ],
+      "context": {
+        "speaker_identity": "暮葉",
+        "addressees": [],
+        "story_phase": "last_kako12.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      }
+    },
+    {
+      "unit": "last_gendai05.mjo::u0149",
+      "category": "technical_exception_resolved",
+      "fields": [
+        "last_gendai05.mjo::001478",
+        "last_gendai05.mjo::001482",
+        "last_gendai05.mjo::001496",
+        "last_gendai05.mjo::001509"
+      ],
+      "context": {
+        "speaker_identity": "汐見",
+        "addressees": [],
+        "story_phase": "last_gendai05.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      }
+    },
+    {
+      "unit": "kosihata.mjo::u0025",
+      "category": "technical_exception_resolved",
+      "fields": [
+        "kosihata.mjo::000359",
+        "kosihata.mjo::000364",
+        "kosihata.mjo::000368",
+        "kosihata.mjo::000372",
+        "kosihata.mjo::000376",
+        "kosihata.mjo::000387"
+      ],
+      "context": {
+        "speaker_identity": "source narrator/test fixture",
+        "addressees": [],
+        "story_phase": "kosihata.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      }
+    },
+    {
+      "unit": "st_pika.mjo::u0010",
+      "category": "technical_exception_resolved",
+      "fields": [
+        "st_pika.mjo::000070",
+        "st_pika.mjo::000074",
+        "st_pika.mjo::000078"
+      ],
+      "context": {
+        "speaker_identity": "source narrator/test fixture",
+        "addressees": [],
+        "story_phase": "st_pika.mjo",
+        "review_reason": "Exact hash-bound whitespace/manual-ruby exception; complete neighboring meaning and original controls preserved"
+      }
+    }
+  ],
+  "whitespace_exceptions": [
+    {
+      "id": "sina_19_2.mjo::002198",
+      "source_sha256": "34820d62b45f38b7781ad1acbe0e956340dca23db049209496a445557b37a43d",
+      "opcode": "text",
+      "source": "　",
+      "target": "　",
+      "source_codepoints": [
+        "U+3000"
+      ],
+      "target_codepoints": [
+        "U+3000"
+      ],
+      "reason": "Original U+3000 independent black-screen page; proc/p/w/wait_skip1500 preserved"
+    },
+    {
+      "id": "last_kako12.mjo::001793",
+      "source_sha256": "a3093e064afb783a9806afeb23ecccbc878b817fa93e3b27535c1bc3575d2e75",
+      "opcode": "text",
+      "source": "　",
+      "target": "　",
+      "source_codepoints": [
+        "U+3000"
+      ],
+      "target_codepoints": [
+        "U+3000"
+      ],
+      "reason": "Original U+3000 blank line within vow and voice transition; proc/n preserved"
+    },
+    {
+      "id": "last_gendai05.mjo::001496",
+      "source_sha256": "9e5f8bfd3a885fdb298039123c95c604a19bc669315986a1a52ac5517704b34d",
+      "opcode": "text",
+      "source": "ちりあくた",
+      "target": " ",
+      "source_codepoints": [
+        "U+3061",
+        "U+308A",
+        "U+3042",
+        "U+304F",
+        "U+305F"
+      ],
+      "target_codepoints": [
+        "U+0020"
+      ],
+      "reason": "Manual phonetic ruby; 12px size/negative y offset and ctrl r restore preserved; base meaning in001509"
+    },
+    {
+      "id": "kosihata.mjo::000376",
+      "source_sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1",
+      "opcode": "text",
+      "source": "　",
+      "target": "　",
+      "source_codepoints": [
+        "U+3000"
+      ],
+      "target_codepoints": [
+        "U+3000"
+      ],
+      "reason": "Original U+3000 indentation before three ruby outputs"
+    },
+    {
+      "id": "st_pika.mjo::000070",
+      "source_sha256": "7271c0d5eb542c8ebaf3c58c4a55bafa687cb6dd375a904e3433a38da39d5fa9",
+      "opcode": "text",
+      "source": "　",
+      "target": "　",
+      "source_codepoints": [
+        "U+3000"
+      ],
+      "target_codepoints": [
+        "U+3000"
+      ],
+      "reason": "Original U+3000 leading blank line; proc/n preserved"
+    }
+  ],
+  "scope": "20 general nonsexual units restored +5 technical units completed; remaining37 not translated",
+  "runtime_verified": false
+}

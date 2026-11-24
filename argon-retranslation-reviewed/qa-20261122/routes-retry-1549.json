@@ -1,0 +1,125 @@
+{
+ "mode": "routes",
+ "started": "2026-11-22 15:48:08",
+ "nv_before": 1133,
+ "runs": [
+  {
+   "label": "routes-077-re",
+   "pid": 63004,
+   "steps": [
+    {
+     "step": "route 77",
+     "t": 48.3,
+     "order": 28897,
+     "chapter": "maho_13",
+     "ending": false,
+     "arrive_s": 10.5,
+     "items": 1,
+     "presents_after_arrival": 844,
+     "clicks": 8,
+     "ok": true,
+     "mem_mb": 1450
+    }
+   ],
+   "dialogs": [],
+   "mem_mb_start": 986,
+   "routes": [
+    {
+     "i": 77,
+     "order": 28897,
+     "chapter": "maho_13",
+     "ending": false,
+     "arrive_s": 10.5,
+     "items": 1,
+     "presents_after_arrival": 844,
+     "clicks": 8,
+     "ok": true,
+     "mem_mb": 1450
+    }
+   ],
+   "new_review_folders": [
+    "savedata-review-63004-287388390"
+   ],
+   "mem_mb_end": 1450,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.3425,
+    "loud_spans": [
+     [
+      20.99,
+      25.95
+     ],
+     [
+      33.07,
+      33.25
+     ]
+    ],
+    "errors": []
+   },
+   "log_mb": 0.7,
+   "log_errors": []
+  },
+  {
+   "label": "routes-078-re",
+   "pid": 23952,
+   "steps": [
+    {
+     "step": "route 78",
+     "t": 51.1,
+     "order": 28928,
+     "chapter": "maho_13",
+     "ending": false,
+     "arrive_s": 13.8,
+     "items": 1,
+     "presents_after_arrival": 832,
+     "clicks": 8,
+     "ok": true,
+     "mem_mb": 1151
+    }
+   ],
+   "dialogs": [],
+   "mem_mb_start": 959,
+   "routes": [
+    {
+     "i": 78,
+     "order": 28928,
+     "chapter": "maho_13",
+     "ending": false,
+     "arrive_s": 13.8,
+     "items": 1,
+     "presents_after_arrival": 832,
+     "clicks": 8,
+     "ok": true,
+     "mem_mb": 1151
+    }
+   ],
+   "new_review_folders": [
+    "savedata-review-23952-287436812"
+   ],
+   "mem_mb_end": 1151,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.3425,
+    "loud_spans": [
+     [
+      20.58,
+      25.77
+     ],
+     [
+      35.8,
+      36.0
+     ]
+    ],
+    "errors": []
+   },
+   "log_mb": 0.7,
+   "log_errors": []
+  }
+ ],
+ "nv_after": 1133,
+ "ended": "2026-11-22 15:49:50"
+}

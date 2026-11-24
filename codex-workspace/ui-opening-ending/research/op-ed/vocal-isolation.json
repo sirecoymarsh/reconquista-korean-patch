@@ -1,0 +1,24 @@
+[
+  {
+    "id": "stream::recon_op",
+    "vocal": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\transcription_work\\recon_op_full-mono16k.wav",
+    "instrumental": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\transcription_work\\recon_op_inst-mono16k.wav",
+    "lag_samples": -2020,
+    "lag_seconds": -0.12625,
+    "subtraction_scale": 0.9436925649642944,
+    "isolated": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\transcription_work\\recon_op-isolated-timeline.wav",
+    "original_timeline_preserved": true,
+    "method": "Read-only reuse of skill isolate_vocals.py best_lag and subtract, then pad back to original vocal timeline. Source recovery only, never accepted translation."
+  },
+  {
+    "id": "stream::recon_ed",
+    "vocal": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\transcription_work\\recon_ed-mono16k.wav",
+    "instrumental": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\transcription_work\\recon_ed_inst-mono16k.wav",
+    "lag_samples": 859,
+    "lag_seconds": 0.0536875,
+    "subtraction_scale": 0.9599608182907104,
+    "isolated": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\transcription_work\\recon_ed-isolated-timeline.wav",
+    "original_timeline_preserved": true,
+    "method": "Read-only reuse of skill isolate_vocals.py best_lag and subtract, then pad back to original vocal timeline. Source recovery only, never accepted translation."
+  }
+]

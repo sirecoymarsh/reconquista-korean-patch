@@ -1,0 +1,23 @@
+{
+  "translator_model": "Codex internal",
+  "records": [
+    {
+      "id": "fastdata.arc::staffroom_off.rct::panel-title",
+      "source": "Staffroom",
+      "target": "스태프룸",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "fastdata.arc::staffroom_on.rct::panel-title",
+      "source": "Staffroom",
+      "target": "스태프룸",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "fastdata.arc::バックログ画面.rct::decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다.\n이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은\n누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal"
+    }
+  ]
+}

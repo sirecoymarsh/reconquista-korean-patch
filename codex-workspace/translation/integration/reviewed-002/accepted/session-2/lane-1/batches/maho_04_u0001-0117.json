@@ -1,0 +1,3002 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-2/lane-1",
+  "coordinator_thread_id": "01a16335-afd6-74f0-8990-fd759c6ead35",
+  "agent_id": "01a16337-7bdb-7e02-9c3a-9e81bb2e16b7",
+  "agent_canonical_id": "/root/lane_1",
+  "source_script": "maho_04.mjo",
+  "source_sha256": "2937aeb5b637ab52d2cf9ac1eef525c2a2a4ea234ae0d2d3c92a02fe428190df",
+  "source_packet_sha256": "444b4ff9ceb3fbe5f8e6de3b24848070ff0e6f9eef1998263b6191498f40c339",
+  "frozen_contract_sha256": "119f2b0d0c74d5ff6a58de43c7eba8addf1c24238b5e07d7500035bc6d9a461d",
+  "records": [
+    {
+      "unit": "maho_04.mjo::u0001",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000012",
+          "source": "「…そうだな、じゃあ明日は映画に行くか」",
+          "target": "「…그래, 그럼 내일은 영화 보러 갈까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0002",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000026",
+          "source": "「わ～いっ」",
+          "target": "「와~아!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "부드러운 소꿉친구 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0003",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000031",
+          "source": "例の件が気にならない訳ではないが、",
+          "target": "그 일이 신경 쓰이지 않는 건 아니지만,"
+        },
+        {
+          "id": "maho_04.mjo::000035",
+          "source": "俺は真帆子の提案に頷いてみせる。",
+          "target": "나는 마호코의 제안에 고개를 끄덕였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0004",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000048",
+          "source": "ギイイィィィ…、",
+          "target": "끼이이이익…,"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0005",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000062",
+          "source": "「真帆子ちゃん、そろそろ帰りませんか？」",
+          "target": "「마호코 언니, 이제 슬슬 돌아갈까요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "마호코 언니에게 부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0006",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000067",
+          "source": "そんなことを話していると、やって来た詩菜。",
+          "target": "그런 이야기를 나누고 있는데 시이나가 찾아왔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0007",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000072",
+          "source": "…間一髪だったな。",
+          "target": "…아슬아슬했네."
+        },
+        {
+          "id": "maho_04.mjo::000076",
+          "source": "もし映画の事を知られたら",
+          "target": "영화 보러 간다는 걸 들켰으면 "
+        },
+        {
+          "id": "maho_04.mjo::000081",
+          "source": "ありそうだった。",
+          "target": "벌어질 뻔했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0008",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000088",
+          "source": "「（…て、思っちゃいけないよな。",
+          "target": "「(…그렇게 생각하면 안 되겠지."
+        },
+        {
+          "id": "maho_04.mjo::000092",
+          "source": "　こいつにも世話になったんだし）」",
+          "target": "　이 녀석한테도 신세를 졌으니까.)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "혼잣말·내적 독백",
+        "text_function": "internal_monologue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0009",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000097",
+          "source": "さっき別れてから、",
+          "target": "아까 헤어진 뒤로"
+        },
+        {
+          "id": "maho_04.mjo::000101",
+          "source": "気を遣って時間を潰しててくれたんだろう。",
+          "target": "우릴 배려해서 시간을 보내 주고 있었겠지."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0010",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000106",
+          "source": "詩菜のことだから、",
+          "target": "시이나니까"
+        },
+        {
+          "id": "maho_04.mjo::000110",
+          "source": "それも真帆子の為に違いないが、それでも…",
+          "target": "그것도 분명 마호코를 위해서였겠지만, 그래도…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0011",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000117",
+          "source": "「（ありがとな、詩菜…）」",
+          "target": "「(고맙다, 시이나…)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "혼잣말·내적 독백",
+        "text_function": "internal_monologue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0012",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000131",
+          "source": "「先輩、３秒以上連続で私を見ないでください。",
+          "target": "「선배, 3초 이상 계속 쳐다보지 마세요."
+        },
+        {
+          "id": "maho_04.mjo::000135",
+          "source": "　寒気がするもので」",
+          "target": "　소름 끼치니까요.」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "선배 신야에게 냉담하고 가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0013",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000142",
+          "source": "「………お前はそういう奴さ」",
+          "target": "「………넌 원래 그런 애지.」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0014",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000152",
+          "source": "結局、何だかんだでいつもの調子。",
+          "target": "결국 이러니저러니 해도 평소와 똑같다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0015",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000157",
+          "source": "わざと二人がそう振る舞ってくれてる…",
+          "target": "둘이 날 위해 일부러 저렇게 행동해 주는 건…"
+        },
+        {
+          "id": "maho_04.mjo::000161",
+          "source": "てのは、さすがに俺の考えすぎなんだろうな。",
+          "target": "역시 내가 너무 깊게 생각하는 거겠지."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0016",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000175",
+          "source": "「それじゃ一緒に帰ろうか」",
+          "target": "「그럼 같이 돌아갈까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야",
+          "시이나"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "부드러운 소꿉친구 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0017",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000182",
+          "source": "「あ、俺はいい。",
+          "target": "「아, 난 됐어."
+        },
+        {
+          "id": "maho_04.mjo::000186",
+          "source": "　寄るとこがあるから二人で頼むわ」",
+          "target": "　들를 데가 있으니까 둘이서 가.」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코",
+          "시이나"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0018",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000191",
+          "source": "当初の予定通り、",
+          "target": "원래 계획대로"
+        },
+        {
+          "id": "maho_04.mjo::000195",
+          "source": "昨夜の橋まで痕跡探しに行こうと考えていた。",
+          "target": "어젯밤 그 다리에 흔적을 찾으러 갈 생각이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0019",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000209",
+          "source": "「…どこに行くの？」",
+          "target": "「…어디 가는데?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "부드러운 소꿉친구 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0020",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000214",
+          "source": "直感的に何かを悟ったのか、",
+          "target": "직감으로 뭔가를 알아챘는지"
+        },
+        {
+          "id": "maho_04.mjo::000218",
+          "source": "聞き返す表情が曇っている。",
+          "target": "되묻는 얼굴에 그늘이 드리워져 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0021",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000225",
+          "source": "「ンな顔するなって。",
+          "target": "「그런 얼굴 하지 마."
+        },
+        {
+          "id": "maho_04.mjo::000229",
+          "source": "　ちょっとダチんとこにＤＶＤ借りに行くだけだから」",
+          "target": "　그냥 친구한테 DVD 좀 빌리러 가는 거야.」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0022",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000234",
+          "source": "もちろん無茶するつもりもないけど、",
+          "target": "물론 무모한 짓을 할 생각도 없지만,"
+        },
+        {
+          "id": "maho_04.mjo::000238",
+          "source": "心配させない為のウソだった。",
+          "target": "걱정시키지 않으려고 한 거짓말이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0023",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000252",
+          "source": "「ならいいけど…」",
+          "target": "「그렇다면 괜찮지만…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "부드러운 소꿉친구 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0024",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000257",
+          "source": "納得しきれないものの、一応信用してくれた顔。",
+          "target": "완전히 납득하진 못했지만 일단 믿어 주는 얼굴이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0025",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000269",
+          "source": "「詩菜は嬉しいだろ？",
+          "target": "「시이나는 좋겠네?"
+        },
+        {
+          "id": "maho_04.mjo::000273",
+          "source": "　心おきなく二人きりの下校を謳歌してくれ」",
+          "target": "　마음 놓고 둘만의 하굣길을 만끽해라.」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0026",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000278",
+          "source": "つっても家の方向が違う詩菜は、",
+          "target": "그래 봐야 집 방향이 다른 시이나는"
+        },
+        {
+          "id": "maho_04.mjo::000282",
+          "source": "校門までの道中だけど。",
+          "target": "교문까지 함께 갈 뿐이지만."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0027",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000296",
+          "source": "「…まさか、これで恩を売ったつもりですか？」",
+          "target": "「…설마 이걸로 생색이라도 내시려는 건가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "선배 신야에게 냉담하고 가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0028",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000303",
+          "source": "「どういう意味だよ？」",
+          "target": "「무슨 뜻이야?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0029",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000317",
+          "source": "「…ですよね。先輩にそんなデリカシーがあったら、",
+          "target": "「…그렇겠죠. 선배가 그렇게 배려할 줄 아셨다면"
+        },
+        {
+          "id": "maho_04.mjo::000321",
+          "source": "　私も心穏やかな毎日が送れたでしょうし」",
+          "target": "　저도 마음 편히 하루하루를 보냈을 테니까요.」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "선배 신야에게 냉담하고 가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0030",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000326",
+          "source": "よく分からんが、",
+          "target": "잘은 모르겠지만,"
+        },
+        {
+          "id": "maho_04.mjo::000330",
+          "source": "こいつも別方向での信用は確固たるもんだな…",
+          "target": "이 녀석도 다른 의미로는 날 확실히 믿고 있네…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0031",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000344",
+          "source": "「じゃあ早く行ってしまってください。",
+          "target": "「그럼 얼른 가 버리세요."
+        },
+        {
+          "id": "maho_04.mjo::000348",
+          "source": "　ソフトな言い方をすると目障りですので」",
+          "target": "　부드럽게 말해서, 눈에 거슬리니까요.」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "선배 신야에게 냉담하고 가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0032",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000355",
+          "source": "「お前の硬度基準じゃ",
+          "target": "「네 경도 기준으로는"
+        },
+        {
+          "id": "maho_04.mjo::000359",
+          "source": "　ソフトでもダイヤを砕きそうだな」",
+          "target": "　부드러워도 다이아몬드쯤은 부수겠네.」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0033",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000364",
+          "source": "硬度１０もひとたまりもなさそうだ。",
+          "target": "경도 10도 버티지 못할 것 같다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0034",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000374",
+          "source": "そうして半ば詩菜に追い出されそうになっていると、",
+          "target": "그렇게 시이나에게 반쯤 쫓겨날 지경이 되었을 때,"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0035",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000388",
+          "source": "「気をつけてね、信くん…」",
+          "target": "「조심해, 신아…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "부드러운 소꿉친구 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0036",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000395",
+          "source": "「…だから何もないって。でもありがとな」",
+          "target": "「…그러니까 아무 일 없다니까. 그래도 고마워.」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0037",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000409",
+          "source": "「うん…」",
+          "target": "「응…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "부드러운 소꿉친구 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0038",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000423",
+          "source": "「先輩、１秒以上連続で",
+          "target": "「선배, 1초 이상 계속"
+        },
+        {
+          "id": "maho_04.mjo::000427",
+          "source": "　真帆子ちゃんを見ないでください。目を潰します」",
+          "target": "　마호코 언니를 쳐다보지 마세요. 눈을 뭉개 버릴 거예요.」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "선배 신야에게 냉담하고 가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0039",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000437",
+          "source": "「お前がかよっ！？」",
+          "target": "「네가 그러겠다고!?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0040",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000447",
+          "source": "…そんなこんなで、二人とは別れた。",
+          "target": "…그런 우여곡절 끝에 둘과 헤어졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야·마호코는 소꿉친구, 시이나는 후배이며 마호코와 친밀함",
+        "story_phase": "마호코 루트 / school_farewell",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0041",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000491",
+          "source": "橋へと向かっている間に、",
+          "target": "다리로 향하는 동안"
+        },
+        {
+          "id": "maho_04.mjo::000495",
+          "source": "じわじわと景色はコントラストを夕色に変えていく。",
+          "target": "풍경의 명암이 서서히 노을빛으로 바뀌어 간다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0042",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000500",
+          "source": "…少し緊張してるのが自分でも分かる。",
+          "target": "…조금 긴장하고 있다는 게 나도 느껴진다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0043",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000505",
+          "source": "光が落ちるほど、",
+          "target": "빛이 사그라들수록"
+        },
+        {
+          "id": "maho_04.mjo::000509",
+          "source": "別種の何かが浮かび上がってきそうで…",
+          "target": "뭔가 다른 것이 떠오를 것만 같아서…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0044",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000514",
+          "source": "気がつけばじっとりと汗ばんだ首筋が、",
+          "target": "어느새 축축하게 땀이 밴 목덜미가"
+        },
+        {
+          "id": "maho_04.mjo::000518",
+          "source": "どうにも気持ち悪かった。",
+          "target": "영 찝찝했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0045",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000528",
+          "source": "昨夜の場所。",
+          "target": "어젯밤 그곳."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0046",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000533",
+          "source": "…異なるのは赤い夕暮れの光だけで。",
+          "target": "…달라진 건 붉은 노을빛뿐이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0047",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000538",
+          "source": "やはりここで間違いない。",
+          "target": "역시 여기다."
+        },
+        {
+          "id": "maho_04.mjo::000542",
+          "source": "ここで昨夜俺が見たものは…",
+          "target": "어젯밤 여기서 내가 본 건…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0048",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000607",
+          "source": "…あの時の記憶が鮮烈に蘇る。",
+          "target": "…그때의 기억이 생생하게 되살아난다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0049",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000612",
+          "source": "首から破裂したように噴き上がる",
+          "target": "목에서 터지듯 솟구치던 "
+        },
+        {
+          "id": "maho_04.mjo::000617",
+          "source": "、",
+          "target": ","
+        },
+        {
+          "id": "maho_04.mjo::000621",
+          "source": "霧のように拡がる血の臭い…",
+          "target": "안개처럼 퍼져 나가던 피 냄새…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0050",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000626",
+          "source": "びちゃびちゃと地面を濡らす無数の黒い滴に",
+          "target": "철벅철벅 땅을 적시던 무수한 검은 방울과"
+        },
+        {
+          "id": "maho_04.mjo::000630",
+          "source": "ありえないくらい",
+          "target": "말도 안 될 만큼 "
+        },
+        {
+          "id": "maho_04.mjo::000635",
+          "source": "いだ田村の虚ろな瞳…",
+          "target": "어진 다무라의 공허한 눈동자…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0051",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000640",
+          "source": "大きく頭を振る。",
+          "target": "크게 고개를 내젓는다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0052",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000647",
+          "source": "「（…今はそんなこと思い出さなくていい。",
+          "target": "「(…지금은 그런 걸 떠올리지 않아도 돼."
+        },
+        {
+          "id": "maho_04.mjo::000651",
+          "source": "　とにかく証拠になりそうなものを探そう）」",
+          "target": "　일단 증거가 될 만한 걸 찾자.)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "혼잣말·내적 독백",
+        "text_function": "internal_monologue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0053",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000656",
+          "source": "思い直すと目を凝らし、地面に視線を這わせていく。",
+          "target": "생각을 고쳐먹고 눈을 부릅뜬 채 땅바닥을 훑는다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0054",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000661",
+          "source": "そうしてしばらく辺りを見回したが、",
+          "target": "그렇게 한동안 주변을 살폈지만"
+        },
+        {
+          "id": "maho_04.mjo::000665",
+          "source": "血痕や痕跡のような物は見当たらなかった。",
+          "target": "혈흔이나 흔적 같은 것은 보이지 않았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0055",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000672",
+          "source": "「（…それ以前に田村の死体はどこに消えた？）」",
+          "target": "「(…그보다 다무라의 시체는 어디로 사라진 거지?)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "혼잣말·내적 독백",
+        "text_function": "internal_monologue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0056",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000677",
+          "source": "こんな言い方も悪いが、",
+          "target": "이런 식으로 말하긴 좀 그렇지만,"
+        },
+        {
+          "id": "maho_04.mjo::000681",
+          "source": "あれが現実ならこれ以上の証拠はない。",
+          "target": "그게 현실이었다면 그보다 확실한 증거는 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0057",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000686",
+          "source": "それがないなら死体は",
+          "target": "그게 없다면 시체가 "
+        },
+        {
+          "id": "maho_04.mjo::000691",
+          "source": "されたと考えるべきか、",
+          "target": "되었다고 봐야 할지,"
+        },
+        {
+          "id": "maho_04.mjo::000695",
+          "source": "記憶そのものが幻だったかだ。",
+          "target": "아니면 기억 자체가 환상이었는지 둘 중 하나다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0058",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000706",
+          "source": "「（雨は降ってない…）」",
+          "target": "「(비는 안 내렸어…)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "혼잣말·내적 독백",
+        "text_function": "internal_monologue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0059",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000711",
+          "source": "梅雨時の割に、ここ最近天気が崩れない。",
+          "target": "장마철인데도 최근에는 날씨가 계속 좋았다."
+        },
+        {
+          "id": "maho_04.mjo::000715",
+          "source": "血痕が洗い流されたという事はないだろう。",
+          "target": "혈흔이 씻겨 나갔을 리는 없겠지."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0060",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000725",
+          "source": "やれやれと、もう一度地面に視線を落とす。",
+          "target": "답답한 마음에 다시 땅바닥으로 시선을 내린다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0061",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000732",
+          "source": "「（そう言えば、田村の側に男がいなかったか…？）」",
+          "target": "「(그러고 보니 다무라 옆에 남자가 있지 않았나…?)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "혼잣말·내적 독백",
+        "text_function": "internal_monologue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0062",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000737",
+          "source": "曖昧な記憶だが、もし本当にいたなら、",
+          "target": "흐릿한 기억이지만 정말 있었다면"
+        },
+        {
+          "id": "maho_04.mjo::000741",
+          "source": "その人はどうなったのだろう。",
+          "target": "그 사람은 어떻게 됐을까."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0063",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000746",
+          "source": "少なくとも目撃者として、",
+          "target": "적어도 목격자로서"
+        },
+        {
+          "id": "maho_04.mjo::000750",
+          "source": "俺と同じ疑念を抱いててもおかしくない。",
+          "target": "나와 같은 의문을 품고 있어도 이상하지 않다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0064",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000755",
+          "source": "なのに何のアクションも起こされた気配がないのは、",
+          "target": "그런데 아무런 행동도 취한 기색이 없는 건,"
+        },
+        {
+          "id": "maho_04.mjo::000759",
+          "source": "もしかして彼もまた首刈り女に…",
+          "target": "혹시 그도 목 베는 여자에게…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0065",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000771",
+          "source": "「………ん？」",
+          "target": "「………응?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "혼잣말·내적 독백",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0066",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000776",
+          "source": "一瞬、分からなかった。",
+          "target": "순간 알아보지 못했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0067",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000781",
+          "source": "沈みかけの夕闇に溶け込むような路面の色。",
+          "target": "저물어 가는 어스름에 녹아든 듯한 노면의 색."
+        },
+        {
+          "id": "maho_04.mjo::000785",
+          "source": "だがよく見ると、そこだけ…",
+          "target": "그런데 자세히 보니 그 부분만…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0068",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000794",
+          "source": "斑点がびっしりと、そこかしこに、こびりついている――",
+          "target": "점 같은 얼룩이 여기저기 빽빽하게 들러붙어 있다――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0069",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000811",
+          "source": "「うわぁっ！？」",
+          "target": "「으아악!?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "혼잣말·내적 독백",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0070",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000816",
+          "source": "思わずその場を",
+          "target": "나도 모르게 그 자리에서 "
+        },
+        {
+          "id": "maho_04.mjo::000821",
+          "source": "び",
+          "target": " 뛰어 "
+        },
+        {
+          "id": "maho_04.mjo::000826",
+          "source": "り…",
+          "target": "나…"
+        },
+        {
+          "id": "maho_04.mjo::000831",
+          "source": "改めて辺りを見回してみる。",
+          "target": "다시 주위를 둘러보았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0071",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000836",
+          "source": "ペンキをぶち撒けたような派手な染みが、",
+          "target": "페인트를 쏟아부은 듯한 요란한 얼룩이"
+        },
+        {
+          "id": "maho_04.mjo::000840",
+          "source": "一帯に飛び散っていた。",
+          "target": "일대에 흩뿌려져 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0072",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000845",
+          "source": "けどそれは、多分ペンキなんかじゃない。",
+          "target": "하지만 저건 아마 페인트 따위가 아니다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0073",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000852",
+          "source": "「………っ」",
+          "target": "「………읏.」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "혼잣말·내적 독백",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0074",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000861",
+          "source": "動悸が早まったのを感じながら、",
+          "target": "심장이 빨리 뛰는 걸 느끼며"
+        },
+        {
+          "id": "maho_04.mjo::000865",
+          "source": "周りをせわしなく調べる。",
+          "target": "분주하게 주변을 살핀다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0075",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000872",
+          "source": "「…こんなとこまで…」",
+          "target": "「…이런 데까지…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "혼잣말·내적 독백",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0076",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000877",
+          "source": "微かに震える指先を、",
+          "target": "미세하게 떨리는 손끝을"
+        },
+        {
+          "id": "maho_04.mjo::000881",
+          "source": "橋の欄干に付着した染みへと伸ばす。",
+          "target": "다리 난간에 들러붙은 얼룩으로 뻗는다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0077",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000886",
+          "source": "――カリッ、",
+          "target": "――긁,"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0078",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000891",
+          "source": "爪先で軽く削り取った、塗料のようなそれ。",
+          "target": "손톱 끝으로 살짝 긁어 낸, 도료 같은 것."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0079",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000896",
+          "source": "爪と肉の間に詰まった塊を、反対側の手のひらへ。",
+          "target": "손톱과 살 사이에 낀 덩어리를 반대쪽 손바닥에 턴다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0080",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000901",
+          "source": "…ぱらぱらと粉状になって落ちていく。",
+          "target": "…가루가 되어 파라락 떨어져 내린다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0081",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000906",
+          "source": "そうしてゆっくりと、鼻先へ近付けてみた。",
+          "target": "그러고는 천천히 코앞으로 가져가 보았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0082",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000911",
+          "source": "…錆びた鉄の…",
+          "target": "…녹슨 쇠의…"
+        },
+        {
+          "id": "maho_04.mjo::000914",
+          "source": "血の臭い…",
+          "target": "피 냄새…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0083",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000921",
+          "source": "「くっ………！」",
+          "target": "「큭………!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "혼잣말·내적 독백",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0084",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000926",
+          "source": "こびりついて取れない粉を振り払おうと、",
+          "target": "들러붙어 떨어지지 않는 가루를 털어 내려고"
+        },
+        {
+          "id": "maho_04.mjo::000930",
+          "source": "あらん限りに手を上下させる。",
+          "target": "있는 힘껏 손을 위아래로 흔든다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0085",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000937",
+          "source": "「（…やっぱり田村は殺されたんだ）」",
+          "target": "「(…역시 다무라는 살해당한 거야.)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "혼잣말·내적 독백",
+        "text_function": "internal_monologue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0086",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000942",
+          "source": "そう確信に足る証拠が、ここにはあった。",
+          "target": "그렇게 확신할 만한 증거가 여기 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0087",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000947",
+          "source": "そして、それは同時に…",
+          "target": "그리고 그것은 동시에…"
+        },
+        {
+          "id": "maho_04.mjo::000951",
+          "source": "昨夜のことが幻や見間違いではなかったことを告げていた。",
+          "target": "어젯밤 일이 환상이나 착각이 아니었음을 말해 주었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 단독 조사",
+        "story_phase": "마호코 루트 / bridge_evidence_search",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0088",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000967",
+          "source": "トゥルルルルルル、トゥルルルルルル…、",
+          "target": "뚜르르르르, 뚜르르르르…,"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0089",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000972",
+          "source": "移動して探したのは、",
+          "target": "자리를 옮겨 찾아낸 건"
+        },
+        {
+          "id": "maho_04.mjo::000976",
+          "source": "めっきり見掛けなくなった公衆電話。",
+          "target": "요즘엔 통 보기 힘들어진 공중전화였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0090",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000981",
+          "source": "浅はかな素人考えかも知れないが、",
+          "target": "아무것도 모르는 내 얕은 생각일지도 모르지만,"
+        },
+        {
+          "id": "maho_04.mjo::000985",
+          "source": "個人を特定されない方法はこれくらいしか思い付かない。",
+          "target": "신분을 감출 방법은 이것밖에 떠오르지 않는다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0091",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000993",
+          "source": "カチャッ、",
+          "target": "찰칵,"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0092",
+      "fields": [
+        {
+          "id": "maho_04.mjo::000998",
+          "source": "『はい、こちら――警察署ですが』",
+          "target": "『네, 여기는 ――경찰서입니다.』"
+        }
+      ],
+      "context": {
+        "speaker_identity": "경찰관",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "건조하고 의심 어린 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0093",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001003",
+          "source": "数度のコールの後、ようやく出た声は、",
+          "target": "몇 번 신호가 울린 뒤에야 들려온 목소리가"
+        },
+        {
+          "id": "maho_04.mjo::001007",
+          "source": "どこかめんどくさそうに隣町の警察署を名乗った。",
+          "target": "어딘가 귀찮은 투로 옆 동네 경찰서 이름을 댔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0094",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001012",
+          "source": "普段ならむっとしそうな応対。",
+          "target": "평소라면 기분이 상했을 법한 응대다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0095",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001017",
+          "source": "だが今は、言うべき事を必死に整理していた為、",
+          "target": "하지만 지금은 해야 할 말을 필사적으로 정리하느라"
+        },
+        {
+          "id": "maho_04.mjo::001021",
+          "source": "そんな余裕はない。",
+          "target": "그럴 여유가 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0096",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001028",
+          "source": "「あの、すみません。",
+          "target": "「저기, 죄송한데요."
+        },
+        {
+          "id": "maho_04.mjo::001032",
+          "source": "　事件です、その、殺人事件で…」",
+          "target": "　사건이 났어요. 그게, 살인 사건인데…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "경찰관"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "경찰에게 다급한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0097",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001037",
+          "source": "『殺人ンっ？』",
+          "target": "『살인이요?』"
+        }
+      ],
+      "context": {
+        "speaker_identity": "경찰관",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "건조하고 의심 어린 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0098",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001044",
+          "source": "「はい、この目で見たんです。",
+          "target": "「네, 제 눈으로 봤어요."
+        },
+        {
+          "id": "maho_04.mjo::001048",
+          "source": "　女の子が槍みたいので首を裂かれて…」",
+          "target": "　어떤 여자애가 창 같은 것에 목이 찢겨서…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "경찰관"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "경찰에게 다급한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0099",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001053",
+          "source": "余計な事を聞かれては面倒なので、",
+          "target": "괜히 이것저것 물어보면 골치 아프니"
+        },
+        {
+          "id": "maho_04.mjo::001057",
+          "source": "要点だけを伝えていく。",
+          "target": "요점만 전한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0100",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001064",
+          "source": "「証拠もあるんです。",
+          "target": "「증거도 있어요."
+        },
+        {
+          "id": "maho_04.mjo::001068",
+          "source": "　ニュータウンと本島を繋ぐ橋の上にですね…」",
+          "target": "　뉴타운과 본섬을 잇는 다리 위에요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "경찰관"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "경찰에게 다급한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0101",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001073",
+          "source": "『――お宅、今日４件目ですわ』",
+          "target": "『――이런 전화, 오늘 4번째예요.』"
+        }
+      ],
+      "context": {
+        "speaker_identity": "경찰관",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "건조하고 의심 어린 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0102",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001080",
+          "source": "「…は？」",
+          "target": "「…네?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "경찰관"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "경찰에게 다급한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0103",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001085",
+          "source": "話の途中で唐突に言葉を差し込まれる。",
+          "target": "말하는 도중에 불쑥 끼어든다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0104",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001090",
+          "source": "『今、そちらの学校で流行ってるらしいですね。",
+          "target": "『지금 그쪽 학교에서 유행하는 모양이더군요."
+        },
+        {
+          "id": "maho_04.mjo::001094",
+          "source": "　クビカリオンナの都市伝説…ですか？』",
+          "target": "　목 베는 여자의 도시전설…이라던가요?』"
+        }
+      ],
+      "context": {
+        "speaker_identity": "경찰관",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "건조하고 의심 어린 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0105",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001099",
+          "source": "『一昨日は２件、昨日は７件もある。",
+          "target": "『그저께는 2건, 어제는 7건이나 왔어요."
+        },
+        {
+          "id": "maho_04.mjo::001103",
+          "source": "　その類の通報がこのところ頻発してまして』",
+          "target": "　최근에 그런 신고가 부쩍 잦아졌습니다.』"
+        }
+      ],
+      "context": {
+        "speaker_identity": "경찰관",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "건조하고 의심 어린 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0106",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001108",
+          "source": "『…本当に見たのかイタズラ電話かは知りませんがね。",
+          "target": "『…진짜로 본 건지 장난 전화인지는 모르겠지만요."
+        },
+        {
+          "id": "maho_04.mjo::001112",
+          "source": "　確かなのは、素直に見回りに出るとバカを見ると』",
+          "target": "　곧이곧대로 순찰을 나가 봐야 바보 꼴만 된다는 거죠.』"
+        }
+      ],
+      "context": {
+        "speaker_identity": "경찰관",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "건조하고 의심 어린 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0107",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001119",
+          "source": "「でも、俺は確かに…っ」",
+          "target": "「하지만 전 분명히…!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "경찰관"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "경찰에게 다급한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0108",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001124",
+          "source": "『はい、ですからまずお聞かせ願えますか？",
+          "target": "『네, 그러니까 먼저 말씀해 주시겠어요?"
+        },
+        {
+          "id": "maho_04.mjo::001128",
+          "source": "　あなたのお名前とご住所を』",
+          "target": "　성함과 주소를요.』"
+        }
+      ],
+      "context": {
+        "speaker_identity": "경찰관",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "건조하고 의심 어린 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0109",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001133",
+          "source": "『そちらを確認した後、",
+          "target": "『그걸 확인한 다음에"
+        },
+        {
+          "id": "maho_04.mjo::001137",
+          "source": "　改めて話の続きを聞きましょう』",
+          "target": "　이어서 이야기를 듣도록 하죠.』"
+        }
+      ],
+      "context": {
+        "speaker_identity": "경찰관",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "건조하고 의심 어린 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0110",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001144",
+          "source": "「そんなもん知らなくても捜査くらい…」",
+          "target": "「그런 거 몰라도 수사 정도는…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "경찰관"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "경찰에게 다급한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0111",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001149",
+          "source": "『そちら、いま公衆電話ですか』",
+          "target": "『지금 공중전화로 거신 겁니까?』"
+        }
+      ],
+      "context": {
+        "speaker_identity": "경찰관",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "건조하고 의심 어린 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0112",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001156",
+          "source": "「えっ？」",
+          "target": "「네?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "경찰관"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "경찰에게 다급한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0113",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001161",
+          "source": "『すぐに署員を向かわせるので、お待ちください。",
+          "target": "『바로 경찰관을 보내겠습니다. 기다리세요."
+        },
+        {
+          "id": "maho_04.mjo::001166",
+          "source": "　…いえね、あなたを信じてるんですよ？』",
+          "target": "　…아니, 전 그쪽 말을 믿고 있습니다만?』"
+        }
+      ],
+      "context": {
+        "speaker_identity": "경찰관",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "건조하고 의심 어린 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0114",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001171",
+          "source": "裏腹に信じてないのを隠そうともしない、",
+          "target": "말과는 달리 믿지 않는다는 걸 숨기지도 않는,"
+        },
+        {
+          "id": "maho_04.mjo::001175",
+          "source": "追い詰めるような口調…",
+          "target": "몰아붙이는 듯한 말투…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0115",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001186",
+          "source": "ガチャッ、",
+          "target": "쾅,"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0116",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001191",
+          "source": "叩きつけるように受話器を置くと、",
+          "target": "내리치듯 수화기를 내려놓고"
+        },
+        {
+          "id": "maho_04.mjo::001195",
+          "source": "念の為にその場所を離れる。",
+          "target": "혹시 몰라 그 자리를 떠난다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "담백하되 가벼운 청년 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null,
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "maho_04.mjo::u0117",
+      "fields": [
+        {
+          "id": "maho_04.mjo::001202",
+          "source": "「…どうしろってんだよ…」",
+          "target": "「…어쩌라는 거야…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신원 공개를 피하는 신고자 신야와 의심하는 경찰관",
+        "story_phase": "마호코 루트 / police_call",
+        "voice": "혼잣말·내적 독백",
+        "text_function": "dialogue",
+        "source_display_token": "信哉",
+        "context_read": "maho_04 u0001–0160; complete farewell/bridge/police scenes"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "首刈り女",
+      "target": "목 베는 여자",
+      "evidence": [
+        "maho_04.mjo::u0064",
+        "maho_04.mjo::u0104"
+      ],
+      "reason": "살인 목격과 학교 도시전설에 반복되는 동일 존재의 호칭",
+      "status": "session-2 provisional accepted by coordinator; project-wide final terminology pending"
+    },
+    {
+      "source": "田村",
+      "target": "다무라",
+      "evidence": [
+        "maho_04.mjo::u0050",
+        "maho_04.mjo::u0055"
+      ],
+      "reason": "성씨의 일반 독음 たむら 적용; 음성 독음 대조 미실시",
+      "status": "session-2 provisional accepted by coordinator"
+    }
+  ],
+  "inline_records": [
+    {
+      "unit": "maho_04.mjo::u0007",
+      "id": "maho_04.mjo::000078",
+      "source": "ひとはらん",
+      "target": " ",
+      "consumer": "yazlib $3198fd01 (2), ruby reading argument then base-text argument",
+      "evidence": "research/disassembly/maho_04.mjo.mjil offset 0x002ec; adjacent ldstr pair followed by callp $3198fd01 (2). Original ordinary text and display order checked.",
+      "runtime_note": "Redundant Korean ruby reading is one ASCII space; actual placement and baseline pending runtime check."
+    },
+    {
+      "unit": "maho_04.mjo::u0007",
+      "id": "maho_04.mjo::000079",
+      "source": "一波乱",
+      "target": "한바탕 소동이 ",
+      "consumer": "yazlib $3198fd01 (2), ruby reading argument then base-text argument",
+      "evidence": "research/disassembly/maho_04.mjo.mjil offset 0x002fb; adjacent ldstr pair followed by callp $3198fd01 (2). Original ordinary text and display order checked.",
+      "runtime_note": "Redundant Korean ruby reading is one ASCII space; actual placement and baseline pending runtime check."
+    },
+    {
+      "unit": "maho_04.mjo::u0049",
+      "id": "maho_04.mjo::000614",
+      "source": "ちしぶき",
+      "target": " ",
+      "consumer": "yazlib $3198fd01 (2), ruby reading argument then base-text argument",
+      "evidence": "research/disassembly/maho_04.mjo.mjil offset 0x017dd; adjacent ldstr pair followed by callp $3198fd01 (2). Original ordinary text and display order checked.",
+      "runtime_note": "Redundant Korean ruby reading is one ASCII space; actual placement and baseline pending runtime check."
+    },
+    {
+      "unit": "maho_04.mjo::u0049",
+      "id": "maho_04.mjo::000615",
+      "source": "血飛沫",
+      "target": "핏보라",
+      "consumer": "yazlib $3198fd01 (2), ruby reading argument then base-text argument",
+      "evidence": "research/disassembly/maho_04.mjo.mjil offset 0x017ea; adjacent ldstr pair followed by callp $3198fd01 (2). Original ordinary text and display order checked.",
+      "runtime_note": "Redundant Korean ruby reading is one ASCII space; actual placement and baseline pending runtime check."
+    },
+    {
+      "unit": "maho_04.mjo::u0050",
+      "id": "maho_04.mjo::000632",
+      "source": "かし",
+      "target": " ",
+      "consumer": "yazlib $3198fd01 (2), ruby reading argument then base-text argument",
+      "evidence": "research/disassembly/maho_04.mjo.mjil offset 0x01895; adjacent ldstr pair followed by callp $3198fd01 (2). Original ordinary text and display order checked.",
+      "runtime_note": "Redundant Korean ruby reading is one ASCII space; actual placement and baseline pending runtime check."
+    },
+    {
+      "unit": "maho_04.mjo::u0050",
+      "id": "maho_04.mjo::000633",
+      "source": "傾",
+      "target": "기울",
+      "consumer": "yazlib $3198fd01 (2), ruby reading argument then base-text argument",
+      "evidence": "research/disassembly/maho_04.mjo.mjil offset 0x0189e; adjacent ldstr pair followed by callp $3198fd01 (2). Original ordinary text and display order checked.",
+      "runtime_note": "Redundant Korean ruby reading is one ASCII space; actual placement and baseline pending runtime check."
+    },
+    {
+      "unit": "maho_04.mjo::u0057",
+      "id": "maho_04.mjo::000688",
+      "source": "いんぺい",
+      "target": " ",
+      "consumer": "yazlib $3198fd01 (2), ruby reading argument then base-text argument",
+      "evidence": "research/disassembly/maho_04.mjo.mjil offset 0x01b12; adjacent ldstr pair followed by callp $3198fd01 (2). Original ordinary text and display order checked.",
+      "runtime_note": "Redundant Korean ruby reading is one ASCII space; actual placement and baseline pending runtime check."
+    },
+    {
+      "unit": "maho_04.mjo::u0057",
+      "id": "maho_04.mjo::000689",
+      "source": "隠蔽",
+      "target": "은폐",
+      "consumer": "yazlib $3198fd01 (2), ruby reading argument then base-text argument",
+      "evidence": "research/disassembly/maho_04.mjo.mjil offset 0x01b1f; adjacent ldstr pair followed by callp $3198fd01 (2). Original ordinary text and display order checked.",
+      "runtime_note": "Redundant Korean ruby reading is one ASCII space; actual placement and baseline pending runtime check."
+    },
+    {
+      "unit": "maho_04.mjo::u0070",
+      "id": "maho_04.mjo::000818",
+      "source": "と",
+      "target": " ",
+      "consumer": "yazlib $3198fd01 (2), ruby reading argument then base-text argument",
+      "evidence": "research/disassembly/maho_04.mjo.mjil offset 0x0206f; adjacent ldstr pair followed by callp $3198fd01 (2). Original ordinary text and display order checked.",
+      "runtime_note": "Redundant Korean ruby reading is one ASCII space; actual placement and baseline pending runtime check."
+    },
+    {
+      "unit": "maho_04.mjo::u0070",
+      "id": "maho_04.mjo::000819",
+      "source": "飛",
+      "target": "펄쩍",
+      "consumer": "yazlib $3198fd01 (2), ruby reading argument then base-text argument",
+      "evidence": "research/disassembly/maho_04.mjo.mjil offset 0x02076; adjacent ldstr pair followed by callp $3198fd01 (2). Original ordinary text and display order checked.",
+      "runtime_note": "Redundant Korean ruby reading is one ASCII space; actual placement and baseline pending runtime check."
+    },
+    {
+      "unit": "maho_04.mjo::u0070",
+      "id": "maho_04.mjo::000823",
+      "source": "ずさ",
+      "target": " ",
+      "consumer": "yazlib $3198fd01 (2), ruby reading argument then base-text argument",
+      "evidence": "research/disassembly/maho_04.mjo.mjil offset 0x02092; adjacent ldstr pair followed by callp $3198fd01 (2). Original ordinary text and display order checked.",
+      "runtime_note": "Redundant Korean ruby reading is one ASCII space; actual placement and baseline pending runtime check."
+    },
+    {
+      "unit": "maho_04.mjo::u0070",
+      "id": "maho_04.mjo::000824",
+      "source": "退",
+      "target": "물러",
+      "consumer": "yazlib $3198fd01 (2), ruby reading argument then base-text argument",
+      "evidence": "research/disassembly/maho_04.mjo.mjil offset 0x0209b; adjacent ldstr pair followed by callp $3198fd01 (2). Original ordinary text and display order checked.",
+      "runtime_note": "Redundant Korean ruby reading is one ASCII space; actual placement and baseline pending runtime check."
+    }
+  ],
+  "review_notes": [
+    "u0007/u0049/u0050/u0057/u0070 ordinary text plus inline ruby base reconstructed as full Korean sentences; no internal tokens translated.",
+    "u0050 is not source corruption: ruby base 傾 precedes ordinary いだ to form 傾いだ. Korean recombines 기울 + 어진.",
+    "전화 속 경찰 대사는 source speaker가 null이지만 발화자/수신자를 경찰관→신야로 해석.",
+    "Coordinator review: u0039 emphasizes surprise that Shiina herself will injure his eyes; corrected actor-focused retort."
+  ]
+}

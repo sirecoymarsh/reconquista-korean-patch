@@ -1,0 +1,3508 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-1/lane-1",
+  "coordinator_thread_id": "01a16335-92a2-79c2-814f-63275a46f2b1",
+  "agent_id": "/root/lane_1",
+  "source_script": "00_レコンキスタ_start_2.mjo",
+  "source_sha256": "9d81bc362eb009825acbcb26d4bc28a286a9cae0ffd6047ae32e2be2c3f1f073",
+  "source_packet_sha256": "dd612197a63ea218d04ccab01d26b0dda035013e8c1d385ac16c34042cd2b00d",
+  "contract_revision": "20261022-2-path-and-inline-ownership",
+  "records": [
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0591",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006424",
+          "source": "・・・・・・・・・",
+          "target": "・・・・・・・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0592",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006429",
+          "source": "・・・・・・",
+          "target": "・・・・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0593",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006434",
+          "source": "・・・",
+          "target": "・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0594",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006446",
+          "source": "ガチャ",
+          "target": "철컥."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0595",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006461",
+          "source": "「じゃじゃーんっ」",
+          "target": "「짜자잔!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0596",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006468",
+          "source": "「おっ、よく似合ってるなぁ。",
+          "target": "「오, 아주 잘 어울리는데."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006472",
+          "source": "　どこのおうちのお嬢さんだい？」",
+          "target": "　어느 집 따님이신가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "딸과 장난하며 일부러 정중한 말투 사용",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0597",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006487",
+          "source": "「はーい、槙野さんちのもみじちゃんでーすっ」",
+          "target": "「네에, 마키노네 모미지라고 해요!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "아버지의 장난을 받아 주는 밝은 어린이 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0598",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006494",
+          "source": "「はい、よく出来ました」",
+          "target": "「네, 참 잘했어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "딸과 장난하며 일부러 정중한 말투 사용",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0599",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006509",
+          "source": "「えへへ～」",
+          "target": "「에헤헤~」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0600",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006519",
+          "source": "にへらと笑いながら、",
+          "target": "헤실헤실 웃으며"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006523",
+          "source": "その場でくるりと一回転してみせるもみじ。",
+          "target": "그 자리에서 빙그르 한 바퀴 도는 모미지."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0601",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006528",
+          "source": "朝食後、寝巻きから着替えたもみじは、",
+          "target": "아침을 먹고 잠옷을 갈아입은 모미지는"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006532",
+          "source": "今日から通う小学校の制服を身にまとっていた。",
+          "target": "오늘부터 다닐 초등학교의 교복을 입고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0602",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006537",
+          "source": "ちなみに僕が教鞭を取るミッションスクールと、",
+          "target": "참고로 내가 가르칠 미션 스쿨과"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006541",
+          "source": "もみじの通う小学校は別系列であり、直接の繋がりはない。",
+          "target": "모미지가 다닐 초등학교는 계열이 달라 직접적인 관련은 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0603",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006546",
+          "source": "つまり学校に行ってる間、",
+          "target": "즉, 학교에 가 있는 동안은"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006550",
+          "source": "僕ともみじは完全に離れ離れだった。",
+          "target": "나와 모미지가 완전히 떨어져 지내게 되는 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0604",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006565",
+          "source": "「ねえおとーさん、",
+          "target": "「있지, 아빠."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006569",
+          "source": "　おとーさんはもみじの学校には教えに来ないの？」",
+          "target": "　아빠는 모미지 학교에는 가르치러 안 와?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0605",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006576",
+          "source": "「ああ、残念だけどね」",
+          "target": "「응, 아쉽지만 그렇단다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0606",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006591",
+          "source": "「う～ん、ホント残念…」",
+          "target": "「으음, 정말 아쉽다…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0607",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006598",
+          "source": "「お父さんも学校でもみじに会えなくて寂しいよ」",
+          "target": "「아빠도 학교에서 모미지를 못 만나서 서운해」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0608",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006613",
+          "source": "「おとーさん…」",
+          "target": "「아빠…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0609",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006620",
+          "source": "「もみじ…」",
+          "target": "「모미지…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0610",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006625",
+          "source": "潤んだ目で見つめ合う僕ともみじ。",
+          "target": "촉촉한 눈으로 서로를 바라보는 나와 모미지."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006629",
+          "source": "麗しき親子愛である。",
+          "target": "아름다운 부녀의 사랑이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0611",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006634",
+          "source": "ここに引っ越す前も、",
+          "target": "여기로 이사 오기 전에도"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006638",
+          "source": "もみじが学校へ行っている間は離れ離れだった。",
+          "target": "모미지가 학교에 있는 동안은 떨어져 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0612",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006643",
+          "source": "でも僕は専業主夫だったので、",
+          "target": "하지만 그때 나는 전업주부였으니"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006647",
+          "source": "何かあったらすぐにもみじの元へ飛んで行けた。",
+          "target": "무슨 일이 생기면 곧바로 모미지에게 달려갈 수 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0613",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006652",
+          "source": "しかしこれからはそうはいかないだろう。",
+          "target": "앞으로는 그럴 수 없겠지."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006656",
+          "source": "今は携帯電話があるとはいえ、授業中は電話に出られない。",
+          "target": "휴대전화가 있다지만 수업 중에는 전화를 받을 수 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0614",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006661",
+          "source": "そうそう何かあるとは思えないけど、",
+          "target": "그리 자주 무슨 일이 생기지는 않겠지만,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006665",
+          "source": "それでもイザという時にすぐ対応できないのは不安だった。",
+          "target": "그래도 만일의 경우 바로 대응할 수 없다는 건 불안했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0615",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006680",
+          "source": "「おとーさん、おとーさん」",
+          "target": "「아빠, 아빠」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0616",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006687",
+          "source": "「なんだいもみじ」",
+          "target": "「왜 그러니, 모미지」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0617",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006702",
+          "source": "「…髪、結んでくれる？」",
+          "target": "「…머리 묶어 줄래?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0618",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006709",
+          "source": "「ああ、いいとも」",
+          "target": "「그래, 물론이지」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0619",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006714",
+          "source": "僕は不安を打ち消すように、にっこり笑って頷いた。",
+          "target": "나는 불안을 떨쳐 내듯 활짝 웃으며 고개를 끄덕였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0620",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006723",
+          "source": "シュッ、シュッ、シュッ――",
+          "target": "슥, 슥, 슥―"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0621",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006728",
+          "source": "絹のように滑らかな黒髪に軽くブラシを通し、",
+          "target": "비단처럼 매끄러운 검은 머리에 가볍게 빗을 대고"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006732",
+          "source": "毛先まで真っ直ぐに梳かす。",
+          "target": "머리끝까지 곧게 빗어 내린다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0622",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006737",
+          "source": "もみじの髪は天然１００％のストレートヘア。",
+          "target": "모미지의 머리는 100% 천연 생머리."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006741",
+          "source": "どんな寝ぐせでも数回のブラッシングですぐ元通りだった。",
+          "target": "자다가 아무리 헝클어져도 몇 번만 빗으면 금세 원래대로였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0623",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006746",
+          "source": "そのお手入れいらずの魔法の髪のおかげで、",
+          "target": "손질할 필요도 없는 그 마법 같은 머리 덕에"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006750",
+          "source": "ぶきっちょな僕でもなんとか形を整えることが出来た。",
+          "target": "손재주 없는 나도 그럭저럭 모양을 잡을 수 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0624",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006766",
+          "source": "「さてもみじ姫、今日の髪型はどうする？」",
+          "target": "「자, 모미지 공주님. 오늘은 어떤 머리로 해 드릴까요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "딸과 장난하며 일부러 정중한 말투 사용",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0625",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006781",
+          "source": "「うーんとね、いつものでお願いしまーす」",
+          "target": "「으음, 평소처럼 부탁드려요오」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "아버지의 장난을 받아 주는 밝은 어린이 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0626",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006788",
+          "source": "「はい、かしこまりました」",
+          "target": "「네, 알겠습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "딸과 장난하며 일부러 정중한 말투 사용",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0627",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006798",
+          "source": "僕はもみじお気に入りのリボンを手に取ると、",
+          "target": "모미지가 좋아하는 리본을 집어 들고"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006802",
+          "source": "サイドの髪の少し上を取って一房にまとめる。",
+          "target": "옆머리에서 조금 위쪽 머리카락을 잡아 한데 모은다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0628",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006807",
+          "source": "学校へ行く前に、",
+          "target": "학교에 가기 전에"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006811",
+          "source": "こうやってもみじの髪を結ってあげるのが僕の日課だった。",
+          "target": "이렇게 모미지의 머리를 묶어 주는 게 내 일과였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0629",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006816",
+          "source": "決して手先が器用じゃない僕には、",
+          "target": "손재주가 좋다고는 못 할 나로서는"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006820",
+          "source": "三つ編みとか難しいのは出来ないけど…",
+          "target": "땋은 머리 같은 어려운 건 못 하지만…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0630",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006825",
+          "source": "でも自分に出来る精一杯で、もみじを可愛くしてやりたい。",
+          "target": "그래도 최선을 다해 모미지를 예쁘게 해 주고 싶다."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006829",
+          "source": "それが僕の願いであり、使命でもあった。",
+          "target": "그것이 나의 바람이자 사명이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0631",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006836",
+          "source": "「新しいクラスメイトと早く仲良くなれるように、",
+          "target": "「새 반 친구들과 빨리 친해지려면"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006840",
+          "source": "　目いっぱい可愛くしていかないとね」",
+          "target": "　최대한 예쁘게 하고 가야겠지」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0632",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006855",
+          "source": "「大丈夫だよぉ。",
+          "target": "「괜찮아아."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006859",
+          "source": "　もみじはいつでも目いっぱいかわいいから♪」",
+          "target": "　모미지는 언제나 최고로 귀여우니까♪」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0633",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006866",
+          "source": "「おいおい、すごい自信だなぁ」",
+          "target": "「이런, 자신감이 대단한데」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0634",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006881",
+          "source": "「だっておとーさんが、",
+          "target": "「그야 아빠가"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006885",
+          "source": "　毎朝いっしょうけんめい髪を結んでくれるもん」",
+          "target": "　매일 아침 열심히 머리를 묶어 주잖아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0635",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006890",
+          "source": "事も無げにそう言い切るもみじ。",
+          "target": "아무렇지도 않게 그렇게 단언하는 모미지."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006894",
+          "source": "う、嬉しいことを言ってくれるなぁ。",
+          "target": "기, 기특한 소리를 다 하는구나."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0636",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006899",
+          "source": "けど確かにもみじは可愛いと思う。",
+          "target": "하지만 모미지는 정말 귀엽다고 생각한다."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006903",
+          "source": "親のひいき目を差し引いてもだ（断言）。",
+          "target": "부모라서 좋게 보는 걸 감안해도 그렇다(단언)."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0637",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006908",
+          "source": "これならきっと、すぐにクラスの人気者になるに違いない…",
+          "target": "이 정도면 분명 금방 반에서 인기 있는 아이가 되겠지…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0638",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006917",
+          "source": "…そして同時に、",
+          "target": "…그리고 동시에,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006921",
+          "source": "一目でもみじに好意を抱く男子も少なくないだろう。",
+          "target": "첫눈에 모미지를 좋아하게 되는 남자아이도 적지 않을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0639",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006926",
+          "source": "気の早い奴は早速もみじにラブレターを渡したり、",
+          "target": "성급한 녀석은 곧바로 모미지에게 연애편지를 건네거나"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006930",
+          "source": "はたまた屋上に呼び出して直に告白したりして…",
+          "target": "옥상으로 불러내 직접 고백하기도 하고…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0640",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006935",
+          "source": "それとも更に気の早い奴は、今夜のうちに家に来て、",
+          "target": "아니면 더 성급한 녀석은 오늘 밤 우리 집으로 찾아와"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006939",
+          "source": "『お嬢さんを僕にください』とか言い出したりして…",
+          "target": "『따님을 제게 주십시오』 같은 소릴 꺼내기도 하고…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0641",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006949",
+          "source": "「だ、ダメだダメだぁ！　そんなのお父さん許さないぞっ」",
+          "target": "「아, 안 돼, 안 돼! 아빠는 그런 거 허락 못 한다!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "앞선 상상에 소리 내 반응; 모미지가 이를 듣고 되물음",
+        "text_function": "muttered_dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0642",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006963",
+          "source": "「ふえ？　何が？」",
+          "target": "「응? 뭐가?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0643",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006970",
+          "source": "「…えっ？　あ、いや…何でもないよ、はははは…」",
+          "target": "「…어? 아, 아니… 아무것도 아니야. 하하하하…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0644",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006985",
+          "source": "「？」",
+          "target": "「?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0645",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006990",
+          "source": "つい先走った妄想をしてしまった僕を見上げ、",
+          "target": "혼자 상상의 나래를 펼친 나를 올려다보며"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006994",
+          "source": "もみじは不思議そうに小首を傾げた。",
+          "target": "모미지는 이상하다는 듯 고개를 갸웃했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0646",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::006999",
+          "source": "いかんいかん、親バカも程ほどにしないとな。",
+          "target": "안 되지, 안 돼. 딸 바보도 적당히 해야지."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007003",
+          "source": "あと妙な妄想も…",
+          "target": "이상한 상상도…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0647",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007008",
+          "source": "僕は気を取り直すと、もみじの髪を結ぶのに集中した。",
+          "target": "다시 마음을 가다듬고 모미지의 머리를 묶는 데 집중했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0648",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007017",
+          "source": "・・・・・・・・・",
+          "target": "・・・・・・・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0649",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007022",
+          "source": "・・・・・・",
+          "target": "・・・・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0650",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007027",
+          "source": "・・・",
+          "target": "・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0651",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007038",
+          "source": "「よし、できたよ」",
+          "target": "「자, 다 됐다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0652",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007053",
+          "source": "「えへへっ。ありがとう、おとーさん」",
+          "target": "「에헤헷. 고마워, 아빠」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0653",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007060",
+          "source": "「どういたしまして」",
+          "target": "「천만에」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0654",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007065",
+          "source": "うん、今日のもみじもバッチリ可愛い。",
+          "target": "응, 오늘도 모미지는 아주 귀엽다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0655",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007070",
+          "source": "僕に出来ることは微々たるものだけど、",
+          "target": "내가 할 수 있는 일은 보잘것없지만"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007074",
+          "source": "それでも、もみじが喜んでくれるなら…",
+          "target": "그래도 모미지가 좋아해 준다면…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0656",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007079",
+          "source": "それは僕にとって、かけがえの無い喜びだった。",
+          "target": "그건 내게 무엇과도 바꿀 수 없는 기쁨이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0657",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007086",
+          "source": "「それじゃあ、そろそろ学校へ行こうか」",
+          "target": "「그럼 슬슬 학교에 가 볼까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0658",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007101",
+          "source": "「もみじはいつでも準備おっけーだよ」",
+          "target": "「모미지는 언제든 준비 완료야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0659",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007108",
+          "source": "「忘れ物はないかい？」",
+          "target": "「빠뜨린 건 없니?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0660",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007123",
+          "source": "「うん、だいじょーブイッ」",
+          "target": "「응, 문제없지, 브이!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0661",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007130",
+          "source": "「ハンカチとちり紙は持った？」",
+          "target": "「손수건이랑 휴지는 챙겼어?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0662",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007145",
+          "source": "「ちゃんと持ってるよぉ」",
+          "target": "「잘 챙겼어어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0663",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007152",
+          "source": "「教科書は？」",
+          "target": "「교과서는?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0664",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007167",
+          "source": "「まだ新しい学校のはもらってないよ」",
+          "target": "「새 학교 교과서는 아직 안 받았어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0665",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007174",
+          "source": "「あ、そうか。じゃあ筆箱だけは忘れないようにね」",
+          "target": "「아, 그렇구나. 그럼 필통이라도 잊지 말고 챙기렴」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0666",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007189",
+          "source": "「はーい。お父さんも忘れ物ない？」",
+          "target": "「네에. 아빠도 빠뜨린 거 없어?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0667",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007196",
+          "source": "「うん、大丈夫…だと、思う」",
+          "target": "「응, 괜찮아… 아마도」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0668",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007211",
+          "source": "「ハンカチとちり紙は？」",
+          "target": "「손수건이랑 휴지는?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0669",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007218",
+          "source": "「えっと…あれ？　ないかも」",
+          "target": "「어디 보자… 어라? 없는 것 같은데」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "다정한 아버지의 반말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0670",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007233",
+          "source": "「もー、おとーさんダメじゃないっ」",
+          "target": "「정말, 아빠, 그러면 안 되지!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "모미지",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "밝은 어린이 반말",
+        "text_function": "dialogue",
+        "source_display_token": "もみじ"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0671",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007240",
+          "source": "「すいません…」",
+          "target": "「죄송합니다…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "모미지"
+        ],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "딸의 지적에 일부러 존댓말로 사과",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0672",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007245",
+          "source": "これじゃどっちが親かわからなかった。",
+          "target": "이래서야 누가 부모인지 모르겠다."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007249",
+          "source": "我ながら情けない。",
+          "target": "내가 생각해도 한심하다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0673",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007259",
+          "source": "この後大急ぎで忘れ物の確認をしてから、",
+          "target": "그러고 급히 빠뜨린 물건이 없는지 확인한 뒤"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007263",
+          "source": "僕ともみじは一緒に部屋を出た。",
+          "target": "나와 모미지는 함께 집을 나섰다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "이사 다음 날 아침: 모미지 머리 손질과 등교 준비",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0674",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007303",
+          "source": "もみじと一緒にマンションの部屋を出た僕は、",
+          "target": "모미지와 함께 아파트를 나선 나는"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007307",
+          "source": "まず先にもみじの通う小学校へ向かった。",
+          "target": "먼저 모미지가 다닐 초등학교로 향했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "첫 출근: 초등학교 배웅 후 미션 스쿨 도착",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0675",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007312",
+          "source": "そして職員室で担任の先生に挨拶をし、もみじを預ける。",
+          "target": "교무실에서 담임 선생님께 인사를 드리고 모미지를 맡겼다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "첫 출근: 초등학교 배웅 후 미션 스쿨 도착",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0676",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007317",
+          "source": "この時はさすがに後ろ髪を引かれる思いだったが、",
+          "target": "이때만은 역시 발길이 떨어지지 않았지만,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007321",
+          "source": "もみじが早くクラスに溶け込めるよう祈りながら別れた。",
+          "target": "모미지가 빨리 반에 적응하길 빌며 헤어졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "첫 출근: 초등학교 배웅 후 미션 스쿨 도착",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0677",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007326",
+          "source": "それから改めて、",
+          "target": "그런 뒤 다시"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007330",
+          "source": "僕の勤め先となるミッションスクールの方へ足を向ける…",
+          "target": "내 직장이 될 미션 스쿨로 발길을 돌렸다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "첫 출근: 초등학교 배웅 후 미션 스쿨 도착",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0678",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007342",
+          "source": "「おっ、ここだな」",
+          "target": "「오, 여기구나」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "첫 출근: 초등학교 배웅 후 미션 스쿨 도착",
+        "voice": "혼잣말/내적 독백",
+        "text_function": "inner_monologue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0679",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007347",
+          "source": "事前に教えられていた学校名と、",
+          "target": "미리 들은 학교 이름과"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007351",
+          "source": "校門に書かれた英字を照らし合わせる僕。",
+          "target": "교문에 적힌 영문자를 대조해 본다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "첫 출근: 초등학교 배웅 후 미션 스쿨 도착",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0680",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007356",
+          "source": "その結果、ここが目的の場所に間違いないことを確認した。",
+          "target": "그 결과, 여기가 목적지인 게 틀림없다는 걸 확인했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "첫 출근: 초등학교 배웅 후 미션 스쿨 도착",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0681",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007363",
+          "source": "「ま、この街の学校は二つしかないらしいから、",
+          "target": "「뭐, 이 동네엔 학교가 둘뿐이라니"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007367",
+          "source": "　間違えようがないだろうけど」",
+          "target": "　잘못 찾아갈 일도 없겠지만」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "첫 출근: 초등학교 배웅 후 미션 스쿨 도착",
+        "voice": "혼잣말/내적 독백",
+        "text_function": "inner_monologue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0682",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007372",
+          "source": "その二つとはつまりもみじの通う小学校であり、",
+          "target": "그 둘이란 곧 모미지가 다니는 초등학교와"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007376",
+          "source": "このミッションスクールのことだった。",
+          "target": "이 미션 스쿨이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "첫 출근: 초등학교 배웅 후 미션 스쿨 도착",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0683",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007383",
+          "source": "「さて、いよいよだな…」",
+          "target": "「자, 드디어 시작이구나…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "첫 출근: 초등학교 배웅 후 미션 스쿨 도착",
+        "voice": "혼잣말/내적 독백",
+        "text_function": "inner_monologue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0684",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007388",
+          "source": "なんせ前に教師をしてたのはもみじが生まれる前だから、",
+          "target": "마지막으로 교사를 한 게 모미지가 태어나기 전이니"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007392",
+          "source": "以前のようにちゃんと出来るか自信は無い。",
+          "target": "예전처럼 제대로 할 수 있을지 자신은 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "첫 출근: 초등학교 배웅 후 미션 스쿨 도착",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0685",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007397",
+          "source": "けどもみじの為にも、しっかりと働いてお金を稼がないと。",
+          "target": "하지만 모미지를 위해서라도 열심히 일해서 돈을 벌어야지."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "첫 출근: 초등학교 배웅 후 미션 스쿨 도착",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0686",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007404",
+          "source": "「よし、行くぞっ」",
+          "target": "「좋아, 가자!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "첫 출근: 초등학교 배웅 후 미션 스쿨 도착",
+        "voice": "혼잣말/내적 독백",
+        "text_function": "inner_monologue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0687",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007409",
+          "source": "自分に発破をかけつつ、",
+          "target": "스스로 기합을 넣으며"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007413",
+          "source": "僕はミッションスクールの校門を潜った。",
+          "target": "미션 스쿨의 교문을 들어섰다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "마키노와 어린 딸 모미지",
+        "story_phase": "첫 출근: 초등학교 배웅 후 미션 스쿨 도착",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0688",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007426",
+          "source": "ガラガラガラ…",
+          "target": "드르르륵…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0689",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007437",
+          "source": "「失礼します」",
+          "target": "「실례합니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "교무실에 있는 교직원"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0690",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007442",
+          "source": "校舎の中に入り、通りがかりの生徒に道を訊きながら、",
+          "target": "교사 안으로 들어가 지나가는 학생에게 길을 물으며"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007446",
+          "source": "職員室までたどり着いた。",
+          "target": "교무실까지 찾아왔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0691",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007451",
+          "source": "ミッションスクールというからどんな所かと思ったが、",
+          "target": "미션 스쿨이라 어떤 곳일까 했는데,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007455",
+          "source": "校舎の中も職員室もいたって普通で少し安心する。",
+          "target": "교사 안도 교무실도 지극히 평범해서 조금 안심이 된다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0692",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007462",
+          "source": "「あの、すみません。",
+          "target": "「저, 실례합니다."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007466",
+          "source": "　今日からこの学校でお世話になる槙野と申しますが」",
+          "target": "　오늘부터 이 학교에서 일하게 된 마키노라고 합니다만」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "교무실에 있는 교직원"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0693",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007473",
+          "source": "「ああ、お待ちしておりました」",
+          "target": "「아, 기다리고 있었습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "＊＊＊"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0694",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007485",
+          "source": "「ようこそ我が校へ。歓迎しますよ、槙野先生」",
+          "target": "「저희 학교에 오신 것을 환영합니다, 마키노 선생님」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "＊＊＊"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0695",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007492",
+          "source": "「あ、ありがとうございます。えーっと…」",
+          "target": "「아, 감사합니다. 그러니까…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0696",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007504",
+          "source": "「申し遅れました。私はこの学校の礼拝堂付きの牧師で、",
+          "target": "「소개가 늦었군요. 이 학교 예배당의 목사인"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007508",
+          "source": "　汐見といいます。どうぞよろしく」",
+          "target": "　시오미라고 합니다. 잘 부탁드립니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "＊＊＊"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0697",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007515",
+          "source": "「汐見先生ですか。こちらこそよろしくお願いします」",
+          "target": "「시오미 선생님이시군요. 저야말로 잘 부탁드립니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0698",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007520",
+          "source": "まだ若い牧師先生の丁寧な自己紹介に、",
+          "target": "아직 젊은 목사 선생님이 정중하게 자기소개를 하기에"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007524",
+          "source": "僕も恐縮して挨拶を返した。",
+          "target": "나도 몸 둘 바를 모르며 인사를 돌려드렸다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0699",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007529",
+          "source": "汐見先生か…歳は僕より少し下くらいだろう。",
+          "target": "시오미 선생님이라… 나보다 조금 어리겠지."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007533",
+          "source": "しかしとても理知的で落ち着いた雰囲気があった。",
+          "target": "하지만 아주 지적이고 차분한 분위기가 느껴졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0700",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007538",
+          "source": "牧師という職業がそう思わせるのか、彼自身の人柄なのか。",
+          "target": "목사라는 직업 때문에 그렇게 느껴지는 걸까, 그 사람의 인품일까."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007542",
+          "source": "とにかく親切で頼もしそうな感じがする。",
+          "target": "아무튼 친절하고 믿음직한 분 같았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0701",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007549",
+          "source": "「来たばかりで色々とわからないことだらけですが、",
+          "target": "「온 지 얼마 안 돼 모르는 것투성이입니다만,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007553",
+          "source": "　ご指導よろしくお願いします」",
+          "target": "　잘 지도해 주십시오」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0702",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007565",
+          "source": "「勿論です。微力ながら槙野先生のお力になれるよう、",
+          "target": "「물론입니다. 부족하나마 마키노 선생님께 도움이 되도록"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007569",
+          "source": "　努力いたしますので」",
+          "target": "　노력하겠습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0703",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007574",
+          "source": "それは実にありがたい言葉だった。",
+          "target": "정말 고마운 말이었다."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007578",
+          "source": "これならこの学校にも早く馴染めそうだ。",
+          "target": "이러면 이 학교에도 빨리 적응할 수 있을 것 같다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0704",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007590",
+          "source": "「槙野先生の机は、こちらを使ってください。",
+          "target": "「마키노 선생님은 이 책상을 쓰시면 됩니다."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007594",
+          "source": "　引き出しの鍵は中に入ってますので」",
+          "target": "　서랍 열쇠는 안에 들어 있습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0705",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007601",
+          "source": "「ありがとうございます」",
+          "target": "「감사합니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0706",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007611",
+          "source": "汐見先生に席の場所を教えてもらい、",
+          "target": "시오미 선생님께 자리를 안내받고"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007615",
+          "source": "まずは教科書類を詰め込んだ鞄を置く。",
+          "target": "먼저 교과서 등을 가득 넣은 가방을 내려놓는다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0707",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007620",
+          "source": "教える学年によって教科書や参考書が違うので、",
+          "target": "가르치는 학년에 따라 교과서와 참고서가 다르다 보니"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007624",
+          "source": "鞄はパンパンに膨れ上がって重たかったのなんのって…",
+          "target": "가방이 터질 듯 꽉 차서 얼마나 무거웠는지…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0708",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007632",
+          "source": "キーンコーンカーンコーン",
+          "target": "딩동댕동."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0709",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007637",
+          "source": "そこでチャイムが鳴り、時計を確認する。",
+          "target": "그때 종이 울려 시계를 확인한다."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007641",
+          "source": "時刻的に見て今のは予鈴だろう。",
+          "target": "시간으로 보아 방금 건 예비종이겠지."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0710",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007646",
+          "source": "確か今日は１限目から、僕が担当する授業があった筈。",
+          "target": "분명 오늘은 1교시부터 내가 맡은 수업이 있을 것이다."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007650",
+          "source": "もみじの学校へ寄っていたので結構ギリギリだったようだ。",
+          "target": "모미지 학교에 들렀더니 시간이 제법 빠듯해진 모양이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0711",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007662",
+          "source": "「槙野先生は、",
+          "target": "「마키노 선생님은"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007666",
+          "source": "　１限目から二年のクラスで現国の授業でしたね」",
+          "target": "　1교시부터 2학년 반에서 현대국어 수업이 있으시죠」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0712",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007673",
+          "source": "「あ、はい。そうなんです」",
+          "target": "「아, 네. 그렇습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0713",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007685",
+          "source": "「では私も隣のクラスで聖書の授業があるので、",
+          "target": "「그럼 저도 옆 반에서 성경 수업이 있으니"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007689",
+          "source": "　一緒に行きましょうか」",
+          "target": "　함께 가실까요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0714",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007696",
+          "source": "「はい、是非お願いします」",
+          "target": "「네, 부탁드리겠습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0715",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007706",
+          "source": "僕は早速汐見先生の好意に甘えることにした。",
+          "target": "벌써부터 시오미 선생님의 호의에 기대기로 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0716",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007718",
+          "source": "「汐見先生、ちょっと聞いてもいいですか？」",
+          "target": "「시오미 선생님, 한 가지 여쭤봐도 될까요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0717",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007730",
+          "source": "「はい、なんでしょう」",
+          "target": "「네, 뭔가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0718",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007735",
+          "source": "教室まで向かう道すがら、",
+          "target": "교실로 가는 길에"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007739",
+          "source": "折角なので気になったことを質問してみることにした。",
+          "target": "모처럼이니 궁금했던 것을 물어보기로 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0719",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007746",
+          "source": "「ミッションスクールってことは、",
+          "target": "「미션 스쿨이라는 건"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007750",
+          "source": "　ここはキリスト教系の学校なんですよね」",
+          "target": "　여기가 기독교 계열 학교라는 거죠?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0720",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007762",
+          "source": "「そうですよ。うちはプロテスタント派ですが」",
+          "target": "「그렇습니다. 저희는 개신교 계열입니다만」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0721",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007769",
+          "source": "「それじゃやっぱり、",
+          "target": "「그럼 역시"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007773",
+          "source": "　生徒達もクリスチャンが多いんですか」",
+          "target": "　학생들도 기독교인이 많나요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0722",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007785",
+          "source": "「いえ、決してそんなことはないですよ。残念ながら」",
+          "target": "「아뇨, 꼭 그렇지만은 않습니다. 아쉽게도요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0723",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007792",
+          "source": "「あ、そうなんですか」",
+          "target": "「아, 그런가요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0724",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007804",
+          "source": "「中にはこの学校に入ってから入信される生徒もいますが、",
+          "target": "「이 학교에 들어온 뒤 신앙을 갖는 학생도 있지만"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007808",
+          "source": "　それは非常に稀有な例ですね」",
+          "target": "　그건 아주 드문 경우지요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0725",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007820",
+          "source": "「だから槙野先生もあまり気にせず、",
+          "target": "「그러니 마키노 선생님도 너무 신경 쓰지 마시고"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007824",
+          "source": "　今まで通り授業をやっていただければ結構ですから」",
+          "target": "　지금까지 하시던 대로 수업하시면 됩니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0726",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007831",
+          "source": "「ははは…が、頑張ります」",
+          "target": "「하하하… 여, 열심히 하겠습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0727",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007836",
+          "source": "『今まで通り』と言われても、",
+          "target": "『지금까지 하던 대로』라고 해도"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007840",
+          "source": "僕にはかなりのブランクがあった。",
+          "target": "내게는 상당한 공백이 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0728",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007845",
+          "source": "勿論この仕事に就くことが決まってから、",
+          "target": "물론 이 일을 하기로 정해진 뒤"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007849",
+          "source": "出来る限りは勉強し直したけど…",
+          "target": "할 수 있는 한 다시 공부하긴 했지만…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0729",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007854",
+          "source": "それでもやはり不安は尽きなかった。",
+          "target": "그래도 역시 불안은 가시질 않았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0730",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007866",
+          "source": "「着きましたよ。槙野先生の受け持ちはこのクラスです」",
+          "target": "「다 왔습니다. 마키노 선생님께서 맡으실 반은 여기예요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0731",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007871",
+          "source": "しばらく歩いた後、ついに目的の教室にたどり着いた。",
+          "target": "한동안 걸은 끝에 마침내 목적지인 교실에 도착했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0732",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007876",
+          "source": "いよいよかぁ…うう、緊張してきたぞ。",
+          "target": "드디어 시작인가… 으으, 긴장된다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0733",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007888",
+          "source": "「それでは、私は隣のクラスで授業があるので」",
+          "target": "「그럼 저는 옆 반에서 수업이 있어서요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0734",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007895",
+          "source": "「はい。案内してくださって、",
+          "target": "「네. 안내해 주셔서"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007899",
+          "source": "　ありがとうございました」",
+          "target": "　감사합니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0735",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007911",
+          "source": "「いえいえ、それでは」",
+          "target": "「별말씀을요. 그럼」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "처음 만난 동료 교사에게 정중한 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "汐見"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0736",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007921",
+          "source": "汐見先生はさわやかな笑顔を浮かべて",
+          "target": "시오미 선생님은 산뜻한 미소를 지으며"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007925",
+          "source": "隣の教室へと入っていった。",
+          "target": "옆 교실로 들어갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0737",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007933",
+          "source": "キーンコーンカーンコーン…",
+          "target": "딩동댕동…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0738",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007941",
+          "source": "そして同時に１限目の開始を告げるチャイムが鳴る。",
+          "target": "동시에 1교시 시작을 알리는 종이 울린다."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007945",
+          "source": "もう躊躇してる時間は無かった。",
+          "target": "더는 망설일 시간이 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0739",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007952",
+          "source": "「（よ、よーし。いくぞっ）」",
+          "target": "「(조, 좋아. 가자!)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "혼잣말/내적 독백",
+        "text_function": "inner_monologue",
+        "source_display_token": "槙野"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0740",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007957",
+          "source": "教室の前で一度大きく深呼吸してから、",
+          "target": "교실 앞에서 한 번 크게 심호흡을 하고"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007961",
+          "source": "僕は引き戸に手をかけた。",
+          "target": "미닫이문에 손을 댔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "신임 교사 마키노와 목사 겸 종교 교사 시오미의 첫 만남",
+        "story_phase": "첫 출근: 교무실과 복도에서 시오미와 인사",
+        "voice": "담백한 아버지의 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [],
+  "inline_records": [],
+  "review_notes": [
+    {
+      "scope": "u0591-u0673",
+      "note": "모미지는 명시적 초등학생인 딸. 대학 과정 설정을 적용하지 않음. 아버지의 앞선 결혼 걱정은 원문의 비성적 부모 과잉 걱정 농담 그대로 번역."
+    },
+    {
+      "scope": [
+        "u0630",
+        "u0641"
+      ],
+      "note": "u0630의 自分に出来る精一杯를 최선을 다해로 간결히 보존해 예상 31셀 초과 해소. u0641은 모미지가 듣는 소리 낸 혼잣말로 메타데이터 구분."
+    }
+  ],
+  "display_literal_audit": []
+}

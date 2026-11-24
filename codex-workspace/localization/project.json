@@ -1,0 +1,13 @@
+{
+  "schema": "contextual-game-localization.legacy-project.v1",
+  "project_name": "레콘퀴스타 한국어화",
+  "created_utc": "2026-10-22T07:32:44.328359Z",
+  "status": "discovery",
+  "game_root": "P:\\GAME\\Reqonquist Novel H",
+  "game_root_policy": "read_only_until_explicit_install",
+  "source_inventory": "audit/original_inventory.json",
+  "source_inventory_sha256": "1b6f4c54ec37166092ace246f37eec9b1b860ab6c5c9977b17d497e15dc4db19",
+  "requested_delivery": null,
+  "patched_game_dir": null,
+  "launch_this_exe": null
+}

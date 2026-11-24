@@ -1,0 +1,514 @@
+{
+  "translator_model": "Codex internal",
+  "stage": "source_inventory_only_no_semantic_draft",
+  "sources": [
+    {
+      "id": "stream::recon_ed_inst.ogg",
+      "source_archive": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\stream.arc",
+      "offset": 49459845,
+      "bytes": 3921244,
+      "sha256": "eace7d88b864de4a82a512e62a18bd624cc28344429de30b66bdd14fab0198c8",
+      "metadata": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "vorbis",
+            "codec_long_name": "Vorbis",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 10378752,
+            "duration": "235.345850",
+            "bit_rate": "128000",
+            "extradata_size": 4218,
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            }
+          }
+        ],
+        "format": {
+          "filename": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\source\\op-ed\\recon_ed_inst.ogg",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "ogg",
+          "format_long_name": "Ogg",
+          "start_time": "0.000000",
+          "duration": "235.345850",
+          "size": "3921244",
+          "bit_rate": "133292",
+          "probe_score": 100
+        }
+      }
+    },
+    {
+      "id": "stream::recon_op_1c.ogg",
+      "source_archive": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\stream.arc",
+      "offset": 53381089,
+      "bytes": 1515383,
+      "sha256": "d0e22231b1deb9eb6a229f19fac15dd9962deae76beca5f35be0d4e14b56fd3b",
+      "metadata": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "vorbis",
+            "codec_long_name": "Vorbis",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 4151168,
+            "duration": "94.130794",
+            "bit_rate": "128000",
+            "extradata_size": 4218,
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            }
+          }
+        ],
+        "format": {
+          "filename": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\source\\op-ed\\recon_op_1c.ogg",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "ogg",
+          "format_long_name": "Ogg",
+          "start_time": "0.000000",
+          "duration": "94.130794",
+          "size": "1515383",
+          "bit_rate": "128789",
+          "probe_score": 100
+        }
+      }
+    },
+    {
+      "id": "stream::recon_op_full.ogg",
+      "source_archive": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\stream.arc",
+      "offset": 54896472,
+      "bytes": 4086088,
+      "sha256": "c90f982570e0a14dc4399b8173ee10d444c2c3ab7f402c7bf6c90879b2d35542",
+      "metadata": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "vorbis",
+            "codec_long_name": "Vorbis",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 11452416,
+            "duration": "259.691973",
+            "bit_rate": "128000",
+            "extradata_size": 4218,
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            }
+          }
+        ],
+        "format": {
+          "filename": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\source\\op-ed\\recon_op_full.ogg",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "ogg",
+          "format_long_name": "Ogg",
+          "start_time": "0.000000",
+          "duration": "259.691973",
+          "size": "4086088",
+          "bit_rate": "125874",
+          "probe_score": 100
+        }
+      }
+    },
+    {
+      "id": "stream::recon_ed.ogg",
+      "source_archive": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\stream.arc",
+      "offset": 45662977,
+      "bytes": 3796868,
+      "sha256": "ac27b9f3ba3f780752c71b9aeff8e1319c05471764f46c370f2fa625dcb1026b",
+      "metadata": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "vorbis",
+            "codec_long_name": "Vorbis",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 10337408,
+            "duration": "234.408345",
+            "bit_rate": "128000",
+            "extradata_size": 4218,
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            }
+          }
+        ],
+        "format": {
+          "filename": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\source\\op-ed\\recon_ed.ogg",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "ogg",
+          "format_long_name": "Ogg",
+          "start_time": "0.000000",
+          "duration": "234.408345",
+          "size": "3796868",
+          "bit_rate": "129581",
+          "probe_score": 100
+        }
+      }
+    },
+    {
+      "id": "stream::recon_op_inst.ogg",
+      "source_archive": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\stream.arc",
+      "offset": 58982560,
+      "bytes": 4199686,
+      "sha256": "10203ae39389514a12d41670f4100cf75cc5aa26112d53aa189015f83d18fddf",
+      "metadata": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "vorbis",
+            "codec_long_name": "Vorbis",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 11558460,
+            "duration": "262.096599",
+            "bit_rate": "128000",
+            "extradata_size": 4218,
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            }
+          }
+        ],
+        "format": {
+          "filename": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\source\\op-ed\\recon_op_inst.ogg",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "ogg",
+          "format_long_name": "Ogg",
+          "start_time": "0.000000",
+          "duration": "262.096599",
+          "size": "4199686",
+          "bit_rate": "128187",
+          "probe_score": 100
+        }
+      }
+    },
+    {
+      "id": "movie::Recon_OP800_H.mpg",
+      "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\movie\\Recon_OP800_H.mpg",
+      "bytes": 96694276,
+      "sha256": "6da04d09fd954c67b004b6cecfe22fd89da473cbf60fd74856d2170a1972995a",
+      "metadata": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "mpeg1video",
+            "codec_long_name": "MPEG-1 video",
+            "codec_type": "video",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "width": 800,
+            "height": 600,
+            "coded_width": 0,
+            "coded_height": 0,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 1,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "4:3",
+            "pix_fmt": "yuv420p",
+            "level": -99,
+            "color_range": "tv",
+            "chroma_location": "center",
+            "field_order": "progressive",
+            "refs": 1,
+            "id": "0x1e0",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "30/1",
+            "time_base": "1/90000",
+            "start_pts": 15857,
+            "start_time": "0.176189",
+            "duration_ts": 9109500,
+            "duration": "101.216667",
+            "bit_rate": "104857200",
+            "extradata_size": 76,
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "side_data_list": [
+              {
+                "side_data_type": "CPB properties",
+                "max_bitrate": 0,
+                "min_bitrate": 0,
+                "avg_bitrate": 0,
+                "buffer_size": 1835008,
+                "vbv_delay": -1
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "codec_name": "mp2",
+            "codec_long_name": "MP2 (MPEG audio layer 2)",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "s16p",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x1c0",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/90000",
+            "start_pts": 15857,
+            "start_time": "0.176189",
+            "duration_ts": 9112555,
+            "duration": "101.250611",
+            "bit_rate": "256000",
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            }
+          }
+        ],
+        "format": {
+          "filename": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\movie\\Recon_OP800_H.mpg",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mpeg",
+          "format_long_name": "MPEG-PS (MPEG-2 Program Stream)",
+          "start_time": "0.176189",
+          "duration": "101.250611",
+          "size": "96694276",
+          "bit_rate": "7639995",
+          "probe_score": 26
+        }
+      }
+    },
+    {
+      "id": "fastdata::staffrolla.rct",
+      "decoded_mode": "RGB",
+      "decoded_size": [
+        800,
+        4664
+      ],
+      "extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ]
+    },
+    {
+      "id": "fastdata::staffrolla_.rc8",
+      "decoded_mode": "P",
+      "decoded_size": [
+        800,
+        4664
+      ],
+      "extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "op_frames": "evidence/op-ed-source/op-contact.png",
+  "ed_b_frames": "evidence/op-ed-source/staffrollb-contact.png",
+  "runtime": "user_final_review_pending"
+}

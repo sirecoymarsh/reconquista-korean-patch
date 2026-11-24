@@ -1,0 +1,4744 @@
+{
+  "translator_model": "Codex internal",
+  "recorded_at": "2026-10-23T07:47:38+09:00",
+  "status": "headless_pass_final_visual_by_user",
+  "snapshot": "session1-04fc30b0-widthqa-v1",
+  "snapshot_sha256": "19ac94342116cd2d07f1bb2a4f5b7612b18c230665368c34f4fff606108c7901",
+  "scenario_sha256": "3a72a9ff2b7c85945e8c34877a3fa16702debeef8ba83a31c4aa249c8d62eb84",
+  "font_sha256": "1b8537ad55a8f250c1ec46d3393ad3864d971dc5cf36fd00eec5ace9252fa8f8",
+  "font_map_sha256": "88f47300d0f68fc95364f6459f59f01a79d57fcb7545644d3f66d309d1512863",
+  "warning_corpus_sha256": "4ac109b1e676116ee4a5f6cf17b1ed33c6e2012114a5e9602694d30bedcd3097",
+  "warnings_checked": 81,
+  "units_checked": 80,
+  "compiled_body_fields_checked": 153,
+  "width_or_height_overflows": 0,
+  "semantic_text_changes_for_width": 0,
+  "mode_counts": {
+    "0": 71,
+    "4": 3,
+    "2": 6
+  },
+  "native_evidence": "reports/session1-width-native-evidence-20261023.json",
+  "native_text_function": "0x4161f0",
+  "native_font_setup_reused": "0x413890 / reports/native-evidence-20261022.json",
+  "controls_evidence": "0x414900: n advances line; p waits; w clears",
+  "earlier_individual_width_probe_reused": {
+    "method": "Native FUN_00413890 font setup plus FUN_004161f0 per-CP932-character GetTextExtentPoint32A; ceil at4x",
+    "count": 81,
+    "scale1": {
+      "min_px": 283,
+      "max_px": 341,
+      "over692": 0
+    },
+    "scale4": {
+      "min_px": 320,
+      "max_px": 383,
+      "over692": 0
+    },
+    "font_family": "Reconquista KR fd641824",
+    "font_setup": {
+      "height": 23,
+      "half_width": 11,
+      "charset": 1,
+      "quality": 3,
+      "odd_height_width_correction": "scale//2"
+    },
+    "source": "headless GDI measurement completed2026-10-23; all81 warning targets tested in each scale",
+    "native_function_evidence_id": "ev_fb87ccbcc10f6863de21a3a8d24b59c0292d2b458573ab885f569bfedc4dd5f1",
+    "native_font_evidence_reused": "reports/native-evidence-20261022.json / procedure0x413890",
+    "not_an_in_game_capture": true
+  },
+  "font_gdi_reports_reused": [
+    "reports/font-gdi-body-sans.json",
+    "reports/font-gdi-body-serif.json"
+  ],
+  "semantic_batches_reused": 166,
+  "scope": "Offscreen Windows GDI metrics plus compiled text/control-flow replay; no game window executed or visually accepted. No wrapping required for these80 units under source mode0/2/4.",
+  "limits": [
+    "Mode0 is the normal story-entry assumption when no preceding console_mode call exists. Explicit source mode2/4 is restored in manual replay.",
+    "Exact final raster compositing, actual choices interaction, route execution, save/load and visual typography remain the user final check."
+  ],
+  "units": [
+    {
+      "number": 1,
+      "unit": "00_レコンキスタ_start_3.mjo::u1142",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_3.mjo::012354",
+          "role": "text",
+          "source": "さっきの詩菜が言った『送りオオカミ』云々。",
+          "target": "아까 시이나가 말한 『데려다준다며 딴맘 먹는 늑대』니 뭐니 하던 것."
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::012358",
+          "role": "text",
+          "source": "あれはただの口実ではなかったのか。",
+          "target": "그건 그저 핑계가 아니었을까."
+        }
+      ],
+      "warning_ids": [
+        "00_レコンキスタ_start_3.mjo::012354"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 303,
+          "right_with_indent_outline_margin_px": 328,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 341,
+          "right_with_indent_outline_margin_px": 366,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 2,
+      "unit": "kureha_06.mjo::u0005",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000058",
+          "role": "text",
+          "source": "僕はもみじの後頭部に向かって謝った。",
+          "target": "나는 모미지의 뒤통수를 향해 사과했다."
+        },
+        {
+          "id": "kureha_06.mjo::000062",
+          "role": "text",
+          "source": "濡れ羽色の黒髪に寝ぼけた顔が映りこみそうで恥ずかしい。",
+          "target": "윤기 흐르는 검은 머리에 잠 덜 깬 내 얼굴이 비칠 것 같아 부끄러웠다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_06.mjo::000062"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 297,
+          "right_with_indent_outline_margin_px": 322,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 337,
+          "right_with_indent_outline_margin_px": 362,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 3,
+      "unit": "kureha_06.mjo::u0052",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000563",
+          "role": "text",
+          "source": "それは事件の全貌が何も分かってないからか。それとも、",
+          "target": "사건의 전모를 전혀 모르기 때문일까. 아니면,"
+        },
+        {
+          "id": "kureha_06.mjo::000567",
+          "role": "text",
+          "source": "『暮葉に生きていて欲しい』という願望がそう思わせるのか。",
+          "target": "『쿠레하가 살아 있었으면 좋겠다』는 바람 때문에 그렇게 느끼는 걸까."
+        }
+      ],
+      "warning_ids": [
+        "kureha_06.mjo::000567"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 311,
+          "right_with_indent_outline_margin_px": 336,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 349,
+          "right_with_indent_outline_margin_px": 374,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 4,
+      "unit": "kureha_06.mjo::u0083",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_06.mjo::000892",
+          "role": "text",
+          "source": "まずいな…吉森は田村の件を完全に怪しんでいる。",
+          "target": "곤란하네… 요시모리는 다무라의 일을 완전히 수상하게 여기고 있다."
+        },
+        {
+          "id": "kureha_06.mjo::000896",
+          "role": "text",
+          "source": "もう体調不良では誤魔化しきれない。",
+          "target": "이제 몸이 안 좋다는 말로는 더 속일 수 없다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_06.mjo::000892"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 298,
+          "right_with_indent_outline_margin_px": 323,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 334,
+          "right_with_indent_outline_margin_px": 359,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 5,
+      "unit": "kureha_06.mjo::u0144",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_06.mjo::001555",
+          "role": "text",
+          "source": "義父は現在、島の南方に位置する霊園で管理人をしていた。",
+          "target": "장인은 현재 섬 남쪽에 있는 공원묘지에서 관리인으로 일하고 있었다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_06.mjo::001555"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 299,
+          "right_with_indent_outline_margin_px": 324,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 336,
+          "right_with_indent_outline_margin_px": 361,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 6,
+      "unit": "kureha_06.mjo::u0195",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002110",
+          "role": "text",
+          "source": "この街では今、水面下で異常な事態が起きている。",
+          "target": "지금 이곳에서는 겉으로 드러나지 않은 채 이상한 일이 벌어지고 있다."
+        },
+        {
+          "id": "kureha_06.mjo::002114",
+          "role": "text",
+          "source": "死んだ人間に瓜二つの者が、生きてる人間を殺すという――",
+          "target": "죽은 사람과 똑같이 생긴 사람이 산 사람을 죽인다는――"
+        }
+      ],
+      "warning_ids": [
+        "kureha_06.mjo::002110"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 301,
+          "right_with_indent_outline_margin_px": 326,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 339,
+          "right_with_indent_outline_margin_px": 364,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 7,
+      "unit": "kureha_06.mjo::u0206",
+      "console_mode": 4,
+      "source_mode_call_index": 2185,
+      "geometry": {
+        "width": 690,
+        "height": 88,
+        "font_y": 19,
+        "font_x": 9,
+        "step": 23
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_06.mjo::002225",
+          "role": "text",
+          "source": "夕刻。祖父に見送られ、霊園を後にする槙野親子。",
+          "target": "해 질 무렵. 할아버지의 배웅을 받으며 공원묘지를 떠나는 마키노 부녀."
+        }
+      ],
+      "warning_ids": [
+        "kureha_06.mjo::002225"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 248,
+          "right_with_indent_outline_margin_px": 269,
+          "bottom_with_line_outline_margin_px": 23,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 285,
+          "right_with_indent_outline_margin_px": 306,
+          "bottom_with_line_outline_margin_px": 23,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 8,
+      "unit": "kureha_07.mjo::u0068",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_07.mjo::000777",
+          "role": "text",
+          "source": "普段はそうでもないのだが、",
+          "target": "평소에는 그러지 않지만,"
+        },
+        {
+          "id": "kureha_07.mjo::000781",
+          "role": "text",
+          "source": "声がいい感じに響く風呂場で歌うのは気持ちいいらしい。",
+          "target": "목소리가 듣기 좋게 울리는 욕실에서 노래하면 기분이 좋은 모양이다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_07.mjo::000781"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 299,
+          "right_with_indent_outline_margin_px": 324,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 336,
+          "right_with_indent_outline_margin_px": 361,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 9,
+      "unit": "kureha_07.mjo::u0128",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_07.mjo::001444",
+          "role": "text",
+          "source": "今のところ田村以降の新たな犠牲者は出ていない…と思う。",
+          "target": "지금까지 다무라 이후로 새로운 희생자는 나오지 않았다…고 생각한다."
+        },
+        {
+          "id": "kureha_07.mjo::001448",
+          "role": "text",
+          "source": "いや正確には、まだ該当者が出ていないだけだった。",
+          "target": "아니, 정확히는 아직 해당하는 사람이 나타나지 않았을 뿐이다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_07.mjo::001444"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 308,
+          "right_with_indent_outline_margin_px": 333,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 345,
+          "right_with_indent_outline_margin_px": 370,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 10,
+      "unit": "kureha_08.mjo::u0065",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_08.mjo::000667",
+          "role": "speaker_token",
+          "source": "槙野",
+          "target": "槙野"
+        },
+        {
+          "id": "kureha_08.mjo::000669",
+          "role": "text",
+          "source": "「まさか『嫌な予感がして娘が心配だから』って理由で、",
+          "target": "「아무리 그래도 『불길한 예감이 들어서 딸이 걱정된다』는 이유로"
+        },
+        {
+          "id": "kureha_08.mjo::000673",
+          "role": "text",
+          "source": "　授業を放棄するわけにもいかないからな…」",
+          "target": "　수업을 내팽개칠 수는 없으니까…」"
+        }
+      ],
+      "warning_ids": [
+        "kureha_08.mjo::000669"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 297,
+          "right_with_indent_outline_margin_px": 322,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 332,
+          "right_with_indent_outline_margin_px": 357,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 11,
+      "unit": "kureha_08.mjo::u0192",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_08.mjo::001872",
+          "role": "text",
+          "source": "僕は見た。繁華街の奥に、黒髪と黒いセーラ服の影が一つ。",
+          "target": "나는 보았다. 번화가 안쪽에 검은 머리와 검은 세일러복 차림의 그림자 하나를."
+        }
+      ],
+      "warning_ids": [
+        "kureha_08.mjo::001872"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 336,
+          "right_with_indent_outline_margin_px": 361,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 379,
+          "right_with_indent_outline_margin_px": 404,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 12,
+      "unit": "kureha_08.mjo::u0193",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_08.mjo::001877",
+          "role": "text",
+          "source": "まるで一部始終を見届けて、",
+          "target": "마치 처음부터 끝까지 지켜본 뒤,"
+        },
+        {
+          "id": "kureha_08.mjo::001881",
+          "role": "text",
+          "source": "もう用はないと立ち去るかのようにこちらへ背を向けていた。",
+          "target": "이제 볼일은 끝났다는 듯 떠나려는 것처럼 이쪽에 등을 돌리고 있었다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_08.mjo::001881"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 301,
+          "right_with_indent_outline_margin_px": 326,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 339,
+          "right_with_indent_outline_margin_px": 364,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 13,
+      "unit": "kureha_08.mjo::u0334",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_08.mjo::003258",
+          "role": "text",
+          "source": "男は一旦ナイフの動きを止める。けどその手は油断なく、",
+          "target": "남자는 일단 칼의 움직임을 멈췄다. 하지만 경계는 늦추지 않은 채,"
+        },
+        {
+          "id": "kureha_08.mjo::003262",
+          "role": "text",
+          "source": "常に刃先がもみじに向けられていた。",
+          "target": "계속 칼끝을 모미지에게 겨누고 있었다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_08.mjo::003258"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 284,
+          "right_with_indent_outline_margin_px": 309,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 321,
+          "right_with_indent_outline_margin_px": 346,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 14,
+      "unit": "kureha_08.mjo::u0430",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_08.mjo::004219",
+          "role": "text",
+          "source": "朝の夢、昼間の未然の事故、挙句にさっきの誘拐未遂…",
+          "target": "아침의 꿈, 낮에 일어날 뻔한 사고, 급기야 조금 전의 납치 미수까지…"
+        }
+      ],
+      "warning_ids": [
+        "kureha_08.mjo::004219"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 297,
+          "right_with_indent_outline_margin_px": 322,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 336,
+          "right_with_indent_outline_margin_px": 361,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 15,
+      "unit": "kureha_08.mjo::u0469",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_08.mjo::004640",
+          "role": "speaker_token",
+          "source": "暮葉",
+          "target": "暮葉"
+        },
+        {
+          "id": "kureha_08.mjo::004642",
+          "role": "text",
+          "source": "「その昔、漢の武帝が妃の李夫人に先立たれ、",
+          "target": "「옛날 한 무제가 아내인 이 부인을 먼저 떠나보내고,"
+        },
+        {
+          "id": "kureha_08.mjo::004646",
+          "role": "text",
+          "source": "　彼女を偲んで香を焚くとその面影が現れた…そういう話」",
+          "target": "　그녀를 그리워하며 향을 피우자 그 모습이 나타났다는… 그런 이야기」"
+        }
+      ],
+      "warning_ids": [
+        "kureha_08.mjo::004646"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 319,
+          "right_with_indent_outline_margin_px": 344,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 357,
+          "right_with_indent_outline_margin_px": 382,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 16,
+      "unit": "kureha_08.mjo::u0497",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_08.mjo::004977",
+          "role": "text",
+          "source": "それは反魂の法云々の話よりも、",
+          "target": "반혼법이 어쩌고 하는 이야기보다도,"
+        },
+        {
+          "id": "kureha_08.mjo::004981",
+          "role": "text",
+          "source": "彼女が自分を『とうの昔に死んだ筈』と断言したことにだ。",
+          "target": "그녀가 자신을 『아주 오래전에 죽었을 사람』이라고 단언했기 때문이다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_08.mjo::004981"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 319,
+          "right_with_indent_outline_margin_px": 344,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 357,
+          "right_with_indent_outline_margin_px": 382,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 17,
+      "unit": "kureha_08.mjo::u0582",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_08.mjo::005872",
+          "role": "text",
+          "source": "暮葉はすっと目を細め、鋭い視線で僕を射抜いた。",
+          "target": "쿠레하는 가만히 눈을 가늘게 뜨고, 날카로운 시선으로 나를 꿰뚫었다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_08.mjo::005872"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 302,
+          "right_with_indent_outline_margin_px": 327,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 340,
+          "right_with_indent_outline_margin_px": 365,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 18,
+      "unit": "kureha_08.mjo::u0587",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_08.mjo::005945",
+          "role": "speaker_token",
+          "source": "暮葉",
+          "target": "暮葉"
+        },
+        {
+          "id": "kureha_08.mjo::005947",
+          "role": "text",
+          "source": "「だから私は反魂で蘇った者を、再び人として死なせる為…",
+          "target": "「그래서 나는 반혼으로 되살아난 이들을 다시 인간으로서 죽게 하려고…"
+        },
+        {
+          "id": "kureha_08.mjo::005951",
+          "role": "text",
+          "source": "　夜の街を彷徨う彼女らの首を切り落としてきた」",
+          "target": "　밤거리를 헤매는 그녀들의 목을 베어 왔어」"
+        }
+      ],
+      "warning_ids": [
+        "kureha_08.mjo::005947"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 318,
+          "right_with_indent_outline_margin_px": 343,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 356,
+          "right_with_indent_outline_margin_px": 381,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 19,
+      "unit": "kureha_08.mjo::u0611",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_08.mjo::006228",
+          "role": "speaker_token",
+          "source": "槙野",
+          "target": "槙野"
+        },
+        {
+          "id": "kureha_08.mjo::006230",
+          "role": "text",
+          "source": "「その代わり僕も君に協力するよ。",
+          "target": "「그 대신 나도 너를 도울게."
+        },
+        {
+          "id": "kureha_08.mjo::006234",
+          "role": "text",
+          "source": "　とりあえず衣食住くらいは保証できると思う」",
+          "target": "　일단 먹을 것과 입을 옷, 지낼 곳 정도는 마련해 줄 수 있을 거야」"
+        }
+      ],
+      "warning_ids": [
+        "kureha_08.mjo::006234"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 289,
+          "right_with_indent_outline_margin_px": 314,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 328,
+          "right_with_indent_outline_margin_px": 353,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 20,
+      "unit": "kureha_08.mjo::u0619",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_08.mjo::006307",
+          "role": "text",
+          "source": "しかも相手は暮葉。僕は亡き妻・紅葉と瓜二つの女性に、",
+          "target": "게다가 상대는 쿠레하. 나는 죽은 아내 모미지와 쏙 빼닮은 여자에게"
+        },
+        {
+          "id": "kureha_08.mjo::006311",
+          "role": "text",
+          "source": "一緒に暮そうともちかけている…",
+          "target": "함께 살자고 제안하고 있다…"
+        }
+      ],
+      "warning_ids": [
+        "kureha_08.mjo::006307"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 291,
+          "right_with_indent_outline_margin_px": 316,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 328,
+          "right_with_indent_outline_margin_px": 353,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 21,
+      "unit": "kureha_09.mjo::u0130",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_09.mjo::001299",
+          "role": "text",
+          "source": "この様子だと昨日の誘拐未遂のショックもないみたいだし、",
+          "target": "이 모습을 보니 어제 납치당할 뻔한 일로 충격을 받은 것 같지도 않고,"
+        },
+        {
+          "id": "kureha_09.mjo::001303",
+          "role": "text",
+          "source": "やはり暮葉との同居は正解だった。",
+          "target": "역시 쿠레하와 함께 살기로 한 건 잘한 결정이었다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_09.mjo::001299"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 295,
+          "right_with_indent_outline_margin_px": 320,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 334,
+          "right_with_indent_outline_margin_px": 359,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 22,
+      "unit": "kureha_09.mjo::u0234",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_09.mjo::002386",
+          "role": "text",
+          "source": "それを気にすべきは僕の方だろう。もう若くはないから、",
+          "target": "그런 건 내가 신경 써야지. 이제 젊지도 않으니"
+        },
+        {
+          "id": "kureha_09.mjo::002390",
+          "role": "text",
+          "source": "足腰の衰えには気をつけないと…って、枯れた発想だなぁ。",
+          "target": "다리나 허리가 약해지지 않게 조심해야… 벌써 늙은이 같은 생각이네."
+        }
+      ],
+      "warning_ids": [
+        "kureha_09.mjo::002390"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 300,
+          "right_with_indent_outline_margin_px": 325,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 337,
+          "right_with_indent_outline_margin_px": 362,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 23,
+      "unit": "kureha_09.mjo::u0267",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_09.mjo::002728",
+          "role": "text",
+          "source": "よだかという鳥がその醜さから鳥仲間に蔑まれ、",
+          "target": "쏙독새라는 새가 못생긴 탓에 다른 새들에게 멸시를 당하고,"
+        },
+        {
+          "id": "kureha_09.mjo::002732",
+          "role": "text",
+          "source": "名前が紛らわしいという理由で鷹に改名を迫られる。",
+          "target": "매에게는 이름이 헷갈린다는 이유로 이름을 바꾸라는 요구를 받는다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_09.mjo::002732"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 297,
+          "right_with_indent_outline_margin_px": 322,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 333,
+          "right_with_indent_outline_margin_px": 358,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 24,
+      "unit": "kureha_09.mjo::u0268",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_09.mjo::002737",
+          "role": "text",
+          "source": "『名前を変えないと殺す』と鷹に脅されたよだかは、",
+          "target": "매에게 『이름을 바꾸지 않으면 죽이겠다』는 협박을 받은 쏙독새는"
+        },
+        {
+          "id": "kureha_09.mjo::002741",
+          "role": "text",
+          "source": "世を儚んで空の彼方へ飛び立とうとする…そんな話だった。",
+          "target": "세상을 덧없이 여겨 하늘 저편으로 날아가려 한다… 그런 이야기였다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_09.mjo::002737",
+        "kureha_09.mjo::002741"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 300,
+          "right_with_indent_outline_margin_px": 325,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 337,
+          "right_with_indent_outline_margin_px": 362,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 25,
+      "unit": "kureha_09.mjo::u0338",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_09.mjo::003501",
+          "role": "speaker_token",
+          "source": "槙野",
+          "target": "槙野"
+        },
+        {
+          "id": "kureha_09.mjo::003503",
+          "role": "text",
+          "source": "「なるほど、今は夏で他の楓の木は紅葉してない。",
+          "target": "「그렇구나. 지금은 여름이니까 다른 단풍나무에는 단풍이 안 들었지."
+        },
+        {
+          "id": "kureha_09.mjo::003507",
+          "role": "text",
+          "source": "　それなら確かに一目でわかるよね」",
+          "target": "　그렇다면 확실히 한눈에 알아보겠네」"
+        }
+      ],
+      "warning_ids": [
+        "kureha_09.mjo::003503"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 301,
+          "right_with_indent_outline_margin_px": 326,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 338,
+          "right_with_indent_outline_margin_px": 363,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 26,
+      "unit": "kureha_09.mjo::u0472",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_09.mjo::005044",
+          "role": "text",
+          "source": "けどそれが可能なら、最初から暮葉が手を汚す必要はない。",
+          "target": "하지만 그게 가능하다면 애초에 쿠레하가 손을 더럽힐 필요가 없다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_09.mjo::005044"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 289,
+          "right_with_indent_outline_margin_px": 314,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 325,
+          "right_with_indent_outline_margin_px": 350,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 27,
+      "unit": "kureha_09.mjo::u0487",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_09.mjo::005187",
+          "role": "text",
+          "source": "金色に光る猫の目のような瞳が、僕を捉えて放さない――",
+          "target": "금빛으로 빛나는 고양이 같은 눈동자가 나를 사로잡고 놓아주지 않는다――"
+        }
+      ],
+      "warning_ids": [
+        "kureha_09.mjo::005187"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 328,
+          "right_with_indent_outline_margin_px": 353,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 367,
+          "right_with_indent_outline_margin_px": 392,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 28,
+      "unit": "kureha_10.mjo::u0053",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_10.mjo::000521",
+          "role": "text",
+          "source": "自分の担当授業は昼前に全て終了し、",
+          "target": "내가 맡은 수업은 점심 전에 모두 끝났고,"
+        },
+        {
+          "id": "kureha_10.mjo::000525",
+          "role": "text",
+          "source": "またもみじを迎えに行くまでの空白の時間を持て余す僕。",
+          "target": "나는 또 모미지를 데리러 가기 전까지 남는 시간을 주체하지 못했다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_10.mjo::000525"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 291,
+          "right_with_indent_outline_margin_px": 316,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 328,
+          "right_with_indent_outline_margin_px": 353,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 29,
+      "unit": "kureha_10.mjo::u0063",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_10.mjo::000622",
+          "role": "text",
+          "source": "せめて昨日暮葉が言ってた通り、",
+          "target": "적어도 어제 쿠레하가 말했던"
+        },
+        {
+          "id": "kureha_10.mjo::000626",
+          "role": "text",
+          "source": "『年中紅葉してる』という特徴が残っていればいいのだが…",
+          "target": "『일 년 내내 단풍이 들어 있다』는 특징이라도 남아 있으면 좋으련만…"
+        }
+      ],
+      "warning_ids": [
+        "kureha_10.mjo::000626"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 311,
+          "right_with_indent_outline_margin_px": 336,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 349,
+          "right_with_indent_outline_margin_px": 374,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 30,
+      "unit": "kureha_11.mjo::u0022",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_11.mjo::000219",
+          "role": "text",
+          "source": "だがもう遅かった。",
+          "target": "하지만 이미 늦었다."
+        },
+        {
+          "id": "kureha_11.mjo::000223",
+          "role": "text",
+          "source": "矢嶋さんは獲物を狙う鷹の目で僕をじっと見据える。",
+          "target": "야시마 씨는 먹잇감을 노리는 매 같은 눈으로 나를 뚫어지게 보았다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_11.mjo::000223"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 291,
+          "right_with_indent_outline_margin_px": 316,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 328,
+          "right_with_indent_outline_margin_px": 353,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 31,
+      "unit": "kureha_11.mjo::u0099",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_11.mjo::001051",
+          "role": "speaker_token",
+          "source": "槙野",
+          "target": "槙野"
+        },
+        {
+          "id": "kureha_11.mjo::001053",
+          "role": "text",
+          "source": "「我ながら未練がましいというか、優柔不断というか…」",
+          "target": "「내가 봐도 미련을 못 버린다고 해야 할지, 우유부단하다고 해야 할지…」"
+        }
+      ],
+      "warning_ids": [
+        "kureha_11.mjo::001053"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 324,
+          "right_with_indent_outline_margin_px": 349,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 364,
+          "right_with_indent_outline_margin_px": 389,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 32,
+      "unit": "kureha_12.mjo::u0113",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_12.mjo::001232",
+          "role": "text",
+          "source": "僕、もみじ、そして暮葉――",
+          "target": "나, 모미지, 그리고 쿠레하――"
+        },
+        {
+          "id": "kureha_12.mjo::001236",
+          "role": "text",
+          "source": "それは僕が思い描いてた、幻の一家団らんを再現していた。",
+          "target": "그 모습은 내가 꿈꾸던, 환상 속 가족의 단란한 한때를 재현하고 있었다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_12.mjo::001236"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 306,
+          "right_with_indent_outline_margin_px": 331,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 346,
+          "right_with_indent_outline_margin_px": 371,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 33,
+      "unit": "kureha_12.mjo::u0183",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_12.mjo::001998",
+          "role": "text",
+          "source": "閃いた妙案を口にする僕に対し、",
+          "target": "떠오른 묘안을 말하자,"
+        },
+        {
+          "id": "kureha_12.mjo::002002",
+          "role": "text",
+          "source": "疑問符を浮かべる暮葉ともみじの声が綺麗に輪唱した。",
+          "target": "쿠레하와 모미지는 고개를 갸웃하며 똑같은 말을 차례로 되풀이했다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_12.mjo::002002"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 297,
+          "right_with_indent_outline_margin_px": 322,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 333,
+          "right_with_indent_outline_margin_px": 358,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 34,
+      "unit": "kureha_12.mjo::u0247",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_12.mjo::002742",
+          "role": "text",
+          "source": "それは確かに聞かされた。反魂で蘇った人間の副作用で、",
+          "target": "그 말은 분명 들었다. 반혼으로 되살아난 사람에게는 부작용이 있어,"
+        },
+        {
+          "id": "kureha_12.mjo::002746",
+          "role": "text",
+          "source": "眠ると月の光を求めて無意識のうちに徘徊してしまうこと。",
+          "target": "잠들면 달빛을 찾아 무의식중에 돌아다닌다는 것."
+        }
+      ],
+      "warning_ids": [
+        "kureha_12.mjo::002742"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 292,
+          "right_with_indent_outline_margin_px": 317,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 329,
+          "right_with_indent_outline_margin_px": 354,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 35,
+      "unit": "kureha_13.mjo::u0010",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_13.mjo::000144",
+          "role": "text",
+          "source": "亡き妻とそっくりな彼女にもう一度会いたくて、",
+          "target": "죽은 아내를 꼭 닮은 그녀를 다시 만나고 싶어서,"
+        },
+        {
+          "id": "kureha_13.mjo::000148",
+          "role": "text",
+          "source": "次の日も夜の街を出歩いた僕は夢遊病状態の田村を見かけ…",
+          "target": "다음 날에도 밤거리를 돌아다니다 몽유병 상태인 다무라를 보았고…"
+        }
+      ],
+      "warning_ids": [
+        "kureha_13.mjo::000148"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 295,
+          "right_with_indent_outline_margin_px": 320,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 330,
+          "right_with_indent_outline_margin_px": 355,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 36,
+      "unit": "kureha_13.mjo::u0151",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_13.mjo::001622",
+          "role": "text",
+          "source": "ご機嫌なもみじは覚えたての携帯の機能を暮葉に披露する。",
+          "target": "기분이 좋아진 모미지는 갓 배운 휴대전화 기능을 쿠레하에게 뽐냈다."
+        },
+        {
+          "id": "kureha_13.mjo::001626",
+          "role": "text",
+          "source": "暮葉もわりと真剣な様子でそれを聞いていた。",
+          "target": "쿠레하도 제법 진지하게 듣고 있었다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_13.mjo::001622"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 299,
+          "right_with_indent_outline_margin_px": 324,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 336,
+          "right_with_indent_outline_margin_px": 361,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 37,
+      "unit": "kureha_15.mjo::u0068",
+      "console_mode": 0,
+      "source_mode_call_index": 503,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_15.mjo::000719",
+          "role": "text",
+          "source": "でも言われてみれば確かに、汐見先生は女子にモテそうだ。",
+          "target": "하지만 듣고 보니 시오미 선생님은 여학생들에게 인기 있을 만하다."
+        },
+        {
+          "id": "kureha_15.mjo::000723",
+          "role": "text",
+          "source": "あれだけハンサムで物腰柔らかだもんな。",
+          "target": "그렇게 잘생기고 태도도 부드러우니."
+        }
+      ],
+      "warning_ids": [
+        "kureha_15.mjo::000719"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 289,
+          "right_with_indent_outline_margin_px": 314,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 325,
+          "right_with_indent_outline_margin_px": 350,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 38,
+      "unit": "kureha_15.mjo::u0086",
+      "console_mode": 0,
+      "source_mode_call_index": 503,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_15.mjo::000920",
+          "role": "text",
+          "source": "僕の知る限り、",
+          "target": "내가 아는 한"
+        },
+        {
+          "id": "kureha_15.mjo::000924",
+          "role": "text",
+          "source": "吉森が汐見先生に気のある素振りを見せたことは一度もない。",
+          "target": "요시모리는 시오미 선생님에게 관심 있는 티를 낸 적이 한 번도 없다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_15.mjo::000924"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 293,
+          "right_with_indent_outline_margin_px": 318,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 331,
+          "right_with_indent_outline_margin_px": 356,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 39,
+      "unit": "kureha_15.mjo::u0151",
+      "console_mode": 0,
+      "source_mode_call_index": 503,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_15.mjo::001535",
+          "role": "speaker_token",
+          "source": "槙野",
+          "target": "槙野"
+        },
+        {
+          "id": "kureha_15.mjo::001537",
+          "role": "text",
+          "source": "「（それとも僕の考え過ぎなのか？",
+          "target": "「(아니면 내가 너무 깊이 생각하는 건가?"
+        },
+        {
+          "id": "kureha_15.mjo::001541",
+          "role": "text",
+          "source": "　吉森が汐見先生に告白したのを信じたくないだけ？）」",
+          "target": "　그냥 요시모리가 시오미 선생님께 고백했다는 걸 믿기 싫은 거야?)」"
+        }
+      ],
+      "warning_ids": [
+        "kureha_15.mjo::001541"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 307,
+          "right_with_indent_outline_margin_px": 332,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 344,
+          "right_with_indent_outline_margin_px": 369,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 40,
+      "unit": "kureha_15.mjo::u0470",
+      "console_mode": 0,
+      "source_mode_call_index": 503,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_15.mjo::004749",
+          "role": "speaker_token",
+          "source": "暮葉",
+          "target": "暮葉"
+        },
+        {
+          "id": "kureha_15.mjo::004751",
+          "role": "text",
+          "source": "「霊も言う。『然り。彼らは労苦を解かれて、安らぎを得る。",
+          "target": "「성령도 말씀하신다. 『그렇다. 그들은 수고를 벗고 안식을 얻으리니,"
+        },
+        {
+          "id": "kureha_15.mjo::004755",
+          "role": "text",
+          "source": "　その行いが報われるからである』」",
+          "target": "　그들의 행위가 보답받기 때문이다』」"
+        }
+      ],
+      "warning_ids": [
+        "kureha_15.mjo::004751"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 305,
+          "right_with_indent_outline_margin_px": 330,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 343,
+          "right_with_indent_outline_margin_px": 368,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 41,
+      "unit": "kureha_15.mjo::u0526",
+      "console_mode": 0,
+      "source_mode_call_index": 503,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_15.mjo::005351",
+          "role": "text",
+          "source": "もみじの重みと体温を感じ、不覚にも涙が出そうになる。",
+          "target": "모미지의 무게와 체온이 느껴지자 나도 모르게 눈물이 날 것 같았다."
+        },
+        {
+          "id": "kureha_15.mjo::005355",
+          "role": "text",
+          "source": "柔らかくて温かで…そこには確かな生命の鼓動があった。",
+          "target": "부드럽고 따뜻했다… 그곳에는 분명한 생명의 고동이 있었다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_15.mjo::005351"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 291,
+          "right_with_indent_outline_margin_px": 316,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 328,
+          "right_with_indent_outline_margin_px": 353,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 42,
+      "unit": "kureha_17.mjo::u0032",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_17.mjo::000315",
+          "role": "text",
+          "source": "中年女性の丁寧な挨拶に、僕は恐縮して頷いた。",
+          "target": "중년 여성의 정중한 인사에 나는 몸 둘 바를 몰라 하며 고개를 끄덕였다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_17.mjo::000315"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 305,
+          "right_with_indent_outline_margin_px": 330,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 345,
+          "right_with_indent_outline_margin_px": 370,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 43,
+      "unit": "kureha_17.mjo::u0107",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_17.mjo::001087",
+          "role": "speaker_token",
+          "source": "義父",
+          "target": "義父"
+        },
+        {
+          "id": "kureha_17.mjo::001089",
+          "role": "text",
+          "source": "「私と紅葉は死者を共有していて、",
+          "target": "「나와 모미지는 같은 사람을 떠나보냈고,"
+        },
+        {
+          "id": "kureha_17.mjo::001093",
+          "role": "text",
+          "source": "　それが二人の繋がりであり、隔たりでもあったんだ」",
+          "target": "　그게 우리 둘을 이어 주는 끈이자 사이를 가르는 벽이기도 했네」"
+        }
+      ],
+      "warning_ids": [
+        "kureha_17.mjo::001093"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 290,
+          "right_with_indent_outline_margin_px": 315,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 326,
+          "right_with_indent_outline_margin_px": 351,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 44,
+      "unit": "kureha_17.mjo::u0300",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_17.mjo::003057",
+          "role": "text",
+          "source": "羽鳥…吉森のお母さん…そして矢嶋さん。",
+          "target": "하토리… 요시모리의 어머니… 그리고 야시마 씨."
+        },
+        {
+          "id": "kureha_17.mjo::003061",
+          "role": "text",
+          "source": "吉森の失踪が早くもこれだけの人に影響を及ぼしている。",
+          "target": "요시모리의 실종은 벌써 이렇게 많은 사람에게 영향을 끼치고 있다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_17.mjo::003061"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 289,
+          "right_with_indent_outline_margin_px": 314,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 325,
+          "right_with_indent_outline_margin_px": 350,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 45,
+      "unit": "kureha_17.mjo::u0438",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_17.mjo::004355",
+          "role": "text",
+          "source": "しかしよく考えたら、",
+          "target": "하지만 생각해 보니"
+        },
+        {
+          "id": "kureha_17.mjo::004359",
+          "role": "text",
+          "source": "禁断症状が出てる間の暮葉はとても喋れる状態ではない。",
+          "target": "금단증상이 나타난 쿠레하는 도저히 말을 할 수 있는 상태가 아니다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_17.mjo::004359"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 291,
+          "right_with_indent_outline_margin_px": 316,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 328,
+          "right_with_indent_outline_margin_px": 353,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 46,
+      "unit": "kureha_18.mjo::u0065",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_18.mjo::000675",
+          "role": "text",
+          "source": "もみじがお喋りに熱中すると髪が揺れて、毛先が弾む。",
+          "target": "모미지가 이야기에 열중하면 머리가 흔들리고 머리끝이 팔랑거렸다."
+        },
+        {
+          "id": "kureha_18.mjo::000679",
+          "role": "text",
+          "source": "まるでせわしない小動物のようだ。",
+          "target": "꼭 부산스러운 작은 동물 같았다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_18.mjo::000675"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 295,
+          "right_with_indent_outline_margin_px": 320,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 330,
+          "right_with_indent_outline_margin_px": 355,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 47,
+      "unit": "kureha_18.mjo::u0147",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_18.mjo::001573",
+          "role": "text",
+          "source": "矢嶋さんが吉森と結託しなければ…彼女は無茶をせず、",
+          "target": "야시마 씨가 요시모리와 손잡지만 않았어도… 그 아이는 무모한 짓을 하지 않고"
+        },
+        {
+          "id": "kureha_18.mjo::001577",
+          "role": "text",
+          "source": "汐見に殺されることもなかった筈なのに。",
+          "target": "시오미에게 죽지도 않았을 텐데."
+        }
+      ],
+      "warning_ids": [
+        "kureha_18.mjo::001573"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 341,
+          "right_with_indent_outline_margin_px": 366,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 383,
+          "right_with_indent_outline_margin_px": 408,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 48,
+      "unit": "kureha_18.mjo::u0464",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_18.mjo::004764",
+          "role": "speaker_token",
+          "source": "暮葉",
+          "target": "暮葉"
+        },
+        {
+          "id": "kureha_18.mjo::004766",
+          "role": "text",
+          "source": "「あなたの妻、旧姓・上条紅葉の実の母親よ」",
+          "target": "「네 아내, 결혼 전 이름이 가미조 모미지였던 그 아이의 친어머니야」"
+        }
+      ],
+      "warning_ids": [
+        "kureha_18.mjo::004766"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 303,
+          "right_with_indent_outline_margin_px": 328,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 341,
+          "right_with_indent_outline_margin_px": 366,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 49,
+      "unit": "kureha_19.mjo::u0198",
+      "console_mode": 0,
+      "source_mode_call_index": 1831,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_19.mjo::002009",
+          "role": "speaker_token",
+          "source": "汐見",
+          "target": "汐見"
+        },
+        {
+          "id": "kureha_19.mjo::002011",
+          "role": "text",
+          "source": "「具体的に言うなら…反魂で蘇った者から副作用を除き、",
+          "target": "「구체적으로 말하자면… 반혼으로 되살아난 사람에게서 부작용을 없애"
+        },
+        {
+          "id": "kureha_19.mjo::002015",
+          "role": "text",
+          "source": "　完全な形で生き返らせる方法を知りたいのです」",
+          "target": "　완전하게 되살릴 방법을 알고 싶습니다」"
+        }
+      ],
+      "warning_ids": [
+        "kureha_19.mjo::002011"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 314,
+          "right_with_indent_outline_margin_px": 339,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 350,
+          "right_with_indent_outline_margin_px": 375,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 50,
+      "unit": "kureha_19.mjo::u0335",
+      "console_mode": 0,
+      "source_mode_call_index": 1831,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_19.mjo::003520",
+          "role": "text",
+          "source": "だから暮葉はもみじに自分の娘の面影を重ねていた…",
+          "target": "그래서 쿠레하는 모미지에게서 자기 딸의 모습을 보고 있었던 거다…"
+        },
+        {
+          "id": "kureha_19.mjo::003524",
+          "role": "text",
+          "source": "僕が彼女に紅葉の面影を重ねていたのと同じように。",
+          "target": "내가 그녀에게서 아내의 모습을 보았던 것처럼."
+        }
+      ],
+      "warning_ids": [
+        "kureha_19.mjo::003520"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 297,
+          "right_with_indent_outline_margin_px": 322,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 333,
+          "right_with_indent_outline_margin_px": 358,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 51,
+      "unit": "kureha_19.mjo::u0436",
+      "console_mode": 0,
+      "source_mode_call_index": 1831,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_19.mjo::004678",
+          "role": "text",
+          "source": "だがこれでは文字通り、木を隠すなら森の中。",
+          "target": "하지만 이래서는 말 그대로 나무를 숨기려면 숲속에 숨기라는 꼴이다."
+        },
+        {
+          "id": "kureha_19.mjo::004682",
+          "role": "text",
+          "source": "楓の木の群れに紛れてしまっては、区別が付かない。",
+          "target": "단풍나무 사이에 섞여 있으면 구별할 수가 없다."
+        }
+      ],
+      "warning_ids": [
+        "kureha_19.mjo::004678"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 299,
+          "right_with_indent_outline_margin_px": 324,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 336,
+          "right_with_indent_outline_margin_px": 361,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 52,
+      "unit": "kureha_19.mjo::u0437",
+      "console_mode": 0,
+      "source_mode_call_index": 1831,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_19.mjo::004687",
+          "role": "text",
+          "source": "せめてもう一つの特徴である、",
+          "target": "하다못해 또 다른 특징인"
+        },
+        {
+          "id": "kureha_19.mjo::004691",
+          "role": "text",
+          "source": "『年中紅葉している』という姿をしていればいいのだが…",
+          "target": "『일 년 내내 단풍이 들어 있다』는 모습이라도 하고 있으면 좋으련만…"
+        }
+      ],
+      "warning_ids": [
+        "kureha_19.mjo::004691"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 311,
+          "right_with_indent_outline_margin_px": 336,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 349,
+          "right_with_indent_outline_margin_px": 374,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 53,
+      "unit": "kureha_19.mjo::u0451",
+      "console_mode": 0,
+      "source_mode_call_index": 1831,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_19.mjo::004809",
+          "role": "text",
+          "source": "その木の鳴き声に耳を傾けるように、",
+          "target": "그 나무의 울음소리에 귀를 기울이듯"
+        },
+        {
+          "id": "kureha_19.mjo::004813",
+          "role": "text",
+          "source": "そっと根元に寄り添うのは…黒髪に黒いセーラー服の影。",
+          "target": "밑동에 살며시 기대어 있는 건… 검은 머리칼과 검은 세일러복 차림의 그림자."
+        }
+      ],
+      "warning_ids": [
+        "kureha_19.mjo::004813"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 334,
+          "right_with_indent_outline_margin_px": 359,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 376,
+          "right_with_indent_outline_margin_px": 401,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 54,
+      "unit": "kureha_19.mjo::u0515",
+      "console_mode": 0,
+      "source_mode_call_index": 1831,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_19.mjo::005505",
+          "role": "text",
+          "source": "『その昔、漢の武帝が妃の李夫人に先立たれ、",
+          "target": "『옛날 한 무제가 아내인 이 부인을 먼저 떠나보내고,"
+        },
+        {
+          "id": "kureha_19.mjo::005509",
+          "role": "text",
+          "source": "　彼女を偲んで香を焚くとその面影が現れたという――』",
+          "target": "　그녀를 그리워하며 향을 피우자 그 모습이 나타났다고 한다――』"
+        }
+      ],
+      "warning_ids": [
+        "kureha_19.mjo::005509"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 298,
+          "right_with_indent_outline_margin_px": 323,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 333,
+          "right_with_indent_outline_margin_px": 358,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 55,
+      "unit": "kureha_ep.mjo::u0064",
+      "console_mode": 4,
+      "source_mode_call_index": 459,
+      "geometry": {
+        "width": 690,
+        "height": 88,
+        "font_y": 19,
+        "font_x": 9,
+        "step": 23
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "kureha_ep.mjo::000671",
+          "role": "text",
+          "source": "牧師さんが言うには、",
+          "target": "목사님 말로는"
+        },
+        {
+          "id": "kureha_ep.mjo::000675",
+          "role": "text",
+          "source": "『大好きな人とずっといっしょにいられるお薬』だって――",
+          "target": "『좋아하는 사람이랑 언제까지나 같이 있을 수 있는 약』이랬다――"
+        }
+      ],
+      "warning_ids": [
+        "kureha_ep.mjo::000675"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 242,
+          "right_with_indent_outline_margin_px": 263,
+          "bottom_with_line_outline_margin_px": 46,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 277,
+          "right_with_indent_outline_margin_px": 298,
+          "bottom_with_line_outline_margin_px": 46,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 56,
+      "unit": "sub_kure02.mjo::u0046",
+      "console_mode": 2,
+      "source_mode_call_index": 26,
+      "geometry": {
+        "width": 692,
+        "height": 528,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "n",
+        "n",
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "sub_kure02.mjo::001004",
+          "role": "text",
+          "source": "この少女がどういう経緯で死に至り、",
+          "target": "이 소녀가 어떤 사정으로 죽음을 맞고"
+        },
+        {
+          "id": "sub_kure02.mjo::001008",
+          "role": "text",
+          "source": "反魂の法で生き返ったのかはわからない。",
+          "target": "반혼법으로 되살아났는지는 모른다."
+        },
+        {
+          "id": "sub_kure02.mjo::001014",
+          "role": "text",
+          "source": "ただ言えることは、私が禁を破らなければ、",
+          "target": "다만 내가 금기를 어기지 않았다면"
+        },
+        {
+          "id": "sub_kure02.mjo::001018",
+          "role": "text",
+          "source": "この少女は一度目の死で天に召されたということだけ…",
+          "target": "처음 죽었을 때 하늘의 부름을 받았을 거라는 것만은 알 수 있었다…"
+        }
+      ],
+      "warning_ids": [
+        "sub_kure02.mjo::001018"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 5,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 291,
+          "right_with_indent_outline_margin_px": 316,
+          "bottom_with_line_outline_margin_px": 162,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 5,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 328,
+          "right_with_indent_outline_margin_px": 353,
+          "bottom_with_line_outline_margin_px": 162,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 57,
+      "unit": "masa_07.mjo::u0035",
+      "console_mode": 4,
+      "source_mode_call_index": 384,
+      "geometry": {
+        "width": 690,
+        "height": 88,
+        "font_y": 19,
+        "font_x": 9,
+        "step": 23
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_07.mjo::000430",
+          "role": "text",
+          "source": "夕刻。祖父に見送られ、霊園を後にする槙野親子。",
+          "target": "해 질 무렵. 할아버지의 배웅을 받으며 공원묘지를 떠나는 마키노 부녀."
+        }
+      ],
+      "warning_ids": [
+        "masa_07.mjo::000430"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 248,
+          "right_with_indent_outline_margin_px": 269,
+          "bottom_with_line_outline_margin_px": 23,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 285,
+          "right_with_indent_outline_margin_px": 306,
+          "bottom_with_line_outline_margin_px": 23,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 58,
+      "unit": "masa_07.mjo::u0289",
+      "console_mode": 0,
+      "source_mode_call_index": 1001,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_07.mjo::003489",
+          "role": "text",
+          "source": "そのよだかの最期が子供心にもひどく泣けた覚えがある。",
+          "target": "쏙독새의 최후가 어린 마음에도 몹시 슬퍼 눈물이 났던 기억이 있다."
+        }
+      ],
+      "warning_ids": [
+        "masa_07.mjo::003489"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 291,
+          "right_with_indent_outline_margin_px": 316,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 328,
+          "right_with_indent_outline_margin_px": 353,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 59,
+      "unit": "masa_08.mjo::u0037",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_08.mjo::000446",
+          "role": "text",
+          "source": "マンションを出て三人で通学路を歩いていると、",
+          "target": "아파트를 나서서 셋이 등굣길을 걷는데,"
+        },
+        {
+          "id": "masa_08.mjo::000450",
+          "role": "text",
+          "source": "もみじが興味津々な様子で吉森を凝視し始めた。",
+          "target": "모미지가 호기심 가득한 얼굴로 요시모리를 뚫어져라 보기 시작했다."
+        }
+      ],
+      "warning_ids": [
+        "masa_08.mjo::000450"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 297,
+          "right_with_indent_outline_margin_px": 322,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 333,
+          "right_with_indent_outline_margin_px": 358,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 60,
+      "unit": "masa_08.mjo::u0358",
+      "console_mode": 0,
+      "source_mode_call_index": 2887,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_08.mjo::003861",
+          "role": "text",
+          "source": "男は一旦ナイフの動きを止める。けどその手は油断なく、",
+          "target": "남자는 일단 칼의 움직임을 멈췄다. 하지만 경계는 늦추지 않은 채,"
+        },
+        {
+          "id": "masa_08.mjo::003865",
+          "role": "text",
+          "source": "常に刃先がもみじに向けられていた。",
+          "target": "계속 칼끝을 모미지에게 겨누고 있었다."
+        }
+      ],
+      "warning_ids": [
+        "masa_08.mjo::003861"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 284,
+          "right_with_indent_outline_margin_px": 309,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 321,
+          "right_with_indent_outline_margin_px": 346,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 61,
+      "unit": "masa_08.mjo::u0409",
+      "console_mode": 0,
+      "source_mode_call_index": 2887,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_08.mjo::004313",
+          "role": "text",
+          "source": "僕の渾身の体当たりに、堪らず地面に倒れ込む覆面男。",
+          "target": "내가 온 힘을 다해 들이받자, 복면남은 버티지 못하고 땅에 쓰러졌다."
+        }
+      ],
+      "warning_ids": [
+        "masa_08.mjo::004313"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 294,
+          "right_with_indent_outline_margin_px": 319,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 332,
+          "right_with_indent_outline_margin_px": 357,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 62,
+      "unit": "masa_08.mjo::u0493",
+      "console_mode": 0,
+      "source_mode_call_index": 5157,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_08.mjo::005311",
+          "role": "text",
+          "source": "あの覆面男は最初からもみじをさらう為に、",
+          "target": "그 복면 남자는 처음부터 모미지를 납치하려고"
+        },
+        {
+          "id": "masa_08.mjo::005315",
+          "role": "text",
+          "source": "吉森をエサに僕を外へおびき寄せた…ここまでは確かだろう。",
+          "target": "요시모리를 미끼로 나를 밖으로 꾀어냈다… 여기까지는 분명하겠지."
+        }
+      ],
+      "warning_ids": [
+        "masa_08.mjo::005315"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 296,
+          "right_with_indent_outline_margin_px": 321,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 331,
+          "right_with_indent_outline_margin_px": 356,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 63,
+      "unit": "masa_09.mjo::u0241",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_09.mjo::002652",
+          "role": "speaker_token",
+          "source": "麻咲",
+          "target": "麻咲"
+        },
+        {
+          "id": "masa_09.mjo::002654",
+          "role": "text",
+          "source": "「で、碧さん。こちらが槙野先生。うちの学校の先生で、",
+          "target": "「그리고 미도리 씨, 이쪽은 마키노 선생님이에요. 우리 학교 선생님인데,"
+        },
+        {
+          "id": "masa_09.mjo::002658",
+          "role": "text",
+          "source": "　最近あたしの隣に引っ越してきたの」",
+          "target": "　얼마 전에 제 옆집으로 이사 오셨어요」"
+        }
+      ],
+      "warning_ids": [
+        "masa_09.mjo::002654"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 316,
+          "right_with_indent_outline_margin_px": 341,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 356,
+          "right_with_indent_outline_margin_px": 381,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 64,
+      "unit": "masa_12.mjo::u0304",
+      "console_mode": 2,
+      "source_mode_call_index": 3123,
+      "geometry": {
+        "width": 692,
+        "height": 528,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "n",
+        "n",
+        "n",
+        "p",
+        "n",
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_12.mjo::003795",
+          "role": "speaker_token",
+          "source": "麻咲",
+          "target": "麻咲"
+        },
+        {
+          "id": "masa_12.mjo::003797",
+          "role": "text",
+          "source": "「ほら、今日はごちそうだよ？",
+          "target": "「봐, 오늘은 맛있는 거야."
+        },
+        {
+          "id": "masa_12.mjo::003801",
+          "role": "text",
+          "source": "　早く出ておいでよーっ」",
+          "target": "　얼른 나와 봐―!」"
+        },
+        {
+          "id": "masa_12.mjo::003807",
+          "role": "text",
+          "source": "あたしは誰も居ない空き地で、",
+          "target": "나는 아무도 없는 공터에서"
+        },
+        {
+          "id": "masa_12.mjo::003811",
+          "role": "text",
+          "source": "大声でチビに呼びかける。",
+          "target": "큰 소리로 꼬맹이를 불렀다."
+        },
+        {
+          "id": "masa_12.mjo::003817",
+          "role": "text",
+          "source": "でも何故かチビは現れなくて、空き地の中を探し回った。",
+          "target": "하지만 어째서인지 꼬맹이는 나타나지 않아서 공터를 뒤지고 다녔다."
+        }
+      ],
+      "warning_ids": [
+        "masa_12.mjo::003817"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 7,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 297,
+          "right_with_indent_outline_margin_px": 322,
+          "bottom_with_line_outline_margin_px": 228,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 7,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 333,
+          "right_with_indent_outline_margin_px": 358,
+          "bottom_with_line_outline_margin_px": 228,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 65,
+      "unit": "masa_13.mjo::u0267",
+      "console_mode": 2,
+      "source_mode_call_index": 3269,
+      "geometry": {
+        "width": 692,
+        "height": 528,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "p",
+        "n",
+        "n",
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_13.mjo::003835",
+          "role": "text",
+          "source": "僕は今か今かと待った…",
+          "target": "나는 애타게 기다렸다…"
+        },
+        {
+          "id": "masa_13.mjo::003838",
+          "role": "text",
+          "source": "今か今かと、今か今かと…",
+          "target": "언제 나오나, 언제 나오나…"
+        },
+        {
+          "id": "masa_13.mjo::003844",
+          "role": "text",
+          "source": "だけどいつまで経っても『手術中』の赤ランプは消えず、",
+          "target": "하지만 아무리 기다려도 『수술 중』이라는 붉은 등은 꺼지지 않았고,"
+        },
+        {
+          "id": "masa_13.mjo::003848",
+          "role": "text",
+          "source": "僕は手術室の前で立ち尽くす。",
+          "target": "나는 수술실 앞에 우두커니 서 있었다."
+        }
+      ],
+      "warning_ids": [
+        "masa_13.mjo::003844"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 4,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 301,
+          "right_with_indent_outline_margin_px": 326,
+          "bottom_with_line_outline_margin_px": 129,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 4,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 338,
+          "right_with_indent_outline_margin_px": 363,
+          "bottom_with_line_outline_margin_px": 129,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 66,
+      "unit": "masa_14.mjo::u0014",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_14.mjo::000171",
+          "role": "text",
+          "source": "顔が良くて物腰柔らか、しかも誰にでも優しい汐見先生は、",
+          "target": "잘생기고 말씨도 부드러운 데다 누구에게나 다정한 시오미 선생님은"
+        },
+        {
+          "id": "masa_14.mjo::000175",
+          "role": "text",
+          "source": "女子の間では結構な人気がある。",
+          "target": "여학생들 사이에서 꽤 인기가 있다."
+        }
+      ],
+      "warning_ids": [
+        "masa_14.mjo::000171"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 294,
+          "right_with_indent_outline_margin_px": 319,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 329,
+          "right_with_indent_outline_margin_px": 354,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 67,
+      "unit": "masa_14.mjo::u0399",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_14.mjo::004036",
+          "role": "text",
+          "source": "あたしは声にならない声で、槙野先生に助けを求める。",
+          "target": "나는 소리도 나오지 않는 목소리로 마키노 선생님께 도움을 청했다."
+        }
+      ],
+      "warning_ids": [
+        "masa_14.mjo::004036"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 289,
+          "right_with_indent_outline_margin_px": 314,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 325,
+          "right_with_indent_outline_margin_px": 350,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 68,
+      "unit": "masa_15.mjo::u0187",
+      "console_mode": 2,
+      "source_mode_call_index": 2124,
+      "geometry": {
+        "width": 692,
+        "height": 528,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "n",
+        "n",
+        "n",
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_15.mjo::002381",
+          "role": "text",
+          "source": "そう、少年は森の動物たちの嘘に気付いていました。",
+          "target": "그렇습니다. 소년은 숲속 동물들이 거짓말을 한다는 걸 알고 있었습니다."
+        },
+        {
+          "id": "masa_15.mjo::002390",
+          "role": "text",
+          "source": "皆が自分の心の中の空白を『気のせいだ』と言うのは",
+          "target": "모두가 자기 마음속의 빈자리를 『기분 탓』이라고 하는 건,"
+        },
+        {
+          "id": "masa_15.mjo::002394",
+          "role": "text",
+          "source": "彼らが何かを知ってて隠しているからだと",
+          "target": "동물들이 뭔가를 알면서도 숨기고 있기 때문이라고"
+        },
+        {
+          "id": "masa_15.mjo::002398",
+          "role": "text",
+          "source": "少年は察していたのです。",
+          "target": "소년은 짐작하고 있었습니다."
+        }
+      ],
+      "warning_ids": [
+        "masa_15.mjo::002381"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 5,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 312,
+          "right_with_indent_outline_margin_px": 337,
+          "bottom_with_line_outline_margin_px": 162,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 5,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 351,
+          "right_with_indent_outline_margin_px": 376,
+          "bottom_with_line_outline_margin_px": 162,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 69,
+      "unit": "masa_16.mjo::u0048",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_16.mjo::000484",
+          "role": "speaker_token",
+          "source": "槙野",
+          "target": "槙野"
+        },
+        {
+          "id": "masa_16.mjo::000486",
+          "role": "text",
+          "source": "「『そうか…でも君が危険な目に遭わなくて良かったよ』」",
+          "target": "「『그렇구나… 그래도 네가 위험한 일을 당하지 않아서 다행이야』」"
+        }
+      ],
+      "warning_ids": [
+        "masa_16.mjo::000486"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 309,
+          "right_with_indent_outline_margin_px": 334,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 345,
+          "right_with_indent_outline_margin_px": 370,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 70,
+      "unit": "masa_16.mjo::u0458",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_16.mjo::005124",
+          "role": "text",
+          "source": "思わず後ろを振り返ると、",
+          "target": "나도 모르게 뒤를 돌아보니,"
+        },
+        {
+          "id": "masa_16.mjo::005128",
+          "role": "text",
+          "source": "吉森も濡れたバスタオル姿を無防備に晒しながら語った。",
+          "target": "요시모리는 젖은 목욕 수건 차림인 것도 신경 쓰지 않고 이야기했다."
+        }
+      ],
+      "warning_ids": [
+        "masa_16.mjo::005128"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 291,
+          "right_with_indent_outline_margin_px": 316,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 328,
+          "right_with_indent_outline_margin_px": 353,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 71,
+      "unit": "masa_16.mjo::u0573",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_16.mjo::006480",
+          "role": "text",
+          "source": "僕は頷いて、彼女を包み込む腕をそっと動かし始めた。",
+          "target": "나는 고개를 끄덕이며 그녀를 감싼 팔을 조심스레 움직이기 시작했다."
+        }
+      ],
+      "warning_ids": [
+        "masa_16.mjo::006480"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 299,
+          "right_with_indent_outline_margin_px": 324,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 336,
+          "right_with_indent_outline_margin_px": 361,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 72,
+      "unit": "masa_16.mjo::u0886",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_16.mjo::009537",
+          "role": "text",
+          "source": "二人一緒に風呂から上がった後、",
+          "target": "둘이 함께 목욕을 마친 뒤,"
+        },
+        {
+          "id": "masa_16.mjo::009541",
+          "role": "text",
+          "source": "トレーニングウェアに着替えた吉森と居間で話をしていた。",
+          "target": "운동복으로 갈아입은 요시모리와 거실에서 이야기를 나누고 있었다."
+        }
+      ],
+      "warning_ids": [
+        "masa_16.mjo::009541"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 295,
+          "right_with_indent_outline_margin_px": 320,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 330,
+          "right_with_indent_outline_margin_px": 355,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 73,
+      "unit": "masa_16.mjo::u0897",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_16.mjo::009642",
+          "role": "text",
+          "source": "作者が誰かなんて、本の価値には何の関係もない。",
+          "target": "작가가 누구인지는 책의 가치와 아무 상관이 없다."
+        },
+        {
+          "id": "masa_16.mjo::009646",
+          "role": "text",
+          "source": "あの本で吉森が少しでも救われたなら、それで十分だった。",
+          "target": "그 책이 요시모리에게 조금이라도 도움이 됐다면 그것으로 충분했다."
+        }
+      ],
+      "warning_ids": [
+        "masa_16.mjo::009646"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 297,
+          "right_with_indent_outline_margin_px": 322,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 333,
+          "right_with_indent_outline_margin_px": 358,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 74,
+      "unit": "masa_17.mjo::u0230",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_17.mjo::002555",
+          "role": "text",
+          "source": "声にならない叫びを上げるが、",
+          "target": "소리 없는 비명을 질렀지만,"
+        },
+        {
+          "id": "masa_17.mjo::002559",
+          "role": "text",
+          "source": "それがもみじに届く前に僕の意識は闇に落ちた――",
+          "target": "그것이 모미지에게 닿기도 전에 내 의식은 어둠 속으로 떨어졌다――"
+        }
+      ],
+      "warning_ids": [
+        "masa_17.mjo::002559"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 298,
+          "right_with_indent_outline_margin_px": 323,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 334,
+          "right_with_indent_outline_margin_px": 359,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 75,
+      "unit": "masa_18.mjo::u0020",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_18.mjo::000226",
+          "role": "speaker_token",
+          "source": "汐見",
+          "target": "汐見"
+        },
+        {
+          "id": "masa_18.mjo::000228",
+          "role": "text",
+          "source": "「『この間はどうも。危うく殺されかけるところでしたよ』」",
+          "target": "「『지난번엔 신세를 졌습니다. 하마터면 목숨을 잃을 뻔했어요』」"
+        }
+      ],
+      "warning_ids": [
+        "masa_18.mjo::000228"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 299,
+          "right_with_indent_outline_margin_px": 324,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 334,
+          "right_with_indent_outline_margin_px": 359,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 76,
+      "unit": "masa_18.mjo::u0039",
+      "console_mode": 0,
+      "source_mode_call_index": null,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_18.mjo::000421",
+          "role": "speaker_token",
+          "source": "汐見",
+          "target": "汐見"
+        },
+        {
+          "id": "masa_18.mjo::000423",
+          "role": "text",
+          "source": "「『なあに、そう難しいことではありませんよ。",
+          "target": "「『그리 어려운 일은 아닙니다."
+        },
+        {
+          "id": "masa_18.mjo::000427",
+          "role": "text",
+          "source": "　暮葉さんはもみじさんを見殺しに出来ないでしょうから』」",
+          "target": "　쿠레하 씨도 모미지 양이 죽는 걸 내버려 두진 못할 테니까요』」"
+        }
+      ],
+      "warning_ids": [
+        "masa_18.mjo::000427"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 291,
+          "right_with_indent_outline_margin_px": 316,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 2,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 327,
+          "right_with_indent_outline_margin_px": 352,
+          "bottom_with_line_outline_margin_px": 63,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 77,
+      "unit": "masa_18.mjo::u0197",
+      "console_mode": 0,
+      "source_mode_call_index": 1736,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_18.mjo::002226",
+          "role": "speaker_token",
+          "source": "暮葉",
+          "target": "暮葉"
+        },
+        {
+          "id": "masa_18.mjo::002228",
+          "role": "text",
+          "source": "「反魂で蘇った人間一人につき、必ず一人の犠牲が必要…」",
+          "target": "「반혼으로 되살아난 사람 한 명에 반드시 한 명의 희생이 필요해…」"
+        }
+      ],
+      "warning_ids": [
+        "masa_18.mjo::002228"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 301,
+          "right_with_indent_outline_margin_px": 326,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 338,
+          "right_with_indent_outline_margin_px": 363,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 78,
+      "unit": "masa_18.mjo::u0271",
+      "console_mode": 0,
+      "source_mode_call_index": 1736,
+      "geometry": {
+        "width": 692,
+        "height": 94,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "masa_18.mjo::003203",
+          "role": "text",
+          "source": "風が枝と葉をかき鳴らし、深い闇の合間に響き渡っていた。",
+          "target": "바람이 나뭇가지와 잎을 흔드는 소리가 깊은 어둠 속에 울려 퍼졌다."
+        }
+      ],
+      "warning_ids": [
+        "masa_18.mjo::003203"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 291,
+          "right_with_indent_outline_margin_px": 316,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 1,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 328,
+          "right_with_indent_outline_margin_px": 353,
+          "bottom_with_line_outline_margin_px": 30,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 79,
+      "unit": "sub_masa01.mjo::u0018",
+      "console_mode": 2,
+      "source_mode_call_index": 26,
+      "geometry": {
+        "width": 692,
+        "height": 528,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "p",
+        "n",
+        "n",
+        "p",
+        "n",
+        "n",
+        "p",
+        "n",
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "sub_masa01.mjo::000358",
+          "role": "text",
+          "source": "がしっ",
+          "target": "덥석"
+        },
+        {
+          "id": "sub_masa01.mjo::000364",
+          "role": "speaker_token",
+          "source": "汐見",
+          "target": "汐見"
+        },
+        {
+          "id": "sub_masa01.mjo::000366",
+          "role": "text",
+          "source": "「動くな」",
+          "target": "「꼼짝 마라」"
+        },
+        {
+          "id": "sub_masa01.mjo::000375",
+          "role": "speaker_token",
+          "source": "少女＠麻咲",
+          "target": "少女＠麻咲"
+        },
+        {
+          "id": "sub_masa01.mjo::000377",
+          "role": "text",
+          "source": "「むぐっ？！」",
+          "target": "「읍?!」"
+        },
+        {
+          "id": "sub_masa01.mjo::000383",
+          "role": "text",
+          "source": "背後からそっと忍び寄り、少女を羽交い絞めにする。",
+          "target": "나는 뒤에서 조용히 다가가 소녀의 팔을 붙잡아 꼼짝 못 하게 했다."
+        }
+      ],
+      "warning_ids": [
+        "sub_masa01.mjo::000383"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 7,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 283,
+          "right_with_indent_outline_margin_px": 308,
+          "bottom_with_line_outline_margin_px": 228,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 7,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 320,
+          "right_with_indent_outline_margin_px": 345,
+          "bottom_with_line_outline_margin_px": 228,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    },
+    {
+      "number": 80,
+      "unit": "sub_masa02.mjo::u0007",
+      "console_mode": 2,
+      "source_mode_call_index": 26,
+      "geometry": {
+        "width": 692,
+        "height": 528,
+        "font_y": 23,
+        "font_x": 11,
+        "step": 33
+      },
+      "controls": [
+        "n",
+        "n",
+        "p",
+        "w"
+      ],
+      "fields": [
+        {
+          "id": "sub_masa02.mjo::000121",
+          "role": "text",
+          "source": "他の開発工事も基本的に基地の建設を見越してのもので、",
+          "target": "다른 개발 공사도 기본적으로 기지 건설을 내다보고 시작한 일이라,"
+        },
+        {
+          "id": "sub_masa02.mjo::000125",
+          "role": "text",
+          "source": "もし基地建設が中止になれば、",
+          "target": "기지 건설이 중단되면,"
+        },
+        {
+          "id": "sub_masa02.mjo::000129",
+          "role": "text",
+          "source": "自然と他の開発もストップする筈…",
+          "target": "자연히 나머지 개발도 멈출 터였다…"
+        }
+      ],
+      "warning_ids": [
+        "sub_masa02.mjo::000121"
+      ],
+      "variants": [
+        {
+          "scale": 1,
+          "rows": 3,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 289,
+          "right_with_indent_outline_margin_px": 314,
+          "bottom_with_line_outline_margin_px": 96,
+          "pass": true
+        },
+        {
+          "scale": 4,
+          "rows": 3,
+          "auto_wraps_needed": 0,
+          "max_row_advance_px": 325,
+          "right_with_indent_outline_margin_px": 350,
+          "bottom_with_line_outline_margin_px": 96,
+          "pass": true
+        }
+      ],
+      "compiled_text_exact": true,
+      "status": "headless_pass_final_visual_by_user"
+    }
+  ],
+  "tail_choices": [
+    {
+      "id": "shinya_kyoutu.mjo::006409",
+      "target": "마호코의 제안을 거절한다",
+      "compiled_exact": true,
+      "shared_console_font_advance_px": {
+        "1": 114,
+        "4": 127
+      },
+      "final_menu_visual_by_user": true
+    },
+    {
+      "id": "shinya_kyoutu.mjo::006410",
+      "target": "마호코의 제안을 받아들인다",
+      "compiled_exact": true,
+      "shared_console_font_advance_px": {
+        "1": 124,
+        "4": 138
+      },
+      "final_menu_visual_by_user": true
+    }
+  ],
+  "frozen_verification_evidence": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\session1-04fc30b0-widthqa-v1\\provenance\\font-gdi-sans.json",
+      "sha256": "5cd3e82f5b69b90489eb72d417a1fda0eeae6842129593e8fa75c5c7781e830d",
+      "reused_existing_result": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\session1-04fc30b0-widthqa-v1\\provenance\\font-gdi-serif.json",
+      "sha256": "46a53f1a7ace92459654058c9aabe713cdc72a9b388eee980b31b02713e8fb39",
+      "reused_existing_result": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\session1-04fc30b0-widthqa-v1\\provenance\\native-layout-evidence.json",
+      "sha256": "f7910e2438a8abf26d79cef5c1dede8688f41ffca6600016b90595b4eebdccf8",
+      "reused_existing_result": true
+    }
+  ]
+}

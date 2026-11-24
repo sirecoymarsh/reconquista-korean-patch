@@ -1,0 +1,2020 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-3/lane-3",
+  "coordinator_thread_id": "01a16335-c355-7c83-ad79-53e1812faa34",
+  "agent_id": "01a16337-be36-71c2-8fc8-21283490b7f0",
+  "agent_task": "/root/lane_3",
+  "source_script": "sub_last03.mjo",
+  "source_sha256": "887f60dc1118ef0562934760136121beff1bb03f0f923b93fc27838c89983961",
+  "source_packet_sha256": "08c6b7b65dd86d6b885107c607245525357ee015c146e95ea6aa253e23f3ea31",
+  "records": [
+    {
+      "unit": "sub_last03.mjo::u0121",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001492",
+          "source": "僕の言葉に上条氏はしばし逡巡していたが、",
+          "target": "내 말에 가미조 씨는 잠시 망설이다가,"
+        },
+        {
+          "id": "sub_last03.mjo::001496",
+          "source": "やがて諦めたように顔を上げた。",
+          "target": "마침내 체념한 듯 고개를 들었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0122",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001507",
+          "source": "「あなたの言う通りです…",
+          "target": "「당신 말이 맞습니다…"
+        },
+        {
+          "id": "sub_last03.mjo::001511",
+          "source": "　確かに娘は幼い頃に一度死んで、そして生き返りました」",
+          "target": "　분명 딸은 어릴 때 한 번 죽었다가 되살아났습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0123",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001518",
+          "source": "「じゃあやはり、反魂の法は実在するのですね？」",
+          "target": "「그럼 역시, 반혼술은 실재하는 거군요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "목사에게 존댓말을 유지하지만 감정이 흔들림",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0124",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001529",
+          "source": "「ええ…恐らくは」",
+          "target": "「네… 아마도요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0125",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001534",
+          "source": "頷く上条氏に、私は内心で興奮を抑え切れなかった。",
+          "target": "고개를 끄덕이는 가미조 씨를 보며, 나는 속으로 흥분을 억누르지 못했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0126",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001539",
+          "source": "反魂の法は実在した…！",
+          "target": "반혼술은 실재했다…!"
+        },
+        {
+          "id": "sub_last03.mjo::001543",
+          "source": "しかも実際に死者を生き返らせる段階まで行われていた。",
+          "target": "게다가 실제로 죽은 이를 되살리는 데까지 이르렀다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0127",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001548",
+          "source": "だとしたら、悠絵も――",
+          "target": "그렇다면 유에도――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0128",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001553",
+          "source": "しかしそんな僕の希望を打ち砕くように、",
+          "target": "하지만 그런 내 희망을 깨뜨리듯,"
+        },
+        {
+          "id": "sub_last03.mjo::001557",
+          "source": "上条氏は言葉を続ける。",
+          "target": "가미조 씨는 말을 이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0129",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001568",
+          "source": "「しかし先ほどから言っている通り、",
+          "target": "「하지만 아까부터 말씀드렸듯이,"
+        },
+        {
+          "id": "sub_last03.mjo::001572",
+          "source": "　私は反魂の法についての詳細は知りません」",
+          "target": "　저는 반혼술에 관해 자세히는 모릅니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0130",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001579",
+          "source": "「…なに？　どういうことですか」",
+          "target": "「…뭐요? 무슨 말씀입니까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "목사에게 존댓말을 유지하지만 감정이 흔들림",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0131",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001590",
+          "source": "「娘に反魂の法を施したのは私ではなく、",
+          "target": "「딸에게 반혼술을 쓴 건 제가 아니라,"
+        },
+        {
+          "id": "sub_last03.mjo::001594",
+          "source": "　恐らく妻なんです」",
+          "target": "　아마 제 아내일 겁니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0132",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001605",
+          "source": "「しかしその妻も死にました…",
+          "target": "「하지만 그 아내도 죽었습니다…"
+        },
+        {
+          "id": "sub_last03.mjo::001609",
+          "source": "　だから反魂の法のことを知っている者は、もういません」",
+          "target": "　그러니 반혼술을 아는 사람은 이제 없습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0133",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001614",
+          "source": "そう言って上条氏はその事情を説明した。",
+          "target": "그렇게 말한 가미조 씨는 그 사정을 설명했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0134",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001619",
+          "source": "確かに本来なら反魂の法の管理は、",
+          "target": "분명 본래대로라면 반혼술의 관리는,"
+        },
+        {
+          "id": "sub_last03.mjo::001623",
+          "source": "先代の牧師から上条氏が引き継ぐ筈だったらしい。",
+          "target": "선대 목사에게서 가미조 씨가 이어받아야 했던 모양이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0135",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001628",
+          "source": "だが先代は事故で急死し、",
+          "target": "하지만 선대가 사고로 갑자기 죽으면서,"
+        },
+        {
+          "id": "sub_last03.mjo::001632",
+          "source": "実質的には先代の娘である妻が反魂の法を管理していた…",
+          "target": "실제로는 선대의 딸인 아내가 반혼술을 관리하고 있었다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0136",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001637",
+          "source": "だから上条氏自身は、",
+          "target": "그래서 가미조 씨 본인은,"
+        },
+        {
+          "id": "sub_last03.mjo::001641",
+          "source": "反魂の法の資料が収められた地下蔵に入ったことはないと。",
+          "target": "반혼술 자료가 보관된 지하 창고에 들어가 본 적이 없다고 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0137",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001652",
+          "source": "「妻の死後、私が地下蔵に火をつけて全て焼き払ったので、",
+          "target": "「아내가 죽은 뒤 제가 지하 창고에 불을 질러 전부 태웠으니,"
+        },
+        {
+          "id": "sub_last03.mjo::001656",
+          "source": "　今では何も残ってないでしょう」",
+          "target": "　지금은 아무것도 남아 있지 않겠지요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0138",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001663",
+          "source": "「なんだってっ？　反魂の法の資料を…全部、焼いた？」",
+          "target": "「뭐라고? 반혼술 자료를… 전부, 태웠다고?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "충격과 격앙으로 튀어나오는 반말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0139",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001674",
+          "source": "「そうです…",
+          "target": "「그렇습니다…"
+        },
+        {
+          "id": "sub_last03.mjo::001678",
+          "source": "　あれはこの世にあってはならないものですから」",
+          "target": "　그건 이 세상에 있어서는 안 되는 것이니까요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0140",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001683",
+          "source": "そうか…１６年前の教会全焼事件というのは、",
+          "target": "그렇군… 16년 전 교회 전소 사건이라는 건,"
+        },
+        {
+          "id": "sub_last03.mjo::001687",
+          "source": "その時のことだったのか。",
+          "target": "그때의 일이었나."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0141",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001692",
+          "source": "だとすると、上条氏が反魂の法のことを何も知らなくて、",
+          "target": "그렇다면, 가미조 씨는 반혼술에 대해 아무것도 모르고,"
+        },
+        {
+          "id": "sub_last03.mjo::001696",
+          "source": "その資料も焼失してしまったのなら…",
+          "target": "자료마저 불타 버렸다면…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0142",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001703",
+          "source": "「じゃあ反魂樹は？　反魂樹も焼いたのかっ？」",
+          "target": "「그럼 반혼수는? 반혼수도 태웠나?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "충격과 격앙으로 튀어나오는 반말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0143",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001714",
+          "source": "「反魂…ジュ？　何ですか、それは」",
+          "target": "「반혼… 수? 그게 뭡니까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0144",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001719",
+          "source": "きょとんとした顔で首を捻る上条氏。",
+          "target": "어리둥절한 얼굴로 고개를 갸웃하는 가미조 씨."
+        },
+        {
+          "id": "sub_last03.mjo::001723",
+          "source": "この後に及んでまたとぼけるつもりか？",
+          "target": "이 지경에 와서 또 시치미를 뗄 생각인가?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0145",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001733",
+          "source": "…待てよ。彼が本当に反魂の法のことを知らないなら、",
+          "target": "…잠깐. 그가 정말 반혼술을 모른다면,"
+        },
+        {
+          "id": "sub_last03.mjo::001737",
+          "source": "反魂樹のことを知らなくても無理はない。",
+          "target": "반혼수를 모르는 것도 무리는 아니다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0146",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001742",
+          "source": "恐らくは彼の妻の方が、",
+          "target": "아마 그의 아내가"
+        },
+        {
+          "id": "sub_last03.mjo::001746",
+          "source": "反魂樹の在り処を知っていたのだろう",
+          "target": "반혼수가 있는 곳을 알고 있었을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0147",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001751",
+          "source": "だがその妻も既に死んでいるという…",
+          "target": "하지만 그 아내도 이미 죽었다고 한다…"
+        },
+        {
+          "id": "sub_last03.mjo::001755",
+          "source": "これでは手がかりが掴めないじゃないか。",
+          "target": "이래서는 단서를 잡을 수 없잖아."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0148",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001762",
+          "source": "「（いや、諦めるのはまだ早い…！）」",
+          "target": "「(아니, 아직 포기하기는 일러…!)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "집요한 내적 반말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0149",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001767",
+          "source": "反魂樹が地下蔵と一緒に焼失したとは限らなかった。",
+          "target": "반혼수가 지하 창고와 함께 불탔다고 단정할 수는 없다."
+        },
+        {
+          "id": "sub_last03.mjo::001771",
+          "source": "上条氏の妻が別の場所に移していたかもしれない。",
+          "target": "가미조 씨의 아내가 다른 곳으로 옮겼을지도 모른다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0150",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001776",
+          "source": "その可能性に一るの望みを賭けて、",
+          "target": "그 가능성에 실낱같은 희망을 걸고,"
+        },
+        {
+          "id": "sub_last03.mjo::001780",
+          "source": "僕は上条氏に問いかける。",
+          "target": "나는 가미조 씨에게 물었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0151",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001787",
+          "source": "「…反魂樹とは、",
+          "target": "「…반혼수란,"
+        },
+        {
+          "id": "sub_last03.mjo::001791",
+          "source": "　反魂の法に用いられる特殊な木だそうです」",
+          "target": "　반혼술에 사용하는 특별한 나무라고 합니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "목사에게 존댓말을 유지하지만 감정이 흔들림",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0152",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001802",
+          "source": "「木…？　反魂の法に、木を使うんですか？」",
+          "target": "「나무…? 반혼술에 나무를 쓰는 겁니까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0153",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001809",
+          "source": "「ええ。それであなたの奥さんは、",
+          "target": "「네. 혹시 부인께서,"
+        },
+        {
+          "id": "sub_last03.mjo::001813",
+          "source": "　木を育てていたりしませんでしたか？」",
+          "target": "　나무를 기르고 계시지는 않았습니까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "목사에게 존댓말을 유지하지만 감정이 흔들림",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0154",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001824",
+          "source": "「木…木…",
+          "target": "「나무… 나무…"
+        },
+        {
+          "id": "sub_last03.mjo::001832",
+          "source": "まさか、あれのことか？」",
+          "target": "설마, 그걸 말하는 건가?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "기억을 더듬는 혼잣말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0155",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001839",
+          "source": "「心当たりが、あるんですね？」",
+          "target": "「짐작 가는 게 있으시군요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "목사에게 존댓말을 유지하지만 감정이 흔들림",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0156",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001850",
+          "source": "「ええ…確かに妻が大事にしていた木が一つありました」",
+          "target": "「네… 분명 아내가 소중히 여기던 나무가 하나 있었습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0157",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001855",
+          "source": "それだっ。それが恐らく反魂樹に違いない…！",
+          "target": "그거다. 아마 그게 반혼수일 게 틀림없다…!"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0158",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001862",
+          "source": "「その木はどこにあったんですかっ？」",
+          "target": "「그 나무는 어디에 있었습니까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "목사에게 존댓말을 유지하지만 감정이 흔들림",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0159",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001873",
+          "source": "「家の裏手にある山の奥に生えていましたが…",
+          "target": "「집 뒤편 산속에 자라고 있었습니다만…"
+        },
+        {
+          "id": "sub_last03.mjo::001877",
+          "source": "　しかしその山はもうありません」",
+          "target": "　하지만 그 산은 이제 없습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0160",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001884",
+          "source": "「あっ…」",
+          "target": "「아…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "충격과 격앙으로 튀어나오는 반말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0161",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001895",
+          "source": "「あなたもご存知かと思いますが、３年前の土砂崩れで、",
+          "target": "「알고 계시겠지만, 3년 전 산사태로,"
+        },
+        {
+          "id": "sub_last03.mjo::001899",
+          "source": "　木の生えていた場所も崩れてしまったらしいのです」",
+          "target": "　나무가 있던 곳도 무너진 모양입니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0162",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001910",
+          "source": "「その後は山ごと削り取られることになって、",
+          "target": "「그 뒤에는 산을 통째로 깎아 내게 되어서,"
+        },
+        {
+          "id": "sub_last03.mjo::001914",
+          "source": "　今は跡形もなくなってしまいました」",
+          "target": "　지금은 흔적도 없이 사라졌습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0163",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001921",
+          "source": "「…そんな…」",
+          "target": "「…그럴 수가…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "충격과 격앙으로 튀어나오는 반말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0164",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001926",
+          "source": "上条氏の言葉に、",
+          "target": "가미조 씨의 말에,"
+        },
+        {
+          "id": "sub_last03.mjo::001930",
+          "source": "僕の希望はことごとく打ち砕かれた。",
+          "target": "내 희망은 모조리 산산이 부서졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0165",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001935",
+          "source": "反魂の法の資料は焼失し、",
+          "target": "반혼술의 자료는 불타고,"
+        },
+        {
+          "id": "sub_last03.mjo::001939",
+          "source": "肝心の反魂樹も土砂崩れでなくなった。",
+          "target": "정작 중요한 반혼수도 산사태로 사라졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0166",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001944",
+          "source": "そして唯一反魂の法のことを知っていた上条氏の妻も",
+          "target": "그리고 유일하게 반혼술을 알고 있던 가미조 씨의 아내도"
+        },
+        {
+          "id": "sub_last03.mjo::001948",
+          "source": "既に死んでいるという。",
+          "target": "이미 죽었다고 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0167",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001953",
+          "source": "折角見えてきた光明が闇に閉ざされ、",
+          "target": "기껏 보이던 빛마저 어둠에 가로막히고,"
+        },
+        {
+          "id": "sub_last03.mjo::001957",
+          "source": "僕は絶望に打ちひしがれる…",
+          "target": "나는 절망에 짓눌린다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0168",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001968",
+          "source": "「汐見さん…反魂の法は、",
+          "target": "「시오미 씨… 반혼술은,"
+        },
+        {
+          "id": "sub_last03.mjo::001972",
+          "source": "　人の世にあってはならない邪法です」",
+          "target": "　인간 세상에 있어서는 안 되는 사악한 술법입니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0169",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001983",
+          "source": "「あなたも伝道師ならばわかるでしょう？",
+          "target": "「당신도 전도사라면 아시겠지요?"
+        },
+        {
+          "id": "sub_last03.mjo::001987",
+          "source": "　あれは信仰に反するもので…人の運命を狂わせます」",
+          "target": "　그건 신앙에 어긋나는 것이며… 사람의 운명을 뒤틀어 놓습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0170",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::001994",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "목사에게 존댓말을 유지하지만 감정이 흔들림",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0171",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002005",
+          "source": "「確かに、大切な人を失うのは非常に辛いことですが…」",
+          "target": "「물론 소중한 사람을 잃는 건 무척 괴로운 일입니다만…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0172",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002016",
+          "source": "「それは残された者がきちんと",
+          "target": "「그것은 남겨진 사람이"
+        },
+        {
+          "id": "sub_last03.mjo::002020",
+          "source": "　受け止めるべきものじゃないでしょうか」",
+          "target": "　온전히 받아들여야 할 일 아니겠습니까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0173",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002025",
+          "source": "…のうのうとふざけたことを口にする彼に対し、",
+          "target": "…태연하게 같잖은 소리를 지껄이는 그에게,"
+        },
+        {
+          "id": "sub_last03.mjo::002029",
+          "source": "僕は憎悪すら抱き始めていた。",
+          "target": "나는 증오마저 품기 시작했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0174",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002034",
+          "source": "自分はちゃっかり娘を生き返らせておいて、",
+          "target": "자기는 버젓이 딸을 되살려 놓고,"
+        },
+        {
+          "id": "sub_last03.mjo::002038",
+          "source": "よくそんなことが言えるものだ。",
+          "target": "잘도 그런 말을 하는군."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0175",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002043",
+          "source": "そもそも反魂の法が失われたのは、",
+          "target": "애초에 반혼술이 사라진 건,"
+        },
+        {
+          "id": "sub_last03.mjo::002047",
+          "source": "全て貴様のせいだというのに…！",
+          "target": "전부 네놈 때문이면서…!"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0176",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002056",
+          "source": "だがそこで僕は、ある可能性に気付いた。",
+          "target": "하지만 그때 나는 어떤 가능성을 깨달았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0177",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002061",
+          "source": "反魂樹は他の資料のように、",
+          "target": "반혼수는 다른 자료처럼,"
+        },
+        {
+          "id": "sub_last03.mjo::002065",
+          "source": "１６年前に焼失してしまったわけじゃない。",
+          "target": "16년 전에 불타 버린 게 아니다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0178",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002070",
+          "source": "上条氏の言ったことが本当なら、",
+          "target": "가미조 씨의 말이 사실이라면,"
+        },
+        {
+          "id": "sub_last03.mjo::002074",
+          "source": "３年前の土砂崩れが起きるまでは現存していた筈。",
+          "target": "3년 전 산사태가 일어나기 전까지는 존재했을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0179",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002079",
+          "source": "そして仮に土砂崩れで反魂樹が埋もれてしまったとして、",
+          "target": "그리고 설령 산사태로 반혼수가 묻혔다고 해도,"
+        },
+        {
+          "id": "sub_last03.mjo::002083",
+          "source": "その土砂は今どこにある？",
+          "target": "그 토사는 지금 어디에 있지?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0180",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002090",
+          "source": "「（ここだ…この海上ニュータウンの埋め立てに",
+          "target": "「(여기다… 이 해상 뉴타운을 매립할 때"
+        },
+        {
+          "id": "sub_last03.mjo::002094",
+          "source": "　使われたと聞いている）」",
+          "target": "　사용했다고 들었어.)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "집요한 내적 반말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0181",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002099",
+          "source": "つまりその土砂を使った埋立地のどこかに、",
+          "target": "즉 그 토사로 만든 매립지 어딘가에,"
+        },
+        {
+          "id": "sub_last03.mjo::002103",
+          "source": "反魂樹も埋まっているんじゃないか？",
+          "target": "반혼수도 묻혀 있는 게 아닐까?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0182",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002108",
+          "source": "…冷静に考えると、その可能性は決して高くはない。",
+          "target": "…냉정하게 생각하면, 그럴 가능성은 결코 크지 않다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0183",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002113",
+          "source": "仮に本当に埋まっていたとしても、",
+          "target": "설령 정말로 묻혀 있다고 해도,"
+        },
+        {
+          "id": "sub_last03.mjo::002117",
+          "source": "何十メートルも地下に埋もれていては見つけようがない。",
+          "target": "수십 미터 지하에 있다면 찾아낼 방법이 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0184",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002122",
+          "source": "けど可能性がゼロでないなら、",
+          "target": "하지만 가능성이 전혀 없는 게 아니라면,"
+        },
+        {
+          "id": "sub_last03.mjo::002126",
+          "source": "僕はそこに賭けるしかなかった。",
+          "target": "나는 거기에 걸 수밖에 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0185",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002131",
+          "source": "――そこに悠絵を蘇らせる希望が、",
+          "target": "――그곳에 유에를 되살릴 희망이,"
+        },
+        {
+          "id": "sub_last03.mjo::002135",
+          "source": "少しでも残っているのなら。",
+          "target": "조금이라도 남아 있다면."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0186",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002149",
+          "source": "「汐見さん…もし良かったら、",
+          "target": "「시오미 씨… 괜찮으시다면,"
+        },
+        {
+          "id": "sub_last03.mjo::002153",
+          "source": "　この礼拝堂で働きませんか？」",
+          "target": "　이 예배당에서 일하지 않으시겠습니까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0187",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002160",
+          "source": "「えっ？」",
+          "target": "「네?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "목사에게 존댓말을 유지하지만 감정이 흔들림",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0188",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002171",
+          "source": "「反魂の法のことは力になれませんが、",
+          "target": "「반혼술에 대해서는 도와드릴 수 없지만,"
+        },
+        {
+          "id": "sub_last03.mjo::002175",
+          "source": "　大切な人の死を受け入れるお手伝いなら出来ると思います」",
+          "target": "　소중한 이의 죽음을 받아들이는 일이라면 도울 수 있을 겁니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0189",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002186",
+          "source": "「私も妻を失い、",
+          "target": "「저도 아내를 잃었고,"
+        },
+        {
+          "id": "sub_last03.mjo::002190",
+          "source": "　生き返った娘も結局私より先に逝ってしまいました…」",
+          "target": "　되살아난 딸마저 결국 저보다 먼저 세상을 떠났습니다…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0190",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002201",
+          "source": "「だから多少なりとも、",
+          "target": "「그러니 조금이나마,"
+        },
+        {
+          "id": "sub_last03.mjo::002205",
+          "source": "　あなたの気持ちはわかるつもりです」",
+          "target": "　당신의 심정을 이해한다고 생각합니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0191",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002212",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "목사에게 존댓말을 유지하지만 감정이 흔들림",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0192",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002217",
+          "source": "上条氏の思わぬ申し出に、頭の中で打算を働かせる僕。",
+          "target": "가미조 씨의 뜻밖의 제안에, 나는 머릿속으로 득실을 따졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0193",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002222",
+          "source": "肝心なことは何も知らないようだが、",
+          "target": "중요한 것은 아무것도 모르는 듯하지만,"
+        },
+        {
+          "id": "sub_last03.mjo::002226",
+          "source": "この男にはまだ利用価値があるかもしれない。",
+          "target": "이 남자에게는 아직 이용 가치가 있을지 모른다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0194",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002231",
+          "source": "それにこの街に残って反魂樹を探すのなら、",
+          "target": "게다가 이곳에 남아 반혼수를 찾으려면,"
+        },
+        {
+          "id": "sub_last03.mjo::002235",
+          "source": "表面上は礼拝堂で働いていた方が、色々と都合がいい。",
+          "target": "겉으로는 예배당에서 일하는 편이 여러모로 편하다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0195",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002240",
+          "source": "礼拝堂という職場は、",
+          "target": "예배당이라는 일터는,"
+        },
+        {
+          "id": "sub_last03.mjo::002244",
+          "source": "僕の目的を隠す絶好のカモフラージュだった。",
+          "target": "내 목적을 감추기에 더없이 좋은 위장이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0196",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002255",
+          "source": "「どうですか？　ここで働く気はありませんか？」",
+          "target": "「어떻습니까? 여기서 일해 볼 생각은 없으신가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0197",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002262",
+          "source": "「…本当に、いいんですか？」",
+          "target": "「…정말, 그래도 됩니까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "목사에게 존댓말을 유지하지만 감정이 흔들림",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0198",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002273",
+          "source": "「もちろんです。この礼拝堂も出来たばかりで、",
+          "target": "「물론이지요. 이 예배당도 생긴 지 얼마 안 돼서,"
+        },
+        {
+          "id": "sub_last03.mjo::002277",
+          "source": "　何かと人手不足でしたから」",
+          "target": "　이래저래 일손이 부족했거든요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "시오미"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "비밀을 고백하고 상대를 위로하는 존댓말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0199",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002284",
+          "source": "「わかりました…では、お世話になろうと思います」",
+          "target": "「알겠습니다… 그럼 신세를 지겠습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "목사에게 존댓말을 유지하지만 감정이 흔들림",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0200",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002294",
+          "source": "僕がそう答えると、",
+          "target": "내가 그렇게 대답하자,"
+        },
+        {
+          "id": "sub_last03.mjo::002298",
+          "source": "上条氏は微笑んで手を差し出してくる。",
+          "target": "가미조 씨는 미소를 지으며 손을 내밀었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0201",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002303",
+          "source": "僕はこの男の偽善者ぶりに反吐が出そうな気持ちを抑え、",
+          "target": "나는 이 남자의 위선에 토할 것 같은 기분을 억누르고,"
+        },
+        {
+          "id": "sub_last03.mjo::002307",
+          "source": "黙ってその手を握り返した…",
+          "target": "말없이 그 손을 맞잡았다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0202",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002316",
+          "source": "こうして僕は改心したふりをしつつ、",
+          "target": "이렇게 나는 마음을 고쳐먹은 척하며,"
+        },
+        {
+          "id": "sub_last03.mjo::002320",
+          "source": "上条氏の誘いを受けることに。",
+          "target": "가미조 씨의 권유를 받아들이게 되었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0203",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002325",
+          "source": "だが内心では当然まだ諦めていない。",
+          "target": "하지만 속으로는 당연히 아직 포기하지 않았다."
+        },
+        {
+          "id": "sub_last03.mjo::002329",
+          "source": "むしろ残った可能性に全てを賭けるつもりだった。",
+          "target": "오히려 남은 가능성에 모든 것을 걸 생각이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0204",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002334",
+          "source": "この街のどこかに埋もれているかもしれない、反魂樹…",
+          "target": "이곳 어딘가에 묻혀 있을지도 모르는 반혼수…"
+        },
+        {
+          "id": "sub_last03.mjo::002338",
+          "source": "必ず探し出してみせる。",
+          "target": "반드시 찾아내고 말겠다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0205",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002343",
+          "source": "例え何年、何十年とかかろうとも――",
+          "target": "몇 년, 몇십 년이 걸린다 해도――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(서술)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "분노·절망·계산이 드러나는 1인칭 서술",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "sub_last03.mjo::u0206",
+      "fields": [
+        {
+          "id": "sub_last03.mjo::002353",
+          "source": "「（僕は、諦めない…",
+          "target": "「(나는, 포기하지 않아…"
+        },
+        {
+          "id": "sub_last03.mjo::002356",
+          "source": "悠絵…）」",
+          "target": "유에…)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시오미(독백)",
+        "addressees": [],
+        "relationship": "처음 만난 전도사 시오미와 목사 가미조. 시오미는 집요한 존댓말에서 분노의 반말로 튀었다가 목적을 위해 정중함을 회복한다. 가미조는 상실을 공유하며 위로와 취업을 제안하지만 시오미는 속으로 적대한다.",
+        "story_phase": "부가 과거: 가미조의 반혼 고백, 반혼수의 행방, 시오미의 예배당 취업",
+        "voice": "집요한 내적 반말",
+        "context_evidence": "sub_last03 전체206구간과 양쪽 인접파일 문맥을 읽음. u0111–0120의 딸 부활 추궁을 이어받아 u0121부터 번역."
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [],
+  "inline_records": [],
+  "review_notes": [
+    "u0138/0142에서 시오미가 반말로 격앙되고 u0151 이후 정보가 남아 있음을 깨닫자 존댓말로 되돌아감.",
+    "反魂樹=반혼수, 反魂の法=반혼술, 伝道師=전도사 고정.",
+    "아이의 부활은 비성적 사건이며 사용자 대학 설정을 어린 시절에 적용하지 않음."
+  ]
+}

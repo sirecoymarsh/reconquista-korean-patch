@@ -1,0 +1,436 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "entries": [
+    {
+      "entry": "サウンドモード_off.rct",
+      "mask_entry": "サウンドモード_off_.rc8",
+      "prior_payload_sha256": "a33b9030fb48033aee4945e3c9b7f7f42d68b6ae6c2d36ba9ecf952f34399520",
+      "prior_mask_sha256": "84f8491ccf7a138c8635b2da523d8ad40e3fbe290750b7eb090384b0da0319be",
+      "source_size": [
+        800,
+        600
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-06",
+          "track_id": 6,
+          "source": "distortion",
+          "target": "왜곡",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            45,
+            416,
+            151,
+            46
+          ],
+          "source_region": [
+            60,
+            423,
+            133,
+            24
+          ],
+          "target_ink_bounds": [
+            68,
+            423,
+            106,
+            446
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-27",
+          "track_id": 27,
+          "source": "声が聴こえる〜Calling you〜",
+          "target": "목소리가 들려\n~널 부르며~",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            522,
+            416,
+            214,
+            46
+          ],
+          "source_region": [
+            522,
+            416,
+            214,
+            46
+          ],
+          "target_ink_bounds": [
+            533,
+            421,
+            635,
+            459
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_off.rct::track-28",
+          "track_id": 28,
+          "source": "声が聴こえる〜Calling you〜\n(instrumental)",
+          "target": "목소리가 들려\n~널 부르며~ (연주곡)",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            522,
+            465,
+            214,
+            46
+          ],
+          "source_region": [
+            522,
+            465,
+            214,
+            46
+          ],
+          "target_ink_bounds": [
+            533,
+            470,
+            639,
+            509
+          ]
+        }
+      ],
+      "restoration": [
+        {
+          "track_id": 6,
+          "source_glyph_pixels": 882,
+          "original_logo_and_quote_excluded": true,
+          "off_background": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "hover_pressed_background_alpha": 0
+        },
+        {
+          "track_id": 27,
+          "source_glyph_pixels": 2130,
+          "original_logo_and_quote_excluded": true,
+          "off_background": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "hover_pressed_background_alpha": 0
+        },
+        {
+          "track_id": 28,
+          "source_glyph_pixels": 2807,
+          "original_logo_and_quote_excluded": true,
+          "off_background": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "hover_pressed_background_alpha": 0
+        }
+      ],
+      "protected_pixel_diff_count": 0,
+      "persisted_rgba_exact": true,
+      "palette_preserved": true
+    },
+    {
+      "entry": "サウンドモード_on.rct",
+      "mask_entry": "サウンドモード_on_.rc8",
+      "prior_payload_sha256": "077f1b8a3073d5a3a5bc59d31d7a62abe57a4f9877e42d831a1fb49a7dc3188e",
+      "prior_mask_sha256": "256fcbc94b9ab449b0012d9a8c787da82cdf16035e9dd70121c466a195e40137",
+      "source_size": [
+        800,
+        600
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-06",
+          "track_id": 6,
+          "source": "distortion",
+          "target": "왜곡",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            45,
+            416,
+            151,
+            46
+          ],
+          "source_region": [
+            45,
+            416,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            68,
+            423,
+            106,
+            446
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-27",
+          "track_id": 27,
+          "source": "声が聴こえる〜Calling you〜",
+          "target": "목소리가 들려\n~널 부르며~",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            522,
+            416,
+            214,
+            46
+          ],
+          "source_region": [
+            522,
+            416,
+            214,
+            46
+          ],
+          "target_ink_bounds": [
+            533,
+            421,
+            635,
+            459
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_on.rct::track-28",
+          "track_id": 28,
+          "source": "声が聴こえる〜Calling you〜\n(instrumental)",
+          "target": "목소리가 들려\n~널 부르며~ (연주곡)",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            522,
+            465,
+            214,
+            46
+          ],
+          "source_region": [
+            522,
+            465,
+            214,
+            46
+          ],
+          "target_ink_bounds": [
+            533,
+            470,
+            639,
+            509
+          ]
+        }
+      ],
+      "restoration": [
+        {
+          "track_id": 6,
+          "source_glyph_pixels": 1587,
+          "original_logo_and_quote_excluded": true,
+          "off_background": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "hover_pressed_background_alpha": 0
+        },
+        {
+          "track_id": 27,
+          "source_glyph_pixels": 3917,
+          "original_logo_and_quote_excluded": true,
+          "off_background": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "hover_pressed_background_alpha": 0
+        },
+        {
+          "track_id": 28,
+          "source_glyph_pixels": 5126,
+          "original_logo_and_quote_excluded": true,
+          "off_background": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "hover_pressed_background_alpha": 0
+        }
+      ],
+      "protected_pixel_diff_count": 0,
+      "persisted_rgba_exact": true,
+      "palette_preserved": true
+    },
+    {
+      "entry": "サウンドモード_push.rct",
+      "mask_entry": "サウンドモード_push_.rc8",
+      "prior_payload_sha256": "64c509edba84d3eae8bfc5e1a481aadd0e8dd026384cecb2289d44e4aa3ca82b",
+      "prior_mask_sha256": "c07845a6dfdf7e61a857c2bce2790db1b0c84a4c9492a915357667034ce063bf",
+      "source_size": [
+        800,
+        600
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-06",
+          "track_id": 6,
+          "source": "distortion",
+          "target": "왜곡",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            45,
+            416,
+            151,
+            46
+          ],
+          "source_region": [
+            45,
+            416,
+            151,
+            46
+          ],
+          "target_ink_bounds": [
+            68,
+            423,
+            106,
+            446
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-27",
+          "track_id": 27,
+          "source": "声が聴こえる〜Calling you〜",
+          "target": "목소리가 들려\n~널 부르며~",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            522,
+            416,
+            214,
+            46
+          ],
+          "source_region": [
+            522,
+            416,
+            214,
+            46
+          ],
+          "target_ink_bounds": [
+            533,
+            421,
+            635,
+            459
+          ]
+        },
+        {
+          "id": "fastdata.arc::サウンドモード_push.rct::track-28",
+          "track_id": 28,
+          "source": "声が聴こえる〜Calling you〜\n(instrumental)",
+          "target": "목소리가 들려\n~널 부르며~ (연주곡)",
+          "translator_model": "Codex internal",
+          "consumer_crop": [
+            522,
+            465,
+            214,
+            46
+          ],
+          "source_region": [
+            522,
+            465,
+            214,
+            46
+          ],
+          "target_ink_bounds": [
+            533,
+            470,
+            639,
+            509
+          ]
+        }
+      ],
+      "restoration": [
+        {
+          "track_id": 6,
+          "source_glyph_pixels": 1587,
+          "original_logo_and_quote_excluded": true,
+          "off_background": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "hover_pressed_background_alpha": 0
+        },
+        {
+          "track_id": 27,
+          "source_glyph_pixels": 3917,
+          "original_logo_and_quote_excluded": true,
+          "off_background": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "hover_pressed_background_alpha": 0
+        },
+        {
+          "track_id": 28,
+          "source_glyph_pixels": 5126,
+          "original_logo_and_quote_excluded": true,
+          "off_background": [
+            0,
+            0,
+            0,
+            102
+          ],
+          "hover_pressed_background_alpha": 0
+        }
+      ],
+      "protected_pixel_diff_count": 0,
+      "persisted_rgba_exact": true,
+      "palette_preserved": true
+    }
+  ],
+  "output_hashes": {
+    "サウンドモード_off.rct": "c351e3510eff9328d6e7a578cecedc45404e9c9393991e3690876993ef6767ad",
+    "サウンドモード_off_.rc8": "e788d54add4c4f2f2729dccbee3dc3ff9be282f4dff99d7dd7df1787ea783b22",
+    "サウンドモード_on.rct": "f11d5288b64ecb5a41f5426f07d73223197192bdbcf655c48f491750dba78227",
+    "サウンドモード_on_.rc8": "4b2d31f9fe9fc4871b49e9843c0e021048dd1904c961a48d0c7352ad14d5e4e1",
+    "サウンドモード_push.rct": "e2eb1cacce7627c4da2416f850637d6ea911fd79a8d05a25a8733424c0b9ea82",
+    "サウンドモード_push_.rc8": "2184a10d1a9118c759e80a7092e255b80981efea3b5a8e987f1805227028f740"
+  },
+  "semantic_labels": 9,
+  "unique_tracks": 3,
+  "track_ids": [
+    6,
+    27,
+    28
+  ],
+  "remaining_track_ids": [
+    7,
+    8,
+    14,
+    15,
+    16,
+    22,
+    23
+  ],
+  "structural_pass": true,
+  "visual_pass": true,
+  "runtime_pass": false,
+  "font_sha256": "77b4b741f864d27f15e90f275b17106dde90b2ad28f82bab72dc95805db5fb42",
+  "consumer_sha256": "6216e2353f4d17b4078ff72ab3501d371fcad95c580cb47fdf43ff745650cba8",
+  "actual_crops_verified": true,
+  "script_audio_tokens_unchanged": true,
+  "scope": "21/28 music buttons authored cumulatively. Seven source glyphs overlap protected logo/quote; navigation and quote remain pending.",
+  "visual_review": {
+    "reviewer": "Codex internal",
+    "reviewed_local": "2026-10-23T05:51:41.467861+09:00",
+    "evidence": [
+      "preview/music-native-normal.png",
+      "preview/music-native-on.png",
+      "preview/off-source-clean-final-2x.png",
+      "preview/push-source-clean-final-2x.png"
+    ],
+    "result": "All three titles and Korean subtitle/variant fit original buttons at native size. Track6 logo is byte-preserved; all original title and shadow pixels removed. Hover/pressed states retain aligned gold feedback. Other7 tracks and decorative quote remain unchanged."
+  },
+  "runtime_partial_evidence": "reports/background-runtime-v18-validation.json",
+  "runtime_normal_pass": true,
+  "runtime_scope": "Normal authored button labels only; do not infer complete state coverage from operation tags."
+}

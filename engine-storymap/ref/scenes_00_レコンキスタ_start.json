@@ -1,0 +1,218 @@
+[
+ {
+  "bg": "netu101a",
+  "first_order": 1,
+  "first_id": "00_レコンキスタ_start:35",
+  "pages": 19,
+  "choices": 0,
+  "views": 0,
+  "first": "＊＊＊（쿠레하） 「드디어 만났네」 ＊＊＊ 「마침내 여기까지 왔군요」"
+ },
+ {
+  "bg": "bg_001",
+  "first_order": 20,
+  "first_id": "00_レコンキスタ_start:275",
+  "pages": 6,
+  "choices": 0,
+  "views": 0,
+  "first": "빠앙, 부르르르릉…"
+ },
+ {
+  "bg": "ev102_04",
+  "first_order": 26,
+  "first_id": "00_レコンキスタ_start:343",
+  "pages": 15,
+  "choices": 0,
+  "views": 0,
+  "first": "＊＊＊（모미지） 「바다야, 바다! 예쁘다아~」 ＊＊＊ 「그러네, 모미지. 여기까지 왔으면 이제 거의 다 왔어」"
+ },
+ {
+  "bg": "bg_020a",
+  "first_order": 41,
+  "first_id": "00_レコンキスタ_start:498",
+  "pages": 32,
+  "choices": 0,
+  "views": 0,
+  "first": "＊＊＊ 「거긴 바다를 메워서 만든 인공섬이란다」 모미지"
+ },
+ {
+  "bg": "bg_020a",
+  "first_order": 73,
+  "first_id": "00_レコンキスタ_start:830",
+  "pages": 2,
+  "choices": 0,
+  "views": 0,
+  "first": "다리 하나로 혼슈와 이어진 인공섬―― 달리 해상 뉴타운이라고도 불리는 곳이다. 이제 나와 딸 모미지는"
+ },
+ {
+  "bg": "bg_001",
+  "first_order": 75,
+  "first_id": "00_レコンキスタ_start:874",
+  "pages": 56,
+  "choices": 0,
+  "views": 0,
+  "first": "푸슈우, 드르르르르… 모미지"
+ },
+ {
+  "bg": "img102a",
+  "first_order": 131,
+  "first_id": "00_レコンキスタ_start:1469",
+  "pages": 17,
+  "choices": 0,
+  "views": 0,
+  "first": "모미지 「아빠, 이제 곧 신호 바뀔 거야」 마키노 「아직, 아직이야."
+ },
+ {
+  "bg": "netu106",
+  "first_order": 148,
+  "first_id": "00_レコンキスタ_start:1652",
+  "pages": 7,
+  "choices": 0,
+  "views": 0,
+  "first": "마키노 「아…」 세일러복을 입은 소녀의 뒷모습이었다."
+ },
+ {
+  "bg": "bg_340a",
+  "first_order": 155,
+  "first_id": "00_レコンキスタ_start:1727",
+  "pages": 15,
+  "choices": 0,
+  "views": 0,
+  "first": "모미지 「아빠, 멍하니 걸으면 위험해」 마키노 「어? 머, 멍하니 있지 않았는데」"
+ },
+ {
+  "bg": "bg_300a",
+  "first_order": 170,
+  "first_id": "00_レコンキスタ_start:1865",
+  "pages": 28,
+  "choices": 0,
+  "views": 0,
+  "first": "마키노 「저기 봐, 모미지. 이제 보인다」 나와 모미지는 번화가를 지나 아파트가 늘어선 주택가에 들어섰다."
+ },
+ {
+  "bg": "netu112_02",
+  "first_order": 198,
+  "first_id": "00_レコンキスタ_start:2152",
+  "pages": 39,
+  "choices": 0,
+  "views": 0,
+  "first": "＊＊＊（마사키） 「혹시 이 아파트에 　새로 이사 오신 분들인가요?」 그곳에는 어린 여자아이가 서 있었다."
+ },
+ {
+  "bg": "bg_230a",
+  "first_order": 237,
+  "first_id": "00_レコンキスタ_start:2590",
+  "pages": 48,
+  "choices": 0,
+  "views": 0,
+  "first": "철컥, 우우웅…"
+ },
+ {
+  "bg": "bg_120a",
+  "first_order": 285,
+  "first_id": "00_レコンキスタ_start:3143",
+  "pages": 55,
+  "choices": 0,
+  "views": 0,
+  "first": "마키노 「오…」"
+ },
+ {
+  "bg": "catch03",
+  "first_order": 340,
+  "first_id": "00_レコンキスタ_start:3758",
+  "pages": 4,
+  "choices": 0,
+  "views": 0,
+  "first": "모미지 「목욕이다, 목욕이야~」 마키노 「모미지, 뛰면 넘어진다. 위험해」"
+ },
+ {
+  "bg": "bg_190a",
+  "first_order": 344,
+  "first_id": "00_レコンキスタ_start:3802",
+  "pages": 26,
+  "choices": 0,
+  "views": 0,
+  "first": "모미지 「우와, 욕실도 넓다아」"
+ },
+ {
+  "bg": "ev116_01",
+  "first_order": 370,
+  "first_id": "00_レコンキスタ_start:4114",
+  "pages": 52,
+  "choices": 0,
+  "views": 0,
+  "first": "모미지 「꾸우우욱…」 마키노 「…모미지, 눈을 그렇게 꼭 감지 않아도 괜찮아」"
+ },
+ {
+  "bg": "bg_120c",
+  "first_order": 422,
+  "first_id": "00_レコンキスタ_start:4633",
+  "pages": 12,
+  "choices": 0,
+  "views": 0,
+  "first": "딩동. 마키노 「어라, 이 시간에 누구지」"
+ },
+ {
+  "bg": "bg_210c",
+  "first_order": 434,
+  "first_id": "00_レコンキスタ_start:4752",
+  "pages": 47,
+  "choices": 0,
+  "views": 0,
+  "first": "마키노 「기, 기다리셨죠!」"
+ },
+ {
+  "bg": "catch03",
+  "first_order": 481,
+  "first_id": "00_レコンキスタ_start:5280",
+  "pages": 1,
+  "choices": 0,
+  "views": 0,
+  "first": "모미지 「으음, 냠냠…」"
+ },
+ {
+  "bg": "ev106_01",
+  "first_order": 482,
+  "first_id": "00_レコンキスタ_start:5300",
+  "pages": 8,
+  "choices": 0,
+  "views": 0,
+  "first": "모미지 「새근, 새근…」 모미지가 귀엽게 잠든 숨소리를 낸다. 그 모습을 보니 마음이 무척 편안해졌다."
+ },
+ {
+  "bg": "bg_120c",
+  "first_order": 490,
+  "first_id": "00_レコンキスタ_start:5376",
+  "pages": 29,
+  "choices": 0,
+  "views": 0,
+  "first": "철컥."
+ },
+ {
+  "bg": "bg_003",
+  "first_order": 519,
+  "first_id": "00_レコンキスタ_start:5687",
+  "pages": 57,
+  "choices": 0,
+  "views": 0,
+  "first": "휘이이이이잉…"
+ },
+ {
+  "bg": "bg_250c",
+  "first_order": 576,
+  "first_id": "00_レコンキスタ_start:6256",
+  "pages": 39,
+  "choices": 0,
+  "views": 0,
+  "first": "마키노 「…어라? 이상하네」 그런데 편의점까지 가는 길은 생각보다 멀었다."
+ },
+ {
+  "bg": "bg_010_04",
+  "first_order": 615,
+  "first_id": "00_レコンキスタ_start:6667",
+  "pages": 5,
+  "choices": 0,
+  "views": 0,
+  "first": "억지로 쥐어짜 낸 내 쉰 목소리는 한 줄기 밤바람에 묻혀 버렸다."
+ }
+]

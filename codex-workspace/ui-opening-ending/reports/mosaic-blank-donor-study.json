@@ -1,0 +1,250 @@
+[
+  {
+    "entry": "config_off.rct",
+    "region": [
+      64,
+      33,
+      104,
+      39
+    ],
+    "source_mask_pixels": 1755,
+    "best_blank_donors": [
+      {
+        "donor": "選択肢台.rct",
+        "xy": [
+          356,
+          81
+        ],
+        "mse": 24.588294944227147,
+        "known_pixels": 2301,
+        "different_known_pixels": 336
+      },
+      {
+        "donor": "askyesno_base.rct",
+        "xy": [
+          357,
+          200
+        ],
+        "mse": 24.588294944227147,
+        "known_pixels": 2301,
+        "different_known_pixels": 336
+      },
+      {
+        "donor": "選択肢台.rct",
+        "xy": [
+          474,
+          81
+        ],
+        "mse": 25.158626684050414,
+        "known_pixels": 2301,
+        "different_known_pixels": 336
+      },
+      {
+        "donor": "askyesno_base.rct",
+        "xy": [
+          475,
+          200
+        ],
+        "mse": 25.158626684050414,
+        "known_pixels": 2301,
+        "different_known_pixels": 336
+      },
+      {
+        "donor": "askyesno_base.rct",
+        "xy": [
+          553,
+          200
+        ],
+        "mse": 30.82196146602926,
+        "known_pixels": 2301,
+        "different_known_pixels": 351
+      }
+    ]
+  },
+  {
+    "entry": "submenu_off.rct",
+    "region": [
+      578,
+      33,
+      118,
+      43
+    ],
+    "source_mask_pixels": 2675,
+    "best_blank_donors": [
+      {
+        "donor": "選択肢台.rct",
+        "xy": [
+          174,
+          77
+        ],
+        "mse": 0.0,
+        "known_pixels": 2399,
+        "different_known_pixels": 0
+      },
+      {
+        "donor": "askyesno_base.rct",
+        "xy": [
+          175,
+          196
+        ],
+        "mse": 0.0,
+        "known_pixels": 2399,
+        "different_known_pixels": 0
+      },
+      {
+        "donor": "選択肢台.rct",
+        "xy": [
+          312,
+          77
+        ],
+        "mse": 41.12894261497846,
+        "known_pixels": 2399,
+        "different_known_pixels": 215
+      },
+      {
+        "donor": "askyesno_base.rct",
+        "xy": [
+          313,
+          196
+        ],
+        "mse": 41.12894261497846,
+        "known_pixels": 2399,
+        "different_known_pixels": 215
+      },
+      {
+        "donor": "選択肢台.rct",
+        "xy": [
+          430,
+          77
+        ],
+        "mse": 53.20536334583854,
+        "known_pixels": 2399,
+        "different_known_pixels": 676
+      }
+    ]
+  },
+  {
+    "entry": "cgm_off.rct",
+    "region": [
+      61,
+      35,
+      107,
+      35
+    ],
+    "source_mask_pixels": 1994,
+    "best_blank_donors": [
+      {
+        "donor": "選択肢台.rct",
+        "xy": [
+          353,
+          83
+        ],
+        "mse": 20.727584237578526,
+        "known_pixels": 1751,
+        "different_known_pixels": 226
+      },
+      {
+        "donor": "askyesno_base.rct",
+        "xy": [
+          354,
+          202
+        ],
+        "mse": 20.727584237578526,
+        "known_pixels": 1751,
+        "different_known_pixels": 226
+      },
+      {
+        "donor": "選択肢台.rct",
+        "xy": [
+          471,
+          83
+        ],
+        "mse": 27.83095374071959,
+        "known_pixels": 1751,
+        "different_known_pixels": 229
+      },
+      {
+        "donor": "askyesno_base.rct",
+        "xy": [
+          472,
+          202
+        ],
+        "mse": 27.83095374071959,
+        "known_pixels": 1751,
+        "different_known_pixels": 229
+      },
+      {
+        "donor": "askyesno_base.rct",
+        "xy": [
+          550,
+          202
+        ],
+        "mse": 40.20445459737293,
+        "known_pixels": 1751,
+        "different_known_pixels": 336
+      }
+    ]
+  },
+  {
+    "entry": "名前プレート_まほこ.rct",
+    "region": [
+      12,
+      8,
+      107,
+      27
+    ],
+    "source_mask_pixels": 1754,
+    "best_blank_donors": [
+      {
+        "donor": "サウンドモード_背景_off.rct",
+        "xy": [
+          376,
+          249
+        ],
+        "mse": 236.87782672540382,
+        "known_pixels": 1135,
+        "different_known_pixels": 1135
+      },
+      {
+        "donor": "サウンドモード_背景_off.rct",
+        "xy": [
+          375,
+          249
+        ],
+        "mse": 237.81027900146842,
+        "known_pixels": 1135,
+        "different_known_pixels": 1135
+      },
+      {
+        "donor": "サウンドモード_背景_off.rct",
+        "xy": [
+          375,
+          251
+        ],
+        "mse": 237.91306901615272,
+        "known_pixels": 1135,
+        "different_known_pixels": 1135
+      },
+      {
+        "donor": "サウンドモード_背景_off.rct",
+        "xy": [
+          375,
+          252
+        ],
+        "mse": 238.41908957415566,
+        "known_pixels": 1135,
+        "different_known_pixels": 1135
+      },
+      {
+        "donor": "サウンドモード_背景_off.rct",
+        "xy": [
+          371,
+          252
+        ],
+        "mse": 240.47107195301027,
+        "known_pixels": 1135,
+        "different_known_pixels": 1135
+      }
+    ]
+  }
+]

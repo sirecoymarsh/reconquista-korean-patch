@@ -1,0 +1,533 @@
+{
+  "method": "Pairwise integer shifts, masks from bright core + 7x7 dilation; exact RGB known-pixel agreement only",
+  "results": [
+    {
+      "entry": "名前プレート_まほこ.rct",
+      "mask_pixels": 1781,
+      "exact_restorable_pixels": 668,
+      "remaining_mask_pixels": 1113,
+      "conflicts": 0,
+      "matches": [
+        {
+          "donor": "名前プレート_暮葉.rct",
+          "dx": 0,
+          "dy": 0,
+          "score": 1.0,
+          "known_pixels": 1334
+        },
+        {
+          "donor": "名前プレート_汐見.rct",
+          "dx": 0,
+          "dy": 0,
+          "score": 1.0,
+          "known_pixels": 1326
+        },
+        {
+          "donor": "名前プレート_詞菜.rct",
+          "dx": 6,
+          "dy": -1,
+          "score": 0.022744503411675512,
+          "known_pixels": 1319
+        },
+        {
+          "donor": "名前プレート_紅葉.rct",
+          "dx": 6,
+          "dy": -1,
+          "score": 0.02201974183750949,
+          "known_pixels": 1317
+        },
+        {
+          "donor": "名前プレート_ゆえ.rct",
+          "dx": -6,
+          "dy": 1,
+          "score": 0.021132075471698115,
+          "known_pixels": 1325
+        }
+      ]
+    },
+    {
+      "entry": "名前プレート_まほこ母.rct",
+      "mask_pixels": 2383,
+      "exact_restorable_pixels": 1449,
+      "remaining_mask_pixels": 934,
+      "conflicts": 0,
+      "matches": [
+        {
+          "donor": "名前プレート_上条.rct",
+          "dx": 0,
+          "dy": 0,
+          "score": 1.0,
+          "known_pixels": 711
+        },
+        {
+          "donor": "名前プレート_ゆえ.rct",
+          "dx": 5,
+          "dy": 1,
+          "score": 0.03531073446327684,
+          "known_pixels": 708
+        },
+        {
+          "donor": "名前プレート_紅葉.rct",
+          "dx": 4,
+          "dy": 4,
+          "score": 0.02627939142461964,
+          "known_pixels": 723
+        },
+        {
+          "donor": "名前プレート_詞菜.rct",
+          "dx": 4,
+          "dy": 4,
+          "score": 0.02606310013717421,
+          "known_pixels": 729
+        },
+        {
+          "donor": "名前プレート_汐見.rct",
+          "dx": 2,
+          "dy": 2,
+          "score": 0.025677603423680456,
+          "known_pixels": 701
+        }
+      ]
+    },
+    {
+      "entry": "名前プレート_もみじ.rct",
+      "mask_pixels": 1423,
+      "exact_restorable_pixels": 273,
+      "remaining_mask_pixels": 1150,
+      "conflicts": 0,
+      "matches": [
+        {
+          "donor": "名前プレート_信哉.rct",
+          "dx": 0,
+          "dy": 0,
+          "score": 1.0,
+          "known_pixels": 1645
+        },
+        {
+          "donor": "名前プレート_ゆえ.rct",
+          "dx": -6,
+          "dy": -1,
+          "score": 0.012125079770261647,
+          "known_pixels": 1567
+        },
+        {
+          "donor": "名前プレート_上条.rct",
+          "dx": -6,
+          "dy": -1,
+          "score": 0.012040939193257074,
+          "known_pixels": 1661
+        },
+        {
+          "donor": "名前プレート_まほこ母.rct",
+          "dx": -3,
+          "dy": 2,
+          "score": 0.01084010840108401,
+          "known_pixels": 738
+        },
+        {
+          "donor": "名前プレート_詞菜.rct",
+          "dx": -4,
+          "dy": -4,
+          "score": 0.009664948453608248,
+          "known_pixels": 1552
+        }
+      ]
+    },
+    {
+      "entry": "名前プレート_ゆえ.rct",
+      "mask_pixels": 1327,
+      "exact_restorable_pixels": 270,
+      "remaining_mask_pixels": 1057,
+      "conflicts": 0,
+      "matches": [
+        {
+          "donor": "名前プレート_上条.rct",
+          "dx": 0,
+          "dy": 0,
+          "score": 1.0,
+          "known_pixels": 1890
+        },
+        {
+          "donor": "名前プレート_まほこ母.rct",
+          "dx": -1,
+          "dy": 2,
+          "score": 0.08192090395480225,
+          "known_pixels": 708
+        },
+        {
+          "donor": "名前プレート_まほこ.rct",
+          "dx": 3,
+          "dy": 0,
+          "score": 0.02459016393442623,
+          "known_pixels": 1342
+        },
+        {
+          "donor": "名前プレート_暮葉.rct",
+          "dx": 3,
+          "dy": 0,
+          "score": 0.02,
+          "known_pixels": 1800
+        },
+        {
+          "donor": "名前プレート_汐見.rct",
+          "dx": 3,
+          "dy": 0,
+          "score": 0.01913613996719519,
+          "known_pixels": 1829
+        }
+      ]
+    },
+    {
+      "entry": "名前プレート_上条.rct",
+      "mask_pixels": 1059,
+      "exact_restorable_pixels": 126,
+      "remaining_mask_pixels": 933,
+      "conflicts": 0,
+      "matches": [
+        {
+          "donor": "名前プレート_ゆえ.rct",
+          "dx": 0,
+          "dy": 0,
+          "score": 1.0,
+          "known_pixels": 1890
+        },
+        {
+          "donor": "名前プレート_まほこ母.rct",
+          "dx": 0,
+          "dy": 0,
+          "score": 1.0,
+          "known_pixels": 711
+        },
+        {
+          "donor": "名前プレート_まほこ.rct",
+          "dx": 3,
+          "dy": 0,
+          "score": 0.024300441826215022,
+          "known_pixels": 1358
+        },
+        {
+          "donor": "名前プレート_暮葉.rct",
+          "dx": 3,
+          "dy": 0,
+          "score": 0.01981287837094111,
+          "known_pixels": 1817
+        },
+        {
+          "donor": "名前プレート_汐見.rct",
+          "dx": 3,
+          "dy": 0,
+          "score": 0.018676627534685165,
+          "known_pixels": 1874
+        }
+      ]
+    },
+    {
+      "entry": "名前プレート_信哉.rct",
+      "mask_pixels": 1301,
+      "exact_restorable_pixels": 151,
+      "remaining_mask_pixels": 1150,
+      "conflicts": 0,
+      "matches": [
+        {
+          "donor": "名前プレート_もみじ.rct",
+          "dx": 0,
+          "dy": 0,
+          "score": 1.0,
+          "known_pixels": 1645
+        },
+        {
+          "donor": "名前プレート_上条.rct",
+          "dx": -6,
+          "dy": -1,
+          "score": 0.012867647058823529,
+          "known_pixels": 1632
+        },
+        {
+          "donor": "名前プレート_まほこ母.rct",
+          "dx": -1,
+          "dy": 0,
+          "score": 0.01282051282051282,
+          "known_pixels": 702
+        },
+        {
+          "donor": "名前プレート_ゆえ.rct",
+          "dx": -6,
+          "dy": -1,
+          "score": 0.012682308180088777,
+          "known_pixels": 1577
+        },
+        {
+          "donor": "名前プレート_詞菜.rct",
+          "dx": -4,
+          "dy": -4,
+          "score": 0.008799497171590195,
+          "known_pixels": 1591
+        }
+      ]
+    },
+    {
+      "entry": "名前プレート_暮葉.rct",
+      "mask_pixels": 1361,
+      "exact_restorable_pixels": 248,
+      "remaining_mask_pixels": 1113,
+      "conflicts": 0,
+      "matches": [
+        {
+          "donor": "名前プレート_汐見.rct",
+          "dx": 0,
+          "dy": 0,
+          "score": 1.0,
+          "known_pixels": 1824
+        },
+        {
+          "donor": "名前プレート_まほこ.rct",
+          "dx": 0,
+          "dy": 0,
+          "score": 1.0,
+          "known_pixels": 1334
+        },
+        {
+          "donor": "名前プレート_まほこ母.rct",
+          "dx": -4,
+          "dy": 2,
+          "score": 0.02250351617440225,
+          "known_pixels": 711
+        },
+        {
+          "donor": "名前プレート_詞菜.rct",
+          "dx": 0,
+          "dy": -2,
+          "score": 0.022349570200573064,
+          "known_pixels": 1745
+        },
+        {
+          "donor": "名前プレート_紅葉.rct",
+          "dx": 0,
+          "dy": -2,
+          "score": 0.02172670097198399,
+          "known_pixels": 1749
+        }
+      ]
+    },
+    {
+      "entry": "名前プレート_槙野.rct",
+      "mask_pixels": 1297,
+      "exact_restorable_pixels": 110,
+      "remaining_mask_pixels": 1187,
+      "conflicts": 0,
+      "matches": [
+        {
+          "donor": "名前プレート_麻咲.rct",
+          "dx": 0,
+          "dy": 0,
+          "score": 1.0,
+          "known_pixels": 1835
+        },
+        {
+          "donor": "名前プレート_まほこ.rct",
+          "dx": 1,
+          "dy": 1,
+          "score": 0.017582417582417582,
+          "known_pixels": 1365
+        },
+        {
+          "donor": "名前プレート_暮葉.rct",
+          "dx": 2,
+          "dy": -2,
+          "score": 0.015367103016505406,
+          "known_pixels": 1757
+        },
+        {
+          "donor": "名前プレート_汐見.rct",
+          "dx": 2,
+          "dy": -2,
+          "score": 0.01509223029625489,
+          "known_pixels": 1789
+        },
+        {
+          "donor": "名前プレート_詞菜.rct",
+          "dx": 5,
+          "dy": 0,
+          "score": 0.01489971346704871,
+          "known_pixels": 1745
+        }
+      ]
+    },
+    {
+      "entry": "名前プレート_汐見.rct",
+      "mask_pixels": 1241,
+      "exact_restorable_pixels": 128,
+      "remaining_mask_pixels": 1113,
+      "conflicts": 0,
+      "matches": [
+        {
+          "donor": "名前プレート_暮葉.rct",
+          "dx": 0,
+          "dy": 0,
+          "score": 1.0,
+          "known_pixels": 1824
+        },
+        {
+          "donor": "名前プレート_まほこ.rct",
+          "dx": 0,
+          "dy": 0,
+          "score": 1.0,
+          "known_pixels": 1326
+        },
+        {
+          "donor": "名前プレート_まほこ母.rct",
+          "dx": -3,
+          "dy": 2,
+          "score": 0.023842917251051893,
+          "known_pixels": 713
+        },
+        {
+          "donor": "名前プレート_詞菜.rct",
+          "dx": 0,
+          "dy": -2,
+          "score": 0.021836506159014557,
+          "known_pixels": 1786
+        },
+        {
+          "donor": "名前プレート_紅葉.rct",
+          "dx": 0,
+          "dy": -2,
+          "score": 0.021229050279329607,
+          "known_pixels": 1790
+        }
+      ]
+    },
+    {
+      "entry": "名前プレート_紅葉.rct",
+      "mask_pixels": 1310,
+      "exact_restorable_pixels": 30,
+      "remaining_mask_pixels": 1280,
+      "conflicts": 0,
+      "matches": [
+        {
+          "donor": "名前プレート_詞菜.rct",
+          "dx": 0,
+          "dy": 0,
+          "score": 1.0,
+          "known_pixels": 1850
+        },
+        {
+          "donor": "名前プレート_まほこ母.rct",
+          "dx": 2,
+          "dy": 4,
+          "score": 0.02654867256637168,
+          "known_pixels": 791
+        },
+        {
+          "donor": "名前プレート_まほこ.rct",
+          "dx": -2,
+          "dy": 1,
+          "score": 0.021339220014716703,
+          "known_pixels": 1359
+        },
+        {
+          "donor": "名前プレート_暮葉.rct",
+          "dx": 0,
+          "dy": 2,
+          "score": 0.020765027322404372,
+          "known_pixels": 1830
+        },
+        {
+          "donor": "名前プレート_汐見.rct",
+          "dx": 0,
+          "dy": 2,
+          "score": 0.0203862660944206,
+          "known_pixels": 1864
+        }
+      ]
+    },
+    {
+      "entry": "名前プレート_詞菜.rct",
+      "mask_pixels": 1339,
+      "exact_restorable_pixels": 59,
+      "remaining_mask_pixels": 1280,
+      "conflicts": 0,
+      "matches": [
+        {
+          "donor": "名前プレート_紅葉.rct",
+          "dx": 0,
+          "dy": 0,
+          "score": 1.0,
+          "known_pixels": 1850
+        },
+        {
+          "donor": "名前プレート_まほこ母.rct",
+          "dx": 2,
+          "dy": 4,
+          "score": 0.026717557251908396,
+          "known_pixels": 786
+        },
+        {
+          "donor": "名前プレート_まほこ.rct",
+          "dx": -2,
+          "dy": 1,
+          "score": 0.021402214022140223,
+          "known_pixels": 1355
+        },
+        {
+          "donor": "名前プレート_暮葉.rct",
+          "dx": 0,
+          "dy": 2,
+          "score": 0.02135815991237678,
+          "known_pixels": 1826
+        },
+        {
+          "donor": "名前プレート_汐見.rct",
+          "dx": 0,
+          "dy": 2,
+          "score": 0.020967741935483872,
+          "known_pixels": 1860
+        }
+      ]
+    },
+    {
+      "entry": "名前プレート_麻咲.rct",
+      "mask_pixels": 1274,
+      "exact_restorable_pixels": 87,
+      "remaining_mask_pixels": 1187,
+      "conflicts": 0,
+      "matches": [
+        {
+          "donor": "名前プレート_槙野.rct",
+          "dx": 0,
+          "dy": 0,
+          "score": 1.0,
+          "known_pixels": 1835
+        },
+        {
+          "donor": "名前プレート_まほこ.rct",
+          "dx": 4,
+          "dy": -3,
+          "score": 0.01780185758513932,
+          "known_pixels": 1292
+        },
+        {
+          "donor": "名前プレート_暮葉.rct",
+          "dx": 2,
+          "dy": -2,
+          "score": 0.01584606677985286,
+          "known_pixels": 1767
+        },
+        {
+          "donor": "名前プレート_汐見.rct",
+          "dx": 2,
+          "dy": -2,
+          "score": 0.01545253863134658,
+          "known_pixels": 1812
+        },
+        {
+          "donor": "名前プレート_まほこ母.rct",
+          "dx": 1,
+          "dy": 2,
+          "score": 0.015384615384615385,
+          "known_pixels": 715
+        }
+      ]
+    }
+  ]
+}

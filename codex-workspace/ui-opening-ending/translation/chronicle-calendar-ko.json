@@ -1,0 +1,191 @@
+{
+  "translator_model": "Codex internal",
+  "records": [
+    {
+      "id": "fastdata.arc::クロニクル枠_null.rct::caption",
+      "source": "CHRONICLE",
+      "target": "연표",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "fastdata.arc::クロニクル枠_off.rct::caption",
+      "source": "CHRONICLE",
+      "target": "연표",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "fastdata.arc::クロニクル枠_on.rct::caption",
+      "source": "CHRONICLE",
+      "target": "연표",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "fastdata.arc::小カレンダーフォント.rct::palette0::SUN",
+      "source": "SUN",
+      "target": "일",
+      "translator_model": "Codex internal",
+      "target_ink_bounds": [
+        15,
+        6,
+        30,
+        25
+      ]
+    },
+    {
+      "id": "fastdata.arc::小カレンダーフォント.rct::palette0::MON",
+      "source": "MON",
+      "target": "월",
+      "translator_model": "Codex internal",
+      "target_ink_bounds": [
+        58,
+        6,
+        74,
+        25
+      ]
+    },
+    {
+      "id": "fastdata.arc::小カレンダーフォント.rct::palette0::TUE",
+      "source": "TUE",
+      "target": "화",
+      "translator_model": "Codex internal",
+      "target_ink_bounds": [
+        98,
+        6,
+        115,
+        25
+      ]
+    },
+    {
+      "id": "fastdata.arc::小カレンダーフォント.rct::palette0::WED",
+      "source": "WED",
+      "target": "수",
+      "translator_model": "Codex internal",
+      "target_ink_bounds": [
+        140,
+        7,
+        157,
+        25
+      ]
+    },
+    {
+      "id": "fastdata.arc::小カレンダーフォント.rct::palette0::THU",
+      "source": "THU",
+      "target": "목",
+      "translator_model": "Codex internal",
+      "target_ink_bounds": [
+        182,
+        7,
+        199,
+        25
+      ]
+    },
+    {
+      "id": "fastdata.arc::小カレンダーフォント.rct::palette0::FRI",
+      "source": "FRI",
+      "target": "금",
+      "translator_model": "Codex internal",
+      "target_ink_bounds": [
+        218,
+        7,
+        235,
+        25
+      ]
+    },
+    {
+      "id": "fastdata.arc::小カレンダーフォント.rct::palette0::SAT",
+      "source": "SAT",
+      "target": "토",
+      "translator_model": "Codex internal",
+      "target_ink_bounds": [
+        256,
+        8,
+        273,
+        23
+      ]
+    },
+    {
+      "id": "fastdata.arc::小カレンダーフォント.rct::palette1::SUN",
+      "source": "SUN",
+      "target": "일",
+      "translator_model": "Codex internal",
+      "target_ink_bounds": [
+        15,
+        70,
+        30,
+        89
+      ]
+    },
+    {
+      "id": "fastdata.arc::小カレンダーフォント.rct::palette1::MON",
+      "source": "MON",
+      "target": "월",
+      "translator_model": "Codex internal",
+      "target_ink_bounds": [
+        58,
+        70,
+        74,
+        89
+      ]
+    },
+    {
+      "id": "fastdata.arc::小カレンダーフォント.rct::palette1::TUE",
+      "source": "TUE",
+      "target": "화",
+      "translator_model": "Codex internal",
+      "target_ink_bounds": [
+        98,
+        70,
+        115,
+        89
+      ]
+    },
+    {
+      "id": "fastdata.arc::小カレンダーフォント.rct::palette1::WED",
+      "source": "WED",
+      "target": "수",
+      "translator_model": "Codex internal",
+      "target_ink_bounds": [
+        140,
+        70,
+        157,
+        88
+      ]
+    },
+    {
+      "id": "fastdata.arc::小カレンダーフォント.rct::palette1::THU",
+      "source": "THU",
+      "target": "목",
+      "translator_model": "Codex internal",
+      "target_ink_bounds": [
+        182,
+        70,
+        199,
+        88
+      ]
+    },
+    {
+      "id": "fastdata.arc::小カレンダーフォント.rct::palette1::FRI",
+      "source": "FRI",
+      "target": "금",
+      "translator_model": "Codex internal",
+      "target_ink_bounds": [
+        218,
+        70,
+        235,
+        88
+      ]
+    },
+    {
+      "id": "fastdata.arc::小カレンダーフォント.rct::palette1::SAT",
+      "source": "SAT",
+      "target": "토",
+      "translator_model": "Codex internal",
+      "target_ink_bounds": [
+        256,
+        72,
+        273,
+        87
+      ]
+    }
+  ]
+}

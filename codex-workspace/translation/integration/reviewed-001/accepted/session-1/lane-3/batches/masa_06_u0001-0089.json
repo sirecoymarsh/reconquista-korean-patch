@@ -1,0 +1,1986 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-1/lane-3",
+  "coordinator_thread_id": "01a16335-92a2-79c2-814f-63275a46f2b1",
+  "agent_id": "/root/lane_3",
+  "source_script": "masa_06.mjo",
+  "source_sha256": "2c971113dba29da2f09c4901d347fbfb3db8b190c42ceec243e5034b5ca90283",
+  "provenance": {
+    "date": "2026-10-22",
+    "authored_source": "authored\\masa_06_u0001-0089.json",
+    "agent": "/root/lane_3",
+    "model_setting": "inherited Codex internal",
+    "source_packet_sha256": "5a892013d33c6170f09e38e756c21fd14929ddc1e9008974e432ee2efd198075"
+  },
+  "records": [
+    {
+      "unit": "masa_06.mjo::u0001",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000046",
+          "source": "「うーん…」",
+          "target": "「으음…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "자기 자신에게 하는 혼잣말",
+        "story_phase": "masa_06: 과거 교무실, 소설 구상",
+        "voice": "낮은 혼잣말과 내적 독백; 반말"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0002",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000057",
+          "source": "カリカリカリカリ…",
+          "target": "사각사각사각사각…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0003",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000064",
+          "source": "「んん～…」",
+          "target": "「으으음…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "자기 자신에게 하는 혼잣말",
+        "story_phase": "masa_06: 과거 교무실, 소설 구상",
+        "voice": "낮은 혼잣말과 내적 독백; 반말"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0004",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000072",
+          "source": "カリカリカリカリ…",
+          "target": "사각사각사각사각…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0005",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000077",
+          "source": "僕の唸り声と鉛筆の走る音が、",
+          "target": "내 신음 소리와 연필이 달리는 소리가"
+        },
+        {
+          "id": "masa_06.mjo::000081",
+          "source": "さりげなくセッションをしていた。",
+          "target": "은근히 합주를 하고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0006",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000086",
+          "source": "この時間、職員室に他の先生の姿は少なく、",
+          "target": "이 시간에는 교무실에 다른 선생님들이 별로 없어,"
+        },
+        {
+          "id": "masa_06.mjo::000090",
+          "source": "わりと落ち着いて考え事をすることが出来る。",
+          "target": "비교적 차분하게 생각에 잠길 수 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0007",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000095",
+          "source": "ま、落ち着いて考えたところで、",
+          "target": "뭐, 차분하게 생각한다고 해서"
+        },
+        {
+          "id": "masa_06.mjo::000099",
+          "source": "必ずしもいいアイディアが出るとは限らないんだけど…",
+          "target": "꼭 좋은 아이디어가 떠오르는 건 아니지만…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0008",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000106",
+          "source": "「（ダメだ…このネタもいまいちマンネリだなぁ）」",
+          "target": "「(안 되겠어… 이 소재도 좀 뻔하네)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "자기 자신에게 하는 혼잣말",
+        "story_phase": "masa_06: 과거 교무실, 소설 구상",
+        "voice": "낮은 혼잣말과 내적 독백; 반말"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0009",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000114",
+          "source": "シャッシャッシャッシャッシャッ――",
+          "target": "슥슥슥슥슥――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0010",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000119",
+          "source": "僕は書き留めたメモを眺めて、",
+          "target": "나는 적어 둔 메모를 바라보다가"
+        },
+        {
+          "id": "masa_06.mjo::000123",
+          "source": "そのいくつかを鉛筆で黒く塗りつぶした。",
+          "target": "그중 몇 개를 연필로 까맣게 칠했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0011",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000128",
+          "source": "だがそうやっているうちに、",
+          "target": "하지만 그러다 보니"
+        },
+        {
+          "id": "masa_06.mjo::000132",
+          "source": "メモ用紙の大半は真っ黒に染まっていく。",
+          "target": "메모지 대부분이 새까매져 간다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0012",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000139",
+          "source": "「（やっぱ僕って、小説家になる才能はないのかな）」",
+          "target": "「(역시 난 소설가가 될 재능이 없는 걸까)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "자기 자신에게 하는 혼잣말",
+        "story_phase": "masa_06: 과거 교무실, 소설 구상",
+        "voice": "낮은 혼잣말과 내적 독백; 반말"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0013",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000144",
+          "source": "僕は教師の職に勤める傍ら、",
+          "target": "나는 교사로 일하는 한편,"
+        },
+        {
+          "id": "masa_06.mjo::000148",
+          "source": "小説家を目指して時折こうして物書きをしていた。",
+          "target": "소설가를 꿈꾸며 가끔 이렇게 글을 쓰고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0014",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000153",
+          "source": "でもなかなか上手くいかず、自信作を文学賞に応募しても、",
+          "target": "하지만 좀처럼 잘 풀리지 않았다. 자신 있는 작품을"
+        },
+        {
+          "id": "masa_06.mjo::000157",
+          "source": "佳作にすら入ったことがない。",
+          "target": "문학상에 응모해도 가작에조차 든 적이 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0015",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000162",
+          "source": "そんなことを何度か繰り返して、",
+          "target": "그런 일이 몇 번 반복되면서"
+        },
+        {
+          "id": "masa_06.mjo::000166",
+          "source": "僕はかなり行き詰まっている状態だった。",
+          "target": "나는 꽤 막막해진 상태였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0016",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000173",
+          "source": "「はぁー…なんかこう、神が降りて来ないかなぁ」",
+          "target": "「하아… 뭔가 이렇게, 신(카미)이라도 내려와 주면 좋겠네」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "자기 자신에게 하는 혼잣말",
+        "story_phase": "masa_06: 과거 교무실, 소설 구상",
+        "voice": "낮은 혼잣말과 내적 독백; 반말"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0017",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000183",
+          "source": "「持ってきましたよ」",
+          "target": "「가져왔어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(등장 직전 음성)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원→담임 교사",
+        "story_phase": "masa_06: 과거 교무실, 진로 조사서 전달",
+        "voice": "담백한 존댓말; 화면 이름은 원본 공백 토큰 유지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0018",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000193",
+          "source": "「えっ、ホントにっ？」",
+          "target": "「어, 정말로?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0019",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000198",
+          "source": "独り言のつもりがそこに絶妙なタイミングで返事があって、",
+          "target": "혼잣말이었는데 절묘한 타이밍에 대답이 들려와,"
+        },
+        {
+          "id": "masa_06.mjo::000202",
+          "source": "僕はのけぞりつつ振り返った。",
+          "target": "나는 몸을 뒤로 젖히며 돌아봤다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0020",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000217",
+          "source": "「ホントですよ。持ってきました、進路調査の紙」",
+          "target": "「정말이죠. 가져왔어요, 진로 조사서」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0021",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000224",
+          "source": "「か、上条？　どうしてここに…」",
+          "target": "「카, 카미조? 어쩐 일로 여기에…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0022",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000239",
+          "source": "「だから進路調査のアンケート用紙、",
+          "target": "「그러니까 진로 조사 설문지를"
+        },
+        {
+          "id": "masa_06.mjo::000243",
+          "source": "　持ってきたんですってば」",
+          "target": "　가져왔다니까요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0023",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000248",
+          "source": "そこにいたのはクラス委員の上条紅葉だった。",
+          "target": "거기에 서 있는 사람은 학급위원 카미조 모미지였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0024",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000253",
+          "source": "手にはわら半紙の束を携えており、",
+          "target": "손에는 갱지 뭉치를 들고 있었는데,"
+        },
+        {
+          "id": "masa_06.mjo::000257",
+          "source": "それが彼女の言う『カミ』であるらしい。",
+          "target": "그게 그녀가 말한 『종이(카미)』인 모양이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0025",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000264",
+          "source": "「あ…ああ、進路調査の紙ね。今日提出だったっけ」",
+          "target": "「아… 아아, 진로 조사서 말이지. 오늘까지 내는 거였나」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0026",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000279",
+          "source": "「はい。だからうちのクラスの分を集めて持ってきました」",
+          "target": "「네. 그래서 저희 반 걸 걷어서 가져왔어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0027",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000286",
+          "source": "「あ、ありがとう。ご苦労さま」",
+          "target": "「아, 고마워. 수고했어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0028",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000291",
+          "source": "僕はクラス委員の労をねぎらいつつ、",
+          "target": "나는 학급위원의 수고를 치하하며"
+        },
+        {
+          "id": "masa_06.mjo::000295",
+          "source": "進路調査の紙の束を受け取った。",
+          "target": "진로 조사서 뭉치를 받았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0029",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000310",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0030",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000317",
+          "source": "「…？　どうした、上条」",
+          "target": "「…? 왜 그래, 카미조」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0031",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000332",
+          "source": "「槙野先生、それって何ですか？」",
+          "target": "「마키노 선생님, 그건 뭐예요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0032",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000337",
+          "source": "そう尋ねる上条の視線は、",
+          "target": "그렇게 묻는 카미조의 시선은"
+        },
+        {
+          "id": "masa_06.mjo::000341",
+          "source": "僕ではなく僕の真横の机の上に注がれていた。",
+          "target": "내가 아니라 내 바로 옆 책상 위를 향하고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0033",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000346",
+          "source": "そこには僕が思いのままに書き綴った、",
+          "target": "거기에는 내가 생각나는 대로 적어 놓은"
+        },
+        {
+          "id": "masa_06.mjo::000350",
+          "source": "とりとめのないメモが――",
+          "target": "두서없는 메모가――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0034",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000357",
+          "source": "「うわっ、いいいや、何でもないんだ、うんっ」",
+          "target": "「으악, 아아아니, 아무것도 아니야, 응」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0035",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000372",
+          "source": "「あの、もしかしてそれ…何かのネタ帳とか？」",
+          "target": "「저기, 혹시 그거… 무슨 소재 노트 같은 건가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0036",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000380",
+          "source": "どきっ",
+          "target": "뜨끔"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0037",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000385",
+          "source": "的確に図星を突かれ、動揺を隠せない僕。",
+          "target": "정곡을 찔린 나는 당황한 기색을 감출 수 없었다."
+        },
+        {
+          "id": "masa_06.mjo::000389",
+          "source": "どうしてこの子にそんなことがわかるんだ？",
+          "target": "이 애가 그런 걸 어떻게 아는 거지?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0038",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000404",
+          "source": "「もしそうなら…槙野先生の担当は現国だから、",
+          "target": "「그렇다면… 선생님이 현대국어 담당이시니까,"
+        },
+        {
+          "id": "masa_06.mjo::000408",
+          "source": "　きっと小説のネタ帳ですね」",
+          "target": "　분명 소설 소재 노트겠네요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0039",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000416",
+          "source": "どきどきっ",
+          "target": "뜨끔뜨끔"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0040",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000421",
+          "source": "またも図星にクリーンヒット。",
+          "target": "또다시 정곡에 명중."
+        },
+        {
+          "id": "masa_06.mjo::000425",
+          "source": "僕の心臓はノーガードでワン・ツーパンチを食らった。",
+          "target": "내 심장은 무방비 상태로 원투 펀치를 맞았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0041",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000430",
+          "source": "まるで千里眼の如く、僕の心を見透かす彼女。",
+          "target": "마치 천리안이라도 가진 듯 내 속을 꿰뚫어 보는 그녀."
+        },
+        {
+          "id": "masa_06.mjo::000434",
+          "source": "冷静さを失っていた僕は、本気で恐ろしくなっていた。",
+          "target": "침착함을 잃은 나는 정말로 무서워지기 시작했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0042",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000441",
+          "source": "「ど、どうしてわかったんだ…？」",
+          "target": "「어, 어떻게 알았어…?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0043",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000456",
+          "source": "「あ、当たりですか？　やっぱりそうだったんだ」",
+          "target": "「아, 맞아요? 역시 그랬구나」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0044",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000463",
+          "source": "「なあ、どうしてわかったんだよ？　君は超能力者か？」",
+          "target": "「저기, 어떻게 안 거야? 너 초능력자니?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0045",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000478",
+          "source": "「違いますよぉ。単に私は文芸部なので、",
+          "target": "「아니에요오. 그냥 제가 문예부라서,"
+        },
+        {
+          "id": "masa_06.mjo::000482",
+          "source": "　先輩のネタ帳とかを何度か見たことがあったから」",
+          "target": "　선배의 소재 노트 같은 걸 몇 번 본 적이 있거든요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0046",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000489",
+          "source": "「文芸部？　…ああ、そうか。そういうことね」",
+          "target": "「문예부? …아아, 그렇구나. 그런 거였어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0047",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000494",
+          "source": "なるほど、種を明かせば話は簡単だった。",
+          "target": "과연, 알고 보니 간단한 일이었다."
+        },
+        {
+          "id": "masa_06.mjo::000498",
+          "source": "彼女はこういうものに見覚えがあったわけか。",
+          "target": "이런 걸 본 적이 있었던 거구나."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0048",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000513",
+          "source": "「先輩のネタ帳も書いては黒く塗り潰しての繰り返しで、",
+          "target": "「선배의 소재 노트도 썼다 지웠다 하면서 까맣게 칠해 놔서,"
+        },
+        {
+          "id": "masa_06.mjo::000517",
+          "source": "　ほとんど一面真っ黒でしたから」",
+          "target": "　거의 전부 새까맸거든요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0049",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000524",
+          "source": "「そ、そうなんだ…はははは…」",
+          "target": "「그, 그렇구나… 하하하하…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0050",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000529",
+          "source": "恐らく悪気はないであろう、彼女の言葉が胸に突き刺さる。",
+          "target": "아마 악의는 없을 그녀의 말이 가슴에 꽂힌다."
+        },
+        {
+          "id": "masa_06.mjo::000533",
+          "source": "学校の文芸部員と同じレベルなのか、僕は…",
+          "target": "학교 문예부원과 같은 수준이란 말인가, 나는…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0051",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000538",
+          "source": "内心で落ち込みながらも、",
+          "target": "속으로는 기가 죽었지만,"
+        },
+        {
+          "id": "masa_06.mjo::000542",
+          "source": "ふと気になって上条に訊いてみることにした。",
+          "target": "문득 궁금해져서 카미조에게 물어보기로 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0052",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000549",
+          "source": "「ところで文芸部なんて、うちの学校にあったっけ」",
+          "target": "「그런데 우리 학교에 문예부가 있었나?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0053",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000564",
+          "source": "「ありますよ。",
+          "target": "「있어요."
+        },
+        {
+          "id": "masa_06.mjo::000568",
+          "source": "　…というか、正確にはありました、ですけどね」",
+          "target": "　…아니, 정확히는 있었다고 해야겠지만요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0054",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000583",
+          "source": "「今年の春に先輩が卒業しちゃって、",
+          "target": "「올봄에 선배가 졸업해서,"
+        },
+        {
+          "id": "masa_06.mjo::000587",
+          "source": "　今は部員が私一人しかいないんです」",
+          "target": "　지금은 부원이 저 하나밖에 없어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0055",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000602",
+          "source": "「だからほとんど廃部扱いで、",
+          "target": "「그래서 거의 없어진 동아리 취급이고,"
+        },
+        {
+          "id": "masa_06.mjo::000606",
+          "source": "　ろくに活動もしてないんですよ」",
+          "target": "　활동도 제대로 못 하고 있어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0056",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000611",
+          "source": "うちの学校の文芸部か…",
+          "target": "우리 학교 문예부라…"
+        },
+        {
+          "id": "masa_06.mjo::000615",
+          "source": "廃部寸前どころか、存在していたことも知らなかったな。",
+          "target": "없어지기 직전은커녕, 그런 게 있는 줄도 몰랐다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0057",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000620",
+          "source": "文芸部というのはいつの時代も、どこの学校でも、",
+          "target": "문예부란 어느 시대, 어느 학교에서나"
+        },
+        {
+          "id": "masa_06.mjo::000624",
+          "source": "大抵弱小クラブに属するのがセオリーだ。",
+          "target": "대개 군소 동아리에 속하는 게 정석이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0058",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000629",
+          "source": "けど流石にたった一人というのは寂しい気がする。",
+          "target": "그래도 단 한 명뿐이라니 쓸쓸할 것 같다."
+        },
+        {
+          "id": "masa_06.mjo::000633",
+          "source": "最近の若者はあまり本を読まないのだろうか。",
+          "target": "요즘 젊은이들은 책을 별로 안 읽는 걸까."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0059",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000648",
+          "source": "「そうだ。折角だから今度、",
+          "target": "「아, 맞다. 이왕 이렇게 됐으니 다음에"
+        },
+        {
+          "id": "masa_06.mjo::000652",
+          "source": "　先生の書いた小説を読ませてくださいよ」",
+          "target": "　선생님이 쓰신 소설을 읽게 해 주세요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0060",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000659",
+          "source": "「えぇっ？　ど、どうしてそうなるんだ」",
+          "target": "「뭐어? 어, 어째서 이야기가 그렇게 되는 거야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0061",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000674",
+          "source": "「だって私、文芸部員ですから」",
+          "target": "「그야 전 문예부원이니까요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0062",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000681",
+          "source": "「それは答えになってないぞっ」",
+          "target": "「그건 대답이 아니잖아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0063",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000696",
+          "source": "「いいじゃないですか。独りぼっちの文芸部員の為に、",
+          "target": "「괜찮잖아요. 외톨이 문예부원을 위해서"
+        },
+        {
+          "id": "masa_06.mjo::000700",
+          "source": "　一肌脱いでくれても」",
+          "target": "　한번 힘써 주셔도요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0064",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000707",
+          "source": "「いや、それは…」",
+          "target": "「아니, 그건…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0065",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000722",
+          "source": "「私はもっぱら読む専門だったんで、",
+          "target": "「전 주로 읽기만 했거든요."
+        },
+        {
+          "id": "masa_06.mjo::000726",
+          "source": "　書き手の部員がいてくれると嬉しいです」",
+          "target": "　글을 쓰는 부원이 있으면 좋겠어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0066",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000733",
+          "source": "「あのなぁ、僕は教師だし部員じゃないだろ」",
+          "target": "「저기 말이야, 난 교사잖아. 부원이 아니라고」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0067",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000748",
+          "source": "「じゃあ顧問の先生ってことで」",
+          "target": "「그럼 지도교사로 모시면 되겠네요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0068",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000755",
+          "source": "「顧問の先生は他にちゃんといるんだろ？」",
+          "target": "「지도교사는 따로 있지 않아?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0069",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000770",
+          "source": "「それじゃあ、名誉顧問ってことで」",
+          "target": "「그럼 명예 지도교사로요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0070",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000777",
+          "source": "「何の名誉なんだ、何の…」",
+          "target": "「뭐가 명예라는 거야, 뭐가…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0071",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000782",
+          "source": "気付けば上条のペースにはまっていて、",
+          "target": "정신을 차리고 보니 카미조에게 휘말려 있었고,"
+        },
+        {
+          "id": "masa_06.mjo::000786",
+          "source": "ちょっと頭が痛くなってきた。",
+          "target": "슬슬 머리가 아파 왔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0072",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000791",
+          "source": "それにしても上条って、",
+          "target": "그나저나 카미조는"
+        },
+        {
+          "id": "masa_06.mjo::000795",
+          "source": "もっと生真面目でおとなしい子だと思ってたけど…",
+          "target": "좀 더 고지식하고 얌전한 애라고 생각했는데…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0073",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000800",
+          "source": "こうして話すと案外お茶目というか、",
+          "target": "이렇게 이야기를 나눠 보니 의외로 장난스럽다고 할까,"
+        },
+        {
+          "id": "masa_06.mjo::000804",
+          "source": "ちゃっかりしてる感じがして意外だった。",
+          "target": "제법 야무진 구석이 있어 뜻밖이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0074",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000819",
+          "source": "「先生、気が向いたら今度読ませてくださいね。",
+          "target": "「선생님, 마음이 내키시면 다음에 읽게 해 주세요."
+        },
+        {
+          "id": "masa_06.mjo::000823",
+          "source": "　私、待ってますから」",
+          "target": "　기다리고 있을게요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0075",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000833",
+          "source": "上条は一方的にそう告げると、スカートの裾を翻し、",
+          "target": "카미조는 일방적으로 그렇게 말하고는 치맛자락을 휘날리며"
+        },
+        {
+          "id": "masa_06.mjo::000837",
+          "source": "職員室の出入り口へと足を向ける。",
+          "target": "교무실 출입문으로 발길을 돌린다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0076",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000844",
+          "source": "「あ、おいっ。上条――」",
+          "target": "「아, 잠깐. 카미조――」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "카미조 모미지(紅葉)"
+        ],
+        "relationship": "담임 교사→자기 학급 학생, 소설 습작을 들켜 당황함",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "편한 교사의 반말, 당황·머뭇거림 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0077",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000854",
+          "source": "「それでは、失礼しました」",
+          "target": "「그럼 실례했습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "카미조 모미지(紅葉; 훗날 마키노의 아내)",
+        "addressees": [
+          "마키노 게이고"
+        ],
+        "relationship": "학급위원·문예부원→담임 선생님",
+        "story_phase": "masa_06: 과거 교무실 대화",
+        "voice": "예의 있는 존댓말; 호기심과 장난기를 살리되 경박함 추가 금지"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0078",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000862",
+          "source": "ガラガラガラガラ…ピシャッ",
+          "target": "드르르르르… 탁"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0079",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000867",
+          "source": "引き戸が閉まって、扉の向こうに消える上条。",
+          "target": "미닫이문이 닫히고, 카미조가 문 너머로 사라진다."
+        },
+        {
+          "id": "masa_06.mjo::000871",
+          "source": "僕は呆然とその扉を見つめていた。",
+          "target": "나는 멍하니 그 문을 바라보고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0080",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000876",
+          "source": "まさか小説を書いてることが生徒にばれて、",
+          "target": "소설을 쓴다는 걸 학생에게 들킨 것도 모자라,"
+        },
+        {
+          "id": "masa_06.mjo::000880",
+          "source": "しかも読ませてくれとせがまれるとは…",
+          "target": "읽게 해 달라는 부탁까지 받게 될 줄은…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0081",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000887",
+          "source": "「（そういえば…自分が書いた小説を、",
+          "target": "「(그러고 보니… 내가 쓴 소설을"
+        },
+        {
+          "id": "masa_06.mjo::000891",
+          "source": "　他人に読ませることなんて今までなかったな）」",
+          "target": "　다른 사람에게 읽게 한 적은 한 번도 없었네)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "자기 자신에게 하는 혼잣말",
+        "story_phase": "masa_06: 과거 교무실, 소설 구상",
+        "voice": "낮은 혼잣말과 내적 독백; 반말"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0082",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000896",
+          "source": "勢いと自己満足で書き上げた小説を、",
+          "target": "기세와 자기만족으로 써 내려간 소설을"
+        },
+        {
+          "id": "masa_06.mjo::000900",
+          "source": "誰にも見せずにこっそりと投稿するだけ。",
+          "target": "아무에게도 보여 주지 않고 몰래 투고할 뿐."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0083",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000905",
+          "source": "審査員が僕の作品にどういう評価を下したのか、",
+          "target": "심사위원이 내 작품에 어떤 평가를 내렸는지,"
+        },
+        {
+          "id": "masa_06.mjo::000909",
+          "source": "それすらもわからないまま落選を続けてきた。",
+          "target": "그조차 모르는 채 낙선을 거듭해 왔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0084",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000914",
+          "source": "このままじゃいけない。今までずっと独学でやってきたけど",
+          "target": "이대로는 안 된다. 지금까지 줄곧 독학해 왔지만,"
+        },
+        {
+          "id": "masa_06.mjo::000918",
+          "source": "それだけじゃ限界があるんだ。",
+          "target": "그것만으로는 한계가 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0085",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000925",
+          "source": "「（僕は今まで、",
+          "target": "「(나는 지금까지"
+        },
+        {
+          "id": "masa_06.mjo::000929",
+          "source": "　読み手を意識して書いていなかったのかもしれない）」",
+          "target": "　독자를 의식하지 않고 글을 써 왔는지도 모르겠다)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "자기 자신에게 하는 혼잣말",
+        "story_phase": "masa_06: 과거 교무실, 소설 구상",
+        "voice": "낮은 혼잣말과 내적 독백; 반말"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0086",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000934",
+          "source": "不特定多数の人間に、",
+          "target": "불특정 다수의 사람에게"
+        },
+        {
+          "id": "masa_06.mjo::000938",
+          "source": "自分の書いたものを晒す勇気はまだない。",
+          "target": "내가 쓴 글을 드러낼 용기는 아직 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0087",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000943",
+          "source": "だけどあの上条になら、",
+          "target": "하지만 그 카미조라면,"
+        },
+        {
+          "id": "masa_06.mjo::000947",
+          "source": "何となく読んでもらってもいいような気がした。",
+          "target": "어쩐지 내 글을 보여 줘도 괜찮을 것 같았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0088",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000959",
+          "source": "上条紅葉。",
+          "target": "카미조 모미지."
+        },
+        {
+          "id": "masa_06.mjo::000962",
+          "source": "僕の担任するクラスのクラス委員で、",
+          "target": "내가 담임을 맡은 반의 학급위원이자,"
+        },
+        {
+          "id": "masa_06.mjo::000966",
+          "source": "たったひとりの文芸部員――",
+          "target": "단 한 명뿐인 문예부원――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "masa_06.mjo::u0089",
+      "fields": [
+        {
+          "id": "masa_06.mjo::000971",
+          "source": "僕の脳内に刻まれた彼女に関する項目に、",
+          "target": "머릿속에 새겨진 그녀에 관한 항목에"
+        },
+        {
+          "id": "masa_06.mjo::000975",
+          "source": "新たな一項が付け加えられた。",
+          "target": "새로운 항목이 하나 더해졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(회상 시점 서술)",
+        "addressees": [],
+        "relationship": "교사 마키노가 담당 학급 학생 카미조 모미지와 처음 문예 이야기를 나누는 회상",
+        "story_phase": "masa_06: 교무실, 소설 구상과 문예부 대화",
+        "voice": "담백한 1인칭 서술·내적 독백; 현재/과거 원문 시점 보존"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "上条 / 上条紅葉",
+      "target": "카미조 / 카미조 모미지",
+      "status": "source_reading_confirmed",
+      "evidence": [
+        "masa_06.mjo::u0023",
+        "masa_06.mjo::u0088",
+        "kureha_18.mjo::004749=かみじょう",
+        "kureha_18.mjo::004750=上条"
+      ],
+      "reason": "원문 루비 읽기/표기 쌍으로 かみじょう 확인. 후반 정체 정보는 초기 화면 번역에 노출하지 않음."
+    },
+    {
+      "source": "文芸部 / クラス委員 / 顧問",
+      "target": "문예부 / 학급위원 / 지도교사",
+      "evidence": [
+        "masa_06.mjo::u0045",
+        "masa_06.mjo::u0067",
+        "masa_06.mjo::u0088"
+      ],
+      "reason": "해당 학교 동아리와 학급 직책에 동일 표현 적용."
+    },
+    {
+      "source": "神 / 紙 / カミ",
+      "target": "신(카미) / 종이(카미)",
+      "evidence": [
+        "masa_06.mjo::u0016",
+        "masa_06.mjo::u0020",
+        "masa_06.mjo::u0024"
+      ],
+      "reason": "동음이의어 神/紙의 의미와 오해를 유지하도록 앞뒤 두 위치에 최소 독음 병기. 조정자 방향 확인 2026-10-22."
+    }
+  ],
+  "inline_records": [],
+  "review_notes": [
+    "masa_06 전체 89구간과 다음 파일 masa_07 u0001–0012를 문맥으로 읽음. 회상 속 紅葉는 딸 もみじ와 구분.",
+    "동일 필드 원문 approved-memory 대조: 침묵 「………」의 동일 번역 재사용. 카미 말장난은 독음 병기 검토 필요.",
+    "소설가 지망의 과거 회상이며 성적 내용 없음. 현재 학생 성인 설정을 과거 회상에 나이 확정 근거로 확대하지 않음.",
+    "조정자 89구간 대조 검토 반영: u0087 독서 주체 오독 수정; 카미조 독음 확정; 神/紙 쌍 독음 병기; u0014 두 필드 분절 조정으로 길이 경고 해소."
+  ]
+}

@@ -1,0 +1,8 @@
+﻿test_opening.py mv
+test_sprites.py mv
+test_text4k.py mv
+test_menu.py mv
+test_menu_switch.py mv
+test_chronicle_actions.py scene mv
+test_replay.py storyjump mv
+test_replay.py mapend mv

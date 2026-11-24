@@ -1,0 +1,28 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "exact_text": "레콘키스타",
+  "renderer": "built-in image_gen; deterministic local layer integration",
+  "imagegen_source": "P:\\AI\\Codex\\generated_images\\01a162df-720c-77d2-96ed-6429e90b3333\\exec-9b1adfdc-25e6-4d6d-a817-7bdfbd9e40e6.png",
+  "source_sha256": "5cd05824f42163b1d2f0d9598284acadcc07362a88f435958d38684e2833a944",
+  "accepted_master_base": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\candidates\\brand-logo-ko-v1\\master\\reconquista-ko.png",
+  "base_sha256": "c143e7a7d8bd64bb18dfb2a86e1710d2dc222bcfcbd4c228d6e2db62cd6384c3",
+  "local_edit_master_bounds": [
+    0,
+    0,
+    245,
+    550
+  ],
+  "blend_transition_y": [
+    500,
+    550
+  ],
+  "all_pixels_outside_local_edit_identical": true,
+  "crop_bbox_reused": [
+    33,
+    15,
+    1598,
+    955
+  ],
+  "user_revision": "Reduce initial 레 rising stroke; preserve other syllables and central 키 focal ascender."
+}

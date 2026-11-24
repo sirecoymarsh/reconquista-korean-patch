@@ -1,0 +1,797 @@
+{
+  "translator_model": "Codex internal",
+  "records": [
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-1-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        53,
+        211,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        55,
+        216,
+        253,
+        238
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-2-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        294,
+        211,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        297,
+        216,
+        495,
+        238
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-3-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        536,
+        211,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        538,
+        216,
+        736,
+        238
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-4-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        53,
+        373,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        55,
+        378,
+        253,
+        400
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-5-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        294,
+        373,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        297,
+        378,
+        495,
+        400
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-6-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        536,
+        373,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        538,
+        378,
+        736,
+        400
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-7-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        53,
+        535,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        55,
+        540,
+        253,
+        562
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-8-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        294,
+        535,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        297,
+        540,
+        495,
+        562
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::slot-9-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        536,
+        535,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        538,
+        540,
+        736,
+        562
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-1-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        53,
+        211,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        55,
+        216,
+        253,
+        238
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-2-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        294,
+        211,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        297,
+        216,
+        495,
+        238
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-3-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        536,
+        211,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        538,
+        216,
+        736,
+        238
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-4-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        53,
+        373,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        55,
+        378,
+        253,
+        400
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-5-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        294,
+        373,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        297,
+        378,
+        495,
+        400
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-6-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        536,
+        373,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        538,
+        378,
+        736,
+        400
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-7-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        53,
+        535,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        55,
+        540,
+        253,
+        562
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-8-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        294,
+        535,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        297,
+        540,
+        495,
+        562
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::slot-9-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        536,
+        535,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        538,
+        540,
+        736,
+        562
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-1-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        53,
+        211,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        55,
+        216,
+        253,
+        238
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-2-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        294,
+        211,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        297,
+        216,
+        495,
+        238
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-3-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        536,
+        211,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        538,
+        216,
+        736,
+        238
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-4-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        53,
+        373,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        55,
+        378,
+        253,
+        400
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-5-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        294,
+        373,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        297,
+        378,
+        495,
+        400
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-6-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        536,
+        373,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        538,
+        378,
+        736,
+        400
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-7-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        53,
+        535,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        55,
+        540,
+        253,
+        562
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-8-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        294,
+        535,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        297,
+        540,
+        495,
+        562
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::slot-9-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        536,
+        535,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        538,
+        540,
+        736,
+        562
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-1-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        53,
+        211,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        55,
+        216,
+        253,
+        238
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-2-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        294,
+        211,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        297,
+        216,
+        495,
+        238
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-3-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        536,
+        211,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        538,
+        216,
+        736,
+        238
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-4-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        53,
+        373,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        55,
+        378,
+        253,
+        400
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-5-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        294,
+        373,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        297,
+        378,
+        495,
+        400
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-6-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        536,
+        373,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        538,
+        378,
+        736,
+        400
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-7-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        53,
+        535,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        55,
+        540,
+        253,
+        562
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-8-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        294,
+        535,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        297,
+        540,
+        495,
+        562
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::slot-9-decorative-quote",
+      "source": "And death and the grave were thrown into the lake of fire.\nThis is the second death—the lake of fire.\nAnd anyone whose name was not found recorded\nin the Book of Life was thrown into the lake of fire.",
+      "target": "죽음과 무덤도 불못에 던져졌다. 이 불못이 곧 둘째 죽음이다.\n생명책에 이름이 기록되지 않은 사람은 누구든 불못에 던져졌다.",
+      "translator_model": "Codex internal",
+      "reused_translation": "translation/staff-history-ko.json",
+      "semantic_text_unchanged": true,
+      "source_region": [
+        536,
+        535,
+        212,
+        32
+      ],
+      "target_ink_bounds": [
+        538,
+        540,
+        736,
+        562
+      ],
+      "font_size": 8,
+      "reflow": "Four sentences retained in two lines; larger glyphs than original tiny four-line English."
+    }
+  ]
+}

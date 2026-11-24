@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-22T11:48:16.197872+00:00",
+  "source": "candidates/ui-trial-v5",
+  "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\runtime-ui-bg",
+  "exe_sha256": "f67195682944663b9546665eb3b63a639ace3f910e2ebf6ffaccda001d625b50",
+  "scenario_sha256": "db150e681b1096eec109b0b94ee304573ff44d320de4628fd973bbe32392cc5c",
+  "fastdata_sha256": "bcadb79e854a3bbe00af83e515b4bafd516e2b860a7e5286cacd65627a2041bf",
+  "only_runtime_adjustments": {
+    "TITLEBAR": "Reconquista-UI-BG-v5",
+    "REG_LOCAL": "Reconquista-UI-BG-v5-20261022",
+    "MUSICVOL": "0",
+    "SOUNDVOL": "0",
+    "VOICEVOL": "0",
+    "ISPLAYMUSIC": "0"
+  },
+  "purpose": "Silent private-desktop UI verification; no audio validation claim",
+  "unchanged_input_links": "Reused reports/background-runtime-prepared.json; no writes to linked inputs",
+  "payload_identity_except_majiro_env": true
+}

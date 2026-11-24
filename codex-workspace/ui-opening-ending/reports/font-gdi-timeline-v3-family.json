@@ -1,0 +1,28 @@
+{
+  "test": "isolated offscreen Windows GDI; not a game screenshot or in-game verification",
+  "font": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\timeline-csv-v3\\font\\ReconquistaUIKR.otf",
+  "font_sha256": "746664ec37a73b7b4da5a14e274c1f3cf91e92e5aa9e08c6a0cd1fb2faf3292e",
+  "results": [
+    {
+      "requested_charset": 1,
+      "actual_charset": 128,
+      "font_face": "Reconquista UI K2",
+      "hangul_glyphs": 804,
+      "missing_glyphs": 0,
+      "mapped_TextOutA_equals_Hangul_TextOutW": true,
+      "nonwhite_channel_bytes": 137256,
+      "pixels_sha256": "c28f30e6683e8326e0c96fbfc53d376184d6df2e881d27745101643d4d8ca7dd"
+    },
+    {
+      "requested_charset": 128,
+      "actual_charset": 128,
+      "font_face": "Reconquista UI K2",
+      "hangul_glyphs": 804,
+      "missing_glyphs": 0,
+      "mapped_TextOutA_equals_Hangul_TextOutW": true,
+      "nonwhite_channel_bytes": 137256,
+      "pixels_sha256": "c28f30e6683e8326e0c96fbfc53d376184d6df2e881d27745101643d4d8ca7dd"
+    }
+  ],
+  "pass": true
+}

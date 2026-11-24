@@ -1,0 +1,2561 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-1/lane-1",
+  "coordinator_thread_id": "01a16335-92a2-79c2-814f-63275a46f2b1",
+  "agent_id": "/root/lane_1",
+  "source_script": "00_レコンキスタ_start_2.mjo",
+  "source_sha256": "9d81bc362eb009825acbcb26d4bc28a286a9cae0ffd6047ae32e2be2c3f1f073",
+  "source_packet_sha256": "dd612197a63ea218d04ccab01d26b0dda035013e8c1d385ac16c34042cd2b00d",
+  "contract_revision": "20261022-2-path-and-inline-ownership",
+  "records": [
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0374",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004059",
+          "source": "「そういえば詩菜ちゃんは、",
+          "target": "「그러고 보니 시이나는"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004063",
+          "source": "　こないだテレビでやってた映画って見たかな？」",
+          "target": "　얼마 전에 TV에서 해 준 영화 봤어?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0375",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004073",
+          "source": "「あ、はい。宇宙人の出てくる…」",
+          "target": "「아, 네. 외계인 나오는…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0376",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004078",
+          "source": "廊下を歩きながら会話をする真帆子と詩菜。",
+          "target": "복도를 걸으며 이야기를 나누는 마호코와 시이나."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0377",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004083",
+          "source": "どうやら二人は、",
+          "target": "아무래도 둘은"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004087",
+          "source": "先日テレビで放映した映画の話をしているらしい。",
+          "target": "얼마 전 TV에서 방영한 영화 이야기를 하는 모양이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0378",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004092",
+          "source": "その映画とは地球に取り残された宇宙人が、",
+          "target": "지구에 홀로 남겨진 외계인이"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004096",
+          "source": "子供たちの協力を得て、仲間の元へと帰って行くもので、",
+          "target": "아이들의 도움을 받아 동료들에게 돌아가는 내용으로,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004100",
+          "source": "なかなかに感動的な作りのものだった。",
+          "target": "꽤 감동적인 영화였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0379",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004105",
+          "source": "ＣＧがガンガン使われる最近の映画に比べればやや地味だが",
+          "target": "CG를 잔뜩 쓴 요즘 영화에 비하면 좀 수수하지만,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004109",
+          "source": "その分古き良き映画のリアリティが感じられた。",
+          "target": "그만큼 옛 영화 특유의 생생함이 느껴졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0380",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004124",
+          "source": "「信くんも見たんだよね？」",
+          "target": "「신도 봤지?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0381",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004131",
+          "source": "「ああ。",
+          "target": "「어."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004135",
+          "source": "　でも、映画はやっぱり映画館で見るのが一番だけどな」",
+          "target": "　그래도 역시 영화는 영화관에서 보는 게 최고지」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0382",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004150",
+          "source": "「それはそうだけど…」",
+          "target": "「그건 그렇지만…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0383",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004157",
+          "source": "「ま、テレビでもそれなりに楽しんだけどさ」",
+          "target": "「뭐, TV로 봐도 나름 재미는 있었지만」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0384",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004172",
+          "source": "「ふふっ…『それなり』なんて言っちゃって…」",
+          "target": "「후훗… 『나름』이라니…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0385",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004179",
+          "source": "「な、なんだよ」",
+          "target": "「뭐, 뭐야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0386",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004194",
+          "source": "「次の日、わたしと話した時、",
+          "target": "「다음 날 나랑 얘기할 때"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004198",
+          "source": "　思い出してボロボロ泣いちゃったもんね？」",
+          "target": "　다시 생각나서 눈물을 펑펑 쏟았으면서?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0387",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004205",
+          "source": "「こらっ！　余計なことを言うなっての。",
+          "target": "「야! 쓸데없는 소리 하지 마."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004209",
+          "source": "　俺のイメージが崩れるじゃねーかっ」",
+          "target": "　내 이미지 망가지잖아!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0388",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004219",
+          "source": "全く、余計な事を言いやがって。",
+          "target": "정말이지, 쓸데없는 소리를 하고는."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0389",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004224",
+          "source": "詩菜がいるんだから、",
+          "target": "시이나도 있는데"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004228",
+          "source": "少しは気を遣えってんだ。",
+          "target": "좀 신경 써 줘야 할 거 아냐."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0390",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004243",
+          "source": "「私のことなら、",
+          "target": "「저라면"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004247",
+          "source": "　気にしなくてもいいですよ」",
+          "target": "　신경 안 쓰셔도 돼요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0391",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004254",
+          "source": "「え？」",
+          "target": "「어?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0392",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004259",
+          "source": "一体どういう意味だ？",
+          "target": "대체 무슨 뜻이지?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0393",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004274",
+          "source": "「俺のイメージが崩れるもなにも、その程度のことでは、",
+          "target": "「이미지가 망가지네 어쩌네 하실 것도 없어요."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004278",
+          "source": "　私の先輩へのイメージは全く変わりませんから」",
+          "target": "　그 정도로는 선배에 대한 제 이미지가 전혀 안 바뀌니까요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0394",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004285",
+          "source": "「…どういう意味だよ」",
+          "target": "「…무슨 뜻인데」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0395",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004300",
+          "source": "「それはちょっと…」",
+          "target": "「그건 좀…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0396",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004315",
+          "source": "「いくら先輩といえども、",
+          "target": "「아무리 선배라도"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004319",
+          "source": "　傷つくとわかっていることを言うのは、",
+          "target": "　상처받을 걸 뻔히 알면서 말하는 건"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004323",
+          "source": "　私の良心が許しませんから」",
+          "target": "　제 양심이 허락하지 않거든요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0397",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004330",
+          "source": "「お前の良心だけの問題かよっ」",
+          "target": "「네 양심만 문제냐!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0398",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004345",
+          "source": "「はい。その通りですが、何か？」",
+          "target": "「네. 그런데요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0399",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004352",
+          "source": "「こいつは…」",
+          "target": "「이 녀석이…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0400",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004357",
+          "source": "せめて『先輩に悪いから』ぐらいの事は",
+          "target": "적어도 『선배한테 미안해서』 정도는"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004361",
+          "source": "言ってもいいんじゃないのか？",
+          "target": "말해 줘도 되는 거 아닌가?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0401",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004366",
+          "source": "そういう言い方をすれば、俺も腹を立てることなんか…",
+          "target": "그렇게 말하면 나도 화낼 일은…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0402",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004371",
+          "source": "いや、やっぱり腹が立つのは変わらないか。",
+          "target": "아니, 역시 화나는 건 똑같겠구나."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0403",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004383",
+          "source": "「…どう考えても、",
+          "target": "「…아무리 봐도"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004387",
+          "source": "　まともにコミュニケーションを取る気はないようだな」",
+          "target": "　제대로 소통할 생각은 없어 보이는데」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "시이나의 태도에 관해 혼잣말로 불평; 마호코가 듣고 귓속말로 답함",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0404",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004402",
+          "source": "「またそんなこと言う…",
+          "target": "「또 그런다…"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004406",
+          "source": "　詩菜ちゃんは照れ屋さんなだけだってば」",
+          "target": "　시이나는 그냥 부끄럼이 많은 거라니까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0405",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004411",
+          "source": "思わず呟いてしまった俺の言葉に、",
+          "target": "나도 모르게 중얼거린 말에"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004415",
+          "source": "真帆子が囁きかけてくる。",
+          "target": "마호코가 귓속말로 답한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0406",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004420",
+          "source": "なんでこいつは、",
+          "target": "얘는 어쩜 이렇게"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004424",
+          "source": "こうも物事を善意で受け止められるんだか…",
+          "target": "뭐든 좋게 받아들일 수 있는 걸까…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0407",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004429",
+          "source": "まぁ、そういった部分が、",
+          "target": "뭐, 그런 점이"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004433",
+          "source": "真帆子らしいと言えなくもないのだが。",
+          "target": "마호코답다고 할 수도 있겠지만."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0408",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004440",
+          "source": "「さっきもそんな事言ってたよな、真帆子は」",
+          "target": "「아까도 그런 소리 했지, 너」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0409",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004455",
+          "source": "「そうだよ。だから信くんから",
+          "target": "「맞아. 그러니까 신이 먼저"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004459",
+          "source": "　積極的にコミュニケーションを取ってあげないとね」",
+          "target": "　적극적으로 말도 걸어 주고 해야지」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0410",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004466",
+          "source": "「コミュニケーションねぇ…」",
+          "target": "「소통이라…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0411",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004471",
+          "source": "さっきも取ろうとして、",
+          "target": "아까도 해 보려다가"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004475",
+          "source": "あっさりスルーされたわけだが。",
+          "target": "보기 좋게 무시당했는데."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0412",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004485",
+          "source": "…まぁ、いい。ここは真帆子の顔を立てて，",
+          "target": "…뭐, 됐다. 마호코 체면도 세워 줄 겸"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004489",
+          "source": "もう一回試してみることにしよう。",
+          "target": "한 번만 더 해 보자."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0413",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004494",
+          "source": "と言っても、どうしたもんだか…",
+          "target": "그렇다고 해도 뭘 어떻게 해야 할지…"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004498",
+          "source": "…って、そうだっ。",
+          "target": "…아, 그래!"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0414",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004505",
+          "source": "「んじゃ、これでどうだっ」",
+          "target": "「그럼, 이건 어때!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0415",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004510",
+          "source": "俺はおもむろに、",
+          "target": "나는 느릿하게"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004514",
+          "source": "詩菜の目の前へずぃっと人差し指を突き出した。",
+          "target": "시이나 눈앞으로 검지를 쑥 내밀었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0416",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004529",
+          "source": "「はい？」",
+          "target": "「네?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0417",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004534",
+          "source": "そしてそれを不思議そうな目で見つめ返す詩菜。",
+          "target": "시이나는 영문을 모르겠다는 눈으로 내 손가락을 바라본다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0418",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004539",
+          "source": "これは、さっき話してた映画の中で出てきた、",
+          "target": "이건 아까 이야기하던 영화에서,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004543",
+          "source": "ＥでＴな宇宙人と子供との間でのコミュニケーションを",
+          "target": "E로 시작해 T로 끝나는 외계인과 아이들이"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004547",
+          "source": "象徴する仕草だった。",
+          "target": "서로 소통한다는 걸 보여 준 몸짓이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0419",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004554",
+          "source": "「（うん、これなら意味合い的にもバッチリだ）」",
+          "target": "「(그래, 이거면 의미도 딱 맞아)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "속으로 스스로 납득하는 독백",
+        "text_function": "inner_monologue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0420",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004559",
+          "source": "後は詩菜が自分の人差し指を俺の指に絡めてくれば、",
+          "target": "이제 시이나가 검지로 내 손가락을 맞잡아 주면"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004563",
+          "source": "第３種接近遭遇…もとい、",
+          "target": "제3종 근접 조우… 아니,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004567",
+          "source": "コミュニケーションが成立するわけだが…",
+          "target": "소통이 이루어지는 건데…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0421",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004577",
+          "source": "と、そこへ",
+          "target": "그런데 그때,"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0422",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004592",
+          "source": "「まほこ～",
+          "target": "「마호코~"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004597",
+          "source": "　",
+          "target": "　"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004602",
+          "source": "♪」",
+          "target": "♪」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0423",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004607",
+          "source": "絡めてきたのは真帆子だった。",
+          "target": "손가락을 걸어 온 건 마호코였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0424",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004614",
+          "source": "「今さらお前と接近遭遇してどうするっ」",
+          "target": "「새삼 너랑 근접 조우해서 어쩌자는 건데!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0425",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004629",
+          "source": "「いいシーンだったよねぇ。",
+          "target": "「참 좋은 장면이었지이."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004633",
+          "source": "　見てて涙が止まらなかったよぉ～」",
+          "target": "　보면서 눈물이 멈추질 않았어어~」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0426",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004640",
+          "source": "「いや、俺が言いたいのはそういう事じゃなくてね？」",
+          "target": "「아니, 내가 하려는 말은 그게 아닌데?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0427",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004650",
+          "source": "「ああっ　なに真帆子ちゃんと",
+          "target": "「아앗, 왜 마호코 언니랑"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004654",
+          "source": "　熱く握り合っているんですかっ！」",
+          "target": "　그렇게 뜨겁게 손을 맞잡고 있는 거예요!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0428",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004666",
+          "source": "「お前こそなに誤解してんだよっ。",
+          "target": "「너야말로 무슨 오해야!"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004670",
+          "source": "　これは真帆子の方から…」",
+          "target": "　이건 마호코가 먼저…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0429",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004685",
+          "source": "「もう、言い訳はいいですっ。",
+          "target": "「됐어요, 변명은 그만하세요."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004689",
+          "source": "　早く真帆子ちゃんと離れてください～っ」",
+          "target": "　어서 마호코 언니한테서 떨어져요~!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "가시 돋친 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0430",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004696",
+          "source": "「俺のせいじゃないっつーの！」",
+          "target": "「내 탓 아니라니까!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0431",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004705",
+          "source": "俺と真帆子の間に割り込んで、",
+          "target": "나와 마호코 사이에 끼어들어"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004709",
+          "source": "力づくで引きはがそうとする詩菜。",
+          "target": "억지로 떼어 놓으려는 시이나."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0432",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004714",
+          "source": "そんな詩菜が攻撃を仕掛けてくるのは、",
+          "target": "그러면서 시이나가 공격을 퍼붓는 건"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004718",
+          "source": "全て俺に対してだった。",
+          "target": "전부 나한테였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0433",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004723",
+          "source": "こんなとこまで徹底したヤツだな…",
+          "target": "이런 데서까지 한결같은 녀석이네…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0434",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004728",
+          "source": "そんなことを思わずには居られなかった。",
+          "target": "그런 생각을 하지 않을 수가 없었다."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004732",
+          "source": "……はぁ。",
+          "target": "……하아."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0435",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004743",
+          "source": "そして、一年の教室がある階に着くと、",
+          "target": "그러고 1학년 교실이 있는 층에 도착하자"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004747",
+          "source": "俺たちは詩菜に向かって挨拶を送った。",
+          "target": "우리는 시이나에게 인사를 건넸다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0436",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004757",
+          "source": "「それじゃあね、詩菜ちゃん」",
+          "target": "「그럼 나중에 봐, 시이나」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0437",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004764",
+          "source": "「詩菜、またな～～」",
+          "target": "「시이나, 또 보자~~」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "시이나"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0438",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004779",
+          "source": "「真帆子ちゃん、それでは」",
+          "target": "「마호코 언니, 안녕히 가세요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "시이나",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "부드러운 존댓말",
+        "text_function": "dialogue",
+        "source_display_token": "詩菜"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0439",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004789",
+          "source": "きっちりと真帆子だけに挨拶をして、",
+          "target": "딱 마호코에게만 인사하고"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004793",
+          "source": "その場を立ち去っていく。",
+          "target": "자리를 떠난다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0440",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004798",
+          "source": "ったく、なんでアイツは",
+          "target": "정말이지, 쟤는 왜"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004802",
+          "source": "真帆子に対する独占欲がこうも強いんだか。",
+          "target": "마호코에 대한 독점욕이 저렇게 강한 걸까."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0441",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004817",
+          "source": "「じゃあ、わたしたちも行こっか」",
+          "target": "「그럼 우리도 갈까?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0442",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004824",
+          "source": "「ああ……」",
+          "target": "「어……」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0443",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004829",
+          "source": "真帆子に頷き返しながら、",
+          "target": "마호코에게 고개를 끄덕여 보이고"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004833",
+          "source": "俺は教室のあるフロアに向かって階段を上り始めた。",
+          "target": "우리 교실이 있는 층을 향해 계단을 오르기 시작했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 등교 후 복도에서 영화 이야기와 시이나와의 실랑이",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0444",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004843",
+          "source": "ようやく教室が見えてくる。",
+          "target": "드디어 교실이 보인다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0445",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004848",
+          "source": "色々あって流石に疲れてきた。",
+          "target": "이런저런 일이 있어 아무래도 좀 지쳤다."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004852",
+          "source": "席に着いたら、そのまま夢の世界に",
+          "target": "자리에 앉으면 그대로 꿈속으로 "
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004857",
+          "source": "われそうだ。",
+          "target": "릴 것 같다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0446",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004864",
+          "source": "「月曜じゃなかったのが、せめてもの救いか…」",
+          "target": "「월요일이 아니라 그나마 다행인가…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0447",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004879",
+          "source": "「え？　どうして？」",
+          "target": "「응? 왜?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0448",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004886",
+          "source": "「朝ミサがなくて済む。",
+          "target": "「아침 미사는 안 드려도 되잖아."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004890",
+          "source": "　そう考えるとやっぱ面倒だな、ミッションスクールって」",
+          "target": "　그렇게 생각하면 역시 미션 스쿨은 귀찮단 말이지」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0449",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004895",
+          "source": "今さらだが、",
+          "target": "새삼스럽지만"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004899",
+          "source": "うちの学校はミッションスクールだったりする。",
+          "target": "우리 학교는 미션 스쿨이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0450",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004904",
+          "source": "宗教の伝道を目的に建てられた学校らしいが、",
+          "target": "선교를 목적으로 세워진 학교라지만,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004908",
+          "source": "通ってる生徒には、そんな事を気にしてる奴の方が少ない。",
+          "target": "다니는 학생 중에 그런 걸 신경 쓰는 녀석은 드물다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0451",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004913",
+          "source": "せいぜいカリキュラムに絡んできたり、",
+          "target": "기껏해야 교육과정에 좀 끼어들거나"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004917",
+          "source": "校風や行事が若干そっち方面…",
+          "target": "교풍이나 행사가 조금 그쪽 계통인 정도…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0452",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004922",
+          "source": "そして毎週月曜の朝、全校集会代わりの朝礼が",
+          "target": "그리고 매주 월요일 아침,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004926",
+          "source": "学校敷地内の礼拝堂である程度だった。",
+          "target": "전교생 조회를 학교 안 예배당에서 하는 정도였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0453",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004941",
+          "source": "「もう、ミサなんて言っちゃダメだよ。",
+          "target": "「정말, 미사라고 하면 안 되지."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004945",
+          "source": "　ミサはカトリック教会の儀式なんだから」",
+          "target": "　미사는 가톨릭교회 의식이잖아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0454",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004952",
+          "source": "「そういや汐見先生って、神父じゃなくて牧師だっけ」",
+          "target": "「그러고 보니 시오미 선생님은 신부가 아니라 목사였나」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0455",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004957",
+          "source": "プロテスタント系の我が校。",
+          "target": "우리 학교는 개신교 계열이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0456",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004962",
+          "source": "その礼拝堂に駐在し、宗教の授業では教壇にも立つ、",
+          "target": "그 예배당에 상주하며 종교 시간에는 교단에도 서는,"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004966",
+          "source": "温厚な牧師先生の事を思い出す。",
+          "target": "온화한 목사 선생님을 떠올린다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0457",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004971",
+          "source": "あれで言う事が説教くさくなきゃなぁ…",
+          "target": "말만 하면 잔소리인 것만 아니면 좋을 텐데…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0458",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004976",
+          "source": "とは言え、俺たち生徒の大半に密接に絡むのなんて、",
+          "target": "그렇다 해도 우리 학생들 대부분과 직접 관련 있는 건"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004980",
+          "source": "所詮はそのくらいなもんで…",
+          "target": "결국 그 정도뿐이라…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0459",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::004987",
+          "source": "「あ、あと制服が変てのもあったな」",
+          "target": "「아, 교복이 이상하다는 것도 있구나」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0460",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005002",
+          "source": "「変じゃないよぉ、かわいいよぉ～」",
+          "target": "「안 이상해. 귀엽잖아아~」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0461",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005012",
+          "source": "自分の主張を後押しするように、",
+          "target": "자기 말을 뒷받침하듯"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005016",
+          "source": "真帆子がその場でくるんと回ってみせる。",
+          "target": "마호코가 그 자리에서 빙그르 돌아 보인다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0462",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005021",
+          "source": "翻ったスカートが、少し遅れてふわりと舞った。",
+          "target": "치마가 한 박자 늦게 뒤집히며 사르르 휘날렸다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0463",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005036",
+          "source": "「…ほらね？」",
+          "target": "「…그치?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0464",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005043",
+          "source": "「いや、お前が着てるとそっち系の喫茶店みたいだぞ」",
+          "target": "「아니, 네가 입으니까 그런 카페 같아 보이는데」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0465",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005058",
+          "source": "「がーーーん」",
+          "target": "「충겨어어억」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0466",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005063",
+          "source": "言葉にするくらい、ショックを受けた様子の真帆子さん。",
+          "target": "말로 소리 낼 만큼 충격을 받은 마호코 씨."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0467",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005075",
+          "source": "「って、別に似合ってないって言ってないだろ。",
+          "target": "「안 어울린다고는 안 했잖아."
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005079",
+          "source": "　むしろお前は…」",
+          "target": "　오히려 너는…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "친근하고 짓궂은 반말",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0468",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005084",
+          "source": "と言いかけて、はっと口をつぐむ。",
+          "target": "말하다가 흠칫 입을 다문다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0469",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005094",
+          "source": "ふと見ると、真帆子が何とも言えない、",
+          "target": "문득 보니 마호코가 뭐라 형용할 수 없을 만큼"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005098",
+          "source": "期待に満ちた視線で、じっとこちらを見ていた。",
+          "target": "기대에 찬 눈빛으로 이쪽을 빤히 바라보고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0470",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005103",
+          "source": "ヤバいぞ、これは…。",
+          "target": "큰일이다, 이거…"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005107",
+          "source": "恥ずかしい事を言わされる前に上手く切り抜けねば…",
+          "target": "낯간지러운 말을 하게 되기 전에 잘 빠져나가야 한다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0471",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005122",
+          "source": "「なになに信くん、今なんて言おうとしたの？」",
+          "target": "「왜, 왜, 신? 지금 무슨 말 하려던 거야?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0472",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005129",
+          "source": "「……いえ、何も」",
+          "target": "「……아뇨, 아무것도요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "낯간지러운 대답을 피하려고 일부러 존댓말로 시치미를 뗌",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0473",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005144",
+          "source": "「ねぇねぇ、信く～ん」",
+          "target": "「응? 신아아~」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0474",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005151",
+          "source": "「…ウェイトレスさん、",
+          "target": "「…저기요, 여기"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005155",
+          "source": "　チーズケーキとアッサムお願いしますって言ったんだよ」",
+          "target": "　치즈케이크랑 아삼 부탁드린다고 했어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [
+          "마호코"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "종업원에게 주문하는 존댓말을 흉내 낸 뒤 소꿉친구 반말로 마무리",
+        "text_function": "dialogue",
+        "source_display_token": "信哉"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0475",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005170",
+          "source": "「がびーーーん」",
+          "target": "「대충겨어어억」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마호코",
+        "addressees": [
+          "신야"
+        ],
+        "relationship": "신야와 마호코는 소꿉친구; 시이나는 두 사람의 후배이며 마호코와 친밀하다",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "부드럽고 늘이는 말끝을 살린 친근한 반말",
+        "text_function": "dialogue",
+        "source_display_token": "真帆子"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0476",
+      "fields": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005180",
+          "source": "そんな風にふざけ合いながら教室に向かうのも、",
+          "target": "이렇게 장난을 주고받으며 교실로 향하는 것도"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005184",
+          "source": "いつもの事だった。",
+          "target": "늘 있는 일이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "신야",
+        "addressees": [],
+        "relationship": "신야의 1인칭 서술",
+        "story_phase": "공통 초반: 교실로 가며 학교 종교와 교복에 관한 농담",
+        "voice": "담백하면서 가볍게 빈정거리는 1인칭 서술",
+        "text_function": "narration",
+        "source_display_token": null
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "汐見",
+      "target": "시오미",
+      "evidence": [
+        "00_レコンキスタ_start_2.mjo::u0454"
+      ],
+      "reason": "일반 성씨 독음; 목사인 종교 교사. 음성 독음 확인은 별도."
+    },
+    {
+      "source": "ミッションスクール",
+      "target": "미션 스쿨",
+      "evidence": [
+        "00_レコンキスタ_start_2.mjo::u0448",
+        "00_レコンキスタ_start_2.mjo::u0449"
+      ],
+      "reason": "학교 원문 명칭 보존; 사용자 제공 대학 과정 맥락은 연령 판단에 적용하며 원문 문구에 대학 정보를 삽입하지 않음"
+    },
+    {
+      "source": "第３種接近遭遇",
+      "target": "제3종 근접 조우",
+      "evidence": [
+        "00_レコンキスタ_start_2.mjo::u0420"
+      ],
+      "reason": "E.T. 손가락 인사와 외계인 접촉 분류를 이용한 농담"
+    }
+  ],
+  "inline_records": [
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0422",
+      "id": "00_レコンキスタ_start_2.mjo::004594",
+      "source": "ふぉ～ん",
+      "target": "포~온",
+      "consumer": "yazlib $3198fd01 (ruby reading, body)",
+      "evidence": "research/disassembly/00_レコンキスタ_start_2.mjo.mjil: ldstr pair at instruction 4594; callp $3198fd01 (2) follows; displayed ruby within owned u0422, not internal/resource key"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0422",
+      "id": "00_レコンキスタ_start_2.mjo::004595",
+      "source": "ＰＨＯＮＥ",
+      "target": "PHONE",
+      "consumer": "yazlib $3198fd01 (ruby reading, body)",
+      "evidence": "research/disassembly/00_レコンキスタ_start_2.mjo.mjil: ldstr pair at instruction 4595; callp $3198fd01 (2) follows; displayed ruby within owned u0422, not internal/resource key"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0422",
+      "id": "00_レコンキスタ_start_2.mjo::004599",
+      "source": "ほ～む～",
+      "target": "호~옴~",
+      "consumer": "yazlib $3198fd01 (ruby reading, body)",
+      "evidence": "research/disassembly/00_レコンキスタ_start_2.mjo.mjil: ldstr pair at instruction 4599; callp $3198fd01 (2) follows; displayed ruby within owned u0422, not internal/resource key"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0422",
+      "id": "00_レコンキスタ_start_2.mjo::004600",
+      "source": "ＨＯＭＥ",
+      "target": "HOME",
+      "consumer": "yazlib $3198fd01 (ruby reading, body)",
+      "evidence": "research/disassembly/00_レコンキスタ_start_2.mjo.mjil: ldstr pair at instruction 4600; callp $3198fd01 (2) follows; displayed ruby within owned u0422, not internal/resource key"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0445",
+      "id": "00_レコンキスタ_start_2.mjo::004854",
+      "source": "いざな",
+      "target": " ",
+      "consumer": "yazlib $3198fd01 (ruby reading, body)",
+      "evidence": "research/disassembly/00_レコンキスタ_start_2.mjo.mjil: ldstr pair at instruction 4854; callp $3198fd01 (2) follows; displayed ruby within owned u0445, not internal/resource key"
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0445",
+      "id": "00_レコンキスタ_start_2.mjo::004855",
+      "source": "誘",
+      "target": "이끌",
+      "consumer": "yazlib $3198fd01 (ruby reading, body)",
+      "evidence": "research/disassembly/00_レコンキスタ_start_2.mjo.mjil: ldstr pair at instruction 4855; callp $3198fd01 (2) follows; displayed ruby within owned u0445, not internal/resource key"
+    }
+  ],
+  "review_notes": [
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0422",
+      "note": "PHONE/HOME 영어 본문과 포~온/호~옴~ 한국어 루비로 E.T. 패러디 보존. 중간 text 필드는 원문과 동일한 U+3000 공백으로 둔다."
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0445",
+      "note": "전체 합성은 자리에 앉으면 그대로 꿈속으로 이끌릴 것 같다. 읽기 루비는 ASCII 공백 한 칸."
+    },
+    {
+      "scope": [
+        "u0391",
+        "u0394",
+        "u0403"
+      ],
+      "note": "391/394는 시이나 직전 발화에 대한 응답으로 상대 수정. 403은 u0405의 呟いてしまった와 마호코 귓속말로 보아 직접 호명 없는 혼잣말로 기록. 번역 본문은 변경 없음."
+    }
+  ]
+}

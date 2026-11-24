@@ -1,0 +1,19 @@
+{
+  "target": "名前プレート_まほこ.rct",
+  "roi": [
+    12,
+    8,
+    107,
+    27
+  ],
+  "channel": 0,
+  "known_pixels": 1135,
+  "method": "Stable covariance/variance masked NCC, explicit variance floor, then held-out RGB affine fit. Previously tested identity isotropic1/2 skipped; new rotations/reflections/anisotropic scales and3/4 isotropic evaluated.",
+  "trials": 398,
+  "reused_skipped_variants": 10,
+  "stopped_by_shared_marker": false,
+  "top": [],
+  "asset_edits": 0,
+  "accepted_as_clean_plate": false,
+  "elapsed_seconds": 1.0309999999881256
+}

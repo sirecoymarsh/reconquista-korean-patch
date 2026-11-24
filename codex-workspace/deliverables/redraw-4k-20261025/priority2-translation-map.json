@@ -1,0 +1,95 @@
+{
+  "translator_model": "Codex internal",
+  "target_language": "ko",
+  "status": "Readable signage translated; unreadable microprint is explicitly retained, not claimed translated",
+  "entries": [
+    {
+      "groups": [
+        4
+      ],
+      "source": "自転車歩行者専用道路",
+      "target": "자전거·보행자 / 전용 도로",
+      "method": "exact supplied text in imagegen; original lighting transferred"
+    },
+    {
+      "groups": [
+        6
+      ],
+      "source": "分譲地",
+      "target": "분양지",
+      "method": "exact supplied text in imagegen"
+    },
+    {
+      "groups": [
+        9
+      ],
+      "source": "安全通路",
+      "target": "안전 통로",
+      "method": "exact supplied text in imagegen"
+    },
+    {
+      "groups": [
+        12,
+        13
+      ],
+      "source": "日本全国産地直送特産フェア",
+      "target": "일본 전국 산지 직송 특산물 페어",
+      "method": "Codex-authored text; perspective typesetting with source-variant blue and ink colors",
+      "supersedes_initial_prompt": "일본 전국 산지 직송 특산물전",
+      "reason": "Preserve the loanword フェア as 페어."
+    },
+    {
+      "groups": [
+        16
+      ],
+      "source": "立入禁止",
+      "target": "출입 금지",
+      "method": "exact supplied text in imagegen"
+    }
+  ],
+  "unreadable_source_microprint": [
+    {
+      "groups": [
+        1
+      ],
+      "region": "small gate notice and indistinct stylized Latin plaque",
+      "treatment": "source/current pixels, no guessed reading"
+    },
+    {
+      "groups": [
+        4
+      ],
+      "region": "distant overhead route and small dark plaque",
+      "treatment": "source pixels, no guessed place name"
+    },
+    {
+      "groups": [
+        12,
+        13
+      ],
+      "region": "green vertical banner, cropped rooftop signage and distant tiny advertisements",
+      "treatment": "source softness; unreadable wording not translated"
+    },
+    {
+      "groups": [
+        14
+      ],
+      "region": "tiny notice",
+      "treatment": "source pixels"
+    },
+    {
+      "groups": [
+        16
+      ],
+      "region": "body below the readable warning heading",
+      "treatment": "source pixels, original fence occlusion"
+    }
+  ],
+  "preserved_english_numbers": [
+    "FLORANSE N",
+    "MARUHINA",
+    "NOEL",
+    "30",
+    "indistinct Latin plaque"
+  ]
+}

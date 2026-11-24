@@ -1,0 +1,118 @@
+{
+  "updated_utc": "2026-10-22T18:24:22.222812+00:00",
+  "result": "private_desktop_v8_changed_UI_pass_with_chapter_caption_issue_found",
+  "prepared_artifact": "reports/background-runtime-v8-prepared.json",
+  "exe_sha256": "f67195682944663b9546665eb3b63a639ace3f910e2ebf6ffaccda001d625b50",
+  "scenario_sha256": "db150e681b1096eec109b0b94ee304573ff44d320de4628fd973bbe32392cc5c",
+  "fastdata_sha256": "7990d7b53a2da1d68f25193c612988964178d0911be0563811706b8bebb2148f",
+  "method": "Private desktop CreateProcessW, scoped PostMessageW, PrintWindow. No Computer Use, global input, cursor movement or desktop switching.",
+  "operations": 22,
+  "proofs": {
+    "bg-v8-bgm-mute": "evidence/background-runtime/bg-v8-bgm-mute.json",
+    "bg-v8-config-return": "evidence/background-runtime/bg-v8-config-return.json",
+    "bg-v8-config": "evidence/background-runtime/bg-v8-config.json",
+    "bg-v8-exit": "evidence/background-runtime/bg-v8-exit.json",
+    "bg-v8-load-confirmed": "evidence/background-runtime/bg-v8-load-confirmed.json",
+    "bg-v8-load-hover": "evidence/background-runtime/bg-v8-load-hover.json",
+    "bg-v8-load-populated": "evidence/background-runtime/bg-v8-load-populated.json",
+    "bg-v8-load-restored": "evidence/background-runtime/bg-v8-load-restored.json",
+    "bg-v8-load-return": "evidence/background-runtime/bg-v8-load-return.json",
+    "bg-v8-load-slot1": "evidence/background-runtime/bg-v8-load-slot1.json",
+    "bg-v8-load": "evidence/background-runtime/bg-v8-load.json",
+    "bg-v8-newgame": "evidence/background-runtime/bg-v8-newgame.json",
+    "bg-v8-quit": "evidence/background-runtime/bg-v8-quit.json",
+    "bg-v8-save-disabled-dismiss": "evidence/background-runtime/bg-v8-save-disabled-dismiss.json",
+    "bg-v8-save-hover": "evidence/background-runtime/bg-v8-save-hover.json",
+    "bg-v8-save-ingame": "evidence/background-runtime/bg-v8-save-ingame.json",
+    "bg-v8-save-notice-dismiss": "evidence/background-runtime/bg-v8-save-notice-dismiss.json",
+    "bg-v8-save-slot1": "evidence/background-runtime/bg-v8-save-slot1.json",
+    "bg-v8-save": "evidence/background-runtime/bg-v8-save.json",
+    "bg-v8-sound-mute": "evidence/background-runtime/bg-v8-sound-mute.json",
+    "bg-v8-start": "evidence/background-runtime/bg-v8-start.json",
+    "bg-v8-voice-mute": "evidence/background-runtime/bg-v8-voice-mute.json"
+  },
+  "focus_sampling": {
+    "interval_ms": 50,
+    "samples": 761,
+    "errors": [],
+    "game_became_foreground": false,
+    "private_desktop_became_input": false,
+    "pre_post_input_desktop_changes": 0,
+    "pre_post_foreground_changes": 0,
+    "limits": "50ms samples during commands only; gaps between commands not continuously monitored"
+  },
+  "verified": [
+    {
+      "id": "UI-CONFIG::header-normal",
+      "proof": "bg-v8-config",
+      "result": "게임 환경을 설정합니다."
+    },
+    {
+      "id": "UI-SAVELOAD::load-nine-empty-slots",
+      "proof": "bg-v8-load",
+      "result": "Nine normal slots and Korean load header"
+    },
+    {
+      "id": "UI-SAVELOAD::save-nine-empty-slots",
+      "proof": "bg-v8-save-ingame",
+      "result": "Nine normal slots, save header, and focused slot 6"
+    },
+    {
+      "id": "UI-SAVELOAD::save-success",
+      "proof": "bg-v8-save-slot1",
+      "result": "Own empty slot 1 saved; thumbnail and 저장했습니다"
+    },
+    {
+      "id": "UI-SAVELOAD::load-populated-slot",
+      "proof": "bg-v8-load-populated",
+      "result": "Created thumbnail, timestamp and 처음 시작 label"
+    },
+    {
+      "id": "UI-SAVELOAD::load-confirmation",
+      "proof": "bg-v8-load-slot1",
+      "result": "데이터를 불러올까요? and focused occupied slot"
+    },
+    {
+      "id": "UI-SAVELOAD::load-restored",
+      "proof": "bg-v8-load-restored",
+      "result": "Load returned to the saved chapter-selection scene"
+    },
+    {
+      "id": "UI-SAVELOAD::disabled-at-title",
+      "proof": "bg-v8-save",
+      "result": "저장할 수 없습니다"
+    }
+  ],
+  "known_issues": [
+    {
+      "id": "chapter-caption-descender",
+      "detected_by": "bg-v8-load-restored",
+      "correction_candidate": "candidates/chapter-caption-repair-v1",
+      "correction_runtime_status": "passed",
+      "correction_evidence": "reports/background-runtime-v9-validation.json"
+    }
+  ],
+  "audio": {
+    "finding": "Saved test settings override the initial env volume values; env zero alone was not a mute guarantee.",
+    "UI_off_confirmed": "bg-v8-sound-mute",
+    "process_session_mute": "reports/background-runtime-v8-audio.json",
+    "claim_scope": "Mute confirmed after the recorded actions, not from launch; newly separate sessions need another check."
+  },
+  "not_established": [
+    "Complete raster UI translation",
+    "Full hover/pressed coverage; first empty-slot hover probes did not establish highlighting",
+    "Extra menus and tooltip atlas",
+    "Fullscreen, physical input timing, audio correctness and OP/ED synchronization"
+  ],
+  "termination": {
+    "pid": 27268,
+    "process_absent_afterwards": true,
+    "normal_exit_proof": "bg-v8-exit"
+  },
+  "reused_evidence": [
+    "Native-v5 unchanged EXE hash and Defender scan",
+    "773-glyph GDI font proof",
+    "v5 modal artwork/behavior proof",
+    "Unchanged archive inputs and scenario v4"
+  ]
+}

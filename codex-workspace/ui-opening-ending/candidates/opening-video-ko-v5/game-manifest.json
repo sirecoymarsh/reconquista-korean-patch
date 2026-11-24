@@ -1,0 +1,59 @@
+{
+  "candidate": "opening-video-ko-v5-game",
+  "frozen": true,
+  "ready_for_integration": true,
+  "created_at_utc": "2026-10-23T13:19:43.334605+00:00",
+  "translator_model": "Codex internal",
+  "provenance": {
+    "task": "01a162df-720c-77d2-96ed-6429e90b3333",
+    "author": "Codex internal primary"
+  },
+  "payload": {
+    "path": "payloads/movie/Recon_OP800_H.mpg",
+    "install_path": "movie/Recon_OP800_H.mpg",
+    "sha256": "c8a8fa38cb35517285fc1fad7d1c09990f57199dae7b1f7915bcfd3e576cc719",
+    "bytes": 75319680,
+    "frames": 3037,
+    "fps": 30,
+    "codec": "mpeg1video",
+    "size": [
+      800,
+      600
+    ]
+  },
+  "source_sha256": "6da04d09fd954c67b004b6cecfe22fd89da473cbf60fd74856d2170a1972995a",
+  "audio": {
+    "compressed_packets_copied_unchanged": true,
+    "codec": "mp2",
+    "packets": 3876,
+    "sha256": "8e0702cb615b9322e54e2636590afc1db1186fc24860bac3ad209cfbc0e0f4ad"
+  },
+  "evidence": [
+    "evidence/technical-validation.json",
+    "evidence/native-final-timestamp-remux.json",
+    "evidence/native-visual-review.json",
+    "evidence/semantic-gate.json",
+    "evidence/quote-restoration.json"
+  ],
+  "changes": [
+    "Four upper logo quote captions removed",
+    "Small source English paragraph replaced in place with four sharp Korean lines in both logo scenes",
+    "Japanese/Korean lyric pairs retained; source spelling in darkness retained in both lines"
+  ],
+  "inherited": [
+    "v4 phonetic names and in-picture Korean staff/cast credits",
+    "Approved Korean logo v3",
+    "Prior unchanged-scene validation reused"
+  ],
+  "limitations": [
+    "op-lyrics::007 source hearing remains provisional",
+    "Actual game playback/listening remains user-owned",
+    "No installation or game launch performed"
+  ],
+  "four_k": {
+    "state": "in_progress_memory_bounded_renderer",
+    "separate_viewing_output": true,
+    "required_for_native_integration": false
+  },
+  "immutable_native": true
+}

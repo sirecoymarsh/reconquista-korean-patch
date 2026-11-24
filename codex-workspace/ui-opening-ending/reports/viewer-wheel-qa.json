@@ -1,0 +1,34 @@
+{
+  "url": "http://127.0.0.1:8769/review/viewer.html",
+  "time": "2026-10-22T19:16:32.084980",
+  "tool": "cua IAB scroll, no modifier key",
+  "source_asset": "title1_off.rct",
+  "before": {
+    "zoom_percent": 100,
+    "center_percent": [
+      50,
+      50
+    ]
+  },
+  "wheel_up": {
+    "pointer": [
+      1110,
+      470
+    ],
+    "zoom_percent": 172,
+    "center_percent": [
+      61.7,
+      53.0
+    ],
+    "panes_visually_synchronized": true
+  },
+  "wheel_down": {
+    "zoom_percent": 100,
+    "center_percent": [
+      50,
+      50
+    ]
+  },
+  "fit_reset_pending": true,
+  "ctrl_wheel_preserved_in_code_not_manually_tested": true
+}

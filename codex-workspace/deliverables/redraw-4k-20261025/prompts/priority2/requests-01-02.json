@@ -1,0 +1,20 @@
+[
+  {
+    "group": 1,
+    "key": "1d997c8c",
+    "blur": "구조물은 정지해 있다. 구름·창 반사·그늘의 부드러움은 의도된 표현이며, 작은 창틀·벽 타일·난간의 세부만 해상도 한계다.",
+    "prompt": "Use case: precise-object-edit. Make a faithful higher-resolution redraw of the supplied original Japanese visual-novel background. Output a single full-frame 4:3 raster image, at the maximum native resolution available. This is an asset replacement, so preserve the EXACT camera, crop, perspective, silhouette, vanishing points and normalized position of every building, opening, railing, road edge, tree and fixture. Preserve the source's anime background-painting style. Add fine craftsmanship only where the 800x600 sampling hid small architectural detail. Match the original broad color, luminance and lighting from the outset; do not increase saturation or contrast or tint gray areas blue. Retain smooth painted surfaces. Preserve intentional blur from depth, atmosphere, reflections and bloom at the same apparent strength. Keep cloud edges airy and free of dark outlines. No redesign, new objects, people, cars, extra vegetation, outlines, cinematic grading, new signs, labels, border or watermark. Do not translate by yourself: use only exact Korean text supplied below; preserve English and numbers.\nReference role: the only image is the edit target and geometric/color authority. Precisely redraw the same daylight entrance facade, masonry gate pillars, small metal gate, paved forecourt and street. Keep every window division, the narrow planter rim, the curb and the pale road marking in exactly their source positions. Clear but delicate masonry and metal detail. The narrow gate notice is too small to resolve confidently: keep it visually unobtrusive and do not invent legible words. Preserve the cursive Latin plaque as present in the reference without inventing a school name.",
+    "source": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\priority2\\source\\1d997c8c.png",
+    "status": "requested",
+    "tool": "built-in image_gen"
+  },
+  {
+    "group": 2,
+    "key": "4da607d1",
+    "blur": "창의 반사와 먼 수목·구름은 회화적·거리감 흐림이다. 벽면은 매끈한 채로 두고 건축 이음새·창살·작은 장식만 정돈한다.",
+    "prompt": "Use case: precise-object-edit. Make a faithful higher-resolution redraw of the supplied original Japanese visual-novel background. Output a single full-frame 4:3 raster image, at the maximum native resolution available. This is an asset replacement, so preserve the EXACT camera, crop, perspective, silhouette, vanishing points and normalized position of every building, opening, railing, road edge, tree and fixture. Preserve the source's anime background-painting style. Add fine craftsmanship only where the 800x600 sampling hid small architectural detail. Match the original broad color, luminance and lighting from the outset; do not increase saturation or contrast or tint gray areas blue. Retain smooth painted surfaces. Preserve intentional blur from depth, atmosphere, reflections and bloom at the same apparent strength. Keep cloud edges airy and free of dark outlines. No redesign, new objects, people, cars, extra vegetation, outlines, cinematic grading, new signs, labels, border or watermark. Do not translate by yourself: use only exact Korean text supplied below; preserve English and numbers.\nReference role: the only image is the edit target and geometric/color authority. Keep the same pale facade, tall narrow windows, roof shapes, small spires, crosses, shrubs and curved garden path in the exact original layout. Delicate clean stone joints and window tracery, without adding new ornaments. Keep the softly blended foliage and cloud shading. No new lettering; retain the indistinct small notice as indistinct.",
+    "source": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\priority2\\source\\4da607d1.png",
+    "status": "requested",
+    "tool": "built-in image_gen"
+  }
+]

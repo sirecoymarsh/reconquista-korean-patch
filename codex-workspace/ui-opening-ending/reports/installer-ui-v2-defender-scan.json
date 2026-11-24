@@ -1,0 +1,13 @@
+{
+  "candidate": "installer-ui-v2",
+  "file": "setup.exe",
+  "sha256": "34CBE6CC3087F38192A1306E32F1B7856A90DE39BE6C6AA5DAE8410CE727F5CB",
+  "after_sha256": "34CBE6CC3087F38192A1306E32F1B7856A90DE39BE6C6AA5DAE8410CE727F5CB",
+  "started": "2026-10-23T06:19:11.4024447+09:00",
+  "ended": "2026-10-23T06:19:11.5206676+09:00",
+  "exit_code": 0,
+  "output": "Scan starting...\r\nScan finished.\r\nScanning P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\scan\\installer-ui-v2\\setup.exe found no threats.\r\n",
+  "pass": true,
+  "reused_unchanged_install_exe": "reports/installer-ui-v1-defender-scan.json",
+  "command": "MpCmdRun -Scan -ScanType 3 -File <exact candidate copy> -DisableRemediation"
+}

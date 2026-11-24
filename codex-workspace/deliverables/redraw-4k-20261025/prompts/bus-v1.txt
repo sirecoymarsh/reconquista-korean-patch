@@ -1,0 +1,16 @@
+Use case: precise-object-edit.
+Asset type: replacement background illustration for a Japanese visual novel, exact 4:3 canvas, 3200 x 2400 pixels.
+
+Input image 1 is the sole source-of-truth reference and edit target (original 800 x 600).
+Faithfully redraw this SAME image at four times its size with clean, intentional, high-resolution hand-painted anime-background detail. This is conservation of an existing shot. At 800 x 600 the result should register almost exactly with the reference. Do not redesign or recompose.
+
+Lock the camera, perspective, horizon, crop, positions, proportions, silhouette, and all large color blocks. Preserve the red and white highway coach driving on the coastal road, the front occupying the left-middle and its long right side continuing out of the right frame. Preserve the precise front body shape, red mirror assemblies, white roof, dark reflective windscreen, two angled black wipers, dark passenger door and window divisions, silver/white lower bumper, rectangular headlights and circular fog lamps, the white sweeping V mark on the front and white curving side stripes. Preserve the visible wheel center and its size; preserve the dark underbody and road shadow. Keep the blue sky, wispy clouds, ocean horizon, low green-grey sea barrier, diagonal white lane lines, and road blur in their original positions. Keep the existing directional motion softness in the road and wheel; make the bus construction coherent without making everything equally sharp.
+
+Render accurate straight panel seams, coherent window frames, clean lights, glass reflections, red lacquer highlights, tire/hub details, and the same soft painted light. No invented texture, crosshatching, cracked outlines, dirt, canvas grain, over-sharpening, new objects, people, extra wheels, extra mirrors, logos or decorations.
+
+Text must preserve the source:
+The front white destination board reads exactly 「臨海ニュータウン」 in green; the small black boxed vertical text at its right reads 「高速」 (高 above 速).
+The dim destination display behind the top of the windscreen repeats 「臨海ニュータウン」 in pale green, with the reference's reflections and low contrast.
+The green license plate retains the visible white small 「200」 and large 「・168」, same layout and relative scale; retain any other tiny source mark as drawn, do not invent a place name.
+Keep the pale side lettering at the far right matching the visible clipped source, beginning 「HIGHWAY CRUIS」, and let it continue out of frame exactly as in the reference.
+No subtitles, no labels, no watermark. Full bleed landscape 4:3, no margins.

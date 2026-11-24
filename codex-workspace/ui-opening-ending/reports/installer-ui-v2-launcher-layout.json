@@ -1,0 +1,219 @@
+{
+  "created_utc": "2026-10-22T21:19:11.298749+00:00",
+  "candidate": "installer-ui-v2",
+  "setup_sha256": "34cbe6cc3087f38192a1306e32f1b7856a90de39be6c6aa5dae8410ce727f5cb",
+  "host_pid": 32060,
+  "installer_executed": false,
+  "system_acp": 949,
+  "display_path": "Patched CP949 bytes read from candidate and SetDlgItemTextA into Unicode native dialog; GetWindowTextW and DrawTextW checked.",
+  "host_behavior": "Inert Python dialog host on private desktop; no installer initializer, install/uninstall operation, global input or desktop switching invoked. All host windows destroyed.",
+  "scenarios": [
+    {
+      "scenario": "before-install",
+      "caption": "ＭＡＪＩＲＯ アプリケーション スタートアップ",
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-dialogs\\installer-v2-launcher-before-install-334904.png",
+        "sha256": "0c7a2099aa87f2a17a7d73dca80cd7aeaf3a18158453fe78f3124b1b7a95d47c",
+        "print_window_return": true,
+        "size": [
+          426,
+          375
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      },
+      "layout": [
+        {
+          "id": "setup.exe::0x414548",
+          "control_id": 1000,
+          "window_text_matches": true,
+          "control_pixels": [
+            131,
+            26
+          ],
+          "required_text_pixels": [
+            24,
+            15
+          ],
+          "fits": true
+        },
+        {
+          "id": "setup.exe::0x41452c",
+          "control_id": 1001,
+          "window_text_matches": true,
+          "control_pixels": [
+            131,
+            26
+          ],
+          "required_text_pixels": [
+            67,
+            15
+          ],
+          "fits": true
+        },
+        {
+          "id": "setup.exe::0x41450c",
+          "control_id": 1002,
+          "window_text_matches": true,
+          "control_pixels": [
+            131,
+            26
+          ],
+          "required_text_pixels": [
+            32,
+            15
+          ],
+          "fits": true
+        }
+      ]
+    },
+    {
+      "scenario": "installed",
+      "caption": "ＭＡＪＩＲＯ アプリケーション スタートアップ",
+      "capture": {
+        "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\evidence\\installer-dialogs\\installer-v2-launcher-installed-400440.png",
+        "sha256": "c9c60b24b4c59d112b1970007bb5d1ea82c2b6bc62d84d6f349062022e90abd5",
+        "print_window_return": true,
+        "size": [
+          426,
+          375
+        ],
+        "extrema": [
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ],
+          [
+            0,
+            253
+          ]
+        ]
+      },
+      "layout": [
+        {
+          "id": "setup.exe::0x414548",
+          "control_id": 1000,
+          "window_text_matches": true,
+          "control_pixels": [
+            131,
+            26
+          ],
+          "required_text_pixels": [
+            24,
+            15
+          ],
+          "fits": true
+        },
+        {
+          "id": "setup.exe::0x41452c",
+          "control_id": 1001,
+          "window_text_matches": true,
+          "control_pixels": [
+            131,
+            26
+          ],
+          "required_text_pixels": [
+            67,
+            15
+          ],
+          "fits": true
+        },
+        {
+          "id": "setup.exe::0x4144f8",
+          "control_id": 1002,
+          "window_text_matches": true,
+          "control_pixels": [
+            131,
+            26
+          ],
+          "required_text_pixels": [
+            52,
+            15
+          ],
+          "fits": true
+        },
+        {
+          "id": "setup.exe::0x4144e4",
+          "control_id": 1003,
+          "window_text_matches": true,
+          "control_pixels": [
+            131,
+            26
+          ],
+          "required_text_pixels": [
+            44,
+            15
+          ],
+          "fits": true
+        },
+        {
+          "id": "setup.exe::0x4144d8",
+          "control_id": 1004,
+          "window_text_matches": true,
+          "control_pixels": [
+            131,
+            26
+          ],
+          "required_text_pixels": [
+            52,
+            15
+          ],
+          "fits": true
+        }
+      ]
+    }
+  ],
+  "assumptions": [
+    "DirectX optional button included; optional configuration-defined README button excluded. Background/branding initialization is not simulated.",
+    "Actual installer execution and all dynamic text not covered."
+  ],
+  "input_before": {
+    "hwnd": 2557746,
+    "pid": 6480,
+    "input_desktop": "Default"
+  },
+  "input_after": {
+    "hwnd": 2557746,
+    "pid": 6480,
+    "input_desktop": "Default"
+  },
+  "focus_sampler": {
+    "sample_interval_ms": 50,
+    "samples": 12,
+    "events": [
+      {
+        "monotonic": 232791.484,
+        "hwnd": 2557746,
+        "pid": 6480,
+        "input_desktop": "Default"
+      }
+    ],
+    "errors": [],
+    "game_became_foreground": false,
+    "private_desktop_became_input": false,
+    "continuous_monitor": false,
+    "scope": "50 ms samples during this command; gaps between commands not monitored"
+  },
+  "all_measured_text_fits": true,
+  "unique_labels_checked": 6,
+  "runtime_pass": false,
+  "layout_visual_pass": true,
+  "visual_review": "Both native PrintWindow captures reviewed: six Korean labels fully readable, no button clipping. Blank branding area is an inert-host limitation, not real installer startup evidence.",
+  "harness_repair": "Initial preview completed window cleanup but report failed because scenario variable shadowed private-desktop name helper. Variable renamed and this affected preview repeated; no original installer was run."
+}

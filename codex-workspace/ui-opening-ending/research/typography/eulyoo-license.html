@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>을유문화사</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+<meta name="title" content="을유문화사">
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+<meta property="og:title" content="을유문화사"/>
+<meta property="og:type" content=""/>
+<meta property="og:url" content=""/>
+<meta property="og:description" content=""/>
+<meta property="og:image" content="/images/index.jpg"/>
+
+<!-- link -->
+<link rel="shortcut icon" href="/images/favicon.ico">
+
+<link href="/css/jquery_ui.css" rel="stylesheet">
+<link href="/css/common.css?v=1.0" rel="stylesheet">
+<link href="/css/mobile.css?v=1.0" rel="stylesheet">
+<link href="/css/popup.css" rel="stylesheet">
+
+<!-- script -->
+<script src="/js/jquery-1.12.4.min.js"></script>
+<script src="/js/jquery-ui.min.js"></script>
+<script src="/js/common.js"></script>
+
+
+</head>
+<body>
+
+<div id="skipNaviWrap">
+	<p class="hidden">바로가기 메뉴</p>
+	<a href="#gnb">주메뉴바로가기</a>
+	<a href="#container">컨텐츠바로가기</a>
+	<a href="#footer">하단메뉴바로가기</a>
+</div>
+
+
+<div id="wrap"><header id="header" class="header">
+	<div class="inr-c">
+		<div class="top">
+			<div class="left hide-m">
+				<a href="https://www.instagram.com/eulyoo/" target="_blank"><img src="/images/common/ico_instar.png" alt="인스타"></a>
+				<a href="https://www.facebook.com/eulyoo/" target="_blank"><img src="/images/common/ico_facebook.png" alt="페이스북"></a>
+				<a href="https://m.post.naver.com/my.nhn?memberNo=20168227" target="_blank"><img src="/images/common/ico_twitter.png" alt="트위터"></a>
+			</div>
+			<h1 class="logo"><a href="/"><img src="/images/common/logo.png" alt="을유문화사"></a></h1>
+			<div class="right">
+				<button type="button" class="btn_hd" onclick="$(this).next('div').slideToggle(100);"><span><img src="/images/common/ico_mem.png" alt="정보수정"></span></button>
+				<div>
+									<a href="javascript:;" onclick="layerPopup.open('popLogin');"><span>로그인</span></a>
+					<a href="javascript:;" onclick="layerPopup.open('popJoin');"><span>회원가입</span></a>
+								</div>
+			</div>
+		</div>
+
+		<button type="button" class="btn_gnb" title="메뉴"><span></span></button>
+		<div class="gnbbox">
+			<div class="head_sch">
+				<form method="get" action="/books/book_s_result.php" name="sfrm">
+					<input type="text" class="inp_txt w100p" placeholder="검색어 입력" name="sch_txt">
+					<div class="btn_sch hide-m" onclick="ViewSch()">검색</div>
+					<button type="button" class="sch_btn hide-m" onclick="GoSch()"><span><img src="/images/common/ico_sch.png" alt="검색"></span></button>
+					<div class="btn_sch view-m" onclick="GoSch()">검색</div>
+				</form><!-- onclick="$('.head_sch .inp_txt').show();" -->
+				<script type="text/javascript">
+				<!--
+					function ViewSch(){
+						$('.head_sch .inp_txt').show();
+						$('.head_sch .sch_btn').show();
+						$('.btn_sch').hide();
+					}
+					function GoSch(){
+						var f=document.sfrm;
+						if(f.sch_txt.value){
+							if(f.sch_txt.value.length < 2) {
+								alert("한글 2자 이상, 숫자/영문 3자이상 필수 입력입니다.");
+								return false;
+							}
+							f.submit();
+						}else{
+							alert('검색어를 입력해주세요.');
+						}
+					}
+				//-->
+				</script>
+			</div>
+			<nav id="gnb" class="gnb">
+				<ul>
+					<li class="g1 on">
+						<a href="/member/introduce.html"><span>을유문화사</span></a>
+						<div class="depth2">
+							<ul>
+								<li class="on"><a href="/member/font.html"><span>을유1945</span></a></li>
+								<li ><a href="/member/history.html"><span>출판사 소개</span></a></li>
+								<li ><a href="/member/introduce.html"><span>인사말</span></a></li>
+								<li ><a href="/member/archive.php"><span>아카이브</span></a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="g2 ">
+						<a href="/books/book.php"><span>책</span></a>
+						<div class="depth2">
+							<ul>
+								<li ><a href="/books/book.php"><span>전체 도서</span></a></li>
+								<li ><a href="/books/wlist.php"><span>작가 소개</span></a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="g3 ">
+						<a href="/board/notice_list.php"><span>커뮤니티</span></a>
+						<div class="depth2">
+							<ul>
+								<li ><a href="/shop/shop_list.php"><span>을유 스토어</span></a></li>
+								<!--<li ><a href="/bookclub/bookclub_board_list.php"><span>을유 북클럽</span></a></li>-->
+								<li ><a href="/board/notice_list.php"><span>새소식</span></a></li>
+								<li ><a href="/board/qna_write.php"><span>원고 투고</span></a></li>
+								<li ><a href="/board/qna.php"><span>1:1문의</span></a></li>
+								<!--<li ><a href="/board/movie.php"><span>동영상</span></a></li>-->
+								<li ><a href="/board/webhard.php"><span>자료실</span></a></li>
+								<!--<li ><a href="/board/event.php"><span>이벤트</span></a></li>-->
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</nav>
+			<div class="view-m links">
+							<a href="javascript:;" onclick="layerPopup.open('popLogin');"><span>로그인</span></a>
+				<a href="javascript:;" onclick="layerPopup.open('popJoin');"><span>회원가입</span></a>
+						</div>
+			<div class="view-m sns" style="display:none;">
+				<a href="#"><span><img src="/images/common/ico_letter.png" alt="이메일"></span></a>
+				<a href="#"><span><img src="/images/common/ico_instar.png" alt="인스타"></span></a>
+				<a href="#"><span><img src="/images/common/ico_kakao.png" alt="카카오"></span></a>
+				<a href="#"><span><img src="/images/common/ico_naver.png" alt="네이버"></span></a>
+			</div>
+		</div>
+	</div>
+</header><!-- //header -->
+
+
+<div id="container" class="container sub">
+	<div class="inr-c">
+		<div class="tabs ty1 n3">
+			<ul>
+				<li class="on"><a href="#tabcont1">소개</a></li>
+				<li><a href="#tabcont2">디자이너</a></li>
+				<li><a href="#tabcont3">다운로드</a></li>
+			</ul>
+		</div>
+
+		<div id="tabcont1">
+			<div class="area_fonts">
+				<p class="t1">을유1945는 1945년(을유년) 광복을 맞이하여 창립한 을유문화사의 역사를 기념하기 위해 만들어진 본문용 글꼴입니다. 한글 2750자를 비롯해 책에서 자주 사용되는 로마자와 문장 부호, 기호, 숫자를 제공합니다. </p>
+			</div>
+		</div>
+
+		<div id="tabcont2">
+			<div class="area_fonts">
+				<p class="t2">
+					디자이너. 윤민구
+					<br>스위스 로잔 예술대학교(ECAL)에서 한글과 라틴 알파벳을 함께 디자인하는<br class="hide-m">
+바이 스크립트 타입 디자인에 관한 연구로 석사 학위를 받았다.<br class="hide-m">
+윤슬체, 윤슬바탕체, 블랑, 파보리트 한글 등 다양한 서체를 디자인했다.​
+					<br>yoonmingoo.net
+				</p>
+				<p class="t2">
+					감수. 류양희
+					<br>홍익대학교 시각디자인과를 졸업하고 영국 레딩대학교에서 타입디자인 MA과정을 마쳤다. 고운한글 시리즈와 동글한글 시리즈를 발표했고, 아리따부리 개발 프로젝트에 디자이너로 참여했다.
+					<br>ryufont.com
+				</p>
+			</div>
+		</div>
+
+		<div id="tabcont3">
+			<div class="lst_blink">
+				<ul>
+					<li><a href="/board/down.php?file_name=eulyoo1945font.zip&file_save_name=eulyoo1945font.zip"><span>을유1945.otf</span><i><img src="../images/common/ico_download.png" alt="다운로드"></i></a></li>
+					<li><a href="/board/down.php?file_name=eulyoo1945+font+guide.pdf&file_save_name=1614671707613.pdf"><span>을유1945 서체 가이드</span><i><img src="../images/common/ico_download.png" alt="다운로드"></i></a></li>
+				</ul>
+			</div>
+			<div style="padding-top:15px;text-align:left;">
+			을유1945는 서체 사용자의 섞어 짜기 편의를 위해 구글과 어도비가 제작하고 배포하는<br class="hide-m">
+			오픈 라이선스(SIL OFL v.1.1) 서체 '본명조(Source Han Serif)'의 기본 한자 4,620자 및 가나 170자를 포함하고 있습니다.<br><br>
+
+			본 서체는 인쇄물 제작, 웹페이지, 영상물, CI/BI, 이북/이러닝, UI 디자인 등에 무료 사용이 가능합니다.<br class="hide-m">
+			단 임베이딩, 서버 및 디바이스 등을 이용한 수정, 변형, 복사, 대여, 임대, 재판매, 배포는 불가합니다.<br><br>
+
+			책의 본문에 사용할 경우 표기 가능한 곳에<br class="hide-m">
+			"이 책의 본문은 '을유1945' 서체를 사용했습니다."라는 문구를 넣어 주시기 바랍니다.</div>
+		</div>
+	</div>
+</div><!-- //container -->
+
+
+<script>
+tab('.tabs.ty1',1); //탭
+</script>
+
+
+
+<footer id="footer" class="footer">
+	<div class="inr-c">
+		<div class="foo_cont">
+			<div>
+				<p class="h">을유문화사</p>
+			</div>
+			<div class="et">
+				<p><a href="/member/provision.html">서비스 이용약관</a></p>
+				<p><a href="/member/policy.html">개인 정보 취급 방침</a></p>
+				<p><a href="/member/notifi.html">책임 한계 및 법적 고지</a></p>
+			</div>
+			<div>
+				<p>COPYRIGHT &copy; 2020 EULYOO PUBLISHING CO., LTD. </p>
+				<p>ALL RIGHTS RESERVED. SINCE 1945.</p>
+				<p>DESIGNED BY WORKROOM.</p>
+			</div>
+			<div class="sns">
+				<a href="https://www.instagram.com/eulyoo/" target="_blank"><img src="/images/common/ico_instar.png" alt="인스타"></a>
+				<a href="https://www.facebook.com/eulyoo/" target="_blank"><img src="/images/common/ico_facebook.png" alt="페이스북"></a>
+				<a href="https://m.post.naver.com/my.nhn?memberNo=20168227" target="_blank"><img src="/images/common/ico_twitter.png" alt="트위터"></a>
+			</div>
+		</div>
+	</div>
+</footer><!-- //footer -->
+
+
+</div><!-- //wrap -->
+
+
+<!-- 팝업 : 로그인 -->
+<div id="popLogin" class="layerPopup pop_login">
+	<section class="popup">
+		<div class="pop_head">
+			<h2 class="title">로그인</h2>
+			<button type="button" class="b-close p_close"><span>닫기</span></button>
+		</div>
+		<div class="pop_cont">
+			<form method="post" action="/login_check.php" name="frm_login">
+			<div class="area_member">
+				<div class="col ml">
+					<span>이메일</span>
+					<input type="text" class="inp_txt2" name="UEmail">
+				</div>
+				<div class="col ml">
+					<span>패스워드</span>
+					<input type="password" class="inp_txt2" name="UPass" onkeydown="javascript:if(event.keyCode == 13){form_chk();}">
+				</div>
+				<div class="col">
+					<a href="#" onclick="openInstagramLogin();"><span><img src="/images/common/ico_instar.png" alt="인스타"></span></a>
+					<a href="#" onclick="kakao('1')"><span><img src="/images/common/ico_kakao.png" alt="카카오"></span></a>
+					<a href="#" id="naverIdLogin" class="naverIdLogin"><span><img src="/images/common/ico_naver.png" alt="네이버"></span></a>
+				</div>
+				<div class="col">
+					<a href="#" onclick="form_chk()">로그인</a>
+				</div>
+				<div class="col2">
+					<label class="inp_checkbox"><input type="checkbox" name="login_rem" id="login_rem" value="Y" ><span>로그인 유지</span></label>
+				</div>
+				<div class="col">
+					<a href="javascript:;" onclick="layerPopup.open('popFindpw');">비밀번호 찾기</a>
+					<a href="javascript:;" onclick="layerPopup.open('popJoin');">회원가입</a>
+				</div>
+			</div>
+			</form>
+		</div>
+	</section>
+</div>
+<!--// 팝업 : 로그인 -->
+
+<!-- 팝업 : 회원가입1 -->
+<div id="popJoin" class="layerPopup pop_join">
+	<section class="popup">
+		<div class="pop_head">
+			<h2 class="title">회원가입</h2>
+			<button type="button" class="b-close p_close"><span>닫기</span></button>
+		</div>
+		<div class="pop_cont">
+			<form action="">
+			<div class="area_member">
+				<div class="col">
+					<a href="javascript:;" onclick="join_ok('')" class="link1"><i><img src="/images/common/ico_letter.png" alt="이메일"></i><span>이메일로 가입</span></a><!-- onclick="layerPopup.open('popJoin2');" -->
+				</div>
+				<div class="col">
+					<a href="javascript:;" onclick="join_ok('naver')" class="link1"><i><img src="/images/common/ico_naver.png" alt="네이버"></i><span>네이버로 가입</span></a>
+				</div>
+				<div class="col">
+					<a href="javascript:;" onclick="join_ok('kakao')" class="link1"><i><img src="/images/common/ico_kakao.png" alt="카카오"></i><span>카카오로 가입</span></a>
+				</div>
+				<div class="col">
+					<a href="javascript:;" onclick="layerPopup.open('popJoin2');"  class="link1"><i><img src="/images/common/ico_instar.png" alt="인스타"></i><span>인스타그램으로 가입</span></a>
+				</div>
+				<div class="col2">
+					<label class="inp_checkbox"><input type="checkbox" id="id_age_ck" name="age_ck" value="1"><span><a href="/member/provision.html">서비스약관</a> 및 <a href="/member/policy.html">개인정보 취급방침</a>에 동의</span></label>
+				</div>
+				<!--<div class="col3">
+					<p>기존 고객의 경우 <a href="#" class="c-red"><strong>여기</strong></a>를 통해 인증절차 후 사용 가능합니다.</p>
+				</div>-->
+			</div>
+			</form>
+		</div>
+	</section>
+</div>
+<!--// 팝업 : 회원가입1 -->
+
+<!-- 팝업 : 회원가입2 -->
+<div id="popJoin2" class="layerPopup pop_join2">
+	<section class="popup">
+		<div class="pop_head">
+			<h2 class="title">회원가입</h2>
+			<button type="button" class="b-close p_close" onclick="$('.sns_hid').show();"><span>닫기</span></button>
+		</div>
+		<div class="pop_cont">
+			<form method="post" action="/member/join02_proc.php" name="frm">
+			<input type="text" name="idchk" value="" style="display: none;">
+			<input type="hidden" name="UserType" id="UserType" value="">
+			<input type="hidden" name="sns_id" id="sns_id" value="">
+			<h3 class="title2">기본정보</h3>
+			<div class="area_member pr-mb1">
+				<table>
+					<colgroup>
+						<col class="wid1">
+						<col>
+					</colgroup>
+					<tbody>
+						<tr>
+							<th>이메일</th>
+							<td>
+								<div class="lst_email">
+									<input type="text" class="inp_txt" name="u_email1">
+									<input type="text" class="inp_a" value="@">
+									<select class="select1" onchange="document.frm.u_email2.value=this.value;">
+										<option value="">직접입력</option>
+										<option value="gmail.com">G메일</option>
+										<option value="naver.com">네이버메일</option>
+										<option value="hanmail.net">한메일</option>
+									</select>
+									<input type="text" class="inp_txt" name="u_email2">
+								</div>
+							</td>
+						</tr>
+						<tr class="sns_hid">
+							<td colspan="2" class="bd"></td>
+						</tr>
+						<tr class="sns_hid">
+							<th>비밀번호</th>
+							<td><input type="password" class="inp_txt" name="u_pass"></td>
+						</tr>
+						<tr class="sns_hid">
+							<td colspan="2" class="bd"><p>영문/숫자 조합으로 6~16자리로 입력하세요</p></td>
+						</tr>
+						<tr class="sns_hid">
+							<th>비밀번호 확인</th>
+							<td><input type="password" class="inp_txt" name="u_pass2"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<h3 class="title2">추가정보</h3>
+			<div class="area_member">
+				<table>
+					<colgroup>
+						<col class="wid1">
+						<col>
+						<col class="wid1">
+						<col>
+					</colgroup>
+					<tbody>
+						<tr>
+							<th>이름</th>
+							<td colspan="3"><input type="text" class="inp_txt" name="u_name"></td>
+						</tr>
+						<tr>
+							<td colspan="4" class="bd"></td>
+						</tr>
+						<tr>
+							<th>필명</th>
+							<td colspan="3"><input type="text" class="inp_txt" name="u_nickname"></td>
+						</tr>
+						<tr>
+							<td colspan="4" class="bd"></td>
+						</tr>
+						<tr>
+							<th>연락처</th>
+							<td colspan="3">
+								<div class="lst_tel">
+									<select class="select1" name="u_tel1">
+										<option value="010">010</option>
+										<option value="011">011</option>
+										<option value="016">016</option>
+										<option value="017">017</option>
+										<option value="018">018</option>
+										<option value="019">019</option>
+										<option value="070">070</option>
+									</select>
+									<input type="text" class="inp_txt"  name="u_tel2" maxlength="4">
+									<input type="text" class="inp_txt"  name="u_tel3" maxlength="4">
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="4" class="bd"></td>
+						</tr>
+						<tr>
+							<th>우편번호</th>
+							<td><input type="text" class="inp_txt" name="u_post" id="u_post"  onclick="execDaumPostcode('join')" readonly></td>
+							<th>주소</th>
+							<td><input type="text" class="inp_txt" name="u_addr" id="u_addr" onclick="execDaumPostcode('join')" readonly></td>
+						</tr>
+						<tr>
+							<th>상세주소</th>
+							<td colspan="3"><input type="text" class="inp_txt" name="u_addr2" id="u_addr2"></td>
+						</tr>
+						<tr>
+							<td colspan="4" class="bd"></td>
+						</tr>
+						<tr>
+							<th>관심분야</th>
+							<td colspan="3">
+								<div class="lst_checkbox2">
+									<label class="inp_checkbox2 check_bt"><input type="checkbox" name="u_interest[]" value="자기계발" ><span>자기계발</span></label>
+									<label class="inp_checkbox2 check_bt"><input type="checkbox" name="u_interest[]" value="역사" ><span>역사</span></label>
+									<!--<label class="inp_checkbox2 check_bt"><input type="checkbox" checked name="u_interest[]" value="가정과생활" ><span>가정과생활</span></label>
+									<label class="inp_checkbox2 check_bt"><input type="checkbox" checked name="u_interest[]" value="외국어" ><span>외국어</span></label>-->
+									<label class="inp_checkbox2 check_bt"><input type="checkbox" name="u_interest[]" value="사회과학" ><span>사회과학</span></label>
+									<!--<label class="inp_checkbox2 check_bt"><input type="checkbox" checked name="u_interest[]" value="아동" ><span>아동</span></label>-->
+									<label class="inp_checkbox2 check_bt"><input type="checkbox" name="u_interest[]" value="경제경영" ><span>경제경영</span></label>
+									<label class="inp_checkbox2"><input type="checkbox" name="u_interest[]" value="예술" ><span>예술</span></label>
+									<label class="inp_checkbox2"><input type="checkbox" name="u_interest[]" value="인문" ><span>인문</span></label>
+									<label class="inp_checkbox2"><input type="checkbox" name="u_interest[]" value="문학" ><span>문학</span></label>
+									<label class="inp_checkbox2"><input type="checkbox" name="u_interest[]" value="과학" ><span>과학</span></label>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="area_member">
+				<div class="col2">
+					<label class="inp_checkbox"><input type="checkbox" name="u_emailYN" value="Y" checked><span>을유문화사에서 최신 도서 소식 및 기타 정보 메일을 받아보겠습니다.</span></label>
+				</div>
+
+				<div class="col">
+					<a href="#" onclick="join_submit()">회원가입</a>
+					<a href="#" onclick="document.frm.reset()">다시 작성</a>
+				</div>
+			</div>
+			</form>
+			<script>
+				function goods_view(){
+					// 체크여부 확인
+					if($("input:checkbox[name=u_emailYN2]").is(":checked") == true) {
+						$("#goods_yn").show();
+					}else{
+						$("#goods_yn").hide();
+					}
+				}
+			</script>
+		</div>
+	</section>
+</div>
+<!--// 팝업 : 회원가입2 -->
+
+
+<!-- 팝업 : 비밀번호 찾기 -->
+<div id="popFindpw" class="layerPopup pop_findpw">
+	<section class="popup">
+		<div class="pop_head">
+			<h2 class="title">비밀번호 찾기</h2>
+			<button type="button" class="b-close p_close"><span>닫기</span></button>
+		</div>
+		<div class="pop_cont">
+			<form method="post" action="/inc/ajax_pwfind_proc.php" name="frm_pw">
+			<div class="area_member">
+				<div class="col ml">
+					<span>이메일</span>
+					<input type="text" class="inp_txt2" name="UEmail">
+				</div>
+				<div class="col ml">
+					<span>필명</span>
+					<input type="text" class="inp_txt2" name="UNick">
+				</div>
+				<div class="coltx">
+					<p>입력창에 가입하실때 기입한 이메일 주소를 입력하세요. <br class="hide-m">가입하신 이메일이 정확하다면 해당 이메일로 비밀번호 신규설정을 할 수 있는 URL정보를 제공합니다.</p>
+				</div>
+				<div class="col">
+					<a href="javascript:;" onclick="form_chk_pw()">비밀번호 찾기</a><!-- onclick="layerPopup.open('popEmailpw');" -->
+				</div>
+				<div class="coltx">
+					<p>문제가 있거나 궁금한 점이 있으시면 아래 주소로 문의하시기 바랍니다. <br>고객지원 : eulyoo1945@eulyoo.co.kr</p>
+				</div>
+			</div>
+			</form>
+		</div>
+	</section>
+</div>
+<!--// 팝업 : 비밀번호 찾기 -->
+
+
+<!-- 팝업 : 인증메일 -->
+<div id="popEmailpw" class="layerPopup pop_emailpw">
+	<section class="popup">
+		<div class="pop_head">
+			<h2 class="title">인증메일 발송</h2>
+			<button type="button" class="b-close p_close"><span>닫기</span></button>
+		</div>
+		<div class="pop_cont">
+			<form action="">
+			<div class="area_member">
+				<div class="coltx ta-c">
+					<p><strong id="pw_find_email"></strong>으로 <br>비밀번호 변경 인증 url이 첨부된 메일이 발송되었습니다. <br class="hide-m">혹시 메일이 오지 않았을 경우 스팸메일함을 확인해보세요.</p>
+				</div>
+				<div class="col">
+					<a href="#" onclick="form_chk_pw()">인증 메일 재전송</a>
+				</div>
+				<div class="coltx">
+					<p>문제가 있거나 궁금한 점이 있으시면 아래 주소로 문의하시기 바랍니다. <br>고객지원 : eulyoo1945@eulyoo.co.kr</p>
+				</div>
+			</div>
+			</form>
+		</div>
+	</section>
+</div>
+<!--// 팝업 : 인증메일 -->
+
+
+<!-- 팝업 : 정보수정 -->
+<div id="popModifyinfo" class="layerPopup pop_modifyinfo">
+	<section class="popup">
+		<div class="pop_head">
+			<h2 class="title">회원 정보 수정</h2>
+			<button type="button" class="b-close p_close"><span>닫기</span></button>
+		</div>
+		<div class="pop_cont">
+			<form method="post" action="/member/join02_proc.php" name="edit_frm">
+			<input type="hidden" name="UserType" value="">
+			<h3 class="title2">기본 정보 수정</h3>
+			<div class="area_member pr-mb1">
+				<table>
+					<colgroup>
+						<col class="wid1">
+						<col>
+					</colgroup>
+					<tbody>
+						<tr>
+							<th>이메일</th>
+							<td>
+								
+								<div class="lst_email">
+									<input type="text" class="inp_txt" name="m_email1" value="">
+									<input type="text" class="inp_a" value="@">
+									<select class="select1" onchange="document.edit_frm.m_email2.value=this.value;">
+										<option value="">직접입력</option>
+										<option value="gmail.com">G메일</option>
+										<option value="naver.com">네이버메일</option>
+										<option value="hanmail.net">한메일</option>
+									</select>
+									<input type="text" class="inp_txt" name="m_email2" value="">
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="bd"></td>
+						</tr>
+						<tr>
+							<th>비밀번호</th>
+							<td><input type="password" class="inp_txt" name="m_pass" ></td>
+						</tr>
+						<tr>
+							<td colspan="2" class="bd"><p>영문/숫자 조합으로 6~16자리로 입력하세요</p></td>
+						</tr>
+						<tr>
+							<th>비밀번호 확인</th>
+							<td><input type="password" class="inp_txt" name="m_pass2" ></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<h3 class="title2">추가 정보 수정</h3>
+			<div class="area_member">
+				<table>
+					<colgroup>
+						<col class="wid1">
+						<col>
+						<col class="wid1">
+						<col>
+					</colgroup>
+					<tbody>
+						<tr>
+							<th>이름</th>
+							<td colspan="3"><input type="text" class="inp_txt" name="m_name" value=""></td>
+						</tr>
+						<tr>
+							<td colspan="4" class="bd"></td>
+						</tr>
+						<tr>
+							<th>필명</th>
+							<td colspan="3"><input type="text" class="inp_txt" name="m_nickname" value=""></td>
+						</tr>
+						<tr>
+							<td colspan="4" class="bd"></td>
+						</tr>
+						<tr>
+							<th>연락처</th>
+							<td colspan="3">
+								<div class="lst_tel">
+									<select class="select1" name="m_tel1" id="">
+										<option value="010" >010</option>
+										<option value="011" >011</option>
+										<option value="016" >016</option>
+										<option value="017" >017</option>
+										<option value="018" >018</option>
+										<option value="019" >019</option>
+										<option value="070" >070</option>
+									</select>
+									<input type="text" class="inp_txt" name="m_tel2" value="" maxlength="4">
+									<input type="text" class="inp_txt" name="m_tel3" value="" maxlength="4">
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="4" class="bd"></td>
+						</tr>
+						<tr>
+							<th>우편번호</th>
+							<td><input type="text" class="inp_txt" name="m_post" id="m_post"  onclick="execDaumPostcode('modify')" value="" readonly></td>
+							<th>주소</th>
+							<td><input type="text" class="inp_txt" name="m_addr" id="m_addr" onclick="execDaumPostcode('modify')" value="" readonly></td>
+						</tr>
+						<tr>
+							<th>상세주소</th>
+							<td colspan="3"><input type="text" class="inp_txt" name="m_addr2" id="m_addr2" value=""></td>
+						</tr>
+						<tr>
+							<td colspan="4" class="bd"></td>
+						</tr>
+						<tr>
+							<th>관심분야</th>
+							<td colspan="3">
+								<div class="lst_checkbox2">
+									<label class="inp_checkbox2 check_bt"><input type="checkbox" name="m_interest[]" value="자기계발" ><span>자기계발</span></label>
+									<label class="inp_checkbox2 check_bt"><input type="checkbox" name="m_interest[]" value="역사" ><span>역사</span></label>
+									<!--<label class="inp_checkbox2 check_bt"><input type="checkbox" checked name="u_interest[]" value="가정과생활" ><span>가정과생활</span></label>
+									<label class="inp_checkbox2 check_bt"><input type="checkbox" checked name="u_interest[]" value="외국어" ><span>외국어</span></label>-->
+									<label class="inp_checkbox2 check_bt"><input type="checkbox" name="m_interest[]" value="사회과학" ><span>사회과학</span></label>
+									<!--<label class="inp_checkbox2 check_bt"><input type="checkbox" checked name="u_interest[]" value="아동" ><span>아동</span></label>-->
+									<label class="inp_checkbox2 check_bt"><input type="checkbox" name="m_interest[]" value="경제경영" ><span>경제경영</span></label>
+									<label class="inp_checkbox2"><input type="checkbox" name="m_interest[]" value="예술" ><span>예술</span></label>
+									<label class="inp_checkbox2"><input type="checkbox" name="m_interest[]" value="인문" ><span>인문</span></label>
+									<label class="inp_checkbox2"><input type="checkbox" name="m_interest[]" value="문학" ><span>문학</span></label>
+									<label class="inp_checkbox2"><input type="checkbox" name="m_interest[]" value="과학" ><span>과학</span></label>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="area_member">
+				<div class="col2">
+					<label class="inp_checkbox"><input type="checkbox" name="m_emailYN" value="Y"  ><span>을유문화사에서 최신 도서 소식 및 기타 정보 메일을 받아보겠습니다.</span></label>
+				</div>
+				<div class="col">
+					<a href="#" onclick="edit_submit()">수정완료</a>
+				</div>
+			</div>
+			</form>
+		</div>
+	</section>
+	<script type="text/javascript">
+		function edit_submit(){
+			var f = document.edit_frm;
+
+			if(!confirm('변경된 데이타로 수정하시겠습니까?')) {
+				return false;
+			}
+
+				if(f.m_nickname.value==""){
+				alert("필명을 입력하세요");
+				f.m_nickname.focus();
+				return false;
+			}
+			f.submit();
+
+			}
+
+	</script>
+</div>
+<!--// 팝업 : 정보수정 -->
+
+
+<script type="text/javascript">
+	function join_ok(x){
+		var f = document.all;
+		if(f.age_ck.checked){
+			if(x=="kakao"){
+				kakao('');
+				return false;
+			}else if(x=="naver"){
+				naver_join();
+				return false;
+			}else{
+				layerPopup.open('popJoin2');
+				return false;
+			}
+		}
+		alert("서비스약관 및 개인정보 취급방침에 동의하셔야 합니다.");
+		var obj = document.getElementById('id_age_ck');
+		if(obj) obj.focus();
+		return false;
+	}
+
+	function join_submit(){
+		var f = document.frm;
+		if(f.u_email1.value=="" || f.u_email2.value==""){
+			alert("이메일을 입력하세요");
+			f.u_email1.focus();
+			return false;
+		}
+
+		var email = f.u_email1.value + "@" + f.u_email2.value;
+
+		// 글자수 제한 (예: 50자)
+		if (email.length > 50) {
+			alert("이메일은 50자 이내로 입력해주세요.");
+			return false;
+		}
+
+		var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+		if (!emailRegex.test(email)) {
+			alert("올바른 이메일 형식이 아닙니다.");
+			return false;
+		}
+
+		//아이디중복확인
+		if(f.idchk.value==""){
+			UIDChk(f.u_email1.value+"@"+f.u_email2.value);
+
+		}else{
+
+			var sns_id_chk = $("#sns_id").val();
+			console.log("aa"+sns_id_chk);
+			if(sns_id_chk==""){
+				if(f.u_pass.value==""){
+					alert("비밀번호를 입력하세요");
+					f.u_pass.focus();
+					return false;
+				}
+				if(f.u_pass.value.length < 6 || f.u_pass.value.length > 16) {
+					alert("패스워드는 6글자 이상, 16글자 이내이어야 합니다.");
+					f.u_pass.focus();
+					return false;
+				}
+				if(f.u_pass.value != f.u_pass2.value){
+					alert("비밀번호를 정확하게 입력하세요");
+					f.u_pass2.focus();
+					return false;
+				}
+			}
+			if(f.u_nickname.value==""){
+				alert("필명을 입력하세요");
+				f.u_nickname.focus();
+				return false;
+			}
+
+			f.submit();
+		}
+
+	}
+
+	function UIDChk(uid){
+		var page_location = "/inc/ajax_userid_chk.php";
+		var data = "uid="+uid;
+		$.ajax({
+			type: "POST",
+			url: page_location,
+			data: data,
+			complete : function (xhr, result)
+			{
+				if (result != "success") return;
+				var response = xhr.responseText;
+				if(response){
+					alert("이미 가입된 이메일 정보 입니다.");
+					document.frm.idchk.value = "";
+					return false;
+				}
+				document.frm.idchk.value = "1";
+				join_submit();
+			}
+		});
+	}
+
+	function form_chk(){
+		var f = document.frm_login;
+		if(f.UEmail.value==""){
+			alert("이메일을 입력하세요");
+			f.UEmail.focus();
+			return false;
+		}
+
+		if(f.UPass.value==""){
+			alert("비밀번호를 입력하세요");
+			f.UPass.focus();
+			return false;
+		}
+
+		f.submit();
+	}
+
+	function form_chk_pw(){
+		var f = document.frm_pw;
+		if(f.UEmail.value==""){
+			alert("이메일을 입력하세요");
+			f.UEmail.focus();
+			return false;
+		}
+		if(f.UNick.value==""){
+			alert("필명을 입력하세요");
+			f.UNick.focus();
+			return false;
+		}
+
+		var page_location = "/inc/ajax_pwfind_proc.php";
+		var form_data = {
+			"UEmail": f.UEmail.value,
+			"UNick": f.UNick.value
+		};
+
+		$.ajax({
+			type: "POST",
+			url: page_location,
+			data: form_data,
+			complete : function (xhr, result)
+			{
+				if (result != "success") return;
+				var response = xhr.responseText;
+				console.log(response);
+				var rg = response.split("^^");
+				switch (rg[0]){
+					case "SUCCESS" :
+						$("#pw_find_email").html(rg[1]);
+						layerPopup.open('popEmailpw');
+						return false;
+						break;
+					case "ERROR01" :
+						alert(rg[1]+"으로 회원가입하신 고객님은 \n\n비밀번호 찾기를 할 수 없습니다.!!");
+						return false;
+						break;
+					case "ERROR02" :
+						alert("존재하지 않는 회원가입 정보입니다.!!");
+						return false;
+						break;
+					default :
+						alert("등록되지 않은 아이디거나 \n아이디 또는 비밀번호를 잘못 입력하셨습니다.");
+						return false;
+						break;
+				}
+			}
+		});
+	}
+</script>
+<script>
+	// 인스타그램 로그인 함수 추가 - 버튼에 onclick 인라인 이벤트로 설정 (2015-05-15 PHPSCHOOL)
+	function openInstagramLogin() {
+		var width	= screen.availWidth;     //화면 넓이
+		var height	= screen.availHeight;    //화면 높이
+
+		sw = 700;    //띄울 창의 넓이
+		sh = 500;    //띄울 창의 높이
+
+		ml = (width - sw) / 2;			//가운데 띄우기위한 창의 x위치
+		mt = (height - sh) / 4;         //가운데 띄우기위한 창의 y위치
+
+		window.open("https://api.instagram.com/oauth/authorize?client_id=8fa86dac4f3a4ad7b7510d35003c5d90&redirect_uri=http%3A%2F%2Fwww.eulyoo.co.kr%2Finclude%2Finstagram%2Fcallback.php&scope=basic&response_type=code", 'OAuthInstagram', 'width=750,height=650, top='+mt+',left='+ml+"'");
+	}
+</script>
+
+
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+<script type='text/javascript'>
+// 사용할 앱의 JavaScript 키를 설정해 주세요.
+Kakao.init("84ab8ccafe6c64cdcff82a969277ed57");
+
+function kakao(x){
+		//<![CDATA[
+		// 카카오 로그인 버튼을 생성합니다.
+		Kakao.Auth.cleanup();
+		Kakao.Auth.login({
+			success: function(authObj) {
+				//alert("YES : "+JSON.stringify(authObj));
+				Kakao.API.request({
+				url: '/v2/user/me',
+				success: function(res) {
+					var sData = JSON.stringify(res);
+					//alert(sData);
+					sData = JSON.parse(sData);
+					var route = "kakao"
+					var id = sData.id;
+					var kakao_email = sData.kaccount_email;
+					//var nickname = sData.properties.nickname;
+					//var thumbnail_image = sData.properties.thumbnail_image;
+					//var profile_image = sData.properties.profile_image;
+
+					//회원가입 처리
+					var form_data = {
+						"type": route,
+						"id": id,
+						"email": kakao_email
+					};
+
+                    //console.log(form_data);
+					//return false;
+
+                    $.post("/inc/check_user.php",{ id : id, type : "kakao", email : kakao_email}, function(data){
+                        console.log(data);
+						//return false;
+
+                        if(data == 0){
+							if(x=="1"){
+								alert("가입되지 않은 계정입니다.");
+							}else{
+								//가입내역 없음 회원가입 처리
+								layerPopup.open('popJoin2');
+								$("#UserType").val("kakao");
+								$("#sns_id").val(id);
+								$(".sns_hid").hide();
+							}
+							return false;
+
+						} else if(data == 2) {
+							alert("입력하신 계정정보는 다른 SNS 또는 이메일로 가입된 이력이 있습니다.");
+							return false;
+
+                        } else {
+                            $.post("/sns_login_check.php", {UserType : "kakao", sns_id : id},function(data){
+								switch (data){
+									case "SUCCESS" :
+										location.reload();
+										return false;
+										break;
+
+									default :
+										alert("가입되지 않은 계정입니다.");
+										return false;
+										break;
+								}
+
+                            });
+
+                        }
+                    });
+
+				}});
+			},
+				fail: function(err) {
+					console.log(err);
+					//alert("NO : "+JSON.stringify(err));
+					alert("오류!!");
+					return false;
+			}
+		});
+		//]]>
+}
+</script>
+
+<script type="text/javascript" src="https://static.nid.naver.com/js/naveridlogin_js_sdk_2.0.0.js" charset="utf-8"></script>
+<script type="text/javascript">
+	$(".naverIdLogin").click(function(){
+		var naverLogin = new naver.LoginWithNaverId(
+			{
+				clientId: "KsYaWq493p8TrK3vrMYl",
+				callbackUrl: "http://www.eulyoo.co.kr/inc/naver_login.php?loginchk=1",
+				isPopup: true, /* 팝업을 통한 연동처리 여부 */
+				callbackHandle: true
+			}
+		);
+
+		naverLogin.init();
+		//$("#naverIdLogin").attr("href", naverLogin.generateAuthorizeUrl());
+		window.open(naverLogin.generateAuthorizeUrl(),"","width=400, height=550");
+	});
+
+	function naver_join(){
+		var naverLogin = new naver.LoginWithNaverId(
+			{
+				clientId: "KsYaWq493p8TrK3vrMYl",
+				callbackUrl: "http://www.eulyoo.co.kr/inc/naver_login.php",
+				isPopup: true, /* 팝업을 통한 연동처리 여부 */
+				callbackHandle: true
+			}
+		);
+
+		naverLogin.init();
+		//$("#naverIdLogin").attr("href", naverLogin.generateAuthorizeUrl());
+		window.open(naverLogin.generateAuthorizeUrl(),"","width=400, height=550");
+	}
+</script>
+
+<script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+<script>
+    //본 예제에서는 도로명 주소 표기 방식에 대한 법령에 따라, 내려오는 데이터를 조합하여 올바른 주소를 구성하는 방법을 설명합니다.
+    function execDaumPostcode(position) {
+
+		var position_val = position;
+
+        new daum.Postcode({
+            oncomplete: function(data) {
+                // 팝업에서 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분.
+
+                // 도로명 주소의 노출 규칙에 따라 주소를 표시한다.
+                // 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.
+                var roadAddr = data.roadAddress; // 도로명 주소 변수
+                var extraRoadAddr = ''; // 참고 항목 변수
+
+                // 법정동명이 있을 경우 추가한다. (법정리는 제외)
+                // 법정동의 경우 마지막 문자가 "동/로/가"로 끝난다.
+                if(data.bname !== '' && /[동|로|가]$/g.test(data.bname)){
+                    extraRoadAddr += data.bname;
+                }
+                // 건물명이 있고, 공동주택일 경우 추가한다.
+                if(data.buildingName !== '' && data.apartment === 'Y'){
+                   extraRoadAddr += (extraRoadAddr !== '' ? ', ' + data.buildingName : data.buildingName);
+                }
+                // 표시할 참고항목이 있을 경우, 괄호까지 추가한 최종 문자열을 만든다.
+                if(extraRoadAddr !== ''){
+                    extraRoadAddr = ' (' + extraRoadAddr + ')';
+                }
+				
+				if(position_val == "join") {
+                // 우편번호와 주소 정보를 해당 필드에 넣는다.
+					document.getElementById('u_post').value = data.zonecode;
+					document.getElementById("u_addr").value = roadAddr;
+				} else {
+					document.getElementById('m_post').value = data.zonecode;
+					document.getElementById("m_addr").value = roadAddr;
+				}
+                //document.getElementById("u_addr2").value = data.jibunAddress;
+
+                // 참고항목 문자열이 있을 경우 해당 필드에 넣는다.
+                if(roadAddr !== ''){
+                    //document.getElementById("sample4_extraAddress").value = extraRoadAddr;
+                } else {
+                    //document.getElementById("sample4_extraAddress").value = '';
+                }
+/*
+                var guideTextBox = document.getElementById("guide");
+                // 사용자가 '선택 안함'을 클릭한 경우, 예상 주소라는 표시를 해준다.
+                if(data.autoRoadAddress) {
+                    var expRoadAddr = data.autoRoadAddress + extraRoadAddr;
+                    guideTextBox.innerHTML = '(예상 도로명 주소 : ' + expRoadAddr + ')';
+                    guideTextBox.style.display = 'block';
+
+                } else if(data.autoJibunAddress) {
+                    var expJibunAddr = data.autoJibunAddress;
+                    guideTextBox.innerHTML = '(예상 지번 주소 : ' + expJibunAddr + ')';
+                    guideTextBox.style.display = 'block';
+                } else {
+                    guideTextBox.innerHTML = '';
+                    guideTextBox.style.display = 'none';
+                }
+*/
+            }
+        }).open();
+    }
+</script>
+
+<script>
+	// 인스타그램 회원가입 함수 추가 - 버튼에 onclick 인라인 이벤트로 설정 (2015-05-15 PHPSCHOOL)
+	function openInstagramJoin() {
+		var f = document.all;
+		if(!f.age_ck.checked){
+			alert("서비스약관 및 개인정보 취급방침에 동의하셔야 합니다.");
+			var obj = document.getElementById('id_age_ck');
+			if(obj) obj.focus();
+			return false;
+		} else {
+			var width	= screen.availWidth;     //화면 넓이
+			var height	= screen.availHeight;    //화면 높이
+
+			sw = 700;    //띄울 창의 넓이
+			sh = 500;    //띄울 창의 높이
+
+			ml = (width - sw) / 2;			//가운데 띄우기위한 창의 x위치
+			mt = (height - sh) / 4;         //가운데 띄우기위한 창의 y위치
+
+			window.open("https://api.instagram.com/oauth/authorize?client_id=8fa86dac4f3a4ad7b7510d35003c5d90&redirect_uri=http%3A%2F%2Fwww.eulyoo.co.kr%2Finclude%2Finstagram%2Fcallback.php&scope=basic&response_type=code", 'OAuthInstagram', 'width=750,height=650, top='+mt+',left='+ml+"'");
+		}
+	}
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172628699-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-172628699-1');
+</script>
+
+</body>
+</html>

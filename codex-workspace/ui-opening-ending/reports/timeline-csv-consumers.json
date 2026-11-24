@@ -1,0 +1,5169 @@
+{
+  "method": "Source MJO bytecode and known syscall-name resolution; no live game input",
+  "sources": [
+    {
+      "entry": "chronicle.mjo",
+      "source_sha256": "d1e9bec703dd40db2deb7e858166756adc22108c6e6d00f933e0df7cf31d81f8",
+      "ranges_half_open": [
+        [
+          250,
+          275
+        ],
+        [
+          625,
+          690
+        ],
+        [
+          2158,
+          2195
+        ],
+        [
+          2260,
+          2330
+        ],
+        [
+          4026,
+          4032
+        ],
+        [
+          4110,
+          4314
+        ],
+        [
+          4376,
+          4710
+        ]
+      ],
+      "instructions": [
+        {
+          "index": 250,
+          "offset": 1657,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "ＭＳ ゴシック"
+          }
+        },
+        {
+          "index": 251,
+          "offset": 1675,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$fontout_font",
+            "argument_count": 4
+          }
+        },
+        {
+          "index": 253,
+          "offset": 1687,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": -1
+          }
+        },
+        {
+          "index": 254,
+          "offset": 1693,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 192
+          }
+        },
+        {
+          "index": 255,
+          "offset": 1699,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 192
+          }
+        },
+        {
+          "index": 256,
+          "offset": 1705,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 192
+          }
+        },
+        {
+          "index": 257,
+          "offset": 1711,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$rgb",
+            "argument_count": 3
+          }
+        },
+        {
+          "index": 258,
+          "offset": 1719,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$fontout_color",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 260,
+          "offset": 1731,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x5a4221e1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 261,
+          "offset": 1741,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 2048,
+            "hash": "0xff9be7e",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 262,
+          "offset": 1751,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xdb5f7cef"
+          }
+        },
+        {
+          "index": 263,
+          "offset": 1761,
+          "opcode": "sub.i",
+          "operands": {}
+        },
+        {
+          "index": 264,
+          "offset": 1763,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 265,
+          "offset": 1769,
+          "opcode": "ld",
+          "operands": {
+            "flags": 32,
+            "hash": "0xdf85d678",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 266,
+          "offset": 1779,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$fontout_locate",
+            "argument_count": 3
+          }
+        },
+        {
+          "index": 268,
+          "offset": 1791,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x5a4221e1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 269,
+          "offset": 1801,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 2048,
+            "hash": "0xc4c743b7",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 270,
+          "offset": 1811,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 76
+          }
+        },
+        {
+          "index": 271,
+          "offset": 1817,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x5a4221e1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 272,
+          "offset": 1827,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 273,
+          "offset": 1833,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 4608,
+            "hash": "0xcb8a8240",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 274,
+          "offset": 1843,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$fontout",
+            "argument_count": 3
+          }
+        },
+        {
+          "index": 626,
+          "offset": 4330,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x716f7222",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 627,
+          "offset": 4340,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x5a4221e1"
+          }
+        },
+        {
+          "index": 628,
+          "offset": 4350,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 629,
+          "offset": 4356,
+          "opcode": "add.i",
+          "operands": {}
+        },
+        {
+          "index": 630,
+          "offset": 4358,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 4608,
+            "hash": "0xcb8a8240",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 631,
+          "offset": 4368,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36",
+            "var_offset": 5
+          }
+        },
+        {
+          "index": 634,
+          "offset": 4384,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x716f7222",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 635,
+          "offset": 4394,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x5a4221e1"
+          }
+        },
+        {
+          "index": 636,
+          "offset": 4404,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 637,
+          "offset": 4410,
+          "opcode": "add.i",
+          "operands": {}
+        },
+        {
+          "index": 638,
+          "offset": 4412,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 4096,
+            "hash": "0xaa2e632d",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 639,
+          "offset": 4422,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 640,
+          "offset": 4428,
+          "opcode": "and",
+          "operands": {}
+        },
+        {
+          "index": 641,
+          "offset": 4430,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 298
+          }
+        },
+        {
+          "index": 643,
+          "offset": 4440,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x716f7222",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 644,
+          "offset": 4450,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 2048,
+            "hash": "0xff9be7e",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 645,
+          "offset": 4460,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xdb5f7cef",
+            "var_offset": 3
+          }
+        },
+        {
+          "index": 646,
+          "offset": 4470,
+          "opcode": "sub.i",
+          "operands": {}
+        },
+        {
+          "index": 647,
+          "offset": 4472,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 128
+          }
+        },
+        {
+          "index": 648,
+          "offset": 4478,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x5a4221e1"
+          }
+        },
+        {
+          "index": 649,
+          "offset": 4488,
+          "opcode": "mul.i",
+          "operands": {}
+        },
+        {
+          "index": 650,
+          "offset": 4490,
+          "opcode": "ld",
+          "operands": {
+            "hash": "0x4d7f11ee",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 651,
+          "offset": 4500,
+          "opcode": "sub.i",
+          "operands": {}
+        },
+        {
+          "index": 652,
+          "offset": 4502,
+          "opcode": "ld",
+          "operands": {
+            "flags": 32,
+            "hash": "0x26bb363a",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 653,
+          "offset": 4512,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x716f7222",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 654,
+          "offset": 4522,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 2048,
+            "hash": "0xc4c743b7",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 655,
+          "offset": 4532,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 656,
+          "offset": 4538,
+          "opcode": "sub.i",
+          "operands": {}
+        },
+        {
+          "index": 657,
+          "offset": 4540,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 128
+          }
+        },
+        {
+          "index": 658,
+          "offset": 4546,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 659,
+          "offset": 4552,
+          "opcode": "sub.i",
+          "operands": {}
+        },
+        {
+          "index": 660,
+          "offset": 4554,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 661,
+          "offset": 4560,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 662,
+          "offset": 4566,
+          "opcode": "ld",
+          "operands": {
+            "flags": 32,
+            "hash": "0x53d0e187",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 663,
+          "offset": 4576,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$grp_copy",
+            "argument_count": 8
+          }
+        },
+        {
+          "index": 665,
+          "offset": 4588,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 666,
+          "offset": 4594,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x716f7222",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 667,
+          "offset": 4604,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 2048,
+            "hash": "0xc4c743b7",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 668,
+          "offset": 4614,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 669,
+          "offset": 4620,
+          "opcode": "sub.i",
+          "operands": {}
+        },
+        {
+          "index": 670,
+          "offset": 4622,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 128
+          }
+        },
+        {
+          "index": 671,
+          "offset": 4628,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 672,
+          "offset": 4634,
+          "opcode": "sub.i",
+          "operands": {}
+        },
+        {
+          "index": 673,
+          "offset": 4636,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x716f7222",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 674,
+          "offset": 4646,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 2048,
+            "hash": "0xff9be7e",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 675,
+          "offset": 4656,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xdb5f7cef",
+            "var_offset": 3
+          }
+        },
+        {
+          "index": 676,
+          "offset": 4666,
+          "opcode": "sub.i",
+          "operands": {}
+        },
+        {
+          "index": 677,
+          "offset": 4668,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 128
+          }
+        },
+        {
+          "index": 678,
+          "offset": 4674,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x5a4221e1"
+          }
+        },
+        {
+          "index": 679,
+          "offset": 4684,
+          "opcode": "mul.i",
+          "operands": {}
+        },
+        {
+          "index": 680,
+          "offset": 4686,
+          "opcode": "ld",
+          "operands": {
+            "hash": "0x4d7f11ee",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 681,
+          "offset": 4696,
+          "opcode": "sub.i",
+          "operands": {}
+        },
+        {
+          "index": 682,
+          "offset": 4698,
+          "opcode": "ld",
+          "operands": {
+            "flags": 32,
+            "hash": "0x26bb363a",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 683,
+          "offset": 4708,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$get_alfapage",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 684,
+          "offset": 4716,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$grp_boxfill",
+            "argument_count": 6
+          }
+        },
+        {
+          "index": 686,
+          "offset": 4728,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 1604
+          }
+        },
+        {
+          "index": 688,
+          "offset": 4738,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x716f7222",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 689,
+          "offset": 4748,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x5a4221e1"
+          }
+        },
+        {
+          "index": 2158,
+          "offset": 14143,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 2159,
+          "offset": 14149,
+          "opcode": "ceq.i",
+          "operands": {}
+        },
+        {
+          "index": 2160,
+          "offset": 14151,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 1087
+          }
+        },
+        {
+          "index": 2162,
+          "offset": 14161,
+          "opcode": "ld",
+          "operands": {
+            "flags": 32,
+            "hash": "0xaf3d2868",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 2163,
+          "offset": 14171,
+          "opcode": "ld",
+          "operands": {
+            "flags": 32,
+            "hash": "0x6eb3f7a8",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 2164,
+          "offset": 14181,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 2165,
+          "offset": 14187,
+          "opcode": "add.i",
+          "operands": {}
+        },
+        {
+          "index": 2166,
+          "offset": 14189,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 4608,
+            "hash": "0x67a5944b",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 2167,
+          "offset": 14199,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36",
+            "var_offset": 23
+          }
+        },
+        {
+          "index": 2170,
+          "offset": 14215,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 13
+          }
+        },
+        {
+          "index": 2171,
+          "offset": 14221,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36",
+            "var_offset": 23
+          }
+        },
+        {
+          "index": 2172,
+          "offset": 14231,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strlen",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 2173,
+          "offset": 14239,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$min",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 2174,
+          "offset": 14247,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 16
+          }
+        },
+        {
+          "index": 2175,
+          "offset": 14253,
+          "opcode": "mul.i",
+          "operands": {}
+        },
+        {
+          "index": 2176,
+          "offset": 14255,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 10
+          }
+        },
+        {
+          "index": 2177,
+          "offset": 14261,
+          "opcode": "add.i",
+          "operands": {}
+        },
+        {
+          "index": 2178,
+          "offset": 14263,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 8
+          }
+        },
+        {
+          "index": 2179,
+          "offset": 14269,
+          "opcode": "add.i",
+          "operands": {}
+        },
+        {
+          "index": 2180,
+          "offset": 14271,
+          "opcode": "st.i",
+          "operands": {
+            "flags": 96,
+            "hash": "0xed9dcf5e",
+            "var_offset": 24
+          }
+        },
+        {
+          "index": 2183,
+          "offset": 14287,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36",
+            "var_offset": 23
+          }
+        },
+        {
+          "index": 2184,
+          "offset": 14297,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strlen",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 2185,
+          "offset": 14305,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 13
+          }
+        },
+        {
+          "index": 2186,
+          "offset": 14311,
+          "opcode": "add.i",
+          "operands": {}
+        },
+        {
+          "index": 2187,
+          "offset": 14313,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 2188,
+          "offset": 14319,
+          "opcode": "sub.i",
+          "operands": {}
+        },
+        {
+          "index": 2189,
+          "offset": 14321,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 13
+          }
+        },
+        {
+          "index": 2190,
+          "offset": 14327,
+          "opcode": "div.i",
+          "operands": {}
+        },
+        {
+          "index": 2191,
+          "offset": 14329,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 20
+          }
+        },
+        {
+          "index": 2192,
+          "offset": 14335,
+          "opcode": "mul.i",
+          "operands": {}
+        },
+        {
+          "index": 2193,
+          "offset": 14337,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 8
+          }
+        },
+        {
+          "index": 2194,
+          "offset": 14343,
+          "opcode": "add.i",
+          "operands": {}
+        },
+        {
+          "index": 2260,
+          "offset": 14751,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xed9dcf5e",
+            "var_offset": 24
+          }
+        },
+        {
+          "index": 2261,
+          "offset": 14761,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 2
+          }
+        },
+        {
+          "index": 2262,
+          "offset": 14767,
+          "opcode": "sub.i",
+          "operands": {}
+        },
+        {
+          "index": 2263,
+          "offset": 14769,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 2264,
+          "offset": 14775,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 2265,
+          "offset": 14781,
+          "opcode": "ld",
+          "operands": {
+            "flags": 32,
+            "hash": "0x9f351b8e",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 2266,
+          "offset": 14791,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$grp_boxfill",
+            "argument_count": 6
+          }
+        },
+        {
+          "index": 2268,
+          "offset": 14803,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36",
+            "var_offset": 23
+          }
+        },
+        {
+          "index": 2269,
+          "offset": 14813,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 281
+          }
+        },
+        {
+          "index": 2271,
+          "offset": 14823,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 2272,
+          "offset": 14829,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 8
+          }
+        },
+        {
+          "index": 2273,
+          "offset": 14835,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 16
+          }
+        },
+        {
+          "index": 2274,
+          "offset": 14841,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "ＭＳ ゴシック"
+          }
+        },
+        {
+          "index": 2275,
+          "offset": 14859,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$fontout_font",
+            "argument_count": 4
+          }
+        },
+        {
+          "index": 2277,
+          "offset": 14871,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": -1
+          }
+        },
+        {
+          "index": 2278,
+          "offset": 14877,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 204
+          }
+        },
+        {
+          "index": 2279,
+          "offset": 14883,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 190
+          }
+        },
+        {
+          "index": 2280,
+          "offset": 14889,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 186
+          }
+        },
+        {
+          "index": 2281,
+          "offset": 14895,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$rgb",
+            "argument_count": 3
+          }
+        },
+        {
+          "index": 2282,
+          "offset": 14903,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$fontout_color",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 2284,
+          "offset": 14915,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x7db3a5cf",
+            "var_offset": 26
+          }
+        },
+        {
+          "index": 2285,
+          "offset": 14925,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 8
+          }
+        },
+        {
+          "index": 2286,
+          "offset": 14931,
+          "opcode": "add.i",
+          "operands": {}
+        },
+        {
+          "index": 2287,
+          "offset": 14933,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 2
+          }
+        },
+        {
+          "index": 2288,
+          "offset": 14939,
+          "opcode": "add.i",
+          "operands": {}
+        },
+        {
+          "index": 2289,
+          "offset": 14941,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 8
+          }
+        },
+        {
+          "index": 2290,
+          "offset": 14947,
+          "opcode": "ld",
+          "operands": {
+            "flags": 32,
+            "hash": "0x9f351b8e",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 2291,
+          "offset": 14957,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$fontout_locate",
+            "argument_count": 3
+          }
+        },
+        {
+          "index": 2293,
+          "offset": 14969,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 13
+          }
+        },
+        {
+          "index": 2294,
+          "offset": 14975,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36",
+            "var_offset": 23
+          }
+        },
+        {
+          "index": 2295,
+          "offset": 14985,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "　　　　　　　"
+          }
+        },
+        {
+          "index": 2296,
+          "offset": 15004,
+          "opcode": "add.s",
+          "operands": {}
+        },
+        {
+          "index": 2297,
+          "offset": 15006,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strleft$",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 2298,
+          "offset": 15014,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$fontout",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 2300,
+          "offset": 15026,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 99
+          }
+        },
+        {
+          "index": 2301,
+          "offset": 15032,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 13
+          }
+        },
+        {
+          "index": 2302,
+          "offset": 15038,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36",
+            "var_offset": 23
+          }
+        },
+        {
+          "index": 2303,
+          "offset": 15048,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strmid$",
+            "argument_count": 3
+          }
+        },
+        {
+          "index": 2304,
+          "offset": 15056,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36",
+            "var_offset": 23
+          }
+        },
+        {
+          "index": 2307,
+          "offset": 15072,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 20
+          }
+        },
+        {
+          "index": 2308,
+          "offset": 15078,
+          "opcode": "st.add.i",
+          "operands": {
+            "flags": 96,
+            "hash": "0x7db3a5cf",
+            "var_offset": 26
+          }
+        },
+        {
+          "index": 2311,
+          "offset": 15094,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -297
+          }
+        },
+        {
+          "index": 2313,
+          "offset": 15104,
+          "opcode": "ld",
+          "operands": {
+            "flags": 32,
+            "hash": "0x9f351b8e",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 2314,
+          "offset": 15114,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$sprite_create",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 2315,
+          "offset": 15122,
+          "opcode": "st.i",
+          "operands": {
+            "flags": 32,
+            "hash": "0x9252f487",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 2318,
+          "offset": 15138,
+          "opcode": "ld",
+          "operands": {
+            "flags": 32,
+            "hash": "0x7aab49f1",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 2319,
+          "offset": 15148,
+          "opcode": "ld",
+          "operands": {
+            "flags": 32,
+            "hash": "0x9252f487",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 2320,
+          "offset": 15158,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$sprite_priority_high_single",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 2322,
+          "offset": 15170,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": -1
+          }
+        },
+        {
+          "index": 2323,
+          "offset": 15176,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 2324,
+          "offset": 15182,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 300
+          }
+        },
+        {
+          "index": 2325,
+          "offset": 15188,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 2326,
+          "offset": 15194,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 300
+          }
+        },
+        {
+          "index": 2327,
+          "offset": 15200,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 255
+          }
+        },
+        {
+          "index": 2328,
+          "offset": 15206,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 2329,
+          "offset": 15212,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 255
+          }
+        },
+        {
+          "index": 4026,
+          "offset": 26217,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4027,
+          "offset": 26223,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4028,
+          "offset": 26233,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 4608,
+            "hash": "0xe750647c",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4029,
+          "offset": 26243,
+          "opcode": "ldstr",
+          "operands": {
+            "string": " の Sub Episode が追加されました"
+          }
+        },
+        {
+          "index": 4030,
+          "offset": 26280,
+          "opcode": "add.s",
+          "operands": {}
+        },
+        {
+          "index": 4031,
+          "offset": 26282,
+          "opcode": "callp",
+          "operands": {
+            "hash": "0xe72d9f52",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 4111,
+          "offset": 26699,
+          "opcode": "argcheck",
+          "operands": {
+            "type_list": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "index": 4112,
+          "offset": 26705,
+          "opcode": "alloca",
+          "operands": {
+            "type_list": [
+              2,
+              2,
+              2,
+              2,
+              2
+            ]
+          }
+        },
+        {
+          "index": 4114,
+          "offset": 26718,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xa7934f1c",
+            "var_offset": -2
+          }
+        },
+        {
+          "index": 4115,
+          "offset": 26728,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$file_read$",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 4116,
+          "offset": 26736,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4119,
+          "offset": 26752,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4120,
+          "offset": 26762,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "[EOF]"
+          }
+        },
+        {
+          "index": 4121,
+          "offset": 26772,
+          "opcode": "ceq.s",
+          "operands": {}
+        },
+        {
+          "index": 4122,
+          "offset": 26774,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 12
+          }
+        },
+        {
+          "index": 4123,
+          "offset": 26780,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4124,
+          "offset": 26790,
+          "opcode": "ret",
+          "operands": {}
+        },
+        {
+          "index": 4126,
+          "offset": 26796,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4127,
+          "offset": 26806,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strlen",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 4128,
+          "offset": 26814,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4129,
+          "offset": 26820,
+          "opcode": "ceq.i",
+          "operands": {}
+        },
+        {
+          "index": 4130,
+          "offset": 26822,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 12
+          }
+        },
+        {
+          "index": 4131,
+          "offset": 26828,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4132,
+          "offset": 26838,
+          "opcode": "ret",
+          "operands": {}
+        },
+        {
+          "index": 4134,
+          "offset": 26844,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4135,
+          "offset": 26850,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4136,
+          "offset": 26860,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strleft$",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 4137,
+          "offset": 26868,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0xf99fc489",
+            "var_offset": 3
+          }
+        },
+        {
+          "index": 4140,
+          "offset": 26884,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": -1
+          }
+        },
+        {
+          "index": 4141,
+          "offset": 26890,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 117
+          }
+        },
+        {
+          "index": 4142,
+          "offset": 26896,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 6
+          }
+        },
+        {
+          "index": 4143,
+          "offset": 26902,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -24
+          }
+        },
+        {
+          "index": 4145,
+          "offset": 26912,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4146,
+          "offset": 26918,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4147,
+          "offset": 26928,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strleft$",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 4148,
+          "offset": 26936,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "　"
+          }
+        },
+        {
+          "index": 4149,
+          "offset": 26943,
+          "opcode": "cge.s",
+          "operands": {}
+        },
+        {
+          "index": 4150,
+          "offset": 26945,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 6
+          }
+        },
+        {
+          "index": 4151,
+          "offset": 26951,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 56
+          }
+        },
+        {
+          "index": 4153,
+          "offset": 26961,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 9999
+          }
+        },
+        {
+          "index": 4154,
+          "offset": 26967,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4155,
+          "offset": 26973,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4156,
+          "offset": 26983,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strmid$",
+            "argument_count": 3
+          }
+        },
+        {
+          "index": 4157,
+          "offset": 26991,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4160,
+          "offset": 27007,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -111
+          }
+        },
+        {
+          "index": 4162,
+          "offset": 27017,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xf99fc489",
+            "var_offset": 3
+          }
+        },
+        {
+          "index": 4163,
+          "offset": 27027,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "!"
+          }
+        },
+        {
+          "index": 4164,
+          "offset": 27033,
+          "opcode": "cgt.s",
+          "operands": {}
+        },
+        {
+          "index": 4165,
+          "offset": 27035,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xf99fc489",
+            "var_offset": 3
+          }
+        },
+        {
+          "index": 4166,
+          "offset": 27045,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "#"
+          }
+        },
+        {
+          "index": 4167,
+          "offset": 27051,
+          "opcode": "clt.s",
+          "operands": {}
+        },
+        {
+          "index": 4168,
+          "offset": 27053,
+          "opcode": "andl",
+          "operands": {}
+        },
+        {
+          "index": 4169,
+          "offset": 27055,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 418
+          }
+        },
+        {
+          "index": 4171,
+          "offset": 27065,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "　　　　　　　　　　　　　"
+          }
+        },
+        {
+          "index": 4172,
+          "offset": 27096,
+          "opcode": "st.add.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4175,
+          "offset": 27112,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": -1
+          }
+        },
+        {
+          "index": 4176,
+          "offset": 27118,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 351
+          }
+        },
+        {
+          "index": 4177,
+          "offset": 27124,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 6
+          }
+        },
+        {
+          "index": 4178,
+          "offset": 27130,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -24
+          }
+        },
+        {
+          "index": 4180,
+          "offset": 27140,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xa7934f1c",
+            "var_offset": -2
+          }
+        },
+        {
+          "index": 4181,
+          "offset": 27150,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$file_read$",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 4182,
+          "offset": 27158,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36"
+          }
+        },
+        {
+          "index": 4185,
+          "offset": 27174,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4186,
+          "offset": 27180,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36"
+          }
+        },
+        {
+          "index": 4187,
+          "offset": 27190,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strright$",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 4188,
+          "offset": 27198,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x72048b5f",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4191,
+          "offset": 27214,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36"
+          }
+        },
+        {
+          "index": 4192,
+          "offset": 27224,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strlen",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 4193,
+          "offset": 27232,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4194,
+          "offset": 27238,
+          "opcode": "sub.i",
+          "operands": {}
+        },
+        {
+          "index": 4195,
+          "offset": 27240,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36"
+          }
+        },
+        {
+          "index": 4196,
+          "offset": 27250,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strleft$",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 4197,
+          "offset": 27258,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36"
+          }
+        },
+        {
+          "index": 4200,
+          "offset": 27274,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x72048b5f",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4201,
+          "offset": 27284,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "!"
+          }
+        },
+        {
+          "index": 4202,
+          "offset": 27290,
+          "opcode": "clt.s",
+          "operands": {}
+        },
+        {
+          "index": 4203,
+          "offset": 27292,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x72048b5f",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4204,
+          "offset": 27302,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "#"
+          }
+        },
+        {
+          "index": 4205,
+          "offset": 27308,
+          "opcode": "cgt.s",
+          "operands": {}
+        },
+        {
+          "index": 4206,
+          "offset": 27310,
+          "opcode": "orl",
+          "operands": {}
+        },
+        {
+          "index": 4207,
+          "offset": 27312,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 111
+          }
+        },
+        {
+          "index": 4209,
+          "offset": 27322,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4210,
+          "offset": 27332,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36"
+          }
+        },
+        {
+          "index": 4211,
+          "offset": 27342,
+          "opcode": "add.s",
+          "operands": {}
+        },
+        {
+          "index": 4212,
+          "offset": 27344,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x72048b5f",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4213,
+          "offset": 27354,
+          "opcode": "add.s",
+          "operands": {}
+        },
+        {
+          "index": 4214,
+          "offset": 27356,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "　　　　　　　　　　　　　　　　　　　　"
+          }
+        },
+        {
+          "index": 4215,
+          "offset": 27401,
+          "opcode": "add.s",
+          "operands": {}
+        },
+        {
+          "index": 4216,
+          "offset": 27403,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4219,
+          "offset": 27419,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -295
+          }
+        },
+        {
+          "index": 4222,
+          "offset": 27433,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36"
+          }
+        },
+        {
+          "index": 4223,
+          "offset": 27443,
+          "opcode": "st.add.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4226,
+          "offset": 27459,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 10
+          }
+        },
+        {
+          "index": 4228,
+          "offset": 27469,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -345
+          }
+        },
+        {
+          "index": 4231,
+          "offset": 27483,
+          "opcode": "ldstr",
+          "operands": {}
+        },
+        {
+          "index": 4232,
+          "offset": 27488,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x173ccfa5",
+            "var_offset": 4
+          }
+        },
+        {
+          "index": 4235,
+          "offset": 27504,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4236,
+          "offset": 27514,
+          "opcode": "ldstr",
+          "operands": {}
+        },
+        {
+          "index": 4237,
+          "offset": 27519,
+          "opcode": "cne.s",
+          "operands": {}
+        },
+        {
+          "index": 4238,
+          "offset": 27521,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 490
+          }
+        },
+        {
+          "index": 4240,
+          "offset": 27531,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xce2fe9ce",
+            "var_offset": -3
+          }
+        },
+        {
+          "index": 4241,
+          "offset": 27541,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4242,
+          "offset": 27547,
+          "opcode": "sub.i",
+          "operands": {}
+        },
+        {
+          "index": 4243,
+          "offset": 27549,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4244,
+          "offset": 27559,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strleft$",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 4245,
+          "offset": 27567,
+          "opcode": "st.add.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x173ccfa5",
+            "var_offset": 4
+          }
+        },
+        {
+          "index": 4248,
+          "offset": 27583,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 999
+          }
+        },
+        {
+          "index": 4249,
+          "offset": 27589,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xce2fe9ce",
+            "var_offset": -3
+          }
+        },
+        {
+          "index": 4250,
+          "offset": 27599,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4251,
+          "offset": 27605,
+          "opcode": "sub.i",
+          "operands": {}
+        },
+        {
+          "index": 4252,
+          "offset": 27607,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4253,
+          "offset": 27617,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strmid$",
+            "argument_count": 3
+          }
+        },
+        {
+          "index": 4254,
+          "offset": 27625,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4257,
+          "offset": 27641,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4258,
+          "offset": 27651,
+          "opcode": "ldstr",
+          "operands": {}
+        },
+        {
+          "index": 4259,
+          "offset": 27656,
+          "opcode": "ceq.s",
+          "operands": {}
+        },
+        {
+          "index": 4260,
+          "offset": 27658,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 6
+          }
+        },
+        {
+          "index": 4261,
+          "offset": 27664,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 347
+          }
+        },
+        {
+          "index": 4263,
+          "offset": 27674,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4264,
+          "offset": 27680,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4265,
+          "offset": 27690,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strleft$",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 4266,
+          "offset": 27698,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36"
+          }
+        },
+        {
+          "index": 4269,
+          "offset": 27714,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36"
+          }
+        },
+        {
+          "index": 4270,
+          "offset": 27724,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "、。，．」』）？！゛゜ゝゞヽヾ〟・…：；‐】〕］｝〉》　"
+          }
+        },
+        {
+          "index": 4271,
+          "offset": 27785,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strstr",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 4272,
+          "offset": 27793,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4273,
+          "offset": 27799,
+          "opcode": "cge.i",
+          "operands": {}
+        },
+        {
+          "index": 4274,
+          "offset": 27801,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 82
+          }
+        },
+        {
+          "index": 4276,
+          "offset": 27811,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36"
+          }
+        },
+        {
+          "index": 4277,
+          "offset": 27821,
+          "opcode": "st.add.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x173ccfa5",
+            "var_offset": 4
+          }
+        },
+        {
+          "index": 4280,
+          "offset": 27837,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 999
+          }
+        },
+        {
+          "index": 4281,
+          "offset": 27843,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4282,
+          "offset": 27849,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4283,
+          "offset": 27859,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strmid$",
+            "argument_count": 3
+          }
+        },
+        {
+          "index": 4284,
+          "offset": 27867,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4287,
+          "offset": 27883,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 27
+          }
+        },
+        {
+          "index": 4289,
+          "offset": 27893,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "　"
+          }
+        },
+        {
+          "index": 4290,
+          "offset": 27900,
+          "opcode": "st.add.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x173ccfa5",
+            "var_offset": 4
+          }
+        },
+        {
+          "index": 4294,
+          "offset": 27920,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4295,
+          "offset": 27926,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4296,
+          "offset": 27936,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strleft$",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 4297,
+          "offset": 27944,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "　"
+          }
+        },
+        {
+          "index": 4298,
+          "offset": 27951,
+          "opcode": "ceq.s",
+          "operands": {}
+        },
+        {
+          "index": 4299,
+          "offset": 27953,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 48
+          }
+        },
+        {
+          "index": 4300,
+          "offset": 27959,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 9999
+          }
+        },
+        {
+          "index": 4301,
+          "offset": 27965,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4302,
+          "offset": 27971,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4303,
+          "offset": 27981,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strmid$",
+            "argument_count": 3
+          }
+        },
+        {
+          "index": 4304,
+          "offset": 27989,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4306,
+          "offset": 28001,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -87
+          }
+        },
+        {
+          "index": 4308,
+          "offset": 28011,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -513
+          }
+        },
+        {
+          "index": 4310,
+          "offset": 28021,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x173ccfa5",
+            "var_offset": 4
+          }
+        },
+        {
+          "index": 4311,
+          "offset": 28031,
+          "opcode": "ret",
+          "operands": {}
+        },
+        {
+          "index": 4312,
+          "offset": 28033,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4313,
+          "offset": 28039,
+          "opcode": "ret",
+          "operands": {}
+        },
+        {
+          "index": 4377,
+          "offset": 28444,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "ホラー年表改.csv"
+          }
+        },
+        {
+          "index": 4378,
+          "offset": 28465,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$file_open",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 4379,
+          "offset": 28473,
+          "opcode": "st.i",
+          "operands": {
+            "flags": 96,
+            "hash": "0xa7934f1c",
+            "var_offset": 5
+          }
+        },
+        {
+          "index": 4382,
+          "offset": 28489,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4383,
+          "offset": 28495,
+          "opcode": "st.i",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4385,
+          "offset": 28507,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4386,
+          "offset": 28517,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 100
+          }
+        },
+        {
+          "index": 4387,
+          "offset": 28523,
+          "opcode": "clt.i",
+          "operands": {}
+        },
+        {
+          "index": 4388,
+          "offset": 28525,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 748
+          }
+        },
+        {
+          "index": 4389,
+          "offset": 28531,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 18
+          }
+        },
+        {
+          "index": 4390,
+          "offset": 28537,
+          "opcode": "ld",
+          "operands": {
+            "flags": 99,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4392,
+          "offset": 28549,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -48
+          }
+        },
+        {
+          "index": 4394,
+          "offset": 28559,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4395,
+          "offset": 28565,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4396,
+          "offset": 28575,
+          "opcode": "stelem.i",
+          "operands": {
+            "flags": 2048,
+            "hash": "0xc4c743b7",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4399,
+          "offset": 28591,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4400,
+          "offset": 28597,
+          "opcode": "st.i",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4402,
+          "offset": 28609,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4403,
+          "offset": 28619,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 13
+          }
+        },
+        {
+          "index": 4404,
+          "offset": 28625,
+          "opcode": "clt.i",
+          "operands": {}
+        },
+        {
+          "index": 4405,
+          "offset": 28627,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 398
+          }
+        },
+        {
+          "index": 4406,
+          "offset": 28633,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 18
+          }
+        },
+        {
+          "index": 4407,
+          "offset": 28639,
+          "opcode": "ld",
+          "operands": {
+            "flags": 99,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4409,
+          "offset": 28651,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -48
+          }
+        },
+        {
+          "index": 4411,
+          "offset": 28661,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4412,
+          "offset": 28671,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4413,
+          "offset": 28677,
+          "opcode": "cne.i",
+          "operands": {}
+        },
+        {
+          "index": 4414,
+          "offset": 28679,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 54
+          }
+        },
+        {
+          "index": 4416,
+          "offset": 28689,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 7
+          }
+        },
+        {
+          "index": 4417,
+          "offset": 28695,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xa7934f1c",
+            "var_offset": 5
+          }
+        },
+        {
+          "index": 4418,
+          "offset": 28705,
+          "opcode": "call",
+          "operands": {
+            "hash": "0xb9ee0a1",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 4419,
+          "offset": 28717,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4422,
+          "offset": 28733,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 48
+          }
+        },
+        {
+          "index": 4424,
+          "offset": 28743,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 13
+          }
+        },
+        {
+          "index": 4425,
+          "offset": 28749,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xa7934f1c",
+            "var_offset": 5
+          }
+        },
+        {
+          "index": 4426,
+          "offset": 28759,
+          "opcode": "call",
+          "operands": {
+            "hash": "0xb9ee0a1",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 4427,
+          "offset": 28771,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4431,
+          "offset": 28791,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4432,
+          "offset": 28801,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "[EOF]"
+          }
+        },
+        {
+          "index": 4433,
+          "offset": 28811,
+          "opcode": "ceq.s",
+          "operands": {}
+        },
+        {
+          "index": 4434,
+          "offset": 28813,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 6
+          }
+        },
+        {
+          "index": 4435,
+          "offset": 28819,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 454
+          }
+        },
+        {
+          "index": 4437,
+          "offset": 28829,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4438,
+          "offset": 28839,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strlen",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 4439,
+          "offset": 28847,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 6
+          }
+        },
+        {
+          "index": 4440,
+          "offset": 28853,
+          "opcode": "add.i",
+          "operands": {}
+        },
+        {
+          "index": 4441,
+          "offset": 28855,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 7
+          }
+        },
+        {
+          "index": 4442,
+          "offset": 28861,
+          "opcode": "div.i",
+          "operands": {}
+        },
+        {
+          "index": 4443,
+          "offset": 28863,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4444,
+          "offset": 28873,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 2048,
+            "hash": "0xc4c743b7",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4445,
+          "offset": 28883,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$max",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 4446,
+          "offset": 28891,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4447,
+          "offset": 28901,
+          "opcode": "stelem.i",
+          "operands": {
+            "flags": 2048,
+            "hash": "0xc4c743b7",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4450,
+          "offset": 28917,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4451,
+          "offset": 28927,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4452,
+          "offset": 28933,
+          "opcode": "ceq.i",
+          "operands": {}
+        },
+        {
+          "index": 4453,
+          "offset": 28935,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 34
+          }
+        },
+        {
+          "index": 4454,
+          "offset": 28941,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4455,
+          "offset": 28951,
+          "opcode": "call",
+          "operands": {
+            "hash": "0x2d550638",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 4456,
+          "offset": 28963,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4459,
+          "offset": 28979,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4460,
+          "offset": 28989,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4461,
+          "offset": 28999,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4462,
+          "offset": 29009,
+          "opcode": "stelem.s",
+          "operands": {
+            "flags": 4608,
+            "hash": "0xcb8a8240",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4465,
+          "offset": 29025,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -392
+          }
+        },
+        {
+          "index": 4467,
+          "offset": 29035,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4468,
+          "offset": 29045,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 2048,
+            "hash": "0xc4c743b7",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4469,
+          "offset": 29055,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 20
+          }
+        },
+        {
+          "index": 4470,
+          "offset": 29061,
+          "opcode": "mul.i",
+          "operands": {}
+        },
+        {
+          "index": 4471,
+          "offset": 29063,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 16
+          }
+        },
+        {
+          "index": 4472,
+          "offset": 29069,
+          "opcode": "add.i",
+          "operands": {}
+        },
+        {
+          "index": 4473,
+          "offset": 29071,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4474,
+          "offset": 29081,
+          "opcode": "stelem.i",
+          "operands": {
+            "flags": 2048,
+            "hash": "0xc4c743b7",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4477,
+          "offset": 29097,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4478,
+          "offset": 29107,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4479,
+          "offset": 29113,
+          "opcode": "ceq.i",
+          "operands": {}
+        },
+        {
+          "index": 4480,
+          "offset": 29115,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 24
+          }
+        },
+        {
+          "index": 4481,
+          "offset": 29121,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 2
+          }
+        },
+        {
+          "index": 4482,
+          "offset": 29127,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4483,
+          "offset": 29133,
+          "opcode": "stelem.i",
+          "operands": {
+            "flags": 2048,
+            "hash": "0xc4c743b7",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4486,
+          "offset": 29149,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4487,
+          "offset": 29159,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4488,
+          "offset": 29165,
+          "opcode": "ceq.i",
+          "operands": {}
+        },
+        {
+          "index": 4489,
+          "offset": 29167,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 24
+          }
+        },
+        {
+          "index": 4490,
+          "offset": 29173,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 160
+          }
+        },
+        {
+          "index": 4491,
+          "offset": 29179,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4492,
+          "offset": 29185,
+          "opcode": "stelem.i",
+          "operands": {
+            "flags": 2048,
+            "hash": "0xc4c743b7",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4495,
+          "offset": 29201,
+          "opcode": "ld",
+          "operands": {
+            "hash": "0xd95c0a13",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4496,
+          "offset": 29211,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4497,
+          "offset": 29221,
+          "opcode": "stelem.i",
+          "operands": {
+            "flags": 2048,
+            "hash": "0xff9be7e",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4500,
+          "offset": 29237,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4501,
+          "offset": 29247,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 2048,
+            "hash": "0xc4c743b7",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4502,
+          "offset": 29257,
+          "opcode": "st.add.i",
+          "operands": {
+            "hash": "0xd95c0a13",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4505,
+          "offset": 29273,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -742
+          }
+        },
+        {
+          "index": 4507,
+          "offset": 29283,
+          "opcode": "ld",
+          "operands": {
+            "hash": "0xd95c0a13",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4508,
+          "offset": 29293,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 503
+          }
+        },
+        {
+          "index": 4509,
+          "offset": 29299,
+          "opcode": "sub.i",
+          "operands": {}
+        },
+        {
+          "index": 4510,
+          "offset": 29301,
+          "opcode": "ld",
+          "operands": {
+            "hash": "0xb93c947a",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4511,
+          "offset": 29311,
+          "opcode": "add.i",
+          "operands": {}
+        },
+        {
+          "index": 4512,
+          "offset": 29313,
+          "opcode": "st.i",
+          "operands": {
+            "hash": "0xd95c0a13",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4515,
+          "offset": 29329,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4516,
+          "offset": 29339,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4517,
+          "offset": 29345,
+          "opcode": "add.i",
+          "operands": {}
+        },
+        {
+          "index": 4518,
+          "offset": 29347,
+          "opcode": "st.i",
+          "operands": {
+            "hash": "0x7d8495a3",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4521,
+          "offset": 29363,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 116
+          }
+        },
+        {
+          "index": 4522,
+          "offset": 29369,
+          "opcode": "ld",
+          "operands": {
+            "hash": "0x7d8495a3",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4523,
+          "offset": 29379,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4524,
+          "offset": 29385,
+          "opcode": "sub.i",
+          "operands": {}
+        },
+        {
+          "index": 4525,
+          "offset": 29387,
+          "opcode": "stelem.i",
+          "operands": {
+            "flags": 2048,
+            "hash": "0xc4c743b7",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4528,
+          "offset": 29403,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xa7934f1c",
+            "var_offset": 5
+          }
+        },
+        {
+          "index": 4529,
+          "offset": 29413,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$file_close",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 4531,
+          "offset": 29425,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "alt_ホラー年表改.csv"
+          }
+        },
+        {
+          "index": 4532,
+          "offset": 29450,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$file_open",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 4533,
+          "offset": 29458,
+          "opcode": "st.i",
+          "operands": {
+            "flags": 96,
+            "hash": "0xa7934f1c",
+            "var_offset": 5
+          }
+        },
+        {
+          "index": 4536,
+          "offset": 29474,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4537,
+          "offset": 29480,
+          "opcode": "st.i",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4539,
+          "offset": 29492,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4540,
+          "offset": 29502,
+          "opcode": "ld",
+          "operands": {
+            "hash": "0x7d8495a3",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4541,
+          "offset": 29512,
+          "opcode": "clt.i",
+          "operands": {}
+        },
+        {
+          "index": 4542,
+          "offset": 29514,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 431
+          }
+        },
+        {
+          "index": 4543,
+          "offset": 29520,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 18
+          }
+        },
+        {
+          "index": 4544,
+          "offset": 29526,
+          "opcode": "ld",
+          "operands": {
+            "flags": 99,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4546,
+          "offset": 29538,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -52
+          }
+        },
+        {
+          "index": 4548,
+          "offset": 29548,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4549,
+          "offset": 29554,
+          "opcode": "st.i",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4551,
+          "offset": 29566,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4552,
+          "offset": 29576,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 13
+          }
+        },
+        {
+          "index": 4553,
+          "offset": 29582,
+          "opcode": "clt.i",
+          "operands": {}
+        },
+        {
+          "index": 4554,
+          "offset": 29584,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 351
+          }
+        },
+        {
+          "index": 4555,
+          "offset": 29590,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 18
+          }
+        },
+        {
+          "index": 4556,
+          "offset": 29596,
+          "opcode": "ld",
+          "operands": {
+            "flags": 99,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4558,
+          "offset": 29608,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -48
+          }
+        },
+        {
+          "index": 4560,
+          "offset": 29618,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 13
+          }
+        },
+        {
+          "index": 4561,
+          "offset": 29624,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xa7934f1c",
+            "var_offset": 5
+          }
+        },
+        {
+          "index": 4562,
+          "offset": 29634,
+          "opcode": "call",
+          "operands": {
+            "hash": "0xb9ee0a1",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 4563,
+          "offset": 29646,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4566,
+          "offset": 29662,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4567,
+          "offset": 29672,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "[EOF]"
+          }
+        },
+        {
+          "index": 4568,
+          "offset": 29682,
+          "opcode": "ceq.s",
+          "operands": {}
+        },
+        {
+          "index": 4569,
+          "offset": 29684,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 6
+          }
+        },
+        {
+          "index": 4570,
+          "offset": 29690,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 255
+          }
+        },
+        {
+          "index": 4572,
+          "offset": 29700,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4573,
+          "offset": 29710,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4574,
+          "offset": 29716,
+          "opcode": "ceq.i",
+          "operands": {}
+        },
+        {
+          "index": 4575,
+          "offset": 29718,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 161
+          }
+        },
+        {
+          "index": 4577,
+          "offset": 29728,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4578,
+          "offset": 29738,
+          "opcode": "call",
+          "operands": {
+            "hash": "0x2d550638",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 4579,
+          "offset": 29750,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x62e5692b",
+            "var_offset": 7
+          }
+        },
+        {
+          "index": 4582,
+          "offset": 29766,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4583,
+          "offset": 29776,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4584,
+          "offset": 29786,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 4608,
+            "hash": "0xcb8a8240",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4585,
+          "offset": 29796,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x62e5692b",
+            "var_offset": 7
+          }
+        },
+        {
+          "index": 4586,
+          "offset": 29806,
+          "opcode": "cne.s",
+          "operands": {}
+        },
+        {
+          "index": 4587,
+          "offset": 29808,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 67
+          }
+        },
+        {
+          "index": 4588,
+          "offset": 29814,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x62e5692b",
+            "var_offset": 7
+          }
+        },
+        {
+          "index": 4589,
+          "offset": 29824,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4590,
+          "offset": 29834,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4591,
+          "offset": 29844,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 4608,
+            "hash": "0xcb8a8240",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4592,
+          "offset": 29854,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4593,
+          "offset": 29864,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "ALT "
+          }
+        },
+        {
+          "index": 4594,
+          "offset": 29873,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$dialog_error_ok",
+            "argument_count": 4
+          }
+        },
+        {
+          "index": 4597,
+          "offset": 29889,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4598,
+          "offset": 29899,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4599,
+          "offset": 29909,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4600,
+          "offset": 29919,
+          "opcode": "stelem.s",
+          "operands": {
+            "flags": 4608,
+            "hash": "0x67a5944b",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4603,
+          "offset": 29935,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -345
+          }
+        },
+        {
+          "index": 4605,
+          "offset": 29945,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -425
+          }
+        },
+        {
+          "index": 4607,
+          "offset": 29955,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xa7934f1c",
+            "var_offset": 5
+          }
+        },
+        {
+          "index": 4608,
+          "offset": 29965,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$file_close",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 4610,
+          "offset": 29977,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "exec_ホラー年表改.csv"
+          }
+        },
+        {
+          "index": 4611,
+          "offset": 30003,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$file_open",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 4612,
+          "offset": 30011,
+          "opcode": "st.i",
+          "operands": {
+            "flags": 96,
+            "hash": "0xa7934f1c",
+            "var_offset": 5
+          }
+        },
+        {
+          "index": 4615,
+          "offset": 30027,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4616,
+          "offset": 30033,
+          "opcode": "st.i",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4618,
+          "offset": 30045,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4619,
+          "offset": 30055,
+          "opcode": "ld",
+          "operands": {
+            "hash": "0x7d8495a3",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4620,
+          "offset": 30065,
+          "opcode": "clt.i",
+          "operands": {}
+        },
+        {
+          "index": 4621,
+          "offset": 30067,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 566
+          }
+        },
+        {
+          "index": 4622,
+          "offset": 30073,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 18
+          }
+        },
+        {
+          "index": 4623,
+          "offset": 30079,
+          "opcode": "ld",
+          "operands": {
+            "flags": 99,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4625,
+          "offset": 30091,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -52
+          }
+        },
+        {
+          "index": 4627,
+          "offset": 30101,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4628,
+          "offset": 30107,
+          "opcode": "st.i",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4630,
+          "offset": 30119,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4631,
+          "offset": 30129,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 13
+          }
+        },
+        {
+          "index": 4632,
+          "offset": 30135,
+          "opcode": "clt.i",
+          "operands": {}
+        },
+        {
+          "index": 4633,
+          "offset": 30137,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 486
+          }
+        },
+        {
+          "index": 4634,
+          "offset": 30143,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 18
+          }
+        },
+        {
+          "index": 4635,
+          "offset": 30149,
+          "opcode": "ld",
+          "operands": {
+            "flags": 99,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4637,
+          "offset": 30161,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -48
+          }
+        },
+        {
+          "index": 4639,
+          "offset": 30171,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xa7934f1c",
+            "var_offset": 5
+          }
+        },
+        {
+          "index": 4640,
+          "offset": 30181,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$file_read$",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 4641,
+          "offset": 30189,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4644,
+          "offset": 30205,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4645,
+          "offset": 30215,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "[EOF]"
+          }
+        },
+        {
+          "index": 4646,
+          "offset": 30225,
+          "opcode": "ceq.s",
+          "operands": {}
+        },
+        {
+          "index": 4647,
+          "offset": 30227,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 6
+          }
+        },
+        {
+          "index": 4648,
+          "offset": 30233,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 400
+          }
+        },
+        {
+          "index": 4650,
+          "offset": 30243,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4651,
+          "offset": 30253,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4652,
+          "offset": 30259,
+          "opcode": "ceq.i",
+          "operands": {}
+        },
+        {
+          "index": 4653,
+          "offset": 30261,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 162
+          }
+        },
+        {
+          "index": 4655,
+          "offset": 30271,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4656,
+          "offset": 30281,
+          "opcode": "call",
+          "operands": {
+            "hash": "0x2d550638",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 4657,
+          "offset": 30293,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x62e5692b",
+            "var_offset": 7
+          }
+        },
+        {
+          "index": 4660,
+          "offset": 30309,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4661,
+          "offset": 30319,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4662,
+          "offset": 30329,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 4608,
+            "hash": "0xcb8a8240",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4663,
+          "offset": 30339,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x62e5692b",
+            "var_offset": 7
+          }
+        },
+        {
+          "index": 4664,
+          "offset": 30349,
+          "opcode": "cne.s",
+          "operands": {}
+        },
+        {
+          "index": 4665,
+          "offset": 30351,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 68
+          }
+        },
+        {
+          "index": 4666,
+          "offset": 30357,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x62e5692b",
+            "var_offset": 7
+          }
+        },
+        {
+          "index": 4667,
+          "offset": 30367,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4668,
+          "offset": 30377,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4669,
+          "offset": 30387,
+          "opcode": "ldelem",
+          "operands": {
+            "flags": 4608,
+            "hash": "0xcb8a8240",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4670,
+          "offset": 30397,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4671,
+          "offset": 30407,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "EXEC "
+          }
+        },
+        {
+          "index": 4672,
+          "offset": 30417,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$dialog_error_ok",
+            "argument_count": 4
+          }
+        },
+        {
+          "index": 4675,
+          "offset": 30433,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4676,
+          "offset": 30439,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4677,
+          "offset": 30449,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strleft$",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 4678,
+          "offset": 30457,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "$"
+          }
+        },
+        {
+          "index": 4679,
+          "offset": 30463,
+          "opcode": "ceq.s",
+          "operands": {}
+        },
+        {
+          "index": 4680,
+          "offset": 30465,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 70
+          }
+        },
+        {
+          "index": 4682,
+          "offset": 30475,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 999
+          }
+        },
+        {
+          "index": 4683,
+          "offset": 30481,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4684,
+          "offset": 30487,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4685,
+          "offset": 30497,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strmid$",
+            "argument_count": 3
+          }
+        },
+        {
+          "index": 4686,
+          "offset": 30505,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4687,
+          "offset": 30515,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4688,
+          "offset": 30525,
+          "opcode": "stelem.s",
+          "operands": {
+            "flags": 4608,
+            "hash": "0xe750647c",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4692,
+          "offset": 30545,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4693,
+          "offset": 30555,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4694,
+          "offset": 30561,
+          "opcode": "ceq.i",
+          "operands": {}
+        },
+        {
+          "index": 4695,
+          "offset": 30563,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 50
+          }
+        },
+        {
+          "index": 4697,
+          "offset": 30573,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0xdfd7eb1b",
+            "var_offset": 6
+          }
+        },
+        {
+          "index": 4698,
+          "offset": 30583,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x108033b0"
+          }
+        },
+        {
+          "index": 4699,
+          "offset": 30593,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x99b02f1",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4700,
+          "offset": 30603,
+          "opcode": "stelem.s",
+          "operands": {
+            "flags": 4608,
+            "hash": "0xe750647c",
+            "var_offset": -1
+          }
+        },
+        {
+          "index": 4704,
+          "offset": 30623,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -480
+          }
+        },
+        {
+          "index": 4706,
+          "offset": 30633,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -560
+          }
+        },
+        {
+          "index": 4708,
+          "offset": 30643,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xa7934f1c",
+            "var_offset": 5
+          }
+        },
+        {
+          "index": 4709,
+          "offset": 30653,
+          "opcode": "syscallp",
+          "operands": {
+            "hash": "$file_close",
+            "argument_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "entry": "yazlib.mjo",
+      "source_sha256": "6ecd32db6cf2f3e31fc3816216b69cc3b44449b2e0f4689857fc22b940dd7890",
+      "ranges_half_open": [
+        [
+          4321,
+          4381
+        ]
+      ],
+      "instructions": [
+        {
+          "index": 4321,
+          "offset": 26741,
+          "opcode": "argcheck",
+          "operands": {
+            "type_list": [
+              2
+            ]
+          }
+        },
+        {
+          "index": 4322,
+          "offset": 26746,
+          "opcode": "alloca",
+          "operands": {
+            "type_list": [
+              0,
+              0,
+              0,
+              2,
+              2
+            ]
+          }
+        },
+        {
+          "index": 4324,
+          "offset": 26759,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36",
+            "var_offset": -2
+          }
+        },
+        {
+          "index": 4325,
+          "offset": 26769,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strlen",
+            "argument_count": 1
+          }
+        },
+        {
+          "index": 4326,
+          "offset": 26777,
+          "opcode": "st.i",
+          "operands": {
+            "flags": 96,
+            "hash": "0x53a3643d",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4329,
+          "offset": 26793,
+          "opcode": "ldstr",
+          "operands": {}
+        },
+        {
+          "index": 4330,
+          "offset": 26798,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x173ccfa5",
+            "var_offset": 4
+          }
+        },
+        {
+          "index": 4333,
+          "offset": 26814,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4334,
+          "offset": 26820,
+          "opcode": "st.i",
+          "operands": {
+            "flags": 96,
+            "hash": "0x5a4221e1"
+          }
+        },
+        {
+          "index": 4336,
+          "offset": 26832,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x5a4221e1"
+          }
+        },
+        {
+          "index": 4337,
+          "offset": 26842,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x53a3643d",
+            "var_offset": 1
+          }
+        },
+        {
+          "index": 4338,
+          "offset": 26852,
+          "opcode": "clt.i",
+          "operands": {}
+        },
+        {
+          "index": 4339,
+          "offset": 26854,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 494
+          }
+        },
+        {
+          "index": 4340,
+          "offset": 26860,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 18
+          }
+        },
+        {
+          "index": 4341,
+          "offset": 26866,
+          "opcode": "ld",
+          "operands": {
+            "flags": 99,
+            "hash": "0x5a4221e1"
+          }
+        },
+        {
+          "index": 4343,
+          "offset": 26878,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -52
+          }
+        },
+        {
+          "index": 4345,
+          "offset": 26888,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4346,
+          "offset": 26894,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0x5a4221e1"
+          }
+        },
+        {
+          "index": 4347,
+          "offset": 26904,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x5ac1ba36",
+            "var_offset": -2
+          }
+        },
+        {
+          "index": 4348,
+          "offset": 26914,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strmid$",
+            "argument_count": 3
+          }
+        },
+        {
+          "index": 4349,
+          "offset": 26922,
+          "opcode": "st.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x66e6a052",
+            "var_offset": 3
+          }
+        },
+        {
+          "index": 4352,
+          "offset": 26938,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x66e6a052",
+            "var_offset": 3
+          }
+        },
+        {
+          "index": 4353,
+          "offset": 26948,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "＜＞０１２３４５６７８９０－＋＊／？！＃＄％＆’（）＝￣｜［］　ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ：；"
+          }
+        },
+        {
+          "index": 4354,
+          "offset": 27125,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strstr",
+            "argument_count": 2
+          }
+        },
+        {
+          "index": 4355,
+          "offset": 27133,
+          "opcode": "st.i",
+          "operands": {
+            "flags": 96,
+            "hash": "0xa52e4dfd",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4358,
+          "offset": 27149,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xa52e4dfd",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4359,
+          "offset": 27159,
+          "opcode": "ldc.i",
+          "operands": {}
+        },
+        {
+          "index": 4360,
+          "offset": 27165,
+          "opcode": "cge.i",
+          "operands": {}
+        },
+        {
+          "index": 4361,
+          "offset": 27167,
+          "opcode": "brfalse",
+          "operands": {
+            "jump_offset": 141
+          }
+        },
+        {
+          "index": 4363,
+          "offset": 27177,
+          "opcode": "ldc.i",
+          "operands": {
+            "int_value": 1
+          }
+        },
+        {
+          "index": 4364,
+          "offset": 27183,
+          "opcode": "ld",
+          "operands": {
+            "flags": 96,
+            "hash": "0xa52e4dfd",
+            "var_offset": 2
+          }
+        },
+        {
+          "index": 4365,
+          "offset": 27193,
+          "opcode": "ldstr",
+          "operands": {
+            "string": "<>01234567890-+*/?!#$%&'()=~|[] abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ:;"
+          }
+        },
+        {
+          "index": 4366,
+          "offset": 27284,
+          "opcode": "syscall",
+          "operands": {
+            "hash": "$strmid$",
+            "argument_count": 3
+          }
+        },
+        {
+          "index": 4367,
+          "offset": 27292,
+          "opcode": "st.add.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x173ccfa5",
+            "var_offset": 4
+          }
+        },
+        {
+          "index": 4370,
+          "offset": 27308,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": 30
+          }
+        },
+        {
+          "index": 4372,
+          "offset": 27318,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x66e6a052",
+            "var_offset": 3
+          }
+        },
+        {
+          "index": 4373,
+          "offset": 27328,
+          "opcode": "st.add.s",
+          "operands": {
+            "flags": 608,
+            "hash": "0x173ccfa5",
+            "var_offset": 4
+          }
+        },
+        {
+          "index": 4377,
+          "offset": 27348,
+          "opcode": "br",
+          "operands": {
+            "jump_offset": -488
+          }
+        },
+        {
+          "index": 4379,
+          "offset": 27358,
+          "opcode": "ld",
+          "operands": {
+            "flags": 608,
+            "hash": "0x173ccfa5",
+            "var_offset": 4
+          }
+        },
+        {
+          "index": 4380,
+          "offset": 27368,
+          "opcode": "ret",
+          "operands": {}
+        }
+      ]
+    }
+  ],
+  "contracts": {
+    "base": "Read 80x13; wrap character cells at 6 content chars per 7-unit row and dates at 12 per13; stored in 0xcb8a8240; fontout at index274 and event draw consumers.",
+    "alt": "Wrapped at12 per13 into0x67a5944b; used in hover-detail bubble.",
+    "exec": "Only $-prefixed non-header cells are episode commands (strip leading $ into0xe750647c); row0 stored as notification display names and read at4028.",
+    "date_equality": "Base column0 normalized by yazlib0x2d550638; ALT/EXEC normalized column0 must match base or native error dialog is raised. Translate all three in lockstep.",
+    "terminators": "Preserve [EOF] exact including the extra final-column sentinels in ALT/EXEC.",
+    "quoted_linefeeds": "Source has actual LF in quoted cells. file_read helper handles quoted segments; preserve quote shape and LF counts.",
+    "protected_cells": 2765,
+    "leading_check": "Conservative target guard uses characters at or above U+3000 for base/alt starts; fullwidth digits and original-style corner quotes retained."
+  },
+  "runtime_verified": false
+}

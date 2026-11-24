@@ -1,0 +1,20 @@
+{
+  "candidate": "ui-trial-v12",
+  "source_scenario_sha256": "040db0bf4ab872d47d3a6c06057a0c94f2056e8e8855fd9ae6e9d5a522913625",
+  "test_scenario_sha256": "9b9316d11988d1bceb8e07fffe2822cdd9e866db63f4d8f58d518dacc34a9a82",
+  "entry": "start.mjo",
+  "instruction_index": 1601,
+  "old_callee": "0xf698f3c0 initial title dispatcher",
+  "test_callee": "0x62a65754 chronicle",
+  "argument_count": 1,
+  "argument_contract": "Matches original extra-menu call at1176 (one supplied argument; chronicle has zero fixed argcheck parameters)",
+  "unchanged_existing_argument_value": true,
+  "allowed_byte_region": [
+    11068,
+    4
+  ],
+  "all_other_instruction_bytes_identical": true,
+  "release_candidate_not_modified": true,
+  "restore_after_test": true,
+  "prior_harness_result": "Initial boot never reached the new-game chapter-selection branch at1628; not a timeline test."
+}

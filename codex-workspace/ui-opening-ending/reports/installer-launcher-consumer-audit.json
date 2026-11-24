@@ -1,0 +1,24 @@
+{
+  "source_sha256": "d0bdfac202c48da0bb4491b16b66c587fa6efb4ac3eb32dbb816922da74ec2e3",
+  "rea_evidence": "evidence/installer-setup-consumers-rea.json",
+  "snapshot": "evidence/installer-setup-audit.snapshot.json",
+  "observations": [
+    {
+      "claim": "Startup title builder0x401830 supplies both CreateMutexA0x401db3 and SetWindowTextA0x401fb4; do not translate format0x4141dc independently.",
+      "basis": "REA ev_7591378f4f832e72ac1a2c904dd99eebd11e47ff375d088d945f5587aec132f3 +ev_dc808f828070d3a8fd7257f273d2121853e888e558f6788c68fb68f951f45471; Capstone label-init excerpt"
+    },
+    {
+      "claim": "Launcher six literals supplied to SetDlgItemTextA; action IDs stored independently in0x4192c8 table.",
+      "basis": "REA xrefs/typedinstruction0x40213e +Capstone .text0x401fc1..0x402152; Ghidra function at0x40213e unavailable, no full function decompilation claimed."
+    },
+    {
+      "claim": "Installer notice/confirmation helpers0x405a30/0x405ac0 invoke SetForegroundWindow and MessageBoxA.",
+      "basis": "REA procedure_pseudo_code; installer must not be run in active desktop for review."
+    }
+  ],
+  "limitations": [
+    "Data-string scan has false positives and can omit U+3000 strings; static scan not full surface coverage.",
+    "Only setup.exe consumer subset audited. No installer EXE executed.",
+    "Snapshot retains evidence but0 primitive/workflow entries; do not claim it avoids future analysis."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-qa\\final-v2-review25-65d94060",
+  "launcher": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\Start-Korean-Review.ps1",
+  "proof_sha256": "9028e99f77882cb411a4e482bbd6cb5cb90c383c8a409168c4d3e0174327fb99",
+  "status": "prepared_static_pass_user_visual_pending",
+  "independent_review": {
+    "reviewer": "review_cumulative_integration",
+    "result": "PASS",
+    "scope": "QA launcher/path/hash linkage;25 exact compiled display blocks, controls, modes0/2/4; final2 choices; documentation limitations. Read-only, no UI execution."
+  }
+}

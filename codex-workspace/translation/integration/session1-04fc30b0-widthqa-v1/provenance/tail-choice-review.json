@@ -1,0 +1,45 @@
+{
+  "translator_model": "Codex internal",
+  "coordinator_thread_id": "01a16335-92a2-79c2-814f-63275a46f2b1",
+  "updated_at": "2026-10-23T04:21:00+09:00",
+  "source_script": "shinya_kyoutu.mjo",
+  "source_sha256": "5ad3db4596047f345848fe509d0b08b19925aed96f77d45804a56d4c12fae1f8",
+  "source_packet": "body-parallel/source/script-103.json",
+  "source_packet_sha256": "95ab789bcc06dc1afa2304e00944853a8484d81057f1ec558036408d295eafa9",
+  "batch": "lane-1/batches/shinya_kyoutu-u0531-u0630.json",
+  "batch_sha256": "d8b7994b2cb61b1757e9355c72720c2d7a366f79615812eb2a8e889f3eb16524",
+  "status": "semantic_accepted_consumer_verified_integration_pending",
+  "runtime_verified": false,
+  "records": [
+    {
+      "id": "shinya_kyoutu.mjo::006409",
+      "source": "真帆子の誘いを断る",
+      "target": "마호코의 제안을 거절한다",
+      "translator_model": "Codex internal",
+      "agent_id": "/root/lane_1",
+      "status": "semantic_accepted_integration_pending",
+      "consumer": "first display string argument among two ldstr values passed to $0238c9e1(2), $select_color@MENU",
+      "evidence": "Disassembly6409-6411: exact choice literal then alternative literal then select_color(2). Both occur after last owned u0630 ctrl w at index6400; no next u0631. Existing contract forbids assigning out-of-bounds ID to unit, so no synthetic owner unit is created. Script key/exec branches unchanged. Coordinator instructed separate audit preservation.",
+      "semantic_reviewer": "/root",
+      "semantic_review_evidence": "Coordinator compared both source/targets and independently confirmed 0x102cc/0x102e3 literals feed 0x102fa select_color after final ctrl w at0x1028e. No synthetic unit assignment.",
+      "instruction_index": 6409,
+      "offset": 66252
+    },
+    {
+      "id": "shinya_kyoutu.mjo::006410",
+      "source": "真帆子の誘いに乗る",
+      "target": "마호코의 제안을 받아들인다",
+      "translator_model": "Codex internal",
+      "agent_id": "/root/lane_1",
+      "status": "semantic_accepted_integration_pending",
+      "consumer": "second display string argument among two ldstr values passed to $0238c9e1(2), $select_color@MENU",
+      "evidence": "Disassembly6409-6411 exact pair; follows last text-unit boundary and requires explicit integration handling. maho_04 opening agrees to movie while sina_04 declines; no runtime/index-to-option mapping asserted.",
+      "semantic_reviewer": "/root",
+      "semantic_review_evidence": "Coordinator compared both source/targets and independently confirmed 0x102cc/0x102e3 literals feed 0x102fa select_color after final ctrl w at0x1028e. No synthetic unit assignment.",
+      "instruction_index": 6410,
+      "offset": 66275
+    }
+  ],
+  "boundary_evidence": "Final unit u0630 fields6393/6397 ends with ctrl w at0x1028e(index6400). Strings6409/6410 at0x102cc/0x102e3 feed call $0238c9e1(2), select_color@MENU, at0x102fa. No subsequent unit exists.",
+  "integration_requirement": "Keep separate from unit-owned inline_records until integration accepts a script-tail consumer binding. Preserve script keys and executable branch control. Current session-translation stages ordinary unit/inline records only; these two targets require this sidecar."
+}

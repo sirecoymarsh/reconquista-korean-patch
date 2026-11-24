@@ -1,0 +1,64 @@
+{
+ "mode": "routes",
+ "started": "2026-11-22 06:34:07",
+ "nv_before": 1133,
+ "runs": [
+  {
+   "label": "routes-38792-re",
+   "pid": 30884,
+   "steps": [
+    {
+     "step": "route 38792",
+     "t": 692.0,
+     "order": 37792,
+     "chapter": "?",
+     "ending": true,
+     "arrive_s": 67.9,
+     "items": 1,
+     "stall_enter_presents": 0,
+     "stall_rclick_presents": 0,
+     "title_timeout": true,
+     "presents_after_arrival": 0,
+     "clicks": 368,
+     "ok": true,
+     "mem_mb": 1052
+    }
+   ],
+   "dialogs": [],
+   "mem_mb_start": 958,
+   "routes": [
+    {
+     "i": 38792,
+     "order": 37792,
+     "chapter": "?",
+     "ending": true,
+     "arrive_s": 67.9,
+     "items": 1,
+     "stall_enter_presents": 0,
+     "stall_rclick_presents": 0,
+     "title_timeout": true,
+     "presents_after_arrival": 0,
+     "clicks": 368,
+     "ok": true,
+     "mem_mb": 1052
+    }
+   ],
+   "new_review_folders": [
+    "savedata-review-30884-254148375"
+   ],
+   "mem_mb_end": 1052,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.0,
+    "loud_spans": [],
+    "errors": []
+   },
+   "log_mb": 1.7,
+   "log_errors": []
+  }
+ ],
+ "nv_after": 1133,
+ "ended": "2026-11-22 06:45:42"
+}

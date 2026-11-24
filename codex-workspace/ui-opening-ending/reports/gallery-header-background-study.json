@@ -1,0 +1,36 @@
+{
+  "accepted": false,
+  "method": "Compare4 blank edge columns228,235,575,581 over ROI[228,18,354,35] with the original row template.",
+  "results": [
+    {
+      "entries": [
+        "cgm_off",
+        "cgm_on"
+      ],
+      "reference_columns_equal": false,
+      "difference_pixels_each": 12111,
+      "nonzero_perimeter_counts": [
+        345,
+        348,
+        0,
+        35
+      ]
+    },
+    {
+      "entries": [
+        "kaisou_off",
+        "kaisou_on"
+      ],
+      "reference_columns_equal": false,
+      "difference_pixels_each": 9651,
+      "nonzero_perimeter_counts": [
+        0,
+        343,
+        0,
+        30
+      ]
+    }
+  ],
+  "asset_changes": 0,
+  "conclusion": "Not a uniform row background. No reconstruction accepted; source artwork retained."
+}

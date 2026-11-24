@@ -1,0 +1,1329 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "entries": [
+    {
+      "entry": "config_off.rct",
+      "source_sha256": "a798da6cb3cff18aa217f9723a501f4f8395e4dc404e2572bbf2c1c1d96a5107",
+      "prior_payload_sha256": "23b74f281410091716e77eef2cb3920797fff3e06f2a52b19993044b25e9c4bb",
+      "output_sha256": "f2393c16cd9a0530d70aeae903fc87fb9b0dbeeb96a515acca064977fb154bad",
+      "strings": [
+        {
+          "id": "fastdata.arc::config_off.rct::audio-bgm",
+          "source": "off",
+          "target": "끔",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            225,
+            287
+          ],
+          "consumer_rect": [
+            220,
+            282,
+            56,
+            27
+          ],
+          "owned_source_region": [
+            235,
+            288,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            235,
+            257
+          ],
+          "source_glyph_pixels": 197,
+          "source_glyph_bbox": [
+            237,
+            289,
+            257,
+            301
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            241,
+            290,
+            252,
+            301
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_off.rct::audio-voice",
+          "source": "off",
+          "target": "끔",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            225,
+            334
+          ],
+          "consumer_rect": [
+            220,
+            329,
+            56,
+            27
+          ],
+          "owned_source_region": [
+            235,
+            335,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            235,
+            257
+          ],
+          "source_glyph_pixels": 197,
+          "source_glyph_bbox": [
+            237,
+            336,
+            257,
+            348
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            241,
+            337,
+            252,
+            348
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_off.rct::audio-se",
+          "source": "off",
+          "target": "끔",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            225,
+            381
+          ],
+          "consumer_rect": [
+            220,
+            376,
+            56,
+            27
+          ],
+          "owned_source_region": [
+            235,
+            382,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            235,
+            257
+          ],
+          "source_glyph_pixels": 197,
+          "source_glyph_bbox": [
+            237,
+            383,
+            257,
+            395
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            241,
+            384,
+            252,
+            395
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_off.rct::audio-kureha",
+          "source": "off",
+          "target": "끔",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            144,
+            435
+          ],
+          "consumer_rect": [
+            142,
+            430,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            154,
+            436,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            154,
+            176
+          ],
+          "source_glyph_pixels": 197,
+          "source_glyph_bbox": [
+            156,
+            437,
+            176,
+            449
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            160,
+            438,
+            171,
+            449
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_off.rct::audio-momiji",
+          "source": "off",
+          "target": "끔",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            144,
+            483
+          ],
+          "consumer_rect": [
+            142,
+            478,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            154,
+            484,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            154,
+            176
+          ],
+          "source_glyph_pixels": 197,
+          "source_glyph_bbox": [
+            156,
+            485,
+            176,
+            497
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            160,
+            486,
+            171,
+            497
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_off.rct::audio-mahoko",
+          "source": "off",
+          "target": "끔",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            144,
+            527
+          ],
+          "consumer_rect": [
+            142,
+            523,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            154,
+            528,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            154,
+            176
+          ],
+          "source_glyph_pixels": 197,
+          "source_glyph_bbox": [
+            156,
+            529,
+            176,
+            541
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            160,
+            530,
+            171,
+            541
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_off.rct::audio-shiina",
+          "source": "off",
+          "target": "끔",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            498,
+            436
+          ],
+          "consumer_rect": [
+            496,
+            432,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            508,
+            437,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            508,
+            530
+          ],
+          "source_glyph_pixels": 197,
+          "source_glyph_bbox": [
+            510,
+            438,
+            530,
+            450
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            514,
+            439,
+            525,
+            450
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_off.rct::audio-masaki",
+          "source": "off",
+          "target": "끔",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            498,
+            483
+          ],
+          "consumer_rect": [
+            496,
+            478,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            508,
+            484,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            508,
+            530
+          ],
+          "source_glyph_pixels": 197,
+          "source_glyph_bbox": [
+            510,
+            485,
+            530,
+            497
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            514,
+            486,
+            525,
+            497
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_off.rct::audio-others",
+          "source": "off",
+          "target": "끔",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            498,
+            526
+          ],
+          "consumer_rect": [
+            496,
+            522,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            508,
+            527,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            508,
+            530
+          ],
+          "source_glyph_pixels": 197,
+          "source_glyph_bbox": [
+            510,
+            528,
+            530,
+            540
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            514,
+            529,
+            525,
+            540
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        }
+      ],
+      "protected_pixel_diff_count": 0,
+      "original_mask_preserved": true,
+      "source_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 1773,
+      "persisted_rgb_exact": true
+    },
+    {
+      "entry": "config_on.rct",
+      "source_sha256": "cb4354a1fe28b29fd351aaf06b61cc973bfa4c5a7817628d79b9b580b00b755b",
+      "prior_payload_sha256": "52c312fcaadc3d13da5efd3c868910baa4c05024785c1e98e7704591454033a2",
+      "output_sha256": "7593dd648c4980d3c7592d967bfa6c1bc01d6ba5216992d7a659c4817cc3a20b",
+      "strings": [
+        {
+          "id": "fastdata.arc::config_on.rct::audio-bgm",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            225,
+            287
+          ],
+          "consumer_rect": [
+            220,
+            282,
+            56,
+            27
+          ],
+          "owned_source_region": [
+            235,
+            288,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            235,
+            257
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            236,
+            291,
+            256,
+            301
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            241,
+            289,
+            251,
+            301
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_on.rct::audio-voice",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            225,
+            334
+          ],
+          "consumer_rect": [
+            220,
+            329,
+            56,
+            27
+          ],
+          "owned_source_region": [
+            235,
+            335,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            235,
+            257
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            236,
+            338,
+            256,
+            348
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            241,
+            336,
+            251,
+            348
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_on.rct::audio-se",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            225,
+            381
+          ],
+          "consumer_rect": [
+            220,
+            376,
+            56,
+            27
+          ],
+          "owned_source_region": [
+            235,
+            382,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            235,
+            257
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            236,
+            385,
+            256,
+            395
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            241,
+            383,
+            251,
+            395
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_on.rct::audio-kureha",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            144,
+            435
+          ],
+          "consumer_rect": [
+            142,
+            430,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            154,
+            436,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            154,
+            176
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            155,
+            439,
+            175,
+            449
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            160,
+            437,
+            170,
+            449
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_on.rct::audio-momiji",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            144,
+            483
+          ],
+          "consumer_rect": [
+            142,
+            478,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            154,
+            484,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            154,
+            176
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            155,
+            487,
+            175,
+            497
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            160,
+            485,
+            170,
+            497
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_on.rct::audio-mahoko",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            144,
+            527
+          ],
+          "consumer_rect": [
+            142,
+            523,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            154,
+            528,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            154,
+            176
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            155,
+            531,
+            175,
+            541
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            160,
+            529,
+            170,
+            541
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_on.rct::audio-shiina",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            498,
+            436
+          ],
+          "consumer_rect": [
+            496,
+            432,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            508,
+            437,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            508,
+            530
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            510,
+            440,
+            530,
+            450
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            514,
+            438,
+            524,
+            450
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_on.rct::audio-masaki",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            498,
+            483
+          ],
+          "consumer_rect": [
+            496,
+            478,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            508,
+            484,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            508,
+            530
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            510,
+            487,
+            530,
+            497
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            514,
+            485,
+            524,
+            497
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_on.rct::audio-others",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            498,
+            526
+          ],
+          "consumer_rect": [
+            496,
+            522,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            508,
+            527,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            508,
+            530
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            510,
+            530,
+            530,
+            540
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            514,
+            528,
+            524,
+            540
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": true
+        }
+      ],
+      "protected_pixel_diff_count": 0,
+      "original_mask_preserved": true,
+      "source_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 1557,
+      "persisted_rgb_exact": true
+    },
+    {
+      "entry": "config_push.rct",
+      "source_sha256": "92d6b5e0e6a91bfce75163e5cd71db119a519a85a0c91ee31e488471ef21ecb8",
+      "prior_payload_sha256": "de705347f808bf1c422ae4b2e570567b8340cae57379838954f6545b5cbd51e7",
+      "output_sha256": "dbc0d709ea80c5ae01e3a91a3312944b6c2cd25f58b10bc082a466595ee3a19b",
+      "strings": [
+        {
+          "id": "fastdata.arc::config_push.rct::audio-bgm",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            225,
+            287
+          ],
+          "consumer_rect": [
+            220,
+            282,
+            56,
+            27
+          ],
+          "owned_source_region": [
+            235,
+            288,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            235,
+            257
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            236,
+            291,
+            256,
+            301
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            241,
+            289,
+            251,
+            301
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_push.rct::audio-voice",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            225,
+            334
+          ],
+          "consumer_rect": [
+            220,
+            329,
+            56,
+            27
+          ],
+          "owned_source_region": [
+            235,
+            335,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            235,
+            257
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            236,
+            338,
+            256,
+            348
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            241,
+            336,
+            251,
+            348
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_push.rct::audio-se",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            225,
+            381
+          ],
+          "consumer_rect": [
+            220,
+            376,
+            56,
+            27
+          ],
+          "owned_source_region": [
+            235,
+            382,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            235,
+            257
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            236,
+            385,
+            256,
+            395
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            241,
+            383,
+            251,
+            395
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_push.rct::audio-kureha",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            144,
+            435
+          ],
+          "consumer_rect": [
+            142,
+            430,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            154,
+            436,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            154,
+            176
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            155,
+            439,
+            175,
+            449
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            160,
+            437,
+            170,
+            449
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_push.rct::audio-momiji",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            144,
+            483
+          ],
+          "consumer_rect": [
+            142,
+            478,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            154,
+            484,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            154,
+            176
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            155,
+            487,
+            175,
+            497
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            160,
+            485,
+            170,
+            497
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_push.rct::audio-mahoko",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            144,
+            527
+          ],
+          "consumer_rect": [
+            142,
+            523,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            154,
+            528,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            154,
+            176
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            155,
+            531,
+            175,
+            541
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            160,
+            529,
+            170,
+            541
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_push.rct::audio-shiina",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            498,
+            436
+          ],
+          "consumer_rect": [
+            496,
+            432,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            508,
+            437,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            508,
+            530
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            510,
+            440,
+            530,
+            450
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            514,
+            438,
+            524,
+            450
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_push.rct::audio-masaki",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            498,
+            483
+          ],
+          "consumer_rect": [
+            496,
+            478,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            508,
+            484,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            508,
+            530
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            510,
+            487,
+            530,
+            497
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            514,
+            485,
+            524,
+            497
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_push.rct::audio-others",
+          "source": "on",
+          "target": "켬",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            498,
+            526
+          ],
+          "consumer_rect": [
+            496,
+            522,
+            49,
+            27
+          ],
+          "owned_source_region": [
+            508,
+            527,
+            23,
+            14
+          ],
+          "blank_reference_columns": [
+            508,
+            530
+          ],
+          "source_glyph_pixels": 173,
+          "source_glyph_bbox": [
+            510,
+            530,
+            530,
+            540
+          ],
+          "original_alpha_values": [
+            255
+          ],
+          "source_mask_perimeter_clear": true,
+          "restoration_method": "Each button uses its own exact identical left/right blank scanlines; all source ink including dark outline erased. Original top reflection, frame and surrounding texture unchanged.",
+          "target_ink_bbox": [
+            514,
+            528,
+            524,
+            540
+          ],
+          "text_baseline_alignment": "same text origin y=-1 relative to17px button; common glyph bottom at14",
+          "runtime_visual_pass": false
+        }
+      ],
+      "protected_pixel_diff_count": 0,
+      "original_mask_preserved": true,
+      "source_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 1557,
+      "persisted_rgb_exact": true
+    }
+  ],
+  "output_hashes": {
+    "config_off.rct": "f2393c16cd9a0530d70aeae903fc87fb9b0dbeeb96a515acca064977fb154bad",
+    "config_on.rct": "7593dd648c4980d3c7592d967bfa6c1bc01d6ba5216992d7a659c4817cc3a20b",
+    "config_push.rct": "dbc0d709ea80c5ae01e3a91a3312944b6c2cd25f58b10bc082a466595ee3a19b"
+  },
+  "semantic_labels": 27,
+  "font_sha256": "6bcb2a0703aa137e874fc2dffa85f6c21ba9a67fa329e81b8c801663af7e992a",
+  "font_size": 12,
+  "structural_pass": true,
+  "visual_pass": true,
+  "runtime_review": {
+    "status": "partial",
+    "report": "reports/background-runtime-v22-validation.json",
+    "state_matches": "reports/background-runtime-v22-control-states.json",
+    "full_state_coverage": false
+  },
+  "asset_completion": "partial config; all9 audio toggle labels across off/on/push authored; settings names and navigation still pending",
+  "evidence": [
+    "reports/config-audio-blank-references.json",
+    "reports/config-audio-plate-study.json"
+  ],
+  "on_push_target_geometry_equal": true,
+  "visual_review": {
+    "reviewer": "Codex internal",
+    "at_utc": "2026-10-22T23:38:30.451100+00:00",
+    "views": [
+      "preview/config_off.png",
+      "preview/off-source-clean-final-4x.png",
+      "preview/on-source-clean-final-4x.png",
+      "preview/push-source-clean-final-4x.png"
+    ],
+    "result": "All27 labels fit and remain legible at native size. Nine complete clean plates per state show no residual Latin ink or outline; original upper reflections and button geometry retained. On/push positions agree."
+  }
+}

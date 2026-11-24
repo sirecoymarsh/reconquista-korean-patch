@@ -1,0 +1,368 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "entries": [
+    {
+      "entry": "クロニクル枠_null.rct",
+      "source_sha256": "528401554e30ff32a67b2f2fb7daaef24b0cab5a42151be429241a76de90cf41",
+      "output_sha256": "eedbbce66c23543734b706a70316843ee647d70018879047696211d4f0e5859a",
+      "source_region": [
+        148,
+        31,
+        153,
+        27
+      ],
+      "source_glyph_pixels": 1031,
+      "source_ink_bounds": [
+        152,
+        35,
+        298,
+        53
+      ],
+      "target_ink_bounds": [
+        206,
+        34,
+        245,
+        54
+      ],
+      "clean_plate": "Uniform original black opaque background, verified empty perimeter; exact glyph mask excludes ivy and rules",
+      "protected_pixel_diff_count": 0,
+      "mask_payload_unchanged": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::クロニクル枠_null.rct::caption",
+          "source": "CHRONICLE",
+          "target": "연표",
+          "translator_model": "Codex internal"
+        }
+      ]
+    },
+    {
+      "entry": "クロニクル枠_off.rct",
+      "source_sha256": "e52c35956bff568b1aad4325a066f6a6ea31f8c9053aa1ea6d387852f2e7319b",
+      "output_sha256": "c9c5d0045841dded67e986199608f1392b895af548b1d2959bada95ae661069d",
+      "source_region": [
+        148,
+        31,
+        153,
+        27
+      ],
+      "source_glyph_pixels": 1031,
+      "source_ink_bounds": [
+        152,
+        35,
+        298,
+        53
+      ],
+      "target_ink_bounds": [
+        206,
+        34,
+        245,
+        54
+      ],
+      "clean_plate": "Uniform original black opaque background, verified empty perimeter; exact glyph mask excludes ivy and rules",
+      "protected_pixel_diff_count": 0,
+      "mask_payload_unchanged": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::クロニクル枠_off.rct::caption",
+          "source": "CHRONICLE",
+          "target": "연표",
+          "translator_model": "Codex internal"
+        }
+      ]
+    },
+    {
+      "entry": "クロニクル枠_on.rct",
+      "source_sha256": "caa631d2dfb27c7d8512df762929474d2414b32320014c839e3c15712edf3e3e",
+      "output_sha256": "e9f748ba5057f2f550e0f1330f05c1439522fe52f571b8525aa3989f5692e45f",
+      "source_region": [
+        148,
+        31,
+        153,
+        27
+      ],
+      "source_glyph_pixels": 1031,
+      "source_ink_bounds": [
+        152,
+        35,
+        298,
+        53
+      ],
+      "target_ink_bounds": [
+        206,
+        34,
+        245,
+        54
+      ],
+      "clean_plate": "Uniform original black opaque background, verified empty perimeter; exact glyph mask excludes ivy and rules",
+      "protected_pixel_diff_count": 0,
+      "mask_payload_unchanged": true,
+      "strings": [
+        {
+          "id": "fastdata.arc::クロニクル枠_on.rct::caption",
+          "source": "CHRONICLE",
+          "target": "연표",
+          "translator_model": "Codex internal"
+        }
+      ]
+    },
+    {
+      "entry": "小カレンダーフォント.rct",
+      "mask_entry": "小カレンダーフォント_.rc8",
+      "source_sha256": "e8dadbae102e1bc97b1e1a6b80fea39299e9899bd10a636dbf3fdf0b9696f8af",
+      "source_mask_sha256": "5111e5b1d7eccafb2c7beeb12aa5c07e15d6c4c4037319e0610a2e8726e9be56",
+      "output_sha256": "9555293f3d629d4832eb0fc6a8a61aa82708b60d7a4dba6494c6db62ef3a14fa",
+      "output_mask_sha256": "f671e20f4e9c3879ad762133f78cb5cfd4f915ad6d488a20b154b0bb579623e0",
+      "source_glyph_pixels": 3912,
+      "source_regions": [
+        [
+          0,
+          2,
+          288,
+          28
+        ],
+        [
+          0,
+          65,
+          288,
+          28
+        ]
+      ],
+      "clean_plate": "Original transparent text-only atlas: restore alpha0 and neutral white RGB only at complete source glyph mask; hidden original pixels elsewhere preserved",
+      "palette_preserved": true,
+      "alpha_quantization": 17,
+      "protected_pixel_diff_count": 0,
+      "digit_rows_unchanged": true,
+      "consumer": {
+        "script": "sightchange.mjo",
+        "sheet_crop": [
+          0,
+          0,
+          288,
+          134
+        ],
+        "weekday_slots_x": [
+          129,
+          171,
+          208,
+          244
+        ],
+        "weekday_rows_y": [
+          2,
+          65
+        ],
+        "weekday_crop_size": [
+          40,
+          28
+        ],
+        "instruction_indices": [
+          1984,
+          1986,
+          1988,
+          1990,
+          1996,
+          1998,
+          2005,
+          2006,
+          2010,
+          2173,
+          2174,
+          2177,
+          2178
+        ],
+        "first_three_weekdays": "Original atlas words translated in their native slots; not found in current day1–4 consumer switch"
+      },
+      "strings": [
+        {
+          "id": "fastdata.arc::小カレンダーフォント.rct::palette0::SUN",
+          "source": "SUN",
+          "target": "일",
+          "translator_model": "Codex internal",
+          "target_ink_bounds": [
+            15,
+            6,
+            30,
+            25
+          ]
+        },
+        {
+          "id": "fastdata.arc::小カレンダーフォント.rct::palette0::MON",
+          "source": "MON",
+          "target": "월",
+          "translator_model": "Codex internal",
+          "target_ink_bounds": [
+            58,
+            6,
+            74,
+            25
+          ]
+        },
+        {
+          "id": "fastdata.arc::小カレンダーフォント.rct::palette0::TUE",
+          "source": "TUE",
+          "target": "화",
+          "translator_model": "Codex internal",
+          "target_ink_bounds": [
+            98,
+            6,
+            115,
+            25
+          ]
+        },
+        {
+          "id": "fastdata.arc::小カレンダーフォント.rct::palette0::WED",
+          "source": "WED",
+          "target": "수",
+          "translator_model": "Codex internal",
+          "target_ink_bounds": [
+            140,
+            7,
+            157,
+            25
+          ]
+        },
+        {
+          "id": "fastdata.arc::小カレンダーフォント.rct::palette0::THU",
+          "source": "THU",
+          "target": "목",
+          "translator_model": "Codex internal",
+          "target_ink_bounds": [
+            182,
+            7,
+            199,
+            25
+          ]
+        },
+        {
+          "id": "fastdata.arc::小カレンダーフォント.rct::palette0::FRI",
+          "source": "FRI",
+          "target": "금",
+          "translator_model": "Codex internal",
+          "target_ink_bounds": [
+            218,
+            7,
+            235,
+            25
+          ]
+        },
+        {
+          "id": "fastdata.arc::小カレンダーフォント.rct::palette0::SAT",
+          "source": "SAT",
+          "target": "토",
+          "translator_model": "Codex internal",
+          "target_ink_bounds": [
+            256,
+            8,
+            273,
+            23
+          ]
+        },
+        {
+          "id": "fastdata.arc::小カレンダーフォント.rct::palette1::SUN",
+          "source": "SUN",
+          "target": "일",
+          "translator_model": "Codex internal",
+          "target_ink_bounds": [
+            15,
+            70,
+            30,
+            89
+          ]
+        },
+        {
+          "id": "fastdata.arc::小カレンダーフォント.rct::palette1::MON",
+          "source": "MON",
+          "target": "월",
+          "translator_model": "Codex internal",
+          "target_ink_bounds": [
+            58,
+            70,
+            74,
+            89
+          ]
+        },
+        {
+          "id": "fastdata.arc::小カレンダーフォント.rct::palette1::TUE",
+          "source": "TUE",
+          "target": "화",
+          "translator_model": "Codex internal",
+          "target_ink_bounds": [
+            98,
+            70,
+            115,
+            89
+          ]
+        },
+        {
+          "id": "fastdata.arc::小カレンダーフォント.rct::palette1::WED",
+          "source": "WED",
+          "target": "수",
+          "translator_model": "Codex internal",
+          "target_ink_bounds": [
+            140,
+            70,
+            157,
+            88
+          ]
+        },
+        {
+          "id": "fastdata.arc::小カレンダーフォント.rct::palette1::THU",
+          "source": "THU",
+          "target": "목",
+          "translator_model": "Codex internal",
+          "target_ink_bounds": [
+            182,
+            70,
+            199,
+            88
+          ]
+        },
+        {
+          "id": "fastdata.arc::小カレンダーフォント.rct::palette1::FRI",
+          "source": "FRI",
+          "target": "금",
+          "translator_model": "Codex internal",
+          "target_ink_bounds": [
+            218,
+            70,
+            235,
+            88
+          ]
+        },
+        {
+          "id": "fastdata.arc::小カレンダーフォント.rct::palette1::SAT",
+          "source": "SAT",
+          "target": "토",
+          "translator_model": "Codex internal",
+          "target_ink_bounds": [
+            256,
+            72,
+            273,
+            87
+          ]
+        }
+      ]
+    }
+  ],
+  "output_hashes": {
+    "クロニクル枠_null.rct": "eedbbce66c23543734b706a70316843ee647d70018879047696211d4f0e5859a",
+    "クロニクル枠_off.rct": "c9c5d0045841dded67e986199608f1392b895af548b1d2959bada95ae661069d",
+    "クロニクル枠_on.rct": "e9f748ba5057f2f550e0f1330f05c1439522fe52f571b8525aa3989f5692e45f",
+    "小カレンダーフォント.rct": "9555293f3d629d4832eb0fc6a8a61aa82708b60d7a4dba6494c6db62ef3a14fa",
+    "小カレンダーフォント_.rc8": "f671e20f4e9c3879ad762133f78cb5cfd4f915ad6d488a20b154b0bb579623e0"
+  },
+  "semantic_labels": 17,
+  "structural_pass": true,
+  "visual_pass": true,
+  "runtime_pass": false,
+  "remaining_surface_scope": "Other chronicle raster buttons, nameplates and date/name corner labels remain untranslated; day badges remain pending.",
+  "visual_review": {
+    "reviewer": "Codex internal primary",
+    "artifacts": [
+      "preview/chronicle-source-clean-final-3x.png",
+      "preview/小カレンダーフォント.png"
+    ],
+    "result": "Caption source fully erased, black background and ivy ornament intact. Korean weekdays readable at native size with red/ice palettes; digit rows unchanged. Current consumer crops contain the corresponding target glyphs."
+  }
+}

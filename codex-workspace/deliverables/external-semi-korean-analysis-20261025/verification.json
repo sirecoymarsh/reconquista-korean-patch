@@ -1,0 +1,42 @@
+{
+  "status": "pass",
+  "download_zip_crc": "reused prior pass; no re-run",
+  "download_sha256": "af67300f98ad69fc6a5602925a75be2b6e731219cac99e76ce47e1f03c54fc89",
+  "source_overlay_scripts": 182,
+  "reviewed_sample_unique_ids": 300,
+  "confirmed_findings": 13,
+  "finding_source_and_target_fragments_exist": true,
+  "column_anomaly_rows": 10,
+  "report_files_exist": true,
+  "runtime_verified": false,
+  "all_source_semantics_verified": false,
+  "original_game_modified": false,
+  "analysis_author": "Codex internal",
+  "artifacts": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\external-semi-korean-analysis-20261025\\레콘퀴스타-준한글-분석.txt",
+      "bytes": 8750,
+      "sha256": "17a1ccbc87c91e0f069849b00e61bc868da36b27c5a426b9df582979093f9c33"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\external-semi-korean-analysis-20261025\\레콘퀴스타-준한글-분석.html",
+      "bytes": 15226,
+      "sha256": "45c25b3df5451b60d66afd9f684d3702d887f39d637e8bfeaf587c714ff50c2e"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\external-semi-korean-analysis-20261025\\findings.json",
+      "bytes": 20259,
+      "sha256": "87690d37fab36ea8c58230b116d3d0c57b5ae24d29dca13b79d87f67222aae9e"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\external-semi-korean-analysis-20261025\\structural-summary.json",
+      "bytes": 3234,
+      "sha256": "eb4ee795979461403451f7263c9f3035ff9278a0ac5e27ada35ef96d2ff503d8"
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\external-semi-korean-analysis-20261025\\download-manifest.json",
+      "bytes": 3296,
+      "sha256": "e000c3c8af4b6ef8b09c1b50fc92391611ec467e55ddcd18f13e83b68fbc0e85"
+    }
+  ]
+}

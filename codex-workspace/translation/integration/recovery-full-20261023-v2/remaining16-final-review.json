@@ -1,0 +1,241 @@
+{
+  "translator_model": "Codex internal",
+  "date": "2026-10-23T09:20:09.564915+09:00",
+  "reviewed_units": 16,
+  "additional_restored_units": 0,
+  "remaining_original_units": 16,
+  "basis": "Individual full semantic units, explicit referents, source and adjacent dialogue, not school assumptions or blanket scene-level exclusion. Seven connecting utterances are distinguished from seven direct descriptions; comparison and exposure-viewing meta reference counted separately.",
+  "decisions": [
+    {
+      "unit": "masa_15.mjo::u0134",
+      "decision": "retain_original",
+      "category": "연결 대사",
+      "reason_ko": "아이에게 성인의 신체를 만져 보도록 제안하는 기능. 대상·실행이 앞뒤에서 특정되어 일반 제안으로 분리하기 어려움.",
+      "context_ids": "u0131,u0138",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "source_field_ids": [
+        "masa_15.mjo::001606"
+      ],
+      "prior_reason_corrected": true,
+      "final_decision": "retain_original_after_final_context_review",
+      "reviewer": "primary Codex internal + independent read-only review_opening_late"
+    },
+    {
+      "unit": "masa_15.mjo::u0135",
+      "decision": "retain_original",
+      "category": "연결 대사",
+      "reason_ko": "앞선 접촉 제안의 허락을 확인하는 대사. 문장 자체에 직접 묘사는 없다는 점을 정정.",
+      "context_ids": "u0134–0136",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "source_field_ids": [
+        "masa_15.mjo::001621"
+      ],
+      "prior_reason_corrected": true,
+      "final_decision": "retain_original_after_final_context_review",
+      "reviewer": "primary Codex internal + independent read-only review_opening_late"
+    },
+    {
+      "unit": "masa_15.mjo::u0136",
+      "decision": "retain_original",
+      "category": "연결 대사",
+      "reason_ko": "앞선 특정 접촉을 허락하며 다음 실행으로 연결됨. 자체 직접 묘사는 없음.",
+      "context_ids": "u0134–0138",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "source_field_ids": [
+        "masa_15.mjo::001631"
+      ],
+      "prior_reason_corrected": true,
+      "final_decision": "retain_original_after_final_context_review",
+      "reviewer": "primary Codex internal + independent read-only review_opening_late"
+    },
+    {
+      "unit": "masa_15.mjo::u0137",
+      "decision": "retain_original",
+      "category": "연결 대사",
+      "reason_ko": "허락에 대한 기쁨·감사가 바로 다음 실행을 구성. 직접 신체 묘사라고 기록했던 범주는 정정.",
+      "context_ids": "u0136,u0138",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "source_field_ids": [
+        "masa_15.mjo::001646"
+      ],
+      "prior_reason_corrected": true,
+      "final_decision": "retain_original_after_final_context_review",
+      "reviewer": "primary Codex internal + independent read-only review_opening_late"
+    },
+    {
+      "unit": "masa_15.mjo::u0138",
+      "decision": "retain_original",
+      "category": "직접 묘사",
+      "reason_ko": "아이가 성인 신체에 접촉하는 대상과 행동을 구체적으로 묘사함.",
+      "context_ids": "u0134–0137,u0139",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "source_field_ids": [
+        "masa_15.mjo::001656",
+        "masa_15.mjo::001660"
+      ],
+      "prior_reason_corrected": true,
+      "final_decision": "retain_original_after_final_context_review",
+      "reviewer": "primary Codex internal + independent read-only review_opening_late"
+    },
+    {
+      "unit": "masa_15.mjo::u0139",
+      "decision": "retain_original",
+      "category": "직접 묘사",
+      "reason_ko": "직전 구체적 접촉을 표현하는 효과음. 일반 소리로 분리하면 의미가 달라짐.",
+      "context_ids": "u0138,u0140–0141",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "source_field_ids": [
+        "masa_15.mjo::001668"
+      ],
+      "prior_reason_corrected": true,
+      "final_decision": "retain_original_after_final_context_review",
+      "reviewer": "primary Codex internal + independent read-only review_opening_late"
+    },
+    {
+      "unit": "masa_15.mjo::u0140",
+      "decision": "retain_original",
+      "category": "연결 대사",
+      "reason_ko": "진행 중인 특정 접촉의 느낌을 묻는 기능. 문장 자체에 직접 묘사는 없음.",
+      "context_ids": "u0138–0141",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "source_field_ids": [
+        "masa_15.mjo::001678"
+      ],
+      "prior_reason_corrected": true,
+      "final_decision": "retain_original_after_final_context_review",
+      "reviewer": "primary Codex internal + independent read-only review_opening_late"
+    },
+    {
+      "unit": "masa_15.mjo::u0141",
+      "decision": "retain_original",
+      "category": "직접 묘사",
+      "reason_ko": "해당 접촉 대상의 촉감과 감각을 설명함.",
+      "context_ids": "u0138–0140",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "source_field_ids": [
+        "masa_15.mjo::001693"
+      ],
+      "prior_reason_corrected": true,
+      "final_decision": "retain_original_after_final_context_review",
+      "reviewer": "primary Codex internal + independent read-only review_opening_late"
+    },
+    {
+      "unit": "masa_15.mjo::u0142",
+      "decision": "retain_original",
+      "category": "직접 묘사",
+      "reason_ko": "같은 접촉이 반복되는 효과음.",
+      "context_ids": "u0141,u0144–0145",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "source_field_ids": [
+        "masa_15.mjo::001701"
+      ],
+      "prior_reason_corrected": true,
+      "final_decision": "retain_original_after_final_context_review",
+      "reviewer": "primary Codex internal + independent read-only review_opening_late"
+    },
+    {
+      "unit": "masa_15.mjo::u0144",
+      "decision": "retain_original",
+      "category": "직접 묘사",
+      "reason_ko": "같은 신체 대상의 촉감을 반복해 설명함.",
+      "context_ids": "u0138,u0142–0145",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "source_field_ids": [
+        "masa_15.mjo::001726"
+      ],
+      "prior_reason_corrected": true,
+      "final_decision": "retain_original_after_final_context_review",
+      "reviewer": "primary Codex internal + independent read-only review_opening_late"
+    },
+    {
+      "unit": "masa_15.mjo::u0145",
+      "decision": "retain_original",
+      "category": "직접 묘사",
+      "reason_ko": "반복되는 구체적 접촉의 효과음.",
+      "context_ids": "u0144,u0146",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "source_field_ids": [
+        "masa_15.mjo::001734"
+      ],
+      "prior_reason_corrected": true,
+      "final_decision": "retain_original_after_final_context_review",
+      "reviewer": "primary Codex internal + independent read-only review_opening_late"
+    },
+    {
+      "unit": "masa_15.mjo::u0146",
+      "decision": "retain_original",
+      "category": "연결 대사",
+      "reason_ko": "접촉 위치에 대한 반응으로 장면을 계속 구성. 위치 상세·흥분을 원문 이상으로 확정하지는 않음.",
+      "context_ids": "u0145,u0148,u0151",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "source_field_ids": [
+        "masa_15.mjo::001744"
+      ],
+      "prior_reason_corrected": true,
+      "final_decision": "retain_original_after_final_context_review",
+      "reviewer": "primary Codex internal + independent read-only review_opening_late"
+    },
+    {
+      "unit": "masa_15.mjo::u0148",
+      "decision": "retain_original",
+      "category": "연결 대사",
+      "reason_ko": "진행 중인 접촉의 강도를 조절해 달라는 요청. 자체 새로운 신체 묘사는 없음.",
+      "context_ids": "u0145–0146,u0149",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "source_field_ids": [
+        "masa_15.mjo::001769"
+      ],
+      "prior_reason_corrected": true,
+      "final_decision": "retain_original_after_final_context_review",
+      "reviewer": "primary Codex internal + independent read-only review_opening_late"
+    },
+    {
+      "unit": "masa_15.mjo::u0151",
+      "decision": "retain_original",
+      "category": "직접 묘사",
+      "reason_ko": "앞선 신체 접촉을 구체적으로 회고하고 성인 상대와 비교함.",
+      "context_ids": "u0138–0150",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "source_field_ids": [
+        "masa_15.mjo::001799",
+        "masa_15.mjo::001803"
+      ],
+      "prior_reason_corrected": true,
+      "final_decision": "retain_original_after_final_context_review",
+      "reviewer": "primary Codex internal + independent read-only review_opening_late"
+    },
+    {
+      "unit": "masa_16.mjo::u0795",
+      "decision": "retain_original",
+      "category": "성적 비교",
+      "reason_ko": "현재 성인 장면의 접촉 선호를 앞선 아이의 행동과 연결해 부녀가 닮았다고 비교. 일반 외모·성격 유사성 문맥이 아님.",
+      "context_ids": "masa_16u0793–0798;masa_15u0138–0141",
+      "source_sha256": "727b4feb1b881790918123741eefe8291330ffc90479eb3fe00b7ebb4d5989c8",
+      "source_field_ids": [
+        "masa_16.mjo::008656"
+      ],
+      "prior_reason_corrected": true,
+      "final_decision": "retain_original_after_final_context_review",
+      "reviewer": "primary Codex internal + independent read-only review_opening_late"
+    },
+    {
+      "unit": "st_yana.mjo::u0021",
+      "decision": "retain_original",
+      "category": "노출 감상 메타 대사",
+      "reason_ko": "대화창을 계속 숨기면 진행되지 않는다는 지적이며 노출 감상을 권하는 문장은 아님. 다만 인라인000265 및 다음 목욕 대사와 결합하면 아이의 노출 장면을 감상 대상으로 삼는 메타 농담이므로 원문 유지.",
+      "context_ids": "inline000265;u0022;startu0344–0415",
+      "source_sha256": "98d095c25e061f6c86b90c63710b7b2e41604ffdc3ca6ffb63fe85b508ac598d",
+      "source_field_ids": [
+        "st_yana.mjo::000263",
+        "st_yana.mjo::000267",
+        "st_yana.mjo::000271",
+        "st_yana.mjo::000275"
+      ],
+      "prior_reason_corrected": true,
+      "final_decision": "retain_original_after_final_context_review",
+      "reviewer": "primary Codex internal + independent read-only review_opening_late"
+    }
+  ],
+  "independent_review": "review_opening_late: read-only source/context review, no translations written",
+  "user_visual_deferred": true
+}

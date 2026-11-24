@@ -1,0 +1,161 @@
+[
+  {
+    "state": "off",
+    "result": [
+      {
+        "dilation_radius": 0,
+        "known_conflicts": 342,
+        "missing_pixels": 1,
+        "total_scope": 430,
+        "source_glyph_pixels": [
+          122,
+          133,
+          90,
+          98,
+          83,
+          98,
+          75,
+          146
+        ]
+      },
+      {
+        "dilation_radius": 1,
+        "known_conflicts": 8,
+        "missing_pixels": 117,
+        "total_scope": 430,
+        "source_glyph_pixels": [
+          332,
+          337,
+          244,
+          255,
+          211,
+          252,
+          196,
+          358
+        ]
+      },
+      {
+        "dilation_radius": 2,
+        "known_conflicts": 0,
+        "missing_pixels": 279,
+        "total_scope": 430,
+        "source_glyph_pixels": [
+          418,
+          428,
+          329,
+          360,
+          295,
+          353,
+          293,
+          426
+        ]
+      }
+    ]
+  },
+  {
+    "state": "on",
+    "result": [
+      {
+        "dilation_radius": 0,
+        "known_conflicts": 342,
+        "missing_pixels": 2,
+        "total_scope": 430,
+        "source_glyph_pixels": [
+          123,
+          134,
+          91,
+          99,
+          84,
+          99,
+          76,
+          147
+        ]
+      },
+      {
+        "dilation_radius": 1,
+        "known_conflicts": 8,
+        "missing_pixels": 154,
+        "total_scope": 430,
+        "source_glyph_pixels": [
+          338,
+          346,
+          262,
+          274,
+          232,
+          269,
+          218,
+          359
+        ]
+      },
+      {
+        "dilation_radius": 2,
+        "known_conflicts": 0,
+        "missing_pixels": 310,
+        "total_scope": 430,
+        "source_glyph_pixels": [
+          418,
+          428,
+          350,
+          373,
+          322,
+          372,
+          322,
+          428
+        ]
+      }
+    ]
+  },
+  {
+    "state": "push",
+    "result": [
+      {
+        "dilation_radius": 0,
+        "known_conflicts": 342,
+        "missing_pixels": 2,
+        "total_scope": 430,
+        "source_glyph_pixels": [
+          123,
+          134,
+          91,
+          99,
+          84,
+          99,
+          76,
+          147
+        ]
+      },
+      {
+        "dilation_radius": 1,
+        "known_conflicts": 8,
+        "missing_pixels": 154,
+        "total_scope": 430,
+        "source_glyph_pixels": [
+          338,
+          346,
+          262,
+          274,
+          232,
+          269,
+          218,
+          359
+        ]
+      },
+      {
+        "dilation_radius": 2,
+        "known_conflicts": 0,
+        "missing_pixels": 310,
+        "total_scope": 430,
+        "source_glyph_pixels": [
+          418,
+          428,
+          350,
+          373,
+          322,
+          372,
+          322,
+          428
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,219 @@
+{
+  "date": "2026-10-25",
+  "reviewer_model": "Codex internal",
+  "translator_model": "Codex internal",
+  "verdict": "Current project translation is stronger overall in the reviewed sample, especially semantic accuracy and Korean readability.",
+  "sample_units": 300,
+  "identical_source_units": 294,
+  "version_difference_units": 6,
+  "previously_identified_issue_units_checked": 13,
+  "previously_identified_issues_absent_in_current": 13,
+  "snapshot": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\recovery-full-20261023-v2\\integrated-targets.json",
+  "snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+  "review_method": {
+    "selected_sample_units": 300,
+    "selection": "15 purposive continuous scene windows; nonrandom, not blind, not an overall error-rate estimate",
+    "reviewer_model": "Codex internal",
+    "translator_model": "Codex internal",
+    "current_translation_provenance": "Existing project targets, not newly translated in this comparison",
+    "inline_handling": "Separate ldstr/ruby targets checked where present; raw concatenated text fields alone are not a rendered line",
+    "spacing_handling": "Joins between text fields are not rendered-layout or whitespace tests",
+    "current_source_version": "Original project source, compared to official 1.01 with version deltas retained",
+    "runtime_audio_check_performed": false,
+    "current_build": "runtime-body-ui-20261024-v19-menus-4k",
+    "build_identity_snapshot_hash_match": "Verified earlier this turn; reused, not rehashed here"
+  },
+  "known_issue_comparison": [
+    {
+      "finding_id": "F01",
+      "unit": "00_レコンキスタ_start.mjo::u0036",
+      "source_fragment": "なんせ",
+      "semi_korean_fragment": "어차피",
+      "current_korean_fields": "전에 모미지를 데리고 그곳에 갔을 때는이 아이가 아직 말도 못 하던 시절이었으니까.",
+      "current_inline": [],
+      "review_result": "The identified issue is absent from the current translation.",
+      "semantic_review": "Manual Codex comparison; this is not an automatic correctness assertion."
+    },
+    {
+      "finding_id": "F02",
+      "unit": "00_レコンキスタ_start.mjo::u0209",
+      "source_fragment": "なんせ",
+      "semi_korean_fragment": "어차피",
+      "current_korean_fields": "「그야 알죠. 여긴 워낙 사람이 없어서　모르는 사람이 오면 바로 알아보거든요」",
+      "current_inline": [],
+      "review_result": "The identified issue is absent from the current translation.",
+      "semantic_review": "Manual Codex comparison; this is not an automatic correctness assertion."
+    },
+    {
+      "finding_id": "F03",
+      "unit": "00_レコンキスタ_start.mjo::u0436",
+      "source_fragment": "ご無沙汰しています",
+      "semi_korean_fragment": "당치 않습니다",
+      "current_korean_fields": "「아뇨, 오랜만에 뵙습니다. 」",
+      "current_inline": [
+        [
+          "とう",
+          " "
+        ],
+        [
+          "義父",
+          "아버님"
+        ]
+      ],
+      "review_result": "The identified issue is absent from the current translation.",
+      "semantic_review": "Manual Codex comparison; this is not an automatic correctness assertion."
+    },
+    {
+      "finding_id": "F04",
+      "unit": "00_レコンキスタ_start.mjo::u0438",
+      "source_fragment": "顎ヒゲ",
+      "semi_korean_fragment": "구레나룻",
+      "current_korean_fields": "온화한 얼굴에 멋진 턱수염을 기른 초로의 신사.",
+      "current_inline": [],
+      "review_result": "The identified issue is absent from the current translation.",
+      "semantic_review": "Manual Codex comparison; this is not an automatic correctness assertion."
+    },
+    {
+      "finding_id": "F05",
+      "unit": "00_レコンキスタ_start_2.mjo::u0309",
+      "source_fragment": "さりげなく",
+      "semi_korean_fragment": "몰래",
+      "current_korean_fields": "「슬쩍 제 바람을 말해 봤는데　무슨 문제라도 있나요?」",
+      "current_inline": [],
+      "review_result": "The identified issue is absent from the current translation.",
+      "semantic_review": "Manual Codex comparison; this is not an automatic correctness assertion."
+    },
+    {
+      "finding_id": "F06",
+      "unit": "00_レコンキスタ_start_2.mjo::u0310",
+      "source_fragment": "さりげなく",
+      "semi_korean_fragment": "몰래",
+      "current_korean_fields": "「영원히라니 무슨 소리야!　아침부터 굿바이 포에버 선언이냐?　게다가 전혀 슬쩍이 아니잖아!」",
+      "current_inline": [],
+      "review_result": "The identified issue is absent from the current translation.",
+      "semantic_review": "Manual Codex comparison; this is not an automatic correctness assertion."
+    },
+    {
+      "finding_id": "F07",
+      "unit": "kureha_05.mjo::u0005",
+      "source_fragment": "支障をきたしかねない",
+      "semi_korean_fragment": "지장이 올 수밖에 없다",
+      "current_korean_fields": "이러다가는 일상생활에도 지장이 생길지 모른다.",
+      "current_inline": [],
+      "review_result": "The identified issue is absent from the current translation.",
+      "semantic_review": "Manual Codex comparison; this is not an automatic correctness assertion."
+    },
+    {
+      "finding_id": "F08",
+      "unit": "kureha_05.mjo::u0007",
+      "source_fragment": "性格がよく出てる",
+      "semi_korean_fragment": "성격 참 좋다고",
+      "current_korean_fields": "내가 생각해도 성격이 잘 드러나는 것 같았다.결국 나는 무슨 일이든 쉽게 포기하지 못한다.",
+      "current_inline": [],
+      "review_result": "The identified issue is absent from the current translation.",
+      "semantic_review": "Manual Codex comparison; this is not an automatic correctness assertion."
+    },
+    {
+      "finding_id": "F09",
+      "unit": "kureha_05.mjo::u0018",
+      "source_fragment": "何者か",
+      "semi_korean_fragment": "몇 명인지",
+      "current_korean_fields": "나는 잠깐 망설이다가 근처에 몸을 숨기기로 했다.누군지 모르니 일단 상황을 지켜보자.",
+      "current_inline": [],
+      "review_result": "The identified issue is absent from the current translation.",
+      "semantic_review": "Manual Codex comparison; this is not an automatic correctness assertion."
+    },
+    {
+      "finding_id": "F10",
+      "unit": "last_kako01.mjo::u0019",
+      "source_fragment": "放心状態",
+      "semi_korean_fragment": "실신 상태",
+      "current_korean_fields": "몇 시간이고 기다린 끝에 그 나무뿌리가 아무 효과도 없다는 걸 깨달았을 때…나는 소리 내어 울었다.울고 울고, 더는 울 수 없을 만큼 울고 나서나는 거의 넋이 나간 채 다시 시로의 주검에 흙을 덮는다――",
+      "current_inline": [],
+      "review_result": "The identified issue is absent from the current translation.",
+      "semantic_review": "Manual Codex comparison; this is not an automatic correctness assertion."
+    },
+    {
+      "finding_id": "F11",
+      "unit": "kureha_ep.mjo::u0015",
+      "source_fragment": "湿気",
+      "semi_korean_fragment": "온기",
+      "current_korean_fields": "여전히 습하고 후텁지근했지만바다가 보이면 그 습기마저 상쾌하게 느껴지니 신기하다.",
+      "current_inline": [],
+      "review_result": "The identified issue is absent from the current translation.",
+      "semantic_review": "Manual Codex comparison; this is not an automatic correctness assertion."
+    },
+    {
+      "finding_id": "F12",
+      "unit": "masa_ep.mjo::u0019",
+      "source_fragment": "影響を受けている",
+      "semi_korean_fragment": "영향을 주고 있다",
+      "current_korean_fields": "요즘 둘은 진짜 자매 같아졌고,모미지는 분명 요시모리에게 영향을 받고 있었다.",
+      "current_inline": [],
+      "review_result": "The identified issue is absent from the current translation.",
+      "semantic_review": "Manual Codex comparison; this is not an automatic correctness assertion."
+    },
+    {
+      "finding_id": "F13",
+      "unit": "kureha_ep.mjo::u0010",
+      "source_fragment": "ドクダミ茶",
+      "semi_korean_fragment": "삼백초 차",
+      "current_korean_fields": "「으음, 있지… 어성초차!」",
+      "current_inline": [],
+      "review_result": "The identified issue is absent from the current translation.",
+      "semantic_review": "Manual Codex comparison; this is not an automatic correctness assertion."
+    }
+  ],
+  "current_limitations": [
+    {
+      "id": "C01",
+      "type": "foreign_word_preservation",
+      "unit": "00_レコンキスタ_start.mjo::u0222",
+      "source": "ＯＫＯＫ",
+      "semi": "OKOK",
+      "current": "좋아, 좋아!",
+      "assessment": "Current Korean reads naturally, but the user’s 2026-10-25 foreign-word-preservation rule favors retaining 오케이. This does not imply that the older translation ignored a rule that did not yet exist."
+    },
+    {
+      "id": "C02",
+      "type": "foreign_word_preservation",
+      "unit": "00_レコンキスタ_start_2.mjo::u0316",
+      "source": "ギャグ",
+      "semi": "개그",
+      "current": "농담",
+      "assessment": "Meaning is broadly retained; the chosen foreign word is not. Existing patch better preserves this particular feature."
+    },
+    {
+      "id": "C03",
+      "type": "register_nuance",
+      "unit": "00_レコンキスタ_start.mjo::u0216",
+      "source": "槙野です。よろしく",
+      "semi": "마키노에요. 잘 부탁해",
+      "current": "난 마키노야. 잘 부탁해",
+      "assessment": "The original momentary polite self-introduction is smoothed into casual speech. Surrounding casual speech can justify the choice, so this is a nuance loss rather than a proven relationship error."
+    },
+    {
+      "id": "C04",
+      "type": "wordplay",
+      "units": [
+        "masa_06.mjo::u0016",
+        "masa_06.mjo::u0020",
+        "masa_06.mjo::u0022"
+      ],
+      "source": "神 / 紙, both kami",
+      "semi": "신 / 진로조사지",
+      "current": "신(카미) / 진로 조사서 / 진로 조사 설문지",
+      "assessment": "The current first-half pronunciation note attempts to preserve the pun, but the paper-side homophone remains unclear in Korean. Neither version fully carries the wordplay in the inspected context."
+    },
+    {
+      "id": "C05",
+      "type": "literary_interpretation",
+      "unit": "last_gendai01.mjo::u0017",
+      "source": "死者を共有",
+      "semi": "죽은 이를 공유",
+      "current": "죽은 이를 함께 그리워하며",
+      "assessment": "Current wording is smoother but narrows an intentionally abstract shared-dead metaphor to longing. A stylistic/interpretive tradeoff, not counted as a definite mistranslation."
+    }
+  ],
+  "evidence": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\research\\semi-korean-patch-20261025\\outputs101\\current-comparison-300-reviewed.json"
+}

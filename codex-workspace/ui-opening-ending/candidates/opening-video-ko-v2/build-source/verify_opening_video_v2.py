@@ -1,0 +1,25 @@
+from pathlib import Path
+import json,subprocess,sys,hashlib,numpy as np
+U=Path.cwd();O=U/'candidates/opening-video-ko-v2';E=O/'evidence';src=U.parent/'research/disc/movie/Recon_OP800_H.mpg';out=O/'payloads/movie/Recon_OP800_H.mpg';bin=Path('F:/DOWN/ffmpeg-7.1.1-essentials_build/ffmpeg-7.1.1-essentials_build/bin');flags=subprocess.CREATE_NO_WINDOW
+
+def call(args):return subprocess.run(args,stdout=subprocess.PIPE,stderr=subprocess.PIPE,check=True,creationflags=flags)
+def probe(path,prefix):
+ meta=json.loads(call([str(bin/'ffprobe.exe'),'-v','error','-show_streams','-show_format','-count_frames','-of','json',str(path)]).stdout)
+ video=json.loads(call([str(bin/'ffprobe.exe'),'-v','error','-select_streams','v:0','-show_frames','-show_entries','frame=pts,best_effort_timestamp_time,pkt_duration_time','-of','json',str(path)]).stdout)
+ audio=json.loads(call([str(bin/'ffprobe.exe'),'-v','error','-select_streams','a:0','-show_packets','-show_entries','packet=pts_time,duration_time,size','-of','json',str(path)]).stdout)
+ ah=call([str(bin/'ffmpeg.exe'),'-v','error','-i',str(path),'-map','0:a:0','-c','copy','-f','hash','-hash','sha256','-']).stdout.decode().strip().split('=')[-1]
+ data={'path':str(path),'metadata':meta,'video':video['frames'],'audio':audio['packets'],'audio_elementary_sha256':ah};(E/f'{prefix}-timing-and-audio.json').write_text(json.dumps(data,indent=2)+'\n',encoding='utf-8');return data
+sp=E/'source-timing-and-audio.json';source=json.loads(sp.read_text()) if sp.exists() else probe(src,'source')
+if '--source-only' in sys.argv:
+ print(json.dumps({'source_frames':len(source['video']),'source_audio_packets':len(source['audio']),'source_audio_sha256':source['audio_elementary_sha256']},indent=2));raise SystemExit
+final=probe(out,'output')
+def values(d,key):return np.array([float(x[key]) for x in d],np.float64)
+spts=values(source['video'],'best_effort_timestamp_time');opts=values(final['video'],'best_effort_timestamp_time');assert len(spts)==len(opts)==3037
+relative_error=np.abs((spts-spts[0])-(opts-opts[0]));sv=next(s for s in source['metadata']['streams'] if s['codec_type']=='video');ov=next(s for s in final['metadata']['streams'] if s['codec_type']=='video');sa=next(s for s in source['metadata']['streams'] if s['codec_type']=='audio');oa=next(s for s in final['metadata']['streams'] if s['codec_type']=='audio');audio_equal=source['audio_elementary_sha256']==final['audio_elementary_sha256'];assert audio_equal
+assert ov['codec_name']=='mpeg1video' and ov['width']==800 and ov['height']==600 and ov['pix_fmt']=='yuv420p'
+assert len(source['audio'])==len(final['audio'])
+a1=values(source['audio'],'pts_time');a2=values(final['audio'],'pts_time');audio_relerr=np.max(np.abs((a1-a1[0])-(a2-a2[0])));start_delta_source=a1[0]-spts[0];start_delta_output=a2[0]-opts[0]
+report={'source_sha256':next(r['sha256'] for r in json.loads((U/'research/op-ed/source-inventory.json').read_text(encoding='utf-8'))['sources'] if r['id']=='movie::Recon_OP800_H.mpg'),'output_sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'video_frames':len(opts),'codec':ov['codec_name'],'size':[ov['width'],ov['height']],'pixel_format':ov['pix_fmt'],'source_r_frame_rate':sv['r_frame_rate'],'source_avg_frame_rate':sv['avg_frame_rate'],'output_r_frame_rate':ov['r_frame_rate'],'output_avg_frame_rate':ov['avg_frame_rate'],'video_relative_pts_max_error_seconds':float(relative_error.max()),'source_video_frame_steps':np.unique(np.round(np.diff(spts),6)).tolist(),'output_video_frame_steps':np.unique(np.round(np.diff(opts),6)).tolist(),'video_last_relative_pts_source':float(spts[-1]-spts[0]),'video_last_relative_pts_output':float(opts[-1]-opts[0]),'video_last_frame_duration_source':source['video'][-1].get('pkt_duration_time'),'video_last_frame_duration_output':final['video'][-1].get('pkt_duration_time'),'audio_packets':len(final['audio']),'audio_elementary_sha256':final['audio_elementary_sha256'],'audio_elementary_payload_identical':audio_equal,'audio_relative_pts_max_error_seconds':float(audio_relerr),'source_video_start':float(spts[0]),'source_audio_start':float(a1[0]),'output_video_start':float(opts[0]),'output_audio_start':float(a2[0]),'source_audio_minus_video_start':float(start_delta_source),'output_audio_minus_video_start':float(start_delta_output),'source_audio_last_end_relative':float(a1[-1]+float(source['audio'][-1]['duration_time'])-a1[0]),'output_audio_last_end_relative':float(a2[-1]+float(final['audio'][-1]['duration_time'])-a2[0]),'source_format_duration':source['metadata']['format']['duration'],'output_format_duration':final['metadata']['format']['duration'],'runtime_game':'not run; user pending'}
+report['timing_pass']=bool(relative_error.max()<2/90000 and abs(start_delta_source-start_delta_output)<2/90000 and audio_relerr<2/90000)
+report['status']='technical_pass' if report['timing_pass'] else 'timing_review_required'
+(E/'technical-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print(json.dumps(report,ensure_ascii=False,indent=2))

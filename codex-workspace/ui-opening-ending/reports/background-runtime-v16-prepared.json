@@ -1,0 +1,33 @@
+{
+  "candidate": "ui-trial-v16",
+  "native_candidate": "native-ui-v5",
+  "created_utc": "2026-10-22T20:24:33.438046+00:00",
+  "source_fastdata_sha256": "f7d8af1b433ce8f7d6d1a56bd377a613c26848b54e1bf3bdfeecf372cd6c152b",
+  "runtime_fastdata_sha256": "3ce78e1289542b59333f915a275cfe8d42d450c46294010ce44a94d5b870ad5b",
+  "source_scenario_sha256": "040db0bf4ab872d47d3a6c06057a0c94f2056e8e8855fd9ae6e9d5a522913625",
+  "test_scenario_sha256": "b920263991f9b63ea25992f0192ff0e7ca0ff4c61093f17307a682ee0e03cdf8",
+  "runtime_env_changes": {
+    "TITLEBAR": "Reconquista-UI-BG-v16",
+    "REG_LOCAL": "Reconquista-UI-BG-v11-20261023",
+    "MUSICVOL": "0",
+    "SOUNDVOL": "0",
+    "VOICEVOL": "0",
+    "ISPLAYMUSIC": "0"
+  },
+  "test_entry": {
+    "entry": "start.mjo",
+    "instruction_index": 1601,
+    "old_callee": "0xf698f3c0 initial title dispatcher",
+    "new_callee": "0xf932f5fc full extra menu",
+    "allowed_byte_region": [
+      11068,
+      4
+    ],
+    "caller_argument_count": 1,
+    "callee_fixed_argcheck_parameters": 0,
+    "note": "Test-only entry bypasses title unlock gate without editing persistent progress flags. Existing caller operand/argument frame retained; verify actual execution."
+  },
+  "candidate_untouched": true,
+  "restore_scenario_after_test": true,
+  "reused_font_804_and_archives": true
+}

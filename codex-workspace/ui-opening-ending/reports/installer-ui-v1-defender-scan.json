@@ -1,0 +1,38 @@
+{
+  "candidate": "installer-ui-v1",
+  "results": [
+    {
+      "after_sha256": "41B8AD992A52075F8848FD7A97823A90CA37DE1D702692A8AB5BDC99D50E9D7A",
+      "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\scan\\installer-ui-v1\\setup.exe",
+      "exit_code": 0,
+      "ended": "2026-10-23T06:01:05.4377269+09:00",
+      "pass": true,
+      "sha256": "41B8AD992A52075F8848FD7A97823A90CA37DE1D702692A8AB5BDC99D50E9D7A",
+      "output": "Scan starting...\nScan finished.\nScanning P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\scan\\installer-ui-v1\\setup.exe found no threats.",
+      "started": "2026-10-23T06:01:05.2409466+09:00",
+      "file": "setup.exe"
+    },
+    {
+      "after_sha256": "CD928F4CCBDF9FE69A9D647D6C5F2DB2345AF8932BD12FEBCA8F9AEC5D05A1A0",
+      "path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\scan\\installer-ui-v1\\install.exe",
+      "exit_code": 0,
+      "ended": "2026-10-23T06:01:05.5708447+09:00",
+      "pass": true,
+      "sha256": "CD928F4CCBDF9FE69A9D647D6C5F2DB2345AF8932BD12FEBCA8F9AEC5D05A1A0",
+      "output": "Scan starting...\nScan finished.\nScanning P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\scan\\installer-ui-v1\\install.exe found no threats.",
+      "started": "2026-10-23T06:01:05.4789678+09:00",
+      "file": "install.exe"
+    }
+  ],
+  "status": {
+    "AMServiceEnabled": true,
+    "AntivirusEnabled": true,
+    "RealTimeProtectionEnabled": true,
+    "AMEngineVersion": "1.1.26090.9",
+    "AMProductVersion": "4.18.26090.9",
+    "AntivirusSignatureVersion": "1.461.145.0",
+    "AntivirusSignatureLastUpdated": "2026-10-22T08:33:44+09:00"
+  },
+  "pass": true,
+  "command": "MpCmdRun -Scan -ScanType 3 -File <exact candidate copy> -DisableRemediation"
+}

@@ -1,0 +1,4341 @@
+{
+  "translator_model": "Codex internal",
+  "scope": "all catalog occurrences of current glossary words only; NOT exhaustive all-word approval",
+  "terms": {
+    "霊園": {
+      "canonical_lemmas": [
+        "공원묘지"
+      ],
+      "occurrences": [
+        {
+          "id": "masa_14.mjo::002411",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai01.mjo::000048",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai01.mjo::000073",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai01.mjo::000422",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai01.mjo::001237",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::000895",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::001987",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::002024",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::002145",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::002186",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::002210",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::002223",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::002228",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::002264",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::003297",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai09.mjo::000081",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai09.mjo::001173",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::005080",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "　공원묘지 관리라 해도 산책 삼아 돌아보는 정도니까」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::005099",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「그렇군요… 공원묘지 일도 힘드시겠어요」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::005108",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "섬 한쪽에 있는 공원묘지를 관리하고 계신다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::006168",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "　공원묘지 쪽으로 찾아뵐게요」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai02.mjo::003699",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000498",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000516",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000541",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000575",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000593",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::001024",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::004268",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::004731",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai03.mjo::000925",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai03.mjo::001156",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai03.mjo::001190",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai03.mjo::001448",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai03.mjo::001775",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last04.mjo::000329",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::000576",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::000581",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::000594",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::000732",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_17.mjo::000832",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_17.mjo::001791",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::001555",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::001560",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::001613",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::001627",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::001909",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::001984",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::001999",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::002034",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::002043",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::002054",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::002069",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::002153",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::002179",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::002225",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai12.mjo::000342",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_07.mjo::000430",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_07.mjo::000451",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_07.mjo::000460",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_07.mjo::000629",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_07.mjo::001013",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai13.mjo::000345",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai06.mjo::000157",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::005860",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai04.mjo::000915",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai04.mjo::001093",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai10.mjo::001720",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::003513",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        }
+      ]
+    },
+    "墓": {
+      "canonical_lemmas": [
+        "무덤"
+      ],
+      "occurrences": [
+        {
+          "id": "sina_epi.mjo::000941",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai01.mjo::000057",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai01.mjo::000073",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai01.mjo::000082",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai01.mjo::000253",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai01.mjo::000263",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai01.mjo::000561",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai01.mjo::000979",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai14.mjo::000053",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::002232",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai09.mjo::000448",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai09.mjo::000469",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai09.mjo::000488",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai09.mjo::000569",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::006180",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「그래, 기다리겠네. 무덤 말고는 아무것도 없지만",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_kako01.mjo::000202",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_kako01.mjo::000228",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_kako01.mjo::000252",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_kako01.mjo::000346",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000502",
+          "opcode": "text",
+          "count": 2,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000597",
+          "opcode": "text",
+          "count": 2,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000602",
+          "opcode": "text",
+          "count": 2,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000654",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000659",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000672",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::001099",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_17.mjo::000875",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_17.mjo::000944",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_17.mjo::001162",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_17.mjo::001199",
+          "opcode": "text",
+          "count": 2,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_17.mjo::001213",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_17.mjo::001218",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_17.mjo::001275",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_17.mjo::001300",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::001525",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::001539",
+          "opcode": "text",
+          "count": 2,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::001550",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::001608",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::001631",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::001847",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::001865",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::002058",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::002128",
+          "opcode": "text",
+          "count": 2,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai12.mjo::001445",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_12.mjo::004209",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_12.mjo::004213",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_kako12.mjo::002906",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_kako12.mjo::002916",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai10.mjo::001191",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai10.mjo::001606",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        }
+      ]
+    },
+    "再生": {
+      "canonical_lemmas": [
+        "재생"
+      ],
+      "occurrences": [
+        {
+          "id": "00_レコンキスタ_start.mjo::000103",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「“재생”을」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::001793",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai03.mjo::000400",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_17.mjo::004642",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last08.mjo::000733",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::011225",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "music.mjo::000137",
+          "opcode": "ldstr",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_19.mjo::001696",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_19.mjo::001216",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai05.mjo::000132",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai05.mjo::000306",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::004704",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        }
+      ]
+    },
+    "人工島": {
+      "canonical_lemmas": [
+        "인공섬"
+      ],
+      "occurrences": [
+        {
+          "id": "kureha_09.mjo::003196",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_09.mjo::003406",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_08.mjo::000695",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_08.mjo::000713",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::002957",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_masa02.mjo::000080",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_masa02.mjo::000112",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::000500",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「거긴 바다를 메워서 만든 인공섬이란다」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::000542",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "당시에는 지방 도시를 중심으로 인공섬 개발이 활발했다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::000635",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "그렇다. 나는 지금 가고 있는 인공섬의 학교에서",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::000830",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "다리 하나로 혼슈와 이어진 인공섬――",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_14.mjo::000998",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_05.mjo::001928",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000262",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000468",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::002515",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_12.mjo::003209",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_13.mjo::000600",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_07.mjo::000291",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_kure01.mjo::000344",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::001889",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::001894",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::001904",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::001958",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::001976",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::004693",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::004725",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::005453",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::008524",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::012392",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_masa04.mjo::000047",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai11.mjo::000565",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_18.mjo::000656",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_18.mjo::000696",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last03.mjo::000196",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last03.mjo::000201",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last03.mjo::000211",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last03.mjo::000265",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last03.mjo::000286",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_10.mjo::000774",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_10.mjo::000927",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_10.mjo::000955",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_10.mjo::000983",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_10.mjo::001040",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_10.mjo::001097",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_10.mjo::001341",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_10.mjo::004251",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::010643",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::003557",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        }
+      ]
+    },
+    "海上ニュータウン": {
+      "canonical_lemmas": [
+        "해상 뉴타운"
+      ],
+      "occurrences": [
+        {
+          "id": "last_gendai01.mjo::000398",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::000860",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::002819",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::000834",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "달리 해상 뉴타운이라고도 불리는 곳이다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::003398",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "여기 해상 뉴타운까지 오게 된 것이다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai02.mjo::003388",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai02.mjo::003397",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai02.mjo::003648",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000046",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000252",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000380",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last04.mjo::000100",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::001789",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_masa01.mjo::000035",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::009673",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::015157",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_12.mjo::003223",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_07.mjo::000286",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_12.mjo::000272",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::001976",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::002024",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::003757",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::004057",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::005523",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::005635",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005440",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_masa04.mjo::000117",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai11.mjo::000549",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai11.mjo::000561",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_18.mjo::000063",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last03.mjo::000286",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last03.mjo::000334",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last03.mjo::002090",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_05.mjo::000812",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_05.mjo::001213",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_05.mjo::001275",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_10.mjo::001345",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::005885",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::010616",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::010871",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_sub3.mjo::000237",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_11.mjo::000947",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        }
+      ]
+    },
+    "マンション": {
+      "canonical_lemmas": [
+        "아파트"
+      ],
+      "occurrences": [
+        {
+          "id": "kureha_15.mjo::000254",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_15.mjo::004428",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_15.mjo::004922",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_15.mjo::005274",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_09.mjo::004695",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_09.mjo::004996",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_15.mjo::005838",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_15.mjo::007078",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_06.mjo::003948",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_06.mjo::004001",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_06.mjo::004077",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_14.mjo::006229",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_14.mjo::006234",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_13.mjo::003246",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_08.mjo::000446",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_08.mjo::001002",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_08.mjo::001102",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_08.mjo::001684",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_08.mjo::001768",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_08.mjo::002928",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_08.mjo::002966",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_08.mjo::003427",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_08.mjo::003568",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_08.mjo::003642",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_08.mjo::004784",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_08.mjo::005103",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai14.mjo::000188",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_09.mjo::002034",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_09.mjo::003163",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_09.mjo::003812",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_09.mjo::005925",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_09.mjo::006634",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_08.mjo::002584",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::000895",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::001957",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::001987",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::001994",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_09.mjo::002024",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai15.mjo::000639",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai15.mjo::000655",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai15.mjo::000665",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai15.mjo::000674",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai15.mjo::000679",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai15.mjo::000706",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai15.mjo::000786",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai09.mjo::001248",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai09.mjo::001277",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai09.mjo::001295",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai09.mjo::001299",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai09.mjo::001611",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai09.mjo::001664",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::000292",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::001971",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::003445",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004038",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004047",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004056",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004156",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004179",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004183",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004340",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004345",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004358",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004402",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004437",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004453",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004463",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004604",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004803",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004821",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::004843",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::005642",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::005680",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::007079",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_07.mjo::007088",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_15.mjo::001051",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_12.mjo::004152",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_12.mjo::004779",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_sub1.mjo::000507",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_14.mjo::001005",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_14.mjo::001068",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_14.mjo::002733",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::001253",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "　이사 갈 아파트로 가 보자」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::001876",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "아파트가 늘어선 주택가에 들어섰다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::001920",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "　분명 이 길 끝에 있는 아파트였거든」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::001925",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "이 근처에는 비슷한 아파트가 여러 채 늘어서 있어서",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::001934",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "어느 아파트나 사는 사람이 별로 없는 모양인지,",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::001988",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「일단 우리가 살 아파트로 가자.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::002033",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「오, 찾았다. 분명 이 아파트야」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::002042",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "나는 눈앞의 아파트를 올려다보았다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::002047",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "고층 아파트…까지는 아니어도",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::002051",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "제법 높고 훌륭한 건물이었다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::002158",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "　새로 이사 오신 분들인가요?」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::002466",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "같은 아파트 주민을 알게 되어 든든했다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::002565",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「…여기 아파트, 엘리베이터는 움직이니?」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::002755",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "겉보기에는 훌륭한 아파트인데",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::002858",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "이럴 수가. 이렇게 번듯한 아파트 한 층에",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::003065",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "아파트 현관에서 굳이 먼저 말을 걸어 준 데도",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_08.mjo::002415",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_08.mjo::002768",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_08.mjo::002825",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_08.mjo::003033",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_08.mjo::005641",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_14.mjo::000058",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_14.mjo::000151",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_16.mjo::000319",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_16.mjo::000845",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_10.mjo::003815",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_05.mjo::000381",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_05.mjo::002536",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_16.mjo::003022",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_16.mjo::004693",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_16.mjo::004881",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai03.mjo::002447",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_17.mjo::000757",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_17.mjo::001446",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_sub2.mjo::000953",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_11.mjo::004109",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::000081",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::000090",
+          "opcode": "text",
+          "count": 2,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::000126",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::000150",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::000171",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::000192",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::000233",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::000252",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::000280",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::000308",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::003850",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_16.mjo::004905",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_17.mjo::000085",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_17.mjo::002948",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_17.mjo::004468",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_17.mjo::004505",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_17.mjo::004726",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::002531",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::008927",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::008988",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::009326",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::009384",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::009496",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::009872",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::011979",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::012383",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::012954",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::015064",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::015069",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::015073",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::015082",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::015818",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::015983",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_3.mjo::016091",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::002239",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::002543",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last00.mjo::000795",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai12.mjo::001045",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_epi.mjo::000452",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_epi.mjo::000486",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai07.mjo::000102",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_09.mjo::001652",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_09.mjo::001977",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_09.mjo::002660",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_15.mjo::004290",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_07.mjo::000485",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_07.mjo::000814",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_06.mjo::001249",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_06.mjo::001500",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_06.mjo::001548",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_06.mjo::001749",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_13.mjo::000029",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_13.mjo::000291",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_07.mjo::001247",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_07.mjo::004309",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_12.mjo::004100",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_13.mjo::002490",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_13.mjo::002555",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_14.mjo::002075",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai13.mjo::000038",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai13.mjo::000047",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai13.mjo::000108",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_08.mjo::000271",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_08.mjo::001800",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_08.mjo::001847",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_07.mjo::000124",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_07.mjo::000391",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_07.mjo::002416",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::002118",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::000285",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "아파트 같은 층에 사는 이웃.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::000477",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "아파트 중앙의 엘리베이터 앞을 가로질러…",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::001816",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "어릴 때부터 같은 아파트에 살던 이웃이자",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005356",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005405",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::005463",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007303",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::008571",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::008808",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::017323",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::017341",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::018248",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::018266",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_19.mjo::000136",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_05.mjo::000496",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_05.mjo::000510",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_05.mjo::001219",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_05.mjo::001408",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_05.mjo::001552",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_05.mjo::001609",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_19.mjo::000174",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last03.mjo::000442",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_ep.mjo::000859",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_ep.mjo::001205",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_ep.mjo::001311",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_ep.mjo::001339",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_10.mjo::000896",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_05.mjo::001594",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_16.mjo::001067",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_16.mjo::001298",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_16.mjo::001419",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_16.mjo::001437",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_16.mjo::001456",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_16.mjo::001461",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_16.mjo::001510",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_16.mjo::001575",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_16.mjo::001683",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_11.mjo::000252",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_17.mjo::005778",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_17.mjo::005794",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sina_17.mjo::005882",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_10.mjo::003626",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_10.mjo::004140",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_11.mjo::001661",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_11.mjo::002062",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_11.mjo::003624",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_11.mjo::005114",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_11.mjo::005238",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_11.mjo::005773",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::002125",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::002151",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::002184",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::002654",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::004889",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::005830",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::009004",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::009869",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::009935",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::010043",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::010672",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai05.mjo::002188",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_sub3.mjo::000035",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::003539",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::003597",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::003606",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::003618",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::003651",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::003667",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::003706",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::003743",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::003761",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::003770",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::003846",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        }
+      ]
+    },
+    "動く歩道": {
+      "canonical_lemmas": [
+        "무빙워크",
+        "움직이는 보도(어린이에게 설명)"
+      ],
+      "occurrences": [
+        {
+          "id": "00_レコンキスタ_start.mjo::000957",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "모미지가 가리키는 곳에는 지붕이 달린 무빙워크가 있었다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::000966",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "무빙워크를 본 적이 없었던가.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::000973",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「아, 저건 움직이는 보도야」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::001037",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "모미지가 타다닥 소리를 내며 무빙워크로 달려간다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::001063",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "하지만 모미지는 무빙워크 앞에서 고개를 갸웃하더니,",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::001083",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "　움직이는 보도 안 타니?」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::001130",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "모미지에게 손을 잡혀 무빙워크 앞까지 가 보니,",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::001228",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "이래서는 무빙워크도 무용지물일 것이다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::001282",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "“움직이지 않는” 무빙워크 위를 나란히 걸었다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::002105",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "아까 무빙워크에서 겪은 일도 있으니",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::002629",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "무빙워크와는 달리",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::002659",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「아니, 번화가에 있는 무빙워크가 멈춰 있길래, 그만…」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_12.mjo::000546",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_12.mjo::000618",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_12.mjo::000634",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_12.mjo::000683",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_12.mjo::000717",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_12.mjo::000732",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_12.mjo::000826",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_12.mjo::000900",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_12.mjo::000976",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_12.mjo::001015",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_12.mjo::001034",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_12.mjo::001082",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_12.mjo::001137",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_12.mjo::001184",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_12.mjo::001227",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_05.mjo::000168",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_05.mjo::000821",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_05.mjo::001598",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_11.mjo::000498",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_11.mjo::001149",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_11.mjo::001180",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_11.mjo::001272",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_04.mjo::002449",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "maho_18.mjo::001118",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        }
+      ]
+    },
+    "非常勤講師": {
+      "canonical_lemmas": [
+        "시간강사"
+      ],
+      "occurrences": [
+        {
+          "id": "last_gendai14.mjo::001241",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai14.mjo::001263",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai15.mjo::001189",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::000684",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "그렇다고는 해도 내 자리는 시간강사.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::004988",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "나에게 시간강사 자리를 소개해 주신 것이다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::005558",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「그리고 시간강사 자리 소개해 주신 것도",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::005912",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「다시 책을 써서 내면 시간강사 같은 일은 하지 않아도",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::000661",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_13.mjo::000711",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last00.mjo::000167",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai12.mjo::000223",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last08.mjo::000563",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::011059",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::002986",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "오늘부터 시간강사가 온단다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::011254",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::011512",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::020623",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_19.mjo::001280",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_ep.mjo::000768",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_10.mjo::000245",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::003252",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_11.mjo::000051",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_11.mjo::000060",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        }
+      ]
+    },
+    "現国": {
+      "canonical_lemmas": [
+        "현대국어"
+      ],
+      "occurrences": [
+        {
+          "id": "last_gendai14.mjo::001250",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last08.mjo::000553",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "masa_06.mjo::000404",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::011049",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::002965",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "　목요일이면 오늘부터 현대국어 선생님 바뀌네」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::007666",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::008398",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "makino_kyoutu.mjo::009087",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_11.mjo::000273",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_11.mjo::000305",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        }
+      ]
+    },
+    "管理人": {
+      "canonical_lemmas": [
+        "관리인",
+        "관리인분"
+      ],
+      "occurrences": [
+        {
+          "id": "last_gendai01.mjo::000422",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::002724",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「네. 관리인분께 몇 번이나 말했는데도",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::002743",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「관리인분도 보통 여기 계시진 않거든요」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::005108",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "섬 한쪽에 있는 공원묘지를 관리하고 계신다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai02.mjo::003699",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000498",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000588",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::000593",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::001015",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::001072",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai16.mjo::004268",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai03.mjo::001282",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai03.mjo::001327",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai03.mjo::001448",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai03.mjo::001775",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last04.mjo::000329",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::001555",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_06.mjo::002157",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai12.mjo::000075",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai12.mjo::000497",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai06.mjo::000049",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "sub_last.mjo::005860",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::008571",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_19.mjo::002295",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_kako07.mjo::000229",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai04.mjo::000592",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai04.mjo::001102",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_gendai04.mjo::001163",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::004621",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::004639",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        }
+      ]
+    },
+    "大家": {
+      "canonical_lemmas": [
+        "집주인"
+      ],
+      "occurrences": [
+        {
+          "id": "00_レコンキスタ_start.mjo::003316",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「전에 살던 집 주인이 그랬어.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::003327",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「그 집주인이…",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_08.mjo::002617",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        }
+      ]
+    },
+    "仕送り": {
+      "canonical_lemmas": [
+        "생활비"
+      ],
+      "occurrences": [
+        {
+          "id": "00_レコンキスタ_start_3.mjo::015319",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::001377",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "다음 달 생활비가 왕창 깎인 적이 있다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start_2.mjo::001432",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「다음 달부터 생활비 50% 깎아도 된다고",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        }
+      ]
+    },
+    "甲斐性なし": {
+      "canonical_lemmas": [
+        "무능력자"
+      ],
+      "occurrences": [
+        {
+          "id": "00_レコンキスタ_start.mjo::003453",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「그럼, 다시는 무능력자라는 소리 안 들을 거야.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_ep.mjo::000968",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_ep.mjo::000989",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_ep.mjo::001000",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "last_ep.mjo::001021",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_11.mjo::002088",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        }
+      ]
+    },
+    "カイショーナシ": {
+      "canonical_lemmas": [
+        "무능력자"
+      ],
+      "occurrences": [
+        {
+          "id": "00_レコンキスタ_start.mjo::003275",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「그래도 아빠는 무능력자라며?」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::003320",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "　아빠가 무능력자라서 힘들겠다고」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::003364",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "　무능력자래」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::003405",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「모미지, 아빠는 이제 무능력자가 아니란다.",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "00_レコンキスタ_start.mjo::003446",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "「그럼 무능력자는 이제 졸업이네」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_08.mjo::002621",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_08.mjo::002631",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_11.mjo::002081",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::005872",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        },
+        {
+          "id": "kureha_18.mjo::005886",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": null,
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        }
+      ]
+    },
+    "ジンギスカン": {
+      "canonical_lemmas": [
+        "징기스칸"
+      ],
+      "occurrences": [
+        {
+          "id": "00_レコンキスタ_start_2.mjo::000070",
+          "opcode": "text",
+          "count": 1,
+          "authored_target": "　…아, 징기스칸이 먹고 싶어졌네…」",
+          "semantic_review": "pending_global_sense_and_referent_audit"
+        }
+      ]
+    }
+  }
+}

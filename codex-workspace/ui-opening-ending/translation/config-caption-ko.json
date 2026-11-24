@@ -1,0 +1,23 @@
+{
+  "translator_model": "Codex internal",
+  "records": [
+    {
+      "id": "fastdata.arc::config_off.rct::panel-title",
+      "source": "Config",
+      "target": "설정",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "fastdata.arc::config_on.rct::panel-title",
+      "source": "Config",
+      "target": "설정",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "fastdata.arc::config_push.rct::panel-title",
+      "source": "Config",
+      "target": "설정",
+      "translator_model": "Codex internal"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "records": [
+    {
+      "id": "fastdata.arc::その他_view",
+      "source": "ETC. View",
+      "target": "기타 시점"
+    },
+    {
+      "id": "fastdata.arc::もみじ_view",
+      "source": "Momiji View",
+      "target": "모미지의 시점"
+    },
+    {
+      "id": "fastdata.arc::上条_view",
+      "source": "KamijoView",
+      "target": "가미조의 시점"
+    },
+    {
+      "id": "fastdata.arc::信哉_view",
+      "source": "Shinya View",
+      "target": "신야의 시점"
+    },
+    {
+      "id": "fastdata.arc::暮葉_view",
+      "source": "Kureha View",
+      "target": "쿠레하의 시점"
+    },
+    {
+      "id": "fastdata.arc::槙野_view",
+      "source": "Makino View",
+      "target": "마키노의 시점"
+    },
+    {
+      "id": "fastdata.arc::汐見トオル_view",
+      "source": "ToruView",
+      "target": "도루의 시점"
+    },
+    {
+      "id": "fastdata.arc::汐見牧師_view",
+      "source": "Shiomi View",
+      "target": "시오미의 시점"
+    },
+    {
+      "id": "fastdata.arc::真帆子_view",
+      "source": "Mahoko View",
+      "target": "마호코의 시점"
+    },
+    {
+      "id": "fastdata.arc::詩菜_view",
+      "source": "Shina View",
+      "target": "시이나의 시점"
+    },
+    {
+      "id": "fastdata.arc::麻咲_view",
+      "source": "Masaki View",
+      "target": "마사키의 시점"
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_1",
+      "source": "作曲：上松範康 (Elements Garden)　編曲：菊田大介 (Elements Garden)　歌手：飛蘭",
+      "target": "작곡: 上松範康 (Elements Garden)  편곡: 菊田大介 (Elements Garden)  노래: 飛蘭"
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_2",
+      "source": "作曲：上松範康 (Elements Garden)　編曲：菊田大介 (Elements Garden)",
+      "target": "작곡: 上松範康 (Elements Garden)  편곡: 菊田大介 (Elements Garden)"
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_3",
+      "source": "作曲：上松範康 (Elements Garden)",
+      "target": "작곡: 上松範康 (Elements Garden)"
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_4",
+      "source": "作曲：ANZE HIJIRI",
+      "target": "작곡: ANZE HIJIRI"
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_5",
+      "source": "作曲：ANZE HIJIRI　歌手：YURIA",
+      "target": "작곡: ANZE HIJIRI  노래: YURIA"
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_6",
+      "source": "作曲：Barbarian on the groove　編曲：館内",
+      "target": "작곡: Barbarian on the groove  편곡: 館内"
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_7",
+      "source": "作曲：Barbarian on the groove",
+      "target": "작곡: Barbarian on the groove"
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_8",
+      "source": "作曲：館内",
+      "target": "작곡: 館内"
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_9",
+      "source": "作曲：井出 今日子",
+      "target": "작곡: 井出 今日子"
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_10",
+      "source": "作曲：Sentive",
+      "target": "작곡: Sentive"
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_11",
+      "source": "作曲：443",
+      "target": "작곡: 443"
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_12",
+      "source": "作曲：児島 空",
+      "target": "작곡: 児島 空"
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_13",
+      "source": "作曲：Elements Garden　編曲：館内",
+      "target": "작곡: Elements Garden  편곡: 館内"
+    },
+    {
+      "id": "fastdata.arc::作曲_クレジット_14",
+      "source": "作曲：Elements Garden",
+      "target": "작곡: Elements Garden"
+    }
+  ]
+}

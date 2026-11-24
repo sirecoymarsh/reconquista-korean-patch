@@ -1,0 +1,21 @@
+{
+  "candidate": "ui-trial-v20",
+  "native_candidate": "native-ui-v5",
+  "created_utc": "2026-10-22T22:59:36.841492+00:00",
+  "source_fastdata_sha256": "2fd4836e1fdb68c8f255299294cbf1b5e4cdb849f80a4f71e9199bc8e96d7832",
+  "runtime_fastdata_sha256": "aa0a99f6f2c363ff88c15be8fc95e2d1a0c5f821f442751e222f805114f548e7",
+  "source_scenario_sha256": "040db0bf4ab872d47d3a6c06057a0c94f2056e8e8855fd9ae6e9d5a522913625",
+  "runtime_scenario_sha256": "040db0bf4ab872d47d3a6c06057a0c94f2056e8e8855fd9ae6e9d5a522913625",
+  "runtime_env_changes": {
+    "TITLEBAR": "Reconquista-UI-BG-v20",
+    "REG_LOCAL": "Reconquista-UI-BG-v11-20261023",
+    "MUSICVOL": "0",
+    "SOUNDVOL": "0",
+    "VOICEVOL": "0",
+    "ISPLAYMUSIC": "0"
+  },
+  "test_entry": null,
+  "candidate_untouched": true,
+  "scenario_modified": false,
+  "scope": "Normal title entry with existing isolated save/registry state. Only new load/save decorative quotes targeted."
+}

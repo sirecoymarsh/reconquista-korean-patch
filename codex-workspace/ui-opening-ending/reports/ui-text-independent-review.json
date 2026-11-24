@@ -1,0 +1,15 @@
+{
+  "reviewer": "/root/ui_text_review",
+  "mode": "read-only independent QA",
+  "translation_sha256": "be3776a8fc9c6f2a179ae5409a74146205eb698997dbbeac761dbde111423d44",
+  "source_sha256": "7a7caef299f780f0e89aa2c99f6f072fbe01f2f91be4abf2f15934d489011f9c",
+  "records": 143,
+  "tutorial_fields": 89,
+  "verdict": "context_pass",
+  "findings": [],
+  "notes": [
+    "Keep load substring test before save test: Korean quick-load prompt contains both 저장 and 불러.",
+    "OS diagnostic font and surname reading remain pending."
+  ],
+  "runtime_pass": false
+}

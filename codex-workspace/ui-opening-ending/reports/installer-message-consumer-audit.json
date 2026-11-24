@@ -1,0 +1,1228 @@
+{
+  "sources": [
+    {
+      "file": "setup.exe",
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\research\\disc\\setup.exe",
+      "sha256": "d0bdfac202c48da0bb4491b16b66c587fa6efb4ac3eb32dbb816922da74ec2e3"
+    },
+    {
+      "file": "install.exe",
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\research\\disc\\install.exe",
+      "sha256": "87b10fd242e14e26f7f83af43447579add36b1730d4155bddc7afd072faf0c1f"
+    }
+  ],
+  "accepted_fields": [
+    {
+      "id": "setup.exe::0x414030",
+      "references": [
+        {
+          "reference": "0x4014bb",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405ac0",
+            "messagebox_type": 36,
+            "rea_evidence": "evidence/installer-setup-consumers-rea.json"
+          },
+          "trace": [
+            {
+              "address": "0x4014bb",
+              "instruction": "push 0x414030"
+            },
+            {
+              "address": "0x4014c0",
+              "instruction": "call 0x405ac0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x41404c",
+      "references": [
+        {
+          "reference": "0x40147f",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x4058d0",
+            "messagebox_type": 21,
+            "rea_evidence": "ev_7d2363c71850221e1a752671bbcac9ff7d5d58daf3f38e4563aff3969b9d7386"
+          },
+          "trace": [
+            {
+              "address": "0x40147f",
+              "instruction": "push 0x41404c"
+            },
+            {
+              "address": "0x401484",
+              "instruction": "call 0x4058d0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x414070",
+      "references": [
+        {
+          "reference": "0x401243",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405980",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_f2479b4e449005f0113aee5ca0d839339710296bf7f589b34d505ced1e611043"
+          },
+          "trace": [
+            {
+              "address": "0x401243",
+              "instruction": "push 0x414070"
+            },
+            {
+              "address": "0x401248",
+              "instruction": "call 0x405980"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x4140f0",
+      "references": [
+        {
+          "reference": "0x4015e6",
+          "sink": {
+            "api": "SHBrowseForFolderA",
+            "iat": "0x4121c4"
+          },
+          "trace": [
+            {
+              "address": "0x4015e6",
+              "instruction": "mov dword ptr [esp + 0x1c], 0x4140f0"
+            },
+            {
+              "address": "0x4015ee",
+              "instruction": "mov dword ptr [esp + 0x20], 3"
+            },
+            {
+              "address": "0x4015f6",
+              "instruction": "mov dword ptr [esp + 0x24], esi"
+            },
+            {
+              "address": "0x4015fa",
+              "instruction": "mov dword ptr [esp + 0x28], esi"
+            },
+            {
+              "address": "0x4015fe",
+              "instruction": "mov dword ptr [esp + 0x2c], esi"
+            },
+            {
+              "address": "0x401602",
+              "instruction": "call dword ptr [0x4121c4]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x414268",
+      "references": [
+        {
+          "reference": "0x401d92",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405980",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_f2479b4e449005f0113aee5ca0d839339710296bf7f589b34d505ced1e611043"
+          },
+          "trace": [
+            {
+              "address": "0x401d92",
+              "instruction": "push 0x414268"
+            },
+            {
+              "address": "0x401d97",
+              "instruction": "call 0x405980"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x4143a0",
+      "references": [
+        {
+          "reference": "0x40249d",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405980",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_f2479b4e449005f0113aee5ca0d839339710296bf7f589b34d505ced1e611043"
+          },
+          "trace": [
+            {
+              "address": "0x40249d",
+              "instruction": "push 0x4143a0"
+            },
+            {
+              "address": "0x4024a2",
+              "instruction": "call 0x405980"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x4143e4",
+      "references": [
+        {
+          "reference": "0x402466",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405980",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_f2479b4e449005f0113aee5ca0d839339710296bf7f589b34d505ced1e611043"
+          },
+          "trace": [
+            {
+              "address": "0x402466",
+              "instruction": "push 0x4143e4"
+            },
+            {
+              "address": "0x40246b",
+              "instruction": "jmp 0x4024a2"
+            },
+            {
+              "address": "0x4024a2",
+              "instruction": "call 0x405980"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x414440",
+      "references": [
+        {
+          "reference": "0x402384",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405980",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_f2479b4e449005f0113aee5ca0d839339710296bf7f589b34d505ced1e611043"
+          },
+          "trace": [
+            {
+              "address": "0x402384",
+              "instruction": "push 0x414440"
+            },
+            {
+              "address": "0x402389",
+              "instruction": "call 0x405980"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x414468",
+      "references": [
+        {
+          "reference": "0x402347",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405980",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_f2479b4e449005f0113aee5ca0d839339710296bf7f589b34d505ced1e611043"
+          },
+          "trace": [
+            {
+              "address": "0x402347",
+              "instruction": "push 0x414468"
+            },
+            {
+              "address": "0x40234c",
+              "instruction": "jmp 0x402389"
+            },
+            {
+              "address": "0x402389",
+              "instruction": "call 0x405980"
+            }
+          ]
+        },
+        {
+          "reference": "0x40235f",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405980",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_f2479b4e449005f0113aee5ca0d839339710296bf7f589b34d505ced1e611043"
+          },
+          "trace": [
+            {
+              "address": "0x40235f",
+              "instruction": "push 0x414468"
+            },
+            {
+              "address": "0x402364",
+              "instruction": "jmp 0x402389"
+            },
+            {
+              "address": "0x402389",
+              "instruction": "call 0x405980"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x414550",
+      "references": [
+        {
+          "reference": "0x402640",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405a30",
+            "messagebox_type": 0,
+            "rea_evidence": "evidence/installer-setup-consumers-rea.json"
+          },
+          "trace": [
+            {
+              "address": "0x402640",
+              "instruction": "push 0x414550"
+            },
+            {
+              "address": "0x402645",
+              "instruction": "call 0x405a30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x414634",
+      "references": [
+        {
+          "reference": "0x4029b5",
+          "sink": "SendDlgItemMessageA",
+          "message": "WM_SETTEXT0xC",
+          "control_id": "0x3f4",
+          "rea_evidence": "ev_1fa9f7abbac3a06142dd3eecf1007bf3f638280880be1461c5ce676c20bcbd49"
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x414d84",
+      "references": [
+        {
+          "reference": "0x403469",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405a30",
+            "messagebox_type": 0,
+            "rea_evidence": "evidence/installer-setup-consumers-rea.json"
+          },
+          "trace": [
+            {
+              "address": "0x403469",
+              "instruction": "push 0x414d84"
+            },
+            {
+              "address": "0x40346e",
+              "instruction": "call 0x405a30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x414dc8",
+      "references": [
+        {
+          "reference": "0x40327a",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405980",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_f2479b4e449005f0113aee5ca0d839339710296bf7f589b34d505ced1e611043"
+          },
+          "trace": [
+            {
+              "address": "0x40327a",
+              "instruction": "push 0x414dc8"
+            },
+            {
+              "address": "0x40327f",
+              "instruction": "call 0x405980"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x414df0",
+      "references": [
+        {
+          "reference": "0x403251",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405980",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_f2479b4e449005f0113aee5ca0d839339710296bf7f589b34d505ced1e611043"
+          },
+          "trace": [
+            {
+              "address": "0x403251",
+              "instruction": "push 0x414df0"
+            },
+            {
+              "address": "0x403256",
+              "instruction": "call 0x405980"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x414e0c",
+      "references": [
+        {
+          "reference": "0x4031d7",
+          "sink": {
+            "api": "MessageBoxA",
+            "iat": "0x4121e4"
+          },
+          "trace": [
+            {
+              "address": "0x4031d7",
+              "instruction": "push 0x414e0c"
+            },
+            {
+              "address": "0x4031dc",
+              "instruction": "push 0"
+            },
+            {
+              "address": "0x4031de",
+              "instruction": "call dword ptr [0x4121e4]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x414ea8",
+      "references": [
+        {
+          "reference": "0x403939",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405980",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_f2479b4e449005f0113aee5ca0d839339710296bf7f589b34d505ced1e611043"
+          },
+          "trace": [
+            {
+              "address": "0x403939",
+              "instruction": "push 0x414ea8"
+            },
+            {
+              "address": "0x40393e",
+              "instruction": "call 0x405980"
+            }
+          ]
+        },
+        {
+          "reference": "0x403d46",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405980",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_f2479b4e449005f0113aee5ca0d839339710296bf7f589b34d505ced1e611043"
+          },
+          "trace": [
+            {
+              "address": "0x403d46",
+              "instruction": "push 0x414ea8"
+            },
+            {
+              "address": "0x403d4b",
+              "instruction": "call 0x405980"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x414ef8",
+      "references": [
+        {
+          "reference": "0x403932",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405980",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_f2479b4e449005f0113aee5ca0d839339710296bf7f589b34d505ced1e611043"
+          },
+          "trace": [
+            {
+              "address": "0x403932",
+              "instruction": "push 0x414ef8"
+            },
+            {
+              "address": "0x403937",
+              "instruction": "jmp 0x40393e"
+            },
+            {
+              "address": "0x40393e",
+              "instruction": "call 0x405980"
+            }
+          ]
+        },
+        {
+          "reference": "0x403d3f",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405980",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_f2479b4e449005f0113aee5ca0d839339710296bf7f589b34d505ced1e611043"
+          },
+          "trace": [
+            {
+              "address": "0x403d3f",
+              "instruction": "push 0x414ef8"
+            },
+            {
+              "address": "0x403d44",
+              "instruction": "jmp 0x403d4b"
+            },
+            {
+              "address": "0x403d4b",
+              "instruction": "call 0x405980"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x414f28",
+      "references": [
+        {
+          "reference": "0x403ab9",
+          "sink": {
+            "api": "MessageBoxA",
+            "iat": "0x4121e4"
+          },
+          "trace": [
+            {
+              "address": "0x403ab9",
+              "instruction": "push 0x414f28"
+            },
+            {
+              "address": "0x403abe",
+              "instruction": "push 0"
+            },
+            {
+              "address": "0x403ac0",
+              "instruction": "call dword ptr [0x4121e4]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x4161e4",
+      "references": [
+        {
+          "reference": "0x407381",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x4058d0",
+            "messagebox_type": 21,
+            "rea_evidence": "ev_7d2363c71850221e1a752671bbcac9ff7d5d58daf3f38e4563aff3969b9d7386"
+          },
+          "trace": [
+            {
+              "address": "0x407381",
+              "instruction": "push 0x4161e4"
+            },
+            {
+              "address": "0x407386",
+              "instruction": "call 0x4058d0"
+            }
+          ]
+        },
+        {
+          "reference": "0x4078a0",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x4058d0",
+            "messagebox_type": 21,
+            "rea_evidence": "ev_7d2363c71850221e1a752671bbcac9ff7d5d58daf3f38e4563aff3969b9d7386"
+          },
+          "trace": [
+            {
+              "address": "0x4078a0",
+              "instruction": "push 0x4161e4"
+            },
+            {
+              "address": "0x4078a5",
+              "instruction": "call 0x4058d0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x416288",
+      "references": [
+        {
+          "reference": "0x406aab",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405980",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_f2479b4e449005f0113aee5ca0d839339710296bf7f589b34d505ced1e611043"
+          },
+          "trace": [
+            {
+              "address": "0x406aab",
+              "instruction": "push 0x416288"
+            },
+            {
+              "address": "0x406ab0",
+              "instruction": "call 0x405980"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x4162ec",
+      "references": [
+        {
+          "reference": "0x407a94",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x4058d0",
+            "messagebox_type": 21,
+            "rea_evidence": "ev_7d2363c71850221e1a752671bbcac9ff7d5d58daf3f38e4563aff3969b9d7386"
+          },
+          "trace": [
+            {
+              "address": "0x407a94",
+              "instruction": "push 0x4162ec"
+            },
+            {
+              "address": "0x407a99",
+              "instruction": "call 0x4058d0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "setup.exe::0x416354",
+      "references": [
+        {
+          "reference": "0x408bce",
+          "sink": {
+            "api": "MessageBoxA",
+            "iat": "0x4121e4"
+          },
+          "trace": [
+            {
+              "address": "0x408bce",
+              "instruction": "push 0x416354"
+            },
+            {
+              "address": "0x408bd3",
+              "instruction": "push eax"
+            },
+            {
+              "address": "0x408bd4",
+              "instruction": "call dword ptr [0x4121e4]"
+            }
+          ]
+        },
+        {
+          "reference": "0x408c03",
+          "sink": {
+            "api": "MessageBoxA",
+            "iat": "0x4121e4"
+          },
+          "trace": [
+            {
+              "address": "0x408c03",
+              "instruction": "push 0x416354"
+            },
+            {
+              "address": "0x408c08",
+              "instruction": "push eax"
+            },
+            {
+              "address": "0x408c09",
+              "instruction": "call dword ptr [0x4121e4]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x414030",
+      "references": [
+        {
+          "reference": "0x4014bb",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405620",
+            "messagebox_type": 36,
+            "rea_evidence": "ev_adae2123090022bee0740c3f8144182bbb1eab4ed31d5b6cb10e778ac70c034d"
+          },
+          "trace": [
+            {
+              "address": "0x4014bb",
+              "instruction": "push 0x414030"
+            },
+            {
+              "address": "0x4014c0",
+              "instruction": "call 0x405620"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x41404c",
+      "references": [
+        {
+          "reference": "0x40147f",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405430",
+            "messagebox_type": 21,
+            "rea_evidence": "ev_f39bc251c6f85959e398f9e67d73d3b002b31a680ea8d3a0f9fd21295ea12696"
+          },
+          "trace": [
+            {
+              "address": "0x40147f",
+              "instruction": "push 0x41404c"
+            },
+            {
+              "address": "0x401484",
+              "instruction": "call 0x405430"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x414070",
+      "references": [
+        {
+          "reference": "0x401243",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x4054e0",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_0e84edb6df1b0691a30495fc092d40ec4bb39017d0dfc2454fd3255f76f40b0e"
+          },
+          "trace": [
+            {
+              "address": "0x401243",
+              "instruction": "push 0x414070"
+            },
+            {
+              "address": "0x401248",
+              "instruction": "call 0x4054e0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x4140f0",
+      "references": [
+        {
+          "reference": "0x4015e6",
+          "sink": {
+            "api": "SHBrowseForFolderA",
+            "iat": "0x4121bc"
+          },
+          "trace": [
+            {
+              "address": "0x4015e6",
+              "instruction": "mov dword ptr [esp + 0x1c], 0x4140f0"
+            },
+            {
+              "address": "0x4015ee",
+              "instruction": "mov dword ptr [esp + 0x20], 3"
+            },
+            {
+              "address": "0x4015f6",
+              "instruction": "mov dword ptr [esp + 0x24], esi"
+            },
+            {
+              "address": "0x4015fa",
+              "instruction": "mov dword ptr [esp + 0x28], esi"
+            },
+            {
+              "address": "0x4015fe",
+              "instruction": "mov dword ptr [esp + 0x2c], esi"
+            },
+            {
+              "address": "0x401602",
+              "instruction": "call dword ptr [0x4121bc]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x41421c",
+      "references": [
+        {
+          "reference": "0x401b01",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x4054e0",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_0e84edb6df1b0691a30495fc092d40ec4bb39017d0dfc2454fd3255f76f40b0e"
+          },
+          "trace": [
+            {
+              "address": "0x401b01",
+              "instruction": "push 0x41421c"
+            },
+            {
+              "address": "0x401b06",
+              "instruction": "call 0x4054e0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x414388",
+      "references": [
+        {
+          "reference": "0x401ef5",
+          "sink": "SendDlgItemMessageA",
+          "message": "WM_SETTEXT0xC",
+          "control_id": "0x3f4",
+          "rea_evidence": "ev_77c8c69b404a48e6b84eb53c262cab6b586b6975343ab39ed4ddc0ea13f79ace"
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x414b64",
+      "references": [
+        {
+          "reference": "0x402c49",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405590",
+            "messagebox_type": 0,
+            "rea_evidence": "ev_87a0a2f9966c2e885e29f29d5a2fa6951ff68bf4974abddbeb3770b092188770"
+          },
+          "trace": [
+            {
+              "address": "0x402c49",
+              "instruction": "push 0x414b64"
+            },
+            {
+              "address": "0x402c4e",
+              "instruction": "call 0x405590"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x414ba8",
+      "references": [
+        {
+          "reference": "0x402a4d",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x4054e0",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_0e84edb6df1b0691a30495fc092d40ec4bb39017d0dfc2454fd3255f76f40b0e"
+          },
+          "trace": [
+            {
+              "address": "0x402a4d",
+              "instruction": "push 0x414ba8"
+            },
+            {
+              "address": "0x402a52",
+              "instruction": "call 0x4054e0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x414c00",
+      "references": [
+        {
+          "reference": "0x402a24",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x4054e0",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_0e84edb6df1b0691a30495fc092d40ec4bb39017d0dfc2454fd3255f76f40b0e"
+          },
+          "trace": [
+            {
+              "address": "0x402a24",
+              "instruction": "push 0x414c00"
+            },
+            {
+              "address": "0x402a29",
+              "instruction": "call 0x4054e0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x414c28",
+      "references": [
+        {
+          "reference": "0x4029fb",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x4054e0",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_0e84edb6df1b0691a30495fc092d40ec4bb39017d0dfc2454fd3255f76f40b0e"
+          },
+          "trace": [
+            {
+              "address": "0x4029fb",
+              "instruction": "push 0x414c28"
+            },
+            {
+              "address": "0x402a00",
+              "instruction": "call 0x4054e0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x414c44",
+      "references": [
+        {
+          "reference": "0x40297d",
+          "sink": {
+            "api": "MessageBoxA",
+            "iat": "0x4121d4"
+          },
+          "trace": [
+            {
+              "address": "0x40297d",
+              "instruction": "push 0x414c44"
+            },
+            {
+              "address": "0x402982",
+              "instruction": "push 0"
+            },
+            {
+              "address": "0x402984",
+              "instruction": "call dword ptr [0x4121d4]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x414c80",
+      "references": [
+        {
+          "reference": "0x402906",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x4054e0",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_0e84edb6df1b0691a30495fc092d40ec4bb39017d0dfc2454fd3255f76f40b0e"
+          },
+          "trace": [
+            {
+              "address": "0x402906",
+              "instruction": "push 0x414c80"
+            },
+            {
+              "address": "0x40290b",
+              "instruction": "call 0x4054e0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x414d2c",
+      "references": [
+        {
+          "reference": "0x403119",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x4054e0",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_0e84edb6df1b0691a30495fc092d40ec4bb39017d0dfc2454fd3255f76f40b0e"
+          },
+          "trace": [
+            {
+              "address": "0x403119",
+              "instruction": "push 0x414d2c"
+            },
+            {
+              "address": "0x40311e",
+              "instruction": "call 0x4054e0"
+            }
+          ]
+        },
+        {
+          "reference": "0x403536",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x4054e0",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_0e84edb6df1b0691a30495fc092d40ec4bb39017d0dfc2454fd3255f76f40b0e"
+          },
+          "trace": [
+            {
+              "address": "0x403536",
+              "instruction": "push 0x414d2c"
+            },
+            {
+              "address": "0x40353b",
+              "instruction": "call 0x4054e0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x414d7c",
+      "references": [
+        {
+          "reference": "0x403112",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x4054e0",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_0e84edb6df1b0691a30495fc092d40ec4bb39017d0dfc2454fd3255f76f40b0e"
+          },
+          "trace": [
+            {
+              "address": "0x403112",
+              "instruction": "push 0x414d7c"
+            },
+            {
+              "address": "0x403117",
+              "instruction": "jmp 0x40311e"
+            },
+            {
+              "address": "0x40311e",
+              "instruction": "call 0x4054e0"
+            }
+          ]
+        },
+        {
+          "reference": "0x40352f",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x4054e0",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_0e84edb6df1b0691a30495fc092d40ec4bb39017d0dfc2454fd3255f76f40b0e"
+          },
+          "trace": [
+            {
+              "address": "0x40352f",
+              "instruction": "push 0x414d7c"
+            },
+            {
+              "address": "0x403534",
+              "instruction": "jmp 0x40353b"
+            },
+            {
+              "address": "0x40353b",
+              "instruction": "call 0x4054e0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x414dac",
+      "references": [
+        {
+          "reference": "0x403299",
+          "sink": {
+            "api": "MessageBoxA",
+            "iat": "0x4121d4"
+          },
+          "trace": [
+            {
+              "address": "0x403299",
+              "instruction": "push 0x414dac"
+            },
+            {
+              "address": "0x40329e",
+              "instruction": "push 0"
+            },
+            {
+              "address": "0x4032a0",
+              "instruction": "call dword ptr [0x4121d4]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x4160c8",
+      "references": [
+        {
+          "reference": "0x406f51",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405430",
+            "messagebox_type": 21,
+            "rea_evidence": "ev_f39bc251c6f85959e398f9e67d73d3b002b31a680ea8d3a0f9fd21295ea12696"
+          },
+          "trace": [
+            {
+              "address": "0x406f51",
+              "instruction": "push 0x4160c8"
+            },
+            {
+              "address": "0x406f56",
+              "instruction": "call 0x405430"
+            }
+          ]
+        },
+        {
+          "reference": "0x407470",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405430",
+            "messagebox_type": 21,
+            "rea_evidence": "ev_f39bc251c6f85959e398f9e67d73d3b002b31a680ea8d3a0f9fd21295ea12696"
+          },
+          "trace": [
+            {
+              "address": "0x407470",
+              "instruction": "push 0x4160c8"
+            },
+            {
+              "address": "0x407475",
+              "instruction": "call 0x405430"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x41616c",
+      "references": [
+        {
+          "reference": "0x40667b",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x4054e0",
+            "messagebox_type": 16,
+            "rea_evidence": "ev_0e84edb6df1b0691a30495fc092d40ec4bb39017d0dfc2454fd3255f76f40b0e"
+          },
+          "trace": [
+            {
+              "address": "0x40667b",
+              "instruction": "push 0x41616c"
+            },
+            {
+              "address": "0x406680",
+              "instruction": "call 0x4054e0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x4161d0",
+      "references": [
+        {
+          "reference": "0x407664",
+          "sink": {
+            "api": "MessageBoxA",
+            "helper": "0x405430",
+            "messagebox_type": 21,
+            "rea_evidence": "ev_f39bc251c6f85959e398f9e67d73d3b002b31a680ea8d3a0f9fd21295ea12696"
+          },
+          "trace": [
+            {
+              "address": "0x407664",
+              "instruction": "push 0x4161d0"
+            },
+            {
+              "address": "0x407669",
+              "instruction": "call 0x405430"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "install.exe::0x416210",
+      "references": [
+        {
+          "reference": "0x40808e",
+          "sink": {
+            "api": "MessageBoxA",
+            "iat": "0x4121d4"
+          },
+          "trace": [
+            {
+              "address": "0x40808e",
+              "instruction": "push 0x416210"
+            },
+            {
+              "address": "0x408093",
+              "instruction": "push eax"
+            },
+            {
+              "address": "0x408094",
+              "instruction": "call dword ptr [0x4121d4]"
+            }
+          ]
+        },
+        {
+          "reference": "0x4080c3",
+          "sink": {
+            "api": "MessageBoxA",
+            "iat": "0x4121d4"
+          },
+          "trace": [
+            {
+              "address": "0x4080c3",
+              "instruction": "push 0x416210"
+            },
+            {
+              "address": "0x4080c8",
+              "instruction": "push eax"
+            },
+            {
+              "address": "0x4080c9",
+              "instruction": "call dword ptr [0x4121d4]"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded_fields": [
+    "setup.exe::0x4145f0",
+    "install.exe::0x414344"
+  ],
+  "setup_evidence": "evidence/installer-setup-consumers-rea.json",
+  "install_evidence": "evidence/installer-install-consumers-rea.json",
+  "method": "Capstone explicit literal-reference paths follow unconditional jumps to reviewed helper or native display sink. REA proves helper rendering semantics and clipboard/foreground side effects. No reachability/complete UI coverage claimed.",
+  "clipboard_scope": "Engine errors copy text to shared clipboard in0x408c20/setup and0x4083a0/install; never force these routines during background validation.",
+  "runtime_executed": false
+}

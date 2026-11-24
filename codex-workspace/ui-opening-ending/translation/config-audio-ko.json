@@ -1,0 +1,17 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "records": [
+    {
+      "id": "config-audio::off",
+      "source": "off",
+      "target": "끔"
+    },
+    {
+      "id": "config-audio::on",
+      "source": "on",
+      "target": "켬"
+    }
+  ],
+  "scope": "all9 audio toggles,3 visual states"
+}

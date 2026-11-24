@@ -1,0 +1,95 @@
+{
+ "steps": [],
+ "install": {
+  "rc": 0,
+  "tail": [
+   "[2/2] 한국어 파일을 넣는 중...",
+   "",
+   "설치를 마쳤습니다.",
+   "평소처럼 レコンキスタ.exe 로 실행하면 됩니다. 원래처럼 디스크(또는 디스크 이미지)가 드라이브에 있어야 합니다.",
+   "고화질 묶음은 이 폴더에 압축을 풀면 됩니다. 되돌리려면 한국어패치_제거.bat 을 실행하세요.",
+   "계속하려면 아무 키나 누르십시오 . . ."
+  ],
+  "notices": []
+ },
+ "after_install": {
+  "patched_mismatch": {},
+  "files_missing_or_wrong": [],
+  "personal_files_present": [],
+  "save_kept": true
+ },
+ "reinstall": {
+  "rc": 1,
+  "says_already": true
+ },
+ "smoke_main_only": {
+  "label": "main",
+  "chronicle": {
+   "opened": true,
+   "shown": [
+    "chron_proto show open_ms=7.6 refresh_hz=59 size=2880x2160 focus=1 rows=80 look=new from_chronicle=1"
+   ],
+   "closed": true,
+   "draw_errors": 0
+  },
+  "dialogs": [],
+  "hd_assets": 0,
+  "jxl_loads": 0,
+  "jxl_errors": 0,
+  "asset_errors": 0,
+  "chron_proto": [
+   "chron_proto open ok=1 bench=0 assets_ms=635.7 failed= hr=00000000 viewport=608,0,2880,2160"
+  ],
+  "text4k": [
+   "text4k font_key key=c3416b54 h=56 w=28 weight=400 q=3 cs=1 face=Reconquista KR d00b8d76 style=08A39960 thick=0 rows=14 f"
+  ],
+  "map_opened": 1,
+  "title_key": "other",
+  "ok": true,
+  "normal_exit": true
+ },
+ "smoke_with_hd": {
+  "label": "hd",
+  "chronicle": {
+   "opened": true,
+   "shown": [
+    "chron_proto show open_ms=20.0 refresh_hz=59 size=2880x2160 focus=1 rows=80 look=new from_chronicle=1"
+   ],
+   "closed": true,
+   "draw_errors": 0
+  },
+  "dialogs": [],
+  "hd_assets": 88,
+  "jxl_loads": 17,
+  "jxl_errors": 0,
+  "asset_errors": 0,
+  "chron_proto": [
+   "chron_proto open ok=1 bench=0 assets_ms=643.7 failed= hr=00000000 viewport=608,0,2880,2160"
+  ],
+  "text4k": [
+   "text4k font_key key=350dd095 h=92 w=46 weight=400 q=3 cs=1 face=Reconquista KR Large1 style=00495F20 thick=0 rows=23 fir"
+  ],
+  "map_opened": 1,
+  "title_key": "1de0628c",
+  "ok": true,
+  "normal_exit": true
+ },
+ "uninstall": {
+  "rc": 0,
+  "tail": [
+   "",
+   "원래 게임으로 되돌렸습니다. 세이브는 그대로 두었습니다. 이제 KoreanPatch 폴더와 한국어패치 파일들은 지워도 됩니다.",
+   "계속하려면 아무 키나 누르십시오 . . ."
+  ],
+  "notices": [],
+  "restored_mismatch": [],
+  "left_over": [],
+  "save_kept": true,
+  "savedata_files": [
+   "majiro_0101.sav",
+   "majiro_9997.sav",
+   "majiro_readmark.mss",
+   "majiro_system.mss"
+  ]
+ }
+}

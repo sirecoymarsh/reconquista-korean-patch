@@ -1,0 +1,2971 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-1/lane-2",
+  "coordinator_thread_id": "01a16335-92a2-79c2-814f-63275a46f2b1",
+  "agent_id": "/root/lane_2",
+  "source_script": "kureha_05.mjo",
+  "source_sha256": "22a17cd4d2786ff7ee2022f233ca1dc2243a78a9d671503464a2e001f1d8fe16",
+  "records": [
+    {
+      "unit": "kureha_05.mjo::u0001",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000014",
+          "source": "「ふぅ…今日は収穫なしか」",
+          "target": "「후우… 오늘은 소득이 없네」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "죽은 아내의 모습을 찾아 쿠레하를 찾는 남자",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "자문하는 독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0002",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000019",
+          "source": "かれこれ２，３時間は歩き続けただろうか。",
+          "target": "줄곧 두세 시간은 걸었을까."
+        },
+        {
+          "id": "kureha_05.mjo::000023",
+          "source": "そろそろ足の裏が痛くなってきた。",
+          "target": "슬슬 발바닥이 아파 오기 시작했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0003",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000028",
+          "source": "時刻的にもそろそろ深夜を指す頃で、",
+          "target": "시간도 어느덧 한밤중으로 접어들 무렵이었다."
+        },
+        {
+          "id": "kureha_05.mjo::000032",
+          "source": "これ以上粘ると明日が辛くなるだろう。",
+          "target": "더 버티다가는 내일이 힘들어질 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0004",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000039",
+          "source": "「ただでさえ最近は睡眠不足だしな」",
+          "target": "「안 그래도 요즘 잠이 부족한데」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "죽은 아내의 모습을 찾아 쿠레하를 찾는 남자",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "자문하는 독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0005",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000044",
+          "source": "このままだと日常生活にも支障をきたしかねない。",
+          "target": "이러다가는 일상생활에도 지장이 생길지 모른다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0006",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000049",
+          "source": "どこかで踏ん切りをつける必要があるのだが、",
+          "target": "어느 선에서는 결단을 내려야 하는데,"
+        },
+        {
+          "id": "kureha_05.mjo::000053",
+          "source": "中々それが出来ずにずるずると時間だけが過ぎ去る…",
+          "target": "좀처럼 그러지 못하고 질질 끌며 시간만 흘려보낸다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0007",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000058",
+          "source": "我ながら性格がよく出てると思った。",
+          "target": "내가 생각해도 성격이 잘 드러나는 것 같았다."
+        },
+        {
+          "id": "kureha_05.mjo::000062",
+          "source": "結局僕は何事に置いても諦めが悪い。",
+          "target": "결국 나는 무슨 일이든 쉽게 포기하지 못한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0008",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000067",
+          "source": "だから今もこうして、",
+          "target": "그래서 지금도 이렇게,"
+        },
+        {
+          "id": "kureha_05.mjo::000071",
+          "source": "亡き妻の面影を追って深夜の街を徘徊している――",
+          "target": "죽은 아내의 모습을 찾아 한밤중 거리를 배회하고 있다――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0009",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000086",
+          "source": "タッタッタッタッタ…",
+          "target": "타다다다닥…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "의성어",
+        "text_function": "sound_effect"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0010",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000093",
+          "source": "「…ってたぞ、…っち……」",
+          "target": "「…갔어, …쪽……」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 무리(화자 미확정)",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0011",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000100",
+          "source": "「……すな、………だぜ……」",
+          "target": "「……치지 마, ………라고……」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 무리(화자 미확정)",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0012",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000111",
+          "source": "「…ん？　今、声が聞こえたような…」",
+          "target": "「…응? 지금 목소리가 들린 것 같은데…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "죽은 아내의 모습을 찾아 쿠레하를 찾는 남자",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "자문하는 독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0013",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000116",
+          "source": "声だけじゃなく、複数の足音も聞こえた気がした。",
+          "target": "목소리뿐 아니라 여러 사람의 발소리도 들린 듯했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0014",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000121",
+          "source": "この街の夜は非常に静かなので、",
+          "target": "이 거리는 밤이면 아주 조용해서,"
+        },
+        {
+          "id": "kureha_05.mjo::000125",
+          "source": "そういったものはよく響くのだ。",
+          "target": "그런 소리가 잘 울려 퍼진다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0015",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000133",
+          "source": "タッタッタッタッタ…",
+          "target": "타다다다닥…"
+        },
+        {
+          "id": "kureha_05.mjo::000139",
+          "source": "また誰かの足音が聞こえてくる。",
+          "target": "또 누군가의 발소리가 들려온다."
+        },
+        {
+          "id": "kureha_05.mjo::000143",
+          "source": "しかも段々とこっちの方へ近づいてきていた。",
+          "target": "게다가 점점 이쪽으로 가까워지고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "의성어",
+        "text_function": "sound_effect"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0016",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000150",
+          "source": "「え、えっと、どうしよう…」",
+          "target": "「어, 어쩌지…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "죽은 아내의 모습을 찾아 쿠레하를 찾는 남자",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "자문하는 독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0017",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000155",
+          "source": "僕は少し迷ってから、その辺の物陰に隠れることにした。",
+          "target": "나는 잠깐 망설이다가 근처에 몸을 숨기기로 했다."
+        },
+        {
+          "id": "kureha_05.mjo::000159",
+          "source": "向こうが何者かわからないので、とりあえず様子を見よう。",
+          "target": "누군지 모르니 일단 상황을 지켜보자."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0018",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000168",
+          "source": "それからしばらくすると…",
+          "target": "그러고 잠시 뒤…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0019",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000180",
+          "source": "タッタッタッタッタ…",
+          "target": "타다다다닥…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "의성어",
+        "text_function": "sound_effect"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0020",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000197",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [],
+        "relationship": "자신을 쫓아온 남자들을 대하는 피추격자",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "동요를 드러내지 않는 차분하고 단정적인 반말",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0021",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000207",
+          "source": "「（く、暮葉っ？）」",
+          "target": "「(쿠, 쿠레하!?)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "죽은 아내의 모습을 찾아 쿠레하를 찾는 남자",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "자문하는 독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0022",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000212",
+          "source": "なんと、足音と共に姿を現したのは暮葉だった。",
+          "target": "놀랍게도 발소리와 함께 나타난 사람은 쿠레하였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0023",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000217",
+          "source": "駆け足でやって来た彼女は、",
+          "target": "뛰어온 그녀는"
+        },
+        {
+          "id": "kureha_05.mjo::000221",
+          "source": "背後の方を気にしながら一旦足を止める。",
+          "target": "뒤쪽을 신경 쓰며 잠시 걸음을 멈췄다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0024",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000228",
+          "source": "「おい、あの女どこいった？」",
+          "target": "「야, 그 여자 어디 갔어?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 １",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0025",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000235",
+          "source": "「多分あっちじゃねえか」",
+          "target": "「아마 저쪽일걸」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ２",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0026",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000242",
+          "source": "「よし、探せっ」",
+          "target": "「좋아, 찾아!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ３",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0027",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000247",
+          "source": "また声が聞こえてきた。",
+          "target": "또 목소리가 들려왔다."
+        },
+        {
+          "id": "kureha_05.mjo::000251",
+          "source": "今度ははっきりと複数の男達だとわかる。",
+          "target": "이번에는 여러 남자의 목소리라는 걸 확실히 알 수 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0028",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000256",
+          "source": "僕が最初に聞いたのも、多分この声だった。",
+          "target": "내가 처음 들었던 것도 아마 이 목소리였을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0029",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000270",
+          "source": "「…しつこい…」",
+          "target": "「…끈질기네…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [],
+        "relationship": "자신을 쫓아온 남자들을 대하는 피추격자",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "동요를 드러내지 않는 차분하고 단정적인 반말",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0030",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000275",
+          "source": "同じく声が聞こえたらしい暮葉は、",
+          "target": "쿠레하도 목소리를 들었는지,"
+        },
+        {
+          "id": "kureha_05.mjo::000279",
+          "source": "舌打ちまじりにそう呟いた。",
+          "target": "혀를 차며 그렇게 중얼거렸다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0031",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000284",
+          "source": "まさか暮葉は…声の主の男達に追われているのか？",
+          "target": "설마 쿠레하는… 저 목소리의 주인인 남자들에게 쫓기는 건가?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0032",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000304",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [],
+        "relationship": "자신을 쫓아온 남자들을 대하는 피추격자",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "동요를 드러내지 않는 차분하고 단정적인 반말",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0033",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000317",
+          "source": "タッタッタッタッタ…",
+          "target": "타다다다닥…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "의성어",
+        "text_function": "sound_effect"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0034",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000322",
+          "source": "暮葉はふわりと身を翻すと、",
+          "target": "쿠레하는 가볍게 몸을 돌리더니,"
+        },
+        {
+          "id": "kureha_05.mjo::000326",
+          "source": "再び駆け足になって道の向こうへ走り去る。",
+          "target": "다시 뛰기 시작해 길 저편으로 사라졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0035",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000331",
+          "source": "結局暮葉は僕の存在に気付かなかった。",
+          "target": "결국 쿠레하는 내가 있다는 걸 눈치채지 못했다."
+        },
+        {
+          "id": "kureha_05.mjo::000335",
+          "source": "僕も姿を見せるタイミングを逸してしまったんだけど…",
+          "target": "나도 모습을 드러낼 때를 놓쳐 버렸지만…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0036",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000343",
+          "source": "タッタッタッタッタ…",
+          "target": "타다다다닥…"
+        },
+        {
+          "id": "kureha_05.mjo::000349",
+          "source": "　タッタッタッタッタ…",
+          "target": "　타다다다닥…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "의성어",
+        "text_function": "sound_effect"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0037",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000354",
+          "source": "その時また複数の足音が近づいてきた。",
+          "target": "그때 다시 여러 사람의 발소리가 가까워졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0038",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000359",
+          "source": "僕は引き続きその場に隠れたまま、",
+          "target": "나는 계속 그 자리에 숨어,"
+        },
+        {
+          "id": "kureha_05.mjo::000363",
+          "source": "足音の主らが姿を現すのを待つ。",
+          "target": "발소리의 주인들이 나타나기를 기다렸다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0039",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000370",
+          "source": "「おい、いたか？」",
+          "target": "「야, 찾았어?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 １",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0040",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000377",
+          "source": "「あ、いたいた。あっちだっ」",
+          "target": "「어, 저기 있다. 저쪽이야!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ２",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0041",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000384",
+          "source": "「ここまで来て逃がしてたまるかよっ」",
+          "target": "「여기까지 와서 놓칠 것 같냐!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ３",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0042",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000392",
+          "source": "タッタッタッタッタ…",
+          "target": "타다다다닥…"
+        },
+        {
+          "id": "kureha_05.mjo::000396",
+          "source": "　タッタッタッタッタ…",
+          "target": "　타다다다닥…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "의성어",
+        "text_function": "sound_effect"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0043",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000401",
+          "source": "現れたのは三人組の男達だった",
+          "target": "나타난 건 남자 셋이었다."
+        },
+        {
+          "id": "kureha_05.mjo::000405",
+          "source": "いかにも最近の不良といった軽薄な格好をしている。",
+          "target": "딱 요즘 불량배들 같은 경박한 차림이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0044",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000410",
+          "source": "彼らは暮葉の後ろ姿を確認すると、",
+          "target": "그들은 쿠레하의 뒷모습을 확인하자,"
+        },
+        {
+          "id": "kureha_05.mjo::000414",
+          "source": "その後を追って駆け出していった。",
+          "target": "그 뒤를 쫓아 달려갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0045",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000421",
+          "source": "「どうなってるんだ？　暮葉が追われてるなんて」",
+          "target": "「어떻게 된 거지? 쿠레하가 쫓기다니」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "죽은 아내의 모습을 찾아 쿠레하를 찾는 남자",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "자문하는 독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0046",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000426",
+          "source": "見たままを解釈すれば、",
+          "target": "눈에 보이는 그대로라면,"
+        },
+        {
+          "id": "kureha_05.mjo::000430",
+          "source": "不良たちに絡まれて逃げ回っているんだろうけど…",
+          "target": "불량배들이 시비를 걸어서 도망 다니는 거겠지만…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0047",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000437",
+          "source": "暮葉が何の抵抗もせず、",
+          "target": "쿠레하가 아무 저항도 하지 않고,"
+        },
+        {
+          "id": "kureha_05.mjo::000441",
+          "source": "ただ逃げ回っているだけというのが不可解だった。",
+          "target": "그저 도망치기만 한다는 게 이해되지 않았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0048",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000448",
+          "source": "「…いやいや、",
+          "target": "「…아니, 아니지."
+        },
+        {
+          "id": "kureha_05.mjo::000452",
+          "source": "　今はそんなこと考えてる場合じゃないだろっ」",
+          "target": "　지금 그런 걸 생각할 때가 아니잖아!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "죽은 아내의 모습을 찾아 쿠레하를 찾는 남자",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "자문하는 독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0049",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000457",
+          "source": "はっと我に返る僕。さっきの男達の様子からすると、",
+          "target": "나는 퍼뜩 정신을 차렸다. 아까 그 남자들의 태도로 보아,"
+        },
+        {
+          "id": "kureha_05.mjo::000461",
+          "source": "暮葉に追いついたら何をするかわからない。",
+          "target": "쿠레하를 따라잡으면 무슨 짓을 할지 모른다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0050",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000466",
+          "source": "下手をすると田村の時のように、",
+          "target": "잘못하면 다무라 때처럼,"
+        },
+        {
+          "id": "kureha_05.mjo::000470",
+          "source": "寄ってたかって乱暴するつもりかもしれなかった。",
+          "target": "여럿이 달려들어 폭행할 생각일지도 몰랐다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0051",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000477",
+          "source": "「（そんなこと…絶対にさせるわけにはいかないっ）」",
+          "target": "「(그런 짓은… 절대로 하게 둘 수 없어!)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "죽은 아내의 모습을 찾아 쿠레하를 찾는 남자",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "자문하는 독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0052",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000482",
+          "source": "僕は慌てて暮葉と三人組の後を追った。",
+          "target": "나는 황급히 쿠레하와 세 남자의 뒤를 쫓았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 밤거리 수색",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0053",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000492",
+          "source": "その後暮葉は住宅街の端にある、",
+          "target": "이후 쿠레하는 주택가 끝에 있는,"
+        },
+        {
+          "id": "kureha_05.mjo::000496",
+          "source": "明かりのついてない廃マンションへと逃げ込んだ。",
+          "target": "불도 켜지지 않은 폐아파트로 도망쳐 들어갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 추격",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0054",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000501",
+          "source": "三人組の不良もしつこく暮葉の後を追い、",
+          "target": "불량배 셋도 끈질기게 쿠레하를 쫓았고,"
+        },
+        {
+          "id": "kureha_05.mjo::000505",
+          "source": "更にその後を僕が追いかける。",
+          "target": "나는 다시 그 뒤를 따라갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 추격",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0055",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000510",
+          "source": "暮葉は廃マンション内を上へ上へと昇っていくようだ。",
+          "target": "쿠레하는 폐아파트 안에서 계속 위로 올라가는 듯했다."
+        },
+        {
+          "id": "kureha_05.mjo::000514",
+          "source": "しかしそれでは最上階で逃げ場を失ってしまう。",
+          "target": "하지만 그러다가는 꼭대기 층에서 도망칠 곳이 없어지고 만다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 추격",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0056",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000519",
+          "source": "そして僕の思った通り、",
+          "target": "그리고 내 예상대로,"
+        },
+        {
+          "id": "kureha_05.mjo::000523",
+          "source": "彼女は実際にそういう状況へと追い込まれていった。",
+          "target": "그녀는 정말 그런 상황에 몰리고 말았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 추격",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0057",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000536",
+          "source": "タッタッタッタッタ…",
+          "target": "타다다다닥…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 추격",
+        "voice": "의성어",
+        "text_function": "sound_effect"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0058",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000550",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [],
+        "relationship": "자신을 쫓아온 남자들을 대하는 피추격자",
+        "story_phase": "kureha_05 / 폐아파트 추격",
+        "voice": "동요를 드러내지 않는 차분하고 단정적인 반말",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0059",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000558",
+          "source": "タッタッタッタッタ…",
+          "target": "타다다다닥…"
+        },
+        {
+          "id": "kureha_05.mjo::000564",
+          "source": "　タッタッタッタッタ…",
+          "target": "　타다다다닥…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 추격",
+        "voice": "의성어",
+        "text_function": "sound_effect"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0060",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000571",
+          "source": "「はぁ、はぁ、はぁ…",
+          "target": "「하아, 하아, 하아…"
+        },
+        {
+          "id": "kureha_05.mjo::000575",
+          "source": "　や、やっと追いついたぜ」",
+          "target": "　드, 드디어 따라잡았네」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 １",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0061",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000582",
+          "source": "「ふぅ、ふぅ、て、手間かけさせやがって」",
+          "target": "「후우, 후우, 사, 사람 고생시키고 말이야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ２",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0062",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000589",
+          "source": "「へぇ、へぇ、つ、疲れた…」",
+          "target": "「헉, 헉, 아, 힘들어…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ３",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0063",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000603",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "세 남자"
+        ],
+        "relationship": "자신을 쫓아온 남자들을 대하는 피추격자",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "동요를 드러내지 않는 차분하고 단정적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0064",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000610",
+          "source": "「おい、残念だったな。行き止まりでよ」",
+          "target": "「이봐, 안됐네. 여긴 막다른 길이라고」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 １",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0065",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000617",
+          "source": "「バカな女だぜ、上へ逃げてどうするんだよ。",
+          "target": "「멍청한 여자네. 위로 도망치면 어쩌자는 거야."
+        },
+        {
+          "id": "kureha_05.mjo::000621",
+          "source": "　空でも飛ぶつもりだったのか？」",
+          "target": "　하늘이라도 날 생각이었냐?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ２",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0066",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000628",
+          "source": "「いやいや、誘ってんだよ。",
+          "target": "「아니지, 우리를 유혹하는 거라니까."
+        },
+        {
+          "id": "kureha_05.mjo::000632",
+          "source": "　邪魔の入らないところでナカヨクしましょってなっ」",
+          "target": "　방해받지 않는 곳에서 사이좋게 놀자는 거지!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ３",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0067",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000639",
+          "source": "「ははっ、そりゃいーやっ」",
+          "target": "「하하, 그거 좋네!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 １",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0068",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000659",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "세 남자"
+        ],
+        "relationship": "자신을 쫓아온 남자들을 대하는 피추격자",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "동요를 드러내지 않는 차분하고 단정적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0069",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000666",
+          "source": "「…おい姉ちゃん、なんとか言えよ」",
+          "target": "「…이봐, 아가씨. 뭐라고 말 좀 해 봐」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 １",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0070",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000673",
+          "source": "「澄ましたツラしやがって。気に食わねえな」",
+          "target": "「새침한 낯짝 하고는. 마음에 안 드는데」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ２",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0071",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000680",
+          "source": "「そういう態度だと俺たち、優しくしてやんないよ？」",
+          "target": "「그런 태도로 나오면 우리도 곱게 안 대해 준다?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ３",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0072",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000694",
+          "source": "「…好きにすればいいわ」",
+          "target": "「…마음대로 해」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "세 남자"
+        ],
+        "relationship": "자신을 쫓아온 남자들을 대하는 피추격자",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "동요를 드러내지 않는 차분하고 단정적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0073",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000701",
+          "source": "「はあ？　今なんつった？」",
+          "target": "「뭐? 지금 뭐라고 했어?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 １",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0074",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000715",
+          "source": "「好きにすればいい。私は構わないわ」",
+          "target": "「마음대로 해. 난 상관없어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "세 남자"
+        ],
+        "relationship": "자신을 쫓아온 남자들을 대하는 피추격자",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "동요를 드러내지 않는 차분하고 단정적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0075",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000722",
+          "source": "「へ、へへへっ…なんだ、本当に誘ってたのかよ」",
+          "target": "「헤, 헤헤헤… 뭐야, 정말 유혹한 거였냐」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ２",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0076",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000729",
+          "source": "「ほ、ほら見ろ。俺の言ったとおりだろ？",
+          "target": "「거, 거봐. 내 말이 맞지?"
+        },
+        {
+          "id": "kureha_05.mjo::000733",
+          "source": "　やっぱあの噂は本当だったんだよ」",
+          "target": "　역시 그 소문은 진짜였던 거야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ３",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0077",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000740",
+          "source": "「そうみてぇだな。",
+          "target": "「그런가 보네."
+        },
+        {
+          "id": "kureha_05.mjo::000744",
+          "source": "　ったく、最初っからそう言えば良かったのによ」",
+          "target": "　참 나, 처음부터 그렇게 말했으면 좋았잖아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 １",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0078",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000751",
+          "source": "「そうそう。あんたがそういうつもりなら、",
+          "target": "「그러게. 아가씨가 그럴 생각이라면,"
+        },
+        {
+          "id": "kureha_05.mjo::000755",
+          "source": "　俺たちだって悪いようにはしないって」",
+          "target": "　우리도 험하게 굴지는 않는다고」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ２",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0079",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000762",
+          "source": "「一緒に楽しくやろうぜぇ、へへへ…」",
+          "target": "「같이 재밌게 놀자고, 헤헤헤…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ３",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0080",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000776",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "세 남자"
+        ],
+        "relationship": "자신을 쫓아온 남자들을 대하는 피추격자",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "동요를 드러내지 않는 차분하고 단정적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0081",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000789",
+          "source": "タッタッタッタ…",
+          "target": "타다다닥…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "의성어",
+        "text_function": "sound_effect"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0082",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000796",
+          "source": "「ま、待てっ……はぁ、はぁ、はぁ…」",
+          "target": "「자, 잠깐만…… 하아, 하아, 하아…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "세 남자"
+        ],
+        "relationship": "위험에 처한 쿠레하를 도우려는 교사",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "교사로서 제지하는 단호한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0083",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000810",
+          "source": "「！」",
+          "target": "「!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "구하러 나타난 마키노에게 놀란 쿠레하",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "놀람의 반응",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0084",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000817",
+          "source": "「なんだぁ？　これからいいところだってのによっ」",
+          "target": "「뭐야? 이제부터 한창 좋을 참인데!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 １",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0085",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000822",
+          "source": "僕がようやく最上階にたどり着くと、",
+          "target": "내가 겨우 꼭대기 층에 도착했을 때,"
+        },
+        {
+          "id": "kureha_05.mjo::000826",
+          "source": "暮葉が三人組に追い詰められているところだった。",
+          "target": "쿠레하는 세 남자에게 몰려 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0086",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000831",
+          "source": "間一髪間に合ったか？　でも問題はむしろこれからだ。",
+          "target": "아슬아슬하게 늦지 않은 건가? 하지만 문제는 오히려 지금부터다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0087",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000843",
+          "source": "「おい、おっさん。俺たちはこれからこの姉ちゃんと",
+          "target": "「이봐, 아저씨. 우린 이제 이 아가씨랑"
+        },
+        {
+          "id": "kureha_05.mjo::000847",
+          "source": "　よろしくやるんだから邪魔するなよ」",
+          "target": "　좋은 시간 보낼 거니까 방해하지 마」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ２",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0088",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000854",
+          "source": "「そーそー。お互い合意の上だぜ？",
+          "target": "「맞아, 맞아. 서로 동의한 거라고?"
+        },
+        {
+          "id": "kureha_05.mjo::000858",
+          "source": "　なんか文句あるんのかよ」",
+          "target": "　뭐 불만이라도 있냐」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ３",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0089",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000865",
+          "source": "「…僕は教師だ。こういう現場を見逃すわけにはいかない」",
+          "target": "「…나는 교사야. 이런 현장을 보고 그냥 넘길 수는 없어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "세 남자"
+        ],
+        "relationship": "위험에 처한 쿠레하를 도우려는 교사",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "교사로서 제지하는 단호한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0090",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000872",
+          "source": "「あぁんっ、こいつ先公かぁ？",
+          "target": "「뭐야, 이 자식 선생이야?"
+        },
+        {
+          "id": "kureha_05.mjo::000876",
+          "source": "　なんで先公がこんなところに居るんだよ」",
+          "target": "　선생이 이런 데는 왜 있는데」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 １",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0091",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000881",
+          "source": "教師と名乗った瞬間、彼らの目つきが変わった。",
+          "target": "교사라고 밝힌 순간 그들의 눈빛이 달라졌다."
+        },
+        {
+          "id": "kureha_05.mjo::000885",
+          "source": "どうやら彼らは、教師を目の敵にする典型的な不良らしい。",
+          "target": "보아하니 교사를 원수처럼 여기는 전형적인 불량배들인 듯했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0092",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000890",
+          "source": "おかげで彼らの注意は暮葉からこちらに移ったが、",
+          "target": "덕분에 그들의 관심은 쿠레하에게서 내게로 옮겨 왔지만,"
+        },
+        {
+          "id": "kureha_05.mjo::000894",
+          "source": "今度は僕が危機的状況に陥っていた。",
+          "target": "이번에는 내가 위태로운 상황에 빠졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0093",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000901",
+          "source": "「けっ、ムカツクぜ。あんた、",
+          "target": "「쳇, 짜증 나네. 당신,"
+        },
+        {
+          "id": "kureha_05.mjo::000905",
+          "source": "　あのミッションスクールの先公かよ？」",
+          "target": "　그 미션 스쿨 선생이냐?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ２",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0094",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000912",
+          "source": "「君達こそ、どこの学校の生徒なんだ。",
+          "target": "「그러는 너희는 어느 학교 학생들이지?"
+        },
+        {
+          "id": "kureha_05.mjo::000916",
+          "source": "　学年は？　隣町から来たのか？」",
+          "target": "　몇 학년이야? 옆 동네에서 왔나?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "세 남자"
+        ],
+        "relationship": "위험에 처한 쿠레하를 도우려는 교사",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "교사로서 제지하는 단호한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0095",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000923",
+          "source": "「うるせーなっ。こんなところでまで、",
+          "target": "「시끄러워! 이런 데서까지"
+        },
+        {
+          "id": "kureha_05.mjo::000927",
+          "source": "　先公の説教なんざ聞きたくねぇんだよ！」",
+          "target": "　선생 설교 따위 듣고 싶지 않다고!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ３",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0096",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000938",
+          "source": "バキィッ",
+          "target": "빠악!"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "의성어",
+        "text_function": "sound_effect"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0097",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000945",
+          "source": "「ぐあっ…」",
+          "target": "「크악…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "위험에 처한 쿠레하를 도우려는 교사",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "자문하는 독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0098",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000950",
+          "source": "いきなり顔面を殴られた。",
+          "target": "느닷없이 얼굴을 얻어맞았다."
+        },
+        {
+          "id": "kureha_05.mjo::000954",
+          "source": "目の奥がチカチカして、鼻の奥から鉄の匂いを感じる。",
+          "target": "눈앞이 번쩍거리고 코 안에서 쇠 냄새가 났다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0099",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000959",
+          "source": "ただでさえ荒事は苦手なのに、相手は三人。",
+          "target": "안 그래도 몸싸움은 자신 없는데 상대는 셋이다."
+        },
+        {
+          "id": "kureha_05.mjo::000963",
+          "source": "とても僕一人でどうにか出来る状況ではない。",
+          "target": "도저히 나 혼자 어떻게 해 볼 수 있는 상황이 아니었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0100",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000968",
+          "source": "けど、せめてこの隙に暮葉が逃げ出してくれたら…",
+          "target": "하지만 적어도 이 틈에 쿠레하가 도망쳐 준다면…"
+        },
+        {
+          "id": "kureha_05.mjo::000972",
+          "source": "それだけが僕の目的だった。",
+          "target": "내가 바라는 건 그것뿐이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0101",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000986",
+          "source": "「…待ちなさい」",
+          "target": "「…그만둬」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "세 남자"
+        ],
+        "relationship": "자신을 쫓아온 남자들을 대하는 피추격자",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "동요를 드러내지 않는 차분하고 단정적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0102",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000993",
+          "source": "「えっ…く、暮葉？」",
+          "target": "「어… 쿠, 쿠레하?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "위험에 처한 쿠레하를 도우려는 교사",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "쿠레하에게 다급한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0103",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::000998",
+          "source": "だが僕の願いとは裏腹に、",
+          "target": "하지만 내 바람과는 달리,"
+        },
+        {
+          "id": "kureha_05.mjo::001002",
+          "source": "暮葉はわざわざ三人組に声をかける。",
+          "target": "쿠레하는 굳이 세 남자에게 말을 걸었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0104",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001007",
+          "source": "これじゃあ折角彼らの注意を引いたのに、意味がない。",
+          "target": "이래서는 모처럼 주의를 끌어 놓은 보람이 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0105",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001021",
+          "source": "「あなた達の目的は私じゃなかったの？」",
+          "target": "「너희가 노리던 건 내가 아니었어?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "세 남자"
+        ],
+        "relationship": "자신을 쫓아온 남자들을 대하는 피추격자",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "동요를 드러내지 않는 차분하고 단정적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0106",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001028",
+          "source": "「ばか、何を言ってるんだ。早く逃げろっ…」",
+          "target": "「바보야, 무슨 소리야. 빨리 도망쳐…!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "위험에 처한 쿠레하를 도우려는 교사",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "쿠레하에게 다급한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0107",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001035",
+          "source": "「うるせぇ、おっさんは黙ってろ！」",
+          "target": "「시끄러워, 아저씨는 입 다물고 있어!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ２",
+        "addressees": [
+          "마키노"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0108",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001051",
+          "source": "どすっ",
+          "target": "퍽"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "의성어",
+        "text_function": "sound_effect"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0109",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001058",
+          "source": "「…ぐはっ」",
+          "target": "「…커헉」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "위험에 처한 쿠레하를 도우려는 교사",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "자문하는 독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0110",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001063",
+          "source": "また殴られた。今度は腹に一撃…",
+          "target": "또 맞았다. 이번에는 배에 한 대…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0111",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001068",
+          "source": "中から酸っぱいものが込み上げてきて、",
+          "target": "속에서 시큼한 것이 치밀어 올라,"
+        },
+        {
+          "id": "kureha_05.mjo::001072",
+          "source": "僕は思わず膝をついてしまう。",
+          "target": "나는 나도 모르게 무릎을 꿇고 말았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0112",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001086",
+          "source": "「………」",
+          "target": "「………」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "세 남자"
+        ],
+        "relationship": "자신을 쫓아온 남자들을 대하는 피추격자",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "동요를 드러내지 않는 차분하고 단정적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0113",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001093",
+          "source": "「姉ちゃん、慌てなくてもあんたの相手はしてやるよ。",
+          "target": "「아가씨, 서두르지 않아도 상대해 줄게."
+        },
+        {
+          "id": "kureha_05.mjo::001097",
+          "source": "　この先公をボコった後でな」",
+          "target": "　이 선생 놈부터 두들겨 패고 나서 말이야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 １",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0114",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001111",
+          "source": "「そう…でも私はそれを待ってるほど、",
+          "target": "「그래… 하지만 난 그걸 기다려 줄 만큼"
+        },
+        {
+          "id": "kureha_05.mjo::001115",
+          "source": "　悠長じゃないわ」",
+          "target": "　느긋하지 않아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "세 남자"
+        ],
+        "relationship": "자신을 쫓아온 남자들을 대하는 피추격자",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "동요를 드러내지 않는 차분하고 단정적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0115",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001122",
+          "source": "「なんだ、逃げるってのか？",
+          "target": "「뭐야, 도망치겠다는 거냐?"
+        },
+        {
+          "id": "kureha_05.mjo::001126",
+          "source": "　でもこの先は行き止まりだぜ」",
+          "target": "　그런데 여긴 막다른 길이라고」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ２",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0116",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001133",
+          "source": "「それともこの狭い廊下で、",
+          "target": "「아니면 이 좁은 복도에서"
+        },
+        {
+          "id": "kureha_05.mjo::001137",
+          "source": "　俺ら三人の横をすり抜けていくつもりかよ」",
+          "target": "　우리 셋 사이를 빠져나갈 생각이냐」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ３",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0117",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001144",
+          "source": "「ああ、一応言っとくけど、この先公をボコってる間に",
+          "target": "「아, 미리 말해 두겠는데, 이 선생 놈을 패는 동안"
+        },
+        {
+          "id": "kureha_05.mjo::001148",
+          "source": "　逃げ出そうとしても無駄だぜ」",
+          "target": "　도망치려고 해도 소용없어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 １",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0118",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001155",
+          "source": "「こっちは三人だ。一人はあんたが逃げないよう見張って、",
+          "target": "「우린 셋이잖아. 하나는 아가씨가 도망 못 가게 지키고,"
+        },
+        {
+          "id": "kureha_05.mjo::001159",
+          "source": "　残り二人で先公を殴ればいいんだからな」",
+          "target": "　나머지 둘이 선생 놈을 때리면 되니까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 １",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0119",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001166",
+          "source": "「おぉ、それあったまイイっ」",
+          "target": "「오, 그거 똑똑한데!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ２",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0120",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001171",
+          "source": "確かに、彼らの一人の言う通りだった。",
+          "target": "그 남자의 말이 맞았다."
+        },
+        {
+          "id": "kureha_05.mjo::001175",
+          "source": "暮葉の逃げ場は完全に塞がれている。",
+          "target": "쿠레하가 도망칠 길은 완전히 막혀 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0121",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001180",
+          "source": "数も地の利も彼らに分があり、",
+          "target": "숫자로나 지형으로나 저쪽이 유리했고,"
+        },
+        {
+          "id": "kureha_05.mjo::001184",
+          "source": "僕たちがこの状況を打開する術はない…",
+          "target": "우리에게는 이 상황을 타개할 방법이 없었다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0122",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001198",
+          "source": "「…私が何の為に、わざわざ上まで昇ってきたと思う？」",
+          "target": "「…내가 뭐 하러 굳이 여기까지 올라왔다고 생각해?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "세 남자"
+        ],
+        "relationship": "자신을 쫓아온 남자들을 대하는 피추격자",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "동요를 드러내지 않는 차분하고 단정적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0123",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001205",
+          "source": "「はぁ？　何言ってんだあんた」",
+          "target": "「뭐? 무슨 소리야, 아가씨」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ３",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0124",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001215",
+          "source": "その言葉を無視して、こちらに背を向ける暮葉。",
+          "target": "그 말을 무시한 채 이쪽에 등을 돌리는 쿠레하."
+        },
+        {
+          "id": "kureha_05.mjo::001219",
+          "source": "そしてマンションの塀の部分にそっと手をかけた。",
+          "target": "그러더니 아파트 난간에 살며시 손을 얹었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0125",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001233",
+          "source": "「私がここまで上って来たのわね…」",
+          "target": "「내가 여기까지 올라온 건 말이야…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "세 남자"
+        ],
+        "relationship": "자신을 쫓아온 남자들을 대하는 피추격자",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "동요를 드러내지 않는 차분하고 단정적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0126",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001247",
+          "source": "「空を飛ぶ為よ」",
+          "target": "「하늘을 날기 위해서야」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "쿠레하",
+        "addressees": [
+          "세 남자"
+        ],
+        "relationship": "자신을 쫓아온 남자들을 대하는 피추격자",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "동요를 드러내지 않는 차분하고 단정적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0127",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001259",
+          "source": "ばっ",
+          "target": "휙"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "의성어",
+        "text_function": "sound_effect"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0128",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001264",
+          "source": "暮葉は驚くべき行動に出た。",
+          "target": "쿠레하는 놀라운 행동을 했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0129",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001269",
+          "source": "彼女は僕たちの目の前で、",
+          "target": "그녀는 우리가 보는 앞에서"
+        },
+        {
+          "id": "kureha_05.mjo::001273",
+          "source": "塀を乗り越えその身を空中へと投げ出したのだ！",
+          "target": "난간을 넘어 허공으로 몸을 던진 것이다!"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0130",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001280",
+          "source": "「暮葉っ！？」",
+          "target": "「쿠레하!?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "위험에 처한 쿠레하를 도우려는 교사",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "쿠레하에게 다급한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0131",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001287",
+          "source": "「なっ…！」",
+          "target": "「뭐…!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 達",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓는 불량배 일행",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "거칠고 위협적인 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0132",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001292",
+          "source": "僕も、三人組も、暮葉の行為に目を疑った。",
+          "target": "나도, 세 남자도 쿠레하가 한 행동에 눈을 의심했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "목격자의 내면 서술",
+        "story_phase": "kureha_05 / 폐아파트 최상층 대치와 투신",
+        "voice": "담백한 일인칭 서술",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "田村",
+      "target": "다무라",
+      "evidence": [
+        "kureha_05.mjo::u0050"
+      ],
+      "note": "성씨의 일반 독음에 따른 임시안; 음성 대조 필요"
+    },
+    {
+      "source": "廃マンション",
+      "target": "폐아파트",
+      "evidence": [
+        "kureha_05.mjo::u0053",
+        "kureha_05.mjo::u0055"
+      ],
+      "note": "기존 マンション=아파트와 일관된 장소 표현"
+    }
+  ],
+  "inline_records": [
+    {
+      "unit": "kureha_05.mjo::u0047",
+      "id": "kureha_05.mjo::000435",
+      "source": "あの",
+      "target": "그 ",
+      "consumer": "yazlib $2f93f26a emphasized displayed body",
+      "evidence": "research/disassembly/kureha_05.mjo.mjil: 011bc ldstr -> 011c5 callp $2f93f26a (1), then 011d1 text 暮葉が…"
+    }
+  ],
+  "context_coverage": "Read all kureha_05 units 1-183 before drafting; batch ends at the leap/reaction boundary.",
+  "notes": [
+    "u0047 is rendered as inline 그 + main 쿠레하가..., preserving rhetorical emphasis.",
+    "Source u0125 のわ is treated as an orthographic typo; no recurrent dialect evidence.",
+    "All targets authored directly by Codex internal. No external MT used."
+  ],
+  "coordinator_review_applied": [
+    "u0017 remove unsupported gloomy atmosphere",
+    "u0083 reaction recipient Makino",
+    "u0093 mission-school term spacing",
+    "u0094 adult-to-student informal 너희"
+  ]
+}

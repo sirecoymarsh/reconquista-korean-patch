@@ -1,0 +1,602 @@
+{
+  "translator_model": "Codex internal",
+  "source_exe_sha256": "cd1c38ac20d9e502fbc58b7392ca77ec32e3d56f90d988580a3cf58cb6f95146",
+  "candidate_sha256": "dbf8f588a4be752ce47b2a54d806970f21bf36b0fc29ffd351a6d025ff0cfc2c",
+  "translation_sha256": "e984124f704133811f223bea3c26a6ac1484775bc62cce2d964e6e46e5672ec9",
+  "semantic_fields": 147,
+  "changed_resource_count": 17,
+  "resource_key_set_preserved": true,
+  "untouched_resources_identical": true,
+  "entrypoint_imports_identical": true,
+  "sections": [
+    {
+      "name": ".text",
+      "bytes_identical": true,
+      "original_sha256": "624bf28b5c11b1c758568a88f45fd48d16dc78aebc93223be2caa6e2ab7fafb0",
+      "candidate_sha256": "624bf28b5c11b1c758568a88f45fd48d16dc78aebc93223be2caa6e2ab7fafb0"
+    },
+    {
+      "name": ".rdata",
+      "bytes_identical": true,
+      "original_sha256": "16e6e49a08c1aac8875a643fc239a96d871008faa0816f50303832d9d3e138c3",
+      "candidate_sha256": "16e6e49a08c1aac8875a643fc239a96d871008faa0816f50303832d9d3e138c3"
+    },
+    {
+      "name": ".data",
+      "bytes_identical": true,
+      "original_sha256": "ece54618eed7ef0296ded8bbcc4486b9a635fa5737a696f666f461c7ac921f7b",
+      "candidate_sha256": "ece54618eed7ef0296ded8bbcc4486b9a635fa5737a696f666f461c7ac921f7b"
+    },
+    {
+      "name": ".rsrc",
+      "bytes_identical": false,
+      "original_sha256": "4b11e2c81e8a760c5d9184e9d2c681377816f8e4be8773a3af88f7606f6e14e0",
+      "candidate_sha256": "735f083f85beefbcec69f4ae99040f0608d93eb35f72165e90773fe7661e6e9b"
+    }
+  ],
+  "changed_resources": [
+    {
+      "type": {
+        "kind": "id",
+        "id": 4
+      },
+      "name": {
+        "kind": "name",
+        "name": "MAJIRO_MAIN",
+        "utf16le_hex": "4d0041004a00490052004f005f004d00410049004e00",
+        "location": {
+          "offset": 611760,
+          "bytes": 24
+        }
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "721244732a9efc19d49199d826f7d36e4048a188349e0f2d803f0995c5e9fad5",
+      "output_sha256": "94384ff7a946820a96207ad15a7b092d24e1cc5350ad11d190dedaabb770bca5",
+      "ids": [
+        "pe::type4::MAJIRO_MAIN::0",
+        "pe::type4::MAJIRO_MAIN::0/0",
+        "pe::type4::MAJIRO_MAIN::0/1",
+        "pe::type4::MAJIRO_MAIN::0/2",
+        "pe::type4::MAJIRO_MAIN::0/3",
+        "pe::type4::MAJIRO_MAIN::0/5",
+        "pe::type4::MAJIRO_MAIN::0/6",
+        "pe::type4::MAJIRO_MAIN::0/7",
+        "pe::type4::MAJIRO_MAIN::0/9",
+        "pe::type4::MAJIRO_MAIN::0/10",
+        "pe::type4::MAJIRO_MAIN::0/11",
+        "pe::type4::MAJIRO_MAIN::0/12",
+        "pe::type4::MAJIRO_MAIN::0/14",
+        "pe::type4::MAJIRO_MAIN::0/15",
+        "pe::type4::MAJIRO_MAIN::1",
+        "pe::type4::MAJIRO_MAIN::1/0",
+        "pe::type4::MAJIRO_MAIN::1/1",
+        "pe::type4::MAJIRO_MAIN::1/2",
+        "pe::type4::MAJIRO_MAIN::2",
+        "pe::type4::MAJIRO_MAIN::3",
+        "pe::type4::MAJIRO_MAIN::4",
+        "pe::type4::MAJIRO_MAIN::5",
+        "pe::type4::MAJIRO_MAIN::5/0",
+        "pe::type4::MAJIRO_MAIN::5/1",
+        "pe::type4::MAJIRO_MAIN::5/2"
+      ]
+    },
+    {
+      "type": {
+        "kind": "id",
+        "id": 4
+      },
+      "name": {
+        "kind": "name",
+        "name": "MAJIRO_MAIN_NOCONFIG",
+        "utf16le_hex": "4d0041004a00490052004f005f004d00410049004e005f004e004f0043004f004e00460049004700",
+        "location": {
+          "offset": 611818,
+          "bytes": 42
+        }
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "1c135e3dd5dc0b04294959dac8da520b25c02ba8c7a1e34d610a169cf359ac5b",
+      "output_sha256": "1025307eaa58ad6838d34ad6dcc30b9d722c855029464059364ad78d54dd9856",
+      "ids": [
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::0",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::0/0",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::0/1",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::0/2",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::0/3",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::0/5",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::0/6",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::0/7",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::0/9",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::0/10",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::1",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::1/0",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::1/1",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::1/2",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::2",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::3",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::4",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::5",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::6",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::6/0",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::6/1",
+        "pe::type4::MAJIRO_MAIN_NOCONFIG::6/2"
+      ]
+    },
+    {
+      "type": {
+        "kind": "id",
+        "id": 4
+      },
+      "name": {
+        "kind": "name",
+        "name": "MAJIRO_MAIN_ORG",
+        "utf16le_hex": "4d0041004a00490052004f005f004d00410049004e005f004f0052004700",
+        "location": {
+          "offset": 611860,
+          "bytes": 32
+        }
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "5628e07fd1b8705b8afb1101664dde61727a105b1a1a8b3d9619527bd1fa802e",
+      "output_sha256": "c488cd86aa51b77da81bc211cb7c4f1daf893bc32436ae54efffe17e61fb9048",
+      "ids": [
+        "pe::type4::MAJIRO_MAIN_ORG::0",
+        "pe::type4::MAJIRO_MAIN_ORG::0/0",
+        "pe::type4::MAJIRO_MAIN_ORG::0/1",
+        "pe::type4::MAJIRO_MAIN_ORG::0/2",
+        "pe::type4::MAJIRO_MAIN_ORG::0/3",
+        "pe::type4::MAJIRO_MAIN_ORG::0/5",
+        "pe::type4::MAJIRO_MAIN_ORG::0/7",
+        "pe::type4::MAJIRO_MAIN_ORG::0/8",
+        "pe::type4::MAJIRO_MAIN_ORG::0/9",
+        "pe::type4::MAJIRO_MAIN_ORG::0/11",
+        "pe::type4::MAJIRO_MAIN_ORG::1",
+        "pe::type4::MAJIRO_MAIN_ORG::1/0",
+        "pe::type4::MAJIRO_MAIN_ORG::1/1",
+        "pe::type4::MAJIRO_MAIN_ORG::1/2",
+        "pe::type4::MAJIRO_MAIN_ORG::2",
+        "pe::type4::MAJIRO_MAIN_ORG::3",
+        "pe::type4::MAJIRO_MAIN_ORG::4",
+        "pe::type4::MAJIRO_MAIN_ORG::4/0",
+        "pe::type4::MAJIRO_MAIN_ORG::4/1"
+      ]
+    },
+    {
+      "type": {
+        "kind": "id",
+        "id": 5
+      },
+      "name": {
+        "kind": "name",
+        "name": "ABOUTDIALOG",
+        "utf16le_hex": "410042004f00550054004400490041004c004f004700",
+        "location": {
+          "offset": 611892,
+          "bytes": 24
+        }
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "ac7cb60cf02c84303ef07540a3cf8d0c24936aeb01a2ca918a6557775646ae21",
+      "output_sha256": "25c14ca0c4a08c1df9a9c86ffa33c5e2741f6ec95ce454a9785d19a236e167c6",
+      "ids": [
+        "pe::type5::ABOUTDIALOG::caption",
+        "pe::type5::ABOUTDIALOG::control:1:0",
+        "pe::type5::ABOUTDIALOG::control:1007:2"
+      ]
+    },
+    {
+      "type": {
+        "kind": "id",
+        "id": 5
+      },
+      "name": {
+        "kind": "name",
+        "name": "ABOUTDIALOG_DEBUG",
+        "utf16le_hex": "410042004f00550054004400490041004c004f0047005f0044004500420055004700",
+        "location": {
+          "offset": 611916,
+          "bytes": 36
+        }
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "426de6f81ad126074bcfeaf0e62cc496402ecf395f670ffdfae5e7ee6d163d74",
+      "output_sha256": "a9ca57a2aae3c4583319d1fa2292c73f8ed1c4fa117f4bdefff726dc22af3de4",
+      "ids": [
+        "pe::type5::ABOUTDIALOG_DEBUG::caption",
+        "pe::type5::ABOUTDIALOG_DEBUG::control:1:0",
+        "pe::type5::ABOUTDIALOG_DEBUG::control:1004:1",
+        "pe::type5::ABOUTDIALOG_DEBUG::control:1005:2",
+        "pe::type5::ABOUTDIALOG_DEBUG::control:1008:3",
+        "pe::type5::ABOUTDIALOG_DEBUG::control:1006:4",
+        "pe::type5::ABOUTDIALOG_DEBUG::control:1007:8",
+        "pe::type5::ABOUTDIALOG_DEBUG::control:65535:9",
+        "pe::type5::ABOUTDIALOG_DEBUG::control:65535:10",
+        "pe::type5::ABOUTDIALOG_DEBUG::control:65535:12"
+      ]
+    },
+    {
+      "type": {
+        "kind": "id",
+        "id": 5
+      },
+      "name": {
+        "kind": "name",
+        "name": "ABOUTDIALOG_DEBUG_OLD",
+        "utf16le_hex": "410042004f00550054004400490041004c004f0047005f00440045004200550047005f004f004c004400",
+        "location": {
+          "offset": 611952,
+          "bytes": 44
+        }
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "911369920bee4893e7390b0cb41bb7a955d0cd157e04e2facb50ceab62be120e",
+      "output_sha256": "c2071cd3341a5d8d026c2ce4573f85793ad9fd04237bda8b49344c66945e94f4",
+      "ids": [
+        "pe::type5::ABOUTDIALOG_DEBUG_OLD::caption",
+        "pe::type5::ABOUTDIALOG_DEBUG_OLD::control:1:0",
+        "pe::type5::ABOUTDIALOG_DEBUG_OLD::control:1007:2",
+        "pe::type5::ABOUTDIALOG_DEBUG_OLD::control:1004:3",
+        "pe::type5::ABOUTDIALOG_DEBUG_OLD::control:1005:4",
+        "pe::type5::ABOUTDIALOG_DEBUG_OLD::control:65535:6",
+        "pe::type5::ABOUTDIALOG_DEBUG_OLD::control:65535:7",
+        "pe::type5::ABOUTDIALOG_DEBUG_OLD::control:65535:9"
+      ]
+    },
+    {
+      "type": {
+        "kind": "id",
+        "id": 5
+      },
+      "name": {
+        "kind": "name",
+        "name": "ABOUTDIALOG_NORMAL",
+        "utf16le_hex": "410042004f00550054004400490041004c004f0047005f004e004f0052004d0041004c00",
+        "location": {
+          "offset": 611996,
+          "bytes": 38
+        }
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "503deba7edd31176bf0d2987f55fa7cf4a821504a3960f1556606f8b21c5a4e6",
+      "output_sha256": "bd896dbd439ef459609a56d739fe6509f0b5591c06dd42186850d32911f38b3f",
+      "ids": [
+        "pe::type5::ABOUTDIALOG_NORMAL::caption",
+        "pe::type5::ABOUTDIALOG_NORMAL::control:1:0",
+        "pe::type5::ABOUTDIALOG_NORMAL::control:1007:2"
+      ]
+    },
+    {
+      "type": {
+        "kind": "id",
+        "id": 5
+      },
+      "name": {
+        "kind": "name",
+        "name": "ABOUTDIALOG_SIMPLE",
+        "utf16le_hex": "410042004f00550054004400490041004c004f0047005f00530049004d0050004c004500",
+        "location": {
+          "offset": 612034,
+          "bytes": 38
+        }
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "b07d53fb5213c1bf632581a059c421c3864ccc0f668e490fd738280b520e2242",
+      "output_sha256": "86d2805a4778d7b3b6f262cabbf97ed9f9d742d50c433f1de4ae7b5ea38a9ae9",
+      "ids": [
+        "pe::type5::ABOUTDIALOG_SIMPLE::caption",
+        "pe::type5::ABOUTDIALOG_SIMPLE::control:1:0",
+        "pe::type5::ABOUTDIALOG_SIMPLE::control:1007:1"
+      ]
+    },
+    {
+      "type": {
+        "kind": "id",
+        "id": 5
+      },
+      "name": {
+        "kind": "name",
+        "name": "NAMECACHE",
+        "utf16le_hex": "4e0041004d00450043004100430048004500",
+        "location": {
+          "offset": 612072,
+          "bytes": 20
+        }
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "7d6fed5a69e061b149ab80078afda1ee401634f5aa524143e1f6c08468dd36f6",
+      "output_sha256": "05714815c72b227c528d236d3e3823ea89fc8861767ae2ce26f7f931577bc1ef",
+      "ids": [
+        "pe::type5::NAMECACHE::caption",
+        "pe::type5::NAMECACHE::control:65535:0"
+      ]
+    },
+    {
+      "type": {
+        "kind": "id",
+        "id": 5
+      },
+      "name": {
+        "kind": "name",
+        "name": "SCREENOPTION",
+        "utf16le_hex": "530043005200450045004e004f005000540049004f004e00",
+        "location": {
+          "offset": 612092,
+          "bytes": 26
+        }
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "95c4eec7328a34a4f6a924bd8dd18a1eacc5cd794f61acb640098d75bfdc630b",
+      "output_sha256": "e016f8852ab8aa1f8fbf118b4ab0108416ce1f314cdd0366e13f24cc4eb1cbf9",
+      "ids": [
+        "pe::type5::SCREENOPTION::caption",
+        "pe::type5::SCREENOPTION::control:1:0",
+        "pe::type5::SCREENOPTION::control:2:1",
+        "pe::type5::SCREENOPTION::control:65535:3",
+        "pe::type5::SCREENOPTION::control:1005:4"
+      ]
+    },
+    {
+      "type": {
+        "kind": "id",
+        "id": 5
+      },
+      "name": {
+        "kind": "name",
+        "name": "SCREENOPTION_FULL",
+        "utf16le_hex": "530043005200450045004e004f005000540049004f004e005f00460055004c004c00",
+        "location": {
+          "offset": 612118,
+          "bytes": 36
+        }
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "e5a2f0ba7f427de38cc2a2d62f54372eb9cb5370cac9b46c8eaf1373e93322bb",
+      "output_sha256": "8493ff2afc4efddcb934e9522ca49f3a2e278eefe67224b1ce8c04a29e3b8705",
+      "ids": [
+        "pe::type5::SCREENOPTION_FULL::caption",
+        "pe::type5::SCREENOPTION_FULL::control:1:0",
+        "pe::type5::SCREENOPTION_FULL::control:2:1",
+        "pe::type5::SCREENOPTION_FULL::control:1004:2",
+        "pe::type5::SCREENOPTION_FULL::control:65535:4",
+        "pe::type5::SCREENOPTION_FULL::control:1005:5"
+      ]
+    },
+    {
+      "type": {
+        "kind": "id",
+        "id": 5
+      },
+      "name": {
+        "kind": "name",
+        "name": "SELFONT",
+        "utf16le_hex": "530045004c0046004f004e005400",
+        "location": {
+          "offset": 612154,
+          "bytes": 16
+        }
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "a38c03848b977ff2e7e2fbbc5831b9f5f9fffd1cc3a2edb898880554f7e74299",
+      "output_sha256": "24e6c5fa7f1fe6095eabe6c0f4e036571f23e4bdb95397610efee41cecae99ac",
+      "ids": [
+        "pe::type5::SELFONT::caption",
+        "pe::type5::SELFONT::control:1:0",
+        "pe::type5::SELFONT::control:2:1",
+        "pe::type5::SELFONT::control:65535:2"
+      ]
+    },
+    {
+      "type": {
+        "kind": "id",
+        "id": 5
+      },
+      "name": {
+        "kind": "name",
+        "name": "SPEEDCONFIG",
+        "utf16le_hex": "5300500045004500440043004f004e00460049004700",
+        "location": {
+          "offset": 612170,
+          "bytes": 24
+        }
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "78a7e73bf419f740acafad9182a15982236fe77f69aee8cbc299402ba832c224",
+      "output_sha256": "b80fa8a116405161d14eb2245bc80c014d873be0f4b4a02b51b66891b3bba050",
+      "ids": [
+        "pe::type5::SPEEDCONFIG::caption",
+        "pe::type5::SPEEDCONFIG::control:1:0",
+        "pe::type5::SPEEDCONFIG::control:2:1",
+        "pe::type5::SPEEDCONFIG::control:1000:2",
+        "pe::type5::SPEEDCONFIG::control:65535:3",
+        "pe::type5::SPEEDCONFIG::control:65535:4",
+        "pe::type5::SPEEDCONFIG::control:65535:7",
+        "pe::type5::SPEEDCONFIG::control:65535:8",
+        "pe::type5::SPEEDCONFIG::control:65535:10",
+        "pe::type5::SPEEDCONFIG::control:1004:11"
+      ]
+    },
+    {
+      "type": {
+        "kind": "id",
+        "id": 5
+      },
+      "name": {
+        "kind": "name",
+        "name": "SPEEDCONFIG_ORG",
+        "utf16le_hex": "5300500045004500440043004f004e004600490047005f004f0052004700",
+        "location": {
+          "offset": 612194,
+          "bytes": 32
+        }
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "e082f6198823c3e3981ff7e6fe0551c0768877f642629ebff7e709d0ddce8b37",
+      "output_sha256": "8e79525538bab9fedd61122e6fbb6cc0de7a46b72e3ebc0d63a0c9d5f1064b61",
+      "ids": [
+        "pe::type5::SPEEDCONFIG_ORG::caption",
+        "pe::type5::SPEEDCONFIG_ORG::control:1:0",
+        "pe::type5::SPEEDCONFIG_ORG::control:2:1",
+        "pe::type5::SPEEDCONFIG_ORG::control:1000:2",
+        "pe::type5::SPEEDCONFIG_ORG::control:65535:3",
+        "pe::type5::SPEEDCONFIG_ORG::control:65535:4",
+        "pe::type5::SPEEDCONFIG_ORG::control:65535:7",
+        "pe::type5::SPEEDCONFIG_ORG::control:65535:8",
+        "pe::type5::SPEEDCONFIG_ORG::control:65535:10"
+      ]
+    },
+    {
+      "type": {
+        "kind": "id",
+        "id": 5
+      },
+      "name": {
+        "kind": "name",
+        "name": "VOICE_SETUP",
+        "utf16le_hex": "56004f004900430045005f0053004500540055005000",
+        "location": {
+          "offset": 612226,
+          "bytes": 24
+        }
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "68507cb99089a184f14d293f9bbdd03c6effac75f90d111b76081224c64fbbd0",
+      "output_sha256": "42d248c93d6c6931feabfccac4b1274173f8060102555b7ea88a96cb9a173a06",
+      "ids": [
+        "pe::type5::VOICE_SETUP::caption",
+        "pe::type5::VOICE_SETUP::control:1:0",
+        "pe::type5::VOICE_SETUP::control:1039:31",
+        "pe::type5::VOICE_SETUP::control:65535:32"
+      ]
+    },
+    {
+      "type": {
+        "kind": "id",
+        "id": 5
+      },
+      "name": {
+        "kind": "name",
+        "name": "VOLUMECONFIG",
+        "utf16le_hex": "56004f004c0055004d00450043004f004e00460049004700",
+        "location": {
+          "offset": 612250,
+          "bytes": 26
+        }
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "27a1d9997ccc18ebcd05a30e0497077aa1739101eaa3b44cb2b2b04e25501c03",
+      "output_sha256": "e0e6441dc52cd6049e15fdefc5c34d8bfd6c390deeb15a2f6e50fec29ddf5830",
+      "ids": [
+        "pe::type5::VOLUMECONFIG::caption",
+        "pe::type5::VOLUMECONFIG::control:1:0",
+        "pe::type5::VOLUMECONFIG::control:2:1",
+        "pe::type5::VOLUMECONFIG::control:1000:2",
+        "pe::type5::VOLUMECONFIG::control:65535:3",
+        "pe::type5::VOLUMECONFIG::control:65535:4",
+        "pe::type5::VOLUMECONFIG::control:65535:7",
+        "pe::type5::VOLUMECONFIG::control:65535:8",
+        "pe::type5::VOLUMECONFIG::control:65535:10",
+        "pe::type5::VOLUMECONFIG::control:1004:11",
+        "pe::type5::VOLUMECONFIG::control:1005:12",
+        "pe::type5::VOLUMECONFIG::control:1006:13",
+        "pe::type5::VOLUMECONFIG::control:1008:14"
+      ]
+    },
+    {
+      "type": {
+        "kind": "id",
+        "id": 6
+      },
+      "name": {
+        "kind": "id",
+        "id": 1
+      },
+      "language": {
+        "kind": "id",
+        "id": 1041
+      },
+      "source_sha256": "f21a1c14cc98e88f9107438e6ff340badbc4e344eeb5f5371a17df21d2d0f6f0",
+      "output_sha256": "d96f5f0effb3537c98ff03d9c1505a7b535108ec6813b99b2e24eb074e7c1496",
+      "ids": [
+        "pe::type6::1::1"
+      ]
+    }
+  ],
+  "native_dialog_font": "Malgun Gothic 9pt",
+  "layout_changes": [
+    {
+      "resources": [
+        "SCREENOPTION",
+        "SCREENOPTION_FULL"
+      ],
+      "label": "전체 화면 모드",
+      "width_dlu": [
+        45,
+        49
+      ],
+      "following_control_x": 50
+    },
+    {
+      "resources": [
+        "SPEEDCONFIG",
+        "SPEEDCONFIG_ORG"
+      ],
+      "label": "글자 표시",
+      "width_dlu": [
+        30,
+        35
+      ],
+      "following_control_x": 45
+    }
+  ],
+  "runtime_pass": false,
+  "defender_scan_pending": true,
+  "status": "static_resource_patch_pass_runtime_pending"
+}

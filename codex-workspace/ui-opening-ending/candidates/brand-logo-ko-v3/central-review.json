@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "master_sha256": "81e8e88a31f70f84ab6bafbe33cfad19787b7e5079206c05f094d82eaa2f51ef",
+  "outside_central_polygon_identical_to_v1": true,
+  "small_extra_upright_removed": true,
+  "two_lower_arms_connected_to_cross_pillar": true,
+  "initial_re_flourish_restored": true,
+  "lowres_title_states": 9,
+  "hires_title_states": 9,
+  "changed_region_checks": true,
+  "menu_quote_background_unchanged": true,
+  "rct_roundtrip_and_metadata_pass": true,
+  "reviewed_composites": [
+    "preview/title1_off.rct.png",
+    "hd/title/final/title3_off.rct.png"
+  ],
+  "independent_reviewer": "/root/review_cumulative_integration",
+  "independent_findings": "No new stroke clipping, holes or adjacent glyph damage. Title identifiable as 레콘키스타. Title3 top contact belongs to established placement.",
+  "actual_game_screen_verified": false,
+  "imagegen_mode": "built-in",
+  "source_and_prompt": "master/provenance.json"
+}

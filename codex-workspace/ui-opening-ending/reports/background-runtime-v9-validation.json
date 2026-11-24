@@ -1,0 +1,65 @@
+{
+  "updated_utc": "2026-10-22T18:44:09.418266+00:00",
+  "result": "chapter_caption_repair_runtime_pass",
+  "candidate": "candidates/ui-trial-v9",
+  "prepared_artifact": "reports/background-runtime-v9-prepared.json",
+  "fastdata_sha256": "f5514089c88771f5ddc371d8454647329e36a1dd00627364de4cdad97611299c",
+  "source_fastdata_sha256": "994dcf555ec68c30b6b51e82593fecb4f9a47bf24cc155163d736ed39c7a455b",
+  "exe_sha256": "f67195682944663b9546665eb3b63a639ace3f910e2ebf6ffaccda001d625b50",
+  "scenario_sha256": "db150e681b1096eec109b0b94ee304573ff44d320de4628fd973bbe32392cc5c",
+  "interrupted_prior_attempt": "reports/background-runtime-v9-interrupted.json",
+  "operations": 7,
+  "proofs": {
+    "bg-v9r-chapter-repair": "evidence/background-runtime/bg-v9r-chapter-repair.json",
+    "bg-v9r-exit": "evidence/background-runtime/bg-v9r-exit.json",
+    "bg-v9r-load-confirmed": "evidence/background-runtime/bg-v9r-load-confirmed.json",
+    "bg-v9r-load-slot1": "evidence/background-runtime/bg-v9r-load-slot1.json",
+    "bg-v9r-load": "evidence/background-runtime/bg-v9r-load.json",
+    "bg-v9r-quit": "evidence/background-runtime/bg-v9r-quit.json",
+    "bg-v9r-start": "evidence/background-runtime/bg-v9r-start.json"
+  },
+  "verified": [
+    {
+      "id": "UI-RASTER::chapter-caption-descender-repair",
+      "proof": "bg-v9r-chapter-repair",
+      "image_region": [
+        550,
+        538,
+        185,
+        45
+      ],
+      "client_offset_in_capture": [
+        3,
+        46
+      ],
+      "runtime_vs_corrected_asset_different_pixels": 0,
+      "result": "Entire corrected caption and underline match asset exactly; original English descender absent."
+    }
+  ],
+  "focus_sampling": {
+    "interval_ms": 50,
+    "samples": 283,
+    "errors": [],
+    "game_became_foreground": false,
+    "private_desktop_became_input": false,
+    "pre_post_input_desktop_changes": 0,
+    "pre_post_foreground_changes": 0,
+    "limits": "Samples during commands only; 50ms gaps and time between commands are not continuously observed"
+  },
+  "audio": "reports/background-runtime-v9r-audio.json",
+  "termination": {
+    "pid": 19080,
+    "normal_exit_proof": "bg-v9r-exit",
+    "process_absent_afterwards": true
+  },
+  "reused_evidence": [
+    "reports/background-runtime-v8-validation.json for unchanged settings/save/load behavior",
+    "candidates/chapter-caption-repair-v1/manifest.json for all four state pixel identity outside repair",
+    "Native EXE v5 and prior font/archive validation"
+  ],
+  "not_established": [
+    "All UI translation complete",
+    "Other chapter button hover/pressed states at runtime",
+    "Fullscreen, physical input timing, OP/ED and audio synchronization"
+  ]
+}

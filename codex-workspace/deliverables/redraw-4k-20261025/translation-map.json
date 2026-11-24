@@ -1,0 +1,34 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a171d6-8876-7860-97fd-33aac354fca7",
+  "entries": [
+    {
+      "id": "ae35ac32::destination_lower",
+      "source": "臨海ニュータウン",
+      "target": "임해 뉴타운"
+    },
+    {
+      "id": "ae35ac32::destination_upper",
+      "source": "臨海ニュータウン",
+      "target": "임해 뉴타운"
+    },
+    {
+      "id": "ae35ac32::service",
+      "source": "高速",
+      "target": "고속"
+    },
+    {
+      "id": "41fd6671/065d1ca1/3b3d3511::brand",
+      "source": "レコンキスタ",
+      "target": "레콘키스타",
+      "reused_master": "P:/AI/Codex/projects/migrated-from-c/onedrive-chatgpt/레콘퀴스타/ui-opening-ending/candidates/brand-logo-ko-v3/master/reconquista-ko.png",
+      "reused_sha256": "81e8e88a31f70f84ab6bafbe33cfad19787b7e5079206c05f094d82eaa2f51ef"
+    }
+  ],
+  "notes": [
+    "臨海 and the existing dialogue term 海上 are distinguished: 임해 뉴타운 versus 해상 뉴타운.",
+    "ニュータウン loanword remains 뉴타운.",
+    "English identity, quotation and numeric license identifiers are retained.",
+    "Bus source character in tiny license-registration mark is not confidently legible; no new registration string is invented."
+  ]
+}

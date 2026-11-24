@@ -1,0 +1,241 @@
+{
+  "translator_model": "Codex internal",
+  "terms": {
+    "ＯＫ/OK/オーケー/オッケー": "오케이",
+    "ギャグ": "개그",
+    "アンケート": "앙케트",
+    "神 / 紙 / カミ": "기존 신(카미) / 종이(카미) 쌍 유지"
+  },
+  "occurrences": [
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "00_レコンキスタ_start.mjo::002434",
+      "unit": "00_レコンキスタ_start.mjo::u0222",
+      "source": "「ＯＫＯＫ。やーんもう、もみじちゃんてば可愛いなぁ」",
+      "before": "「좋아, 좋아! 아유, 우리 모미지 너무 귀엽다」",
+      "target": "「오케이, 오케이! 아유, 우리 모미지 너무 귀엽다」",
+      "decision": "change"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "00_レコンキスタ_start_2.mjo::009304",
+      "unit": "00_レコンキスタ_start_2.mjo::u0858",
+      "source": "「オッケーオッケー、任せといて」",
+      "before": "「오케이, 오케이. 나한테 맡겨」",
+      "target": "「오케이, 오케이. 나한테 맡겨」",
+      "decision": "retain_already_preserved"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "last_ep.mjo::001749",
+      "unit": "last_ep.mjo::u0180",
+      "source": "“お父さんと一緒にお風呂に入るのは何歳までＯＫなのか”",
+      "before": "“아빠랑 같이 목욕해도 되는 건 몇 살까지일까”를 두고",
+      "target": "“아빠랑 같이 목욕하는 건 몇 살까지 오케이일까”를 두고",
+      "decision": "change"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "maho_06.mjo::003309",
+      "unit": "maho_06.mjo::u0337",
+      "source": "「オーケー。",
+      "before": "「오케이.",
+      "target": "「오케이.",
+      "decision": "retain_already_preserved"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "maho_07.mjo::002158",
+      "unit": "maho_07.mjo::u0214",
+      "source": "「オッケーなら帰ろうぜ」",
+      "before": "「좋으면 돌아가자.」",
+      "target": "「오케이라면 돌아가자.」",
+      "decision": "change"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "maho_10.mjo::001954",
+      "unit": "maho_10.mjo::u0181",
+      "source": "「ＯＫ、まずは出席簿でも確認しようぜ。",
+      "before": "「좋아, 일단 출석부부터 확인하자.",
+      "target": "「오케이, 일단 출석부부터 확인하자.",
+      "decision": "change"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "makino_kyoutu.mjo::002818",
+      "unit": "makino_kyoutu.mjo::u0274",
+      "source": "「うん、ＯＫ。洗濯機を使う時は踏み台に乗って、",
+      "before": "「응, 그래. 세탁기 쓸 때는 발판을 밟고 올라서서,",
+      "target": "「응, 오케이. 세탁기 쓸 때는 발판을 밟고 올라서서,",
+      "decision": "change"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "sina_06.mjo::001264",
+      "unit": "sina_06.mjo::u0124",
+      "source": "俺の不安感を熱くぶつければ案外オッケーが出るかも。",
+      "before": "열렬히 호소하면 의외로 허락할지도 몰라.",
+      "target": "열렬히 호소하면 의외로 오케이가 나올지도 몰라.",
+      "decision": "change"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "sub_last.mjo::009222",
+      "unit": "sub_last.mjo::u0787",
+      "source": "先生に告白して、皆には内緒という条件でＯＫしてもらって、",
+      "before": "선생님께 고백하고, 모두에게 비밀로 한다는 조건으로 받아 주셔서,",
+      "target": "선생님께 고백하고, 모두에게 비밀로 한다는 조건으로 오케이를 받고,",
+      "decision": "change"
+    },
+    {
+      "term": "OK/ＯＫ/オーケー/オッケー",
+      "id": "sub_last07.mjo::000661",
+      "unit": "sub_last07.mjo::u0036",
+      "source": "先生に告白して、皆には内緒という条件でＯＫしてもらって、",
+      "before": "선생님께 고백하고, 모두에게 비밀로 한다는 조건으로 받아 주셔서,",
+      "target": "선생님께 고백하고, 모두에게 비밀로 한다는 조건으로 오케이를 받고,",
+      "decision": "change"
+    },
+    {
+      "term": "ギャグ",
+      "id": "00_レコンキスタ_start_2.mjo::003358",
+      "unit": "00_レコンキスタ_start_2.mjo::u0316",
+      "source": "　詩菜ちゃんのギャグは面白いねぇ」",
+      "before": "　시이나 농담은 재미있네에」",
+      "target": "　시이나 개그는 재미있네에」",
+      "decision": "change"
+    },
+    {
+      "term": "ギャグ",
+      "id": "00_レコンキスタ_start_2.mjo::003458",
+      "unit": "00_レコンキスタ_start_2.mjo::u0325",
+      "source": "　ギャグとして受け取ることが出来るんだよっ」",
+      "before": "　어떻게 농담으로 받아들일 수가 있어!」",
+      "target": "　어떻게 개그로 받아들일 수가 있어!」",
+      "decision": "change"
+    },
+    {
+      "term": "ギャグ",
+      "id": "sina_05.mjo::001767",
+      "unit": "sina_05.mjo::u0161",
+      "source": "「…ひょっとしてそれはギャグで言っているの？」",
+      "before": "「…혹시 그거 농담으로 하는 소리야?」",
+      "target": "「…혹시 그거 개그라고 하는 소리야?」",
+      "decision": "change"
+    },
+    {
+      "term": "ギャグ",
+      "id": "sina_06.mjo::002171",
+      "unit": "sina_06.mjo::u0210",
+      "source": "つまらんギャグをあえてカマしてみたのに。",
+      "before": "일부러 시시한 농담을 던져 본 건데.",
+      "target": "일부러 시시한 개그를 던져 본 건데.",
+      "decision": "change"
+    },
+    {
+      "term": "ギャグ",
+      "id": "sina_08.mjo::004303",
+      "unit": "sina_08.mjo::u0424",
+      "source": "　相変わらず詩菜ちゃんと信くんのギャグは面白いよね」",
+      "before": "　시이나랑 신이 하는 개그는 여전히 재미있네」",
+      "target": "　시이나랑 신이 하는 개그는 여전히 재미있네」",
+      "decision": "retain_already_preserved"
+    },
+    {
+      "term": "ギャグ",
+      "id": "sina_08.mjo::004324",
+      "unit": "sina_08.mjo::u0426",
+      "source": "「信くんの目指すギャグは、",
+      "before": "「네가 추구하는 개그는",
+      "target": "「네가 추구하는 개그는",
+      "decision": "retain_already_preserved"
+    },
+    {
+      "term": "ギャグ",
+      "id": "sina_11.mjo::000707",
+      "unit": "sina_11.mjo::u0073",
+      "source": "　それは先輩のギャグがつまらないからですっ」",
+      "before": " 선배 농담이 재미없어서예요!」",
+      "target": " 선배 개그가 재미없어서예요!」",
+      "decision": "change"
+    },
+    {
+      "term": "ギャグ",
+      "id": "sina_11.mjo::000714",
+      "unit": "sina_11.mjo::u0074",
+      "source": "「いや、それはギャグじゃなくて俺としては大マジなんだが」",
+      "before": "「아니, 농담이 아니라 난 정말 진지한데」",
+      "target": "「아니, 개그가 아니라 난 정말 진지한데」",
+      "decision": "change"
+    },
+    {
+      "term": "アンケート",
+      "id": "masa_06.mjo::000239",
+      "unit": "masa_06.mjo::u0022",
+      "source": "「だから進路調査のアンケート用紙、",
+      "before": "「그러니까 진로 조사 설문지를",
+      "target": "「그러니까 진로 조사 앙케트 용지를",
+      "decision": "change"
+    }
+  ],
+  "voice_exceptions": [
+    {
+      "id": "00_レコンキスタ_start.mjo::002355",
+      "unit": "00_レコンキスタ_start.mjo::u0216",
+      "context": {
+        "story_phase": "opening",
+        "source_display_token": "槙野",
+        "evidence": "source unit and adjacent scene, primary Codex review 2026-10-22",
+        "scene": "masaki_introduction",
+        "speaker_identity": "마키노",
+        "addressees": [
+          "마사키"
+        ],
+        "text_function": "dialogue",
+        "voice": "첫 인사 정중체에서 친근한 어른 반말로 전환"
+      },
+      "reason_ko": "마사키의 정중한 첫 자기소개에 응답하는 마키노의 槙野です를 보존. 이후 친근한 반말은 유지."
+    },
+    {
+      "id": "makino_kyoutu.mjo::006926",
+      "unit": "makino_kyoutu.mjo::u0659",
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "처음 담임 맡은 반 학생들"
+        ],
+        "relationship": "과거 신임 담임 마키노와 훗날 아내가 되는 반장 紅葉의 첫 만남",
+        "story_phase": "아내를 처음 만난 담임 시절 회상",
+        "voice": "초면 학급 전체를 향한 공식 첫 자기소개는 정중체. 이후 일상적인 교사→학생 반말과 구별. 현재 아버지는 딸에게 다정한 반말.",
+        "text_function": "dialogue",
+        "source_display_token": "槙野"
+      },
+      "reason_ko": "같은 槙野です가 등장하는 신임 담임의 공식 첫 자기소개. 긴장하는 서술 및 초면 학급 전체를 향한 말이라는 근거로 해당 인사만 정중체 복원."
+    }
+  ],
+  "wordplay_erratum": {
+    "previous_claim": "The paper-side kami pun was not conveyed.",
+    "corrected_finding": "Further context at masa_06 u0024 already explicitly reads 종이(카미). Both sides of the pun are present. Preserve this existing solution; do not duplicate pronunciation glosses.",
+    "retained_records": [
+      {
+        "id": "masa_06.mjo::000173",
+        "unit": "masa_06.mjo::u0016",
+        "source": "「はぁー…なんかこう、神が降りて来ないかなぁ」",
+        "target": "「하아… 뭔가 이렇게, 신(카미)이라도 내려와 주면 좋겠네」"
+      },
+      {
+        "id": "masa_06.mjo::000217",
+        "unit": "masa_06.mjo::u0020",
+        "source": "「ホントですよ。持ってきました、進路調査の紙」",
+        "target": "「정말이죠. 가져왔어요, 진로 조사서」"
+      },
+      {
+        "id": "masa_06.mjo::000257",
+        "unit": "masa_06.mjo::u0024",
+        "source": "それが彼女の言う『カミ』であるらしい。",
+        "target": "그게 그녀가 말한 『종이(카미)』인 모양이었다."
+      }
+    ]
+  }
+}

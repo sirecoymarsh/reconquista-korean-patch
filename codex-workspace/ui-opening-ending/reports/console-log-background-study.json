@@ -1,0 +1,17 @@
+[
+  {
+    "state": "off",
+    "valid_reference_regions": [],
+    "valid_regions_total": 0
+  },
+  {
+    "state": "on",
+    "valid_reference_regions": [],
+    "valid_regions_total": 0
+  },
+  {
+    "state": "push",
+    "valid_reference_regions": [],
+    "valid_regions_total": 0
+  }
+]

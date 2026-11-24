@@ -1,0 +1,3186 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "archive": "fastdata.arc",
+  "entries": [
+    {
+      "archive": "fastdata.arc",
+      "entry": "staffrolla_.rc8",
+      "source_sha256": "e645454fbb83200e5d3a4a7fea9d33d9776fba878b5947394764c30710923c5c",
+      "output_sha256": "07ffe4ecda7342b9f8711c3a8e45ed2b71b9e95f40ae167abe074ad76b01ac7c",
+      "source_size": [
+        800,
+        4664
+      ],
+      "output_size": [
+        800,
+        4664
+      ],
+      "palette_identity": true,
+      "mask_changed_only_in_owned_glyphs": true,
+      "protected_pixel_diff_count": 0,
+      "persisted_pixels_exact": true
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "staffrolla.rct",
+      "source_sha256": "6ae2b7f62d2252cdc764236f0f3b6d58a34e2f47bfa47494b0b153f7b6876e97",
+      "output_sha256": "f5a124c8cda9b9429a50cc24421b1d76773d21d2a9c1597614a81941d16e27fd",
+      "source_size": [
+        800,
+        4664
+      ],
+      "output_size": [
+        800,
+        4664
+      ],
+      "source_glyph_pixels": 127430,
+      "protected_pixel_diff_count": 0,
+      "source_glyph_residue_pixels": 0,
+      "clean_plate_reopened": true,
+      "persisted_pixels_exact": true,
+      "nonpixel_metadata_preserved": true,
+      "target_ink_bounds": [
+        [
+          389,
+          145,
+          429,
+          168
+        ],
+        [
+          369,
+          319,
+          449,
+          342
+        ],
+        [
+          372,
+          529,
+          446,
+          552
+        ],
+        [
+          389,
+          1055,
+          429,
+          1078
+        ],
+        [
+          389,
+          1545,
+          429,
+          1568
+        ],
+        [
+          235,
+          1929,
+          570,
+          1954
+        ],
+        [
+          359,
+          2630,
+          457,
+          2653
+        ],
+        [
+          389,
+          2771,
+          427,
+          2794
+        ],
+        [
+          369,
+          2946,
+          449,
+          2968
+        ],
+        [
+          347,
+          3190,
+          470,
+          3213
+        ],
+        [
+          346,
+          3330,
+          471,
+          3353
+        ],
+        [
+          357,
+          3435,
+          461,
+          3458
+        ],
+        [
+          367,
+          3541,
+          452,
+          3564
+        ],
+        [
+          367,
+          3645,
+          452,
+          3668
+        ],
+        [
+          344,
+          3787,
+          474,
+          3810
+        ],
+        [
+          389,
+          4065,
+          429,
+          4088
+        ],
+        [
+          343,
+          4171,
+          473,
+          4194
+        ],
+        [
+          380,
+          4275,
+          437,
+          4298
+        ],
+        [
+          352,
+          4451,
+          463,
+          4474
+        ],
+        [
+          303,
+          1125,
+          514,
+          1147
+        ],
+        [
+          290,
+          1160,
+          525,
+          1182
+        ],
+        [
+          313,
+          1195,
+          505,
+          1217
+        ],
+        [
+          282,
+          1230,
+          535,
+          1252
+        ],
+        [
+          293,
+          1265,
+          525,
+          1287
+        ],
+        [
+          291,
+          1335,
+          522,
+          1357
+        ],
+        [
+          319,
+          1370,
+          498,
+          1392
+        ],
+        [
+          291,
+          1405,
+          525,
+          1427
+        ],
+        [
+          363,
+          2001,
+          453,
+          2023
+        ],
+        [
+          249,
+          2035,
+          569,
+          2058
+        ],
+        [
+          249,
+          2070,
+          569,
+          2093
+        ],
+        [
+          353,
+          2106,
+          465,
+          2128
+        ],
+        [
+          353,
+          2176,
+          464,
+          2198
+        ],
+        [
+          334,
+          2211,
+          484,
+          2233
+        ],
+        [
+          265,
+          2281,
+          553,
+          2303
+        ],
+        [
+          344,
+          2351,
+          475,
+          2373
+        ],
+        [
+          311,
+          2387,
+          506,
+          2409
+        ],
+        [
+          279,
+          2457,
+          539,
+          2479
+        ]
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::staffrolla.rct::illustration",
+          "asset": "staffrolla.rct",
+          "source": "原画",
+          "target": "원화",
+          "source_y": [
+            142,
+            169
+          ],
+          "target_slot": [
+            189,
+            139,
+            631,
+            172
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1134,
+          "target_ink_bbox": [
+            389,
+            145,
+            429,
+            168
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::scenario",
+          "asset": "staffrolla.rct",
+          "source": "シナリオ",
+          "target": "시나리오",
+          "source_y": [
+            318,
+            343
+          ],
+          "target_slot": [
+            189,
+            315,
+            631,
+            346
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1600,
+          "target_ink_bbox": [
+            369,
+            319,
+            449,
+            342
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::cg",
+          "asset": "staffrolla.rct",
+          "source": "ＣＧ",
+          "target": "CG 제작",
+          "source_y": [
+            529,
+            552
+          ],
+          "target_slot": [
+            189,
+            526,
+            631,
+            555
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 840,
+          "target_ink_bbox": [
+            372,
+            529,
+            446,
+            552
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::cast",
+          "asset": "staffrolla.rct",
+          "source": "ｃａｓｔ",
+          "target": "성우",
+          "source_y": [
+            1056,
+            1077
+          ],
+          "target_slot": [
+            189,
+            1053,
+            631,
+            1080
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 982,
+          "target_ink_bbox": [
+            389,
+            1055,
+            429,
+            1078
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::music",
+          "asset": "staffrolla.rct",
+          "source": "音楽",
+          "target": "음악",
+          "source_y": [
+            1543,
+            1570
+          ],
+          "target_slot": [
+            189,
+            1540,
+            631,
+            1573
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1134,
+          "target_ink_bbox": [
+            389,
+            1545,
+            429,
+            1568
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::op-title",
+          "asset": "staffrolla.rct",
+          "source": "主題歌：「Reconquista（レコンキスタ）」",
+          "target": "주제가 「Reconquista(레콘퀴스타)」",
+          "source_y": [
+            1927,
+            1956
+          ],
+          "target_slot": [
+            189,
+            1924,
+            631,
+            1959
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 7225,
+          "target_ink_bbox": [
+            235,
+            1929,
+            570,
+            1954
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::program",
+          "asset": "staffrolla.rct",
+          "source": "プログラム",
+          "target": "프로그래밍",
+          "source_y": [
+            2628,
+            2654
+          ],
+          "target_slot": [
+            189,
+            2625,
+            631,
+            2657
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1985,
+          "target_ink_bbox": [
+            359,
+            2630,
+            457,
+            2653
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::background",
+          "asset": "staffrolla.rct",
+          "source": "背景",
+          "target": "배경",
+          "source_y": [
+            2768,
+            2795
+          ],
+          "target_slot": [
+            189,
+            2765,
+            631,
+            2798
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1131,
+          "target_ink_bbox": [
+            389,
+            2771,
+            427,
+            2794
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::script",
+          "asset": "staffrolla.rct",
+          "source": "スクリプト",
+          "target": "스크립트",
+          "source_y": [
+            2944,
+            2969
+          ],
+          "target_slot": [
+            189,
+            2941,
+            631,
+            2972
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1953,
+          "target_ink_bbox": [
+            369,
+            2946,
+            449,
+            2968
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::system-graphics",
+          "asset": "staffrolla.rct",
+          "source": "システムグラフィック",
+          "target": "시스템 그래픽",
+          "source_y": [
+            3188,
+            3214
+          ],
+          "target_slot": [
+            189,
+            3185,
+            631,
+            3217
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 3751,
+          "target_ink_bbox": [
+            347,
+            3190,
+            470,
+            3213
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::package",
+          "asset": "staffrolla.rct",
+          "source": "パッケージデザイン",
+          "target": "패키지 디자인",
+          "source_y": [
+            3328,
+            3354
+          ],
+          "target_slot": [
+            189,
+            3325,
+            631,
+            3357
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 3371,
+          "target_ink_bbox": [
+            346,
+            3330,
+            471,
+            3353
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::logo",
+          "asset": "staffrolla.rct",
+          "source": "ロゴデザイン",
+          "target": "로고 디자인",
+          "source_y": [
+            3433,
+            3459
+          ],
+          "target_slot": [
+            189,
+            3430,
+            631,
+            3462
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2426,
+          "target_ink_bbox": [
+            357,
+            3435,
+            461,
+            3458
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::voice-recording",
+          "asset": "staffrolla.rct",
+          "source": "ボイス収録",
+          "target": "음성 녹음",
+          "source_y": [
+            3538,
+            3565
+          ],
+          "target_slot": [
+            189,
+            3535,
+            631,
+            3568
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2380,
+          "target_ink_bbox": [
+            367,
+            3541,
+            452,
+            3564
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::movie",
+          "asset": "staffrolla.rct",
+          "source": "ムービー制作",
+          "target": "영상 제작",
+          "source_y": [
+            3643,
+            3670
+          ],
+          "target_slot": [
+            189,
+            3640,
+            631,
+            3673
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2440,
+          "target_ink_bbox": [
+            367,
+            3645,
+            452,
+            3668
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::thanks",
+          "asset": "staffrolla.rct",
+          "source": "Special Thanks",
+          "target": "도움 주신 분들",
+          "source_y": [
+            3785,
+            3811
+          ],
+          "target_slot": [
+            189,
+            3782,
+            631,
+            3814
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2711,
+          "target_ink_bbox": [
+            344,
+            3787,
+            474,
+            3810
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::publicity",
+          "asset": "staffrolla.rct",
+          "source": "広報",
+          "target": "홍보",
+          "source_y": [
+            4063,
+            4090
+          ],
+          "target_slot": [
+            189,
+            4060,
+            631,
+            4093
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1156,
+          "target_ink_bbox": [
+            389,
+            4065,
+            429,
+            4088
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::producer-sales",
+          "asset": "staffrolla.rct",
+          "source": "プロデューサー／営業",
+          "target": "프로듀서·영업",
+          "source_y": [
+            4168,
+            4195
+          ],
+          "target_slot": [
+            189,
+            4165,
+            631,
+            4198
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 3865,
+          "target_ink_bbox": [
+            343,
+            4171,
+            473,
+            4194
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::director",
+          "asset": "staffrolla.rct",
+          "source": "ディレクター",
+          "target": "디렉터",
+          "source_y": [
+            4273,
+            4299
+          ],
+          "target_slot": [
+            189,
+            4270,
+            631,
+            4302
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2113,
+          "target_ink_bbox": [
+            380,
+            4275,
+            437,
+            4298
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::copyright",
+          "asset": "staffrolla.rct",
+          "source": "制作著作",
+          "target": "제작·저작권",
+          "source_y": [
+            4448,
+            4475
+          ],
+          "target_slot": [
+            189,
+            4445,
+            631,
+            4478
+          ],
+          "font_size": 22,
+          "color": "red",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2203,
+          "target_ink_bbox": [
+            352,
+            4451,
+            463,
+            4474
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::cast-kureha",
+          "asset": "staffrolla.rct",
+          "source": "秋月暮葉･･･北都南",
+          "target": "아키즈키 쿠레하: 北都南",
+          "source_y": [
+            1122,
+            1149
+          ],
+          "target_slot": [
+            189,
+            1119,
+            631,
+            1152
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 4024,
+          "target_ink_bbox": [
+            303,
+            1125,
+            514,
+            1147
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::cast-mahoko",
+          "asset": "staffrolla.rct",
+          "source": "羽鳥真帆子･･･まきいづみ",
+          "target": "하토리 마호코: まきいづみ",
+          "source_y": [
+            1157,
+            1184
+          ],
+          "target_slot": [
+            189,
+            1154,
+            631,
+            1187
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 4923,
+          "target_ink_bbox": [
+            290,
+            1160,
+            525,
+            1182
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::cast-momiji",
+          "asset": "staffrolla.rct",
+          "source": "槙野もみじ･･･北都南",
+          "target": "마키노 모미지: 北都南",
+          "source_y": [
+            1192,
+            1219
+          ],
+          "target_slot": [
+            189,
+            1189,
+            631,
+            1222
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 4220,
+          "target_ink_bbox": [
+            313,
+            1195,
+            505,
+            1217
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::cast-shiina",
+          "asset": "staffrolla.rct",
+          "source": "春日井詩菜･･･芝原のぞみ",
+          "target": "가스가이 시이나: 芝原のぞみ",
+          "source_y": [
+            1227,
+            1254
+          ],
+          "target_slot": [
+            189,
+            1224,
+            631,
+            1257
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 5279,
+          "target_ink_bbox": [
+            282,
+            1230,
+            535,
+            1252
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::cast-masaki",
+          "asset": "staffrolla.rct",
+          "source": "吉森麻咲･･･羽沢月乃",
+          "target": "요시모리 마사키: 羽沢月乃",
+          "source_y": [
+            1262,
+            1289
+          ],
+          "target_slot": [
+            189,
+            1259,
+            631,
+            1292
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 4431,
+          "target_ink_bbox": [
+            293,
+            1265,
+            525,
+            1287
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::cast-nanako",
+          "asset": "staffrolla.rct",
+          "source": "田村奈那子･･･青山ゆかり",
+          "target": "다무라 나나코: 青山ゆかり",
+          "source_y": [
+            1332,
+            1359
+          ],
+          "target_slot": [
+            189,
+            1329,
+            631,
+            1362
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 5092,
+          "target_ink_bbox": [
+            291,
+            1335,
+            522,
+            1357
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::cast-tomoko",
+          "asset": "staffrolla.rct",
+          "source": "羽鳥朋子･･･如月葵",
+          "target": "하토리 朋子: 如月葵",
+          "source_y": [
+            1367,
+            1394
+          ],
+          "target_slot": [
+            189,
+            1364,
+            631,
+            1397
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 3949,
+          "target_ink_bbox": [
+            319,
+            1370,
+            498,
+            1392
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::cast-midori",
+          "asset": "staffrolla.rct",
+          "source": "矢嶋碧･･･一色ヒカル",
+          "target": "야시마 미도리: 一色ヒカル",
+          "source_y": [
+            1402,
+            1429
+          ],
+          "target_slot": [
+            189,
+            1399,
+            631,
+            1432
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 3813,
+          "target_ink_bbox": [
+            291,
+            1405,
+            525,
+            1427
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::op-vocal",
+          "asset": "staffrolla.rct",
+          "source": "Vo：飛蘭",
+          "target": "노래: 飛蘭",
+          "source_y": [
+            1998,
+            2025
+          ],
+          "target_slot": [
+            189,
+            1995,
+            631,
+            2028
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1912,
+          "target_ink_bbox": [
+            363,
+            2001,
+            453,
+            2023
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::op-composition",
+          "asset": "staffrolla.rct",
+          "source": "作曲：上松範康（Elements Garden）",
+          "target": "작곡: 上松範康 (Elements Garden)",
+          "source_y": [
+            2032,
+            2060
+          ],
+          "target_slot": [
+            189,
+            2029,
+            631,
+            2063
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 6611,
+          "target_ink_bbox": [
+            249,
+            2035,
+            569,
+            2058
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::op-arrangement",
+          "asset": "staffrolla.rct",
+          "source": "編曲：菊田大介（Elements Garden）",
+          "target": "편곡: 菊田大介 (Elements Garden)",
+          "source_y": [
+            2067,
+            2095
+          ],
+          "target_slot": [
+            189,
+            2064,
+            631,
+            2098
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 6670,
+          "target_ink_bbox": [
+            249,
+            2070,
+            569,
+            2093
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::op-lyrics",
+          "asset": "staffrolla.rct",
+          "source": "作詞：海富一",
+          "target": "작사: 海富一",
+          "source_y": [
+            2103,
+            2130
+          ],
+          "target_slot": [
+            189,
+            2100,
+            631,
+            2133
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2686,
+          "target_ink_bbox": [
+            353,
+            2106,
+            465,
+            2128
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::op-guitars",
+          "asset": "staffrolla.rct",
+          "source": "Guitars：加納望",
+          "target": "기타: 加納望",
+          "source_y": [
+            2173,
+            2200
+          ],
+          "target_slot": [
+            189,
+            2170,
+            631,
+            2203
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 3193,
+          "target_ink_bbox": [
+            353,
+            2176,
+            464,
+            2198
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::op-violin",
+          "asset": "staffrolla.rct",
+          "source": "Violin：森琢哉",
+          "target": "바이올린: 森琢哉",
+          "source_y": [
+            2208,
+            2235
+          ],
+          "target_slot": [
+            189,
+            2205,
+            631,
+            2238
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2989,
+          "target_ink_bbox": [
+            334,
+            2211,
+            484,
+            2233
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::op-instruments",
+          "asset": "staffrolla.rct",
+          "source": "All other instruments & programming by 菊田大介",
+          "target": "그 외 악기·프로그래밍: 菊田大介",
+          "source_y": [
+            2278,
+            2306
+          ],
+          "target_slot": [
+            189,
+            2275,
+            631,
+            2309
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 8701,
+          "target_ink_bbox": [
+            265,
+            2281,
+            553,
+            2303
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::op-mix",
+          "asset": "staffrolla.rct",
+          "source": "Mixed by：近藤久芳",
+          "target": "믹싱: 近藤久芳",
+          "source_y": [
+            2348,
+            2376
+          ],
+          "target_slot": [
+            189,
+            2345,
+            631,
+            2379
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 4069,
+          "target_ink_bbox": [
+            344,
+            2351,
+            475,
+            2373
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::op-direction",
+          "asset": "staffrolla.rct",
+          "source": "Directed by：菊田大介",
+          "target": "음악 디렉터: 菊田大介",
+          "source_y": [
+            2383,
+            2411
+          ],
+          "target_slot": [
+            189,
+            2380,
+            631,
+            2414
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 4294,
+          "target_ink_bbox": [
+            311,
+            2387,
+            506,
+            2409
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrolla.rct::op-production",
+          "asset": "staffrolla.rct",
+          "source": "Sound Produced by Elements Garden",
+          "target": "음악 제작: Elements Garden",
+          "source_y": [
+            2455,
+            2481
+          ],
+          "target_slot": [
+            189,
+            2452,
+            631,
+            2484
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 6174,
+          "target_ink_bbox": [
+            279,
+            2457,
+            539,
+            2479
+          ],
+          "target_containment_pass": true
+        }
+      ],
+      "font_size_by_id": {
+        "fastdata.arc::staffrolla.rct::illustration": 22,
+        "fastdata.arc::staffrolla.rct::scenario": 22,
+        "fastdata.arc::staffrolla.rct::cg": 22,
+        "fastdata.arc::staffrolla.rct::cast": 22,
+        "fastdata.arc::staffrolla.rct::music": 22,
+        "fastdata.arc::staffrolla.rct::op-title": 22,
+        "fastdata.arc::staffrolla.rct::program": 22,
+        "fastdata.arc::staffrolla.rct::background": 22,
+        "fastdata.arc::staffrolla.rct::script": 22,
+        "fastdata.arc::staffrolla.rct::system-graphics": 22,
+        "fastdata.arc::staffrolla.rct::package": 22,
+        "fastdata.arc::staffrolla.rct::logo": 22,
+        "fastdata.arc::staffrolla.rct::voice-recording": 22,
+        "fastdata.arc::staffrolla.rct::movie": 22,
+        "fastdata.arc::staffrolla.rct::thanks": 22,
+        "fastdata.arc::staffrolla.rct::publicity": 22,
+        "fastdata.arc::staffrolla.rct::producer-sales": 22,
+        "fastdata.arc::staffrolla.rct::director": 22,
+        "fastdata.arc::staffrolla.rct::copyright": 22,
+        "fastdata.arc::staffrolla.rct::cast-kureha": 21,
+        "fastdata.arc::staffrolla.rct::cast-mahoko": 21,
+        "fastdata.arc::staffrolla.rct::cast-momiji": 21,
+        "fastdata.arc::staffrolla.rct::cast-shiina": 21,
+        "fastdata.arc::staffrolla.rct::cast-masaki": 21,
+        "fastdata.arc::staffrolla.rct::cast-nanako": 21,
+        "fastdata.arc::staffrolla.rct::cast-tomoko": 21,
+        "fastdata.arc::staffrolla.rct::cast-midori": 21,
+        "fastdata.arc::staffrolla.rct::op-vocal": 21,
+        "fastdata.arc::staffrolla.rct::op-composition": 21,
+        "fastdata.arc::staffrolla.rct::op-arrangement": 21,
+        "fastdata.arc::staffrolla.rct::op-lyrics": 21,
+        "fastdata.arc::staffrolla.rct::op-guitars": 21,
+        "fastdata.arc::staffrolla.rct::op-violin": 21,
+        "fastdata.arc::staffrolla.rct::op-instruments": 21,
+        "fastdata.arc::staffrolla.rct::op-mix": 21,
+        "fastdata.arc::staffrolla.rct::op-direction": 21,
+        "fastdata.arc::staffrolla.rct::op-production": 21
+      },
+      "deterministic_encoding": true
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "staffrollb_001.rct",
+      "source_sha256": "cda03d897fb0ae714617fb9557b546171a15df1e8b3ed0316362b921e8c26c2b",
+      "output_sha256": "dd3de4aadf1831cab9d221950a51c3946db4a4bea0e97db77db190a7a04603b8",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 1072,
+      "protected_pixel_diff_count": 0,
+      "source_glyph_residue_pixels": 0,
+      "clean_plate_reopened": true,
+      "persisted_pixels_exact": true,
+      "nonpixel_metadata_preserved": true,
+      "target_ink_bounds": [
+        [
+          389,
+          227,
+          429,
+          250
+        ]
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::staffrollb_001.rct::illustration",
+          "asset": "staffrollb_001.rct",
+          "source": "原画",
+          "target": "원화",
+          "source_y": [
+            224,
+            251
+          ],
+          "target_slot": [
+            198,
+            221,
+            603,
+            254
+          ],
+          "font_size": 22,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1072,
+          "target_ink_bbox": [
+            389,
+            227,
+            429,
+            250
+          ],
+          "target_containment_pass": true
+        }
+      ],
+      "font_size_by_id": {
+        "fastdata.arc::staffrollb_001.rct::illustration": 22
+      },
+      "deterministic_encoding": true
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "staffrollb_002.rct",
+      "source_sha256": "b660fef8e81e2f35f39f89633689becfabe6736f96f057ae9bdb66ee30cda6ba",
+      "output_sha256": "f17663cf2cbd2072d2ae794145e5ffdd502196eed350709f13627c7612e0bcc4",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 1423,
+      "protected_pixel_diff_count": 0,
+      "source_glyph_residue_pixels": 0,
+      "clean_plate_reopened": true,
+      "persisted_pixels_exact": true,
+      "nonpixel_metadata_preserved": true,
+      "target_ink_bounds": [
+        [
+          369,
+          211,
+          449,
+          234
+        ]
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::staffrollb_002.rct::scenario",
+          "asset": "staffrollb_002.rct",
+          "source": "シナリオ",
+          "target": "시나리오",
+          "source_y": [
+            209,
+            234
+          ],
+          "target_slot": [
+            198,
+            206,
+            603,
+            237
+          ],
+          "font_size": 22,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1423,
+          "target_ink_bbox": [
+            369,
+            211,
+            449,
+            234
+          ],
+          "target_containment_pass": true
+        }
+      ],
+      "font_size_by_id": {
+        "fastdata.arc::staffrollb_002.rct::scenario": 22
+      },
+      "deterministic_encoding": true
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "staffrollb_003.rct",
+      "source_sha256": "7ca3ba923d975812cf34a172f587c4df8606cb53b2fc5f20c4015f10cfc3bf82",
+      "output_sha256": "2cc043f3964804a1846e2ed0ffc46aac31e89b5298010a531776b9e8627a394f",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 805,
+      "protected_pixel_diff_count": 0,
+      "source_glyph_residue_pixels": 0,
+      "clean_plate_reopened": true,
+      "persisted_pixels_exact": true,
+      "nonpixel_metadata_preserved": true,
+      "target_ink_bounds": [
+        [
+          372,
+          75,
+          446,
+          98
+        ]
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::staffrollb_003.rct::cg",
+          "asset": "staffrollb_003.rct",
+          "source": "ＣＧ",
+          "target": "CG 제작",
+          "source_y": [
+            74,
+            97
+          ],
+          "target_slot": [
+            198,
+            71,
+            603,
+            100
+          ],
+          "font_size": 22,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 805,
+          "target_ink_bbox": [
+            372,
+            75,
+            446,
+            98
+          ],
+          "target_containment_pass": true
+        }
+      ],
+      "font_size_by_id": {
+        "fastdata.arc::staffrollb_003.rct::cg": 22
+      },
+      "deterministic_encoding": true
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "staffrollb_004.rct",
+      "source_sha256": "269655d8f83643431f400097882b102189ca519269759bf983a8c4db91988968",
+      "output_sha256": "295533357e1a6a82d5bdc479c4d4149b4ebc7eb65f8d5daff037d9d11e1e7f2a",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 39765,
+      "protected_pixel_diff_count": 0,
+      "source_glyph_residue_pixels": 0,
+      "clean_plate_reopened": true,
+      "persisted_pixels_exact": true,
+      "nonpixel_metadata_preserved": true,
+      "target_ink_bounds": [
+        [
+          390,
+          83,
+          428,
+          105
+        ],
+        [
+          236,
+          155,
+          580,
+          196
+        ],
+        [
+          297,
+          222,
+          519,
+          243
+        ],
+        [
+          289,
+          258,
+          528,
+          279
+        ],
+        [
+          299,
+          292,
+          518,
+          313
+        ],
+        [
+          298,
+          362,
+          516,
+          383
+        ],
+        [
+          324,
+          398,
+          493,
+          419
+        ],
+        [
+          298,
+          432,
+          519,
+          453
+        ],
+        [
+          316,
+          502,
+          501,
+          523
+        ]
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::staffrollb_004.rct::cast",
+          "asset": "staffrollb_004.rct",
+          "source": "ｃａｓｔ",
+          "target": "성우",
+          "source_y": [
+            84,
+            104
+          ],
+          "target_slot": [
+            198,
+            81,
+            603,
+            107
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 890,
+          "target_ink_bbox": [
+            390,
+            83,
+            428,
+            105
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_004.rct::cast-kureha-momiji",
+          "asset": "staffrollb_004.rct",
+          "source": "秋月暮葉／上条紅葉／槙野もみじ･･･北都南",
+          "target": "아키즈키 쿠레하 / 가미조 모미지 / 마키노 모미지\n北都南",
+          "source_y": [
+            149,
+            176
+          ],
+          "target_slot": [
+            198,
+            143,
+            603,
+            208
+          ],
+          "font_size": 17,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 8545,
+          "target_ink_bbox": [
+            236,
+            155,
+            580,
+            196
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_004.rct::cast-mahoko",
+          "asset": "staffrollb_004.rct",
+          "source": "羽鳥真帆子･･･まきいづみ",
+          "target": "하토리 마호코: まきいづみ",
+          "source_y": [
+            219,
+            246
+          ],
+          "target_slot": [
+            198,
+            216,
+            603,
+            249
+          ],
+          "font_size": 20,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 4621,
+          "target_ink_bbox": [
+            297,
+            222,
+            519,
+            243
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_004.rct::cast-shiina",
+          "asset": "staffrollb_004.rct",
+          "source": "春日井詩菜･･･芝原のぞみ",
+          "target": "가스가이 시이나: 芝原のぞみ",
+          "source_y": [
+            254,
+            281
+          ],
+          "target_slot": [
+            198,
+            251,
+            603,
+            284
+          ],
+          "font_size": 20,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 5020,
+          "target_ink_bbox": [
+            289,
+            258,
+            528,
+            279
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_004.rct::cast-masaki",
+          "asset": "staffrollb_004.rct",
+          "source": "吉森麻咲･･･羽沢月乃",
+          "target": "요시모리 마사키: 羽沢月乃",
+          "source_y": [
+            289,
+            316
+          ],
+          "target_slot": [
+            198,
+            286,
+            603,
+            319
+          ],
+          "font_size": 20,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 4192,
+          "target_ink_bbox": [
+            299,
+            292,
+            518,
+            313
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_004.rct::cast-nanako",
+          "asset": "staffrollb_004.rct",
+          "source": "田村奈那子･･･青山ゆかり",
+          "target": "다무라 나나코: 青山ゆかり",
+          "source_y": [
+            359,
+            386
+          ],
+          "target_slot": [
+            198,
+            356,
+            603,
+            389
+          ],
+          "font_size": 20,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 4832,
+          "target_ink_bbox": [
+            298,
+            362,
+            516,
+            383
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_004.rct::cast-tomoko",
+          "asset": "staffrollb_004.rct",
+          "source": "羽鳥朋子･･･如月葵",
+          "target": "하토리 朋子: 如月葵",
+          "source_y": [
+            394,
+            421
+          ],
+          "target_slot": [
+            198,
+            391,
+            603,
+            424
+          ],
+          "font_size": 20,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 3786,
+          "target_ink_bbox": [
+            324,
+            398,
+            493,
+            419
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_004.rct::cast-midori",
+          "asset": "staffrollb_004.rct",
+          "source": "矢嶋碧･･･一色ヒカル",
+          "target": "야시마 미도리: 一色ヒカル",
+          "source_y": [
+            429,
+            456
+          ],
+          "target_slot": [
+            198,
+            426,
+            603,
+            459
+          ],
+          "font_size": 20,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 3573,
+          "target_ink_bbox": [
+            298,
+            432,
+            519,
+            453
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_004.rct::cast-yue",
+          "asset": "staffrollb_004.rct",
+          "source": "汐見悠絵･･･松田理沙",
+          "target": "시오미 유에: 松田理沙",
+          "source_y": [
+            499,
+            526
+          ],
+          "target_slot": [
+            198,
+            496,
+            603,
+            529
+          ],
+          "font_size": 20,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 4306,
+          "target_ink_bbox": [
+            316,
+            502,
+            501,
+            523
+          ],
+          "target_containment_pass": true
+        }
+      ],
+      "font_size_by_id": {
+        "fastdata.arc::staffrollb_004.rct::cast": 21,
+        "fastdata.arc::staffrollb_004.rct::cast-kureha-momiji": 17,
+        "fastdata.arc::staffrollb_004.rct::cast-mahoko": 20,
+        "fastdata.arc::staffrollb_004.rct::cast-shiina": 20,
+        "fastdata.arc::staffrollb_004.rct::cast-masaki": 20,
+        "fastdata.arc::staffrollb_004.rct::cast-nanako": 20,
+        "fastdata.arc::staffrollb_004.rct::cast-tomoko": 20,
+        "fastdata.arc::staffrollb_004.rct::cast-midori": 20,
+        "fastdata.arc::staffrollb_004.rct::cast-yue": 20
+      },
+      "deterministic_encoding": true
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "staffrollb_005.rct",
+      "source_sha256": "eba1365d010a73ff84ea227bf27a8c89c89d48d457d8bc37754ca8a09ec2cb6c",
+      "output_sha256": "8a31082c73544f7461f6644113313d3101093e66c39c0b12b52654dde4609c26",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 1056,
+      "protected_pixel_diff_count": 0,
+      "source_glyph_residue_pixels": 0,
+      "clean_plate_reopened": true,
+      "persisted_pixels_exact": true,
+      "nonpixel_metadata_preserved": true,
+      "target_ink_bounds": [
+        [
+          389,
+          135,
+          429,
+          158
+        ]
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::staffrollb_005.rct::music",
+          "asset": "staffrollb_005.rct",
+          "source": "音楽",
+          "target": "음악",
+          "source_y": [
+            133,
+            160
+          ],
+          "target_slot": [
+            198,
+            130,
+            603,
+            163
+          ],
+          "font_size": 22,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1056,
+          "target_ink_bbox": [
+            389,
+            135,
+            429,
+            158
+          ],
+          "target_containment_pass": true
+        }
+      ],
+      "font_size_by_id": {
+        "fastdata.arc::staffrollb_005.rct::music": 22
+      },
+      "deterministic_encoding": true
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "staffrollb_006.rct",
+      "source_sha256": "acd37715a9adfef5aa9384d2bafb10b773aee2b621f2b05289286416af709a91",
+      "output_sha256": "b5e2f65e0893a3c353d55bf949206d551128a849a30037445710a5c834cbdd21",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 46495,
+      "protected_pixel_diff_count": 0,
+      "source_glyph_residue_pixels": 0,
+      "clean_plate_reopened": true,
+      "persisted_pixels_exact": true,
+      "nonpixel_metadata_preserved": true,
+      "target_ink_bounds": [
+        [
+          270,
+          54,
+          537,
+          74
+        ],
+        [
+          370,
+          107,
+          446,
+          125
+        ],
+        [
+          278,
+          133,
+          539,
+          153
+        ],
+        [
+          278,
+          159,
+          539,
+          179
+        ],
+        [
+          362,
+          187,
+          455,
+          206
+        ],
+        [
+          363,
+          238,
+          455,
+          257
+        ],
+        [
+          347,
+          265,
+          471,
+          283
+        ],
+        [
+          288,
+          291,
+          528,
+          309
+        ],
+        [
+          355,
+          317,
+          464,
+          336
+        ],
+        [
+          328,
+          343,
+          490,
+          361
+        ],
+        [
+          302,
+          371,
+          515,
+          389
+        ],
+        [
+          271,
+          423,
+          536,
+          441
+        ],
+        [
+          364,
+          475,
+          454,
+          493
+        ],
+        [
+          320,
+          502,
+          496,
+          520
+        ],
+        [
+          362,
+          527,
+          455,
+          546
+        ]
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::staffrollb_006.rct::op-title",
+          "asset": "staffrollb_006.rct",
+          "source": "主題歌：「Reconquista（レコンキスタ）」",
+          "target": "주제가 「Reconquista(레콘퀴스타)」",
+          "source_y": [
+            52,
+            75
+          ],
+          "target_slot": [
+            198,
+            49,
+            603,
+            78
+          ],
+          "font_size": 17,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 4665,
+          "target_ink_bbox": [
+            270,
+            54,
+            537,
+            74
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_006.rct::op-vocal",
+          "asset": "staffrollb_006.rct",
+          "source": "Vo：飛蘭",
+          "target": "노래: 飛蘭",
+          "source_y": [
+            105,
+            127
+          ],
+          "target_slot": [
+            198,
+            102,
+            603,
+            130
+          ],
+          "font_size": 17,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1223,
+          "target_ink_bbox": [
+            370,
+            107,
+            446,
+            125
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_006.rct::op-composition",
+          "asset": "staffrollb_006.rct",
+          "source": "作曲：上松範康（Elements Garden）",
+          "target": "작곡: 上松範康 (Elements Garden)",
+          "source_y": [
+            131,
+            154
+          ],
+          "target_slot": [
+            198,
+            128,
+            603,
+            157
+          ],
+          "font_size": 17,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 4278,
+          "target_ink_bbox": [
+            278,
+            133,
+            539,
+            153
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_006.rct::op-arrangement",
+          "asset": "staffrollb_006.rct",
+          "source": "編曲：菊田大介（Elements Garden）",
+          "target": "편곡: 菊田大介 (Elements Garden)",
+          "source_y": [
+            157,
+            180
+          ],
+          "target_slot": [
+            198,
+            154,
+            603,
+            183
+          ],
+          "font_size": 17,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 4284,
+          "target_ink_bbox": [
+            278,
+            159,
+            539,
+            179
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_006.rct::op-lyrics",
+          "asset": "staffrollb_006.rct",
+          "source": "作詞：海富一",
+          "target": "작사: 海富一",
+          "source_y": [
+            184,
+            207
+          ],
+          "target_slot": [
+            198,
+            181,
+            603,
+            210
+          ],
+          "font_size": 17,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1717,
+          "target_ink_bbox": [
+            362,
+            187,
+            455,
+            206
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_006.rct::op-guitars",
+          "asset": "staffrollb_006.rct",
+          "source": "Guitars：加納望",
+          "target": "기타: 加納望",
+          "source_y": [
+            236,
+            258
+          ],
+          "target_slot": [
+            198,
+            233,
+            603,
+            261
+          ],
+          "font_size": 17,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2024,
+          "target_ink_bbox": [
+            363,
+            238,
+            455,
+            257
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_006.rct::op-violin",
+          "asset": "staffrollb_006.rct",
+          "source": "Violin：森琢哉",
+          "target": "바이올린: 森琢哉",
+          "source_y": [
+            262,
+            284
+          ],
+          "target_slot": [
+            198,
+            259,
+            603,
+            287
+          ],
+          "font_size": 17,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1899,
+          "target_ink_bbox": [
+            347,
+            265,
+            471,
+            283
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_006.rct::op-instruments",
+          "asset": "staffrollb_006.rct",
+          "source": "All other instruments & programming by 菊田大介",
+          "target": "그 외 악기·프로그래밍: 菊田大介",
+          "source_y": [
+            289,
+            312
+          ],
+          "target_slot": [
+            198,
+            286,
+            603,
+            315
+          ],
+          "font_size": 17,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 5585,
+          "target_ink_bbox": [
+            288,
+            291,
+            528,
+            309
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_006.rct::op-mix",
+          "asset": "staffrollb_006.rct",
+          "source": "Mixed by：近藤久芳",
+          "target": "믹싱: 近藤久芳",
+          "source_y": [
+            314,
+            338
+          ],
+          "target_slot": [
+            198,
+            311,
+            603,
+            341
+          ],
+          "font_size": 17,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2567,
+          "target_ink_bbox": [
+            355,
+            317,
+            464,
+            336
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_006.rct::op-direction",
+          "asset": "staffrollb_006.rct",
+          "source": "Directed by：菊田大介",
+          "target": "음악 디렉터: 菊田大介",
+          "source_y": [
+            341,
+            364
+          ],
+          "target_slot": [
+            198,
+            338,
+            603,
+            367
+          ],
+          "font_size": 17,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2734,
+          "target_ink_bbox": [
+            328,
+            343,
+            490,
+            361
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_006.rct::op-production",
+          "asset": "staffrollb_006.rct",
+          "source": "Sound Produced by Elements Garden",
+          "target": "음악 제작: Elements Garden",
+          "source_y": [
+            369,
+            390
+          ],
+          "target_slot": [
+            198,
+            366,
+            603,
+            393
+          ],
+          "font_size": 17,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 3997,
+          "target_ink_bbox": [
+            302,
+            371,
+            515,
+            389
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_006.rct::ed-title",
+          "asset": "staffrollb_006.rct",
+          "source": "ＥＤテーマ：「声が聴こえる～Calling you～」",
+          "target": "엔딩곡 「목소리가 들려 ~널 부르며~」",
+          "source_y": [
+            420,
+            443
+          ],
+          "target_slot": [
+            198,
+            417,
+            603,
+            446
+          ],
+          "font_size": 17,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 5049,
+          "target_ink_bbox": [
+            271,
+            423,
+            536,
+            441
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_006.rct::ed-vocal",
+          "asset": "staffrollb_006.rct",
+          "source": "Vo：ＹＵＲＩＡ",
+          "target": "노래: YURIA",
+          "source_y": [
+            474,
+            493
+          ],
+          "target_slot": [
+            198,
+            471,
+            603,
+            496
+          ],
+          "font_size": 17,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1781,
+          "target_ink_bbox": [
+            364,
+            475,
+            454,
+            493
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_006.rct::ed-composition",
+          "asset": "staffrollb_006.rct",
+          "source": "作編曲：ANZE HIJIRI",
+          "target": "작곡·편곡: ANZE HIJIRI",
+          "source_y": [
+            500,
+            521
+          ],
+          "target_slot": [
+            198,
+            497,
+            603,
+            524
+          ],
+          "font_size": 17,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2969,
+          "target_ink_bbox": [
+            320,
+            502,
+            496,
+            520
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_006.rct::ed-lyrics",
+          "asset": "staffrollb_006.rct",
+          "source": "作詞：海富一",
+          "target": "작사: 海富一",
+          "source_y": [
+            525,
+            547
+          ],
+          "target_slot": [
+            198,
+            522,
+            603,
+            550
+          ],
+          "font_size": 17,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1723,
+          "target_ink_bbox": [
+            362,
+            527,
+            455,
+            546
+          ],
+          "target_containment_pass": true
+        }
+      ],
+      "font_size_by_id": {
+        "fastdata.arc::staffrollb_006.rct::op-title": 17,
+        "fastdata.arc::staffrollb_006.rct::op-vocal": 17,
+        "fastdata.arc::staffrollb_006.rct::op-composition": 17,
+        "fastdata.arc::staffrollb_006.rct::op-arrangement": 17,
+        "fastdata.arc::staffrollb_006.rct::op-lyrics": 17,
+        "fastdata.arc::staffrollb_006.rct::op-guitars": 17,
+        "fastdata.arc::staffrollb_006.rct::op-violin": 17,
+        "fastdata.arc::staffrollb_006.rct::op-instruments": 17,
+        "fastdata.arc::staffrollb_006.rct::op-mix": 17,
+        "fastdata.arc::staffrollb_006.rct::op-direction": 17,
+        "fastdata.arc::staffrollb_006.rct::op-production": 17,
+        "fastdata.arc::staffrollb_006.rct::ed-title": 17,
+        "fastdata.arc::staffrollb_006.rct::ed-vocal": 17,
+        "fastdata.arc::staffrollb_006.rct::ed-composition": 17,
+        "fastdata.arc::staffrollb_006.rct::ed-lyrics": 17
+      },
+      "deterministic_encoding": true
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "staffrollb_007.rct",
+      "source_sha256": "21e4f2759279a54c0ddb123fb50570bcdf5121b18b907c53840f332dcb7e6803",
+      "output_sha256": "dddae96a048adcbfa7f45ff4ebf973b6c45b96c78010c9d32815348cd52858f3",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 3810,
+      "protected_pixel_diff_count": 0,
+      "source_glyph_residue_pixels": 0,
+      "clean_plate_reopened": true,
+      "persisted_pixels_exact": true,
+      "nonpixel_metadata_preserved": true,
+      "target_ink_bounds": [
+        [
+          361,
+          73,
+          454,
+          95
+        ],
+        [
+          390,
+          205,
+          426,
+          227
+        ],
+        [
+          371,
+          365,
+          447,
+          387
+        ]
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::staffrollb_007.rct::program",
+          "asset": "staffrollb_007.rct",
+          "source": "プログラム",
+          "target": "프로그래밍",
+          "source_y": [
+            72,
+            95
+          ],
+          "target_slot": [
+            198,
+            69,
+            603,
+            98
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1515,
+          "target_ink_bbox": [
+            361,
+            73,
+            454,
+            95
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_007.rct::background",
+          "asset": "staffrollb_007.rct",
+          "source": "背景",
+          "target": "배경",
+          "source_y": [
+            203,
+            227
+          ],
+          "target_slot": [
+            198,
+            200,
+            603,
+            230
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 856,
+          "target_ink_bbox": [
+            390,
+            205,
+            426,
+            227
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_007.rct::script",
+          "asset": "staffrollb_007.rct",
+          "source": "スクリプト",
+          "target": "스크립트",
+          "source_y": [
+            364,
+            386
+          ],
+          "target_slot": [
+            198,
+            361,
+            603,
+            389
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1439,
+          "target_ink_bbox": [
+            371,
+            365,
+            447,
+            387
+          ],
+          "target_containment_pass": true
+        }
+      ],
+      "font_size_by_id": {
+        "fastdata.arc::staffrollb_007.rct::program": 21,
+        "fastdata.arc::staffrollb_007.rct::background": 21,
+        "fastdata.arc::staffrollb_007.rct::script": 21
+      },
+      "deterministic_encoding": true
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "staffrollb_008.rct",
+      "source_sha256": "d4969711080bcaf2ea16b8c27981c82a18b1bce3da4d96b0c681e607b435ca90",
+      "output_sha256": "00298535e71e8648e98db721f6eb0e7539bc4b594feaed3d1f7a9c1ba63671ee",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 8783,
+      "protected_pixel_diff_count": 0,
+      "source_glyph_residue_pixels": 0,
+      "clean_plate_reopened": true,
+      "persisted_pixels_exact": true,
+      "nonpixel_metadata_preserved": true,
+      "target_ink_bounds": [
+        [
+          348,
+          107,
+          466,
+          129
+        ],
+        [
+          348,
+          239,
+          467,
+          261
+        ],
+        [
+          359,
+          341,
+          458,
+          363
+        ],
+        [
+          369,
+          443,
+          450,
+          465
+        ]
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::staffrollb_008.rct::system-graphics",
+          "asset": "staffrollb_008.rct",
+          "source": "システムグラフィック",
+          "target": "시스템 그래픽",
+          "source_y": [
+            106,
+            129
+          ],
+          "target_slot": [
+            198,
+            103,
+            603,
+            132
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2803,
+          "target_ink_bbox": [
+            348,
+            107,
+            466,
+            129
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_008.rct::package",
+          "asset": "staffrollb_008.rct",
+          "source": "パッケージデザイン",
+          "target": "패키지 디자인",
+          "source_y": [
+            238,
+            261
+          ],
+          "target_slot": [
+            198,
+            235,
+            603,
+            264
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2424,
+          "target_ink_bbox": [
+            348,
+            239,
+            467,
+            261
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_008.rct::logo",
+          "asset": "staffrollb_008.rct",
+          "source": "ロゴデザイン",
+          "target": "로고 디자인",
+          "source_y": [
+            339,
+            363
+          ],
+          "target_slot": [
+            198,
+            336,
+            603,
+            366
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1787,
+          "target_ink_bbox": [
+            359,
+            341,
+            458,
+            363
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_008.rct::voice-recording",
+          "asset": "staffrollb_008.rct",
+          "source": "ボイス収録",
+          "target": "음성 녹음",
+          "source_y": [
+            441,
+            465
+          ],
+          "target_slot": [
+            198,
+            438,
+            603,
+            468
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1769,
+          "target_ink_bbox": [
+            369,
+            443,
+            450,
+            465
+          ],
+          "target_containment_pass": true
+        }
+      ],
+      "font_size_by_id": {
+        "fastdata.arc::staffrollb_008.rct::system-graphics": 21,
+        "fastdata.arc::staffrollb_008.rct::package": 21,
+        "fastdata.arc::staffrollb_008.rct::logo": 21,
+        "fastdata.arc::staffrollb_008.rct::voice-recording": 21
+      },
+      "deterministic_encoding": true
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "staffrollb_009.rct",
+      "source_sha256": "5cad60f251045336cfcdaade9501dadbc3a53c2b25bd99f0ce490742f9260795",
+      "output_sha256": "e9e284e0fb41571c5f27bc0c802dcdb8dbfa8ef327a179d9369b1d93c98e2e24",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 3941,
+      "protected_pixel_diff_count": 0,
+      "source_glyph_residue_pixels": 0,
+      "clean_plate_reopened": true,
+      "persisted_pixels_exact": true,
+      "nonpixel_metadata_preserved": true,
+      "target_ink_bounds": [
+        [
+          369,
+          126,
+          450,
+          148
+        ],
+        [
+          347,
+          259,
+          471,
+          281
+        ]
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::staffrollb_009.rct::movie",
+          "asset": "staffrollb_009.rct",
+          "source": "ムービー制作",
+          "target": "영상 제작",
+          "source_y": [
+            124,
+            149
+          ],
+          "target_slot": [
+            198,
+            121,
+            603,
+            152
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1835,
+          "target_ink_bbox": [
+            369,
+            126,
+            450,
+            148
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_009.rct::thanks",
+          "asset": "staffrollb_009.rct",
+          "source": "Special Thanks",
+          "target": "도움 주신 분들",
+          "source_y": [
+            257,
+            281
+          ],
+          "target_slot": [
+            198,
+            254,
+            603,
+            284
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2106,
+          "target_ink_bbox": [
+            347,
+            259,
+            471,
+            281
+          ],
+          "target_containment_pass": true
+        }
+      ],
+      "font_size_by_id": {
+        "fastdata.arc::staffrollb_009.rct::movie": 21,
+        "fastdata.arc::staffrollb_009.rct::thanks": 21
+      },
+      "deterministic_encoding": true
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "staffrollb_010.rct",
+      "source_sha256": "3b182038361fca01c28c3636dc9b4e8deb2534f079042d93852e4d7c2178eb7c",
+      "output_sha256": "fb0710df0e39328b08fc320d761889b53228c98db98f1d2dcdd4028e8281886a",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 5287,
+      "protected_pixel_diff_count": 0,
+      "source_glyph_residue_pixels": 0,
+      "clean_plate_reopened": true,
+      "persisted_pixels_exact": true,
+      "nonpixel_metadata_preserved": true,
+      "target_ink_bounds": [
+        [
+          390,
+          131,
+          428,
+          153
+        ],
+        [
+          346,
+          261,
+          470,
+          283
+        ],
+        [
+          382,
+          393,
+          436,
+          415
+        ]
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::staffrollb_010.rct::publicity",
+          "asset": "staffrollb_010.rct",
+          "source": "広報",
+          "target": "홍보",
+          "source_y": [
+            130,
+            153
+          ],
+          "target_slot": [
+            198,
+            127,
+            603,
+            156
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 863,
+          "target_ink_bbox": [
+            390,
+            131,
+            428,
+            153
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_010.rct::producer-sales",
+          "asset": "staffrollb_010.rct",
+          "source": "プロデューサー／営業",
+          "target": "프로듀서·영업",
+          "source_y": [
+            260,
+            284
+          ],
+          "target_slot": [
+            198,
+            257,
+            603,
+            287
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2856,
+          "target_ink_bbox": [
+            346,
+            261,
+            470,
+            283
+          ],
+          "target_containment_pass": true
+        },
+        {
+          "id": "fastdata.arc::staffrollb_010.rct::director",
+          "asset": "staffrollb_010.rct",
+          "source": "ディレクター",
+          "target": "디렉터",
+          "source_y": [
+            392,
+            415
+          ],
+          "target_slot": [
+            198,
+            389,
+            603,
+            418
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 1568,
+          "target_ink_bbox": [
+            382,
+            393,
+            436,
+            415
+          ],
+          "target_containment_pass": true
+        }
+      ],
+      "font_size_by_id": {
+        "fastdata.arc::staffrollb_010.rct::publicity": 21,
+        "fastdata.arc::staffrollb_010.rct::producer-sales": 21,
+        "fastdata.arc::staffrollb_010.rct::director": 21
+      },
+      "deterministic_encoding": true
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "staffrollb_011.rct",
+      "source_sha256": "61434148df43af340fb38771cb8354067153b1fae627390f9fec640acf932c05",
+      "output_sha256": "091941f86eeb4e73275725d840ae4f46125fa73987b52b38896ca85e6add0779",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 2106,
+      "protected_pixel_diff_count": 0,
+      "source_glyph_residue_pixels": 0,
+      "clean_plate_reopened": true,
+      "persisted_pixels_exact": true,
+      "nonpixel_metadata_preserved": true,
+      "target_ink_bounds": [
+        [
+          354,
+          265,
+          461,
+          287
+        ]
+      ],
+      "strings": [
+        {
+          "id": "fastdata.arc::staffrollb_011.rct::copyright",
+          "asset": "staffrollb_011.rct",
+          "source": "制作著作",
+          "target": "제작·저작권",
+          "source_y": [
+            262,
+            289
+          ],
+          "target_slot": [
+            198,
+            259,
+            603,
+            292
+          ],
+          "font_size": 21,
+          "color": "white",
+          "translator_model": "Codex internal",
+          "provenance": "Codex primary task 01a162df-720c-77d2-96ed-6429e90b3333; direct original raster reading and existing frozen UI terminology",
+          "source_glyph_pixels": 2106,
+          "target_ink_bbox": [
+            354,
+            265,
+            461,
+            287
+          ],
+          "target_containment_pass": true
+        }
+      ],
+      "font_size_by_id": {
+        "fastdata.arc::staffrollb_011.rct::copyright": 21
+      },
+      "deterministic_encoding": true
+    }
+  ],
+  "output_hashes": {
+    "staffrolla_.rc8": "07ffe4ecda7342b9f8711c3a8e45ed2b71b9e95f40ae167abe074ad76b01ac7c",
+    "staffrolla.rct": "f5a124c8cda9b9429a50cc24421b1d76773d21d2a9c1597614a81941d16e27fd",
+    "staffrollb_001.rct": "dd3de4aadf1831cab9d221950a51c3946db4a4bea0e97db77db190a7a04603b8",
+    "staffrollb_002.rct": "f17663cf2cbd2072d2ae794145e5ffdd502196eed350709f13627c7612e0bcc4",
+    "staffrollb_003.rct": "2cc043f3964804a1846e2ed0ffc46aac31e89b5298010a531776b9e8627a394f",
+    "staffrollb_004.rct": "295533357e1a6a82d5bdc479c4d4149b4ebc7eb65f8d5daff037d9d11e1e7f2a",
+    "staffrollb_005.rct": "8a31082c73544f7461f6644113313d3101093e66c39c0b12b52654dde4609c26",
+    "staffrollb_006.rct": "b5e2f65e0893a3c353d55bf949206d551128a849a30037445710a5c834cbdd21",
+    "staffrollb_007.rct": "dddae96a048adcbfa7f45ff4ebf973b6c45b96c78010c9d32815348cd52858f3",
+    "staffrollb_008.rct": "00298535e71e8648e98db721f6eb0e7539bc4b594feaed3d1f7a9c1ba63671ee",
+    "staffrollb_009.rct": "e9e284e0fb41571c5f27bc0c802dcdb8dbfa8ef327a179d9369b1d93c98e2e24",
+    "staffrollb_010.rct": "fb0710df0e39328b08fc320d761889b53228c98db98f1d2dcdd4028e8281886a",
+    "staffrollb_011.rct": "091941f86eeb4e73275725d840ae4f46125fa73987b52b38896ca85e6add0779"
+  },
+  "semantic_labels": 78,
+  "raster_entries": 12,
+  "raster_masks": 1,
+  "semantic_source": "translation/ending-credits-ko.json",
+  "policy": {
+    "creator_and_company_names": "Keep original credited spelling, following accepted translation/text-raster-ko.json music-credit policy. Original creator-name-only rows remain pixel-identical. No guessed name readings.",
+    "character_names": "Reuse frozen body/UI spellings; 矢嶋 is 야시마 per explicit ヤシマ/やしま source, not common-name guess.",
+    "unresolved_names": [
+      {
+        "source_span": "朋子",
+        "source_ids": [
+          "fastdata.arc::staffrolla.rct::cast-tomoko",
+          "fastdata.arc::staffrollb_004.rct::cast-tomoko"
+        ],
+        "rendered_target_span": "朋子",
+        "status": "source_preserved_reading_unverified",
+        "reason": "Existing timeline Tomoko reading provisional; preserve this given-name span exactly while translating the rest."
+      }
+    ],
+    "song_title": "Use existing music-tracks-b-ko.json: 목소리가 들려 ~널 부르며~."
+  },
+  "font_path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\research\\fonts\\NotoSansCJKkr-Regular.otf",
+  "font_sha256": "6bcb2a0703aa137e874fc2dffa85f6c21ba9a67fa329e81b8c801663af7e992a",
+  "structural_pass": true,
+  "visual_pass": true,
+  "runtime_review": "user_final_review_pending",
+  "release_pass": false,
+  "closure": {
+    "scroll": "staffrolla.rct + original-dimension RC8; canvas800x4664; original script and timing unchanged",
+    "slides": "all11 staffrollb_001..011; canvas800x600; original script and timing unchanged"
+  },
+  "clean_plate_evidence": [
+    "research/op-ed/staffrollb-blank-donor-study.json",
+    "evidence/op-ed-source/staffrollb-proven-clean.png"
+  ],
+  "consumers": [
+    {
+      "file": "staffroll.mjo",
+      "sha256": "c7ea1a7f43f8042ea85a16ac830a6c9ea71d94f85248e9b3b4272c07a8b33a5d"
+    },
+    {
+      "file": "last_ep.mjo",
+      "sha256": "ce2950fc85b9d67e48cfbe3ad2f3e697522c62e34bc25656fc8dce3c8ef7e620"
+    },
+    {
+      "file": "kosihata.mjo",
+      "sha256": "e4421e0fde3d02fe1964809b5e85ac3fe5c16c0579ddb773168c0ceea64195c1"
+    }
+  ],
+  "ready_for_integration": true,
+  "visual_review": {
+    "reviewer": "Codex internal primary",
+    "source": "persisted RCT/RC8 previews reopened after decoding",
+    "reviewed_assets": [
+      "staffrolla.rct",
+      "staffrolla_.rc8",
+      "staffrollb_001.rct",
+      "staffrollb_002.rct",
+      "staffrollb_003.rct",
+      "staffrollb_004.rct",
+      "staffrollb_005.rct",
+      "staffrollb_006.rct",
+      "staffrollb_007.rct",
+      "staffrollb_008.rct",
+      "staffrollb_009.rct",
+      "staffrollb_010.rct",
+      "staffrollb_011.rct"
+    ],
+    "native_scale_evidence": [
+      "preview/staffrollb-native-rows-1.png",
+      "preview/staffrollb-native-rows-2.png",
+      "preview/staffrollb-native-rows-3.png",
+      "preview/staffrolla-0000-source-clean-final.png",
+      "preview/staffrolla-0900-source-clean-final.png",
+      "preview/staffrolla-1800-source-clean-final.png",
+      "preview/staffrolla-2700-source-clean-final.png",
+      "preview/staffrolla-3600-source-clean-final.png"
+    ],
+    "full_layout_evidence": "preview/staffrollb-contact.png",
+    "result": "PASS: translated rows have no old glyph residue, no clipping; source creator/company names intentionally retained; A scroll dimensions and B rules/background preserved."
+  },
+  "known_open_items": [
+    {
+      "id": "credit-character::朋子",
+      "status": "source_given_name_preserved_reading_unverified"
+    },
+    {
+      "id": "all-ending-runtime",
+      "status": "user_final_review_pending"
+    }
+  ],
+  "frozen_at_utc": "2026-10-23T00:52:51.208516+00:00"
+}

@@ -1,0 +1,458 @@
+[
+  {
+    "key": "1d997c8c",
+    "name": "bg_060a.rct",
+    "base_key": "1d997c8c",
+    "kind": "generated_base",
+    "blur_assessment": "구조물은 정지해 있다. 구름·창 반사·그늘의 부드러움은 의도된 표현이며, 작은 창틀·벽 타일·난간의 세부만 해상도 한계다.",
+    "variant_lighting": "원본의 큰 색·빛·의도된 흐림을 기준으로 재합성."
+  },
+  {
+    "key": "5a39065c",
+    "name": "bg_060b.rct",
+    "base_key": "1d997c8c",
+    "kind": "derived_variant",
+    "blur_assessment": "구조물은 정지해 있다. 구름·창 반사·그늘의 부드러움은 의도된 표현이며, 작은 창틀·벽 타일·난간의 세부만 해상도 한계다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "67592fec",
+    "name": "bg_060c.rct",
+    "base_key": "1d997c8c",
+    "kind": "derived_variant",
+    "blur_assessment": "구조물은 정지해 있다. 구름·창 반사·그늘의 부드러움은 의도된 표현이며, 작은 창틀·벽 타일·난간의 세부만 해상도 한계다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "d579f3fc",
+    "name": "bg_060d.rct",
+    "base_key": "1d997c8c",
+    "kind": "derived_variant",
+    "blur_assessment": "구조물은 정지해 있다. 구름·창 반사·그늘의 부드러움은 의도된 표현이며, 작은 창틀·벽 타일·난간의 세부만 해상도 한계다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "e819da4c",
+    "name": "bg_060e.rct",
+    "base_key": "1d997c8c",
+    "kind": "derived_variant",
+    "blur_assessment": "구조물은 정지해 있다. 구름·창 반사·그늘의 부드러움은 의도된 표현이며, 작은 창틀·벽 타일·난간의 세부만 해상도 한계다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "4da607d1",
+    "name": "bg_080a.rct",
+    "base_key": "4da607d1",
+    "kind": "generated_base",
+    "blur_assessment": "창의 반사와 먼 수목·구름은 회화적·거리감 흐림이다. 벽면은 매끈한 채로 두고 건축 이음새·창살·작은 장식만 정돈한다.",
+    "variant_lighting": "원본의 큰 색·빛·의도된 흐림을 기준으로 재합성."
+  },
+  {
+    "key": "0a067d01",
+    "name": "bg_080b.rct",
+    "base_key": "4da607d1",
+    "kind": "derived_variant",
+    "blur_assessment": "창의 반사와 먼 수목·구름은 회화적·거리감 흐림이다. 벽면은 매끈한 채로 두고 건축 이음새·창살·작은 장식만 정돈한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "376654b1",
+    "name": "bg_080c.rct",
+    "base_key": "4da607d1",
+    "kind": "derived_variant",
+    "blur_assessment": "창의 반사와 먼 수목·구름은 회화적·거리감 흐림이다. 벽면은 매끈한 채로 두고 건축 이음새·창살·작은 장식만 정돈한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "b826a111",
+    "name": "bg_080e.rct",
+    "base_key": "4da607d1",
+    "kind": "derived_variant",
+    "blur_assessment": "창의 반사와 먼 수목·구름은 회화적·거리감 흐림이다. 벽면은 매끈한 채로 두고 건축 이음새·창살·작은 장식만 정돈한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "3c6c4ecb",
+    "name": "bg_200a.rct",
+    "base_key": "3c6c4ecb",
+    "kind": "generated_base",
+    "blur_assessment": "창 유리의 실내와 반사는 초점·유리 재질 때문에 흐리며 그대로 둔다. 외벽 벽돌·계단 줄눈·문틀만 세부를 보완한다.",
+    "variant_lighting": "원본의 큰 색·빛·의도된 흐림을 기준으로 재합성."
+  },
+  {
+    "key": "7bcc341b",
+    "name": "bg_200b.rct",
+    "base_key": "3c6c4ecb",
+    "kind": "derived_variant",
+    "blur_assessment": "창 유리의 실내와 반사는 초점·유리 재질 때문에 흐리며 그대로 둔다. 외벽 벽돌·계단 줄눈·문틀만 세부를 보완한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "46ac1dab",
+    "name": "bg_200c.rct",
+    "base_key": "3c6c4ecb",
+    "kind": "derived_variant",
+    "blur_assessment": "창 유리의 실내와 반사는 초점·유리 재질 때문에 흐리며 그대로 둔다. 외벽 벽돌·계단 줄눈·문틀만 세부를 보완한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "5fbc7bf1",
+    "name": "bg_260a.rct",
+    "base_key": "5fbc7bf1",
+    "kind": "generated_base",
+    "blur_assessment": "멀리 이어지는 구조물과 수평선의 흐림은 거리·대기 때문이다. 가까운 난간과 철재 접합부만 또렷하게 하고 긴 그림자의 부드러움은 보존한다.",
+    "variant_lighting": "원본의 큰 색·빛·의도된 흐림을 기준으로 재합성."
+  },
+  {
+    "key": "181c0121",
+    "name": "bg_260b.rct",
+    "base_key": "5fbc7bf1",
+    "kind": "derived_variant",
+    "blur_assessment": "멀리 이어지는 구조물과 수평선의 흐림은 거리·대기 때문이다. 가까운 난간과 철재 접합부만 또렷하게 하고 긴 그림자의 부드러움은 보존한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "257c2891",
+    "name": "bg_260c.rct",
+    "base_key": "5fbc7bf1",
+    "kind": "derived_variant",
+    "blur_assessment": "멀리 이어지는 구조물과 수평선의 흐림은 거리·대기 때문이다. 가까운 난간과 철재 접합부만 또렷하게 하고 긴 그림자의 부드러움은 보존한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "ed9ca7e1",
+    "name": "bg_260f.rct",
+    "base_key": "5fbc7bf1",
+    "kind": "derived_variant",
+    "blur_assessment": "멀리 이어지는 구조물과 수평선의 흐림은 거리·대기 때문이다. 가까운 난간과 철재 접합부만 또렷하게 하고 긴 그림자의 부드러움은 보존한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "f9cb7045",
+    "name": "bg_270a.rct",
+    "base_key": "f9cb7045",
+    "kind": "generated_base",
+    "blur_assessment": "구름·수면·먼 구조물은 대기와 빛으로 부드럽다. 바닥 타일·가까운 난간·가로등만 해상도에 맞게 정돈한다.",
+    "variant_lighting": "원본의 큰 색·빛·의도된 흐림을 기준으로 재합성."
+  },
+  {
+    "key": "be6b0a95",
+    "name": "bg_270b.rct",
+    "base_key": "f9cb7045",
+    "kind": "derived_variant",
+    "blur_assessment": "구름·수면·먼 구조물은 대기와 빛으로 부드럽다. 바닥 타일·가까운 난간·가로등만 해상도에 맞게 정돈한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "830b2325",
+    "name": "bg_270c.rct",
+    "base_key": "f9cb7045",
+    "kind": "derived_variant",
+    "blur_assessment": "구름·수면·먼 구조물은 대기와 빛으로 부드럽다. 바닥 타일·가까운 난간·가로등만 해상도에 맞게 정돈한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "4bebac55",
+    "name": "bg_270f.rct",
+    "base_key": "f9cb7045",
+    "kind": "derived_variant",
+    "blur_assessment": "구름·수면·먼 구조물은 대기와 빛으로 부드럽다. 바닥 타일·가까운 난간·가로등만 해상도에 맞게 정돈한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "a9f40b18",
+    "name": "bg_290a.rct",
+    "base_key": "a9f40b18",
+    "kind": "generated_base",
+    "blur_assessment": "원근상 먼 길·그물 울타리·수목은 거리 때문에 부드럽다. 아스팔트는 잔잔한 질감이며 덩어리 무늬를 만들지 않는다.",
+    "variant_lighting": "원본의 큰 색·빛·의도된 흐림을 기준으로 재합성."
+  },
+  {
+    "key": "ee5471c8",
+    "name": "bg_290b.rct",
+    "base_key": "a9f40b18",
+    "kind": "derived_variant",
+    "blur_assessment": "원근상 먼 길·그물 울타리·수목은 거리 때문에 부드럽다. 아스팔트는 잔잔한 질감이며 덩어리 무늬를 만들지 않는다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "d3345878",
+    "name": "bg_290c.rct",
+    "base_key": "a9f40b18",
+    "kind": "derived_variant",
+    "blur_assessment": "원근상 먼 길·그물 울타리·수목은 거리 때문에 부드럽다. 아스팔트는 잔잔한 질감이며 덩어리 무늬를 만들지 않는다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "5c74add8",
+    "name": "bg_290e.rct",
+    "base_key": "a9f40b18",
+    "kind": "derived_variant",
+    "blur_assessment": "원근상 먼 길·그물 울타리·수목은 거리 때문에 부드럽다. 아스팔트는 잔잔한 질감이며 덩어리 무늬를 만들지 않는다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "f0c64e55",
+    "name": "bg_300a.rct",
+    "base_key": "f0c64e55",
+    "kind": "generated_base",
+    "blur_assessment": "먼 건물과 나무는 대기·거리감으로 흐리다. 넓은 도로·발코니 그림자는 부드럽게 유지하고 가까운 연석·창틀만 정돈한다.",
+    "variant_lighting": "원본의 큰 색·빛·의도된 흐림을 기준으로 재합성."
+  },
+  {
+    "key": "b7663485",
+    "name": "bg_300b.rct",
+    "base_key": "f0c64e55",
+    "kind": "derived_variant",
+    "blur_assessment": "먼 건물과 나무는 대기·거리감으로 흐리다. 넓은 도로·발코니 그림자는 부드럽게 유지하고 가까운 연석·창틀만 정돈한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "8a061d35",
+    "name": "bg_300c.rct",
+    "base_key": "f0c64e55",
+    "kind": "derived_variant",
+    "blur_assessment": "먼 건물과 나무는 대기·거리감으로 흐리다. 넓은 도로·발코니 그림자는 부드럽게 유지하고 가까운 연석·창틀만 정돈한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "0546e895",
+    "name": "bg_300e.rct",
+    "base_key": "f0c64e55",
+    "kind": "derived_variant",
+    "blur_assessment": "먼 건물과 나무는 대기·거리감으로 흐리다. 넓은 도로·발코니 그림자는 부드럽게 유지하고 가까운 연석·창틀만 정돈한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "56b145e1",
+    "name": "bg_310a.rct",
+    "base_key": "56b145e1",
+    "kind": "generated_base",
+    "blur_assessment": "먼 길과 수목·창 반사는 부드러운 원근 표현이다. 가까운 보도 줄눈·기둥·금속 울타리만 선명하게 한다.",
+    "variant_lighting": "원본의 큰 색·빛·의도된 흐림을 기준으로 재합성."
+  },
+  {
+    "key": "11113f31",
+    "name": "bg_310b.rct",
+    "base_key": "56b145e1",
+    "kind": "derived_variant",
+    "blur_assessment": "먼 길과 수목·창 반사는 부드러운 원근 표현이다. 가까운 보도 줄눈·기둥·금속 울타리만 선명하게 한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "2c711681",
+    "name": "bg_310c.rct",
+    "base_key": "56b145e1",
+    "kind": "derived_variant",
+    "blur_assessment": "먼 길과 수목·창 반사는 부드러운 원근 표현이다. 가까운 보도 줄눈·기둥·금속 울타리만 선명하게 한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "2a91fe77",
+    "name": "bg_322a.rct",
+    "base_key": "2a91fe77",
+    "kind": "generated_base",
+    "blur_assessment": "먼 건물·하늘의 흐림은 거리와 대기다. 흙과 풀의 회화적 얼룩을 과도하게 선명화하지 않으며 가까운 자재·나무판·밧줄만 세부를 보완한다.",
+    "variant_lighting": "원본의 큰 색·빛·의도된 흐림을 기준으로 재합성."
+  },
+  {
+    "key": "6d3184a7",
+    "name": "bg_322b.rct",
+    "base_key": "2a91fe77",
+    "kind": "derived_variant",
+    "blur_assessment": "먼 건물·하늘의 흐림은 거리와 대기다. 흙과 풀의 회화적 얼룩을 과도하게 선명화하지 않으며 가까운 자재·나무판·밧줄만 세부를 보완한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "5051ad17",
+    "name": "bg_322c.rct",
+    "base_key": "2a91fe77",
+    "kind": "derived_variant",
+    "blur_assessment": "먼 건물·하늘의 흐림은 거리와 대기다. 흙과 풀의 회화적 얼룩을 과도하게 선명화하지 않으며 가까운 자재·나무판·밧줄만 세부를 보완한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "98b12267",
+    "name": "bg_322f.rct",
+    "base_key": "2a91fe77",
+    "kind": "derived_variant",
+    "blur_assessment": "먼 건물·하늘의 흐림은 거리와 대기다. 흙과 풀의 회화적 얼룩을 과도하게 선명화하지 않으며 가까운 자재·나무판·밧줄만 세부를 보완한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "c12e54c8",
+    "name": "bg_330a.rct",
+    "base_key": "c12e54c8",
+    "kind": "generated_base",
+    "blur_assessment": "멀리 있는 통로·나무와 하늘은 원근·대기로 흐리다. 가까운 지붕 리브·난간·기둥은 정교하게 하되 뒤까지 동일하게 선명화하지 않는다.",
+    "variant_lighting": "원본의 큰 색·빛·의도된 흐림을 기준으로 재합성."
+  },
+  {
+    "key": "868e2e18",
+    "name": "bg_330b.rct",
+    "base_key": "c12e54c8",
+    "kind": "derived_variant",
+    "blur_assessment": "멀리 있는 통로·나무와 하늘은 원근·대기로 흐리다. 가까운 지붕 리브·난간·기둥은 정교하게 하되 뒤까지 동일하게 선명화하지 않는다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "bbee07a8",
+    "name": "bg_330c.rct",
+    "base_key": "c12e54c8",
+    "kind": "derived_variant",
+    "blur_assessment": "멀리 있는 통로·나무와 하늘은 원근·대기로 흐리다. 가까운 지붕 리브·난간·기둥은 정교하게 하되 뒤까지 동일하게 선명화하지 않는다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "34aef208",
+    "name": "bg_330e.rct",
+    "base_key": "c12e54c8",
+    "kind": "derived_variant",
+    "blur_assessment": "멀리 있는 통로·나무와 하늘은 원근·대기로 흐리다. 가까운 지붕 리브·난간·기둥은 정교하게 하되 뒤까지 동일하게 선명화하지 않는다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "0a72876d",
+    "name": "bg_331a.rct",
+    "base_key": "0a72876d",
+    "kind": "generated_base",
+    "blur_assessment": "화면 전체의 부드러움은 회화적 필터와 통로 깊이감이며 제거하지 않는다. 확대해 드러나는 가까운 이음새만 정돈하고 뒤쪽 난간·식물은 흐리게 둔다.",
+    "variant_lighting": "원본의 큰 색·빛·의도된 흐림을 기준으로 재합성."
+  },
+  {
+    "key": "4dd2fdbd",
+    "name": "bg_331b.rct",
+    "base_key": "0a72876d",
+    "kind": "derived_variant",
+    "blur_assessment": "화면 전체의 부드러움은 회화적 필터와 통로 깊이감이며 제거하지 않는다. 확대해 드러나는 가까운 이음새만 정돈하고 뒤쪽 난간·식물은 흐리게 둔다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "70b2d40d",
+    "name": "bg_331c.rct",
+    "base_key": "0a72876d",
+    "kind": "derived_variant",
+    "blur_assessment": "화면 전체의 부드러움은 회화적 필터와 통로 깊이감이며 제거하지 않는다. 확대해 드러나는 가까운 이음새만 정돈하고 뒤쪽 난간·식물은 흐리게 둔다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "04896a46",
+    "name": "bg_340a.rct",
+    "base_key": "04896a46",
+    "kind": "generated_base",
+    "blur_assessment": "원경과 창 반사는 거리·유리 때문에 흐리다. 간판과 가까운 건축 이음새만 명확하게 하며 원본에서 읽히지 않는 장식용 미세 글자를 새 문장으로 만들지 않는다.",
+    "variant_lighting": "원본의 큰 색·빛·의도된 흐림을 기준으로 재합성."
+  },
+  {
+    "key": "43291096",
+    "name": "bg_340b.rct",
+    "base_key": "04896a46",
+    "kind": "derived_variant",
+    "blur_assessment": "원경과 창 반사는 거리·유리 때문에 흐리다. 간판과 가까운 건축 이음새만 명확하게 하며 원본에서 읽히지 않는 장식용 미세 글자를 새 문장으로 만들지 않는다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "7e493926",
+    "name": "bg_340c.rct",
+    "base_key": "04896a46",
+    "kind": "derived_variant",
+    "blur_assessment": "원경과 창 반사는 거리·유리 때문에 흐리다. 간판과 가까운 건축 이음새만 명확하게 하며 원본에서 읽히지 않는 장식용 미세 글자를 새 문장으로 만들지 않는다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "6bb51124",
+    "name": "bg_340c2.rct",
+    "base_key": "04896a46",
+    "kind": "derived_variant",
+    "blur_assessment": "원경과 창 반사는 거리·유리 때문에 흐리다. 간판과 가까운 건축 이음새만 명확하게 하며 원본에서 읽히지 않는 장식용 미세 글자를 새 문장으로 만들지 않는다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "cfd5b9e3",
+    "name": "bg_341a.rct",
+    "base_key": "cfd5b9e3",
+    "kind": "generated_base",
+    "blur_assessment": "배경 원경·창 반사는 거리·유리 때문이다. 화면 오른쪽 물체의 경사와 상태는 그대로이며 움직임 흔적을 추가하지 않는다. 먼 배경을 불필요하게 선명화하지 않는다.",
+    "variant_lighting": "원본의 큰 색·빛·의도된 흐림을 기준으로 재합성."
+  },
+  {
+    "key": "a2fe61f2",
+    "name": "bg_350a.rct",
+    "base_key": "a2fe61f2",
+    "kind": "generated_base",
+    "blur_assessment": "큰 시트의 어두운 번짐은 그 뒤 구조물의 그림자·투과 표현이다. 선을 따지 않고 흐린 채로 둔다. 가까운 파이프·자재·보도만 정교하게 한다.",
+    "variant_lighting": "원본의 큰 색·빛·의도된 흐림을 기준으로 재합성."
+  },
+  {
+    "key": "e55e1b22",
+    "name": "bg_350b.rct",
+    "base_key": "a2fe61f2",
+    "kind": "derived_variant",
+    "blur_assessment": "큰 시트의 어두운 번짐은 그 뒤 구조물의 그림자·투과 표현이다. 선을 따지 않고 흐린 채로 둔다. 가까운 파이프·자재·보도만 정교하게 한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "d83e3292",
+    "name": "bg_350c.rct",
+    "base_key": "a2fe61f2",
+    "kind": "derived_variant",
+    "blur_assessment": "큰 시트의 어두운 번짐은 그 뒤 구조물의 그림자·투과 표현이다. 선을 따지 않고 흐린 채로 둔다. 가까운 파이프·자재·보도만 정교하게 한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "10debde2",
+    "name": "bg_350f.rct",
+    "base_key": "a2fe61f2",
+    "kind": "derived_variant",
+    "blur_assessment": "큰 시트의 어두운 번짐은 그 뒤 구조물의 그림자·투과 표현이다. 선을 따지 않고 흐린 채로 둔다. 가까운 파이프·자재·보도만 정교하게 한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "655e0b86",
+    "name": "bg_390a.rct",
+    "base_key": "655e0b86",
+    "kind": "generated_base",
+    "blur_assessment": "유리 반사·먼 건물 면과 수목은 대기·초점·회화적 표현으로 부드럽다. 가까운 건축 선·창 구획·화단 테두리만 정돈한다.",
+    "variant_lighting": "원본의 큰 색·빛·의도된 흐림을 기준으로 재합성."
+  },
+  {
+    "key": "22fe7156",
+    "name": "bg_390b.rct",
+    "base_key": "655e0b86",
+    "kind": "derived_variant",
+    "blur_assessment": "유리 반사·먼 건물 면과 수목은 대기·초점·회화적 표현으로 부드럽다. 가까운 건축 선·창 구획·화단 테두리만 정돈한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "1f9e58e6",
+    "name": "bg_390c.rct",
+    "base_key": "655e0b86",
+    "kind": "derived_variant",
+    "blur_assessment": "유리 반사·먼 건물 면과 수목은 대기·초점·회화적 표현으로 부드럽다. 가까운 건축 선·창 구획·화단 테두리만 정돈한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "cbeb5dd1",
+    "name": "bg_430a.rct",
+    "base_key": "cbeb5dd1",
+    "kind": "generated_base",
+    "blur_assessment": "가까운 철망에 초점이 있고 뒤의 풀밭·도로·건물은 초점 밖이다. 배경 세부를 만들지 않고 같은 흐림을 유지한다. 철망과 경고판만 정돈한다.",
+    "variant_lighting": "원본의 큰 색·빛·의도된 흐림을 기준으로 재합성."
+  },
+  {
+    "key": "8c4b2701",
+    "name": "bg_430b.rct",
+    "base_key": "cbeb5dd1",
+    "kind": "derived_variant",
+    "blur_assessment": "가까운 철망에 초점이 있고 뒤의 풀밭·도로·건물은 초점 밖이다. 배경 세부를 만들지 않고 같은 흐림을 유지한다. 철망과 경고판만 정돈한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  },
+  {
+    "key": "b12b0eb1",
+    "name": "bg_430c.rct",
+    "base_key": "cbeb5dd1",
+    "kind": "derived_variant",
+    "blur_assessment": "가까운 철망에 초점이 있고 뒤의 풀밭·도로·건물은 초점 밖이다. 배경 세부를 만들지 않고 같은 흐림을 유지한다. 철망과 경고판만 정돈한다.",
+    "variant_lighting": "기본판의 세부를 공유하고 원본 변형의 큰 색·빛·켜진 창·효과를 유지."
+  }
+]

@@ -1,0 +1,101 @@
+{
+ "run": "runtime-argon-qa-20261121",
+ "caps": [
+  "01-title.png",
+  "02-loadscreen.png",
+  "03-slot.png",
+  "04-loaded.png",
+  "05-read1.png",
+  "06-read2.png",
+  "07-read3.png",
+  "map-open.png",
+  "08-glyph-yun.png",
+  "09-glyph-saet.png",
+  "10-glyph-mu.png",
+  "11-glyph-kick.png",
+  "12-glyph-jamo.png",
+  "13-choice-intro2.png",
+  "14-choice-intro2-next1.png",
+  "15-ruby-maho19.png",
+  "16-ruby-maho16.png",
+  "17-ruby-kureha07.png",
+  "18-long-sina14.png"
+ ],
+ "jumps": [
+  {
+   "tag": "glyph-yun",
+   "phrase": "소설가로서의 재능 따윈",
+   "search": "scenes=1 hits=1 items=1 pid=33028 hwnd=00B300CA",
+   "item": "0 kind=0 order=556 pid=33028 hwnd=00B300CA",
+   "order": 556
+  },
+  {
+   "tag": "glyph-saet",
+   "phrase": "샛길 쪽을 쓱",
+   "search": "scenes=1 hits=1 items=1 pid=33028 hwnd=00B300CA",
+   "item": "0 kind=0 order=562 pid=33028 hwnd=00B300CA",
+   "order": 562
+  },
+  {
+   "tag": "glyph-mu",
+   "phrase": "커뮤니케이션을 할 생각은",
+   "search": "scenes=1 hits=1 items=1 pid=33028 hwnd=00B300CA",
+   "item": "0 kind=0 order=1161 pid=33028 hwnd=00B300CA",
+   "order": 1161
+  },
+  {
+   "tag": "glyph-kick",
+   "phrase": "방금 그 킥은",
+   "search": "scenes=1 hits=3 items=3 pid=33028 hwnd=00B300CA",
+   "item": "0 kind=0 order=1743 pid=33028 hwnd=00B300CA",
+   "order": 1743
+  },
+  {
+   "tag": "glyph-jamo",
+   "phrase": "낳긴 뭘 낳아",
+   "search": "scenes=1 hits=1 items=1 pid=33028 hwnd=00B300CA",
+   "item": "0 kind=0 order=5069 pid=33028 hwnd=00B300CA",
+   "order": 5069
+  },
+  {
+   "tag": "choice-intro2",
+   "phrase": "그녀의 모습을 찾아볼까",
+   "search": "scenes=1 hits=1 items=1 pid=33028 hwnd=00B300CA",
+   "item": "0 kind=0 order=2317 pid=33028 hwnd=00B300CA",
+   "order": 2317
+  },
+  {
+   "tag": "ruby-maho19",
+   "phrase": "달 없는 밤의",
+   "search": "scenes=7 hits=7 items=1 pid=33028 hwnd=00B300CA",
+   "item": "0 kind=0 order=43003 pid=33028 hwnd=00B300CA",
+   "order": 43003
+  },
+  {
+   "tag": "ruby-maho16",
+   "phrase": "그 결과 마지막 고삐가",
+   "search": "scenes=1 hits=1 items=1 pid=33028 hwnd=00B300CA",
+   "item": "0 kind=0 order=36970 pid=33028 hwnd=00B300CA",
+   "order": 36970
+  },
+  {
+   "tag": "ruby-kureha07",
+   "phrase": "그런데도 나는 고개를",
+   "search": "scenes=1 hits=1 items=1 pid=33028 hwnd=00B300CA",
+   "item": "0 kind=0 order=12088 pid=33028 hwnd=00B300CA",
+   "order": 12088
+  },
+  {
+   "tag": "long-sina14",
+   "phrase": "유에와 나 나와 유에 유에와",
+   "search": "scenes=1 hits=1 items=1 pid=33028 hwnd=00B300CA",
+   "item": "0 kind=0 order=32062 pid=33028 hwnd=00B300CA",
+   "order": 32062
+  }
+ ],
+ "after_load_alive": true,
+ "dialogs": [],
+ "alive": true,
+ "errors": [],
+ "normal_exit": true
+}

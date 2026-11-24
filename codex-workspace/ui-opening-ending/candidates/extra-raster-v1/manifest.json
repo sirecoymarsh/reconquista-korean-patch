@@ -1,0 +1,745 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "entries": [
+    {
+      "entry": "extra_off.rct",
+      "mask_entry": "extra_off_.rc8",
+      "source_hashes": {
+        "extra_off.rct": "0b26296f753f77e6d0750f6c464e3f902b92dc65566df22b7e741ee3a2cb8744",
+        "extra_off_.rc8": "823da01e87af03f68a20e44b1753c43b3cfea2678f16899e5a88d378d9bfd2a4"
+      },
+      "output_hashes": {
+        "extra_off.rct": "77475f339a9543266e282e7c1477b2911e36dfb5d4dbf3b27c59e8f89ce934aa",
+        "extra_off_.rc8": "9314a71f9bece045ba455ea2b6689aa37a6208bd4e462e2e6baf10bbeed2d5af"
+      },
+      "strings": [
+        {
+          "id": "fastdata.arc::extra_off.rct::年表",
+          "source": "年表",
+          "target": "연표",
+          "consumer_crop": [
+            547,
+            328,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            596,
+            335,
+            640,
+            360
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra_off.rct::サウンドモード",
+          "source": "サウンドモード",
+          "target": "음악 감상",
+          "consumer_crop": [
+            547,
+            369,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            375,
+            689,
+            402
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra_off.rct::CGモード",
+          "source": "CGモード",
+          "target": "CG 감상",
+          "consumer_crop": [
+            547,
+            410,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            595,
+            417,
+            678,
+            444
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra_off.rct::回想モード",
+          "source": "回想モード",
+          "target": "장면 회상",
+          "consumer_crop": [
+            547,
+            450,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            457,
+            689,
+            484
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra_off.rct::前の画面に戻る",
+          "source": "前の画面に戻る",
+          "target": "뒤로",
+          "consumer_crop": [
+            547,
+            494,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            499,
+            640,
+            526
+          ]
+        }
+      ],
+      "state": "off",
+      "outline_color_from_source_median": [
+        111,
+        160,
+        202
+      ],
+      "outline_alpha_from_source_90th_percentile": 127,
+      "clean_plate": "transparent original menu text layer; existing copyright/footer alpha retained exactly",
+      "protected_pixel_diff_count": 0,
+      "persisted_decode_pass": true,
+      "palette_preserved": true,
+      "header_metadata_preserved": true
+    },
+    {
+      "entry": "extra_on.rct",
+      "mask_entry": "extra_on_.rc8",
+      "source_hashes": {
+        "extra_on.rct": "78a0b97dd95523d28cce4a887805266dfb23b5d0395090f550ee0664ac04a7f1",
+        "extra_on_.rc8": "699cac48f416db55b81655178bf0e96edfa20936ba2237280ae007729050c931"
+      },
+      "output_hashes": {
+        "extra_on.rct": "b1e2948f6a0f7aa427f429be58e961854b9bca495ec4797b8771a9959a5f0be0",
+        "extra_on_.rc8": "0b3d2b582a689ab872ad82010b1e7fb6f02fa80a1bc8548ce79d39044ba3a3a4"
+      },
+      "strings": [
+        {
+          "id": "fastdata.arc::extra_on.rct::年表",
+          "source": "年表",
+          "target": "연표",
+          "consumer_crop": [
+            547,
+            328,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            596,
+            335,
+            640,
+            360
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra_on.rct::サウンドモード",
+          "source": "サウンドモード",
+          "target": "음악 감상",
+          "consumer_crop": [
+            547,
+            369,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            375,
+            689,
+            402
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra_on.rct::CGモード",
+          "source": "CGモード",
+          "target": "CG 감상",
+          "consumer_crop": [
+            547,
+            410,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            595,
+            417,
+            678,
+            444
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra_on.rct::回想モード",
+          "source": "回想モード",
+          "target": "장면 회상",
+          "consumer_crop": [
+            547,
+            450,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            457,
+            689,
+            484
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra_on.rct::前の画面に戻る",
+          "source": "前の画面に戻る",
+          "target": "뒤로",
+          "consumer_crop": [
+            547,
+            494,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            499,
+            640,
+            526
+          ]
+        }
+      ],
+      "state": "on",
+      "outline_color_from_source_median": [
+        174,
+        96,
+        129
+      ],
+      "outline_alpha_from_source_90th_percentile": 172,
+      "clean_plate": "transparent original menu text layer; existing copyright/footer alpha retained exactly",
+      "protected_pixel_diff_count": 0,
+      "persisted_decode_pass": true,
+      "palette_preserved": true,
+      "header_metadata_preserved": true
+    },
+    {
+      "entry": "extra_push.rct",
+      "mask_entry": "extra_push_.rc8",
+      "source_hashes": {
+        "extra_push.rct": "1be8c09afcefd55a8b711dd6fca844ebf2a90089d617f81bc8a410ff9bf53328",
+        "extra_push_.rc8": "699cac48f416db55b81655178bf0e96edfa20936ba2237280ae007729050c931"
+      },
+      "output_hashes": {
+        "extra_push.rct": "2e8fa7afc14efebe29d3b52b13f0937b7b38d9c224bf978abe8ae4a725c6b6d1",
+        "extra_push_.rc8": "a03c5852098a098bb008b31b8a4934e79f9df3b06d481c24bc3ab7f0231e8df3"
+      },
+      "strings": [
+        {
+          "id": "fastdata.arc::extra_push.rct::年表",
+          "source": "年表",
+          "target": "연표",
+          "consumer_crop": [
+            547,
+            328,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            596,
+            335,
+            640,
+            360
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra_push.rct::サウンドモード",
+          "source": "サウンドモード",
+          "target": "음악 감상",
+          "consumer_crop": [
+            547,
+            369,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            375,
+            689,
+            402
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra_push.rct::CGモード",
+          "source": "CGモード",
+          "target": "CG 감상",
+          "consumer_crop": [
+            547,
+            410,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            595,
+            417,
+            678,
+            444
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra_push.rct::回想モード",
+          "source": "回想モード",
+          "target": "장면 회상",
+          "consumer_crop": [
+            547,
+            450,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            457,
+            689,
+            484
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra_push.rct::前の画面に戻る",
+          "source": "前の画面に戻る",
+          "target": "뒤로",
+          "consumer_crop": [
+            547,
+            494,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            499,
+            640,
+            526
+          ]
+        }
+      ],
+      "state": "push",
+      "outline_color_from_source_median": [
+        164,
+        139,
+        122
+      ],
+      "outline_alpha_from_source_90th_percentile": 170,
+      "clean_plate": "transparent original menu text layer; existing copyright/footer alpha retained exactly",
+      "protected_pixel_diff_count": 0,
+      "persisted_decode_pass": true,
+      "palette_preserved": true,
+      "header_metadata_preserved": true
+    },
+    {
+      "entry": "extra2_off.rct",
+      "mask_entry": "extra2_off_.rc8",
+      "source_hashes": {
+        "extra2_off.rct": "1b6ed336ab65532b9210a271f3eaedd05dbcb9438b1f3b5641fe1fb7b85e2ba9",
+        "extra2_off_.rc8": "dd4d4384afe96ef1d5544c2a00f02d043a46fe5110fbd66d81014f43b711f7f4"
+      },
+      "output_hashes": {
+        "extra2_off.rct": "9ef6937ce01dcd1fa9c351ae81cdbde045177272c44d1b9d9e94bf9e66186470",
+        "extra2_off_.rc8": "1f5582d3048c3d52f058cbf4bc501dd11d0d2e5b7f6e9190f0c771e284fa7f49"
+      },
+      "strings": [
+        {
+          "id": "fastdata.arc::extra2_off.rct::年表",
+          "source": "年表",
+          "target": "연표",
+          "consumer_crop": [
+            547,
+            308,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            596,
+            314,
+            640,
+            339
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra2_off.rct::サウンドモード",
+          "source": "サウンドモード",
+          "target": "음악 감상",
+          "consumer_crop": [
+            547,
+            349,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            353,
+            689,
+            380
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra2_off.rct::CGモード",
+          "source": "CGモード",
+          "target": "CG 감상",
+          "consumer_crop": [
+            547,
+            390,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            595,
+            395,
+            678,
+            422
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra2_off.rct::回想モード",
+          "source": "回想モード",
+          "target": "장면 회상",
+          "consumer_crop": [
+            547,
+            430,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            437,
+            689,
+            464
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra2_off.rct::スタッフルーム",
+          "source": "スタッフルーム",
+          "target": "스태프룸",
+          "consumer_crop": [
+            547,
+            474,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            478,
+            682,
+            505
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra2_off.rct::前の画面に戻る",
+          "source": "前の画面に戻る",
+          "target": "뒤로",
+          "consumer_crop": [
+            547,
+            512,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            521,
+            640,
+            548
+          ]
+        }
+      ],
+      "state": "off",
+      "outline_color_from_source_median": [
+        111,
+        160,
+        202
+      ],
+      "outline_alpha_from_source_90th_percentile": 120,
+      "clean_plate": "transparent original menu text layer; existing copyright/footer alpha retained exactly",
+      "protected_pixel_diff_count": 0,
+      "persisted_decode_pass": true,
+      "palette_preserved": true,
+      "header_metadata_preserved": true
+    },
+    {
+      "entry": "extra2_on.rct",
+      "mask_entry": "extra2_on_.rc8",
+      "source_hashes": {
+        "extra2_on.rct": "c5b340bc03151360887b9828988d86269a6745fa47981abe3fda9828bd9ce13a",
+        "extra2_on_.rc8": "3c5f7551c6981cf683e705ee3ea06b4053642714d66dc7fcac56a7fdcdbc3c44"
+      },
+      "output_hashes": {
+        "extra2_on.rct": "0e06d67ba90279ddc02a7f597914ff6b1bbb356f1c44948a5e4ef073632f8260",
+        "extra2_on_.rc8": "2da943070c13be40c16e9b1651213f3fbfa989dd58d32159495495c3148b097e"
+      },
+      "strings": [
+        {
+          "id": "fastdata.arc::extra2_on.rct::年表",
+          "source": "年表",
+          "target": "연표",
+          "consumer_crop": [
+            547,
+            308,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            596,
+            313,
+            640,
+            338
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra2_on.rct::サウンドモード",
+          "source": "サウンドモード",
+          "target": "음악 감상",
+          "consumer_crop": [
+            547,
+            349,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            353,
+            689,
+            380
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra2_on.rct::CGモード",
+          "source": "CGモード",
+          "target": "CG 감상",
+          "consumer_crop": [
+            547,
+            390,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            595,
+            395,
+            678,
+            422
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra2_on.rct::回想モード",
+          "source": "回想モード",
+          "target": "장면 회상",
+          "consumer_crop": [
+            547,
+            430,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            437,
+            689,
+            464
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra2_on.rct::スタッフルーム",
+          "source": "スタッフルーム",
+          "target": "스태프룸",
+          "consumer_crop": [
+            547,
+            474,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            478,
+            682,
+            505
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra2_on.rct::前の画面に戻る",
+          "source": "前の画面に戻る",
+          "target": "뒤로",
+          "consumer_crop": [
+            547,
+            512,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            521,
+            640,
+            548
+          ]
+        }
+      ],
+      "state": "on",
+      "outline_color_from_source_median": [
+        176,
+        98,
+        132
+      ],
+      "outline_alpha_from_source_90th_percentile": 171,
+      "clean_plate": "transparent original menu text layer; existing copyright/footer alpha retained exactly",
+      "protected_pixel_diff_count": 0,
+      "persisted_decode_pass": true,
+      "palette_preserved": true,
+      "header_metadata_preserved": true
+    },
+    {
+      "entry": "extra2_push.rct",
+      "mask_entry": "extra2_push_.rc8",
+      "source_hashes": {
+        "extra2_push.rct": "57a53949a78217416150a029fa4e7c1b592803fa371dbb8520427012d7b8cce2",
+        "extra2_push_.rc8": "3c5f7551c6981cf683e705ee3ea06b4053642714d66dc7fcac56a7fdcdbc3c44"
+      },
+      "output_hashes": {
+        "extra2_push.rct": "e1db85594999e7f06eae8c93c5f1d44911725770f51f8605f0188a9287233794",
+        "extra2_push_.rc8": "c29847e3115bc19cba400fad13949c9ac5fd37dfe39d51313ab1c206691792d1"
+      },
+      "strings": [
+        {
+          "id": "fastdata.arc::extra2_push.rct::年表",
+          "source": "年表",
+          "target": "연표",
+          "consumer_crop": [
+            547,
+            308,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            596,
+            313,
+            640,
+            338
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra2_push.rct::サウンドモード",
+          "source": "サウンドモード",
+          "target": "음악 감상",
+          "consumer_crop": [
+            547,
+            349,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            353,
+            689,
+            380
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra2_push.rct::CGモード",
+          "source": "CGモード",
+          "target": "CG 감상",
+          "consumer_crop": [
+            547,
+            390,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            595,
+            395,
+            678,
+            422
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra2_push.rct::回想モード",
+          "source": "回想モード",
+          "target": "장면 회상",
+          "consumer_crop": [
+            547,
+            430,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            437,
+            689,
+            464
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra2_push.rct::スタッフルーム",
+          "source": "スタッフルーム",
+          "target": "스태프룸",
+          "consumer_crop": [
+            547,
+            474,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            478,
+            682,
+            505
+          ]
+        },
+        {
+          "id": "fastdata.arc::extra2_push.rct::前の画面に戻る",
+          "source": "前の画面に戻る",
+          "target": "뒤로",
+          "consumer_crop": [
+            547,
+            512,
+            233,
+            40
+          ],
+          "ink_bounds": [
+            594,
+            521,
+            640,
+            548
+          ]
+        }
+      ],
+      "state": "push",
+      "outline_color_from_source_median": [
+        168,
+        144,
+        118
+      ],
+      "outline_alpha_from_source_90th_percentile": 169,
+      "clean_plate": "transparent original menu text layer; existing copyright/footer alpha retained exactly",
+      "protected_pixel_diff_count": 0,
+      "persisted_decode_pass": true,
+      "palette_preserved": true,
+      "header_metadata_preserved": true
+    }
+  ],
+  "output_hashes": {
+    "extra_off.rct": "77475f339a9543266e282e7c1477b2911e36dfb5d4dbf3b27c59e8f89ce934aa",
+    "extra_off_.rc8": "9314a71f9bece045ba455ea2b6689aa37a6208bd4e462e2e6baf10bbeed2d5af",
+    "extra_on.rct": "b1e2948f6a0f7aa427f429be58e961854b9bca495ec4797b8771a9959a5f0be0",
+    "extra_on_.rc8": "0b3d2b582a689ab872ad82010b1e7fb6f02fa80a1bc8548ce79d39044ba3a3a4",
+    "extra_push.rct": "2e8fa7afc14efebe29d3b52b13f0937b7b38d9c224bf978abe8ae4a725c6b6d1",
+    "extra_push_.rc8": "a03c5852098a098bb008b31b8a4934e79f9df3b06d481c24bc3ab7f0231e8df3",
+    "extra2_off.rct": "9ef6937ce01dcd1fa9c351ae81cdbde045177272c44d1b9d9e94bf9e66186470",
+    "extra2_off_.rc8": "1f5582d3048c3d52f058cbf4bc501dd11d0d2e5b7f6e9190f0c771e284fa7f49",
+    "extra2_on.rct": "0e06d67ba90279ddc02a7f597914ff6b1bbb356f1c44948a5e4ef073632f8260",
+    "extra2_on_.rc8": "2da943070c13be40c16e9b1651213f3fbfa989dd58d32159495495c3148b097e",
+    "extra2_push.rct": "e1db85594999e7f06eae8c93c5f1d44911725770f51f8605f0188a9287233794",
+    "extra2_push_.rc8": "c29847e3115bc19cba400fad13949c9ac5fd37dfe39d51313ab1c206691792d1"
+  },
+  "semantic_labels": 33,
+  "source_consumer": "start.mjo, $buttonmenu_set@BUTONMENU, 0x1ddf..0x1eaf and 0x2477..0x2575",
+  "font_glyph_coverage_pass": true,
+  "font_sha256": "77b4b741f864d27f15e90f275b17106dde90b2ad28f82bab72dc95805db5fb42",
+  "structural_pass": true,
+  "visual_pass": true,
+  "runtime_review": "pending",
+  "visual_proof": "../../evidence/contact-sheets/extra-source-final-alpha.png"
+}

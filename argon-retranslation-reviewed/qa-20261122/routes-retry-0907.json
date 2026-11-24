@@ -1,0 +1,242 @@
+{
+ "mode": "routes",
+ "started": "2026-11-22 09:03:53",
+ "nv_before": 1133,
+ "runs": [
+  {
+   "label": "routes-38758-re",
+   "pid": 75144,
+   "steps": [
+    {
+     "step": "route 38758",
+     "t": 210.7,
+     "order": 37758,
+     "chapter": "?",
+     "ending": true,
+     "arrive_s": 75.3,
+     "items": 1,
+     "timeline": [
+      [
+       30,
+       19,
+       112,
+       "ev509.rct",
+       null
+      ],
+      [
+       61,
+       38,
+       0,
+       "ev509.rct",
+       null
+      ],
+      [
+       91,
+       57,
+       0,
+       "ev509.rct",
+       null
+      ]
+     ],
+     "hang": {
+      "cpu_total": 1.0,
+      "hung_window": false,
+      "threads": [
+       {
+        "tid": 60272,
+        "cpu": 1.0,
+        "eip": [
+         "ntdll.dll+0x40804",
+         "ntdll.dll+0x40da0",
+         "ntdll.dll+0x40fc2",
+         "ntdll.dll+0x7869c"
+        ]
+       },
+       {
+        "tid": 71400,
+        "cpu": 0.0,
+        "eip": [
+         "ntdll.dll+0x7890c"
+        ]
+       },
+       {
+        "tid": 72140,
+        "cpu": 0.0,
+        "eip": [
+         "ntdll.dll+0x7a1cc"
+        ]
+       },
+       {
+        "tid": 72672,
+        "cpu": 0.0,
+        "eip": [
+         "ntdll.dll+0x7890c"
+        ]
+       },
+       {
+        "tid": 69132,
+        "cpu": 0.0,
+        "eip": [
+         "ntdll.dll+0x7a1cc"
+        ]
+       },
+       {
+        "tid": 75024,
+        "cpu": 0.0,
+        "eip": [
+         "ntdll.dll+0x7890c"
+        ]
+       },
+       {
+        "tid": 72992,
+        "cpu": 0.0,
+        "eip": [
+         "win32u.dll+0x5fdc"
+        ]
+       },
+       {
+        "tid": 70784,
+        "cpu": 0.0,
+        "eip": [
+         "ntdll.dll+0x78c3c"
+        ]
+       }
+      ],
+      "enter_presents": 0,
+      "rclick_presents": 0,
+      "at_s": 110
+     },
+     "title_timeout": true,
+     "presents_after_arrival": 112,
+     "clicks": 57,
+     "ok": true,
+     "mem_mb": 1163
+    }
+   ],
+   "dialogs": [],
+   "mem_mb_start": 960,
+   "routes": [
+    {
+     "i": 38758,
+     "order": 37758,
+     "chapter": "?",
+     "ending": true,
+     "arrive_s": 75.3,
+     "items": 1,
+     "timeline": [
+      [
+       30,
+       19,
+       112,
+       "ev509.rct",
+       null
+      ],
+      [
+       61,
+       38,
+       0,
+       "ev509.rct",
+       null
+      ],
+      [
+       91,
+       57,
+       0,
+       "ev509.rct",
+       null
+      ]
+     ],
+     "hang": {
+      "cpu_total": 1.0,
+      "hung_window": false,
+      "threads": [
+       {
+        "tid": 60272,
+        "cpu": 1.0,
+        "eip": [
+         "ntdll.dll+0x40804",
+         "ntdll.dll+0x40da0",
+         "ntdll.dll+0x40fc2",
+         "ntdll.dll+0x7869c"
+        ]
+       },
+       {
+        "tid": 71400,
+        "cpu": 0.0,
+        "eip": [
+         "ntdll.dll+0x7890c"
+        ]
+       },
+       {
+        "tid": 72140,
+        "cpu": 0.0,
+        "eip": [
+         "ntdll.dll+0x7a1cc"
+        ]
+       },
+       {
+        "tid": 72672,
+        "cpu": 0.0,
+        "eip": [
+         "ntdll.dll+0x7890c"
+        ]
+       },
+       {
+        "tid": 69132,
+        "cpu": 0.0,
+        "eip": [
+         "ntdll.dll+0x7a1cc"
+        ]
+       },
+       {
+        "tid": 75024,
+        "cpu": 0.0,
+        "eip": [
+         "ntdll.dll+0x7890c"
+        ]
+       },
+       {
+        "tid": 72992,
+        "cpu": 0.0,
+        "eip": [
+         "win32u.dll+0x5fdc"
+        ]
+       },
+       {
+        "tid": 70784,
+        "cpu": 0.0,
+        "eip": [
+         "ntdll.dll+0x78c3c"
+        ]
+       }
+      ],
+      "enter_presents": 0,
+      "rclick_presents": 0,
+      "at_s": 110
+     },
+     "title_timeout": true,
+     "presents_after_arrival": 112,
+     "clicks": 57,
+     "ok": true,
+     "mem_mb": 1163
+    }
+   ],
+   "new_review_folders": [
+    "savedata-review-75144-263134687"
+   ],
+   "mem_mb_end": 1163,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.0,
+    "loud_spans": [],
+    "errors": []
+   },
+   "log_mb": 1.8,
+   "log_errors": []
+  }
+ ],
+ "nv_after": 1133,
+ "ended": "2026-11-22 09:07:27"
+}

@@ -1,0 +1,56 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "records": [
+    {
+      "id": "readme::thanks",
+      "source": "この度は『レコンキスタ』をご購入いただき、誠にありがとうございます。",
+      "target": "『레콘퀴스타』를 구입해 주셔서 진심으로 감사합니다."
+    },
+    {
+      "id": "readme::before-play",
+      "source": "プレイされる前に、こちらのテキストをよくご覧頂きますよう、\r\n何卒、宜しくお願いいたします。",
+      "target": "게임을 시작하기 전에 이 안내문을 꼭 읽어 주시기 바랍니다."
+    },
+    {
+      "id": "readme::install-title",
+      "source": "・インストール方法",
+      "target": "· 설치 방법"
+    },
+    {
+      "id": "readme::install-step",
+      "source": "　起動画面より、「インストール」を選択してくださいませ。",
+      "target": "　실행 화면에서 「설치」를 선택해 주세요."
+    },
+    {
+      "id": "readme::supported-os",
+      "source": "・対応：Win98/Me/2000/XP/Vista",
+      "target": "· 지원 운영체제: Win98/Me/2000/XP/Vista"
+    },
+    {
+      "id": "readme::site-info",
+      "source": "コットンソフトでは、随時ホームページにて\r\n最新情報をお届けしております。",
+      "target": "코튼소프트는 홈페이지에서 최신 소식을 전하고 있습니다."
+    },
+    {
+      "id": "readme::site-invitation",
+      "source": "ゲーム情報から開発室のアホな日記まで、\r\n色々なネタを盛りだくさんでお待ちしておりますので、\r\nぜひぜひ、お越しくださいませ。",
+      "target": "게임 정보부터 개발진의 엉뚱한 일기까지 다양한 이야기를\r\n가득 준비해 두었으니 꼭 한번 들러 주세요."
+    },
+    {
+      "id": "readme::brand",
+      "source": "コットンソフト",
+      "target": "코튼소프트"
+    },
+    {
+      "id": "readme::copyright",
+      "source": "このゲームはコットンソフトの著作物であり、\r\n無断複製・掲載等は固くお断りいたします。",
+      "target": "이 게임은 코튼소프트의 저작물이며,\r\n무단 복제 및 게재 등을 엄격히 금지합니다."
+    },
+    {
+      "id": "readme::component-intro",
+      "source": "このタイトルには以下のコンポーネントを使用しております。\r\nどうもありがとうございます。",
+      "target": "이 게임에는 아래 구성 요소를 사용했습니다.\r\n제작자 여러분께 감사드립니다."
+    }
+  ]
+}

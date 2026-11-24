@@ -1,0 +1,137 @@
+{
+ "mode": "save",
+ "started": "2026-11-22 01:25:49",
+ "nv_before": 1143,
+ "runs": [
+  {
+   "label": "save",
+   "pid": 9436,
+   "steps": [
+    {
+     "step": "save slot2",
+     "t": 47.0,
+     "dialogs": []
+    },
+    {
+     "step": "main savedata after save",
+     "t": 47.0,
+     "changed": [
+      "majiro_0102.sav"
+     ]
+    },
+    {
+     "step": "back after save",
+     "t": 57.3,
+     "same_as_A": 0,
+     "tries": 2
+    },
+    {
+     "step": "read on",
+     "t": 67.5,
+     "diff_from_A": 20596
+    },
+    {
+     "step": "after load slot2",
+     "t": 85.6,
+     "diff_from_A": 0,
+     "diff_from_B": 20596
+    },
+    {
+     "step": "quick save",
+     "t": 91.3,
+     "dialogs": []
+    },
+    {
+     "step": "after quick load",
+     "t": 105.0,
+     "diff_from_saved": 22214,
+     "diff_from_Q1": 12615
+    }
+   ],
+   "dialogs": [],
+   "redirected_writes": 0,
+   "new_review_folders": [],
+   "mem_mb_end": 1447,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.8558,
+    "loud_spans": [
+     [
+      16.28,
+      16.92
+     ],
+     [
+      20.08,
+      20.78
+     ],
+     [
+      22.28,
+      23.0
+     ],
+     [
+      33.43,
+      33.64
+     ],
+     [
+      36.93,
+      38.14
+     ],
+     [
+      40.25,
+      42.73
+     ],
+     [
+      47.5,
+      47.65
+     ],
+     [
+      52.65,
+      52.83
+     ],
+     [
+      61.16,
+      63.98
+     ],
+     [
+      67.56,
+      67.75
+     ],
+     [
+      71.09,
+      71.74
+     ],
+     [
+      74.39,
+      75.06
+     ],
+     [
+      80.71,
+      81.51
+     ],
+     [
+      88.26,
+      88.43
+     ],
+     [
+      91.87,
+      93.43
+     ],
+     [
+      97.44,
+      100.88
+     ]
+    ],
+    "errors": []
+   },
+   "log_mb": 1.6,
+   "log_errors": [],
+   "main_savedata_changed": [
+    "majiro_0102.sav"
+   ]
+  }
+ ],
+ "nv_after": 1143,
+ "ended": "2026-11-22 01:27:37"
+}

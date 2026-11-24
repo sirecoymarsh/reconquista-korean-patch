@@ -1,0 +1,20 @@
+{
+  "scan_path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\scan\\native-ui-v2",
+  "scan_started": "2026-10-22T19:15:35.6058407+09:00",
+  "scan_ended": "2026-10-22T19:15:36.1698929+09:00",
+  "status": {
+    "AMServiceEnabled": true,
+    "AntivirusEnabled": true,
+    "RealTimeProtectionEnabled": true,
+    "AMEngineVersion": "1.1.26090.9",
+    "AMProductVersion": "4.18.26090.9",
+    "AntivirusSignatureVersion": "1.461.145.0",
+    "AntivirusSignatureLastUpdated": "2026-10-22T08:33:44+09:00"
+  },
+  "sha256": "DBF8F588A4BE752CE47B2A54D806970F21BF36B0FC29FFD351A6D025FF0CFC2C",
+  "before_count": 20,
+  "after_count": 20,
+  "new_or_changed_detections": [],
+  "target_detections": [],
+  "result": "pass_no_new_or_target_detections"
+}

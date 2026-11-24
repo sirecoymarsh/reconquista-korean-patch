@@ -1,0 +1,573 @@
+{
+  "analysis_date": "2026-10-25",
+  "translator_model": "Codex internal",
+  "provenance": "Only analysis, judgments and suggested meanings are authored by Codex internal. Downloaded Korean translation remains third-party work. No external translation model used.",
+  "third_party_authors": {
+    "translation": "초록빗물",
+    "patch": "라파에",
+    "2021_revision": "TDN99"
+  },
+  "source_version": "1.01",
+  "findings": [
+    {
+      "finding_id": "F01",
+      "unit": "00_レコンキスタ_start.mjo::u0036",
+      "source_fragment": "なんせ",
+      "patch_fragment": "어차피",
+      "intended_meaning_ko": "아이가 그곳을 기억하지 못하는 이유를 덧붙이는 말이다.",
+      "analysis_ko": "원문은 기억하지 못하는 것이 당연하다는 인과 설명이다. 번역은 불가피함이나 선택과 무관한 결과를 전제하는 표현으로 논리를 바꾼다.",
+      "category": "causal_nuance",
+      "confidence": "high",
+      "patch_rows": [
+        "쿠레하 END.txt::54",
+        "쿠레하 END.txt::55"
+      ],
+      "source_version": "1.01",
+      "reviewer_model": "Codex internal",
+      "external_references": []
+    },
+    {
+      "finding_id": "F02",
+      "unit": "00_レコンキスタ_start.mjo::u0209",
+      "source_fragment": "なんせ",
+      "patch_fragment": "어차피",
+      "intended_meaning_ko": "주민이 적으니 낯선 사람을 금방 알아본다는 이유 설명이다.",
+      "analysis_ko": "첫 만남의 밝은 설명에 체념하거나 어차피 그렇다는 뉘앙스를 넣는다. F01과 같은 어휘 오해가 다른 장면에서도 반복된다.",
+      "category": "causal_nuance",
+      "confidence": "high",
+      "patch_rows": [
+        "쿠레하 END.txt::395",
+        "쿠레하 END.txt::396"
+      ],
+      "source_version": "1.01",
+      "reviewer_model": "Codex internal",
+      "external_references": []
+    },
+    {
+      "finding_id": "F03",
+      "unit": "00_レコンキスタ_start.mjo::u0436",
+      "source_fragment": "ご無沙汰しています",
+      "patch_fragment": "당치 않습니다",
+      "intended_meaning_ko": "오랜만에 뵙는다는 인사다.",
+      "analysis_ko": "상대의 말을 부인하거나 겸양하는 표현으로 바뀌어, 사위와 장인의 재회 인사가 달라진다. 인라인 호칭 조합의 실행 문제와 별개의 의미 오류다.",
+      "category": "meaning",
+      "confidence": "high",
+      "patch_rows": [
+        "쿠레하 END.txt::858",
+        "쿠레하 END.txt::859",
+        "쿠레하 END.txt::860"
+      ],
+      "source_version": "1.01",
+      "reviewer_model": "Codex internal",
+      "external_references": []
+    },
+    {
+      "finding_id": "F04",
+      "unit": "00_レコンキスタ_start.mjo::u0438",
+      "source_fragment": "顎ヒゲ",
+      "patch_fragment": "구레나룻",
+      "intended_meaning_ko": "턱수염을 가리킨다.",
+      "analysis_ko": "수염이 난 신체 부위가 달라져 장인의 외양 묘사가 바뀐다.",
+      "category": "lexical",
+      "confidence": "high",
+      "patch_rows": [
+        "쿠레하 END.txt::863"
+      ],
+      "source_version": "1.01",
+      "reviewer_model": "Codex internal",
+      "external_references": []
+    },
+    {
+      "finding_id": "F05",
+      "unit": "00_レコンキスタ_start_2.mjo::u0309",
+      "source_fragment": "さりげなく",
+      "patch_fragment": "몰래",
+      "intended_meaning_ko": "아무렇지 않은 듯 슬쩍 자신의 바람을 말했다는 뜻이다.",
+      "analysis_ko": "상대 앞에서 대놓고 한 말이라는 다음 반박과 연결되는 능청스러움이, 은밀히 말했다는 뜻으로 바뀐다.",
+      "category": "meaning",
+      "confidence": "high",
+      "patch_rows": [
+        "쿠레하 END.txt::1833",
+        "쿠레하 END.txt::1834"
+      ],
+      "source_version": "1.01",
+      "reviewer_model": "Codex internal",
+      "external_references": []
+    },
+    {
+      "finding_id": "F06",
+      "unit": "00_レコンキスタ_start_2.mjo::u0310",
+      "source_fragment": "さりげなく",
+      "patch_fragment": "몰래",
+      "intended_meaning_ko": "전혀 슬쩍 말한 게 아니라 대놓고 말했다고 받아치는 대사다.",
+      "analysis_ko": "직전 대사의 같은 어휘를 잘못 받아 농담의 대비가 달라진다. F05와 같은 원인이지만 별도 문장 묶음이다.",
+      "category": "meaning",
+      "confidence": "high",
+      "patch_rows": [
+        "쿠레하 END.txt::1836",
+        "쿠레하 END.txt::1837",
+        "쿠레하 END.txt::1838"
+      ],
+      "source_version": "1.01",
+      "reviewer_model": "Codex internal",
+      "external_references": []
+    },
+    {
+      "finding_id": "F07",
+      "unit": "kureha_05.mjo::u0005",
+      "source_fragment": "支障をきたしかねない",
+      "patch_fragment": "지장이 올 수밖에 없다",
+      "intended_meaning_ko": "계속 이러면 일상에도 지장이 생길 수 있다는 우려다.",
+      "analysis_ko": "가능성·위험을 피할 수 없는 결과로 강화한다.",
+      "category": "modality",
+      "confidence": "high",
+      "patch_rows": [
+        "쿠레하 END.txt::8913"
+      ],
+      "source_version": "1.01",
+      "reviewer_model": "Codex internal",
+      "external_references": []
+    },
+    {
+      "finding_id": "F08",
+      "unit": "kureha_05.mjo::u0007",
+      "source_fragment": "性格がよく出てる",
+      "patch_fragment": "성격 참 좋다고",
+      "intended_meaning_ko": "포기 못 하는 자기 성격이 잘 드러난다고 자조한다.",
+      "analysis_ko": "성격이 잘 드러난다는 말이 성격이 좋다는 평가로 변한다. 다음 문장의 끈질김과 전후 자조가 훼손된다.",
+      "category": "meaning",
+      "confidence": "high",
+      "patch_rows": [
+        "쿠레하 END.txt::8916",
+        "쿠레하 END.txt::8917"
+      ],
+      "source_version": "1.01",
+      "reviewer_model": "Codex internal",
+      "external_references": []
+    },
+    {
+      "finding_id": "F09",
+      "unit": "kureha_05.mjo::u0018",
+      "source_fragment": "何者か",
+      "patch_fragment": "몇 명인지",
+      "intended_meaning_ko": "다가오는 이들의 정체를 모른다는 뜻이다.",
+      "analysis_ko": "정체의 불확실성을 인원수의 불확실성으로 바꾼다. 숨는 이유와 장면의 긴장이 달라진다.",
+      "category": "meaning",
+      "confidence": "high",
+      "patch_rows": [
+        "쿠레하 END.txt::8935",
+        "쿠레하 END.txt::8936"
+      ],
+      "source_version": "1.01",
+      "reviewer_model": "Codex internal",
+      "external_references": []
+    },
+    {
+      "finding_id": "F10",
+      "unit": "last_kako01.mjo::u0019",
+      "source_fragment": "放心状態",
+      "patch_fragment": "실신 상태",
+      "intended_meaning_ko": "충격에 멍해져 넋이 나간 상태다.",
+      "analysis_ko": "의식을 잃는 신체 상태로 옮겨, 울고 난 뒤 손수 행동을 계속하는 장면의 상태 묘사가 달라진다.",
+      "category": "lexical",
+      "confidence": "high",
+      "patch_rows": [
+        "2장. 찾으라, 그러면 찾을 것이요.txt::57",
+        "2장. 찾으라, 그러면 찾을 것이요.txt::58",
+        "2장. 찾으라, 그러면 찾을 것이요.txt::59",
+        "2장. 찾으라, 그러면 찾을 것이요.txt::60"
+      ],
+      "source_version": "1.01",
+      "reviewer_model": "Codex internal",
+      "external_references": []
+    },
+    {
+      "finding_id": "F11",
+      "unit": "kureha_ep.mjo::u0015",
+      "source_fragment": "湿気",
+      "patch_fragment": "온기",
+      "intended_meaning_ko": "습기·눅눅함을 뜻한다.",
+      "analysis_ko": "습도에 대한 묘사를 따뜻한 기운으로 바꾼다. 한 문장 안의 두 출현 모두 같은 식으로 바뀐다.",
+      "category": "lexical",
+      "confidence": "high",
+      "patch_rows": [
+        "쿠레하 END.txt::20262",
+        "쿠레하 END.txt::20263"
+      ],
+      "source_version": "1.01",
+      "reviewer_model": "Codex internal",
+      "external_references": []
+    },
+    {
+      "finding_id": "F12",
+      "unit": "masa_ep.mjo::u0019",
+      "source_fragment": "影響を受けている",
+      "patch_fragment": "영향을 주고 있다",
+      "intended_meaning_ko": "모미지가 요시모리에게 영향을 받는다.",
+      "analysis_ko": "영향을 받는 쪽과 주는 쪽이 뒤집혀, 결말에서 두 인물이 닮아 가는 관계의 방향이 반대로 읽힌다.",
+      "category": "agent_patient_reversal",
+      "confidence": "high",
+      "patch_rows": [
+        "마사키 END.txt::13324",
+        "마사키 END.txt::13325"
+      ],
+      "source_version": "1.01",
+      "reviewer_model": "Codex internal",
+      "external_references": []
+    },
+    {
+      "finding_id": "F13",
+      "unit": "kureha_ep.mjo::u0010",
+      "source_fragment": "ドクダミ茶",
+      "patch_fragment": "삼백초 차",
+      "intended_meaning_ko": "어성초(약모밀) 차를 가리킨다.",
+      "analysis_ko": "원어 식물은 Houttuynia cordata이고 삼백초는 별종이다. 일본 대학 식물 자료와 국내 공공 식물 자료를 대조했다.",
+      "category": "terminology",
+      "confidence": "high",
+      "patch_rows": [
+        "쿠레하 END.txt::20253"
+      ],
+      "source_version": "1.01",
+      "reviewer_model": "Codex internal",
+      "external_references": [
+        {
+          "title": "구마모토대학 약학부: ドクダミ",
+          "url": "https://www.pharm.kumamoto-u.ac.jp/yakusodb/detail/003405.php"
+        },
+        {
+          "title": "농촌진흥청 유전자원: 약모밀/어성초",
+          "url": "https://genebank.rda.go.kr/simpleSearchView.do?passportnum=535096"
+        },
+        {
+          "title": "충청북도 농업기술원: 삼백초와 약모밀 구분",
+          "url": "https://ares.chungbuk.go.kr/home/sub.php?menukey=1183&mod=view&no=6670"
+        }
+      ]
+    }
+  ],
+  "qualitative_observations": [
+    {
+      "unit": "00_レコンキスタ_start.mjo::u0035",
+      "category": "직역투",
+      "analysis_ko": "고개를 살짝 갸웃하는 관용구를 작은 머리 자체의 묘사처럼 풀어 문장이 뻣뻣해진다.",
+      "patch_rows": [
+        "쿠레하 END.txt::52",
+        "쿠레하 END.txt::53"
+      ]
+    },
+    {
+      "unit": "00_レコンキスタ_start.mjo::u0037",
+      "category": "오탈자",
+      "analysis_ko": "이사를 설명하는 대사에 타자가 잘못 들어간다.",
+      "patch_rows": [
+        "쿠레하 END.txt::57"
+      ]
+    },
+    {
+      "unit": "00_レコンキスタ_start.mjo::u0449",
+      "category": "인물 말투",
+      "analysis_ko": "성장기라는 어른스러운 표현을 아이가 쓰는 장난이 약해져, 다음 칭찬의 이유가 흐려진다.",
+      "patch_rows": [
+        "쿠레하 END.txt::886"
+      ]
+    },
+    {
+      "unit": "00_レコンキスタ_start_2.mjo::u0317",
+      "category": "어조",
+      "analysis_ko": "태평한 발언을 어리석은 발언처럼 옮겨 서술자의 비하 강도가 커진다.",
+      "patch_rows": [
+        "쿠레하 END.txt::1851",
+        "쿠레하 END.txt::1852"
+      ]
+    },
+    {
+      "unit": "kureha_05.mjo::u0006",
+      "category": "문장 연결",
+      "analysis_ko": "시간이 지나간다는 부분의 주어·서술어 결합이 어색하다.",
+      "patch_rows": [
+        "쿠레하 END.txt::8914",
+        "쿠레하 END.txt::8915"
+      ]
+    },
+    {
+      "unit": "masa_06.mjo::u0005",
+      "category": "표현 정확성",
+      "analysis_ko": "연필로 글을 쓰는 소리가 연필 자체를 굴리는 소리처럼 읽힌다. 명백한 의미 오류 수에는 넣지 않았다.",
+      "patch_rows": [
+        "마사키 END.txt::902",
+        "마사키 END.txt::903"
+      ]
+    },
+    {
+      "unit": "masa_06.mjo::u0016",
+      "category": "말장난",
+      "analysis_ko": "신을 기다리는 말과 종이를 가져왔다는 응답의 일본어 동음이의어 연결이 한국어에서 드러나지 않는다. 관련 u0020과 함께 읽었다.",
+      "patch_rows": [
+        "마사키 END.txt::924"
+      ]
+    },
+    {
+      "unit": "last_gendai01.mjo::u0012",
+      "category": "서술 몰입",
+      "analysis_ko": "같은 발음의 이름을 구별하려는 괄호 해설은 이해를 돕지만 원문의 회상 서술에 설명문이 끼어든다.",
+      "patch_rows": [
+        "3장. 문을 두드리라, 그리하면 열릴 것이니라.txt::25",
+        "3장. 문을 두드리라, 그리하면 열릴 것이니라.txt::26"
+      ]
+    },
+    {
+      "unit": "last_gendai01.mjo::u0020",
+      "category": "정서",
+      "analysis_ko": "죽은 이가 남긴 자식이라는 어휘의 정서가 막연한 흔적의 의미로 약해진다. 결말 내용은 보고서에서 길게 인용하지 않았다.",
+      "patch_rows": [
+        "3장. 문을 두드리라, 그리하면 열릴 것이니라.txt::46",
+        "3장. 문을 두드리라, 그리하면 열릴 것이니라.txt::47"
+      ]
+    },
+    {
+      "unit": "last_gendai01.mjo::u0019",
+      "category": "오탈자",
+      "analysis_ko": "만족을 받아들이는 서술에서 조사가 잘못 입력되어 있다.",
+      "patch_rows": [
+        "3장. 문을 두드리라, 그리하면 열릴 것이니라.txt::43",
+        "3장. 문을 두드리라, 그리하면 열릴 것이니라.txt::44",
+        "3장. 문을 두드리라, 그리하면 열릴 것이니라.txt::45"
+      ]
+    },
+    {
+      "unit": "kureha_ep.mjo::u0011",
+      "category": "중의성",
+      "analysis_ko": "차의 맛과 나이에 비해 중후한 취향을 겹친 반응에서 취향에 대한 농담이 약해진다.",
+      "patch_rows": [
+        "쿠레하 END.txt::20255"
+      ]
+    },
+    {
+      "unit": "kureha_ep.mjo::u0012",
+      "category": "오탈자",
+      "analysis_ko": "공원을 걷는 동작을 나타내는 낱말에 오자가 있다.",
+      "patch_rows": [
+        "쿠레하 END.txt::20256",
+        "쿠레하 END.txt::20257"
+      ]
+    },
+    {
+      "unit": "masa_ep.mjo::u0011",
+      "category": "맞춤법",
+      "analysis_ko": "금지 표현의 되/돼 표기가 틀리다.",
+      "patch_rows": [
+        "마사키 END.txt::13309"
+      ]
+    },
+    {
+      "unit": "maho_epi.mjo::u0014",
+      "category": "맞춤법",
+      "analysis_ko": "쑥스러움을 나타내는 말의 표기가 틀리다.",
+      "patch_rows": [
+        "마호코 END.txt::19338",
+        "마호코 END.txt::19339"
+      ]
+    },
+    {
+      "unit": "last_ep.mjo::u0013",
+      "category": "행위자 명료성",
+      "analysis_ko": "아버지가 딸의 머리를 빗겨 주는 문장에서 도움받는 표현이 빠져 딸이 직접 빗는 것처럼 읽힐 여지가 있다. 단정적 오역 수에서는 제외했다.",
+      "patch_rows": [
+        "3장. 문을 두드리라, 그리하면 열릴 것이니라.txt::9184"
+      ]
+    },
+    {
+      "unit": "last_ep.mjo::u0014",
+      "category": "직역투",
+      "analysis_ko": "평소와 같은 대화를 나타내는 조사 연결을 일본어식으로 옮겨 한국어가 어색하다.",
+      "patch_rows": [
+        "3장. 문을 두드리라, 그리하면 열릴 것이니라.txt::9185",
+        "3장. 문을 두드리라, 그리하면 열릴 것이니라.txt::9186"
+      ]
+    }
+  ],
+  "column_structure_anomalies": [
+    {
+      "patch_row": "마호코 END.txt::9252",
+      "finding": "Nonempty fourth-or-later column; target boundaries require importer verification",
+      "field_count": 4,
+      "runtime_effect": "not tested"
+    },
+    {
+      "patch_row": "시이나 END.txt::857",
+      "finding": "Korean text joined into source column; target column empty",
+      "field_count": 3,
+      "runtime_effect": "not tested"
+    },
+    {
+      "patch_row": "시이나 END.txt::3859",
+      "finding": "Korean text joined into source column; target column empty",
+      "field_count": 3,
+      "runtime_effect": "not tested"
+    },
+    {
+      "patch_row": "시이나 END.txt::7656",
+      "finding": "Nonempty fourth-or-later column; target boundaries require importer verification",
+      "field_count": 4,
+      "runtime_effect": "not tested"
+    },
+    {
+      "patch_row": "시이나 END.txt::10745",
+      "finding": "Nonempty fourth-or-later column; target boundaries require importer verification",
+      "field_count": 4,
+      "runtime_effect": "not tested"
+    },
+    {
+      "patch_row": "시이나 END.txt::10814",
+      "finding": "Nonempty fourth-or-later column; target boundaries require importer verification",
+      "field_count": 4,
+      "runtime_effect": "not tested"
+    },
+    {
+      "patch_row": "시이나 END.txt::12128",
+      "finding": "Nonempty fourth-or-later column; target boundaries require importer verification",
+      "field_count": 4,
+      "runtime_effect": "not tested"
+    },
+    {
+      "patch_row": "시이나 END.txt::15114",
+      "finding": "Korean text joined into source column; target column empty",
+      "field_count": 3,
+      "runtime_effect": "not tested"
+    },
+    {
+      "patch_row": "연표.txt::326",
+      "finding": "Nonempty fourth-or-later column; target boundaries require importer verification",
+      "field_count": 4,
+      "runtime_effect": "not tested"
+    },
+    {
+      "patch_row": "쿠레하 END.txt::6116",
+      "finding": "Nonempty fourth-or-later column; target boundaries require importer verification",
+      "field_count": 4,
+      "runtime_effect": "not tested"
+    }
+  ],
+  "sample_windows": [
+    {
+      "label": "도입/이사",
+      "script": "00_レコンキスタ_start.mjo",
+      "range": [
+        20,
+        39
+      ]
+    },
+    {
+      "label": "마사키와 부녀 첫 대면",
+      "script": "00_レコンキスタ_start.mjo",
+      "range": [
+        208,
+        227
+      ]
+    },
+    {
+      "label": "장인 방문",
+      "script": "00_レコンキスタ_start.mjo",
+      "range": [
+        434,
+        453
+      ]
+    },
+    {
+      "label": "시이나·마호코·신야 대화",
+      "script": "00_レコンキスタ_start_2.mjo",
+      "range": [
+        298,
+        317
+      ]
+    },
+    {
+      "label": "쿠레하 루트",
+      "script": "kureha_05.mjo",
+      "range": [
+        1,
+        20
+      ]
+    },
+    {
+      "label": "마사키 루트",
+      "script": "masa_06.mjo",
+      "range": [
+        1,
+        20
+      ]
+    },
+    {
+      "label": "마호코 루트",
+      "script": "maho_04.mjo",
+      "range": [
+        1,
+        20
+      ]
+    },
+    {
+      "label": "시이나 루트",
+      "script": "sina_04.mjo",
+      "range": [
+        1,
+        20
+      ]
+    },
+    {
+      "label": "2장 과거편",
+      "script": "last_kako01.mjo",
+      "range": [
+        1,
+        20
+      ]
+    },
+    {
+      "label": "3장 현재편",
+      "script": "last_gendai01.mjo",
+      "range": [
+        1,
+        20
+      ]
+    },
+    {
+      "label": "쿠레하 결말",
+      "script": "kureha_ep.mjo",
+      "range": [
+        1,
+        20
+      ]
+    },
+    {
+      "label": "마사키 결말",
+      "script": "masa_ep.mjo",
+      "range": [
+        1,
+        20
+      ]
+    },
+    {
+      "label": "마호코 결말",
+      "script": "maho_epi.mjo",
+      "range": [
+        1,
+        20
+      ]
+    },
+    {
+      "label": "시이나 결말",
+      "script": "sina_epi.mjo",
+      "range": [
+        1,
+        20
+      ]
+    },
+    {
+      "label": "최종 결말",
+      "script": "last_ep.mjo",
+      "range": [
+        1,
+        20
+      ]
+    }
+  ]
+}

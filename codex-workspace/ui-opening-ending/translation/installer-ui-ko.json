@@ -1,0 +1,581 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "records": [
+    {
+      "id": "setup.exe::type5::COPYING::1041::caption",
+      "source": "ファイルのコピー中...",
+      "role": "dialog_caption",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663",
+      "target": "파일 복사 중...",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::COPYING::1041::control:2:2",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663",
+      "target": "취소",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::COPYINGDELUX::1041::caption",
+      "source": "ファイルのコピー中...",
+      "role": "dialog_caption",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "target": "파일 복사 중...",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::COPYINGDELUX::1041::control:2:2",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "target": "취소",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::MAKESHORTCUT::1041::caption",
+      "source": "ショートカットの作成",
+      "role": "dialog_caption",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370",
+      "target": "바로 가기 만들기",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::MAKESHORTCUT::1041::control:1:0",
+      "source": "OK",
+      "role": "control_text",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370",
+      "target": "확인",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::MAKESHORTCUT::1041::control:2:1",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370",
+      "target": "취소",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::MAKESHORTCUT::1041::control:65535:2",
+      "source": "デスクトップ上に、ゲームを起動するショートカットを\n作成できます",
+      "role": "control_text",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370",
+      "target": "바탕 화면에 게임 실행용 바로 가기를\n만들 수 있습니다.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::MAKESHORTCUT::1041::control:1007:3",
+      "source": "デスクトップにショートカットを作成",
+      "role": "control_text",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370",
+      "target": "바탕 화면에 바로 가기 만들기",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::SETUP::1041::caption",
+      "source": "インストール先のフォルダの指定",
+      "role": "dialog_caption",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "target": "설치 폴더 지정",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::SETUP::1041::control:1:0",
+      "source": "次へ",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "target": "다음",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::SETUP::1041::control:2:1",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "target": "취소",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::SETUP::1041::control:1021:3",
+      "source": "参照(&B)",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "target": "찾아보기(&B)",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::SETUP::1041::control:65535:5",
+      "source": "[参照]ボタンで、既存のフォルダを参照できます\n[次へ]ボタンでインストールを開始します",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "target": "[찾아보기]에서 기존 폴더를 선택합니다.\n[다음]을 누르면 설치를 시작합니다.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::SETUP::1041::control:65535:6",
+      "source": "インストール先フォルダを指定してください",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "target": "설치할 폴더를 지정해 주세요.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::UNINSTALL::1041::caption",
+      "source": "アンインストールの確認",
+      "role": "dialog_caption",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0",
+      "target": "삭제 확인",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::UNINSTALL::1041::control:1:0",
+      "source": "OK",
+      "role": "control_text",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0",
+      "target": "확인",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::UNINSTALL::1041::control:2:1",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0",
+      "target": "취소",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type5::UNINSTALL::1041::control:1007:3",
+      "source": "セーブファイルも削除する",
+      "role": "control_text",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0",
+      "target": "저장 파일도 삭제",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::type6::1::1041::1",
+      "source": " スクリプトエンジン MAJIRO (C) 2004-2005 越畑声太",
+      "role": "stringtable",
+      "resource_sha256": "f21a1c14cc98e88f9107438e6ff340badbc4e344eeb5f5371a17df21d2d0f6f0",
+      "target": " 스크립트 엔진 MAJIRO (C) 2004-2005 越畑声太",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::COPYING::1041::caption",
+      "source": "ファイルのコピー中...",
+      "role": "dialog_caption",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663",
+      "target": "파일 복사 중...",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::COPYING::1041::control:2:2",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663",
+      "target": "취소",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::COPYINGDELUX::1041::caption",
+      "source": "ファイルのコピー中...",
+      "role": "dialog_caption",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "target": "파일 복사 중...",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::COPYINGDELUX::1041::control:2:2",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "target": "취소",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::MAKESHORTCUT::1041::caption",
+      "source": "ショートカットの作成",
+      "role": "dialog_caption",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370",
+      "target": "바로 가기 만들기",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::MAKESHORTCUT::1041::control:1:0",
+      "source": "OK",
+      "role": "control_text",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370",
+      "target": "확인",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::MAKESHORTCUT::1041::control:2:1",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370",
+      "target": "취소",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::MAKESHORTCUT::1041::control:65535:2",
+      "source": "デスクトップ上に、ゲームを起動するショートカットを\n作成できます",
+      "role": "control_text",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370",
+      "target": "바탕 화면에 게임 실행용 바로 가기를\n만들 수 있습니다.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::MAKESHORTCUT::1041::control:1007:3",
+      "source": "デスクトップにショートカットを作成",
+      "role": "control_text",
+      "resource_sha256": "900140299dc60215f3b67bafdabd6244804c0a12cb2bb1e990b2bfcc6b63e370",
+      "target": "바탕 화면에 바로 가기 만들기",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::SETUP::1041::caption",
+      "source": "インストール先のフォルダの指定",
+      "role": "dialog_caption",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "target": "설치 폴더 지정",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::SETUP::1041::control:1:0",
+      "source": "次へ",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "target": "다음",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::SETUP::1041::control:2:1",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "target": "취소",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::SETUP::1041::control:1021:3",
+      "source": "参照(&B)",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "target": "찾아보기(&B)",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::SETUP::1041::control:65535:5",
+      "source": "[参照]ボタンで、既存のフォルダを参照できます\n[次へ]ボタンでインストールを開始します",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "target": "[찾아보기]에서 기존 폴더를 선택합니다.\n[다음]을 누르면 설치를 시작합니다.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::SETUP::1041::control:65535:6",
+      "source": "インストール先フォルダを指定してください",
+      "role": "control_text",
+      "resource_sha256": "ca2fe90c25bfec34d7586c292ff8ed0cb9e1021942890151ce1d5c5b73b37eae",
+      "target": "설치할 폴더를 지정해 주세요.",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::UNINSTALL::1041::caption",
+      "source": "アンインストールの確認",
+      "role": "dialog_caption",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0",
+      "target": "삭제 확인",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::UNINSTALL::1041::control:1:0",
+      "source": "OK",
+      "role": "control_text",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0",
+      "target": "확인",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::UNINSTALL::1041::control:2:1",
+      "source": "ｷｬﾝｾﾙ",
+      "role": "control_text",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0",
+      "target": "취소",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type5::UNINSTALL::1041::control:1007:3",
+      "source": "セーブファイルも削除する",
+      "role": "control_text",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0",
+      "target": "저장 파일도 삭제",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "install.exe::type6::1::1041::1",
+      "source": " スクリプトエンジン MAJIRO (C) 2004-2005 越畑声太",
+      "role": "stringtable",
+      "resource_sha256": "f21a1c14cc98e88f9107438e6ff340badbc4e344eeb5f5371a17df21d2d0f6f0",
+      "target": " 스크립트 엔진 MAJIRO (C) 2004-2005 越畑声太",
+      "translator_model": "Codex internal"
+    }
+  ],
+  "deferred": [
+    {
+      "id": "setup.exe::type5::COPYING::1041::control:1010:0",
+      "source": "Progress1",
+      "role": "control_text",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::COPYING::1041::control:1012:1",
+      "source": "コピー中ファイル名",
+      "role": "control_text",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::COPYING::1041::control:1020:3",
+      "source": "Animate1",
+      "role": "control_text",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::COPYINGDELUX::1041::control:1010:0",
+      "source": "Progress1",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::COPYINGDELUX::1041::control:1012:1",
+      "source": "コピー中ファイル名",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::COPYINGDELUX::1041::control:1019:3",
+      "source": "Progress2",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::COPYINGDELUX::1041::control:1020:4",
+      "source": "Animate1",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::caption",
+      "source": "ＭＡＪＩＲＯ アプリケーション スタートアップ",
+      "role": "dialog_caption",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1007:0",
+      "source": "Button8",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1006:1",
+      "source": "Button7",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1005:2",
+      "source": "Button6",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1004:3",
+      "source": "Button5",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1003:4",
+      "source": "Button4",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1002:5",
+      "source": "Button3",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1001:6",
+      "source": "Button2",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1000:7",
+      "source": "Button1",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::MAINDIALOG::1041::control:1008:8",
+      "source": "Button9",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "setup.exe::type5::UNINSTALL::1041::control:1026:2",
+      "source": "フォルダ削除メッセージ",
+      "role": "control_text",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::COPYING::1041::control:1010:0",
+      "source": "Progress1",
+      "role": "control_text",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::COPYING::1041::control:1012:1",
+      "source": "コピー中ファイル名",
+      "role": "control_text",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::COPYING::1041::control:1020:3",
+      "source": "Animate1",
+      "role": "control_text",
+      "resource_sha256": "c4e8653f40b6b1e88b57c0fde36a9ad37d5e8b87e46b2a8e6c27ba106d9ad663",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::COPYINGDELUX::1041::control:1010:0",
+      "source": "Progress1",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::COPYINGDELUX::1041::control:1012:1",
+      "source": "コピー中ファイル名",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::COPYINGDELUX::1041::control:1019:3",
+      "source": "Progress2",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::COPYINGDELUX::1041::control:1020:4",
+      "source": "Animate1",
+      "role": "control_text",
+      "resource_sha256": "818cf20812ce59af7bd1152119038b891b830fd145458d8b3a9d58c9a1562b2d",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::caption",
+      "source": "ＭＡＪＩＲＯ アプリケーション スタートアップ",
+      "role": "dialog_caption",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1007:0",
+      "source": "Button8",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1006:1",
+      "source": "Button7",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1005:2",
+      "source": "Button6",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1004:3",
+      "source": "Button5",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1003:4",
+      "source": "Button4",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1002:5",
+      "source": "Button3",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1001:6",
+      "source": "Button2",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1000:7",
+      "source": "Button1",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::MAINDIALOG::1041::control:1008:8",
+      "source": "Button9",
+      "role": "control_text",
+      "resource_sha256": "a20e5c64678987213a1c9d3146448d8de68fade482379681148c7fd5f7ce072e",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    },
+    {
+      "id": "install.exe::type5::UNINSTALL::1041::control:1026:2",
+      "source": "フォルダ削除メッセージ",
+      "role": "control_text",
+      "resource_sha256": "77bb90313ec9f0057440dec30f85c2e91f4720727d0f80c364be8ba508acd2b0",
+      "reason": "Source runtime placeholder or control label; initializer/consumer audit required before changing. MAINDIALOG caption may participate in startup window lookup."
+    }
+  ],
+  "protected_credit": "Author name 越畑声太 retained verbatim; reading not newly inferred."
+}

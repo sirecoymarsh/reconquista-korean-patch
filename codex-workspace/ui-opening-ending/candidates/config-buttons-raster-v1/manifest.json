@@ -1,0 +1,857 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "entries": [
+    {
+      "entry": "config_off.rct",
+      "source_sha256": "a798da6cb3cff18aa217f9723a501f4f8395e4dc404e2572bbf2c1c1d96a5107",
+      "prior_payload_sha256": "f982f50ad456a4dc347b4816ba5c12a53750b764123ae8aab8ac06661ac97fb9",
+      "output_sha256": "23b74f281410091716e77eef2cb3920797fff3e06f2a52b19993044b25e9c4bb",
+      "strings": [
+        {
+          "id": "fastdata.arc::config_off.rct::window",
+          "source": "ウィンドウ",
+          "target": "창 모드",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            202,
+            102
+          ],
+          "source_glyph_bbox": [
+            214,
+            107,
+            267,
+            121
+          ],
+          "source_glyph_pixels": 258,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/off-canonical-clean.png",
+            "template_sha256": "16e19c988e8a738b93becf3d14988da186bb0d19b096a19d276d50e16b262842",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 8,
+            "rounded_frame_pixels_retained": 7,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            218,
+            107,
+            260,
+            121
+          ],
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_off.rct::fullscreen",
+          "source": "フルスクリーン",
+          "target": "전체 화면",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            288,
+            102
+          ],
+          "source_glyph_bbox": [
+            293,
+            108,
+            360,
+            119
+          ],
+          "source_glyph_pixels": 286,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/off-canonical-clean.png",
+            "template_sha256": "16e19c988e8a738b93becf3d14988da186bb0d19b096a19d276d50e16b262842",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 16,
+            "rounded_frame_pixels_retained": 7,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            298,
+            107,
+            352,
+            121
+          ],
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_off.rct::read-only",
+          "source": "既読のみ",
+          "target": "읽은 글만",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            202,
+            133
+          ],
+          "source_glyph_bbox": [
+            213,
+            138,
+            268,
+            152
+          ],
+          "source_glyph_pixels": 432,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/off-canonical-clean.png",
+            "template_sha256": "16e19c988e8a738b93becf3d14988da186bb0d19b096a19d276d50e16b262842",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 8,
+            "rounded_frame_pixels_retained": 4,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            213,
+            138,
+            267,
+            152
+          ],
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_off.rct::all",
+          "source": "すべて",
+          "target": "모두",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            288,
+            133
+          ],
+          "source_glyph_bbox": [
+            306,
+            138,
+            346,
+            152
+          ],
+          "source_glyph_pixels": 174,
+          "restoration_method": "Exact per-row original blank references x17/x58, including push-state row5 gradient boundary; only glyph pixels replaced.",
+          "background_proof": {
+            "row_references": [
+              17,
+              58
+            ],
+            "region": [
+              17,
+              4,
+              42,
+              16
+            ]
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            312,
+            139,
+            338,
+            152
+          ],
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_off.rct::font-select",
+          "source": "選択する",
+          "target": "선택",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            522,
+            102
+          ],
+          "source_glyph_bbox": [
+            533,
+            107,
+            587,
+            121
+          ],
+          "source_glyph_pixels": 406,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/off-canonical-clean.png",
+            "template_sha256": "16e19c988e8a738b93becf3d14988da186bb0d19b096a19d276d50e16b262842",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 8,
+            "rounded_frame_pixels_retained": 7,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            546,
+            107,
+            571,
+            121
+          ],
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_off.rct::choice-color",
+          "source": "色を変える",
+          "target": "색상 변경",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            522,
+            133
+          ],
+          "source_glyph_bbox": [
+            527,
+            138,
+            591,
+            152
+          ],
+          "source_glyph_pixels": 476,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/off-canonical-clean.png",
+            "template_sha256": "16e19c988e8a738b93becf3d14988da186bb0d19b096a19d276d50e16b262842",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 8,
+            "rounded_frame_pixels_retained": 4,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            532,
+            138,
+            586,
+            152
+          ],
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_off.rct::choice-keep",
+          "source": "そのまま",
+          "target": "유지",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            609,
+            133
+          ],
+          "source_glyph_bbox": [
+            623,
+            138,
+            674,
+            152
+          ],
+          "source_glyph_pixels": 335,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/off-canonical-clean.png",
+            "template_sha256": "16e19c988e8a738b93becf3d14988da186bb0d19b096a19d276d50e16b262842",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 8,
+            "rounded_frame_pixels_retained": 0,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            633,
+            138,
+            658,
+            152
+          ],
+          "runtime_visual_pass": true
+        }
+      ],
+      "protected_pixel_diff_count": 0,
+      "original_mask_preserved": true,
+      "source_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 2367,
+      "persisted_rgb_exact": true
+    },
+    {
+      "entry": "config_on.rct",
+      "source_sha256": "cb4354a1fe28b29fd351aaf06b61cc973bfa4c5a7817628d79b9b580b00b755b",
+      "prior_payload_sha256": "a1dd8756b83ef1e4b6a8a092265431851f7dadb622bd33efa470bec66096b798",
+      "output_sha256": "52c312fcaadc3d13da5efd3c868910baa4c05024785c1e98e7704591454033a2",
+      "strings": [
+        {
+          "id": "fastdata.arc::config_on.rct::window",
+          "source": "ウィンドウ",
+          "target": "창 모드",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            202,
+            102
+          ],
+          "source_glyph_bbox": [
+            214,
+            107,
+            267,
+            121
+          ],
+          "source_glyph_pixels": 258,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/on-canonical-clean.png",
+            "template_sha256": "7ac090cfdd0681f338da9576ee6051d0fbb21ad0e2e5331e62aee95eff98a8e2",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 12,
+            "rounded_frame_pixels_retained": 8,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            218,
+            107,
+            260,
+            121
+          ],
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_on.rct::fullscreen",
+          "source": "フルスクリーン",
+          "target": "전체 화면",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            288,
+            102
+          ],
+          "source_glyph_bbox": [
+            293,
+            108,
+            360,
+            119
+          ],
+          "source_glyph_pixels": 286,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/on-canonical-clean.png",
+            "template_sha256": "7ac090cfdd0681f338da9576ee6051d0fbb21ad0e2e5331e62aee95eff98a8e2",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 23,
+            "rounded_frame_pixels_retained": 8,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            298,
+            107,
+            352,
+            121
+          ],
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_on.rct::read-only",
+          "source": "既読のみ",
+          "target": "읽은 글만",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            202,
+            133
+          ],
+          "source_glyph_bbox": [
+            213,
+            138,
+            268,
+            152
+          ],
+          "source_glyph_pixels": 432,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/on-canonical-clean.png",
+            "template_sha256": "7ac090cfdd0681f338da9576ee6051d0fbb21ad0e2e5331e62aee95eff98a8e2",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 12,
+            "rounded_frame_pixels_retained": 4,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            213,
+            138,
+            267,
+            152
+          ],
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_on.rct::all",
+          "source": "すべて",
+          "target": "모두",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            288,
+            133
+          ],
+          "source_glyph_bbox": [
+            306,
+            138,
+            346,
+            152
+          ],
+          "source_glyph_pixels": 174,
+          "restoration_method": "Exact per-row original blank references x17/x58, including push-state row5 gradient boundary; only glyph pixels replaced.",
+          "background_proof": {
+            "row_references": [
+              17,
+              58
+            ],
+            "region": [
+              17,
+              4,
+              42,
+              16
+            ]
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            312,
+            139,
+            338,
+            152
+          ],
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_on.rct::font-select",
+          "source": "選択する",
+          "target": "선택",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            522,
+            102
+          ],
+          "source_glyph_bbox": [
+            533,
+            107,
+            587,
+            121
+          ],
+          "source_glyph_pixels": 406,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/on-canonical-clean.png",
+            "template_sha256": "7ac090cfdd0681f338da9576ee6051d0fbb21ad0e2e5331e62aee95eff98a8e2",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 12,
+            "rounded_frame_pixels_retained": 8,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            546,
+            107,
+            571,
+            121
+          ],
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_on.rct::choice-color",
+          "source": "色を変える",
+          "target": "색상 변경",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            522,
+            133
+          ],
+          "source_glyph_bbox": [
+            527,
+            138,
+            591,
+            152
+          ],
+          "source_glyph_pixels": 476,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/on-canonical-clean.png",
+            "template_sha256": "7ac090cfdd0681f338da9576ee6051d0fbb21ad0e2e5331e62aee95eff98a8e2",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 12,
+            "rounded_frame_pixels_retained": 5,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            532,
+            138,
+            586,
+            152
+          ],
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_on.rct::choice-keep",
+          "source": "そのまま",
+          "target": "유지",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            609,
+            133
+          ],
+          "source_glyph_bbox": [
+            623,
+            138,
+            674,
+            152
+          ],
+          "source_glyph_pixels": 335,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/on-canonical-clean.png",
+            "template_sha256": "7ac090cfdd0681f338da9576ee6051d0fbb21ad0e2e5331e62aee95eff98a8e2",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 12,
+            "rounded_frame_pixels_retained": 0,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            633,
+            138,
+            658,
+            152
+          ],
+          "runtime_visual_pass": false
+        }
+      ],
+      "protected_pixel_diff_count": 0,
+      "original_mask_preserved": true,
+      "source_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 2367,
+      "persisted_rgb_exact": true
+    },
+    {
+      "entry": "config_push.rct",
+      "source_sha256": "92d6b5e0e6a91bfce75163e5cd71db119a519a85a0c91ee31e488471ef21ecb8",
+      "prior_payload_sha256": "432833aea0d252510032963200f9a6b12416793d8e5a034cb81d5c693acb31eb",
+      "output_sha256": "de705347f808bf1c422ae4b2e570567b8340cae57379838954f6545b5cbd51e7",
+      "strings": [
+        {
+          "id": "fastdata.arc::config_push.rct::window",
+          "source": "ウィンドウ",
+          "target": "창 모드",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            202,
+            102
+          ],
+          "source_glyph_bbox": [
+            214,
+            107,
+            267,
+            121
+          ],
+          "source_glyph_pixels": 258,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/push-canonical-clean.png",
+            "template_sha256": "4411b5f04767dafa1c807edefdfcdb2d79934e7b421cf165b18035d359d9f84c",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 11,
+            "rounded_frame_pixels_retained": 7,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            218,
+            107,
+            260,
+            121
+          ],
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_push.rct::fullscreen",
+          "source": "フルスクリーン",
+          "target": "전체 화면",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            288,
+            102
+          ],
+          "source_glyph_bbox": [
+            293,
+            108,
+            360,
+            119
+          ],
+          "source_glyph_pixels": 286,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/push-canonical-clean.png",
+            "template_sha256": "4411b5f04767dafa1c807edefdfcdb2d79934e7b421cf165b18035d359d9f84c",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 20,
+            "rounded_frame_pixels_retained": 7,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            298,
+            107,
+            352,
+            121
+          ],
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_push.rct::read-only",
+          "source": "既読のみ",
+          "target": "읽은 글만",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            202,
+            133
+          ],
+          "source_glyph_bbox": [
+            213,
+            138,
+            268,
+            152
+          ],
+          "source_glyph_pixels": 432,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/push-canonical-clean.png",
+            "template_sha256": "4411b5f04767dafa1c807edefdfcdb2d79934e7b421cf165b18035d359d9f84c",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 11,
+            "rounded_frame_pixels_retained": 4,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            213,
+            138,
+            267,
+            152
+          ],
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_push.rct::all",
+          "source": "すべて",
+          "target": "모두",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            288,
+            133
+          ],
+          "source_glyph_bbox": [
+            306,
+            138,
+            346,
+            152
+          ],
+          "source_glyph_pixels": 174,
+          "restoration_method": "Exact per-row original blank references x17/x58, including push-state row5 gradient boundary; only glyph pixels replaced.",
+          "background_proof": {
+            "row_references": [
+              17,
+              58
+            ],
+            "region": [
+              17,
+              4,
+              42,
+              16
+            ]
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            312,
+            139,
+            338,
+            152
+          ],
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_push.rct::font-select",
+          "source": "選択する",
+          "target": "선택",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            522,
+            102
+          ],
+          "source_glyph_bbox": [
+            533,
+            107,
+            587,
+            121
+          ],
+          "source_glyph_pixels": 406,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/push-canonical-clean.png",
+            "template_sha256": "4411b5f04767dafa1c807edefdfcdb2d79934e7b421cf165b18035d359d9f84c",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 11,
+            "rounded_frame_pixels_retained": 7,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            546,
+            107,
+            571,
+            121
+          ],
+          "runtime_visual_pass": false
+        },
+        {
+          "id": "fastdata.arc::config_push.rct::choice-color",
+          "source": "色を変える",
+          "target": "색상 변경",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            522,
+            133
+          ],
+          "source_glyph_bbox": [
+            527,
+            138,
+            591,
+            152
+          ],
+          "source_glyph_pixels": 476,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/push-canonical-clean.png",
+            "template_sha256": "4411b5f04767dafa1c807edefdfcdb2d79934e7b421cf165b18035d359d9f84c",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 11,
+            "rounded_frame_pixels_retained": 3,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            532,
+            138,
+            586,
+            152
+          ],
+          "runtime_visual_pass": true
+        },
+        {
+          "id": "fastdata.arc::config_push.rct::choice-keep",
+          "source": "そのまま",
+          "target": "유지",
+          "translator_model": "Codex internal",
+          "button_origin": [
+            609,
+            133
+          ],
+          "source_glyph_bbox": [
+            623,
+            138,
+            674,
+            152
+          ],
+          "source_glyph_pixels": 335,
+          "restoration_method": "Same-phase canonical button from six original labels; all observed background values agree exactly. Twenty occluded pixels lie inside separately proven uniform row plateaus. Original frame differences outside glyph neighborhoods retained.",
+          "background_proof": {
+            "template": "evidence/config-button-template-v2/push-canonical-clean.png",
+            "template_sha256": "4411b5f04767dafa1c807edefdfcdb2d79934e7b421cf165b18035d359d9f84c",
+            "audit": "reports/config-button-exact-glyph-audit.json",
+            "source_min_green_delta": 11,
+            "rounded_frame_pixels_retained": 0,
+            "frame_difference_in_glyph_neighborhood": 0
+          },
+          "original_alpha_values": [
+            255
+          ],
+          "target_ink_bbox": [
+            633,
+            138,
+            658,
+            152
+          ],
+          "runtime_visual_pass": false
+        }
+      ],
+      "protected_pixel_diff_count": 0,
+      "original_mask_preserved": true,
+      "source_size": [
+        800,
+        600
+      ],
+      "source_glyph_pixels": 2367,
+      "persisted_rgb_exact": true
+    }
+  ],
+  "output_hashes": {
+    "config_off.rct": "23b74f281410091716e77eef2cb3920797fff3e06f2a52b19993044b25e9c4bb",
+    "config_on.rct": "52c312fcaadc3d13da5efd3c868910baa4c05024785c1e98e7704591454033a2",
+    "config_push.rct": "de705347f808bf1c422ae4b2e570567b8340cae57379838954f6545b5cbd51e7"
+  },
+  "semantic_labels": 21,
+  "font_sha256": "6bcb2a0703aa137e874fc2dffa85f6c21ba9a67fa329e81b8c801663af7e992a",
+  "font_size": 14,
+  "structural_pass": true,
+  "visual_pass": true,
+  "runtime_review": {
+    "status": "partial",
+    "report": "reports/background-runtime-v22-validation.json",
+    "state_matches": "reports/background-runtime-v22-control-states.json",
+    "full_state_coverage": false
+  },
+  "asset_completion": "partial config; seven small red option buttons complete across off/on/push; other setting labels and navigation still pending",
+  "evidence": [
+    "reports/config-button-coherent-template.json",
+    "reports/config-button-template-v2-push.json",
+    "reports/config-button-exact-glyph-audit.json"
+  ],
+  "state_glyph_geometry_equal": true,
+  "target_ink_geometry_equal": true,
+  "visual_review": {
+    "reviewer": "Codex internal",
+    "at_utc": "2026-10-22T23:32:09.200596+00:00",
+    "views": [
+      "preview/config_off.png",
+      "preview/off-source-clean-final-3x.png",
+      "preview/on-source-clean-final-3x.png",
+      "preview/push-source-clean-final-3x.png"
+    ],
+    "result": "All seven labels legible at native size and enlarged; no source remnants, edge damage, clipping or state alignment shifts observed. Other untranslated config text remains outside this batch."
+  }
+}

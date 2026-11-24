@@ -1,0 +1,65 @@
+{
+  "translator_model": "Codex internal",
+  "source_file": "00_レコンキスタ_start.mjo",
+  "records": [
+    {
+      "index": 3627,
+      "source": "それ",
+      "target": "그것",
+      "unit": 330,
+      "role": "emphasis_body",
+      "consumer": "yazlib.mjo::2f93f26a"
+    },
+    {
+      "index": 3699,
+      "source": "もみじ",
+      "target": " ",
+      "unit": 337,
+      "role": "ruby_reading",
+      "consumer": "yazlib.mjo::3198fd01",
+      "note": "One blank suppresses duplicate reading; preserves a nonempty strright argument in the original ruby helper."
+    },
+    {
+      "index": 3700,
+      "source": "紅葉",
+      "target": "모미지",
+      "unit": 337,
+      "role": "ruby_body",
+      "consumer": "yazlib.mjo::3198fd01"
+    },
+    {
+      "index": 4775,
+      "source": "とう",
+      "target": " ",
+      "unit": 436,
+      "role": "ruby_reading",
+      "consumer": "yazlib.mjo::3198fd01",
+      "note": "One blank suppresses duplicate reading; preserves a nonempty strright argument in the original ruby helper."
+    },
+    {
+      "index": 4776,
+      "source": "義父",
+      "target": "아버님",
+      "unit": 436,
+      "role": "ruby_body",
+      "consumer": "yazlib.mjo::3198fd01"
+    },
+    {
+      "index": 6560,
+      "source": "まぶた",
+      "target": " ",
+      "unit": 604,
+      "role": "ruby_reading",
+      "consumer": "yazlib.mjo::3198fd01",
+      "note": "One blank suppresses duplicate reading; preserves a nonempty strright argument in the original ruby helper."
+    },
+    {
+      "index": 6561,
+      "source": "瞼",
+      "target": "눈꺼풀",
+      "unit": 604,
+      "role": "ruby_body",
+      "consumer": "yazlib.mjo::3198fd01"
+    }
+  ]
+}

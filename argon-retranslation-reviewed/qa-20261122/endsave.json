@@ -1,0 +1,216 @@
+{
+ "mode": "endsave",
+ "started": "2026-11-22 15:26:29",
+ "nv_before": 1133,
+ "runs": [
+  {
+   "label": "endsave-a",
+   "pid": 80232,
+   "steps": [
+    {
+     "step": "arrived",
+     "t": 94.0,
+     "order": 37758,
+     "arrive_s": 70.8
+    },
+    {
+     "step": "save slot2",
+     "t": 115.9,
+     "dialogs": []
+    }
+   ],
+   "dialogs": [],
+   "new_review_folders": [
+    "savedata-review-80232-286094625"
+   ],
+   "mem_mb_end": 1372,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.2432,
+    "loud_spans": [
+     [
+      99.67,
+      99.84
+     ],
+     [
+      103.15,
+      104.45
+     ],
+     [
+      106.43,
+      107.08
+     ],
+     [
+      109.17,
+      111.34
+     ]
+    ],
+    "errors": []
+   },
+   "log_mb": 1.9,
+   "log_errors": [],
+   "save_files": [
+    "savedata-review-80232-286094625\\majiro_0102.sav"
+   ]
+  },
+  {
+   "label": "endsave-b",
+   "pid": 78052,
+   "steps": [
+    {
+     "step": "b play",
+     "t": 308.1,
+     "loaded_images": [
+      "black.rct",
+      "bg_001.rct",
+      "console_off_h.rct",
+      "console_off_h_.rc8",
+      "console_on_h.rct",
+      "console_on_h_.rc8",
+      "console_push_h.rct",
+      "console_push_h_.rc8"
+     ],
+     "title_after_clicks": 170,
+     "clicks": 170,
+     "presents": 14295,
+     "map_used_in_session_b": 0
+    }
+   ],
+   "dialogs": [],
+   "play": {
+    "loaded_images": [
+     "black.rct",
+     "bg_001.rct",
+     "console_off_h.rct",
+     "console_off_h_.rc8",
+     "console_on_h.rct",
+     "console_on_h_.rc8",
+     "console_push_h.rct",
+     "console_push_h_.rc8"
+    ],
+    "timeline": [
+     [
+      31,
+      19,
+      1983,
+      "kr_ed_005_.rc8"
+     ],
+     [
+      62,
+      38,
+      2236,
+      "ev510_01.rct"
+     ],
+     [
+      91,
+      56,
+      2071,
+      "kr_ed_014_.rc8"
+     ],
+     [
+      121,
+      75,
+      2164,
+      "kr_ed_020_.rc8"
+     ],
+     [
+      150,
+      93,
+      1774,
+      "kr_ed_024_.rc8"
+     ],
+     [
+      181,
+      112,
+      984,
+      "kr_ed_027_.rc8"
+     ],
+     [
+      211,
+      130,
+      1605,
+      "kr_ed_032_.rc8"
+     ],
+     [
+      241,
+      149,
+      630,
+      "netu515a2.rc8"
+     ],
+     [
+      270,
+      167,
+      694,
+      "white.rct"
+     ]
+    ],
+    "title_after_clicks": 170,
+    "clicks": 170,
+    "presents": 14295,
+    "map_used_in_session_b": 0
+   },
+   "new_review_folders": [],
+   "mem_mb_end": 1135,
+   "normal_exit": true,
+   "audio": {
+    "mute_actions": 0,
+    "first_mute_s": null,
+    "peak": 0.9461,
+    "loud_spans": [
+     [
+      15.82,
+      16.51
+     ],
+     [
+      19.63,
+      20.28
+     ],
+     [
+      22.94,
+      27.72
+     ],
+     [
+      43.44,
+      45.11
+     ],
+     [
+      86.59,
+      89.2
+     ],
+     [
+      93.4,
+      95.76
+     ],
+     [
+      121.41,
+      125.72
+     ],
+     [
+      150.74,
+      156.93
+     ],
+     [
+      266.61,
+      290.35
+     ],
+     [
+      294.24,
+      298.75
+     ],
+     [
+      304.83,
+      305.21
+     ]
+    ],
+    "errors": []
+   },
+   "log_mb": 6.2,
+   "log_errors": []
+  }
+ ],
+ "main_slot2_restored": true,
+ "nv_after": 1133,
+ "ended": "2026-11-22 15:34:00"
+}

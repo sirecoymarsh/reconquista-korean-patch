@@ -1,0 +1,35 @@
+{
+  "scope": "Explicit exclusion from this background/object batch; this is not validation of applying the correction algorithm inside character art.",
+  "controls": [
+    {
+      "key": "f0dddea4",
+      "source_jxl_sha256": "c94dcf54414c7612f55357586a7ab73f7377428b82f4b5435ab372c97e061d40",
+      "scope": "character CG excluded from cloud key allowlist",
+      "changed_pixels": 0,
+      "changed_original_contour_pixels": 0,
+      "original_contour_pixels_checked": 1231440,
+      "source_jxl_sha256_after_batch": "c94dcf54414c7612f55357586a7ab73f7377428b82f4b5435ab372c97e061d40",
+      "live_jxl_unchanged": true
+    },
+    {
+      "key": "7497d05e",
+      "source_jxl_sha256": "76660c14295a83c34b56e2e7004e937b787415762fe129a2c314c111959a612e",
+      "scope": "character CG excluded from cloud key allowlist",
+      "changed_pixels": 0,
+      "changed_original_contour_pixels": 0,
+      "original_contour_pixels_checked": 729024,
+      "source_jxl_sha256_after_batch": "76660c14295a83c34b56e2e7004e937b787415762fe129a2c314c111959a612e",
+      "live_jxl_unchanged": true
+    },
+    {
+      "key": "682936fd",
+      "source_jxl_sha256": "209fc485c6189e42fcc20dcaec9f8e7bc8f728475126868df911a4bb3c090718",
+      "scope": "character CG excluded from cloud key allowlist",
+      "changed_pixels": 0,
+      "changed_original_contour_pixels": 0,
+      "original_contour_pixels_checked": 862480,
+      "source_jxl_sha256_after_batch": "209fc485c6189e42fcc20dcaec9f8e7bc8f728475126868df911a4bb3c090718",
+      "live_jxl_unchanged": true
+    }
+  ]
+}

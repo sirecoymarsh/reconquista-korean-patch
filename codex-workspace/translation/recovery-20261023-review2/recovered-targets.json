@@ -1,0 +1,762 @@
+{
+  "translator_model": "Codex internal",
+  "records": [
+    {
+      "id": "masa_10.mjo::002290",
+      "unit": "masa_10.mjo::u0168",
+      "source": "しかし時折浴室から聞こえてくる二人の嬌声が、",
+      "target": "하지만 이따금 욕실에서 들려오는 두 사람의 들뜬 목소리가",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "masa_10.mjo",
+        "evidence": "u0167–0172",
+        "review_reason": "욕실의 두 사람 목소리가 신경 쓰인다는 아버지 시점. 嬌声 하나만으로 성적 신음을 확정했던 판단을 철회. 명시 행동은 등 씻기와 간지러움."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_10.mjo::002294",
+      "unit": "masa_10.mjo::u0168",
+      "source": "さっきから僕を落ち着かなくさせていた。",
+      "target": "아까부터 자꾸 신경 쓰였다.",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "masa_10.mjo",
+        "evidence": "u0167–0172",
+        "review_reason": "욕실의 두 사람 목소리가 신경 쓰인다는 아버지 시점. 嬌声 하나만으로 성적 신음을 확정했던 판단을 철회. 명시 행동은 등 씻기와 간지러움."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_10.mjo::002348",
+      "unit": "masa_10.mjo::u0173",
+      "source": "「あれ？　じゃあこっちはどうかな。ゴシゴシ…」",
+      "target": "「어라? 그럼 이쪽은 어때? 쓱싹쓱싹…」",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": "もみじ",
+        "story_phase": "masa_10.mjo",
+        "evidence": "u0169–0174",
+        "review_reason": "등을 씻기다가 다른 쪽은 어떤지 묻는 대사. 특정 성적 부위나 행동이 명시되지 않음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_10.mjo::002358",
+      "unit": "masa_10.mjo::u0174",
+      "source": "「…んんっ、そこはちょっとちが…ぅん」",
+      "target": "「…으응, 거긴 좀 다른… 데에.」",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": "麻咲",
+        "story_phase": "masa_10.mjo",
+        "evidence": "u0169–0173",
+        "review_reason": "씻기는 위치에 대한 반응. 앞선 간지럼과 구별되는 성적 접촉이라고 단정할 근거가 부족함."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_10.mjo::002370",
+      "unit": "masa_10.mjo::u0176",
+      "source": "楽しそうというかなんというか…",
+      "target": "즐거워 보인다고 해야 하나, 뭐라고 해야 하나…",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "masa_10.mjo",
+        "evidence": "u0173–0181",
+        "review_reason": "욕실 밖 화자의 궁금증. ナニ 강조의 익살을 유지하되 구체적 성행위를 새로 추론하지 않음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_10.mjo::002374",
+      "unit": "masa_10.mjo::u0176",
+      "source": "一体ナニをやっているのか気になってしょうがない。",
+      "target": "도대체 뭘 하는 건지 궁금해서 견딜 수가 없다.",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "masa_10.mjo",
+        "evidence": "u0173–0181",
+        "review_reason": "욕실 밖 화자의 궁금증. ナニ 강조의 익살을 유지하되 구체적 성행위를 새로 추론하지 않음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_10.mjo::002388",
+      "unit": "masa_10.mjo::u0178",
+      "source": "この際だから吉森との裸の付き合いを通じて、",
+      "target": "이참에 요시모리와 함께 목욕하면서",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "masa_10.mjo",
+        "evidence": "u0177–0181",
+        "review_reason": "딸이 성인 여성과 목욕하며 체형을 배운다는 생각. 아동 신체의 상세나 성행위 묘사가 없으며 이어서 화자가 자기 생각을 끊음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_10.mjo::002392",
+      "unit": "masa_10.mjo::u0178",
+      "source": "女の子の体つきというものをじっくりと学んで…",
+      "target": "여자의 몸이 어떻게 생겼는지도 찬찬히 배워 보고…",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "masa_10.mjo",
+        "evidence": "u0177–0181",
+        "review_reason": "딸이 성인 여성과 목욕하며 체형을 배운다는 생각. 아동 신체의 상세나 성행위 묘사가 없으며 이어서 화자가 자기 생각을 끊음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_10.mjo::002463",
+      "unit": "masa_10.mjo::u0184",
+      "source": "「麻咲ちゃん、ここは？　ここもくすぐったい？」",
+      "target": "「마사키 언니, 여기는? 여기도 간지러워?」",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": "もみじ",
+        "story_phase": "masa_10.mjo",
+        "evidence": "u0169–0173,u0185–0187",
+        "review_reason": "다른 곳도 간지러운지 묻는 씻기 대사. 특정 성적 접촉은 명시되지 않음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_10.mjo::002473",
+      "unit": "masa_10.mjo::u0185",
+      "source": "「ダメだって、そ、そこ、アハハハ…ひゃぅんっ」",
+      "target": "「안 된다니까, 거, 거긴, 아하하하… 으앗.」",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": "麻咲",
+        "story_phase": "masa_10.mjo",
+        "evidence": "u0184,u0187",
+        "review_reason": "간지럽냐는 질문에 웃으며 말리는 반응. 신체 부위나 성적 흥분은 확정하지 않음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_10.mjo::002501",
+      "unit": "masa_10.mjo::u0187",
+      "source": "「もう、麻咲ちゃんじっとしててよぉ。",
+      "target": "「정말, 마사키 언니, 가만히 좀 있어어.",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": "もみじ",
+        "story_phase": "masa_10.mjo",
+        "evidence": "u0184–0188",
+        "review_reason": "洗えない가 행동을 씻기로 직접 특정. 가만히 있으라는 일상적인 돌봄 대사."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_10.mjo::002505",
+      "unit": "masa_10.mjo::u0187",
+      "source": "　ちゃんと洗えないでしょぉ」",
+      "target": "　이러면 제대로 못 씻겨 주잖아아.」",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": "もみじ",
+        "story_phase": "masa_10.mjo",
+        "evidence": "u0184–0188",
+        "review_reason": "洗えない가 행동을 씻기로 직접 특정. 가만히 있으라는 일상적인 돌봄 대사."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_10.mjo::002515",
+      "unit": "masa_10.mjo::u0188",
+      "source": "「そ、そんなこと言ったって…",
+      "target": "「그, 그렇게 말해도…",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": "麻咲",
+        "story_phase": "masa_10.mjo",
+        "evidence": "u0184–0187",
+        "review_reason": "웃음·간지럼에 이어지는 항변과 호흡. 이를 성적 쾌감으로 단정할 근거가 부족함."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_10.mjo::002519",
+      "unit": "masa_10.mjo::u0188",
+      "source": "　うぅ、はぁはぁ…ひ、ひっく」",
+      "target": "　으으, 하아하아… 히, 힉.」",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": "麻咲",
+        "story_phase": "masa_10.mjo",
+        "evidence": "u0184–0187",
+        "review_reason": "웃음·간지럼에 이어지는 항변과 호흡. 이를 성적 쾌감으로 단정할 근거가 부족함."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_10.mjo::002544",
+      "unit": "masa_10.mjo::u0191",
+      "source": "気のせいかもみじはいつも以上にツヤツヤしてて、",
+      "target": "기분 탓인지 모미지는 평소보다 더 생기가 돌고,",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "masa_10.mjo",
+        "evidence": "u0190,u0192",
+        "review_reason": "목욕 후 생기 있는 아이와 지친 성인을 대비. 성적 상태나 신체 부위 묘사가 없음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_10.mjo::002548",
+      "unit": "masa_10.mjo::u0191",
+      "source": "逆に吉森はぐったりしているような気がした。",
+      "target": "반대로 요시모리는 녹초가 된 것 같았다.",
+      "source_sha256": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "masa_10.mjo",
+        "evidence": "u0190,u0192",
+        "review_reason": "목욕 후 생기 있는 아이와 지친 성인을 대비. 성적 상태나 신체 부위 묘사가 없음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "00_レコンキスタ_start_2.mjo::014803",
+      "unit": "00_レコンキスタ_start_2.mjo::u1356",
+      "source": "いつもみたく、まほのスカートを捲ると、",
+      "target": "늘 그랬듯 마호의 치마를 들추자,",
+      "source_sha256": "9d81bc362eb009825acbcb26d4bc28a286a9cae0ffd6047ae32e2be2c3f1f073",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "00_レコンキスタ_start_2.mjo",
+        "evidence": "u1351–1367",
+        "review_reason": "놀라게 하는 장난→얼레를 떨어뜨림→실을 감는 흉내→손잡기의 연결 서술. 노출된 신체나 성적 흥분 묘사가 없음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "00_レコンキスタ_start_2.mjo::014807",
+      "unit": "00_レコンキスタ_start_2.mjo::u1356",
+      "source": "慌てたような声と共に、",
+      "target": "당황한 듯한 목소리와 함께,",
+      "source_sha256": "9d81bc362eb009825acbcb26d4bc28a286a9cae0ffd6047ae32e2be2c3f1f073",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "00_レコンキスタ_start_2.mjo",
+        "evidence": "u1351–1367",
+        "review_reason": "놀라게 하는 장난→얼레를 떨어뜨림→실을 감는 흉내→손잡기의 연결 서술. 노출된 신체나 성적 흥분 묘사가 없음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "maho_14.mjo::002257",
+      "unit": "maho_14.mjo::u0229",
+      "source": "スカートを捲るとまほが糸巻きを落として、",
+      "target": "치마를 들추면 마호가 얼레를 떨어뜨리고,",
+      "source_sha256": "a9424d3caba95a428e65dfbc50f09e469d7b6de485ce5c783b973b8a9047b116",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "maho_14.mjo",
+        "evidence": "u0225–0239",
+        "review_reason": "장난과 얼레 회수 뒤 손잡기로 이어지는 행동. 장면의 목적과 결과가 명시됨."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "maho_14.mjo::002261",
+      "unit": "maho_14.mjo::u0229",
+      "source": "それをオレが拾い上げる。",
+      "target": "나는 그걸 주워 든다.",
+      "source_sha256": "a9424d3caba95a428e65dfbc50f09e469d7b6de485ce5c783b973b8a9047b116",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "maho_14.mjo",
+        "evidence": "u0225–0239",
+        "review_reason": "장난과 얼레 회수 뒤 손잡기로 이어지는 행동. 장면의 목적과 결과가 명시됨."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "maho_14.mjo::002380",
+      "unit": "maho_14.mjo::u0244",
+      "source": "そう思ったオレは、まほを驚かせる為に",
+      "target": "그렇게 생각한 나는 마호를 놀라게 하려고",
+      "source_sha256": "a9424d3caba95a428e65dfbc50f09e469d7b6de485ce5c783b973b8a9047b116",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "maho_14.mjo",
+        "evidence": "u0237–0246",
+        "review_reason": "놀라게 하려는 이유가 손잡을 구실을 만들기 위해서라고 앞뒤에서 설명됨. 신체 상세나 성적 흥분 묘사가 없음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "maho_14.mjo::002384",
+      "unit": "maho_14.mjo::u0244",
+      "source": "スカートを捲るようになり…",
+      "target": "치마를 들추기 시작했고…",
+      "source_sha256": "a9424d3caba95a428e65dfbc50f09e469d7b6de485ce5c783b973b8a9047b116",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "maho_14.mjo",
+        "evidence": "u0237–0246",
+        "review_reason": "놀라게 하려는 이유가 손잡을 구실을 만들기 위해서라고 앞뒤에서 설명됨. 신체 상세나 성적 흥분 묘사가 없음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "maho_14.mjo::002403",
+      "unit": "maho_14.mjo::u0247",
+      "source": "オレは今日もスカートを捲り、",
+      "target": "나는 오늘도 치마를 들추고,",
+      "source_sha256": "a9424d3caba95a428e65dfbc50f09e469d7b6de485ce5c783b973b8a9047b116",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "maho_14.mjo",
+        "evidence": "u0241–0248",
+        "review_reason": "앞서 설명한 손잡기 위한 반복 행동을 회고. 장난의 실제 행동을 삭제하거나 완곡하게 바꾸지 않음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "maho_14.mjo::002407",
+      "unit": "maho_14.mjo::u0247",
+      "source": "まほはいつもの事なのに今日も驚いてくれる。",
+      "target": "마호는 늘 있는 일인데도 오늘 역시 놀라 준다.",
+      "source_sha256": "a9424d3caba95a428e65dfbc50f09e469d7b6de485ce5c783b973b8a9047b116",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "maho_14.mjo",
+        "evidence": "u0241–0248",
+        "review_reason": "앞서 설명한 손잡기 위한 반복 행동을 회고. 장난의 실제 행동을 삭제하거나 완곡하게 바꾸지 않음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_15.mjo::001711",
+      "unit": "masa_15.mjo::u0143",
+      "source": "「あはっ、くすぐったい」",
+      "target": "「아핫, 간지러워.」",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": "麻咲",
+        "story_phase": "masa_15.mjo",
+        "evidence": "u0142–0144",
+        "review_reason": "간지럽다는 반응만 명시. 직접 접촉 상세나 성적 흥분을 새로 추론하지 않음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_15.mjo::001759",
+      "unit": "masa_15.mjo::u0147",
+      "source": "「いいなぁいいなぁ、もみじもおっぱい欲しい～」",
+      "target": "「좋겠다, 좋겠다. 모미지도 가슴이 있었으면 좋겠어~」",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": "もみじ",
+        "story_phase": "masa_15.mjo",
+        "evidence": "u0126–0129,u0153–0154",
+        "review_reason": "자신의 신체 발달을 바라는 대사. 자체 행동·흥분 묘사가 없고 앞뒤 성장 문답과 연결됨."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_15.mjo::001784",
+      "unit": "masa_15.mjo::u0149",
+      "source": "「あ、ごめんなさい。いたかった？」",
+      "target": "「아, 미안해. 아팠어?」",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": "もみじ",
+        "story_phase": "masa_15.mjo",
+        "evidence": "u0148,u0150",
+        "review_reason": "사과하고 아팠는지 묻는 일반 대사. 접촉을 구체적으로 재현하지 않음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_15.mjo::001794",
+      "unit": "masa_15.mjo::u0150",
+      "source": "「い、痛くはないんだけどね…あはは」",
+      "target": "「아, 아프진 않은데 말이야… 아하하.」",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": "麻咲",
+        "story_phase": "masa_15.mjo",
+        "evidence": "u0149,u0151",
+        "review_reason": "아프지 않다는 답변. 원문에 없는 쾌감 표현으로 판정하지 않음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_15.mjo::001808",
+      "unit": "masa_15.mjo::u0152",
+      "source": "…ってまたあたし、槙野先生を想定しちゃってるし。",
+      "target": "…아니, 또 마키노 선생님을 떠올리고 있잖아, 나.",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "masa_15.mjo",
+        "evidence": "u0116,u0151–0153",
+        "review_reason": "마키노를 또 떠올린 자신에 대한 자조. 앞 문장의 구체적 행위를 이 문장이 되풀이하지 않음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_15.mjo::001812",
+      "unit": "masa_15.mjo::u0152",
+      "source": "我ながら結構重傷だなぁ。",
+      "target": "내가 생각해도 꽤 중증이네.",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "masa_15.mjo",
+        "evidence": "u0116,u0151–0153",
+        "review_reason": "마키노를 또 떠올린 자신에 대한 자조. 앞 문장의 구체적 행위를 이 문장이 되풀이하지 않음."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_15.mjo::001827",
+      "unit": "masa_15.mjo::u0153",
+      "source": "「いいよね、おっぱいって。",
+      "target": "「가슴이 있다는 건 좋겠다.",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": "もみじ",
+        "story_phase": "masa_15.mjo",
+        "evidence": "u0147,u0154–0155",
+        "review_reason": "자신의 성장에 관한 소망. 다음 성장 관련 답변과 직접 문답을 이룸."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "masa_15.mjo::001831",
+      "unit": "masa_15.mjo::u0153",
+      "source": "　もみじも早く大きくならないかなぁ」",
+      "target": "　모미지도 빨리 커졌으면 좋겠어.」",
+      "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": "もみじ",
+        "story_phase": "masa_15.mjo",
+        "evidence": "u0147,u0154–0155",
+        "review_reason": "자신의 성장에 관한 소망. 다음 성장 관련 답변과 직접 문답을 이룸."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "st_yana.mjo::000287",
+      "unit": "st_yana.mjo::u0022",
+      "source": "「お風呂シーンから進まないと、",
+      "target": "「목욕 장면에서 계속 안 넘어가면,",
+      "source_sha256": "98d095c25e061f6c86b90c63710b7b2e41604ffdc3ca6ffb63fe85b508ac598d",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": "もみじ",
+        "story_phase": "st_yana.mjo",
+        "evidence": "u0018–0020,u0023",
+        "review_reason": "목욕 장면 진행을 권하고 오래 머물면 더위 먹겠다는 메타 농담. 이 문장에는 노출 감상 지시가 없음. 手・屁ッ는 의도적 표기 장난을 읽기인 데·헷으로 보존."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "st_yana.mjo::000291",
+      "unit": "st_yana.mjo::u0022",
+      "source": "　のぼせちゃうよ、おとーさん。手・屁ッ☆」",
+      "target": "　더위 먹을 거야, 아빠. 데·헷☆」",
+      "source_sha256": "98d095c25e061f6c86b90c63710b7b2e41604ffdc3ca6ffb63fe85b508ac598d",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": "もみじ",
+        "story_phase": "st_yana.mjo",
+        "evidence": "u0018–0020,u0023",
+        "review_reason": "목욕 장면 진행을 권하고 오래 머물면 더위 먹겠다는 메타 농담. 이 문장에는 노출 감상 지시가 없음. 手・屁ッ는 의도적 표기 장난을 읽기인 데·헷으로 보존."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "st_gin.mjo::000941",
+      "unit": "st_gin.mjo::u0068",
+      "source": "わたし？わたしはちょうよ",
+      "target": "나? 나는 초야.",
+      "source_sha256": "661ed8d29de0ff7875c0c3da59e13e2aa4175ec6d524c063a0f386d062d64dd3",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "st_gin.mjo",
+        "evidence": "st_gin u0065–0073: human-shaped entity asks interlocutor to give name first; given kana self-label retained phonetically without asserting butterfly species or expanding censored employer",
+        "review_reason": "名前を名乗る response context; preserve ちょう as 초 and Ｊ● exactly. No confirmed parody attribution; none is necessary to retain the stated self-label."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    },
+    {
+      "id": "st_gin.mjo::000945",
+      "unit": "st_gin.mjo::u0068",
+      "source": "おとうとはＪ●ではたらいてる",
+      "target": "남동생은 Ｊ●에서 일하고 있어.",
+      "source_sha256": "661ed8d29de0ff7875c0c3da59e13e2aa4175ec6d524c063a0f386d062d64dd3",
+      "translator_model": "Codex internal",
+      "context": {
+        "source_speaker": null,
+        "story_phase": "st_gin.mjo",
+        "evidence": "st_gin u0065–0073: human-shaped entity asks interlocutor to give name first; given kana self-label retained phonetically without asserting butterfly species or expanding censored employer",
+        "review_reason": "名前を名乗る response context; preserve ちょう as 초 and Ｊ● exactly. No confirmed parody attribution; none is necessary to retain the stated self-label."
+      },
+      "provenance": {
+        "root_thread": "01a16283-b393-7dc0-8c83-d3e23a2a2f41",
+        "date": "2026-10-23",
+        "semantic_author": "primary Codex internal"
+      },
+      "status": "primary_authored_independent_review_pass_with_referent_correction"
+    }
+  ],
+  "inline_records": [],
+  "units": [
+    "masa_10.mjo::u0168",
+    "masa_10.mjo::u0173",
+    "masa_10.mjo::u0174",
+    "masa_10.mjo::u0176",
+    "masa_10.mjo::u0178",
+    "masa_10.mjo::u0184",
+    "masa_10.mjo::u0185",
+    "masa_10.mjo::u0187",
+    "masa_10.mjo::u0188",
+    "masa_10.mjo::u0191",
+    "00_レコンキスタ_start_2.mjo::u1356",
+    "maho_14.mjo::u0229",
+    "maho_14.mjo::u0244",
+    "maho_14.mjo::u0247",
+    "masa_15.mjo::u0143",
+    "masa_15.mjo::u0147",
+    "masa_15.mjo::u0149",
+    "masa_15.mjo::u0150",
+    "masa_15.mjo::u0152",
+    "masa_15.mjo::u0153",
+    "st_yana.mjo::u0022",
+    "st_gin.mjo::u0068"
+  ],
+  "source_files": {
+    "masa_10.mjo": "fdd586544ea50e6969d9e01d4574a0f8ba384a4d255bd9c58eec3784f1544a7e",
+    "00_レコンキスタ_start_2.mjo": "9d81bc362eb009825acbcb26d4bc28a286a9cae0ffd6047ae32e2be2c3f1f073",
+    "maho_14.mjo": "a9424d3caba95a428e65dfbc50f09e469d7b6de485ce5c783b973b8a9047b116",
+    "masa_15.mjo": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+    "st_yana.mjo": "98d095c25e061f6c86b90c63710b7b2e41604ffdc3ca6ffb63fe85b508ac598d",
+    "st_gin.mjo": "661ed8d29de0ff7875c0c3da59e13e2aa4175ec6d524c063a0f386d062d64dd3"
+  },
+  "restored_general": 21,
+  "semantic_resolved": 1,
+  "remaining": 16,
+  "runtime_verified": false
+}

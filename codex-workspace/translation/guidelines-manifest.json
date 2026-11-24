@@ -1,0 +1,8 @@
+{
+  "guidelines": "translation/LOCALIZATION_GUIDELINES.md",
+  "status": "v1.1; 992 authored units with early 70 restored after user university-level context; three-chat dispatch frozen",
+  "authority_sha256": "2E8BE5F1FE9833AED46BD16E3ACC73E8DEA7632F964A5E04312AFF59B2D5294F",
+  "translator_model": "Codex internal",
+  "authority": "P:\\AI\\Codex\\skills\\contextual-game-localization\\references\\translation-quality.md",
+  "guidelines_sha256": "ccc07e536056564ee941bc91aa473ef41f2637ae6e1ed6bdb3e9d284060e9fbe"
+}

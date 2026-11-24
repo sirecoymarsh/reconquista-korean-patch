@@ -1,0 +1,35 @@
+{
+  "reviewer": "/root/ui_text_review",
+  "mode": "read-only independent QA",
+  "translation_sha256": "e984124f704133811f223bea3c26a6ac1484775bc62cce2d964e6e46e5672ec9",
+  "semantic_records": 147,
+  "excluded": 74,
+  "verdict": "semantic_pass",
+  "semantic_findings": [],
+  "layout_findings": [
+    {
+      "ids": [
+        "pe::type5::SCREENOPTION::control:65535:3",
+        "pe::type5::SCREENOPTION_FULL::control:65535:4"
+      ],
+      "target": "전체 화면 모드",
+      "text_width_px_96": 80,
+      "slot_width_px_96": 79,
+      "text_width_px_144": 120,
+      "slot_width_px_144": 113,
+      "resolution": "candidate native-v2 label width 45 to 49 DLU; next control starts x50"
+    },
+    {
+      "ids": [
+        "pe::type5::SPEEDCONFIG::control:65535:4",
+        "pe::type5::SPEEDCONFIG_ORG::control:65535:4"
+      ],
+      "target": "글자 표시",
+      "text_width_px_144": 78,
+      "slot_width_px_144": 75,
+      "resolution": "candidate native-v2 label width 30 to 35 DLU; next control starts x45"
+    }
+  ],
+  "narrow_speed_labels": "빠름/느림 pass at 96 and 144 DPI",
+  "runtime_pass": false
+}

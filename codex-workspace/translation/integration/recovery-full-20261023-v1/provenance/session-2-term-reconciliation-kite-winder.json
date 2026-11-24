@@ -1,0 +1,430 @@
+{
+  "translator_model": "Codex internal",
+  "coordinator_thread_id": "01a16335-afd6-74f0-8990-fd759c6ead35",
+  "source_evidence": {
+    "unit": "maho_sub2.mjo::u0012",
+    "field": "maho_sub2.mjo::000420",
+    "source": "凧揚げの糸を巻く道具だ。"
+  },
+  "term": "얼레",
+  "ordinary_failure_失敗_excluded": true,
+  "frozen_files_unchanged": true,
+  "items": [
+    {
+      "batch": "session-1/lane-1/batches/start2-u1265-u1408.json",
+      "unit": "00_レコンキスタ_start_2.mjo::u1324",
+      "id": "00_レコンキスタ_start_2.mjo::014467",
+      "source": "強い海風を受けて、カラカラと回る糸巻き。",
+      "observed_target": "거센 바닷바람을 받아 달각달각 돌아가는 실감개.",
+      "same_object_recommended_term": "얼레",
+      "action": "central reconciliation proposal; read-only observation"
+    },
+    {
+      "batch": "session-1/lane-1/batches/start2-u1265-u1408.json",
+      "unit": "00_レコンキスタ_start_2.mjo::u1358",
+      "id": "00_レコンキスタ_start_2.mjo::014824",
+      "source": "手に持っていた糸巻きを地面に落とした。",
+      "observed_target": "손에 들고 있던 실감개를 땅에 떨어뜨렸다.",
+      "same_object_recommended_term": "얼레",
+      "action": "central reconciliation proposal; read-only observation"
+    },
+    {
+      "batch": "session-1/lane-1/batches/start2-u1265-u1408.json",
+      "unit": "00_レコンキスタ_start_2.mjo::u1361",
+      "id": "00_レコンキスタ_start_2.mjo::014852",
+      "source": "糸のついてない糸巻きに、さも繋がっているかのように。",
+      "observed_target": "실이 없는 실감개에 마치 실이 이어져 있기라도 한 것처럼.",
+      "same_object_recommended_term": "얼레",
+      "action": "central reconciliation proposal; read-only observation"
+    },
+    {
+      "batch": "session-1/lane-1/batches/start2-u1265-u1408.json",
+      "unit": "00_レコンキスタ_start_2.mjo::u1375",
+      "id": "00_レコンキスタ_start_2.mjo::014988",
+      "source": "今はオレが持ってるまほの糸車が、元気に回る。",
+      "observed_target": "지금은 내가 들고 있는 마호의 실감개가 힘차게 돌아간다.",
+      "same_object_recommended_term": "얼레",
+      "action": "central reconciliation proposal; read-only observation"
+    },
+    {
+      "batch": "session-1/lane-1/batches/start2-u1265-u1408.json",
+      "unit": "00_レコンキスタ_start_2.mjo::u1386",
+      "id": "00_レコンキスタ_start_2.mjo::015115",
+      "source": "風を受けて回る糸巻きを思い出しているのだろうか。",
+      "observed_target": "바람을 받아 돌아가는 실감개를 떠올리는 걸까.",
+      "same_object_recommended_term": "얼레",
+      "action": "central reconciliation proposal; read-only observation"
+    },
+    {
+      "batch": "session-2/lane-1/batches/maho_11_u0244-0294.json",
+      "unit": "maho_11.mjo::u0253",
+      "id": "maho_11.mjo::002587",
+      "source": "風を受け、手の中の糸巻きがカラカラと鳴っていた。",
+      "observed_target": "바람을 받은 손안의 얼레가 달그락거리고 있었다.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "바람을 받은 손안의 얼레가 달그락거리고 있었다."
+    },
+    {
+      "batch": "session-2/lane-1/batches/maho_11_u0356-0453.json",
+      "unit": "maho_11.mjo::u0357",
+      "id": "maho_11.mjo::003601",
+      "source": "いつもより勢いをつけて、",
+      "observed_target": "실도 연결되지 않은 얼레가",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "실도 연결되지 않은 얼레가"
+    },
+    {
+      "batch": "session-2/lane-1/batches/maho_11_u0356-0453.json",
+      "unit": "maho_11.mjo::u0357",
+      "id": "maho_11.mjo::003605",
+      "source": "糸の繋がってない糸巻きが回っている。",
+      "observed_target": "평소보다 기세 좋게 돌아가고 있었다.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "평소보다 기세 좋게 돌아가고 있었다."
+    },
+    {
+      "batch": "session-2/lane-1/batches/maho_11_u0356-0453.json",
+      "unit": "maho_11.mjo::u0360",
+      "id": "maho_11.mjo::003628",
+      "source": "風のある場所で嬉しそうに糸巻きを回している。",
+      "observed_target": "바람이 부는 곳이면 기쁜 얼굴로 얼레를 돌리고 있었다.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "바람이 부는 곳이면 기쁜 얼굴로 얼레를 돌리고 있었다."
+    },
+    {
+      "batch": "session-2/lane-1/batches/maho_11_u0356-0453.json",
+      "unit": "maho_11.mjo::u0363",
+      "id": "maho_11.mjo::003649",
+      "source": "「その糸巻き…何なんだ？」",
+      "observed_target": "「그 얼레…뭐야?」",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "「그 얼레…뭐야?」"
+    },
+    {
+      "batch": "session-2/lane-1/batches/maho_11_u0356-0453.json",
+      "unit": "maho_11.mjo::u0367",
+      "id": "maho_11.mjo::003693",
+      "source": "回転する糸巻きとオレの顔とを交互に見て…",
+      "observed_target": "돌아가는 얼레와 내 얼굴을 번갈아 보더니…",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "돌아가는 얼레와 내 얼굴을 번갈아 보더니…"
+    },
+    {
+      "batch": "session-2/lane-1/batches/maho_11_u0356-0453.json",
+      "unit": "maho_11.mjo::u0375",
+      "id": "maho_11.mjo::003760",
+      "source": "しかし、それと持っている糸巻き、",
+      "observed_target": "하지만 그게 손에 든 얼레와,",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "하지만 그게 손에 든 얼레와,"
+    },
+    {
+      "batch": "session-2/lane-1/batches/maho_11_u0356-0453.json",
+      "unit": "maho_11.mjo::u0393",
+      "id": "maho_11.mjo::003935",
+      "source": "「『糸巻きが回る度に、",
+      "observed_target": "「『얼레가 돌 때마다",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "「『얼레가 돌 때마다"
+    },
+    {
+      "batch": "session-2/lane-1/batches/maho_11_u0356-0453.json",
+      "unit": "maho_11.mjo::u0397",
+      "id": "maho_11.mjo::003963",
+      "source": "まほはその糸巻きを信じ、回していたんだ。",
+      "observed_target": "마호는 그 얼레를 믿으며 돌리고 있었던 것이다.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "마호는 그 얼레를 믿으며 돌리고 있었던 것이다."
+    },
+    {
+      "batch": "session-2/lane-1/batches/maho_11_u0356-0453.json",
+      "unit": "maho_11.mjo::u0425",
+      "id": "maho_11.mjo::004210",
+      "source": "まほの手から零れ落ちた糸巻きが転がって、",
+      "observed_target": "마호의 손에서 떨어진 얼레가 굴러와",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "마호의 손에서 떨어진 얼레가 굴러와"
+    },
+    {
+      "batch": "session-2/lane-1/batches/maho_11_u0356-0453.json",
+      "unit": "maho_11.mjo::u0434",
+      "id": "maho_11.mjo::004285",
+      "source": "まほと糸巻きの間で、見えない糸を巻き取る仕草をする。",
+      "observed_target": "마호와 얼레 사이에서 보이지 않는 실을 감는 시늉을 했다.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "마호와 얼레 사이에서 보이지 않는 실을 감는 시늉을 했다."
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_14_u0108-u0217.json",
+      "unit": "maho_14.mjo::u0116",
+      "id": "maho_14.mjo::001072",
+      "source": "糸巻きを回している、まほ。",
+      "observed_target": "얼레를 돌리고 있는 마호.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "얼레를 돌리고 있는 마호."
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_14_u0108-u0217.json",
+      "unit": "maho_14.mjo::u0117",
+      "id": "maho_14.mjo::001081",
+      "source": "糸巻きがカラカラと音を立てていた。",
+      "observed_target": "얼레는 달그락달그락 소리를 냈다.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "얼레는 달그락달그락 소리를 냈다."
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_14_u0218-u0328.json",
+      "unit": "maho_14.mjo::u0231",
+      "id": "maho_14.mjo::002277",
+      "source": "糸巻きを介して繋がっている、糸の先――",
+      "observed_target": "얼레를 통해 이어진 실 끝――",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "얼레를 통해 이어진 실 끝――"
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_14_u0218-u0328.json",
+      "unit": "maho_14.mjo::u0241",
+      "id": "maho_14.mjo::002361",
+      "source": "強い風におどろいて糸巻きを落としたこと。",
+      "observed_target": "거센 바람에 놀라 얼레를 떨어뜨렸던 일이었다.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "거센 바람에 놀라 얼레를 떨어뜨렸던 일이었다."
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_14_u0218-u0328.json",
+      "unit": "maho_14.mjo::u0243",
+      "id": "maho_14.mjo::002375",
+      "source": "…驚かせれば、糸巻きを落とせば手を繋げる。",
+      "observed_target": "…놀라게 하면, 얼레를 떨어뜨리면 손을 잡을 수 있다.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "…놀라게 하면, 얼레를 떨어뜨리면 손을 잡을 수 있다."
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_14_u0218-u0328.json",
+      "unit": "maho_14.mjo::u0245",
+      "id": "maho_14.mjo::002389",
+      "source": "ビックリして糸巻きを落とす",
+      "observed_target": "깜짝 놀라 얼레를 떨어뜨리는",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "깜짝 놀라 얼레를 떨어뜨리는"
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_14_u0218-u0328.json",
+      "unit": "maho_14.mjo::u0252",
+      "id": "maho_14.mjo::002464",
+      "source": "いつものように回っている糸巻き。",
+      "observed_target": "늘 그렇듯 돌아가는 얼레.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "늘 그렇듯 돌아가는 얼레."
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_15_u0334-u0439.json",
+      "unit": "maho_15.mjo::u0392",
+      "id": "maho_15.mjo::004316",
+      "source": "脇に置いてある糸巻きを差す。",
+      "observed_target": "옆에 놓인 얼레를 가리켰다.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "옆에 놓인 얼레를 가리켰다."
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_15_u0334-u0439.json",
+      "unit": "maho_15.mjo::u0400",
+      "id": "maho_15.mjo::004400",
+      "source": "しきりに羽根の付いた糸巻きを見ているまほ。",
+      "observed_target": "날개가 달린 얼레를 몇 번이고 바라보는 마호.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "날개가 달린 얼레를 몇 번이고 바라보는 마호."
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_15_u0440-u0539.json",
+      "unit": "maho_15.mjo::u0457",
+      "id": "maho_15.mjo::004965",
+      "source": "羽根の付いたいつもの糸巻き。",
+      "observed_target": "날개를 단 그 얼레였다.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "날개를 단 그 얼레였다."
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_15_u0440-u0539.json",
+      "unit": "maho_15.mjo::u0475",
+      "id": "maho_15.mjo::005167",
+      "source": "風を受けて、勢いよく音を立てている糸巻き。",
+      "observed_target": "바람을 받아 힘차게 소리를 내는 얼레.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "바람을 받아 힘차게 소리를 내는 얼레."
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_15_u0440-u0539.json",
+      "unit": "maho_15.mjo::u0478",
+      "id": "maho_15.mjo::005182",
+      "source": "糸巻きが回ると、",
+      "observed_target": "얼레가 돌아가면",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "얼레가 돌아가면"
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_15_u0440-u0539.json",
+      "unit": "maho_15.mjo::u0484",
+      "id": "maho_15.mjo::005240",
+      "source": "ぽろり…と、まほの手から糸巻きが零れ落ちた。",
+      "observed_target": "툭… 하고 마호의 손에서 얼레가 떨어졌다.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "툭… 하고 마호의 손에서 얼레가 떨어졌다."
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_16_u0001-u0116.json",
+      "unit": "maho_16.mjo::u0048",
+      "id": "maho_16.mjo::000495",
+      "source": "「糸巻き、どうなったか覚えてるのか？」",
+      "observed_target": "「얼레가 어떻게 됐는지 기억나?」",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "「얼레가 어떻게 됐는지 기억나?」"
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_16_u0001-u0116.json",
+      "unit": "maho_16.mjo::u0061",
+      "id": "maho_16.mjo::000614",
+      "source": "代わりの糸巻きを用意する事もできた。",
+      "observed_target": "대신 쓸 얼레를 준비할 수도 있었다.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "대신 쓸 얼레를 준비할 수도 있었다."
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_16_u0001-u0116.json",
+      "unit": "maho_16.mjo::u0062",
+      "id": "maho_16.mjo::000623",
+      "source": "糸巻きは回らない…",
+      "observed_target": "얼레는 돌아가지 않는다…",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "얼레는 돌아가지 않는다…"
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_16_u0001-u0116.json",
+      "unit": "maho_16.mjo::u0064",
+      "id": "maho_16.mjo::000633",
+      "source": "なくなってしまった糸巻き、",
+      "observed_target": "없어져 버린 얼레,",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "없어져 버린 얼레,"
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_19_u0711-u0792.json",
+      "unit": "maho_19.mjo::u0728",
+      "id": "maho_19.mjo::007296",
+      "source": "糸車がないという、それだけの理由ではなく…",
+      "observed_target": "얼레가 없다는, 그 이유만은 아닐 것이다…",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "얼레가 없다는, 그 이유만은 아닐 것이다…"
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_sub2_u0001-u0021.json",
+      "unit": "maho_sub2.mjo::u0013",
+      "id": "maho_sub2.mjo::000431",
+      "source": "「そら、特別な糸がついてる糸巻きだでよ。",
+      "observed_target": "「특별한 실이 달린 얼레여.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "「특별한 실이 달린 얼레여."
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_sub2_u0001-u0021.json",
+      "unit": "maho_sub2.mjo::u0014",
+      "id": "maho_sub2.mjo::000460",
+      "source": "おばあちゃんに糸巻きを持った手を掴まれ、",
+      "observed_target": "할머니가 얼레를 든 내 손을 잡아,",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "할머니가 얼레를 든 내 손을 잡아,"
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_sub2_u0001-u0021.json",
+      "unit": "maho_sub2.mjo::u0015",
+      "id": "maho_sub2.mjo::000501",
+      "source": "糸巻きをおばあちゃんに突き返す。",
+      "observed_target": "얼레를 할머니에게 도로 내민다.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "얼레를 할머니에게 도로 내민다."
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_sub2_u0001-u0021.json",
+      "unit": "maho_sub2.mjo::u0018",
+      "id": "maho_sub2.mjo::000600",
+      "source": "「糸巻きが回る度に、",
+      "observed_target": "「얼레가 돌아갈 때마다",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "「얼레가 돌아갈 때마다"
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_sub2_u0001-u0021.json",
+      "unit": "maho_sub2.mjo::u0019",
+      "id": "maho_sub2.mjo::000641",
+      "source": "わたしの糸巻きを持った手を、空に向ける。",
+      "observed_target": "얼레를 쥔 내 손을 하늘로 향하게 한다.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "얼레를 쥔 내 손을 하늘로 향하게 한다."
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_sub2_u0001-u0021.json",
+      "unit": "maho_sub2.mjo::u0021",
+      "id": "maho_sub2.mjo::000689",
+      "source": "カラカラと音を立てて、糸巻きは回っていた…",
+      "observed_target": "달그락 소리를 내며, 얼레는 돌아가고 있었다…",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "달그락 소리를 내며, 얼레는 돌아가고 있었다…"
+    },
+    {
+      "batch": "session-2/lane-2/batches/maho_sub3_u0001-u0019.json",
+      "unit": "maho_sub3.mjo::u0018",
+      "id": "maho_sub3.mjo::000458",
+      "source": "糸巻きが風を受けて回る。",
+      "observed_target": "얼레가 바람을 받아 돌아간다.",
+      "same_object_recommended_term": "얼레",
+      "action": "same-object term directly verified;caa965;existing changed-batch validation reused",
+      "current_target": "얼레가 바람을 받아 돌아간다."
+    }
+  ],
+  "runtime_verified": false,
+  "correction_verification": {
+    "evidence": "caa965",
+    "changed_target_fields": 35,
+    "lane_1": 10,
+    "lane_2": 25,
+    "ordinary_failure_preserved": true,
+    "other_session_fields_requiring_central_reconciliation": 5,
+    "adjacent_reflow_field_retained": 1,
+    "runtime_verified": false
+  }
+}

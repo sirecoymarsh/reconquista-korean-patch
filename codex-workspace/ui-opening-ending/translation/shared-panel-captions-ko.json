@@ -1,0 +1,53 @@
+{
+  "translator_model": "Codex internal",
+  "records": [
+    {
+      "id": "fastdata.arc::cgm_off.rct::panel-title",
+      "source": "CGmode",
+      "target": "CG 감상",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "fastdata.arc::cgm_on.rct::panel-title",
+      "source": "CGmode",
+      "target": "CG 감상",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "fastdata.arc::sl_save_n.rct::panel-title",
+      "source": "SaveData",
+      "target": "저장",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "fastdata.arc::sl_save_f.rct::panel-title",
+      "source": "SaveData",
+      "target": "저장",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "fastdata.arc::sl_load_n.rct::panel-title",
+      "source": "LoadData",
+      "target": "불러오기",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "fastdata.arc::sl_load_f.rct::panel-title",
+      "source": "LoadData",
+      "target": "불러오기",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "fastdata.arc::kaisou_off.rct::panel-title",
+      "source": "Memory",
+      "target": "장면 회상",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "fastdata.arc::kaisou_on.rct::panel-title",
+      "source": "Memory",
+      "target": "장면 회상",
+      "translator_model": "Codex internal"
+    }
+  ]
+}

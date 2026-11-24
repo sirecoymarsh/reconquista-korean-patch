@@ -1,0 +1,93 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "records": [
+    {
+      "id": "setup.exe::0x4144d8",
+      "va": 4277464,
+      "source": "ゲーム実行",
+      "target": "게임 실행",
+      "encoding": "cp949",
+      "file_offset": 83160,
+      "source_slot_bytes": 11,
+      "target_bytes": 9,
+      "consumer": "SetDlgItemTextA, IAT0x412238; aliasEBP",
+      "reference": "0x40213e",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::0x4144e4",
+      "va": 4277476,
+      "source": " 再インストール ",
+      "target": " 재설치 ",
+      "encoding": "cp949",
+      "file_offset": 83172,
+      "source_slot_bytes": 17,
+      "target_bytes": 8,
+      "consumer": "SetDlgItemTextA, IAT0x412238; aliasEBP",
+      "reference": "0x4020fe",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::0x4144f8",
+      "va": 4277496,
+      "source": "アンインストール",
+      "target": "게임 삭제",
+      "encoding": "cp949",
+      "file_offset": 83192,
+      "source_slot_bytes": 17,
+      "target_bytes": 9,
+      "consumer": "SetDlgItemTextA, IAT0x412238; aliasEBP",
+      "reference": "0x4020b8",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::0x41450c",
+      "va": 4277516,
+      "source": "　インストール　",
+      "target": " 설치 ",
+      "encoding": "cp949",
+      "file_offset": 83212,
+      "source_slot_bytes": 17,
+      "target_bytes": 6,
+      "consumer": "SetDlgItemTextA, IAT0x412238; aliasEBP",
+      "reference": "0x40206e",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::0x41452c",
+      "va": 4277548,
+      "source": "DirectXインストール",
+      "target": "DirectX 설치",
+      "encoding": "cp949",
+      "file_offset": 83244,
+      "source_slot_bytes": 20,
+      "target_bytes": 12,
+      "consumer": "SetDlgItemTextA, IAT0x412238; aliasEBP",
+      "reference": "0x402009",
+      "translator_model": "Codex internal"
+    },
+    {
+      "id": "setup.exe::0x414548",
+      "va": 4277576,
+      "source": "終了",
+      "target": "종료",
+      "encoding": "cp949",
+      "file_offset": 83272,
+      "source_slot_bytes": 5,
+      "target_bytes": 4,
+      "consumer": "SetDlgItemTextA, IAT0x412238; aliasEBP",
+      "reference": "0x401fcc",
+      "translator_model": "Codex internal"
+    }
+  ],
+  "protected": [
+    "0x414194 next-disc comparison token",
+    "0x4141dc startup title/mutex format",
+    "0x4141f0 uninstall mutex format",
+    "0x416180 shortcut filename suffix",
+    "0x4161a0 readme shortcut name"
+  ],
+  "evidence": "evidence/installer-setup-consumers-rea.json",
+  "scope": "Six setup launcher display defaults only; other dynamic strings remain pending."
+}

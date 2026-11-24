@@ -1,0 +1,1164 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-1/lane-2",
+  "coordinator_thread_id": "01a16335-92a2-79c2-814f-63275a46f2b1",
+  "agent_id": "/root/lane_2",
+  "source_script": "kureha_05.mjo",
+  "source_sha256": "22a17cd4d2786ff7ee2022f233ca1dc2243a78a9d671503464a2e001f1d8fe16",
+  "records": [
+    {
+      "unit": "kureha_05.mjo::u0133",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001297",
+          "source": "だが暮葉の姿は既に塀の向こうに消え、そして――",
+          "target": "하지만 쿠레하의 모습은 이미 난간 너머로 사라졌고, 그리고――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0134",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001308",
+          "source": "…ぐしゃっ",
+          "target": "…콰직"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "의성어",
+        "text_function": "sound_effect"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0135",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001313",
+          "source": "――そして、ほんの数瞬後には、",
+          "target": "――그리고 불과 몇 순간 뒤,"
+        },
+        {
+          "id": "kureha_05.mjo::001317",
+          "source": "西瓜が割れたような音が下から響いた。",
+          "target": "수박이 깨지는 듯한 소리가 아래에서 울렸다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0136",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001328",
+          "source": "「…く、暮葉…？」",
+          "target": "「…쿠, 쿠레하…?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하의 생사를 걱정하며 구조하려는 남자",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "다급한 부름과 당혹한 독백",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0137",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001333",
+          "source": "僕はフラフラと立ち上がると、",
+          "target": "나는 비틀거리며 일어나,"
+        },
+        {
+          "id": "kureha_05.mjo::001337",
+          "source": "三人組を押しのけて暮葉が飛び降りた辺りの塀へと向かう。",
+          "target": "세 남자를 밀치고 쿠레하가 뛰어내린 난간 쪽으로 향했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0138",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001342",
+          "source": "三人組はそんな僕を止めもせず、",
+          "target": "세 남자는 그런 나를 막지도 않고,"
+        },
+        {
+          "id": "kureha_05.mjo::001346",
+          "source": "ただ呆然とその場に立ち尽くしていた。",
+          "target": "그저 멍하니 그 자리에 서 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0139",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001353",
+          "source": "「暮葉…くれはっ」",
+          "target": "「쿠레하… 쿠레하!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하의 생사를 걱정하며 구조하려는 남자",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "다급한 부름과 당혹한 독백",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0140",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001358",
+          "source": "恐る恐る塀の下を覗き込む僕。",
+          "target": "나는 조심스럽게 난간 아래를 내려다봤다."
+        },
+        {
+          "id": "kureha_05.mjo::001362",
+          "source": "怖い。見たくない。でも見ないわけにはいかなかった。",
+          "target": "무섭다. 보고 싶지 않다. 하지만 안 볼 수는 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0141",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001371",
+          "source": "僕はアクション映画のように、",
+          "target": "나는 액션 영화에서처럼,"
+        },
+        {
+          "id": "kureha_05.mjo::001375",
+          "source": "彼女がギリギリどこかに引っ掛かって、",
+          "target": "그녀가 아슬아슬하게 어딘가에 매달려"
+        },
+        {
+          "id": "kureha_05.mjo::001379",
+          "source": "体を支えてるシーンを期待した。",
+          "target": "몸을 지탱하고 있기를 바랐다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0142",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001384",
+          "source": "だが実際に目に飛び込んできた場面は…",
+          "target": "하지만 실제로 눈에 들어온 광경은…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0143",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001398",
+          "source": "「…うぅっ！」",
+          "target": "「…우욱!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "쿠레하의 생사를 걱정하며 구조하려는 남자",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "다급한 부름과 당혹한 독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0144",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001403",
+          "source": "真っ暗な地面に、赤い斑模様が広がっていた。",
+          "target": "새까만 땅 위에 붉은 얼룩이 번져 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0145",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001408",
+          "source": "地上７階建ての廃マンションの最上階からでも、",
+          "target": "지상 7층짜리 폐아파트의 꼭대기 층에서도,"
+        },
+        {
+          "id": "kureha_05.mjo::001412",
+          "source": "染みのように広がる血溜まりがはっきりと…",
+          "target": "얼룩처럼 번져 가는 핏물이 뚜렷하게…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0146",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001423",
+          "source": "「ひぃっ…ま、マジで飛び降りやがった？」",
+          "target": "「히익… 저, 정말로 뛰어내린 거야?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 １",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓았다가 투신을 보고 도망치는 무리",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "겁먹고 다급한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0147",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001430",
+          "source": "「おい、まずいぞ？　どうすんだよっ」",
+          "target": "「야, 이거 큰일인데? 어떡하냐!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ２",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓았다가 투신을 보고 도망치는 무리",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "겁먹고 다급한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0148",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001437",
+          "source": "「に、逃げようぜ…」",
+          "target": "「도, 도망가자…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ３",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓았다가 투신을 보고 도망치는 무리",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "겁먹고 다급한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0149",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001444",
+          "source": "「そうだな、ほら、早く逃げるんだよっ」",
+          "target": "「그래, 어서 빨리 도망치자고!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 ２",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓았다가 투신을 보고 도망치는 무리",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "겁먹고 다급한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0150",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001451",
+          "source": "「こら、置いてくなってっ」",
+          "target": "「야, 두고 가지 마!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "남자 １",
+        "addressees": [
+          "동료 남자들"
+        ],
+        "relationship": "쿠레하를 쫓았다가 투신을 보고 도망치는 무리",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "겁먹고 다급한 반말",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0151",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001459",
+          "source": "タッタッタッタッタ…",
+          "target": "타다다다닥…"
+        },
+        {
+          "id": "kureha_05.mjo::001465",
+          "source": "　タッタッタッタッタ…",
+          "target": "　타다다다닥…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "의성어",
+        "text_function": "sound_effect"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0152",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001470",
+          "source": "我に返った三人組は、僕を放って一目散に逃げ出した。",
+          "target": "정신을 차린 세 남자는 나를 내버려 둔 채 쏜살같이 도망쳤다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0153",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001475",
+          "source": "そして僕もまた三人組に構う余裕はなく、",
+          "target": "나 역시 세 남자를 신경 쓸 겨를도 없이,"
+        },
+        {
+          "id": "kureha_05.mjo::001479",
+          "source": "先ほど見てしまった血の光景に心を奪われていた。",
+          "target": "조금 전 보고 만 피의 광경에 넋을 빼앗겨 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0154",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001488",
+          "source": "まるで暗闇の海の中から、",
+          "target": "마치 어둠의 바다 한가운데서"
+        },
+        {
+          "id": "kureha_05.mjo::001492",
+          "source": "朱色の泉が湧き出してくるようだ――",
+          "target": "붉은 샘이 솟아나는 것 같다――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0155",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001501",
+          "source": "夜の暗闇は冷たいが、その泉の水はとても温かそうに見える。",
+          "target": "밤의 어둠은 차갑지만, 저 샘물은 무척 따뜻해 보인다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0156",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001506",
+          "source": "血の赤には人の温もりが感じられた。",
+          "target": "피의 붉은빛에서는 사람의 온기가 느껴졌다."
+        },
+        {
+          "id": "kureha_05.mjo::001510",
+          "source": "それは自分達の内側にも詰まっているものだから。",
+          "target": "우리 몸속에도 가득 들어 있는 것이니까."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0157",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001515",
+          "source": "肉体という殻をぶち破って、中の血が溢れて…",
+          "target": "육체라는 껍데기를 깨뜨리고 안의 피가 넘쳐흐르면…"
+        },
+        {
+          "id": "kureha_05.mjo::001519",
+          "source": "そしたらあの泉に溶け込んで一つになれるのだろうか？",
+          "target": "그러면 저 샘에 녹아들어 하나가 될 수 있을까?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0158",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001524",
+          "source": "そうすれば温もりの中でまどろんで、",
+          "target": "그러면 온기 속에서 잠이 들어,"
+        },
+        {
+          "id": "kureha_05.mjo::001528",
+          "source": "もう生きることに思い悩むこともないのだろうか…",
+          "target": "더는 살아가는 일로 괴로워하지 않아도 되는 걸까…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0159",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001543",
+          "source": "「…はっ。何を考えてるんだ、僕は…」",
+          "target": "「…핫. 내가 무슨 생각을 하는 거야…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "쿠레하의 생사를 걱정하며 구조하려는 남자",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "다급한 부름과 당혹한 독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0160",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001548",
+          "source": "不意に正気を取り戻す僕。",
+          "target": "나는 문득 정신을 차렸다."
+        },
+        {
+          "id": "kureha_05.mjo::001552",
+          "source": "気が付くと廃マンションの塀に頭を押し付けていた。",
+          "target": "어느새 폐아파트 난간에 머리를 누르고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0161",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001557",
+          "source": "あまりにショッキングな光景を見たせいで、",
+          "target": "너무나 충격적인 광경을 본 탓에,"
+        },
+        {
+          "id": "kureha_05.mjo::001561",
+          "source": "軽いトリップに陥っていたようだ。",
+          "target": "잠시 몽롱한 상태에 빠졌던 모양이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0162",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001568",
+          "source": "「そうだ、暮葉…暮葉を助けないとっ」",
+          "target": "「그래, 쿠레하… 쿠레하를 구해야 해!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "쿠레하의 생사를 걱정하며 구조하려는 남자",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "다급한 부름과 당혹한 독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0163",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001573",
+          "source": "彼女が死んだと決まったわけじゃない。",
+          "target": "그녀가 죽었다고 단정할 수는 없다."
+        },
+        {
+          "id": "kureha_05.mjo::001577",
+          "source": "出血はひどそうだがまだ息はあるかもしれない。",
+          "target": "피를 많이 흘린 것 같지만 아직 숨이 붙어 있을지도 모른다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0164",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001582",
+          "source": "僕はほとんど四つん這いのまま足を動かし、",
+          "target": "나는 거의 네 발로 기듯이 다리를 움직여,"
+        },
+        {
+          "id": "kureha_05.mjo::001586",
+          "source": "慌てて階段を下りる。",
+          "target": "황급히 계단을 내려갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0165",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001599",
+          "source": "スタッ、スタッ、スタッ、スタッ…",
+          "target": "타닥, 타닥, 타닥, 타닥…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "효과음",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "의성어",
+        "text_function": "sound_effect"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0166",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001604",
+          "source": "転げ落ちるようにして一階まで戻ってきた。",
+          "target": "굴러떨어지듯 1층까지 내려왔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0167",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001609",
+          "source": "そしてマンション前に出ると、",
+          "target": "그리고 아파트 앞으로 나와,"
+        },
+        {
+          "id": "kureha_05.mjo::001613",
+          "source": "外周をぐるりと回って暮葉の落下した地点へ向かう…",
+          "target": "건물 바깥을 빙 돌아 쿠레하가 떨어진 곳으로 향했다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0168",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001620",
+          "source": "「暮葉っ」",
+          "target": "「쿠레하!」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하의 생사를 걱정하며 구조하려는 남자",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "다급한 부름과 당혹한 독백",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0169",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001629",
+          "source": "上から見た通り、",
+          "target": "위에서 본 그대로,"
+        },
+        {
+          "id": "kureha_05.mjo::001633",
+          "source": "アスファルトの地面には血の海が広がっていた",
+          "target": "아스팔트 바닥에는 피바다가 펼쳐져 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0170",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001638",
+          "source": "むせ返るような血の匂いに胸がむかつき、",
+          "target": "숨이 막힐 만큼 짙은 피 냄새에 속이 울렁거렸고,"
+        },
+        {
+          "id": "kureha_05.mjo::001642",
+          "source": "吐き気と息苦しさを覚える。",
+          "target": "구역질이 나고 숨쉬기가 힘들었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0171",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001647",
+          "source": "そこには確かに、生命が弾けてばら撒かれた痕跡があった。",
+          "target": "그곳에는 분명 생명이 터져 흩뿌려진 흔적이 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0172",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001652",
+          "source": "…だがしかし…",
+          "target": "…그런데도…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0173",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001659",
+          "source": "「…暮葉…？　暮葉はどこへ…？」",
+          "target": "「…쿠레하…? 쿠레하는 어디에…?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [
+          "쿠레하"
+        ],
+        "relationship": "쿠레하의 생사를 걱정하며 구조하려는 남자",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "다급한 부름과 당혹한 독백",
+        "text_function": "dialogue"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0174",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001664",
+          "source": "そう、そこには暮葉の",
+          "target": "그래, 그곳에는 쿠레하의"
+        },
+        {
+          "id": "kureha_05.mjo::001668",
+          "source": "しかなかった。",
+          "target": "만 남아 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0175",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001673",
+          "source": "温かい中身をぶちまけ、破れ、損なわれた筈の暮葉の身体が、",
+          "target": "따뜻한 속을 쏟아 내고 찢어져 망가졌을 쿠레하의 몸이,"
+        },
+        {
+          "id": "kureha_05.mjo::001677",
+          "source": "跡形もなく消えていた。",
+          "target": "감쪽같이 사라져 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0176",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001684",
+          "source": "「そんな…そんなバカな…」",
+          "target": "「그런… 그럴 리가…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "쿠레하의 생사를 걱정하며 구조하려는 남자",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "다급한 부름과 당혹한 독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0177",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001689",
+          "source": "まさか本当に空へ飛んでいったとでも言うのか？",
+          "target": "설마 정말로 하늘로 날아갔다는 건가?"
+        },
+        {
+          "id": "kureha_05.mjo::001694",
+          "source": "いや、でも確かに暮葉は地面へ落ちた筈。",
+          "target": "아니, 하지만 분명 쿠레하는 땅으로 떨어졌을 텐데."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0178",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001699",
+          "source": "それともさっきの三人組が証拠を隠滅しようとして、",
+          "target": "아니면 아까 그 세 남자가 증거를 없애려고"
+        },
+        {
+          "id": "kureha_05.mjo::001703",
+          "source": "彼女を運び去ったとか？",
+          "target": "그녀를 옮겨 간 건가?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0179",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001708",
+          "source": "でもあの時の連中は、",
+          "target": "하지만 그때 녀석들은"
+        },
+        {
+          "id": "kureha_05.mjo::001712",
+          "source": "ただ逃げ出すことしか考えてない様子だったし…",
+          "target": "그저 도망칠 생각밖에 없어 보였는데…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0180",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001719",
+          "source": "「一体、何がどうなってるんだ…」",
+          "target": "「대체, 뭐가 어떻게 된 거야…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고",
+        "addressees": [],
+        "relationship": "쿠레하의 생사를 걱정하며 구조하려는 남자",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "다급한 부름과 당혹한 독백",
+        "text_function": "aside"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0181",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001735",
+          "source": "その後しばらく周囲を探し回ったが、",
+          "target": "그 뒤로 한동안 주위를 찾아다녔지만,"
+        },
+        {
+          "id": "kureha_05.mjo::001739",
+          "source": "暮葉の姿はどこにも見つからなかった。",
+          "target": "쿠레하의 모습은 어디에서도 찾을 수 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0182",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001744",
+          "source": "落下地点の血溜まりだけが、",
+          "target": "떨어진 자리에 고인 피만이,"
+        },
+        {
+          "id": "kureha_05.mjo::001748",
+          "source": "本体を失った影のようにアスファルトに染み付いている。",
+          "target": "몸을 잃은 그림자처럼 아스팔트에 스며들어 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "kureha_05.mjo::u0183",
+      "fields": [
+        {
+          "id": "kureha_05.mjo::001753",
+          "source": "そして頭上には真円に近い月。",
+          "target": "그리고 머리 위에는 둥근 모양에 가까운 달이"
+        },
+        {
+          "id": "kureha_05.mjo::001757",
+          "source": "僕の混乱をより深めるように、青白い光を放っていた…",
+          "target": "내 혼란을 더 부추기듯 창백한 빛을 내뿜고 있었다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "마키노 게이고(서술)",
+        "addressees": [],
+        "relationship": "쿠레하 투신을 목격한 남자의 충격과 수색",
+        "story_phase": "kureha_05 / 투신 직후와 사라진 몸",
+        "voice": "담백한 일인칭 서술; 154–158은 피의 광경에 압도된 몽롱한 내면",
+        "text_function": "narration"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "痕跡",
+      "target": "흔적",
+      "evidence": [
+        "kureha_05.mjo::u0171",
+        "kureha_05.mjo::u0174"
+      ],
+      "note": "몸이 사라지고 피만 남은 사건의 반복 모티프; 강조 inline에도 같은 어휘 사용"
+    }
+  ],
+  "inline_records": [
+    {
+      "unit": "kureha_05.mjo::u0174",
+      "id": "kureha_05.mjo::001666",
+      "source": "痕跡",
+      "target": " 흔적",
+      "consumer": "yazlib $2f93f26a emphasized displayed body",
+      "evidence": "research/disassembly/kureha_05.mjo.mjil: 044fe text then 04519 ldstr 痕跡 -> 04522 callp $2f93f26a (1), followed by 0452e text しかなかった。"
+    }
+  ],
+  "context_coverage": "All kureha_05 units 1-183 read; preceding 123-132 reviewed for leap continuity.",
+  "notes": [
+    "u0174 complete rendered Korean: 그래, 그곳에는 쿠레하의 흔적만 남아 있었다.",
+    "Runtime/layout verification pending."
+  ]
+}

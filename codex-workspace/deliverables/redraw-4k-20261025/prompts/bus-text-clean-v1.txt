@@ -1,0 +1,7 @@
+Use case: precise-object-edit / text removal.
+Input image 1 is the approved freshly redrawn bus illustration. Produce a clean text-free plate for Korean typesetting.
+Keep EXACTLY the same 4:3 canvas, camera, bus silhouette, panels, glass reflections, headlights, wheels, road, sky, colors, and drawing. Change ONLY these two areas:
+1) Inside the narrow illuminated destination display high behind the windshield, remove every Japanese glyph including its glow, leaving the same dark glass/display and reflections completely blank.
+2) Inside the small white destination board centered on the front bumper, remove all green Japanese destination lettering and the black Japanese 高速 glyphs. Preserve the white panel, the outer thin border and the small outlined box on its right, but leave both white interiors completely blank.
+Do not write Korean yet. No letters or numbers in either destination display. These two signs must be entirely text-free so a separately authored Korean lettering layer can be applied.
+Keep ALL other details unchanged, especially the green license plate numbers 200 and 168, the side HIGHWAY CRUIS lettering, wipers, panel geometry and paint reflections. Do not recompose, redraw other areas, add text, pad, or crop. Output the same pixel dimensions and 4:3 aspect ratio as image 1.

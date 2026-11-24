@@ -1,0 +1,69 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "records": [
+    {
+      "id": "config-button::window",
+      "source": "ウィンドウ",
+      "target": "창 모드",
+      "origin": [
+        202,
+        102
+      ]
+    },
+    {
+      "id": "config-button::fullscreen",
+      "source": "フルスクリーン",
+      "target": "전체 화면",
+      "origin": [
+        288,
+        102
+      ]
+    },
+    {
+      "id": "config-button::read-only",
+      "source": "既読のみ",
+      "target": "읽은 글만",
+      "origin": [
+        202,
+        133
+      ]
+    },
+    {
+      "id": "config-button::all",
+      "source": "すべて",
+      "target": "모두",
+      "origin": [
+        288,
+        133
+      ]
+    },
+    {
+      "id": "config-button::font-select",
+      "source": "選択する",
+      "target": "선택",
+      "origin": [
+        522,
+        102
+      ]
+    },
+    {
+      "id": "config-button::choice-color",
+      "source": "色を変える",
+      "target": "색상 변경",
+      "origin": [
+        522,
+        133
+      ]
+    },
+    {
+      "id": "config-button::choice-keep",
+      "source": "そのまま",
+      "target": "유지",
+      "origin": [
+        609,
+        133
+      ]
+    }
+  ]
+}

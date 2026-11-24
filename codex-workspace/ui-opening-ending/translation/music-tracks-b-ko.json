@@ -1,0 +1,280 @@
+{
+  "translator_model": "Codex internal",
+  "tracks": [
+    {
+      "track_id": 6,
+      "source": "distortion",
+      "target": "왜곡",
+      "crop": [
+        45,
+        416,
+        151,
+        46
+      ],
+      "left": 68,
+      "size": 18
+    },
+    {
+      "track_id": 27,
+      "source": "声が聴こえる〜Calling you〜",
+      "target": "목소리가 들려\n~널 부르며~",
+      "crop": [
+        522,
+        416,
+        214,
+        46
+      ],
+      "left": 533,
+      "size": 17
+    },
+    {
+      "track_id": 28,
+      "source": "声が聴こえる〜Calling you〜\n(instrumental)",
+      "target": "목소리가 들려\n~널 부르며~ (연주곡)",
+      "crop": [
+        522,
+        465,
+        214,
+        46
+      ],
+      "left": 533,
+      "size": 17
+    }
+  ],
+  "records": [
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-06",
+      "track_id": 6,
+      "source": "distortion",
+      "target": "왜곡",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        45,
+        416,
+        151,
+        46
+      ],
+      "source_region": [
+        60,
+        423,
+        133,
+        24
+      ],
+      "target_ink_bounds": [
+        68,
+        423,
+        106,
+        446
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-27",
+      "track_id": 27,
+      "source": "声が聴こえる〜Calling you〜",
+      "target": "목소리가 들려\n~널 부르며~",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        522,
+        416,
+        214,
+        46
+      ],
+      "source_region": [
+        522,
+        416,
+        214,
+        46
+      ],
+      "target_ink_bounds": [
+        533,
+        421,
+        635,
+        459
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_off.rct::track-28",
+      "track_id": 28,
+      "source": "声が聴こえる〜Calling you〜\n(instrumental)",
+      "target": "목소리가 들려\n~널 부르며~ (연주곡)",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        522,
+        465,
+        214,
+        46
+      ],
+      "source_region": [
+        522,
+        465,
+        214,
+        46
+      ],
+      "target_ink_bounds": [
+        533,
+        470,
+        639,
+        509
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-06",
+      "track_id": 6,
+      "source": "distortion",
+      "target": "왜곡",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        45,
+        416,
+        151,
+        46
+      ],
+      "source_region": [
+        45,
+        416,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        68,
+        423,
+        106,
+        446
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-27",
+      "track_id": 27,
+      "source": "声が聴こえる〜Calling you〜",
+      "target": "목소리가 들려\n~널 부르며~",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        522,
+        416,
+        214,
+        46
+      ],
+      "source_region": [
+        522,
+        416,
+        214,
+        46
+      ],
+      "target_ink_bounds": [
+        533,
+        421,
+        635,
+        459
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_on.rct::track-28",
+      "track_id": 28,
+      "source": "声が聴こえる〜Calling you〜\n(instrumental)",
+      "target": "목소리가 들려\n~널 부르며~ (연주곡)",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        522,
+        465,
+        214,
+        46
+      ],
+      "source_region": [
+        522,
+        465,
+        214,
+        46
+      ],
+      "target_ink_bounds": [
+        533,
+        470,
+        639,
+        509
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-06",
+      "track_id": 6,
+      "source": "distortion",
+      "target": "왜곡",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        45,
+        416,
+        151,
+        46
+      ],
+      "source_region": [
+        45,
+        416,
+        151,
+        46
+      ],
+      "target_ink_bounds": [
+        68,
+        423,
+        106,
+        446
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-27",
+      "track_id": 27,
+      "source": "声が聴こえる〜Calling you〜",
+      "target": "목소리가 들려\n~널 부르며~",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        522,
+        416,
+        214,
+        46
+      ],
+      "source_region": [
+        522,
+        416,
+        214,
+        46
+      ],
+      "target_ink_bounds": [
+        533,
+        421,
+        635,
+        459
+      ]
+    },
+    {
+      "id": "fastdata.arc::サウンドモード_push.rct::track-28",
+      "track_id": 28,
+      "source": "声が聴こえる〜Calling you〜\n(instrumental)",
+      "target": "목소리가 들려\n~널 부르며~ (연주곡)",
+      "translator_model": "Codex internal",
+      "consumer_crop": [
+        522,
+        465,
+        214,
+        46
+      ],
+      "source_region": [
+        522,
+        465,
+        214,
+        46
+      ],
+      "target_ink_bounds": [
+        533,
+        470,
+        639,
+        509
+      ]
+    }
+  ],
+  "remaining_track_ids": [
+    7,
+    8,
+    14,
+    15,
+    16,
+    22,
+    23
+  ]
+}

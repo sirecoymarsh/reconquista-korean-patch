@@ -1,0 +1,30 @@
+{
+  "candidate": "ui-trial-v20",
+  "native_candidate": "native-ui-v5",
+  "test_processes": [
+    36364
+  ],
+  "all_test_processes_exited": true,
+  "operations": 5,
+  "focus_samples": 241,
+  "game_foreground_observations": 0,
+  "private_input_desktop_observations": 0,
+  "before_after_foreground_changes": 0,
+  "focus_sampler_errors": [],
+  "sampling_scope": "50ms samples during each command only; gaps unmonitored.",
+  "verified_scope": [
+    "All9 load-screen decorative quotes visible as two Korean lines in actual game, within their slots.",
+    "Existing occupied slot1 and empty slots2–9 retained; no save/load action executed."
+  ],
+  "evidence": "evidence/background-runtime/bg-v20-load-203504.png",
+  "hover_request": "One WM_MOUSEMOVE request to empty slot2 did not change captured pixel hash. No hover/focus-state runtime proof claimed.",
+  "limits": [
+    "Actual save-screen and all focus variants of the new quote remain pending.",
+    "The unmodified title background has an English decorative quote visible through translucent load UI; it is separate pending UI-TITLE content, not residual English in the rebuilt slot footers.",
+    "Prior functional save/load evidence reused; not retested."
+  ],
+  "scenario_modified": false,
+  "source_scenario_evidence": "reports/background-runtime-v20-prepared.json",
+  "audio_evidence": "reports/background-runtime-v20-audio.json",
+  "runtime_surface_complete": false
+}

@@ -1,0 +1,572 @@
+0000 00000: line          #31
+0001 00004: argcheck      []
+0002 00008: alloca        [int, int, int, int, int, string, intarray, int, int]
+0003 00015: line          #40
+0004 00019: syscallp      $44b5c4ed (0)  ; $save_menu_disable
+0005 00021: line          #41
+0006 00025: syscallp      $7c3b36c5 (0)  ; $save_disable
+0007 0002d: line          #42
+0008 00031: syscallp      $818a4b92 (0)  ; $reset_fast_mode
+0009 00039: line          #43
+0010 0003d: callp         $ab6fec48 (0)  ; $reset_fast_disp@CONSOLE
+0011 00049: line          #44
+0012 0004d: syscallp      $81ce0485 (0)  ; $fast_mode_disable
+0013 00055: line          #47
+0014 00059: syscallp      $979d1f16 (0)  ; $console_off
+0015 00061: line          #48
+0016 00065: syscallp      $4662e95d (0)  ; $draw_wait
+0017 0006d: line          #50
+0018 00071: syscallp      $1204d7e8 (0)  ; $mk_unwait
+0019 00079: line          #51
+0020 0007d: syscallp      $b7e3e81c (0)
+0021 00085: line          #53
+0022 00089: ldc.i         16
+0023 0008f: syscall       $96b07aee (1)  ; $dim_create#
+0024 00097: st.iarr       local intarray $92b3e4cf 6
+0025 000a1: pop
+0026 000a3: line          #57
+0027 000a7: ldc.i         0
+0028 000ad: st.i          local int $5a4221e1 4  ; _i@
+0029 000b7: pop
+0030 000b9: ld            local int $5a4221e1 4  ; _i@
+0031 000c3: ld            savefile int $01225751
+0032 000cd: clt.i
+0033 000cf: brfalse       @~+0a0
+0034 000d5: br            @~+012
+0035 000db: ld            local int postinc $5a4221e1 4  ; _i@
+0036 000e5: pop
+0037 000e7: br            @~-034
+0038 000ed: line          #58
+0039 000f1: ld            local int $5a4221e1 4  ; _i@
+0040 000fb: ldelem        savefile string dim1 $853f682e
+0041 00105: st.s          local string $a75141c4 5  ; _fn$@
+0042 0010f: pop
+0043 00111: line          #59
+0044 00115: ld            local string $a75141c4 5  ; _fn$@
+0045 0011f: syscall       $dad96289 (1)  ; $page_create_file
+0046 00127: ld            local int $5a4221e1 4  ; _i@
+0047 00131: stelem.i      local int dim1 $92b3e4cf 6
+0048 0013b: pop
+0049 0013d: line          #63
+0050 00141: ldc.i         1
+0051 00147: syscallp      $cf35f0e3 (1)  ; $wait
+0052 0014f: line          #64
+0053 00153: syscallp      $818a4b92 (0)  ; $reset_fast_mode
+0054 0015b: line          #65
+0055 0015f: callp         $ab6fec48 (0)  ; $reset_fast_disp@CONSOLE
+0056 0016b: line          #66
+0057 0016f: br            @~-09a
+0058 00175: line          #68
+0059 00179: ldc.i         600
+0060 0017f: ldc.i         800
+0061 00185: syscall       $83d81f59 (2)  ; $page_create
+0062 0018d: st.i          local int $da4ece37 7
+0063 00197: pop
+0064 00199: line          #69
+0065 0019d: ld            local int $da4ece37 7
+0066 001a7: syscall       $ef4581dc (1)  ; $sprite_create
+0067 001af: st.i          local int $fa150bb6 8
+0068 001b9: pop
+0069 001bb: line          #71
+0070 001bf: syscall       $6584f13e (0)  ; $timer
+0071 001c7: st.i          local int $bc13215d 0
+0072 001d1: pop
+0073 001d3: line          #72
+0074 001d7: ld            savefile int $451d3082
+0075 001e1: ld            savefile int $0b98a38f
+0076 001eb: add.i
+0077 001ed: ld            local int $bc13215d 0
+0078 001f7: sub.i
+0079 001f9: st.i          local int $283f6306 1  ; _time@
+0080 00203: pop
+0081 00205: line          #79
+0082 00209: ld            persistent int $c88dfb04
+0083 00213: brfalse       @~+01a
+0084 00219: line          #80
+0085 0021d: syscallp      $44bc7555 (0)  ; $mouse_enable
+0086 00225: line          #81
+0087 00229: bsel.x        @~+21c
+0088 0022f: line          #82
+0089 00233: line          #84
+0090 00237: ld            savefile int $01225751
+0091 00241: brfalse       @~+204
+0092 00247: line          #85
+0093 0024b: ld            local int $283f6306 1  ; _time@
+0094 00255: ld            savefile int $01225751
+0095 0025f: div.i
+0096 00261: st.i          local int $1899bd0f 2
+0097 0026b: pop
+0098 0026d: line          #86
+0099 00271: ldc.i         0
+0100 00277: st.i          local int $5a4221e1 4  ; _i@
+0101 00281: pop
+0102 00283: ld            local int $5a4221e1 4  ; _i@
+0103 0028d: ld            savefile int $01225751
+0104 00297: clt.i
+0105 00299: brfalse       @~+1a8
+0106 0029f: br            @~+012
+0107 002a5: ld            local int postinc $5a4221e1 4  ; _i@
+0108 002af: pop
+0109 002b1: br            @~-034
+0110 002b7: line          #88
+0111 002bb: syscallp      $818a4b92 (0)  ; $reset_fast_mode
+0112 002c3: line          #89
+0113 002c7: callp         $ab6fec48 (0)  ; $reset_fast_disp@CONSOLE
+0114 002d3: line          #91
+0115 002d7: ldc.i         0
+0116 002dd: syscallp      $cf35f0e3 (1)  ; $wait
+0117 002e5: line          #92
+0118 002e9: ldc.i         0
+0119 002ef: ldc.i         0
+0120 002f5: ld            local int $da4ece37 7
+0121 002ff: ldc.i         9999
+0122 00305: ldc.i         9999
+0123 0030b: ldc.i         0
+0124 00311: ldc.i         0
+0125 00317: ld            savefile int $9c805929  ; @page_back@PIC
+0126 00321: syscallp      $56bbba3a (8)  ; $grp_copy
+0127 00329: line          #93
+0128 0032d: ldc.i         0
+0129 00333: ld            local int $fa150bb6 8
+0130 0033d: syscallp      $ff7c52e6 (2)  ; $sprite_alfa_set
+0131 00345: line          #94
+0132 00349: ldc.i         2000
+0133 0034f: ldc.i         255
+0134 00355: ld            local int $fa150bb6 8
+0135 0035f: syscallp      $ff7c52e6 (3)  ; $sprite_alfa_set
+0136 00367: line          #95
+0137 0036b: ldc.i         0
+0138 00371: ldc.i         0
+0139 00377: ld            local int $fa150bb6 8
+0140 00381: syscallp      $e119d5ba (3)  ; $sprite_move
+0141 00389: line          #97
+0142 0038d: ldc.i         0
+0143 00393: ldc.i         0
+0144 00399: ld            savefile int $9c805929  ; @page_back@PIC
+0145 003a3: ldc.i         9999
+0146 003a9: ldc.i         9999
+0147 003af: ldc.i         0
+0148 003b5: ldc.i         0
+0149 003bb: ld            local int $5a4221e1 4  ; _i@
+0150 003c5: ldelem        local int dim1 $92b3e4cf 6
+0151 003cf: syscallp      $56bbba3a (8)  ; $grp_copy
+0152 003d7: line          #99
+0153 003db: ld            local int $fa150bb6 8
+0154 003e5: syscallp      $d7771b72 (1)  ; $sprite_alfa_wait
+0155 003ed: line          #101
+0156 003f1: syscallp      $818a4b92 (0)  ; $reset_fast_mode
+0157 003f9: line          #102
+0158 003fd: callp         $ab6fec48 (0)  ; $reset_fast_disp@CONSOLE
+0159 00409: line          #103
+0160 0040d: ld            local int $1899bd0f 2
+0161 00417: ld            local int $5a4221e1 4  ; _i@
+0162 00421: ldc.i         1
+0163 00427: add.i
+0164 00429: mul.i
+0165 0042b: ld            local int $bc13215d 0
+0166 00435: syscallp      $ff75cd29 (2)  ; $timer_sync
+0167 0043d: line          #104
+0168 00441: br            @~-1a2
+0169 00447: line          #105
+0170 0044b: bsel.clr
+0171 0044d: line          #110
+0172 00451: syscallp      $1204d7e8 (0)  ; $mk_unwait
+0173 00459: line          #111
+0174 0045d: syscallp      $60085fa4 (0)  ; $mouse_disable
+0175 00465: line          #113
+0176 00469: ld            local int $fa150bb6 8
+0177 00473: syscallp      $58b31737 (1)  ; $sprite_release
+0178 0047b: line          #114
+0179 0047f: ld            local int $da4ece37 7
+0180 00489: syscallp      $c50dfd06 (1)  ; $page_release
+0181 00491: line          #116
+0182 00495: ldc.i         0
+0183 0049b: st.i          local int $5a4221e1 4  ; _i@
+0184 004a5: pop
+0185 004a7: ld            local int $5a4221e1 4  ; _i@
+0186 004b1: ld            savefile int $01225751
+0187 004bb: clt.i
+0188 004bd: brfalse       @~+05c
+0189 004c3: br            @~+012
+0190 004c9: ld            local int postinc $5a4221e1 4  ; _i@
+0191 004d3: pop
+0192 004d5: br            @~-034
+0193 004db: line          #117
+0194 004df: ld            local int $5a4221e1 4  ; _i@
+0195 004e9: ldelem        local int dim1 $92b3e4cf 6
+0196 004f3: brfalse       @~+01c
+0197 004f9: ld            local int $5a4221e1 4  ; _i@
+0198 00503: ldelem        local int dim1 $92b3e4cf 6
+0199 0050d: syscallp      $c50dfd06 (1)  ; $page_release
+0200 00515: line          #118
+0201 00519: br            @~-056
+0202 0051f: line          #124
+0203 00523: ldc.i         1000
+0204 00529: ldstr         "black"
+0205 00533: callp         $a4eb1e4c (2)  ; $disp_back@PIC
+0206 0053f: line          #125
+0207 00543: callp         $7e8dee67 (0)  ; $trans@PIC
+0208 0054f: line          #127
+0209 00553: callp         $5f271e74 (0)  ; $trans_autoexec@PIC
+0210 0055f: syscallp      $8c7f4c1e (0)  ; $fast_mode_enable
+0211 00567: line          #128
+0212 0056b: syscallp      $44bc7555 (0)  ; $mouse_enable
+0213 00573: line          #129
+0214 00577: syscallp      $1bb47604 (0)  ; $save_enable
+0215 0057f: line          #130
+0216 00583: syscallp      $4d849aa6 (0)  ; $save_menu_enable
+0217 0058b: line          #132
+0218 0058f: callp         $306fb224 (0)  ; $reset_force_play@CONSOLE
+0219 0059b: line          #133
+0220 0059f: ldc.i         0
+0221 005a5: ret
+0222 005a7: line          #138
+0223 005ab: argcheck      [string, int, string]
+0224 005b2: alloca        []
+0225 005b6: line          #140
+0226 005ba: ldc.i         1000
+0227 005c0: ldc.i         3000
+0228 005c6: ldc.i         400
+0229 005cc: callp         $0070d8d1 (3)  ; $set_force_play@CONSOLE
+0230 005d8: line          #142
+0231 005dc: ld            local string $69538280 -4
+0232 005e6: ldstr         "@GLOBAL"
+0233 005f2: add.s
+0234 005f4: syscall       $f9a3b675 (1)  ; $get_variable_nowarn
+0235 005fc: brfalse       @~+008
+0236 00602: syscallp      $44bc7555 (0)  ; $mouse_enable
+0237 0060a: line          #144
+0238 0060e: syscall       $6584f13e (0)  ; $timer
+0239 00616: st.i          savefile int $451d3082
+0240 00620: pop
+0241 00622: line          #145
+0242 00626: ld            local int $54965382 -3
+0243 00630: st.i          savefile int $0b98a38f
+0244 0063a: pop
+0245 0063c: line          #146
+0246 00640: ldc.i         0
+0247 00646: ld            local string $a0da8eec -2
+0248 00650: syscallp      $4980f82c (2)  ; $music
+0249 00658: line          #147
+0250 0065c: ldc.i         0
+0251 00662: ret
+0252 00664: line          #151
+0253 00668: argcheck      [string]
+0254 0066d: alloca        [int, int, int, string]
+0255 00675: line          #156
+0256 00679: ldc.i         16
+0257 0067f: syscall       $1f57b724 (1)  ; $dim_create$#
+0258 00687: st.sarr       savefile stringarray $853f682e
+0259 00691: pop
+0260 00693: line          #158
+0261 00697: ld            local string $69538280 -2
+0262 006a1: st.s          savefile string $d14fc68d
+0263 006ab: pop
+0264 006ad: line          #160
+0265 006b1: ldc.i         0
+0266 006b7: st.i          savefile int $01225751
+0267 006c1: pop
+0268 006c3: line          #161
+0269 006c7: ldc.i         0
+0270 006cd: st.i          local int $5a4221e1 2  ; _i@
+0271 006d7: pop
+0272 006d9: ld            local int $5a4221e1 2  ; _i@
+0273 006e3: ld            local int $a704bdbd -1  ; __SYS__NumParams@
+0274 006ed: ldc.i         1
+0275 006f3: sub.i
+0276 006f5: clt.i
+0277 006f7: brfalse       @~+1c2
+0278 006fd: br            @~+012
+0279 00703: ld            local int postinc $5a4221e1 2  ; _i@
+0280 0070d: pop
+0281 0070f: br            @~-03c
+0282 00715: line          #162
+0283 00719: ld            local int $5a4221e1 2  ; _i@
+0284 00723: switch        @, ~, +, 0, 3, c, ,,  , @, ~, +, 0, 4, 8, ,,  , @, ~, +, 0, 5, 4, ,,  , @, ~, +, 0, 6, 0, ,,  , @, ~, +, 0, 6, c, ,,  , @, ~, +, 0, 7, 8, ,,  , @, ~, +, 0, 8, 4, ,,  , @, ~, +, 0, 9, 0, ,,  , @, ~, +, 0, 9, c, ,,  , @, ~, +, 0, a, 8, ,,  , @, ~, +, 0, b, 4, ,,  , @, ~, +, 0, c, 0, ,,  , @, ~, +, 0, c, c, ,,  , @, ~, +, 0, d, 8, ,,  , @, ~, +, 0, e, 4, ,,  , @, ~, +, 0, f, 0
+0285 00767: ld            local string $230c36cd -3  ; _fn1$@
+0286 00771: br            @~+0ea
+0287 00777: ld            local string $214a8894 -4  ; _fn2$@
+0288 00781: br            @~+0da
+0289 00787: ld            local string $2088e2a3 -5
+0290 00791: br            @~+0ca
+0291 00797: ld            local string $25c7f426 -6
+0292 007a1: br            @~+0ba
+0293 007a7: ld            local string $24059e11 -7
+0294 007b1: br            @~+0aa
+0295 007b7: ld            local string $26432048 -8
+0296 007c1: br            @~+09a
+0297 007c7: ld            local string $27814a7f -9
+0298 007d1: br            @~+08a
+0299 007d7: ld            local string $2cdd0d42 -10
+0300 007e1: br            @~+07a
+0301 007e7: ld            local string $2d1f6775 -11
+0302 007f1: br            @~+06a
+0303 007f7: ld            local string $5b96b929 -12
+0304 00801: br            @~+05a
+0305 00807: ld            local string $5a54d31e -13
+0306 00811: br            @~+04a
+0307 00817: ld            local string $58126d47 -14
+0308 00821: br            @~+03a
+0309 00827: ld            local string $59d00770 -15
+0310 00831: br            @~+02a
+0311 00837: ld            local string $5c9f11f5 -16
+0312 00841: br            @~+01a
+0313 00847: ld            local string $5d5d7bc2 -17
+0314 00851: br            @~+00a
+0315 00857: ld            local string $5f1bc59b -18
+0316 00861: st.s          local string $a75141c4 3  ; _fn$@
+0317 0086b: pop
+0318 0086d: line          #165
+0319 00871: ldc.i         1
+0320 00877: brfalse       @~+038
+0321 0087d: line          #166
+0322 00881: ld            local string $a75141c4 3  ; _fn$@
+0323 0088b: ld            savefile int $01225751
+0324 00895: stelem.s      savefile string dim1 $853f682e
+0325 0089f: pop
+0326 008a1: line          #167
+0327 008a5: ld            savefile int postinc $01225751
+0328 008af: pop
+0329 008b1: line          #168
+0330 008b5: line          #169
+0331 008b9: br            @~-1bc
+0332 008bf: line          #172
+0333 008c3: ld            savefile int $451d3082
+0334 008cd: ldc.i         0
+0335 008d3: ceq.i
+0336 008d5: brfalse       @~+032
+0337 008db: line          #173
+0338 008df: syscall       $6584f13e (0)  ; $timer
+0339 008e7: st.i          savefile int $451d3082
+0340 008f1: pop
+0341 008f3: line          #174
+0342 008f7: ldc.i         60000
+0343 008fd: st.i          savefile int $0b98a38f
+0344 00907: pop
+0345 00909: line          #175
+0346 0090d: line          #177
+0347 00911: callp         $c83ce4e0 (0)
+0348 0091d: line          #179
+0349 00921: ldc.i         0
+0350 00927: st.i          savefile int $451d3082
+0351 00931: pop
+0352 00933: line          #180
+0353 00937: ldc.i         1
+0354 0093d: ld            local string $69538280 -2
+0355 00947: ldstr         "@GLOBAL"
+0356 00953: add.s
+0357 00955: syscallp      $cd290aef (2)  ; $set_variable
+0358 0095d: line          #182
+0359 00961: ldc.i         1
+0360 00967: syscall       $1f57b724 (1)  ; $dim_create$#
+0361 0096f: st.sarr       savefile stringarray $853f682e
+0362 00979: pop
+0363 0097b: line          #183
+0364 0097f: ldc.i         1
+0365 00985: st.i          persistent int $c88dfb04
+0366 0098f: pop
+0367 00991: line          #184
+0368 00995: ldc.i         0
+0369 0099b: ret
+0370 0099d: line          #189
+0371 009a1: argcheck      []
+0372 009a5: alloca        [int, int, int]
+0373 009ac: line          #192
+0374 009b0: ld            local int $a704bdbd -1  ; __SYS__NumParams@
+0375 009ba: ldc.i         1
+0376 009c0: cge.i
+0377 009c2: brfalse       @~+010
+0378 009c8: ld            local int $c632d484 -2  ; _in_time@
+0379 009d2: br            @~+006
+0380 009d8: ldc.i         60000
+0381 009de: st.i          local int $283f6306 2  ; _time@
+0382 009e8: pop
+0383 009ea: line          #193
+0384 009ee: syscallp      $1204d7e8 (0)  ; $mk_unwait
+0385 009f6: line          #194
+0386 009fa: syscallp      $60085fa4 (0)  ; $mouse_disable
+0387 00a02: line          #196
+0388 00a06: syscallp      $44b5c4ed (0)  ; $save_menu_disable
+0389 00a0e: line          #197
+0390 00a12: syscallp      $7c3b36c5 (0)  ; $save_disable
+0391 00a1a: line          #198
+0392 00a1e: syscallp      $818a4b92 (0)  ; $reset_fast_mode
+0393 00a26: line          #199
+0394 00a2a: callp         $ab6fec48 (0)  ; $reset_fast_disp@CONSOLE
+0395 00a36: line          #200
+0396 00a3a: syscallp      $81ce0485 (0)  ; $fast_mode_disable
+0397 00a42: line          #203
+0398 00a46: syscallp      $979d1f16 (0)  ; $console_off
+0399 00a4e: line          #204
+0400 00a52: syscallp      $4662e95d (0)  ; $draw_wait
+0401 00a5a: line          #206
+0402 00a5e: syscallp      $1204d7e8 (0)  ; $mk_unwait
+0403 00a66: line          #207
+0404 00a6a: syscallp      $b7e3e81c (0)
+0405 00a72: line          #209
+0406 00a76: ldstr         "staffrolla"
+0407 00a85: syscall       $c2c3c4f4 (1)  ; $sprite_create_file
+0408 00a8d: st.i          local int $3acf92c1 0  ; _spr@
+0409 00a97: pop
+0410 00a99: line          #211
+0411 00a9d: ldc.i         600
+0412 00aa3: ldc.i         0
+0413 00aa9: ld            local int $3acf92c1 0  ; _spr@
+0414 00ab3: syscallp      $e119d5ba (3)  ; $sprite_move
+0415 00abb: line          #212
+0416 00abf: ld            local int $283f6306 2  ; _time@
+0417 00ac9: ldstr         "staffrolla"
+0418 00ad8: syscall       $ce94e6ca (1)  ; $pic_len_y
+0419 00ae0: neg.i
+0420 00ae2: ldc.i         0
+0421 00ae8: ld            local int $3acf92c1 0  ; _spr@
+0422 00af2: syscallp      $e119d5ba (4)  ; $sprite_move
+0423 00afa: line          #215
+0424 00afe: ldc.i         4000
+0425 00b04: syscallp      $cf35f0e3 (1)  ; $wait
+0426 00b0c: line          #218
+0427 00b10: ld            persistent int $f648d61a
+0428 00b1a: brfalse       @~+032
+0429 00b20: line          #219
+0430 00b24: syscallp      $1204d7e8 (0)  ; $mk_unwait
+0431 00b2c: line          #220
+0432 00b30: syscallp      $b7e3e81c (0)
+0433 00b38: line          #221
+0434 00b3c: syscallp      $44bc7555 (0)  ; $mouse_enable
+0435 00b44: line          #222
+0436 00b48: bsel.x        @~+01a
+0437 00b4e: line          #223
+0438 00b52: line          #226
+0439 00b56: ld            local int $3acf92c1 0  ; _spr@
+0440 00b60: syscallp      $40258a56 (1)  ; $sprite_move_wait
+0441 00b68: bsel.clr
+0442 00b6a: line          #228
+0443 00b6e: callp         $0803cb73 (0)
+0444 00b7a: line          #230
+0445 00b7e: syscallp      $cf2b1e50 (0)  ; $invalidate_disable
+0446 00b86: line          #231
+0447 00b8a: ld            local int $3acf92c1 0  ; _spr@
+0448 00b94: brfalse       @~+01a
+0449 00b9a: line          #233
+0450 00b9e: ld            local int $3acf92c1 0  ; _spr@
+0451 00ba8: syscallp      $58b31737 (1)  ; $sprite_release
+0452 00bb0: line          #234
+0453 00bb4: line          #236
+0454 00bb8: syscallp      $892e9b20 (0)  ; $mk_read
+0455 00bc0: line          #237
+0456 00bc4: syscallp      $1204d7e8 (0)  ; $mk_unwait
+0457 00bcc: line          #239
+0458 00bd0: ldc.i         1
+0459 00bd6: st.i          persistent int $f648d61a
+0460 00be0: pop
+0461 00be2: line          #241
+0462 00be6: syscallp      $1204d7e8 (0)  ; $mk_unwait
+0463 00bee: line          #242
+0464 00bf2: syscallp      $60085fa4 (0)  ; $mouse_disable
+0465 00bfa: line          #244
+0466 00bfe: syscallp      $6de6cdfc (0)  ; $invalidate_enable
+0467 00c06: line          #249
+0468 00c0a: syscallp      $8c7f4c1e (0)  ; $fast_mode_enable
+0469 00c12: line          #250
+0470 00c16: syscallp      $44bc7555 (0)  ; $mouse_enable
+0471 00c1e: line          #251
+0472 00c22: syscallp      $1bb47604 (0)  ; $save_enable
+0473 00c2a: line          #252
+0474 00c2e: syscallp      $4d849aa6 (0)  ; $save_menu_enable
+0475 00c36: line          #253
+0476 00c3a: ldc.i         0
+0477 00c40: ret
+0478 00c42: line          #258
+0479 00c46: argcheck      [string, int, int, int]
+0480 00c4e: alloca        [int]
+0481 00c53: line          #262
+0482 00c57: ld            local string $a75141c4 -2  ; _fn$@
+0483 00c61: syscall       $c2c3c4f4 (1)  ; $sprite_create_file
+0484 00c69: st.i          local int $3acf92c1 0  ; _spr@
+0485 00c73: pop
+0486 00c75: line          #263
+0487 00c79: ldc.i         255
+0488 00c7f: ld            local int $3acf92c1 0  ; _spr@
+0489 00c89: syscallp      $ff7c52e6 (2)  ; $sprite_alfa_set
+0490 00c91: line          #264
+0491 00c95: ldc.i         0
+0492 00c9b: ldc.i         0
+0493 00ca1: ld            local int $3acf92c1 0  ; _spr@
+0494 00cab: syscallp      $e119d5ba (3)  ; $sprite_move
+0495 00cb3: line          #265
+0496 00cb7: bsel.5        @~+006
+0497 00cbd: br            @~+024
+0498 00cc3: bsel.clr
+0499 00cc5: line          #267
+0500 00cc9: ld            local int $3acf92c1 0  ; _spr@
+0501 00cd3: syscallp      $58b31737 (1)  ; $sprite_release
+0502 00cdb: line          #268
+0503 00cdf: ldc.i         0
+0504 00ce5: ret
+0505 00ce7: line          #270
+0506 00ceb: ld            local int $926effbc -4
+0507 00cf5: syscallp      $cf35f0e3 (1)  ; $wait
+0508 00cfd: line          #272
+0509 00d01: ld            local int $bd7e2e87 -3
+0510 00d0b: ldc.i         0
+0511 00d11: ld            local int $3acf92c1 0  ; _spr@
+0512 00d1b: syscallp      $ff7c52e6 (3)  ; $sprite_alfa_set
+0513 00d23: line          #273
+0514 00d27: ld            local int $3acf92c1 0  ; _spr@
+0515 00d31: syscallp      $d7771b72 (1)  ; $sprite_alfa_wait
+0516 00d39: line          #275
+0517 00d3d: ld            local int $a73a7d7c -5
+0518 00d47: syscallp      $cf35f0e3 (1)  ; $wait
+0519 00d4f: line          #277
+0520 00d53: ld            local int $bd7e2e87 -3
+0521 00d5d: ldc.i         255
+0522 00d63: ld            local int $3acf92c1 0  ; _spr@
+0523 00d6d: syscallp      $ff7c52e6 (3)  ; $sprite_alfa_set
+0524 00d75: line          #278
+0525 00d79: ld            local int $3acf92c1 0  ; _spr@
+0526 00d83: syscallp      $d7771b72 (1)  ; $sprite_alfa_wait
+0527 00d8b: line          #279
+0528 00d8f: ldc.i         0
+0529 00d95: ret
+0530 00d97: line          #281
+0531 00d9b: argcheck      [string, int, int, int]
+0532 00da3: alloca        []
+0533 00da7: line          #282
+0534 00dab: syscall       $a62aa5eb (0)  ; $is_fast_mode
+0535 00db3: brfalse       @~+008
+0536 00db9: ldc.i         0
+0537 00dbf: ret
+0538 00dc1: line          #284
+0539 00dc5: ld            local int $a73a7d7c -5
+0540 00dcf: ld            local int $926effbc -4
+0541 00dd9: ld            local int $bd7e2e87 -3
+0542 00de3: ld            local string $a75141c4 -2  ; _fn$@
+0543 00ded: ldc.i         -1051210558
+0544 00df3: syscallp      $f2f9daa8 (5)  ; $thread_begin
+0545 00dfb: line          #285
+0546 00dff: ldc.i         -2
+0547 00e05: syscallp      $cf35f0e3 (1)  ; $wait
+0548 00e0d: ldc.i         -2
+0549 00e13: syscallp      $cf35f0e3 (1)  ; $wait
+0550 00e1b: ldc.i         -2
+0551 00e21: syscallp      $cf35f0e3 (1)  ; $wait
+0552 00e29: ldc.i         -2
+0553 00e2f: syscallp      $cf35f0e3 (1)  ; $wait
+0554 00e37: line          #286
+0555 00e3b: ldc.i         -2
+0556 00e41: syscallp      $cf35f0e3 (1)  ; $wait
+0557 00e49: ldc.i         -2
+0558 00e4f: syscallp      $cf35f0e3 (1)  ; $wait
+0559 00e57: ldc.i         -2
+0560 00e5d: syscallp      $cf35f0e3 (1)  ; $wait
+0561 00e65: ldc.i         -2
+0562 00e6b: syscallp      $cf35f0e3 (1)  ; $wait
+0563 00e73: line          #287
+0564 00e77: ldc.i         0
+0565 00e7d: ret
+0566 00e7f: line          #291
+0567 00e83: argcheck      []
+0568 00e87: alloca        []
+0569 00e8b: line          #292
+0570 00e8f: ldc.i         0
+0571 00e95: ret

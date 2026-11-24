@@ -1,0 +1,2320 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-3/lane-1",
+  "coordinator_thread_id": "01a16335-c355-7c83-ad79-53e1812faa34",
+  "agent_id": "01a16337-2f8b-7960-8351-632c9eaa3a60",
+  "source_script": "last_kako02.mjo",
+  "source_sha256": "9750a99b8b2c6d177fbb6097df3e4fc6809a612f7d44fe86e15eb5be04224e15",
+  "records": [
+    {
+      "unit": "last_kako02.mjo::u0411",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004457",
+          "source": "カサカサカサ…",
+          "target": "바스락바스락…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0411; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0412",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004462",
+          "source": "それから私は彼女に導かれるまま、",
+          "target": "그 뒤 나는 그녀가 이끄는 대로"
+        },
+        {
+          "id": "last_kako02.mjo::004466",
+          "source": "山の中に入っていった。",
+          "target": "산속으로 들어갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0412; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0413",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004471",
+          "source": "草をかき分け、獣道のような道を通って、",
+          "target": "풀을 헤치며 짐승이 다닐 법한 길을 따라"
+        },
+        {
+          "id": "last_kako02.mjo::004475",
+          "source": "迷いのない足取りで進む秋月さん。",
+          "target": "망설임 없이 나아가는 아키즈키 씨."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0413; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0414",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004480",
+          "source": "そんな彼女の後を、私は苦労しながら追いかける。",
+          "target": "나는 그런 그녀를 힘겹게 뒤쫓는다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0414; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0415",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004485",
+          "source": "華奢な体つきの彼女だが、さすがに山育ちだけあって、",
+          "target": "가냘픈 체구지만 역시 산에서 자란 덕인지"
+        },
+        {
+          "id": "last_kako02.mjo::004489",
+          "source": "私よりも遥かに健脚であるらしい。",
+          "target": "나보다 훨씬 잘 걷는 듯하다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0415; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0416",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004494",
+          "source": "私は彼女を見失わないようについて行くのが精一杯だった。",
+          "target": "나는 그녀를 놓치지 않고 따라가는 것만으로도 벅찼다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0416; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0417",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004507",
+          "source": "カサッ",
+          "target": "바스락"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0417; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0418",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004512",
+          "source": "やがて草むらを抜け、少し拓けた場所に出てきた。",
+          "target": "이윽고 풀숲을 빠져나와 조금 트인 곳에 도착했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0418; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0419",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004517",
+          "source": "夕日も届かないほど鬱蒼と茂る緑の中で、",
+          "target": "석양조차 닿지 않을 만큼 울창한 녹음 속에"
+        },
+        {
+          "id": "last_kako02.mjo::004521",
+          "source": "そこに一箇所だけ紅く照らされている木があった。",
+          "target": "오직 한 그루만 붉게 빛나는 나무가 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0419; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0420",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004528",
+          "source": "「…いや、あれは夕日の光じゃなくて…」",
+          "target": "「…아니, 저건 석양빛이 아니라…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "함께 살게 된 두 사람이 가족이라는 관계를 확인; u460부터 이름 호칭",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "다정하지만 정중한 존댓말, u460 쿠레하 씨 호칭 전환",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0420; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0421",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004538",
+          "source": "「そうです。あれは、あの木だけが紅葉してるんですよ」",
+          "target": "「맞아요. 저 나무만 단풍이 들어 있는 거예요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0421; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0422",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004543",
+          "source": "私の口にした疑問に、秋月さんが後を継いで答えた。",
+          "target": "내가 입에 올린 의문에 아키즈키 씨가 말을 이어 대답했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0422; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0423",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004548",
+          "source": "彼女の言う通り、まだ夏の真っ盛りだというのに、",
+          "target": "그녀 말대로 아직 한여름인데도"
+        },
+        {
+          "id": "last_kako02.mjo::004552",
+          "source": "その楓の木らしきものだけは真っ赤に紅葉している。",
+          "target": "단풍나무처럼 생긴 그 나무만 새빨갛게 물들어 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0423; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0424",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004557",
+          "source": "緑の木々に囲まれて、ぽつんと一本だけ赤く染まる楓の木。",
+          "target": "초록 나무들 사이에서 홀로 붉게 물든 단풍나무."
+        },
+        {
+          "id": "last_kako02.mjo::004561",
+          "source": "それは何とも不思議な光景だった。",
+          "target": "참으로 신비한 광경이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0424; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0425",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004576",
+          "source": "「ここは、私のとっておきの場所なんです」",
+          "target": "「여기는 저만의 특별한 장소예요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0425; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0426",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004581",
+          "source": "まるで宝物を自慢する幼子のように、",
+          "target": "보물을 자랑하는 어린아이처럼"
+        },
+        {
+          "id": "last_kako02.mjo::004585",
+          "source": "どこか無邪気に彼女は語る。",
+          "target": "그녀는 어딘지 천진하게 이야기한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0426; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0427",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004600",
+          "source": "「この楓の木は周りの木よりほんの少し背が低いので、",
+          "target": "「이 단풍나무는 주변 나무들보다 키가 조금 작아서"
+        },
+        {
+          "id": "last_kako02.mjo::004604",
+          "source": "　山の下からは見えないんですよ」",
+          "target": "　산 아래에서는 안 보여요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0427; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0428",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004619",
+          "source": "「だから、ここのことを知っているのは私だけ。",
+          "target": "「그래서 이곳을 아는 건 저뿐이에요."
+        },
+        {
+          "id": "last_kako02.mjo::004623",
+          "source": "　私だけの秘密の場所…」",
+          "target": "　저만의 비밀 장소…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0428; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0429",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004630",
+          "source": "「なるほど…",
+          "target": "「그렇군요…"
+        },
+        {
+          "id": "last_kako02.mjo::004634",
+          "source": "　それにしても、随分と紅葉が早いんですね」",
+          "target": "　그나저나 단풍이 참 빨리 드네요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "함께 살게 된 두 사람이 가족이라는 관계를 확인; u460부터 이름 호칭",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "다정하지만 정중한 존댓말, u460 쿠레하 씨 호칭 전환",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0429; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0430",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004649",
+          "source": "「うふふっ。違いますよ、上条先生」",
+          "target": "「후후. 아니에요, 가미조 선생님」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0430; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0431",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004656",
+          "source": "「えっ？」",
+          "target": "「네?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "함께 살게 된 두 사람이 가족이라는 관계를 확인; u460부터 이름 호칭",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "다정하지만 정중한 존댓말, u460 쿠레하 씨 호칭 전환",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0431; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0432",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004671",
+          "source": "「この木は紅葉が早いんじゃなくて、",
+          "target": "「단풍이 빨리 드는 게 아니라"
+        },
+        {
+          "id": "last_kako02.mjo::004675",
+          "source": "　一年中紅葉している木なんです」",
+          "target": "　일 년 내내 단풍이 들어 있는 나무예요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0432; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0433",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004680",
+          "source": "そう聞いて、私はなるほどと納得した。",
+          "target": "그 말을 듣자 이해가 갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0433; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0434",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004685",
+          "source": "年中紅葉している（又はそのように見える）木が、",
+          "target": "일 년 내내 단풍이 들거나 그렇게 보이는 나무가"
+        },
+        {
+          "id": "last_kako02.mjo::004689",
+          "source": "実際に何種類かあるというのは聞いたことがある。",
+          "target": "실제로 몇 종류 있다는 이야기는 들어 본 적이 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0434; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0435",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004694",
+          "source": "しかし真夏にこれほど鮮やかな紅色をしているものは、",
+          "target": "하지만 한여름에 이토록 선명한 붉은빛을 띠는 나무는"
+        },
+        {
+          "id": "last_kako02.mjo::004698",
+          "source": "私も初めて見た。",
+          "target": "나도 처음 보았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0435; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0436",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004713",
+          "source": "「秋になると山全体が紅葉するので、",
+          "target": "「가을에는 산 전체에 단풍이 들어서"
+        },
+        {
+          "id": "last_kako02.mjo::004717",
+          "source": "　あまり目立たないんですけど…」",
+          "target": "　그다지 눈에 띄지 않지만…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0436; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0437",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004732",
+          "source": "「今の季節は周囲が緑一色だから、",
+          "target": "「지금은 주변이 온통 초록색이라"
+        },
+        {
+          "id": "last_kako02.mjo::004736",
+          "source": "　紅葉の赤が際立って綺麗でしょう？」",
+          "target": "　단풍의 붉은빛이 도드라져서 예쁘죠?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0437; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0438",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004743",
+          "source": "「うん、確かに。どこか幻想的ですね」",
+          "target": "「네, 정말 그렇네요. 어딘지 환상적이에요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "함께 살게 된 두 사람이 가족이라는 관계를 확인; u460부터 이름 호칭",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "다정하지만 정중한 존댓말, u460 쿠레하 씨 호칭 전환",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0438; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0439",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004758",
+          "source": "「この木は、私にとって友達のようなものなんです」",
+          "target": "「이 나무는 저한테 친구 같은 존재예요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0439; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0440",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004773",
+          "source": "「悲しいことや辛いことがあった時は、",
+          "target": "「슬프거나 힘든 일이 있으면"
+        },
+        {
+          "id": "last_kako02.mjo::004777",
+          "source": "　よくここに来てこの木に話しかけたりしてました」",
+          "target": "　여기 와서 이 나무에 말을 걸곤 했어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0440; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0441",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004782",
+          "source": "秋月さんは目を細めて、赤い木を眺めながらそう語った。",
+          "target": "아키즈키 씨는 눈을 가늘게 뜨고 붉은 나무를 바라보며 말했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0441; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0442",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004787",
+          "source": "その瞳には憂いと優しさが同居した、",
+          "target": "그 눈에는 수심과 다정함이 함께 어우러진"
+        },
+        {
+          "id": "last_kako02.mjo::004791",
+          "source": "不思議な輝きが宿っていた。",
+          "target": "신비한 빛이 어려 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0442; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0443",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004798",
+          "source": "「…どうしてそんな大切な場所を",
+          "target": "「…그렇게 소중한 곳을"
+        },
+        {
+          "id": "last_kako02.mjo::004802",
+          "source": "　私に教えてくれたんですか？」",
+          "target": "　왜 제게 알려 주신 건가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "함께 살게 된 두 사람이 가족이라는 관계를 확인; u460부터 이름 호칭",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "다정하지만 정중한 존댓말, u460 쿠레하 씨 호칭 전환",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0443; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0444",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004817",
+          "source": "「…家族だから…」",
+          "target": "「…가족이니까…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0444; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0445",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004824",
+          "source": "「えっ？」",
+          "target": "「네?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "함께 살게 된 두 사람이 가족이라는 관계를 확인; u460부터 이름 호칭",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "다정하지만 정중한 존댓말, u460 쿠레하 씨 호칭 전환",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0445; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0446",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004839",
+          "source": "「上条先生は、新しい家族だから」",
+          "target": "「가미조 선생님은 새로운 가족이니까요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0446; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0447",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004854",
+          "source": "「私たち、一つ屋根の下で暮すんですから…",
+          "target": "「우린 한 지붕 아래에서 살잖아요…"
+        },
+        {
+          "id": "last_kako02.mjo::004858",
+          "source": "　これってもう家族ですよね？」",
+          "target": "　그럼 이제 가족인 거죠?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0447; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0448",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004865",
+          "source": "「秋月さん…」",
+          "target": "「아키즈키 씨…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "함께 살게 된 두 사람이 가족이라는 관계를 확인; u460부터 이름 호칭",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "다정하지만 정중한 존댓말, u460 쿠레하 씨 호칭 전환",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0448; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0449",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004880",
+          "source": "「だから先生をここに連れて来たんです。",
+          "target": "「그래서 선생님을 데려온 거예요."
+        },
+        {
+          "id": "last_kako02.mjo::004884",
+          "source": "　ここは私と、私の家族しか知らない場所だから」",
+          "target": "　여기는 저와 제 가족만 아는 곳이니까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0449; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0450",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004894",
+          "source": "私が、彼女の家族…",
+          "target": "내가 그녀의 가족…"
+        },
+        {
+          "id": "last_kako02.mjo::004899",
+          "source": "それを聞いて胸にふわりと温かいものを感じた。",
+          "target": "그 말을 들으니 가슴에 포근한 온기가 번졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0450; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0451",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004904",
+          "source": "ついこの間両親を亡くして、",
+          "target": "얼마 전 부모님을 잃고"
+        },
+        {
+          "id": "last_kako02.mjo::004908",
+          "source": "天涯孤独の身となった秋月さん。",
+          "target": "세상에 혼자가 된 아키즈키 씨."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0451; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0452",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004913",
+          "source": "私はこの村の牧師として、",
+          "target": "나는 이 마을의 목사로서,"
+        },
+        {
+          "id": "last_kako02.mjo::004917",
+          "source": "またそんな彼女の家族として迎え入れられた。",
+          "target": "또 그녀의 가족으로서 받아들여졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0452; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0453",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004922",
+          "source": "私にも肉親と呼べる人間はもういない。",
+          "target": "나도 혈육이라 부를 사람은 이제 없다."
+        },
+        {
+          "id": "last_kako02.mjo::004926",
+          "source": "だから私にとっても彼女が唯一の家族だった。",
+          "target": "그러니 내게도 그녀가 유일한 가족이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0453; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0454",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004931",
+          "source": "これもまた神の導きなのだろうか？",
+          "target": "이것도 하나님의 인도일까?"
+        },
+        {
+          "id": "last_kako02.mjo::004936",
+          "source": "だとしたら私は神に感謝する。",
+          "target": "그렇다면 하나님께 감사한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0454; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0455",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004941",
+          "source": "そして私は秋月さんの家族として、",
+          "target": "그리고 나는 아키즈키 씨의 가족으로서"
+        },
+        {
+          "id": "last_kako02.mjo::004945",
+          "source": "これから彼女を守っていくことをそっと神に誓った。",
+          "target": "앞으로 그녀를 지켜 주겠다고 조용히 하나님께 맹세했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0455; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0456",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004952",
+          "source": "「改めまして、これからよろしくお願いします。",
+          "target": "「새삼스럽지만 앞으로 잘 부탁드립니다."
+        },
+        {
+          "id": "last_kako02.mjo::004956",
+          "source": "　秋月さん」",
+          "target": "　아키즈키 씨」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "함께 살게 된 두 사람이 가족이라는 관계를 확인; u460부터 이름 호칭",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "다정하지만 정중한 존댓말, u460 쿠레하 씨 호칭 전환",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0456; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0457",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004971",
+          "source": "「…暮葉って呼んで下さい」",
+          "target": "「…쿠레하라고 불러 주세요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0457; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0458",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004978",
+          "source": "「な、名前でですか？」",
+          "target": "「이, 이름으로요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "함께 살게 된 두 사람이 가족이라는 관계를 확인; u460부터 이름 호칭",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "다정하지만 정중한 존댓말, u460 쿠레하 씨 호칭 전환",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0458; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0459",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::004993",
+          "source": "「だって家族はみんな、",
+          "target": "「가족은 모두"
+        },
+        {
+          "id": "last_kako02.mjo::004997",
+          "source": "　私のことを名前で呼んでましたから」",
+          "target": "　제 이름을 불러 줬으니까요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0459; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0460",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005004",
+          "source": "「えっと、それじゃあ…",
+          "target": "「그럼, 이제…"
+        },
+        {
+          "id": "last_kako02.mjo::005008",
+          "source": "　よろしくお願いします、暮葉さん」",
+          "target": "　잘 부탁드려요, 쿠레하 씨」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "함께 살게 된 두 사람이 가족이라는 관계를 확인; u460부터 이름 호칭",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "다정하지만 정중한 존댓말, u460 쿠레하 씨 호칭 전환",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0460; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0461",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005023",
+          "source": "「こちらこそ、よろしくお願いしますね。上条先生」",
+          "target": "「저야말로 잘 부탁드려요, 가미조 선생님」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "새 가족으로 받아들인 목사에게 비밀 장소를 소개",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "부드러운 존댓말; u444의 짧은 혼잣말식 응답은 원문대로",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0461; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0462",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005028",
+          "source": "緑に囲まれた紅葉の木の前で、微笑み合う私たち。",
+          "target": "녹음에 둘러싸인 단풍나무 앞에서 우리는 서로 미소 지었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0462; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0463",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005033",
+          "source": "それが、私と彼女が家族となった日のことだった。",
+          "target": "그것이 나와 그녀가 가족이 된 날이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하를 가족으로 받아들이는 경험을 회상",
+        "story_phase": "과거편; 부임 다음날 저녁 비밀 단풍나무 장소",
+        "voice": "담담한 성인 1인칭; 원문의 따뜻함만 보존",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0463; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0464",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005081",
+          "source": "「…………ゃん…」",
+          "target": "「…………빠…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "유에(도오루의 여동생)",
+        "addressees": [
+          "도오루"
+        ],
+        "relationship": "어린 여동생이 오빠를 따라가며 어리광",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "오빠에게 밝고 어린 반말; 늘임과 울먹임을 과장 없이 보존",
+        "source_speaker_token": "＊＊＊＠悠絵",
+        "evidence": "last_kako02.mjo::u0464; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0465",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005091",
+          "source": "「……ぃちゃん…」",
+          "target": "「……오빠…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "유에(도오루의 여동생)",
+        "addressees": [
+          "도오루"
+        ],
+        "relationship": "어린 여동생이 오빠를 따라가며 어리광",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "오빠에게 밝고 어린 반말; 늘임과 울먹임을 과장 없이 보존",
+        "source_speaker_token": "＊＊＊＠悠絵",
+        "evidence": "last_kako02.mjo::u0465; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0466",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005105",
+          "source": "「おにいちゃーん」",
+          "target": "「오빠아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "유에(도오루의 여동생)",
+        "addressees": [
+          "도오루"
+        ],
+        "relationship": "어린 여동생이 오빠를 따라가며 어리광",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "오빠에게 밝고 어린 반말; 늘임과 울먹임을 과장 없이 보존",
+        "source_speaker_token": "＊＊＊＠悠絵",
+        "evidence": "last_kako02.mjo::u0466; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0467",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005113",
+          "source": "僕を呼ぶ幼い声に、風を仰ぎながら振り返る。",
+          "target": "나를 부르는 어린 목소리에 나는 바람을 맞으며 뒤돌아본다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0467; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0468",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005118",
+          "source": "すると妹が、広い草原の真ん中で手を振っていた。",
+          "target": "동생이 드넓은 풀밭 한가운데서 손을 흔들고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0468; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0469",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005123",
+          "source": "その向こうではお父さんとお母さんが、",
+          "target": "그 뒤에서는 아빠와 엄마가"
+        },
+        {
+          "id": "last_kako02.mjo::005127",
+          "source": "優しい眼差しでこっちを見つめている。",
+          "target": "다정한 눈으로 우리를 바라보고 있다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0469; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0470",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005132",
+          "source": "そうだ…僕たちはピクニックにやって来たんだった。",
+          "target": "그래… 우리는 소풍을 온 거였지."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0470; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0471",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005137",
+          "source": "妹が駄々をこねて、",
+          "target": "동생이 떼를 쓰고"
+        },
+        {
+          "id": "last_kako02.mjo::005141",
+          "source": "お父さんとお母さんがしょうがないなぁって言って、",
+          "target": "아빠와 엄마가 어쩔 수 없다고 하시고"
+        },
+        {
+          "id": "last_kako02.mjo::005145",
+          "source": "僕は妹の頭を撫でてやって…",
+          "target": "나는 동생 머리를 쓰다듬어 주고…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0471; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0472",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005150",
+          "source": "そうして僕たちは今ここに居た。",
+          "target": "그렇게 우리는 지금 여기 있었다."
+        },
+        {
+          "id": "last_kako02.mjo::005154",
+          "source": "家族４人でここに居た。",
+          "target": "네 식구가 함께 여기 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0472; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0473",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005164",
+          "source": "「おにいちゃん、まってよぉー」",
+          "target": "「오빠, 기다려어」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "유에(도오루의 여동생)",
+        "addressees": [
+          "도오루"
+        ],
+        "relationship": "어린 여동생이 오빠를 따라가며 어리광",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "오빠에게 밝고 어린 반말; 늘임과 울먹임을 과장 없이 보존",
+        "source_speaker_token": "妹＠悠絵",
+        "evidence": "last_kako02.mjo::u0473; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0474",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005169",
+          "source": "妹が僕の元へ来ようと、",
+          "target": "동생이 내게 오려고"
+        },
+        {
+          "id": "last_kako02.mjo::005173",
+          "source": "一生懸命草をかき分けて走ってくる。",
+          "target": "열심히 풀을 헤치며 달려온다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0474; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0475",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005178",
+          "source": "僕はそんな妹に少し意地悪がしたくなって、",
+          "target": "나는 그런 동생에게 조금 심술을 부리고 싶어져"
+        },
+        {
+          "id": "last_kako02.mjo::005182",
+          "source": "力いっぱい駆け出した。",
+          "target": "있는 힘껏 달리기 시작했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0475; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0476",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005196",
+          "source": "「あーん、おにいちゃーん。まってってばぁ」",
+          "target": "「아앙, 오빠아. 기다리라니까아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "유에(도오루의 여동생)",
+        "addressees": [
+          "도오루"
+        ],
+        "relationship": "어린 여동생이 오빠를 따라가며 어리광",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "오빠에게 밝고 어린 반말; 늘임과 울먹임을 과장 없이 보존",
+        "source_speaker_token": "妹＠悠絵",
+        "evidence": "last_kako02.mjo::u0476; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0477",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005201",
+          "source": "妹が非難の声を上げるけど、",
+          "target": "동생이 원망하는 소리를 내지만"
+        },
+        {
+          "id": "last_kako02.mjo::005205",
+          "source": "もちろん待ってなんかあげない。",
+          "target": "물론 기다려 주지 않는다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0477; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0478",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005210",
+          "source": "僕が全力で走れば、",
+          "target": "내가 전력으로 달리면"
+        },
+        {
+          "id": "last_kako02.mjo::005214",
+          "source": "幼い妹について来れるわけがなかった。",
+          "target": "어린 동생이 따라올 수 있을 리 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0478; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0479",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005224",
+          "source": "「まってよぉ、おにいちゃぁん…ぐすっ」",
+          "target": "「기다려어, 오빠아… 훌쩍」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "유에(도오루의 여동생)",
+        "addressees": [
+          "도오루"
+        ],
+        "relationship": "어린 여동생이 오빠를 따라가며 어리광",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "오빠에게 밝고 어린 반말; 늘임과 울먹임을 과장 없이 보존",
+        "source_speaker_token": "妹＠悠絵",
+        "evidence": "last_kako02.mjo::u0479; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0480",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005229",
+          "source": "それでも僕の後を追いかけながら、",
+          "target": "그래도 계속 나를 쫓아오던 동생은"
+        },
+        {
+          "id": "last_kako02.mjo::005233",
+          "source": "しまいにはグズグズと泣き始める妹…",
+          "target": "결국 훌쩍훌쩍 울기 시작한다…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0480; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0481",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005238",
+          "source": "全く、妹は泣き虫だから困ってしまう。",
+          "target": "정말이지, 동생은 울보라서 곤란하다."
+        },
+        {
+          "id": "last_kako02.mjo::005242",
+          "source": "でもまだ小さいからしょうがないか。",
+          "target": "하지만 아직 어리니까 어쩔 수 없나."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0481; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0482",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005247",
+          "source": "僕は少し可哀相になって、",
+          "target": "나는 조금 불쌍해져서"
+        },
+        {
+          "id": "last_kako02.mjo::005251",
+          "source": "走るスピードを落としながらやがて立ち止まった。",
+          "target": "달리는 속도를 줄이다가 이윽고 멈춰 섰다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0482; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0483",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005261",
+          "source": "「おにーちゃ～んっ」",
+          "target": "「오빠아아」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "유에(도오루의 여동생)",
+        "addressees": [
+          "도오루"
+        ],
+        "relationship": "어린 여동생이 오빠를 따라가며 어리광",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "오빠에게 밝고 어린 반말; 늘임과 울먹임을 과장 없이 보존",
+        "source_speaker_token": "妹＠悠絵",
+        "evidence": "last_kako02.mjo::u0483; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0484",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005269",
+          "source": "どんっ",
+          "target": "쿵"
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0484; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0485",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005274",
+          "source": "妹は僕に追いつくと、",
+          "target": "동생은 나를 따라잡자"
+        },
+        {
+          "id": "last_kako02.mjo::005278",
+          "source": "走ってきた勢いそのままに飛びついてきた。",
+          "target": "달려오던 기세 그대로 내게 달려들었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0485; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0486",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005283",
+          "source": "妹の不意のタックルに、",
+          "target": "갑작스럽게 동생이 몸을 날리니"
+        },
+        {
+          "id": "last_kako02.mjo::005287",
+          "source": "さすがの僕も支えきれずに後ろへ倒れ込む。",
+          "target": "나도 버티지 못하고 뒤로 넘어지고 만다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0486; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0487",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005302",
+          "source": "どさっ",
+          "target": "털썩"
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0487; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0488",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005307",
+          "source": "草むらの上にひっくり返って、空を仰ぐ。",
+          "target": "풀밭 위에 벌렁 넘어져 하늘을 올려다본다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0488; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0489",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005312",
+          "source": "柔らかい土と草がクッションになって、",
+          "target": "부드러운 흙과 풀이 쿠션이 되어"
+        },
+        {
+          "id": "last_kako02.mjo::005316",
+          "source": "妹の体とサンドイッチになっても、ちっとも痛くなかった。",
+          "target": "동생 몸과 땅 사이에 끼어도 조금도 아프지 않았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0489; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0490",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005326",
+          "source": "「おにいちゃん、おにいちゃんっ」",
+          "target": "「오빠, 오빠」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "유에(도오루의 여동생)",
+        "addressees": [
+          "도오루"
+        ],
+        "relationship": "어린 여동생이 오빠를 따라가며 어리광",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "오빠에게 밝고 어린 반말; 늘임과 울먹임을 과장 없이 보존",
+        "source_speaker_token": "妹＠悠絵",
+        "evidence": "last_kako02.mjo::u0490; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0491",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005331",
+          "source": "妹は僕の上に覆いかぶさったまま、",
+          "target": "동생은 내 위에 엎어진 채"
+        },
+        {
+          "id": "last_kako02.mjo::005335",
+          "source": "もう離さないとばかりにギュッとしがみついてくる。",
+          "target": "이제 놓치지 않겠다는 듯 꼭 매달린다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0491; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0492",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005340",
+          "source": "妹の温もりがむずかゆくて、でも心地よくて、",
+          "target": "동생의 온기는 간지러우면서도 기분 좋았고"
+        },
+        {
+          "id": "last_kako02.mjo::005344",
+          "source": "そしてお日さまの匂いがした。",
+          "target": "햇살 냄새가 났다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0492; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0493",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005353",
+          "source": "僕は体を起こすと、",
+          "target": "나는 몸을 일으켜"
+        },
+        {
+          "id": "last_kako02.mjo::005357",
+          "source": "覆いかぶさった小さな妹を立たせてやる。",
+          "target": "내 위에 엎어진 작은 동생을 세워 준다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0493; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0494",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005362",
+          "source": "妹は涙目のまま、嬉しそうににっこり笑っていた。",
+          "target": "동생은 눈물이 맺힌 채로 기쁘게 활짝 웃고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0494; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0495",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005376",
+          "source": "「えへへっ…おにいちゃん、だーいすきっ」",
+          "target": "「에헤헤… 오빠, 정말 좋아해」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "유에(도오루의 여동생)",
+        "addressees": [
+          "도오루"
+        ],
+        "relationship": "어린 여동생이 오빠를 따라가며 어리광",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "오빠에게 밝고 어린 반말; 늘임과 울먹임을 과장 없이 보존",
+        "source_speaker_token": "妹＠悠絵",
+        "evidence": "last_kako02.mjo::u0495; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0496",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005381",
+          "source": "ああ…僕もだよ、悠絵…",
+          "target": "그래… 나도 그래, 유에…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0496; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0497",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005391",
+          "source": "「あらあら、仲の良い兄妹だこと」",
+          "target": "「어머나, 사이좋은 남매네」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루와 유에의 어머니",
+        "addressees": [
+          "아버지",
+          "두 자녀"
+        ],
+        "relationship": "소풍 온 가족",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "다정한 어른의 반말",
+        "source_speaker_token": "母＠汐見母",
+        "evidence": "last_kako02.mjo::u0497; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0498",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005398",
+          "source": "「全くだ。トオル、お兄ちゃんとして",
+          "target": "「그러게 말이야. 도오루, 오빠니까"
+        },
+        {
+          "id": "last_kako02.mjo::005402",
+          "source": "　妹を守ってあげるんだぞ」",
+          "target": "　동생을 잘 지켜 줘야 한다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루와 유에의 아버지",
+        "addressees": [
+          "도오루"
+        ],
+        "relationship": "아들에게 동생을 지켜 주라 당부",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "다정한 아버지의 반말",
+        "source_speaker_token": "父",
+        "evidence": "last_kako02.mjo::u0498; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0499",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005407",
+          "source": "はい、わかってます…父さん…母さん…",
+          "target": "네, 알고 있어요… 아빠… 엄마…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [
+          "아버지",
+          "어머니"
+        ],
+        "relationship": "부모님의 당부에 마음속으로 대답",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "부모에게 존댓말",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0499; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0500",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005412",
+          "source": "それはどこを切り取っても幸せな構図。",
+          "target": "어느 부분을 떼어 놓아도 행복한 모습이었다."
+        },
+        {
+          "id": "last_kako02.mjo::005417",
+          "source": "幸せすぎて不安を覚えるくらいだった。",
+          "target": "너무 행복해서 오히려 불안할 정도였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0500; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0501",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005422",
+          "source": "高く上れば上るほど、落ちた時のリスクが高くなるように…",
+          "target": "높이 올라갈수록 떨어질 때의 위험이 커지듯이…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0501; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0502",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005432",
+          "source": "「…おにいちゃん、どうしたの？」",
+          "target": "「…오빠, 왜 그래?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "유에(도오루의 여동생)",
+        "addressees": [
+          "도오루"
+        ],
+        "relationship": "어린 여동생이 오빠를 따라가며 어리광",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "오빠에게 밝고 어린 반말; 늘임과 울먹임을 과장 없이 보존",
+        "source_speaker_token": "妹＠悠絵",
+        "evidence": "last_kako02.mjo::u0502; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0503",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005439",
+          "source": "「…なんでもないよ、悠絵」",
+          "target": "「…아무것도 아니야, 유에」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [
+          "유에"
+        ],
+        "relationship": "여동생을 달래거나 속으로 하나님께 기도",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "여동생에게 반말; 내면 기도는 존댓말",
+        "source_speaker_token": "＊＊＊＠トオル",
+        "evidence": "last_kako02.mjo::u0503; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0504",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005444",
+          "source": "不思議そうに小首を傾げる妹の頭を、",
+          "target": "이상하다는 듯 고개를 갸웃하는 동생의 머리를"
+        },
+        {
+          "id": "last_kako02.mjo::005448",
+          "source": "僕はわしわしと撫でてあげた。",
+          "target": "나는 마구 쓰다듬어 주었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0504; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0505",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005453",
+          "source": "そして僕は心の中で神に祈る――",
+          "target": "그리고 마음속으로 하나님께 기도한다――"
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [],
+        "relationship": "부모와 여동생 유에가 함께한 소풍 기억",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "소년 시점의 담백한 1인칭; 행복 속의 불안",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0505; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0506",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005460",
+          "source": "「（神様、これ以上の幸福は望みません）」",
+          "target": "「(하나님, 더 이상 행복해지기를 바라지 않겠습니다)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [
+          "하나님"
+        ],
+        "relationship": "여동생을 달래거나 속으로 하나님께 기도",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "여동생에게 반말; 내면 기도는 존댓말",
+        "source_speaker_token": "＊＊＊＠トオル",
+        "evidence": "last_kako02.mjo::u0506; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0507",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::005474",
+          "source": "「（だからどうか…この幸せが少しでも長く続きますように）」",
+          "target": "「(그러니 부디… 이 행복이 조금이라도 오래 이어지게 해 주세요)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "도오루(유에의 오빠)",
+        "addressees": [
+          "하나님"
+        ],
+        "relationship": "여동생을 달래거나 속으로 하나님께 기도",
+        "story_phase": "과거편 사이에 삽입된 별도 어린 시절 회상",
+        "voice": "여동생에게 반말; 내면 기도는 존댓말",
+        "source_speaker_token": "＊＊＊＠トオル",
+        "evidence": "last_kako02.mjo::u0507; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "悠絵",
+      "target": "유에",
+      "evidence": [
+        "last_kako04.mjo inline ゆえ",
+        "last_gendai03.mjo ゆ…悠絵？ ゆえっ…！",
+        "coordinator confirmation"
+      ],
+      "reason": "동생 이름의 원문 독음; u496에 처음 이름 표기, 숨은 speaker_token 변경 없음"
+    },
+    {
+      "source": "トオル",
+      "target": "도오루",
+      "evidence": [
+        "last_kako02.mjo::u0498"
+      ],
+      "reason": "유에의 오빠 이름이 가나로 명시됨; 부모/유에 소풍 회상의 화자. 성은 이 장면에서 표시하지 않음"
+    },
+    {
+      "source": "楓の木",
+      "target": "단풍나무",
+      "evidence": [
+        "last_kako02.mjo::u0423",
+        "last_kako02.mjo::u0427"
+      ],
+      "reason": "한여름에도 붉은 나무; 반혼수라는 정체를 공개 전 본문에 추가하지 않음"
+    }
+  ],
+  "inline_records": [],
+  "notes": [
+    "앞11구간/다음 파일 130구간을 읽고 source 끝까지 번역. u464부터 僕/여동생/부모 등장으로 도오루 어린 시절 회상 분리.",
+    "u460부터 가미조가 秋月さん 대신 暮葉さん을 부르는 관계 변화 유지.",
+    "とっておきの場所의 핵심 표현 특별한 장소를 kako01 u0013과 일관되게 유지; 화자/경어만 장면에 맞춤."
+  ],
+  "runtime_verified": false
+}

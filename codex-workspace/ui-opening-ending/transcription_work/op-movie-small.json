@@ -1,0 +1,884 @@
+{
+  "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\transcription_work\\Recon_OP800_H-mono16k.wav",
+  "stt_model": "Systran/faster-whisper-small",
+  "model_path": "P:\\AI\\Codex\\projects\\sorairo_no_fuukin_ko\\work\\ui_video_integration_20260922\\opening_final\\models\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120",
+  "language": "ja",
+  "task": "source_transcription_only",
+  "accepted_semantic_translation": false,
+  "source_duration": 101.250625,
+  "elapsed_seconds": 15.32950472831726,
+  "segments": [
+    {
+      "id": "op-movie::001",
+      "start": 1.94,
+      "end": 12.7,
+      "text": "全て 失くした場所で もう一度 取り戻すから",
+      "avg_logprob": -0.3763586930606676,
+      "no_speech_prob": 0.3759765625,
+      "words": [
+        {
+          "start": 1.94,
+          "end": 2.94,
+          "word": "全",
+          "probability": 0.396240234375
+        },
+        {
+          "start": 2.94,
+          "end": 3.76,
+          "word": "て",
+          "probability": 0.998046875
+        },
+        {
+          "start": 4.06,
+          "end": 4.4,
+          "word": " 失",
+          "probability": 0.444091796875
+        },
+        {
+          "start": 4.4,
+          "end": 4.84,
+          "word": "く",
+          "probability": 0.98828125
+        },
+        {
+          "start": 4.84,
+          "end": 5.58,
+          "word": "した",
+          "probability": 0.97509765625
+        },
+        {
+          "start": 5.58,
+          "end": 6.5,
+          "word": "場",
+          "probability": 0.9111328125
+        },
+        {
+          "start": 6.5,
+          "end": 6.76,
+          "word": "所",
+          "probability": 1.0
+        },
+        {
+          "start": 6.76,
+          "end": 7.48,
+          "word": "で",
+          "probability": 0.97021484375
+        },
+        {
+          "start": 7.98,
+          "end": 8.46,
+          "word": " もう",
+          "probability": 0.99365234375
+        },
+        {
+          "start": 8.46,
+          "end": 8.96,
+          "word": "一",
+          "probability": 0.90087890625
+        },
+        {
+          "start": 8.96,
+          "end": 9.46,
+          "word": "度",
+          "probability": 0.994140625
+        },
+        {
+          "start": 10.02,
+          "end": 10.34,
+          "word": " 取",
+          "probability": 0.88525390625
+        },
+        {
+          "start": 10.34,
+          "end": 10.64,
+          "word": "り",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 10.64,
+          "end": 11.12,
+          "word": "戻",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 11.12,
+          "end": 11.7,
+          "word": "す",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 11.7,
+          "end": 12.7,
+          "word": "から",
+          "probability": 0.9951171875
+        }
+      ]
+    },
+    {
+      "id": "op-movie::002",
+      "start": 30.959999999999997,
+      "end": 38.7,
+      "text": "冷たい光が 時を止める 金さえ通る in love nest",
+      "avg_logprob": -0.42722601433322854,
+      "no_speech_prob": 0.7099609375,
+      "words": [
+        {
+          "start": 30.959999999999997,
+          "end": 31.72,
+          "word": "冷",
+          "probability": 0.0120086669921875
+        },
+        {
+          "start": 31.72,
+          "end": 32.22,
+          "word": "たい",
+          "probability": 0.998046875
+        },
+        {
+          "start": 32.22,
+          "end": 32.68,
+          "word": "光",
+          "probability": 0.10980224609375
+        },
+        {
+          "start": 32.68,
+          "end": 33.38,
+          "word": "が",
+          "probability": 0.6328125
+        },
+        {
+          "start": 33.46,
+          "end": 33.66,
+          "word": " 時",
+          "probability": 0.94189453125
+        },
+        {
+          "start": 33.66,
+          "end": 34.08,
+          "word": "を",
+          "probability": 0.97900390625
+        },
+        {
+          "start": 34.08,
+          "end": 34.28,
+          "word": "止",
+          "probability": 0.90478515625
+        },
+        {
+          "start": 34.28,
+          "end": 34.46,
+          "word": "め",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 34.46,
+          "end": 35.18,
+          "word": "る",
+          "probability": 0.9951171875
+        },
+        {
+          "start": 35.34,
+          "end": 35.6,
+          "word": " 金",
+          "probability": 0.410888671875
+        },
+        {
+          "start": 35.6,
+          "end": 36.18,
+          "word": "さ",
+          "probability": 0.77880859375
+        },
+        {
+          "start": 36.18,
+          "end": 36.56,
+          "word": "え",
+          "probability": 0.998046875
+        },
+        {
+          "start": 36.56,
+          "end": 36.88,
+          "word": "通",
+          "probability": 0.15625
+        },
+        {
+          "start": 36.88,
+          "end": 37.34,
+          "word": "る",
+          "probability": 0.9794921875
+        },
+        {
+          "start": 37.34,
+          "end": 37.86,
+          "word": " in",
+          "probability": 0.1212158203125
+        },
+        {
+          "start": 37.86,
+          "end": 38.14,
+          "word": " love",
+          "probability": 0.3779296875
+        },
+        {
+          "start": 38.14,
+          "end": 38.7,
+          "word": " nest",
+          "probability": 0.147216796875
+        }
+      ]
+    },
+    {
+      "id": "op-movie::003",
+      "start": 38.7,
+      "end": 46.9,
+      "text": "彷徨う事的な君の瞳 かけてく錆びた銀の吹き",
+      "avg_logprob": -0.42722601433322854,
+      "no_speech_prob": 0.7099609375,
+      "words": [
+        {
+          "start": 38.7,
+          "end": 39.4,
+          "word": "彷",
+          "probability": 0.52593994140625
+        },
+        {
+          "start": 39.4,
+          "end": 39.74,
+          "word": "徨",
+          "probability": 0.984375
+        },
+        {
+          "start": 39.74,
+          "end": 40.0,
+          "word": "う",
+          "probability": 0.97900390625
+        },
+        {
+          "start": 40.0,
+          "end": 40.32,
+          "word": "事",
+          "probability": 0.1322021484375
+        },
+        {
+          "start": 40.32,
+          "end": 40.7,
+          "word": "的",
+          "probability": 0.2425537109375
+        },
+        {
+          "start": 40.7,
+          "end": 40.94,
+          "word": "な",
+          "probability": 0.998046875
+        },
+        {
+          "start": 40.94,
+          "end": 41.32,
+          "word": "君",
+          "probability": 0.46875
+        },
+        {
+          "start": 41.32,
+          "end": 41.7,
+          "word": "の",
+          "probability": 0.99609375
+        },
+        {
+          "start": 41.7,
+          "end": 42.18,
+          "word": "瞳",
+          "probability": 0.99169921875
+        },
+        {
+          "start": 42.18,
+          "end": 43.08,
+          "word": " か",
+          "probability": 0.64599609375
+        },
+        {
+          "start": 43.08,
+          "end": 43.62,
+          "word": "けて",
+          "probability": 0.95263671875
+        },
+        {
+          "start": 43.62,
+          "end": 44.08,
+          "word": "く",
+          "probability": 0.9833984375
+        },
+        {
+          "start": 44.08,
+          "end": 44.46,
+          "word": "錆",
+          "probability": 0.4468994140625
+        },
+        {
+          "start": 44.46,
+          "end": 44.8,
+          "word": "び",
+          "probability": 0.927734375
+        },
+        {
+          "start": 44.8,
+          "end": 45.1,
+          "word": "た",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 45.1,
+          "end": 45.5,
+          "word": "銀",
+          "probability": 0.8974609375
+        },
+        {
+          "start": 45.5,
+          "end": 45.86,
+          "word": "の",
+          "probability": 0.9697265625
+        },
+        {
+          "start": 45.86,
+          "end": 46.08,
+          "word": "吹",
+          "probability": 0.475372314453125
+        },
+        {
+          "start": 46.08,
+          "end": 46.9,
+          "word": "き",
+          "probability": 0.97119140625
+        }
+      ]
+    },
+    {
+      "id": "op-movie::004",
+      "start": 46.9,
+      "end": 54.36,
+      "text": "溶けて消えと散らずに 夢見た明日を頼る",
+      "avg_logprob": -0.42722601433322854,
+      "no_speech_prob": 0.7099609375,
+      "words": [
+        {
+          "start": 46.9,
+          "end": 47.3,
+          "word": "溶",
+          "probability": 0.809814453125
+        },
+        {
+          "start": 47.3,
+          "end": 47.86,
+          "word": "けて",
+          "probability": 0.99609375
+        },
+        {
+          "start": 47.86,
+          "end": 48.32,
+          "word": "消",
+          "probability": 0.98291015625
+        },
+        {
+          "start": 48.32,
+          "end": 48.7,
+          "word": "え",
+          "probability": 0.923828125
+        },
+        {
+          "start": 48.7,
+          "end": 48.94,
+          "word": "と",
+          "probability": 0.3662109375
+        },
+        {
+          "start": 48.94,
+          "end": 49.3,
+          "word": "散",
+          "probability": 0.5167388916015625
+        },
+        {
+          "start": 49.3,
+          "end": 49.68,
+          "word": "ら",
+          "probability": 0.890625
+        },
+        {
+          "start": 49.68,
+          "end": 49.82,
+          "word": "ず",
+          "probability": 0.50390625
+        },
+        {
+          "start": 49.82,
+          "end": 50.38,
+          "word": "に",
+          "probability": 0.90576171875
+        },
+        {
+          "start": 50.76,
+          "end": 51.24,
+          "word": " 夢",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 51.24,
+          "end": 51.56,
+          "word": "見",
+          "probability": 0.5927734375
+        },
+        {
+          "start": 51.56,
+          "end": 51.88,
+          "word": "た",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 51.88,
+          "end": 52.26,
+          "word": "明",
+          "probability": 0.98486328125
+        },
+        {
+          "start": 52.26,
+          "end": 52.48,
+          "word": "日",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 52.48,
+          "end": 52.8,
+          "word": "を",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 52.8,
+          "end": 53.4,
+          "word": "頼",
+          "probability": 0.88671875
+        },
+        {
+          "start": 53.4,
+          "end": 54.36,
+          "word": "る",
+          "probability": 0.7177734375
+        }
+      ]
+    },
+    {
+      "id": "op-movie::005",
+      "start": 54.36,
+      "end": 63.76,
+      "text": "深く刻んで伸びた 過ちの跡 超えて走る",
+      "avg_logprob": -0.39959016393442626,
+      "no_speech_prob": 0.0098419189453125,
+      "words": [
+        {
+          "start": 54.36,
+          "end": 55.16,
+          "word": "深",
+          "probability": 0.509765625
+        },
+        {
+          "start": 55.16,
+          "end": 55.66,
+          "word": "く",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 55.66,
+          "end": 56.04,
+          "word": "刻",
+          "probability": 0.97412109375
+        },
+        {
+          "start": 56.04,
+          "end": 56.92,
+          "word": "んで",
+          "probability": 0.669921875
+        },
+        {
+          "start": 56.92,
+          "end": 57.32,
+          "word": "伸",
+          "probability": 0.6597900390625
+        },
+        {
+          "start": 57.32,
+          "end": 57.52,
+          "word": "び",
+          "probability": 0.97900390625
+        },
+        {
+          "start": 57.52,
+          "end": 58.42,
+          "word": "た",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 58.56,
+          "end": 59.02,
+          "word": " 過",
+          "probability": 0.191650390625
+        },
+        {
+          "start": 59.02,
+          "end": 59.64,
+          "word": "ち",
+          "probability": 0.96240234375
+        },
+        {
+          "start": 59.64,
+          "end": 60.1,
+          "word": "の",
+          "probability": 0.9658203125
+        },
+        {
+          "start": 60.1,
+          "end": 60.6,
+          "word": "跡",
+          "probability": 0.593994140625
+        },
+        {
+          "start": 61.32,
+          "end": 61.48,
+          "word": " 超",
+          "probability": 0.5517578125
+        },
+        {
+          "start": 61.48,
+          "end": 61.82,
+          "word": "えて",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 61.82,
+          "end": 62.18,
+          "word": "走",
+          "probability": 0.9814453125
+        },
+        {
+          "start": 62.18,
+          "end": 63.76,
+          "word": "る",
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": "op-movie::006",
+      "start": 65.44,
+      "end": 73.72,
+      "text": "すべて失くした場所で もう一度掴む ただひとつ",
+      "avg_logprob": -0.39959016393442626,
+      "no_speech_prob": 0.0098419189453125,
+      "words": [
+        {
+          "start": 65.44,
+          "end": 66.36,
+          "word": "す",
+          "probability": 0.2430419921875
+        },
+        {
+          "start": 66.36,
+          "end": 66.94,
+          "word": "べ",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 66.94,
+          "end": 67.1,
+          "word": "て",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 67.1,
+          "end": 67.52,
+          "word": "失",
+          "probability": 0.362060546875
+        },
+        {
+          "start": 67.52,
+          "end": 67.76,
+          "word": "く",
+          "probability": 0.984375
+        },
+        {
+          "start": 67.76,
+          "end": 68.3,
+          "word": "した",
+          "probability": 0.97265625
+        },
+        {
+          "start": 68.3,
+          "end": 68.86,
+          "word": "場",
+          "probability": 0.8857421875
+        },
+        {
+          "start": 68.86,
+          "end": 69.0,
+          "word": "所",
+          "probability": 0.99365234375
+        },
+        {
+          "start": 69.0,
+          "end": 69.54,
+          "word": "で",
+          "probability": 0.96826171875
+        },
+        {
+          "start": 69.84,
+          "end": 70.14,
+          "word": " もう",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 70.14,
+          "end": 70.44,
+          "word": "一",
+          "probability": 0.9423828125
+        },
+        {
+          "start": 70.44,
+          "end": 70.82,
+          "word": "度",
+          "probability": 0.974609375
+        },
+        {
+          "start": 70.82,
+          "end": 71.34,
+          "word": "掴",
+          "probability": 0.8486328125
+        },
+        {
+          "start": 71.34,
+          "end": 71.74,
+          "word": "む",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 71.74,
+          "end": 72.26,
+          "word": " た",
+          "probability": 0.47998046875
+        },
+        {
+          "start": 72.26,
+          "end": 72.44,
+          "word": "だ",
+          "probability": 0.7685546875
+        },
+        {
+          "start": 72.44,
+          "end": 72.7,
+          "word": "ひ",
+          "probability": 0.4794921875
+        },
+        {
+          "start": 72.7,
+          "end": 72.86,
+          "word": "と",
+          "probability": 0.98388671875
+        },
+        {
+          "start": 72.86,
+          "end": 73.72,
+          "word": "つ",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "op-movie::007",
+      "start": 73.72,
+      "end": 80.12,
+      "text": "守りたかったものを とにどく離さない",
+      "avg_logprob": -0.39959016393442626,
+      "no_speech_prob": 0.0098419189453125,
+      "words": [
+        {
+          "start": 73.72,
+          "end": 74.4,
+          "word": "守",
+          "probability": 0.90673828125
+        },
+        {
+          "start": 74.4,
+          "end": 74.86,
+          "word": "り",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 74.86,
+          "end": 75.18,
+          "word": "た",
+          "probability": 0.63037109375
+        },
+        {
+          "start": 75.18,
+          "end": 75.9,
+          "word": "かった",
+          "probability": 0.99267578125
+        },
+        {
+          "start": 75.9,
+          "end": 76.68,
+          "word": "もの",
+          "probability": 0.73876953125
+        },
+        {
+          "start": 76.68,
+          "end": 77.22,
+          "word": "を",
+          "probability": 0.779296875
+        },
+        {
+          "start": 77.22,
+          "end": 77.78,
+          "word": " と",
+          "probability": 0.1712646484375
+        },
+        {
+          "start": 77.78,
+          "end": 78.06,
+          "word": "に",
+          "probability": 0.79541015625
+        },
+        {
+          "start": 78.06,
+          "end": 78.38,
+          "word": "ど",
+          "probability": 0.338134765625
+        },
+        {
+          "start": 78.38,
+          "end": 78.6,
+          "word": "く",
+          "probability": 0.7685546875
+        },
+        {
+          "start": 78.6,
+          "end": 79.06,
+          "word": "離",
+          "probability": 0.38720703125
+        },
+        {
+          "start": 79.06,
+          "end": 79.42,
+          "word": "さ",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 79.42,
+          "end": 80.12,
+          "word": "ない",
+          "probability": 0.99755859375
+        }
+      ]
+    },
+    {
+      "id": "op-movie::008",
+      "start": 80.12,
+      "end": 88.24,
+      "text": "見失わない 振り返らない 必ず取り戻すから",
+      "avg_logprob": -0.21761068142950535,
+      "no_speech_prob": 0.265869140625,
+      "words": [
+        {
+          "start": 80.12,
+          "end": 81.36,
+          "word": "見",
+          "probability": 0.90478515625
+        },
+        {
+          "start": 81.36,
+          "end": 81.58,
+          "word": "失",
+          "probability": 0.97119140625
+        },
+        {
+          "start": 81.58,
+          "end": 82.52,
+          "word": "わ",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 82.52,
+          "end": 83.08,
+          "word": "ない",
+          "probability": 0.998046875
+        },
+        {
+          "start": 83.38,
+          "end": 83.44,
+          "word": " 振",
+          "probability": 0.974609375
+        },
+        {
+          "start": 83.44,
+          "end": 83.56,
+          "word": "り",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 83.56,
+          "end": 83.86,
+          "word": "返",
+          "probability": 0.997314453125
+        },
+        {
+          "start": 83.86,
+          "end": 84.44,
+          "word": "ら",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 84.44,
+          "end": 84.98,
+          "word": "ない",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 85.14,
+          "end": 85.54,
+          "word": " 必",
+          "probability": 0.9296875
+        },
+        {
+          "start": 85.54,
+          "end": 86.0,
+          "word": "ず",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 86.0,
+          "end": 86.7,
+          "word": "取",
+          "probability": 0.319091796875
+        },
+        {
+          "start": 86.7,
+          "end": 86.9,
+          "word": "り",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 86.9,
+          "end": 87.24,
+          "word": "戻",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 87.24,
+          "end": 87.62,
+          "word": "す",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 87.62,
+          "end": 88.24,
+          "word": "から",
+          "probability": 0.9931640625
+        }
+      ]
+    }
+  ]
+}

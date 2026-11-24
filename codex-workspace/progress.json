@@ -1,0 +1,2263 @@
+{
+  "next": "Use Start-Korean.cmd for v20; Start-Korean-v19.cmd preserves the prior version. Targeted text corrections applied; masa_06 muted fast-jump test timed out, baseline comparison inconclusive; limitation recorded.",
+  "ascii_alias": "P:\\AI\\Codex\\projects\\reconquista-ko",
+  "source": "P:\\GAME\\Reqonquist Novel H\\Reconquista.iso",
+  "updated": "2026-10-24T14:20:10.593611+09:00",
+  "engine": "Majiro",
+  "counts": {
+    "text_fields": 96399,
+    "scripts": 181,
+    "translated": 73403,
+    "source_characters": 1277365,
+    "translated_units": 46968,
+    "translated_inline_fields": 626,
+    "body_pending_units": 16,
+    "ui_owned_units_separate": 0
+  },
+  "translator_model": "Codex internal",
+  "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-body-ui-20261025-v20-nuance",
+  "status": "text_nuance_17_fields_installed_verified_with_runtime_limit",
+  "verified": [
+    "C to P migration: 20 hash-verified files",
+    "scenario.arc exact byte roundtrip",
+    "181 MJO exact byte roundtrips"
+  ],
+  "physical_workspace": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타",
+  "translation": {
+    "translator_model": "Codex internal",
+    "snapshot": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\recovery-full-20261023-v2\\integrated-targets.json",
+    "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v16-ui-rest",
+    "covered_unit_count": 46968,
+    "authored_text_fields": 73403,
+    "authored_inline_fields": 626,
+    "current_build_pending": false,
+    "status": "Existing body and source-retained decisions unchanged. Requested UI families integrated through v15; other UI remains separately tracked.",
+    "remaining_unit_ids": [
+      {
+        "unit": "masa_15.mjo::u0134",
+        "decision": "retain_original",
+        "category": "연결 대사",
+        "reason_ko": "아이에게 성인의 신체를 만져 보도록 제안하는 기능. 대상·실행이 앞뒤에서 특정되어 일반 제안으로 분리하기 어려움.",
+        "context_ids": "u0131,u0138",
+        "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+        "source_field_ids": [
+          "masa_15.mjo::001606"
+        ],
+        "prior_reason_corrected": true,
+        "final_decision": "retain_original_after_final_context_review",
+        "reviewer": "primary Codex internal + independent read-only review_opening_late"
+      },
+      {
+        "unit": "masa_15.mjo::u0135",
+        "decision": "retain_original",
+        "category": "연결 대사",
+        "reason_ko": "앞선 접촉 제안의 허락을 확인하는 대사. 문장 자체에 직접 묘사는 없다는 점을 정정.",
+        "context_ids": "u0134–0136",
+        "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+        "source_field_ids": [
+          "masa_15.mjo::001621"
+        ],
+        "prior_reason_corrected": true,
+        "final_decision": "retain_original_after_final_context_review",
+        "reviewer": "primary Codex internal + independent read-only review_opening_late"
+      },
+      {
+        "unit": "masa_15.mjo::u0136",
+        "decision": "retain_original",
+        "category": "연결 대사",
+        "reason_ko": "앞선 특정 접촉을 허락하며 다음 실행으로 연결됨. 자체 직접 묘사는 없음.",
+        "context_ids": "u0134–0138",
+        "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+        "source_field_ids": [
+          "masa_15.mjo::001631"
+        ],
+        "prior_reason_corrected": true,
+        "final_decision": "retain_original_after_final_context_review",
+        "reviewer": "primary Codex internal + independent read-only review_opening_late"
+      },
+      {
+        "unit": "masa_15.mjo::u0137",
+        "decision": "retain_original",
+        "category": "연결 대사",
+        "reason_ko": "허락에 대한 기쁨·감사가 바로 다음 실행을 구성. 직접 신체 묘사라고 기록했던 범주는 정정.",
+        "context_ids": "u0136,u0138",
+        "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+        "source_field_ids": [
+          "masa_15.mjo::001646"
+        ],
+        "prior_reason_corrected": true,
+        "final_decision": "retain_original_after_final_context_review",
+        "reviewer": "primary Codex internal + independent read-only review_opening_late"
+      },
+      {
+        "unit": "masa_15.mjo::u0138",
+        "decision": "retain_original",
+        "category": "직접 묘사",
+        "reason_ko": "아이가 성인 신체에 접촉하는 대상과 행동을 구체적으로 묘사함.",
+        "context_ids": "u0134–0137,u0139",
+        "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+        "source_field_ids": [
+          "masa_15.mjo::001656",
+          "masa_15.mjo::001660"
+        ],
+        "prior_reason_corrected": true,
+        "final_decision": "retain_original_after_final_context_review",
+        "reviewer": "primary Codex internal + independent read-only review_opening_late"
+      },
+      {
+        "unit": "masa_15.mjo::u0139",
+        "decision": "retain_original",
+        "category": "직접 묘사",
+        "reason_ko": "직전 구체적 접촉을 표현하는 효과음. 일반 소리로 분리하면 의미가 달라짐.",
+        "context_ids": "u0138,u0140–0141",
+        "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+        "source_field_ids": [
+          "masa_15.mjo::001668"
+        ],
+        "prior_reason_corrected": true,
+        "final_decision": "retain_original_after_final_context_review",
+        "reviewer": "primary Codex internal + independent read-only review_opening_late"
+      },
+      {
+        "unit": "masa_15.mjo::u0140",
+        "decision": "retain_original",
+        "category": "연결 대사",
+        "reason_ko": "진행 중인 특정 접촉의 느낌을 묻는 기능. 문장 자체에 직접 묘사는 없음.",
+        "context_ids": "u0138–0141",
+        "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+        "source_field_ids": [
+          "masa_15.mjo::001678"
+        ],
+        "prior_reason_corrected": true,
+        "final_decision": "retain_original_after_final_context_review",
+        "reviewer": "primary Codex internal + independent read-only review_opening_late"
+      },
+      {
+        "unit": "masa_15.mjo::u0141",
+        "decision": "retain_original",
+        "category": "직접 묘사",
+        "reason_ko": "해당 접촉 대상의 촉감과 감각을 설명함.",
+        "context_ids": "u0138–0140",
+        "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+        "source_field_ids": [
+          "masa_15.mjo::001693"
+        ],
+        "prior_reason_corrected": true,
+        "final_decision": "retain_original_after_final_context_review",
+        "reviewer": "primary Codex internal + independent read-only review_opening_late"
+      },
+      {
+        "unit": "masa_15.mjo::u0142",
+        "decision": "retain_original",
+        "category": "직접 묘사",
+        "reason_ko": "같은 접촉이 반복되는 효과음.",
+        "context_ids": "u0141,u0144–0145",
+        "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+        "source_field_ids": [
+          "masa_15.mjo::001701"
+        ],
+        "prior_reason_corrected": true,
+        "final_decision": "retain_original_after_final_context_review",
+        "reviewer": "primary Codex internal + independent read-only review_opening_late"
+      },
+      {
+        "unit": "masa_15.mjo::u0144",
+        "decision": "retain_original",
+        "category": "직접 묘사",
+        "reason_ko": "같은 신체 대상의 촉감을 반복해 설명함.",
+        "context_ids": "u0138,u0142–0145",
+        "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+        "source_field_ids": [
+          "masa_15.mjo::001726"
+        ],
+        "prior_reason_corrected": true,
+        "final_decision": "retain_original_after_final_context_review",
+        "reviewer": "primary Codex internal + independent read-only review_opening_late"
+      },
+      {
+        "unit": "masa_15.mjo::u0145",
+        "decision": "retain_original",
+        "category": "직접 묘사",
+        "reason_ko": "반복되는 구체적 접촉의 효과음.",
+        "context_ids": "u0144,u0146",
+        "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+        "source_field_ids": [
+          "masa_15.mjo::001734"
+        ],
+        "prior_reason_corrected": true,
+        "final_decision": "retain_original_after_final_context_review",
+        "reviewer": "primary Codex internal + independent read-only review_opening_late"
+      },
+      {
+        "unit": "masa_15.mjo::u0146",
+        "decision": "retain_original",
+        "category": "연결 대사",
+        "reason_ko": "접촉 위치에 대한 반응으로 장면을 계속 구성. 위치 상세·흥분을 원문 이상으로 확정하지는 않음.",
+        "context_ids": "u0145,u0148,u0151",
+        "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+        "source_field_ids": [
+          "masa_15.mjo::001744"
+        ],
+        "prior_reason_corrected": true,
+        "final_decision": "retain_original_after_final_context_review",
+        "reviewer": "primary Codex internal + independent read-only review_opening_late"
+      },
+      {
+        "unit": "masa_15.mjo::u0148",
+        "decision": "retain_original",
+        "category": "연결 대사",
+        "reason_ko": "진행 중인 접촉의 강도를 조절해 달라는 요청. 자체 새로운 신체 묘사는 없음.",
+        "context_ids": "u0145–0146,u0149",
+        "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+        "source_field_ids": [
+          "masa_15.mjo::001769"
+        ],
+        "prior_reason_corrected": true,
+        "final_decision": "retain_original_after_final_context_review",
+        "reviewer": "primary Codex internal + independent read-only review_opening_late"
+      },
+      {
+        "unit": "masa_15.mjo::u0151",
+        "decision": "retain_original",
+        "category": "직접 묘사",
+        "reason_ko": "앞선 신체 접촉을 구체적으로 회고하고 성인 상대와 비교함.",
+        "context_ids": "u0138–0150",
+        "source_sha256": "854aca52576a0462a7d0a3f4c12f3fc0bdeeeb11550a6201a29cd6a6da1843a1",
+        "source_field_ids": [
+          "masa_15.mjo::001799",
+          "masa_15.mjo::001803"
+        ],
+        "prior_reason_corrected": true,
+        "final_decision": "retain_original_after_final_context_review",
+        "reviewer": "primary Codex internal + independent read-only review_opening_late"
+      },
+      {
+        "unit": "masa_16.mjo::u0795",
+        "decision": "retain_original",
+        "category": "성적 비교",
+        "reason_ko": "현재 성인 장면의 접촉 선호를 앞선 아이의 행동과 연결해 부녀가 닮았다고 비교. 일반 외모·성격 유사성 문맥이 아님.",
+        "context_ids": "masa_16u0793–0798;masa_15u0138–0141",
+        "source_sha256": "727b4feb1b881790918123741eefe8291330ffc90479eb3fe00b7ebb4d5989c8",
+        "source_field_ids": [
+          "masa_16.mjo::008656"
+        ],
+        "prior_reason_corrected": true,
+        "final_decision": "retain_original_after_final_context_review",
+        "reviewer": "primary Codex internal + independent read-only review_opening_late"
+      },
+      {
+        "unit": "st_yana.mjo::u0021",
+        "decision": "retain_original",
+        "category": "노출 감상 메타 대사",
+        "reason_ko": "대화창을 계속 숨기면 진행되지 않는다는 지적이며 노출 감상을 권하는 문장은 아님. 다만 인라인000265 및 다음 목욕 대사와 결합하면 아이의 노출 장면을 감상 대상으로 삼는 메타 농담이므로 원문 유지.",
+        "context_ids": "inline000265;u0022;startu0344–0415",
+        "source_sha256": "98d095c25e061f6c86b90c63710b7b2e41604ffdc3ca6ffb63fe85b508ac598d",
+        "source_field_ids": [
+          "st_yana.mjo::000263",
+          "st_yana.mjo::000267",
+          "st_yana.mjo::000271",
+          "st_yana.mjo::000275"
+        ],
+        "prior_reason_corrected": true,
+        "final_decision": "retain_original_after_final_context_review",
+        "reviewer": "primary Codex internal + independent read-only review_opening_late"
+      }
+    ],
+    "native_title_screen_verified": false,
+    "native_dialogue_verified": false,
+    "frozen_body_base_snapshot": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\recovery-full-20261023-v2\\integrated-targets.json",
+    "integrated_overlay_snapshots": [
+      "translation/integration/ui-owned-subevent-recovery-20261023/targets.json"
+    ],
+    "historical_native_title_observation": {
+      "observed": true,
+      "evidence": "reports/latest-recovery-build.json runtime.title_screen",
+      "associated_record_runtime": "runtime-recovery-full-20261023-v2",
+      "scope": "Historical observation only; does not verify revised Korean title logo or currentv8 native rendering."
+    },
+    "native_screen_verification_build": "body-ui-20261023-v8",
+    "native_screen_verification_status": "user_pending"
+  },
+  "guidelines": "translation/LOCALIZATION_GUIDELINES.md",
+  "ui_thread": {
+    "threadId": "01a162df-720c-77d2-96ed-6429e90b3333",
+    "thinking": "max",
+    "scope": "UI then OP/ED; begins with guidelines and surface plan",
+    "workspace": "ui-opening-ending",
+    "last_progress": "All frozen reviewed results integrated throughv8: title logo v2, OP37cues+logo, ED78credits+32lyrics, prior UI. Remaining raster UI blockers documented. Native execution deferred to user.",
+    "integration_complete_for_ready_candidates": true
+  },
+  "batch_evidence": [
+    "reports/opening-guideline-review.json",
+    "reports/translation-batch-check.json",
+    "reports/repeated-unit-review.json",
+    "translation/unit-context.json",
+    "translation/term-occurrences.json",
+    "reports/font-gdi-body-sans.json",
+    "reports/font-gdi-body-serif.json",
+    "reports/batch-implementation-review.json",
+    "reports/chapter02-through-0373-review.json",
+    "reports/deferred-70-restored-review.json"
+  ],
+  "usage_checkpoint": {
+    "used_percent": 29,
+    "remaining_percent": 71,
+    "shared_stop_marker_present": false,
+    "checked_at": "2026-10-24T02:30:47.262533+09:00"
+  },
+  "body_parallel": {
+    "ownership": "body-parallel/ownership.json",
+    "sessions": 3,
+    "translation_agents_per_session": 3,
+    "status": "three_chats_active_nine_agents_started",
+    "source_scripts": 181,
+    "source_text_commands": 96399,
+    "root_completed_units": 992,
+    "threads": [
+      {
+        "session": 1,
+        "threadId": "01a16335-92a2-79c2-814f-63275a46f2b1",
+        "title": "레콘퀴스타 본문 1 · 공통·쿠레하·마사키",
+        "assigned_units": 16807,
+        "agents_started": 3,
+        "evidence": "coordinator commentary + coordinator-progress.json",
+        "hostId": "local",
+        "status_at_dispatch_check": "active",
+        "workspace": "P:\\AI\\Codex\\projects\\reconquista-ko\\body-parallel\\session-1"
+      },
+      {
+        "session": 2,
+        "threadId": "01a16335-afd6-74f0-8990-fd759c6ead35",
+        "title": "레콘퀴스타 본문 2 · 마호코·시이나",
+        "assigned_units": 17424,
+        "agents_started": 3,
+        "agent_thread_ids": [
+          "01a16337-7bdb-7e02-9c3a-9e81bb2e16b7",
+          "01a16337-bfbb-7823-8401-2f69faea65eb",
+          "01a16337-f0a2-7012-b7fc-7bb7ed45ffbb"
+        ],
+        "evidence": "read_thread subAgentActivity started x3",
+        "hostId": "local",
+        "status_at_dispatch_check": "active",
+        "workspace": "P:\\AI\\Codex\\projects\\reconquista-ko\\body-parallel\\session-2"
+      },
+      {
+        "session": 3,
+        "threadId": "01a16335-c355-7c83-ad79-53e1812faa34",
+        "title": "레콘퀴스타 본문 3 · 과거·최종장·부가 시나리오",
+        "assigned_units": 11728,
+        "agents_started": 3,
+        "evidence": "coordinator commentary states all three translation agents started",
+        "hostId": "local",
+        "status_at_dispatch_check": "active",
+        "workspace": "P:\\AI\\Codex\\projects\\reconquista-ko\\body-parallel\\session-3"
+      }
+    ],
+    "started_translation_agents": 9,
+    "validation_evidence": "reports/body-parallel-boundary-check.json"
+  },
+  "updated_at": "2026-10-24T02:30:47.262533+09:00",
+  "session1_runtime_integration": {
+    "status": "integrated_headless_pass_final_visual_by_user",
+    "label": "session1-04fc30b0-widthqa-v1",
+    "progress": "translation\\integration\\session1-04fc30b0-widthqa-v1\\runtime-review.json",
+    "latest_authorization": "User explicitly requested central integration including two tail choices and native-game review/fixes for81 width warnings, reusing passed verification.",
+    "normal_runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-integration-session1-3a72a9ff",
+    "manual_warning_replay": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-qa\\session1-width81-3a72a9ff-modes",
+    "headless_report": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\session1-04fc30b0-widthqa-v1\\headless-width-81.json",
+    "warnings_checked": 81,
+    "overflow": 0,
+    "final_visual_owner": "user"
+  },
+  "recovery_20261023": {
+    "snapshot": "recovery-full-20261023-v1",
+    "snapshot_path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\recovery-full-20261023-v1\\integrated-targets.json",
+    "snapshot_sha256": "cbfc68273106ce94a74f34c179e104be7ae3de0330023ee5de1cd3ee30542415",
+    "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\integrated-recovery-full-20261023-v1",
+    "normal_runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-recovery-full-20261023-v1",
+    "status": "integrated_installed_static_gdi_pass_visual_pending",
+    "units": 46913,
+    "text_fields": 73314,
+    "inline_fields": 625,
+    "verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\recovery-full-20261023-v1\\verification.json",
+    "body_units_remaining": 38,
+    "content_reviewed": 57,
+    "content_restored": 20,
+    "technical_resolved": 5,
+    "content_remaining": {
+      "direct_context": 33,
+      "boundary_action": 4
+    },
+    "other_semantic_pending": "st_gin.mjo::u0068",
+    "next": "Resolve remaining ordinary meaning questions where evidence permits; UI work remains in separate session; actual new-build visual QA pending because Computer Use initialization failed.",
+    "launcher": "Start-Korean-Recovery.ps1",
+    "compatibility_launcher": "Start-Korean-Integrated.ps1",
+    "launcher_prepare_pass": {
+      "disc": "G:",
+      "patch_font_exe_hashes": true,
+      "native_game_started": false
+    },
+    "independent_final_review": "Target and snapshot/archive/installed hashes verified; one nested manifest hash corrected, previous passed GDI reused."
+  },
+  "recovery_review2_20261023": {
+    "snapshot": "recovery-full-20261023-v2",
+    "snapshot_path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\recovery-full-20261023-v2\\integrated-targets.json",
+    "snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+    "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\integrated-recovery-full-20261023-v2",
+    "normal_runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-recovery-full-20261023-v2",
+    "status": "body_integration_complete_user_visual_pending",
+    "units": 46935,
+    "text_fields": 73350,
+    "inline_fields": 625,
+    "verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\recovery-full-20261023-v2\\verification.json",
+    "body_units_remaining": 16,
+    "reviewed": 37,
+    "restored_general": 21,
+    "semantic_resolved": [
+      "st_gin.mjo::u0068"
+    ],
+    "held_unit_ids": [
+      "masa_15.mjo::u0134",
+      "masa_15.mjo::u0135",
+      "masa_15.mjo::u0136",
+      "masa_15.mjo::u0137",
+      "masa_15.mjo::u0138",
+      "masa_15.mjo::u0139",
+      "masa_15.mjo::u0140",
+      "masa_15.mjo::u0141",
+      "masa_15.mjo::u0142",
+      "masa_15.mjo::u0144",
+      "masa_15.mjo::u0145",
+      "masa_15.mjo::u0146",
+      "masa_15.mjo::u0148",
+      "masa_15.mjo::u0151",
+      "masa_16.mjo::u0795",
+      "st_yana.mjo::u0021"
+    ],
+    "per_id_report": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\recovery-20261023-review2\\구간별-재검토.md",
+    "next": "User will perform actual dialogue-screen verification later using Start-Korean-Recovery.ps1 or the separate Start-Korean-Review.ps1; body integration and final16 context review are finished. UI/OP/ED remain separate scope.",
+    "extra_particle_corrections": 25,
+    "final16_review": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\recovery-full-20261023-v2\\remaining16-final-review.json",
+    "manual_visual_profile": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\recovery-full-20261023-v2\\manual-visual-profile.json"
+  },
+  "historical_opening_stage": {
+    "translation": {
+      "authored_units": {
+        "00_レコンキスタ_start.mjo": [
+          [
+            1,
+            619
+          ]
+        ],
+        "00_レコンキスタ_start_2.mjo": [
+          [
+            1,
+            373
+          ]
+        ]
+      },
+      "authored_text_fields": 1422,
+      "authored_inline_fields": 9,
+      "static_verified_previous_units": "u0001-u0113",
+      "current_build_pending": true,
+      "status": "992 units context reviewed and static checked; last 146 units not yet built/runtime-verified",
+      "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\trial-body-through-ch02-0297",
+      "visible_evidence": "reports/runtime-opening-first-korean.png",
+      "covered_unit_count": 992,
+      "opening_reviewed_units": 619,
+      "opening_corrected_units": 14,
+      "next_untranslated": "00_レコンキスタ_start_2.mjo::u0374",
+      "static_verified_current_units": {
+        "00_レコンキスタ_start.mjo": [
+          [
+            1,
+            619
+          ]
+        ],
+        "00_レコンキスタ_start_2.mjo": [
+          [
+            1,
+            373
+          ]
+        ]
+      },
+      "deferred_untranslated": {},
+      "deferred_reason": null
+    },
+    "runtime_note": "Prior first-line proof reused. New staged build has 757 mapped Hangul glyphs passing ANSI/Unicode offscreen GDI for both sans and serif and 8 direct Mincho consumers retargeted. New build not installed into running runtime-ko; names, ruby, backlog, save/load and full traversal pending."
+  },
+  "body_ui_integration": {
+    "label": "body-ui-20261023-v14-flowchart",
+    "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-body-ui-20261023-v14-flowchart",
+    "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v14-flowchart",
+    "launcher": "Start-Korean.cmd",
+    "body_units": 46968,
+    "ui_script_fields": 143,
+    "raster_label_instances": 464,
+    "timeline_cells": 355,
+    "timeline_source_retained_ids": [],
+    "native_resource_fields": 147,
+    "installer_fields": 88,
+    "installer_readme_fields": 10,
+    "static_pass": true,
+    "new_font_gdi_pass": true,
+    "exe_security_exact_prior_proof_reused": true,
+    "user_actual_visual_pending": true,
+    "installer_payloads": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\installer-ui-20261023-v1",
+    "timeline_cells_with_source_names": 3,
+    "timeline_name_spans": [
+      {
+        "id": "alt_ホラー年表改.csv::r017c07",
+        "source_names": [
+          "高文",
+          "一ノ瀬"
+        ]
+      },
+      {
+        "id": "alt_ホラー年表改.csv::r028c07",
+        "source_names": [
+          "朋子"
+        ]
+      },
+      {
+        "id": "exec_ホラー年表改.csv::r000c07",
+        "source_names": [
+          "朋子"
+        ]
+      }
+    ],
+    "body_text_fields": 73403,
+    "body_inline_fields": 626,
+    "ui_owned_unit_accounting": {
+      "total": 70,
+      "c_setumei_translated_units": 36,
+      "subevent_recovered_units": 33,
+      "yazlib_nonlinguistic_marker_preserved_units": 1,
+      "unaccounted_units": 0
+    },
+    "subevent_recovery": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\ui-owned-subevent-recovery-20261023\\targets.json",
+    "op_ed_status": {
+      "opening_movie_localized": true,
+      "ending_credits_localized": true,
+      "ending_lyrics_localized": true,
+      "ending_credits_labels": 78,
+      "scroll_and_slides_original_dimensions_and_timing_preserved": true,
+      "actual_game_sync_verified": false,
+      "ending_lyric_lines": 32,
+      "ending_lyrics_font": "Eulyoo1945 SemiBold",
+      "ending_lyrics_source_uncertain_ids": [
+        "ed-lyrics::014"
+      ],
+      "opening_lyric_lines": 16,
+      "opening_credit_cues": 21,
+      "opening_logo_localized": true,
+      "opening_audio_unchanged": true
+    },
+    "ui_raster_label_instances": 464,
+    "brand_logo": {
+      "text": "레콘키스타",
+      "title_variants": 3,
+      "title_states": 9,
+      "quote_lines_per_state": 4,
+      "opening_logo_integrated": false,
+      "runtime_verified": false,
+      "revision": "v3",
+      "master_sha256": "81e8e88a31f70f84ab6bafbe33cfad19787b7e5079206c05f094d82eaa2f51ef",
+      "hd_title_states": 9,
+      "opening_logo_revision": "v2; v3 handoff pending separate OP session"
+    },
+    "latest_handoff": "reports/final-integration-20261023.json"
+  },
+  "ed_overlay_checkpoint": {
+    "candidate": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\ed-lyrics-overlay-v3",
+    "manifest_sha256": "85e4a33be0fc3b36c4d3466dc396a2732bb502577bacadd0ac065a67e572d978",
+    "status": "integrated_into_body-ui-20261023-v5",
+    "labels": 32,
+    "font": "Eulyoo1945 SemiBold",
+    "script_sha256": "23160baf23688e3e3e87f2c9fd968ef29c158cdafeaf25e992d01c3a674489ee",
+    "next": "User later verifies native song sync/menu/load/title transitions."
+  },
+  "remaining_console_ui": {
+    "status": "completed_v15",
+    "evidence": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\ui-completion-v1\\verification.json"
+  },
+  "remaining_ui_handoff": "reports/remaining-ui-handoff.json",
+  "opening_movie_checkpoint": {
+    "candidate": "ui-opening-ending/candidates/opening-video-ko-v2",
+    "status": "integrated_into_body-ui-20261023-v8",
+    "output_sha256": "46f4c0f9bcccd5294fb01ac2040824cfe577634b6ac70091da9d30c3bfaf4dda",
+    "proof": "reports/opening-video-v2-central-review.json",
+    "native_review": "user_pending"
+  },
+  "display_performance_followup": {
+    "at": "2026-10-23T12:05:57.177261+09:00",
+    "status": "large_text_v9_installed_user_runtime_pending",
+    "user_report": "게임 전체가 작고 버벅임; 작은 창 모드",
+    "current_build": "body-ui-20261023-v8",
+    "screen": [
+      4096,
+      2160
+    ],
+    "refresh_rate_reported_hz": 119,
+    "game_client": [
+      800,
+      600
+    ],
+    "native_shortcuts": {
+      "fullscreen": "F4",
+      "window": "Alt+Enter"
+    },
+    "shortcut_evidence": "ui-opening-ending/translation/native-ui-ko.json MAJIRO_MAIN screen menu",
+    "font_measurement": "reports/display-typography-diagnosis-20261023.json",
+    "font_finding": "At same positive GDI height23, Noto has7px internal leading vsMS Gothic0; sample ink16px vs21px. Current fonts have not been changed; widening/resizing requires renewed layout evidence.",
+    "performance_finding": "No game process running at inspection. Offscreen GDI currentfont1000glyph drawing cold86-105ms/warm18-20ms; this is not in-game performance or causal proof. MAX_FPS remains source100.",
+    "native_game_executed": false,
+    "next": "User runs game and usesF4 to compare readable fullscreen. Collect read-only running-process CPU and I/O during reported stutter before selecting a performance change.",
+    "build": "body-ui-20261023-v9",
+    "candidate": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\large-text-v1",
+    "static_verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v9\\delta-inputs\\large-text-v1",
+    "default_launcher": "Start-Korean.cmd",
+    "explicit_launcher": "Start-Korean-4K.cmd",
+    "fallback_launcher": "Start-Korean-v8.cmd",
+    "runtime_verified": false,
+    "stutter_cause_confirmed": false
+  },
+  "menu_upscale_followup": {
+    "status": "v10_hd_integrated",
+    "user_report": "main menu text blurry; considering local CG upscaling",
+    "study": "P:\\AI\\Codex\\projects\\reconquista-ko\\candidates\\title-upscale-study-v1",
+    "model": "high-fidelity-4x",
+    "sample_canvas": [
+      3200,
+      2400
+    ],
+    "recommendation": "Menu high-resolution retypesetting plus high-resolution output/coordinate support, then offline CG upscale",
+    "game_modified": true,
+    "next": "Prove menu output resolution and coordinate transform before replacing any game raster"
+  },
+  "hires_v10_checkpoint": {
+    "status": "installed_hidden_runtime_pass_user_gameplay_pending",
+    "candidate": "candidates/hires-v1",
+    "model": "high-fidelity-4x",
+    "decision": "Four local model comparisons; best preserved original line softness, facial forms and background painting. No style transfer or sharpening.",
+    "menu_assets_complete": 9,
+    "menu_labels_fit_verified": 45,
+    "native_source": "candidates/hires-v1/native/ReconquistaHD.cpp",
+    "native_unverified": [
+      "actual onscreen gameplay and transitions"
+    ],
+    "previous_v9_unchanged": true,
+    "next": "User runtime review only; HD build integration complete",
+    "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v10-hd",
+    "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-body-ui-20261023-v10-hd",
+    "cg_complete": 1758,
+    "menu_states": 9,
+    "transition_backgrounds": 4,
+    "verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v10-hd\\delta-inputs\\hires-v1\\verification.json",
+    "default_launcher": "Start-Korean.cmd",
+    "explicit_launcher": "Start-Korean-4K.cmd",
+    "fallback_launcher": "Start-Korean-v9.cmd"
+  },
+  "review_unlock_checkpoint": {
+    "status": "installed_hidden_runtime_pass_user_visual_review_pending",
+    "candidate": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\review-unlock-v1",
+    "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v11-review",
+    "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-body-ui-20261023-v11-review",
+    "verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v11-review\\delta-inputs\\review-unlock-v1\\verification.json",
+    "default_enabled": false,
+    "shortcut": "Ctrl+F10",
+    "fallback": "Start-Korean-v10.cmd",
+    "source_record_tables_unchanged": true,
+    "next": "User gallery and scene review; toggle off to return original unlock state.",
+    "launcher_prepare_pass": true
+  },
+  "input_logo_checkpoint": {
+    "status": "installed_hidden_input_pass_user_screen_pending",
+    "candidate": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\input-fix-v1",
+    "logo_candidate": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\brand-logo-ko-v3",
+    "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v12-input-logo",
+    "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-body-ui-20261023-v12-input-logo",
+    "input_verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v12-input-logo\\delta-inputs\\input-fix-v1\\verification.json",
+    "logo_verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v12-input-logo\\delta-inputs\\brand-logo-ko-v3\\central-review.json",
+    "fallback": "Start-Korean-v11.cmd",
+    "opening_new_logo_integrated": false,
+    "launcher_prepare_pass": true,
+    "opening_logo_handoff": {
+      "threadId": "01a162df-720c-77d2-96ed-6429e90b3333",
+      "master": "ui-opening-ending/candidates/brand-logo-ko-v3/master/reconquista-ko.png",
+      "master_sha256": "81e8e88a31f70f84ab6bafbe33cfad19787b7e5079206c05f094d82eaa2f51ef",
+      "status": "delivered; opening session working"
+    },
+    "ui_automation_status": "Computer Use kernel initialization failed; no actual screen interaction verification",
+    "remaining": "User title interaction check; separate opening session new video integration when ready"
+  },
+  "config_completion_checkpoint": {
+    "status": "installed_controlled_runtime_verified_user_screen_pending",
+    "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v13-config",
+    "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-body-ui-20261023-v13-config",
+    "candidate": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\config-completion-v1",
+    "labels": 19,
+    "instances": 57,
+    "fallback": "Start-Korean-v12.cmd",
+    "verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v13-config\\delta-inputs\\config-completion-v1\\verification.json",
+    "background_restore_exception": "User approved original-style local reconstruction",
+    "launcher_prepare_pass": true,
+    "game_not_auto_launched": true
+  },
+  "version_cleanup_checkpoint": {
+    "status": "deferred_by_user",
+    "plan": "reports/version-cleanup-20261023/plan.json",
+    "review": "reports/version-cleanup-20261023/정리안.md",
+    "safety_archive": "reports/version-cleanup-20261023/saves-and-evidence.zip",
+    "restore_map": "reports/version-cleanup-20261023/restore-map.json",
+    "mapped_files": 9189,
+    "unmapped_files": 0,
+    "proposed_keep_versions": [
+      13,
+      12,
+      9
+    ],
+    "proposed_retired_runtimes": 10,
+    "proposed_completed_prototypes": 4,
+    "expected_net_reclaim_GiB_approx": 1.6,
+    "read_only_review_completed": true,
+    "auto_review_rejected": true,
+    "approval_status": "reports/version-cleanup-20261023/approval-status.json",
+    "deleted_files": 0,
+    "preflight_passed": true,
+    "user_decision": "삭제 보류",
+    "automatic_execution_allowed": false
+  },
+  "flowchart_checkpoint": {
+    "status": "installed_representative_runtime_and_f11_verified",
+    "candidate": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\flowchart-v1",
+    "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v14-flowchart",
+    "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-body-ui-20261023-v14-flowchart",
+    "review_runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-flowchart-review-v1",
+    "counts": {
+      "chapters": 103,
+      "pages": 43886,
+      "choices": 40,
+      "branches": 91,
+      "viewpoints": 3
+    },
+    "verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v14-flowchart\\delta-inputs\\flowchart-v1\\verification.json",
+    "remaining": [
+      "User-wide traversal of all selectable targets; not a claimed exhaustive runtime pass"
+    ],
+    "save_preservation": [
+      {
+        "file": "savedata/fc_Reconquista KR d00b8d76_044x092.fcd",
+        "original_sha256": "02ac5da94bdf9db0672e676e3cb054a60cb4a8936398a301173ea000377530df",
+        "original_unchanged": true,
+        "independent_file_ids": true
+      },
+      {
+        "file": "savedata/fc_Reconquista KR Large1_044x092.fcd",
+        "original_sha256": "9807ebb8e5f2aa620ae21d9d3e9cbdf09b9dd904f8a6aae9d97fdd675aba5d06",
+        "original_unchanged": true,
+        "independent_file_ids": true
+      },
+      {
+        "file": "savedata/fc_굃굍 긕긘긞긏_044x092.fcd",
+        "original_sha256": "0807fca164b07db113804b047b4b9e2ac9d9022a6352d350bc6d5a1218876ded",
+        "original_unchanged": true,
+        "independent_file_ids": true
+      },
+      {
+        "file": "savedata/majiro_readmark.mss",
+        "original_sha256": "ce5b67141d1894f5d5c43bd9ab1560666fc6a5c7e690b2eebb0c1760fdb1cde3",
+        "original_unchanged": true,
+        "independent_file_ids": true
+      },
+      {
+        "file": "savedata/majiro_system.mss",
+        "original_sha256": "3fb09fb25eba37867701843e496d0580a874868f09a130b754188da3bc850dca",
+        "original_unchanged": true,
+        "independent_file_ids": true
+      }
+    ],
+    "guide": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\검수용-플로차트-사용법.md",
+    "launcher_prepare_only_pass": true
+  },
+  "name_display_checkpoint": {
+    "status": "installed",
+    "raster_labels": 18,
+    "display_name_mapping": 117,
+    "observed_names": [
+      "마키노"
+    ],
+    "verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v14-flowchart\\delta-inputs\\name-display-v1\\verification.json"
+  },
+  "runtime_test_policy": {
+    "audio": "muted; test-only playback dispatches removed",
+    "desktop": "private desktop only",
+    "global_input": false,
+    "system_volume_changed": false,
+    "owned_test_processes_running": false,
+    "manual_security_scans_this_batch": 0
+  },
+  "ui_completion_checkpoint": {
+    "status": "installed",
+    "candidate": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\ui-completion-v1",
+    "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v15-ui",
+    "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-body-ui-20261023-v15-ui",
+    "images": 32,
+    "label_instances": 229,
+    "verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\ui-completion-v1\\verification.json",
+    "remaining_requested_scope": [],
+    "launch_prepare_pending": false,
+    "launch_prepare_pass": true
+  },
+  "ui_rest_checkpoint": {
+    "status": "installed",
+    "candidate": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\ui-rest-v1",
+    "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261023-v16-ui-rest",
+    "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-body-ui-20261023-v16-ui-rest",
+    "rct_images": 20,
+    "additional_watermark_surfaces": 2,
+    "label_instances": 87,
+    "resolved_name_rows": 4,
+    "verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\ui-rest-v1\\verification.json",
+    "remaining_requested_ui": [],
+    "launch_prepare_pending": false,
+    "launch_prepare_pass": true,
+    "final_metadata_review": "candidates/ui-rest-v1/metadata-review.json"
+  },
+  "opening_v5_checkpoint": {
+    "pass": true,
+    "source_candidate": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\ui-opening-ending\\candidates\\opening-video-ko-v5",
+    "frozen_manifest_sha256": "1dec1b050c2482cad1b74b6a9583bb52329eb92ab482cb5390b343ff8c4e15ac",
+    "old_output_sha256": "46f4c0f9bcccd5294fb01ac2040824cfe577634b6ac70091da9d30c3bfaf4dda",
+    "output_sha256": "c8a8fa38cb35517285fc1fad7d1c09990f57199dae7b1f7915bcfd3e576cc719",
+    "frames": 3037,
+    "source_audio_preserved": true,
+    "technical_and_44_frame_visual_proofs_reused": true,
+    "independent_review_thread": "01a168b4-b29b-7b40-8469-756e62f8cee9",
+    "independent_samples": [
+      "006",
+      "009",
+      "015",
+      "025",
+      "039"
+    ],
+    "runtime_playback_or_listening_claimed": false,
+    "four_k_viewing_not_required": true
+  },
+  "flowchart_preview_name_checkpoint": {
+    "status": "installed",
+    "installed_at": "2026-10-24T02:30:47.262533+09:00",
+    "scope": "flowchart preview display only",
+    "runtime_game_build": "body-ui-20261023-v16-ui-rest",
+    "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\candidates\\flowchart-v1\\core.py",
+    "source_sha256": "efcb33889d867a10b84f552468140e46ccd3dc11b8b76bd296dcbd79572fe61a",
+    "catalogue": "P:\\AI\\Codex\\projects\\reconquista-ko\\candidates\\flowchart-v1\\catalogue.json",
+    "catalogue_sha256": "70ebc57f41e98a08551583013c9f3e721f47fabe11b8bbf176948e6dce840793",
+    "mapping_count": 117,
+    "affected_previews": 7546,
+    "screenshot_reported_rows": 5,
+    "game_archives_changed": false,
+    "save_files_changed": false,
+    "restart_instruction": "Close the existing chart, then reopen with F11 or Start-Korean-Flowchart.cmd.",
+    "verification": "P:\\AI\\Codex\\projects\\reconquista-ko\\candidates\\flowchart-v1\\preview-name-fix-v1\\verification.json"
+  },
+  "ingame_flowchart_checkpoint": {
+    "status": "installed_and_launcher_prepare_pass",
+    "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261024-v17-ingame",
+    "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-body-ui-20261024-v17-ingame",
+    "verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261024-v17-ingame\\delta-inputs\\ingame-flowchart-v1\\verification.json",
+    "counts": {
+      "chapters": 103,
+      "pages": 43886,
+      "choices": 40,
+      "branches": 91,
+      "viewpoints": 3
+    },
+    "same_process_runtime_tests": true,
+    "all_nodes_executed": false,
+    "save_import": {
+      "from": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-body-ui-20261023-v16-ui-rest\\savedata",
+      "imported": [
+        "fc_Reconquista KR d00b8d76_044x092.fcd",
+        "fc_Reconquista KR Large1_044x092.fcd",
+        "fc_굃굍 긕긘긞긏_044x092.fcd",
+        "majiro_readmark.mss",
+        "majiro_system.mss"
+      ],
+      "excluded_left_in_v16": [],
+      "hashes": {
+        "fc_Reconquista KR d00b8d76_044x092.fcd": "02ac5da94bdf9db0672e676e3cb054a60cb4a8936398a301173ea000377530df",
+        "fc_Reconquista KR Large1_044x092.fcd": "9807ebb8e5f2aa620ae21d9d3e9cbdf09b9dd904f8a6aae9d97fdd675aba5d06",
+        "fc_굃굍 긕긘긞긏_044x092.fcd": "0807fca164b07db113804b047b4b9e2ac9d9022a6352d350bc6d5a1218876ded",
+        "majiro_readmark.mss": "ce5b67141d1894f5d5c43bd9ab1560666fc6a5c7e690b2eebb0c1760fdb1cde3",
+        "majiro_system.mss": "3fb09fb25eba37867701843e496d0580a874868f09a130b754188da3bc850dca"
+      },
+      "manual_slot_imported": false
+    },
+    "names": {
+      "approved_map_unchanged": true,
+      "mahoko": "name-fixed-hd-after.png"
+    },
+    "remaining": [
+      "all 43886 pages not runtime-tested",
+      "old manual save compatibility not claimed"
+    ],
+    "installation": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261024-v17-ingame\\delta-inputs\\ingame-flowchart-v1\\installation.json"
+  },
+  "included_usage_last_check": {
+    "remaining_percent": 84,
+    "used_percent": 16,
+    "limit_id": "codex",
+    "stop_marker_absent": true
+  },
+  "cg_quality_checkpoint": {
+    "status": "complete_installed_and_prepare_verified",
+    "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261024-v18-cg-switch",
+    "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-body-ui-20261024-v18-cg-switch",
+    "verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261024-v18-cg-switch\\delta-inputs\\cg-quality-performance-v1\\verification.json",
+    "next": "Use v18; retain Start-Korean-v17.cmd for rollback.",
+    "usage_remaining_percent_at_batch_start": 34,
+    "security_scan": "passed_scoped",
+    "usage_remaining_percent": 32,
+    "installation": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261024-v18-cg-switch\\delta-inputs\\cg-quality-performance-v1\\installation.json",
+    "scenes_exhaustive": false,
+    "foreground_performance_measured": false,
+    "inherited_audit_note": "22 date-transition plates excluded from CG switching still contain Japanese captions; not semantically edited in this change."
+  },
+  "menus_4k_checkpoint": {
+    "status": "complete_installed_verified",
+    "candidate": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\menus-4k-v1",
+    "menu_assets": 163,
+    "color_and_matte_files": 301,
+    "staff_name_states": 36,
+    "next": "Use Start-Korean.cmd. Rollback available through Start-Korean-v18.cmd; user foreground play review remains optional.",
+    "usage_remaining_percent": 66,
+    "evidence": "candidates/menus-4k-v1/qa/quality-runtime.log",
+    "assets_visual_review": "Native labels and page button chrome corrected. Calendar verified after pairing RGB and alpha.",
+    "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261024-v19-menus-4k",
+    "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-body-ui-20261024-v19-menus-4k",
+    "verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\body-ui-20261024-v19-menus-4k\\delta-inputs\\menus-4k-v1\\verification.json",
+    "installation": "P:\\AI\\Codex\\projects\\reconquista-ko\\builds\\body-ui-20261024-v19-menus-4k\\delta-inputs\\menus-4k-v1\\installation.json",
+    "verified_menu_families": [
+      "config",
+      "staffroom",
+      "music",
+      "pause",
+      "save",
+      "load",
+      "viewpoint",
+      "chronicle",
+      "gallery",
+      "recollection"
+    ],
+    "manual_saved_game_load_tested": false,
+    "foreground_long_play_tested": false
+  },
+  "redraw_4k_20261025": {
+    "cloud_kept_current": 20,
+    "runtime_installed": false,
+    "source_motion_and_signs_verified": true,
+    "output_directory": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\redraw-4k-20261025",
+    "history_run_id": "20261025T075120930Z_b2b2c4fd091c",
+    "status": "priority_1_cloud_and_priority_2_complete",
+    "cloud_checked": 137,
+    "history_verified": true,
+    "progress_path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\redraw-4k-20261025\\progress.json",
+    "cloud_repaired": 117,
+    "updated_utc": "2026-10-25T08:40:01.7333957Z",
+    "priority_2_started": true,
+    "image_text_localization_decision": {
+      "original_user_instruction": "하는 김에 일본어로 된것들 한국어로 번역도 좀 해라",
+      "status": "confirmed",
+      "priority_2_and_3": "Priority 2 authorized and completed; priority 3 not started.",
+      "review_item_3": "resolved; no pending lettering decision",
+      "recorded_utc": "2026-10-25T08:44:16.879463Z",
+      "bus_scope": "Color and intentional motion blur only; existing Korean sign regions remain unchanged, as already verified in the completed revision.",
+      "policy": "Preserve current Korean lettering. Translate Japanese lettering in future authorized image work into Korean. This supersedes the earlier handoff phrase requesting original lettering.",
+      "translator_model": "Codex internal"
+    },
+    "external_review_record": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\redraw-4k-20261025\\corrections-v5\\qa\\external-review-20261025.json",
+    "pending_authorization": {
+      "game_installation": "pending explicit user authorization; Claude prepared only",
+      "priority_2": "Authorized by user; 57 results published for review.",
+      "console_fix": "pending user decision",
+      "priority_3": "not started"
+    },
+    "storage_cleanup_20261025": {
+      "completed": true,
+      "verified_utc": "2026-10-25T09:27:24Z",
+      "authorization": [
+        "인물은 내버려두고 여기서 새로 만드는 것들 전의 파일들만",
+        "카르네바레도 그렇고",
+        "삭제금지보존은 여기서 무효화한다"
+      ],
+      "scope": "Superseded non-character image work only; originals/current deliveries/current game preserved",
+      "report": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\storage-cleanup-20261025\\verification.json",
+      "deletion_list": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\storage-cleanup-20261025\\deletion-plan.json",
+      "journal": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\storage-cleanup-20261025\\deletion-journal.jsonl",
+      "deleted_files": 3283,
+      "observed_free_increase_bytes": 7085150208,
+      "additional_work_root": "F:\\AI\\Codex\\projects\\reconquista-art-20261025",
+      "protected": "Characters, event CG, original game assets, current game and final review deliverables",
+      "rollback_note": "Only the removed previous background versions are retired; current game files were not changed.",
+      "additional_cleanup_exclusions_record": "redraw_4k_20261025.cleanup_protection"
+    },
+    "additional_work_root": "F:\\AI\\Codex\\projects\\reconquista-art-20261025",
+    "priority_2_count": 57,
+    "priority_2_manifest": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\redraw-4k-20261025\\priority2-manifest.json",
+    "priority_2_workspace": "F:\\AI\\Codex\\projects\\reconquista-art-20261025\\priority2",
+    "priority_2_status": "complete_ready_for_Claude_review",
+    "priority_2_authorization": "2순위(건물·거리 배경 57장)도 코덱스에 맡겨 줘.",
+    "priority_2_updated_utc": "2026-10-25T10:32:37.258005+00:00",
+    "priority_2_completed_utc": "2026-10-25T10:40:55.181960+00:00",
+    "priority_2_viewer": "http://127.0.0.1:8769/review/priority2.html",
+    "priority_2_viewer_verified": true,
+    "priority_3_started": false,
+    "cleanup_protection": {
+      "recorded_utc": "2026-10-25T10:44:10.478320+00:00",
+      "source": "Claude relay — user-authorized protection request, 2026-10-25",
+      "scope": "Cleanup exclusions; this record does not change ACLs or modify the protected assets.",
+      "paths": [
+        {
+          "path": "P:\\AI\\Codex\\projects\\reconquista_flowchart_20261024",
+          "scope": "entire directory tree",
+          "cleanup_rule": "Do not delete, move, overwrite, or otherwise modify. Runtime assets are hard-linked here; these are current files, not superseded versions."
+        },
+        {
+          "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\redraw-4k-20261025",
+          "scope": "top-level *.png and cloud/*.png",
+          "cleanup_rule": "Preserve for Claude reinspection and packaging. Includes priority 1 and priority 2 final PNGs."
+        }
+      ],
+      "reported_active_runtime_subdirectories": [
+        {
+          "relative_path": "build\\hires-jxl-blend",
+          "reported_count": 1631
+        },
+        {
+          "relative_path": "build\\hires-jxl-cloud",
+          "reported_count": 117
+        },
+        {
+          "relative_path": "build\\hires-jxl-redraw",
+          "reported_count": 10
+        }
+      ],
+      "counts_are": "Reported by Claude; not recounted or rewritten in this turn.",
+      "priority2_new_57_runtime_installation": "No installation performed by Codex.",
+      "protected_files_modified_this_turn": false
+    }
+  },
+  "external_semi_korean_analysis_20261025": {
+    "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\research\\semi-korean-patch-20261025",
+    "status": "analysis_complete",
+    "version": "2021-09-01 with official 1.01 Japanese source overlay",
+    "semantic_sample_units": 300,
+    "confirmed_meaning_issue_units": 13,
+    "report": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\external-semi-korean-analysis-20261025\\레콘퀴스타-준한글-분석.html",
+    "text_report": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\external-semi-korean-analysis-20261025\\레콘퀴스타-준한글-분석.txt",
+    "verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\external-semi-korean-analysis-20261025\\verification.json",
+    "remaining_outside_requested_analysis": [
+      "Full-corpus semantic audit",
+      "Actual AralTrans/CustomScript runtime and audio checks"
+    ],
+    "next": "No patch install or merge performed; retain source and findings for selective future review.",
+    "current_translation_comparison": {
+      "status": "complete",
+      "date": "2026-10-25",
+      "sample_units": 300,
+      "verdict": "Current project translation stronger overall in reviewed sample",
+      "report": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\external-semi-korean-analysis-20261025\\현재번역-준한글-비교.txt",
+      "details": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\external-semi-korean-analysis-20261025\\current-translation-comparison.json",
+      "verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\external-semi-korean-analysis-20261025\\current-comparison-verification.json",
+      "snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+      "remaining": "No full-corpus or audio/runtime comparison; no translation edits requested or performed.",
+      "wordplay_erratum": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\translation-nuance-20261025\\말장난-판정-정정.json"
+    }
+  },
+  "translation_nuance_20261025": {
+    "status": "applied_targeted_corrections_runtime_partial",
+    "date": "2026-10-25",
+    "translator_model": "Codex internal",
+    "changed_fields": 17,
+    "loanword_fields": 15,
+    "register_fields": 2,
+    "changed_scripts": 12,
+    "preview_changes": 17,
+    "snapshot_sha256": "7faf308f8e9e2e4d89e458b9e47a276e68f49ab18956d5858e6b9ba906ad821c",
+    "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-body-ui-20261025-v20-nuance",
+    "launcher": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\Start-Korean.cmd",
+    "rollback_launcher": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\Start-Korean-v19.cmd",
+    "report": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\deliverables\\translation-nuance-20261025\\보완-내역.txt",
+    "static_verification": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\translation-nuance-20261025-v1\\build-verification.json",
+    "runtime_verification": {
+      "passed_targets": [
+        {
+          "order": 216,
+          "description": "마키노의 첫 자기소개"
+        },
+        {
+          "order": 222,
+          "description": "마사키의 오케이 대사"
+        },
+        {
+          "order": 1074,
+          "description": "마호코의 개그 대사"
+        }
+      ],
+      "passed_evidence": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\translation-nuance-20261025-v1\\qa\\runtime-first-attempt.json",
+      "test_environment": "Private desktop, muted disposable copies, no global input or screenshot generation",
+      "not_verified_target": {
+        "order": 9107,
+        "scene": "masa_06 u0022",
+        "result": "v20 muted fast-jump test timed out; v19 comparison was inconclusive because it stopped at a startup dialog before the jump",
+        "new_version_evidence": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\translation-nuance-20261025-v1\\qa\\runtime-masa-retry.json",
+        "baseline_evidence": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\translation-nuance-20261025-v1\\qa\\runtime-masa-baseline2.json",
+        "interpretation": "Cause unresolved. Do not claim a pre-existing game bug or regression. Normal route playback of this scene was not established. Accepted corrections are limited to display text; all branch and function targets are equivalent.",
+        "baseline_fixture_cleanup": {
+          "normal_exit": false,
+          "exit_code": 1,
+          "local_test_save_changed": true
+        }
+      },
+      "full_route_or_visual_screen_review": false,
+      "save_originals_unchanged": true,
+      "owned_game_processes_remaining": 0
+    },
+    "security_scan_pass": true,
+    "outputs": {
+      "scenario.arc": "f5e18ee644b34920d436cd5f01c660b811865a8a5c79959c979646ee82f5c15d",
+      "flowchart.bin": "d40b81dde49e186107b503b483fc82700d863039c6271e2468aeca27fe127180"
+    }
+  },
+  "latest_claude_final_audit_20261028": {
+    "workspace": "P:\\AI\\Codex\\projects\\reconquista_flowchart_20261024",
+    "baseline": "runtime-proto 2026-10-27",
+    "runtime": "P:\\AI\\Codex\\projects\\reconquista_flowchart_20261024\\runtime-final-20261028",
+    "launcher": "P:\\AI\\Codex\\projects\\reconquista_flowchart_20261024\\최신 검수 수정판 실행.cmd",
+    "report": "P:\\AI\\Codex\\projects\\reconquista_flowchart_20261024\\최종 검수 결과 20261028.md",
+    "evidence": "P:\\AI\\Codex\\projects\\reconquista_flowchart_20261024\\qa\\final-audit-20261028\\final-verification.json",
+    "status": "date_tutorial_glyph_and_modal_4k_installed_verified",
+    "translator_model": "Codex internal",
+    "next_step": "Use existing final launcher; modal transform fix installed",
+    "date_tutorial_evidence": "P:\\AI\\Codex\\projects\\reconquista_flowchart_20261024\\qa\\date-tutorial-20261028\\verification.json",
+    "glyph_sharpness_evidence": "P:\\AI\\Codex\\projects\\reconquista_flowchart_20261024\\qa\\ui-sharpness-20261029",
+    "modal_4k_evidence": "P:\\AI\\Codex\\projects\\reconquista_flowchart_20261024\\qa\\modal-sharpness-20261029\\verification.json"
+  },
+  "api_translation_20261117": {
+    "directory": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117",
+    "local_progress": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\progress.json",
+    "source_and_payload": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\전송_명세.md",
+    "outcome_after_preparation": "approved and running",
+    "analysis_model": "gemini-4-argon",
+    "translator_model": "gemini-4-argon",
+    "thinking_level": "high",
+    "provider": "Google Cloud Vertex AI global · Interactions v1/v1beta1 및 generateContent v1",
+    "role_sequence": "all Argon High interpretation responses, then Argon High Korean translation with corresponding stored interpretation",
+    "approved_run_settings": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\실행_승인.json",
+    "worker_pid_at_launch": 48064,
+    "model_change_at": "2026-11-16T16:44:01.461302+00:00",
+    "live_progress": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\progress.json",
+    "manifest_sha256": "d785f00f4a45d58c3e9c1a93a6a8f742cf28239479c6b44144c1923f87d30abc",
+    "previous_carbon_accepted": 0,
+    "live_panel": "http://127.0.0.1:14079/?view=quality",
+    "analysis_guide": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\guides\\02_아르곤_해석_High.md",
+    "translation_guide": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\guides\\03_아르곤_번역_High.md",
+    "analysis_workers": 3,
+    "phase": "아르곤 High Deferred 전체 미수신 번역·교정",
+    "last_recorded_at": "2026-11-17T18:54:35.633452+00:00",
+    "received_rows_at_checkpoint": 29562,
+    "remaining_analysis_at_checkpoint": 0,
+    "first_received_file": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\analysis\\A0039.json",
+    "continuation_api": "Vertex AI global / v1beta1",
+    "actual_state_file": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\progress.json",
+    "completed_analysis_id_ranges": [
+      "A0001–A0181"
+    ],
+    "remaining_analysis_id_ranges": [],
+    "analysis_groups_at_checkpoint": 181,
+    "unresolved_count_at_checkpoint": 0,
+    "next_action": "이미 접수된 ID를 조회하고 슬롯이 풀리면 같은 아르곤 High Deferred로 다음 미수신 묶음을 제출한다. 새 응답을 행 단위로 검증·대조한다.",
+    "recovery_evidence": {
+      "A0021": "completed provider receipt after partial 429",
+      "A0063": "pre-POST local progress write recovery; same source request resumed",
+      "2026-11-17_oauth_preflight_disconnect": {
+        "previous_worker": 64324,
+        "error": "RemoteDisconnected during token refresh before the model request",
+        "resumed_worker": 71936,
+        "phase_at_checkpoint": "Vertex 처리 용량 대기",
+        "http503_requeued": [
+          "T0363",
+          "T0405"
+        ],
+        "malformed_receipt_reused": "T0417_1",
+        "subsequent_request": "T0417_2",
+        "next_missing_rows": 56,
+        "old_paid_receipt_tokens": 22196,
+        "verification": "Preflight failed before posting or writing a send ticket. The paid malformed response remained in accounting once; the normal worker submitted T0417_2 for 56 rows."
+      },
+      "deferred_argon": {
+        "T0310_1": {
+          "scope": [
+            "u0420",
+            "u0421",
+            "u0422",
+            "u0423",
+            "u0424",
+            "u0425",
+            "u0426",
+            "u0427",
+            "u0428",
+            "u0429",
+            "u0430",
+            "u0432",
+            "u0433",
+            "u0434",
+            "u0435",
+            "u0436",
+            "u0437",
+            "u0438",
+            "u0439",
+            "u0440",
+            "u0441"
+          ],
+          "scene": "시이나 12",
+          "status": "received",
+          "model": "gemini-4-argon",
+          "thinking_level": "high",
+          "endpoint": "Vertex global Interactions",
+          "service_tier": "deferred",
+          "accepted_at": "2026-11-17T12:46:33.339096+00:00",
+          "received_at": "2026-11-17T12:49:47.202299+00:00",
+          "receipt": "receipts\\argon-high\\deferred\\T0310_1_bff6a1395f8907746f.json",
+          "accepted_rows": 21,
+          "QA": {
+            "fix": 1,
+            "keep": 20
+          },
+          "evidence": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/deferred-tier",
+          "attribution": "User reported US VPN. Default and Deferred tier were used in the same interval. Per-country demand and a controlled VPN comparison were unavailable."
+        }
+      }
+    },
+    "analysis_stage_finished": "2026-11-16T18:04:16.751413+00:00",
+    "distinct_role_parents_verified": true,
+    "complete_translation_batches": [
+      "T0001–T0158",
+      "T0160–T0175",
+      "T0178–T0182",
+      "T0184–T0189",
+      "T0191",
+      "T0195",
+      "T0197",
+      "T0202–T0204",
+      "T0206",
+      "T0208",
+      "T0210–T0211",
+      "T0214",
+      "T0216–T0217",
+      "T0220–T0222",
+      "T0225–T0227",
+      "T0229–T0230",
+      "T0233–T0234",
+      "T0237–T0239",
+      "T0242–T0244",
+      "T0247–T0248",
+      "T0253",
+      "T0255",
+      "T0258–T0259",
+      "T0261–T0263",
+      "T0265–T0266",
+      "T0268–T0274",
+      "T0276–T0282",
+      "T0284",
+      "T0287–T0303",
+      "T0305–T0307",
+      "T0310–T0313",
+      "T0316–T0319",
+      "T0321",
+      "T0327–T0328",
+      "T0331",
+      "T0334",
+      "T0340–T0341",
+      "T0346–T0347",
+      "T0349",
+      "T0353–T0354",
+      "T0360–T0361",
+      "T0369",
+      "T0375",
+      "T0387–T0388",
+      "T0393–T0396",
+      "T0400",
+      "T0406–T0407",
+      "T0421",
+      "T0423–T0424",
+      "T0431",
+      "T0435",
+      "T0444",
+      "T0450–T0452",
+      "T0457",
+      "T0466–T0469",
+      "T0472",
+      "T0477–T0478",
+      "T0487–T0488",
+      "T0491–T0492",
+      "T0496",
+      "T0502–T0503",
+      "T0509",
+      "T0514–T0515",
+      "T0522"
+    ],
+    "remaining_translation_batches": [
+      "T0176–T0177",
+      "T0183",
+      "T0192–T0194",
+      "T0196",
+      "T0198–T0201",
+      "T0205",
+      "T0207",
+      "T0209",
+      "T0212–T0213",
+      "T0215",
+      "T0218–T0219",
+      "T0223–T0224",
+      "T0228",
+      "T0231–T0232",
+      "T0235–T0236",
+      "T0240–T0241",
+      "T0245–T0246",
+      "T0249–T0252",
+      "T0254",
+      "T0256–T0257",
+      "T0260",
+      "T0264",
+      "T0267",
+      "T0275",
+      "T0283",
+      "T0285–T0286",
+      "T0304",
+      "T0308–T0309",
+      "T0314–T0315",
+      "T0320",
+      "T0322–T0326",
+      "T0329–T0330",
+      "T0332–T0333",
+      "T0335–T0339",
+      "T0342–T0345",
+      "T0348",
+      "T0350–T0352",
+      "T0355–T0359",
+      "T0362–T0368",
+      "T0370–T0374",
+      "T0376–T0386",
+      "T0389–T0392",
+      "T0397–T0399",
+      "T0401–T0405",
+      "T0408–T0420",
+      "T0422",
+      "T0425–T0430",
+      "T0432–T0434",
+      "T0436–T0443",
+      "T0445–T0449",
+      "T0453–T0456",
+      "T0458–T0465",
+      "T0470–T0471",
+      "T0473–T0476",
+      "T0479–T0486",
+      "T0489–T0490",
+      "T0493–T0495",
+      "T0497–T0501",
+      "T0504–T0508",
+      "T0510–T0513",
+      "T0516–T0521"
+    ],
+    "quality_review": {
+      "reviewer_model": "Codex internal",
+      "translator_model": "gemini-4-argon",
+      "baseline": [
+        [
+          "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\nuance-20261025-v1\\integrated-targets.json",
+          "7faf308f8e9e2e4d89e458b9e47a276e68f49ab18956d5858e6b9ba906ad821c"
+        ],
+        [
+          "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\ui-owned-subevent-recovery-20261023\\targets.json",
+          "4c28712f61e9076f9a00a066b4b5e8c2047264fe376b41e0fd3e4f29005bd0e1"
+        ]
+      ],
+      "reviewed_full_batches": [
+        "T0001–T0158",
+        "T0160–T0175",
+        "T0178–T0182",
+        "T0184–T0189",
+        "T0191",
+        "T0195",
+        "T0197",
+        "T0202–T0204",
+        "T0206",
+        "T0208",
+        "T0210",
+        "T0233",
+        "T0310"
+      ],
+      "remaining_full_review_batches": [
+        "T0176–T0177",
+        "T0183",
+        "T0192–T0194",
+        "T0196",
+        "T0198–T0201",
+        "T0205",
+        "T0207",
+        "T0209",
+        "T0211–T0232",
+        "T0234–T0309",
+        "T0311–T0522"
+      ],
+      "checkpoint_counts": {
+        "total": 44243,
+        "aligned": 29765,
+        "identical": 3850,
+        "previous_review": 86,
+        "direct": 29765,
+        "flagged": 0,
+        "needs_fix": 0,
+        "repaired": 1257
+      },
+      "readable_scenario": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\results\\검수반영_시나리오.txt",
+      "decisions": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\quality_review\\검수_판정.tsv",
+      "confirmed_fields": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\quality_review\\확정_교정필드.jsonl",
+      "ledger": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\quality_review\\교차검수.sqlite3",
+      "offline_progress": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\quality_review\\교차검수_진행.md",
+      "comparison_page": "http://127.0.0.1:14079/review",
+      "roles": "아르곤 High 원응답을 기준으로 Codex가 일본어·인접 장면과 대조해 현지 교정. v20은 참고. 이미 수신한 아르곤 수정 후보는 별도 검수 후 채택.",
+      "method_references": [
+        "P:/AI/Codex/skills/contextual-game-localization/references/translation-quality.md",
+        "https://docs.weblate.org/en/latest/user/checks.html",
+        "https://www.city.kawagoe.saitama.jp/kanko/k-spots/1011572/1011580.html"
+      ],
+      "detached_start": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\run_local.pyw",
+      "unavailable_or_held_source_screens": 444,
+      "unavailable_or_held_choice_menus": 1,
+      "recurring_song": {
+        "source": "通りゃんせ / てんじんさま",
+        "usage": "같은 노래에서 신명 텐진님을 유지하고 장면별로 기억 속의 반복과 실제 노래를 대조한다.",
+        "checked_source": "https://www.city.kawagoe.saitama.jp/kanko/k-spots/1011572/1011580.html",
+        "known_jobs": [
+          "T0007",
+          "T0128",
+          "T0163",
+          "T0189",
+          "T0194",
+          "T0283",
+          "T0291",
+          "T0522"
+        ]
+      },
+      "feedback": {
+        "version": "20261117-feedback-1",
+        "eligible_from": "T0150",
+        "sha256": "f6f72f85922b41ae20a4e892b06ad45f587887e7118e11c75b79cbbc9c57abc9",
+        "scope": "원문 조건과 맞는 경우에만 기존 역할의 독립 요청에 짧은 지침을 추가한다."
+      },
+      "exact_argon_reuse": "같은 화자와 같은 일본어·입력 슬롯을 직접 대조한 기도문·인용·분기 지문만 원응답을 그대로 쓴다. 검수표의 재사용한 아르곤 원응답 행과 교정필드의 reused_from에 출처가 남는다.",
+      "working_scope": {
+        "version": "a700f7150f326e23cbe84fb21a4567c9d7377fdc2f7145fc6f8f49c2a5a8d569",
+        "file": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\guides\\05_검수보류_범위.json",
+        "original_target_rows": 44673,
+        "active_target_rows": 44243,
+        "held_fields_after_freeze": 593,
+        "retrospective_received_before_hold": {
+          "S030": 249
+        },
+        "interpretations_received_before_scope": [
+          "A0050",
+          "A0059",
+          "A0167",
+          "A0174"
+        ],
+        "public_summary": "과거편 유에의 별도 미션계 여학교 재학 시점에 해당하는 민감 장면만 보류. 원본 및 기존 영수증은 보존하고 앞뒤 일반 대사와 지문은 계속 처리한다."
+      },
+      "feedback_v2": {
+        "version": "20261117-feedback-2",
+        "eligible_from": "T0191",
+        "sha256": "09a81645bca299b8c96b10ca7f80dfc0f76b4c207c395c9870de7161ce1b89ff",
+        "eligible_terms": [
+          "トオル",
+          "祟り",
+          "チャンス",
+          "ショック"
+        ]
+      },
+      "film_title": {
+        "jobs": [
+          "T0153/u0204",
+          "T0153/u0206"
+        ],
+        "source": "https://www.koreafilm.or.kr/library/search/video/00041489",
+        "finding": "영화 제목 올웨이즈 – 3번가의 석양을 두고 하는 말장난."
+      },
+      "vertex_capacity": {
+        "source": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/deploy/error-code-429",
+        "method": "번역과 교정에서 연속 용량 거절 6·12·24건이면 새 POST 최소 간격을 25·55·110초로 둔다. 기존 접수 ID의 GET은 즉시 진행하고 정상 응답 후 제한을 해제한다.",
+        "ledger": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\vertex_capacity.sqlite3",
+        "last_attempt_observation": "보류 범위 밖의 T0188·T0189·T0191에 대해 실제 요청 지문과 일본어 대상, 아르곤 해석으로 선별된 메모 8개를 대조했다. T0190은 전부 보류.",
+        "fair_share": "6회 이상 연속으로 429를 받으면 다음 처리 기회는 번역 3회와 교정 1회 순으로 우선권을 나눈다. 해당 작업이 없으면 12초 후 다른 작업이 쓴다. QG0047의 실제 공유 대기 후 접수도 확인했다.",
+        "standard_foreground_trial": {
+          "tag": "T0184_1_capacity8",
+          "job": "T0184",
+          "rows": 5,
+          "background": false,
+          "max_output_tokens": 8192,
+          "service": "standard",
+          "source": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/guides/gemini-4-argon",
+          "rule": "같은 작품 지침·부모 ID·긴 문맥을 그대로 사용하며, 시험은 한 번으로 한정. 실제 본문이 오면 일반 검수 경로에 반영.",
+          "http": 429,
+          "received_interaction_id": false,
+          "started": "2026-11-16T22:58:53.418043+00:00",
+          "finished": "2026-11-16T22:58:56.802450+00:00",
+          "request_sha256": "2dde47dba840649702e26bc9595ab729739fbc076a31e5d5f9e567cda527c799",
+          "record": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\T0184_1_capacity8_foreground_http.json"
+        },
+        "rotation": {
+          "mode": "재시도 시각이 된 요청과 새 장면을 번갈아 고르고, 세 번역 작업자의 공용 기회는 대기 등록 순서로 부여한다. 교정은 마지막으로 실제 전송한 묶음의 다음에서 재개한다. 이미 접수된 ID는 계속 먼저 조회한다.",
+          "observations": [
+            "장시간 기다린 T0192의 다음 재시도 및 새 T0195·T0196·T0197의 실제 응답 파일 확인",
+            "교정 QG0049, QG0052가 이전 QG0047 이후 실제 재접수됨"
+          ],
+          "standard_paygo_docs": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/standard-paygo"
+        },
+        "standard_beta_trial": {
+          "tag": "T0193_1_capacity3",
+          "api_version": "v1beta1",
+          "request_sha256": "7836bf9e1f3f6236065016402158d85edbf219f1d3a333ab1dce8a0f63e91623",
+          "status": "failed",
+          "started": "2026-11-17T00:27:05.667232+00:00",
+          "finished": "2026-11-17T00:27:42.744759+00:00",
+          "receipt_file": "receipts\\argon-high\\translation\\T0193_1_capacity3_7836bf9e1f3f623606.json",
+          "error": [
+            {
+              "message": "Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.",
+              "code": "too_many_requests"
+            }
+          ]
+        },
+        "pacing_after_success": {
+          "normal_seconds": 6,
+          "overload_seconds_after_6_12_24": [
+            25,
+            55,
+            110
+          ],
+          "observed": "10:17과 10:27 정상 반환 직후 서로 다른 교정·번역 요청들이 0.05~0.84초 간격으로 집중되어 HTTP 429. 이후 정상 구간에도 6초 간격을 둔다.",
+          "provider_response": "Resource exhausted. Please try again later.",
+          "provider_retry_after_seconds": 0,
+          "reference": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/standard-paygo"
+        },
+        "accepted_sizes": {
+          "standard_generate_T": [
+            5,
+            48,
+            51
+          ],
+          "rejected_small": [
+            13,
+            14,
+            15,
+            25,
+            26,
+            28
+          ],
+          "retry_rule": "확실하게 거절된 큰 요청은 반으로 나누되 일반 재시도 크기는 먼저 48행 이상으로 둔다. 남은 행이 적으면 그만큼만 요청하고, 실제 MAX_TOKENS가 발생하면 별도로 더 줄인다."
+        }
+      },
+      "original_audio": {
+        "file": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\quality_review\\원음_교차검수.json",
+        "source": "research/disc/voice.arc",
+        "reviewed": [
+          "T0128/u0070",
+          "T0137/u0017",
+          "T0137/u0018",
+          "T0146/u0135",
+          "T0146/u0137",
+          "T0146/u0140",
+          "T0176/u0225",
+          "T0187/u0703"
+        ],
+        "method": "원판 음성과 원본 배역 대본을 대조. 서로 다른 Whisper 모델 두 가지로 일본어만 전사하고, 불일치는 기록한다.",
+        "local_models": {
+          "small": "P:/AI/Codex/projects/Adabana_Odd_Tales_KR/work/opening_movie_v1/whisper_models/small.pt",
+          "large-v3-turbo": "P:/AI/Codex/projects/fairytale-requiem-ko/tools/whisper_models/large-v3-turbo.pt",
+          "Systran/faster-whisper-small": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\candidates\\translation-nuance-20261025-v1\\audio-check\\models\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120"
+        },
+        "cases_with_two_passes_and_script": [
+          "T0176/u0225",
+          "T0187/u0703"
+        ]
+      },
+      "feedback_v3": {
+        "version": "20261117-feedback-3",
+        "eligible_from": "T0226",
+        "sha256": "ac54d8ab195987bb5214b4db45c622b885bbc33e2f803a7fb421247fa1c555e8",
+        "local_evidence": [
+          "T0105/u0014",
+          "T0149/u0473",
+          "T0399/u0389",
+          "T0433/u0010"
+        ],
+        "evidence": "심리적 쇼크와 부딪히거나 맞을 때의 힘을 구별한다. 짝으로 쓰는 メリット・デメリット의 대비를 살린다. 기존 판정 중 외래어가 빠진 13행은 원문·기존판·아르곤 수신본에 맞춰 교정 요청."
+      },
+      "generation_routes": {
+        "flag": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\standard_generate_fallback.json",
+        "transport": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\standard_generate.py",
+        "standard_route_first_translation": "T0184",
+        "following_complete_translation": "T0187",
+        "first_probe": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\T0184_standard_generatecontent.json",
+        "guide_utf8_bytes": 8320,
+        "storage": "Interactions 응답은 서버 저장 ID를 기록한다. generateContent는 같은 지침을 매번 보내고 서버가 반환한 원응답과 ID를 P 드라이브에 기록한다.",
+        "evidence": "T0184 원문 5행과 T0187 원문 48행 수신. T0184/u0443은 별도의 Interactions 교정 응답과 일본어를 대조해 반영.",
+        "provider_documentation": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/guides/gemini-4-argon",
+        "metering_at_checkpoint": {
+          "completed_requests": {
+            "analysis": 182,
+            "translation": 266
+          },
+          "terminal_receipts": {
+            "analysis": 183,
+            "translation": 577
+          },
+          "actual_request_body_bytes": {
+            "analysis": 5096730,
+            "translation": 9929272
+          },
+          "provider_reported_token_counts": {
+            "analysis.total_tokens": 1861495,
+            "analysis.total_input_tokens": 1523985,
+            "analysis.total_output_tokens": 188039,
+            "analysis.initial_input_tokens": 1523985,
+            "analysis.total_thought_tokens": 149471,
+            "analysis.total_cached_tokens": 10702,
+            "translation.total_tokens": 3568221,
+            "translation.total_input_tokens": 1858587,
+            "translation.total_output_tokens": 449352,
+            "translation.total_thought_tokens": 1260282,
+            "translation.initial_input_tokens": 1820324,
+            "translation.total_cached_tokens": 523747
+          },
+          "receipts_by_api_and_status": {
+            "interactions.completed": 442,
+            "interactions.failed": 312,
+            "generateContent.completed": 6
+          },
+          "guide_and_cache": {
+            "interactions.stored_parent_references": 752,
+            "generateContent.inline_guide_bytes": 49920,
+            "generateContent.request_body_bytes": 142781,
+            "generateContent.receipts_without_cache_count": 6
+          },
+          "separately_logged_http_rejections_before_receipt": {
+            "generateContent.requests": 157,
+            "generateContent.body_bytes": 4133685,
+            "generateContent.inline_guide_bytes": 1306240,
+            "interactions.requests": 1,
+            "interactions.requests_without_body_size": 1,
+            "interactions.inline_guide_bytes": 0
+          },
+          "preacceptance_http_by_requested_tier": {
+            "generateContent.standard.http429": 156,
+            "interactions.standard.http429": 1,
+            "generateContent.priority.http429": 1
+          },
+          "provider_reported_traffic_types": {
+            "generateContent.ON_DEMAND": 6
+          },
+          "measurement_scope": "Body byte counts cover requests with terminal receipts. Recorded pre-acceptance HTTP failures are listed separately. An omitted cache count is unknown.",
+          "guide_reference": {
+            "interactions": "stored role guide and independent previous_interaction_id",
+            "generateContent": "identical role guide resent inline for each POST"
+          }
+        },
+        "batch_reference": {
+          "documentation": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/reference/models/batch-prediction-api",
+          "state": "실행하지 않은 대안. Cloud Storage 또는 BigQuery의 입출력 경로가 필요. 기존 실시간 API는 계속 사용한다.",
+          "local_plan_only": {
+            "scene": "S084",
+            "range": "T0408–T0413",
+            "rows": 543,
+            "requests": 6,
+            "utf8_jsonl_bytes_before_feedback_v4": 148594
+          },
+          "local_plan": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\batch\\S084\\plan.json",
+          "local_input_sha256": "b20b061533fe13d86aa25f9c4a91d6ce84660e34d70fd2995f7e1050cb7668e4",
+          "local_input_bytes": 148510,
+          "storage_lookup": "기존 프로필에 버킷 설정 없음. 같은 프로젝트의 버킷 목록 조회는 403 storage.buckets.list 거절, global Vertex 배치 기록은 0개. 비공개 버킷 경로 또는 전용 버킷 선택 대기 중.",
+          "verified_scope_and_terms": {
+            "groups": 6,
+            "pending_rows_at_check": 543,
+            "ids": "T0408–T0413",
+            "upload_state": "로컬 준비, 미제출",
+            "supported_model": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/4-argon",
+            "batch_terms": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/capabilities/batch-inference",
+            "storage_details": "https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/batch-prediction-from-cloud-storage",
+            "pricing": "https://cloud.google.com/model-garden/pricing"
+          }
+        },
+        "resume_order": "두 API 전체 영수증에서 응답 원본과 아직 반영하지 않은 결과를 먼저 회수한 뒤, 용량 거절된 장면과 처음 보내는 장면을 차례로 진행한다.",
+        "second_registered_trial": {
+          "tag": "T0176_2",
+          "status": "failed",
+          "finished": "2026-11-17T02:27:44.473863+00:00",
+          "error": [
+            {
+              "message": "Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.",
+              "code": "too_many_requests"
+            }
+          ],
+          "receipt_file": "receipts\\argon-high\\translation\\T0176_2_dc48aeeaafdefc3251.json",
+          "request_sha256": "dc48aeeaafdefc3251d046c8ab85885f74402f233f66d6fe02c0089354b7724b",
+          "api_version": "v1",
+          "actual_rows_returned": 0,
+          "requested_rows": 50,
+          "reason": "generateContent에서 네 차례 접수 전 429 뒤, 등록한 지침을 쓰는 기존 경로에서도 too_many_requests로 종료. 이 한 건의 미수신분은 표준 실시간 재시도로 돌아감."
+        },
+        "one_priority_5row_result": {
+          "tag": "T0203_priority_generatecontent",
+          "target": [
+            "u0438",
+            "u0439",
+            "u0440",
+            "u0441",
+            "u0442"
+          ],
+          "project_hash": "bd435c6c3c71753f2ffb134778d85dba5a4767e18ba2803f38888c0d0d8d18ac",
+          "model": "gemini-4-argon",
+          "thinking_level": "high",
+          "location": "global",
+          "api_surface": "generateContent",
+          "api_version": "v1",
+          "service_tier": "priority",
+          "priority_headers": {
+            "X-Vertex-AI-LLM-Request-Type": "shared",
+            "X-Vertex-AI-LLM-Shared-Request-Type": "priority"
+          },
+          "started": "2026-11-17T02:49:54.722257+00:00",
+          "finished": "2026-11-17T02:49:55.026758+00:00",
+          "phase": "http_rejected",
+          "http_status": 429,
+          "received_rows": 0,
+          "provider_message": "Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.",
+          "retry_after_seconds": 0.0,
+          "provider_traffic_type": null,
+          "request_sha256": "f0490c35bdb78eefa023eca387f06113c823bc139d9a9679ba0ebbdc6fc56e75",
+          "request_bytes": 16189,
+          "system_guide_utf8_bytes": 8320,
+          "evidence": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\T0203_priority_generatecontent.json",
+          "approval": "사용자가 T0203의 5행만 Priority PayGo로 정확히 한 번 시험하도록 승인.",
+          "usage_reported": false,
+          "afterwards": "일반 처리 대기열로 복귀. 새 우선 요청을 예약하지 않음.",
+          "official_source": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/priority-paygo",
+          "prior_T0203_stateful_attempts": [
+            {
+              "tag": "T0203_1",
+              "finished": "2026-11-17T01:08:38.398781+00:00",
+              "status": "failed",
+              "text_returned": false
+            },
+            {
+              "tag": "T0203_1_capacity1",
+              "finished": "2026-11-17T01:11:00.996041+00:00",
+              "status": "failed",
+              "text_returned": false
+            }
+          ]
+        },
+        "profile_and_wire_request_view": {
+          "url": "http://127.0.0.1:14079/api/",
+          "offline_html": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\quality_review\\API_확인.html",
+          "active_profile_file": "F:/DOWN/AI번역기/config.json",
+          "profile_field": "vertex_ai_common.vertex_credentials_json",
+          "matching_download": "F:/DOWN/root-gist-514415-m1-c1c1bd9e4cbe.json",
+          "stored_as": "inline service-account JSON",
+          "public_project_id": "root-gist-514415-m1",
+          "public_service_account": "jjs-vertex@root-gist-514415-m1.iam.gserviceaccount.com",
+          "examples": {
+            "T0184": {
+              "file": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\quality_review\\T0184_generateContent.json",
+              "sha256": "14e0393e2f86e0f1a8983bb78a222fc4b1c80cab1276c45d91e12852cc27bf6a"
+            },
+            "T0203": {
+              "file": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\quality_review\\T0203_generateContent.json",
+              "sha256": "f0490c35bdb78eefa023eca387f06113c823bc139d9a9679ba0ebbdc6fc56e75"
+            }
+          },
+          "verified": "두 파일의 SHA-256·길이가 발송 영수증과 같으며, 진행창에서 HTTP 200. 비공개 키와 인증 토큰은 게시하지 않음.",
+          "live_fields": [
+            "current_project_profile_snapshot",
+            "standard_and_priority_payloads",
+            "last_direct_receipt",
+            "last_standard_attempt",
+            "direct_review_count"
+          ]
+        },
+        "developer_api_alternative": {
+          "current_program_setting": "providers.google_ai_studio.api_keys의 유일한 문자열은 비어 있음. 활성 제공자는 기존 Vertex.",
+          "model": "gemini-4-argon",
+          "status": "검토만 수행. 대체 서비스로 전송하거나 과금 요청하지 않음.",
+          "official_model_source": "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon",
+          "official_price_source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-4-argon",
+          "official_inline_batch_source": "https://ai.google.dev/gemini-api/docs/batch-api",
+          "usable_if_selected": "별도 유료 Gemini Developer API 키가 설정되고 사용자가 해당 서비스 전송을 선택하면 소규모 일반 요청을 독립적으로 시험할 수 있음. Developer 배치는 20 MB 미만 inline 입력을 지원하며 로컬 준비 묶음의 543행/6개 요청은 약 0.15 MB."
+        },
+        "project_auth": {
+          "verified_local": "api_program.Client reads the existing service-account JSON and uses its project_id in the global Vertex endpoint. A separate target project would need explicit routing and IAM permission.",
+          "reference": "https://cloud.google.com/iam/docs/service-account-overview",
+          "data_storage_choice": "The unsubmitted 543-row batch proposal requested a private Cloud Storage bucket. No project provisioning or key issuance was involved in that proposal."
+        },
+        "carbon_batch_S084": {
+          "approval": "사용자가 기존 프로젝트에 비공개 버킷을 생성해 카본 543행을 제출하도록 선택. 이후 보유 크레딧에서만 차감되는지 문의.",
+          "plan": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\batch\\S084\\carbon\\plan.json",
+          "source_scene": "S084",
+          "units": 543,
+          "groups": [
+            "T0408",
+            "T0409",
+            "T0410",
+            "T0411",
+            "T0412",
+            "T0413"
+          ],
+          "input_sha256": "03562ca7fc3cb1c782836d667c1f6b1d69e19996403a21a06a68a73b110e02c7",
+          "model": "gemini-4-carbon",
+          "level": "MEDIUM",
+          "reuse_analysis": "gemini-4-argon HIGH",
+          "submission": "awaiting_bucket_object_roles",
+          "external_resources_created": false,
+          "account_check": "Cloud Billing getBillingInfo HTTP 403 SERVICE_DISABLED. 실제 크레딧 잔액과 적용 범위 미확인. Cloud Resource Manager testIamPermissions도 SERVICE_DISABLED.",
+          "official_terms": "https://docs.cloud.google.com/billing/docs/how-to/resolve-issues",
+          "credits_console": "https://console.cloud.google.com/billing/credits",
+          "next": "서비스 계정에 noverltranslate01의 객체 생성·조회 권한이 적용되면 543행을 제출하고 실제 Vertex ID로 상태를 조회한다.",
+          "credit_condition": "콘솔에서 Vertex AI·Cloud Storage에 적용되는 크레딧과 잔액을 사용자가 확인하고 진행을 승인함.",
+          "bucket_name": "noverltranslate01",
+          "cloud_receipt": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\batch\\S084\\carbon\\bucket.json",
+          "requested_location": "ASIA-NORTHEAST3",
+          "source_uploads": 0,
+          "vertex_jobs": 0,
+          "bucket_check": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\batch\\S084\\carbon\\bucket_check.json",
+          "project_list_http": 403,
+          "user_reported_bucket_created": true,
+          "preferred_name_at_first_attempt": "reconquista-carbon-c94956b7e00a8d1b7ff9",
+          "expected_bucket_verified_by_permission_endpoint": true,
+          "object_permissions_checked": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\batch\\S084\\carbon\\bucket_check.json",
+          "realtime_exclusion": [
+            "T0408",
+            "T0409",
+            "T0410",
+            "T0411",
+            "T0412",
+            "T0413"
+          ],
+          "previous_suggested_bucket_lookup": {
+            "name": "reconquista-carbon-c94956b7e00a8d1b7ff9",
+            "metadata_http": 404
+          },
+          "bucket_permissions_http": 200,
+          "submission_worker": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\batch\\S084\\carbon\\run_trial.py",
+          "worker_status_file": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\batch\\S084\\carbon\\worker.json",
+          "worker_stage": "waiting_object_permissions",
+          "worker_started_pid": 63356,
+          "worker_checked_at": "2026-11-17T06:27:32.121291+00:00",
+          "output_manifest": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\batch\\S084\\carbon\\output_manifest.json",
+          "access_roles": [
+            "roles/storage.objectCreator",
+            "roles/storage.objectViewer"
+          ],
+          "last_checkpoint": "2026-11-17T05:47:03.181990+00:00",
+          "unattended_result_import": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\carbon_batch.py",
+          "offline_schema_check": "서로 다른 6개 입력을 역순 모의 출력으로 대응, 불완전 응답·중복·실패·응답 ID 생략 및 교정 모델 출처 확인. 실제 카본 수신은 별도 계수.",
+          "owner_shortcut": "진행판의 권한 명령 복사, Cloud Shell 열기. noverltranslate01 버킷에 기존 번역 계정의 객체 생성·열람 역할만 지정. 원문 업로드는 승인 경로에서 자동 실행.",
+          "iam_reference": "https://docs.cloud.google.com/sdk/gcloud/reference/storage/buckets/add-iam-policy-binding"
+        }
+      },
+      "feedback_v4": {
+        "version": "20261117-feedback-4",
+        "eligible_from": "T0232",
+        "sha256": "e6e9fc1d3ab436b266ec930838e261e75a74d6404a93f6b7f321138e0ea57bdc",
+        "rules": [
+          "footstep_or_knock",
+          "gravel_or_debris"
+        ],
+        "evidence": [
+          "T0184/u0443",
+          "T0176/u0247",
+          "T0232/u0258",
+          "T0434/u0129",
+          "T0366/u0060"
+        ]
+      },
+      "offline_preview": "세 판본·검수 근거·확정 교정과 번역·교정별 실제 마지막 수신 시간을 웹과 로컬 진행표에 표시한다.",
+      "provider_receipt_times_kst": {
+        "translation": {
+          "id": "T0310",
+          "received_at": "2026-11-17T21:49:47.202299+09:00",
+          "rows": 21,
+          "api_surface": "interactions"
+        },
+        "correction": {
+          "id": "Q0082",
+          "received_at": "2026-11-17T20:50:32.524761+09:00",
+          "rows": 1,
+          "api_surface": "generateContent"
+        }
+      },
+      "quality_evidence_latest": {
+        "T0233": "시이나 09 · 111행 모두 직접 확인, 화자/담화행위/손가락 주문 관련 5행 교정.",
+        "QG0101": "10행 중 9개 아르곤 교정 응답을 직접 확인. T0101/u0049는 기존 아르곤 문장을 유지하고 v20의 고정 텍스트 쉼표 한 칸을 적용했다.",
+        "T0209": "u0220–u0232 첫 13행. 일본어·v20·아르곤 직접 비교해 유지.",
+        "T0161": "네이티브 Vertex global 아르곤 High 4행 수신. u0442는 T0109/u0129와 같은 기존 용어 결정의 아담과 하와로 교정 요청. 4행 직접 비교.",
+        "QG0157": "최종편 과거 07의 원본·v20·아르곤 초안·교정안을 전후 장면과 대조해 T0157/u0013·u0066·u0084·u0108 및 T0158/u0121·u0152 여섯 행을 확정했다.",
+        "T0254": "시이나 10 첫 52행. 원문·v20·아르곤 대조 완료. u0009, u0052 교정 요청.",
+        "T0202": "u0329–u0382 54행 대조 완료. 가족 구성, 야간 근무, 건물 지칭, 러시, 기억과 말더듬 8행 교정 요청.",
+        "T0191": "u0354–u0407 중 수신 48행을 세 판본과 대조. u0377 時間を持て余す의 뜻을 교정 요청.",
+        "2026-11-17_1753_KST": "T0178·T0179·T0180·T0182·T0185·T0186·T0188·T0189·T0195·T0197·T0202·T0204·T0206·T0208의 수신 범위 중 지문이 일치한 17묶음 1,173행의 원문·v20·아르곤 교차 검수. 62행 재교정 등록. 묶음 및 ID별 판정은 교차검수.sqlite3에 기록.",
+        "2026-11-17_1801_KST": "교정 응답 93행(84행 승인, 9행 재요청) 판본 일치 확인. T0089/u0511 및 T0091/u0720은 네 판본 대조 후 추가 승인. T0210 105행 검수 및 u0354·u0420 교정 등록.",
+        "2026-11-17_2119_KST": "T0181 110행, T0177 52행, T0194 48행 및 T0193 54행의 수신 범위를 원문·기존 한국어·아르곤과 대조했다. T0041/u0364 교정본에서 병을 알아채는 사람과 앓는 화자를 확인. T0082/u0508은 직설적인 말을 누그러뜨리라는 비유를 루비와 함께 살리도록 다시 요청했다. 각 행 판정은 교차검수.sqlite3에 있다.",
+        "T0310": "시이나 12 아르곤 High Deferred 21행 수신. 원문·v20·수신본 대조 결과 20행 유지, u0433은 신야가 시오미의 표적을 기억해 내는 어조로 국소 교정 요청."
+      },
+      "request_attempts_display": {
+        "current": {
+          "checked_at": "2026-11-17T04:38:24.111058+00:00",
+          "failed": 516,
+          "failed_7h": 357,
+          "capacity": 516,
+          "http_429": 204,
+          "terminal_capacity": 312,
+          "received_7h": 232,
+          "received_1h": 128
+        },
+        "live_stats": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\request_outcomes.json",
+        "window_hours": 7,
+        "definition": "아르곤 High의 접수 전 HTTP 거절과 접수 후 실패를 요청별로 합산. 수신량은 교정과 재시도를 제외하고 원문 ID당 한 번 집계. GUI는 누적 실패·최근 수신을 상태 표시줄과 미수신 목록에 표시.",
+        "failure_sources": [
+          "receipts/argon-high",
+          "runtime/T0184_1_capacity8_foreground_http.json",
+          "runtime/T0203_priority_generatecontent.json"
+        ]
+      },
+      "vertex_usage_estimate": {
+        "snapshot": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\vertex_usage_estimate.json",
+        "live": "runtime/request_outcomes.json · vertex_usage_estimate (옆 칸에서 자동 갱신)",
+        "as_of": "2026-11-17T12:56:07.675998+00:00",
+        "pricing": "https://cloud.google.com/model-garden/pricing?hl=en",
+        "cash_charge": "Cloud Billing 청구서에서만 확인 가능",
+        "effective_usd": "53.69634310",
+        "list_usd": "107.3533222",
+        "billed_account_verified": false
+      },
+      "source_direct_review_20261118": {
+        "as_of": "2026-11-17T18:54:35.633452+00:00",
+        "reviewer_model": "Codex internal",
+        "reviewer_model_id": "gpt-6.2-astra",
+        "editorial_packets": [
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0001_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0002_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0003_20261118.json"
+        ],
+        "local_editorial_tool": "api-carbon-argon-20261117\\local_source_review.py",
+        "rows_compared_this_pass": 248,
+        "new_direct_rows": 167,
+        "new_verified_rows": 70,
+        "codex_authored": 14,
+        "existing_argon_correction_accepted": 56,
+        "replaced_provider_candidate_archived": 6,
+        "rechecked_but_not_accepted": [
+          "T0115/u0255",
+          "T0136/u0181",
+          "T0136/u0182"
+        ],
+        "progress": {
+          "total": 44243,
+          "aligned": 29562,
+          "identical": 3820,
+          "previous_review": 86,
+          "direct": 17779,
+          "flagged": 0,
+          "needs_fix": 379,
+          "repaired": 487
+        },
+        "not_yet_directly_reviewed_by_job_first_three": [
+          [
+            "T0215",
+            "u0001",
+            50
+          ],
+          [
+            "T0216",
+            "u0111",
+            99
+          ],
+          [
+            "T0217",
+            "u0213",
+            73
+          ]
+        ],
+        "next_step": "T0215의 수신·미검수 50행부터 이어서 일본어와 실제 수신본을 직접 대조한다. 기록은 행 서명으로 묶고 완료된 행은 중복 처리하지 않는다. 고정 쉼표 1행과 이어지는 연예계 말장난 2행은 미확정이다."
+      },
+      "continuing_source_review_20261118": {
+        "as_of_kst": "2026-11-18T11:02:47+09:00",
+        "reviewer_model": "Codex internal",
+        "reviewer_model_id": "gpt-6.2-astra",
+        "source": "gemini-4-argon HIGH",
+        "directly_compared_in_pass": 12365,
+        "new_source_comparisons": 11986,
+        "local_corrections_on_new_rows": 395,
+        "previously_queued_resolved_locally": 160,
+        "previously_received_candidates_compared": 219,
+        "candidate_accepted": 182,
+        "candidate_replaced_by_codex": 33,
+        "original_retained_after_candidate": 4,
+        "newly_published_corrections": 770,
+        "changed_fields_verified": 1011,
+        "progress": {
+          "total": 44243,
+          "aligned": 29765,
+          "identical": 3850,
+          "previous_review": 86,
+          "direct": 29765,
+          "flagged": 0,
+          "needs_fix": 0,
+          "repaired": 1257
+        },
+        "received_candidate_review_backlog": 0,
+        "resolved_group_retries_closed": 29,
+        "unreviewed_received_next": [],
+        "provider_observed": {
+          "worker_pid": 63640,
+          "worker_phase": "아르곤 High 대기열 · 서버 응답 대기",
+          "heartbeat_kst": "2026-11-18T11:02:41+09:00",
+          "processing": {
+            "translation": 13
+          },
+          "last_translation_return": [
+            "T0368",
+            97,
+            "2026-11-18T10:43:12+09:00"
+          ],
+          "latest_deferred_admission": [
+            "T0447",
+            "2026-11-18T11:02:20+09:00"
+          ]
+        },
+        "editorial_packets": [
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0004_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0005_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0006_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0007_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0008_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0009_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0010_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0011_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0012_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0013_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0014_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0015_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0016_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0017_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0018_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0019_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0020_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0021_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0022_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0023_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0024_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0025_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0026_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0027_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0028_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0029_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0030_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0031_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0032_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0033_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0034_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0035_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0036_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0037_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0038_20261118.json",
+          "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0039_20261118.json"
+        ],
+        "signed_source_and_output_checks": "수신 원문과 아르곤 영수증의 행 지문, 판정 대조표, 바뀐 필드, 읽기용 시나리오의 대표 대목을 검수 묶음별로 대조했다.",
+        "next_step": "새로 수신한 행은 기존 수신 영수증과 구분해 검수한다. 맺은 판정과 공연별 노랫말 이력은 그대로 사용한다.",
+        "last_received_review_batch": {
+          "packet": "api-carbon-argon-20261117\\quality_review\\local_editorial\\L0039_20261118.json",
+          "receipts": [
+            "T0399_1",
+            "T0368_1"
+          ],
+          "compared": 203,
+          "newly_published_corrections": 13,
+          "changed_fields_verified": 18
+        }
+      },
+      "safety_overrides_20261118": {
+        "checked_kst": "2026-11-18T11:02:47+09:00",
+        "providers": [
+          "vertex_ai_gemini",
+          "google_ai_studio"
+        ],
+        "prior_thresholds": [
+          "BLOCK_NONE",
+          "OFF"
+        ],
+        "configured_threshold": "HARM_BLOCK_THRESHOLD_UNSPECIFIED",
+        "changed_category_entries": {
+          "project_current_and_preset": 16,
+          "project_encrypted_preferences": 16,
+          "installed_current_and_preset": 16
+        },
+        "scope": "현재 설정과 프리셋 1에서 안전 해제 선택지만 모델 기본값으로 변경했다. 기존 비밀값·다른 설정은 메모리 비교로 검증했다.",
+        "deferred_request_bodies_verified": 308,
+        "explicit_safety_fields_found": 0,
+        "new_rows_received_before_setting_change": 203,
+        "documentation": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/capabilities/configure-safety-filters"
+      }
+    },
+    "native_api_translator": {
+      "installation_source": "F:\\DOWN\\AI번역기\\AItranslator_GUI.exe",
+      "runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\API번역기\\AItranslator_GUI.exe",
+      "input_folder": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\API번역기\\0_input",
+      "input_manifest": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\API번역기\\미수신_목록.json",
+      "last_open_window_title": "AI 텍스트 번역기 | 레콘퀴스타 · 미수신 28,932행 / 344개 파일",
+      "native_input_scan": {
+        "loaded_at": "2026-11-17T03:56:53.601452+00:00",
+        "rows": 28932,
+        "files": 344,
+        "settings_button": "설정",
+        "default_vertex_ready": true,
+        "native_level": "high",
+        "wire_adapter": "argon-high-1"
+      },
+      "current_input_snapshot": {
+        "captured": "2026-11-17T13:10:25+09:00",
+        "remaining_rows": 28915,
+        "remaining_jobs": 343,
+        "received_rows": 15328
+      },
+      "model": "gemini-4-argon",
+      "thinking_level": "high",
+      "account_storage": "기본 계정은 기존 설치 프로필에서 메모리로 읽고 네이티브에서 등록한 설정은 현재 Windows 사용자 DPAPI로 보호한다.",
+      "handoff": "GUI의 번역 시작 시 기존 실시간 전송이 끝난 뒤 작업 잠금을 획득하고 미수신 원문만 재생성한다. 원문/지침/응답의 검수는 같은 DB를 이용한다.",
+      "native_wire_verification": "현재 감싼 네이티브 요청 본문 생성을 이전 T0184 성공 요청의 정확한 전송 바이트 및 두 가지 네이티브 번호 입력 형태와 대조. 네이티브 창 열기는 생성 요청을 하지 않는다.",
+      "latest_verified_native_response": {
+        "tag": "T0161_native",
+        "project_hash": "ae20d3b582ab90c9c74612a79674d1431152b9cc0f1a18558d10f33fbaccdae7",
+        "status": "completed",
+        "model": "gemini-4-argon",
+        "thinking_level": "high",
+        "started": "2026-11-17T04:07:11.185848+00:00",
+        "finished": "2026-11-17T04:07:26.919523+00:00",
+        "provider_usage": {
+          "promptTokenCount": 2521,
+          "candidatesTokenCount": 117,
+          "totalTokenCount": 3308,
+          "trafficType": "ON_DEMAND",
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 2521
+            }
+          ],
+          "candidatesTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 117
+            }
+          ],
+          "thoughtsTokenCount": 670
+        },
+        "requested_rows": [
+          "u0441",
+          "u0442",
+          "u0443",
+          "u0444"
+        ],
+        "receipt_file": "receipts\\argon-high\\native-gui\\T0161_native_9de59f79cdac1c0196dfb44e.json"
+      }
+    },
+    "all_remaining_deferred": {
+      "updated": "2026-11-17T14:27:34.207514+00:00",
+      "location": "global",
+      "api": "Vertex AI v1 Interactions",
+      "model": "gemini-4-argon",
+      "thinking_level": "high",
+      "service_tier": "deferred",
+      "frozen_scope": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\deferred_queue\\manifest.json",
+      "per_request_state": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\deferred_queue\\states",
+      "receipt_directory": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\receipts\\argon-high\\deferred",
+      "counts": {
+        "prepared_at": "2026-11-17T13:24:04.948764+00:00",
+        "jobs": 199,
+        "rows": 15005,
+        "baseline": 29238,
+        "eligible": 44243,
+        "accepted_jobs": 23,
+        "accepted_rows": 2002,
+        "applied_rows": 291,
+        "waiting_results": 13,
+        "correction_requests": 2,
+        "capacity_rejections": 279,
+        "active_rows": 1089,
+        "local_waiting_rows": 13625,
+        "technical_terminals": 9,
+        "attention": [],
+        "last_accepted_at": "2026-11-17T14:22:03.125441+00:00",
+        "last_received_at": "2026-11-17T13:27:39.115880+00:00"
+      },
+      "translation_pid": 63640,
+      "analysis_guide_reused": true,
+      "translation_guide_reused": true,
+      "carbon_batch_released_unsubmitted": {
+        "scene": "S084",
+        "jobs": [
+          "T0408",
+          "T0409",
+          "T0410",
+          "T0411",
+          "T0412",
+          "T0413"
+        ],
+        "rows": 543
+      },
+      "quality": {
+        "aligned": 29529,
+        "direct": 17612,
+        "needs_fix": 441,
+        "repaired": 417
+      },
+      "capacity_metric": "aiplatform.googleapis.com/concurrent_interaction_generations",
+      "request_index": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\deferred_queue\\prepared_index.json",
+      "frozen_requests": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\deferred_queue\\requests",
+      "wire_recovery": {
+        "T0219_3": "기존 서버 ID에서 원 입력을 GET으로 복원하고 동일 SHA-256 검증",
+        "T0339_2": "429 거절 검증 후 원문 행 순서 고정",
+        "T0489_2": "429 거절 검증 후 원문 행 순서 고정"
+      },
+      "next": "이미 접수된 ID를 조회하고 슬롯이 풀리면 같은 아르곤 High Deferred로 다음 미수신 묶음을 제출한다. 새 응답을 행 단위로 검증·대조한다."
+    },
+    "argon_server_batch_option": {
+      "model": "gemini-4-argon",
+      "thinking_level": "HIGH",
+      "prepared_at": "2026-11-17T14:17:41.026177+00:00",
+      "rows_at_preparation": 13640,
+      "requests": 183,
+      "excluded_live_at_preparation": 1074,
+      "request": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\batch\\argon_remaining\\job_request.json",
+      "input": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\api-carbon-argon-20261117\\runtime\\batch\\argon_remaining\\input.jsonl",
+      "input_sha256": "0c41fce72b2f696ea86ddadd67711280fb26b873f8f483440d834bf8e80ee1dd",
+      "server_job": null,
+      "bucket": "noverltranslate01",
+      "bucket_access_checked_at": "2026-11-17T23:15:32+09:00",
+      "storage_permissions_granted": false,
+      "vertex_list_http": 200,
+      "next": "버킷 권한이 부여되면 현재 접수·수신 행을 재확인해 중복 없이 서버 배치 제출"
+    }
+  }
+}

@@ -1,0 +1,2090 @@
+[
+  {
+    "name": "b_maho_1_3_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 50202925,
+    "bytes": 493785
+  },
+  {
+    "name": "b_momi_1b_4_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 145791620,
+    "bytes": 390874
+  },
+  {
+    "name": "b_maho_3_3_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 88889959,
+    "bytes": 449082
+  },
+  {
+    "name": "b_maho_1b_5_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        -0.2486764724393521,
+        -0.8080994682301389,
+        648.7009411050836
+      ],
+      [
+        0.8080994682301389,
+        -0.2486764724393521,
+        142.04404545785098
+      ]
+    ],
+    "offset": 67935978,
+    "bytes": 503363
+  },
+  {
+    "name": "b_momi_1f_4_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 2,
+    "matrix": [
+      [
+        -0.5337286184022496,
+        -0.3206338142225279,
+        787.6516657382847
+      ],
+      [
+        0.3206338142225279,
+        -0.5337286184022496,
+        327.8006938534083
+      ]
+    ],
+    "offset": 163715868,
+    "bytes": 463414
+  },
+  {
+    "name": "b_masa_3b_1_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 119243631,
+    "bytes": 331307
+  },
+  {
+    "name": "b_momi_1b_3_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 144459984,
+    "bytes": 402513
+  },
+  {
+    "name": "b_maho_1_4_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 51966263,
+    "bytes": 497378
+  },
+  {
+    "name": "b_momi_1d_4_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 155553423,
+    "bytes": 493424
+  },
+  {
+    "name": "b_maho_3_4_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 90550685,
+    "bytes": 454542
+  },
+  {
+    "name": "b_maho_1b_2_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        -0.21846181139512444,
+        -0.3397604853982414,
+        428.8099053702111
+      ],
+      [
+        0.3397604853982414,
+        -0.21846181139512444,
+        363.346580246358
+      ]
+    ],
+    "offset": 62772811,
+    "bytes": 506797
+  },
+  {
+    "name": "b_sina_3_5_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 217878983,
+    "bytes": 370981
+  },
+  {
+    "name": "b_momi_4_2_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 182443066,
+    "bytes": 390508
+  },
+  {
+    "name": "b_sina_1_5_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 204056469,
+    "bytes": 312249
+  },
+  {
+    "name": "b_kure_1b_5_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        1.4339745382117618e-20,
+        -1.8646952423007316e-20,
+        312.86053466796875
+      ],
+      [
+        1.8646952423007316e-20,
+        1.4339745382117618e-20,
+        380.04107666015625
+      ]
+    ],
+    "offset": 32171981,
+    "bytes": 424762
+  },
+  {
+    "name": "b_sina_3_2_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 216664147,
+    "bytes": 370200
+  },
+  {
+    "name": "b_kure_1b_2_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        2.3106002750946733,
+        0.17151737480549736,
+        -453.58463237079263
+      ],
+      [
+        -0.17151737480549736,
+        2.3106002750946733,
+        -165.11632633886245
+      ]
+    ],
+    "offset": 28352473,
+    "bytes": 446307
+  },
+  {
+    "name": "b_masa_4_1_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 123593822,
+    "bytes": 280819
+  },
+  {
+    "name": "b_sina_1_2_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 200660787,
+    "bytes": 319768
+  },
+  {
+    "name": "b_masa_2a_1_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 2,
+    "matrix": [
+      [
+        -0.3052525920763801,
+        -0.23397524589800348,
+        370.0608903170064
+      ],
+      [
+        0.23397524589800348,
+        -0.3052525920763801,
+        319.6641966623514
+      ]
+    ],
+    "offset": 104342856,
+    "bytes": 314967
+  },
+  {
+    "name": "b_momi_1e_2_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 158388610,
+    "bytes": 427863
+  },
+  {
+    "name": "b_maho_1c_4_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 76583297,
+    "bytes": 543569
+  },
+  {
+    "name": "b_maho_2_2_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 80062657,
+    "bytes": 518010
+  },
+  {
+    "name": "b_momi_1c_2_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 2,
+    "matrix": [
+      [
+        -1.3099408460216735,
+        0.8736445945584087,
+        994.1719430708719
+      ],
+      [
+        -0.8736445945584087,
+        -1.3099408460216735,
+        759.6312977965126
+      ]
+    ],
+    "offset": 148467497,
+    "bytes": 451326
+  },
+  {
+    "name": "b_masa_2a_6_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 108748475,
+    "bytes": 325086
+  },
+  {
+    "name": "b_maho_4_2_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 95920049,
+    "bytes": 488447
+  },
+  {
+    "name": "b_maho_2_5_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 81802442,
+    "bytes": 514504
+  },
+  {
+    "name": "b_momi_1a_2_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 137168375,
+    "bytes": 491618
+  },
+  {
+    "name": "b_sina_2_4_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 210851448,
+    "bytes": 303515
+  },
+  {
+    "name": "b_kure_1_4_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 25780041,
+    "bytes": 425154
+  },
+  {
+    "name": "b_sina_4_3_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 223799223,
+    "bytes": 293602
+  },
+  {
+    "name": "b_kure_3_4_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        1.4339745382117618e-20,
+        -1.8646952423007316e-20,
+        312.86053466796875
+      ],
+      [
+        1.8646952423007316e-20,
+        1.4339745382117618e-20,
+        380.04107666015625
+      ]
+    ],
+    "offset": 38467947,
+    "bytes": 404254
+  },
+  {
+    "name": "b_sina_2_3_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 209759202,
+    "bytes": 288861
+  },
+  {
+    "name": "b_kure_1_3_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 24484495,
+    "bytes": 427941
+  },
+  {
+    "name": "b_momi_2a_1_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 165090751,
+    "bytes": 465643
+  },
+  {
+    "name": "b_momi_3_3_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 178771019,
+    "bytes": 406642
+  },
+  {
+    "name": "b_kure_3_3_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 37199509,
+    "bytes": 402558
+  },
+  {
+    "name": "b_sina_4_4_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 224829124,
+    "bytes": 307773
+  },
+  {
+    "name": "b_momi_1f_1_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 2,
+    "matrix": [
+      [
+        2.508069075377798,
+        0.5702748302594157,
+        -902.101288081562
+      ],
+      [
+        -0.5702748302594157,
+        2.508069075377798,
+        -183.37394347641418
+      ]
+    ],
+    "offset": 161001686,
+    "bytes": 474457
+  },
+  {
+    "name": "b_maho_1_1_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 46182131,
+    "bytes": 491881
+  },
+  {
+    "name": "b_masa_3b_4_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 122456667,
+    "bytes": 369841
+  },
+  {
+    "name": "b_kure_3b_2_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 40983387,
+    "bytes": 415617
+  },
+  {
+    "name": "b_masa_2b_2_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 110807679,
+    "bytes": 306724
+  },
+  {
+    "name": "b_momi_1d_1_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 2,
+    "matrix": [
+      [
+        -0.11043117944704728,
+        -0.00556328144827387,
+        391.66189021178735
+      ],
+      [
+        0.00556328144827387,
+        -0.11043117944704728,
+        190.74187855896338
+      ]
+    ],
+    "offset": 152563365,
+    "bytes": 504236
+  },
+  {
+    "name": "b_maho_3_1_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 85276395,
+    "bytes": 433993
+  },
+  {
+    "name": "b_maho_1b_7_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 71389533,
+    "bytes": 505517
+  },
+  {
+    "name": "b_masa_3b_3_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 121334434,
+    "bytes": 356244
+  },
+  {
+    "name": "b_momi_1b_1_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 2,
+    "matrix": [
+      [
+        -1.7075371503444865,
+        -0.448662922824436,
+        1306.349310460828
+      ],
+      [
+        0.448662922824436,
+        -1.7075371503444865,
+        735.8992603829619
+      ]
+    ],
+    "offset": 141753992,
+    "bytes": 423752
+  },
+  {
+    "name": "b_maho_1_6_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        0.3650520539445385,
+        0.03745596743235944,
+        -28.296613446298178
+      ],
+      [
+        -0.03745596743235944,
+        0.3650520539445385,
+        297.11422793362664
+      ]
+    ],
+    "offset": 55652697,
+    "bytes": 502500
+  },
+  {
+    "name": "b_sina_3_7_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 220384763,
+    "bytes": 366400
+  },
+  {
+    "name": "b_masa_4_4_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        -0.519248854346286,
+        -1.1446326864224943,
+        894.2606218425641
+      ],
+      [
+        1.1446326864224943,
+        -0.519248854346286,
+        -169.80867155821522
+      ]
+    ],
+    "offset": 126738241,
+    "bytes": 302927
+  },
+  {
+    "name": "b_sina_1_7_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 206289081,
+    "bytes": 292203
+  },
+  {
+    "name": "b_masa_4_3_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        0.0,
+        -0.0,
+        54.38843536376953
+      ],
+      [
+        0.0,
+        0.0,
+        414.200927734375
+      ]
+    ],
+    "offset": 125644810,
+    "bytes": 291831
+  },
+  {
+    "name": "b_maho_1_8_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        -0.2486764724393521,
+        -0.8080994682301389,
+        648.7009411050836
+      ],
+      [
+        0.8080994682301389,
+        -0.2486764724393521,
+        142.04404545785098
+      ]
+    ],
+    "offset": 59349441,
+    "bytes": 499835
+  },
+  {
+    "name": "b_momi_2b_2_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 172390070,
+    "bytes": 372780
+  },
+  {
+    "name": "b_masa_2a_3_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 4,
+    "matrix": [
+      [
+        -0.086800199889348,
+        -0.032915271438901765,
+        128.57115277005008
+      ],
+      [
+        0.032915271438901765,
+        -0.086800199889348,
+        427.4176883576918
+      ]
+    ],
+    "offset": 106483586,
+    "bytes": 327907
+  },
+  {
+    "name": "b_masa_2a_4_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 4,
+    "matrix": [
+      [
+        -0.0868001948897396,
+        -0.03291526561821061,
+        128.57114759035005
+      ],
+      [
+        0.03291526561821061,
+        -0.0868001948897396,
+        427.4176880136573
+      ]
+    ],
+    "offset": 107620802,
+    "bytes": 337829
+  },
+  {
+    "name": "b_maho_1c_1_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 74841255,
+    "bytes": 563137
+  },
+  {
+    "name": "b_masa_3a_2_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 115953465,
+    "bytes": 340511
+  },
+  {
+    "name": "b_sina_2_6_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 213187315,
+    "bytes": 288045
+  },
+  {
+    "name": "b_momi_2a_4_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 169550956,
+    "bytes": 459141
+  },
+  {
+    "name": "b_masa_1_2_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 101096573,
+    "bytes": 323749
+  },
+  {
+    "name": "b_sina_4_1_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 221636063,
+    "bytes": 302872
+  },
+  {
+    "name": "b_momi_2a_3_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 168051798,
+    "bytes": 465530
+  },
+  {
+    "name": "b_sina_2_1_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 207397509,
+    "bytes": 300137
+  },
+  {
+    "name": "b_kure_1_1_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 2,
+    "matrix": [
+      [
+        0.6925054563801232,
+        -0.8092774344107813,
+        469.84508725066337
+      ],
+      [
+        0.8092774344107813,
+        0.6925054563801232,
+        -307.68163531571236
+      ]
+    ],
+    "offset": 21960808,
+    "bytes": 426749
+  },
+  {
+    "name": "b_sina_4_6_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 227002970,
+    "bytes": 288873
+  },
+  {
+    "name": "b_momi_3_1_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 176297655,
+    "bytes": 402490
+  },
+  {
+    "name": "b_kure_3_1_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        1.4339745382117618e-20,
+        -1.8646952423007316e-20,
+        312.86053466796875
+      ],
+      [
+        1.8646952423007316e-20,
+        1.4339745382117618e-20,
+        380.04107666015625
+      ]
+    ],
+    "offset": 34746685,
+    "bytes": 396123
+  },
+  {
+    "name": "b_maho_1b_1_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 61071595,
+    "bytes": 500013
+  },
+  {
+    "name": "b_kure_3b_4_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        1.4339745382117618e-20,
+        -1.8646952423007316e-20,
+        312.86053466796875
+      ],
+      [
+        1.8646952423007316e-20,
+        1.4339745382117618e-20,
+        380.04107666015625
+      ]
+    ],
+    "offset": 43455992,
+    "bytes": 404198
+  },
+  {
+    "name": "b_maho_1_1_32.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 47840630,
+    "bytes": 490038
+  },
+  {
+    "name": "b_masa_2b_4_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 4,
+    "matrix": [
+      [
+        -0.0868001948897396,
+        -0.03291526561821061,
+        128.57114759035005
+      ],
+      [
+        0.03291526561821061,
+        -0.0868001948897396,
+        427.4176880136573
+      ]
+    ],
+    "offset": 112896496,
+    "bytes": 319663
+  },
+  {
+    "name": "b_maho_1_7_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 57507732,
+    "bytes": 497385
+  },
+  {
+    "name": "b_masa_3b_2_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 120281347,
+    "bytes": 344903
+  },
+  {
+    "name": "b_maho_3_1_32.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 86799127,
+    "bytes": 432150
+  },
+  {
+    "name": "b_kure_3b_3_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 42187535,
+    "bytes": 402554
+  },
+  {
+    "name": "b_masa_2b_3_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 4,
+    "matrix": [
+      [
+        -0.0868001948897396,
+        -0.03291526561821061,
+        128.57114759035005
+      ],
+      [
+        0.03291526561821061,
+        -0.0868001948897396,
+        427.4176880136573
+      ]
+    ],
+    "offset": 111816367,
+    "bytes": 309649
+  },
+  {
+    "name": "b_maho_1b_6_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        -0.21846181139512444,
+        -0.3397604853982414,
+        428.8099053702111
+      ],
+      [
+        0.3397604853982414,
+        -0.21846181139512444,
+        363.346580246358
+      ]
+    ],
+    "offset": 69659010,
+    "bytes": 510632
+  },
+  {
+    "name": "b_masa_4_2_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 124623591,
+    "bytes": 291914
+  },
+  {
+    "name": "b_sina_1_1_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 199517782,
+    "bytes": 306041
+  },
+  {
+    "name": "b_kure_1b_1_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        1.4339745382117618e-20,
+        -1.8646952423007316e-20,
+        312.86053466796875
+      ],
+      [
+        1.8646952423007316e-20,
+        1.4339745382117618e-20,
+        380.04107666015625
+      ]
+    ],
+    "offset": 27071672,
+    "bytes": 424762
+  },
+  {
+    "name": "b_momi_2b_3_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 173707322,
+    "bytes": 366237
+  },
+  {
+    "name": "b_sina_3_1_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 215410659,
+    "bytes": 377520
+  },
+  {
+    "name": "b_kure_1b_6_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 33452782,
+    "bytes": 427760
+  },
+  {
+    "name": "b_momi_2b_4_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 175008412,
+    "bytes": 354571
+  },
+  {
+    "name": "b_masa_4_5_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 127823213,
+    "bytes": 271766
+  },
+  {
+    "name": "b_sina_1_6_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 205206922,
+    "bytes": 291861
+  },
+  {
+    "name": "b_momi_4_1_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 181199554,
+    "bytes": 385938
+  },
+  {
+    "name": "b_maho_1b_8_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        -0.21846181139512444,
+        -0.3397604853982414,
+        428.8099053702111
+      ],
+      [
+        0.3397604853982414,
+        -0.21846181139512444,
+        363.346580246358
+      ]
+    ],
+    "offset": 73114744,
+    "bytes": 506817
+  },
+  {
+    "name": "b_sina_3_6_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 219106304,
+    "bytes": 376591
+  },
+  {
+    "name": "b_momi_1a_1_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 135662614,
+    "bytes": 498573
+  },
+  {
+    "name": "b_masa_3a_3_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 116999160,
+    "bytes": 351719
+  },
+  {
+    "name": "b_maho_2_6_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 83538728,
+    "bytes": 516047
+  },
+  {
+    "name": "b_maho_4_1_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 94233948,
+    "bytes": 482177
+  },
+  {
+    "name": "b_momi_1c_1_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 2,
+    "matrix": [
+      [
+        -9.631173129551899,
+        -4.916497854949121,
+        7627.369764896177
+      ],
+      [
+        4.916497854949121,
+        -9.631173129551899,
+        1764.059601389738
+      ]
+    ],
+    "offset": 147124847,
+    "bytes": 458281
+  },
+  {
+    "name": "b_maho_2_1_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 78349293,
+    "bytes": 512382
+  },
+  {
+    "name": "b_masa_3a_4_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 118113868,
+    "bytes": 365449
+  },
+  {
+    "name": "b_momi_1e_1_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 157066475,
+    "bytes": 441512
+  },
+  {
+    "name": "b_masa_2a_2_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 105417992,
+    "bytes": 324890
+  },
+  {
+    "name": "b_maho_4_6_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 97631039,
+    "bytes": 496640
+  },
+  {
+    "name": "b_masa_1_4_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        0.0,
+        -0.0,
+        54.38843536376953
+      ],
+      [
+        0.0,
+        0.0,
+        414.200927734375
+      ]
+    ],
+    "offset": 103240267,
+    "bytes": 340014
+  },
+  {
+    "name": "b_sina_4_7_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 228031474,
+    "bytes": 293355
+  },
+  {
+    "name": "b_momi_2a_2_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 166565822,
+    "bytes": 459408
+  },
+  {
+    "name": "b_masa_1_3_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        0.0,
+        -0.0,
+        54.38843536376953
+      ],
+      [
+        0.0,
+        0.0,
+        414.200927734375
+      ]
+    ],
+    "offset": 102126017,
+    "bytes": 332720
+  },
+  {
+    "name": "b_sina_2_7_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 214292230,
+    "bytes": 296289
+  },
+  {
+    "name": "b_masa_2b_6_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 113939233,
+    "bytes": 306801
+  },
+  {
+    "name": "b_maho_3_5_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 92586324,
+    "bytes": 439978
+  },
+  {
+    "name": "b_maho_1b_3_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 64499302,
+    "bytes": 501917
+  },
+  {
+    "name": "b_maho_1_5_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        -2.2331719705899307e-19,
+        -1.8545004004460025e-19,
+        170.8729248046875
+      ],
+      [
+        1.8545004004460025e-19,
+        -2.2331719705899307e-19,
+        437.9624938964844
+      ]
+    ],
+    "offset": 53807957,
+    "bytes": 495231
+  },
+  {
+    "name": "b_momi_1b_2_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 2,
+    "matrix": [
+      [
+        -8.156276821527641e-20,
+        -1.0864433051316382e-20,
+        144.9020233154297
+      ],
+      [
+        1.0864433051316382e-20,
+        -8.156276821527641e-20,
+        216.84014892578125
+      ]
+    ],
+    "offset": 143106267,
+    "bytes": 412170
+  },
+  {
+    "name": "b_maho_3_2_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 87251447,
+    "bytes": 439978
+  },
+  {
+    "name": "b_maho_1b_4_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 66210774,
+    "bytes": 505510
+  },
+  {
+    "name": "b_kure_3b_1_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        1.4339745382117618e-20,
+        -1.8646952423007316e-20,
+        312.86053466796875
+      ],
+      [
+        1.8646952423007316e-20,
+        1.4339745382117618e-20,
+        380.04107666015625
+      ]
+    ],
+    "offset": 39737625,
+    "bytes": 394643
+  },
+  {
+    "name": "b_masa_2b_1_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 109789630,
+    "bytes": 296709
+  },
+  {
+    "name": "b_momi_1d_2_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 154052889,
+    "bytes": 496226
+  },
+  {
+    "name": "b_maho_1_2_01.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        0.3650520539445385,
+        0.03745596743235944,
+        -28.296613446298178
+      ],
+      [
+        -0.03745596743235944,
+        0.3650520539445385,
+        297.11422793362664
+      ]
+    ],
+    "offset": 48353360,
+    "bytes": 498665
+  },
+  {
+    "name": "b_maho_3_4_32.rct",
+    "character": "maho",
+    "size": [
+      776,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 92112849,
+    "bytes": 452696
+  },
+  {
+    "name": "b_momi_1f_2_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 162353272,
+    "bytes": 466447
+  },
+  {
+    "name": "b_kure_1b_3_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 29588103,
+    "bytes": 427760
+  },
+  {
+    "name": "b_momi_2b_1_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 171060865,
+    "bytes": 384292
+  },
+  {
+    "name": "b_sina_1_3_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 201854192,
+    "bytes": 290979
+  },
+  {
+    "name": "b_momi_4_4_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 184984686,
+    "bytes": 401074
+  },
+  {
+    "name": "b_sina_1_4_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 202930025,
+    "bytes": 304700
+  },
+  {
+    "name": "b_kure_1b_4_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 30882006,
+    "bytes": 424960
+  },
+  {
+    "name": "b_momi_4_3_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        -0.9486785443856668,
+        -0.3075972586989667,
+        776.5293035100908
+      ],
+      [
+        0.3075972586989667,
+        -0.9486785443856668,
+        525.8027387466644
+      ]
+    ],
+    "offset": 183707260,
+    "bytes": 397014
+  },
+  {
+    "name": "b_momi_1a_3_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 138686201,
+    "bytes": 496650
+  },
+  {
+    "name": "b_masa_3a_1_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 114923274,
+    "bytes": 326782
+  },
+  {
+    "name": "b_momi_1e_4_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 3,
+    "matrix": [
+      [
+        0.0,
+        -0.0,
+        654.3828735351562
+      ],
+      [
+        0.0,
+        0.0,
+        372.582763671875
+      ]
+    ],
+    "offset": 159703080,
+    "bytes": 419063
+  },
+  {
+    "name": "b_momi_1c_3_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 2,
+    "matrix": [
+      [
+        -1.3099408460216735,
+        0.8736445945584087,
+        994.1719430708719
+      ],
+      [
+        -0.8736445945584087,
+        -1.3099408460216735,
+        759.6312977965126
+      ]
+    ],
+    "offset": 149822212,
+    "bytes": 456150
+  },
+  {
+    "name": "b_momi_1a_4_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 140214099,
+    "bytes": 489625
+  },
+  {
+    "name": "b_momi_1c_4_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 151186791,
+    "bytes": 449125
+  },
+  {
+    "name": "b_kure_3_2_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 35993904,
+    "bytes": 417097
+  },
+  {
+    "name": "b_momi_3_2_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 177510523,
+    "bytes": 407083
+  },
+  {
+    "name": "b_sina_4_5_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 225915056,
+    "bytes": 308859
+  },
+  {
+    "name": "b_sina_2_2_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 208544327,
+    "bytes": 314801
+  },
+  {
+    "name": "b_kure_1_2_01.rct",
+    "character": "kure",
+    "size": [
+      766,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 23245058,
+    "bytes": 447926
+  },
+  {
+    "name": "b_masa_1_1_01.rct",
+    "character": "masa",
+    "size": [
+      866,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 100055022,
+    "bytes": 316451
+  },
+  {
+    "name": "b_sina_4_2_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 222689570,
+    "bytes": 317046
+  },
+  {
+    "name": "b_momi_3_5_01.rct",
+    "character": "momi",
+    "size": [
+      802,
+      600
+    ],
+    "inliers": 2,
+    "matrix": [
+      [
+        1.1150851586523882,
+        -0.7259513122033898,
+        295.9347973430274
+      ],
+      [
+        0.7259513122033898,
+        1.1150851586523882,
+        -391.727615089795
+      ]
+    ],
+    "offset": 180022714,
+    "bytes": 404443
+  },
+  {
+    "name": "b_sina_2_5_01.rct",
+    "character": "sina",
+    "size": [
+      773,
+      600
+    ],
+    "inliers": 0,
+    "matrix": null,
+    "offset": 212012846,
+    "bytes": 307503
+  }
+]

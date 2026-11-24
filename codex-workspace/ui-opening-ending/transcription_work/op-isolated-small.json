@@ -1,0 +1,3438 @@
+{
+  "source": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\transcription_work\\recon_op-isolated-timeline.wav",
+  "stt_model": "Systran/faster-whisper-small",
+  "model_path": "P:\\AI\\Codex\\projects\\sorairo_no_fuukin_ko\\work\\ui_video_integration_20260922\\opening_final\\models\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120",
+  "language": "ja",
+  "task": "source_transcription_only",
+  "accepted_semantic_translation": false,
+  "source_duration": 259.692,
+  "elapsed_seconds": 6.960325479507446,
+  "segments": [
+    {
+      "id": "op-isolated::001",
+      "start": 0.0,
+      "end": 10.64,
+      "text": "すべて失くした場所で もう一度 取り戻すから",
+      "avg_logprob": -0.3857421937088172,
+      "no_speech_prob": 0.090576171875,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.62,
+          "word": "す",
+          "probability": 0.447998046875
+        },
+        {
+          "start": 0.62,
+          "end": 1.38,
+          "word": "べ",
+          "probability": 0.99609375
+        },
+        {
+          "start": 1.38,
+          "end": 1.66,
+          "word": "て",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 1.66,
+          "end": 2.32,
+          "word": "失",
+          "probability": 0.408935546875
+        },
+        {
+          "start": 2.32,
+          "end": 2.72,
+          "word": "く",
+          "probability": 0.99267578125
+        },
+        {
+          "start": 2.72,
+          "end": 3.58,
+          "word": "した",
+          "probability": 0.99609375
+        },
+        {
+          "start": 3.58,
+          "end": 4.4,
+          "word": "場",
+          "probability": 0.9599609375
+        },
+        {
+          "start": 4.4,
+          "end": 4.68,
+          "word": "所",
+          "probability": 1.0
+        },
+        {
+          "start": 4.68,
+          "end": 5.32,
+          "word": "で",
+          "probability": 0.88427734375
+        },
+        {
+          "start": 5.86,
+          "end": 6.42,
+          "word": " もう",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 6.42,
+          "end": 6.88,
+          "word": "一",
+          "probability": 0.91943359375
+        },
+        {
+          "start": 6.88,
+          "end": 7.38,
+          "word": "度",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 7.92,
+          "end": 8.26,
+          "word": " 取",
+          "probability": 0.92822265625
+        },
+        {
+          "start": 8.26,
+          "end": 8.54,
+          "word": "り",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 8.54,
+          "end": 9.02,
+          "word": "戻",
+          "probability": 0.998779296875
+        },
+        {
+          "start": 9.02,
+          "end": 9.56,
+          "word": "す",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 9.56,
+          "end": 10.64,
+          "word": "から",
+          "probability": 0.99462890625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::002",
+      "start": 10.64,
+      "end": 40.62,
+      "text": "AaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaA",
+      "avg_logprob": -0.0649999968210856,
+      "no_speech_prob": 0.89892578125,
+      "words": [
+        {
+          "start": 10.64,
+          "end": 10.8,
+          "word": "A",
+          "probability": 0.0018606185913085938
+        },
+        {
+          "start": 10.8,
+          "end": 10.84,
+          "word": "a",
+          "probability": 0.156982421875
+        },
+        {
+          "start": 10.84,
+          "end": 12.4,
+          "word": "A",
+          "probability": 0.7109375
+        },
+        {
+          "start": 12.4,
+          "end": 12.4,
+          "word": "a",
+          "probability": 0.875
+        },
+        {
+          "start": 12.4,
+          "end": 13.54,
+          "word": "A",
+          "probability": 0.93603515625
+        },
+        {
+          "start": 13.54,
+          "end": 13.54,
+          "word": "a",
+          "probability": 0.93798828125
+        },
+        {
+          "start": 13.54,
+          "end": 13.84,
+          "word": "A",
+          "probability": 0.94580078125
+        },
+        {
+          "start": 13.84,
+          "end": 14.5,
+          "word": "a",
+          "probability": 0.94775390625
+        },
+        {
+          "start": 14.5,
+          "end": 14.5,
+          "word": "A",
+          "probability": 0.96044921875
+        },
+        {
+          "start": 14.5,
+          "end": 14.5,
+          "word": "a",
+          "probability": 0.9599609375
+        },
+        {
+          "start": 14.5,
+          "end": 14.5,
+          "word": "A",
+          "probability": 0.966796875
+        },
+        {
+          "start": 14.5,
+          "end": 14.5,
+          "word": "a",
+          "probability": 0.966796875
+        },
+        {
+          "start": 14.5,
+          "end": 14.5,
+          "word": "A",
+          "probability": 0.97216796875
+        },
+        {
+          "start": 14.5,
+          "end": 14.5,
+          "word": "a",
+          "probability": 0.9716796875
+        },
+        {
+          "start": 14.5,
+          "end": 14.5,
+          "word": "A",
+          "probability": 0.9755859375
+        },
+        {
+          "start": 14.5,
+          "end": 14.52,
+          "word": "a",
+          "probability": 0.97509765625
+        },
+        {
+          "start": 14.52,
+          "end": 14.52,
+          "word": "A",
+          "probability": 0.978515625
+        },
+        {
+          "start": 14.52,
+          "end": 14.52,
+          "word": "a",
+          "probability": 0.97802734375
+        },
+        {
+          "start": 14.52,
+          "end": 14.52,
+          "word": "A",
+          "probability": 0.97998046875
+        },
+        {
+          "start": 14.52,
+          "end": 14.52,
+          "word": "a",
+          "probability": 0.98095703125
+        },
+        {
+          "start": 14.52,
+          "end": 14.52,
+          "word": "A",
+          "probability": 0.9814453125
+        },
+        {
+          "start": 14.52,
+          "end": 14.52,
+          "word": "a",
+          "probability": 0.98291015625
+        },
+        {
+          "start": 14.52,
+          "end": 14.52,
+          "word": "A",
+          "probability": 0.982421875
+        },
+        {
+          "start": 14.52,
+          "end": 14.78,
+          "word": "a",
+          "probability": 0.98486328125
+        },
+        {
+          "start": 14.78,
+          "end": 15.12,
+          "word": "A",
+          "probability": 0.9833984375
+        },
+        {
+          "start": 15.12,
+          "end": 15.12,
+          "word": "a",
+          "probability": 0.9853515625
+        },
+        {
+          "start": 15.12,
+          "end": 15.12,
+          "word": "A",
+          "probability": 0.984375
+        },
+        {
+          "start": 15.12,
+          "end": 15.12,
+          "word": "a",
+          "probability": 0.986328125
+        },
+        {
+          "start": 15.12,
+          "end": 15.14,
+          "word": "A",
+          "probability": 0.98486328125
+        },
+        {
+          "start": 15.14,
+          "end": 15.14,
+          "word": "a",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 15.14,
+          "end": 15.14,
+          "word": "A",
+          "probability": 0.9853515625
+        },
+        {
+          "start": 15.14,
+          "end": 15.14,
+          "word": "a",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 15.14,
+          "end": 15.14,
+          "word": "A",
+          "probability": 0.986328125
+        },
+        {
+          "start": 15.14,
+          "end": 15.14,
+          "word": "a",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 15.14,
+          "end": 15.14,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 15.14,
+          "end": 15.14,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 15.14,
+          "end": 16.7,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 16.7,
+          "end": 16.7,
+          "word": "a",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 16.7,
+          "end": 16.7,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 16.7,
+          "end": 16.7,
+          "word": "a",
+          "probability": 0.990234375
+        },
+        {
+          "start": 16.7,
+          "end": 16.86,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "a",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "A",
+          "probability": 0.98828125
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "a",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "A",
+          "probability": 0.98828125
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "a",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "A",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "A",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "A",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "A",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "A",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "A",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 16.86,
+          "end": 16.86,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 16.86,
+          "end": 17.5,
+          "word": "A",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 17.5,
+          "end": 17.5,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 17.5,
+          "end": 18.14,
+          "word": "A",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 18.14,
+          "end": 18.14,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 18.14,
+          "end": 18.14,
+          "word": "A",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 18.14,
+          "end": 18.14,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 18.14,
+          "end": 18.14,
+          "word": "A",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 18.14,
+          "end": 18.14,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 18.14,
+          "end": 18.14,
+          "word": "A",
+          "probability": 0.98828125
+        },
+        {
+          "start": 18.14,
+          "end": 18.14,
+          "word": "a",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 18.14,
+          "end": 18.14,
+          "word": "A",
+          "probability": 0.98828125
+        },
+        {
+          "start": 18.14,
+          "end": 18.14,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 18.14,
+          "end": 18.14,
+          "word": "A",
+          "probability": 0.98828125
+        },
+        {
+          "start": 18.14,
+          "end": 18.14,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 18.14,
+          "end": 18.14,
+          "word": "A",
+          "probability": 0.98828125
+        },
+        {
+          "start": 18.14,
+          "end": 18.14,
+          "word": "a",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 18.14,
+          "end": 18.18,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 18.18,
+          "end": 18.18,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 18.18,
+          "end": 18.18,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 18.18,
+          "end": 18.18,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 18.18,
+          "end": 18.18,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 18.18,
+          "end": 18.18,
+          "word": "a",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 18.18,
+          "end": 18.18,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 18.18,
+          "end": 18.18,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 18.18,
+          "end": 18.18,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 18.18,
+          "end": 18.18,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 18.18,
+          "end": 18.18,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 18.18,
+          "end": 18.18,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 18.18,
+          "end": 21.34,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 21.34,
+          "end": 21.34,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 21.34,
+          "end": 21.34,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 21.34,
+          "end": 21.34,
+          "word": "a",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 21.34,
+          "end": 21.34,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 21.34,
+          "end": 21.34,
+          "word": "a",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 21.34,
+          "end": 21.36,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 21.36,
+          "end": 21.36,
+          "word": "a",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 21.36,
+          "end": 21.36,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 21.36,
+          "end": 21.36,
+          "word": "a",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 21.36,
+          "end": 21.36,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 21.36,
+          "end": 21.36,
+          "word": "a",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 21.36,
+          "end": 21.36,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 21.36,
+          "end": 21.36,
+          "word": "a",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 21.36,
+          "end": 24.3,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 24.3,
+          "end": 24.3,
+          "word": "a",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 24.3,
+          "end": 24.3,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 24.3,
+          "end": 24.3,
+          "word": "a",
+          "probability": 0.990234375
+        },
+        {
+          "start": 24.3,
+          "end": 24.3,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 24.3,
+          "end": 24.3,
+          "word": "a",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 24.3,
+          "end": 24.3,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 24.3,
+          "end": 24.3,
+          "word": "a",
+          "probability": 0.990234375
+        },
+        {
+          "start": 24.3,
+          "end": 24.3,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 24.3,
+          "end": 24.3,
+          "word": "a",
+          "probability": 0.990234375
+        },
+        {
+          "start": 24.3,
+          "end": 24.86,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 24.86,
+          "end": 24.86,
+          "word": "a",
+          "probability": 0.990234375
+        },
+        {
+          "start": 24.86,
+          "end": 24.86,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 24.86,
+          "end": 24.86,
+          "word": "a",
+          "probability": 0.990234375
+        },
+        {
+          "start": 24.86,
+          "end": 24.86,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 24.86,
+          "end": 24.86,
+          "word": "a",
+          "probability": 0.990234375
+        },
+        {
+          "start": 24.86,
+          "end": 24.86,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 24.86,
+          "end": 24.86,
+          "word": "a",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 24.86,
+          "end": 24.86,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 24.86,
+          "end": 24.86,
+          "word": "a",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 24.86,
+          "end": 25.42,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 25.42,
+          "end": 25.42,
+          "word": "a",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 25.42,
+          "end": 25.42,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 25.42,
+          "end": 25.42,
+          "word": "a",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 25.42,
+          "end": 25.62,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 25.62,
+          "end": 25.62,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 25.62,
+          "end": 25.62,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 25.62,
+          "end": 25.62,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 25.62,
+          "end": 25.62,
+          "word": "A",
+          "probability": 0.986328125
+        },
+        {
+          "start": 25.62,
+          "end": 25.62,
+          "word": "a",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 25.62,
+          "end": 25.62,
+          "word": "A",
+          "probability": 0.986328125
+        },
+        {
+          "start": 25.62,
+          "end": 25.62,
+          "word": "a",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 25.62,
+          "end": 26.02,
+          "word": "A",
+          "probability": 0.986328125
+        },
+        {
+          "start": 26.02,
+          "end": 26.02,
+          "word": "a",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 26.02,
+          "end": 26.02,
+          "word": "A",
+          "probability": 0.986328125
+        },
+        {
+          "start": 26.02,
+          "end": 26.02,
+          "word": "a",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 26.02,
+          "end": 26.02,
+          "word": "A",
+          "probability": 0.986328125
+        },
+        {
+          "start": 26.02,
+          "end": 26.02,
+          "word": "a",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 26.02,
+          "end": 26.02,
+          "word": "A",
+          "probability": 0.986328125
+        },
+        {
+          "start": 26.02,
+          "end": 26.02,
+          "word": "a",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 26.02,
+          "end": 26.02,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 26.02,
+          "end": 26.02,
+          "word": "a",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 26.02,
+          "end": 26.06,
+          "word": "A",
+          "probability": 0.986328125
+        },
+        {
+          "start": 26.06,
+          "end": 26.06,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 26.06,
+          "end": 26.06,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 26.06,
+          "end": 26.06,
+          "word": "a",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 26.06,
+          "end": 27.88,
+          "word": "A",
+          "probability": 0.986328125
+        },
+        {
+          "start": 27.88,
+          "end": 27.88,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 27.88,
+          "end": 27.88,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 27.88,
+          "end": 27.88,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 27.88,
+          "end": 27.88,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 27.88,
+          "end": 27.88,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 27.88,
+          "end": 27.88,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 27.88,
+          "end": 27.88,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 27.88,
+          "end": 28.26,
+          "word": "A",
+          "probability": 0.986328125
+        },
+        {
+          "start": 28.26,
+          "end": 28.26,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 28.26,
+          "end": 28.26,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 28.26,
+          "end": 28.26,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 28.26,
+          "end": 28.26,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 28.26,
+          "end": 28.26,
+          "word": "a",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 28.26,
+          "end": 28.26,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 28.26,
+          "end": 28.26,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 28.26,
+          "end": 28.26,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 28.26,
+          "end": 28.26,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 28.26,
+          "end": 28.26,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 28.26,
+          "end": 28.26,
+          "word": "a",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 28.26,
+          "end": 28.26,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 28.26,
+          "end": 28.26,
+          "word": "a",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 28.26,
+          "end": 28.26,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 28.26,
+          "end": 28.26,
+          "word": "a",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 28.26,
+          "end": 29.0,
+          "word": "A",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "a",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "a",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "a",
+          "probability": 0.98828125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "a",
+          "probability": 0.98828125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "A",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "a",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "A",
+          "probability": 0.98828125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "A",
+          "probability": 0.98828125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "A",
+          "probability": 0.98828125
+        },
+        {
+          "start": 29.0,
+          "end": 29.0,
+          "word": "a",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 29.0,
+          "end": 29.86,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 29.86,
+          "end": 30.26,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 30.26,
+          "end": 30.26,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 30.26,
+          "end": 30.26,
+          "word": "a",
+          "probability": 0.98828125
+        },
+        {
+          "start": 30.26,
+          "end": 30.26,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 30.26,
+          "end": 30.3,
+          "word": "a",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 30.3,
+          "end": 30.3,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 30.3,
+          "end": 30.3,
+          "word": "a",
+          "probability": 0.98828125
+        },
+        {
+          "start": 30.3,
+          "end": 30.3,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 30.3,
+          "end": 30.5,
+          "word": "a",
+          "probability": 0.98828125
+        },
+        {
+          "start": 30.5,
+          "end": 30.56,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 30.56,
+          "end": 30.58,
+          "word": "a",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 30.58,
+          "end": 30.58,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 30.58,
+          "end": 30.58,
+          "word": "a",
+          "probability": 0.98828125
+        },
+        {
+          "start": 30.58,
+          "end": 30.58,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 30.58,
+          "end": 30.68,
+          "word": "a",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 30.68,
+          "end": 31.54,
+          "word": "A",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 31.54,
+          "end": 31.64,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 31.64,
+          "end": 31.98,
+          "word": "A",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 31.98,
+          "end": 33.1,
+          "word": "a",
+          "probability": 0.9892578125
+        },
+        {
+          "start": 33.1,
+          "end": 37.88,
+          "word": "A",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 37.88,
+          "end": 38.8,
+          "word": "a",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 38.8,
+          "end": 40.62,
+          "word": "A",
+          "probability": 0.98876953125
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::003",
+      "start": 40.62,
+      "end": 44.06,
+      "text": "駆けてく錆びた銀の月",
+      "avg_logprob": -0.2791385070697681,
+      "no_speech_prob": 0.16552734375,
+      "words": [
+        {
+          "start": 40.62,
+          "end": 41.08,
+          "word": "駆",
+          "probability": 0.6731465657552084
+        },
+        {
+          "start": 41.08,
+          "end": 41.54,
+          "word": "けて",
+          "probability": 0.79150390625
+        },
+        {
+          "start": 41.54,
+          "end": 42.0,
+          "word": "く",
+          "probability": 0.90673828125
+        },
+        {
+          "start": 42.0,
+          "end": 42.42,
+          "word": "錆",
+          "probability": 0.73095703125
+        },
+        {
+          "start": 42.42,
+          "end": 42.82,
+          "word": "び",
+          "probability": 0.92724609375
+        },
+        {
+          "start": 42.82,
+          "end": 43.04,
+          "word": "た",
+          "probability": 0.96875
+        },
+        {
+          "start": 43.04,
+          "end": 43.46,
+          "word": "銀",
+          "probability": 0.98291015625
+        },
+        {
+          "start": 43.46,
+          "end": 43.78,
+          "word": "の",
+          "probability": 0.98486328125
+        },
+        {
+          "start": 43.78,
+          "end": 44.06,
+          "word": "月",
+          "probability": 0.677734375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::004",
+      "start": 44.62,
+      "end": 48.08,
+      "text": "溶けて消えたセンラズリ",
+      "avg_logprob": -0.2791385070697681,
+      "no_speech_prob": 0.16552734375,
+      "words": [
+        {
+          "start": 44.62,
+          "end": 45.28,
+          "word": "溶",
+          "probability": 0.6778564453125
+        },
+        {
+          "start": 45.28,
+          "end": 45.78,
+          "word": "けて",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 45.78,
+          "end": 46.26,
+          "word": "消",
+          "probability": 0.9658203125
+        },
+        {
+          "start": 46.26,
+          "end": 46.62,
+          "word": "え",
+          "probability": 0.96875
+        },
+        {
+          "start": 46.62,
+          "end": 46.86,
+          "word": "た",
+          "probability": 0.89697265625
+        },
+        {
+          "start": 46.86,
+          "end": 47.16,
+          "word": "セ",
+          "probability": 0.392822265625
+        },
+        {
+          "start": 47.16,
+          "end": 47.36,
+          "word": "ン",
+          "probability": 0.62890625
+        },
+        {
+          "start": 47.36,
+          "end": 47.58,
+          "word": "ラ",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 47.58,
+          "end": 47.74,
+          "word": "ズ",
+          "probability": 0.11297607421875
+        },
+        {
+          "start": 47.74,
+          "end": 48.08,
+          "word": "リ",
+          "probability": 0.9609375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::005",
+      "start": 48.62,
+      "end": 52.0,
+      "text": "夢見た明日をたんどる",
+      "avg_logprob": -0.2791385070697681,
+      "no_speech_prob": 0.16552734375,
+      "words": [
+        {
+          "start": 48.62,
+          "end": 49.16,
+          "word": "夢",
+          "probability": 0.923828125
+        },
+        {
+          "start": 49.16,
+          "end": 49.48,
+          "word": "見",
+          "probability": 0.72998046875
+        },
+        {
+          "start": 49.48,
+          "end": 49.78,
+          "word": "た",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 49.78,
+          "end": 50.16,
+          "word": "明",
+          "probability": 0.98095703125
+        },
+        {
+          "start": 50.16,
+          "end": 50.38,
+          "word": "日",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 50.38,
+          "end": 50.74,
+          "word": "を",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 50.74,
+          "end": 51.1,
+          "word": "た",
+          "probability": 0.29736328125
+        },
+        {
+          "start": 51.1,
+          "end": 51.26,
+          "word": "ん",
+          "probability": 0.57177734375
+        },
+        {
+          "start": 51.26,
+          "end": 51.52,
+          "word": "ど",
+          "probability": 0.97265625
+        },
+        {
+          "start": 51.52,
+          "end": 52.0,
+          "word": "る",
+          "probability": 0.81494140625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::006",
+      "start": 52.62,
+      "end": 55.94,
+      "text": "深く刻んで伸びた",
+      "avg_logprob": -0.2791385070697681,
+      "no_speech_prob": 0.16552734375,
+      "words": [
+        {
+          "start": 52.62,
+          "end": 53.06,
+          "word": "深",
+          "probability": 0.951171875
+        },
+        {
+          "start": 53.06,
+          "end": 53.64,
+          "word": "く",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 53.64,
+          "end": 53.94,
+          "word": "刻",
+          "probability": 0.888671875
+        },
+        {
+          "start": 53.94,
+          "end": 54.86,
+          "word": "んで",
+          "probability": 0.662109375
+        },
+        {
+          "start": 54.86,
+          "end": 55.24,
+          "word": "伸",
+          "probability": 0.9140625
+        },
+        {
+          "start": 55.24,
+          "end": 55.44,
+          "word": "び",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 55.44,
+          "end": 55.94,
+          "word": "た",
+          "probability": 0.99462890625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::007",
+      "start": 56.62,
+      "end": 61.94,
+      "text": "過ちの後 越えて走る",
+      "avg_logprob": -0.2791385070697681,
+      "no_speech_prob": 0.16552734375,
+      "words": [
+        {
+          "start": 56.589999999999996,
+          "end": 56.98,
+          "word": "過",
+          "probability": 0.263916015625
+        },
+        {
+          "start": 56.98,
+          "end": 57.58,
+          "word": "ち",
+          "probability": 0.94921875
+        },
+        {
+          "start": 57.58,
+          "end": 58.06,
+          "word": "の",
+          "probability": 0.92529296875
+        },
+        {
+          "start": 58.06,
+          "end": 58.48,
+          "word": "後",
+          "probability": 0.48291015625
+        },
+        {
+          "start": 59.2,
+          "end": 59.38,
+          "word": " 越",
+          "probability": 0.5302734375
+        },
+        {
+          "start": 59.38,
+          "end": 59.76,
+          "word": "えて",
+          "probability": 0.99609375
+        },
+        {
+          "start": 59.76,
+          "end": 60.1,
+          "word": "走",
+          "probability": 0.96484375
+        },
+        {
+          "start": 60.1,
+          "end": 61.94,
+          "word": "る",
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::008",
+      "start": 63.5,
+      "end": 67.46,
+      "text": "すべて失くした場所で",
+      "avg_logprob": -0.2791385070697681,
+      "no_speech_prob": 0.16552734375,
+      "words": [
+        {
+          "start": 63.5,
+          "end": 64.28,
+          "word": "す",
+          "probability": 0.29052734375
+        },
+        {
+          "start": 64.28,
+          "end": 64.86,
+          "word": "べ",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 64.86,
+          "end": 65.02,
+          "word": "て",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 65.02,
+          "end": 65.44,
+          "word": "失",
+          "probability": 0.403564453125
+        },
+        {
+          "start": 65.44,
+          "end": 65.7,
+          "word": "く",
+          "probability": 0.98828125
+        },
+        {
+          "start": 65.7,
+          "end": 66.24,
+          "word": "した",
+          "probability": 0.9921875
+        },
+        {
+          "start": 66.24,
+          "end": 66.8,
+          "word": "場",
+          "probability": 0.9697265625
+        },
+        {
+          "start": 66.8,
+          "end": 66.94,
+          "word": "所",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 66.94,
+          "end": 67.46,
+          "word": "で",
+          "probability": 0.978515625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::009",
+      "start": 67.46,
+      "end": 71.56,
+      "text": "もう一度 掴む ただ一つ",
+      "avg_logprob": -0.2181818198073994,
+      "no_speech_prob": 0.08599853515625,
+      "words": [
+        {
+          "start": 67.46,
+          "end": 68.08,
+          "word": "もう",
+          "probability": 0.93115234375
+        },
+        {
+          "start": 68.08,
+          "end": 68.34,
+          "word": "一",
+          "probability": 0.84814453125
+        },
+        {
+          "start": 68.34,
+          "end": 68.64,
+          "word": "度",
+          "probability": 0.97998046875
+        },
+        {
+          "start": 69.28,
+          "end": 69.3,
+          "word": " 掴",
+          "probability": 0.95263671875
+        },
+        {
+          "start": 69.3,
+          "end": 69.62,
+          "word": "む",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 69.62,
+          "end": 70.2,
+          "word": " た",
+          "probability": 0.7890625
+        },
+        {
+          "start": 70.2,
+          "end": 70.36,
+          "word": "だ",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 70.36,
+          "end": 70.64,
+          "word": "一",
+          "probability": 0.59033203125
+        },
+        {
+          "start": 70.64,
+          "end": 71.56,
+          "word": "つ",
+          "probability": 0.9931640625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::010",
+      "start": 71.56,
+      "end": 75.14,
+      "text": "守りたかったものを",
+      "avg_logprob": -0.2181818198073994,
+      "no_speech_prob": 0.08599853515625,
+      "words": [
+        {
+          "start": 71.56,
+          "end": 72.32,
+          "word": "守",
+          "probability": 0.58837890625
+        },
+        {
+          "start": 72.32,
+          "end": 72.78,
+          "word": "り",
+          "probability": 0.998046875
+        },
+        {
+          "start": 72.78,
+          "end": 73.14,
+          "word": "た",
+          "probability": 0.9296875
+        },
+        {
+          "start": 73.14,
+          "end": 73.86,
+          "word": "かった",
+          "probability": 0.998046875
+        },
+        {
+          "start": 73.86,
+          "end": 74.6,
+          "word": "もの",
+          "probability": 0.62939453125
+        },
+        {
+          "start": 74.6,
+          "end": 75.14,
+          "word": "を",
+          "probability": 0.97119140625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::011",
+      "start": 75.14,
+      "end": 78.04,
+      "text": "とにどと離さない",
+      "avg_logprob": -0.2181818198073994,
+      "no_speech_prob": 0.08599853515625,
+      "words": [
+        {
+          "start": 75.14,
+          "end": 75.7,
+          "word": "と",
+          "probability": 0.260009765625
+        },
+        {
+          "start": 75.7,
+          "end": 76.02,
+          "word": "に",
+          "probability": 0.80322265625
+        },
+        {
+          "start": 76.02,
+          "end": 76.3,
+          "word": "ど",
+          "probability": 0.79248046875
+        },
+        {
+          "start": 76.3,
+          "end": 76.56,
+          "word": "と",
+          "probability": 0.439208984375
+        },
+        {
+          "start": 76.56,
+          "end": 77.0,
+          "word": "離",
+          "probability": 0.78125
+        },
+        {
+          "start": 77.0,
+          "end": 77.3,
+          "word": "さ",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 77.3,
+          "end": 78.04,
+          "word": "ない",
+          "probability": 0.998046875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::012",
+      "start": 78.04,
+      "end": 82.9,
+      "text": "見失わない 振り返らない",
+      "avg_logprob": -0.2181818198073994,
+      "no_speech_prob": 0.08599853515625,
+      "words": [
+        {
+          "start": 78.04,
+          "end": 79.26,
+          "word": "見",
+          "probability": 0.8603515625
+        },
+        {
+          "start": 79.26,
+          "end": 79.56,
+          "word": "失",
+          "probability": 0.99072265625
+        },
+        {
+          "start": 79.56,
+          "end": 80.44,
+          "word": "わ",
+          "probability": 0.990234375
+        },
+        {
+          "start": 80.44,
+          "end": 81.02,
+          "word": "ない",
+          "probability": 0.99853515625
+        },
+        {
+          "start": 81.3,
+          "end": 81.36,
+          "word": " 振",
+          "probability": 0.981689453125
+        },
+        {
+          "start": 81.36,
+          "end": 81.48,
+          "word": "り",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 81.48,
+          "end": 81.8,
+          "word": "返",
+          "probability": 0.996826171875
+        },
+        {
+          "start": 81.8,
+          "end": 82.36,
+          "word": "ら",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 82.36,
+          "end": 82.9,
+          "word": "ない",
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::013",
+      "start": 82.9,
+      "end": 86.16,
+      "text": "必ず取り戻すから",
+      "avg_logprob": -0.2181818198073994,
+      "no_speech_prob": 0.08599853515625,
+      "words": [
+        {
+          "start": 82.9,
+          "end": 83.46,
+          "word": "必",
+          "probability": 0.75830078125
+        },
+        {
+          "start": 83.46,
+          "end": 84.0,
+          "word": "ず",
+          "probability": 1.0
+        },
+        {
+          "start": 84.0,
+          "end": 84.6,
+          "word": "取",
+          "probability": 0.42138671875
+        },
+        {
+          "start": 84.6,
+          "end": 84.84,
+          "word": "り",
+          "probability": 0.998046875
+        },
+        {
+          "start": 84.84,
+          "end": 85.12,
+          "word": "戻",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 85.12,
+          "end": 85.56,
+          "word": "す",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 85.56,
+          "end": 86.16,
+          "word": "から",
+          "probability": 0.99609375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::014",
+      "start": 103.69999999999999,
+      "end": 107.78,
+      "text": "のばす指先届かなくて",
+      "avg_logprob": -0.256087656144972,
+      "no_speech_prob": 0.54443359375,
+      "words": [
+        {
+          "start": 103.69999999999999,
+          "end": 104.46,
+          "word": "の",
+          "probability": 0.03271484375
+        },
+        {
+          "start": 104.46,
+          "end": 104.76,
+          "word": "ば",
+          "probability": 0.96435546875
+        },
+        {
+          "start": 104.76,
+          "end": 105.1,
+          "word": "す",
+          "probability": 0.99365234375
+        },
+        {
+          "start": 105.1,
+          "end": 105.5,
+          "word": "指",
+          "probability": 0.88818359375
+        },
+        {
+          "start": 105.5,
+          "end": 105.9,
+          "word": "先",
+          "probability": 0.994140625
+        },
+        {
+          "start": 105.9,
+          "end": 106.5,
+          "word": "届",
+          "probability": 0.948486328125
+        },
+        {
+          "start": 106.5,
+          "end": 106.9,
+          "word": "か",
+          "probability": 0.65087890625
+        },
+        {
+          "start": 106.9,
+          "end": 107.18,
+          "word": "なく",
+          "probability": 0.98388671875
+        },
+        {
+          "start": 107.18,
+          "end": 107.78,
+          "word": "て",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::015",
+      "start": 107.78,
+      "end": 111.84,
+      "text": "求めて山のオンハピネス",
+      "avg_logprob": -0.256087656144972,
+      "no_speech_prob": 0.54443359375,
+      "words": [
+        {
+          "start": 107.78,
+          "end": 108.28,
+          "word": "求",
+          "probability": 0.33154296875
+        },
+        {
+          "start": 108.28,
+          "end": 109.12,
+          "word": "めて",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 109.12,
+          "end": 109.74,
+          "word": "山",
+          "probability": 0.63916015625
+        },
+        {
+          "start": 109.74,
+          "end": 110.26,
+          "word": "の",
+          "probability": 0.7412109375
+        },
+        {
+          "start": 110.26,
+          "end": 110.5,
+          "word": "オ",
+          "probability": 0.1748046875
+        },
+        {
+          "start": 110.5,
+          "end": 110.94,
+          "word": "ンハ",
+          "probability": 0.725341796875
+        },
+        {
+          "start": 110.94,
+          "end": 111.1,
+          "word": "ピ",
+          "probability": 0.82080078125
+        },
+        {
+          "start": 111.1,
+          "end": 111.28,
+          "word": "ネ",
+          "probability": 0.989013671875
+        },
+        {
+          "start": 111.28,
+          "end": 111.84,
+          "word": "ス",
+          "probability": 0.93994140625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::016",
+      "start": 111.84,
+      "end": 115.2,
+      "text": "揺らめく途切れた赤い奇跡",
+      "avg_logprob": -0.256087656144972,
+      "no_speech_prob": 0.54443359375,
+      "words": [
+        {
+          "start": 111.84,
+          "end": 112.18,
+          "word": "揺",
+          "probability": 0.921142578125
+        },
+        {
+          "start": 112.18,
+          "end": 112.36,
+          "word": "ら",
+          "probability": 0.99609375
+        },
+        {
+          "start": 112.36,
+          "end": 112.56,
+          "word": "め",
+          "probability": 0.98681640625
+        },
+        {
+          "start": 112.56,
+          "end": 112.74,
+          "word": "く",
+          "probability": 0.9521484375
+        },
+        {
+          "start": 112.74,
+          "end": 113.1,
+          "word": "途",
+          "probability": 0.6702880859375
+        },
+        {
+          "start": 113.1,
+          "end": 113.38,
+          "word": "切",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 113.38,
+          "end": 113.7,
+          "word": "れた",
+          "probability": 0.998046875
+        },
+        {
+          "start": 113.7,
+          "end": 114.22,
+          "word": "赤",
+          "probability": 0.978515625
+        },
+        {
+          "start": 114.22,
+          "end": 114.58,
+          "word": "い",
+          "probability": 0.97900390625
+        },
+        {
+          "start": 114.58,
+          "end": 114.8,
+          "word": "奇",
+          "probability": 0.95849609375
+        },
+        {
+          "start": 114.8,
+          "end": 115.2,
+          "word": "跡",
+          "probability": 0.98388671875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::017",
+      "start": 115.2,
+      "end": 118.9,
+      "text": "流れてすぎる青い風",
+      "avg_logprob": -0.256087656144972,
+      "no_speech_prob": 0.54443359375,
+      "words": [
+        {
+          "start": 115.2,
+          "end": 115.98,
+          "word": "流",
+          "probability": 0.90625
+        },
+        {
+          "start": 115.98,
+          "end": 116.8,
+          "word": "れて",
+          "probability": 0.95703125
+        },
+        {
+          "start": 116.8,
+          "end": 117.14,
+          "word": "す",
+          "probability": 0.68212890625
+        },
+        {
+          "start": 117.14,
+          "end": 117.64,
+          "word": "ぎ",
+          "probability": 0.99169921875
+        },
+        {
+          "start": 117.64,
+          "end": 117.92,
+          "word": "る",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 117.92,
+          "end": 118.3,
+          "word": "青",
+          "probability": 0.84423828125
+        },
+        {
+          "start": 118.3,
+          "end": 118.68,
+          "word": "い",
+          "probability": 0.98779296875
+        },
+        {
+          "start": 118.68,
+          "end": 118.9,
+          "word": "風",
+          "probability": 0.9287109375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::018",
+      "start": 119.46000000000001,
+      "end": 123.42,
+      "text": "忘れかけたの開き",
+      "avg_logprob": -0.256087656144972,
+      "no_speech_prob": 0.54443359375,
+      "words": [
+        {
+          "start": 119.46000000000001,
+          "end": 120.26,
+          "word": "忘",
+          "probability": 0.9501953125
+        },
+        {
+          "start": 120.26,
+          "end": 120.78,
+          "word": "れ",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 120.78,
+          "end": 121.08,
+          "word": "か",
+          "probability": 0.90966796875
+        },
+        {
+          "start": 121.08,
+          "end": 121.42,
+          "word": "け",
+          "probability": 0.9931640625
+        },
+        {
+          "start": 121.42,
+          "end": 121.72,
+          "word": "た",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 121.72,
+          "end": 122.08,
+          "word": "の",
+          "probability": 0.10601806640625
+        },
+        {
+          "start": 122.08,
+          "end": 122.52,
+          "word": "開",
+          "probability": 0.28857421875
+        },
+        {
+          "start": 122.52,
+          "end": 123.42,
+          "word": "き",
+          "probability": 0.99560546875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::019",
+      "start": 123.42,
+      "end": 126.9,
+      "text": "戻らぬ昨日を探す",
+      "avg_logprob": -0.256087656144972,
+      "no_speech_prob": 0.54443359375,
+      "words": [
+        {
+          "start": 123.42,
+          "end": 124.02,
+          "word": "戻",
+          "probability": 0.966552734375
+        },
+        {
+          "start": 124.02,
+          "end": 124.42,
+          "word": "ら",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 124.42,
+          "end": 124.62,
+          "word": "ぬ",
+          "probability": 0.996337890625
+        },
+        {
+          "start": 124.62,
+          "end": 124.9,
+          "word": "昨",
+          "probability": 0.84423828125
+        },
+        {
+          "start": 124.9,
+          "end": 125.24,
+          "word": "日",
+          "probability": 0.99169921875
+        },
+        {
+          "start": 125.24,
+          "end": 125.7,
+          "word": "を",
+          "probability": 0.9814453125
+        },
+        {
+          "start": 125.7,
+          "end": 126.06,
+          "word": "探",
+          "probability": 0.974853515625
+        },
+        {
+          "start": 126.06,
+          "end": 126.9,
+          "word": "す",
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::020",
+      "start": 126.9,
+      "end": 136.56,
+      "text": "高く羽ばたき飛んだ 鳥のような日々 願い生きる",
+      "avg_logprob": -0.17566287382082504,
+      "no_speech_prob": 0.489990234375,
+      "words": [
+        {
+          "start": 126.9,
+          "end": 127.92,
+          "word": "高",
+          "probability": 0.2022705078125
+        },
+        {
+          "start": 127.92,
+          "end": 128.46,
+          "word": "く",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 128.46,
+          "end": 128.92,
+          "word": "羽",
+          "probability": 0.882080078125
+        },
+        {
+          "start": 128.92,
+          "end": 129.14,
+          "word": "ば",
+          "probability": 0.98046875
+        },
+        {
+          "start": 129.14,
+          "end": 129.4,
+          "word": "た",
+          "probability": 0.9912109375
+        },
+        {
+          "start": 129.4,
+          "end": 129.72,
+          "word": "き",
+          "probability": 0.9794921875
+        },
+        {
+          "start": 129.72,
+          "end": 130.22,
+          "word": "飛",
+          "probability": 0.82373046875
+        },
+        {
+          "start": 130.22,
+          "end": 130.8,
+          "word": "んだ",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 131.46,
+          "end": 131.8,
+          "word": " 鳥",
+          "probability": 0.9716796875
+        },
+        {
+          "start": 131.8,
+          "end": 132.24,
+          "word": "の",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 132.24,
+          "end": 132.54,
+          "word": "よう",
+          "probability": 0.9609375
+        },
+        {
+          "start": 132.54,
+          "end": 133.0,
+          "word": "な",
+          "probability": 1.0
+        },
+        {
+          "start": 133.0,
+          "end": 133.3,
+          "word": "日",
+          "probability": 0.9267578125
+        },
+        {
+          "start": 133.3,
+          "end": 133.8,
+          "word": "々",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 133.9,
+          "end": 134.32,
+          "word": " 願い",
+          "probability": 0.79345703125
+        },
+        {
+          "start": 134.32,
+          "end": 135.12,
+          "word": "生",
+          "probability": 0.90283203125
+        },
+        {
+          "start": 135.12,
+          "end": 135.12,
+          "word": "き",
+          "probability": 0.892578125
+        },
+        {
+          "start": 135.12,
+          "end": 136.56,
+          "word": "る",
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::021",
+      "start": 138.56,
+      "end": 145.9,
+      "text": "いつか誓った場所で 孤独と果たすこの想い",
+      "avg_logprob": -0.17566287382082504,
+      "no_speech_prob": 0.489990234375,
+      "words": [
+        {
+          "start": 138.56,
+          "end": 139.48,
+          "word": "いつ",
+          "probability": 0.92236328125
+        },
+        {
+          "start": 139.48,
+          "end": 139.98,
+          "word": "か",
+          "probability": 0.990234375
+        },
+        {
+          "start": 139.98,
+          "end": 140.5,
+          "word": "誓",
+          "probability": 0.810302734375
+        },
+        {
+          "start": 140.5,
+          "end": 141.26,
+          "word": "った",
+          "probability": 0.95654296875
+        },
+        {
+          "start": 141.26,
+          "end": 141.68,
+          "word": "場",
+          "probability": 0.355224609375
+        },
+        {
+          "start": 141.68,
+          "end": 141.82,
+          "word": "所",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 141.82,
+          "end": 142.42,
+          "word": "で",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 142.72,
+          "end": 142.88,
+          "word": " 孤",
+          "probability": 0.7177734375
+        },
+        {
+          "start": 142.88,
+          "end": 143.16,
+          "word": "独",
+          "probability": 0.990234375
+        },
+        {
+          "start": 143.16,
+          "end": 143.62,
+          "word": "と",
+          "probability": 0.49755859375
+        },
+        {
+          "start": 143.62,
+          "end": 144.08,
+          "word": "果",
+          "probability": 0.92578125
+        },
+        {
+          "start": 144.08,
+          "end": 144.18,
+          "word": "た",
+          "probability": 0.9130859375
+        },
+        {
+          "start": 144.18,
+          "end": 144.52,
+          "word": "す",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 144.52,
+          "end": 145.18,
+          "word": "この",
+          "probability": 0.74267578125
+        },
+        {
+          "start": 145.18,
+          "end": 145.64,
+          "word": "想",
+          "probability": 0.88232421875
+        },
+        {
+          "start": 145.64,
+          "end": 146.1,
+          "word": "い",
+          "probability": 0.9951171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::022",
+      "start": 146.44,
+      "end": 153.12,
+      "text": "大切だという人を その胸に抱きしめる",
+      "avg_logprob": -0.17566287382082504,
+      "no_speech_prob": 0.489990234375,
+      "words": [
+        {
+          "start": 146.44,
+          "end": 147.16,
+          "word": "大",
+          "probability": 0.4697265625
+        },
+        {
+          "start": 147.16,
+          "end": 147.78,
+          "word": "切",
+          "probability": 0.998046875
+        },
+        {
+          "start": 147.78,
+          "end": 148.34,
+          "word": "だ",
+          "probability": 0.78466796875
+        },
+        {
+          "start": 148.34,
+          "end": 148.76,
+          "word": "という",
+          "probability": 0.8564453125
+        },
+        {
+          "start": 148.76,
+          "end": 149.48,
+          "word": "人",
+          "probability": 0.9599609375
+        },
+        {
+          "start": 149.48,
+          "end": 150.06,
+          "word": "を",
+          "probability": 0.97607421875
+        },
+        {
+          "start": 150.06,
+          "end": 150.52,
+          "word": " そ",
+          "probability": 0.828125
+        },
+        {
+          "start": 150.52,
+          "end": 150.66,
+          "word": "の",
+          "probability": 0.9521484375
+        },
+        {
+          "start": 150.66,
+          "end": 151.1,
+          "word": "胸",
+          "probability": 0.995361328125
+        },
+        {
+          "start": 151.1,
+          "end": 151.5,
+          "word": "に",
+          "probability": 0.98876953125
+        },
+        {
+          "start": 151.5,
+          "end": 151.74,
+          "word": "抱",
+          "probability": 0.99609375
+        },
+        {
+          "start": 151.74,
+          "end": 151.94,
+          "word": "き",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 151.94,
+          "end": 152.16,
+          "word": "し",
+          "probability": 0.94970703125
+        },
+        {
+          "start": 152.16,
+          "end": 152.4,
+          "word": "め",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 152.4,
+          "end": 153.12,
+          "word": "る",
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::023",
+      "start": 153.12,
+      "end": 162.84,
+      "text": "大丈夫だと繰り返して 守るよ命の限り",
+      "avg_logprob": -0.26816407293081285,
+      "no_speech_prob": 0.3603515625,
+      "words": [
+        {
+          "start": 153.12,
+          "end": 154.74,
+          "word": "大丈夫",
+          "probability": 0.71826171875
+        },
+        {
+          "start": 154.74,
+          "end": 155.38,
+          "word": "だ",
+          "probability": 0.751953125
+        },
+        {
+          "start": 155.38,
+          "end": 155.78,
+          "word": "と",
+          "probability": 0.74462890625
+        },
+        {
+          "start": 155.78,
+          "end": 156.24,
+          "word": "繰",
+          "probability": 0.91015625
+        },
+        {
+          "start": 156.24,
+          "end": 156.38,
+          "word": "り",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 156.38,
+          "end": 156.66,
+          "word": "返",
+          "probability": 0.999755859375
+        },
+        {
+          "start": 156.66,
+          "end": 157.4,
+          "word": "して",
+          "probability": 0.9873046875
+        },
+        {
+          "start": 158.12,
+          "end": 158.32,
+          "word": " 守",
+          "probability": 0.97802734375
+        },
+        {
+          "start": 158.32,
+          "end": 158.64,
+          "word": "る",
+          "probability": 0.99609375
+        },
+        {
+          "start": 158.64,
+          "end": 159.02,
+          "word": "よ",
+          "probability": 0.99560546875
+        },
+        {
+          "start": 159.02,
+          "end": 159.58,
+          "word": "命",
+          "probability": 0.7548828125
+        },
+        {
+          "start": 159.58,
+          "end": 160.12,
+          "word": "の",
+          "probability": 0.99462890625
+        },
+        {
+          "start": 160.12,
+          "end": 160.62,
+          "word": "限",
+          "probability": 0.990234375
+        },
+        {
+          "start": 160.62,
+          "end": 162.84,
+          "word": "り",
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::024",
+      "start": 190.2,
+      "end": 198.34,
+      "text": "すべて残した場所で もう一度 掴む ただひとつ",
+      "avg_logprob": -0.3389204491268505,
+      "no_speech_prob": 0.411865234375,
+      "words": [
+        {
+          "start": 190.2,
+          "end": 191.04,
+          "word": "す",
+          "probability": 0.1522216796875
+        },
+        {
+          "start": 191.04,
+          "end": 191.56,
+          "word": "べ",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 191.56,
+          "end": 191.78,
+          "word": "て",
+          "probability": 1.0
+        },
+        {
+          "start": 191.78,
+          "end": 192.26,
+          "word": "残",
+          "probability": 0.6961669921875
+        },
+        {
+          "start": 192.26,
+          "end": 192.96,
+          "word": "した",
+          "probability": 0.9951171875
+        },
+        {
+          "start": 192.96,
+          "end": 193.52,
+          "word": "場",
+          "probability": 0.88427734375
+        },
+        {
+          "start": 193.52,
+          "end": 193.68,
+          "word": "所",
+          "probability": 1.0
+        },
+        {
+          "start": 193.68,
+          "end": 194.1,
+          "word": "で",
+          "probability": 0.97900390625
+        },
+        {
+          "start": 194.36,
+          "end": 194.76,
+          "word": " もう",
+          "probability": 0.98583984375
+        },
+        {
+          "start": 194.76,
+          "end": 195.06,
+          "word": "一",
+          "probability": 0.890625
+        },
+        {
+          "start": 195.06,
+          "end": 195.38,
+          "word": "度",
+          "probability": 0.97412109375
+        },
+        {
+          "start": 195.8,
+          "end": 196.0,
+          "word": " 掴",
+          "probability": 0.969482421875
+        },
+        {
+          "start": 196.0,
+          "end": 196.4,
+          "word": "む",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 196.4,
+          "end": 196.9,
+          "word": " た",
+          "probability": 0.446044921875
+        },
+        {
+          "start": 196.9,
+          "end": 197.08,
+          "word": "だ",
+          "probability": 0.98583984375
+        },
+        {
+          "start": 197.08,
+          "end": 197.34,
+          "word": "ひ",
+          "probability": 0.29931640625
+        },
+        {
+          "start": 197.34,
+          "end": 197.48,
+          "word": "と",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 197.48,
+          "end": 198.34,
+          "word": "つ",
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::025",
+      "start": 198.34,
+      "end": 204.64,
+      "text": "守りたかったものは 二度と離さない",
+      "avg_logprob": -0.3389204491268505,
+      "no_speech_prob": 0.411865234375,
+      "words": [
+        {
+          "start": 198.34,
+          "end": 199.0,
+          "word": "守",
+          "probability": 0.87646484375
+        },
+        {
+          "start": 199.0,
+          "end": 199.48,
+          "word": "り",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 199.48,
+          "end": 199.82,
+          "word": "た",
+          "probability": 0.8515625
+        },
+        {
+          "start": 199.82,
+          "end": 200.56,
+          "word": "かった",
+          "probability": 0.99755859375
+        },
+        {
+          "start": 200.56,
+          "end": 201.22,
+          "word": "も",
+          "probability": 0.345947265625
+        },
+        {
+          "start": 201.22,
+          "end": 202.08,
+          "word": "のは",
+          "probability": 0.98193359375
+        },
+        {
+          "start": 202.1,
+          "end": 202.48,
+          "word": " 二",
+          "probability": 0.1885986328125
+        },
+        {
+          "start": 202.48,
+          "end": 202.9,
+          "word": "度",
+          "probability": 0.9716796875
+        },
+        {
+          "start": 202.9,
+          "end": 203.3,
+          "word": "と",
+          "probability": 0.99658203125
+        },
+        {
+          "start": 203.3,
+          "end": 203.72,
+          "word": "離",
+          "probability": 0.85791015625
+        },
+        {
+          "start": 203.72,
+          "end": 204.06,
+          "word": "さ",
+          "probability": 0.98291015625
+        },
+        {
+          "start": 204.06,
+          "end": 204.64,
+          "word": "ない",
+          "probability": 0.99755859375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::026",
+      "start": 204.64,
+      "end": 209.6,
+      "text": "見失わない 振り返らない",
+      "avg_logprob": -0.3389204491268505,
+      "no_speech_prob": 0.411865234375,
+      "words": [
+        {
+          "start": 204.64,
+          "end": 206.0,
+          "word": "見",
+          "probability": 0.89404296875
+        },
+        {
+          "start": 206.0,
+          "end": 206.32,
+          "word": "失",
+          "probability": 0.98046875
+        },
+        {
+          "start": 206.32,
+          "end": 207.12,
+          "word": "わ",
+          "probability": 0.9609375
+        },
+        {
+          "start": 207.12,
+          "end": 207.68,
+          "word": "ない",
+          "probability": 0.998046875
+        },
+        {
+          "start": 207.98,
+          "end": 208.08,
+          "word": " 振",
+          "probability": 0.98095703125
+        },
+        {
+          "start": 208.08,
+          "end": 208.18,
+          "word": "り",
+          "probability": 0.9990234375
+        },
+        {
+          "start": 208.18,
+          "end": 208.5,
+          "word": "返",
+          "probability": 0.998046875
+        },
+        {
+          "start": 208.5,
+          "end": 209.1,
+          "word": "ら",
+          "probability": 0.9970703125
+        },
+        {
+          "start": 209.1,
+          "end": 209.6,
+          "word": "ない",
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::027",
+      "start": 209.6,
+      "end": 212.94,
+      "text": "あなたを取り戻すから",
+      "avg_logprob": -0.3339843774835269,
+      "no_speech_prob": 0.01317596435546875,
+      "words": [
+        {
+          "start": 209.6,
+          "end": 210.18,
+          "word": "あ",
+          "probability": 0.83984375
+        },
+        {
+          "start": 210.18,
+          "end": 210.42,
+          "word": "なた",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 210.42,
+          "end": 210.84,
+          "word": "を",
+          "probability": 0.9501953125
+        },
+        {
+          "start": 210.84,
+          "end": 211.36,
+          "word": "取",
+          "probability": 0.69140625
+        },
+        {
+          "start": 211.36,
+          "end": 211.58,
+          "word": "り",
+          "probability": 0.98974609375
+        },
+        {
+          "start": 211.58,
+          "end": 211.82,
+          "word": "戻",
+          "probability": 0.99609375
+        },
+        {
+          "start": 211.82,
+          "end": 212.36,
+          "word": "す",
+          "probability": 0.99951171875
+        },
+        {
+          "start": 212.36,
+          "end": 212.94,
+          "word": "から",
+          "probability": 0.9970703125
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::028",
+      "start": 240.38,
+      "end": 241.1,
+      "text": "ん",
+      "avg_logprob": -0.455610801550475,
+      "no_speech_prob": 0.8193359375,
+      "words": [
+        {
+          "start": 240.38,
+          "end": 241.1,
+          "word": "ん",
+          "probability": 0.01041412353515625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::029",
+      "start": 241.1,
+      "end": 241.4,
+      "text": "ん",
+      "avg_logprob": -0.455610801550475,
+      "no_speech_prob": 0.8193359375,
+      "words": [
+        {
+          "start": 241.1,
+          "end": 241.4,
+          "word": "ん",
+          "probability": 0.447265625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::030",
+      "start": 244.02,
+      "end": 244.74,
+      "text": "ん",
+      "avg_logprob": -0.455610801550475,
+      "no_speech_prob": 0.8193359375,
+      "words": [
+        {
+          "start": 244.02,
+          "end": 244.74,
+          "word": "ん",
+          "probability": 0.490234375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::031",
+      "start": 251.04,
+      "end": 251.76,
+      "text": "ん",
+      "avg_logprob": -0.455610801550475,
+      "no_speech_prob": 0.8193359375,
+      "words": [
+        {
+          "start": 251.04,
+          "end": 251.76,
+          "word": "ん",
+          "probability": 0.53662109375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::032",
+      "start": 251.76,
+      "end": 252.2,
+      "text": "ん",
+      "avg_logprob": -0.455610801550475,
+      "no_speech_prob": 0.8193359375,
+      "words": [
+        {
+          "start": 251.76,
+          "end": 252.2,
+          "word": "ん",
+          "probability": 0.5751953125
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::033",
+      "start": 252.2,
+      "end": 252.46,
+      "text": "ん",
+      "avg_logprob": -0.455610801550475,
+      "no_speech_prob": 0.8193359375,
+      "words": [
+        {
+          "start": 252.2,
+          "end": 252.46,
+          "word": "ん",
+          "probability": 0.60888671875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::034",
+      "start": 252.46,
+      "end": 252.52,
+      "text": "ん",
+      "avg_logprob": -0.455610801550475,
+      "no_speech_prob": 0.8193359375,
+      "words": [
+        {
+          "start": 252.46,
+          "end": 252.52,
+          "word": "ん",
+          "probability": 0.63916015625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::035",
+      "start": 252.52,
+      "end": 252.8,
+      "text": "ん",
+      "avg_logprob": -0.455610801550475,
+      "no_speech_prob": 0.8193359375,
+      "words": [
+        {
+          "start": 252.52,
+          "end": 252.8,
+          "word": "ん",
+          "probability": 0.6708984375
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::036",
+      "start": 252.8,
+      "end": 252.9,
+      "text": "ん",
+      "avg_logprob": -0.455610801550475,
+      "no_speech_prob": 0.8193359375,
+      "words": [
+        {
+          "start": 252.8,
+          "end": 252.9,
+          "word": "ん",
+          "probability": 0.70947265625
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::037",
+      "start": 252.9,
+      "end": 253.32,
+      "text": "ん",
+      "avg_logprob": -0.455610801550475,
+      "no_speech_prob": 0.8193359375,
+      "words": [
+        {
+          "start": 252.9,
+          "end": 253.32,
+          "word": "ん",
+          "probability": 0.71826171875
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::038",
+      "start": 253.32,
+      "end": 253.54,
+      "text": "ん",
+      "avg_logprob": -0.455610801550475,
+      "no_speech_prob": 0.8193359375,
+      "words": [
+        {
+          "start": 253.32,
+          "end": 253.54,
+          "word": "ん",
+          "probability": 0.75830078125
+        }
+      ]
+    },
+    {
+      "id": "op-isolated::039",
+      "start": 254.76,
+      "end": 255.48,
+      "text": "ん",
+      "avg_logprob": -0.455610801550475,
+      "no_speech_prob": 0.8193359375,
+      "words": [
+        {
+          "start": 254.76,
+          "end": 255.48,
+          "word": "ん",
+          "probability": 0.75634765625
+        }
+      ]
+    }
+  ]
+}

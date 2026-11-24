@@ -1,0 +1,17 @@
+from pathlib import Path
+import sys,json,shutil,cv2,numpy as np
+from PIL import Image
+U=Path.cwd();R=U/'research/op-all-japanese-v3';O=U/'candidates/opening-video-ko-v3';D=O/'build-source/restoration';D.mkdir(parents=True,exist_ok=True);cv2.setNumThreads(2)
+items={'mahoko':('exec-09034623-1525-439e-af4d-7ebc0cb7c90e.png',1164),'shiina':('exec-f5d5ff5b-896e-41fc-b25a-4dac965d42a0.png',1350),'momiji':('exec-f303f7a6-3d92-4594-b342-391d6c443e76.png',1644)}
+for k,(f,n) in items.items():
+ src=Path('P:/AI/Codex/generated_images/01a162df-720c-77d2-96ed-6429e90b3333')/f;shutil.copy2(src,D/(k+'-generated-original.png'));Image.open(src).convert('RGB').resize((800,600),Image.Resampling.LANCZOS).save(D/(k+'-donor.png'));shutil.copy2(R/'dense-frames'/f'{n:04d}.png',D/(k+'-source.png'))
+# Kureha: source-only registration from the original last4 illustration.
+a=np.array(Image.open(R/'extra-source-art/last4.rct.png'));b=np.array(Image.open(R/'dense-frames/1920.png'));si=cv2.SIFT_create(nfeatures=4000,contrastThreshold=.015);bf=cv2.BFMatcher();ka,da=si.detectAndCompute(cv2.cvtColor(a,cv2.COLOR_RGB2GRAY),None);kb,db=si.detectAndCompute(cv2.cvtColor(b,cv2.COLOR_RGB2GRAY),None);g=[m for m,n in bf.knnMatch(da,db,k=2) if m.distance<.8*n.distance];H,inl=cv2.estimateAffinePartial2D(np.float32([ka[m.queryIdx].pt for m in g]),np.float32([kb[m.trainIdx].pt for m in g]),method=cv2.RANSAC,ransacReprojThreshold=2.5);print('kureha matches',len(g),'inliers',int(inl.sum()),H.tolist())
+w=cv2.warpAffine(a,H,(800,600));Image.fromarray(w).save(D/'kureha-source-registered.png');(D/'kureha-registration.json').write_text(json.dumps({'source':'data.arc::last4.rct','matrix':H.tolist(),'inliers':int(inl.sum())},indent=2))
+# Record semantic additions and the user's explicit 4K layout choice.
+p=O/'opening-credits-ko.json';j=json.loads(p.read_text(encoding='utf-8'));j['mode']='Full in-picture Japanese replacement plus accepted Korean lyric captions; original and 4K viewing versions';j['records']=[r for r in j['records'] if r['id']!='op-credits::question'];j['records'].append({'id':'op-credits::question','start':65.2,'end':66.3,'source':'…理由があれば、人を殺していいの？','target':'…이유가 있으면 사람을 죽여도 되는 거야?','translator_model':'Codex internal','context':'Fleeting question over Mahoko close-up followed by dark grain; original red emphasis on 殺','evidence':'research/op-all-japanese-v3/question-onset.png'});p.write_text(json.dumps(j,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+p=O/'name-readings.json';j=json.loads(p.read_text(encoding='utf-8'))
+for r in j['records']:
+ if r['source']=='朋子':r['reading']='TOMOKO HATORI';r['evidence']='Archived official character plate chara/mahomama.jpg; Roman TOMOKO HATORI confirms reading';r['source_art_sha256']='a91e83cab6faa029d7a84c9b301d23c3d2f5469081adc310806a77baceb1d476'
+p.write_text(json.dumps(j,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+p=U/'progress.json';j=json.loads(p.read_text(encoding='utf-8'));j['active_user_revision']['all_op_japanese_v3']['four_k']={'requested':True,'layout':'16:9 fill, reposition captions','dimensions':[3840,2160],'separate_viewing_copy':True,'state':'pending final text replacement'};p.write_text(json.dumps(j,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

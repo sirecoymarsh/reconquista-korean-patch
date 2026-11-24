@@ -1,0 +1,16 @@
+{
+  "source_candidate": "candidates/ui-trial-v12",
+  "runtime_title": "Reconquista-UI-BG-v11",
+  "title_note": "v11 staging runtime-isolation title retained; exact tested candidate is v12",
+  "exe_candidate": "native-ui-v5",
+  "exe_sha256": "f67195682944663b9546665eb3b63a639ace3f910e2ebf6ffaccda001d625b50",
+  "scenario_sha256": "040db0bf4ab872d47d3a6c06057a0c94f2056e8e8855fd9ae6e9d5a522913625",
+  "fastdata_sha256": "a55c33b8d18f179a6d7e96f4b8c819aa5941879ba25cfe375ec7e758cac65213",
+  "font_sha256": "746664ec37a73b7b4da5a14e274c1f3cf91e92e5aa9e08c6a0cd1fb2faf3292e",
+  "font_file": "font/ReconquistaUIK2.otf",
+  "old_font_file_unchanged_and_not_loaded": true,
+  "partial_staging_recovered": true,
+  "failure": "Windows denied replacing old UIKR font; new uniquely named file used, no service/process/desktop interruption.",
+  "only_runtime_adjustments": "majiro.env private registry/title and zero music/sound/voice defaults",
+  "source_links_not_written": true
+}

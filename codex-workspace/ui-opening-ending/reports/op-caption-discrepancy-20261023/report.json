@@ -1,0 +1,36 @@
+{
+  "status": "Both reported frames contain both captions. Fresh extraction is pixel-identical to frozen review PNGs.",
+  "movie_path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\candidates\\opening-video-ko-v2\\payloads\\movie\\Recon_OP800_H.mpg",
+  "movie_sha256": "46f4c0f9bcccd5294fb01ac2040824cfe577634b6ac70091da9d30c3bfaf4dda",
+  "matches_frozen_manifest": true,
+  "frozen_candidate_changed": false,
+  "frames": [
+    {
+      "frame": 300,
+      "relative_time": 10.0,
+      "fresh_path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\reports\\op-caption-discrepancy-20261023\\output-frame-0300.png",
+      "previous_path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\candidates\\opening-video-ko-v2\\preview\\encoded\\004.png",
+      "fresh_sha256": "c4e22a915dfb0ebf5d8858a1c682e50d64b8a110b94a87f0c8daf48279bb8865",
+      "previous_sha256": "c4e22a915dfb0ebf5d8858a1c682e50d64b8a110b94a87f0c8daf48279bb8865",
+      "pixel_difference": 0,
+      "top_white_pixels": 2813,
+      "bottom_white_pixels": 1403,
+      "top_caption_present": true,
+      "bottom_caption_present": true
+    },
+    {
+      "frame": 1695,
+      "relative_time": 56.5,
+      "fresh_path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\reports\\op-caption-discrepancy-20261023\\output-frame-1695.png",
+      "previous_path": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\candidates\\opening-video-ko-v2\\preview\\encoded\\036.png",
+      "fresh_sha256": "f43eab6522196595d22162dab50b89675b295571b44f94784775330af5cdf1d3",
+      "previous_sha256": "f43eab6522196595d22162dab50b89675b295571b44f94784775330af5cdf1d3",
+      "pixel_difference": 0,
+      "top_white_pixels": 4514,
+      "bottom_white_pixels": 1637,
+      "top_caption_present": true,
+      "bottom_caption_present": true
+    }
+  ],
+  "interpretation": "No video omission or frame-mapping mismatch reproduced. The reviewer may have inspected a different/stale display; the precise cause is not established."
+}

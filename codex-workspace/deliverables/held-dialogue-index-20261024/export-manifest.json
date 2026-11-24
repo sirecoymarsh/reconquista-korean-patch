@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-24T14:52:00.204630+09:00",
+  "export_kind": "metadata_only_no_dialogue_or_context_text",
+  "requested_format_interpreted": "CSV",
+  "rows": 16,
+  "unique_unit_ids": 16,
+  "source_field_count": 21,
+  "categories": {
+    "연결 대사": 7,
+    "직접 묘사": 7,
+    "성적 비교": 1,
+    "노출 감상 메타 대사": 1
+  },
+  "encoding": "UTF-8 BOM",
+  "newline": "CRLF",
+  "csv_file": "번역보류_16구간_메타데이터.csv",
+  "csv_sha256": "9903b067cb44d2f5cbd3a75194e3ac8459d2eab4fc3f61141d1bd4f3c29862ed",
+  "review_source": "translation/integration/recovery-full-20261023-v2/remaining16-final-review.json",
+  "review_source_sha256": "72744de8bc62fb12a00bb5dcebce1ba1c8a5fdb80761ac63455a480cb55e3e18",
+  "current_body_manifest": "builds/body-ui-20261024-v19-menus-4k/inputs/body-manifest.json",
+  "current_body_manifest_sha256": "c71c5069ea427f708ad95ea44241b473eacdc6d5ebdbd63356fe5c1847d6ba1f",
+  "current_build": "body-ui-20261024-v19-menus-4k",
+  "source_text_exported": false,
+  "context_text_exported": false,
+  "target_text_authored": false,
+  "checks": {
+    "current_progress_id_set_equal": true,
+    "current_build_count_equal": true,
+    "current_body_manifest_id_set_equal": true,
+    "duplicate_ids": 0,
+    "csv_roundtrip_equal": true,
+    "excel_formula_prefix_found": false,
+    "independent_metadata_review": "review_held_export: 16 units / 21 source fields; no discrepancies"
+  },
+  "game_files_changed": false,
+  "saves_changed": false
+}

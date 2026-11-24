@@ -1,0 +1,95 @@
+{
+  "metric_caveat": "Pixel error is descriptive, not a quality or fidelity pass. New drawing and authorized Korean text intentionally differ.",
+  "entries": [
+    {
+      "key": "e9d6589f",
+      "new_mean_absolute_difference_0_255": 14.291847222222222,
+      "current_mean_absolute_difference_0_255": 3.8110368055555557,
+      "new_rmse": 24.733661947502505,
+      "text_changes_included": true,
+      "sha256": "d122c79940daa989fa2049895c136c7ba772e71f9056fc2f31213a246001132d",
+      "verification_reused": true
+    },
+    {
+      "key": "701f6540",
+      "new_mean_absolute_difference_0_255": 15.00612638888889,
+      "current_mean_absolute_difference_0_255": 2.7412868055555557,
+      "new_rmse": 24.927327039482858,
+      "text_changes_included": true,
+      "sha256": "4ac6048b252599eaaf56a422eb11b5e0479b9a4659f5bfb6c51654a4804a0697",
+      "verification_reused": false
+    },
+    {
+      "key": "ae76224f",
+      "new_mean_absolute_difference_0_255": 16.229174305555556,
+      "current_mean_absolute_difference_0_255": 5.695780555555555,
+      "new_rmse": 27.721007790422533,
+      "text_changes_included": true,
+      "sha256": "d352fee1e4ab6ec3e5a4e06a92799a2db20c54e454a07480352eacf80b04b961",
+      "verification_reused": false
+    },
+    {
+      "key": "93160bff",
+      "new_mean_absolute_difference_0_255": 7.84840625,
+      "current_mean_absolute_difference_0_255": 1.80621875,
+      "new_rmse": 13.635135654094372,
+      "text_changes_included": true,
+      "sha256": "af31a841a6570f7cba67057507e0acd24d35533553f78c2553e3492ca6d3ef59",
+      "verification_reused": true
+    },
+    {
+      "key": "41fd6671",
+      "new_mean_absolute_difference_0_255": 18.678311805555555,
+      "current_mean_absolute_difference_0_255": 3.9153555555555557,
+      "new_rmse": 34.75117185274317,
+      "text_changes_included": true,
+      "sha256": "36e30b304af74dda39c8c5d0e910c4edd4e3024821bef67639386f51fe339b33",
+      "verification_reused": true
+    },
+    {
+      "key": "065d1ca1",
+      "new_mean_absolute_difference_0_255": 17.84630625,
+      "current_mean_absolute_difference_0_255": 5.103254861111111,
+      "new_rmse": 29.950914415181977,
+      "text_changes_included": true,
+      "sha256": "2ba57c28ae20ef205efb1c4768896a94faf8203e7807888f660f5e3c94259508",
+      "verification_reused": false
+    },
+    {
+      "key": "3b3d3511",
+      "new_mean_absolute_difference_0_255": 10.503550694444444,
+      "current_mean_absolute_difference_0_255": 1.9553548611111111,
+      "new_rmse": 24.072441755736648,
+      "text_changes_included": true,
+      "sha256": "c0fa9fed3bd93c4f1c9547a980f07104960daf581d9837dfc99cdf60419ab245",
+      "verification_reused": true
+    },
+    {
+      "key": "ae35ac32",
+      "new_mean_absolute_difference_0_255": 16.022380555555557,
+      "current_mean_absolute_difference_0_255": 1.6700388888888889,
+      "new_rmse": 23.900448159443,
+      "text_changes_included": true,
+      "sha256": "bc9ee37e313a2449bf2a25a3cfa121eb71466f2561406d7a42d0bb8dd5646d86",
+      "verification_reused": true
+    },
+    {
+      "key": "34df9f3d",
+      "new_mean_absolute_difference_0_255": 7.56029375,
+      "current_mean_absolute_difference_0_255": 1.8653958333333334,
+      "new_rmse": 13.890706500510813,
+      "text_changes_included": true,
+      "sha256": "0dd81a6e0314ffd2d975a3927b9161d88d51bb8e864ae228a475c8505864cee5",
+      "verification_reused": true
+    },
+    {
+      "key": "eb0fb6de",
+      "new_mean_absolute_difference_0_255": 13.219625,
+      "current_mean_absolute_difference_0_255": 3.7260194444444443,
+      "new_rmse": 23.81411591192641,
+      "text_changes_included": true,
+      "sha256": "669d896eb4fdf7f85b38afb9fea1dfc74799bb11bd81fc25fe0c6aaa4f7f3ba3",
+      "verification_reused": true
+    }
+  ]
+}

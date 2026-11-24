@@ -1,0 +1,237 @@
+{
+  "translator_model": "Codex internal",
+  "snapshot_sha256": "f10a5560655270b8cc8fc75666bcdc4d9540e03e27f51cff71b35ed885dec24c",
+  "scenario_sha256": "65d940600bc88e65583953c5cb672b10502500041fff38d8df121883d5fd3b30",
+  "compiled_new_fields": [
+    "masa_10.mjo::002290",
+    "masa_10.mjo::002294",
+    "masa_10.mjo::002348",
+    "masa_10.mjo::002358",
+    "masa_10.mjo::002370",
+    "masa_10.mjo::002374",
+    "masa_10.mjo::002388",
+    "masa_10.mjo::002392",
+    "masa_10.mjo::002463",
+    "masa_10.mjo::002473",
+    "masa_10.mjo::002501",
+    "masa_10.mjo::002505",
+    "masa_10.mjo::002515",
+    "masa_10.mjo::002519",
+    "masa_10.mjo::002544",
+    "masa_10.mjo::002548",
+    "00_レコンキスタ_start_2.mjo::014803",
+    "00_レコンキスタ_start_2.mjo::014807",
+    "maho_14.mjo::002257",
+    "maho_14.mjo::002261",
+    "maho_14.mjo::002380",
+    "maho_14.mjo::002384",
+    "maho_14.mjo::002403",
+    "maho_14.mjo::002407",
+    "masa_15.mjo::001711",
+    "masa_15.mjo::001759",
+    "masa_15.mjo::001784",
+    "masa_15.mjo::001794",
+    "masa_15.mjo::001808",
+    "masa_15.mjo::001812",
+    "masa_15.mjo::001827",
+    "masa_15.mjo::001831",
+    "st_yana.mjo::000287",
+    "st_yana.mjo::000291",
+    "st_gin.mjo::000941",
+    "st_gin.mjo::000945"
+  ],
+  "static_pass": true,
+  "new_field_widths": {
+    "masa_10.mjo::002290": {
+      "1": 254,
+      "4": 285
+    },
+    "masa_10.mjo::002294": {
+      "1": 119,
+      "4": 134
+    },
+    "masa_10.mjo::002348": {
+      "1": 181,
+      "4": 203
+    },
+    "masa_10.mjo::002358": {
+      "1": 148,
+      "4": 167
+    },
+    "masa_10.mjo::002370": {
+      "1": 206,
+      "4": 232
+    },
+    "masa_10.mjo::002374": {
+      "1": 197,
+      "4": 223
+    },
+    "masa_10.mjo::002388": {
+      "1": 156,
+      "4": 174
+    },
+    "masa_10.mjo::002392": {
+      "1": 223,
+      "4": 250
+    },
+    "masa_10.mjo::002463": {
+      "1": 193,
+      "4": 217
+    },
+    "masa_10.mjo::002473": {
+      "1": 195,
+      "4": 221
+    },
+    "masa_10.mjo::002501": {
+      "1": 170,
+      "4": 193
+    },
+    "masa_10.mjo::002505": {
+      "1": 163,
+      "4": 183
+    },
+    "masa_10.mjo::002515": {
+      "1": 99,
+      "4": 111
+    },
+    "masa_10.mjo::002519": {
+      "1": 128,
+      "4": 145
+    },
+    "masa_10.mjo::002544": {
+      "1": 205,
+      "4": 231
+    },
+    "masa_10.mjo::002548": {
+      "1": 173,
+      "4": 195
+    },
+    "00_レコンキスタ_start_2.mjo::014803": {
+      "1": 141,
+      "4": 159
+    },
+    "00_レコンキスタ_start_2.mjo::014807": {
+      "1": 119,
+      "4": 134
+    },
+    "maho_14.mjo::002257": {
+      "1": 181,
+      "4": 203
+    },
+    "maho_14.mjo::002261": {
+      "1": 89,
+      "4": 101
+    },
+    "maho_14.mjo::002380": {
+      "1": 180,
+      "4": 202
+    },
+    "maho_14.mjo::002384": {
+      "1": 115,
+      "4": 128
+    },
+    "maho_14.mjo::002403": {
+      "1": 119,
+      "4": 134
+    },
+    "maho_14.mjo::002407": {
+      "1": 197,
+      "4": 223
+    },
+    "masa_15.mjo::001711": {
+      "1": 90,
+      "4": 101
+    },
+    "masa_15.mjo::001759": {
+      "1": 244,
+      "4": 274
+    },
+    "masa_15.mjo::001784": {
+      "1": 107,
+      "4": 121
+    },
+    "masa_15.mjo::001794": {
+      "1": 177,
+      "4": 199
+    },
+    "masa_15.mjo::001808": {
+      "1": 212,
+      "4": 240
+    },
+    "masa_15.mjo::001812": {
+      "1": 119,
+      "4": 134
+    },
+    "masa_15.mjo::001827": {
+      "1": 120,
+      "4": 135
+    },
+    "masa_15.mjo::001831": {
+      "1": 161,
+      "4": 180
+    },
+    "st_yana.mjo::000287": {
+      "1": 152,
+      "4": 171
+    },
+    "st_yana.mjo::000291": {
+      "1": 153,
+      "4": 173
+    },
+    "st_gin.mjo::000941": {
+      "1": 62,
+      "4": 71
+    },
+    "st_gin.mjo::000945": {
+      "1": 141,
+      "4": 158
+    }
+  },
+  "max_new_field_px": 285,
+  "normal_console_width_px": 692,
+  "font_map_sha256": "e37260af75af901529cbf96f95dfe897847f1d075d5b5d953d28544c6f6645e1",
+  "reused_verification": {
+    "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\recovery-full-20261023-v1\\verification.json",
+    "sha256": "f2903c39557700be52f9c3d8d90bd6abf55dd61d9a584529a14f5292b242826c",
+    "font_reports": [
+      "reports/recovery-full-gdi-sans.json",
+      "reports/recovery-full-gdi-serif.json"
+    ],
+    "scope": "Unchanged font files, encoding map, preexisting names/manual-ruby and81 width results; no new screenshot claim."
+  },
+  "native_game_visual_verified": false,
+  "native_game_blocker": null,
+  "post_review_particle_fields": [
+    "kureha_08.mjo::004986",
+    "kureha_08.mjo::005581",
+    "kureha_08.mjo::005595",
+    "kureha_08.mjo::005759",
+    "kureha_08.mjo::005784",
+    "kureha_10.mjo::001038",
+    "kureha_11.mjo::001123",
+    "kureha_13.mjo::000245",
+    "kureha_13.mjo::000437",
+    "kureha_14.mjo::001526",
+    "kureha_19.mjo::002184",
+    "kureha_19.mjo::002231",
+    "kureha_19.mjo::002245",
+    "kureha_19.mjo::002594",
+    "masa_11.mjo::003418",
+    "masa_13.mjo::003005",
+    "masa_18.mjo::001794",
+    "masa_18.mjo::001901",
+    "masa_18.mjo::002055",
+    "masa_18.mjo::005094",
+    "masa_18.mjo::005624",
+    "sub_kure01.mjo::000105",
+    "sub_kure01.mjo::000196",
+    "sub_kure02.mjo::000418",
+    "sub_kure02.mjo::001008"
+  ],
+  "post_review_particle_validation": "PASS: exact prior target→corrected target, control flow preserved, archive equality; all replacements shorten by one glyph.",
+  "screen_control_repaired": true,
+  "title_screen_observed": true,
+  "dialogue_screen_verified": false,
+  "visual_status": "deferred_to_user_by_explicit_request",
+  "visual_scope": "Native game title screen observed in the current final v2 runtime. Dialogue/layout inspection was interrupted by physical Escape and then explicitly deferred by the user. No dialogue screenshots or visual PASS claimed."
+}

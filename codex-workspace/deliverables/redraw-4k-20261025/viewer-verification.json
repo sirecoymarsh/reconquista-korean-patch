@@ -1,0 +1,30 @@
+{
+  "browser": "in-app browser",
+  "url": "http://127.0.0.1:8769/review/index.html",
+  "native_wheel_test": true,
+  "before_zoom": 1,
+  "wheel_up_zoom": 1.757689,
+  "all_three_panes_zoom": 1.757689,
+  "wheel_down_display": "133%",
+  "fit_zoom": 1,
+  "fit_pan": [
+    0,
+    0
+  ],
+  "pointer_centered_zoom": "implemented with pointer-relative normalized coordinates",
+  "ctrl_meta_wheel": "event handler returns without preventDefault; code checked, browser-level shortcut not exercised",
+  "spoiler_safe_only": true,
+  "visible_keys": [
+    "ae35ac32",
+    "e9d6589f",
+    "ae76224f",
+    "93160bff",
+    "41fd6671",
+    "3b3d3511"
+  ],
+  "screenshots": [
+    "review-ui-before.png",
+    "review-ui-wheel.png",
+    "review-ui-fit.png"
+  ]
+}

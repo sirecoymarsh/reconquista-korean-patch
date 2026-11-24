@@ -1,0 +1,402 @@
+{
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "status": "static_and_visual_pass_user_runtime_pending",
+  "exact_logo_text": "레콘키스타",
+  "semantic_fields": 5,
+  "quote_lines": [
+    "죽음과 무덤도 불못에 던져졌다.",
+    "이 불못이 곧 둘째 죽음이다.",
+    "생명책에 이름이 기록되지 않은 사람은",
+    "누구든 불못에 던져졌다."
+  ],
+  "original_roman_identity_preserved": true,
+  "master": "master/reconquista-ko.png",
+  "master_sha256": "81e8e88a31f70f84ab6bafbe33cfad19787b7e5079206c05f094d82eaa2f51ef",
+  "entries": [
+    {
+      "archive": "fastdata.arc",
+      "entry": "title1_off.rct",
+      "source_sha256": "5357d38b3a5d2701510e4536ce1df9427ec211535992e9622d106a66d25b5b2b",
+      "base_candidate_sha256": "7a5895aa62099009589b174390426a730f53185c31b8bde701109d61e2183c23",
+      "output_sha256": "ea75a2205cc5b93ad95404576d5698f3accc6667f9f2913a8d2a3515feb84bf1",
+      "donor": "title1_null2.rct",
+      "donor_sha256": "508ba2a175bc90bfe99de133f246bc7ef6fc8f5792a041632351c93ab7b5f119",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_erase_pixels": 31703,
+      "preserved_roman_pixels": 1905,
+      "protected_pixel_diff_count": 0,
+      "source_logo_residue_pixels": 0,
+      "target_ink_bounds": [
+        54,
+        82,
+        444,
+        390
+      ],
+      "structural_pass": true,
+      "visual_pass": true,
+      "runtime_review": "user_pending",
+      "metadata_preserved": true,
+      "deterministic_encoding": true,
+      "consumer_closure": "No TC01 sentinel pixels; inherited base cannot reintroduce original logo.",
+      "base_candidate": "brand-logo-ko-v2",
+      "revision_changed_pixels": 10628,
+      "revision_bounds": [
+        54,
+        82,
+        284,
+        308
+      ]
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "title1_on.rct",
+      "source_sha256": "3290eef8c2d2e300017fd1d5d2dc500a89b64e4258bcb22373a057b3426bf9eb",
+      "base_candidate_sha256": "b9dc82d14e3d9e66a50bc56698f1905bbd67126a14574bbb612ae41828c25de7",
+      "output_sha256": "a390fbf10656fe7612bcd7ebfcb0b2944a42422420b1967a235ba7c6dd30a413",
+      "donor": "title1_null2.rct",
+      "donor_sha256": "508ba2a175bc90bfe99de133f246bc7ef6fc8f5792a041632351c93ab7b5f119",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_erase_pixels": 31703,
+      "preserved_roman_pixels": 1905,
+      "protected_pixel_diff_count": 0,
+      "source_logo_residue_pixels": 0,
+      "target_ink_bounds": [
+        54,
+        82,
+        444,
+        390
+      ],
+      "structural_pass": true,
+      "visual_pass": true,
+      "runtime_review": "user_pending",
+      "metadata_preserved": true,
+      "deterministic_encoding": true,
+      "consumer_closure": "No TC01 sentinel pixels; inherited base cannot reintroduce original logo.",
+      "base_candidate": "brand-logo-ko-v2",
+      "revision_changed_pixels": 10628,
+      "revision_bounds": [
+        54,
+        82,
+        284,
+        308
+      ]
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "title1_push.rct",
+      "source_sha256": "466e9d362be553312ff1befd98cf44a04a658c6666216716d0533e86af6faedc",
+      "base_candidate_sha256": "0ce581218d0c2e9be90e013d72ddb5f2d9325235802267cf170f1b278715f565",
+      "output_sha256": "27c4b9543f1d36d492ac08465b63016bfe2491fa8cbca887cf45258a08c258d8",
+      "donor": "title1_null2.rct",
+      "donor_sha256": "508ba2a175bc90bfe99de133f246bc7ef6fc8f5792a041632351c93ab7b5f119",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_erase_pixels": 31703,
+      "preserved_roman_pixels": 1905,
+      "protected_pixel_diff_count": 0,
+      "source_logo_residue_pixels": 0,
+      "target_ink_bounds": [
+        54,
+        82,
+        444,
+        390
+      ],
+      "structural_pass": true,
+      "visual_pass": true,
+      "runtime_review": "user_pending",
+      "metadata_preserved": true,
+      "deterministic_encoding": true,
+      "consumer_closure": "No TC01 sentinel pixels; inherited base cannot reintroduce original logo.",
+      "base_candidate": "brand-logo-ko-v2",
+      "revision_changed_pixels": 10628,
+      "revision_bounds": [
+        54,
+        82,
+        284,
+        308
+      ]
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "title2_off.rct",
+      "source_sha256": "4e7258ff2caedc369fbe194ceb22a82dec6b7860ff394cf5571f5ed4f53305d0",
+      "base_candidate_sha256": "90f6adc062e3c803fdd4a42e15da97683d9c35d18266dde1c19ac0a2a56826f3",
+      "output_sha256": "417a3a7c98a2dbc524cd45ee4911225d87efde327e7a3be3ba36ef217032be4d",
+      "donor": "title2_null2.rct",
+      "donor_sha256": "c5474a93010268a04a849778300b7644b5fa24e280e15fd5d492d4c2515f22db",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_erase_pixels": 31968,
+      "preserved_roman_pixels": 1982,
+      "protected_pixel_diff_count": 0,
+      "source_logo_residue_pixels": 0,
+      "target_ink_bounds": [
+        54,
+        82,
+        444,
+        390
+      ],
+      "structural_pass": true,
+      "visual_pass": true,
+      "runtime_review": "user_pending",
+      "metadata_preserved": true,
+      "deterministic_encoding": true,
+      "consumer_closure": "No TC01 sentinel pixels; inherited base cannot reintroduce original logo.",
+      "base_candidate": "brand-logo-ko-v2",
+      "revision_changed_pixels": 10512,
+      "revision_bounds": [
+        54,
+        82,
+        284,
+        308
+      ]
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "title2_on.rct",
+      "source_sha256": "f8caa79fc2ab07c2cb3b09d7bf3ab86bdeccadbb12df8df8d11381e002ce77b4",
+      "base_candidate_sha256": "180b35a142467a609dfdd56a50a996a65aa2ffdd1f8a31ab0cfa46dcf9c88455",
+      "output_sha256": "4958bb08f820dd2eae9ba50ebd7a9f31bde2924fd435e8e4bc5db11d4520a5b0",
+      "donor": "title2_null2.rct",
+      "donor_sha256": "c5474a93010268a04a849778300b7644b5fa24e280e15fd5d492d4c2515f22db",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_erase_pixels": 31968,
+      "preserved_roman_pixels": 1982,
+      "protected_pixel_diff_count": 0,
+      "source_logo_residue_pixels": 0,
+      "target_ink_bounds": [
+        54,
+        82,
+        444,
+        390
+      ],
+      "structural_pass": true,
+      "visual_pass": true,
+      "runtime_review": "user_pending",
+      "metadata_preserved": true,
+      "deterministic_encoding": true,
+      "consumer_closure": "No TC01 sentinel pixels; inherited base cannot reintroduce original logo.",
+      "base_candidate": "brand-logo-ko-v2",
+      "revision_changed_pixels": 10512,
+      "revision_bounds": [
+        54,
+        82,
+        284,
+        308
+      ]
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "title2_push.rct",
+      "source_sha256": "67de67f8710083b6d5492194e307076ce4255e338108db719f976d4fd5547d96",
+      "base_candidate_sha256": "3a899ed7fb578ed0ba958204725b213af9af7eaf54014351c19c003abe252581",
+      "output_sha256": "4962ef2d02140e8b8a09953613a938470092b964943f4f508056bdf07b4e153c",
+      "donor": "title2_null2.rct",
+      "donor_sha256": "c5474a93010268a04a849778300b7644b5fa24e280e15fd5d492d4c2515f22db",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_erase_pixels": 31968,
+      "preserved_roman_pixels": 1982,
+      "protected_pixel_diff_count": 0,
+      "source_logo_residue_pixels": 0,
+      "target_ink_bounds": [
+        54,
+        82,
+        444,
+        390
+      ],
+      "structural_pass": true,
+      "visual_pass": true,
+      "runtime_review": "user_pending",
+      "metadata_preserved": true,
+      "deterministic_encoding": true,
+      "consumer_closure": "No TC01 sentinel pixels; inherited base cannot reintroduce original logo.",
+      "base_candidate": "brand-logo-ko-v2",
+      "revision_changed_pixels": 10512,
+      "revision_bounds": [
+        54,
+        82,
+        284,
+        308
+      ]
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "title3_off.rct",
+      "source_sha256": "b21232b137fafa9497fa9ad02f63b2d607cba686d848f03b5dab9b6aa4f787a9",
+      "base_candidate_sha256": "27a13958240e831a8d1c685af4652efe7a46906da91074f998df24e06284bf5f",
+      "output_sha256": "d21abe0542c2507afaca52d806816ed8c10813349b915b5595359c2e85dd317a",
+      "donor": "title1_null.rct",
+      "donor_sha256": "a7fcc8fbdd602c738873adf1c548b303077eaad07fc3350dfbaac7544039db3f",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_erase_pixels": 31608,
+      "preserved_roman_pixels": 2005,
+      "protected_pixel_diff_count": 0,
+      "source_logo_residue_pixels": 0,
+      "target_ink_bounds": [
+        386,
+        0,
+        776,
+        308
+      ],
+      "structural_pass": true,
+      "visual_pass": true,
+      "runtime_review": "user_pending",
+      "metadata_preserved": true,
+      "deterministic_encoding": true,
+      "consumer_closure": "No TC01 sentinel pixels; inherited base cannot reintroduce original logo.",
+      "base_candidate": "brand-logo-ko-v2",
+      "revision_changed_pixels": 10609,
+      "revision_bounds": [
+        386,
+        0,
+        616,
+        226
+      ]
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "title3_on.rct",
+      "source_sha256": "3695047c1f36b7ac26bca2c1b2dd40c4bde0a8060eb373c35bf5f64f3ceec4bf",
+      "base_candidate_sha256": "0c6c09440b20f7e3007fdc698e334a6c5f25e53a09b08ec87228308ec4bc1d29",
+      "output_sha256": "f3f41883f382823ed9bb476aa85fa1384dee3fc9a032e2560f0cec00f53efe23",
+      "donor": "title1_null.rct",
+      "donor_sha256": "a7fcc8fbdd602c738873adf1c548b303077eaad07fc3350dfbaac7544039db3f",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_erase_pixels": 31608,
+      "preserved_roman_pixels": 2005,
+      "protected_pixel_diff_count": 0,
+      "source_logo_residue_pixels": 0,
+      "target_ink_bounds": [
+        386,
+        0,
+        776,
+        308
+      ],
+      "structural_pass": true,
+      "visual_pass": true,
+      "runtime_review": "user_pending",
+      "metadata_preserved": true,
+      "deterministic_encoding": true,
+      "consumer_closure": "No TC01 sentinel pixels; inherited base cannot reintroduce original logo.",
+      "base_candidate": "brand-logo-ko-v2",
+      "revision_changed_pixels": 10609,
+      "revision_bounds": [
+        386,
+        0,
+        616,
+        226
+      ]
+    },
+    {
+      "archive": "fastdata.arc",
+      "entry": "title3_push.rct",
+      "source_sha256": "968c5ebcc0b43dbe456a171a32e1861169cdd768d274aeedad6ec61844e12e98",
+      "base_candidate_sha256": "607b11c5386b7a4263726bbe6fe23c9dc792cbd562e687155ffb33c2568c8669",
+      "output_sha256": "50fd433340a2fbc30b2aab5c7bbd7fd107cf0ab741fd3afdd865b6ca2beb48f7",
+      "donor": "title1_null.rct",
+      "donor_sha256": "a7fcc8fbdd602c738873adf1c548b303077eaad07fc3350dfbaac7544039db3f",
+      "source_size": [
+        800,
+        600
+      ],
+      "output_size": [
+        800,
+        600
+      ],
+      "source_erase_pixels": 31608,
+      "preserved_roman_pixels": 2005,
+      "protected_pixel_diff_count": 0,
+      "source_logo_residue_pixels": 0,
+      "target_ink_bounds": [
+        386,
+        0,
+        776,
+        308
+      ],
+      "structural_pass": true,
+      "visual_pass": true,
+      "runtime_review": "user_pending",
+      "metadata_preserved": true,
+      "deterministic_encoding": true,
+      "consumer_closure": "No TC01 sentinel pixels; inherited base cannot reintroduce original logo.",
+      "base_candidate": "brand-logo-ko-v2",
+      "revision_changed_pixels": 10609,
+      "revision_bounds": [
+        386,
+        0,
+        616,
+        226
+      ]
+    }
+  ],
+  "font_file": "P:\\AI\\Codex\\projects\\reconquista-ko\\ui-opening-ending\\research\\typography\\fonts\\Eulyoo1945-SemiBold.otf",
+  "font_sha256": "1f2b498cae74bac4c37ce616ab6ac0ced85e33b6c666f95e67c9a9e01dc82928",
+  "font_redistributed": false,
+  "retains_prior_title_menu_Korean": true,
+  "state_closure": "All3 title designs x off/on/push =9 entries; logo and quote invariant by hover state.",
+  "runtime_review": "user_pending",
+  "opening_video": "separate candidate in progress",
+  "ready_for_integration": true,
+  "release_pass": false,
+  "visual_review": "Primary and independent read-only review of composed title1 lowres and title3 HD. Same logo layer across nine states; menu/quotation/background pixel invariants passed.",
+  "original_roman_identity_note": "Small Roman RECONQUISTA signature retained intentionally. All five Japanese title glyphs replaced.",
+  "edge_exception": "title3 central calligraphic ascender starts at y=0 as in original; no added padding.",
+  "frozen": true,
+  "revision": "v3 connected central strokes and restored initial flourish",
+  "replaces_candidate": "brand-logo-ko-v2"
+}

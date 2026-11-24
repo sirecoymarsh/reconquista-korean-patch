@@ -1,0 +1,3600 @@
+{
+  "translator_model": "Codex internal",
+  "owner": "session-3/lane-1",
+  "coordinator_thread_id": "01a16335-c355-7c83-ad79-53e1812faa34",
+  "agent_id": "01a16337-2f8b-7960-8351-632c9eaa3a60",
+  "source_script": "last_kako02.mjo",
+  "source_sha256": "9750a99b8b2c6d177fbb6097df3e4fc6809a612f7d44fe86e15eb5be04224e15",
+  "records": [
+    {
+      "unit": "last_kako02.mjo::u0125",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001234",
+          "source": "「あの、上条先生。これからのことなんですけど」",
+          "target": "「저, 가미조 선생님. 앞으로의 일 말인데요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0125; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0126",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001241",
+          "source": "「あ、はい」",
+          "target": "「아, 네」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0126; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0127",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001256",
+          "source": "「とりあえず今日はもうお疲れでしょうから、",
+          "target": "「우선 오늘은 피곤하실 테니"
+        },
+        {
+          "id": "last_kako02.mjo::001260",
+          "source": "　このままゆっくり休んでいただいて…」",
+          "target": "　이대로 푹 쉬시고…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0127; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0128",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001275",
+          "source": "「教会の仕事の引継ぎは、",
+          "target": "「교회 일 인수인계는"
+        },
+        {
+          "id": "last_kako02.mjo::001279",
+          "source": "　明日からということでよろしいですか？」",
+          "target": "　내일부터 시작해도 괜찮을까요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0128; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0129",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001286",
+          "source": "「はい、それで結構です。",
+          "target": "「네, 그렇게 하죠."
+        },
+        {
+          "id": "last_kako02.mjo::001290",
+          "source": "　ちなみに引継ぎの担当の方は…？」",
+          "target": "　그런데 인수인계는 어느 분이…?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0129; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0130",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001305",
+          "source": "「私です」",
+          "target": "「제가 할 거예요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0130; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0131",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001312",
+          "source": "「えっ、あなたが？」",
+          "target": "「네, 직접요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0131; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0132",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001327",
+          "source": "「本来なら引継ぎは先代の牧師である父の役目なのですが、",
+          "target": "「원래는 전임 목사인 아버지가 하셔야 할 일이지만,"
+        },
+        {
+          "id": "last_kako02.mjo::001331",
+          "source": "　ご存知の通り父は、先日天に召されました」",
+          "target": "　아시다시피 아버지는 얼마 전 하늘의 부르심을 받으셨어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0132; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0133",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001346",
+          "source": "「なので父に代わって、",
+          "target": "「그래서 아버지 대신"
+        },
+        {
+          "id": "last_kako02.mjo::001350",
+          "source": "　娘の私が引継ぎをさせていただこうと思っています」",
+          "target": "　딸인 제가 인수인계를 해 드리려고 해요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0133; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0134",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001357",
+          "source": "「なるほど、そうでしたか…",
+          "target": "「그렇군요, 그랬네요…"
+        },
+        {
+          "id": "last_kako02.mjo::001361",
+          "source": "　そういうことなら、よろしくお願いします」",
+          "target": "　그럼 잘 부탁드립니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0134; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0135",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001376",
+          "source": "「いえ、こちらこそよろしくお願いします」",
+          "target": "「아니에요, 저야말로 잘 부탁드려요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0135; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0136",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001386",
+          "source": "お互いに向かい合って、深々と頭を下げた。",
+          "target": "우리는 마주 보며 깊이 고개를 숙였다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0136; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0137",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001391",
+          "source": "それにしても、随分しっかりとしてるんだな。",
+          "target": "그나저나 참 야무지다."
+        },
+        {
+          "id": "last_kako02.mjo::001395",
+          "source": "両親が亡くなってまだ間がないだろうに、気丈な娘さんだ。",
+          "target": "부모님이 돌아가신 지 얼마 되지 않았을 텐데, 의젓한 아가씨다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0137; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0138",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001400",
+          "source": "流石は牧師一家の娘といったところだろうか…",
+          "target": "역시 목사 집안의 딸이라고 해야 하나…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0138; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0139",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001415",
+          "source": "「あの、それでですね」",
+          "target": "「저, 그리고요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0139; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0140",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001422",
+          "source": "「はい、まだ何か？」",
+          "target": "「네, 또 무슨 일 있나요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0140; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0141",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001437",
+          "source": "「ええ、実は…」",
+          "target": "「네, 사실은…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0141; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0142",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001442",
+          "source": "しかしそこで彼女は口ごもり、そのまま押し黙ってしまう。",
+          "target": "하지만 거기서 그녀는 말을 흐리더니 그대로 입을 다물어 버렸다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0142; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0143",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001447",
+          "source": "先ほどまでと違い、",
+          "target": "아까와 달리"
+        },
+        {
+          "id": "last_kako02.mjo::001451",
+          "source": "何やら躊躇って言い出せずにいるようだ。",
+          "target": "무언가 망설이며 말을 꺼내지 못하는 듯하다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0143; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0144",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001458",
+          "source": "「どうしました？",
+          "target": "「왜 그러세요?"
+        },
+        {
+          "id": "last_kako02.mjo::001462",
+          "source": "　何か言いにくいことでもあるのですか」",
+          "target": "　말하기 곤란한 일이라도 있나요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0144; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0145",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001477",
+          "source": "「えっと、その…」",
+          "target": "「음, 그게…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0145; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0146",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001484",
+          "source": "「どうか遠慮なさらずおっしゃってください。",
+          "target": "「사양하지 말고 말씀해 주세요."
+        },
+        {
+          "id": "last_kako02.mjo::001488",
+          "source": "　私では頼りにならないかもしれませんが」",
+          "target": "　제가 별 도움이 못 될지도 모르지만요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0146; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0147",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001503",
+          "source": "「いえ、そういうことでは決してっ。",
+          "target": "「아뇨, 절대로 그런 게 아니에요."
+        },
+        {
+          "id": "last_kako02.mjo::001507",
+          "source": "　むしろこれは私の一方的なお願いなのですが…」",
+          "target": "　오히려 제가 일방적으로 부탁을 드리는 건데…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0147; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0148",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001514",
+          "source": "「お願い？　何でしょう」",
+          "target": "「부탁이요? 뭔가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0148; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0149",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001529",
+          "source": "「その…",
+          "target": "「저기…"
+        },
+        {
+          "id": "last_kako02.mjo::001544",
+          "source": "私を、この家に置いてくださいっ」",
+          "target": "저를 이 집에 있게 해 주세요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0149; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0150",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001551",
+          "source": "「…はい？」",
+          "target": "「…네?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0150; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0151",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001556",
+          "source": "あまりに唐突で意味深すぎるその言葉に、",
+          "target": "너무도 갑작스럽고 의미심장한 그 말에"
+        },
+        {
+          "id": "last_kako02.mjo::001560",
+          "source": "私の思考は停止してしまった。",
+          "target": "나는 생각이 멈춰 버렸다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0151; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0152",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001567",
+          "source": "「えっと…すみません、",
+          "target": "「저기… 죄송합니다만,"
+        },
+        {
+          "id": "last_kako02.mjo::001571",
+          "source": "　どういうことなのかよくわからないのですが…」",
+          "target": "　무슨 말씀인지 잘 모르겠는데요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0152; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0153",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001586",
+          "source": "「あのですね、この家はそもそも、",
+          "target": "「저기요, 원래 이 집은"
+        },
+        {
+          "id": "last_kako02.mjo::001590",
+          "source": "　代々の牧師一家の為に用意されたものなんです」",
+          "target": "　역대 목사님 가족들을 위해 마련된 곳이에요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0153; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0154",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001605",
+          "source": "「そして牧師の娘である私は、",
+          "target": "「그리고 목사의 딸인 저는"
+        },
+        {
+          "id": "last_kako02.mjo::001609",
+          "source": "　生まれた時からずっとこの家に住んでいました」",
+          "target": "　태어났을 때부터 줄곧 이 집에서 살았어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0154; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0155",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001614",
+          "source": "なるほど、それで教会のすぐ傍に建っているのか。",
+          "target": "그렇구나. 그래서 교회 바로 옆에 지은 거였나."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0155; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0156",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001619",
+          "source": "表札がついてないのも、",
+          "target": "문패가 없는 것도"
+        },
+        {
+          "id": "last_kako02.mjo::001623",
+          "source": "ここが個人の家ではなくあくまで牧師の住まいだから。",
+          "target": "개인 소유의 집이 아니라 어디까지나 목사의 거처이기 때문이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0156; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0157",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001628",
+          "source": "そしてこの家に生活感が漂っているのは、",
+          "target": "그리고 이 집에 생활의 흔적이 배어 있는 건"
+        },
+        {
+          "id": "last_kako02.mjo::001632",
+          "source": "彼女がここで暮していたからなんだな。",
+          "target": "그녀가 이곳에서 살았기 때문이구나."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0157; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0158",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001647",
+          "source": "「しかし私の両親が事故で急死して、",
+          "target": "「그런데 부모님이 사고로 갑자기 돌아가시고"
+        },
+        {
+          "id": "last_kako02.mjo::001651",
+          "source": "　新しい牧師として上条先生がいらっしゃいました」",
+          "target": "　새 목사님으로 가미조 선생님께서 오셨어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0158; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0159",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001666",
+          "source": "「つまりこの家はもう先生の家であって、",
+          "target": "「그러니까 이 집은 이제 선생님 집이지"
+        },
+        {
+          "id": "last_kako02.mjo::001670",
+          "source": "　私の家ではないんです」",
+          "target": "　제 집이 아니에요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0159; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0160",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001677",
+          "source": "「そう…なんですか？」",
+          "target": "「그런… 건가요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0160; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0161",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001692",
+          "source": "「はい、そういうことになります」",
+          "target": "「네, 그렇게 되는 거예요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0161; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0162",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001707",
+          "source": "「でも私にはここ以外に家なんてないし、",
+          "target": "「하지만 저한테는 여기 말고는 집이 없고,"
+        },
+        {
+          "id": "last_kako02.mjo::001711",
+          "source": "　それに両親との思い出が詰まったこの家を",
+          "target": "　또 부모님과의 추억이 가득한 이 집을"
+        },
+        {
+          "id": "last_kako02.mjo::001715",
+          "source": "　離れたくないんです」",
+          "target": "　떠나고 싶지 않아요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0162; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0163",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001720",
+          "source": "それは最もな話だった。両親が死んで家まで失くすなんて、",
+          "target": "그건 지당한 말이었다. 부모님을 잃고 집까지 잃는다니,"
+        },
+        {
+          "id": "last_kako02.mjo::001724",
+          "source": "そんなのはあんまりだと私も思う。",
+          "target": "나도 그건 너무 가혹하다고 생각한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0163; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0164",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001739",
+          "source": "「だから私としては、上条先生にお許しをいただいて、",
+          "target": "「그래서 가미조 선생님의 허락을 받고"
+        },
+        {
+          "id": "last_kako02.mjo::001743",
+          "source": "　今まで通りこの家に住まわせてもらいたいと…」",
+          "target": "　지금까지처럼 이 집에서 살 수 있었으면 해서요…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0164; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0165",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001750",
+          "source": "「なるほど…そういうことでしたか」",
+          "target": "「그렇군요… 그런 말씀이셨군요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0165; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0166",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001765",
+          "source": "「炊事・洗濯はもちろん、他にも何だってします。",
+          "target": "「밥이며 빨래는 물론이고 뭐든 다 할게요."
+        },
+        {
+          "id": "last_kako02.mjo::001769",
+          "source": "　だからどうか私をここに置いてくださいっ」",
+          "target": "　그러니 부디 저를 여기 있게 해 주세요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0166; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0167",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001779",
+          "source": "深々と頭を下げて懇願する秋月さんに、",
+          "target": "고개를 깊이 숙이고 애원하는 아키즈키 씨에게"
+        },
+        {
+          "id": "last_kako02.mjo::001783",
+          "source": "私は慌てて言葉をかける。",
+          "target": "나는 황급히 말을 건넨다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0167; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0168",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001790",
+          "source": "「秋月さん、頭を上げてください。",
+          "target": "「아키즈키 씨, 고개를 드세요."
+        },
+        {
+          "id": "last_kako02.mjo::001794",
+          "source": "　あなたがここに住むのは当然の権利ですから」",
+          "target": "　여기 사는 건 당연한 권리니까요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0168; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0169",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001809",
+          "source": "「それじゃあ、私はここに居ていいんですね？」",
+          "target": "「그럼 여기 있어도 되는 거죠?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0169; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0170",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001816",
+          "source": "「もちろんですよ。",
+          "target": "「물론이죠."
+        },
+        {
+          "id": "last_kako02.mjo::001820",
+          "source": "　あなたは今まで通りの生活を続けてください」",
+          "target": "　지금까지처럼 지내시면 됩니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0170; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0171",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001825",
+          "source": "しかしそうなると、問題は私自身の方だった。",
+          "target": "하지만 그렇게 되면 문제는 나 자신이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0171; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0172",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001830",
+          "source": "もちろん秋月さんをこの家から追い出すわけにはいかない。",
+          "target": "물론 아키즈키 씨를 이 집에서 내쫓을 수는 없다."
+        },
+        {
+          "id": "last_kako02.mjo::001835",
+          "source": "かといって彼女と同居生活というのもまずいのではないか？",
+          "target": "그렇다고 그녀와 함께 사는 것도 곤란하지 않을까?"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0172; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0173",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001840",
+          "source": "若い娘と一つ屋根の下というのは、",
+          "target": "젊은 아가씨와 한 지붕 아래에서 산다는 건"
+        },
+        {
+          "id": "last_kako02.mjo::001844",
+          "source": "さすがに色々と抵抗があった。",
+          "target": "아무래도 여러모로 꺼려졌다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0173; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0174",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001851",
+          "source": "「秋月さん、私がどこか別の家に厄介になるわけには",
+          "target": "「아키즈키 씨, 제가 다른 집에서 신세를 질 수는"
+        },
+        {
+          "id": "last_kako02.mjo::001855",
+          "source": "　いかないでしょうか？」",
+          "target": "　없을까요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0174; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0175",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001870",
+          "source": "「そんなっ。先生を追い出して、",
+          "target": "「그럴 수는 없어요. 선생님을 내쫓고"
+        },
+        {
+          "id": "last_kako02.mjo::001874",
+          "source": "　私だけがここに住むわけにはいきません」",
+          "target": "　저 혼자 여기서 살 수는 없잖아요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0175; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0176",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001881",
+          "source": "「いや、しかしですね…」",
+          "target": "「아뇨, 그래도 말이죠…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0176; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0177",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001896",
+          "source": "「私と一緒じゃ、ダメなんでしょうか…？」",
+          "target": "「저와 함께는 안 되는 건가요…?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0177; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0178",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001903",
+          "source": "「ダメというか、ダメじゃないんですけど…う～んっ」",
+          "target": "「안 된다기보다는, 안 되는 건 아니지만요… 으음」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0178; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0179",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001918",
+          "source": "「決して先生のご迷惑になるようなことはしませんから…",
+          "target": "「선생님께 폐가 되는 일은 절대로 하지 않을게요…"
+        },
+        {
+          "id": "last_kako02.mjo::001922",
+          "source": "　お願いします。どうか私と一緒に、ここで暮してください」",
+          "target": "　부탁드려요. 부디 저와 함께 여기서 살아 주세요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0179; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0180",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001927",
+          "source": "何だかややこしいことになってきたぞ…",
+          "target": "어쩐지 일이 복잡해지기 시작했군…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0180; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0181",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001937",
+          "source": "秋月さんは今まで通りこの家で暮したい。",
+          "target": "아키즈키 씨는 지금까지처럼 이 집에서 살고 싶다."
+        },
+        {
+          "id": "last_kako02.mjo::001941",
+          "source": "でも現家主である私を追い出すわけにもいかない。",
+          "target": "그렇다고 현재 집주인인 나를 내쫓을 수도 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0181; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0182",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001946",
+          "source": "だから彼女としては、",
+          "target": "그러니 그녀로서는"
+        },
+        {
+          "id": "last_kako02.mjo::001950",
+          "source": "私と一緒にここで暮らすという選択肢しかなかった。",
+          "target": "나와 여기서 함께 사는 수밖에 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0182; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0183",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001955",
+          "source": "彼女だって若い娘さんだ。見知らぬ男性と同居生活なんて、",
+          "target": "그녀도 젊은 아가씨다. 모르는 남자와 함께 사는 건"
+        },
+        {
+          "id": "last_kako02.mjo::001959",
+          "source": "抵抗があるに違いない。",
+          "target": "분명 꺼려질 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0183; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0184",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001964",
+          "source": "それでも彼女はここを離れたくなかった…",
+          "target": "그럼에도 그녀는 이곳을 떠나고 싶지 않았다…"
+        },
+        {
+          "id": "last_kako02.mjo::001968",
+          "source": "亡き両親との思い出が詰まったこの家に居たかった。",
+          "target": "돌아가신 부모님과의 추억이 가득한 이 집에 있고 싶었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0184; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0185",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001975",
+          "source": "「（その気持ちを無下にするわけにはいかない…）」",
+          "target": "「(그 마음을 매정하게 외면할 수는 없어…)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "자신에게 하는 혼잣말",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "차분한 독백 반말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0185; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0186",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001980",
+          "source": "ようは私さえしっかりしていれば、何の問題もない筈。",
+          "target": "결국 나만 처신을 똑바로 하면 아무 문제도 없을 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0186; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0187",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001985",
+          "source": "私は牧師であり、",
+          "target": "나는 목사이고"
+        },
+        {
+          "id": "last_kako02.mjo::001989",
+          "source": "彼女は両親を失って住む家も失おうとしている信徒…",
+          "target": "그녀는 부모님을 잃고 살던 집마저 잃을 위기에 놓인 신도…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0187; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0188",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001994",
+          "source": "私が彼女に手を差し伸べるのは当然のことだった。",
+          "target": "내가 그녀에게 손을 내미는 것은 당연한 일이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0188; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0189",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::001999",
+          "source": "『求めよ、されば与えられん』",
+          "target": "『구하라, 그러면 얻으리라』"
+        },
+        {
+          "id": "last_kako02.mjo::002004",
+          "source": "これは私が最も好きな聖書の言葉の一つだ。",
+          "target": "내가 가장 좋아하는 성경 말씀 중 하나다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0189; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0190",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002009",
+          "source": "彼女がそれを求め、そして私に与えることが出来るなら、",
+          "target": "그녀가 원하고, 또 내가 그것을 줄 수 있다면"
+        },
+        {
+          "id": "last_kako02.mjo::002013",
+          "source": "何を躊躇うことがあろうか。",
+          "target": "무엇을 망설이겠는가."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0190; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0191",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002020",
+          "source": "「…わかりました。",
+          "target": "「…알겠습니다."
+        },
+        {
+          "id": "last_kako02.mjo::002024",
+          "source": "　秋月さん、あなたの言う通りにしましょう」",
+          "target": "　아키즈키 씨, 말씀하신 대로 하죠」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0191; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0192",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002039",
+          "source": "「本当ですか？　それじゃあ…」",
+          "target": "「정말인가요? 그럼…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0192; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0193",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002046",
+          "source": "「これから色々とお世話になると思いますが、",
+          "target": "「앞으로 여러모로 신세를 지게 되겠지만"
+        },
+        {
+          "id": "last_kako02.mjo::002050",
+          "source": "　よろしくお願いします」",
+          "target": "　잘 부탁드립니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0193; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0194",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002060",
+          "source": "私がそう告げると、",
+          "target": "내가 그렇게 말하자"
+        },
+        {
+          "id": "last_kako02.mjo::002064",
+          "source": "彼女はぱぁっと花が咲くように満面の笑みを浮かべた。",
+          "target": "그녀는 꽃이 활짝 피듯 환하게 웃었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0194; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0195",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002074",
+          "source": "「…はいっ。こちらこそ、よろしくお願いします」",
+          "target": "「…네! 저야말로 잘 부탁드려요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0195; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0196",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002079",
+          "source": "こうして私は、",
+          "target": "그렇게 나는"
+        },
+        {
+          "id": "last_kako02.mjo::002083",
+          "source": "彼女と一つ屋根の下で一緒に暮らすことになった。",
+          "target": "그녀와 한 지붕 아래서 함께 살게 되었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0196; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0197",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002092",
+          "source": "思えばこの時の決断が、その後３０年先の運命までも",
+          "target": "돌이켜 보면 이때의 결정이 그로부터 30년 뒤의 운명까지"
+        },
+        {
+          "id": "last_kako02.mjo::002096",
+          "source": "決定付けたと言えるかも知れない。",
+          "target": "정해 버렸다고 할 수 있을지도 모른다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0197; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0198",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002101",
+          "source": "でも当時の私は、そんなことを知る由もなく…",
+          "target": "하지만 당시의 나는 그런 것을 알 리 없이…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0198; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0199",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002106",
+          "source": "まだ未知の環境と、",
+          "target": "아직 낯선 환경과"
+        },
+        {
+          "id": "last_kako02.mjo::002110",
+          "source": "これからの新しい生活のことでただ頭がいっぱいだった。",
+          "target": "앞으로 시작될 새로운 생활에 대한 생각으로만 머릿속이 가득했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0199; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0200",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002118",
+          "source": "・・・・・・・・・",
+          "target": "・・・・・・・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0200; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0201",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002123",
+          "source": "・・・・・・",
+          "target": "・・・・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0201; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0202",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002128",
+          "source": "・・・",
+          "target": "・・・"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0202; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0203",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002146",
+          "source": "チュンチュン…",
+          "target": "짹짹…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0203; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0204",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002153",
+          "source": "「んっ…」",
+          "target": "「으음…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "자신에게 하는 혼잣말",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "차분한 독백 반말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0204; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0205",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002164",
+          "source": "「…あれ、ここは…？」",
+          "target": "「…어라, 여기는…?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "자신에게 하는 혼잣말",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "차분한 독백 반말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0205; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0206",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002172",
+          "source": "目が覚めると、そこは見知らぬ部屋だった。",
+          "target": "눈을 뜨니 낯선 방이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0206; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0207",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002177",
+          "source": "清潔な布団のシーツの匂いと畳の香り。",
+          "target": "깨끗한 이불 시트 냄새와 다다미 향."
+        },
+        {
+          "id": "last_kako02.mjo::002181",
+          "source": "どれも馴染みのない、なのにどこか懐かしい感覚…",
+          "target": "모두 익숙하지 않으면서도 어딘지 그리운 감각…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0207; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0208",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002186",
+          "source": "そして私はようやく、",
+          "target": "그리고 나는 그제야"
+        },
+        {
+          "id": "last_kako02.mjo::002190",
+          "source": "そこが下宿先の自分の部屋であることを思い出した。",
+          "target": "그곳이 하숙집의 내 방이라는 것을 떠올렸다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0208; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0209",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002197",
+          "source": "「もう朝か…よく眠れた気がするな」",
+          "target": "「벌써 아침인가… 푹 잔 것 같군」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "자신에게 하는 혼잣말",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "차분한 독백 반말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0209; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0210",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002202",
+          "source": "昨日は疲れていたせいか、",
+          "target": "어제 피곤해서였을까,"
+        },
+        {
+          "id": "last_kako02.mjo::002206",
+          "source": "それともこの家が思いのほか居心地のいいせいだろうか。",
+          "target": "아니면 이 집이 생각보다 편안해서였을까."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0210; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0211",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002211",
+          "source": "昨夜、秋月さんに案内されてこの部屋を宛がわれた。",
+          "target": "어젯밤 아키즈키 씨의 안내로 이 방을 배정받았다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0211; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0212",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002216",
+          "source": "元々客間として使われていたということで、",
+          "target": "원래 손님방으로 쓰던 곳이라고 하더니"
+        },
+        {
+          "id": "last_kako02.mjo::002220",
+          "source": "こざっぱりして余計な家具が一切無い。",
+          "target": "말끔하고 불필요한 가구가 전혀 없다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0212; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0213",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002225",
+          "source": "私も旅行カバンに詰めた手荷物しか持って来ておらず、",
+          "target": "나도 여행 가방에 챙긴 짐밖에 가져오지 않았으니"
+        },
+        {
+          "id": "last_kako02.mjo::002229",
+          "source": "当分は部屋が広々と使えそうだった。",
+          "target": "당분간은 방을 널찍하게 쓸 수 있을 듯했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0213; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0214",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002236",
+          "source": "「さてと、そろそろ起きるか」",
+          "target": "「자, 슬슬 일어날까」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "자신에게 하는 혼잣말",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "차분한 독백 반말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0214; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0215",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002241",
+          "source": "手早く服を着替えると、",
+          "target": "재빨리 옷을 갈아입고"
+        },
+        {
+          "id": "last_kako02.mjo::002245",
+          "source": "居間の方に足を向けた。",
+          "target": "거실 쪽으로 향했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0215; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0216",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002258",
+          "source": "トントントントントン…",
+          "target": "탁탁탁탁탁…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0216; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0217",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002263",
+          "source": "居間にはまだ誰も居なかった。",
+          "target": "거실에는 아직 아무도 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0217; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0218",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002268",
+          "source": "でも台所の方からまな板を叩く包丁のリズムと、",
+          "target": "하지만 부엌에서는 도마를 두드리는 경쾌한 칼 소리가 들리고"
+        },
+        {
+          "id": "last_kako02.mjo::002272",
+          "source": "味噌汁のいい匂いが漂ってくる。",
+          "target": "구수한 미소된장국 냄새가 풍겨 온다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0218; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0219",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002277",
+          "source": "恐らく秋月さんだろう。",
+          "target": "아마 아키즈키 씨일 것이다."
+        },
+        {
+          "id": "last_kako02.mjo::002281",
+          "source": "この家には私と彼女しかいない筈だから。",
+          "target": "이 집에는 나와 그녀밖에 없을 테니까."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0219; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0220",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002288",
+          "source": "「（そうだ、",
+          "target": "「(그래,"
+        },
+        {
+          "id": "last_kako02.mjo::002292",
+          "source": "　私たちはここで二人っきりで暮らすんだった…）」",
+          "target": "　우리는 여기서 단둘이 살게 된 거였지…)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "자신에게 하는 혼잣말",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "차분한 독백 반말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0220; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0221",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002297",
+          "source": "そう思い出して少し憂鬱になる。",
+          "target": "그 사실을 떠올리자 조금 마음이 무거워진다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0221; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0222",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002302",
+          "source": "秋月さんはとてもよく出来た娘さんだし、",
+          "target": "아키즈키 씨는 아주 반듯한 아가씨이고"
+        },
+        {
+          "id": "last_kako02.mjo::002306",
+          "source": "彼女の境遇に対する同情と、彼女自身に対する好感もある。",
+          "target": "그녀의 처지가 안타깝기도, 그녀 자신이 좋게 느껴지기도 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0222; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0223",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002311",
+          "source": "しかしそれでも…いやだからこそ、",
+          "target": "하지만 그럼에도… 아니, 그렇기에 더욱"
+        },
+        {
+          "id": "last_kako02.mjo::002315",
+          "source": "彼女と一緒に暮らすのはどうかと思うのだった。",
+          "target": "그녀와 함께 사는 건 어떨까 싶었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0223; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0224",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002330",
+          "source": "「あら、上条先生。おはようございます」",
+          "target": "「어머, 가미조 선생님. 안녕히 주무셨어요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0224; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0225",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002337",
+          "source": "「あ、ああ…おはようございます」",
+          "target": "「아, 네… 안녕히 주무셨어요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0225; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0226",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002342",
+          "source": "台所から居間の方に顔を出した秋月さんは、",
+          "target": "부엌에서 거실로 얼굴을 내민 아키즈키 씨는"
+        },
+        {
+          "id": "last_kako02.mjo::002346",
+          "source": "私に気付くとにこやかに挨拶をしてくる。",
+          "target": "나를 발견하자 환하게 웃으며 인사를 건넨다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0226; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0227",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002351",
+          "source": "そのあまりに自然な振る舞いに戸惑いを覚えた私は、",
+          "target": "너무나 자연스러운 그 태도에 당황한 나는"
+        },
+        {
+          "id": "last_kako02.mjo::002355",
+          "source": "逆にぎこちない返事しかできなかった。",
+          "target": "오히려 어색하게 대답할 수밖에 없었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0227; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0228",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002360",
+          "source": "それと同時に、若い娘さんと同居しているのだという、",
+          "target": "동시에 젊은 아가씨와 함께 살고 있다는"
+        },
+        {
+          "id": "last_kako02.mjo::002364",
+          "source": "奇妙な実感も湧いてきた。",
+          "target": "묘한 실감도 들기 시작했다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0228; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0229",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002379",
+          "source": "「もうすぐ朝ご飯が出来ますから、",
+          "target": "「이제 곧 아침이 다 될 테니"
+        },
+        {
+          "id": "last_kako02.mjo::002383",
+          "source": "　待っててくださいね」",
+          "target": "　조금만 기다려 주세요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0229; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0230",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002390",
+          "source": "「何か私に手伝えることはありませんか？」",
+          "target": "「제가 뭐 도와드릴 일은 없나요?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0230; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0231",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002405",
+          "source": "「大丈夫です、私にお任せください。",
+          "target": "「괜찮아요. 저한테 맡겨 주세요."
+        },
+        {
+          "id": "last_kako02.mjo::002409",
+          "source": "　こう見えても家事は一通りこなせますから」",
+          "target": "　이래 봬도 집안일은 웬만큼 할 줄 아니까요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0231; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0232",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002416",
+          "source": "「そうですか…では大人しく待たせていただきます」",
+          "target": "「그런가요… 그럼 얌전히 기다리고 있겠습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0232; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0233",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002431",
+          "source": "「そうしてください。すぐに出来上がりますから」",
+          "target": "「그러세요. 금방 준비될 거예요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0233; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0234",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002441",
+          "source": "彼女はそう言うと、",
+          "target": "그녀는 그렇게 말하고"
+        },
+        {
+          "id": "last_kako02.mjo::002445",
+          "source": "軽快な足取りで台所の方へ戻っていった。",
+          "target": "가벼운 발걸음으로 부엌으로 돌아갔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0234; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0235",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002450",
+          "source": "これじゃまるで新婚夫婦みたいだな…",
+          "target": "이래서는 꼭 신혼부부 같지 않은가…"
+        },
+        {
+          "id": "last_kako02.mjo::002454",
+          "source": "妙に気恥ずかしくて、どう振舞っていいかわからない。",
+          "target": "묘하게 쑥스러워 어떻게 행동해야 할지 모르겠다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0235; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0236",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002459",
+          "source": "とりあえずちゃぶ台の前に腰を下ろして、",
+          "target": "일단 밥상 앞에 앉아"
+        },
+        {
+          "id": "last_kako02.mjo::002463",
+          "source": "朝ご飯が出来るのを待つことにする。",
+          "target": "아침 식사가 준비되기를 기다리기로 한다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0236; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0237",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002470",
+          "source": "「（やはりここは彼女の家で、",
+          "target": "「(역시 여기는 그녀의 집이고"
+        },
+        {
+          "id": "last_kako02.mjo::002474",
+          "source": "　私の方がお客さんなんだな）」",
+          "target": "　손님은 나인 거야)」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "자신에게 하는 혼잣말",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "차분한 독백 반말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0237; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0238",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002479",
+          "source": "当たり前と言えば当たり前なのだが、",
+          "target": "당연하다면 당연한 일이지만"
+        },
+        {
+          "id": "last_kako02.mjo::002483",
+          "source": "あくまで自然体の彼女を見ていると改めてそう思う。",
+          "target": "한없이 자연스러운 그녀를 보니 새삼 그렇게 느낀다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0238; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0239",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002488",
+          "source": "感覚的には自分が秋月家に居候している気分だった。",
+          "target": "느낌으로는 내가 아키즈키 씨네 집에 얹혀사는 기분이었다."
+        },
+        {
+          "id": "last_kako02.mjo::002493",
+          "source": "また、それで正しいのかもしれない。",
+          "target": "어쩌면 그게 맞을지도 모른다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0239; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0240",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002498",
+          "source": "多分その方が私も彼女も、",
+          "target": "아마 그편이 나도 그녀도"
+        },
+        {
+          "id": "last_kako02.mjo::002502",
+          "source": "変な気を遣わずに済むだろう。",
+          "target": "괜히 신경 쓰지 않아도 될 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0240; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0241",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002507",
+          "source": "ならば今はお客さんらしく、居候らしく振舞おう。",
+          "target": "그렇다면 지금은 손님답게, 얹혀사는 사람답게 행동하자."
+        },
+        {
+          "id": "last_kako02.mjo::002511",
+          "source": "慣れてくればまた違うのかもしれないが、今はそれでいい。",
+          "target": "익숙해지면 또 달라질지도 모르지만, 지금은 그걸로 됐다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0241; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0242",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002520",
+          "source": "しばらくして秋月さんが朝食を運んできた。",
+          "target": "잠시 후 아키즈키 씨가 아침 식사를 가져왔다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0242; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0243",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002525",
+          "source": "自分も手伝おうとしたが、彼女に頑なに断られる。",
+          "target": "나도 도우려 했지만 그녀는 한사코 거절했다."
+        },
+        {
+          "id": "last_kako02.mjo::002529",
+          "source": "まるで旅館の仲居さんの如き使命感だった。",
+          "target": "마치 여관의 접객 담당처럼 사명감이 넘쳤다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0243; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0244",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002540",
+          "source": "「主よ、この食事を用意して下さった方々と、",
+          "target": "「주여, 이 음식을 준비해 주신 분들과"
+        },
+        {
+          "id": "last_kako02.mjo::002544",
+          "source": "　これからいただく私たちを祝福してください」",
+          "target": "　이제 먹으려는 저희를 축복해 주십시오」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "하나님"
+        ],
+        "relationship": "목사의 식전 기도",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "기도문 존대, 아멘",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0244; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0245",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002551",
+          "source": "「アーメン」",
+          "target": "「아멘」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "하나님"
+        ],
+        "relationship": "목사의 식전 기도",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "기도문 존대, 아멘",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0245; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0246",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002566",
+          "source": "「アーメン」",
+          "target": "「아멘」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "하나님"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0246; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0247",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002571",
+          "source": "朝食の並べられたちゃぶ台を挟んで向かい合い、",
+          "target": "아침상이 차려진 밥상을 사이에 두고 마주 앉아"
+        },
+        {
+          "id": "last_kako02.mjo::002575",
+          "source": "食事前の祈りを捧げる私たち。",
+          "target": "우리는 식사 전 기도를 올린다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0247; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0248",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002580",
+          "source": "秋月さんも流石に牧師一家の娘だけあって、",
+          "target": "아키즈키 씨도 역시 목사 집안의 딸이라"
+        },
+        {
+          "id": "last_kako02.mjo::002584",
+          "source": "そういう作法を心得ていた。",
+          "target": "그런 예절을 잘 알고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0248; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0249",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002591",
+          "source": "「それでは、いただきます」",
+          "target": "「그럼 잘 먹겠습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0249; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0250",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002606",
+          "source": "「はい、どうぞ召し上がってください」",
+          "target": "「네, 맛있게 드세요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0250; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0251",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002611",
+          "source": "祈りの後、日本的習慣の挨拶を口にしてから箸を取る。",
+          "target": "기도가 끝나고 일본식 식사 인사를 한 뒤 젓가락을 든다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0251; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0252",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002616",
+          "source": "朝食のメニューはごはんに味噌汁、",
+          "target": "아침 메뉴는 밥과 미소된장국,"
+        },
+        {
+          "id": "last_kako02.mjo::002620",
+          "source": "目玉焼きにシャケの塩焼きと定番にして豪華なものだった。",
+          "target": "달걀 프라이와 연어 소금구이로, 정석이면서도 푸짐한 상차림이었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0252; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0253",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002625",
+          "source": "匂いも見た目もばっちりで、",
+          "target": "냄새도 모양도 나무랄 데 없어"
+        },
+        {
+          "id": "last_kako02.mjo::002629",
+          "source": "食べる前から舌の上に味が広がるような錯覚に陥る。",
+          "target": "먹기도 전에 혀끝에 맛이 퍼지는 듯한 착각마저 든다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0253; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0254",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002634",
+          "source": "しかし見ているだけではお腹は満たされないので、",
+          "target": "하지만 보고만 있어서는 배가 부르지 않으니"
+        },
+        {
+          "id": "last_kako02.mjo::002638",
+          "source": "箸を伸ばしてまずはシャケの切り身を一口…",
+          "target": "젓가락을 뻗어 먼저 연어를 한 입…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0254; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0255",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002645",
+          "source": "「…うん、美味しい。絶妙な塩加減ですね」",
+          "target": "「…음, 맛있네요. 간이 정말 딱 맞아요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0255; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0256",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002660",
+          "source": "「よかったぁ。先生のお口に合うかどうか、",
+          "target": "「다행이에요. 선생님 입에 맞을지"
+        },
+        {
+          "id": "last_kako02.mjo::002664",
+          "source": "　心配だったんです」",
+          "target": "　걱정했거든요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0256; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0257",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002671",
+          "source": "「いやいや、十分すぎるくらいですよ。",
+          "target": "「아니에요, 더 바랄 게 없을 정도예요."
+        },
+        {
+          "id": "last_kako02.mjo::002675",
+          "source": "　ありがたいことです」",
+          "target": "　정말 감사합니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0257; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0258",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002680",
+          "source": "それからご飯、味噌汁、目玉焼きにも箸を伸ばすが、",
+          "target": "이어서 밥, 미소된장국, 달걀 프라이에도 젓가락을 뻗어 보지만"
+        },
+        {
+          "id": "last_kako02.mjo::002684",
+          "source": "どれも申し分ない美味しさだった。",
+          "target": "어느 것 하나 빠짐없이 맛있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0258; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0259",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002689",
+          "source": "その為自然と箸が進み、対面に座る秋月さんは、",
+          "target": "덕분에 저절로 젓가락질이 빨라졌고, 맞은편의 아키즈키 씨는"
+        },
+        {
+          "id": "last_kako02.mjo::002693",
+          "source": "そんな私の様子を嬉しそうに眺めていた。",
+          "target": "그런 나를 기쁜 듯이 바라보고 있었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0259; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0260",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002700",
+          "source": "「秋月さんは本当に料理が上手なんですね。",
+          "target": "「아키즈키 씨는 정말 요리를 잘하시네요."
+        },
+        {
+          "id": "last_kako02.mjo::002704",
+          "source": "　大したものです」",
+          "target": "　대단하세요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0260; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0261",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002719",
+          "source": "「もう、上条先生ったら誉めすぎですよ。",
+          "target": "「정말, 가미조 선생님도. 너무 칭찬하시는 거 아니에요?"
+        },
+        {
+          "id": "last_kako02.mjo::002723",
+          "source": "　嬉しくなっちゃうじゃないですか」",
+          "target": "　자꾸 기뻐지잖아요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0261; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0262",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002730",
+          "source": "「素直な感想を言っただけですよ。",
+          "target": "「그냥 솔직한 감상인걸요."
+        },
+        {
+          "id": "last_kako02.mjo::002734",
+          "source": "　こんなに美味しい朝ご飯を食べたのは久しぶりです」",
+          "target": "　이렇게 맛있는 아침은 오랜만입니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0262; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0263",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002749",
+          "source": "「私も…なんだか久しぶりな気がします」",
+          "target": "「저도… 어쩐지 오랜만인 것 같아요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0263; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0264",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002756",
+          "source": "「えっ？」",
+          "target": "「네?」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0264; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0265",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002771",
+          "source": "「こうやって、誰かと一緒に朝ご飯を食べるの…",
+          "target": "「이렇게 누군가와 함께 아침을 먹는 거…"
+        },
+        {
+          "id": "last_kako02.mjo::002775",
+          "source": "　父と母が亡くなって以来だったから」",
+          "target": "　아버지와 어머니가 돌아가신 뒤로 처음이라서요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0265; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0266",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002782",
+          "source": "「秋月さん…」",
+          "target": "「아키즈키 씨…」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0266; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0267",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002787",
+          "source": "そうか。彼女は両親が亡くなってから、",
+          "target": "그랬구나. 그녀는 부모님이 돌아가신 뒤"
+        },
+        {
+          "id": "last_kako02.mjo::002791",
+          "source": "昨日私がやって来るまで一人でこの家に住んでいたんだ。",
+          "target": "어제 내가 올 때까지 혼자 이 집에 살고 있었던 것이다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0267; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0268",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002796",
+          "source": "ついこの間まで家族３人で暮していた家に、たった独りで…",
+          "target": "얼마 전까지 세 식구가 함께 살던 집에서, 오직 혼자…"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0268; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0269",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002811",
+          "source": "「…あっ、やだ私ったら。",
+          "target": "「…아, 참. 나도 정말."
+        },
+        {
+          "id": "last_kako02.mjo::002815",
+          "source": "　すみません、食事中にこんな話をしてしまって」",
+          "target": "　죄송해요. 식사 중에 이런 이야기를 해서」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0269; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0270",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002822",
+          "source": "「いいえ、全然構いませんよ。",
+          "target": "「아뇨, 전혀 문제없어요."
+        },
+        {
+          "id": "last_kako02.mjo::002826",
+          "source": "　思ったことは溜め込まず、口に出した方がいい」",
+          "target": "　속에 담아 두지 말고 털어놓는 게 좋습니다」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0270; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0271",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002833",
+          "source": "「私でよければ、我らが主に代わってお聞きしますから」",
+          "target": "「저라도 괜찮으시면 우리 주님을 대신해 들어 드릴게요」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [
+          "아키즈키 쿠레하"
+        ],
+        "relationship": "새 목사와 전임 목사의 딸; 동거 결정 직전/직후",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "상대의 사정을 배려하는 정중한 존댓말",
+        "source_speaker_token": "上条",
+        "evidence": "last_kako02.mjo::u0271; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0272",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002848",
+          "source": "「…ありがとうございます、上条先生」",
+          "target": "「…감사합니다, 가미조 선생님」"
+        }
+      ],
+      "context": {
+        "speaker_identity": "아키즈키 쿠레하",
+        "addressees": [
+          "가미조 유스케"
+        ],
+        "relationship": "목사의 딸이 새 목사에게 동거를 부탁하고 아침 식사를 대접",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "정중한 존댓말; 요청의 간절함과 이후 안도감 보존",
+        "source_speaker_token": "暮葉",
+        "evidence": "last_kako02.mjo::u0272; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    },
+    {
+      "unit": "last_kako02.mjo::u0273",
+      "fields": [
+        {
+          "id": "last_kako02.mjo::002853",
+          "source": "秋月さんは嬉しそうに、でも少し寂しげに微笑んだ。",
+          "target": "아키즈키 씨는 기쁜 듯하면서도 조금 쓸쓸하게 미소 지었다."
+        }
+      ],
+      "context": {
+        "speaker_identity": "가미조 유스케",
+        "addressees": [],
+        "relationship": "쿠레하와 동거하게 된 경위와 첫 아침을 회상",
+        "story_phase": "과거편; 부임 첫날 인수인계와 동거 요청, 다음날 아침 식사",
+        "voice": "절제된 1인칭 서술; 후일의 회고와 당시의 내면 구분",
+        "source_speaker_token": null,
+        "evidence": "last_kako02.mjo::u0273; adjacent scene read"
+      },
+      "status": "context_reviewed_static_checked_runtime_pending"
+    }
+  ],
+  "deferred": [],
+  "term_proposals": [
+    {
+      "source": "味噌汁",
+      "target": "미소된장국",
+      "evidence": [
+        "last_kako02.mjo::u0218",
+        "last_kako02.mjo::u0252"
+      ],
+      "reason": "일본 식문화 유지; 동일 음식의 반복 표기 통일"
+    },
+    {
+      "source": "求めよ、されば与えられん",
+      "target": "구하라, 그러면 얻으리라",
+      "evidence": [
+        "last_kako02.mjo::u0189"
+      ],
+      "reason": "조정자 공통 확정 표현; last_kako12 u0386–0387 및 last_gendai02 u0117/0119의 반복 성구와 통일"
+    }
+  ],
+  "inline_records": [],
+  "notes": [
+    "앞10구간 및 뒤12구간을 읽고 아침 식사 대화 종료 u273에서 분할.",
+    "inline candidate last_kako02.mjo::001541 暮葉(u0149)는 ldstr 04314→callp $8e803141(1) 0431d. 소비자 확인 전 임의 번역하지 않음; 조정자에게 audit 요청. ordinary text는 모두 번역.",
+    "조정자 반복 성구 결정에 따라 u0189 한 필드 수정. $8e803141의 이름 지정 후보는 소비자 미확정/중앙 표시명 root 소유이므로 원문 유지.",
+    "조정자 전체 의미검토 반영: u0270 전혀+긍정 괜찮다 호응을 전혀 문제없다로 수정."
+  ],
+  "runtime_verified": false
+}

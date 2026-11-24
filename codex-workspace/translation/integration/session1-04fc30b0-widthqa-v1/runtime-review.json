@@ -1,0 +1,1207 @@
+{
+  "translator_model": "Codex internal",
+  "updated_at": "2026-10-23T06:49:32+09:00",
+  "status": "integrated_headless_pass_final_visual_by_user",
+  "authorization": "User explicitly requested central integration including two tail choices and native-game review/fixes for81 width warnings, reusing passed verification.",
+  "label": "session1-04fc30b0-widthqa-v1",
+  "baseline": "translation/integration/reviewed-002/targets.json",
+  "session1_units": 16755,
+  "session1_inline": 184,
+  "tail_choices": 2,
+  "central_units": 19406,
+  "central_text_fields": 30723,
+  "central_inline_fields": 210,
+  "reused_batches": 166,
+  "central_term_adjustments": 153,
+  "deferred_unit_ids": [
+    "00_レコンキスタ_start_2.mjo::u1356",
+    "masa_10.mjo::u0168",
+    "masa_10.mjo::u0169",
+    "masa_10.mjo::u0170",
+    "masa_10.mjo::u0171",
+    "masa_10.mjo::u0172",
+    "masa_10.mjo::u0173",
+    "masa_10.mjo::u0174",
+    "masa_10.mjo::u0175",
+    "masa_10.mjo::u0176",
+    "masa_10.mjo::u0177",
+    "masa_10.mjo::u0178",
+    "masa_10.mjo::u0179",
+    "masa_10.mjo::u0180",
+    "masa_10.mjo::u0181",
+    "masa_10.mjo::u0184",
+    "masa_10.mjo::u0185",
+    "masa_10.mjo::u0187",
+    "masa_10.mjo::u0188",
+    "masa_10.mjo::u0189",
+    "masa_10.mjo::u0191",
+    "masa_10.mjo::u0192",
+    "masa_15.mjo::u0124",
+    "masa_15.mjo::u0125",
+    "masa_15.mjo::u0126",
+    "masa_15.mjo::u0127",
+    "masa_15.mjo::u0128",
+    "masa_15.mjo::u0129",
+    "masa_15.mjo::u0130",
+    "masa_15.mjo::u0131",
+    "masa_15.mjo::u0134",
+    "masa_15.mjo::u0135",
+    "masa_15.mjo::u0136",
+    "masa_15.mjo::u0137",
+    "masa_15.mjo::u0138",
+    "masa_15.mjo::u0139",
+    "masa_15.mjo::u0140",
+    "masa_15.mjo::u0141",
+    "masa_15.mjo::u0142",
+    "masa_15.mjo::u0143",
+    "masa_15.mjo::u0144",
+    "masa_15.mjo::u0145",
+    "masa_15.mjo::u0146",
+    "masa_15.mjo::u0147",
+    "masa_15.mjo::u0148",
+    "masa_15.mjo::u0149",
+    "masa_15.mjo::u0150",
+    "masa_15.mjo::u0151",
+    "masa_15.mjo::u0152",
+    "masa_15.mjo::u0153",
+    "masa_15.mjo::u0154",
+    "masa_16.mjo::u0795"
+  ],
+  "warnings": [
+    {
+      "id": "00_レコンキスタ_start_3.mjo::012354",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "00_レコンキスタ_start_3.mjo::u1142",
+      "target": "아까 시이나가 말한 『데려다준다며 딴맘 먹는 늑대』니 뭐니 하던 것.",
+      "origin": "body-parallel\\session-1\\lane-1\\batches\\00_レコンキスタ_start_3-u1032-u1148.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 303,
+        "4": 341
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_06.mjo::000062",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_06.mjo::u0005",
+      "target": "윤기 흐르는 검은 머리에 잠 덜 깬 내 얼굴이 비칠 것 같아 부끄러웠다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_06_u0001-u0134.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 297,
+        "4": 337
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_06.mjo::000567",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_06.mjo::u0052",
+      "target": "『쿠레하가 살아 있었으면 좋겠다』는 바람 때문에 그렇게 느끼는 걸까.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_06_u0001-u0134.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 311,
+        "4": 349
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_06.mjo::000892",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_06.mjo::u0083",
+      "target": "곤란하네… 요시모리는 다무라의 일을 완전히 수상하게 여기고 있다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_06_u0001-u0134.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 298,
+        "4": 334
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_06.mjo::001555",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_06.mjo::u0144",
+      "target": "장인은 현재 섬 남쪽에 있는 공원묘지에서 관리인으로 일하고 있었다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_06_u0135-u0276.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 299,
+        "4": 336
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_06.mjo::002110",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_06.mjo::u0195",
+      "target": "지금 이곳에서는 겉으로 드러나지 않은 채 이상한 일이 벌어지고 있다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_06_u0135-u0276.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 301,
+        "4": 339
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_06.mjo::002225",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_06.mjo::u0206",
+      "target": "해 질 무렵. 할아버지의 배웅을 받으며 공원묘지를 떠나는 마키노 부녀.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_06_u0135-u0276.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 248,
+        "4": 285
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_07.mjo::000781",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_07.mjo::u0068",
+      "target": "목소리가 듣기 좋게 울리는 욕실에서 노래하면 기분이 좋은 모양이다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_07_u0001-u0120.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 299,
+        "4": 336
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_07.mjo::001444",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_07.mjo::u0128",
+      "target": "지금까지 다무라 이후로 새로운 희생자는 나오지 않았다…고 생각한다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_07_u0121-u0211.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 308,
+        "4": 345
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_08.mjo::000669",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_08.mjo::u0065",
+      "target": "「아무리 그래도 『불길한 예감이 들어서 딸이 걱정된다』는 이유로",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_08_u0001-u0124.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 297,
+        "4": 332
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_08.mjo::001872",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_08.mjo::u0192",
+      "target": "나는 보았다. 번화가 안쪽에 검은 머리와 검은 세일러복 차림의 그림자 하나를.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_08_u0125-u0222.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 336,
+        "4": 379
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_08.mjo::001881",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_08.mjo::u0193",
+      "target": "이제 볼일은 끝났다는 듯 떠나려는 것처럼 이쪽에 등을 돌리고 있었다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_08_u0125-u0222.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 301,
+        "4": 339
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_08.mjo::003258",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_08.mjo::u0334",
+      "target": "남자는 일단 칼의 움직임을 멈췄다. 하지만 경계는 늦추지 않은 채,",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_08_u0223-u0360.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 284,
+        "4": 321
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_08.mjo::004219",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_08.mjo::u0430",
+      "target": "아침의 꿈, 낮에 일어날 뻔한 사고, 급기야 조금 전의 납치 미수까지…",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_08_u0361-u0486.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 297,
+        "4": 336
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_08.mjo::004646",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_08.mjo::u0469",
+      "target": "　그녀를 그리워하며 향을 피우자 그 모습이 나타났다는… 그런 이야기」",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_08_u0361-u0486.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 319,
+        "4": 357
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_08.mjo::004981",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_08.mjo::u0497",
+      "target": "그녀가 자신을 『아주 오래전에 죽었을 사람』이라고 단언했기 때문이다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_08_u0487-u0630.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 319,
+        "4": 357
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_08.mjo::005872",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_08.mjo::u0582",
+      "target": "쿠레하는 가만히 눈을 가늘게 뜨고, 날카로운 시선으로 나를 꿰뚫었다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_08_u0487-u0630.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 302,
+        "4": 340
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_08.mjo::005947",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_08.mjo::u0587",
+      "target": "「그래서 나는 반혼으로 되살아난 이들을 다시 인간으로서 죽게 하려고…",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_08_u0487-u0630.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 318,
+        "4": 356
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_08.mjo::006234",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_08.mjo::u0611",
+      "target": "　일단 먹을 것과 입을 옷, 지낼 곳 정도는 마련해 줄 수 있을 거야」",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_08_u0487-u0630.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 289,
+        "4": 328
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_08.mjo::006307",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_08.mjo::u0619",
+      "target": "게다가 상대는 쿠레하. 나는 죽은 아내 모미지와 쏙 빼닮은 여자에게",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_08_u0487-u0630.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 291,
+        "4": 328
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_09.mjo::001299",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_09.mjo::u0130",
+      "target": "이 모습을 보니 어제 납치당할 뻔한 일로 충격을 받은 것 같지도 않고,",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_09_u0001-u0131.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 295,
+        "4": 334
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_09.mjo::002390",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_09.mjo::u0234",
+      "target": "다리나 허리가 약해지지 않게 조심해야… 벌써 늙은이 같은 생각이네.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_09_u0132-u0250.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 300,
+        "4": 337
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_09.mjo::002732",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_09.mjo::u0267",
+      "target": "매에게는 이름이 헷갈린다는 이유로 이름을 바꾸라는 요구를 받는다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_09_u0251-u0351.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 297,
+        "4": 333
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_09.mjo::002737",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_09.mjo::u0268",
+      "target": "매에게 『이름을 바꾸지 않으면 죽이겠다』는 협박을 받은 쏙독새는",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_09_u0251-u0351.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 296,
+        "4": 331
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_09.mjo::002741",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_09.mjo::u0268",
+      "target": "세상을 덧없이 여겨 하늘 저편으로 날아가려 한다… 그런 이야기였다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_09_u0251-u0351.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 300,
+        "4": 337
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_09.mjo::003503",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_09.mjo::u0338",
+      "target": "「그렇구나. 지금은 여름이니까 다른 단풍나무에는 단풍이 안 들었지.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_09_u0251-u0351.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 301,
+        "4": 338
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_09.mjo::005044",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_09.mjo::u0472",
+      "target": "하지만 그게 가능하다면 애초에 쿠레하가 손을 더럽힐 필요가 없다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_09_u0415-u0522.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 289,
+        "4": 325
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_09.mjo::005187",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_09.mjo::u0487",
+      "target": "금빛으로 빛나는 고양이 같은 눈동자가 나를 사로잡고 놓아주지 않는다――",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_09_u0415-u0522.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 328,
+        "4": 367
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_10.mjo::000525",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_10.mjo::u0053",
+      "target": "나는 또 모미지를 데리러 가기 전까지 남는 시간을 주체하지 못했다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_10_u0001-u0098.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 291,
+        "4": 328
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_10.mjo::000626",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_10.mjo::u0063",
+      "target": "『일 년 내내 단풍이 들어 있다』는 특징이라도 남아 있으면 좋으련만…",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_10_u0001-u0098.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 311,
+        "4": 349
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_11.mjo::000223",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_11.mjo::u0022",
+      "target": "야시마 씨는 먹잇감을 노리는 매 같은 눈으로 나를 뚫어지게 보았다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_11_u0001-u0079.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 291,
+        "4": 328
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_11.mjo::001053",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_11.mjo::u0099",
+      "target": "「내가 봐도 미련을 못 버린다고 해야 할지, 우유부단하다고 해야 할지…」",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_11_u0080-u0173.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 324,
+        "4": 364
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_12.mjo::001236",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_12.mjo::u0113",
+      "target": "그 모습은 내가 꿈꾸던, 환상 속 가족의 단란한 한때를 재현하고 있었다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_12_u0069-u0184.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 306,
+        "4": 346
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_12.mjo::002002",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_12.mjo::u0183",
+      "target": "쿠레하와 모미지는 고개를 갸웃하며 똑같은 말을 차례로 되풀이했다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_12_u0069-u0184.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 297,
+        "4": 333
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_12.mjo::002742",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_12.mjo::u0247",
+      "target": "그 말은 분명 들었다. 반혼으로 되살아난 사람에게는 부작용이 있어,",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_12_u0185-u0325.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 292,
+        "4": 329
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_13.mjo::000148",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_13.mjo::u0010",
+      "target": "다음 날에도 밤거리를 돌아다니다 몽유병 상태인 다무라를 보았고…",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_13_u0001-u0114.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 295,
+        "4": 330
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_13.mjo::001622",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_13.mjo::u0151",
+      "target": "기분이 좋아진 모미지는 갓 배운 휴대전화 기능을 쿠레하에게 뽐냈다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_13_u0115-u0184.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 299,
+        "4": 336
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_15.mjo::000719",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_15.mjo::u0068",
+      "target": "하지만 듣고 보니 시오미 선생님은 여학생들에게 인기 있을 만하다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_15_u0001-u0101.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 289,
+        "4": 325
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_15.mjo::000924",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_15.mjo::u0086",
+      "target": "요시모리는 시오미 선생님에게 관심 있는 티를 낸 적이 한 번도 없다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_15_u0001-u0101.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 293,
+        "4": 331
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_15.mjo::001541",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_15.mjo::u0151",
+      "target": "　그냥 요시모리가 시오미 선생님께 고백했다는 걸 믿기 싫은 거야?)」",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_15_u0102-u0230.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 307,
+        "4": 344
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_15.mjo::004751",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_15.mjo::u0470",
+      "target": "「성령도 말씀하신다. 『그렇다. 그들은 수고를 벗고 안식을 얻으리니,",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_15_u0360-u0483.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 305,
+        "4": 343
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_15.mjo::005351",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_15.mjo::u0526",
+      "target": "모미지의 무게와 체온이 느껴지자 나도 모르게 눈물이 날 것 같았다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_15_u0484-u0548.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 291,
+        "4": 328
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_17.mjo::000315",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_17.mjo::u0032",
+      "target": "중년 여성의 정중한 인사에 나는 몸 둘 바를 몰라 하며 고개를 끄덕였다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_17_u0001-u0141.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 305,
+        "4": 345
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_17.mjo::001093",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_17.mjo::u0107",
+      "target": "　그게 우리 둘을 이어 주는 끈이자 사이를 가르는 벽이기도 했네」",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_17_u0001-u0141.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 290,
+        "4": 326
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_17.mjo::003061",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_17.mjo::u0300",
+      "target": "요시모리의 실종은 벌써 이렇게 많은 사람에게 영향을 끼치고 있다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_17_u0284-u0402.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 289,
+        "4": 325
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_17.mjo::004359",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_17.mjo::u0438",
+      "target": "금단증상이 나타난 쿠레하는 도저히 말을 할 수 있는 상태가 아니다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_17_u0403-u0534.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 291,
+        "4": 328
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_18.mjo::000675",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_18.mjo::u0065",
+      "target": "모미지가 이야기에 열중하면 머리가 흔들리고 머리끝이 팔랑거렸다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_18_u0001-u0150.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 295,
+        "4": 330
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_18.mjo::001573",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_18.mjo::u0147",
+      "target": "야시마 씨가 요시모리와 손잡지만 않았어도… 그 아이는 무모한 짓을 하지 않고",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_18_u0001-u0150.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 341,
+        "4": 383
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_18.mjo::004766",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_18.mjo::u0464",
+      "target": "「네 아내, 결혼 전 이름이 가미조 모미지였던 그 아이의 친어머니야」",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_18_u0441-u0584.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 303,
+        "4": 341
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_19.mjo::002011",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_19.mjo::u0198",
+      "target": "「구체적으로 말하자면… 반혼으로 되살아난 사람에게서 부작용을 없애",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_19_u0141-u0276.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 314,
+        "4": 350
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_19.mjo::003520",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_19.mjo::u0335",
+      "target": "그래서 쿠레하는 모미지에게서 자기 딸의 모습을 보고 있었던 거다…",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_19_u0277-u0420.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 297,
+        "4": 333
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_19.mjo::004678",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_19.mjo::u0436",
+      "target": "하지만 이래서는 말 그대로 나무를 숨기려면 숲속에 숨기라는 꼴이다.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_19_u0421-u0559.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 299,
+        "4": 336
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_19.mjo::004691",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_19.mjo::u0437",
+      "target": "『일 년 내내 단풍이 들어 있다』는 모습이라도 하고 있으면 좋으련만…",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_19_u0421-u0559.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 311,
+        "4": 349
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_19.mjo::004813",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_19.mjo::u0451",
+      "target": "밑동에 살며시 기대어 있는 건… 검은 머리칼과 검은 세일러복 차림의 그림자.",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_19_u0421-u0559.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 334,
+        "4": 376
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_19.mjo::005509",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_19.mjo::u0515",
+      "target": "　그녀를 그리워하며 향을 피우자 그 모습이 나타났다고 한다――』",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_19_u0421-u0559.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 298,
+        "4": 333
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "kureha_ep.mjo::000675",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "kureha_ep.mjo::u0064",
+      "target": "『좋아하는 사람이랑 언제까지나 같이 있을 수 있는 약』이랬다――",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\kureha_ep_u0001-u0068.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 242,
+        "4": 277
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "sub_kure02.mjo::001018",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "sub_kure02.mjo::u0046",
+      "target": "처음 죽었을 때 하늘의 부름을 받았을 거라는 것만은 알 수 있었다…",
+      "origin": "body-parallel\\session-1\\lane-2\\batches\\sub_kure02_u0001-u0052.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 291,
+        "4": 328
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_07.mjo::000430",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_07.mjo::u0035",
+      "target": "해 질 무렵. 할아버지의 배웅을 받으며 공원묘지를 떠나는 마키노 부녀.",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_07_u0001-0136.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 248,
+        "4": 285
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_07.mjo::003489",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_07.mjo::u0289",
+      "target": "쏙독새의 최후가 어린 마음에도 몹시 슬퍼 눈물이 났던 기억이 있다.",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_07_u0231-0345.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 291,
+        "4": 328
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_08.mjo::000450",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_08.mjo::u0037",
+      "target": "모미지가 호기심 가득한 얼굴로 요시모리를 뚫어져라 보기 시작했다.",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_08_u0001-0140.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 297,
+        "4": 333
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_08.mjo::003861",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_08.mjo::u0358",
+      "target": "남자는 일단 칼의 움직임을 멈췄다. 하지만 경계는 늦추지 않은 채,",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_08_u0322-0456.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 284,
+        "4": 321
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_08.mjo::004313",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_08.mjo::u0409",
+      "target": "내가 온 힘을 다해 들이받자, 복면남은 버티지 못하고 땅에 쓰러졌다.",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_08_u0322-0456.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 294,
+        "4": 332
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_08.mjo::005315",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_08.mjo::u0493",
+      "target": "요시모리를 미끼로 나를 밖으로 꾀어냈다… 여기까지는 분명하겠지.",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_08_u0457-0571.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 296,
+        "4": 331
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_09.mjo::002654",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_09.mjo::u0241",
+      "target": "「그리고 미도리 씨, 이쪽은 마키노 선생님이에요. 우리 학교 선생님인데,",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_09_u0172-0260.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 316,
+        "4": 356
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_12.mjo::003817",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_12.mjo::u0304",
+      "target": "하지만 어째서인지 꼬맹이는 나타나지 않아서 공터를 뒤지고 다녔다.",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_12_u0257-0373.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 297,
+        "4": 333
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_13.mjo::003844",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_13.mjo::u0267",
+      "target": "하지만 아무리 기다려도 『수술 중』이라는 붉은 등은 꺼지지 않았고,",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_13_u0135-0269.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 301,
+        "4": 338
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_14.mjo::000171",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_14.mjo::u0014",
+      "target": "잘생기고 말씨도 부드러운 데다 누구에게나 다정한 시오미 선생님은",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_14_u0001-0136.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 294,
+        "4": 329
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_14.mjo::004036",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_14.mjo::u0399",
+      "target": "나는 소리도 나오지 않는 목소리로 마키노 선생님께 도움을 청했다.",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_14_u0261-0406.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 289,
+        "4": 325
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_15.mjo::002381",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_15.mjo::u0187",
+      "target": "그렇습니다. 소년은 숲속 동물들이 거짓말을 한다는 걸 알고 있었습니다.",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_15_u0124-0208.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 312,
+        "4": 351
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_16.mjo::000486",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_16.mjo::u0048",
+      "target": "「『그렇구나… 그래도 네가 위험한 일을 당하지 않아서 다행이야』」",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_16_u0001-0111.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 309,
+        "4": 345
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_16.mjo::005128",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_16.mjo::u0458",
+      "target": "요시모리는 젖은 목욕 수건 차림인 것도 신경 쓰지 않고 이야기했다.",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_16_u0338-0461.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 291,
+        "4": 328
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_16.mjo::006480",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_16.mjo::u0573",
+      "target": "나는 고개를 끄덕이며 그녀를 감싼 팔을 조심스레 움직이기 시작했다.",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_16_u0462-0573.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 299,
+        "4": 336
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_16.mjo::009541",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_16.mjo::u0886",
+      "target": "운동복으로 갈아입은 요시모리와 거실에서 이야기를 나누고 있었다.",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_16_u0801-0927.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 295,
+        "4": 330
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_16.mjo::009646",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_16.mjo::u0897",
+      "target": "그 책이 요시모리에게 조금이라도 도움이 됐다면 그것으로 충분했다.",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_16_u0801-0927.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 297,
+        "4": 333
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_17.mjo::002559",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_17.mjo::u0230",
+      "target": "그것이 모미지에게 닿기도 전에 내 의식은 어둠 속으로 떨어졌다――",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_17_u0143-0246.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 298,
+        "4": 334
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_18.mjo::000228",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_18.mjo::u0020",
+      "target": "「『지난번엔 신세를 졌습니다. 하마터면 목숨을 잃을 뻔했어요』」",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_18_u0001-0117.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 299,
+        "4": 334
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_18.mjo::000427",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_18.mjo::u0039",
+      "target": "　쿠레하 씨도 모미지 양이 죽는 걸 내버려 두진 못할 테니까요』」",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_18_u0001-0117.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 291,
+        "4": 327
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_18.mjo::002228",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_18.mjo::u0197",
+      "target": "「반혼으로 되살아난 사람 한 명에 반드시 한 명의 희생이 필요해…」",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_18_u0118-0204.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 301,
+        "4": 338
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "masa_18.mjo::003203",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "masa_18.mjo::u0271",
+      "target": "바람이 나뭇가지와 잎을 흔드는 소리가 깊은 어둠 속에 울려 퍼졌다.",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\masa_18_u0269-0360.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 291,
+        "4": 328
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "sub_masa01.mjo::000383",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "sub_masa01.mjo::u0018",
+      "target": "나는 뒤에서 조용히 다가가 소녀의 팔을 붙잡아 꼼짝 못 하게 했다.",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\sub_masa01_u0001-0028.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 283,
+        "4": 320
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    },
+    {
+      "id": "sub_masa02.mjo::000121",
+      "reason": "Estimated >31 cells; review wrapping, do not omit meaning",
+      "unit": "sub_masa02.mjo::u0007",
+      "target": "다른 개발 공사도 기본적으로 기지 건설을 내다보고 시작한 일이라,",
+      "origin": "body-parallel\\session-1\\lane-3\\batches\\sub_masa02_u0001-0012.json",
+      "status": "headless_pass_final_visual_by_user",
+      "measured_advance_px": {
+        "1": 289,
+        "4": 325
+      },
+      "resolution": "31-cell estimate was conservative; native GDI advances fit the source console. Target unchanged."
+    }
+  ],
+  "runtime_verified": false,
+  "next_step": "User final in-game visual verification; no autonomous GUI run.",
+  "technical_adjustments": [
+    {
+      "issue": "CP932 cannot represent U+00B7 middle dot used in7 approved fields",
+      "resolution": "Extend existing collision-free font glyph map; accepted target text unchanged",
+      "affected_codepoints": [
+        "U+00B7"
+      ],
+      "validator_reuse": "Previous bytecode cache reused; new encoding/font output is checked as changed dependency"
+    },
+    {
+      "issue": "8 additional direct Mincho font setters in opening3",
+      "resolution": "Exact allowlisted console_font consumers use mapped Korean serif family",
+      "instruction_indices": [
+        16776,
+        16801,
+        16898,
+        16926,
+        16973,
+        17403,
+        17415,
+        17427
+      ]
+    }
+  ],
+  "runtime_profile": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-qa\\session1-width81-3a72a9ff-modes",
+  "build": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\builds\\integrated-session1-04fc30b0-widthqa-v1",
+  "build_scenario_sha256": "3a72a9ff2b7c85945e8c34877a3fa16702debeef8ba83a31c4aa249c8d62eb84",
+  "authorization_updates": [
+    "User requested headless background verification",
+    "User will perform final in-game verification personally"
+  ],
+  "headless_width_measurement": {
+    "method": "Native FUN_00413890 font setup plus FUN_004161f0 per-CP932-character GetTextExtentPoint32A; ceil at4x",
+    "count": 81,
+    "scale1": {
+      "min_px": 283,
+      "max_px": 341,
+      "over692": 0
+    },
+    "scale4": {
+      "min_px": 320,
+      "max_px": 383,
+      "over692": 0
+    },
+    "font_family": "Reconquista KR fd641824",
+    "font_setup": {
+      "height": 23,
+      "half_width": 11,
+      "charset": 1,
+      "quality": 3,
+      "odd_height_width_correction": "scale//2"
+    },
+    "source": "headless GDI measurement completed2026-10-23; all81 warning targets tested in each scale",
+    "native_function_evidence_id": "ev_fb87ccbcc10f6863de21a3a8d24b59c0292d2b458573ab885f569bfedc4dd5f1",
+    "native_font_evidence_reused": "reports/native-evidence-20261022.json / procedure0x413890",
+    "not_an_in_game_capture": true
+  },
+  "headless_report": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\session1-04fc30b0-widthqa-v1\\headless-width-81.json",
+  "headless_overflows": 0,
+  "final_visual_owner": "user",
+  "width_target_edits": 0,
+  "normal_runtime": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\runtime-integration-session1-3a72a9ff",
+  "frozen_verification_evidence": [
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\session1-04fc30b0-widthqa-v1\\provenance\\font-gdi-sans.json",
+      "sha256": "5cd3e82f5b69b90489eb72d417a1fda0eeae6842129593e8fa75c5c7781e830d",
+      "reused_existing_result": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\session1-04fc30b0-widthqa-v1\\provenance\\font-gdi-serif.json",
+      "sha256": "46a53f1a7ace92459654058c9aabe713cdc72a9b388eee980b31b02713e8fb39",
+      "reused_existing_result": true
+    },
+    {
+      "path": "P:\\AI\\Codex\\projects\\migrated-from-c\\onedrive-chatgpt\\레콘퀴스타\\translation\\integration\\session1-04fc30b0-widthqa-v1\\provenance\\native-layout-evidence.json",
+      "sha256": "f7910e2438a8abf26d79cef5c1dede8688f41ffca6600016b90595b4eebdccf8",
+      "reused_existing_result": true
+    }
+  ],
+  "completion_note": "Central integration and headless scope complete. Final in-game visual acceptance reserved for user. No GUI opened after user headless instruction."
+}

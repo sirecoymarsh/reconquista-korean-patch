@@ -1,0 +1,362 @@
+{
+  "translator_model": "Codex internal",
+  "source_translation": "translation/ui-text-ko.tsv",
+  "fields": 18,
+  "entries": 5,
+  "required_windows_acp": 949,
+  "status": "static_pass_user_runtime_review_pending",
+  "outputs": {
+    "cgmode.mjo": {
+      "structural_rewrite": {
+        "source_sha256": "9599979808cb9be850c84c300981ea6970f740a1a8f3c26e529f18d943e62c4e",
+        "output_sha256": "8882f5d5604eeeebec979d1c6b7ceac11a0cb88634c8eb500ccf9bbc65e9cc82",
+        "original_instructions": 2741,
+        "output_instructions": 2741,
+        "replacement_indices": [
+          576,
+          817,
+          932,
+          971
+        ],
+        "insertion_indices": [],
+        "relocated_jumps": 197,
+        "relocated_switch_cases": 9,
+        "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+      },
+      "output_sha256": "f4fee20a17d531bc7a2dd34368e90df5c2e9eeb212d0e0fb3a516958dcf26dde",
+      "native_bytes_preserve_length": true,
+      "outside_string_ranges_unchanged": true,
+      "roundtrip_target_text_verified": true,
+      "records": [
+        {
+          "id": "cgmode.mjo::000576",
+          "source": " ] CHECK1の時点でパラメータ数が合いません。",
+          "target": " ] CHECK1 위치에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 576,
+          "payload_hex": "205d20434845434b3120c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            3962,
+            4009
+          ]
+        },
+        {
+          "id": "cgmode.mjo::000817",
+          "source": " ] CHECK2の時点でパラメータ数が合いません。",
+          "target": " ] CHECK2 위치에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 817,
+          "payload_hex": "205d20434845434b3220c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            5642,
+            5689
+          ]
+        },
+        {
+          "id": "cgmode.mjo::000932",
+          "source": " ] CHECK3の時点でパラメータ数が合いません。",
+          "target": " ] CHECK3 위치에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 932,
+          "payload_hex": "205d20434845434b3320c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            6393,
+            6440
+          ]
+        },
+        {
+          "id": "cgmode.mjo::000971",
+          "source": " ] ALL_ENDの時点でパラメータ数が合いません。",
+          "target": " ] ALL_END 위치에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 971,
+          "payload_hex": "205d20414c4c5f454e4420c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            6694,
+            6742
+          ]
+        }
+      ]
+    },
+    "config.mjo": {
+      "structural_rewrite": {
+        "source_sha256": "5dee061ec6830e1728a5c67c4c0c87024a50daaafc0a97f41e960e448e58c69b",
+        "output_sha256": "91c36a2efacd76e81fe091baeec143565a7816255fa565ec36cacc184e583a44",
+        "original_instructions": 11991,
+        "output_instructions": 11991,
+        "replacement_indices": [
+          8007,
+          8013,
+          8730,
+          9002,
+          9446,
+          9713,
+          11911
+        ],
+        "insertion_indices": [],
+        "relocated_jumps": 1481,
+        "relocated_switch_cases": 168,
+        "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+      },
+      "output_sha256": "f1e4bd261d2ff66946278e2c0a6d71ff9171c05828bd9b9fb053ca34ce179015",
+      "native_bytes_preserve_length": true,
+      "outside_string_ranges_unchanged": true,
+      "roundtrip_target_text_verified": true,
+      "records": [
+        {
+          "id": "config.mjo::008005",
+          "source": " / 音量 : ",
+          "target": " / 음량 : ",
+          "instruction_index_current": 8007,
+          "payload_hex": "202f20c0bdb7ae203a20",
+          "native_consumer_hash": "4d2d4277",
+          "encoding": "cp949",
+          "bytecode_range": [
+            56679,
+            56689
+          ]
+        },
+        {
+          "id": "config.mjo::008011",
+          "source": "文字速度 : ",
+          "target": "글자 표시 속도 : ",
+          "instruction_index_current": 8013,
+          "payload_hex": "b1dbc0da20c7a5bdc320bcd3b5b5203a20",
+          "native_consumer_hash": "4d2d4277",
+          "encoding": "cp949",
+          "bytecode_range": [
+            56738,
+            56755
+          ]
+        },
+        {
+          "id": "config.mjo::008726",
+          "source": "[ config.cfg ]の check パラメータの数が不足しています",
+          "target": "[ config.cfg ]의 check 항목 수가 부족합니다",
+          "instruction_index_current": 8730,
+          "payload_hex": "5b20636f6e6669672e636667205dc0c720636865636b20c7d7b8f120bcf6b0a120bacec1b7c7d5b4cfb4d9",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            62420,
+            62463
+          ]
+        },
+        {
+          "id": "config.mjo::008998",
+          "source": "[ config.cfg ] [EOF]の存在と位置を確認してください",
+          "target": "[ config.cfg ]에서 [EOF]의 존재 여부와 위치를 확인해 주세요",
+          "instruction_index_current": 9002,
+          "payload_hex": "5b20636f6e6669672e636667205dbfa1bcad205b454f465dc0c720c1b8c0e720bfa9bacebfcd20c0a7c4a1b8a620c8aec0cec7d820c1d6bcbcbfe4",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            64158,
+            64217
+          ]
+        },
+        {
+          "id": "config.mjo::009442",
+          "source": "[ config.cfg ] 画面関連セクション終了時点でパラメータ数が合いません。",
+          "target": "[ config.cfg ] 화면 설정 구역 끝에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 9446,
+          "payload_hex": "5b20636f6e6669672e636667205d20c8adb8e920bcb3c1a420b1b8bfaa20b3a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            67243,
+            67308
+          ]
+        },
+        {
+          "id": "config.mjo::009709",
+          "source": "[ config.cfg ] 音量関連セクション終了時点でパラメータ数が合いません。",
+          "target": "[ config.cfg ] 음량 설정 구역 끝에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 9713,
+          "payload_hex": "5b20636f6e6669672e636667205d20c0bdb7ae20bcb3c1a420b1b8bfaa20b3a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            69115,
+            69180
+          ]
+        },
+        {
+          "id": "config.mjo::011907",
+          "source": "[ config.cfg ] 人物個別セクション終了時点でパラメータ数が合いません。",
+          "target": "[ config.cfg ] 인물별 설정 구역 끝에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 11911,
+          "payload_hex": "5b20636f6e6669672e636667205d20c0ceb9b0bab020bcb3c1a420b1b8bfaa20b3a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            84089,
+            84156
+          ]
+        }
+      ]
+    },
+    "load_sysdata.mjo": {
+      "structural_rewrite": {
+        "source_sha256": "4f0af117990acbe80e55153e845dbd065016bea5c53695872440578321abeecd",
+        "output_sha256": "883dc91f3128cfbb7116e0ea02cbdc792b384c85919569a7185aa2a308274c3f",
+        "original_instructions": 1399,
+        "output_instructions": 1399,
+        "replacement_indices": [
+          1383
+        ],
+        "insertion_indices": [],
+        "relocated_jumps": 67,
+        "relocated_switch_cases": 0,
+        "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+      },
+      "output_sha256": "18d3a7052f9a70fda825712849d5630408129be1a607c4813721089c8c311600",
+      "native_bytes_preserve_length": true,
+      "outside_string_ranges_unchanged": true,
+      "roundtrip_target_text_verified": true,
+      "records": [
+        {
+          "id": "load_sysdata.mjo::001378",
+          "source": "[ sysdata.cfg ] CHECK_ENDの時点でパラメータ数が合いません。",
+          "target": "[ sysdata.cfg ] CHECK_END 위치에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 1383,
+          "payload_hex": "5b20737973646174612e636667205d20434845434b5f454e4420c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            10031,
+            10094
+          ]
+        }
+      ]
+    },
+    "loadsave.mjo": {
+      "structural_rewrite": {
+        "source_sha256": "8766cbb1626ffa2bc3980e1e17b09490302095f0447aae6254edf387e95d7efd",
+        "output_sha256": "9e123bfbd8013aeaa6216e0e60118e1c0e174b62bfe6e99a64aa500948f81312",
+        "original_instructions": 2167,
+        "output_instructions": 2167,
+        "replacement_indices": [
+          1698,
+          1798,
+          2083
+        ],
+        "insertion_indices": [],
+        "relocated_jumps": 126,
+        "relocated_switch_cases": 0,
+        "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+      },
+      "output_sha256": "4195917ceadef536a4e87c7b5402f24d88bbe7336ad54f65c1d43c97b9992ed1",
+      "native_bytes_preserve_length": true,
+      "outside_string_ranges_unchanged": true,
+      "roundtrip_target_text_verified": true,
+      "records": [
+        {
+          "id": "loadsave.mjo::001698",
+          "source": "[ loadsave.cfg ] PARAM_CHK1の時点でパラメータ数が合いません。",
+          "target": "[ loadsave.cfg ] PARAM_CHK1 위치에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 1698,
+          "payload_hex": "5b206c6f6164736176652e636667205d20504152414d5f43484b3120c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            11439,
+            11504
+          ]
+        },
+        {
+          "id": "loadsave.mjo::001798",
+          "source": "[ loadsave.cfg ] PARAM_CHK2の時点でパラメータ数が合いません。",
+          "target": "[ loadsave.cfg ] PARAM_CHK2 위치에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 1798,
+          "payload_hex": "5b206c6f6164736176652e636667205d20504152414d5f43484b3220c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            12156,
+            12221
+          ]
+        },
+        {
+          "id": "loadsave.mjo::002083",
+          "source": "[ loadsave.cfg ] PARAM_CHK3の時点でパラメータ数が合いません。",
+          "target": "[ loadsave.cfg ] PARAM_CHK3 위치에서 매개변수 수가 맞지 않습니다.",
+          "instruction_index_current": 2083,
+          "payload_hex": "5b206c6f6164736176652e636667205d20504152414d5f43484b3320c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            14161,
+            14226
+          ]
+        }
+      ]
+    },
+    "menu.mjo": {
+      "structural_rewrite": {
+        "source_sha256": "d1d2b671dbc673badc620ad5d6d6e140f172a8bef6044c61b87ef514a6a2f257",
+        "output_sha256": "f48ec7e30a54539a621fcda969922bc18e8e8542eebec661a1837d17c8894ec9",
+        "original_instructions": 5278,
+        "output_instructions": 5278,
+        "replacement_indices": [
+          4647,
+          4853,
+          5105
+        ],
+        "insertion_indices": [],
+        "relocated_jumps": 461,
+        "relocated_switch_cases": 168,
+        "validation": "unchanged raw instructions + original branch/function target equivalence + inserted branch boundaries"
+      },
+      "output_sha256": "ad8b3d06fdd48b1302bb2be5b3401aeabba864c4fa576f3543866923bc58a7d2",
+      "native_bytes_preserve_length": true,
+      "outside_string_ranges_unchanged": true,
+      "roundtrip_target_text_verified": true,
+      "records": [
+        {
+          "id": "menu.mjo::004647",
+          "source": "[ menudata.cfg ] PARAM_CHKの時点でパラメータ数が合いません。MENUMODE等を確認してください",
+          "target": "[ menudata.cfg ] PARAM_CHK 위치에서 매개변수 수가 맞지 않습니다. MENUMODE 등을 확인해 주세요",
+          "instruction_index_current": 4647,
+          "payload_hex": "5b206d656e75646174612e636667205d20504152414d5f43484b20c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e204d454e554d4f444520b5eec0bb20c8aec0cec7d820c1d6bcbcbfe4",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            31958,
+            32050
+          ]
+        },
+        {
+          "id": "menu.mjo::004853",
+          "source": "[ menudata.cfg ] PARAM_CHKの時点でパラメータ数が合いません。MENUMODE等を確認してください",
+          "target": "[ menudata.cfg ] PARAM_CHK 위치에서 매개변수 수가 맞지 않습니다. MENUMODE 등을 확인해 주세요",
+          "instruction_index_current": 4853,
+          "payload_hex": "5b206d656e75646174612e636667205d20504152414d5f43484b20c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e204d454e554d4f444520b5eec0bb20c8aec0cec7d820c1d6bcbcbfe4",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            33374,
+            33466
+          ]
+        },
+        {
+          "id": "menu.mjo::005105",
+          "source": "[ menudata.cfg ] PARAM_CHKの時点でパラメータ数が合いません。MENUMODE等を確認してください",
+          "target": "[ menudata.cfg ] PARAM_CHK 위치에서 매개변수 수가 맞지 않습니다. MENUMODE 등을 확인해 주세요",
+          "instruction_index_current": 5105,
+          "payload_hex": "5b206d656e75646174612e636667205d20504152414d5f43484b20c0a7c4a1bfa1bcad20b8c5b0b3baafbcf620bcf6b0a120b8c2c1f620becabdc0b4cfb4d92e204d454e554d4f444520b5eec0bb20c8aec0cec7d820c1d6bcbcbfe4",
+          "native_consumer_hash": "df644f85",
+          "encoding": "cp949",
+          "bytecode_range": [
+            35227,
+            35319
+          ]
+        }
+      ]
+    }
+  }
+}

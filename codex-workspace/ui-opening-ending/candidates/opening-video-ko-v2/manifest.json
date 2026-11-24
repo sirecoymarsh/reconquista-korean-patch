@@ -1,0 +1,88 @@
+{
+  "candidate": "opening-video-ko-v2",
+  "translator_model": "Codex internal",
+  "task_id": "01a162df-720c-77d2-96ed-6429e90b3333",
+  "created_at_utc": "2026-10-23T02:30:46.765963+00:00",
+  "status": "static_encoded_video_visual_and_audio_pass_user_playback_pending",
+  "frozen": true,
+  "ready_for_integration": true,
+  "release_pass": false,
+  "payloads": [
+    {
+      "relative_path": "movie/Recon_OP800_H.mpg",
+      "payload_path": "payloads/movie/Recon_OP800_H.mpg",
+      "source_path": "P:\\AI\\Codex\\projects\\reconquista-ko\\research\\disc\\movie\\Recon_OP800_H.mpg",
+      "source_sha256": "6da04d09fd954c67b004b6cecfe22fd89da473cbf60fd74856d2170a1972995a",
+      "output_sha256": "46f4c0f9bcccd5294fb01ac2040824cfe577634b6ac70091da9d30c3bfaf4dda",
+      "output_bytes": 74338304
+    }
+  ],
+  "exact_logo_text": "레콘키스타",
+  "logo_master": "../brand-logo-ko-v2/master/reconquista-ko.png",
+  "logo_revision": "Initial 레 upper stroke shortened; remaining accepted v1 glyph geometry retained. Small isolated alpha specks culled during video downsampling.",
+  "subtitle_font": "Eulyoo1945 SemiBold",
+  "subtitle_font_file_redistributed": false,
+  "font_license": "https://www.eulyoo.co.kr/member/font.html",
+  "font_delivery": "Rasterized only. Internal fonts/ and build-source/ are not patch payloads.",
+  "explicit_fallback_characters": [
+    "沢",
+    "青"
+  ],
+  "caption_cues": 37,
+  "credit_cues": 21,
+  "lyric_cues": 16,
+  "omitted_duplicate_plain_titles": [
+    "op-credits::title-1",
+    "op-credits::title-2"
+  ],
+  "retained_quotation_cues": 4,
+  "source_semantic_hashes": {
+    "translation/opening-credits-ko.json": "0f28aa6f8b7538e631a35c35d12bd664e84ef100b08c52caefc723dd11e7be9c",
+    "translation/op-ed-lyrics-ko.json": "ea7428e12d4fefb0d7d686f2f8b35c2b9865074fe898eebf2a809b0794ed2832"
+  },
+  "video": {
+    "codec": "mpeg1video",
+    "size": [
+      800,
+      600
+    ],
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "60/1",
+    "avg_frame_rate": "30/1",
+    "frames": 3037,
+    "stream_duration_seconds": 101.216667,
+    "format_duration_seconds": 101.250611,
+    "video_relative_pts_max_error_seconds": 1.00000000458067e-06
+  },
+  "audio": {
+    "codec": "mp2",
+    "sample_rate": 44100,
+    "channels": 2,
+    "packets": 3876,
+    "elementary_payload_identical": true,
+    "elementary_sha256": "8e0702cb615b9322e54e2636590afc1db1186fc24860bac3ad209cfbc0e0f4ad",
+    "source_and_output_relative_av_start_seconds": 0.0,
+    "duration_seconds": 101.250611,
+    "relative_pts_max_error_seconds": 1.1000000014860234e-05
+  },
+  "verification": {
+    "technical": "evidence/technical-validation.json",
+    "encoded_visual": "evidence/encoded-frame-review.json",
+    "encoded_caption_bounds": "evidence/encoded-caption-bounds.json",
+    "source_motion_visual": "evidence/logo-frame-review.json",
+    "build": "evidence/build.json",
+    "build_input_hashes": "evidence/build-input-hashes.json",
+    "encoded_sample_count": 63,
+    "full_decode_errors": 0,
+    "all37_caption_cues_covered": true,
+    "preencoding_protected_pixels_outside_owned_masks_unchanged": true
+  },
+  "restoration_disclosure": "Logo intervals use coherent original video-frame/city-asset donors plus observed geometric motion and fitted illumination. Smooth red gradients are reconstructed from unoccluded same-frame pixels. Original RGB hidden by opaque Japanese lettering is not recoverable/proven byte-identical; acceptance is source-coherent visual review. No AI-generated background is used. Outside declared frame masks is identical before MPEG encoding. MPEG picture is re-encoded.",
+  "runtime_review": "User pending. No native game launch, desktop activation, input injection, or audio playback.",
+  "source_listening_provisional_ids": [
+    "op-lyrics::007",
+    "ed-lyrics::014"
+  ],
+  "central_integration_base": "body-ui-20261023-v7",
+  "integration_scope": "Copy only payloads/movie/Recon_OP800_H.mpg into next central build. Keep central body, ED hook, fonts and maps as-is."
+}
