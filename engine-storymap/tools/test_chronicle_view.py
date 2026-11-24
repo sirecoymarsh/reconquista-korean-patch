@@ -102,6 +102,20 @@ try:
     shutil.copy2(shots / f'chron-view-{k}.png', OUT / 'view-hover.png')
     k += 1
     step('shots', n=k, lines=lines('chron_proto shot')[-2:])
+    if mode == 'map':                                   # the 「이야기 지도」 button (120,28 82x24): the 연표 closes, the map opens
+        r = qa.w.RECT()
+        qa.u.GetClientRect(view, qa.c.byref(r))
+        s = r.right / 800
+        lp = ((round(40 * s) & 0xffff) << 16) | (round(161 * s) & 0xffff)
+        maps = g.log().count('inflow opened')
+        g.post(view, 0x200, 0, lp)
+        time.sleep(.3)
+        g.post(view, 0x201, 1, lp)
+        g.post(view, 0x202, 0, lp)
+        g.until(lambda: g.log().count('inflow opened') > maps, 15, 'map opens')
+        time.sleep(1)
+        step('map', act=lines('chron_proto act')[-2:], chronicle_closed='chronicle_open=0' in g.log(), maps=g.log().count('inflow opened'))
+        raise SystemExit
     g.post(view, 0x205, 0, 0)                            # a right click closes, as the user would
     g.until(lambda: 'chronicle_open=0' in g.log() or lines('chron_proto act'), 10, 'close')
     time.sleep(1.5)

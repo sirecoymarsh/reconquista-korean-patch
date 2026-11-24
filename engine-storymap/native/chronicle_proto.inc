@@ -139,7 +139,7 @@ static int VisibleRow0(){int r=0;while(r<tbl.rows&&tbl.top[size_t(r)]+tbl.h[size
 static double Breath(){double t=fmod(Now2()/1000.0,2.0);return t<1?t:2-t;}   // the NEW layer's alpha: 0 -> 1 -> 0 over 2 s (sprite_alfa_define 0..255, 1000 ms)
 struct Button{float x,y,w,h;};static const Button buttons[5]={{0,0,0,0},{494,7,165,26},{494,35,165,26},{394,9,101,52},{659,18,70,36}};   // 1 새 항목, 2 추가 이야기, 3 도움말, 4 닫기
 // 「이야기 지도」 (11-25), where the look switch was: closes the 연표 and opens the story map (M too)
-static const float MPX=122,MPY=28,MPW=92,MPH=24;
+static const float MPX=120,MPY=28,MPW=82,MPH=24;   // ends at 202, before the title (210)
 static bool MapAt(float x,float y){return x>=MPX&&x<MPX+MPW&&y>=MPY&&y<MPY+MPH;}
 static ComPtr<ID2D1PathGeometry> Poly(std::initializer_list<D2D1_POINT_2F> pts){ComPtr<ID2D1PathGeometry> g;ComPtr<ID2D1GeometrySink> k;if(FAILED(fac->CreatePathGeometry(&g))||FAILED(g->Open(&k)))return nullptr;
  auto it=pts.begin();k->BeginFigure(*it,D2D1_FIGURE_BEGIN_FILLED);for(++it;it!=pts.end();++it)k->AddLine(*it);k->EndFigure(D2D1_FIGURE_END_CLOSED);return SUCCEEDED(k->Close())?g:nullptr;}
