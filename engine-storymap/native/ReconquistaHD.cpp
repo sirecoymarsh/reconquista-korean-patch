@@ -543,6 +543,9 @@ static int __cdecl Layout(HWND h,UINT msg,WPARAM wp,LPARAM lp){
   // the window menu's 「전체 화면」/「창 모드」 (40002/40003) as F4/Alt+Enter: the engine's own handler only stretched the window
   // to the screen, title and menu kept (11-25, the user: 「게임 프로그램 상단의 전체 화면을 누르면 옵션의 전체 화면과 달리」)
   if(msg==WM_COMMAND&&(LOWORD(wp)==40002||LOWORD(wp)==40003)){Mode(LOWORD(wp)==40002);return 1;}
+  // the title bar's maximize button (and a double click on the title bar) is the same full screen: Windows' own maximize
+  // kept the title bar and menu (11-25, the user: 「우측 상단 전체화면 아이콘을 클릭하면 이렇게 되어버려」)
+  if(msg==WM_SYSCOMMAND&&(wp&0xFFF0)==SC_MAXIMIZE){Mode(1);return 1;}
   if(msg==WM_SYSKEYDOWN&&wp==VK_RETURN){if(!(lp&(1L<<30)))Mode(0);return 1;}
  }
  return oldLayout(h,msg,wp,lp);
