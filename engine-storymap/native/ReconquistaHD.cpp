@@ -412,25 +412,23 @@ static Variable* __cdecl VarWrite(Variable*v,short*index){if(MapTabPressed(v))re
 static Variable* __cdecl VarHash(uint32_t hash){if(auto p=FCVar(hash,nullptr))return p;if(hash==flowFast.hash)return &flowFast;if(hash==flowMark.hash)return &flowMark;if(hash==configVisibleVar.hash)return &configVisibleVar;if(auto p=ReviewVar(hash))return p;if(auto p=ReviewChronicle(hash))return p;return oldVarHash(hash);}
 static Variable* VarOf(uint32_t hash){return oldVarHash?oldVarHash(hash):nullptr;}   // a VM variable by its hash, the engine's own lookup
 // The text box's buttons by key (11-25, the user: 「플레이 창에서 단축키로 게임 조작 가능하게. 지금은 하단 커맨드들은
-// 마우스로만 작동해」): a key clicks that button as the mouse would. The cursor goes onto it first (console.mjo's $on@CONSOLE
-// hover runs and keeps what the click's handling reads), then a press and a release, a timer tick (50 ms) apart
-// (ConsoleKeyStep). Setting @ret/@is_select as $click@CONSOLE does skipped the hover: the 자동 button then crashed the
-// engine in a string store (11-25). Only while the text box waits for a button (@is_select 0). M opens the story map.
-// The text box's 「지도」 button (tools/build_map_tab.py: console.mjo's button 11, left of 퀵 저장): its $click@CONSOLE writes
+// 마우스로만 작동해」): a key is a choice the way console.mjo's own non-button handlers ($lclick/$rclick/$mroll@CONSOLE)
+// make one: @ret the button's id, @is_select 2. The pause loop then runs that button's case; with 2 (not a button's 1) it
+// skips the press and release art, which reads the hovered button's @no/@lx/@ly (a 1 without a hover crashed the engine,
+// 11-25). Only while the pause loop waits (@is_select 0, set_pausebutton_menu). S is console.mjo's case 12 (tools/
+// build_console.py: the next empty slot, as the save menu numbers them). M opens the story map.
+// The text box's 「지도」 button (tools/build_console.py: console.mjo's button 11, left of 퀵 저장): its $click@CONSOLE writes
 // @ret 11 after @is_select 1. That choice is taken back (@is_select 0, the pause loop goes on waiting) and the story map
 // opens through the map's own menu command, once the script has returned to its wait.
 static bool MapTabPressed(const Variable*v){if(!v||v->hash!=0xcaceeb7fu||v->value!=11)return false;if(Variable*sel=VarOf(0x405ba90fu))sel->value=0;
  PostMessageW(Game(),WM_COMMAND,0x7e43,0);if(logFile){fprintf(logFile,"console_map_tab\n");fflush(logFile);}return true;}
 static void OpenFlowChart();
-static const struct ConsoleKeyButton{WPARAM vk;int x,y;}consoleKeys[]={{'Q',325,574},{'W',375,574},{'L',475,574},{'A',576,574},{VK_ESCAPE,677,574}};   // sysdata.cfg BUT*: 퀵 저장, 퀵 로드, 불러오기, 자동, 설정
-static int ckPhase=0;static LPARAM ckAt=0;
+static const struct ConsoleKeyButton{WPARAM vk;int id;}consoleKeys[]={{'S',12},{'Q',8},{'W',9},{'L',1},{'A',2},{VK_ESCAPE,7}};   // 빈 칸 저장, 퀵 저장, 퀵 로드, 불러오기, 자동, 설정
 static bool ConsoleKey(UINT msg,WPARAM wp,LPARAM lp){if(msg!=WM_KEYDOWN||(lp&(1L<<30)))return false;
  if(wp=='M'){OpenFlowChart();return true;}
- for(auto&k:consoleKeys){if(k.vk!=wp)continue;Variable*sel=VarOf(0x405ba90fu);if(ckPhase||!sel||sel->value!=0)return false;
-  auto v=Viewport(Game());ckAt=MAKELPARAM(v.x+(int)ceil(double(k.x)*v.w/800),v.y+(int)ceil(double(k.y)*v.h/600));PostMessageW(Game(),WM_MOUSEMOVE,0,ckAt);ckPhase=1;
-  if(logFile){fprintf(logFile,"console_key vk=%02x at=%d,%d\n",unsigned(wp),k.x,k.y);fflush(logFile);}return true;}
+ for(auto&k:consoleKeys){if(k.vk!=wp)continue;Variable*sel=VarOf(0x405ba90fu),*ret=VarOf(0xcaceeb7fu);if(!sel||!ret||sel->value!=0)return false;
+  ret->value=k.id;sel->value=2;if(logFile){fprintf(logFile,"console_key vk=%02x id=%d%c",unsigned(wp),k.id,10);fflush(logFile);}return true;}
  return false;}
-static void ConsoleKeyStep(){if(!ckPhase)return;HWND g=Game();if(ckPhase==1){PostMessageW(g,WM_LBUTTONDOWN,MK_LBUTTON,ckAt);ckPhase=2;}else{PostMessageW(g,WM_LBUTTONUP,0,ckAt);ckPhase=0;}}   // the buttons' timer
 // The chronicle's scroll position (x $4d7f11ee max $704d8d29, y $b1fffe23 max $d95c0a13) set at once, any glide stopped.
 static bool ChroniclePosition(int*x,int*y,int*xmax,int*ymax){if(!oldVarHash)return false;Variable *vx=oldVarHash(0x4d7f11eeu),*vy=oldVarHash(0xb1fffe23u),*mx=oldVarHash(0x704d8d29u),*my=oldVarHash(0xd95c0a13u);
  if(!vx||!vy||!mx||!my)return false;if(x)*x=vx->value;if(y)*y=vy->value;if(xmax)*xmax=mx->value;if(ymax)*ymax=my->value;return true;}
@@ -501,7 +499,7 @@ static void DrawReviewButton(const DRAWITEMSTRUCT* di){
 }
 #include "quality.inc"
 #include "storymap_button.inc"
-static void CALLBACK ReviewButtonTimer(HWND,UINT,UINT_PTR,DWORD){SyncReviewButton();SyncQualityButton();SyncStoryMapButton();cproto::Tick();FCWarmStart();ConsoleKeyStep();}
+static void CALLBACK ReviewButtonTimer(HWND,UINT,UINT_PTR,DWORD){SyncReviewButton();SyncQualityButton();SyncStoryMapButton();cproto::Tick();FCWarmStart();}
 
 static void CALLBACK ProbeTimer(HWND,UINT,UINT_PTR,DWORD);
 static RECT lastModeRect{},lastMonitorRect{};static HMONITOR lastModeMonitor=nullptr;

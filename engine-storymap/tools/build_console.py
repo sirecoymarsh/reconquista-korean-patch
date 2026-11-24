@@ -1,4 +1,13 @@
-"""「지도」 button on the text box's button row (11-25, the user: 「연표 옆에 이야기 지도 버튼을 추가하는게 좋겠네」).
+"""The text box (console): its 「지도」 button and its 「빈 칸 저장」 case.
+
+「빈 칸 저장」 (11-25, the user's standard: S saves at once to the next empty slot): console.mjo's pause loop gets a case 12
+before the 퀵 저장's case 8, written as that case is (the save info, the 저장할 수 없습니다 check), with the save menu's own
+numbering (loadsave.mjo: page p from 1 to $f68bcd63, slot i under $b51b948b, the save number p*100+1+i, the last slot of
+a page the auto save's while $30b6a7d9) and its sound and voice; the first number whose $get_save_info$ is empty is
+saved, then 「p쪽 i번째 칸에 저장했습니다」 (or 「빈 칸이 없습니다」). The DLL's S key chooses case 12 (ReconquistaHD.cpp
+ConsoleKey).
+
+「지도」 button on the text box's button row (11-25, the user: 「연표 옆에 이야기 지도 버튼을 추가하는게 좋겠네」).
 
 Over the 연표 tab there is no room the game draws: it copies the text box art from y 454 down (sysdata.cfg CONALL) and
 the button art from x 286, y 450 (BUTALL). So the button goes at the row's left end, right before 「퀵 저장」, the same
@@ -11,10 +20,11 @@ plate as the row's buttons:
 - console.mjo: an areaevent_set for button 11 at 250,563,51,39 after the 연표's (the same handlers);
 - the DLL opens the story map when $click@CONSOLE writes @ret 11 (ReconquistaHD.cpp MapTabPressed).
 
-python build_map_tab.py <source runtime> <out>                build from a runtime (its fastdata, scenario, hires)
-python build_map_tab.py <source runtime> <out> <target>       and put it into <target> (its own fastdata keeps its env)
+python build_console.py <source runtime> <out>                build from a runtime (its fastdata, scenario, hires)
+python build_console.py <source runtime> <out> <target>       and put it into <target> (its own fastdata keeps its env)
 """
 import json
+import struct
 import sys
 import zlib
 from pathlib import Path
@@ -39,6 +49,107 @@ BUTALL = (b'286, 450, 514, 150', b'236, 450, 564, 150')
 AREA_10 = 0x09ba9                # console.mjo: the 연표's areaevent_set, the new one goes after it
 COLOR = {'off': (255, 244, 232, 255), 'on': (255, 255, 230, 255), 'push': (255, 209, 151, 255)}
 STATES, CODES = ('off', 'on', 'push'), ('m', 'h', 'k', 'e', 's', 't')
+
+
+HANGUL = json.loads((CODEX / 'translation' / 'hangul-cp932-map.json').read_text('utf-8'))['mapping']
+CASE_8 = 0x0ce9f                 # console.mjo: the pause loop's 퀵 저장 case (its line), case 12 goes before it
+CASES_END = 0x0d0d2              # where every case of that loop ends (its line before the loop's back jump)
+PAUSE_LOOP = 0xbd66              # that function; its locals 1, 2, 3 (ints) are unused, case 12 takes them
+P, I, N = 1, 2, 3
+
+
+def text(s):
+    b = ''.join(HANGUL.get(c, c) for c in s).encode('cp932') + b'\0'
+    return core.b.op('ldstr') + struct.pack('<H', len(b)) + b
+
+
+def var(op, scope, h, index=-1):
+    """ld / st.i of an int: savefile 0x20, persistent 0x00, local 0x60 (its index)."""
+    return core.b.op(op) + struct.pack('<HIh', scope, h, index)
+
+
+def local(op, index):
+    return var(op, 0x60, zlib.crc32({P: '_p@', I: '_i@', N: '_n@'}[index].encode()), index)
+
+
+def call(h, n):
+    return core.b.op('callp') + struct.pack('<IIH', h, 0, n)
+
+
+def op(*names):
+    return b''.join(core.b.op(n) for n in names)
+
+
+class Code:
+    """Instructions with labels; jumps are 6 bytes (opcode, int32 from the jump's end)."""
+    def __init__(self):
+        self.parts = []
+
+    def __call__(self, *chunks):
+        self.parts.extend(chunks)
+        return self
+
+    def label(self, name):
+        self.parts.append(('label', name))
+        return self
+
+    def jump(self, mnemonic, target):
+        self.parts.append(('jump', mnemonic, target))
+        return self
+
+    def build(self, outside):
+        pos, at = 0, {}
+        for p in self.parts:
+            if isinstance(p, tuple) and p[0] == 'label':
+                at[p[1]] = pos
+            else:
+                pos += 6 if isinstance(p, tuple) else len(p)
+        size = pos
+        at.update({k: v(size) for k, v in outside.items()})
+        out = b''
+        for p in self.parts:
+            if isinstance(p, tuple) and p[0] == 'jump':
+                out += core.b.op(p[1]) + struct.pack('<i', at[p[2]] - (len(out) + 6))
+            elif not isinstance(p, tuple):
+                out += p
+        assert len(out) == size
+        return out
+
+
+def save_case():
+    """case 12, inserted before CASE_8: label 'next' is case 8 (moved by the block), 'end' the cases' end."""
+    pages, slots, auto = (var('ld', 0x00, h) for h in (0xf68bcd63, 0xb51b948b, 0x30b6a7d9))
+    c = Code()
+    c(core.const(12)).jump('bne.case', 'next')
+    c(call(0x73099731, 0))                                                  # the save info, as case 8
+    c(core.syscall(0x4ffab7c4, 0, True)).jump('brfalse', 'free')            # $is_save_menu_disable
+    c(text('저장할 수 없습니다'), call(0xe72d9f52, 1)).jump('br', 'end')     # $message@MSG_BOX
+    c.label('free')(core.const(1), local('st.i', P), op('pop'))
+    c.label('page')(local('ld', P), pages, op('cle.i')).jump('brfalse', 'full')
+    c(core.const(0), local('st.i', I), op('pop'))
+    c.label('slot')(local('ld', I), slots, op('clt.i')).jump('brfalse', 'next_page')
+    c(auto, local('ld', I), slots, core.const(1), op('sub.i', 'ceq.i', 'andl')).jump('brtrue', 'next_slot')
+    c(local('ld', P), core.const(100), op('mul.i'), core.const(1), op('add.i'), local('ld', I), op('add.i'), local('st.i', N), op('pop'))
+    c(local('ld', N), core.syscall(0x65075141, 1, True), text(''), op('ceq.s')).jump('brfalse', 'next_slot')   # $get_save_info$
+    c(text('save'), core.syscall(0xed84e320, 1))                            # $sound3, as the save menu
+    c(local('ld', N), core.syscall(0x89018dd1, 1))                          # $do_save
+    c(text('save'), call(0x0bcee4d0, 1))                                    # $guide_voice@KOEKOE
+    c(local('ld', P), core.syscall(0x6f769889, 1, True), text('쪽 '), op('add.s'),
+      local('ld', I), core.const(1), op('add.i'), core.syscall(0x6f769889, 1, True), op('add.s'),
+      text('번째 칸에 저장했습니다'), op('add.s'), call(0xe72d9f52, 1)).jump('br', 'end')
+    c.label('next_slot')(local('ld', I), core.const(1), op('add.i'), local('st.i', I), op('pop')).jump('br', 'slot')
+    c.label('next_page')(local('ld', P), core.const(1), op('add.i'), local('st.i', P), op('pop')).jump('br', 'page')
+    c.label('full')(text('빈 칸이 없습니다'), call(0xe72d9f52, 1)).jump('br', 'end')
+    return c.build({'next': lambda size: size, 'end': lambda size: size + CASES_END - CASE_8})
+
+
+def free_locals(s, raw):
+    """The pause loop's locals P, I, N are used nowhere in it (its instructions up to the next function)."""
+    end = min((f.offset for f in s.functions if f.offset > PAUSE_LOOP), default=s.bytecode_size)
+    for x in s.instructions:
+        if PAUSE_LOOP <= x.offset < end and x.opcode.mnemonic in ('ld', 'st.i', 'st.s', 'ldelem') and x.size >= 10:
+            scope, _, index = struct.unpack_from('<HIh', raw, x.offset + 2)
+            assert not (scope & 0x60 == 0x60 and index in (P, I, N)), hex(x.offset)
 
 
 def key(name):
@@ -120,15 +231,20 @@ def build(src, out):
     bx, by, bw, bh = BUTTON
     extra = b''.join(core.const(v) for v in (0xe9da3d95 - (1 << 32), 0xedf9e430 - (1 << 32), 0x5438644d, bh, bw, by, bx, 11)) + core.syscall(0xf8d18340, 8)
     ins = s.instructions[at]
-    (out / 'console.mjo').write_bytes(core.rewrite(S['console.mjo'], {at: raw[ins.offset:ins.offset + ins.size] + extra}, {}, {}))
+    case8 = next(i for i, x in enumerate(s.instructions) if x.offset == CASE_8)
+    assert s.instructions[case8 + 1].offset == CASE_8 + 4 and raw[CASE_8 + 4:CASE_8 + 10] == core.const(8)
+    assert any(x.offset == CASES_END for x in s.instructions)
+    free_locals(s, raw)
+    (out / 'console.mjo').write_bytes(core.rewrite(S['console.mjo'], {at: raw[ins.offset:ins.offset + ins.size] + extra}, {case8: save_case()}, {}))
     (out / 'scenario.arc.source').write_text(str(src / 'scenario.arc'), 'utf-8')
-    (out / 'manifest.json').write_text(json.dumps({'entries': record, 'button': BUTTON, 'butall': BUTALL[1].decode(), 'area_id': 11}, ensure_ascii=False, indent=1), 'utf-8')
+    (out / 'manifest.json').write_text(json.dumps({'entries': record, 'button': BUTTON, 'butall': BUTALL[1].decode(), 'area_id': 11, 'save_case': 12}, ensure_ascii=False, indent=1), 'utf-8')
     print('built', len(record), 'frames ->', out)
 
 
 def apply(dst, out):
     """Into <dst>: its own fastdata.arc with the payloads, scenario.arc rebuilt from the build's source with the new
-    console.mjo (both written as new files, never through a hard link), and the 4x pngs (their jxl copies removed)."""
+    console.mjo (both written as new files, never through a hard link), and, where it has 4K art (a hires folder), the 4x
+    pngs (their jxl copies removed)."""
     a, P = arc_payload(dst / 'fastdata.arc')
     for p in (out / 'payloads').iterdir():
         P[p.name] = p.read_bytes()
@@ -140,7 +256,7 @@ def apply(dst, out):
     data = a.rebuild(S)
     (dst / 'scenario.arc').unlink()
     (dst / 'scenario.arc').write_bytes(data)
-    for p in (out / 'hd').iterdir():
+    for p in (out / 'hd').iterdir() if (dst / 'hires').is_dir() else ():
         for q in (dst / 'hires-jxl' / f'{p.stem}.jxl', dst / 'hires' / p.name):
             if q.exists():
                 q.unlink()
