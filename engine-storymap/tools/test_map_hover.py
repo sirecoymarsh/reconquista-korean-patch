@@ -1,6 +1,6 @@
 """python test_map_hover.py <label> [seconds before opening]: story map hover sweep (perf mode): every partial paint is checked against a full render (inflow partial_check)."""
 import sys, time, re, json
-sys.path.insert(0, r'P:\AI\Codex\projects\reconquista_flowchart_20261024\tools')
+sys.path.insert(0, str(__import__('pathlib').Path(__file__).resolve().parent))
 import qa
 from test_more import VK, boot, open_chart
 label = sys.argv[1]
