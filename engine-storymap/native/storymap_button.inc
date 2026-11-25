@@ -1,7 +1,7 @@
 static HWND storyMapButton=nullptr;static WNDPROC oldStoryMapProc=nullptr;
 static LRESULT CALLBACK StoryMapProc(HWND h,UINT m,WPARAM w,LPARAM l){if((m==WM_KEYDOWN||m==WM_KEYUP||m==WM_SYSKEYDOWN||m==WM_SYSKEYUP)&&w!=VK_SPACE)return SendMessageW(GetParent(h),m,w,l);auto r=CallWindowProcW(oldStoryMapProc,h,m,w,l);if((m==WM_LBUTTONUP||m==WM_CAPTURECHANGED||m==WM_CANCELMODE)&&GetFocus()==h)SetFocus(GetParent(h));return r;}
 static const wchar_t* StoryMapLabel(){return L"이야기 지도";}
-static void SyncStoryMapButton(){HWND parent=Game();if(!parent)return;if(!ReviewButtonWanted()||fcOpen){if(storyMapButton){if(GetFocus()==storyMapButton)SetFocus(parent);ShowWindow(storyMapButton,SW_HIDE);}return;}
+static void SyncStoryMapButton(){HWND parent=Game();if(!parent)return;if(!ReviewButtonWanted()){if(storyMapButton){if(GetFocus()==storyMapButton)SetFocus(parent);ShowWindow(storyMapButton,SW_HIDE);}return;}
  if(!storyMapButton){storyMapButton=CreateWindowExW(0,L"BUTTON",StoryMapLabel(),WS_CHILD|WS_TABSTOP|BS_OWNERDRAW,0,0,1,1,parent,(HMENU)(UINT_PTR)0x7e43,GetModuleHandleW(nullptr),nullptr);if(storyMapButton)oldStoryMapProc=(WNDPROC)SetWindowLongPtrW(storyMapButton,GWLP_WNDPROC,(LONG_PTR)StoryMapProc);}if(!storyMapButton)return;
  auto v=Viewport(parent);int x=v.x+MulDiv(510,v.w,800),y=v.y+MulDiv(574,v.h,600),w=MulDiv(165,v.w,800),h=MulDiv(24,v.h,600);RECT r{};GetWindowRect(storyMapButton,&r);MapWindowPoints(nullptr,parent,(POINT*)&r,2);
  if(r.left!=x||r.top!=y||r.right-r.left!=w||r.bottom-r.top!=h){SetWindowPos(storyMapButton,HWND_TOP,x,y,w,h,SWP_NOACTIVATE);int cut=std::max(3,h/5);POINT pts[]={{cut,0},{w-cut,0},{w,h/2},{w-cut,h},{cut,h},{0,h/2}};auto region=CreatePolygonRgn(pts,6,WINDING);if(region&&!SetWindowRgn(storyMapButton,region,TRUE))DeleteObject(region);}

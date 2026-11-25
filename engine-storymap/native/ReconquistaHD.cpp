@@ -465,8 +465,9 @@ static void ToggleReview(){if(!SetReview(!reviewEnabled)){MessageBoxW(Game(),L"�
 
 
 // A native owner-drawn child button consumes its own press/release/capture events.
-// Config's private VM flag is emitted only while its event loop is active.
-static bool ReviewButtonWanted(){return configVisibleVar.value!=0;}
+// Config's private VM flag is emitted only while its event loop is active. Not while the story map is over it (11-25: opened
+// from the config screen, the map had 「CG·메뉴」 and 「모든 콘텐츠 개방」 left on top of it).
+static bool ReviewButtonWanted(){return configVisibleVar.value!=0&&!fcOpen;}
 static WNDPROC oldReviewButtonProc=nullptr;
 static LRESULT CALLBACK ReviewButtonProc(HWND h,UINT msg,WPARAM wp,LPARAM lp){
  if((msg==WM_KEYDOWN||msg==WM_KEYUP||msg==WM_SYSKEYDOWN||msg==WM_SYSKEYUP)&&wp!=VK_SPACE)return SendMessageW(GetParent(h),msg,wp,lp);
