@@ -75,7 +75,7 @@ static ComPtr<ID2D1RenderTarget> rt;static ComPtr<ID2D1HwndRenderTarget> hrt;sta
 static ComPtr<ID3D11Device> d3d;static ComPtr<ID3D11DeviceContext> d3dc;static ComPtr<ID2D1Device> d2dev;static ComPtr<ID2D1Bitmap1> offscreen;static ComPtr<ID3D11Query> doneQ;
 static ComPtr<ID2D1Bitmap> frameOff,frameOn,hiddenArt,graybar,bluebar,triDark,handOpen,handGrab,markArt,thumbH,thumbV,plateQ,plates[12],busts[12];
 static ComPtr<IDWriteTextFormat> fCell,fDateNew,fPanelTitle,fPanelDesc,fToast,fNewCell,fBadge,fMap;
-static ComPtr<ID2D1PathGeometry> mapPlate;   // the 「이야기 지도」 button's outline
+static ComPtr<ID2D1PathGeometry> swAll,swLeft,swRight;   // the [흐름|연표] switch's outline and halves
 static ComPtr<ID2D1SolidColorBrush> brush;
 static std::unordered_map<std::wstring,ComPtr<IDWriteTextLayout>> layouts;
 static Table tbl;static float sx=0,sy=0,tx=0,ty=0;static int crow=-1,ccol=-1,hrow=-1,hcol=-1,hbutton=0,pressButton=0;static bool pressMap=false;static bool mouseIn=false,dragging=false,dragMoved=false,thumbDrag=false,thumbVert=false,byKeys=false;
@@ -143,15 +143,19 @@ static bool Open(const Cell&x){return (x.state&1)==0;}static bool Linked(const C
 static int VisibleRow0(){int r=0;while(r<tbl.rows&&tbl.top[size_t(r)]+tbl.h[size_t(r)]<sy)r++;return r;}
 static double Breath(){double t=fmod(Now2()/1000.0,2.0);return t<1?t:2-t;}   // the NEW layer's alpha: 0 -> 1 -> 0 over 2 s (sprite_alfa_define 0..255, 1000 ms)
 struct Button{float x,y,w,h;};static const Button buttons[5]={{0,0,0,0},{494,7,165,26},{494,35,165,26},{394,9,101,52},{659,18,70,36}};   // 1 새 항목, 2 추가 이야기, 3 도움말, 4 닫기
-// 「이야기 지도」 (11-25), where the look switch was: closes the 연표 and opens the story map (M too)
-static const float MPX=120,MPY=28,MPW=82,MPH=24;   // ends at 202, before the title (210)
-static bool MapAt(float x,float y){return x>=MPX&&x<MPX+MPW&&y>=MPY&&y<MPY+MPH;}
+// [흐름|연표] (11-25, the user: 「아이콘을 좀 지난번처럼 새/원래 로 나뉜것처럼 지도/연표 처럼 원래 게임 아이콘인것처럼 바꿔줘」),
+// where the [새|원래] switch was and as it was drawn: 연표 lit (this screen); the 흐름 half closes the 연표 and opens the story
+// map (M too). The map draws the same switch with 흐름 lit (flow.inc DrawFlowSwitch).
+static const float SWX=122,SWY=28,SWW=74,SWH=24,SWSPLIT=SWX+SWW/2;
+static bool MapAt(float x,float y){return x>=SWX&&x<SWSPLIT&&y>=SWY&&y<SWY+SWH;}
 static ComPtr<ID2D1PathGeometry> Poly(std::initializer_list<D2D1_POINT_2F> pts){ComPtr<ID2D1PathGeometry> g;ComPtr<ID2D1GeometrySink> k;if(FAILED(fac->CreatePathGeometry(&g))||FAILED(g->Open(&k)))return nullptr;
  auto it=pts.begin();k->BeginFigure(*it,D2D1_FIGURE_BEGIN_FILLED);for(++it;it!=pts.end();++it)k->AddLine(*it);k->EndFigure(D2D1_FIGURE_END_CLOSED);return SUCCEEDED(k->Close())?g:nullptr;}
-static void DrawMapButton(){float c=MPH/5,x0=MPX,x1=MPX+MPW,y0=MPY,y1=MPY+MPH,ym=MPY+MPH/2;
- if(!mapPlate)mapPlate=Poly({{x0+c,y0},{x1-c,y0},{x1,ym},{x1-c,y1},{x0+c,y1},{x0,ym}});if(!mapPlate)return;
- bool over=mouseIn&&!dragging&&!thumbDrag&&MapAt(mx,my);brush->SetColor(pressMap&&over?Rgb(126,57,70):over?Rgb(150,52,72):Rgb(103,37,54));rt->FillGeometry(mapPlate.Get(),brush.Get());   // the DLL's buttons' colours
- brush->SetColor(Rgb(185,128,135));rt->DrawGeometry(mapPlate.Get(),brush.Get(),.85f);Say(L"이야기 지도",fMap.Get(),x0,y0,MPW,MPH,Rgb(249,228,214));}
+static void DrawSwitch(){float c=SWH/5,x0=SWX,x1=SWX+SWW,y0=SWY,y1=SWY+SWH,ym=SWY+SWH/2;
+ if(!swAll){swAll=Poly({{x0+c,y0},{x1-c,y0},{x1,ym},{x1-c,y1},{x0+c,y1},{x0,ym}});swLeft=Poly({{x0+c,y0},{SWSPLIT,y0},{SWSPLIT,y1},{x0+c,y1},{x0,ym}});swRight=Poly({{SWSPLIT,y0},{x1-c,y0},{x1,ym},{x1-c,y1},{SWSPLIT,y1}});}
+ if(!swAll||!swLeft||!swRight)return;bool over=mouseIn&&!dragging&&!thumbDrag&&MapAt(mx,my);
+ brush->SetColor(over?Rgb(86,34,46):Rgb(44,18,26));rt->FillGeometry(swLeft.Get(),brush.Get());brush->SetColor(Rgb(150,52,72));rt->FillGeometry(swRight.Get(),brush.Get());
+ brush->SetColor(Rgb(185,128,135));rt->DrawGeometry(swAll.Get(),brush.Get(),.85f);rt->DrawLine(D2D1::Point2F(SWSPLIT,y0),D2D1::Point2F(SWSPLIT,y1),brush.Get(),.85f);
+ Say(FLOW_WORD,fMap.Get(),x0,y0,SWSPLIT-x0,SWH,over?Rgb(255,240,228):Rgb(150,118,118));Say(L"연표",fMap.Get(),SWSPLIT,y0,x1-SWSPLIT,SWH,Rgb(255,240,228));}
 // the script's lines as one text: its full-width padding dropped. A line that stops short of its width (len letters, the last
 // one a pad or a kinsoku mark) broke because the CSV text itself breaks there (a newline in a quoted field): brk goes there.
 // The quotes of a quoted field (kept by the script) are dropped.
@@ -218,7 +222,7 @@ static void Render(){
   rt->PopAxisAlignedClip();
   double tp0=Now2();if(fr>=1&&fc>=0&&fr<tbl.rows){if(tbl.At(fr,fc).Event())DrawPanel(fr,fc);}segPanel=Now2()-tp0;}
  // the frame, a lit button, the scroll thumbs
- Pic(frameOff.Get(),0,0,800,600);if(hbutton>0&&frameOn){auto&b=buttons[hbutton];Pic(frameOn.Get(),b.x,b.y,b.w,b.h,b.x,b.y,b.w,b.h);}DrawMapButton();
+ Pic(frameOff.Get(),0,0,800,600);if(hbutton>0&&frameOn){auto&b=buttons[hbutton];Pic(frameOn.Get(),b.x,b.y,b.w,b.h,b.x,b.y,b.w,b.h);}DrawSwitch();
  if(tbl.ok){float hx=103+(tbl.maxX>0?sx*648/float(tbl.maxX):0),vy=115+(tbl.maxY>0?sy*444/float(tbl.maxY):0);Pic(thumbH.Get(),hx-19.5f,575-8.5f,39,17);Pic(thumbV.Get(),770-7.5f,vy-11.5f,15,23);}
  else Say(L"연표를 읽지 못했습니다",fToast.Get(),95,300,675,30,Rgb(220,200,190));
  if(Now2()<toastUntil){float w=360,h=46,x=400-w/2,y=300-h/2;Fill(x,y,w,h,Rgb(16,6,10,.94f));Box(x,y,w,h,Rgb(176,150,140));Say(toast,fToast.Get(),x,y+11,w,26,Rgb(236,226,214));}
@@ -302,7 +306,7 @@ static bool Pace(double frameStart,double frameMs){double el=Now2()-frameStart;i
 // ---------------------------------------------------------------- the view's thread
 void Abandon(){(void)new auto(std::move(layouts));layouts.clear();
  for(auto*p:{std::addressof(frameOff),std::addressof(frameOn),std::addressof(hiddenArt),std::addressof(graybar),std::addressof(bluebar),std::addressof(triDark),std::addressof(handOpen),std::addressof(handGrab),std::addressof(markArt),std::addressof(thumbH),std::addressof(thumbV),std::addressof(plateQ)})p->Detach();for(auto&p:plates)p.Detach();for(auto&p:busts)p.Detach();
- for(auto*p:{std::addressof(fCell),std::addressof(fDateNew),std::addressof(fPanelTitle),std::addressof(fPanelDesc),std::addressof(fToast),std::addressof(fNewCell),std::addressof(fBadge),std::addressof(fMap)})p->Detach();brush.Detach();mapPlate.Detach();
+ for(auto*p:{std::addressof(fCell),std::addressof(fDateNew),std::addressof(fPanelTitle),std::addressof(fPanelDesc),std::addressof(fToast),std::addressof(fNewCell),std::addressof(fBadge),std::addressof(fMap)})p->Detach();brush.Detach();swAll.Detach();swLeft.Detach();swRight.Detach();
  rt.Detach();hrt.Detach();dctx.Detach();offscreen.Detach();d2dev.Detach();doneQ.Detach();d3dc.Detach();d3d.Detach();fonts.Detach();dwf.Detach();fac.Detach();wicf.Detach();}
 // tests (WM_APP+3 to the view): the frame as it is drawn now, into <runtime>\qa\chron-view-<n>.png (the view's device context
 // drawn into a picture of its own, then read back)
@@ -362,7 +366,7 @@ static void Run(){
  if(logFile){fprintf(logFile,"chron_proto closed parent_gone=%d\n",int(parentGone));fflush(logFile);}
  if(parentGone){Abandon();wnd=nullptr;running=false;return;}   // the game window is going: nothing released while the game closes
  layouts.clear();for(auto*p:{std::addressof(frameOff),std::addressof(frameOn),std::addressof(hiddenArt),std::addressof(graybar),std::addressof(bluebar),std::addressof(triDark),std::addressof(handOpen),std::addressof(handGrab),std::addressof(markArt),std::addressof(thumbH),std::addressof(thumbV),std::addressof(plateQ)})p->Reset();for(auto&p:plates)p.Reset();for(auto&p:busts)p.Reset();
- for(auto*p:{std::addressof(fCell),std::addressof(fDateNew),std::addressof(fPanelTitle),std::addressof(fPanelDesc),std::addressof(fToast),std::addressof(fNewCell),std::addressof(fBadge),std::addressof(fMap)})p->Reset();brush.Reset();mapPlate.Reset();
+ for(auto*p:{std::addressof(fCell),std::addressof(fDateNew),std::addressof(fPanelTitle),std::addressof(fPanelDesc),std::addressof(fToast),std::addressof(fNewCell),std::addressof(fBadge),std::addressof(fMap)})p->Reset();brush.Reset();swAll.Reset();swLeft.Reset();swRight.Reset();
  rt.Reset();hrt.Reset();dctx.Reset();offscreen.Reset();d2dev.Reset();doneQ.Reset();d3dc.Reset();d3d.Reset();fonts.Reset();dwf.Reset();fac.Reset();wicf.Reset();
  tbl=Table{};if(wnd){if(GetFocus()==wnd)SetFocus(gw);selfDestroy=true;DestroyWindow(wnd);wnd=nullptr;}running=false;CoUninitialize();}
 static void Launch(){if(running)return;running=true;readyTried=true;std::thread(Run).detach();}

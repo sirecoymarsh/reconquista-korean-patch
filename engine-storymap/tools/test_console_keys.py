@@ -105,9 +105,9 @@ try:
         g.until(lambda: g.log().count('inflow opened') > maps, 15, 'map by M')
         time.sleep(1)
         child = g.child()
-        g.move(child, 124, 42)
+        g.move(child, 143, 42)
         time.sleep(.3)
-        g.logical_click(child, 124, 42)
+        g.logical_click(child, 143, 42)
         g.until(lambda: 'inflow chronicle_up' in g.log(), 10, 'chronicle from map')
         result['to_chronicle'] = [l for l in g.log().splitlines() if 'to_chronicle' in l or 'chronicle_up' in l or 'console_choice' in l][-3:]
         raise SystemExit
@@ -136,7 +136,7 @@ try:
         capture('config-map')
         child = g.child()
         press_child = lambda x, y: (g.move(child, x, y), time.sleep(.3), g.logical_click(child, x, y))
-        press_child(124, 42)
+        press_child(143, 42)
         time.sleep(1)
         result['refused'] = 'to_chronicle refused' in g.log()
         g.key(child, 0x1b)

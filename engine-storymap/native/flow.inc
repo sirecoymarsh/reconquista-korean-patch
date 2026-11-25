@@ -246,7 +246,10 @@ static int MapHit(int px,int py){float x=LX(px),y=LY(py);for(int i=0;i<int(fcCha
 // the config screen) the plate is dimmed and a press is said on the map's line (11-25: pressed at the title, it looked broken).
 static bool fcFromChronicle=false;
 static bool FCChronicleReachable(){Variable*sel=VarOf(0x405ba90fu);return sel&&(sel->value==0||fcFromChronicle);}
-static const RECT* PlateRects(){static RECT r[5]={{398,14,494,56},{496,10,658,31},{496,38,658,59},{658,23,728,47},{84,30,164,54}};return r;}   // 4: 「연표」 (drawn here, DrawMap)
+// [흐름|연표] as the 연표 window draws it (chronicle_proto.inc DrawSwitch), 흐름 lit; 88..162 here, the map's title being wider
+static const float FSX=88,FSY=30,FSW=74,FSH=24,FSSPLIT=FSX+FSW/2;
+static void DrawFlowSwitch(HDC dc);
+static const RECT* PlateRects(){static RECT r[5]={{398,14,494,56},{496,10,658,31},{496,38,658,59},{658,23,728,47},{125,30,162,54}};return r;}   // 4: the switch's 연표 half (DrawFlowSwitch)
 static int PlateHit(int px,int py){float x=LX(px),y=LY(py);auto r=PlateRects();for(int i=0;i<5;i++)if(x>=r[i].left&&x<r[i].right&&y>=r[i].top&&y<r[i].bottom)return i;return -1;}
 static void DrawCell(HDC dc,int i){auto&c=fcChapters[i];RECT r=PR(c.x0,c.y0,c.x1,c.y1);FCFill(dc,r,RGB(0,0,0));int read=ReadPages(i),pages=ChapterPages(i);bool done=pages>0&&read==pages,touched=read>0;
  if(i==fcCursor){RECT s=r;InflateRect(&s,-1,-1);FCTile(dc,FCCrop(L"plate_crimson.png",40,30,444,112),s);FCFrameRect(dc,s,RGB(206,200,200),std::max(1,int(fcK*.6f)));}
@@ -256,12 +259,19 @@ static void DrawCell(HDC dc,int i){auto&c=fcChapters[i];RECT r=PR(c.x0,c.y0,c.x1
  float rx=c.x1-6;if(c.views){rx-=13+(c.views>1?6:0);FCViewIcon(dc,rx,mid-3.2f,c.views);rx-=4;}if(c.choices){rx-=12+(c.choices>1?2.5f+FCTextW(dc,std::to_wstring(c.choices),false,9):0);FCChoiceIcon(dc,rx,mid-2.5f,c.choices);rx-=4;}
  if(fcHere>=0&&fcNodes[fcHere].chapter==i){FCLeaf(dc,rx-17,mid-8,15);FCText(dc,L"지금",rx-19,mid,false,10,FC_LEAF,2);}
  FCFrameRect(dc,r,FC_LINE);}
+static void DrawFlowSwitch(HDC dc){float c=FSH/5,x0=FSX,x1=FSX+FSW,y0=FSY,y1=FSY+FSH,ym=FSY+FSH/2;bool can=FCChronicleReachable(),over=can&&fcHotPlate==4;
+ POINT left[5]={{PX(x0+c),PY(y0)},{PX(FSSPLIT),PY(y0)},{PX(FSSPLIT),PY(y1)},{PX(x0+c),PY(y1)},{PX(x0),PY(ym)}},right[5]={{PX(FSSPLIT),PY(y0)},{PX(x1-c),PY(y0)},{PX(x1),PY(ym)},{PX(x1-c),PY(y1)},{PX(FSSPLIT),PY(y1)}};
+ auto pen=CreatePen(PS_SOLID,std::max(1,int(fcK*.85f)),RGB(185,128,135));auto op=SelectObject(dc,pen);
+ for(int k=0;k<2;k++){auto br=CreateSolidBrush(k==0?RGB(150,52,72):over?RGB(86,34,46):RGB(44,18,26));auto ob=SelectObject(dc,br);Polygon(dc,k==0?left:right,5);SelectObject(dc,ob);DeleteObject(br);}
+ SelectObject(dc,op);DeleteObject(pen);
+ static HFONT font=nullptr;static int fontPx=0;int px=std::max(8,int(12*fcK+.5f));if(px!=fontPx){if(font)DeleteObject(font);font=CreateFontW(-px,0,0,0,FW_BOLD,FALSE,FALSE,FALSE,HANGUL_CHARSET,OUT_DEFAULT_PRECIS,CLIP_DEFAULT_PRECIS,ANTIALIASED_QUALITY,DEFAULT_PITCH,L"맑은 고딕");fontPx=px;}
+ auto of=SelectObject(dc,font);SetBkMode(dc,TRANSPARENT);RECT a{PX(x0),PY(y0),PX(FSSPLIT),PY(y1)},b{PX(FSSPLIT),PY(y0),PX(x1),PY(y1)};
+ SetTextColor(dc,RGB(255,240,228));DrawTextW(dc,FLOW_WORD,-1,&a,DT_CENTER|DT_VCENTER|DT_SINGLELINE|DT_NOPREFIX);
+ SetTextColor(dc,!can?RGB(92,72,76):over?RGB(255,240,228):RGB(150,118,118));DrawTextW(dc,L"연표",-1,&b,DT_CENTER|DT_VCENTER|DT_SINGLELINE|DT_NOPREFIX);SelectObject(dc,of);}
 static void DrawMap(HDC dc,int page){auto f=FCScaled(L"frame.png",fcView.w,fcView.h);if(f)FCBlend(dc,f,fcView.x,fcView.y);
  FCText(dc,L"이야기 지도",225,44,true,21,FC_WHITE,1);static const wchar_t* plates[4]={nullptr,L"대사 찾기",L"지금 자리로",L"닫기"};float px[4]={445,576,576,693},py[4]={35,20.5f,48.5f,35},ps[4]={14,12,12,13};
  for(int k=0;k<4;k++){std::wstring t=k?plates[k]:(page?L"본편으로":L"최종편으로");if(k==2&&fcReplay)t=L"다시보기 끝내기";FCText(dc,t,px[k],py[k],true,ps[k],k==fcHotPlate?RGB(255,236,200):FC_WHITE,1);}
- {const RECT&p=PlateRects()[4];RECT r=PR(float(p.left),float(p.top),float(p.right),float(p.bottom));bool can=FCChronicleReachable();   // 「연표」, as the 연표's 「이야기 지도」 is placed
-  FCBlend(dc,FCPlate(L"plate_crimson.png",r.right-r.left,r.bottom-r.top,.07f),r.left,r.top,can?255:110);
-  FCText(dc,L"연표",(p.left+p.right)/2.f,(p.top+p.bottom)/2.f,true,13,!can?RGB(120,112,114):fcHotPlate==4?RGB(255,236,200):FC_WHITE,1);}
+ DrawFlowSwitch(dc);
  FCText(dc,L"갈래",70,79,true,11,FC_WHITE,1);FCText(dc,L"날짜",46,105,true,11,FC_WHITE,1);
  // kind 6 is the lane's thread: cells cover it, so its dots show only on days the lane has no chapter
  for(auto&d:fcDecos)if(d.page==page&&d.kind==0)FCFill(dc,PR(d.x0,d.y0,d.x1,d.y1),FC_LINE);else if(d.page==page&&d.kind==6){float cx=(d.x0+d.x1)/2;for(float y=d.y0+1;y+1<=d.y1;y+=3.5f)FCFill(dc,PR(cx-.5f,y,cx+.5f,y+1),d.color);}
@@ -440,7 +450,7 @@ static LRESULT CALLBACK FCEditProc(HWND h,UINT m,WPARAM w,LPARAM l){
 // What a hover change redraws: the plate band or a chapter page plate, the old and new cell with the info strip under the map
 // (it names the hovered chapter); the rest of the page does not depend on it.
 static void FCHoverArea(HWND h,int hot0,int hot1,int hov0,int hov1){auto add=[&](RECT r){InflateRect(&r,int(2*fcK)+2,int(2*fcK)+2);InvalidateRect(h,&r,FALSE);};
- auto plate=[&](int k){if(k<0)return;if(k==4)add(PR(84,30,164,54));else if(k<4)add(PR(390,6,736,62));else if(k<=11)add(PR(590,14,776,86));else add(PR(357,518,776,558));};
+ auto plate=[&](int k){if(k<0)return;if(k==4)add(PR(FSX,FSY,FSX+FSW,FSY+FSH));else if(k<4)add(PR(390,6,736,62));else if(k<=11)add(PR(590,14,776,86));else add(PR(357,518,776,558));};
  if(hot0!=hot1){plate(hot0);plate(hot1);}
  if(hov0!=hov1){for(int c:{hov0,hov1})if(c>=0&&c<int(fcChapters.size())){auto&ch=fcChapters[c];add(PR(ch.x0,ch.y0,ch.x1,ch.y1));}add(PR(94,540,760,564));}}
 static void FCClose(){if(fcOpen)FCSound("cancel");fcOpen=false;}

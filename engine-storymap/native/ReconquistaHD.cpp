@@ -451,6 +451,8 @@ static void __cdecl SeenGet(){if(reviewEnabled){((void(__cdecl*)(int))0x41c760)(
 static void __cdecl SeenSet(){if(reviewEnabled){((void(__cdecl*)(int))0x41c760)(0);return;}oldSeenSet();}
 
 #include "compare.inc"
+// The story map's short name on the 연표 / map switch (11-25, the user: 「지도는 적당한 단어가 아니다」)
+static const wchar_t FLOW_WORD[]=L"흐름";
 #include "flow.inc"
 #include "movie.inc"
 static bool FCBlockInput(UINT m){return fcOpen&&FCInputMessage(m);}

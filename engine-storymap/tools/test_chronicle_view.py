@@ -102,11 +102,11 @@ try:
     shutil.copy2(shots / f'chron-view-{k}.png', OUT / 'view-hover.png')
     k += 1
     step('shots', n=k, lines=lines('chron_proto shot')[-2:])
-    if mode == 'map':                                   # the 「이야기 지도」 button (120,28 82x24): the 연표 closes, the map opens
+    if mode == 'map':                                   # the 「이야기 지도」 button (the switch's 흐름 half, 122..159 x 28..52): the 연표 closes, the map opens
         r = qa.w.RECT()
         qa.u.GetClientRect(view, qa.c.byref(r))
         s = r.right / 800
-        lp = ((round(40 * s) & 0xffff) << 16) | (round(161 * s) & 0xffff)
+        lp = ((round(40 * s) & 0xffff) << 16) | (round(140 * s) & 0xffff)
         maps = g.log().count('inflow opened')
         g.post(view, 0x200, 0, lp)
         time.sleep(.3)
@@ -117,11 +117,11 @@ try:
         log = g.log()
         step('map', act=lines('chron_proto act')[-2:], chronicle_closed='chronicle_open=0' in log, maps=log.count('inflow opened'),
              view_held_until_map=log.rfind('chron_proto handed_to_map') > log.rfind('inflow open_request'))
-        child = g.child()                                # the map's 「연표」 (84,30 80x24): the 연표 again, the map over the game until then
+        child = g.child()                                # the map's 「연표」 (the switch's 연표 half, 125..162 x 30..54): the 연표 again, the map over the game until then
         opens = g.log().count('chron_proto replace opened')
-        g.move(child, 124, 42)
+        g.move(child, 143, 42)
         time.sleep(.4)
-        g.logical_click(child, 124, 42)
+        g.logical_click(child, 143, 42)
         g.until(lambda: g.log().count('chron_proto replace opened') > opens, 15, 'chronicle again')
         time.sleep(1.5)
         log = g.log()
