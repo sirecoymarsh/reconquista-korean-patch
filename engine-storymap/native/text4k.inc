@@ -34,7 +34,7 @@ static int Kernel(const unsigned char* p,int pitch,int bx,int by){auto q=[&](int
 using TextLineFn=int(__cdecl*)(void*,void*,void*,void*,void*,void*,void*,void*);static TextLineFn oldTextLine;
 static int __cdecl TextLine(void*a,void*b,void*c,void*d,void*e,void*f,void*g,void*h){   // 0x413ab0 takes 5; the rest are the caller's
  static const bool force1x=GetEnvironmentVariableW(L"RECON_TEXT_1X",nullptr,0)>0;if(force1x)*(int*)0x47af3c=0;   // tests: the engine's 1x path, as while skipping
- bool scale4=((int(__cdecl*)())0x4146b0)()!=0;textActive=scale4&&!nesting;textStyle=a;line4Ready=false;if(!scale4&&!nesting)lines1x++;
+ bool scale4=((int(__cdecl*)())0x4146b0)()!=0;textActive=scale4&&!nesting;textStyle=a;line4Ready=false;if(!scale4&&!nesting)lines1x++;if(perf&&logFile&&!nesting){fprintf(logFile,"text_line 4x=%d smoothing=%d%c",int(scale4),*(int*)0x47af3c,10);fflush(logFile);}
  if(nesting)linesNested++;if(textDepth)linesInner++;textDepth++;
  int r=oldTextLine(a,b,c,d,e,f,g,h);textDepth--;textActive=false;return r;}
 // Right after 0x413ab0's 4x path has averaged a new glyph into the line bitmap (0x4141d8, before it decides whether this

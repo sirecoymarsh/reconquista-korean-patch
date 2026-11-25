@@ -31,6 +31,7 @@ review.write_text('1')
 oldest = saves / sys.argv[3] if len(sys.argv) > 3 else min(saves.glob('majiro_0*.sav'), key=lambda p: p.stat().st_mtime)
 shutil.copy2(oldest, saves / 'majiro_9999.sav')
 result = {'steps': []}
+MODE = sys.argv[4] if len(sys.argv) > 4 else ''
 
 
 def files():
@@ -39,7 +40,12 @@ def files():
     return {p.name: p.stat().st_mtime_ns for p in (review[-1] if review else saves).glob('majiro_*.sav')}
 
 
-def capture(name):
+def capture_full(name, box):
+    """like capture, a part of the window at full size: box = (x0, y0, x1, y1) in 800x600 units"""
+    capture(name, full=box)
+
+
+def capture(name, full=None):
     """the game window as it is (PrintWindow) -> qa/console-keys-<name>.png"""
     import ctypes as c
     from ctypes import wintypes as w
@@ -57,7 +63,14 @@ def capture(name):
     qa.u.PrintWindow(w.HWND(g.hwnd), w.HDC(mem), 3)
     buf = c.create_string_buffer(r.right * r.bottom * 4)
     gdi.GetBitmapBits(w.HBITMAP(bmp), len(buf), buf)
-    Image.frombuffer('RGBA', (r.right, r.bottom), buf, 'raw', 'BGRA', 0, 1).convert('RGB').resize((r.right // 4, r.bottom // 4)).save(qa.QA / f'console-keys-{name}.png')
+    im = Image.frombuffer('RGBA', (r.right, r.bottom), buf, 'raw', 'BGRA', 0, 1).convert('RGB')
+    if full:
+        vw = min(r.right, r.bottom * 4 // 3)
+        vh = vw * 3 // 4
+        ox, oy = (r.right - vw) // 2, (r.bottom - vh) // 2
+        im.crop(tuple(int(v * vw / 800) + o for v, o in zip(full, (ox, oy, ox, oy)))).save(qa.QA / f'console-keys-{name}.png')
+    else:
+        im.resize((r.right // 4, r.bottom // 4)).save(qa.QA / f'console-keys-{name}.png')
     gdi.DeleteObject(w.HBITMAP(bmp))
     gdi.DeleteDC(w.HDC(mem))
     qa.u.ReleaseDC(w.HWND(g.hwnd), w.HDC(hdc))
@@ -75,7 +88,7 @@ def changed(before):
     return sorted(k for k in now if before.get(k) != now[k])
 
 
-g = qa.Game(run=run)
+g = qa.Game(run=run, extra_env={'RECON_PERF': '2'} if MODE in ('text', 'textreplay', 'text1') else None)
 try:
     g.until(lambda: 'load call title' in g.log(), 90, 'title')
     g.hwnd = next(x['h'] for x in g.windows() if x['class'] == 'MAJIRO_EXEC_CLASS')
@@ -87,10 +100,11 @@ try:
     g.key(g.hwnd, VK['F11'])
     g.until(lambda: 'inflow opened' in g.log(), 20, 'open')
     child = g.child()
-    g.key(child, VK['RIGHT'])
-    g.until(lambda: 'cursor=' in g.log(), 10, 'cursor move')
+    if MODE != 'text1':                                   # text1: 도입부 1 (its large serif lines)
+        g.key(child, VK['RIGHT'])
+        g.until(lambda: 'cursor=' in g.log(), 10, 'cursor move')
     g.key(child, VK['RET'])
-    g.until(lambda: 'page=2 chapter=3' in g.log(), 10, 'chapter page')
+    g.until(lambda: f'page=2 chapter={0 if MODE == "text1" else 3}' in g.log(), 10, 'chapter page')
     n = g.count('inflow snapshot')
     g.key(child, VK['RIGHT'], 34, .03)
     g.until(lambda: g.count('inflow snapshot') >= n + 34, 30, 'scene steps')
@@ -99,11 +113,24 @@ try:
     time.sleep(.5)
     g.key(child, VK['UP'])
     time.sleep(.4)
-    g.story_jump(child)
+    if MODE in ('textreplay', 'text1'):
+        g.key(child, VK['RET'])                           # 「이 대사부터 다시보기」 (Enter on the line)
+    else:
+        g.story_jump(child)
     g.until(lambda: 'inflow jump order=' in g.log(), 10, 'jump request')
     order = int(g.log().split('inflow jump order=')[-1].split()[0])
     g.until(lambda: f'inflow arrived order={order} ' in g.log(), 120, 'arrival')
     time.sleep(3)
+    if MODE in ('text', 'textreplay', 'text1'):        # the text after a story map jump: 4x or not (11-25)
+        for k in range(8):                                # the arrival line, once the screen shows it
+            capture_full(f'text-arrived-{k}', (0, 0, 800, 600))
+            time.sleep(.7)
+        for k in range(3):
+            g.logical_click(g.hwnd, 400, 300)
+            time.sleep(1.5)
+        capture_full('text-later', (0, 0, 800, 600))
+        result['text'] = [l for l in g.log().splitlines() if l.startswith('text4k lines')][-2:]
+        raise SystemExit
     if len(sys.argv) > 4 and sys.argv[4] == 'hist':        # 기록: the pages it shows (backlog.inc HistPos)
         capture('hist-before')
         for _ in range(4):
