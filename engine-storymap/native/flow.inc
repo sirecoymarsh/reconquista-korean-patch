@@ -24,6 +24,7 @@ static Variable fcVars[]={{FV_ACTIVE,0,0,0},{FV_HERE,0,0,0},{FV_BRANCH,0,0,0},{F
 // and the map opens again on that chapter. Opened at the title, it goes back to the title ("start" without the map's flag).
 // 「여기서부터 본편으로」 is the old jump, kept beside it.
 static bool fcCoverChronicle=false;   // the cover waits for the 연표 view (FCToChronicle)
+static bool fcOverScene=false;        // the window over the game's own picture (from the 기록, backlog.inc), not the map
 static bool fcReplay=false,fcReplayHasSave=false,fcReplayWasProtected=false,fcCover=false,fcTitleQueued=false,fcReturnWait=false;
 static int fcReplayChapter=-1,fcReplayStage=0,fcConvert=0,fcReopen=0,fcReopenChapter=-1,fcHereBefore=-1;   // stage: 1 going there, 2 playing, 3 coming back
 static ULONGLONG fcCoverSince=0,fcStoryTick=0,fcReplayPlayTick=0,fcReopenArm=0;static std::wstring fcCoverText;static wchar_t fcTitleBefore[256]{};
@@ -87,8 +88,9 @@ static BOOL WINAPI FCDeleteFile(LPCSTR p){auto v=FCPath(p);return DeleteFileA(v.
 static BOOL WINAPI FCCopyFile(LPCSTR a,LPCSTR b,BOOL fail){auto x=FCPath(a),y=FCPath(b);return CopyFileA(x.c_str(),y.c_str(),fail);}
 static HANDLE WINAPI FCFindFirst(LPCSTR p,LPWIN32_FIND_DATAA d){auto v=FCPath(p);return FindFirstFileA(v.c_str(),d);}
 static bool FCCopyTree(const std::wstring&from,const std::wstring&to){if(!CreateDirectoryW(to.c_str(),nullptr)&&GetLastError()!=ERROR_ALREADY_EXISTS)return false;WIN32_FIND_DATAW data{};HANDLE h=FindFirstFileW((from+L"\\*").c_str(),&data);if(h==INVALID_HANDLE_VALUE)return GetLastError()==ERROR_FILE_NOT_FOUND;bool ok=true;do{if(!wcscmp(data.cFileName,L".")||!wcscmp(data.cFileName,L".."))continue;if(data.dwFileAttributes&FILE_ATTRIBUTE_REPARSE_POINT){ok=false;break;}auto a=from+L"\\"+data.cFileName,b=to+L"\\"+data.cFileName;if(data.dwFileAttributes&FILE_ATTRIBUTE_DIRECTORY)ok=FCCopyTree(a,b);else ok=CopyFileW(a.c_str(),b.c_str(),TRUE)!=FALSE;if(!ok)break;}while(FindNextFileW(h,&data));FindClose(h);return ok;}
-static bool FCPrepare(int node,bool replay=false){if(node<0||node>=int(fcNodes.size()))return false;
- if(!fcProtected){if(!replay||fcSaveDir.empty()){wchar_t path[MAX_PATH];swprintf_s(path,L"%s\\savedata-review-%lu-%llu",root,GetCurrentProcessId(),GetTickCount64());fcSaveDir=path;if(!FCCopyTree(std::wstring(root)+L"\\savedata",fcSaveDir)){fcStatus=L"검수용 저장 폴더를 만들 수 없어 이동하지 않았습니다.";return false;}}   // a replay's saves go to this run's one copy
+// isolate: the review's own save folder (the map's jumps); a jump back from the 기록 is play, its saves the player's own
+static bool FCPrepare(int node,bool replay=false,bool isolate=true){if(node<0||node>=int(fcNodes.size()))return false;
+ if(!fcProtected&&isolate){if(!replay||fcSaveDir.empty()){wchar_t path[MAX_PATH];swprintf_s(path,L"%s\\savedata-review-%lu-%llu",root,GetCurrentProcessId(),GetTickCount64());fcSaveDir=path;if(!FCCopyTree(std::wstring(root)+L"\\savedata",fcSaveDir)){fcStatus=L"검수용 저장 폴더를 만들 수 없어 이동하지 않았습니다.";return false;}}   // a replay's saves go to this run's one copy
   fcProtected=true;FCLog(replay?"savedata_isolated replay":"savedata_isolated");}
  std::vector<int>path;int p=fcNodes[node].gid;while(p>=0&&path.size()<=fcCode.size()){path.push_back(p);p=fcCode[p].parent;}if(path.size()>fcCode.size())return false;std::reverse(path.begin(),path.end());fcRoute.clear();fcValues.clear();for(size_t i=0;i+1<path.size();i++)fcRoute[path[i]]=path[i+1];for(auto&s:fcSelections){int v=s.fallback;for(auto b:s.choices){auto it=fcRoute.find(b.first);if(it!=fcRoute.end()&&it->second==fcCode[b.first].fall){v=b.second;break;}}fcValues[s.gid]=v;}
  fcVisual=path.front();for(size_t i=0;i+1<path.size();i++)if(fcCode[path[i]].visual)fcVisual=path[i];fcTarget=fcNodes[node].gid;fcPending=node;for(int i=0;i<3;i++)fcVars[4+i].value=path.front()==fcRoots[i];if(!fcVars[4].value&&!fcVars[5].value&&!fcVars[6].value)return false;fcVars[0].value=1;fcLoading=true;fcQueued=true;return true;}
@@ -115,7 +117,7 @@ static bool FCSaveReturn(){if(!*(int*)0x5123dc){FCLog("replay_return_save none")
 static void FCCover(bool on,const wchar_t*text){if(!fcWindow)return;
  if(on){fcCover=true;fcCoverSince=GetTickCount64();fcCoverText=text?text:L"";if(!IsWindowVisible(fcWindow)){RECT r{};GetClientRect(Game(),&r);MoveWindow(fcWindow,0,0,r.right,r.bottom,TRUE);ShowWindow(fcWindow,SW_SHOWNA);}
   SetWindowPos(fcWindow,HWND_TOP,0,0,0,0,SWP_NOMOVE|SWP_NOSIZE|SWP_NOACTIVATE);InvalidateRect(fcWindow,nullptr,FALSE);UpdateWindow(fcWindow);SetTimer(fcWindow,FC_COVER_TIMER,500,nullptr);return;}
- if(!fcCover)return;fcCover=false;KillTimer(fcWindow,FC_COVER_TIMER);fcCoverText.clear();if(!fcOpen){ShowWindow(fcWindow,SW_HIDE);SetFocus(Game());}}
+ if(!fcCover)return;fcCover=false;fcOverScene=false;KillTimer(fcWindow,FC_COVER_TIMER);fcCoverText.clear();if(!fcOpen){ShowWindow(fcWindow,SW_HIDE);SetFocus(Game());}}
 static void FCReplayReturn(const char*why,int ctx){if(!fcReplay||fcReplayStage==3)return;fcReplayStage=3;fcProtected=fcReplayWasProtected;fcHere=fcHereBefore;   // saves where they were; 지금 자리 where the player is again
  bool load=fcReplayHasSave&&FCFileThere(FC_RETURN);FCCover(true,L"원래 자리로 돌아가는 중…");
  if(load){strcpy_s((char*)0x4fd6c0,260,FC_RETURN);*(int*)0x5123d0=1;*(int*)0x5123dc=1;*(int*)0x5123e0=1;*(int*)0x4f3a68=0;*(int*)0x4f3a60=0;   // $do_load(9996), but no script result
@@ -394,7 +396,17 @@ static void FCLayout(){std::lock_guard<std::recursive_mutex> lock(fcLock);RECT r
 // writes only inside its own box and reads only the pixels under it, so a clipped pass gives the same pixels as a full one
 // (RECON_PERF checks each partial paint against a full render: inflow partial_check).
 static bool fcBackFresh=false;   // fcBack holds a full render (a new size or a failed draw clears it)
-static void FCPage(HDC dc,const RECT&r){FCFill(dc,r,RGB(0,0,0));if(fcPage<2)DrawMap(dc,fcPage);else DrawChapter(dc);if(fcHelp)DrawHelp(dc);
+// From the 기록 (backlog.inc) the window shows the game as it was, dimmed: its question (fcAsk) or, going, its line.
+static const wchar_t*fcAsk=nullptr;static bool fcAskNever=false;static int fcAskHot=-1;
+static const RECT fcAskYes{300,330,390,356},fcAskNo{410,330,500,356},fcAskBox{300,368,500,386};
+static void FCSceneCover(HDC dc){if(fcSceneShot.bmp)FCBlend(dc,&fcSceneShot,fcView.x,fcView.y);FCDim(dc,PR(0,0,800,600),fcAsk?140:150);
+ if(!fcAsk){FCText(dc,fcCoverText,400,300,true,17,FC_WHITE,1);return;}
+ RECT panel=PR(250,250,550,400);FCFill(dc,panel,RGB(10,9,13));FCFrameRect(dc,panel,RGB(150,146,150),std::max(1,int(fcK*.6f)));FCText(dc,fcAsk,400,296,true,16,FC_WHITE,1);
+ auto plate=[&](const RECT&b,const wchar_t*t,int k){RECT r=PR(float(b.left),float(b.top),float(b.right),float(b.bottom));FCBlend(dc,FCPlate(L"plate_crimson.png",r.right-r.left,r.bottom-r.top,.07f),r.left,r.top);
+  FCText(dc,t,(b.left+b.right)/2.f,(b.top+b.bottom)/2.f,true,13,fcAskHot==k?RGB(255,236,200):FC_WHITE,1);};
+ plate(fcAskYes,L"예  Enter",0);plate(fcAskNo,L"아니요  Esc",1);
+ RECT box=PR(304,371,316,383);FCFrameRect(dc,box,RGB(200,196,200),std::max(1,int(fcK*.6f)));if(fcAskNever)FCCheck(dc,305,377,FC_WHITE);FCText(dc,L"두 번 다시 묻지 않기 (Space)",322,377,false,11,fcAskHot==2?RGB(255,236,200):RGB(214,210,216),0,false);}
+static void FCPage(HDC dc,const RECT&r){FCFill(dc,r,RGB(0,0,0));if(fcOverScene){FCSceneCover(dc);return;}if(fcPage<2)DrawMap(dc,fcPage);else DrawChapter(dc);if(fcHelp)DrawHelp(dc);
  if(fcCover&&!fcOpen){FCDim(dc,PR(0,0,800,600),150);FCText(dc,fcCoverText,400,300,true,17,FC_WHITE,1);}}   // going to the line / back: the map stays over the fast run
 static void FCRender(HWND,HDC target,HRGN area=nullptr){std::lock_guard<std::recursive_mutex> lock(fcLock);LONGLONG t0=Now();fcMsBlend=fcMsDim=fcMsText=fcMsWrap=fcMsTile=fcMsArt=0;FCLayout();RECT r{};GetClientRect(fcWindow,&r);
  if(fcBack.w!=r.right||fcBack.h!=r.bottom){FCFree(fcBack);fcBack=FCDib(std::max(1,int(r.right)),std::max(1,int(r.bottom)));fcBackFresh=false;}if(!fcBack.bmp)return;
@@ -510,14 +522,18 @@ static LRESULT CALLBACK FCProc(HWND h,UINT m,WPARAM w,LPARAM l){int x=(short)LOW
  case WM_LBUTTONDBLCLK:{float lx=LX(x),ly=LY(y);if(fcPage==2){if(lx>=LX0&&lx<LX1&&ly>=LTOP&&ly<LBOT){FCJump();return 0;}if(lx>=SX0&&lx<SX1&&ly>=STOP&&!fcSceneList.empty()){FCJumpNode(fcScenes[fcSceneList[fcSceneSel]].first,true);return 0;}}return 0;}
  case WM_CLOSE:FCClose();return 0;}return DefWindowProcW(h,m,w,l);}
 static void FCDrainInput(){MSG m;while(PeekMessageW(&m,Game(),WM_KEYFIRST,WM_KEYLAST,PM_REMOVE)){}while(PeekMessageW(&m,Game(),WM_MOUSEFIRST,WM_MOUSELAST,PM_REMOVE)){}memset((void*)0x4e9afc,0,256);}
+// the map's window (and its find box), made once: the map, and the 기록's question and cover (backlog.inc), draw in it
+static void FCEnsureWindow(){if(fcWindow)return;   // game: the game's window, set by the caller
+
+WNDCLASSW wc{};wc.lpfnWndProc=FCProc;wc.hInstance=GetModuleHandleW(L"ReconquistaHD.dll");wc.hCursor=LoadCursorW(nullptr,MAKEINTRESOURCEW(32512));wc.lpszClassName=L"ReconquistaInGameFlow";wc.style=CS_DBLCLKS;RegisterClassW(&wc);fcWindow=CreateWindowExW(0,wc.lpszClassName,L"이야기 흐름",WS_CHILD|WS_CLIPCHILDREN,0,0,1,1,game,nullptr,wc.hInstance,nullptr);
+  fcSearch=CreateWindowExW(0,L"EDIT",L"",WS_CHILD|ES_AUTOHSCROLL,0,0,1,1,fcWindow,(HMENU)0x7e51,wc.hInstance,nullptr);if(fcSearch)fcOldEditProc=(WNDPROC)SetWindowLongPtrW(fcSearch,GWLP_WNDPROC,(LONG_PTR)FCEditProc);}
 static void OpenFlowChart(){Init();fcOpenAsked=true;LONGLONG topen=Now();FCLog("open_request");if(fcOpen||fcLoading)return;if(!FCLoad()){MessageBoxW(Game(),L"이야기 흐름 자료를 읽을 수 없습니다.",L"이야기 흐름",MB_OK|MB_ICONERROR);return;}game=Game();
  // The original engine disables IME on its main window. Save and restore that state
  // around the Unicode map, before creating/associating the native EDIT context.
  using EnableImeFn=BOOL(WINAPI*)(HWND,BOOL);
  auto enableIme=(EnableImeFn)GetProcAddress(GetModuleHandleW(L"user32.dll"),"WINNLSEnableIME");
  BOOL oldIme=enableIme?enableIme(game,TRUE):TRUE;
- if(!fcWindow){WNDCLASSW wc{};wc.lpfnWndProc=FCProc;wc.hInstance=GetModuleHandleW(L"ReconquistaHD.dll");wc.hCursor=LoadCursorW(nullptr,MAKEINTRESOURCEW(32512));wc.lpszClassName=L"ReconquistaInGameFlow";wc.style=CS_DBLCLKS;RegisterClassW(&wc);fcWindow=CreateWindowExW(0,wc.lpszClassName,L"이야기 흐름",WS_CHILD|WS_CLIPCHILDREN,0,0,1,1,game,nullptr,wc.hInstance,nullptr);
-  fcSearch=CreateWindowExW(0,L"EDIT",L"",WS_CHILD|ES_AUTOHSCROLL,0,0,1,1,fcWindow,(HMENU)0x7e51,wc.hInstance,nullptr);if(fcSearch)fcOldEditProc=(WNDPROC)SetWindowLongPtrW(fcSearch,GWLP_WNDPROC,(LONG_PTR)FCEditProc);}
+ FCEnsureWindow();fcOverScene=false;
  if(!fcWindow){if(enableIme)enableIme(game,oldIme);return;}if(fcSearch)ImmAssociateContextEx(fcSearch,nullptr,IACE_DEFAULT);fcComposing=false;fcOpen=true;fcOpenedTick=GetTickCount();RECT r{};GetClientRect(game,&r);MoveWindow(fcWindow,0,0,r.right,r.bottom,TRUE);FCLayout();CaptureScene();
  fcHelp=false;fcStatus.clear();fcHover=-1;fcHotPlate=-1;ShowSearch(false);if(fcReopenChapter>=0){fcCursor=fcReopenChapter;fcReopenChapter=-1;}else if(fcHere>=0){fcCursor=fcNodes[fcHere].chapter;}else if(fcCursor<0)fcCursor=0;fcPage=fcChapters[fcCursor].page;   // back from a replay: on its chapter
  // WM_APP+81 below: the config screen's buttons hide now (the map's loop lets no timer through)

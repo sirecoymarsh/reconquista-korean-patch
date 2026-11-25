@@ -104,6 +104,30 @@ try:
     order = int(g.log().split('inflow jump order=')[-1].split()[0])
     g.until(lambda: f'inflow arrived order={order} ' in g.log(), 120, 'arrival')
     time.sleep(3)
+    if len(sys.argv) > 4 and sys.argv[4] == 'hist':        # 기록: the pages it shows (backlog.inc HistPos)
+        capture('hist-before')
+        for _ in range(4):
+            g.logical_click(g.hwnd, 400, 300)
+            time.sleep(1.5)
+        capture('hist-read')
+        g.key(g.hwnd, 0x21)                               # PgUp: 기록
+        time.sleep(2)
+        for _ in range(2):
+            g.wheel(g.hwnd, 400, 300, 1)                  # a page back
+            time.sleep(.8)
+        capture('hist')
+        g.key(g.hwnd, 0x0d)                               # Enter: back to this page's line (asked)
+        time.sleep(1.5)
+        capture('hist-ask')
+        g.key(g.hwnd, 0x0d)                               # 예
+        g.until(lambda: 'inflow backlog go' in g.log(), 10, 'backlog go')
+        order = int(g.log().split('inflow backlog node=')[-1].split()[0])
+        g.until(lambda: f'inflow arrived order={order} ' in g.log(), 120, 'backlog arrival')
+        time.sleep(2)
+        capture('hist-arrived')
+        result['hist'] = [l for l in g.log().splitlines() if l.startswith('hist_pos') or 'backlog' in l or 'inflow arrived' in l][-8:]
+        result['marks'] = [l for l in g.log().splitlines() if 'inflow here' in l or 'flow_arrived' in l][-3:]
+        raise SystemExit
     if len(sys.argv) > 4 and sys.argv[4] == 'mkey':        # M in play, then the map's 「연표」: the 연표 opens
         maps = g.log().count('inflow opened')
         g.key(g.hwnd, 0x4d)

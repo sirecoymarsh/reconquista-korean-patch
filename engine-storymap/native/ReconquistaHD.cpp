@@ -383,10 +383,11 @@ static BOOL WINAPI ClipToGame(const RECT* r){HWND g=Game();if(!r||!g)return Clip
 // It rejects physical coordinates >=800x600 before hit testing; convert at this consumer.
 static bool FCBlockInput(UINT);
 static bool ConsoleKey(UINT msg,WPARAM wp,LPARAM lp);   // below, after the VM variables
+static bool BacklogKey(UINT msg,WPARAM wp,LPARAM lp);static void BacklogJump();static void BacklogLeft();   // backlog.inc
 using InputFn=int(__cdecl*)(HWND,UINT,WPARAM,LPARAM);static InputFn oldInput;
 static int __cdecl Input(HWND h,UINT msg,WPARAM wp,LPARAM lp){
  if(h==Game()&&FCBlockInput(msg))return 1;
- if(h==Game()&&ConsoleKey(msg,wp,lp))return 1;
+ if(h==Game()&&(BacklogKey(msg,wp,lp)||ConsoleKey(msg,wp,lp)))return 1;
  if(h==Game()&&((msg>=WM_MOUSEMOVE&&msg<=WM_MBUTTONDBLCLK)||(msg>=WM_XBUTTONDOWN&&msg<=WM_XBUTTONDBLCLK))){
   auto v=Viewport(h);int x=(short)LOWORD(lp),y=(short)HIWORD(lp);
   ToLogical(v,x,y);
@@ -434,7 +435,7 @@ static const struct ConsoleKeyButton{WPARAM vk;int id;}consoleKeys[]={{'S',12},{
 static int choiceLater=0;static ULONGLONG choiceAt=0;
 static bool ConsoleChoose(int id,bool later){Variable*sel=VarOf(0x405ba90fu),*ret=VarOf(0xcaceeb7fu);if(!sel||!ret)return false;
  if(sel->value==0){ret->value=id;sel->value=2;return true;}if(!later)return false;choiceLater=id;choiceAt=GetTickCount64();return true;}
-static void ChoiceAtWait(Variable*v){if(!choiceLater||!v||v->hash!=0x405ba90fu||v->value!=0)return;int id=choiceLater;choiceLater=0;if(GetTickCount64()-choiceAt>3000)return;
+static void ChoiceAtWait(Variable*v){if(!v||v->hash!=0x405ba90fu||v->value!=0)return;BacklogLeft();if(!choiceLater)return;int id=choiceLater;choiceLater=0;if(GetTickCount64()-choiceAt>3000)return;
  if(Variable*ret=VarOf(0xcaceeb7fu)){ret->value=id;v->value=2;if(logFile){fprintf(logFile,"console_choice id=%d at_wait%c",id,10);fflush(logFile);}}}
 static bool ConsoleKey(UINT msg,WPARAM wp,LPARAM lp){if(msg!=WM_KEYDOWN||(lp&(1L<<30)))return false;
  if(wp=='M'){OpenFlowChart();return true;}
@@ -541,6 +542,7 @@ static int __cdecl Layout(HWND h,UINT msg,WPARAM wp,LPARAM lp){
    QueueDisplayFit(h);if(msg==WM_DISPLAYCHANGE||msg==WM_DPICHANGED)return 1;
   }
   if(msg==WM_APP+81){SyncReviewButton();SyncQualityButton();SyncStoryMapButton();return 1;}
+  if(msg==WM_APP+82){BacklogJump();return 1;}   // backlog.inc: from the 기록
   if(perf&&msg==WM_APP+80){PerfCommand(h,wp);return 1;}
   if(perf&&msg==WM_APP+84){DumpVar(uint32_t(wp));return 1;}   // tests: a VM variable and what it points at
   if(perf&&msg==WM_APP+85){DumpElem(uint32_t(wp),int(HIWORD(lp)),int(LOWORD(lp)));return 1;}   // tests: one element of a VM array
@@ -720,6 +722,7 @@ static void PerfCommand(HWND hwnd,WPARAM op){
 }
 #include "text4k.inc"
 #include "chronicle_proto.inc"
+#include "backlog.inc"
 struct Hook {uintptr_t addr;unsigned len;const unsigned char* expected;void* replacement;void** original;};
 #include "hooks.inc"
 static bool Install(){
@@ -727,9 +730,10 @@ static bool Install(){
  void* allocated[64]{};unsigned count=0;uintptr_t pages[64]{};DWORD protections[64]{};unsigned pageCount=0;
  for(auto& h:hooks){if(h.original){auto t=(unsigned char*)VirtualAlloc(nullptr,h.len+5,MEM_COMMIT|MEM_RESERVE,PAGE_EXECUTE_READWRITE);if(!t){for(unsigned i=0;i<count;i++)VirtualFree(allocated[i],0,MEM_RELEASE);return false;}allocated[count++]=t;memcpy(t,(void*)h.addr,h.len);if(h.addr==0x437ad0)*(int32_t*)(t+3)=int32_t(0x43b400-uintptr_t(t+7));t[h.len]=0xe9;*(int32_t*)(t+h.len+1)=int32_t(h.addr+h.len-uintptr_t(t+h.len+5));*h.original=t;}}
  auto protect=[&](uintptr_t addr){uintptr_t p=addr&~uintptr_t(4095);for(unsigned i=0;i<pageCount;i++)if(pages[i]==p)return true;DWORD old;if(!VirtualProtect((void*)p,4096,PAGE_EXECUTE_READWRITE,&old))return false;pages[pageCount]=p;protections[pageCount++]=old;return true;};
- bool ok=true;for(auto& h:hooks){if(!protect(h.addr)||!protect(h.addr+h.len-1)){ok=false;break;}}if(ok)ok=protect(0x47406c);
+ bool ok=true;for(auto& h:hooks){if(!protect(h.addr)||!protect(h.addr+h.len-1)){ok=false;break;}}if(ok)ok=protect(0x47406c)&&protect(0x412015)&&protect(0x412019)&&*(unsigned char*)0x412015==0xe8&&*(int32_t*)0x412016==int32_t(0x415b70-0x41201a);
  if(!ok){for(unsigned i=0;i<pageCount;i++){DWORD ignored;VirtualProtect((void*)pages[i],4096,protections[i],&ignored);}for(unsigned i=0;i<count;i++)VirtualFree(allocated[i],0,MEM_RELEASE);return false;}
  for(auto& h:hooks){memset((void*)h.addr,0x90,h.len);*(unsigned char*)h.addr=0xe9;*(int32_t*)(h.addr+1)=int32_t(uintptr_t(h.replacement)-h.addr-5);FlushInstructionCache(GetCurrentProcess(),(void*)h.addr,h.len);}
+ *(int32_t*)0x412016=int32_t(uintptr_t(HistPos)-0x41201a);   // backlog.inc: $console_hist_pos's call in the syscall switch
  *(void**)0x474150=(void*)FCCreateFile;*(void**)0x474130=(void*)FCDeleteFile;*(void**)0x474134=(void*)FCCopyFile;*(void**)0x47419c=(void*)FCFindFirst;
  oldMciCreate=*(decltype(oldMciCreate)*)0x474214;*(void**)0x474214=(void*)MovieCreate;*(void**)0x474318=(void*)MovieMove;   // movie.inc: MCIWndCreateA·MoveWindow
  *(void**)0x47406c=(void*)Present;*(void**)0x474374=(void*)ToClient;*(void**)0x47425c=(void*)ToScreen;*(void**)0x474270=(void*)ClipToGame;*(void**)0x474260=(void*)Invalidate;*(void**)0x4742d0=(void*)WindowShow;
