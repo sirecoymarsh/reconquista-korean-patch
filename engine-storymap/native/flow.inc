@@ -23,6 +23,7 @@ static Variable fcVars[]={{FV_ACTIVE,0,0,0},{FV_HERE,0,0,0},{FV_BRANCH,0,0,0},{F
 // as $do_save(9996) would (its writer 0x41e9b0); after, $do_load(9996)'s request is made (the file at 0x4fd6c0, 2 at 0x494888)
 // and the map opens again on that chapter. Opened at the title, it goes back to the title ("start" without the map's flag).
 // 「여기서부터 본편으로」 is the old jump, kept beside it.
+static bool fcCoverChronicle=false;   // the cover waits for the 연표 view (FCToChronicle)
 static bool fcReplay=false,fcReplayHasSave=false,fcReplayWasProtected=false,fcCover=false,fcTitleQueued=false,fcReturnWait=false;
 static int fcReplayChapter=-1,fcReplayStage=0,fcConvert=0,fcReopen=0,fcReopenChapter=-1,fcHereBefore=-1;   // stage: 1 going there, 2 playing, 3 coming back
 static ULONGLONG fcCoverSince=0,fcStoryTick=0,fcReplayPlayTick=0,fcReopenArm=0;static std::wstring fcCoverText;static wchar_t fcTitleBefore[256]{};
@@ -240,8 +241,8 @@ static bool NodeHit(const FCNode&n){return (n.kind==0||n.kind==2)&&Matches(n);}
 // ------------------------------------------------------------------------------------------------ map page
 static bool InCell(const FCChapter&c,float x,float y){return x>=c.x0&&x<c.x1&&y>=c.y0&&y<c.y1;}
 static int MapHit(int px,int py){float x=LX(px),y=LY(py);for(int i=0;i<int(fcChapters.size());i++)if(fcChapters[i].page==fcPage&&InCell(fcChapters[i],x,y))return i;return -1;}
-static const RECT* PlateRects(){static RECT r[4]={{398,14,494,56},{496,10,658,31},{496,38,658,59},{658,23,728,47}};return r;}
-static int PlateHit(int px,int py){float x=LX(px),y=LY(py);auto r=PlateRects();for(int i=0;i<4;i++)if(x>=r[i].left&&x<r[i].right&&y>=r[i].top&&y<r[i].bottom)return i;return -1;}
+static const RECT* PlateRects(){static RECT r[5]={{398,14,494,56},{496,10,658,31},{496,38,658,59},{658,23,728,47},{84,30,164,54}};return r;}   // 4: 「연표」 (drawn here, DrawMap)
+static int PlateHit(int px,int py){float x=LX(px),y=LY(py);auto r=PlateRects();for(int i=0;i<5;i++)if(x>=r[i].left&&x<r[i].right&&y>=r[i].top&&y<r[i].bottom)return i;return -1;}
 static void DrawCell(HDC dc,int i){auto&c=fcChapters[i];RECT r=PR(c.x0,c.y0,c.x1,c.y1);FCFill(dc,r,RGB(0,0,0));int read=ReadPages(i),pages=ChapterPages(i);bool done=pages>0&&read==pages,touched=read>0;
  if(i==fcCursor){RECT s=r;InflateRect(&s,-1,-1);FCTile(dc,FCCrop(L"plate_crimson.png",40,30,444,112),s);FCFrameRect(dc,s,RGB(206,200,200),std::max(1,int(fcK*.6f)));}
  else if(i==fcHover){RECT s=r;InflateRect(&s,-1,-1);FCFrameRect(dc,s,RGB(176,170,176),std::max(1,int(fcK*.5f)));}
@@ -253,6 +254,8 @@ static void DrawCell(HDC dc,int i){auto&c=fcChapters[i];RECT r=PR(c.x0,c.y0,c.x1
 static void DrawMap(HDC dc,int page){auto f=FCScaled(L"frame.png",fcView.w,fcView.h);if(f)FCBlend(dc,f,fcView.x,fcView.y);
  FCText(dc,L"이야기 지도",225,44,true,21,FC_WHITE,1);static const wchar_t* plates[4]={nullptr,L"대사 찾기",L"지금 자리로",L"닫기"};float px[4]={445,576,576,693},py[4]={35,20.5f,48.5f,35},ps[4]={14,12,12,13};
  for(int k=0;k<4;k++){std::wstring t=k?plates[k]:(page?L"본편으로":L"최종편으로");if(k==2&&fcReplay)t=L"다시보기 끝내기";FCText(dc,t,px[k],py[k],true,ps[k],k==fcHotPlate?RGB(255,236,200):FC_WHITE,1);}
+ {const RECT&p=PlateRects()[4];RECT r=PR(float(p.left),float(p.top),float(p.right),float(p.bottom));FCBlend(dc,FCPlate(L"plate_crimson.png",r.right-r.left,r.bottom-r.top,.07f),r.left,r.top);   // 「연표」, as the 연표's 「이야기 지도」 is placed
+  FCText(dc,L"연표",(p.left+p.right)/2.f,(p.top+p.bottom)/2.f,true,13,fcHotPlate==4?RGB(255,236,200):FC_WHITE,1);}
  FCText(dc,L"갈래",70,79,true,11,FC_WHITE,1);FCText(dc,L"날짜",46,105,true,11,FC_WHITE,1);
  // kind 6 is the lane's thread: cells cover it, so its dots show only on days the lane has no chapter
  for(auto&d:fcDecos)if(d.page==page&&d.kind==0)FCFill(dc,PR(d.x0,d.y0,d.x1,d.y1),FC_LINE);else if(d.page==page&&d.kind==6){float cx=(d.x0+d.x1)/2;for(float y=d.y0+1;y+1<=d.y1;y+=3.5f)FCFill(dc,PR(cx-.5f,y,cx+.5f,y+1),d.color);}
@@ -431,14 +434,22 @@ static LRESULT CALLBACK FCEditProc(HWND h,UINT m,WPARAM w,LPARAM l){
 // What a hover change redraws: the plate band or a chapter page plate, the old and new cell with the info strip under the map
 // (it names the hovered chapter); the rest of the page does not depend on it.
 static void FCHoverArea(HWND h,int hot0,int hot1,int hov0,int hov1){auto add=[&](RECT r){InflateRect(&r,int(2*fcK)+2,int(2*fcK)+2);InvalidateRect(h,&r,FALSE);};
- auto plate=[&](int k){if(k<0)return;if(k<4)add(PR(390,6,736,62));else if(k<=11)add(PR(590,14,776,86));else add(PR(357,518,776,558));};
+ auto plate=[&](int k){if(k<0)return;if(k==4)add(PR(84,30,164,54));else if(k<4)add(PR(390,6,736,62));else if(k<=11)add(PR(590,14,776,86));else add(PR(357,518,776,558));};
  if(hot0!=hot1){plate(hot0);plate(hot1);}
  if(hov0!=hov1){for(int c:{hov0,hov1})if(c>=0&&c<int(fcChapters.size())){auto&ch=fcChapters[c];add(PR(ch.x0,ch.y0,ch.x1,ch.y1));}add(PR(94,540,760,564));}}
 static void FCClose(){if(fcOpen)FCSound("cancel");fcOpen=false;}
+// 「연표」 (11-25, the user: 「이야기 지도에서 연표로 가는 기능도 넣어줘」): the choice the text box's 연표 tab makes (button 10,
+// ReconquistaHD.cpp ConsoleChoose: now, or at the pause loop's next wait); the map closes but stays over the game dimmed
+// (FCCover) until the 연표 view is up (FCChronicleUp, from chronicle_proto.inc), at most 3 s. Not in play (the title, a menu):
+// said on the map's line.
+static void FCToChronicle(){Variable*sel=VarOf(0x405ba90fu);bool play=sel&&!FCAtTitle();
+ if(!play||!ConsoleChoose(10,true)){fcStatus=L"연표는 이야기 중(대사가 나올 때)에만 열 수 있습니다";FCSound("cancel");InvalidateRect(fcWindow,nullptr,FALSE);FCLog("to_chronicle refused");return;}
+ FCSound("push");fcCoverChronicle=true;fcOpen=false;FCCover(true,L"");FCLog("to_chronicle");}
+void FCChronicleUp(){if(!fcCoverChronicle)return;fcCoverChronicle=false;FCCover(false);FCLog("chronicle_up");}
 static LRESULT CALLBACK FCProc(HWND h,UINT m,WPARAM w,LPARAM l){int x=(short)LOWORD(l),y=(short)HIWORD(l);
  if(m==WM_TIMER&&w==FC_REOPEN_TIMER){ULONGLONG now=GetTickCount64();   // back from a replay: no picture asked for 0.7 s = the screen is rebuilt, the line waits
   if(fcReopen==3&&((now-lastLoadTick>700&&now-fcReopenArm>500)||now-fcReopenArm>8000)){KillTimer(h,FC_REOPEN_TIMER);fcReopen=0;PostMessageW(Game(),WM_FCREOPEN,0,0);}return 0;}
- if(fcCover&&!fcOpen){if(m==WM_TIMER&&w==FC_COVER_TIMER){if(GetTickCount64()-fcCoverSince>120000){FCLog("cover_timeout");FCCover(false);}return 0;}if(FCInputMessage(m)||m==WM_MOUSELEAVE)return 0;}   // a cover takes no input
+ if(fcCover&&!fcOpen){if(m==WM_TIMER&&w==FC_COVER_TIMER){if(GetTickCount64()-fcCoverSince>(fcCoverChronicle?3000u:120000u)){FCLog("cover_timeout");fcCoverChronicle=false;FCCover(false);}return 0;}if(FCInputMessage(m)||m==WM_MOUSELEAVE)return 0;}   // a cover takes no input
  switch(m){case WM_ERASEBKGND:return 1;case WM_PAINT:{HRGN area=CreateRectRgn(0,0,0,0);bool got=GetUpdateRgn(h,area,FALSE)>NULLREGION;PAINTSTRUCT ps;HDC dc=BeginPaint(h,&ps);FCRender(h,dc,got?area:nullptr);EndPaint(h,&ps);DeleteObject(area);return 0;}case WM_PRINT:case WM_PRINTCLIENT:FCRender(h,(HDC)w);return 0;case WM_SIZE:FCLayout();if(fcSearchShown)ShowSearch(true);return 0;
  case WM_CTLCOLOREDIT:{static HBRUSH b=CreateSolidBrush(RGB(6,6,10));SetTextColor((HDC)w,FC_WHITE);SetBkColor((HDC)w,RGB(6,6,10));return (LRESULT)b;}
  case WM_COMMAND:if(HIWORD(w)==EN_CHANGE&&reinterpret_cast<HWND>(l)==fcSearch){SearchChanged();}return 0;
@@ -456,7 +467,7 @@ static LRESULT CALLBACK FCProc(HWND h,UINT m,WPARAM w,LPARAM l){int x=(short)LOW
  case WM_RBUTTONUP:if(fcHelp){fcHelp=false;FCSound("cancel");FCRedraw();return 0;}if(fcPage==2)BackToMap();else FCClose();return 0;
  case WM_LBUTTONDOWN:SetFocus(fcSearchShown&&fcPage==2?fcSearch:h);return 0;
  case WM_LBUTTONUP:{if(fcHelp){fcHelp=false;FCSound("cancel");FCRedraw();return 0;}float lx=LX(x),ly=LY(y);
-  if(fcPage<2){int p=PlateHit(x,y);if(p==0){SetPage(1-fcPage);return 0;}if(p==1){OpenSearchAll();ShowSearch(true);FCRedraw();return 0;}if(p==2){if(fcReplay){fcReturnWait=true;FCClose();}else GoCurrent();return 0;}/* 다시보기 끝내기 during a replay */if(p==3){FCClose();return 0;}int c=MapHit(x,y);if(c>=0){fcCursor=c;OpenChapter(c,fcHere>=0&&fcNodes[fcHere].chapter==c?fcHere:-1);FCRedraw();}return 0;}
+  if(fcPage<2){int p=PlateHit(x,y);if(p==0){SetPage(1-fcPage);return 0;}if(p==1){OpenSearchAll();ShowSearch(true);FCRedraw();return 0;}if(p==2){if(fcReplay){fcReturnWait=true;FCClose();}else GoCurrent();return 0;}/* 다시보기 끝내기 during a replay */if(p==3){FCClose();return 0;}if(p==4){FCToChronicle();return 0;}int c=MapHit(x,y);if(c>=0){fcCursor=c;OpenChapter(c,fcHere>=0&&fcNodes[fcHere].chapter==c?fcHere:-1);FCRedraw();}return 0;}
   if(lx>=596&&lx<772&&ly>=18&&ly<50){BackToMap();return 0;}
   if(lx>=596&&lx<772&&ly>=50&&ly<82){if(fcScope>=0&&!fcChapters[fcScope].nodes.empty())FCJumpNode(fcChapters[fcScope].nodes.front(),true);else if(!fcSceneList.empty())FCJumpNode(fcScenes[fcSceneList[fcSceneSel]].first,true);return 0;}
   if(lx>=363&&lx<593&&ly>=524&&ly<552){FCJump(true);return 0;}if(lx>=600&&lx<770&&ly>=524&&ly<552){FCJump(false);return 0;}
@@ -476,7 +487,7 @@ static void OpenFlowChart(){Init();fcOpenAsked=true;LONGLONG topen=Now();FCLog("
   fcSearch=CreateWindowExW(0,L"EDIT",L"",WS_CHILD|ES_AUTOHSCROLL,0,0,1,1,fcWindow,(HMENU)0x7e51,wc.hInstance,nullptr);if(fcSearch)fcOldEditProc=(WNDPROC)SetWindowLongPtrW(fcSearch,GWLP_WNDPROC,(LONG_PTR)FCEditProc);}
  if(!fcWindow){if(enableIme)enableIme(game,oldIme);return;}if(fcSearch)ImmAssociateContextEx(fcSearch,nullptr,IACE_DEFAULT);fcComposing=false;fcOpen=true;fcOpenedTick=GetTickCount();RECT r{};GetClientRect(game,&r);MoveWindow(fcWindow,0,0,r.right,r.bottom,TRUE);FCLayout();CaptureScene();
  fcHelp=false;fcStatus.clear();fcHover=-1;fcHotPlate=-1;ShowSearch(false);if(fcReopenChapter>=0){fcCursor=fcReopenChapter;fcReopenChapter=-1;}else if(fcHere>=0){fcCursor=fcNodes[fcHere].chapter;}else if(fcCursor<0)fcCursor=0;fcPage=fcChapters[fcCursor].page;   // back from a replay: on its chapter
- ShowWindow(fcWindow,SW_SHOW);SetWindowPos(fcWindow,HWND_TOP,0,0,0,0,SWP_NOMOVE|SWP_NOSIZE|SWP_NOACTIVATE);SetFocus(fcWindow);FCSound("on2");char b[120];sprintf_s(b,"opened here=%d cursor=%d page=%d ms=%.1f",fcHere>=0?fcNodes[fcHere].order:-1,fcCursor,fcPage,Ms(topen));FCLog(b);FCSnapshot();
+ ShowWindow(fcWindow,SW_SHOW);SetWindowPos(fcWindow,HWND_TOP,0,0,0,0,SWP_NOMOVE|SWP_NOSIZE|SWP_NOACTIVATE);SetFocus(fcWindow);cproto::MapUp();FCSound("on2");char b[120];sprintf_s(b,"opened here=%d cursor=%d page=%d ms=%.1f",fcHere>=0?fcNodes[fcHere].order:-1,fcCursor,fcPage,Ms(topen));FCLog(b);FCSnapshot();
  MSG msg{};bool quit=false;while(fcOpen){BOOL got=GetMessageW(&msg,nullptr,0,0);if(got<=0){quit=got==0;break;}
   if(msg.hwnd!=fcSearch&&msg.message==WM_KEYDOWN&&(msg.wParam==VK_ESCAPE||msg.wParam==VK_F11||msg.wParam==VK_RETURN||msg.wParam==VK_F1)){if(msg.wParam!=VK_F11||!(msg.lParam&(1L<<30)))FCProc(fcWindow,msg.message,msg.wParam,msg.lParam);continue;}
   if(msg.hwnd==game&&FCInputMessage(msg.message))continue;if(msg.hwnd==game&&msg.message==WM_CLOSE){fcOpen=false;PostMessageW(game,WM_CLOSE,0,0);break;}if(msg.message==WM_TIMER)continue;TranslateMessage(&msg);DispatchMessageW(&msg);}

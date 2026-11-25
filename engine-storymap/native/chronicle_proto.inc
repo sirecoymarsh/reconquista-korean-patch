@@ -64,6 +64,11 @@ static HWND wnd=nullptr;static std::atomic<bool> running{false},shown{false},inp
 static bool readyTried=false,parentGone=false,selfDestroy=false,lost=false,gpu=false;static char adapter[128]="";
 static std::mutex tableMutex;static std::shared_ptr<Table> pending;   // engine thread -> view thread
 static std::atomic<int> request{0};static int reqRow=0,reqCol=0;     // view thread -> engine thread: 1 a scene, 2 도움말, 3 close, 4 close then the story map
+// 4: the game's 연표 is closed under the view, the view stays up (holdUntil) until the story map is up over it (MapUp, from
+// OpenFlowChart), so the game's screen never shows between the two (11-25, the user: 「연표에서 이야기 지도로 들어가는 기능이
+// 자연스럽지 않네. 자연스런 전환으로 보이게 바꿔줘」)
+static ULONGLONG holdUntil=0;
+void MapUp(){if(!holdUntil)return;holdUntil=0;shown=false;if(HWND h=wnd)PostMessageW(h,WM_APP+1,0,0);if(logFile){fprintf(logFile,"chron_proto handed_to_map\n");fflush(logFile);}}
 // ---------------------------------------------------------------- drawing (view thread)
 static ComPtr<ID2D1Factory1> fac;static ComPtr<IDWriteFactory5> dwf;static ComPtr<IDWriteFontCollection1> fonts;static ComPtr<IWICImagingFactory> wicf;
 static ComPtr<ID2D1RenderTarget> rt;static ComPtr<ID2D1HwndRenderTarget> hrt;static ComPtr<ID2D1DeviceContext> dctx;
@@ -375,7 +380,7 @@ static LPARAM At(HWND g,float x,float y){auto v=Viewport(g);return MAKELPARAM(v.
 static const int STEP=2,HELP_HOVER=30;   // 도움말 takes the click only after its button has been hovered for a while (10-27: 350 ms)
 static void Act(){static int phase=0,wait=0;static ULONGLONG since=0;static LPARAM lp=0;int what=request.load();HWND g=Game();ULONGLONG now=GetTickCount64();
  if(!what){phase=0;return;}if(!g)return;
- if(!chronicleOpen||now-since>5000&&phase){if(logFile){fprintf(logFile,"chron_proto act=%d done=%d ms=%llu\n",what,int(!chronicleOpen),phase?now-since:0ull);fflush(logFile);}request=0;phase=0;shown=false;if(HWND h=wnd)PostMessageW(h,WM_APP+1,0,0);if(what==4&&!chronicleOpen)PostMessageW(g,WM_COMMAND,0x7e43,0);return;}
+ if(!chronicleOpen||now-since>5000&&phase){if(logFile){fprintf(logFile,"chron_proto act=%d done=%d ms=%llu\n",what,int(!chronicleOpen),phase?now-since:0ull);fflush(logFile);}request=0;phase=0;if(what==4&&!chronicleOpen){holdUntil=now+3000;PostMessageW(g,WM_COMMAND,0x7e43,0);}else shown=false;if(HWND h=wnd)PostMessageW(h,WM_APP+1,0,0);return;}
  if(!phase){phase=1;since=now;wait=0;}if(wait>0){wait--;return;}
  if(what==1){if(phase==1){int x=0,y=0,xm=0,ym=0;int row=reqRow,col=reqCol;Variable*tv=oldVarHash(0x0ff9be7eu);(void)tv;int d0=0,d1=0;const int*tp=Arr(0x0ff9be7eu,d0,d1),*hh=Arr(0xc4c743b7u,d0,d1);
    if(!tp||!hh){request=0;phase=0;return;}ChroniclePosition(nullptr,nullptr,&xm,&ym);int wantX=std::clamp(int(COL)*col-int(BW-COL)/2,0,std::max(0,xm)),wantY=std::clamp(tp[row]-(int(BH)-hh[row])/2,0,std::max(0,ym));
@@ -387,7 +392,7 @@ static void Act(){static int phase=0,wait=0;static ULONGLONG since=0;static LPAR
  else if(what==3||what==4){if(phase==1){lp=At(g,400,330);PostMessageW(g,WM_MOUSEMOVE,0,lp);phase=2;wait=STEP;}else if(phase==2){PostMessageW(g,WM_RBUTTONDOWN,MK_RBUTTON,lp);PostMessageW(g,WM_RBUTTONUP,0,lp);phase=4;}}}
 // the game's 연표 opened (its menu button, the text box tab...): this view over it, its contents read now
 static void Replace(){static bool was=false;if(chronicleOpen&&!was){Fresh();shown=true;request=0;if(!running)Launch();else if(HWND h=wnd)PostMessageW(h,WM_APP+1,0,0);
-  if(logFile){fprintf(logFile,"chron_proto replace opened\n");fflush(logFile);}}
+  FCChronicleUp();if(logFile){fprintf(logFile,"chron_proto replace opened\n");fflush(logFile);}}
  if(!chronicleOpen&&was&&shown&&!request.load()){shown=false;if(HWND h=wnd)PostMessageW(h,WM_APP+1,0,0);if(logFile){fprintf(logFile,"chron_proto replace closed_by_game\n");fflush(logFile);}}
  was=chronicleOpen;}
 static void Check(){if(checked)return;checked=true;wchar_t v[16]{};if(GetEnvironmentVariableW(L"RECON_CHRON_BENCH",v,16)){gpu=!wcscmp(v,L"benchgpu");bench=gpu||!wcscmp(v,L"bench")||!wcscmp(v,L"benchpace");if(!wcscmp(v,L"benchpace")){wchar_t hz[16]{};paceHz=GetEnvironmentVariableW(L"RECON_CHRON_PACE",hz,16)?_wtof(hz):120;}}
@@ -397,7 +402,7 @@ void Tick(){Check();
  static ULONGLONG readyAt=0;if(bench&&titleReady&&!benchDone&&!running){if(!readyAt)readyAt=GetTickCount64();else if(GetTickCount64()-readyAt>3000){benchDone=true;Fresh();Launch();}}
  if(!bench&&titleReady&&!readyTried&&!running){shown=false;Fresh();Launch();}}   // made ready hidden once the title is up
 // engine thread, at each present once chronicleOpen is known (defer.inc FinishFrame): the view follows the 연표's frames
-void Frame(){Check();if(!bench){Replace();Act();}}
+void Frame(){Check();if(!bench){Replace();Act();if(holdUntil&&GetTickCount64()>holdUntil)MapUp();}}   // the map never came: the view goes anyway
 bool Shown(){return !bench&&running&&shown;}
 bool Covered(){return Shown()&&chronicleOpen;}   // the game's 연표 under the view: not drawn at 4x, not presented
 }

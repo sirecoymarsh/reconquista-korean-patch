@@ -368,7 +368,7 @@ static void __cdecl Transform(Bitmap*a,Box*x,Bitmap*b,Box*y,double angle,double 
 static HWND Game(){return ((HWND(__cdecl*)())0x43aa00)();}
 struct View {int x,y,w,h;};static View Viewport(HWND hwnd){RECT r{};GetClientRect(hwnd,&r);int w=r.right,h=r.bottom;if(w*3>h*4)w=h*4/3;else h=w*3/4;return {(r.right-w)/2,(r.bottom-h)/2,w,h};}
 static bool chronicleOpen=false;   // the game's 연표 script is up (defer.inc); the 연표 view (chronicle_proto.inc) covers it
-namespace cproto{void Tick();void Frame();bool Shown();bool Covered();}   // chronicle_proto.inc: the 연표 view
+namespace cproto{void Tick();void Frame();bool Shown();bool Covered();void MapUp();}   // chronicle_proto.inc: the 연표 view
 static void ToLogical(const View&v,int&x,int&y){x=(int)floor(double(x-v.x)*800/std::max(1,v.w));y=(int)floor(double(y-v.y)*600/std::max(1,v.h));}
 static void ToPhysical(const View&v,LONG&x,LONG&y){x=v.x+(int)ceil(double(x)*v.w/800);y=v.y+(int)ceil(double(y)*v.h/600);}
 static BOOL WINAPI Invalidate(HWND h,const RECT* r,BOOL erase){if(r&&h==Game()){auto v=Viewport(h);RECT z{v.x+MulDiv(r->left,v.w,800),v.y+MulDiv(r->top,v.h,600),v.x+(int)ceil(double(r->right)*v.w/800),v.y+(int)ceil(double(r->bottom)*v.h/600)};return InvalidateRect(h,&z,erase);}return InvalidateRect(h,r,erase);}
@@ -406,7 +406,8 @@ static Variable reviewChronicle{0x8763b40au,0,0,-1};
 static Variable* ReviewChronicle(uint32_t hash){if(hash!=reviewChronicle.hash)return nullptr;reviewChronicle.value=reviewEnabled?~3:-1;return &reviewChronicle;}
 static Variable* FCVar(uint32_t,const Variable*);
 using VarFn=Variable*(__cdecl*)(Variable*,short*);using VarHashFn=Variable*(__cdecl*)(uint32_t);static VarFn oldVarFind,oldVarWrite;static VarHashFn oldVarHash;
-static Variable* __cdecl VarFind(Variable*v,short*index){if(v&&v->scope==0){if(auto p=FCVar(v->hash,nullptr))return p;if(v->hash==flowFast.hash)return &flowFast;if(v->hash==flowMark.hash)return &flowMark;if(v->hash==configVisibleVar.hash)return &configVisibleVar;if(auto p=ReviewVar(v->hash))return p;if(auto p=ReviewChronicle(v->hash))return p;}return oldVarFind(v,index);}
+static void ChoiceAtWait(Variable*v);         // a choice waiting for the pause loop (below)
+static Variable* __cdecl VarFind(Variable*v,short*index){if(v&&v->scope==0){if(auto p=FCVar(v->hash,nullptr))return p;if(v->hash==flowFast.hash)return &flowFast;if(v->hash==flowMark.hash)return &flowMark;if(v->hash==configVisibleVar.hash)return &configVisibleVar;if(auto p=ReviewVar(v->hash))return p;if(auto p=ReviewChronicle(v->hash))return p;}Variable*p=oldVarFind(v,index);ChoiceAtWait(p);return p;}
 static bool MapTabPressed(const Variable*v);   // the text box's 「지도」 button (below)
 static Variable* __cdecl VarWrite(Variable*v,short*index){if(MapTabPressed(v))return oldVarWrite(v,index);if(v&&v->scope==0){if(auto p=FCVar(v->hash,v))return p;if(v->hash==flowFast.hash){flowFast.value=v->value;flowWarmStage=v->value;return &flowFast;}if(v->hash==flowMark.hash){flowMark.value=v->value;flowArriveTick=GetTickCount64();if(v->value>0){SetWindowTextW(Game(),L"레콘키스타 · 검수용 재생 (F11: 이야기 지도)");if(forceStartupFullscreen){forceStartupFullscreen=false;PostMessageW(Game(),WM_KEYDOWN,VK_F4,0);}}if(logFile){fprintf(logFile,"flow_arrived=%d fast=%d\n",v->value,flowFast.value);fflush(logFile);}return &flowMark;}if(v->hash==configVisibleVar.hash){configVisibleVar.value=v->value;PostMessageW(Game(),WM_APP+81,0,0);return &configVisibleVar;}if(auto p=ReviewVar(v->hash))return p;}return oldVarWrite(v,index);}
 static Variable* __cdecl VarHash(uint32_t hash){if(auto p=FCVar(hash,nullptr))return p;if(hash==flowFast.hash)return &flowFast;if(hash==flowMark.hash)return &flowMark;if(hash==configVisibleVar.hash)return &configVisibleVar;if(auto p=ReviewVar(hash))return p;if(auto p=ReviewChronicle(hash))return p;return oldVarHash(hash);}
@@ -425,11 +426,20 @@ static bool MapTabPressed(const Variable*v){if(!v||v->hash!=0xcaceeb7fu||v->valu
 static void OpenFlowChart();
 #include "auto_rate.inc"
 static const struct ConsoleKeyButton{WPARAM vk;int id;}consoleKeys[]={{'S',12},{'Q',8},{'W',9},{'L',1},{'A',2},{VK_PRIOR,6},{VK_ESCAPE,7}};   // 빈 칸 저장, 퀵 저장, 퀵 로드, 불러오기, 자동, 기록, 설정 (written on the buttons, tools/build_console.py LABELS)
+// A choice made for the pause loop: now if it waits (@is_select 0), else, if later is asked (the story map's 「연표」: the
+// map closes while the script is still on its way back to the loop), at its next wait: when the loop reads @is_select 0
+// (VarFind; only the pause loop reads it, console.mjo 1fd318c6), that 0 becomes the choice, within 3 s. (Not at the write of
+// that 0: on 11-25 a choice put there was gone
+// again before the loop read it.)
+static int choiceLater=0;static ULONGLONG choiceAt=0;
+static bool ConsoleChoose(int id,bool later){Variable*sel=VarOf(0x405ba90fu),*ret=VarOf(0xcaceeb7fu);if(!sel||!ret)return false;
+ if(sel->value==0){ret->value=id;sel->value=2;return true;}if(!later)return false;choiceLater=id;choiceAt=GetTickCount64();return true;}
+static void ChoiceAtWait(Variable*v){if(!choiceLater||!v||v->hash!=0x405ba90fu||v->value!=0)return;int id=choiceLater;choiceLater=0;if(GetTickCount64()-choiceAt>3000)return;
+ if(Variable*ret=VarOf(0xcaceeb7fu)){ret->value=id;v->value=2;if(logFile){fprintf(logFile,"console_choice id=%d at_wait%c",id,10);fflush(logFile);}}}
 static bool ConsoleKey(UINT msg,WPARAM wp,LPARAM lp){if(msg!=WM_KEYDOWN||(lp&(1L<<30)))return false;
  if(wp=='M'){OpenFlowChart();return true;}
  if(wp=='A'&&AutoOn()){AutoRateStep();return true;}   // auto runs: its rate (auto_rate.inc)
- for(auto&k:consoleKeys){if(k.vk!=wp)continue;Variable*sel=VarOf(0x405ba90fu),*ret=VarOf(0xcaceeb7fu);if(!sel||!ret||sel->value!=0)return false;
-  ret->value=k.id;sel->value=2;if(logFile){fprintf(logFile,"console_key vk=%02x id=%d%c",unsigned(wp),k.id,10);fflush(logFile);}return true;}
+ for(auto&k:consoleKeys){if(k.vk!=wp)continue;if(!ConsoleChoose(k.id,false))return false;if(logFile){fprintf(logFile,"console_key vk=%02x id=%d%c",unsigned(wp),k.id,10);fflush(logFile);}return true;}
  return false;}
 // The chronicle's scroll position (x $4d7f11ee max $704d8d29, y $b1fffe23 max $d95c0a13) set at once, any glide stopped.
 static bool ChroniclePosition(int*x,int*y,int*xmax,int*ymax){if(!oldVarHash)return false;Variable *vx=oldVarHash(0x4d7f11eeu),*vy=oldVarHash(0xb1fffe23u),*mx=oldVarHash(0x704d8d29u),*my=oldVarHash(0xd95c0a13u);

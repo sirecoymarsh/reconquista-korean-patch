@@ -114,7 +114,19 @@ try:
         g.post(view, 0x202, 0, lp)
         g.until(lambda: g.log().count('inflow opened') > maps, 15, 'map opens')
         time.sleep(1)
-        step('map', act=lines('chron_proto act')[-2:], chronicle_closed='chronicle_open=0' in g.log(), maps=g.log().count('inflow opened'))
+        log = g.log()
+        step('map', act=lines('chron_proto act')[-2:], chronicle_closed='chronicle_open=0' in log, maps=log.count('inflow opened'),
+             view_held_until_map=log.rfind('chron_proto handed_to_map') > log.rfind('inflow open_request'))
+        child = g.child()                                # the map's 「연표」 (84,30 80x24): the 연표 again, the map over the game until then
+        opens = g.log().count('chron_proto replace opened')
+        g.move(child, 124, 42)
+        time.sleep(.4)
+        g.logical_click(child, 124, 42)
+        g.until(lambda: g.log().count('chron_proto replace opened') > opens, 15, 'chronicle again')
+        time.sleep(1.5)
+        log = g.log()
+        step('back', to=[l for l in log.splitlines() if 'to_chronicle' in l or 'chronicle_up' in l][-2:], shows=lines('chron_proto show')[-1:],
+             cover_until_view=log.rfind('inflow chronicle_up') > log.rfind('inflow to_chronicle'))
         raise SystemExit
     g.post(view, 0x205, 0, 0)                            # a right click closes, as the user would
     g.until(lambda: 'chronicle_open=0' in g.log() or lines('chron_proto act'), 10, 'close')
