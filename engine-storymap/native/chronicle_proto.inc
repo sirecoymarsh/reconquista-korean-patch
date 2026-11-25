@@ -68,7 +68,7 @@ static std::atomic<int> request{0};static int reqRow=0,reqCol=0;     // view thr
 // OpenFlowChart), so the game's screen never shows between the two (11-25, the user: 「연표에서 이야기 지도로 들어가는 기능이
 // 자연스럽지 않네. 자연스런 전환으로 보이게 바꿔줘」)
 static ULONGLONG holdUntil=0;
-void MapUp(){if(!holdUntil)return;holdUntil=0;shown=false;if(HWND h=wnd)PostMessageW(h,WM_APP+1,0,0);if(logFile){fprintf(logFile,"chron_proto handed_to_map\n");fflush(logFile);}}
+bool MapUp(){if(!holdUntil)return false;holdUntil=0;shown=false;if(HWND h=wnd)PostMessageW(h,WM_APP+1,0,0);if(logFile){fprintf(logFile,"chron_proto handed_to_map\n");fflush(logFile);}return true;}
 // ---------------------------------------------------------------- drawing (view thread)
 static ComPtr<ID2D1Factory1> fac;static ComPtr<IDWriteFactory5> dwf;static ComPtr<IDWriteFontCollection1> fonts;static ComPtr<IWICImagingFactory> wicf;
 static ComPtr<ID2D1RenderTarget> rt;static ComPtr<ID2D1HwndRenderTarget> hrt;static ComPtr<ID2D1DeviceContext> dctx;

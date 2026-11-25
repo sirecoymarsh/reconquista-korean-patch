@@ -241,6 +241,11 @@ static bool NodeHit(const FCNode&n){return (n.kind==0||n.kind==2)&&Matches(n);}
 // ------------------------------------------------------------------------------------------------ map page
 static bool InCell(const FCChapter&c,float x,float y){return x>=c.x0&&x<c.x1&&y>=c.y0&&y<c.y1;}
 static int MapHit(int px,int py){float x=LX(px),y=LY(py);for(int i=0;i<int(fcChapters.size());i++)if(fcChapters[i].page==fcPage&&InCell(fcChapters[i],x,y))return i;return -1;}
+// The map's 「연표」 can go when the map was opened over the text box's wait (M, 「지도」, F11 in play: @is_select 0, the game
+// held while the map is up) or from the 연표 (fcFromChronicle: the script on its way back to that wait); elsewhere (the title,
+// the config screen) the plate is dimmed and a press is said on the map's line (11-25: pressed at the title, it looked broken).
+static bool fcFromChronicle=false;
+static bool FCChronicleReachable(){Variable*sel=VarOf(0x405ba90fu);return sel&&(sel->value==0||fcFromChronicle);}
 static const RECT* PlateRects(){static RECT r[5]={{398,14,494,56},{496,10,658,31},{496,38,658,59},{658,23,728,47},{84,30,164,54}};return r;}   // 4: 「연표」 (drawn here, DrawMap)
 static int PlateHit(int px,int py){float x=LX(px),y=LY(py);auto r=PlateRects();for(int i=0;i<5;i++)if(x>=r[i].left&&x<r[i].right&&y>=r[i].top&&y<r[i].bottom)return i;return -1;}
 static void DrawCell(HDC dc,int i){auto&c=fcChapters[i];RECT r=PR(c.x0,c.y0,c.x1,c.y1);FCFill(dc,r,RGB(0,0,0));int read=ReadPages(i),pages=ChapterPages(i);bool done=pages>0&&read==pages,touched=read>0;
@@ -254,8 +259,9 @@ static void DrawCell(HDC dc,int i){auto&c=fcChapters[i];RECT r=PR(c.x0,c.y0,c.x1
 static void DrawMap(HDC dc,int page){auto f=FCScaled(L"frame.png",fcView.w,fcView.h);if(f)FCBlend(dc,f,fcView.x,fcView.y);
  FCText(dc,L"이야기 지도",225,44,true,21,FC_WHITE,1);static const wchar_t* plates[4]={nullptr,L"대사 찾기",L"지금 자리로",L"닫기"};float px[4]={445,576,576,693},py[4]={35,20.5f,48.5f,35},ps[4]={14,12,12,13};
  for(int k=0;k<4;k++){std::wstring t=k?plates[k]:(page?L"본편으로":L"최종편으로");if(k==2&&fcReplay)t=L"다시보기 끝내기";FCText(dc,t,px[k],py[k],true,ps[k],k==fcHotPlate?RGB(255,236,200):FC_WHITE,1);}
- {const RECT&p=PlateRects()[4];RECT r=PR(float(p.left),float(p.top),float(p.right),float(p.bottom));FCBlend(dc,FCPlate(L"plate_crimson.png",r.right-r.left,r.bottom-r.top,.07f),r.left,r.top);   // 「연표」, as the 연표's 「이야기 지도」 is placed
-  FCText(dc,L"연표",(p.left+p.right)/2.f,(p.top+p.bottom)/2.f,true,13,fcHotPlate==4?RGB(255,236,200):FC_WHITE,1);}
+ {const RECT&p=PlateRects()[4];RECT r=PR(float(p.left),float(p.top),float(p.right),float(p.bottom));bool can=FCChronicleReachable();   // 「연표」, as the 연표's 「이야기 지도」 is placed
+  FCBlend(dc,FCPlate(L"plate_crimson.png",r.right-r.left,r.bottom-r.top,.07f),r.left,r.top,can?255:110);
+  FCText(dc,L"연표",(p.left+p.right)/2.f,(p.top+p.bottom)/2.f,true,13,!can?RGB(120,112,114):fcHotPlate==4?RGB(255,236,200):FC_WHITE,1);}
  FCText(dc,L"갈래",70,79,true,11,FC_WHITE,1);FCText(dc,L"날짜",46,105,true,11,FC_WHITE,1);
  // kind 6 is the lane's thread: cells cover it, so its dots show only on days the lane has no chapter
  for(auto&d:fcDecos)if(d.page==page&&d.kind==0)FCFill(dc,PR(d.x0,d.y0,d.x1,d.y1),FC_LINE);else if(d.page==page&&d.kind==6){float cx=(d.x0+d.x1)/2;for(float y=d.y0+1;y+1<=d.y1;y+=3.5f)FCFill(dc,PR(cx-.5f,y,cx+.5f,y+1),d.color);}
@@ -440,11 +446,9 @@ static void FCHoverArea(HWND h,int hot0,int hot1,int hov0,int hov1){auto add=[&]
 static void FCClose(){if(fcOpen)FCSound("cancel");fcOpen=false;}
 // 「연표」 (11-25, the user: 「이야기 지도에서 연표로 가는 기능도 넣어줘」): the choice the text box's 연표 tab makes (button 10,
 // ReconquistaHD.cpp ConsoleChoose: now, or at the pause loop's next wait); the map closes but stays over the game dimmed
-// (FCCover) until the 연표 view is up (FCChronicleUp, from chronicle_proto.inc), at most 3 s. Not in play (no pause loop since
-// the title was last drawn): said on the map's line. (11-25: FCAtTitle stayed true after loading a save until the next marked
-// line, and every press was refused.)
-static void FCToChronicle(){Variable*sel=VarOf(0x405ba90fu);bool play=sel&&pauseReadTick>titleShownTick;
- if(!play||!ConsoleChoose(10,true)){fcStatus=L"연표는 이야기 중(대사가 나올 때)에만 열 수 있습니다";FCSound("cancel");InvalidateRect(fcWindow,nullptr,FALSE);FCLog("to_chronicle refused");return;}
+// (FCCover) until the 연표 view is up (FCChronicleUp, from chronicle_proto.inc), at most 3 s. Where it can go: FCChronicleReachable.
+static void FCToChronicle(){
+ if(!FCChronicleReachable()||!ConsoleChoose(10,true)){fcStatus=L"연표는 이야기 중에 연 지도에서만 갈 수 있습니다";FCSound("cancel");InvalidateRect(fcWindow,nullptr,FALSE);FCLog("to_chronicle refused");return;}
  FCSound("push");fcCoverChronicle=true;fcOpen=false;FCCover(true,L"");FCLog("to_chronicle");}
 void FCChronicleUp(){if(!fcCoverChronicle)return;fcCoverChronicle=false;FCCover(false);FCLog("chronicle_up");}
 static LRESULT CALLBACK FCProc(HWND h,UINT m,WPARAM w,LPARAM l){int x=(short)LOWORD(l),y=(short)HIWORD(l);
@@ -489,7 +493,7 @@ static void OpenFlowChart(){Init();fcOpenAsked=true;LONGLONG topen=Now();FCLog("
  if(!fcWindow){if(enableIme)enableIme(game,oldIme);return;}if(fcSearch)ImmAssociateContextEx(fcSearch,nullptr,IACE_DEFAULT);fcComposing=false;fcOpen=true;fcOpenedTick=GetTickCount();RECT r{};GetClientRect(game,&r);MoveWindow(fcWindow,0,0,r.right,r.bottom,TRUE);FCLayout();CaptureScene();
  fcHelp=false;fcStatus.clear();fcHover=-1;fcHotPlate=-1;ShowSearch(false);if(fcReopenChapter>=0){fcCursor=fcReopenChapter;fcReopenChapter=-1;}else if(fcHere>=0){fcCursor=fcNodes[fcHere].chapter;}else if(fcCursor<0)fcCursor=0;fcPage=fcChapters[fcCursor].page;   // back from a replay: on its chapter
  // WM_APP+81 below: the config screen's buttons hide now (the map's loop lets no timer through)
- ShowWindow(fcWindow,SW_SHOW);SetWindowPos(fcWindow,HWND_TOP,0,0,0,0,SWP_NOMOVE|SWP_NOSIZE|SWP_NOACTIVATE);SetFocus(fcWindow);cproto::MapUp();PostMessageW(game,WM_APP+81,0,0);FCSound("on2");char b[120];sprintf_s(b,"opened here=%d cursor=%d page=%d ms=%.1f",fcHere>=0?fcNodes[fcHere].order:-1,fcCursor,fcPage,Ms(topen));FCLog(b);FCSnapshot();
+ ShowWindow(fcWindow,SW_SHOW);SetWindowPos(fcWindow,HWND_TOP,0,0,0,0,SWP_NOMOVE|SWP_NOSIZE|SWP_NOACTIVATE);SetFocus(fcWindow);fcFromChronicle=cproto::MapUp();PostMessageW(game,WM_APP+81,0,0);FCSound("on2");char b[120];sprintf_s(b,"opened here=%d cursor=%d page=%d ms=%.1f",fcHere>=0?fcNodes[fcHere].order:-1,fcCursor,fcPage,Ms(topen));FCLog(b);FCSnapshot();
  MSG msg{};bool quit=false;while(fcOpen){BOOL got=GetMessageW(&msg,nullptr,0,0);if(got<=0){quit=got==0;break;}
   if(msg.hwnd!=fcSearch&&msg.message==WM_KEYDOWN&&(msg.wParam==VK_ESCAPE||msg.wParam==VK_F11||msg.wParam==VK_RETURN||msg.wParam==VK_F1)){if(msg.wParam!=VK_F11||!(msg.lParam&(1L<<30)))FCProc(fcWindow,msg.message,msg.wParam,msg.lParam);continue;}
   if(msg.hwnd==game&&FCInputMessage(msg.message))continue;if(msg.hwnd==game&&msg.message==WM_CLOSE){fcOpen=false;PostMessageW(game,WM_CLOSE,0,0);break;}if(msg.message==WM_TIMER)continue;TranslateMessage(&msg);DispatchMessageW(&msg);}

@@ -368,7 +368,7 @@ static void __cdecl Transform(Bitmap*a,Box*x,Bitmap*b,Box*y,double angle,double 
 static HWND Game(){return ((HWND(__cdecl*)())0x43aa00)();}
 struct View {int x,y,w,h;};static View Viewport(HWND hwnd){RECT r{};GetClientRect(hwnd,&r);int w=r.right,h=r.bottom;if(w*3>h*4)w=h*4/3;else h=w*3/4;return {(r.right-w)/2,(r.bottom-h)/2,w,h};}
 static bool chronicleOpen=false;   // the game's 연표 script is up (defer.inc); the 연표 view (chronicle_proto.inc) covers it
-namespace cproto{void Tick();void Frame();bool Shown();bool Covered();void MapUp();}   // chronicle_proto.inc: the 연표 view
+namespace cproto{void Tick();void Frame();bool Shown();bool Covered();bool MapUp();}   // chronicle_proto.inc: the 연표 view
 static void ToLogical(const View&v,int&x,int&y){x=(int)floor(double(x-v.x)*800/std::max(1,v.w));y=(int)floor(double(y-v.y)*600/std::max(1,v.h));}
 static void ToPhysical(const View&v,LONG&x,LONG&y){x=v.x+(int)ceil(double(x)*v.w/800);y=v.y+(int)ceil(double(y)*v.h/600);}
 static BOOL WINAPI Invalidate(HWND h,const RECT* r,BOOL erase){if(r&&h==Game()){auto v=Viewport(h);RECT z{v.x+MulDiv(r->left,v.w,800),v.y+MulDiv(r->top,v.h,600),v.x+(int)ceil(double(r->right)*v.w/800),v.y+(int)ceil(double(r->bottom)*v.h/600)};return InvalidateRect(h,&z,erase);}return InvalidateRect(h,r,erase);}
@@ -432,10 +432,9 @@ static const struct ConsoleKeyButton{WPARAM vk;int id;}consoleKeys[]={{'S',12},{
 // that 0: on 11-25 a choice put there was gone
 // again before the loop read it.)
 static int choiceLater=0;static ULONGLONG choiceAt=0;
-static ULONGLONG pauseReadTick=0;   // the pause loop last read @is_select 0: the story is being played (flow.inc FCToChronicle)
 static bool ConsoleChoose(int id,bool later){Variable*sel=VarOf(0x405ba90fu),*ret=VarOf(0xcaceeb7fu);if(!sel||!ret)return false;
  if(sel->value==0){ret->value=id;sel->value=2;return true;}if(!later)return false;choiceLater=id;choiceAt=GetTickCount64();return true;}
-static void ChoiceAtWait(Variable*v){if(!v||v->hash!=0x405ba90fu||v->value!=0)return;pauseReadTick=GetTickCount64();if(!choiceLater)return;int id=choiceLater;choiceLater=0;if(GetTickCount64()-choiceAt>3000)return;
+static void ChoiceAtWait(Variable*v){if(!choiceLater||!v||v->hash!=0x405ba90fu||v->value!=0)return;int id=choiceLater;choiceLater=0;if(GetTickCount64()-choiceAt>3000)return;
  if(Variable*ret=VarOf(0xcaceeb7fu)){ret->value=id;v->value=2;if(logFile){fprintf(logFile,"console_choice id=%d at_wait%c",id,10);fflush(logFile);}}}
 static bool ConsoleKey(UINT msg,WPARAM wp,LPARAM lp){if(msg!=WM_KEYDOWN||(lp&(1L<<30)))return false;
  if(wp=='M'){OpenFlowChart();return true;}

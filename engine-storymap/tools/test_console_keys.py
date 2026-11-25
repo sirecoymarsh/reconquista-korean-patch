@@ -99,6 +99,50 @@ try:
     order = int(g.log().split('inflow jump order=')[-1].split()[0])
     g.until(lambda: f'inflow arrived order={order} ' in g.log(), 120, 'arrival')
     time.sleep(3)
+    if len(sys.argv) > 4 and sys.argv[4] == 'mkey':        # M in play, then the map's 「연표」: the 연표 opens
+        maps = g.log().count('inflow opened')
+        g.key(g.hwnd, 0x4d)
+        g.until(lambda: g.log().count('inflow opened') > maps, 15, 'map by M')
+        time.sleep(1)
+        child = g.child()
+        g.move(child, 124, 42)
+        time.sleep(.3)
+        g.logical_click(child, 124, 42)
+        g.until(lambda: 'inflow chronicle_up' in g.log(), 10, 'chronicle from map')
+        result['to_chronicle'] = [l for l in g.log().splitlines() if 'to_chronicle' in l or 'chronicle_up' in l or 'console_choice' in l][-3:]
+        raise SystemExit
+    if len(sys.argv) > 4 and sys.argv[4] == 'config':      # the config screen's buttons are gone while its story map is up
+        def buttons():
+            out = []
+            def cb(h, l):
+                if qa.u.IsWindowVisible(h):
+                    t = qa.c.create_unicode_buffer(64)
+                    qa.u.GetWindowTextW(h, t, 64)
+                    k = qa.c.create_unicode_buffer(32)
+                    qa.u.GetClassNameW(h, k, 32)
+                    if k.value == 'Button':
+                        out.append((h, t.value))
+                return True
+            qa.u.EnumChildWindows(g.hwnd, qa.CB(cb), 0)
+            return out
+        g.key(g.hwnd, 0x1b)
+        g.until(lambda: len(buttons()) >= 3, 15, 'config buttons')
+        result['config_buttons'] = [t for _, t in buttons()]
+        h = next(h for h, t in buttons() if '지도' in t)
+        qa.u.PostMessageW(h, 0xf5, 0, 0)                  # BM_CLICK
+        g.until(lambda: g.log().count('inflow opened') >= 2, 15, 'map from config')
+        time.sleep(1)
+        result['buttons_over_map'] = [t for _, t in buttons()]
+        capture('config-map')
+        child = g.child()
+        press_child = lambda x, y: (g.move(child, x, y), time.sleep(.3), g.logical_click(child, x, y))
+        press_child(124, 42)
+        time.sleep(1)
+        result['refused'] = 'to_chronicle refused' in g.log()
+        g.key(child, 0x1b)
+        time.sleep(1.5)
+        result['buttons_after_map'] = [t for _, t in buttons()]
+        raise SystemExit
     if len(sys.argv) > 4:
         n = g.count('console_key ')
         g.key(g.hwnd, 0x4c)
