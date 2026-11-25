@@ -6,6 +6,8 @@ menu numbers them: majiro_<p*100+1+i>.sav), Q (majiro_9999.sav), A (auto on, the
 The runtime's savedata is put back as it was at the end. Result: qa/console-keys.json.
 """
 import json
+import os
+import re
 import shutil
 import sys
 import time
@@ -15,7 +17,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import qa  # noqa: E402
 
 YES = tuple(int(v) for v in sys.argv[2].split(',')) if len(sys.argv) > 2 else (485, 302)   # message_box.mjo buttons 0 (400..569) and 1 (231..400), y 275..330
-VK = dict(F11=0x7a, RET=0x0d, RIGHT=0x27, UP=0x26, END=0x23, S=0x53, Q=0x51, A=0x41, W=0x57)
+VK = dict(F11=0x7a, RET=0x0d, RIGHT=0x27, UP=0x26, DOWN=0x28, END=0x23, S=0x53, Q=0x51, A=0x41, W=0x57)
 run = Path(sys.argv[1])
 saves = run / 'savedata'
 keep = qa.QA / 'console-keys-savedata'
@@ -103,8 +105,11 @@ try:
     if MODE != 'text1':                                   # text1: 도입부 1 (its large serif lines)
         g.key(child, VK['RIGHT'])
         g.until(lambda: 'cursor=' in g.log(), 10, 'cursor move')
+    if MODE.startswith('deep'):                           # deep*: a late chapter, down the lane
+        g.key(child, VK['DOWN'], int(os.environ.get('DEEP_DOWN', 16)), .08)   # DEEP_DOWN: how far down the lane
+        time.sleep(.5)
     g.key(child, VK['RET'])
-    g.until(lambda: f'page=2 chapter={0 if MODE == "text1" else 3}' in g.log(), 10, 'chapter page')
+    g.until(lambda: re.search(r'page=2 chapter=\d+', g.log()) if MODE.startswith('deep') else f'page=2 chapter={0 if MODE == "text1" else 3}' in g.log(), 10, 'chapter page')
     n = g.count('inflow snapshot')
     g.key(child, VK['RIGHT'], 34, .03)
     g.until(lambda: g.count('inflow snapshot') >= n + 34, 30, 'scene steps')
@@ -113,15 +118,19 @@ try:
     time.sleep(.5)
     g.key(child, VK['UP'])
     time.sleep(.4)
-    if MODE in ('textreplay', 'text1'):
+    if MODE in ('textreplay', 'text1', 'deepreplay'):
         g.key(child, VK['RET'])                           # 「이 대사부터 다시보기」 (Enter on the line)
     else:
-        g.story_jump(child)
+        g.story_jump(child)                               # 「여기서부터 본편으로」, then 예 to its question
+        time.sleep(.6)
+        g.key(child, VK['RET'])
     g.until(lambda: 'inflow jump order=' in g.log(), 10, 'jump request')
     order = int(g.log().split('inflow jump order=')[-1].split()[0])
+    t_jump = time.time()
     g.until(lambda: f'inflow arrived order={order} ' in g.log(), 120, 'arrival')
+    result['jump_seconds'] = round(time.time() - t_jump, 2)
     time.sleep(3)
-    if MODE in ('text', 'textreplay', 'text1'):        # the text after a story map jump: 4x or not (11-25)
+    if MODE in ('text', 'textreplay', 'text1', 'deepreplay', 'deepmain'):        # the text after a story map jump: 4x or not (11-25)
         for k in range(8):                                # the arrival line, once the screen shows it
             capture_full(f'text-arrived-{k}', (0, 0, 800, 600))
             time.sleep(.7)

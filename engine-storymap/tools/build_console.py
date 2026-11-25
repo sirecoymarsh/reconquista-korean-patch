@@ -1,4 +1,16 @@
-"""The text box (console): its 「지도」 button and its 「빈 칸 저장」 case.
+"""The text box (console): its 「지도」 button and its 「빈 칸 저장」 case; and the story flow's start (start.mjo).
+
+The story flow's replay starts at its chapter's own script, as the game's 회상 does (11-25, the user: 「이야기 지도는 거기서
+계속 본편처럼 플레이하는 기능이 아니었어. 원래 회상씬처럼 쓰는 기능이었지」): the flow's boot in start.mjo (each root:
+its text box style, then $exec of the root's script) gets, before that $exec, an $exec of chapter k's script when the
+virtual $flow_chapter (FV_CHAPTER, flow_vars.inc) reads k+1, and the run starts at the chapter. Before it, the text box
+style (마키노 / 신야 시점 and the rest: console.mjo 1558c5f5 with its on/off pictures console_on_x / console_off_x) the
+line's own way leaves at the chapter's start (11-25: a 신야 chapter replayed in 마키노's box): the virtual $flow_style
+(FV_STYLE) reads 1 + its letter's place in STYLES, or 0 for the root's. The DLL finds it on the route (flow.inc FCPrepare:
+the last thing before the chapter's first instruction that sets the box: a style call, a sightchange.mjo call with its
+argument, or the view choice with the value the route picks) from native/flow_styles.inc, which
+`python build_console.py --styles` writes from Codex's model (the story map's instruction ids: build_storymap.py's).
+Chapters in the story map's order (the catalogue's: one script each).
 
 「빈 칸 저장」 (11-25, the user's standard: S saves at once to the next empty slot): console.mjo's pause loop gets a case 12
 before the 퀵 저장's case 8, written as that case is (the save info, the 저장할 수 없습니다 check), with the save menu's own
@@ -27,6 +39,7 @@ plate as the row's buttons:
 - console.mjo: an areaevent_set for button 11 at 250,563,51,39 after the 연표's (the same handlers), in appended code;
 - the DLL opens the story map when $click@CONSOLE writes @ret 11 (ReconquistaHD.cpp MapTabPressed).
 
+python build_console.py --styles <source runtime>             write native/flow_styles.inc (Codex's model: a few minutes)
 python build_console.py <source runtime> <out>                build from a runtime (its fastdata, scenario, hires)
 python build_console.py <source runtime> <out> <target>       and put it into <target> (its own fastdata keeps its env)
 """
@@ -66,6 +79,11 @@ CASE_8 = 0x0cea3                 # console.mjo: the 퀵 저장 case's ldc.i 8 (i
 CASES_END = 0x0d0d2              # where every case of that loop ends (its line before the loop's back jump)
 PAUSE_LOOP = 0xbd66              # that function; its locals 1, 2, 3 (ints) are unused, case 12 takes them
 P, I, N = 1, 2, 3
+CATALOGUE = CODEX / 'candidates' / 'flowchart-v1' / 'catalogue.json'
+FV_CHAPTER = 0x6c3e9a51          # the DLL's virtual chapter index (+1; 0 = from the root)
+FV_STYLE = 0x5d72c1e4            # the DLL's virtual text box style (+1 in STYLES; 0 = the root's)
+STYLES = 'mhkest'                # the text box's letters (console_on_x, console_off_x), as its art has them
+EXEC = 0x718ef651                # $exec
 
 
 def text(s):
@@ -207,6 +225,87 @@ def free_locals(s, raw):
             assert not (scope & 0x60 == 0x60 and index in (P, I, N)), hex(x.offset)
 
 
+STYLE = 0x1558c5f5                # console.mjo: the text box style (on picture, off picture)
+
+
+def sight_styles(source):
+    """sightchange.mjo: each function that sets the text box by a case (function hash -> (by its argument?, case -> letter)).
+    The view choice (eed07382) cases on what the player picks (its result); the others on their argument."""
+    s, raw = core.b.decode(source)
+    starts = sorted((f.offset, f.name_hash) for f in s.functions)
+    out = {}
+    for k, x in enumerate(s.instructions):
+        if x.opcode.mnemonic in ('call', 'callp') and raw[x.offset + 2:x.offset + 6] == STYLE.to_bytes(4, 'little'):
+            on = raw[s.instructions[k - 2].offset + 4:s.instructions[k - 2].offset + s.instructions[k - 2].size - 1].decode('cp932')
+            j = next(j for j in range(k - 1, k - 8, -1) if s.instructions[j].opcode.mnemonic == 'bne.case')
+            case = struct.unpack_from('<i', raw, s.instructions[j - 1].offset + 2)[0]
+            h = [h for o, h in starts if o <= x.offset][-1]
+            sw = next(y for y in reversed(s.instructions[:j]) if y.opcode.mnemonic == 'br.case')
+            ld = s.instructions[s.instructions.index(sw) - 1]
+            by_arg = struct.unpack_from('<h', raw, ld.offset + 8)[0] < 0      # a local below 0: an argument
+            assert on[:-1] == 'console_on_' and on[-1] in STYLES, on
+            out.setdefault(h, (by_arg, {}))[1][case] = STYLES.index(on[-1]) + 1
+    return out
+
+
+def write_styles(src, dst):
+    """native/flow_styles.inc: every instruction that sets the text box (a style call, a sightchange call with its
+    argument, the view choice) and each chapter's first instruction, in the story map's instruction ids"""
+    sys.path.insert(0, str(Path(__file__).parent))
+    import codex_model as CM
+    m = CM.model()
+    cat = json.loads(CATALOGUE.read_text('utf-8-sig'))
+    _, S = arc_payload(src / 'scenario.arc')
+    sight = sight_styles(S['sightchange.mjo'])
+    positions = list(m.parent)
+    gid = {p: i for i, p in enumerate(positions)}
+    calls, views, view = [], [], None
+    for g, (n, i) in enumerate(positions):
+        x = m.s[n].instructions[i]
+        if x.opcode.mnemonic not in ('call', 'callp'):
+            continue
+        if x.hash == STYLE:
+            on, off = (m.s[n].instructions[i - j].string for j in (2, 1))
+            assert on[:-1] == 'console_on_' and off == 'console_off_' + on[-1] and on[-1] in STYLES, (n, i, on, off)
+            calls.append((g, STYLES.index(on[-1]) + 1))
+        elif x.hash in sight:
+            by_arg, cases = sight[x.hash]
+            if by_arg:
+                calls.append((g, cases[m.s[n].instructions[i - 1].int_value]))
+            else:
+                assert view in (None, cases), cases
+                view = cases
+                views.append(g)
+    first = [gid.get((c['id'], m.offsets[c['id']][m.s[c['id']].main_offset]), -1) for c in cat['chapters']]
+    out = ['// Written by tools/build_console.py --styles from Codex\'s model and sightchange.mjo: what sets the text box, in the story',
+           '// map\'s instruction ids, for a replay\'s style (flow.inc). A style is 1 + its letter\'s place in "' + STYLES + '".',
+           '// FC_STYLE_CALLS: a style call or a sightchange call with its argument (id, style); FC_STYLE_VIEWS: the view choices,',
+           '// whose picked value v (the route\'s) gives FC_STYLE_VIEW[v]; FC_CHAPTER_FIRST: each chapter\'s first instruction.',
+           f'static constexpr int FC_STYLE_CODE={len(positions)};',
+           'static const int FC_STYLE_CALLS[][2]={' + ','.join(f'{{{g},{k}}}' for g, k in calls) + '};',
+           'static const int FC_STYLE_VIEWS[]={' + ','.join(map(str, views)) + '};',
+           'static const int FC_STYLE_VIEW[]={' + ','.join(str(view.get(v, 0)) for v in range(max(view) + 1)) + '};',
+           'static const int FC_CHAPTER_FIRST[]={' + ','.join(map(str, first)) + '};', '']
+    dst.write_bytes('\r\n'.join(out).encode('utf-8'))
+    print('styles:', len(calls), 'calls,', len(views), 'view choices,', sum(f >= 0 for f in first), 'of', len(first), 'chapters ->', dst)
+
+
+def patch_start(source):
+    """start.mjo: each flow root's $exec (after its text box style) preceded by the style switch and the chapter switch."""
+    s, raw = core.b.decode(source)
+    chapters = [c['id'] for c in json.loads(CATALOGUE.read_text('utf-8-sig'))['chapters']]
+
+    def case(h, k, body):
+        return core.var(h) + core.const(k) + core.b.op('ceq.i') + core.b.op('brfalse') + struct.pack('<i', len(body)) + body
+    switch = b''.join(case(FV_STYLE, k + 1, core.b.string_ins('ldstr', 'console_on_' + x) + core.b.string_ins('ldstr', 'console_off_' + x)
+                           + core.call(STYLE, 2)) for k, x in enumerate(STYLES))
+    switch += b''.join(case(FV_CHAPTER, k + 1, core.b.string_ins('ldstr', name) + core.syscall(EXEC, 1)) for k, name in enumerate(chapters))
+    at = [k - 1 for k, x in enumerate(s.instructions) if x.opcode.mnemonic == 'syscallp' and raw[x.offset + 2:x.offset + 6] == EXEC.to_bytes(4, 'little')
+          and s.instructions[k - 5].opcode.mnemonic == 'brfalse' and s.instructions[k - 2].opcode.mnemonic == 'callp']   # each root's name (ldstr), right after its style
+    assert len(at) == 3, at
+    return core.rewrite(source, {}, {k: switch for k in at}, {})
+
+
 def key(name):
     return f'{zlib.crc32(name.lower().encode("cp932")):08x}'
 
@@ -291,6 +390,7 @@ def build(src, out):
     (out / 'payloads' / 'sysdata.cfg').write_bytes(cfg.replace(BUTALL[0], BUTALL[1]))
     _, S = arc_payload(src / 'scenario.arc')
     (out / 'console.mjo').write_bytes(patch_console(S['console.mjo']))
+    (out / 'start.mjo').write_bytes(patch_start(S['start.mjo']))
     (out / 'scenario.arc.source').write_text(str(src / 'scenario.arc'), 'utf-8')
     (out / 'manifest.json').write_text(json.dumps({'entries': record, 'button': BUTTON, 'butall': BUTALL[1].decode(), 'area_id': 11, 'save_case': 12, 'labels': LABELS}, ensure_ascii=False, indent=1), 'utf-8')
     print('built', len(record), 'frames ->', out)
@@ -308,6 +408,7 @@ def apply(dst, out):
     (dst / 'fastdata.arc').write_bytes(data)
     a, S = arc_payload(Path((out / 'scenario.arc.source').read_text('utf-8')))
     S['console.mjo'] = (out / 'console.mjo').read_bytes()
+    S['start.mjo'] = (out / 'start.mjo').read_bytes()
     data = a.rebuild(S)
     (dst / 'scenario.arc').unlink()
     (dst / 'scenario.arc').write_bytes(data)
@@ -320,6 +421,9 @@ def apply(dst, out):
 
 
 if __name__ == '__main__':
+    if sys.argv[1] == '--styles':
+        write_styles(Path(sys.argv[2]), Path(__file__).resolve().parents[1] / 'native' / 'flow_styles.inc')
+        sys.exit()
     src, out = Path(sys.argv[1]), Path(sys.argv[2])
     build(src, out)
     if len(sys.argv) > 3:

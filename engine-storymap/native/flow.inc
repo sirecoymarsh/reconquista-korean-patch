@@ -3,6 +3,7 @@
 // New: presentation in the game's chronicle/backlog idiom, 읽음 (pages actually shown) and 지금 자리.
 // 10-27: 다시보기 beside the jump (the block after fcVars), and the jump's fast run under a cover (FCCover).
 #include "flow_vars.inc"
+#include "flow_styles.inc"
 #pragma comment(lib,"msimg32.lib")
 struct FCInstruction {int parent,fall,taken,visual;};
 struct FCChapter {std::wstring id,group,label,cell,extra,title;int page=0,day=0,scene0=0,scenes=0,choices=0,views=0,pages=0;float x0=0,y0=0,x1=0,y1=0;std::vector<int> nodes;};
@@ -16,7 +17,7 @@ static std::vector<FCScene> fcScenes;static std::vector<FCDeco> fcDecos;static s
 static std::unordered_map<int,std::vector<int>> fcOptions;
 static int fcRoots[3]{},fcTarget=-1,fcVisual=-1,fcPending=-1;static std::unordered_map<int,int> fcRoute,fcValues;
 static bool fcOpen=false,fcProtected=false,fcLoading=false,fcQueued=false;static HWND fcWindow=nullptr,fcSearch=nullptr;static std::wstring fcSaveDir,fcStatus;static DWORD fcOpenedTick=0;
-static Variable fcVars[]={{FV_ACTIVE,0,0,0},{FV_HERE,0,0,0},{FV_BRANCH,0,0,0},{FV_SELECTION,0,0,0},{FV_ROOT0,0,0,0},{FV_ROOT1,0,0,0},{FV_ROOT2,0,0,0},{FV_BRANCH_VALID,0,0,0}};
+static Variable fcVars[]={{FV_ACTIVE,0,0,0},{FV_HERE,0,0,0},{FV_BRANCH,0,0,0},{FV_SELECTION,0,0,0},{FV_ROOT0,0,0,0},{FV_ROOT1,0,0,0},{FV_ROOT2,0,0,0},{FV_BRANCH_VALID,0,0,0},{FV_CHAPTER,0,0,0},{FV_STYLE,0,0,0}};
 // 다시보기 (10-27; the user: 「아니 해당 시나리오를 회상처럼 보려는 거였는데 생전 첨보는 방식이네」, then 「그 장이 끝나면」 and
 // 「같이 두기」 for the old jump). The chosen line is reached with the jump below, its fast run under a cover; at the chapter's
 // end (or Esc, or 「다시보기 끝내기」 in the map) the player is put back: before, the engine's own save-point snapshot is written
@@ -93,7 +94,22 @@ static bool FCPrepare(int node,bool replay=false,bool isolate=true){if(node<0||n
  if(!fcProtected&&isolate){if(!replay||fcSaveDir.empty()){wchar_t path[MAX_PATH];swprintf_s(path,L"%s\\savedata-review-%lu-%llu",root,GetCurrentProcessId(),GetTickCount64());fcSaveDir=path;if(!FCCopyTree(std::wstring(root)+L"\\savedata",fcSaveDir)){fcStatus=L"검수용 저장 폴더를 만들 수 없어 이동하지 않았습니다.";return false;}}   // a replay's saves go to this run's one copy
   fcProtected=true;FCLog(replay?"savedata_isolated replay":"savedata_isolated");}
  std::vector<int>path;int p=fcNodes[node].gid;while(p>=0&&path.size()<=fcCode.size()){path.push_back(p);p=fcCode[p].parent;}if(path.size()>fcCode.size())return false;std::reverse(path.begin(),path.end());fcRoute.clear();fcValues.clear();for(size_t i=0;i+1<path.size();i++)fcRoute[path[i]]=path[i+1];for(auto&s:fcSelections){int v=s.fallback;for(auto b:s.choices){auto it=fcRoute.find(b.first);if(it!=fcRoute.end()&&it->second==fcCode[b.first].fall){v=b.second;break;}}fcValues[s.gid]=v;}
- fcVisual=path.front();for(size_t i=0;i+1<path.size();i++)if(fcCode[path[i]].visual)fcVisual=path[i];fcTarget=fcNodes[node].gid;fcPending=node;for(int i=0;i<3;i++)fcVars[4+i].value=path.front()==fcRoots[i];if(!fcVars[4].value&&!fcVars[5].value&&!fcVars[6].value)return false;fcVars[0].value=1;fcLoading=true;fcQueued=true;return true;}
+ fcVisual=path.front();for(size_t i=0;i+1<path.size();i++)if(fcCode[path[i]].visual)fcVisual=path[i];fcTarget=fcNodes[node].gid;
+ // A replay starts at its chapter's own script, as the game's 회상 starts one (kaisou.cfg: a script and its function): the
+ // flow's boot in start.mjo takes the root's text box style, then $execs that chapter (FV_CHAPTER: its index + 1; build_console.py
+ // patch_start), and only that chapter is run up to the line (11-25, the user: 「이야기 지도는 거기서 계속 본편처럼 플레이하는
+ // 기능이 아니었어. 원래 회상씬처럼 쓰는 기능이었지」). Its branches still go the line's way (fcRoute); what earlier chapters
+ // left reads as not yet set, as in the 회상. 「여기서부터 본편으로」 runs from the root as before.
+ // The chapter starts in the text box the line's way leaves there (FV_STYLE): the last thing on the route before the
+ // chapter's first instruction that sets it (flow_styles.inc: a style call, a sightchange call, the view choice with the
+ // value the route picks), else the root's (11-25: a 신야 chapter replayed in 마키노's box).
+ fcVars[9].value=0;if(replay&&int(fcCode.size())==FC_STYLE_CODE){int ch=fcNodes[node].chapter,first=ch>=0&&ch<int(std::size(FC_CHAPTER_FIRST))?FC_CHAPTER_FIRST[ch]:-1;
+  size_t at=std::find(path.begin(),path.end(),first)-path.begin();static std::unordered_map<int,int> styleAt;
+  if(styleAt.empty()){for(auto&c:FC_STYLE_CALLS)styleAt[c[0]]=c[1];for(int g:FC_STYLE_VIEWS)styleAt[g]=0;}   // 0: by the view picked
+  for(size_t i=at;i-->0;){auto it=styleAt.find(path[i]);if(it==styleAt.end())continue;int v=it->second;
+   if(!v){auto pick=fcValues.find(path[i]);v=pick!=fcValues.end()&&pick->second>=0&&pick->second<int(std::size(FC_STYLE_VIEW))?FC_STYLE_VIEW[pick->second]:0;}
+   fcVars[9].value=v;break;}}
+ fcVars[8].value=replay?fcNodes[node].chapter+1:0;fcPending=node;for(int i=0;i<3;i++)fcVars[4+i].value=path.front()==fcRoots[i];if(!fcVars[4].value&&!fcVars[5].value&&!fcVars[6].value)return false;fcVars[0].value=1;fcLoading=true;fcQueued=true;return true;}
 using FCLoopFn=int(__cdecl*)();static FCLoopFn fcOldLoop;
 static int __cdecl FCLoop(){
  if(fcConvert){*(int*)0x494888=fcConvert;fcConvert=0;}   // a return asked between two steps (no wait broke): the request for this one
@@ -103,7 +119,7 @@ static int __cdecl FCLoop(){
  if(fcConvert&&result==5){result=fcConvert;fcConvert=0;*(int*)0x494888=result;}   // a return asked in a wait: the break it made becomes the request
  if(fcReopen==1&&(result==2||result==5))fcReopen=2;
  if(fcTitleQueued&&result==5){fcTitleQueued=false;strcpy_s((char*)0x513430,260,"start");fcVars[0].value=0;flowFast.value=flowWarmStage=0;configVisibleVar.value=0;FCLog("replay_to_title");return 5;}
- if(fcQueued&&fcPending>=0&&result==5){fcQueued=false;strcpy_s((char*)0x513430,260,"start");flowFast.value=flowWarmStage=2;flowMark.value=0;configVisibleVar.value=0;char b[120];sprintf_s(b,"scheduler_restart order=%d result=%d",fcPending+1,result);FCLog(b);return 5;}return result;}
+ if(fcQueued&&fcPending>=0&&result==5){fcQueued=false;strcpy_s((char*)0x513430,260,"start");flowFast.value=flowWarmStage=2;flowMark.value=0;configVisibleVar.value=0;char b[120];sprintf_s(b,"scheduler_restart order=%d result=%d chapter=%d style=%d",fcPending+1,result,fcVars[8].value-1,fcVars[9].value);FCLog(b);return 5;}return result;}
 static bool FCInputMessage(UINT m){return (m>=WM_KEYFIRST&&m<=WM_KEYLAST)||(m>=WM_MOUSEFIRST&&m<=WM_MOUSELAST)||m==WM_INPUT||m==WM_COMMAND||m==WM_TIMER;}
 
 // ------------------------------------------------------------------------------------------------ 다시보기: save, cover, return
@@ -397,16 +413,18 @@ static void FCLayout(){std::lock_guard<std::recursive_mutex> lock(fcLock);RECT r
 // (RECON_PERF checks each partial paint against a full render: inflow partial_check).
 static bool fcBackFresh=false;   // fcBack holds a full render (a new size or a failed draw clears it)
 // From the 기록 (backlog.inc) the window shows the game as it was, dimmed: its question (fcAsk) or, going, its line.
-static const wchar_t*fcAsk=nullptr;static bool fcAskNever=false;static int fcAskHot=-1;
+static const wchar_t*fcAsk=nullptr,*fcAskSub=nullptr;static bool fcAskNever=false;static int fcAskHot=-1;
 static const RECT fcAskYes{300,330,390,356},fcAskNo{410,330,500,356},fcAskBox{300,368,500,386};
-static void FCSceneCover(HDC dc){if(fcSceneShot.bmp)FCBlend(dc,&fcSceneShot,fcView.x,fcView.y);FCDim(dc,PR(0,0,800,600),fcAsk?140:150);
- if(!fcAsk){FCText(dc,fcCoverText,400,300,true,17,FC_WHITE,1);return;}
- RECT panel=PR(250,250,550,400);FCFill(dc,panel,RGB(10,9,13));FCFrameRect(dc,panel,RGB(150,146,150),std::max(1,int(fcK*.6f)));FCText(dc,fcAsk,400,296,true,16,FC_WHITE,1);
+static void FCAskPanel(HDC dc);
+static void FCSceneCover(HDC dc){if(fcSceneShot.bmp)FCBlend(dc,&fcSceneShot,fcView.x,fcView.y);if(fcAsk){FCAskPanel(dc);return;}FCDim(dc,PR(0,0,800,600),150);FCText(dc,fcCoverText,400,300,true,17,FC_WHITE,1);}
+// the question (a 기록 jump over the game's picture, a 본편 jump over the map): its line, a smaller one under it, 예 / 아니요, 두 번 다시 묻지 않기
+static void FCAskPanel(HDC dc){FCDim(dc,PR(0,0,800,600),140);
+ RECT panel=PR(220,250,580,400);FCFill(dc,panel,RGB(10,9,13));FCFrameRect(dc,panel,RGB(150,146,150),std::max(1,int(fcK*.6f)));FCText(dc,fcAsk,400,fcAskSub?286.f:296.f,true,16,FC_WHITE,1);if(fcAskSub)FCText(dc,fcAskSub,400,308,false,11,RGB(214,210,216),1,false);
  auto plate=[&](const RECT&b,const wchar_t*t,int k){RECT r=PR(float(b.left),float(b.top),float(b.right),float(b.bottom));FCBlend(dc,FCPlate(L"plate_crimson.png",r.right-r.left,r.bottom-r.top,.07f),r.left,r.top);
   FCText(dc,t,(b.left+b.right)/2.f,(b.top+b.bottom)/2.f,true,13,fcAskHot==k?RGB(255,236,200):FC_WHITE,1);};
  plate(fcAskYes,L"예  Enter",0);plate(fcAskNo,L"아니요  Esc",1);
  RECT box=PR(304,371,316,383);FCFrameRect(dc,box,RGB(200,196,200),std::max(1,int(fcK*.6f)));if(fcAskNever)FCCheck(dc,305,377,FC_WHITE);FCText(dc,L"두 번 다시 묻지 않기 (Space)",322,377,false,11,fcAskHot==2?RGB(255,236,200):RGB(214,210,216),0,false);}
-static void FCPage(HDC dc,const RECT&r){FCFill(dc,r,RGB(0,0,0));if(fcOverScene){FCSceneCover(dc);return;}if(fcPage<2)DrawMap(dc,fcPage);else DrawChapter(dc);if(fcHelp)DrawHelp(dc);
+static void FCPage(HDC dc,const RECT&r){FCFill(dc,r,RGB(0,0,0));if(fcOverScene){FCSceneCover(dc);return;}if(fcPage<2)DrawMap(dc,fcPage);else DrawChapter(dc);if(fcHelp)DrawHelp(dc);if(fcAsk)FCAskPanel(dc);
  if(fcCover&&!fcOpen){FCDim(dc,PR(0,0,800,600),150);FCText(dc,fcCoverText,400,300,true,17,FC_WHITE,1);}}   // going to the line / back: the map stays over the fast run
 static void FCRender(HWND,HDC target,HRGN area=nullptr){std::lock_guard<std::recursive_mutex> lock(fcLock);LONGLONG t0=Now();fcMsBlend=fcMsDim=fcMsText=fcMsWrap=fcMsTile=fcMsArt=0;FCLayout();RECT r{};GetClientRect(fcWindow,&r);
  if(fcBack.w!=r.right||fcBack.h!=r.bottom){FCFree(fcBack);fcBack=FCDib(std::max(1,int(r.right)),std::max(1,int(r.bottom)));fcBackFresh=false;}if(!fcBack.bmp)return;
@@ -448,7 +466,15 @@ static void FCJumpNode(int node,bool replay=false){if(node<0)return;if(!FCNodeSh
  if(FCPrepare(node,replay)){if(replay){fcReplay=true;fcReplayChapter=fcNodes[node].chapter;fcReplayStage=1;}else if(fcReplay){fcReplay=false;fcReplayStage=0;fcTitleBefore[0]=0;}   // 본편으로 from a replay: the game goes on from there
   fcOpen=false;FCCover(true,replay?L"다시보기 준비 중…":L"그 자리로 가는 중…");}
  else FCRedraw();}
-static void FCJump(bool replay=true){if(fcItems.empty())return;auto&it=fcItems[fcItemSel];if(it.kind==0||it.kind==2||it.kind==4||it.kind==5)FCJumpNode(it.node,replay);}
+// 「여기서부터 본편으로」 runs the game from the title's start to the line: asked first (11-25, the user: 「다만 정 필요하다면
+// 선택하게 할까? 경고로 이 지점까지 빠르게 게임을 돌립니다. 라고 쓰고」), 두 번 다시 묻지 않기 kept in backlog.ini [flow] main_ask.
+static int fcAskNode=-1;
+static std::wstring FCJumpIni(){wchar_t p[MAX_PATH];swprintf_s(p,L"%s\\backlog.ini",root);return p;}
+static void FCAskMain(int node){if(GetPrivateProfileIntW(L"flow",L"main_ask",1,FCJumpIni().c_str())==0){FCJumpNode(node,false);return;}
+ FCSound("push");fcAskNode=node;fcAsk=L"이 지점까지 게임을 빠르게 돌립니다.";fcAskSub=L"처음부터 감아 오기 때문에 시간이 걸립니다.";fcAskNever=false;fcAskHot=-1;FCRedraw();}
+static void FCAskAnswer(bool yes){int node=fcAskNode;fcAskNode=-1;fcAsk=fcAskSub=nullptr;if(yes&&fcAskNever)WritePrivateProfileStringW(L"flow",L"main_ask",L"0",FCJumpIni().c_str());
+ if(yes)FCJumpNode(node,false);else{FCSound("cancel");FCRedraw();}}
+static void FCJump(bool replay=true){if(fcItems.empty())return;auto&it=fcItems[fcItemSel];if(!(it.kind==0||it.kind==2||it.kind==4||it.kind==5))return;if(replay)FCJumpNode(it.node,true);else FCAskMain(it.node);}
 static void ShowSearch(bool show){fcSearchShown=show;if(!fcSearch)return;if(show){RECT b=PR(LX0+33,94.5f,LX0+298,107.5f);MoveWindow(fcSearch,b.left,b.top,b.right-b.left,b.bottom-b.top,TRUE);SendMessageW(fcSearch,WM_SETFONT,(WPARAM)FCFont(false,10.5f),TRUE);ShowWindow(fcSearch,SW_SHOW);SetFocus(fcSearch);}else{ShowWindow(fcSearch,SW_HIDE);SetFocus(fcWindow);}}
 static void BackToMap(){FCSound("cancel");ShowSearch(false);if(fcScope>=0)fcCursor=fcScope;fcPage=fcCursor>=0?fcChapters[fcCursor].page:0;fcStatus.clear();FCLog("page=map");FCRedraw();}
 static void GoCurrent(){if(fcHere<0){FCSound("cancel");fcStatus=L"아직 읽은 자리가 없습니다.";FCRedraw();return;}int c=fcNodes[fcHere].chapter;if(fcPage<2&&fcCursor==c){OpenChapter(c,fcHere);FCRedraw();return;}FCSound("push");fcCursor=c;fcPage=fcChapters[c].page;fcStatus.clear();FCRedraw();}
@@ -495,6 +521,11 @@ static LRESULT CALLBACK FCProc(HWND h,UINT m,WPARAM w,LPARAM l){int x=(short)LOW
  if(m==WM_TIMER&&w==FC_REOPEN_TIMER){ULONGLONG now=GetTickCount64();   // back from a replay: no picture asked for 0.7 s = the screen is rebuilt, the line waits
   if(fcReopen==3&&((now-lastLoadTick>700&&now-fcReopenArm>500)||now-fcReopenArm>8000)){KillTimer(h,FC_REOPEN_TIMER);fcReopen=0;PostMessageW(Game(),WM_FCREOPEN,0,0);}return 0;}
  if(fcCover&&!fcOpen){if(m==WM_TIMER&&w==FC_COVER_TIMER){if(GetTickCount64()-fcCoverSince>(fcCoverChronicle?3000u:120000u)){FCLog("cover_timeout");fcCoverChronicle=false;FCCover(false);}return 0;}if(FCInputMessage(m)||m==WM_MOUSELEAVE)return 0;}   // a cover takes no input
+ if(fcAsk&&fcOpen&&!fcOverScene){auto hit=[&](){float lx=LX(x),ly=LY(y);const RECT*r[3]={&fcAskYes,&fcAskNo,&fcAskBox};for(int k=0;k<3;k++)if(lx>=r[k]->left&&lx<r[k]->right&&ly>=r[k]->top&&ly<r[k]->bottom)return k;return -1;};   // the question takes the input
+  if(m==WM_KEYDOWN){if(w==VK_RETURN||w=='Y')FCAskAnswer(true);else if(w==VK_ESCAPE||w=='N')FCAskAnswer(false);else if(w==VK_SPACE){fcAskNever=!fcAskNever;FCRedraw();}return 0;}
+  if(m==WM_MOUSEMOVE){int k=hit();if(k!=fcAskHot){fcAskHot=k;FCRedraw();}return 0;}
+  if(m==WM_LBUTTONUP){int k=hit();if(k==0)FCAskAnswer(true);else if(k==1)FCAskAnswer(false);else if(k==2){fcAskNever=!fcAskNever;FCRedraw();}return 0;}
+  if(m==WM_RBUTTONUP){FCAskAnswer(false);return 0;}if(FCInputMessage(m)&&m!=WM_TIMER&&m!=WM_COMMAND)return 0;}
  switch(m){case WM_ERASEBKGND:return 1;case WM_PAINT:{HRGN area=CreateRectRgn(0,0,0,0);bool got=GetUpdateRgn(h,area,FALSE)>NULLREGION;PAINTSTRUCT ps;HDC dc=BeginPaint(h,&ps);FCRender(h,dc,got?area:nullptr);EndPaint(h,&ps);DeleteObject(area);return 0;}case WM_PRINT:case WM_PRINTCLIENT:FCRender(h,(HDC)w);return 0;case WM_SIZE:FCLayout();if(fcSearchShown)ShowSearch(true);return 0;
  case WM_CTLCOLOREDIT:{static HBRUSH b=CreateSolidBrush(RGB(6,6,10));SetTextColor((HDC)w,FC_WHITE);SetBkColor((HDC)w,RGB(6,6,10));return (LRESULT)b;}
  case WM_COMMAND:if(HIWORD(w)==EN_CHANGE&&reinterpret_cast<HWND>(l)==fcSearch){SearchChanged();}return 0;
