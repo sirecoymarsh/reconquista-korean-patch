@@ -440,9 +440,10 @@ static void FCHoverArea(HWND h,int hot0,int hot1,int hov0,int hov1){auto add=[&]
 static void FCClose(){if(fcOpen)FCSound("cancel");fcOpen=false;}
 // 「연표」 (11-25, the user: 「이야기 지도에서 연표로 가는 기능도 넣어줘」): the choice the text box's 연표 tab makes (button 10,
 // ReconquistaHD.cpp ConsoleChoose: now, or at the pause loop's next wait); the map closes but stays over the game dimmed
-// (FCCover) until the 연표 view is up (FCChronicleUp, from chronicle_proto.inc), at most 3 s. Not in play (the title, a menu):
-// said on the map's line.
-static void FCToChronicle(){Variable*sel=VarOf(0x405ba90fu);bool play=sel&&!FCAtTitle();
+// (FCCover) until the 연표 view is up (FCChronicleUp, from chronicle_proto.inc), at most 3 s. Not in play (no pause loop since
+// the title was last drawn): said on the map's line. (11-25: FCAtTitle stayed true after loading a save until the next marked
+// line, and every press was refused.)
+static void FCToChronicle(){Variable*sel=VarOf(0x405ba90fu);bool play=sel&&pauseReadTick>titleShownTick;
  if(!play||!ConsoleChoose(10,true)){fcStatus=L"연표는 이야기 중(대사가 나올 때)에만 열 수 있습니다";FCSound("cancel");InvalidateRect(fcWindow,nullptr,FALSE);FCLog("to_chronicle refused");return;}
  FCSound("push");fcCoverChronicle=true;fcOpen=false;FCCover(true,L"");FCLog("to_chronicle");}
 void FCChronicleUp(){if(!fcCoverChronicle)return;fcCoverChronicle=false;FCCover(false);FCLog("chronicle_up");}

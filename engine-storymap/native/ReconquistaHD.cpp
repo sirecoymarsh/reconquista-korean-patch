@@ -432,9 +432,10 @@ static const struct ConsoleKeyButton{WPARAM vk;int id;}consoleKeys[]={{'S',12},{
 // that 0: on 11-25 a choice put there was gone
 // again before the loop read it.)
 static int choiceLater=0;static ULONGLONG choiceAt=0;
+static ULONGLONG pauseReadTick=0;   // the pause loop last read @is_select 0: the story is being played (flow.inc FCToChronicle)
 static bool ConsoleChoose(int id,bool later){Variable*sel=VarOf(0x405ba90fu),*ret=VarOf(0xcaceeb7fu);if(!sel||!ret)return false;
  if(sel->value==0){ret->value=id;sel->value=2;return true;}if(!later)return false;choiceLater=id;choiceAt=GetTickCount64();return true;}
-static void ChoiceAtWait(Variable*v){if(!choiceLater||!v||v->hash!=0x405ba90fu||v->value!=0)return;int id=choiceLater;choiceLater=0;if(GetTickCount64()-choiceAt>3000)return;
+static void ChoiceAtWait(Variable*v){if(!v||v->hash!=0x405ba90fu||v->value!=0)return;pauseReadTick=GetTickCount64();if(!choiceLater)return;int id=choiceLater;choiceLater=0;if(GetTickCount64()-choiceAt>3000)return;
  if(Variable*ret=VarOf(0xcaceeb7fu)){ret->value=id;v->value=2;if(logFile){fprintf(logFile,"console_choice id=%d at_wait%c",id,10);fflush(logFile);}}}
 static bool ConsoleKey(UINT msg,WPARAM wp,LPARAM lp){if(msg!=WM_KEYDOWN||(lp&(1L<<30)))return false;
  if(wp=='M'){OpenFlowChart();return true;}
