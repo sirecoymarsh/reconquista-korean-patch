@@ -406,11 +406,13 @@ static Variable* ReviewVar(uint32_t hash){if(!reviewEnabled)return nullptr;for(u
 static Variable reviewChronicle{0x8763b40au,0,0,-1};
 static Variable* ReviewChronicle(uint32_t hash){if(hash!=reviewChronicle.hash)return nullptr;reviewChronicle.value=reviewEnabled?~3:-1;return &reviewChronicle;}
 static Variable* FCVar(uint32_t,const Variable*);
+static bool FCReplaying();   // flow.inc: a story flow replay is on
 using VarFn=Variable*(__cdecl*)(Variable*,short*);using VarHashFn=Variable*(__cdecl*)(uint32_t);static VarFn oldVarFind,oldVarWrite;static VarHashFn oldVarHash;
 static void ChoiceAtWait(Variable*v);         // a choice waiting for the pause loop (below)
 static Variable* __cdecl VarFind(Variable*v,short*index){if(v&&v->scope==0){if(auto p=FCVar(v->hash,nullptr))return p;if(v->hash==flowFast.hash)return &flowFast;if(v->hash==flowMark.hash)return &flowMark;if(v->hash==configVisibleVar.hash)return &configVisibleVar;if(auto p=ReviewVar(v->hash))return p;if(auto p=ReviewChronicle(v->hash))return p;}Variable*p=oldVarFind(v,index);ChoiceAtWait(p);return p;}
 static bool MapTabPressed(const Variable*v);   // the text box's 「지도」 button (below)
-static Variable* __cdecl VarWrite(Variable*v,short*index){if(MapTabPressed(v))return oldVarWrite(v,index);if(v&&v->scope==0){if(auto p=FCVar(v->hash,v))return p;if(v->hash==flowFast.hash){flowFast.value=v->value;flowWarmStage=v->value;return &flowFast;}if(v->hash==flowMark.hash){flowMark.value=v->value;flowArriveTick=GetTickCount64();if(v->value>0){SetWindowTextW(Game(),L"레콘키스타 · 검수용 재생 (F11: 이야기 흐름)");if(forceStartupFullscreen){forceStartupFullscreen=false;PostMessageW(Game(),WM_KEYDOWN,VK_F4,0);}}if(logFile){fprintf(logFile,"flow_arrived=%d fast=%d\n",v->value,flowFast.value);fflush(logFile);}return &flowMark;}if(v->hash==configVisibleVar.hash){configVisibleVar.value=v->value;PostMessageW(Game(),WM_APP+81,0,0);return &configVisibleVar;}if(auto p=ReviewVar(v->hash))return p;}return oldVarWrite(v,index);}
+static void ReplayNoSave(Variable*v);         // a save or load chosen in a replay (below)
+static Variable* __cdecl VarWrite(Variable*v,short*index){if(MapTabPressed(v))return oldVarWrite(v,index);ReplayNoSave(v);if(v&&v->scope==0){if(auto p=FCVar(v->hash,v))return p;if(v->hash==flowFast.hash){flowFast.value=v->value;flowWarmStage=v->value;return &flowFast;}if(v->hash==flowMark.hash){flowMark.value=v->value;flowArriveTick=GetTickCount64();if(v->value>0){SetWindowTextW(Game(),L"레콘키스타 · 검수용 재생 (F11: 이야기 흐름)");if(forceStartupFullscreen){forceStartupFullscreen=false;PostMessageW(Game(),WM_KEYDOWN,VK_F4,0);}}if(logFile){fprintf(logFile,"flow_arrived=%d fast=%d\n",v->value,flowFast.value);fflush(logFile);}return &flowMark;}if(v->hash==configVisibleVar.hash){configVisibleVar.value=v->value;PostMessageW(Game(),WM_APP+81,0,0);return &configVisibleVar;}if(auto p=ReviewVar(v->hash))return p;}return oldVarWrite(v,index);}
 static Variable* __cdecl VarHash(uint32_t hash){if(auto p=FCVar(hash,nullptr))return p;if(hash==flowFast.hash)return &flowFast;if(hash==flowMark.hash)return &flowMark;if(hash==configVisibleVar.hash)return &configVisibleVar;if(auto p=ReviewVar(hash))return p;if(auto p=ReviewChronicle(hash))return p;return oldVarHash(hash);}
 static Variable* VarOf(uint32_t hash){return oldVarHash?oldVarHash(hash):nullptr;}   // a VM variable by its hash, the engine's own lookup
 // The text box's buttons by key (11-25, the user: 「플레이 창에서 단축키로 게임 조작 가능하게. 지금은 하단 커맨드들은
@@ -425,6 +427,12 @@ static Variable* VarOf(uint32_t hash){return oldVarHash?oldVarHash(hash):nullptr
 static bool MapTabPressed(const Variable*v){if(!v||v->hash!=0xcaceeb7fu||v->value!=11)return false;if(Variable*sel=VarOf(0x405ba90fu))sel->value=0;
  PostMessageW(Game(),WM_COMMAND,0x7e43,0);if(logFile){fprintf(logFile,"console_map_tab\n");fflush(logFile);}return true;}
 static void OpenFlowChart();
+// No saving or loading during a story flow replay (11-25, the user: 「다시보기에선 세이브 로드 기능을 비활성화 시키는게
+// 좋겠어」): the text box's save and load choices (불러오기 1, 퀵 저장 8, 퀵 로드 9, 저장 12; by button, $click@CONSOLE's
+// @ret, or by key, ConsoleChoose) become case 13, where the game's own message box says they cannot be used now
+// (tools/build_console.py save_case).
+static bool SaveLoadChoice(int id){return id==1||id==8||id==9||id==12;}
+static void ReplayNoSave(Variable*v){if(!v||v->hash!=0xcaceeb7fu||!SaveLoadChoice(v->value)||!FCReplaying())return;if(logFile){fprintf(logFile,"console_replay_no_save id=%d%c",v->value,10);fflush(logFile);}v->value=13;}
 #include "auto_rate.inc"
 static const struct ConsoleKeyButton{WPARAM vk;int id;}consoleKeys[]={{'S',12},{'Q',8},{'W',9},{'L',1},{'A',2},{VK_PRIOR,6},{VK_ESCAPE,7}};   // 빈 칸 저장, 퀵 저장, 퀵 로드, 불러오기, 자동, 기록, 설정 (written on the buttons, tools/build_console.py LABELS)
 // A choice made for the pause loop: now if it waits (@is_select 0), else, if later is asked (the story map's 「연표」: the
@@ -433,7 +441,7 @@ static const struct ConsoleKeyButton{WPARAM vk;int id;}consoleKeys[]={{'S',12},{
 // that 0: on 11-25 a choice put there was gone
 // again before the loop read it.)
 static int choiceLater=0;static ULONGLONG choiceAt=0;
-static bool ConsoleChoose(int id,bool later){Variable*sel=VarOf(0x405ba90fu),*ret=VarOf(0xcaceeb7fu);if(!sel||!ret)return false;
+static bool ConsoleChoose(int id,bool later){Variable*sel=VarOf(0x405ba90fu),*ret=VarOf(0xcaceeb7fu);if(!sel||!ret)return false;if(SaveLoadChoice(id)&&FCReplaying())id=13;
  if(sel->value==0){ret->value=id;sel->value=2;return true;}if(!later)return false;choiceLater=id;choiceAt=GetTickCount64();return true;}
 static void ChoiceAtWait(Variable*v){if(!v||v->hash!=0x405ba90fu||v->value!=0)return;BacklogLeft();if(!choiceLater)return;int id=choiceLater;choiceLater=0;if(GetTickCount64()-choiceAt>3000)return;
  if(Variable*ret=VarOf(0xcaceeb7fu)){ret->value=id;v->value=2;if(logFile){fprintf(logFile,"console_choice id=%d at_wait%c",id,10);fflush(logFile);}}}

@@ -28,6 +28,7 @@ static bool fcCoverChronicle=false;   // the cover waits for the 연표 view (FC
 static bool fcOverScene=false;        // the window over the game's own picture (from the 기록, backlog.inc), not the map
 static bool fcReplay=false,fcReplayHasSave=false,fcReplayWasProtected=false,fcCover=false,fcTitleQueued=false,fcReturnWait=false;
 static int fcReplayChapter=-1,fcReplayStage=0,fcConvert=0,fcReopen=0,fcReopenChapter=-1,fcHereBefore=-1;   // stage: 1 going there, 2 playing, 3 coming back
+static bool FCReplaying(){return fcReplay&&fcReplayStage>=1&&fcReplayStage<3;}   // going there or playing (ReconquistaHD.cpp ReplayNoSave)
 static ULONGLONG fcCoverSince=0,fcStoryTick=0,fcReplayPlayTick=0,fcReopenArm=0;static std::wstring fcCoverText;static wchar_t fcTitleBefore[256]{};
 static const char FC_RETURN[]="savedata\\majiro_9996.sav";static const UINT FC_COVER_TIMER=0x7e61,FC_REOPEN_TIMER=0x7e62,WM_FCREOPEN=WM_APP+0x7e0;
 enum {FC_IN_VM,FC_IN_WAIT,FC_IN_STEP};   // where a return is asked from: a script variable write, a wait's message, between two steps

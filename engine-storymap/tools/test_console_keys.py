@@ -90,7 +90,7 @@ def changed(before):
     return sorted(k for k in now if before.get(k) != now[k])
 
 
-g = qa.Game(run=run, extra_env={'RECON_PERF': '2'} if MODE in ('text', 'textreplay', 'text1') else None)
+g = qa.Game(run=run, extra_env={'RECON_PERF': '2'} if MODE in ('text', 'textreplay', 'text1') or os.environ.get('RECON_PERF') else None)
 try:
     g.until(lambda: 'load call title' in g.log(), 90, 'title')
     g.hwnd = next(x['h'] for x in g.windows() if x['class'] == 'MAJIRO_EXEC_CLASS')
@@ -130,6 +130,19 @@ try:
     g.until(lambda: f'inflow arrived order={order} ' in g.log(), 120, 'arrival')
     result['jump_seconds'] = round(time.time() - t_jump, 2)
     time.sleep(3)
+    if os.environ.get('NOSAVE'):                          # a replay refuses saves and loads (11-25): Q, then L, with the message each
+        time.sleep(2)
+        for k, vk in (('l', 0x4c), ('q', VK['Q']), ('w', VK['W']), ('s', VK['S']), ('button', None)):
+            if vk:
+                g.key(g.hwnd, vk)
+            else:
+                press(325, 574)                           # the 퀵 저장 button
+            time.sleep(1.2)
+            capture_full(f'nosave-{k}', (0, 0, 800, 600))
+            g.logical_click(g.hwnd, 400, 300)
+            time.sleep(1.2)
+        result['nosave'] = [l for l in g.log().splitlines() if 'console_replay_no_save' in l or 'console_key' in l][-4:]
+        raise SystemExit
     if MODE in ('text', 'textreplay', 'text1', 'deepreplay', 'deepmain'):        # the text after a story map jump: 4x or not (11-25)
         for k in range(8):                                # the arrival line, once the screen shows it
             capture_full(f'text-arrived-{k}', (0, 0, 800, 600))
@@ -138,6 +151,11 @@ try:
             g.logical_click(g.hwnd, 400, 300)
             time.sleep(1.5)
         capture_full('text-later', (0, 0, 800, 600))
+        if os.environ.get('RECON_PERF'):                  # the engine's own 4x frame (perf capture WM_APP+80)
+            g.post(g.hwnd, 0x8000 + 80, 11, 0)
+            g.until(lambda: 'quality_capture id=1 ' in g.log(), 20, 'quality capture')
+            time.sleep(.5)
+            shutil.copy2(run / 'qa' / 'quality-01-hd.bmp', qa.QA / 'console-keys-text-later-hd.bmp')
         result['text'] = [l for l in g.log().splitlines() if l.startswith('text4k lines')][-2:]
         raise SystemExit
     if len(sys.argv) > 4 and sys.argv[4] == 'hist':        # 기록: the pages it shows (backlog.inc HistPos)

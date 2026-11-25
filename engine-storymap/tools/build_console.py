@@ -149,9 +149,13 @@ class Code:
 
 
 def save_case(c):
-    """case 12, entered from CASE_8's place; 'next' does that ldc.i 8 and goes on to case 8's bne.case."""
+    """cases 13 and 12, entered from CASE_8's place; 'next' does that ldc.i 8 and goes on to case 8's bne.case.
+    13: a save or load chosen during a story flow replay, which the DLL turns into this (11-25, the user: 「다시보기에선
+    세이브 로드 기능을 비활성화 시키는게 좋겠어」): the game's own message box says so, as case 8 says 저장할 수 없습니다."""
     pages, slots, auto = (var('ld', 0x00, h) for h in (0xf68bcd63, 0xb51b948b, 0x30b6a7d9))
-    c(core.const(12)).jump('bne.case', 'next')
+    c(core.const(13)).jump('bne.case', 'case_12')
+    c(text('다시보기 중에는 저장하거나 불러올 수 없습니다'), call(0xe72d9f52, 1)).jump('br', 'end')
+    c.label('case_12')(core.const(12)).jump('bne.case', 'next')
     c(call(0x73099731, 0))                                                  # the save info, as case 8
     c(core.syscall(0x4ffab7c4, 0, True)).jump('brfalse', 'free')            # $is_save_menu_disable
     c(text('저장할 수 없습니다'), call(0xe72d9f52, 1)).jump('br', 'end')     # $message@MSG_BOX
