@@ -53,7 +53,7 @@ SRC = (296, 558, 55, 32)         # the 퀵 저장 plate with its pointed left en
 DX = -50                         # the 지도 plate one button to the left
 BUTTON = (250, 563, 51, 39)      # its area, as sysdata.cfg's BUT* rows
 ROW = (246, 558, 460, 32)        # the row's plates, 지도's to 설정's (x, y, w, h)
-LABELS = [(250, '지도(M)'), (300, '퀵 저장(Q)'), (350, '퀵 로드(W)'), (400, '저장(S)'), (450, '불러오기(L)'),
+LABELS = [(250, '흐름(M)'), (300, '퀵 저장(Q)'), (350, '퀵 로드(W)'), (400, '저장(S)'), (450, '불러오기(L)'),
           (501, '건너뛰기(Ctrl)'), (551, '자동(A)'), (601, '기록(PgUp)'), (651, '설정(Esc)')]   # the buttons' x (sysdata.cfg BUT*)
 BUTALL = (b'286, 450, 514, 150', b'236, 450, 564, 150')
 AREA_10 = 0x09ba3                # console.mjo: the 연표's areaevent_set's last argument (ldc.i 10), then the call (8 bytes)

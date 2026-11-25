@@ -71,8 +71,8 @@ static Variable* FCVar(uint32_t hash,const Variable*write=nullptr){for(auto&v:fc
   if(!flowFast.value&&fcReplay&&fcReplayStage>=2&&FCReplayLeft(id)){if(fcReplayStage==2)FCReplayReturn("chapter_end",FC_IN_VM);return &v;}   // the replayed chapter is over; the next one's line is not read
   if(!flowFast.value){if(fcNodes.empty())FCLoad();FCMark(id);}if(flowFast.value&&id==fcVisual)flowFast.value=flowWarmStage=1;if(flowFast.value&&id==fcTarget){flowFast.value=flowWarmStage=0;fcVars[0].value=0;flowMark.value=fcPending+1;flowArriveTick=GetTickCount64();fcLoading=false;probeShots=0;FCMark(id);FCCover(false);
    *(int*)0x494894=*(int*)0x494898=*(int*)0x4948a0=0;   // as $reset_fast_mode: the line is read at the player's pace
-   if(fcReplay){fcReplayStage=2;fcReplayPlayTick=GetTickCount64();if(!fcTitleBefore[0])GetWindowTextW(Game(),fcTitleBefore,256);SetWindowTextW(Game(),L"레콘키스타 · 다시보기 중 · Esc 끝내기 · F11 이야기 지도");}
-   else SetWindowTextW(Game(),L"레콘키스타 · 검수 중 (저장 보호) · F11 이야기 지도");char buf[160];sprintf_s(buf,"arrived order=%d gid=%d protected=%d replay=%d",flowMark.value,id,fcProtected,int(fcReplay));FCLog(buf);}}
+   if(fcReplay){fcReplayStage=2;fcReplayPlayTick=GetTickCount64();if(!fcTitleBefore[0])GetWindowTextW(Game(),fcTitleBefore,256);SetWindowTextW(Game(),L"레콘키스타 · 다시보기 중 · Esc 끝내기 · F11 이야기 흐름");}
+   else SetWindowTextW(Game(),L"레콘키스타 · 검수 중 (저장 보호) · F11 이야기 흐름");char buf[160];sprintf_s(buf,"arrived order=%d gid=%d protected=%d replay=%d",flowMark.value,id,fcProtected,int(fcReplay));FCLog(buf);}}
  else v.value=write->value;}return &v;}return nullptr;}
 
 // ------------------------------------------------------------------------------------------------ review save isolation (v17)
@@ -231,16 +231,34 @@ static std::vector<int> fcSceneList,fcSceneHits;static std::vector<FCItem> fcIte
 static int ChapterPages(int c){return fcChapters[c].pages;}
 static int ReadPages(int c){int n=0;for(int i:fcChapters[c].nodes)if(fcNodes[i].kind==0&&FCIsRead(i))n++;return n;}
 static int ScenePagesRead(int s){int n=0;auto&sc=fcScenes[s];for(int i=sc.first;i<sc.first+sc.count;i++)if(fcNodes[i].kind==0&&FCIsRead(i))n++;return n;}
+// What the map shows opens with the story (11-25, the user agreed: 「좋아 네 제안대로」 to 「읽은 장면이 있는 장만 이름과 내용이
+// 보이고, 안 본 장은 감추고 건너뛰기·찾기도 막아요. 「검수용 모든 콘텐츠 개방」을 켜면 지금처럼 전부」): a line is seen once
+// read (storymap-read.bin, every play), a scene or chapter once any of its lines is; a lane's name and thread once a chapter
+// in it is; the 최종편 page once a chapter on it is. With the review unlock everything is.
+static bool FCOpenAll(){return reviewEnabled;}
+static bool FCNodeSeen(int n){return FCOpenAll()||FCIsRead(n);}
+static bool FCSceneSeen(int s){if(FCOpenAll())return true;auto&sc=fcScenes[s];for(int i=sc.first;i<sc.first+sc.count;i++)if(FCIsRead(i))return true;return false;}
+static bool FCChapterSeen(int c){if(FCOpenAll())return true;for(int i:fcChapters[c].nodes)if(FCIsRead(i))return true;return false;}
+static bool FCPageSeen(int p){for(int c=0;c<int(fcChapters.size());c++)if(fcChapters[c].page==p&&FCChapterSeen(c))return true;return false;}
+// a lane: a seen chapter of its own, inside its column (the header and the thread are centred in it, 6 units in from either side);
+// a chapter across lanes (도입부, 공통) names none of them (11-25: 도입부 2 had named 마사키 and 마호코)
+static bool FCLaneSeen(const FCDeco&d){float l0=std::min(d.x0,d.x1-1)-7,l1=std::max(d.x1,d.x0+1)+7;if(d.kind==6){float cx=(d.x0+d.x1)/2;l0=cx-90;l1=cx+90;for(auto&h:fcDecos)if(h.page==d.page&&(h.kind==3||h.kind==4)&&h.x0<=cx&&cx<=h.x1){l0=h.x0-7;l1=h.x1+7;}}
+ for(int c=0;c<int(fcChapters.size());c++){auto&ch=fcChapters[c];if(ch.page==d.page&&ch.x0>=l0&&ch.x1<=l1&&FCChapterSeen(c))return true;}return false;}
+// a choice's or viewpoint's header and its options: shown once the header or one of its options was reached (all options
+// were on the screen then)
+static bool FCBlockSeen(int head){if(FCNodeSeen(head))return true;auto it=fcOptions.find(head);if(it!=fcOptions.end())for(int j:it->second)if(FCNodeSeen(j))return true;return false;}
+static bool FCNodeShown(int n){auto&x=fcNodes[n];if((x.kind==2||x.kind==4)&&x.owner>=0)return FCBlockSeen(x.owner);if(x.kind==1||x.kind==3)return FCBlockSeen(n);return FCNodeSeen(n);}
+static void FCNotYet(){FCSound("cancel");fcStatus=L"아직 읽지 않은 곳입니다.";InvalidateRect(fcWindow,nullptr,FALSE);FCLog("not_yet");}
 static const wchar_t* Weekday(int d){static const wchar_t* w[]={L"수",L"목",L"금",L"토",L"일",L"월",L"화"};return d>0?w[(d-1)%7]:L"";}
 static std::wstring Num(int v){auto s=std::to_wstring(v);for(int i=int(s.size())-3;i>0;i-=3)s.insert(size_t(i),L",");return s;}
 static std::wstring DayText(int d){if(d<=0||d>19)return L"";return std::to_wstring(d)+L"일째 ("+Weekday(d)+L")";}
 static bool Matches(const FCNode&n){if(fcQuery.empty())return true;auto lower=[](std::wstring s){std::transform(s.begin(),s.end(),s.begin(),towlower);return s;};auto q=lower(fcQuery);return lower(n.speaker+L" "+n.text).find(q)!=std::wstring::npos;}
 // what a search can hit: dialogue, choice/viewpoint option text, condition rows (headers carry no text of their own)
-static bool NodeHit(const FCNode&n){return (n.kind==0||n.kind==2)&&Matches(n);}
+static bool NodeHit(int i){auto&n=fcNodes[i];return (n.kind==0||n.kind==2)&&FCNodeShown(i)&&Matches(n);}
 
 // ------------------------------------------------------------------------------------------------ map page
 static bool InCell(const FCChapter&c,float x,float y){return x>=c.x0&&x<c.x1&&y>=c.y0&&y<c.y1;}
-static int MapHit(int px,int py){float x=LX(px),y=LY(py);for(int i=0;i<int(fcChapters.size());i++)if(fcChapters[i].page==fcPage&&InCell(fcChapters[i],x,y))return i;return -1;}
+static int MapHit(int px,int py){float x=LX(px),y=LY(py);for(int i=0;i<int(fcChapters.size());i++)if(fcChapters[i].page==fcPage&&InCell(fcChapters[i],x,y)&&FCChapterSeen(i))return i;return -1;}
 // The map's 「연표」 can go when the map was opened over the text box's wait (M, 「지도」, F11 in play: @is_select 0, the game
 // held while the map is up) or from the 연표 (fcFromChronicle: the script on its way back to that wait); elsewhere (the title,
 // the config screen) the plate is dimmed and a press is said on the map's line (11-25: pressed at the title, it looked broken).
@@ -269,37 +287,37 @@ static void DrawFlowSwitch(HDC dc){float c=FSH/5,x0=FSX,x1=FSX+FSW,y0=FSY,y1=FSY
  SetTextColor(dc,RGB(255,240,228));DrawTextW(dc,FLOW_WORD,-1,&a,DT_CENTER|DT_VCENTER|DT_SINGLELINE|DT_NOPREFIX);
  SetTextColor(dc,!can?RGB(92,72,76):over?RGB(255,240,228):RGB(150,118,118));DrawTextW(dc,L"연표",-1,&b,DT_CENTER|DT_VCENTER|DT_SINGLELINE|DT_NOPREFIX);SelectObject(dc,of);}
 static void DrawMap(HDC dc,int page){auto f=FCScaled(L"frame.png",fcView.w,fcView.h);if(f)FCBlend(dc,f,fcView.x,fcView.y);
- FCText(dc,L"이야기 지도",225,44,true,21,FC_WHITE,1);static const wchar_t* plates[4]={nullptr,L"대사 찾기",L"지금 자리로",L"닫기"};float px[4]={445,576,576,693},py[4]={35,20.5f,48.5f,35},ps[4]={14,12,12,13};
- for(int k=0;k<4;k++){std::wstring t=k?plates[k]:(page?L"본편으로":L"최종편으로");if(k==2&&fcReplay)t=L"다시보기 끝내기";FCText(dc,t,px[k],py[k],true,ps[k],k==fcHotPlate?RGB(255,236,200):FC_WHITE,1);}
+ FCText(dc,L"이야기 흐름",225,44,true,21,FC_WHITE,1);static const wchar_t* plates[4]={nullptr,L"대사 찾기",L"지금 자리로",L"닫기"};float px[4]={445,576,576,693},py[4]={35,20.5f,48.5f,35},ps[4]={14,12,12,13};
+ for(int k=0;k<4;k++){std::wstring t=k?plates[k]:(page?L"본편으로":L"최종편으로");if(k==2&&fcReplay)t=L"다시보기 끝내기";bool shut=k==0&&!FCPageSeen(1-page);FCText(dc,t,px[k],py[k],true,ps[k],shut?RGB(120,112,114):k==fcHotPlate?RGB(255,236,200):FC_WHITE,1);}
  DrawFlowSwitch(dc);
  FCText(dc,L"갈래",70,79,true,11,FC_WHITE,1);FCText(dc,L"날짜",46,105,true,11,FC_WHITE,1);
  // kind 6 is the lane's thread: cells cover it, so its dots show only on days the lane has no chapter
- for(auto&d:fcDecos)if(d.page==page&&d.kind==0)FCFill(dc,PR(d.x0,d.y0,d.x1,d.y1),FC_LINE);else if(d.page==page&&d.kind==6){float cx=(d.x0+d.x1)/2;for(float y=d.y0+1;y+1<=d.y1;y+=3.5f)FCFill(dc,PR(cx-.5f,y,cx+.5f,y+1),d.color);}
- for(int i=0;i<int(fcChapters.size());i++)if(fcChapters[i].page==page)DrawCell(dc,i);
+ for(auto&d:fcDecos)if(d.page==page&&d.kind==0)FCFill(dc,PR(d.x0,d.y0,d.x1,d.y1),FC_LINE);else if(d.page==page&&d.kind==6&&FCLaneSeen(d)){float cx=(d.x0+d.x1)/2;for(float y=d.y0+1;y+1<=d.y1;y+=3.5f)FCFill(dc,PR(cx-.5f,y,cx+.5f,y+1),d.color);}
+ for(int i=0;i<int(fcChapters.size());i++)if(fcChapters[i].page==page&&FCChapterSeen(i))DrawCell(dc,i);
  auto navy=FCScaled(L"stone_navy.png",int(296*fcK/4),int(1760*fcK/4)),gray=FCScaled(L"stone_gray.png",int(296*fcK/4),int(1760*fcK/4));
  for(auto&d:fcDecos){if(d.page!=page)continue;RECT r=PR(d.x0,d.y0,d.x1,d.y1);float mid=(d.y0+d.y1)/2;
   if(d.kind==1||d.kind==2){FCTile(dc,d.kind==1?navy:gray,r);FCFrameRect(dc,r,RGB(40,36,58));FCText(dc,d.main,d.x0+7,mid,true,12,FC_WHITE);if(!d.sub.empty())FCText(dc,d.sub,d.x1-5,mid,false,10,d.color,2);}
-  else if(d.kind==3||d.kind==4){int w=r.right-r.left,h=r.bottom-r.top;FCBlend(dc,FCPlate(d.kind==3?L"plate_crimson.png":L"plate_navy.png",w,h,.07f),r.left,r.top);FCText(dc,d.main,(d.x0+d.x1)/2,mid,true,15,FC_WHITE,1);}
+  else if(d.kind==3||d.kind==4){int w=r.right-r.left,h=r.bottom-r.top;FCBlend(dc,FCPlate(d.kind==3?L"plate_crimson.png":L"plate_navy.png",w,h,.07f),r.left,r.top);FCText(dc,FCLaneSeen(d)?d.main:L"?",(d.x0+d.x1)/2,mid,true,15,FC_WHITE,1);}
   else if(d.kind==5)FCText(dc,d.main,(d.x0+d.x1)/2,mid,false,10,RGB(176,174,184),1,false);}
  // info strip
  FCFill(dc,PR(94,542,760,562),RGB(0,0,0));FCFill(dc,PR(94,542,760,542.5f),FC_LINE);std::wstring info;int c=fcHover>=0?fcHover:fcCursor;
- if(c>=0){auto&ch=fcChapters[c];info=ch.title;auto day=DayText(ch.day);if(!day.empty())info+=L"  ·  "+day;info+=L"  ·  장면 "+std::to_wstring(ch.scenes)+L"  ·  대사 "+Num(ch.pages)+L"줄";info+=ch.choices?L"  ·  선택지 "+std::to_wstring(ch.choices):L"  ·  선택지 없음";int rd=ReadPages(c);if(rd)info+=rd==ch.pages?L"  ·  다 읽음":L"  ·  읽음 "+Num(rd)+L"/"+Num(ch.pages)+L"줄";}
+ if(c>=0&&!FCChapterSeen(c))info=L"아직 읽은 장이 없습니다.";else if(c>=0){auto&ch=fcChapters[c];info=ch.title;auto day=DayText(ch.day);if(!day.empty())info+=L"  ·  "+day;info+=L"  ·  장면 "+std::to_wstring(ch.scenes)+L"  ·  대사 "+Num(ch.pages)+L"줄";info+=ch.choices?L"  ·  선택지 "+std::to_wstring(ch.choices):L"  ·  선택지 없음";int rd=ReadPages(c);if(rd)info+=rd==ch.pages?L"  ·  다 읽음":L"  ·  읽음 "+Num(rd)+L"/"+Num(ch.pages)+L"줄";}
  if(!fcStatus.empty())info=fcStatus;FCText(dc,info,101,552,false,11,RGB(222,220,228),0,true,520);FCText(dc,page?L"F1 도움말 · Tab 본편 · Enter 열기 · Esc 닫기":L"F1 도움말 · Tab 최종편 · Enter 열기 · Esc 닫기",753,552,false,10,RGB(150,150,160),2,false);}
 
 // ------------------------------------------------------------------------------------------------ chapter page
 static const float LX0=262,LX1=764,LTOP=121,LBOT=516,SX0=20,SX1=252,STOP=110,SCARD=52,SSTEP=56;
 static void Rebuild(HDC dc){fcSceneList.clear();fcSceneHits.clear();
  int a=0,z=int(fcScenes.size());if(fcScope>=0){a=fcChapters[fcScope].scene0;z=a+fcChapters[fcScope].scenes;}
- for(int s=a;s<z;s++){int hits=0;auto&sc=fcScenes[s];if(!fcQuery.empty()){for(int i=sc.first;i<sc.first+sc.count;i++)if(NodeHit(fcNodes[i]))hits++;if(!hits)continue;}fcSceneList.push_back(s);fcSceneHits.push_back(hits);}
+ for(int s=a;s<z;s++){if(!FCSceneSeen(s))continue;int hits=0;auto&sc=fcScenes[s];if(!fcQuery.empty()){for(int i=sc.first;i<sc.first+sc.count;i++)if(NodeHit(i))hits++;if(!hits)continue;}fcSceneList.push_back(s);fcSceneHits.push_back(hits);}
  fcSceneSel=std::clamp(fcSceneSel,0,std::max(0,int(fcSceneList.size())-1));fcItems.clear();fcItemsHeight=0;if(fcSceneList.empty())return;auto&sc=fcScenes[fcSceneList[fcSceneSel]];
  float tw=LX1-(LX0+22)-30;int y=0;auto add=[&](int kind,int node,int h){fcItems.push_back({kind,node,y,h});y+=h;};
  std::vector<int> blocks;
- auto block=[&](int head){if(std::find(blocks.begin(),blocks.end(),head)!=blocks.end())return;auto it=fcOptions.find(head);std::vector<int> opts=it==fcOptions.end()?std::vector<int>{}:it->second;bool hit=fcQuery.empty();for(int j:opts)hit=hit||Matches(fcNodes[j]);if(!hit)return;blocks.push_back(head);bool view=fcNodes[head].kind==3;add(view?3:1,head,int(17*fcK));for(int j:opts)add(view?4:2,j,int(30*fcK));add(-1,-1,int(6*fcK));};
+ auto block=[&](int head){if(std::find(blocks.begin(),blocks.end(),head)!=blocks.end()||!FCBlockSeen(head))return;auto it=fcOptions.find(head);std::vector<int> opts=it==fcOptions.end()?std::vector<int>{}:it->second;bool hit=fcQuery.empty();for(int j:opts)hit=hit||Matches(fcNodes[j]);if(!hit)return;blocks.push_back(head);bool view=fcNodes[head].kind==3;add(view?3:1,head,int(17*fcK));for(int j:opts)add(view?4:2,j,int(30*fcK));add(-1,-1,int(6*fcK));};
  for(int i=sc.first;i<sc.first+sc.count;i++){auto&n=fcNodes[i];
-  if(n.kind==0){if(!Matches(n))continue;int h=FCWrapHeight(dc,n.text.empty()?L"…":n.text,tw,12)+int(((n.speaker.empty()?0:15)+9)*fcK);add(0,i,h+int(fcK));}
+  if(n.kind==0){if(!FCNodeSeen(i)||!Matches(n))continue;int h=FCWrapHeight(dc,n.text.empty()?L"…":n.text,tw,12)+int(((n.speaker.empty()?0:15)+9)*fcK);add(0,i,h+int(fcK));}
   else if(n.kind==1||n.kind==3)block(i);
   else if(n.kind==2&&n.owner>=0){if(fcNodes[n.owner].scene!=n.scene)block(n.owner);}   // its header lives in an earlier scene
-  else if(n.kind==2&&Matches(n))add(5,i,int(24*fcK));}
+  else if(n.kind==2&&FCNodeSeen(i)&&Matches(n))add(5,i,int(24*fcK));}
  fcItemsHeight=y;fcItemSel=std::clamp(fcItemSel,0,std::max(0,int(fcItems.size())-1));while(fcItemSel<int(fcItems.size())-1&&(fcItems[fcItemSel].kind<0||fcItems[fcItemSel].kind==1||fcItems[fcItemSel].kind==3))fcItemSel++;}
 static int SelectableStep(int from,int d){int i=from;for(int g=0;g<int(fcItems.size());g++){i+=d;if(i<0||i>=int(fcItems.size()))return from;if(fcItems[i].kind==0||fcItems[i].kind==2||fcItems[i].kind==4||fcItems[i].kind==5)return i;}return from;}
 static void EnsureItemVisible(){if(fcItems.empty())return;int top=fcItems[fcItemSel].top,bot=top+fcItems[fcItemSel].height,view=int((LBOT-LTOP)*fcK);if(top<fcLineTop)fcLineTop=top;if(bot>fcLineTop+view)fcLineTop=bot-view;fcLineTop=std::clamp(fcLineTop,0,std::max(0,fcItemsHeight-view));}
@@ -307,7 +325,7 @@ static void EnsureSceneVisible(){int rows=int((560-STOP)/SSTEP);if(fcSceneSel<fc
 static void CaptureScene(){SettleAll();FCFree(fcSceneShot);Bitmap*b=*(Bitmap**)0x56a6a8;if(!Valid(b)||fcView.w<=0)return;fcSceneShot=FCDib(fcView.w,fcView.h);if(!fcSceneShot.bmp)return;HDC screen=GetDC(nullptr),m=CreateCompatibleDC(screen);auto old=SelectObject(m,fcSceneShot.bmp);SetStretchBltMode(m,HALFTONE);SetBrushOrgEx(m,0,0,nullptr);
  auto it=shadows.find(b);if(it!=shadows.end()&&!it->second->pixels.empty())StretchDIBits(m,0,0,fcView.w,fcView.h,0,0,it->second->b.w,it->second->b.h,it->second->pixels.data(),&it->second->info,DIB_RGB_COLORS,SRCCOPY);else StretchDIBits(m,0,0,fcView.w,fcView.h,0,0,b->w,b->h,b->pixels,b->info,DIB_RGB_COLORS,SRCCOPY);
  for(int i=0;i<fcView.w*fcView.h;i++)((DWORD*)fcSceneShot.bits)[i]|=0xff000000u;SelectObject(m,old);DeleteDC(m);ReleaseDC(nullptr,screen);}
-static void OpenChapter(int c,int focusNode){FCSound("push");fcPage=2;fcScope=c;fcQuery.clear();if(fcSearch)SetWindowTextW(fcSearch,L"");fcSearchShown=false;fcSceneSel=0;fcSceneTop=0;fcItemSel=0;fcLineTop=0;HDC dc=GetDC(fcWindow);Rebuild(dc);
+static void OpenChapter(int c,int focusNode){if(!FCChapterSeen(c)){FCNotYet();return;}FCSound("push");fcPage=2;fcScope=c;fcQuery.clear();if(fcSearch)SetWindowTextW(fcSearch,L"");fcSearchShown=false;fcSceneSel=0;fcSceneTop=0;fcItemSel=0;fcLineTop=0;HDC dc=GetDC(fcWindow);Rebuild(dc);
  if(focusNode>=0){for(int k=0;k<int(fcSceneList.size());k++)if(fcSceneList[k]==fcNodes[focusNode].scene)fcSceneSel=k;Rebuild(dc);for(int k=0;k<int(fcItems.size());k++)if(fcItems[k].node==focusNode)fcItemSel=k;
   /* 11-21: 지금 자리 on a choice/viewpoint block lands on its header or spacer, where Enter and both jump plates did nothing: move to a pickable line */
   if(!fcItems.empty()){int k=fcItems[fcItemSel].kind;if(!(k==0||k==2||k==4||k==5)){int f=SelectableStep(fcItemSel,1);fcItemSel=f!=fcItemSel?f:SelectableStep(fcItemSel,-1);}}}
@@ -326,7 +344,7 @@ static void DrawChapter(HDC dc){if(fcSceneShot.bmp)FCBlend(dc,&fcSceneShot,fcVie
  std::wstring prompt;if(fcScope>=0){auto&ch=fcChapters[fcScope];prompt=DayText(ch.day);auto add=[&](const std::wstring&s){if(!prompt.empty())prompt+=L" · ";prompt+=s;};add(L"장면 "+std::to_wstring(ch.scenes));add(L"대사 "+Num(ch.pages)+L"줄");if(ch.choices)add(L"선택지 "+std::to_wstring(ch.choices));if(ch.views)add(L"시점 전환 "+std::to_wstring(ch.views));}
  else{int hits=0;for(int h:fcSceneHits)hits+=h;prompt=fcQuery.empty()?L"찾을 말을 적으면 모든 장에서 찾습니다.":Num(hits)+L"곳 · 장면 "+Num(int(fcSceneList.size()))+L"개";}
  float psize=13;while(psize>10&&FCTextW(dc,prompt,true,psize)>336)psize-=.5f;FCText(dc,prompt,418,50,true,psize,FC_PROMPT,1,true,340);FCBlend(dc,ChapterChevron(true),PX(596),PY(18));FCBlend(dc,ChapterChevron(false),PX(596),PY(50));
- FCText(dc,L"지도로 돌아가기",684,34,true,12,fcHotPlate==10?RGB(255,236,200):FC_WHITE,1);FCText(dc,fcScope>=0?L"이 장 처음부터 다시보기":L"이 장면 처음부터 다시보기",684,66,true,12,fcHotPlate==11?RGB(255,236,200):FC_WHITE,1);FCFill(dc,PR(16,86,770,86.5f),RGB(150,146,150));
+ FCText(dc,L"흐름으로 돌아가기",684,34,true,12,fcHotPlate==10?RGB(255,236,200):FC_WHITE,1);FCText(dc,fcScope>=0?L"이 장 처음부터 다시보기":L"이 장면 처음부터 다시보기",684,66,true,12,fcHotPlate==11?RGB(255,236,200):FC_WHITE,1);FCFill(dc,PR(16,86,770,86.5f),RGB(150,146,150));
  // scene cards (save-slot idiom)
  FCText(dc,fcQuery.empty()?L"장면":L"찾은 장면",22,99,true,12,FC_PROMPT);int rows=int((560-STOP)/SSTEP);if(!fcSceneList.empty()){wchar_t b[64];swprintf_s(b,L"%d개 중 %d~%d",int(fcSceneList.size()),fcSceneTop+1,std::min(int(fcSceneList.size()),fcSceneTop+rows));FCText(dc,b,SX1,99,false,10,RGB(150,150,160),2,false);}
  for(int k=0;k<rows&&fcSceneTop+k<int(fcSceneList.size());k++){int s=fcSceneList[fcSceneTop+k];auto&sc=fcScenes[s];float y=STOP+k*SSTEP;bool sel=fcSceneTop+k==fcSceneSel;RECT r=PR(SX0,y,SX1,y+SCARD);
@@ -335,7 +353,7 @@ static void DrawChapter(HDC dc){if(fcSceneShot.bmp)FCBlend(dc,&fcSceneShot,fcVie
   float tx=SX0+77;int rp=ScenePagesRead(s);if(sc.pages&&rp==sc.pages){FCCheck(dc,tx,y+12,FC_WHITE);tx+=12;}std::wstring name=fcScope>=0?L"장면 "+std::to_wstring(s-fcChapters[fcScope].scene0+1):fcChapters[sc.chapter].cell+L" · "+std::to_wstring(s-fcChapters[sc.chapter].scene0+1);
   FCText(dc,name,tx,y+12,true,12,rp?FC_WHITE:FC_UNREAD,0,true,SX1-tx-48);std::wstring right=fcQuery.empty()?std::to_wstring(sc.pages)+L"줄":std::to_wstring(fcSceneHits[fcSceneTop+k])+L"곳";FCText(dc,right,SX1-6,y+12,false,9,RGB(178,170,176),2,false);
   if(sc.choices)FCChoiceIcon(dc,SX1-44,y+9.5f,sc.choices);if(fcHere>=0&&fcNodes[fcHere].scene==s)FCLeaf(dc,SX1-70,y+5,13);
-  FCWrap(dc,sc.snippet,SX0+77,y+23,SX1-SX0-84,10,RGB(214,210,216),2);}
+  if(FCNodeSeen(sc.first))FCWrap(dc,sc.snippet,SX0+77,y+23,SX1-SX0-84,10,RGB(214,210,216),2);}
  if(fcSceneList.empty()&&!fcQuery.empty())FCText(dc,L"찾은 곳이 없습니다.",SX0+8,STOP+20,false,11,FC_DIM,0,false);
  // search row + list
  FCText(dc,L"찾기",LX0+4,101,true,11,FC_PROMPT);RECT box=PR(LX0+30,93,LX0+300,109);FCFill(dc,box,RGB(6,6,10));FCFrameRect(dc,box,RGB(126,120,128));if(!fcQuery.empty())FCText(dc,fcQuery,LX0+35,101,false,10.5f,FC_WHITE,0,false,262);else if(GetFocus()!=fcSearch)FCText(dc,L"대사나 이름으로 찾기  (Ctrl+F)",LX0+37,101,false,10,RGB(120,120,130),0,false);
@@ -356,14 +374,14 @@ static void DrawChapter(HDC dc){if(fcSceneShot.bmp)FCBlend(dc,&fcSceneShot,fcVie
  std::wstring see=L"이 대사부터 다시보기";if(!fcItems.empty()){int k=fcItems[fcItemSel].kind;if(k==2)see=L"이 선택으로 다시보기";else if(k==4)see=L"이 시점으로 다시보기";else if(k==5)see=L"이 갈래부터 다시보기";}
  FCBlend(dc,ChapterBar(fcHotPlate==12?L"bar2.png":L"bar1.png",230,28),PX(363),PY(524));FCText(dc,see,472,538,true,13.5f,FC_WHITE,1);FCText(dc,L"Enter",563,538,false,9,RGB(150,150,160),0,false);
  FCBlend(dc,ChapterBar(fcHotPlate==13?L"bar2.png":L"bar1.png",170,28),PX(600),PY(524));FCText(dc,L"여기서부터 본편으로",685,538,true,12,RGB(214,210,216),1);
- FCText(dc,fcStatus.empty()?(fcReplay?L"다시보기 중 · 이 장이 끝나면 지도로 돌아옵니다":fcProtected?L"본편 검수 중 · 저장은 검수용 폴더로 따로 갑니다":L"다시보기: 이 장이 끝나면 지도로 · 본편으로: 검수용 저장으로 이어짐"):fcStatus,566,562,false,9,RGB(140,140,150),1,false);}
+ FCText(dc,fcStatus.empty()?(fcReplay?L"다시보기 중 · 이 장이 끝나면 흐름으로 돌아옵니다":fcProtected?L"본편 검수 중 · 저장은 검수용 폴더로 따로 갑니다":L"다시보기: 이 장이 끝나면 흐름으로 · 본편으로: 검수용 저장으로 이어짐"):fcStatus,566,562,false,9,RGB(140,140,150),1,false);}
 
 // ------------------------------------------------------------------------------------------------ help (ボタン説明 idiom)
 static void DrawHelp(HDC dc){FCDim(dc,PR(0,0,800,600),170);RECT panel=PR(190,118,610,486);FCFill(dc,panel,RGB(10,9,13));FCFrameRect(dc,panel,RGB(150,146,150),std::max(1,int(fcK*.6f)));RECT inner=PR(194,122,606,482);FCFrameRect(dc,inner,RGB(70,64,76));
  struct Row {const wchar_t*keys,*what;};static const Row map[]={{L"칸 누르기 · Enter",L"그 장 열기"},{L"방향키",L"칸 옮기기"},{L"Tab · 보라 판",L"본편 / 최종편"},{L"G · 금빛 판",L"지금 자리로"},{L"Esc · F11",L"닫고 원래 대사로"}};
- static const Row chap[]={{L"↑ ↓",L"대사 고르기"},{L"← →",L"장면 고르기"},{L"Enter · 두 번 누르기",L"그 자리부터 다시보기"},{L"Ctrl+F · 찾기 칸",L"대사 찾기"},{L"Esc · 오른쪽 클릭",L"지도로"}};
+ static const Row chap[]={{L"↑ ↓",L"대사 고르기"},{L"← →",L"장면 고르기"},{L"Enter · 두 번 누르기",L"그 자리부터 다시보기"},{L"Ctrl+F · 찾기 칸",L"대사 찾기"},{L"Esc · 오른쪽 클릭",L"흐름으로"}};
  auto block=[&](float y,const wchar_t*head,const Row*rows,int n){FCText(dc,head,214,y,true,13,FC_PROMPT);y+=22;for(int i=0;i<n;i++){FCText(dc,rows[i].keys,226,y,false,11.5f,FC_WHITE,0,false);FCText(dc,rows[i].what,392,y,false,11.5f,RGB(214,210,216),0,false);y+=20;}return y;};
- float y=block(144,L"지도",map,5);y=block(y+8,L"장 안",chap,5);FCFill(dc,PR(214,y+2,586,y+2.5f),RGB(70,64,76));
+ float y=block(144,L"흐름",map,5);y=block(y+8,L"장 안",chap,5);FCFill(dc,PR(214,y+2,586,y+2.5f),RGB(70,64,76));
  FCLeaf(dc,216,y+10,13);FCText(dc,L"지금 자리",233,y+16,false,11,FC_WHITE,0,false);FCCheck(dc,312,y+16,FC_WHITE);FCText(dc,L"다 읽은 곳",326,y+16,false,11,FC_WHITE,0,false);FCBlend(dc,FCPlate(L"bar2.png",int(60*fcK),int(12*fcK),.06f),PX(410),PY(y+10));FCText(dc,L"예전에 고른 선택지",476,y+16,false,11,FC_WHITE,0,false);
  FCText(dc,L"아무 키나 누르면 닫힙니다",400,y+40,false,10,FC_DIM,1,false);}
 
@@ -412,7 +430,7 @@ static void FCWarm(){SetThreadPriority(GetCurrentThread(),THREAD_PRIORITY_BELOW_
 static void FCWarmStart(){if(fcWarmStarted||!titleReady||!FCLoad())return;fcWarmStarted=true;std::thread(FCWarm).detach();}   // engine thread (the buttons' timer)
 static void FCRedraw(){InvalidateRect(fcWindow,nullptr,FALSE);FCSnapshot();}
 // replay: 다시보기 (back here at the chapter's end); else 「여기서부터 본편으로」 (the old jump: the game goes on from there)
-static void FCJumpNode(int node,bool replay=false){if(node<0)return;FCSound("push");bool fresh=replay&&!fcReplay;   // another scene picked during a replay keeps the first way back
+static void FCJumpNode(int node,bool replay=false){if(node<0)return;if(!FCNodeShown(node)){FCNotYet();return;}FCSound("push");bool fresh=replay&&!fcReplay;   // another scene picked during a replay keeps the first way back
  if(fresh){fcReplayWasProtected=fcProtected;fcHereBefore=fcHere;bool title=FCAtTitle();fcReplayHasSave=!title&&FCSaveReturn();char t[96];sprintf_s(t,"replay_start at_title=%d return_save=%d",int(title),int(fcReplayHasSave));FCLog(t);}
  char b[96];sprintf_s(b,"jump order=%d replay=%d",fcNodes[node].order,int(replay));FCLog(b);
  if(FCPrepare(node,replay)){if(replay){fcReplay=true;fcReplayChapter=fcNodes[node].chapter;fcReplayStage=1;}else if(fcReplay){fcReplay=false;fcReplayStage=0;fcTitleBefore[0]=0;}   // 본편으로 from a replay: the game goes on from there
@@ -422,15 +440,15 @@ static void FCJump(bool replay=true){if(fcItems.empty())return;auto&it=fcItems[f
 static void ShowSearch(bool show){fcSearchShown=show;if(!fcSearch)return;if(show){RECT b=PR(LX0+33,94.5f,LX0+298,107.5f);MoveWindow(fcSearch,b.left,b.top,b.right-b.left,b.bottom-b.top,TRUE);SendMessageW(fcSearch,WM_SETFONT,(WPARAM)FCFont(false,10.5f),TRUE);ShowWindow(fcSearch,SW_SHOW);SetFocus(fcSearch);}else{ShowWindow(fcSearch,SW_HIDE);SetFocus(fcWindow);}}
 static void BackToMap(){FCSound("cancel");ShowSearch(false);if(fcScope>=0)fcCursor=fcScope;fcPage=fcCursor>=0?fcChapters[fcCursor].page:0;fcStatus.clear();FCLog("page=map");FCRedraw();}
 static void GoCurrent(){if(fcHere<0){FCSound("cancel");fcStatus=L"아직 읽은 자리가 없습니다.";FCRedraw();return;}int c=fcNodes[fcHere].chapter;if(fcPage<2&&fcCursor==c){OpenChapter(c,fcHere);FCRedraw();return;}FCSound("push");fcCursor=c;fcPage=fcChapters[c].page;fcStatus.clear();FCRedraw();}
-static void MoveCursor(int dx,int dy){if(fcCursor<0||fcChapters[fcCursor].page!=fcPage){for(int i=0;i<int(fcChapters.size());i++)if(fcChapters[i].page==fcPage){fcCursor=i;break;}FCSound("on",true);FCRedraw();return;}auto&c=fcChapters[fcCursor];float cx=(c.x0+c.x1)/2,cy=(c.y0+c.y1)/2;int best=-1;float score=1e9f;
- for(int i=0;i<int(fcChapters.size());i++){auto&o=fcChapters[i];if(i==fcCursor||o.page!=fcPage)continue;float ox=(o.x0+o.x1)/2,oy=(o.y0+o.y1)/2;float along=dx?(ox-cx)*dx:(oy-cy)*dy;if(along<=1)continue;
+static void MoveCursor(int dx,int dy){if(fcCursor<0||fcChapters[fcCursor].page!=fcPage){for(int i=0;i<int(fcChapters.size());i++)if(fcChapters[i].page==fcPage&&FCChapterSeen(i)){fcCursor=i;break;}FCSound("on",true);FCRedraw();return;}auto&c=fcChapters[fcCursor];float cx=(c.x0+c.x1)/2,cy=(c.y0+c.y1)/2;int best=-1;float score=1e9f;
+ for(int i=0;i<int(fcChapters.size());i++){auto&o=fcChapters[i];if(i==fcCursor||o.page!=fcPage||!FCChapterSeen(i))continue;float ox=(o.x0+o.x1)/2,oy=(o.y0+o.y1)/2;float along=dx?(ox-cx)*dx:(oy-cy)*dy;if(along<=1)continue;
   // a neighbour must share the row (for ←→) or the column (for ↑↓); merged and split cells still overlap
   float overlap=dx?std::min(o.y1,c.y1)-std::max(o.y0,c.y0):std::min(o.x1,c.x1)-std::max(o.x0,c.x0);float cross=overlap>.5f?0.f:20.f-std::min(0.f,overlap);float s=along+cross*8+(dx?fabsf(oy-cy):fabsf(ox-cx))*.3f;if(s<score){score=s;best=i;}}
  if(best>=0){fcCursor=best;FCSound("on",true);}fcStatus.clear();char b[48];sprintf_s(b,"cursor=%d",fcCursor);FCLog(b);FCRedraw();}
 static void PickScene(int k);
 static void SceneStep(int d){if(fcSceneList.empty())return;PickScene(std::clamp(fcSceneSel+d,0,int(fcSceneList.size())-1));}
 static void SearchChanged(){wchar_t q[256]{};if(fcSearch)GetWindowTextW(fcSearch,q,256);fcQuery=q;fcSceneSel=0;fcSceneTop=0;fcItemSel=0;fcLineTop=0;HDC dc=GetDC(fcWindow);Rebuild(dc);ReleaseDC(fcWindow,dc);int hits=0;for(int h:fcSceneHits)hits+=h;char b[96];sprintf_s(b,"search len=%d scenes=%d hits=%d items=%d",int(fcQuery.size()),int(fcSceneList.size()),hits,int(fcItems.size()));FCLog(b);FCRedraw();}
-static void SetPage(int p){FCSound("push");fcPage=p;fcHover=-1;fcStatus.clear();char b[32];sprintf_s(b,"page=%d",fcPage);FCLog(b);FCRedraw();}
+static void SetPage(int p){if(p<2&&!FCPageSeen(p)){FCNotYet();return;}FCSound("push");fcPage=p;fcHover=-1;fcStatus.clear();char b[32];sprintf_s(b,"page=%d",fcPage);FCLog(b);FCRedraw();}
 static void PickScene(int k){if(k!=fcSceneSel)FCSound("on",true);fcSceneSel=k;fcItemSel=0;fcLineTop=0;HDC dc=GetDC(fcWindow);Rebuild(dc);ReleaseDC(fcWindow,dc);EnsureSceneVisible();char b[64];sprintf_s(b,"scene=%d items=%d",fcSceneList.empty()?-1:fcSceneList[fcSceneSel],int(fcItems.size()));FCLog(b);FCRedraw();}
 static WNDPROC fcOldEditProc=nullptr;
 static bool fcComposing=false;
@@ -458,7 +476,7 @@ static void FCClose(){if(fcOpen)FCSound("cancel");fcOpen=false;}
 // ReconquistaHD.cpp ConsoleChoose: now, or at the pause loop's next wait); the map closes but stays over the game dimmed
 // (FCCover) until the 연표 view is up (FCChronicleUp, from chronicle_proto.inc), at most 3 s. Where it can go: FCChronicleReachable.
 static void FCToChronicle(){
- if(!FCChronicleReachable()||!ConsoleChoose(10,true)){fcStatus=L"연표는 이야기 중에 연 지도에서만 갈 수 있습니다";FCSound("cancel");InvalidateRect(fcWindow,nullptr,FALSE);FCLog("to_chronicle refused");return;}
+ if(!FCChronicleReachable()||!ConsoleChoose(10,true)){fcStatus=L"연표는 이야기 중에 연 흐름에서만 갈 수 있습니다";FCSound("cancel");InvalidateRect(fcWindow,nullptr,FALSE);FCLog("to_chronicle refused");return;}
  FCSound("push");fcCoverChronicle=true;fcOpen=false;FCCover(true,L"");FCLog("to_chronicle");}
 void FCChronicleUp(){if(!fcCoverChronicle)return;fcCoverChronicle=false;FCCover(false);FCLog("chronicle_up");}
 static LRESULT CALLBACK FCProc(HWND h,UINT m,WPARAM w,LPARAM l){int x=(short)LOWORD(l),y=(short)HIWORD(l);
@@ -492,13 +510,13 @@ static LRESULT CALLBACK FCProc(HWND h,UINT m,WPARAM w,LPARAM l){int x=(short)LOW
  case WM_LBUTTONDBLCLK:{float lx=LX(x),ly=LY(y);if(fcPage==2){if(lx>=LX0&&lx<LX1&&ly>=LTOP&&ly<LBOT){FCJump();return 0;}if(lx>=SX0&&lx<SX1&&ly>=STOP&&!fcSceneList.empty()){FCJumpNode(fcScenes[fcSceneList[fcSceneSel]].first,true);return 0;}}return 0;}
  case WM_CLOSE:FCClose();return 0;}return DefWindowProcW(h,m,w,l);}
 static void FCDrainInput(){MSG m;while(PeekMessageW(&m,Game(),WM_KEYFIRST,WM_KEYLAST,PM_REMOVE)){}while(PeekMessageW(&m,Game(),WM_MOUSEFIRST,WM_MOUSELAST,PM_REMOVE)){}memset((void*)0x4e9afc,0,256);}
-static void OpenFlowChart(){Init();fcOpenAsked=true;LONGLONG topen=Now();FCLog("open_request");if(fcOpen||fcLoading)return;if(!FCLoad()){MessageBoxW(Game(),L"이야기 지도 자료를 읽을 수 없습니다.",L"이야기 지도",MB_OK|MB_ICONERROR);return;}game=Game();
+static void OpenFlowChart(){Init();fcOpenAsked=true;LONGLONG topen=Now();FCLog("open_request");if(fcOpen||fcLoading)return;if(!FCLoad()){MessageBoxW(Game(),L"이야기 흐름 자료를 읽을 수 없습니다.",L"이야기 흐름",MB_OK|MB_ICONERROR);return;}game=Game();
  // The original engine disables IME on its main window. Save and restore that state
  // around the Unicode map, before creating/associating the native EDIT context.
  using EnableImeFn=BOOL(WINAPI*)(HWND,BOOL);
  auto enableIme=(EnableImeFn)GetProcAddress(GetModuleHandleW(L"user32.dll"),"WINNLSEnableIME");
  BOOL oldIme=enableIme?enableIme(game,TRUE):TRUE;
- if(!fcWindow){WNDCLASSW wc{};wc.lpfnWndProc=FCProc;wc.hInstance=GetModuleHandleW(L"ReconquistaHD.dll");wc.hCursor=LoadCursorW(nullptr,MAKEINTRESOURCEW(32512));wc.lpszClassName=L"ReconquistaInGameFlow";wc.style=CS_DBLCLKS;RegisterClassW(&wc);fcWindow=CreateWindowExW(0,wc.lpszClassName,L"이야기 지도",WS_CHILD|WS_CLIPCHILDREN,0,0,1,1,game,nullptr,wc.hInstance,nullptr);
+ if(!fcWindow){WNDCLASSW wc{};wc.lpfnWndProc=FCProc;wc.hInstance=GetModuleHandleW(L"ReconquistaHD.dll");wc.hCursor=LoadCursorW(nullptr,MAKEINTRESOURCEW(32512));wc.lpszClassName=L"ReconquistaInGameFlow";wc.style=CS_DBLCLKS;RegisterClassW(&wc);fcWindow=CreateWindowExW(0,wc.lpszClassName,L"이야기 흐름",WS_CHILD|WS_CLIPCHILDREN,0,0,1,1,game,nullptr,wc.hInstance,nullptr);
   fcSearch=CreateWindowExW(0,L"EDIT",L"",WS_CHILD|ES_AUTOHSCROLL,0,0,1,1,fcWindow,(HMENU)0x7e51,wc.hInstance,nullptr);if(fcSearch)fcOldEditProc=(WNDPROC)SetWindowLongPtrW(fcSearch,GWLP_WNDPROC,(LONG_PTR)FCEditProc);}
  if(!fcWindow){if(enableIme)enableIme(game,oldIme);return;}if(fcSearch)ImmAssociateContextEx(fcSearch,nullptr,IACE_DEFAULT);fcComposing=false;fcOpen=true;fcOpenedTick=GetTickCount();RECT r{};GetClientRect(game,&r);MoveWindow(fcWindow,0,0,r.right,r.bottom,TRUE);FCLayout();CaptureScene();
  fcHelp=false;fcStatus.clear();fcHover=-1;fcHotPlate=-1;ShowSearch(false);if(fcReopenChapter>=0){fcCursor=fcReopenChapter;fcReopenChapter=-1;}else if(fcHere>=0){fcCursor=fcNodes[fcHere].chapter;}else if(fcCursor<0)fcCursor=0;fcPage=fcChapters[fcCursor].page;   // back from a replay: on its chapter

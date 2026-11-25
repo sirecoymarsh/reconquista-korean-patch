@@ -22,7 +22,12 @@ keep = qa.QA / 'console-keys-savedata'
 if keep.exists():
     shutil.rmtree(keep)
 shutil.copytree(saves, keep)
-(run / 'storymap-read.bin').unlink(missing_ok=True)
+read = run / 'storymap-read.bin'                         # the copy's read marks: put back at the end (the map opens with them)
+read_kept = read.read_bytes() if read.exists() else None
+read.unlink(missing_ok=True)
+review = run / 'review-unlock.enabled'                    # the jump below needs every chapter open (the map opens with the story)
+review_was = review.exists()
+review.write_text('1')
 oldest = saves / sys.argv[3] if len(sys.argv) > 3 else min(saves.glob('majiro_0*.sav'), key=lambda p: p.stat().st_mtime)
 shutil.copy2(oldest, saves / 'majiro_9999.sav')
 result = {'steps': []}
@@ -212,5 +217,11 @@ finally:
     result['after'] = sorted(files())
     shutil.rmtree(saves)
     shutil.copytree(keep, saves)
+    if read_kept is None:
+        read.unlink(missing_ok=True)
+    else:
+        read.write_bytes(read_kept)
+    if not review_was:
+        review.unlink(missing_ok=True)
     qa.dump('console-keys', result)
     print(json.dumps(result, ensure_ascii=False, indent=1))
