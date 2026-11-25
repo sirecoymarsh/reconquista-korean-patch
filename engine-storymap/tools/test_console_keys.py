@@ -157,7 +157,14 @@ try:
         g.key(g.hwnd, 0x1b)
         g.until(lambda: len(buttons()) >= 3, 15, 'config buttons')
         result['config_buttons'] = [t for _, t in buttons()]
-        h = next(h for h, t in buttons() if '지도' in t)
+        ask = next(h for h, t in buttons() if '기록 점프' in t)  # 「기록 점프」: asked or not, both ways
+        labels = []
+        for _ in range(2):
+            qa.u.PostMessageW(ask, 0xf5, 0, 0)
+            time.sleep(.6)
+            labels.append(next(t for h, t in buttons() if '기록 점프' in t))
+        result['backlog_ask'] = labels + [l for l in g.log().splitlines() if l.startswith('backlog ask=')][-2:]
+        h = next(h for h, t in buttons() if '흐름' in t)
         qa.u.PostMessageW(h, 0xf5, 0, 0)                  # BM_CLICK
         g.until(lambda: g.log().count('inflow opened') >= 2, 15, 'map from config')
         time.sleep(1)

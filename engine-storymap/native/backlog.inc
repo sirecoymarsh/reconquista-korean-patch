@@ -30,9 +30,12 @@ static int BacklogNode(){if(!FCLoad())return -1;auto page=Letters(HistPage(histA
   long long d=(long long)here-n.order,score=(FCIsRead(i)?0:4000000000LL)+(d>=0?d:2000000000LL-d);if(score<bestScore){bestScore=score;best=i;}}
  return best;}
 static bool backlogNoAsk=false,backlogAskRead=false;
-static std::wstring BacklogIni(){wchar_t p[MAX_PATH];swprintf_s(p,L"%s\backlog.ini",root);return p;}
+static std::wstring BacklogIni(){wchar_t p[MAX_PATH];swprintf_s(p,L"%s\\backlog.ini",root);return p;}
+// asked or not: 「두 번 다시 묻지 않기」 turns it off, the config screen's 「기록 점프」 button either way (config_buttons.inc)
+static bool BacklogAsks(){if(!backlogAskRead){backlogAskRead=true;backlogNoAsk=GetPrivateProfileIntW(L"backlog",L"ask",1,BacklogIni().c_str())==0;}return !backlogNoAsk;}
+static void BacklogSetAsks(bool ask){backlogAskRead=true;backlogNoAsk=!ask;WritePrivateProfileStringW(L"backlog",L"ask",ask?L"1":L"0",BacklogIni().c_str());if(logFile){fprintf(logFile,"backlog ask=%d%c",int(ask),10);fflush(logFile);}}
 // 「이 대사로 돌아갈까요?」 over the game's picture, with 「두 번 다시 묻지 않기」 (backlog.ini) — the user's standard
-static bool BacklogAsk(){if(!backlogAskRead){backlogAskRead=true;backlogNoAsk=GetPrivateProfileIntW(L"backlog",L"ask",1,BacklogIni().c_str())==0;}if(backlogNoAsk)return true;
+static bool BacklogAsk(){if(!BacklogAsks())return true;
  fcAsk=L"이 대사로 돌아갈까요?";fcAskNever=false;fcAskHot=-1;ShowWindow(fcWindow,SW_SHOW);SetWindowPos(fcWindow,HWND_TOP,0,0,0,0,SWP_NOMOVE|SWP_NOSIZE|SWP_NOACTIVATE);SetFocus(fcWindow);InvalidateRect(fcWindow,nullptr,FALSE);UpdateWindow(fcWindow);
  auto hit=[&](LPARAM l){float x=LX((short)LOWORD(l)),y=LY((short)HIWORD(l));const RECT*r[3]={&fcAskYes,&fcAskNo,&fcAskBox};for(int k=0;k<3;k++)if(x>=r[k]->left&&x<r[k]->right&&y>=r[k]->top&&y<r[k]->bottom)return k;return -1;};
  int answer=-1;MSG msg{};while(answer<0){BOOL got=GetMessageW(&msg,nullptr,0,0);if(got<=0){if(got==0)PostQuitMessage((int)msg.wParam);answer=0;break;}
@@ -43,7 +46,7 @@ static bool BacklogAsk(){if(!backlogAskRead){backlogAskRead=true;backlogNoAsk=Ge
   if(ours&&msg.message==WM_RBUTTONUP){answer=0;continue;}
   if(ours&&(FCInputMessage(msg.message)||msg.message==WM_TIMER))continue;
   TranslateMessage(&msg);DispatchMessageW(&msg);}
- fcAsk=nullptr;if(answer==1&&fcAskNever){backlogNoAsk=true;WritePrivateProfileStringW(L"backlog",L"ask",L"0",BacklogIni().c_str());}FCDrainInput();return answer==1;}
+ fcAsk=nullptr;if(answer==1&&fcAskNever)BacklogSetAsks(false);FCDrainInput();return answer==1;}
 // Enter or a double click in the 기록: the page's line, asked, then the way there (as the map's 「여기서부터 본편으로」, the
 // saves the player's own), the window over the game's picture until the line is reached (FCCover).
 static void BacklogJump(){game=Game();int node=BacklogNode();char b[96];sprintf_s(b,"backlog node=%d at=%d",node>=0?fcNodes[node].order:-1,histAt);FCLog(b);

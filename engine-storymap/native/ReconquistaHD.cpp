@@ -514,8 +514,8 @@ static void DrawReviewButton(const DRAWITEMSTRUCT* di){
  RestoreDC(di->hDC,saved);
 }
 #include "quality.inc"
-#include "storymap_button.inc"
-static void CALLBACK ReviewButtonTimer(HWND,UINT,UINT_PTR,DWORD){SyncReviewButton();SyncQualityButton();SyncStoryMapButton();cproto::Tick();FCWarmStart();}
+#include "config_buttons.inc"
+static void CALLBACK ReviewButtonTimer(HWND,UINT,UINT_PTR,DWORD){SyncReviewButton();SyncQualityButton();SyncConfigButtons();cproto::Tick();FCWarmStart();}
 
 static void CALLBACK ProbeTimer(HWND,UINT,UINT_PTR,DWORD);
 static RECT lastModeRect{},lastMonitorRect{};static HMONITOR lastModeMonitor=nullptr;
@@ -524,7 +524,7 @@ static void ApplyDisplayMode(int full,bool honorStartup){Init();SettleAll();auto
  *(int*)0x56ac78=0;
  if(fullscreen){desired=mi.rcMonitor;SetMenu(game,nullptr);SetWindowLongA(game,GWL_STYLE,WS_POPUP|WS_CLIPCHILDREN|(probe?0:WS_VISIBLE));SetWindowPos(game,HWND_TOP,probe?-20000:mi.rcMonitor.left,probe?-20000:mi.rcMonitor.top,mi.rcMonitor.right-mi.rcMonitor.left,mi.rcMonitor.bottom-mi.rcMonitor.top,SWP_FRAMECHANGED|SWP_NOACTIVATE|SWP_NOREDRAW);}
  else{SetWindowLongA(game,GWL_STYLE,(probe?(oldStyle&~WS_VISIBLE):oldStyle)|WS_CLIPCHILDREN);SetMenu(game,oldMenu);RECT rc{0,0,1600,1200};int maxh=mi.rcWork.bottom-mi.rcWork.top-80;if(rc.bottom>maxh){rc.bottom=maxh;rc.right=maxh*4/3;}AdjustWindowRect(&rc,oldStyle,oldMenu!=nullptr);desired={mi.rcWork.left+40,mi.rcWork.top+30,mi.rcWork.left+40+rc.right-rc.left,mi.rcWork.top+30+rc.bottom-rc.top};SetWindowPos(game,HWND_NOTOPMOST,probe?-20000:desired.left,probe?-20000:desired.top,rc.right-rc.left,rc.bottom-rc.top,SWP_FRAMECHANGED|SWP_NOACTIVATE|SWP_NOREDRAW);}
- if(perf&&logFile){fprintf(logFile,"perf_mode request=%d serial=%u winapi_ms=%.3f\n",full,pMode,Ms(tmode));fflush(logFile);}GetWindowRect(game,&lastModeRect);lastModeMonitor=modeMonitor;lastMonitorRect=mi.rcMonitor;if(fcOpen&&fcWindow){RECT cr{};GetClientRect(game,&cr);MoveWindow(fcWindow,0,0,cr.right,cr.bottom,TRUE);}SyncReviewButton();SyncQualityButton();SyncStoryMapButton();FitMovie();InvalidateRect(game,nullptr,FALSE);if(probe)SetTimer(game,0x4844,2500,ProbeTimer);if(logFile){auto v=Viewport(game);RECT cr{};GetClientRect(game,&cr);fprintf(logFile,"mode full=%d viewport=%d,%d,%d,%d physical=%ldx%ld monitor=%ld,%ld,%ld,%ld cg4k=%d\n",full,v.x,v.y,v.w,v.h,cr.right,cr.bottom,mi.rcMonitor.left,mi.rcMonitor.top,mi.rcMonitor.right,mi.rcMonitor.bottom,cg4k);fflush(logFile);}}
+ if(perf&&logFile){fprintf(logFile,"perf_mode request=%d serial=%u winapi_ms=%.3f\n",full,pMode,Ms(tmode));fflush(logFile);}GetWindowRect(game,&lastModeRect);lastModeMonitor=modeMonitor;lastMonitorRect=mi.rcMonitor;if(fcOpen&&fcWindow){RECT cr{};GetClientRect(game,&cr);MoveWindow(fcWindow,0,0,cr.right,cr.bottom,TRUE);}SyncReviewButton();SyncQualityButton();SyncConfigButtons();FitMovie();InvalidateRect(game,nullptr,FALSE);if(probe)SetTimer(game,0x4844,2500,ProbeTimer);if(logFile){auto v=Viewport(game);RECT cr{};GetClientRect(game,&cr);fprintf(logFile,"mode full=%d viewport=%d,%d,%d,%d physical=%ldx%ld monitor=%ld,%ld,%ld,%ld cg4k=%d\n",full,v.x,v.y,v.w,v.h,cr.right,cr.bottom,mi.rcMonitor.left,mi.rcMonitor.top,mi.rcMonitor.right,mi.rcMonitor.bottom,cg4k);fflush(logFile);}}
 // Engine/user mode requests own the one-shot startup override; display refits must not consume it.
 static void __cdecl Mode(int full){ApplyDisplayMode(full,true);}
 // Refit after a display-mode change. Defer until the current Windows message has
@@ -541,14 +541,14 @@ static int __cdecl Layout(HWND h,UINT msg,WPARAM wp,LPARAM lp){
   if(fullscreen&&(msg==WM_DISPLAYCHANGE||msg==WM_DPICHANGED||(msg==WM_ACTIVATEAPP&&wp))){
    QueueDisplayFit(h);if(msg==WM_DISPLAYCHANGE||msg==WM_DPICHANGED)return 1;
   }
-  if(msg==WM_APP+81){SyncReviewButton();SyncQualityButton();SyncStoryMapButton();return 1;}
+  if(msg==WM_APP+81){SyncReviewButton();SyncQualityButton();SyncConfigButtons();return 1;}
   if(msg==WM_APP+82){BacklogJump();return 1;}   // backlog.inc: from the 기록
   if(perf&&msg==WM_APP+80){PerfCommand(h,wp);return 1;}
   if(perf&&msg==WM_APP+84){DumpVar(uint32_t(wp));return 1;}   // tests: a VM variable and what it points at
   if(perf&&msg==WM_APP+85){DumpElem(uint32_t(wp),int(HIWORD(lp)),int(LOWORD(lp)));return 1;}   // tests: one element of a VM array
   if(perf&&msg==WM_APP+83){bool ok=ChronicleMoveTo(int(wp),int(lp));if(logFile){int x=0,y=0,mx=0,my=0;ChroniclePosition(&x,&y,&mx,&my);fprintf(logFile,"chronicle_moved ok=%d at=%d,%d max=%d,%d\n",ok,x,y,mx,my);fflush(logFile);}return 1;}   // tests: put the chronicle at x,y
   if(fcOpen&&FCInputMessage(msg))return 1;
-  if(msg==WM_DRAWITEM&&wp==0x7e43&&lp){DrawStoryMapButton((const DRAWITEMSTRUCT*)lp);return 1;}
+  if(ConfigButtonMessage(h,msg,wp,lp))return 1;
   if(msg==WM_DRAWITEM&&wp==QUALITY_ID&&lp){DrawQualityButton((const DRAWITEMSTRUCT*)lp);return 1;}
   if(msg==WM_COMMAND&&LOWORD(wp)==QUALITY_ID&&HIWORD(wp)==BN_CLICKED&&(HWND)lp==qualityButton){ToggleQuality();SetFocus(h);return 1;}
   if(msg==WM_DRAWITEM&&wp==REVIEW_BUTTON_ID&&lp){DrawReviewButton((const DRAWITEMSTRUCT*)lp);return 1;}
@@ -660,7 +660,7 @@ static int WINAPI Present(HDC dc,int dx,int dy,int dw,int dh,int sx,int sy,int s
  // LRU eviction is only between operations; live local Shadow pointers are never evicted.
  while(used>768ull*1024*1024&&shadows.size()>1){auto victim=shadows.end();for(auto it=shadows.begin();it!=shadows.end();++it)if(it->first!=b&&it->second->alternate.empty()&&!it->second->job&&(victim==shadows.end()||it->second->age<victim->second->age))victim=it;if(victim==shadows.end())break;ForgetShadow(victim->first);}return result;}
 static void DumpProbe(Bitmap*b){if(perf)return;if(GetEnvironmentVariableW(L"RECON_FLOW_PROBE",nullptr,0)&&(flowMark.value<=0||probeShots>=1||GetTickCount64()-flowArriveTick<2500))return;if(!probe||(loads==0&&!GetEnvironmentVariableW(L"RECON_FLOW_PROBE",nullptr,0))||probeShots>=12||GetTickCount64()-probeTime<2000)return;probeTime=GetTickCount64();SettleAll();auto s=Get(b,{0,0,b->w,b->h},true);if(!s)return;wchar_t dir[MAX_PATH],path[MAX_PATH];swprintf_s(dir,L"%s\\qa",root);CreateDirectoryW(dir,nullptr);swprintf_s(path,L"%s\\probe-%02u.bmp",dir,probeShots++);FILE*f=nullptr;if(_wfopen_s(&f,path,L"wb")||!f)return;BITMAPFILEHEADER head{};head.bfType=0x4d42;head.bfOffBits=sizeof(head)+sizeof(BITMAPINFOHEADER);head.bfSize=head.bfOffBits+DWORD(s->pixels.size());fwrite(&head,sizeof(head),1,f);fwrite(&s->info.bmiHeader,sizeof(BITMAPINFOHEADER),1,f);fwrite(s->pixels.data(),1,s->pixels.size(),f);fclose(f);if(logFile){fprintf(logFile,"probe shot=%u assets=%llu blits=%llu memory=%llu\n",probeShots,loads,blits,used);fflush(logFile);}}
-using RenderFn=void(__cdecl*)();static RenderFn oldRender;static void __cdecl Render(){ApplyCG();oldRender();SyncReviewButton();SyncQualityButton();SyncStoryMapButton();if(probe){Bitmap*b=*(Bitmap**)0x56a6a8;if(Valid(b)){nesting++;try{DumpProbe(b);}catch(const std::bad_alloc&){}nesting--;}}}
+using RenderFn=void(__cdecl*)();static RenderFn oldRender;static void __cdecl Render(){ApplyCG();oldRender();SyncReviewButton();SyncQualityButton();SyncConfigButtons();if(probe){Bitmap*b=*(Bitmap**)0x56a6a8;if(Valid(b)){nesting++;try{DumpProbe(b);}catch(const std::bad_alloc&){}nesting--;}}}
 static void ProbeCoordinates(){ int failures=0;for(int x=0;x<800;x++){POINT p{x,200};ToScreen(Game(),&p);ToClient(Game(),&p);if(p.x!=x||p.y!=200)failures++;}for(int y=0;y<600;y++){POINT p{200,y};ToScreen(Game(),&p);ToClient(Game(),&p);if(p.x!=200||p.y!=y)failures++;}if(logFile){auto v=Viewport(Game());fprintf(logFile,"probe coordinates samples=1400 failures=%d viewport=%d,%d,%d,%d\n",failures,v.x,v.y,v.w,v.h);fflush(logFile);}
  // the chronicle's drag box exactly as the engine builds it (0x42ccca): ClientToScreen(0,0) + (800-1, 600-1)
  {POINT o{0,0};ToScreen(Game(),&o);RECT e{o.x,o.y,o.x+799,o.y+599};ClipToGame(&e);auto v=Viewport(Game());POINT s{v.x,v.y};ClientToScreen(Game(),&s);if(logFile){fprintf(logFile,"probe clip expected=%ld,%ld,%ld,%ld\n",s.x,s.y,s.x+v.w,s.y+v.h);fflush(logFile);}}
