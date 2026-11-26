@@ -1,5 +1,5 @@
 {
- "ev113d": {
+ "ev113d/card": {
   "thing": "card",
   "master": true,
   "lines": [
@@ -111,7 +111,7 @@
    29
   ]
  },
- "ev113d2": {
+ "ev113d2/card": {
   "thing": "card",
   "from": "ev113d",
   "homography": "sift",
@@ -147,7 +147,7 @@
    ]
   ]
  },
- "ev113d3": {
+ "ev113d3/card": {
   "thing": "card",
   "from": "ev113d",
   "homography": "ecc",
@@ -183,7 +183,7 @@
    ]
   ]
  },
- "ev113d4": {
+ "ev113d4/card": {
   "thing": "card",
   "from": "ev113d",
   "homography": "ecc",
@@ -219,7 +219,7 @@
    ]
   ]
  },
- "ev113d5": {
+ "ev113d5/card": {
   "thing": "card",
   "from": "ev113d",
   "homography": "ecc",
@@ -255,7 +255,7 @@
    ]
   ]
  },
- "ev113d6": {
+ "ev113d6/card": {
   "thing": "card",
   "from": "ev113d",
   "homography": "sift",
@@ -291,7 +291,7 @@
    ]
   ]
  },
- "ev113d7": {
+ "ev113d7/card": {
   "thing": "card",
   "from": "ev113d",
   "homography": "ecc",
@@ -327,7 +327,7 @@
    ]
   ]
  },
- "ev113c": {
+ "ev113c/card": {
   "thing": "card",
   "from": "ev113d",
   "homography": "sift",
@@ -363,7 +363,7 @@
    ]
   ]
  },
- "ev111c": {
+ "ev111c/card_pink": {
   "thing": "card_pink",
   "master": true,
   "lines": [
@@ -475,7 +475,7 @@
    82
   ]
  },
- "ev111d": {
+ "ev111d/card_pink": {
   "thing": "card_pink",
   "from": "ev111c",
   "homography": "sift",
@@ -511,7 +511,7 @@
    ]
   ]
  },
- "bg_232a2": {
+ "bg_232a2/kosho_close": {
   "thing": "kosho_close",
   "master": true,
   "lines": [
@@ -543,7 +543,7 @@
    37
   ]
  },
- "bg_235a2": {
+ "bg_235a2/kosho_close": {
   "thing": "kosho_close",
   "master": true,
   "lines": [
@@ -575,7 +575,7 @@
    37
   ]
  },
- "netu116a": {
+ "netu116a/kosho_lift": {
   "thing": "kosho_lift",
   "master": true,
   "lines": [
@@ -607,7 +607,7 @@
    32
   ]
  },
- "netu116b": {
+ "netu116b/kosho_lift": {
   "thing": "kosho_lift",
   "master": true,
   "lines": [
@@ -639,7 +639,7 @@
    32
   ]
  },
- "netu116c": {
+ "netu116c/kosho_lift_far": {
   "thing": "kosho_lift_far",
   "master": true,
   "lines": [
@@ -671,7 +671,7 @@
    30
   ]
  },
- "bg_232a": {
+ "bg_232a/kosho_hall": {
   "thing": "kosho_hall",
   "master": true,
   "lines": [
@@ -703,7 +703,7 @@
    52
   ]
  },
- "bg_232b": {
+ "bg_232b/kosho_hall": {
   "thing": "kosho_hall",
   "master": true,
   "lines": [
@@ -735,7 +735,7 @@
    52
   ]
  },
- "bg_232c": {
+ "bg_232c/kosho_hall": {
   "thing": "kosho_hall",
   "master": true,
   "lines": [
@@ -767,7 +767,7 @@
    52
   ]
  },
- "bg_233a": {
+ "bg_233a/kosho_hall": {
   "thing": "kosho_hall",
   "master": true,
   "lines": [
@@ -799,7 +799,7 @@
    52
   ]
  },
- "bg_233b": {
+ "bg_233b/kosho_hall": {
   "thing": "kosho_hall",
   "master": true,
   "lines": [
@@ -831,7 +831,7 @@
    52
   ]
  },
- "bg_233c": {
+ "bg_233c/kosho_hall": {
   "thing": "kosho_hall",
   "master": true,
   "lines": [
@@ -863,7 +863,7 @@
    52
   ]
  },
- "bg_235a": {
+ "bg_235a/kosho_hall": {
   "thing": "kosho_hall",
   "master": true,
   "lines": [
@@ -895,7 +895,7 @@
    52
   ]
  },
- "bg_235b": {
+ "bg_235b/kosho_hall": {
   "thing": "kosho_hall",
   "master": true,
   "lines": [
@@ -927,7 +927,7 @@
    52
   ]
  },
- "bg_235c": {
+ "bg_235c/kosho_hall": {
   "thing": "kosho_hall",
   "master": true,
   "lines": [
@@ -959,7 +959,7 @@
    52
   ]
  },
- "netu01b": {
+ "netu01b/nametag_close": {
   "thing": "nametag_close",
   "master": true,
   "lines": [
@@ -991,7 +991,7 @@
    49
   ]
  },
- "netu01": {
+ "netu01/nametag": {
   "thing": "nametag",
   "master": true,
   "lines": [
@@ -1023,7 +1023,7 @@
    54
   ]
  },
- "netu126_03": {
+ "netu126_03/bridge_sign": {
   "thing": "bridge_sign",
   "master": true,
   "lines": [
@@ -1075,7 +1075,7 @@
    182
   ]
  },
- "yana01": {
+ "yana01/dotama": {
   "thing": "dotama",
   "master": true,
   "lines": [
@@ -1107,7 +1107,199 @@
    194
   ]
  },
- "yana02": {
+ "yana02/dotama": {
+  "thing": "dotama",
+  "master": true,
+  "lines": [
+   {
+    "center": [
+     428.479754601227,
+     249.99509202453987
+    ],
+    "angle": 14.028662541253949,
+    "dir": [
+     0.9701745820586791,
+     0.24240726129237045
+    ],
+    "normal": [
+     -0.24240726129237045,
+     0.9701745820586791
+    ],
+    "start": -76.62268791400807,
+    "end": 87.57267727253071,
+    "height": 85.88663901612256,
+    "mid": -8.389994691837689,
+    "target": 73.00364316370417
+   }
+  ],
+  "strokes_1x": 1630,
+  "ink": [
+   122,
+   38,
+   194
+  ]
+ },
+ "yana03/dotama": {
+  "thing": "dotama",
+  "master": true,
+  "lines": [
+   {
+    "center": [
+     428.479754601227,
+     249.99509202453987
+    ],
+    "angle": 14.028662541253949,
+    "dir": [
+     0.9701745820586791,
+     0.24240726129237045
+    ],
+    "normal": [
+     -0.24240726129237045,
+     0.9701745820586791
+    ],
+    "start": -76.62268791400807,
+    "end": 87.57267727253071,
+    "height": 85.88663901612256,
+    "mid": -8.389994691837689,
+    "target": 73.00364316370417
+   }
+  ],
+  "strokes_1x": 1630,
+  "ink": [
+   122,
+   38,
+   194
+  ]
+ },
+ "yana05/dotama": {
+  "thing": "dotama",
+  "master": true,
+  "lines": [
+   {
+    "center": [
+     428.479754601227,
+     249.99509202453987
+    ],
+    "angle": 14.028662541253949,
+    "dir": [
+     0.9701745820586791,
+     0.24240726129237045
+    ],
+    "normal": [
+     -0.24240726129237045,
+     0.9701745820586791
+    ],
+    "start": -76.62268791400807,
+    "end": 87.57267727253071,
+    "height": 85.88663901612256,
+    "mid": -8.389994691837689,
+    "target": 73.00364316370417
+   }
+  ],
+  "strokes_1x": 1630,
+  "ink": [
+   122,
+   38,
+   194
+  ]
+ },
+ "yana06/dotama": {
+  "thing": "dotama",
+  "master": true,
+  "lines": [
+   {
+    "center": [
+     428.479754601227,
+     249.99509202453987
+    ],
+    "angle": 14.028662541253949,
+    "dir": [
+     0.9701745820586791,
+     0.24240726129237045
+    ],
+    "normal": [
+     -0.24240726129237045,
+     0.9701745820586791
+    ],
+    "start": -76.62268791400807,
+    "end": 87.57267727253071,
+    "height": 85.88663901612256,
+    "mid": -8.389994691837689,
+    "target": 73.00364316370417
+   }
+  ],
+  "strokes_1x": 1630,
+  "ink": [
+   122,
+   38,
+   194
+  ]
+ },
+ "yana07/dotama": {
+  "thing": "dotama",
+  "master": true,
+  "lines": [
+   {
+    "center": [
+     428.479754601227,
+     249.99509202453987
+    ],
+    "angle": 14.028662541253949,
+    "dir": [
+     0.9701745820586791,
+     0.24240726129237045
+    ],
+    "normal": [
+     -0.24240726129237045,
+     0.9701745820586791
+    ],
+    "start": -76.62268791400807,
+    "end": 87.57267727253071,
+    "height": 85.88663901612256,
+    "mid": -8.389994691837689,
+    "target": 73.00364316370417
+   }
+  ],
+  "strokes_1x": 1630,
+  "ink": [
+   122,
+   38,
+   194
+  ]
+ },
+ "yana11/dotama": {
+  "thing": "dotama",
+  "master": true,
+  "lines": [
+   {
+    "center": [
+     428.479754601227,
+     249.99509202453987
+    ],
+    "angle": 14.028662541253949,
+    "dir": [
+     0.9701745820586791,
+     0.24240726129237045
+    ],
+    "normal": [
+     -0.24240726129237045,
+     0.9701745820586791
+    ],
+    "start": -76.62268791400807,
+    "end": 87.57267727253071,
+    "height": 85.88663901612256,
+    "mid": -8.389994691837689,
+    "target": 73.00364316370417
+   }
+  ],
+  "strokes_1x": 1630,
+  "ink": [
+   122,
+   38,
+   194
+  ]
+ },
+ "yana02/yana02_note": {
   "thing": "yana02_note",
   "master": true,
   "lines": [
@@ -1159,7 +1351,7 @@
    159
   ]
  },
- "yana03": {
+ "yana03/yana03_note": {
   "thing": "yana03_note",
   "master": true,
   "lines": [
@@ -1191,7 +1383,59 @@
    159
   ]
  },
- "yana05": {
+ "yana04/yana04_note": {
+  "thing": "yana04_note",
+  "master": true,
+  "lines": [
+   {
+    "center": [
+     364.4824956672444,
+     68.11889081455806
+    ],
+    "angle": -0.06854215468498912,
+    "dir": [
+     0.9999992844496586,
+     -0.0011962859903299522
+    ],
+    "normal": [
+     0.0011962859903299522,
+     0.9999992844496586
+    ],
+    "start": -199.48819213001232,
+    "end": 218.53543448975157,
+    "height": 37.32000581854629,
+    "mid": -0.2914450230812431,
+    "target": 37.631677180084544
+   },
+   {
+    "center": [
+     425.21322314049587,
+     139.09355371900827
+    ],
+    "angle": -0.6386898511918371,
+    "dir": [
+     0.9999378701546106,
+     -0.011147009942631434
+    ],
+    "normal": [
+     0.011147009942631434,
+     0.9999378701546106
+    ],
+    "start": -240.46478412446885,
+    "end": 211.61860328484144,
+    "height": 41.9045777184738,
+    "mid": 1.3895420636097864,
+    "target": 37.631677180084544
+   }
+  ],
+  "strokes_1x": 5996,
+  "ink": [
+   88,
+   108,
+   159
+  ]
+ },
+ "yana05/yana05_note": {
   "thing": "yana05_note",
   "master": true,
   "lines": [
@@ -1243,7 +1487,7 @@
    159
   ]
  },
- "yana06": {
+ "yana06/yana06_note": {
   "thing": "yana06_note",
   "master": true,
   "lines": [
@@ -1295,7 +1539,7 @@
    159
   ]
  },
- "yana07": {
+ "yana07/yana07_note": {
   "thing": "yana07_note",
   "master": true,
   "lines": [
@@ -1367,91 +1611,7 @@
    159
   ]
  },
- "yana11": {
-  "thing": "dotama",
-  "master": true,
-  "lines": [
-   {
-    "center": [
-     428.479754601227,
-     249.99509202453987
-    ],
-    "angle": 14.028662541253949,
-    "dir": [
-     0.9701745820586791,
-     0.24240726129237045
-    ],
-    "normal": [
-     -0.24240726129237045,
-     0.9701745820586791
-    ],
-    "start": -76.62268791400807,
-    "end": 87.57267727253071,
-    "height": 85.88663901612256,
-    "mid": -8.389994691837689,
-    "target": 73.00364316370417
-   }
-  ],
-  "strokes_1x": 1630,
-  "ink": [
-   122,
-   38,
-   194
-  ]
- },
- "yana04": {
-  "thing": "yana04_note",
-  "master": true,
-  "lines": [
-   {
-    "center": [
-     364.4824956672444,
-     68.11889081455806
-    ],
-    "angle": -0.06854215468498912,
-    "dir": [
-     0.9999992844496586,
-     -0.0011962859903299522
-    ],
-    "normal": [
-     0.0011962859903299522,
-     0.9999992844496586
-    ],
-    "start": -199.48819213001232,
-    "end": 218.53543448975157,
-    "height": 37.32000581854629,
-    "mid": -0.2914450230812431,
-    "target": 37.631677180084544
-   },
-   {
-    "center": [
-     425.21322314049587,
-     139.09355371900827
-    ],
-    "angle": -0.6386898511918371,
-    "dir": [
-     0.9999378701546106,
-     -0.011147009942631434
-    ],
-    "normal": [
-     0.011147009942631434,
-     0.9999378701546106
-    ],
-    "start": -240.46478412446885,
-    "end": 211.61860328484144,
-    "height": 41.9045777184738,
-    "mid": 1.3895420636097864,
-    "target": 37.631677180084544
-   }
-  ],
-  "strokes_1x": 5996,
-  "ink": [
-   88,
-   108,
-   159
-  ]
- },
- "yana08": {
+ "yana08/momitan": {
   "thing": "momitan",
   "master": true,
   "lines": [
@@ -1483,7 +1643,7 @@
    88
   ]
  },
- "yana10": {
+ "yana10/yana10_note": {
   "thing": "yana10_note",
   "master": true,
   "lines": [
@@ -1555,7 +1715,7 @@
    211
   ]
  },
- "sr_haru": {
+ "sr_haru/haru": {
   "thing": "haru",
   "master": true,
   "lines": [
@@ -1787,7 +1947,7 @@
    205
   ]
  },
- "sr_seiyan": {
+ "sr_seiyan/seiyan": {
   "thing": "seiyan",
   "master": true,
   "lines": [
@@ -1819,7 +1979,7 @@
    0
   ]
  },
- "tomo_02": {
+ "tomo_02/tomo02": {
   "thing": "tomo02",
   "master": true,
   "lines": [
@@ -1871,7 +2031,7 @@
    231
   ]
  },
- "tomo_03": {
+ "tomo_03/tomo03": {
   "thing": "tomo03",
   "master": true,
   "lines": [
@@ -1923,7 +2083,7 @@
    235
   ]
  },
- "kyalme_kureha": {
+ "kyalme_kureha/kyalme": {
   "thing": "kyalme",
   "master": true,
   "lines": [
@@ -1975,7 +2135,59 @@
    96
   ]
  },
- "kiostaff01": {
+ "kiostaff01/bridge_sign_night": {
+  "thing": "bridge_sign_night",
+  "master": true,
+  "lines": [
+   {
+    "center": [
+     130.817864619679,
+     291.1877180739707
+    ],
+    "angle": -5.859421575013496,
+    "dir": [
+     0.9947753681091853,
+     -0.10208803555380541
+    ],
+    "normal": [
+     0.10208803555380541,
+     0.9947753681091853
+    ],
+    "start": -69.17987407642515,
+    "end": 73.94191782247653,
+    "height": 26.71015840322402,
+    "mid": 0.5088167984766798,
+    "target": 21.979060460851795
+   },
+   {
+    "center": [
+     134.31958762886597,
+     329.64506627393223
+    ],
+    "angle": -4.012577057471044,
+    "dir": [
+     0.9975487139083737,
+     -0.06997544840692035
+    ],
+    "normal": [
+     0.06997544840692035,
+     0.9975487139083737
+    ],
+    "start": -43.01041679142043,
+    "end": 37.49323480531867,
+    "height": 21.07040781601901,
+    "mid": 0.17985367128339114,
+    "target": 21.979060460851795
+   }
+  ],
+  "strokes_1x": 2112,
+  "ink": [
+   35,
+   47,
+   65
+  ]
+ },
+ "kiostaff01/poster": {
   "thing": "poster",
   "master": true,
   "lines": [
@@ -2027,7 +2239,7 @@
    26
   ]
  },
- "zuzuzu": {
+ "zuzuzu/zuzuzu": {
   "thing": "zuzuzu",
   "master": true,
   "lines": [
@@ -2079,7 +2291,7 @@
    255
   ]
  },
- "sr_miyoruno_dame02": {
+ "sr_miyoruno_dame02/upyo": {
   "thing": "upyo",
   "master": true,
   "lines": [

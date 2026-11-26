@@ -97,6 +97,25 @@ def region_fill(rgb, fill, strokes_grown, selects, sigma):
     return out
 
 
+def hull_fill(rgb, fill, strokes_grown, spec, sigma):
+    """a light tag on dark cloth (the name tags): the tag is the convex hull of its light pixels and the strokes on it
+    (inside 'inside'); a pixel to fill inside the hull takes the tag's own light pixels, outside it the cloth's. The
+    hull keeps the tag's edge straight where the strokes covered it (a nearest-region split cut dark notches into it)"""
+    g = luma(rgb)
+    inside = poly_mask(spec['inside'], rgb.shape[:2])
+    light = g > spec['hull_light']
+    pts = np.argwhere((light | strokes_grown) & inside)[:, ::-1].astype(np.int32)
+    hull = np.zeros(g.shape, np.uint8)
+    cv2.fillPoly(hull, [cv2.convexHull(pts)], 1)
+    hull = hull.astype(bool)
+    tag = paper_fill(rgb, fill & hull, hull & light & ~strokes_grown, sigma)
+    cloth = paper_fill(rgb, fill & ~hull, ~hull & ~strokes_grown, sigma)
+    out = rgb.copy()
+    out[fill & hull] = tag[fill & hull]
+    out[fill & ~hull] = cloth[fill & ~hull]
+    return out
+
+
 def paper_of(rgb, spec, strokes_grown):
     """the paper: inside the thing, not a stroke, light enough and (where given) not blue"""
     g = luma(rgb)
@@ -355,6 +374,10 @@ def master(g, spec, name, debug=None, orig1=None, orig4=None):
         sg = spec.get('fill_sigma', 4)
         clean1 = paper_fill(orig1, grow, paper_of(orig1, spec, Bd.dilate(grow, 1)), sg)
         clean4 = paper_fill(orig4, m4, paper_of(orig4, spec, Bd.dilate(m4, 4)), sg * S)
+    elif spec.get('fill') == 'hull':         # a light tag on dark cloth
+        sg = spec.get('fill_sigma', 4)
+        clean1 = hull_fill(orig1, grow, Bd.dilate(grow, 1), spec, sg)
+        clean4 = hull_fill(orig4, m4, Bd.dilate(m4, 4), spec, sg * S)
     elif spec.get('fill') == 'regions':      # from the region each pixel lies in
         sg = spec.get('fill_sigma', 4)
         clean1 = region_fill(orig1, grow, Bd.dilate(grow, 1), spec['regions'], sg)

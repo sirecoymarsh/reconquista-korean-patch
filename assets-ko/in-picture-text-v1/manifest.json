@@ -1,6 +1,6 @@
 {
  "runtime": "P:\\AI\\Codex\\projects\\reconquista_flowchart_20261024\\runtime-final-20261028",
- "made": "2026-11-27 01:54",
+ "made": "2026-11-27 02:12",
  "pictures": [
   {
    "name": "netu110g1.rct",
@@ -46,7 +46,7 @@
    "changed_1x_pixels": 2302,
    "jxl_distance": 0.5,
    "jxl_psnr": 57.79,
-   "seconds": 2.6
+   "seconds": 2.9
   },
   {
    "name": "netu110g3.rct",
@@ -69,7 +69,7 @@
    "changed_1x_pixels": 3902,
    "jxl_distance": 0.5,
    "jxl_psnr": 57.57,
-   "seconds": 2.7
+   "seconds": 2.6
   },
   {
    "name": "ev5012.rct",
@@ -92,7 +92,7 @@
    "changed_1x_pixels": 15795,
    "jxl_distance": 0.5,
    "jxl_psnr": 53.58,
-   "seconds": 3.7
+   "seconds": 3.5
   },
   {
    "name": "ev501c.rct",
@@ -115,7 +115,7 @@
    "changed_1x_pixels": 18202,
    "jxl_distance": 0.5,
    "jxl_psnr": 55.17,
-   "seconds": 5.1
+   "seconds": 5.0
   },
   {
    "name": "ev501d.rct",
@@ -161,7 +161,7 @@
    "changed_1x_pixels": 13777,
    "jxl_distance": 0.5,
    "jxl_psnr": 55.38,
-   "seconds": 3.5
+   "seconds": 3.7
   },
   {
    "name": "ev5043cc.rct",
@@ -207,7 +207,7 @@
    "changed_1x_pixels": 15231,
    "jxl_distance": 0.5,
    "jxl_psnr": 55.42,
-   "seconds": 4.8
+   "seconds": 4.4
   },
   {
    "name": "ev5043ca.rct",
@@ -230,7 +230,7 @@
    "changed_1x_pixels": 18238,
    "jxl_distance": 0.5,
    "jxl_psnr": 55.39,
-   "seconds": 4.3
+   "seconds": 4.4
   },
   {
    "name": "ev5043cd.rct",
@@ -253,7 +253,7 @@
    "changed_1x_pixels": 13524,
    "jxl_distance": 0.5,
    "jxl_psnr": 55.67,
-   "seconds": 3.6
+   "seconds": 3.7
   },
   {
    "name": "ev5043ce.rct",
@@ -276,7 +276,7 @@
    "changed_1x_pixels": 13731,
    "jxl_distance": 0.5,
    "jxl_psnr": 65.13,
-   "seconds": 2.7
+   "seconds": 2.9
   },
   {
    "name": "ev1132a.rct",
@@ -299,7 +299,7 @@
    "changed_1x_pixels": 19511,
    "jxl_distance": 0.5,
    "jxl_psnr": 53.66,
-   "seconds": 5.7
+   "seconds": 6.1
   },
   {
    "name": "ev1132b.rct",
@@ -322,7 +322,7 @@
    "changed_1x_pixels": 16565,
    "jxl_distance": 0.5,
    "jxl_psnr": 53.62,
-   "seconds": 4.1
+   "seconds": 4.0
   },
   {
    "name": "ev1132c.rct",
@@ -345,7 +345,7 @@
    "changed_1x_pixels": 21860,
    "jxl_distance": 0.5,
    "jxl_psnr": 53.48,
-   "seconds": 4.6
+   "seconds": 4.7
   },
   {
    "name": "ev1132d.rct",
@@ -368,7 +368,7 @@
    "changed_1x_pixels": 15375,
    "jxl_distance": 0.5,
    "jxl_psnr": 53.83,
-   "seconds": 4.7
+   "seconds": 4.4
   },
   {
    "name": "nisan04.rct",
@@ -391,7 +391,7 @@
    "changed_1x_pixels": 3460,
    "jxl_distance": 0.5,
    "jxl_psnr": 57.65,
-   "seconds": 3.1
+   "seconds": 3.0
   },
   {
    "name": "nisan05.rct",
@@ -483,7 +483,7 @@
    "changed_1x_pixels": 4617,
    "jxl_distance": 0.5,
    "jxl_psnr": 57.38,
-   "seconds": 3.3
+   "seconds": 3.5
   },
   {
    "name": "nisan09.rct",
@@ -506,7 +506,7 @@
    "changed_1x_pixels": 4572,
    "jxl_distance": 0.5,
    "jxl_psnr": 67.62,
-   "seconds": 2.4
+   "seconds": 2.3
   },
   {
    "name": "maho_tui03.rct",
@@ -529,7 +529,7 @@
    "changed_1x_pixels": 10940,
    "jxl_distance": 0.5,
    "jxl_psnr": 55.55,
-   "seconds": 4.6
+   "seconds": 4.4
   },
   {
    "name": "maho_tui04.rct",
@@ -552,7 +552,7 @@
    "changed_1x_pixels": 11198,
    "jxl_distance": 0.5,
    "jxl_psnr": 56.19,
-   "seconds": 3.5
+   "seconds": 3.7
   },
   {
    "name": "maho_tui05.rct",
@@ -575,7 +575,7 @@
    "changed_1x_pixels": 8722,
    "jxl_distance": 0.5,
    "jxl_psnr": 57.82,
-   "seconds": 3.3
+   "seconds": 3.2
   },
   {
    "name": "netu125b_01.rct",
@@ -598,7 +598,7 @@
    "changed_1x_pixels": 5702,
    "jxl_distance": 0.5,
    "jxl_psnr": 54.14,
-   "seconds": 3.7
+   "seconds": 3.9
   },
   {
    "name": "netu125b_02.rct",
@@ -622,7 +622,7 @@
    "changed_1x_pixels": 7875,
    "jxl_distance": 0.5,
    "jxl_psnr": 54.04,
-   "seconds": 3.0
+   "seconds": 3.1
   },
   {
    "name": "netu125b_03.rct",
@@ -647,7 +647,7 @@
    "changed_1x_pixels": 12758,
    "jxl_distance": 0.5,
    "jxl_psnr": 53.7,
-   "seconds": 3.2
+   "seconds": 3.1
   },
   {
    "name": "netu125b_04.rct",
@@ -670,7 +670,7 @@
    "changed_1x_pixels": 669,
    "jxl_distance": 0.5,
    "jxl_psnr": 54.49,
-   "seconds": 3.1
+   "seconds": 2.9
   },
   {
    "name": "netu125_01.rct",
@@ -717,7 +717,7 @@
    "changed_1x_pixels": 9280,
    "jxl_distance": 0.5,
    "jxl_psnr": 54.05,
-   "seconds": 3.1
+   "seconds": 3.0
   },
   {
    "name": "netu125_03.rct",
@@ -742,7 +742,7 @@
    "changed_1x_pixels": 15639,
    "jxl_distance": 0.5,
    "jxl_psnr": 53.75,
-   "seconds": 3.2
+   "seconds": 3.0
   },
   {
    "name": "netu125_04.rct",
@@ -765,7 +765,7 @@
    "changed_1x_pixels": 788,
    "jxl_distance": 0.5,
    "jxl_psnr": 54.49,
-   "seconds": 2.9
+   "seconds": 2.8
   },
   {
    "name": "04yb2.rct",
@@ -784,7 +784,7 @@
    "changed_1x_pixels": 5133,
    "jxl_distance": 0.5,
    "jxl_psnr": 61.19,
-   "seconds": 2.9
+   "seconds": 2.8
   },
   {
    "name": "1yb2.rct",
@@ -803,7 +803,7 @@
    "changed_1x_pixels": 6464,
    "jxl_distance": 0.5,
    "jxl_psnr": 61.01,
-   "seconds": 3.2
+   "seconds": 2.9
   },
   {
    "name": "9yb.rct",
@@ -822,7 +822,7 @@
    "changed_1x_pixels": 6059,
    "jxl_distance": 0.5,
    "jxl_psnr": 61.02,
-   "seconds": 3.3
+   "seconds": 2.8
   },
   {
    "name": "10yb2.rct",
@@ -841,7 +841,7 @@
    "changed_1x_pixels": 6702,
    "jxl_distance": 0.5,
    "jxl_psnr": 60.9,
-   "seconds": 3.1
+   "seconds": 2.9
   },
   {
    "name": "11yb2.rct",
@@ -860,7 +860,7 @@
    "changed_1x_pixels": 7218,
    "jxl_distance": 0.5,
    "jxl_psnr": 60.89,
-   "seconds": 2.9
+   "seconds": 2.8
   },
   {
    "name": "12yb.rct",
@@ -879,7 +879,7 @@
    "changed_1x_pixels": 7096,
    "jxl_distance": 0.5,
    "jxl_psnr": 60.88,
-   "seconds": 3.0
+   "seconds": 3.2
   },
   {
    "name": "22yb.rct",
@@ -898,7 +898,7 @@
    "changed_1x_pixels": 6926,
    "jxl_distance": 0.5,
    "jxl_psnr": 60.82,
-   "seconds": 3.0
+   "seconds": 3.2
   },
   {
    "name": "28yb.rct",
@@ -917,7 +917,7 @@
    "changed_1x_pixels": 6539,
    "jxl_distance": 0.5,
    "jxl_psnr": 60.89,
-   "seconds": 3.1
+   "seconds": 2.9
   },
   {
    "name": "29yb.rct",
@@ -936,7 +936,7 @@
    "changed_1x_pixels": 7035,
    "jxl_distance": 0.5,
    "jxl_psnr": 60.83,
-   "seconds": 3.0
+   "seconds": 2.9
   },
   {
    "name": "30yb.rct",
@@ -955,7 +955,7 @@
    "changed_1x_pixels": 6869,
    "jxl_distance": 0.5,
    "jxl_psnr": 60.85,
-   "seconds": 3.0
+   "seconds": 2.8
   },
   {
    "name": "40yb.rct",
@@ -974,7 +974,7 @@
    "changed_1x_pixels": 6552,
    "jxl_distance": 0.5,
    "jxl_psnr": 60.93,
-   "seconds": 3.0
+   "seconds": 2.9
   },
   {
    "name": "09wb.rct",
@@ -993,7 +993,7 @@
    "changed_1x_pixels": 9288,
    "jxl_distance": 0.5,
    "jxl_psnr": 60.77,
-   "seconds": 3.0
+   "seconds": 2.8
   },
   {
    "name": "11wb.rct",
@@ -1012,7 +1012,7 @@
    "changed_1x_pixels": 9783,
    "jxl_distance": 0.5,
    "jxl_psnr": 60.75,
-   "seconds": 3.2
+   "seconds": 2.9
   },
   {
    "name": "13wb2.rct",
@@ -1031,7 +1031,7 @@
    "changed_1x_pixels": 9781,
    "jxl_distance": 0.5,
    "jxl_psnr": 60.7,
-   "seconds": 2.9
+   "seconds": 2.8
   },
   {
    "name": "01ma.rct",
@@ -1084,7 +1084,7 @@
    "changed_1x_pixels": 72237,
    "jxl_distance": null,
    "jxl_psnr": null,
-   "seconds": 2.6
+   "seconds": 0.9
   },
   {
    "name": "catch02.rct",
@@ -1101,7 +1101,7 @@
    "changed_1x_pixels": 70790,
    "jxl_distance": null,
    "jxl_psnr": null,
-   "seconds": 2.5
+   "seconds": 0.9
   },
   {
    "name": "catch03.rct",
@@ -1118,7 +1118,7 @@
    "changed_1x_pixels": 64730,
    "jxl_distance": null,
    "jxl_psnr": null,
-   "seconds": 2.5
+   "seconds": 1.0
   },
   {
    "name": "img107.rct",
@@ -1135,7 +1135,7 @@
    "changed_1x_pixels": 11554,
    "jxl_distance": null,
    "jxl_psnr": null,
-   "seconds": 2.4
+   "seconds": 1.2
   },
   {
    "name": "ev113d.rct",
@@ -1157,7 +1157,7 @@
    "changed_1x_pixels": 36825,
    "jxl_distance": 0.5,
    "jxl_psnr": 53.59,
-   "seconds": 4.0
+   "seconds": 4.1
   },
   {
    "name": "ev113d2.rct",
@@ -1179,7 +1179,7 @@
    "changed_1x_pixels": 47651,
    "jxl_distance": 0.5,
    "jxl_psnr": 53.79,
-   "seconds": 4.5
+   "seconds": 4.3
   },
   {
    "name": "ev113d3.rct",
@@ -1201,7 +1201,7 @@
    "changed_1x_pixels": 126390,
    "jxl_distance": 0.5,
    "jxl_psnr": 53.72,
-   "seconds": 7.8
+   "seconds": 7.6
   },
   {
    "name": "ev113d4.rct",
@@ -1223,7 +1223,7 @@
    "changed_1x_pixels": 126388,
    "jxl_distance": 0.5,
    "jxl_psnr": 53.33,
-   "seconds": 7.9
+   "seconds": 8.2
   },
   {
    "name": "ev113d5.rct",
@@ -1267,7 +1267,7 @@
    "changed_1x_pixels": 86163,
    "jxl_distance": 0.5,
    "jxl_psnr": 53.82,
-   "seconds": 5.2
+   "seconds": 5.1
   },
   {
    "name": "ev113d7.rct",
@@ -1289,7 +1289,7 @@
    "changed_1x_pixels": 113676,
    "jxl_distance": 0.5,
    "jxl_psnr": 54.69,
-   "seconds": 5.9
+   "seconds": 6.1
   },
   {
    "name": "ev113c.rct",
@@ -1355,7 +1355,7 @@
    "changed_1x_pixels": 27795,
    "jxl_distance": 0.5,
    "jxl_psnr": 55.5,
-   "seconds": 3.7
+   "seconds": 3.6
   },
   {
    "name": "bg_232a2.rct",
@@ -1373,7 +1373,7 @@
    "changed_1x_pixels": 7007,
    "jxl_distance": 0.5,
    "jxl_psnr": 55.8,
-   "seconds": 3.4
+   "seconds": 3.3
   },
   {
    "name": "bg_235a2.rct",
@@ -1391,7 +1391,7 @@
    "changed_1x_pixels": 7007,
    "jxl_distance": 0.5,
    "jxl_psnr": 55.46,
-   "seconds": 3.4
+   "seconds": 3.2
   },
   {
    "name": "netu116a.rct",
@@ -1409,7 +1409,7 @@
    "changed_1x_pixels": 3850,
    "jxl_distance": 0.5,
    "jxl_psnr": 55.43,
-   "seconds": 3.5
+   "seconds": 3.3
   },
   {
    "name": "netu116b.rct",
@@ -1427,7 +1427,7 @@
    "changed_1x_pixels": 3770,
    "jxl_distance": 0.5,
    "jxl_psnr": 55.35,
-   "seconds": 4.0
+   "seconds": 3.6
   },
   {
    "name": "netu116c.rct",
@@ -1517,7 +1517,7 @@
    "changed_1x_pixels": 487,
    "jxl_distance": 0.5,
    "jxl_psnr": 54.79,
-   "seconds": 3.7
+   "seconds": 3.4
   },
   {
    "name": "bg_233b.rct",
@@ -1535,7 +1535,7 @@
    "changed_1x_pixels": 488,
    "jxl_distance": 0.5,
    "jxl_psnr": 54.77,
-   "seconds": 3.7
+   "seconds": 3.5
   },
   {
    "name": "bg_233c.rct",
@@ -1571,7 +1571,7 @@
    "changed_1x_pixels": 487,
    "jxl_distance": 0.5,
    "jxl_psnr": 54.75,
-   "seconds": 3.5
+   "seconds": 3.6
   },
   {
    "name": "bg_235b.rct",
@@ -1589,7 +1589,7 @@
    "changed_1x_pixels": 488,
    "jxl_distance": 0.5,
    "jxl_psnr": 54.75,
-   "seconds": 3.8
+   "seconds": 3.5
   },
   {
    "name": "bg_235c.rct",
@@ -1607,7 +1607,7 @@
    "changed_1x_pixels": 527,
    "jxl_distance": 0.5,
    "jxl_psnr": 54.85,
-   "seconds": 3.7
+   "seconds": 3.4
   },
   {
    "name": "netu01b.rct",
@@ -1621,11 +1621,11 @@
    "clean": "master",
    "thing": "nametag_close",
    "payload_before_sha256": "bab7fa48154d0967f4eda04cf0f68edf30a98e0166364056fd1c042e03f22c42",
-   "payload_after_sha256": "e1d400e6a45c60dfd58a01ab291cd2cf313d1e2301353405768c85dba26facc9",
-   "changed_1x_pixels": 12807,
+   "payload_after_sha256": "064e4cd7a0c38168c081fdd3a178c40d1e010d95b6c87de39155acc998009887",
+   "changed_1x_pixels": 12798,
    "jxl_distance": 0.5,
-   "jxl_psnr": 55.37,
-   "seconds": 10.9
+   "jxl_psnr": 55.38,
+   "seconds": 5.0
   },
   {
    "name": "netu01.rct",
@@ -1639,11 +1639,11 @@
    "clean": "master",
    "thing": "nametag",
    "payload_before_sha256": "0bbc67a8a252a0883dcc15d7c22bca1ad2154465de52d39a1d1d5fd9984cab80",
-   "payload_after_sha256": "523990314b3a7bc21e1e7d518b90354bc81d37cffc62cbce9ff6cc607df80603",
-   "changed_1x_pixels": 4253,
+   "payload_after_sha256": "3dc525f40b331148fabb93001f1eef6b0996a4cc2172a6f1a425c63e51008c92",
+   "changed_1x_pixels": 4251,
    "jxl_distance": 0.5,
    "jxl_psnr": 54.69,
-   "seconds": 8.2
+   "seconds": 5.7
   },
   {
    "name": "netu126_03.rct",
@@ -1662,7 +1662,7 @@
    "changed_1x_pixels": 5915,
    "jxl_distance": 0.5,
    "jxl_psnr": 54.64,
-   "seconds": 3.7
+   "seconds": 3.6
   },
   {
    "name": "yana01.rct",
@@ -1680,7 +1680,7 @@
    "changed_1x_pixels": 5401,
    "jxl_distance": 0.5,
    "jxl_psnr": 63.58,
-   "seconds": 2.8
+   "seconds": 2.7
   },
   {
    "name": "yana02.rct",
@@ -1699,7 +1699,7 @@
    "changed_1x_pixels": 35242,
    "jxl_distance": 0.5,
    "jxl_psnr": 60.08,
-   "seconds": 2.9
+   "seconds": 2.8
   },
   {
    "name": "yana03.rct",
@@ -1717,7 +1717,7 @@
    "changed_1x_pixels": 21903,
    "jxl_distance": 0.5,
    "jxl_psnr": 61.54,
-   "seconds": 2.7
+   "seconds": 2.8
   },
   {
    "name": "yana05.rct",
@@ -1736,7 +1736,7 @@
    "changed_1x_pixels": 22705,
    "jxl_distance": 0.5,
    "jxl_psnr": 61.23,
-   "seconds": 4.1
+   "seconds": 4.0
   },
   {
    "name": "yana06.rct",
@@ -1775,7 +1775,7 @@
    "changed_1x_pixels": 11206,
    "jxl_distance": 0.5,
    "jxl_psnr": 57.4,
-   "seconds": 4.4
+   "seconds": 4.2
   },
   {
    "name": "yana11.rct",
@@ -1830,7 +1830,7 @@
    "changed_1x_pixels": 2777,
    "jxl_distance": 0.5,
    "jxl_psnr": 58.7,
-   "seconds": 3.1
+   "seconds": 3.2
   },
   {
    "name": "yana10.rct",
@@ -1850,7 +1850,7 @@
    "changed_1x_pixels": 14448,
    "jxl_distance": 0.5,
    "jxl_psnr": 57.83,
-   "seconds": 4.9
+   "seconds": 5.0
   },
   {
    "name": "sr_haru.rct",
@@ -1915,7 +1915,7 @@
    "changed_1x_pixels": 13388,
    "jxl_distance": 0.5,
    "jxl_psnr": 52.88,
-   "seconds": 15.1
+   "seconds": 15.2
   },
   {
    "name": "tomo_03.rct",
@@ -1953,7 +1953,7 @@
    "changed_1x_pixels": 51090,
    "jxl_distance": 0.5,
    "jxl_psnr": 52.01,
-   "seconds": 21.7
+   "seconds": 19.9
   },
   {
    "name": "kiostaff01.rct",
@@ -1972,7 +1972,7 @@
    "changed_1x_pixels": 20427,
    "jxl_distance": 0.5,
    "jxl_psnr": 54.18,
-   "seconds": 4.3
+   "seconds": 3.8
   },
   {
    "name": "zuzuzu.rct",
@@ -1991,7 +1991,7 @@
    "changed_1x_pixels": 43536,
    "jxl_distance": 0.5,
    "jxl_psnr": 54.51,
-   "seconds": 16.8
+   "seconds": 15.2
   },
   {
    "name": "sr_miyoruno_dame02.rct",
@@ -2009,7 +2009,7 @@
    "changed_1x_pixels": 7479,
    "jxl_distance": 0.5,
    "jxl_psnr": 55.2,
-   "seconds": 17.7
+   "seconds": 17.4
   },
   {
    "name": "yana09.rct",
@@ -2024,7 +2024,7 @@
    "changed_1x_pixels": 2777,
    "jxl_distance": 0.5,
    "jxl_psnr": 58.52,
-   "seconds": 1.3
+   "seconds": 1.2
   }
  ]
 }

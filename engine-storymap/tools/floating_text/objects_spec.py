@@ -110,8 +110,7 @@ THINGS = {
     'nametag_close': {
         'masters': ['netu01b'],
         'inside': [(250, 195), (470, 195), (470, 420), (250, 420)],
-        'max_blue': 12, 'abs_dark': 150, 'fill': 'regions', 'fill_sigma': 5,
-        'regions': [lambda f: f.mean(-1) > 130, lambda f: (f.mean(-1) <= 130) & ((f[..., 2] - (f[..., 0] + f[..., 1]) / 2) > 12)],
+        'max_blue': 12, 'abs_dark': 150, 'fill': 'hull', 'hull_light': 150, 'fill_sigma': 5,
         'grow': 3, 'grow4': 6, 'font': GAEGU_BOLD, 'height_ratio': 0.95, 'tracking': 0.0, 'bold': 13,
         'wobble': (5.0, 0.05, 0.05), 'ink_scale': 1.0, 'soft': 0.6, 'opacity': 1.0,
         'probe': '마호코',
@@ -123,8 +122,7 @@ THINGS = {
     'nametag': {
         'masters': ['netu01'],
         'inside': [(355, 310), (470, 310), (470, 428), (355, 428)],
-        'max_blue': 12, 'abs_dark': 150, 'fill': 'regions', 'fill_sigma': 3,
-        'regions': [lambda f: f.mean(-1) > 130, lambda f: (f.mean(-1) <= 130) & ((f[..., 2] - (f[..., 0] + f[..., 1]) / 2) > 12)],
+        'max_blue': 12, 'abs_dark': 150, 'fill': 'hull', 'hull_light': 150, 'fill_sigma': 3,
         'grow': 2, 'grow4': 5, 'font': GAEGU_BOLD, 'height_ratio': 0.95, 'tracking': 0.0, 'bold': 8,
         'wobble': (5.0, 0.05, 0.05), 'ink_scale': 1.0, 'soft': 0.5, 'opacity': 1.0,
         'probe': '마호코',
