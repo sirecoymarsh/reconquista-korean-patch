@@ -178,8 +178,8 @@ def main():
         print('with hd', json.dumps(res['smoke_with_hd'], ensure_ascii=False), flush=True)
 
     rc3, text3 = bat(game, '한국어패치_제거.bat', {'RECON_KR_NOASK': '1'})
-    left = [p.name for p in game.iterdir() if p.name not in set(UNCHANGED) | {EXE, 'scenario.arc', 'data.arc', 'fastdata.arc', 'movie', 'savedata',
-                                                                             'KoreanPatch', '한국어패치_설치.bat', '한국어패치_제거.bat', '읽어보기.txt'}]
+    original = set(UNCHANGED) | {Path(n.replace('\\', '/')).parts[0] for n in PATCHED}   # the game's own files and folders (movie)
+    left = [p.name for p in game.iterdir() if p.name not in original | {'savedata', 'KoreanPatch', '한국어패치_설치.bat', '한국어패치_제거.bat', '읽어보기.txt'}]
     res['uninstall'] = {'rc': rc3, 'tail': text3.strip().splitlines()[-3:], 'notices': [l for l in text3.splitlines() if l.startswith(('[주의]', '[오류]', '[알림]')) or '구문이 잘못' in l or '인식되지 않' in l], 'restored_mismatch': [n for n in PATCHED if sha(game / n) != orig_hash[n]],
                         'left_over': left, 'save_kept': (game / 'savedata' / 'majiro_0101.sav').exists(),
                         'savedata_files': sorted(p.name for p in (game / 'savedata').iterdir())}
