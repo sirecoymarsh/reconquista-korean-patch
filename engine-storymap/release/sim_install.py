@@ -1,12 +1,12 @@
 """배포 꾸러미를 원본 디스크 파일로 만든 가짜 게임 폴더에 설치·실행·제거해 본다 (Claude, 2026-11-21).
 
 python sim_install.py <꾸러미 out 폴더> <가짜 게임 폴더>
-  1. 원본 디스크 파일로 게임 폴더(바뀌는 5개는 복사, 나머지 묶음은 하드 링크).
+  1. 원본 디스크 파일로 게임 폴더(바뀌는 6개는 복사, 나머지 묶음은 하드 링크, 드라이브가 다르면 복사).
   2. 본 패치 압축 풀기 → 한국어패치_설치.bat(입력 없이) → 바뀐 파일·새 파일 해시가 manifest 와 같은지, 개인 파일이 없는지.
   3. 다시 설치 → 「이미 설치」로 멈추는지.
   4. 무음 실행(고화질 묶음 없이 / 있이): fastdata 만 잠시 시험용(설정 키 따로·음량 0)으로 바꿔 숨은 데스크톱에서
      타이틀 → 처음부터 → 첫 대사 → F11 지도 열고 닫기 → 정상 종료. 끝나면 배포 fastdata 로 되돌린다.
-  5. 한국어패치_제거.bat → 5개가 원본 해시로 돌아오고 더한 파일이 없어졌는지, 세이브는 남았는지.
+  5. 한국어패치_제거.bat → 6개가 원본 해시로 돌아오고 더한 파일이 없어졌는지, 세이브는 남았는지.
 """
 import hashlib, json, os, shutil, subprocess, sys, time, zipfile
 from pathlib import Path
@@ -22,9 +22,9 @@ from PIL import Image  # noqa: E402
 
 ORIG = Path(r'P:\AI\Codex\projects\migrated-from-c\onedrive-chatgpt\레콘퀴스타\research\disc')
 EXE = 'レコンキスタ.exe'
-PATCHED = {EXE: ORIG / 'bin' / EXE, 'scenario.arc': ORIG / 'scenario.arc', 'data.arc': ORIG / 'data.arc', 'fastdata.arc': ORIG / 'fastdata.arc',
-           'movie\\Recon_OP800_H.mpg': ORIG / 'movie' / 'Recon_OP800_H.mpg'}
-UNCHANGED = ['data1.arc', 'data2.arc', 'slowdata.arc', 'stream.arc', 'voice.arc']
+PATCHED = {EXE: ORIG / 'bin' / EXE, 'scenario.arc': ORIG / 'scenario.arc', 'data.arc': ORIG / 'data.arc', 'data1.arc': ORIG / 'data1.arc',
+           'fastdata.arc': ORIG / 'fastdata.arc', 'movie\\Recon_OP800_H.mpg': ORIG / 'movie' / 'Recon_OP800_H.mpg'}
+UNCHANGED = ['data2.arc', 'slowdata.arc', 'stream.arc', 'voice.arc']
 PERSONAL = ['savedata', 'storymap-read.bin', 'review-unlock.enabled', 'cg-quality.ini', 'chronicle-look.ini',
             'hires-runtime.log', 'BUILD-IDENTITY.json', 'hires-manifest.json', 'storymap-se-mute.flag']
 
@@ -143,7 +143,10 @@ def main():
     for name, p in PATCHED.items():
         shutil.copy2(p, game / name)
     for name in UNCHANGED:
-        os.link(ORIG / name, game / name)
+        try:
+            os.link(ORIG / name, game / name)
+        except OSError:                     # the disc files are on another drive
+            shutil.copy2(ORIG / name, game / name)
     (game / 'savedata').mkdir()
     (game / 'savedata' / 'majiro_0101.sav').write_bytes(b'sim save, must survive')
     orig_hash = {n: sha(game / n) for n in PATCHED}

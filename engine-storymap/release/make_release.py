@@ -1,7 +1,8 @@
 """레콘키스타 한국어 패치 배포 꾸러미 만들기 (Claude, 2026-11-21).
 
 길티 크라운 PC 패치(Y:\\AI\\gclx-release-1121)와 같은 꼴: 게임 폴더에 압축을 풀고 한국어패치_설치.bat.
-  - 바뀐 원본 5개(exe·scenario.arc·data.arc·fastdata.arc·movie\\Recon_OP800_H.mpg)는 xdelta3 차분과 되돌림 차분.
+  - 바뀐 원본 6개(exe·scenario.arc·data.arc·data1.arc·fastdata.arc·movie\\Recon_OP800_H.mpg)는 xdelta3 차분과 되돌림 차분.
+    (data1.arc 는 1.2 부터: 떠오르는 대사 그림 9장, tools/floating_text)
     원작 자료를 통째로 싣지 않는다. 원본 크기가 다르면 경고만 하고 시도한다(사용자 방침).
   - 새 파일(DLL·글꼴·이야기 지도·새 연표·사용 허락 문서)은 KoreanPatch\\files 에서 복사.
   - 4K 그림(hires*·hires-sprites.txt·prefetch.bin)은 「고화질 묶음」 따로. 없어도 DLL은 1배 그림을 키워 쓴다.
@@ -23,14 +24,15 @@ import make_runtime as M  # noqa: E402
 
 ORIG = Path(r'P:\AI\Codex\projects\migrated-from-c\onedrive-chatgpt\레콘퀴스타\research\disc')   # 디스크 원본 그대로
 XDELTA = Path(r'P:\AI\demonbane-ps2-kr\release\pkg\tools\xdelta3.exe')                         # 3.2.0, Apache-2.0
-JXL_SRC = PROJ / 'build' / 'src-libjxl' / 'libjxl'
+JXL_SRC = Path(r'P:\AI\Codex\projects\reconquista_flowchart_20261024\build\src-libjxl\libjxl')   # the DLL's libjxl source (its licenses)
 FONT_LICENSE = Path(r'P:\AI\Codex\projects\migrated-from-c\onedrive-chatgpt\레콘퀴스타\builds\body-ui-20261023-v16-ui-rest\font\LICENSE.txt')
 EXE = 'レコンキスタ.exe'
 REG = 'ReconquistaKR'
 # (게임 폴더 안 이름, 원본 경로, 차분 이름)
 TARGETS = [(EXE, ORIG / 'bin' / EXE, 'exe'), ('scenario.arc', ORIG / 'scenario.arc', 'scenario'), ('data.arc', ORIG / 'data.arc', 'data'),
+           ('data1.arc', ORIG / 'data1.arc', 'data1'),
            ('fastdata.arc', ORIG / 'fastdata.arc', 'fastdata'), ('movie\\Recon_OP800_H.mpg', ORIG / 'movie' / 'Recon_OP800_H.mpg', 'movie')]
-UNCHANGED = ['data1.arc', 'data2.arc', 'slowdata.arc', 'stream.arc', 'voice.arc']
+UNCHANGED = ['data2.arc', 'slowdata.arc', 'stream.arc', 'voice.arc']
 HD_ITEMS = ['hires-jxl', 'hires-patch', 'hires-sprites.txt', 'prefetch.bin']
 
 
@@ -80,7 +82,7 @@ def main():
 
     fast = work / 'patched' / 'fastdata.arc'
     M.env_fastdata(src / 'fastdata.arc', fast, {'REG_LOCAL': REG})
-    patched = {EXE: src / EXE, 'scenario.arc': src / 'scenario.arc', 'data.arc': src / 'data.arc', 'fastdata.arc': fast,
+    patched = {EXE: src / EXE, 'scenario.arc': src / 'scenario.arc', 'data.arc': src / 'data.arc', 'data1.arc': src / 'data1.arc', 'fastdata.arc': fast,
                'movie\\Recon_OP800_H.mpg': src / 'movie' / 'Recon_OP800_H.mpg'}
     for name, orig, tag in TARGETS:
         new = patched[name]
@@ -195,7 +197,7 @@ if not exist "movie\\Recon_OP800_H.mpg" echo [주의] movie\\Recon_OP800_H.mpg �
 if not exist "%BK%" mkdir "%BK%"
 if exist "%BK%\\applied.txt" del "%BK%\\applied.txt"
 
-echo [1/2] 바뀌는 원본 파일 5개를 고치는 중... 몇 분 걸리고 빈 공간이 1GB 이상 필요합니다.
+echo [1/2] 바뀌는 원본 파일 {len(TARGETS)}개를 고치는 중... 몇 분 걸리고 빈 공간이 1GB 이상 필요합니다.
 {applies}
 
 echo [2/2] 한국어 파일을 넣는 중...

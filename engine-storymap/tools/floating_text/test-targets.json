@@ -1,0 +1,123 @@
+{
+ "netu110g1": {
+  "script": "kureha_11",
+  "order": 22186,
+  "text": "그 그림자는 마치 물 너머에서 이쪽을 가만히 들여다보는 것 같았다.",
+  "query": "그 그림자는",
+  "before": true
+ },
+ "ev1132b": {
+  "script": "kureha_19",
+  "order": 40267,
+  "text": "분명 아내를 대신해서 지켜봐 준 거라고 나는 그렇게 느꼈다…",
+  "query": "분명 아내를",
+  "before": true,
+  "wait": 0.6
+ },
+ "ev5012": {
+  "script": "last_gendai16",
+  "order": 35471,
+  "text": "나는 마침내 이곳으로 돌아왔으니까――",
+  "query": "마침내 이곳",
+  "before": true
+ },
+ "maho_tui05": {
+  "script": "maho_19",
+  "order": 43252,
+  "text": "천천히 마호코는…그 말을 입에 담았다…",
+  "query": "천히 마호코",
+  "before": true,
+  "wait": 0.3
+ },
+ "netu125b_01": {
+  "script": "00_レコンキスタ_start_3",
+  "order": 5413,
+  "text": "『도망쳐도망쳐도망쳐도망쳐도망쳐도망쳐도망쳐도망쳐도망쳐 도망쳐도망쳐도망쳐도망쳐도망쳐도망쳐도망쳐도망쳐도망쳐 도망쳐도망쳐도망쳐도망쳐도망쳐도망쳐도망쳐도망쳐――!』",
+  "query": "망쳐도망쳐 ",
+  "before": true
+ },
+ "netu404": {
+  "script": "sina_18_3",
+  "order": 42252,
+  "text": "내 눈에 시오미가 덮쳐 오는 모습이 들어왔다!",
+  "query": "내 눈에 시",
+  "before": true
+ },
+ "ev5043c2": {
+  "script": "last_ep",
+  "order": 37793,
+  "text": "「제 이름은 모미지… 마키노 모미지예요!」",
+  "query": "은 모미지…",
+  "before": true
+ },
+ "04yb2": {
+  "script": "masa_15",
+  "order": 28851,
+  "text": "『괜찮아, 괜찮아』―― 나는 이제 외톨이가 아니야. 엄마가 가르쳐 준 주문은, 숲속 동물들을 통해 소년에게 힘을 주었습니다…",
+  "query": " 괜찮아』―",
+  "before": true
+ },
+ "11yb2": {
+  "script": "masa_14",
+  "order": 27123,
+  "text": "하지만 그 말을 들은 소년은 『현자의 산』을 오르기로 결심했습니다. 마음에 뻥 뚫린 빈자리를 채우기 위해… 그 자리에 있었을 무언가를 되찾기 위해.",
+  "query": " 소년은 『",
+  "before": true
+ },
+ "card": {
+  "script": "kureha_19",
+  "order": 39753,
+  "text": "「그런데 이 종이는…?」",
+  "query": "런데 이 종",
+  "before": true,
+  "max": 3
+ },
+ "kosho": {
+  "script": "kureha_10",
+  "order": 19812,
+  "text": "그리고 오후에는 나와 쿠레하가 만나서 모미지를 데리러 가기로 했다.",
+  "query": "그리고 오후",
+  "before": true,
+  "max": 3
+ },
+ "lift": {
+  "script": "kureha_09",
+  "order": 17961,
+  "text": "웅, 구우우웅…",
+  "query": "웅, 구우우",
+  "before": true,
+  "max": 3
+ },
+ "tag": {
+  "script": "maho_15",
+  "order": 33745,
+  "text": "흘러내리는 물을 손으로 훔치고 눈을 번쩍 뜨자…",
+  "query": "러내리는 물",
+  "before": true,
+  "max": 3
+ },
+ "bridge": {
+  "script": "kureha_17",
+  "order": 36080,
+  "text": "「…여보세요, 아빠…?」",
+  "query": "…여보세요,",
+  "before": true,
+  "max": 3
+ },
+ "logo": {
+  "script": "kureha_10",
+  "order": 19915,
+  "text": "나는 솟아오르는 의문을 풀지 못한 채 남겨 두고, 서둘러 횡단보도를 끝까지 건넜다…",
+  "query": "나는 솟아오",
+  "before": true,
+  "max": 3
+ },
+ "bus": {
+  "script": "00_レコンキスタ_start",
+  "order": 70,
+  "text": "「야호, 야호! 진짜 기대된다아」",
+  "query": " 야호! 진",
+  "before": true,
+  "max": 3
+ }
+}

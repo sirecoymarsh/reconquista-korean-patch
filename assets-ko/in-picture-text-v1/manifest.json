@@ -1,0 +1,2030 @@
+{
+ "runtime": "P:\\AI\\Codex\\projects\\reconquista_flowchart_20261024\\runtime-final-20261028",
+ "made": "2026-11-27 01:54",
+ "pictures": [
+  {
+   "name": "netu110g1.rct",
+   "archive": "data.arc",
+   "key": "4ad5815f",
+   "base": null,
+   "source": "kureha_11: 水面の向こうから呼ぶ声 (暮葉, 차분한 반말) 「いらっしゃい…」",
+   "lines": [
+    "「이리 와…」"
+   ],
+   "clean": "scaled",
+   "japanese_box_1x": [
+    311,
+    293,
+    548,
+    320
+   ],
+   "payload_before_sha256": "978004a7203abb050d43ce19ca3d8dcdd05acf842065031b1ce41d79791ab537",
+   "payload_after_sha256": "6f54414328c87b08120fffbb16c6ce3ccb20a4782c0705fef64eb7602fedebce",
+   "changed_1x_pixels": 1468,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 57.9,
+   "seconds": 3.1
+  },
+  {
+   "name": "netu110g2.rct",
+   "archive": "data.arc",
+   "key": "0d75fb8f",
+   "base": "netu110g1",
+   "source": "kureha_11: 水面の向こうから呼ぶ声 (暮葉, 차분한 반말) 「こっちへいらっしゃい…」",
+   "lines": [
+    "「이쪽으로 와…」"
+   ],
+   "clean": "scaled",
+   "japanese_box_1x": [
+    250,
+    293,
+    592,
+    320
+   ],
+   "payload_before_sha256": "99e074151c39e15fe15261077ff514fdd1c9ff5357e7d624c4e9fc025081abcf",
+   "payload_after_sha256": "da30421ffd18a9038608bb6653e41f69c7a366624cf19decc21cd7a61c65bb64",
+   "changed_1x_pixels": 2302,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 57.79,
+   "seconds": 2.6
+  },
+  {
+   "name": "netu110g3.rct",
+   "archive": "data.arc",
+   "key": "3015d23f",
+   "base": "netu110g1",
+   "source": "kureha_11: 水面の向こうから呼ぶ声 (暮葉, 차분한 반말) 「さぁ、こっちへ…私と一緒に…」",
+   "lines": [
+    "「자, 이쪽으로… 나와 함께…」"
+   ],
+   "clean": "scaled",
+   "japanese_box_1x": [
+    204,
+    293,
+    656,
+    320
+   ],
+   "payload_before_sha256": "22c54367b68b46551f5e032bdcf644890fe78bd55002eaaacde9e75cd646b03f",
+   "payload_after_sha256": "547c5f4503009a08f190926c0e4fd894720899e66a7b0b2af5f0bddcc8e70543",
+   "changed_1x_pixels": 3902,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 57.57,
+   "seconds": 2.7
+  },
+  {
+   "name": "ev5012.rct",
+   "archive": "data.arc",
+   "key": "285433ca",
+   "base": "ev501",
+   "source": "last_gendai16 悠絵 「おかえりなさい…おにいちゃん」 (おにいちゃん = 오빠, last_gendai16::010117)",
+   "lines": [
+    "「어서 와… 오빠」"
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    166,
+    268,
+    638,
+    304
+   ],
+   "payload_before_sha256": "625e3699150ea48284178746bd40ea3840a5e3e27a997dae636bb10ffe471446",
+   "payload_after_sha256": "e1fbd4e7cb6022937860ab4065b3de29a60b49433f05cdebbb299d5eca25a229",
+   "changed_1x_pixels": 15795,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 53.58,
+   "seconds": 3.7
+  },
+  {
+   "name": "ev501c.rct",
+   "archive": "data.arc",
+   "key": "2d27d5b1",
+   "base": null,
+   "source": "last_gendai16 悠絵 「おかえりなさい…おにいちゃん」 (おにいちゃん = 오빠, last_gendai16::010117)",
+   "lines": [
+    "「어서 와… 오빠」"
+   ],
+   "clean": "inpaint",
+   "japanese_box_1x": [
+    150,
+    258,
+    650,
+    314
+   ],
+   "payload_before_sha256": "44b780dc8f7f03a1d55bea49400b256aae826f1b090acf40159f677d0d427485",
+   "payload_after_sha256": "cd6db22a3837a37d0f4db36e09356be4fac5594400ba70f37a0ca5b0249e7a2c",
+   "changed_1x_pixels": 18202,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.17,
+   "seconds": 5.1
+  },
+  {
+   "name": "ev501d.rct",
+   "archive": "data.arc",
+   "key": "9f0709a1",
+   "base": "ev501c",
+   "source": "last_gendai16 悠絵 「おかえりなさい…おにいちゃん」 (おにいちゃん = 오빠, last_gendai16::010117)",
+   "lines": [
+    "「어서 와… 오빠」"
+   ],
+   "clean": "clean_of",
+   "japanese_box_1x": [
+    150,
+    255,
+    650,
+    317
+   ],
+   "payload_before_sha256": "4b8711d0f06e128d1df75718c214219b9f9d6757b98c687109bb3fd5b1667075",
+   "payload_after_sha256": "2d9e5dffe9aea3e77cb46dffd5b00e8b4f7ef8537c1d3ca8892081b17540aebe",
+   "changed_1x_pixels": 19867,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.08,
+   "seconds": 3.3
+  },
+  {
+   "name": "ev5043c2.rct",
+   "archive": "data.arc",
+   "key": "bef55141",
+   "base": "ev5043c",
+   "source": "last_ep 「…はい、誓います。」 = last_kako04::003661 「…네, 맹세합니다」",
+   "lines": [
+    "「…네, 맹세합니다」"
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    230,
+    243,
+    609,
+    284
+   ],
+   "payload_before_sha256": "dbc4353ee5e7a08b35a089a7a324528cf911b9587ea265e10a8a9c1eda0eca86",
+   "payload_after_sha256": "9f21c82d899482e34572d3b958ee317165b5d6ab0b7cd513eda1ff975cb555ab",
+   "changed_1x_pixels": 13777,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.38,
+   "seconds": 3.5
+  },
+  {
+   "name": "ev5043cc.rct",
+   "archive": "data.arc",
+   "key": "bb86b73a",
+   "base": "ev5043c",
+   "source": "last_ep 「…はい、誓います。」 = last_kako04::003661 「…네, 맹세합니다」",
+   "lines": [
+    "「…네, 맹세합니다」"
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    230,
+    243,
+    609,
+    284
+   ],
+   "payload_before_sha256": "dbc4353ee5e7a08b35a089a7a324528cf911b9587ea265e10a8a9c1eda0eca86",
+   "payload_after_sha256": "9f21c82d899482e34572d3b958ee317165b5d6ab0b7cd513eda1ff975cb555ab",
+   "changed_1x_pixels": 13777,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.38,
+   "seconds": 3.2
+  },
+  {
+   "name": "ev5043cb.rct",
+   "archive": "data.arc",
+   "key": "86e69e8a",
+   "base": "ev5043c",
+   "source": "last_ep 「…はい、誓います。」 = last_kako04::003661 「…네, 맹세합니다」",
+   "lines": [
+    "「…네, 맹세합니다」"
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    228,
+    242,
+    610,
+    286
+   ],
+   "payload_before_sha256": "8c751a376cd9468ae7bbe9e39158b1d5191bed7f4df31ad70ece9d3332c970ef",
+   "payload_after_sha256": "02cf94c2e8cafb4f32c71fb571d2fa60f359e74ff047767fe120435156fb7b86",
+   "changed_1x_pixels": 15231,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.42,
+   "seconds": 4.8
+  },
+  {
+   "name": "ev5043ca.rct",
+   "archive": "data.arc",
+   "key": "c146e45a",
+   "base": "ev5043c",
+   "source": "last_ep 「…はい、誓います。」 = last_kako04::003661 「…네, 맹세합니다」",
+   "lines": [
+    "「…네, 맹세합니다」"
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    227,
+    237,
+    615,
+    289
+   ],
+   "payload_before_sha256": "1610d7c295f5a4e66353587100bb99962e94732e3d011e7d1e55aca08068e799",
+   "payload_after_sha256": "01d5d7c10b52ead6be817660b861dbdcb81b301d1ff0bdf3dd5cf413382835f2",
+   "changed_1x_pixels": 18238,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.39,
+   "seconds": 4.3
+  },
+  {
+   "name": "ev5043cd.rct",
+   "archive": "data.arc",
+   "key": "09a66b2a",
+   "base": null,
+   "source": "last_ep 「…はい、誓います。」 = last_kako04::003661 「…네, 맹세합니다」",
+   "lines": [
+    "「…네, 맹세합니다」"
+   ],
+   "clean": "scaled",
+   "japanese_box_1x": [
+    230,
+    243,
+    605,
+    284
+   ],
+   "payload_before_sha256": "116d1573e9caff30edf3143e5230126a2c357090da6e74aa28f46f58ddf23282",
+   "payload_after_sha256": "9365a766005681a3d7ab25ef9ba883d768bbad366d6bd4c4cbe96649043ed262",
+   "changed_1x_pixels": 13524,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.67,
+   "seconds": 3.6
+  },
+  {
+   "name": "ev5043ce.rct",
+   "archive": "data.arc",
+   "key": "34c6429a",
+   "base": null,
+   "source": "last_ep 「…はい、誓います。」 = last_kako04::003661 「…네, 맹세합니다」",
+   "lines": [
+    "「…네, 맹세합니다」"
+   ],
+   "clean": "flat",
+   "japanese_box_1x": [
+    230,
+    243,
+    609,
+    285
+   ],
+   "payload_before_sha256": "0a4bab9914312e525dca808de8d245f47e645d515b07ff89300b703c9b3c8a23",
+   "payload_after_sha256": "9afe08ac103d3b861577f81cb94ec32b6603039d8136aa8d882b4089d51477d5",
+   "changed_1x_pixels": 13731,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 65.13,
+   "seconds": 2.7
+  },
+  {
+   "name": "ev1132a.rct",
+   "archive": "data1.arc",
+   "key": "bb3557dd",
+   "base": null,
+   "source": "kureha_19 『はい、チーズ…』 = kureha_14::002779 「자, 치즈――」",
+   "lines": [
+    "『자, 치즈…』"
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    236,
+    249,
+    592,
+    315
+   ],
+   "payload_before_sha256": "d7f4363a7c2d0abb8333b9dd931d0077071a7ee42839aa93c08dd594119c44c3",
+   "payload_after_sha256": "954696bac410e26fe8965fe16aca6db04f500a913579b0329abd3b3e0d60a538",
+   "changed_1x_pixels": 19511,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 53.66,
+   "seconds": 5.7
+  },
+  {
+   "name": "ev1132b.rct",
+   "archive": "data1.arc",
+   "key": "fc952d0d",
+   "base": "ev1132a",
+   "source": "kureha_19 『はい、チーズ…』 = kureha_14::002779 「자, 치즈――」",
+   "lines": [
+    "『자, 치즈…』"
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    238,
+    252,
+    590,
+    313
+   ],
+   "payload_before_sha256": "4dc00088a73f2d359925c378593fa0f56585ac21205fc910f1f0d653fb79855d",
+   "payload_after_sha256": "941f903e2d1f74ed5c937013368c6ad0aa3e4a47d596c2723463fb79a7d56e57",
+   "changed_1x_pixels": 16565,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 53.62,
+   "seconds": 4.1
+  },
+  {
+   "name": "ev1132c.rct",
+   "archive": "data1.arc",
+   "key": "c1f504bd",
+   "base": null,
+   "source": "kureha_19 『はい、チーズ…』 = kureha_14::002779 「자, 치즈――」",
+   "lines": [
+    "『자, 치즈…』"
+   ],
+   "clean": "inpaint",
+   "japanese_box_1x": [
+    234,
+    240,
+    599,
+    325
+   ],
+   "payload_before_sha256": "516346995c83fcbdc4abcbe988c44acf7e054d0540679f7199d9c58bcef69b06",
+   "payload_after_sha256": "135b23c3ec33d585ceaacefbcf0a5c76343548593c2da796e2d4f8b4c86d3eda",
+   "changed_1x_pixels": 21860,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 53.48,
+   "seconds": 4.6
+  },
+  {
+   "name": "ev1132d.rct",
+   "archive": "data1.arc",
+   "key": "73d5d8ad",
+   "base": null,
+   "source": "kureha_19 『はい、チーズ…』 = kureha_14::002779 「자, 치즈――」",
+   "lines": [
+    "『자, 치즈…』"
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    238,
+    252,
+    590,
+    313
+   ],
+   "payload_before_sha256": "f2d9c6a0290bcb8266151dd9d3c43b4c51d46a4a81ac166a2da73b5fbdf5f6e5",
+   "payload_after_sha256": "b044e7e32ecb2181826aeb5e699b8fbfa5b3b35d4b8b9ad2dacd2c989172dc9c",
+   "changed_1x_pixels": 15375,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 53.83,
+   "seconds": 4.7
+  },
+  {
+   "name": "nisan04.rct",
+   "archive": "data1.arc",
+   "key": "14cabb7c",
+   "base": "nisan03",
+   "source": "nisan 「……兄さんっ!」 = sina_19_2::000821 「……오라버니!」",
+   "lines": [
+    "「……오라버니!」"
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    310,
+    318,
+    493,
+    340
+   ],
+   "payload_before_sha256": "3aeb076ac923e68ef350fa76b21f00e385e59bbd07da888940a10d03a9423d78",
+   "payload_after_sha256": "bc29474b3df5414c27f7f79af01fa52f69d604a270b536616c8b6795b65009d5",
+   "changed_1x_pixels": 3460,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 57.65,
+   "seconds": 3.1
+  },
+  {
+   "name": "nisan05.rct",
+   "archive": "data1.arc",
+   "key": "29aa92cc",
+   "base": "nisan03",
+   "source": "nisan 「……兄さんっ!」 = sina_19_2::000821 「……오라버니!」",
+   "lines": [
+    "「……오라버니!」"
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    307,
+    315,
+    496,
+    342
+   ],
+   "payload_before_sha256": "1115a76beb3aa89f6e525ed0d58bee2340a973cf2c6de502b889ce8785a69bb4",
+   "payload_after_sha256": "c842229b13c07613564c09478a1d3a5ff04a3bee830e759fbe1156da5c62cba5",
+   "changed_1x_pixels": 4518,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 57.56,
+   "seconds": 2.8
+  },
+  {
+   "name": "nisan06.rct",
+   "archive": "data1.arc",
+   "key": "6e0ae81c",
+   "base": null,
+   "source": "nisan 「……兄さんっ!」 = sina_19_2::000821 「……오라버니!」",
+   "lines": [
+    "「……오라버니!」"
+   ],
+   "clean": "inpaint",
+   "japanese_box_1x": [
+    308,
+    308,
+    508,
+    350
+   ],
+   "payload_before_sha256": "57c3c10425b7e51a804ba479dc6e949fc92f66858e88bc7dab68d00d21c1c06c",
+   "payload_after_sha256": "3cf45b982ecee54368e8d4356d4da6769809d0c7a75bf215e02ccb88b822349c",
+   "changed_1x_pixels": 6046,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 59.65,
+   "seconds": 3.1
+  },
+  {
+   "name": "nisan07.rct",
+   "archive": "data1.arc",
+   "key": "536ac1ac",
+   "base": null,
+   "source": "nisan 「……兄さんっ!」 = sina_19_2::000821 「……오라버니!」",
+   "lines": [
+    "「……오라버니!」"
+   ],
+   "clean": "inpaint",
+   "japanese_box_1x": [
+    308,
+    308,
+    508,
+    350
+   ],
+   "payload_before_sha256": "55e4a3f0037014034dac5d1e8535df521ae874b5881bc30605d84c8d9de2e84b",
+   "payload_after_sha256": "a4b797f0ada40d9c2c0125ebd01a5009f7bcbd5286e41b6bb82d35746876a65b",
+   "changed_1x_pixels": 6842,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 58.67,
+   "seconds": 3.2
+  },
+  {
+   "name": "nisan08.rct",
+   "archive": "data1.arc",
+   "key": "d13a567d",
+   "base": null,
+   "source": "nisan 「……兄さんっ!」 = sina_19_2::000821 「……오라버니!」",
+   "lines": [
+    "「……오라버니!」"
+   ],
+   "clean": "inpaint",
+   "japanese_box_1x": [
+    308,
+    316,
+    496,
+    341
+   ],
+   "payload_before_sha256": "d2bbb603ec545a3215906fe81187f32b28fef8bbfb64c6f6e2f746be64bc5d74",
+   "payload_after_sha256": "4fd5e722d323fb02b69d432f92dbc3d1c5e84b067ada1ed28992257c1bde6bf7",
+   "changed_1x_pixels": 4617,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 57.38,
+   "seconds": 3.3
+  },
+  {
+   "name": "nisan09.rct",
+   "archive": "data1.arc",
+   "key": "ec5a7fcd",
+   "base": null,
+   "source": "nisan 「……兄さんっ!」 = sina_19_2::000821 「……오라버니!」",
+   "lines": [
+    "「……오라버니!」"
+   ],
+   "clean": "flat",
+   "japanese_box_1x": [
+    307,
+    315,
+    496,
+    342
+   ],
+   "payload_before_sha256": "501150ff5ed460f71dc6645101572b51a71ca45815269e1923ee3089f1deb886",
+   "payload_after_sha256": "97782178fa2fae435cf3f769deb3198979b8794f4c88379cb7772454c8f89c2e",
+   "changed_1x_pixels": 4572,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 67.62,
+   "seconds": 2.4
+  },
+  {
+   "name": "maho_tui03.rct",
+   "archive": "data1.arc",
+   "key": "279e0831",
+   "base": "maho_tui02",
+   "source": "maho_19 『…おにいちゃん…』 (= 오빠, last_ep)",
+   "lines": [
+    "『…오빠…』"
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    262,
+    300,
+    570,
+    338
+   ],
+   "payload_before_sha256": "a8b0a759c1af3827ee30b6c4ca524de5422a92533259adfbda9e14d71c38f2c0",
+   "payload_after_sha256": "ab30fa5302cd4eb488a08e078d23c83e77fcb601a1ce4717d5946f7021973b1c",
+   "changed_1x_pixels": 10940,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.55,
+   "seconds": 4.6
+  },
+  {
+   "name": "maho_tui04.rct",
+   "archive": "data1.arc",
+   "key": "95bed421",
+   "base": null,
+   "source": "maho_19 『…おにいちゃん…』 (= 오빠, last_ep)",
+   "lines": [
+    "『…오빠…』"
+   ],
+   "clean": "inpaint",
+   "japanese_box_1x": [
+    250,
+    290,
+    580,
+    345
+   ],
+   "payload_before_sha256": "79786b7e5050e444f40a6c4fa9a0caa10feb80127f4b5abb5754bf57684637e2",
+   "payload_after_sha256": "b675ce91a32aa3701b896b3af99f4d558a568a474a59fbbc92115be57095a252",
+   "changed_1x_pixels": 11198,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 56.19,
+   "seconds": 3.5
+  },
+  {
+   "name": "maho_tui05.rct",
+   "archive": "data1.arc",
+   "key": "a8defd91",
+   "base": null,
+   "source": "maho_19 『…おにいちゃん…』 (= 오빠, last_ep)",
+   "lines": [
+    "『…오빠…』"
+   ],
+   "clean": "inpaint",
+   "japanese_box_1x": [
+    265,
+    303,
+    566,
+    335
+   ],
+   "payload_before_sha256": "afb3d31242196af9e73a9d9967315f50071f580228417f04479442ba87cb4b3d",
+   "payload_after_sha256": "6a9ced73167adda0ff607498da6d44a88cb8b0f87f07b20ba5836008fb9854fb",
+   "changed_1x_pixels": 8722,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 57.82,
+   "seconds": 3.3
+  },
+  {
+   "name": "netu125b_01.rct",
+   "archive": "data.arc",
+   "key": "86485df6",
+   "base": null,
+   "source": "Revelation 14:13 as last_kako12 / kureha_15 / masa_18 (검수확정)",
+   "lines": [
+    "또 나는 하늘에서 이렇게 고하는 소리를 들었다."
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    99,
+    289,
+    701,
+    312
+   ],
+   "payload_before_sha256": "8ea2c86f7856cbd17d76e0a6e9583b878e72f909ee0abfff572bc60bd3f3da79",
+   "payload_after_sha256": "0b1b90fb62f7df38b99deca04f16da183903ef3607c68ef888136dfbf48cf37e",
+   "changed_1x_pixels": 5702,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.14,
+   "seconds": 3.7
+  },
+  {
+   "name": "netu125b_02.rct",
+   "archive": "data.arc",
+   "key": "c1e82726",
+   "base": "netu125b_01",
+   "source": "Revelation 14:13 as last_kako12 / kureha_15 / masa_18 (검수확정)",
+   "lines": [
+    "기록하여라.",
+    "『이제부터 주님 안에서 죽는 사람은 복되도다』라고."
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    54,
+    261,
+    748,
+    323
+   ],
+   "payload_before_sha256": "ba1e459525651e88f6c243d116db519dafc96cd1c0f3de69d8acfc5cab2c7cc8",
+   "payload_after_sha256": "17891bf8c5708734223c5b1e1e00fc8b29899ebb1ebce4d377c21193191c35e7",
+   "changed_1x_pixels": 7875,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.04,
+   "seconds": 3.0
+  },
+  {
+   "name": "netu125b_03.rct",
+   "archive": "data.arc",
+   "key": "fc880e96",
+   "base": "netu125b_01",
+   "source": "Revelation 14:13 as last_kako12 / kureha_15 / masa_18 (검수확정)",
+   "lines": [
+    "성령도 말씀하신다.",
+    "『그러하다. 그들은 노고에서 풀려나 안식을 얻으리니,",
+    "그 행실이 보답을 받을 것이기 때문이라』"
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    83,
+    215,
+    717,
+    326
+   ],
+   "payload_before_sha256": "443b974fe899539d66a5b4f0b59a27a818e55df2844ce7a4ffbfc7c9a2493212",
+   "payload_after_sha256": "72b4489fc5c9da2acc7a218855a00cb75de356a6e28adec9b1636ce94a4a1c7b",
+   "changed_1x_pixels": 12758,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 53.7,
+   "seconds": 3.2
+  },
+  {
+   "name": "netu125b_04.rct",
+   "archive": "data.arc",
+   "key": "4ea8d286",
+   "base": "netu125b_01",
+   "source": "Revelation 14:13 as last_kako12 / kureha_15 / masa_18 (검수확정) 「アーメン」 = 「아멘」",
+   "lines": [
+    "아멘"
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    346,
+    290,
+    456,
+    310
+   ],
+   "payload_before_sha256": "fa9a07f7224d96cd044b269d013b25603813f255b445419c8d1089a397ed137e",
+   "payload_after_sha256": "8331e8fc5afd2df03978c16769f0291c6abaa7898ea6b4dd6b3e752749747a57",
+   "changed_1x_pixels": 669,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.49,
+   "seconds": 3.1
+  },
+  {
+   "name": "netu125_01.rct",
+   "archive": "data.arc",
+   "key": "244534e5",
+   "base": "netu125b_01",
+   "source": "Revelation 14:13 as last_kako12 / kureha_15 / masa_18 (검수확정)",
+   "lines": [
+    "또 나는 하늘에서 이렇게 고하는 소리를 들었다."
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    104,
+    287,
+    702,
+    315
+   ],
+   "payload_before_sha256": "f6cc7ef3a4dd1adea435ced87b9c0ea4c1fe5f5a7edf351abeacdbbc2e063a0e",
+   "payload_after_sha256": "84bee96337d33e83f77061cd098775af21945fb40f3ee3cefe7e7ac310c4c97c",
+   "changed_1x_pixels": 6620,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.15,
+   "seconds": 2.9
+  },
+  {
+   "name": "netu125_02.rct",
+   "archive": "data.arc",
+   "key": "63e54e35",
+   "base": "netu125b_01",
+   "source": "Revelation 14:13 as last_kako12 / kureha_15 / masa_18 (검수확정)",
+   "lines": [
+    "기록하여라.",
+    "『이제부터 주님 안에서 죽는 사람은 복되도다』라고."
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    53,
+    251,
+    748,
+    314
+   ],
+   "payload_before_sha256": "3e66bfd6ecda90421a59eef028337a79a5f7e682e95637bec77122205054dbf8",
+   "payload_after_sha256": "bed2e40b61f8940603447623733e3317f63da6e74107a17e7c5c209fe5c5a1c1",
+   "changed_1x_pixels": 9280,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.05,
+   "seconds": 3.1
+  },
+  {
+   "name": "netu125_03.rct",
+   "archive": "data.arc",
+   "key": "5e856785",
+   "base": "netu125b_01",
+   "source": "Revelation 14:13 as last_kako12 / kureha_15 / masa_18 (검수확정)",
+   "lines": [
+    "성령도 말씀하신다.",
+    "『그러하다. 그들은 노고에서 풀려나 안식을 얻으리니,",
+    "그 행실이 보답을 받을 것이기 때문이라』"
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    83,
+    199,
+    717,
+    333
+   ],
+   "payload_before_sha256": "c629bcb3656901c7757fb8c0c51deaed39e666834e1d9d195fd915490f1cc877",
+   "payload_after_sha256": "56b6aeeb257651b037655edfe01049ee0d1c2895174ec11d2dd743757e5a1db0",
+   "changed_1x_pixels": 15639,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 53.75,
+   "seconds": 3.2
+  },
+  {
+   "name": "netu125_04.rct",
+   "archive": "data.arc",
+   "key": "eca5bb95",
+   "base": "netu125b_01",
+   "source": "Revelation 14:13 as last_kako12 / kureha_15 / masa_18 (검수확정) 「アーメン」 = 「아멘」",
+   "lines": [
+    "아멘"
+   ],
+   "clean": "sibling",
+   "japanese_box_1x": [
+    345,
+    290,
+    456,
+    311
+   ],
+   "payload_before_sha256": "dd2287afdd5d633a3909b03a1587e4fd92c30cdba9b40684bd121fff4be4e9b6",
+   "payload_after_sha256": "24cbb01446848102c5bf7af11f17918ca8c6c11893844935c404badd02f333cd",
+   "changed_1x_pixels": 788,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.49,
+   "seconds": 2.9
+  },
+  {
+   "name": "04yb2.rct",
+   "archive": "data.arc",
+   "key": "20b2b0c6",
+   "base": null,
+   "source": "約4年前 → 약 4년 전",
+   "lines": [
+    "약",
+    "년 전"
+   ],
+   "clean": "card",
+   "japanese_box_1x": null,
+   "payload_before_sha256": "8c65c7001971d2a802067218dd908debae67aa99339355158f3cd0fa68650557",
+   "payload_after_sha256": "76ec78a14de04e21363ee034e61921a876df02d59f056c846aa0f30cae403b72",
+   "changed_1x_pixels": 5133,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 61.19,
+   "seconds": 2.9
+  },
+  {
+   "name": "1yb2.rct",
+   "archive": "data.arc",
+   "key": "c548b5b7",
+   "base": "04yb2",
+   "source": "約1年前 → 약 1년 전",
+   "lines": [
+    "약",
+    "년 전"
+   ],
+   "clean": "card",
+   "japanese_box_1x": null,
+   "payload_before_sha256": "0960d4802221c4cf1915862f162411e10a2b2e8de859e1c369eba86569a1bbbd",
+   "payload_after_sha256": "5baef86e9c3683b74d68ab7e6277ca544510260355c8bf4b70d31955457392cd",
+   "changed_1x_pixels": 6464,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 61.01,
+   "seconds": 3.2
+  },
+  {
+   "name": "9yb.rct",
+   "archive": "data.arc",
+   "key": "6168aea9",
+   "base": "04yb2",
+   "source": "約9年前 → 약 9년 전",
+   "lines": [
+    "약",
+    "년 전"
+   ],
+   "clean": "card",
+   "japanese_box_1x": null,
+   "payload_before_sha256": "ee12ae8d8ae9d975c8f9e2704f511d26d337b2a5a4583d2e35267dd81729da5f",
+   "payload_after_sha256": "9b0d83b6d0cf746d6037ce0879d7404667c64d9a22fdb25b82f3f074e08a950a",
+   "changed_1x_pixels": 6059,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 61.02,
+   "seconds": 3.3
+  },
+  {
+   "name": "10yb2.rct",
+   "archive": "data.arc",
+   "key": "b383aa7f",
+   "base": "04yb2",
+   "source": "約10年前 → 약 10년 전",
+   "lines": [
+    "약",
+    "년 전"
+   ],
+   "clean": "card",
+   "japanese_box_1x": null,
+   "payload_before_sha256": "345e66af6134fddc78a835a61de54a4a478ca679e19d54f6239b3f7be9317b0a",
+   "payload_after_sha256": "ff48a25e0ca8e7d2a6356cfd24b514401aeda60af25acc35e223f21e425c9b19",
+   "changed_1x_pixels": 6702,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 60.9,
+   "seconds": 3.1
+  },
+  {
+   "name": "11yb2.rct",
+   "archive": "data.arc",
+   "key": "7f29aae1",
+   "base": "04yb2",
+   "source": "約11年前 → 약 11년 전",
+   "lines": [
+    "약",
+    "년 전"
+   ],
+   "clean": "card",
+   "japanese_box_1x": null,
+   "payload_before_sha256": "671fcd8dad62ee547bd8ef8f4442f0a6950dae36bda070f515f4070f34a71672",
+   "payload_after_sha256": "71453705424aa4500809df37dcf7223e0b2ca2b62346bbe8e6b546114f80efb4",
+   "changed_1x_pixels": 7218,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 60.89,
+   "seconds": 2.9
+  },
+  {
+   "name": "12yb.rct",
+   "archive": "data.arc",
+   "key": "d246a9a7",
+   "base": "04yb2",
+   "source": "約12年前 → 약 12년 전",
+   "lines": [
+    "약",
+    "년 전"
+   ],
+   "clean": "card",
+   "japanese_box_1x": null,
+   "payload_before_sha256": "1ce4c9b84af38dac6cc9fa159ff6d8da571542dc6c743fc36d965e2650cc7d5b",
+   "payload_after_sha256": "ad7f1b47d5783ced8778eac6a2ee76de37cbfdd757d3eef42daa90d13d466205",
+   "changed_1x_pixels": 7096,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 60.88,
+   "seconds": 3.0
+  },
+  {
+   "name": "22yb.rct",
+   "archive": "data.arc",
+   "key": "5cc9ae44",
+   "base": "04yb2",
+   "source": "約22年前 → 약 22년 전",
+   "lines": [
+    "약",
+    "년 전"
+   ],
+   "clean": "card",
+   "japanese_box_1x": null,
+   "payload_before_sha256": "e3262616fc3cbd0346b53f6f3313863c485037bf075244a8614d298a9261bb0c",
+   "payload_after_sha256": "5111448dfbd9c6d5ffbe82916570a0f49770547ac205e4fbae2b38fef7c002fa",
+   "changed_1x_pixels": 6926,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 60.82,
+   "seconds": 3.0
+  },
+  {
+   "name": "28yb.rct",
+   "archive": "data.arc",
+   "key": "f8b9f10a",
+   "base": "04yb2",
+   "source": "約28年前 → 약 28년 전",
+   "lines": [
+    "약",
+    "년 전"
+   ],
+   "clean": "card",
+   "japanese_box_1x": null,
+   "payload_before_sha256": "bf8d27dfbf7b3a8aeed419e0d8e8d440abff21e75467652ca5c6b183e2976da7",
+   "payload_after_sha256": "2a65d6ec2cfaa80ad9bb502857ddacd90ebb49571c10b39901aedd6e3d69062e",
+   "changed_1x_pixels": 6539,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 60.89,
+   "seconds": 3.1
+  },
+  {
+   "name": "29yb.rct",
+   "archive": "data.arc",
+   "key": "5ecefabe",
+   "base": "04yb2",
+   "source": "約29年前 → 약 29년 전",
+   "lines": [
+    "약",
+    "년 전"
+   ],
+   "clean": "card",
+   "japanese_box_1x": null,
+   "payload_before_sha256": "110e1fff468ebae224ec4807972cccc653e505b41069383b8ec8ac1e84ea9aa3",
+   "payload_after_sha256": "deb4b5fd4c66fa14fb3e7579f277ae1706e560953d414759d1f8311556e9fde2",
+   "changed_1x_pixels": 7035,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 60.83,
+   "seconds": 3.0
+  },
+  {
+   "name": "30yb.rct",
+   "archive": "data.arc",
+   "key": "07fcbff3",
+   "base": "04yb2",
+   "source": "約30年前 → 약 30년 전",
+   "lines": [
+    "약",
+    "년 전"
+   ],
+   "clean": "card",
+   "japanese_box_1x": null,
+   "payload_before_sha256": "e41a41844e89a25abc122813eac52e60b3c6049c13211135d0176c82b9a69a8c",
+   "payload_after_sha256": "5d2c17f29c2d11b67d08bd5efb60e1c8db796e9e333ce366954cd5af2355c23a",
+   "changed_1x_pixels": 6869,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 60.85,
+   "seconds": 3.0
+  },
+  {
+   "name": "40yb.rct",
+   "archive": "data.arc",
+   "key": "0d39b6ea",
+   "base": "04yb2",
+   "source": "約40年前 → 약 40년 전",
+   "lines": [
+    "약",
+    "년 전"
+   ],
+   "clean": "card",
+   "japanese_box_1x": null,
+   "payload_before_sha256": "47cc8e97e18659890ac37467e60d43a81ac8dd94158777504921644a75268277",
+   "payload_after_sha256": "a7db758c2c56345498ccc3e8554d449f9455976868ba94c809dd308078d77a8d",
+   "changed_1x_pixels": 6552,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 60.93,
+   "seconds": 3.0
+  },
+  {
+   "name": "09wb.rct",
+   "archive": "data.arc",
+   "key": "26e19cb3",
+   "base": "04yb2",
+   "source": "約9週間前 → 약 9주 전",
+   "lines": [
+    "약",
+    "주 전"
+   ],
+   "clean": "card",
+   "japanese_box_1x": null,
+   "payload_before_sha256": "5d2f7386f73f35a5fe73bc09b09db88f179445d41ed3ba5c5c9b35dcca1c0b53",
+   "payload_after_sha256": "74cc1f3b8a82419b866dbe32d2317c9b5b32f4ed96a9d7ed69f5042aac227a50",
+   "changed_1x_pixels": 9288,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 60.77,
+   "seconds": 3.0
+  },
+  {
+   "name": "11wb.rct",
+   "archive": "data.arc",
+   "key": "d9a4d24a",
+   "base": "04yb2",
+   "source": "約11週間前 → 약 11주 전",
+   "lines": [
+    "약",
+    "주 전"
+   ],
+   "clean": "card",
+   "japanese_box_1x": null,
+   "payload_before_sha256": "5e6bfc356f94acb407e70fb701831448275e484b71525a899b23575330ccae1d",
+   "payload_after_sha256": "74b9f3516075a5a11bbb69571a9e81b5cbc249d3593e1441bcfa86bab575bb15",
+   "changed_1x_pixels": 9783,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 60.75,
+   "seconds": 3.2
+  },
+  {
+   "name": "13wb2.rct",
+   "archive": "data.arc",
+   "key": "6d33d6c1",
+   "base": "04yb2",
+   "source": "約13週間前 → 약 13주 전",
+   "lines": [
+    "약",
+    "주 전"
+   ],
+   "clean": "card",
+   "japanese_box_1x": null,
+   "payload_before_sha256": "264cf254bbabb97484ce27c689bc30f1050d6b7de1de8080e8050cd4047c65b0",
+   "payload_after_sha256": "60490894eb6410c50e1e444ed82eb6078ee77d619a9b4826da0f36c8faf7efec",
+   "changed_1x_pixels": 9781,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 60.7,
+   "seconds": 2.9
+  },
+  {
+   "name": "01ma.rct",
+   "archive": "data.arc",
+   "key": "f0e389f9",
+   "base": null,
+   "source": "一ヶ月後 → 한 달 후",
+   "lines": [
+    "한 달 후"
+   ],
+   "clean": "card",
+   "japanese_box_1x": null,
+   "payload_before_sha256": "d1336ac9de7f3fafc363182b69a1ed53bbaaa4a057805323667ccc080925bbfe",
+   "payload_after_sha256": "16b7b0ad4f0c3484f097dc00a7d555e6032a6e5fbce1a246baa955145c7e6030",
+   "changed_1x_pixels": 2916,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 65.56,
+   "seconds": 2.0
+  },
+  {
+   "name": "netu404.rct",
+   "archive": "data.arc",
+   "key": "15c3bf13",
+   "base": null,
+   "source": "数時間前 → 몇 시간 전 (maho_09 「불과 몇 시간 전」)",
+   "lines": [
+    "몇 시간 전"
+   ],
+   "clean": "card",
+   "japanese_box_1x": null,
+   "payload_before_sha256": "d5f3f76469ea47aa3d7b8cdeafea0cd03392178dece6ca509cc3abc870f612da",
+   "payload_after_sha256": "c4ddb2d630316f8ea54f12b142c57a23ed108b6f6d56a64b179f1a3b94a5003d",
+   "changed_1x_pixels": 4191,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 65.41,
+   "seconds": 1.9
+  },
+  {
+   "name": "catch01.rct",
+   "archive": "data.arc",
+   "key": "41fd6671",
+   "base": null,
+   "source": "Codex redraw-4k-20261025: レコンキスタ → 레콘키스타 (brand-logo-ko-v3 master)",
+   "lines": [
+    "레콘키스타"
+   ],
+   "clean": "from_4x",
+   "payload_before_sha256": "39281715b4684b9541a4de4da48846156238b3297cc56f0092055398dd16338c",
+   "payload_after_sha256": "59bebd0fc4583a47de593a42f676078fd3c7ad2691fd32538f3a701de19e2630",
+   "changed_1x_pixels": 72237,
+   "jxl_distance": null,
+   "jxl_psnr": null,
+   "seconds": 2.6
+  },
+  {
+   "name": "catch02.rct",
+   "archive": "data.arc",
+   "key": "065d1ca1",
+   "base": null,
+   "source": "Codex redraw-4k-20261025: レコンキスタ → 레콘키스타 (brand-logo-ko-v3 master)",
+   "lines": [
+    "레콘키스타"
+   ],
+   "clean": "from_4x",
+   "payload_before_sha256": "4d01b5b181aac6c39b972e38c2ab1b39dc85744a86598aa8407624629cd1326a",
+   "payload_after_sha256": "93ec4b1878ee6eb102756fd81c2de426ab548cf826e4381ab9fd3f5f6e01c6d9",
+   "changed_1x_pixels": 70790,
+   "jxl_distance": null,
+   "jxl_psnr": null,
+   "seconds": 2.5
+  },
+  {
+   "name": "catch03.rct",
+   "archive": "data.arc",
+   "key": "3b3d3511",
+   "base": null,
+   "source": "Codex redraw-4k-20261025: レコンキスタ → 레콘키스타 (brand-logo-ko-v3 master)",
+   "lines": [
+    "레콘키스타"
+   ],
+   "clean": "from_4x",
+   "payload_before_sha256": "bbd13470eb0b3edadf055f8ff83699a17070dc498d835eb4c216c867b8dafee7",
+   "payload_after_sha256": "cbd7adf366cdd64cc65a80e65248d5dc3f64bb23bb6c1fe9433f0b257b5838eb",
+   "changed_1x_pixels": 64730,
+   "jxl_distance": null,
+   "jxl_psnr": null,
+   "seconds": 2.5
+  },
+  {
+   "name": "img107.rct",
+   "archive": "data.arc",
+   "key": "ae35ac32",
+   "base": null,
+   "source": "Codex redraw-4k-20261025: 臨海ニュータウン → 임해 뉴타운",
+   "lines": [
+    "임해 뉴타운"
+   ],
+   "clean": "from_4x",
+   "payload_before_sha256": "dc04f1e32f17ea2bc8c640c5894a0bf69af43d3f936e46dca88eb9edc7cc1b2e",
+   "payload_after_sha256": "cbd18f6f80d8d8863aebc8dd984c42e85f7a31e0656c78b12d8813c136b5dd07",
+   "changed_1x_pixels": 11554,
+   "jxl_distance": null,
+   "jxl_psnr": null,
+   "seconds": 2.4
+  },
+  {
+   "name": "ev113d.rct",
+   "archive": "data.arc",
+   "key": "f0f2ade4",
+   "base": null,
+   "source": "kureha_19::000889/000893 『아빠, 언제나 고마워. 앞으로도 계속 같이 있어 줘. 모미지』",
+   "lines": [
+    "아빠, 언제나",
+    "고마워.",
+    "앞으로도 계속",
+    "같이 있어 줘.",
+    "모미지"
+   ],
+   "clean": "master",
+   "thing": "card",
+   "payload_before_sha256": "b03b8eb3345c680d709eb87ade8cbe3c016aa2ba90a03fe5bedc61c13111c137",
+   "payload_after_sha256": "4f53fcf94d4ebacf5c7cb25f0e09f31849e77e84264bb0fa681907c3b8b8748b",
+   "changed_1x_pixels": 36825,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 53.59,
+   "seconds": 4.0
+  },
+  {
+   "name": "ev113d2.rct",
+   "archive": "data.arc",
+   "key": "1e51092c",
+   "base": null,
+   "source": "kureha_19::000889/000893 『아빠, 언제나 고마워. 앞으로도 계속 같이 있어 줘. 모미지』",
+   "lines": [
+    "아빠, 언제나",
+    "고마워.",
+    "앞으로도 계속",
+    "같이 있어 줘.",
+    "모미지"
+   ],
+   "clean": "carried",
+   "thing": "card",
+   "payload_before_sha256": "316d1e79366e7eefa486947bd1a99f2056ed21ea51f95fa46353689720f3b8b1",
+   "payload_after_sha256": "0aa3fdb5f9f05bd9bff029036aa4a19017e964646ee1e9991db2f041e0054530",
+   "changed_1x_pixels": 47651,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 53.79,
+   "seconds": 4.5
+  },
+  {
+   "name": "ev113d3.rct",
+   "archive": "data.arc",
+   "key": "2331209c",
+   "base": null,
+   "source": "kureha_19::000889/000893 『아빠, 언제나 고마워. 앞으로도 계속 같이 있어 줘. 모미지』",
+   "lines": [
+    "아빠, 언제나",
+    "고마워.",
+    "앞으로도 계속",
+    "같이 있어 줘.",
+    "모미지"
+   ],
+   "clean": "carried",
+   "thing": "card",
+   "payload_before_sha256": "914bfc9ad63c56cfbe30f67fb4e8e943b6ba31f40252e9fb81ee9c3710a1e0ea",
+   "payload_after_sha256": "bdd84d7e349de862bc134e3d404dbed906ef9fde64e2e9ff8ec9c7eaeed86d54",
+   "changed_1x_pixels": 126390,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 53.72,
+   "seconds": 7.8
+  },
+  {
+   "name": "ev113d4.rct",
+   "archive": "data.arc",
+   "key": "9111fc8c",
+   "base": null,
+   "source": "kureha_19::000889/000893 『아빠, 언제나 고마워. 앞으로도 계속 같이 있어 줘. 모미지』",
+   "lines": [
+    "아빠, 언제나",
+    "고마워.",
+    "앞으로도 계속",
+    "같이 있어 줘.",
+    "모미지"
+   ],
+   "clean": "carried",
+   "thing": "card",
+   "payload_before_sha256": "6a6a550a79fce13e14bebb8fe0ed0e9babbebd334c8e1e365e72a4d8e69528ee",
+   "payload_after_sha256": "1061bc5226794e017537c792f03b7757e149d92acf10d3b7cb0561aebf9e084d",
+   "changed_1x_pixels": 126388,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 53.33,
+   "seconds": 7.9
+  },
+  {
+   "name": "ev113d5.rct",
+   "archive": "data.arc",
+   "key": "ac71d53c",
+   "base": null,
+   "source": "kureha_19::000889/000893 『아빠, 언제나 고마워. 앞으로도 계속 같이 있어 줘. 모미지』",
+   "lines": [
+    "아빠, 언제나",
+    "고마워.",
+    "앞으로도 계속",
+    "같이 있어 줘.",
+    "모미지"
+   ],
+   "clean": "carried",
+   "thing": "card",
+   "payload_before_sha256": "c988c924677338076d123d1b94ba73a31f2a456f1fc1e45a92d4c82dafca2730",
+   "payload_after_sha256": "2f9b1192f4152b3e7452c4dafc924b2a1b5984d1714e9ae938d5ed5ad492e7aa",
+   "changed_1x_pixels": 113552,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 53.64,
+   "seconds": 6.8
+  },
+  {
+   "name": "ev113d6.rct",
+   "archive": "data.arc",
+   "key": "ebd1afec",
+   "base": null,
+   "source": "kureha_19::000889/000893 『아빠, 언제나 고마워. 앞으로도 계속 같이 있어 줘. 모미지』",
+   "lines": [
+    "아빠, 언제나",
+    "고마워.",
+    "앞으로도 계속",
+    "같이 있어 줘.",
+    "모미지"
+   ],
+   "clean": "carried",
+   "thing": "card",
+   "payload_before_sha256": "5cfdff38f9c38c0d8fba865493cc13fa65459f1bce358d42e7dbe6e08e18c91c",
+   "payload_after_sha256": "2353f1402a6455041afa2049b03a1f8cef564454d22a482329ee76d45156eba4",
+   "changed_1x_pixels": 86163,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 53.82,
+   "seconds": 5.2
+  },
+  {
+   "name": "ev113d7.rct",
+   "archive": "data.arc",
+   "key": "d6b1865c",
+   "base": null,
+   "source": "kureha_19::000889/000893 『아빠, 언제나 고마워. 앞으로도 계속 같이 있어 줘. 모미지』",
+   "lines": [
+    "아빠, 언제나",
+    "고마워.",
+    "앞으로도 계속",
+    "같이 있어 줘.",
+    "모미지"
+   ],
+   "clean": "carried",
+   "thing": "card",
+   "payload_before_sha256": "49706fc368759e97f6d503246b6d3896daeed860827dc5d724e7703d78842976",
+   "payload_after_sha256": "32737735395b494d91f4d2abc1e9ed3890dd2e05a516e9de1d63de35ac7a03bf",
+   "changed_1x_pixels": 113676,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.69,
+   "seconds": 5.9
+  },
+  {
+   "name": "ev113c.rct",
+   "archive": "data1.arc",
+   "key": "42d271f4",
+   "base": null,
+   "source": "kureha_19::000889/000893 『아빠, 언제나 고마워. 앞으로도 계속 같이 있어 줘. 모미지』",
+   "lines": [
+    "아빠, 언제나",
+    "고마워.",
+    "앞으로도 계속",
+    "같이 있어 줘.",
+    "모미지"
+   ],
+   "clean": "carried",
+   "thing": "card",
+   "payload_before_sha256": "66c95231c6465233168325a08dc6e2c8649bcb9bab9f7e97a99659824eff22c4",
+   "payload_after_sha256": "098ab0dddfc3a77f667588462520c7a34875b53cb9e414d2ae4335939db0c20e",
+   "changed_1x_pixels": 32791,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 53.0,
+   "seconds": 4.3
+  },
+  {
+   "name": "ev111c.rct",
+   "archive": "data.arc",
+   "key": "0f1ad0ff",
+   "base": null,
+   "source": "kureha_19::000889/000893 『아빠, 언제나 고마워. 앞으로도 계속 같이 있어 줘. 모미지』",
+   "lines": [
+    "아빠, 언제나",
+    "고마워.",
+    "앞으로도 계속",
+    "같이 있어 줘.",
+    "모미지"
+   ],
+   "clean": "master",
+   "thing": "card_pink",
+   "payload_before_sha256": "72b52955c63e986fab16ebe6dadac39ac653f1974c22d74f2f4a4642a7bcaab0",
+   "payload_after_sha256": "4ab2789773327195d1137c5437a9821e12775525241343080c6b3f5ca0000545",
+   "changed_1x_pixels": 20613,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 56.04,
+   "seconds": 3.4
+  },
+  {
+   "name": "ev111d.rct",
+   "archive": "data.arc",
+   "key": "bd3a0cef",
+   "base": "ev111c",
+   "source": "kureha_19::000889/000893 『아빠, 언제나 고마워. 앞으로도 계속 같이 있어 줘. 모미지』",
+   "lines": [
+    "아빠, 언제나",
+    "고마워.",
+    "앞으로도 계속",
+    "같이 있어 줘.",
+    "모미지"
+   ],
+   "clean": "carried",
+   "thing": "card_pink",
+   "payload_before_sha256": "c4f8d93ed5f8a5b6344696854a0251a37304ddf16705520d262d1e1c540c7f8b",
+   "payload_after_sha256": "c51830c1b917a2cbd3bcbc60aa6ba562a7ddde3c23e49646e49a3a66ff9882d2",
+   "changed_1x_pixels": 27795,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.5,
+   "seconds": 3.7
+  },
+  {
+   "name": "bg_232a2.rct",
+   "archive": "data.arc",
+   "key": "ac5cbc5c",
+   "base": null,
+   "source": "kureha_10::000390 『고장 중』",
+   "lines": [
+    "고장중"
+   ],
+   "clean": "master",
+   "thing": "kosho_close",
+   "payload_before_sha256": "6cd4bf629386bf8cc23ba096ab8ddd6f3f38687fa03d52ab7cf6fca0192e33e1",
+   "payload_after_sha256": "3b7a3399bea25dd0ef3d4ce17d9b2fdccba61c98d0d5beca4dca4781721b5b1b",
+   "changed_1x_pixels": 7007,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.8,
+   "seconds": 3.4
+  },
+  {
+   "name": "bg_235a2.rct",
+   "archive": "data.arc",
+   "key": "69fb82d2",
+   "base": null,
+   "source": "kureha_10::000390 『고장 중』",
+   "lines": [
+    "고장중"
+   ],
+   "clean": "master",
+   "thing": "kosho_close",
+   "payload_before_sha256": "84853fc0a8e8b2cf0c37f903f58b498e9de7540d3c3f470e78b9ed6e6569fd0f",
+   "payload_after_sha256": "e8c2e085e7581b881c20bbbe55ed6cfa5672eeae806173cc093bceb1430d9087",
+   "changed_1x_pixels": 7007,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.46,
+   "seconds": 3.4
+  },
+  {
+   "name": "netu116a.rct",
+   "archive": "data.arc",
+   "key": "e1814e41",
+   "base": null,
+   "source": "kureha_10::000390 『고장 중』",
+   "lines": [
+    "고장중"
+   ],
+   "clean": "master",
+   "thing": "kosho_lift",
+   "payload_before_sha256": "d1233124d9fca9625c082e798d4e78c5ca3292cbda13c33d395d42f8b84b85f8",
+   "payload_after_sha256": "f4290ecd937790d4c53d235be3cfae523258e4b1c5c73157d7f7a77cda779652",
+   "changed_1x_pixels": 3850,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.43,
+   "seconds": 3.5
+  },
+  {
+   "name": "netu116b.rct",
+   "archive": "data.arc",
+   "key": "a6213491",
+   "base": null,
+   "source": "kureha_10::000390 『고장 중』",
+   "lines": [
+    "고장중"
+   ],
+   "clean": "master",
+   "thing": "kosho_lift",
+   "payload_before_sha256": "302f50c56d7c4109949e70ee1c57c5b4792e4642e563aea249e0332851682c4a",
+   "payload_after_sha256": "e419d4b6e378338db73ca25c856d682204f4123ffeae868f49d355a0bd417c03",
+   "changed_1x_pixels": 3770,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.35,
+   "seconds": 4.0
+  },
+  {
+   "name": "netu116c.rct",
+   "archive": "data.arc",
+   "key": "9b411d21",
+   "base": null,
+   "source": "kureha_10::000390 『고장 중』",
+   "lines": [
+    "고장중"
+   ],
+   "clean": "master",
+   "thing": "kosho_lift_far",
+   "payload_before_sha256": "a11f75568791743d3586b339b9bc596a5dcdd499cde82c86862af6f66e59bb5b",
+   "payload_after_sha256": "a54f54d4d655179f66cfa66fe81a145cb2ad658bd4149f5247234a35178517a3",
+   "changed_1x_pixels": 1969,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.2,
+   "seconds": 3.5
+  },
+  {
+   "name": "bg_232a.rct",
+   "archive": "data.arc",
+   "key": "404cf55d",
+   "base": null,
+   "source": "kureha_10::000390 『고장 중』",
+   "lines": [
+    "고장중"
+   ],
+   "clean": "master",
+   "thing": "kosho_hall",
+   "payload_before_sha256": "130b6958043e3d59ac6fd20fca72b300f67fb4ad9d08a022bd4eda5d595e697e",
+   "payload_after_sha256": "d1841b7a0d9c8efafbeab6ff23f1fcc16a2f3ae28f79fc05c9545e6cc8eb7e67",
+   "changed_1x_pixels": 487,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.74,
+   "seconds": 3.5
+  },
+  {
+   "name": "bg_232b.rct",
+   "archive": "data.arc",
+   "key": "07ec8f8d",
+   "base": null,
+   "source": "kureha_10::000390 『고장 중』",
+   "lines": [
+    "고장중"
+   ],
+   "clean": "master",
+   "thing": "kosho_hall",
+   "payload_before_sha256": "ae70736c8ef5588b152e0b38cad93448daf30f6f758d9dc4ab3d0fb74951f91a",
+   "payload_after_sha256": "69b178c60f12a7bde88ffb376d31ee1967bcf1f43dc72dc8375e4c0bc0df1e22",
+   "changed_1x_pixels": 488,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.76,
+   "seconds": 3.6
+  },
+  {
+   "name": "bg_232c.rct",
+   "archive": "data.arc",
+   "key": "3a8ca63d",
+   "base": null,
+   "source": "kureha_10::000390 『고장 중』",
+   "lines": [
+    "고장중"
+   ],
+   "clean": "master",
+   "thing": "kosho_hall",
+   "payload_before_sha256": "07a9da61e042c1728cdc979db85b480f60d0759fffcb6cdc7751702ec679c328",
+   "payload_after_sha256": "2c0a7dc9103932d46f80e51eb74f5c3cc5aec35ca49e66c646f8197ae92aeec8",
+   "changed_1x_pixels": 527,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.87,
+   "seconds": 3.5
+  },
+  {
+   "name": "bg_233a.rct",
+   "archive": "data.arc",
+   "key": "8b1026f8",
+   "base": null,
+   "source": "kureha_10::000390 『고장 중』",
+   "lines": [
+    "고장중"
+   ],
+   "clean": "master",
+   "thing": "kosho_hall",
+   "payload_before_sha256": "3056605d9a567f1ec7767208f9dc1ab85f448b6aff9e0fdc632acf6e8a232c9a",
+   "payload_after_sha256": "058166cd07eb1d49daf9a2a4a2358963e9f8e235983b291ee6cf1a23abd3394c",
+   "changed_1x_pixels": 487,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.79,
+   "seconds": 3.7
+  },
+  {
+   "name": "bg_233b.rct",
+   "archive": "data.arc",
+   "key": "ccb05c28",
+   "base": null,
+   "source": "kureha_10::000390 『고장 중』",
+   "lines": [
+    "고장중"
+   ],
+   "clean": "master",
+   "thing": "kosho_hall",
+   "payload_before_sha256": "6f41f41d74f44fcef1677eee353a5ffc012a408907127432065558c37ff5ad3c",
+   "payload_after_sha256": "22a7937efddb49b85ec90d2a5e8bc8adb1cd5708c1483d2d7c98bbff0c79b675",
+   "changed_1x_pixels": 488,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.77,
+   "seconds": 3.7
+  },
+  {
+   "name": "bg_233c.rct",
+   "archive": "data.arc",
+   "key": "f1d07598",
+   "base": null,
+   "source": "kureha_10::000390 『고장 중』",
+   "lines": [
+    "고장중"
+   ],
+   "clean": "master",
+   "thing": "kosho_hall",
+   "payload_before_sha256": "704a2217d5f1298de0df46c57f5bc6c25bd57be8f6c808fd44de2f76837cda8b",
+   "payload_after_sha256": "25af66d6bdc335dfe833c07dd29ce3e69969b026ffce1e6170a8d369d159aa80",
+   "changed_1x_pixels": 487,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.88,
+   "seconds": 3.5
+  },
+  {
+   "name": "bg_235a.rct",
+   "archive": "data.arc",
+   "key": "5d49c5e5",
+   "base": null,
+   "source": "kureha_10::000390 『고장 중』",
+   "lines": [
+    "고장중"
+   ],
+   "clean": "master",
+   "thing": "kosho_hall",
+   "payload_before_sha256": "0f7d1f7acc5ce639537ca301fba913de9aab487fe6b77e27f30ca327c2da8702",
+   "payload_after_sha256": "36c7ce9fe353123d07cfcd9f7b8c4497455be10bda9d935542e30be275cb54df",
+   "changed_1x_pixels": 487,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.75,
+   "seconds": 3.5
+  },
+  {
+   "name": "bg_235b.rct",
+   "archive": "data.arc",
+   "key": "1ae9bf35",
+   "base": null,
+   "source": "kureha_10::000390 『고장 중』",
+   "lines": [
+    "고장중"
+   ],
+   "clean": "master",
+   "thing": "kosho_hall",
+   "payload_before_sha256": "649c6b314433a085d56a52b38e3d45595a9de17f3ad25258943285ced977e603",
+   "payload_after_sha256": "488d8912e66c293a29b61385c0040782582e43f369673a21abf839c435a7e211",
+   "changed_1x_pixels": 488,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.75,
+   "seconds": 3.8
+  },
+  {
+   "name": "bg_235c.rct",
+   "archive": "data.arc",
+   "key": "27899685",
+   "base": null,
+   "source": "kureha_10::000390 『고장 중』",
+   "lines": [
+    "고장중"
+   ],
+   "clean": "master",
+   "thing": "kosho_hall",
+   "payload_before_sha256": "57ab6b94abaf0215938e7e52ddf219a57c8eb0fe925f3acdcaca522dcdf9d84a",
+   "payload_after_sha256": "d6c31f7c012002215c6265cf749e8ce9d883457a73fccca6ccff3fbcbdf1156f",
+   "changed_1x_pixels": 527,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.85,
+   "seconds": 3.7
+  },
+  {
+   "name": "netu01b.rct",
+   "archive": "data.arc",
+   "key": "9d8372ce",
+   "base": null,
+   "source": "まほこ = 마호코 (00_レコンキスタ_start_2::004592 「마호코~」)",
+   "lines": [
+    "마호코"
+   ],
+   "clean": "master",
+   "thing": "nametag_close",
+   "payload_before_sha256": "bab7fa48154d0967f4eda04cf0f68edf30a98e0166364056fd1c042e03f22c42",
+   "payload_after_sha256": "e1d400e6a45c60dfd58a01ab291cd2cf313d1e2301353405768c85dba26facc9",
+   "changed_1x_pixels": 12807,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.37,
+   "seconds": 10.9
+  },
+  {
+   "name": "netu01.rct",
+   "archive": "data.arc",
+   "key": "3a018751",
+   "base": null,
+   "source": "まほこ = 마호코 (00_レコンキスタ_start_2::004592 「마호코~」)",
+   "lines": [
+    "마호코"
+   ],
+   "clean": "master",
+   "thing": "nametag",
+   "payload_before_sha256": "0bbc67a8a252a0883dcc15d7c22bca1ad2154465de52d39a1d1d5fd9984cab80",
+   "payload_after_sha256": "523990314b3a7bc21e1e7d518b90354bc81d37cffc62cbce9ff6cc607df80603",
+   "changed_1x_pixels": 4253,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.69,
+   "seconds": 8.2
+  },
+  {
+   "name": "netu126_03.rct",
+   "archive": "data.arc",
+   "key": "d00a6066",
+   "base": null,
+   "source": "自転車歩行者専用道路 → 자전거·보행자 / 전용 도로 (the same sign Codex redrew in bg_260*, priority2-translation-map)",
+   "lines": [
+    "자전거·보행자",
+    "전용 도로"
+   ],
+   "clean": "master",
+   "thing": "bridge_sign",
+   "payload_before_sha256": "70c1bdcf791631ea1755ee90844ec853e8c9d02bba1835a115f1ac59c0ca3568",
+   "payload_after_sha256": "966c9299134f8e6e1bbc33f55341df7b2252c3ed36ff66639b73486bf2634fc1",
+   "changed_1x_pixels": 5915,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.64,
+   "seconds": 3.7
+  },
+  {
+   "name": "yana01.rct",
+   "archive": "data1.arc",
+   "key": "dc75d9f2",
+   "base": null,
+   "source": "どたま。 (the artist yana's avatar) = 도타마.",
+   "lines": [
+    "도타마."
+   ],
+   "clean": "master",
+   "thing": "dotama",
+   "payload_before_sha256": "e8196268bbc2d0b940d6c3f6263a27318d8ed30dd9d4eca3361f98bc7bd39572",
+   "payload_after_sha256": "24927d689db31d7e4d49f12c32aa98de191de7b5cf2fbc4e6315153a09d93345",
+   "changed_1x_pixels": 5401,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 63.58,
+   "seconds": 2.8
+  },
+  {
+   "name": "yana02.rct",
+   "archive": "data1.arc",
+   "key": "9bd5a322",
+   "base": null,
+   "source": "※陽気なBGMとうらはらに、殺風景な背景で / マスター前の哀愁を演出。",
+   "lines": [
+    "※경쾌한 BGM과는 딴판으로, 썰렁한 배경에서",
+    "마스터업 전의 애수를 연출."
+   ],
+   "clean": "master",
+   "thing": "yana02_note",
+   "payload_before_sha256": "4c5789437dd492f65e8720f6a335077f142dd2724ffef0447eccd30043d15bc4",
+   "payload_after_sha256": "5032751f1a0bd6ff121eb9322eb21d566004d8579c18ffd8f733b412e8509834",
+   "changed_1x_pixels": 35242,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 60.08,
+   "seconds": 2.9
+  },
+  {
+   "name": "yana03.rct",
+   "archive": "data1.arc",
+   "key": "a6b58a92",
+   "base": null,
+   "source": "※そして常に前傾姿勢でお届け致します。",
+   "lines": [
+    "※그리고 늘 앞으로 숙인 자세로 전해 드립니다."
+   ],
+   "clean": "master",
+   "thing": "yana03_note",
+   "payload_before_sha256": "551b3369305bcaa9d288d2db8f768914c43e19b6ef35aa0434d6a22386e9227c",
+   "payload_after_sha256": "6d1c51918249b34eb4bad0f98eec6aa2a6906d925c5390c9f5f4221391c8ab2a",
+   "changed_1x_pixels": 21903,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 61.54,
+   "seconds": 2.7
+  },
+  {
+   "name": "yana05.rct",
+   "archive": "data1.arc",
+   "key": "29f57f32",
+   "base": null,
+   "source": "……そんな事を語りながらも、 / いい加減さみしくなってきたので",
+   "lines": [
+    "……그런 얘기를 늘어놓으면서도,",
+    "슬슬 쓸쓸해져서"
+   ],
+   "clean": "master",
+   "thing": "yana05_note",
+   "payload_before_sha256": "13536ae24ff27b14759c4f08d1e76ad90bf38bd16007e1de1bd123c19cd0b1bc",
+   "payload_after_sha256": "0176e29c13df59e8daf14218904c0a61ba0be3f18d65b49efaf8cc683a9ca6da",
+   "changed_1x_pixels": 22705,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 61.23,
+   "seconds": 4.1
+  },
+  {
+   "name": "yana06.rct",
+   "archive": "data1.arc",
+   "key": "6e5505e2",
+   "base": null,
+   "source": "詩菜さんを / かいてみた。",
+   "lines": [
+    "시이나 씨를",
+    "그려 봤다."
+   ],
+   "clean": "master",
+   "thing": "yana06_note",
+   "payload_before_sha256": "d2b01471fdb102534e2d3db2d03530a611b321b71755565e2b31889102d70405",
+   "payload_after_sha256": "b18fe91461b8bc0c586bafb20d6d4250e7859b183cd2e8f46b093cdac346c3df",
+   "changed_1x_pixels": 10183,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 61.51,
+   "seconds": 2.7
+  },
+  {
+   "name": "yana07.rct",
+   "archive": "data1.arc",
+   "key": "53352c52",
+   "base": null,
+   "source": "そして / ムダに / 複製。",
+   "lines": [
+    "그리고",
+    "쓸데없이",
+    "복제."
+   ],
+   "clean": "master",
+   "thing": "yana07_note",
+   "payload_before_sha256": "5632c795ea2d5eb3db899871c1475fdda03aa1fe42b2c0c3e24a2bb9a69ec1ce",
+   "payload_after_sha256": "91a8712d053659c60d26b1cc02461b8d6a3fc7a4d86593af5d9784cd3cbf7ab3",
+   "changed_1x_pixels": 11206,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 57.4,
+   "seconds": 4.4
+  },
+  {
+   "name": "yana11.rct",
+   "archive": "data1.arc",
+   "key": "17290a57",
+   "base": null,
+   "source": "どたま。 (the artist yana's avatar) = 도타마.",
+   "lines": [
+    "도타마."
+   ],
+   "clean": "master",
+   "thing": "dotama",
+   "payload_before_sha256": "3086ac4453feb5070ed94ef07948e69933bedcde2e904eac16eb93fa218d2cc8",
+   "payload_after_sha256": "133bdcc731c1371d75af9d9700235e75faa6151eabf4f1d113a429164359dacc",
+   "changed_1x_pixels": 5401,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 62.43,
+   "seconds": 2.8
+  },
+  {
+   "name": "yana04.rct",
+   "archive": "data1.arc",
+   "key": "14955682",
+   "base": null,
+   "source": "※おもむろに乙女ポーズで / ギリセーフなあがきを演出。",
+   "lines": [
+    "※천천히 소녀 포즈를 잡고",
+    "아슬아슬 세이프한 발버둥을 연출."
+   ],
+   "clean": "master",
+   "thing": "yana04_note",
+   "payload_before_sha256": "fe42a080fa84672f96c592ada50ca551c2a196112fb59078105cbe8a2f6d87ef",
+   "payload_after_sha256": "f7f0feee8a56790f1427c49f4d0c28bc9ebbbfe6b1199c17c34eec4a081152c6",
+   "changed_1x_pixels": 20623,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 61.06,
+   "seconds": 2.9
+  },
+  {
+   "name": "yana08.rct",
+   "archive": "data1.arc",
+   "key": "d165bb83",
+   "base": null,
+   "source": "もみたん (Momiji, written on the drawing) = 모미땅",
+   "lines": [
+    "모미땅"
+   ],
+   "clean": "master",
+   "thing": "momitan",
+   "payload_before_sha256": "0b7081db1da4a5ba8e0c683157ce0cc7aa0b93159b489d1418c84ef32388144b",
+   "payload_after_sha256": "fc825e6921abdef2ea8d46ba391b82b6d9c39080e9f2e724b33a4474acbdea21",
+   "changed_1x_pixels": 2777,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 58.7,
+   "seconds": 3.1
+  },
+  {
+   "name": "yana10.rct",
+   "archive": "data1.arc",
+   "key": "2a4923e7",
+   "base": "yana08",
+   "source": "ごめん。 / 例のごとくやっちゃったよ…。 / 消しまくりだよ…。",
+   "lines": [
+    "미안.",
+    "늘 그렇듯 저질러 버렸어….",
+    "잔뜩 지웠어…."
+   ],
+   "clean": "master",
+   "thing": "yana10_note",
+   "payload_before_sha256": "407fbb6e4ad35902fd1be90acaa9946c7d6565ccbac0b5d83985eef93a4f7346",
+   "payload_after_sha256": "20174277886e2a76a7367dda32f183ac9c13395c8449c3e569e015ff252d4803",
+   "changed_1x_pixels": 14448,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 57.83,
+   "seconds": 4.9
+  },
+  {
+   "name": "sr_haru.rct",
+   "archive": "data1.arc",
+   "key": "04278844",
+   "base": null,
+   "source": "sr_haru: こんにちは。CGのハルちんと申します。…それでは、この辺で失礼します…。",
+   "lines": [
+    "안녕하세요.",
+    "CG 담당 하루찡이라고 합니다.",
+    "이번에",
+    "레콘키스타를 구입해 주셔서",
+    "정말 감사합니다.",
+    "전작에 이어 이번 작품에서도",
+    "(…중략…)",
+    "그런 이유로,",
+    "고양이 발바닥은 위대하구나 하고",
+    "새삼 느꼈답니다.",
+    "그럼 이만 실례하겠습니다…."
+   ],
+   "clean": "master",
+   "thing": "haru",
+   "payload_before_sha256": "21e3da38a536437fa476fe53f59df5fc0fbbac531cef63786e39f63cee6198e4",
+   "payload_after_sha256": "5700c32e8d4b03bed234edb05a6ed240e7c863aca60d73e9542c83d98a450c9c",
+   "changed_1x_pixels": 54022,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 52.69,
+   "seconds": 3.8
+  },
+  {
+   "name": "sr_seiyan.rct",
+   "archive": "data1.arc",
+   "key": "7d2948f8",
+   "base": null,
+   "source": "せいやん・YURIAの美少女ゲームは嫌い♥ → 세이얀·YURIA의 미소녀 게임은 싫어♥",
+   "lines": [
+    "세이얀·YURIA의 미소녀 게임은 싫어"
+   ],
+   "clean": "master",
+   "thing": "seiyan",
+   "payload_before_sha256": "4a9743a2ecdff7d3a5e05cb3cd90065767f0bb244c3de759758f88138e0871be",
+   "payload_after_sha256": "ec582acb5dbdb33a348e808564850c48bed7c4e3632cddc4c77f7901aa9d7fae",
+   "changed_1x_pixels": 17408,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.72,
+   "seconds": 10.1
+  },
+  {
+   "name": "tomo_02.rct",
+   "archive": "data1.arc",
+   "key": "a55187e3",
+   "base": null,
+   "source": "使用前 → 使用後 = 사용 전 → 사용 후",
+   "lines": [
+    "사용 전",
+    "사용 후"
+   ],
+   "clean": "master",
+   "thing": "tomo02",
+   "payload_before_sha256": "9476085b0a6e5c17ffa0079a1db0c84544db165d0f03a9858f801243414c92d4",
+   "payload_after_sha256": "a6766b29f69449dc2aebc0a99f3c97e896a718a340365a9f51e0ef44e078af21",
+   "changed_1x_pixels": 13388,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 52.88,
+   "seconds": 15.1
+  },
+  {
+   "name": "tomo_03.rct",
+   "archive": "data1.arc",
+   "key": "9831ae53",
+   "base": null,
+   "source": "小タイトル / こんな感じとか? = 소제목 / 이런 느낌이라든가?",
+   "lines": [
+    "소제목",
+    "이런 느낌이라든가?"
+   ],
+   "clean": "master",
+   "thing": "tomo03",
+   "payload_before_sha256": "0d2fe6b9ade69d4e05b6c2752530e4a4fc2541195ae9b095580206b1735ec5f8",
+   "payload_after_sha256": "8832e731d83f33c1da3f5566d6d0cefaf417570385e2f30c2923356b24a9a283",
+   "changed_1x_pixels": 12661,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 53.22,
+   "seconds": 4.5
+  },
+  {
+   "name": "kyalme_kureha.rct",
+   "archive": "data1.arc",
+   "key": "a805b1b1",
+   "base": null,
+   "source": "狩っちゃうのです!? = 사냥할 거예요!?",
+   "lines": [
+    "사냥할",
+    "거예요!?"
+   ],
+   "clean": "master",
+   "thing": "kyalme",
+   "payload_before_sha256": "b30f43d9d89939baa4e1f3c0df667d095af7adbd77d1df8a539c39724bdd2775",
+   "payload_after_sha256": "ae584a4385ef12d5e5830cf93f45acad5c71f26dadcedfb50a7cd94dbda9918f",
+   "changed_1x_pixels": 51090,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 52.01,
+   "seconds": 21.7
+  },
+  {
+   "name": "kiostaff01.rct",
+   "archive": "data1.arc",
+   "key": "7a7dc531",
+   "base": null,
+   "source": "取リ戻セ。 = 되찾아라. ; レコンキスタ logo → brand-logo-ko-v3 master (as the title cards)",
+   "lines": [
+    "되찾아라.",
+    "(logo)"
+   ],
+   "clean": "master",
+   "thing": "poster",
+   "payload_before_sha256": "9abc93a5f06684ecc64109a83d8c100d0db0cbb2742f7c7cc9404c5597687bb5",
+   "payload_after_sha256": "b2f62ebc78f7210e2aa16312ff2ef49dfc83e53b220a886821397b8cb7a11af5",
+   "changed_1x_pixels": 20427,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.18,
+   "seconds": 4.3
+  },
+  {
+   "name": "zuzuzu.rct",
+   "archive": "data1.arc",
+   "key": "aebe2103",
+   "base": null,
+   "source": "ズズズズ (slurping noodles) = 후루룩",
+   "lines": [
+    "후루룩",
+    "후루룩"
+   ],
+   "clean": "master",
+   "thing": "zuzuzu",
+   "payload_before_sha256": "1b5710db56316cb02720b1a2dc957f7dad3a0c156a621d660a81a051134b2907",
+   "payload_after_sha256": "f2785878f4d44f16b8a9e7a31d9a02bf07820e52635ce2872e4aaf6e425f27ca",
+   "changed_1x_pixels": 43536,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 54.51,
+   "seconds": 16.8
+  },
+  {
+   "name": "sr_miyoruno_dame02.rct",
+   "archive": "data1.arc",
+   "key": "bb55c57e",
+   "base": null,
+   "source": "ウピョー (a scribbled cry) = 우뾰~",
+   "lines": [
+    "우뾰~"
+   ],
+   "clean": "master",
+   "thing": "upyo",
+   "payload_before_sha256": "af5b276bce52177fb0b47b37e6f70c5763249f22c5786fa9a8fb818270460f26",
+   "payload_after_sha256": "5a2ca5d668d766072e98b075f95e99352ee10dca274b5380eeafc093ca6ddce8",
+   "changed_1x_pixels": 7479,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 55.2,
+   "seconds": 17.7
+  },
+  {
+   "name": "yana09.rct",
+   "archive": "data1.arc",
+   "key": "ec059233",
+   "base": "yana08",
+   "source": "over a rebuilt base",
+   "clean": "dependent",
+   "base_rebuilt": "yana08",
+   "payload_before_sha256": "6e7625eb1ecda1aa7c2fe9a0c899fa2c2a7f1fd6a5caa52d5992f7e2b5188a5f",
+   "payload_after_sha256": "90890f2f194ebcf4e4231d2717ae1827d9ee56bd3f4a91f9b542dcd3ab5f575a",
+   "changed_1x_pixels": 2777,
+   "jxl_distance": 0.5,
+   "jxl_psnr": 58.52,
+   "seconds": 1.3
+  }
+ ]
+}
